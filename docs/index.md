@@ -7,7 +7,7 @@
     <dt>IRI IReMus</dt>
     <dd>
     Une IRI IReMus est associé à chaque objet existant dans le Triplestore, et prend la forme : `http://data-iremus.huma-num.fr/id/<UUID>` (exemple : `http://data-iremus.huma-num.fr/id/ba2968d7-1a4a-4aea-8ca5-19f1648121f7`). Le prefix est donc : `http://data-iremus.huma-num.fr/id/`.
-    <dd>
+    </dd>
 </dl>
 
 # Scénarios d'usage
