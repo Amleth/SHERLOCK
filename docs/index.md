@@ -37,7 +37,7 @@ Sur le plan technique, une annotation est un ensemble de triplets RDF associés 
     --todo-color-f: aquamarine;
 }
 html {
-    font-family: Jost;
+    font-family: Jost !important;
 }
 .todo {
     background-color: var(--todo-color-b);
