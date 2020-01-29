@@ -1,0 +1,101 @@
+# TODO alignement http://www.w3.org/TR/annotation-model/
+# TODO alignement http://www.w3.org/TR/annotation-vocab/
+
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.cidoc-crm.org/crmdig/> .
+@prefix crminf: <http://www.cidoc-crm.org/crminf/> .
+@prefix crmsci: <http://www.cidoc-crm.org/crmsci/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix iremus: <http://data-iremus.huma-num.fr/ontology> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+################################################################################
+#
+# LA PARTITION MEI & SES SOUS-ÉLÉMENTS
+#
+################################################################################
+
+# un fichier MEI
+<1269f40f-a960-4c94-aa8d-bff42414ad89>
+  a crmdig:D1_Digital_Object ;
+  dcterms:format "application/vnd.mei+xml" ;
+  iremus:file <http://data-iremus.huma-num.fr/files/tralala.mei> ;
+  # dcterms:hasPart (dcterms:isPartOf)
+  .
+
+# une cible d'annotation
+
+# un xml:id
+
+# un autre xml:id
+
+################################################################################
+#
+# L'ALGORITHME POLYMIR
+#
+################################################################################
+
+# l'algorithme PolyMIR
+<a3e99813-d460-4c04-a56c-dc9c11323e92>
+  a crmdig:D14_Software ;
+  .
+
+# une éxécution de l'algorithme PolyMIR
+<eb7c7e2b-8c9b-439a-a786-e561af3ae868>
+  a crmdig:D10_Software_Execution ;
+  crmdig:L10_had_input <1269f40f-a960-4c94-aa8d-bff42414ad89> ;
+  crmdig:L10_had_input <7fbdd0aa-0c17-451c-884b-f79efdfd8381> ;
+  crmdig:L11_had_output <de48731c-b714-464e-a7ae-bb93ce9bfba7> ;
+  crmdig:L23_used_software <a3e99813-d460-4c04-a56c-dc9c11323e92> ;
+  crmdig:L13_used_parameters <d0992488-ccaa-4af3-bb91-ee388772584a> ;
+  # crmdig:L23_created_logfile <a D1> ;
+  .
+
+# un paramétrage de l'algorithme PolyMIR
+<d0992488-ccaa-4af3-bb91-ee388772584a>
+  a crmdig:D1_Digital_Object ;
+  .
+
+# un fichier de log résultant d'une éxécution de l'algorithme PolyMIR
+<4531dfca-0490-4433-9854-684030d53bcf>
+  a crmdig:D1_Digital_Object ;
+  .
+
+# un jeu de données produit par une éxécution de l'algorithme PolyMIR
+<de48731c-b714-464e-a7ae-bb93ce9bfba7>
+  a crmdig:D1_Digital_Object ;
+  .
+
+# un jeu de données produit par un ou une analyste
+<7fbdd0aa-0c17-451c-884b-f79efdfd8381>
+  a crmdig:D1_Digital_Object ;
+  .
+
+################################################################################
+#
+# LES ANNOTATIONS
+#
+################################################################################
+
+# l'événement de l'annotation A1
+<a2fb2fda-df4c-490a-aee3-78c00c71e2e4>
+  a crmdig:D30_Annotation_Event ;
+  crmdig:L48_created_annotation <8b8e7c09-c511-4d5e-89fa-afbd54ae89ac> ;
+  .
+
+# l'annotation A1
+<8b8e7c09-c511-4d5e-89fa-afbd54ae89ac>
+  a crmdig:D29_Annotation_Object ;
+  .
+
+# le corps de l'annotation A1
+<651190ea-544c-4d54-a48c-45e4add934fa>
+  a crm:E1_Entity ;
+  .

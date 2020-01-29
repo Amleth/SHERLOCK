@@ -12,8 +12,14 @@ Une IRI IReMus est associé à chaque objet existant dans le Triplestore, et pre
 
 > Cible (d'une annotation)
 
-Une cible est identifiée par une IRI IReMus, et est associée à un document MEI ainsi qu'à un nombre arbitraire d'`xml:id`
+Une cible est identifiée par une IRI IReMus, et est associée à un document MEI ainsi qu'à un nombre arbitraire d'`xml:id`.
 
+```
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+```
 🤔 *Quelle ontologie pour exprimer en RDF les faits suivants : 1) Une ressource est une partition MEI. 2) Une partition MEI contient un certain nombre d'`xml:id`, et réciproquement, qu'un `xml:id` appartient à une partition MEI.*
 
 > Annotation
