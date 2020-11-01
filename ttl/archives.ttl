@@ -1,7 +1,8 @@
 @base <http://data-iremus.huma-num.fr/id/> .
-@PREFIX crm: <​http://www.cidoc-crm.org/cidoc-crm/​> .
-@PREFIX crmdig: <​http://www.cidoc-crm.org/crmdig/​> .
-@PREFIX crminf: <​http://www.cidoc-crm.org/crminf/​> .
+@prefix crm: <​http://www.cidoc-crm.org/cidoc-crm/​> .
+@prefix crmdig: <​http://www.cidoc-crm.org/crmdig/​> .
+@prefix crminf: <​http://www.cidoc-crm.org/crminf/​> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 ################################################################################
 # L'ÉQUIPE SCIENTIFIQUE
@@ -14,13 +15,12 @@
     crm:P1_is_identified_by [
         a crmdig:D21_Person_Name ;
         crmdig:L51_has_first_name "Marie" ;
-        crmdig:L52_has_last_name "Thégarid" ;
-        .
+        crmdig:L52_has_last_name "Thégarid"
     ] ;
     # Nom & prénom : alternative 2
     crm:P1_is_identified_by [
         a crm:E41_Appellation ;
-        crm:P2_has_type <http://vocab.getty.edu/aat/300404670>
+        crm:P2_has_type <http://vocab.getty.edu/aat/300404670> ;
         crm:P106_is_composed_of
             [
                 a crm:E41_Appellation ;
@@ -32,7 +32,7 @@
                 rdfs:label "Thégarid" ;
                 crm:P2_has_type <http://vocab.getty.edu/aat/300404652>
             ]
-        ],
+        ] ;
     .
 
 ################################################################################
@@ -44,8 +44,7 @@
     a crm:E18_Physical_Thing ;
     crm:P128_has_preferred_identifier [
         a crm:E42_Identifier ;
-        rdfs:label "AJ/37/396" ;
-        .
+        rdfs:label "AJ/37/396"
     ] ;
     crm:P128_carries <db823ba1-25c7-4831-8c54-a14492c8d872> ;
     .
@@ -120,7 +119,7 @@
     crm:P140_assigned_attribute_to <90406ca4-78ec-4d3b-b51e-a1525721a600> ;
     crm:P141_assigned [
         a crm:E41_Appellation ;
-        crm:P2_has_type <http://vocab.getty.edu/aat/300404670>
+        crm:P2_has_type <http://vocab.getty.edu/aat/300404670> ;
         crm:P106_is_composed_of
             [
                 a crm:E41_Appellation ;
@@ -132,8 +131,7 @@
                 rdfs:label "Grandpierre" ;
                 crm:P2_has_type <http://vocab.getty.edu/aat/300404652>
             ]
-        ],
-    ] ;
+        ] ;
     .
 
 # TODO : comment connecter ces E13 aux sources et aux activités de transcription ?
