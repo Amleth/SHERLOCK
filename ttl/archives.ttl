@@ -1,0 +1,141 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@PREFIX crm: <​http://www.cidoc-crm.org/cidoc-crm/​> .
+@PREFIX crmdig: <​http://www.cidoc-crm.org/crmdig/​> .
+@PREFIX crminf: <​http://www.cidoc-crm.org/crminf/​> .
+
+################################################################################
+# L'ÉQUIPE SCIENTIFIQUE
+################################################################################
+
+# La chercheuse
+<f413942c-84e4-40e4-935d-947274b1d254>
+    a crm:E21_Person ;
+    # Nom & prénom : alternative 1
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Marie" ;
+        crmdig:L52_has_last_name "Thégarid" ;
+        .
+    ] ;
+    # Nom & prénom : alternative 2
+    crm:P1_is_identified_by [
+        a crm:E41_Appellation ;
+        crm:P2_has_type <http://vocab.getty.edu/aat/300404670>
+        crm:P106_is_composed_of
+            [
+                a crm:E41_Appellation ;
+                rdfs:label "Marie" ;
+                crm:P2_has_type <http://vocab.getty.edu/aat/300404651>
+            ],
+            [
+                a crm:E41_Appellation ;
+                rdfs:label "Thégarid" ;
+                crm:P2_has_type <http://vocab.getty.edu/aat/300404652>
+            ]
+        ],
+    .
+
+################################################################################
+# LES SOURCES
+################################################################################
+
+# Le document aux AN
+<582a6cc4-0ac8-440d-a46f-43ff96fc0780>
+    a crm:E18_Physical_Thing ;
+    crm:P128_has_preferred_identifier [
+        a crm:E42_Identifier ;
+        rdfs:label "AJ/37/396" ;
+        .
+    ] ;
+    crm:P128_carries <db823ba1-25c7-4831-8c54-a14492c8d872> ;
+    .
+
+# Le contenu de la fiche complète
+<db823ba1-25c7-4831-8c54-a14492c8d872>
+    a crm:E73_Information_Object ;
+    crm:P106_is_composed_of <2e049a07-31af-4d53-a1a2-e5e95ddb98a1> ;
+    crm:P106_is_composed_of <52f477d9-3a6c-4de7-97d5-003a7e16d01b> ;
+    crm:P106_is_composed_of <6c687430-b89d-4c0e-b55c-e7e75f5594a3> ;
+    .
+
+<2e049a07-31af-4d53-a1a2-e5e95ddb98a1> a crm:E73_Information_Object . # Le champ sexe
+<52f477d9-3a6c-4de7-97d5-003a7e16d01b> a crm:E73_Information_Object . # Le champ prénom
+<6c687430-b89d-4c0e-b55c-e7e75f5594a3> a crm:E73_Information_Object . # Le champ patronyme
+
+################################################################################
+# LES TRANSCRIPTIONS DIPLOMATIQUES
+################################################################################
+
+# Hypothèse : une E13 dont le P177 est crm:P190_has_symbolic_content est
+# nécessairement une transcription diplomatique.
+
+# Transcription diplomatique du genre
+<dcaee2cc-d244-4d08-9328-d49d31556527>
+    a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <f413942c-84e4-40e4-935d-947274b1d254> ;
+    crm:P177_assigned_property_type crm:P190_has_symbolic_content ;
+    crm:P140_assigned_attribute_to <2e049a07-31af-4d53-a1a2-e5e95ddb98a1> ;
+    crm:P141_assigned "Homme" ;
+    .
+
+# Transcription diplomatique du prénom
+<b0041f36-31c2-4210-bf19-eef294eb3403>
+    a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <f413942c-84e4-40e4-935d-947274b1d254> ;
+    crm:P177_assigned_property_type crm:P190_has_symbolic_content ;
+    crm:P140_assigned_attribute_to <52f477d9-3a6c-4de7-97d5-003a7e16d01b> ;
+    crm:P141_assigned "Gisèle" ;
+    .
+
+# Transcription diplomatique du nom
+<2265d53e-9b73-4623-815c-05abe3a512dc>
+    a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <f413942c-84e4-40e4-935d-947274b1d254> ;
+    crm:P177_assigned_property_type crm:P190_has_symbolic_content ;
+    crm:P140_assigned_attribute_to <6c687430-b89d-4c0e-b55c-e7e75f5594a3> ;
+    crm:P141_assigned "Grandpierre" ;
+    .
+
+################################################################################
+# LA CONSTRUCTION DE L'ENTITÉ
+################################################################################
+
+<90406ca4-78ec-4d3b-b51e-a1525721a600> a crm:E21_Person .
+
+# Cela semble évident que le contenu du document AJ/37/396 est à propos d'un·e étudiant·e ayant existé.
+<db823ba1-25c7-4831-8c54-a14492c8d872> crm:P129_is_about <90406ca4-78ec-4d3b-b51e-a1525721a600> .
+
+<de75bc71-9dd0-4fc7-aa01-155345c30884>
+    a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <f413942c-84e4-40e4-935d-947274b1d254> ;
+    crm:P177_assigned_property_type <https://homosaurus.org/v2/genderAssignedAtBirth> ;
+    crm:P140_assigned_attribute_to <90406ca4-78ec-4d3b-b51e-a1525721a600> ;
+    crm:P141_assigned <https://homosaurus.org/v2/assignedFemale> ;
+    .
+
+<dcaee2cc-d244-4d08-9328-d49d31556527>
+    a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <f413942c-84e4-40e4-935d-947274b1d254> ;
+    crm:P177_assigned_property_type crm:P1_is_identified_by ;
+    crm:P140_assigned_attribute_to <90406ca4-78ec-4d3b-b51e-a1525721a600> ;
+    crm:P141_assigned [
+        a crm:E41_Appellation ;
+        crm:P2_has_type <http://vocab.getty.edu/aat/300404670>
+        crm:P106_is_composed_of
+            [
+                a crm:E41_Appellation ;
+                rdfs:label "Gisèle" ;
+                crm:P2_has_type <http://vocab.getty.edu/aat/300404651>
+            ],
+            [
+                a crm:E41_Appellation ;
+                rdfs:label "Grandpierre" ;
+                crm:P2_has_type <http://vocab.getty.edu/aat/300404652>
+            ]
+        ],
+    ] ;
+    .
+
+# TODO : comment connecter ces E13 aux sources et aux activités de transcription ?
+# Pour <de75bc71-9dd0-4fc7-aa01-155345c30884>, on aimerait dire que la propriété assignée à l'E21_Person contredit la lecture et la transcription diplomatique.
+# Pour <dcaee2cc-d244-4d08-9328-d49d31556527>, on aimerait dire que la propriété assignée à l'E21_Person est la valeur lue et transcrite.
