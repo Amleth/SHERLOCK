@@ -1,7 +1,6 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <​http://www.cidoc-crm.org/cidoc-crm/​> .
 @prefix crmdig: <​http://www.cidoc-crm.org/crmdig/​> .
-@prefix crminf: <​http://www.cidoc-crm.org/crminf/​> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 ################################################################################
@@ -20,6 +19,7 @@
     # Nom & prénom : alternative 2
     crm:P1_is_identified_by [
         a crm:E41_Appellation ;
+        rdfs:label "Marie Thégarid" ;
         crm:P2_has_type <http://vocab.getty.edu/aat/300404670> ;
         crm:P106_is_composed_of
             [
@@ -51,12 +51,13 @@
 
 # Le contenu de la fiche complète
 <db823ba1-25c7-4831-8c54-a14492c8d872>
-    a crm:E73_Information_Object ;
+    a crm:E31_Document ;
     crm:P106_is_composed_of <2e049a07-31af-4d53-a1a2-e5e95ddb98a1> ;
     crm:P106_is_composed_of <52f477d9-3a6c-4de7-97d5-003a7e16d01b> ;
     crm:P106_is_composed_of <6c687430-b89d-4c0e-b55c-e7e75f5594a3> ;
     .
 
+# TODO : mieux modéliser le formulaire, le couple intitulé du champ/valeur associée
 <2e049a07-31af-4d53-a1a2-e5e95ddb98a1> a crm:E73_Information_Object . # Le champ sexe
 <52f477d9-3a6c-4de7-97d5-003a7e16d01b> a crm:E73_Information_Object . # Le champ prénom
 <6c687430-b89d-4c0e-b55c-e7e75f5594a3> a crm:E73_Information_Object . # Le champ patronyme

@@ -1,0 +1,254 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.cidoc-crm.org/crmdig/> .
+@prefix crminf: <http://www.cidoc-crm.org/crminf/> .
+@prefix crmsci: <http://www.cidoc-crm.org/crmsci/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mo: <http://purl.org/ontology/chord/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+################################################################################
+# INIT
+################################################################################
+
+skos:Concept rdfs:subClassOf crm:E55_Type .
+
+################################################################################
+# CONCEPTS
+################################################################################
+
+# Thésaurus des types de documents
+
+<58445630-19b4-4070-bc10-586bad027327>
+  a skos:ConceptScheme ;
+  dcterms:title: "Types de documents"@fr ;
+  dcterms:author <fccdf69c-4d6b-482e-869c-785551482dc2> ;
+  skos:hasTopConcept <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> ;
+  .
+<bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>
+  a skos:Concept ;
+  skos:prefLabel "Partition MEI"@fr ;
+  skos:inScheme <58445630-19b4-4070-bc10-586bad027327> ;
+  .
+
+# Thésaurus des types d'identifiants techniques
+
+<c9b9f7f6-9f96-4464-a5bd-85a1eab7bb29>
+  a skos:ConceptScheme ;
+  dcterms:title: "Identifiants techniques"@fr ;
+  dcterms:author <fccdf69c-4d6b-482e-869c-785551482dc2> ;
+  skos:hasTopConcept <219fd53d-cdf2-4174-8d71-6d12bdd24016> ;
+  skos:hasTopConcept <a1e06dc7-f2d8-403a-8061-50d56411c031> ;
+  .
+<219fd53d-cdf2-4174-8d71-6d12bdd24016>
+  a skos:Concept ;
+  skos:prefLabel "SHERLOCK file" ;
+  skos:inScheme <c9b9f7f6-9f96-4464-a5bd-85a1eab7bb29> ;
+  .
+<a1e06dc7-f2d8-403a-8061-50d56411c031>
+  a skos:Concept ;
+  skos:prefLabel "xml:id"@fr ;
+  skos:inScheme <c9b9f7f6-9f96-4464-a5bd-85a1eab7bb29> ;
+  .
+
+# Thésaurus des types de dissonances
+
+<b2e81a8a-01f5-47f3-b5bf-aaa1c9300cfd>
+  a skos:ConceptScheme ;
+  dcterms:title: "Types de dissonances" ;
+  dcterms:author <fccdf69c-4d6b-482e-869c-785551482dc2> ;
+  skos:hasTopConcept <c9289aed-0ee9-43fa-bb67-699b9346d122> ;
+  skos:hasTopConcept <14e52704-1322-4338-92a5-2b866c856d1f> ;
+  skos:hasTopConcept <905674f2-40ed-4bf0-8d13-df113ed84513> ;
+  skos:hasTopConcept <791d8d87-9eb0-43f5-ae34-3f2da8ea40cb> ;
+  skos:hasTopConcept <0bbe0556-1ac9-4ef8-b449-23e834dcc2b2> ;
+  .
+<c9289aed-0ee9-43fa-bb67-699b9346d122>
+  a skos:Concept ;
+  skos:inScheme <b2e81a8a-01f5-47f3-b5bf-aaa1c9300cfd> ;
+  skos:prefLabel "Passing note"@en ;
+  skos:prefLabel "Note de passage"@fr ;
+  .
+<14e52704-1322-4338-92a5-2b866c856d1f>
+  a skos:Concept ;
+  skos:inScheme <b2e81a8a-01f5-47f3-b5bf-aaa1c9300cfd> ;
+  skos:prefLabel "Neighbor note"@en ;
+  skos:prefLabel "Broderie"@fr ;
+  .
+<905674f2-40ed-4bf0-8d13-df113ed84513>
+  a skos:Concept ;
+  skos:inScheme <b2e81a8a-01f5-47f3-b5bf-aaa1c9300cfd> ;
+  skos:prefLabel "Anticipation"@en ;
+  skos:prefLabel "Anticipation"@fr ;
+  .
+<791d8d87-9eb0-43f5-ae34-3f2da8ea40cb>
+  a skos:Concept ;
+  skos:inScheme <b2e81a8a-01f5-47f3-b5bf-aaa1c9300cfd> ;
+  skos:prefLabel "Suspension"@en ;
+  skos:prefLabel "Retard"@fr ;
+  .
+<0bbe0556-1ac9-4ef8-b449-23e834dcc2b2>
+  a skos:Concept ;
+  skos:inScheme <b2e81a8a-01f5-47f3-b5bf-aaa1c9300cfd> ;
+  skos:prefLabel "Escape note"@en ;
+  skos:prefLabel "Échappée"@fr ;
+  .
+
+# Thésaurus des types d'annotations
+
+<5a9f0525-ab10-4c36-b1d3-5d8809f5c0f1>
+  a skos:ConceptScheme ;
+  dcterms:title "Types d'annotations" ;
+  skos:hasTopConcept <169ab089-c0a8-43ab-aec4-5a1a6e1b52c1> ;
+  .
+<169ab089-c0a8-43ab-aec4-5a1a6e1b52c1>
+  a skos:Concept ;
+  skos:inScheme <5a9f0525-ab10-4c36-b1d3-5d8809f5c0f1> ;
+  skos:prefLabel "Type de dissonance"@fr ;
+  .
+
+################################################################################
+# ACTEURS
+################################################################################
+
+# Christophe
+<fccdf69c-4d6b-482e-869c-785551482dc2>
+  a crm:E21_Person ;
+  crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Christophe" ;
+        crmdig:L52_has_last_name "Guillotel-Nothmann"
+    ] ;
+  .
+
+# Thomas
+<efc50e78-f849-4f2f-9ac1-d384f2fa9843>
+  a crm:E21_Person ;
+  crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Thomas" ;
+        crmdig:L52_has_last_name "Bottini"
+    ] ;
+  .
+
+# le CNRS
+<7b38dab1-3f9f-431b-83e5-4bc98ccfd497>
+  a crm:E40_Legal_Body ;
+  .
+
+################################################################################
+# LA PARTITION MEI & SES SOUS-ÉLÉMENTS IDENTIFIÉS
+################################################################################
+
+# un fichier MEI
+<1269f40f-a960-4c94-aa8d-bff42414ad89>
+  a crmdig:D1_Digital_Object ;
+  a crm:E31_Document ;
+  crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> ;
+  dcterms:format "application/vnd.mei+xml" ;
+  crm:P1_is_identified_by [
+    a crm:E42_Identifier ;
+    crm:P2_has_type <219fd53d-cdf2-4174-8d71-6d12bdd24016> ;
+    rdfs:label <http://data-iremus.huma-num.fr/files/787.mei>
+  ] ;
+  crmdig:iL49_has_primary_area <549120f5-fbe8-496b-8578-90fd54de202b> ;
+  .
+
+# une note (cible d'annotations)
+<549120f5-fbe8-496b-8578-90fd54de202b>
+  a crmdig:D35_Area ;
+  a mo:Note ; # utilité ?
+  crmdig:L49_is_primary_area_of <1269f40f-a960-4c94-aa8d-bff42414ad89> ;
+  crm:P1_is_identified_by [
+    a crm:E42_Identifier ;
+    crm:P2_has_type <a1e06dc7-f2d8-403a-8061-50d56411c031> ;
+    rdfs:label "64"^^xsd:integer
+  ] ;
+  .
+
+################################################################################
+# L'ALGORITHME POLYMIR
+################################################################################
+
+# l'algorithme PolyMIR
+<a3e99813-d460-4c04-a56c-dc9c11323e92>
+  a crmdig:D14_Software ;
+  crm:P1_is_identified_by "PolyMIR" ;
+  .
+
+# une éxécution de l'algorithme PolyMIR
+<eb7c7e2b-8c9b-439a-a786-e561af3ae868>
+  a crmdig:D10_Software_Execution ;
+  crmdig:L10_had_input <1269f40f-a960-4c94-aa8d-bff42414ad89> ;
+  crmdig:L10_had_input <7fbdd0aa-0c17-451c-884b-f79efdfd8381> ;
+  crmdig:L11_had_output <de48731c-b714-464e-a7ae-bb93ce9bfba7> ;
+  crmdig:L13_used_parameters <d0992488-ccaa-4af3-bb91-ee388772584a> ;
+  crmdig:L23_used_software <a3e99813-d460-4c04-a56c-dc9c11323e92> ;
+  crmdig:L23_used_software_or_firmware <a3e99813-d460-4c04-a56c-dc9c11323e92> ;
+  crmdig:L24_created_logfile <4531dfca-0490-4433-9854-684030d53bcf> ;
+  crmdig:L29_has_responsible_organization <7b38dab1-3f9f-431b-83e5-4bc98ccfd497> ;
+  crmdig:L30_has_operator <fccdf69c-4d6b-482e-869c-785551482dc2> ;
+  crmdig:L31_has_starting_date-time "2019-10-13T12:59:46Z"^^xsd:dateTime ;
+  crmdig:L31_has_ending_date-time "2019-10-13T13:00:00Z"^^xsd:dateTime ;
+  .
+
+# un paramétrage de l'algorithme PolyMIR
+<d0992488-ccaa-4af3-bb91-ee388772584a>
+  a crmdig:D1_Digital_Object ;
+  .
+
+# un fichier de log résultant d'une éxécution de l'algorithme PolyMIR
+<4531dfca-0490-4433-9854-684030d53bcf>
+  a crmdig:D1_Digital_Object ;
+  .
+
+# un jeu de données produit par une éxécution de l'algorithme PolyMIR
+<de48731c-b714-464e-a7ae-bb93ce9bfba7>
+  a crmdig:D1_Digital_Object ;
+  .
+
+################################################################################
+# ANNOTATIONS
+################################################################################
+
+# Une annotation effectuée par le programme
+<ae5a57db-734f-42b1-acc5-42bd88884eff>
+  a crm:E13_Attribute_Assignment ;
+  crm:P140_assigned_attribute_to <549120f5-fbe8-496b-8578-90fd54de202b> ;
+  crm:P141_assigned <0bbe0556-1ac9-4ef8-b449-23e834dcc2b2> ;
+  crm:P177_assigned_property_type <169ab089-c0a8-43ab-aec4-5a1a6e1b52c1> ;
+  crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    a time:Interval ;
+    time:hasEnd [
+      a time:Instant ;
+      time:inXSDDateTimeStamp "2019-10-13T13:00:00Z"^^xsd:dateTime
+    ];
+  ] ;
+  .
+
+# Une annotation effectuée par Christophe
+<7cf03491-0cc3-4623-80b8-078d77965800>
+  a crm:E13_Attribute_Assignment ;
+  crm:P140_assigned_attribute_to <549120f5-fbe8-496b-8578-90fd54de202b> ;
+  crm:P141_assigned <905674f2-40ed-4bf0-8d13-df113ed84513> ;
+  crm:P177_assigned_property_type <169ab089-c0a8-43ab-aec4-5a1a6e1b52c1> ;
+  crm:P14_carried_out_by <fccdf69c-4d6b-482e-869c-785551482dc2> ;
+  crm:P4_has_time-span [
+    a crm:E52_Time-Span ;
+    a time:Interval ;
+    time:hasEnd [
+      a time:Instant ;
+      time:inXSDDateTimeStamp "2020-01-24T09:01:00Z"^^xsd:dateTime
+    ];
+  ] ;
+  .
