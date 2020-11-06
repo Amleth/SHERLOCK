@@ -136,7 +136,7 @@ skos:Concept rdfs:subClassOf crm:E55_Type .
 
 # le CNRS
 <7b38dab1-3f9f-431b-83e5-4bc98ccfd497>
-  a crm:E40_Legal_Body ;
+  a crm:E74_Group ;
   .
 
 ################################################################################
