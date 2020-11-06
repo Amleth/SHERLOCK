@@ -1,0 +1,64 @@
+# Questions à Nathalie :
+#   - Quelle est la meilleure manière de désigner le titre d'une livraison ?
+
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.cidoc-crm.org/crmdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+################################################################################
+# TYPES
+################################################################################
+
+<62b49ca2-ec73-4d72-aaf3-045da6869a15>
+    crm:p1_is_identified_by "Document TEI" ;
+    a crm:E55_Type ;
+    .
+
+<14d39682-7046-4b47-996b-6de3dafe535c>
+    crm:p1_is_identified_by "SHERLOCK file" ;
+    a crm:E55_Type ;
+    .
+
+################################################################################
+# DONNÉES
+################################################################################
+
+<4997648d-7ba3-4092-858e-b1c3bebe206b>
+    a lrmoo:F18_Serial_Work ;
+    crm:p1_is_identified_by "Mercure Galant" ;
+    lrmoo:R10_has_member <ba127bc1-a8a0-4d83-93bc-a41ed8752cab>, <322039fc-3951-4bc6-bd59-e23d22ac6bda> ;
+    .
+
+<ba127bc1-a8a0-4d83-93bc-a41ed8752cab>
+    a lrmoo:F1_Work ;
+    lrmoo:R3_Realises <ddb9bd53-f634-4320-b2d3-013958faa087> ;
+    .
+
+<e0b54c4a-4b64-4a31-9665-834aaf22e979>
+    a crm:E63_Beginning_of_Existence ;
+    crm:P92_brought_into_existence <ddb9bd53-f634-4320-b2d3-013958faa087> ;
+    crm:P4_has_time-span [
+        a crm:E52_Time-Span ;
+        crm:P80_end_is_qualified_by "1672-01"
+    ]
+    .
+<ddb9bd53-f634-4320-b2d3-013958faa087>
+    a lrmoo:F2_Expression ;
+    a crm:E31_Document ;
+    a crmdig:D1_Digital_Object ;
+        crm:P1_is_identified_by [
+        a crm:E42_Identifier ;
+        crm:P2_has_type <14d39682-7046-4b47-996b-6de3dafe535c> ;
+        rdfs:label <http://data-iremus.huma-num.fr/files/mercure-galant-1672-01.tei>
+    ] ;
+    crm:p2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
+    .
+
+<322039fc-3951-4bc6-bd59-e23d22ac6bda>
+    a lrmoo:F1_Work ;
+    .
