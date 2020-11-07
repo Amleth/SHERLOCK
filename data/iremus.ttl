@@ -1,0 +1,54 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.cidoc-crm.org/crmdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<672c0b4e-e39f-414b-acb8-3cd313570e6e>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Code UMR" ;
+    .
+
+# le CNRS
+<7b38dab1-3f9f-431b-83e5-4bc98ccfd497>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "Centre national de recherche scientifique" ;
+    crm:P107_has_current_or_former_member <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
+    .
+
+# l'IReMus
+<48a8e9ad-4264-4b0b-a76d-953bc9a34498>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "Institut de Recherche en Musicologie" ;
+    crm:P1_is_identified_by [
+        a crm:E42_Identifier ;
+        crm:P2_has_type <672c0b4e-e39f-414b-acb8-3cd313570e6e> ;
+        rdfs:label "8823"^^xsd:integer
+    ] ;
+    crm:P107_has_current_or_former_member <fccdf69c-4d6b-482e-869c-785551482dc2> ;
+    crm:P107_has_current_or_former_member <efc50e78-f849-4f2f-9ac1-d384f2fa9843> ;
+    .
+
+# Christophe
+<fccdf69c-4d6b-482e-869c-785551482dc2>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Christophe" ;
+        crmdig:L52_has_last_name "Guillotel-Nothmann"
+    ] ;
+    .
+
+# Thomas
+<efc50e78-f849-4f2f-9ac1-d384f2fa9843>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Thomas" ;
+        crmdig:L52_has_last_name "Bottini"
+    ] ;
+    .
