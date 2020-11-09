@@ -52,3 +52,9 @@
         crmdig:L52_has_last_name "Bottini"
     ] ;
     .
+
+# L'OBVIL
+<417fb659-4bf6-447f-8145-9ac22f511054>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "OBVIL" ;
+    .

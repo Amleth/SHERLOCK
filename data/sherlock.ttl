@@ -25,7 +25,7 @@
     a crm:E55_Type ;
     crm:P1_is_identified_by "Partition MEI"@fr ;
     .
-<45329f55-9041-4064-ac3d-081b320a33e1>
+<62b49ca2-ec73-4d72-aaf3-045da6869a15>
     a crm:E55_Type ;
     crm:P1_is_identified_by "Fichier TEI"@fr ;
     .
@@ -50,4 +50,8 @@
 <a1e06dc7-f2d8-403a-8061-50d56411c031>
     a crm:E55_Type ;
     crm:P1_is_identified_by "xml:id" ;
+    .
+<f4262bac-f72c-40e2-aa51-ae352da5a35c>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Ark Gallica" ;
     .

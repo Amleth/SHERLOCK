@@ -1,5 +1,8 @@
 # Questions à Nathalie :
 #   - Quelle est la meilleure manière de désigner le titre d'une livraison ?
+# TODO
+#   - P130.1 kind of similarity entre la F2 originale et la F2 TEI
+#   - créer les types Livraison & Article pour le MG
 
 @base <http://data-iremus.huma-num.fr/id/> .
 
@@ -10,55 +13,78 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-################################################################################
-# TYPES
-################################################################################
-
-<62b49ca2-ec73-4d72-aaf3-045da6869a15>
-    crm:p1_is_identified_by "Document TEI" ;
-    a crm:E55_Type ;
-    .
-
-<14d39682-7046-4b47-996b-6de3dafe535c>
-    crm:p1_is_identified_by "SHERLOCK file" ;
-    a crm:E55_Type ;
-    .
-
-################################################################################
-# DONNÉES
-################################################################################
+# Le Mercure Galant
 
 <4997648d-7ba3-4092-858e-b1c3bebe206b>
     a lrmoo:F18_Serial_Work ;
     crm:p1_is_identified_by "Mercure Galant" ;
     lrmoo:R10_has_member <ba127bc1-a8a0-4d83-93bc-a41ed8752cab>, <322039fc-3951-4bc6-bd59-e23d22ac6bda> ;
     .
+<0520c87e-8f8c-4bbf-b205-4631242a8cd6>
+    a crm:E21_Person ;
+    crm:p1_is_identified_by "Jean Donneau de Visé" ;
+    .
+<d66f5afc-0e6a-41f8-88cb-ed8960634ca8>
+    a lrmoo:F27_Work_Conception ;
+    crm:P14_carried_out_by <0520c87e-8f8c-4bbf-b205-4631242a8cd6> ;
+    .
+
+# Une livraison
 
 <ba127bc1-a8a0-4d83-93bc-a41ed8752cab>
     a lrmoo:F1_Work ;
-    lrmoo:R3_Realises <ddb9bd53-f634-4320-b2d3-013958faa087> ;
+    lrmoo:R3_is_realised_in <a821b874-2ca3-4bd3-b227-f7e083531d25>, <ddb9bd53-f634-4320-b2d3-013958faa087>, <2292ac1d-60b3-4b1e-b963-f53a48e1c6e9> ;
     .
-
 <e0b54c4a-4b64-4a31-9665-834aaf22e979>
     a crm:E63_Beginning_of_Existence ;
-    crm:P92_brought_into_existence <ddb9bd53-f634-4320-b2d3-013958faa087> ;
     crm:P4_has_time-span [
         a crm:E52_Time-Span ;
         crm:P80_end_is_qualified_by "1672-01"
     ]
+    crm:P92_brought_into_existence  ;
     .
-<ddb9bd53-f634-4320-b2d3-013958faa087>
+<a821b874-2ca3-4bd3-b227-f7e083531d25>
     a lrmoo:F2_Expression ;
-    a crm:E31_Document ;
+    .
+<3e7b1615-ab4d-4976-8a47-b0423a0af17e>
+    a lrmoo:F3_Manifestation ;
+    lrmoo:R4_embodies <a821b874-2ca3-4bd3-b227-f7e083531d25> ;
+    .
+<722c96a9-ccc0-4a19-a150-932d0521bdd6> # Item numérisé par Gallica
+    a lrmoo:F5_Item ;
+    lrmoo:R7_is_materialization_of <3e7b1615-ab4d-4976-8a47-b0423a0af17e> ;
+    .
+<9672046f-dc11-4261-8e45-84d681d12039>
+    a crmdig:D2_Digitization_Process ;
+    crmdig:L1_digitized <722c96a9-ccc0-4a19-a150-932d0521bdd6> ;
+    crmdig:L11_had_output <2292ac1d-60b3-4b1e-b963-f53a48e1c6e9> ;
+    .
+<2292ac1d-60b3-4b1e-b963-f53a48e1c6e9>
     a crmdig:D1_Digital_Object ;
-        crm:P1_is_identified_by [
+    a lrmoo:F2_Expression ;
+    crm:P1_is_identified_by [
         a crm:E42_Identifier ;
-        crm:P2_has_type <14d39682-7046-4b47-996b-6de3dafe535c> ;
-        rdfs:label <http://data-iremus.huma-num.fr/files/mercure-galant-1672-01.tei>
+        crm:P2_has_type <f4262bac-f72c-40e2-aa51-ae352da5a35c> ;
+        rdfs:label <https://gallica.bnf.fr/ark:/12148/bpt6k32948j/>
     ] ;
-    crm:p2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
     .
 
-<322039fc-3951-4bc6-bd59-e23d22ac6bda>
-    a lrmoo:F1_Work ;
+# L'édition TEI de la livraison
+
+<ddb9bd53-f634-4320-b2d3-013958faa087>
+    a crm:E31_Document ;
+    a crmdig:D1_Digital_Object ;
+    a lrmoo:F2_Expression ;
+    crm:P1_is_identified_by [
+        a crm:E42_Identifier ;
+        crm:P2_has_type <219fd53d-cdf2-4174-8d71-6d12bdd24016> ;
+        rdfs:label <http://data-iremus.huma-num.fr/files/mercure-galant-1672-01.tei>
+    ] ;
+    crm:P2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
+    crm:P130_shows_features_of <a821b874-2ca3-4bd3-b227-f7e083531d25> ;
+    .
+<0f6fb146-e312-42fb-bd57-eac69b9d6793>
+    a crm:E65_Creation ;
+    crm:P94_has_created <ddb9bd53-f634-4320-b2d3-013958faa087> ;
+    crm:P14_carried_out_by <417fb659-4bf6-447f-8145-9ac22f511054> ;
     .
