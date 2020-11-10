@@ -1,0 +1,38 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<03499b44-ba0b-491f-9452-978e03bef78a>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Types Mercure Galant" ;
+  crm:P71_lists <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>, 
+    <13f43e00-680a-4a6d-a223-48e8d9bbeaae>,
+    <1317e1ac-50c8-4b97-9eac-c4d902b7da10>,
+    <2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7>,
+    <11f1b780-2325-498e-811f-c96a617873de>,
+    <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> ;
+  .
+<901c2bb5-549d-47e9-bd91-7a21d7cbe49f>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Livraison" ;
+  .
+<13f43e00-680a-4a6d-a223-48e8d9bbeaae>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Article" ;
+  .
+<1317e1ac-50c8-4b97-9eac-c4d902b7da10>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Gravure" ;
+  .
+<2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Énigme" ;
+  .
+<11f1b780-2325-498e-811f-c96a617873de>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Poème" ;
+  .
+<e2f6219a-2a40-4724-b4f9-1cf45a4f2849>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Partition" ;
+  .

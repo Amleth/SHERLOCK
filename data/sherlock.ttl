@@ -55,3 +55,18 @@
     a crm:E55_Type ;
     crm:P1_is_identified_by "Ark Gallica" ;
     .
+
+# Types d'éditions
+
+<a9b42fa7-a44a-4327-9790-97152300d096>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Types d'éditions" ;
+  .
+<7d7fc017-61ba-4f80-88e1-744f1d00dd60>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Originale" ;
+  .
+<81298048-34bb-4f5f-9d32-934047208319>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "TEI" ;
+  .
