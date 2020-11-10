@@ -79,6 +79,7 @@
         crm:P2_has_type <f4262bac-f72c-40e2-aa51-ae352da5a35c> ;
         rdfs:label <https://gallica.bnf.fr/ark:/12148/bpt6k32948j/>
     ] ;
+    crm:P2_has_type <e73699b0-9638-4a9a-bfdd-ed1715416f02> ;
     .
 
 # L'édition TEI de la livraison
@@ -116,7 +117,12 @@
     a lrmoo:F2_Expression ;
     crm:P1_is_identified_by [
         a crm:E42_Identifier ;
-        crm:P2_has_type <> ;
-        rdfs:label <http://data-iremus.huma-num.fr/files/mercure-galant-1672-01.tei#>
+        crm:P2_has_type <9b63d6ef-5c5b-4eca-92f4-76c083918129> ;
+        rdfs:label <http://data-iremus.huma-num.fr/files/mercure-galant-1672-01.tei> ;
+    ], [
+        a crm:E42_Identifier ;
+        crm:P2_has_type <a1e06dc7-f2d8-403a-8061-50d56411c031> ;
+        rdfs:label "//*[@xml:id='MG-1672-01_000']" ;
     ] ;
+    crm:P2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
     .
