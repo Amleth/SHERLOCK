@@ -14,17 +14,17 @@
 <58445630-19b4-4070-bc10-586bad027327>
     a crm:E32_Authority_Document ;
     crm:P1_is_identified_by "Types de documents"@fr ;
-    crm:P71_lists <fb96f7c5-7b26-49ab-8d71-ed6ca7bd3aa2>,
-      <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>,
+    crm:P71_lists <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>,
       <62b49ca2-ec73-4d72-aaf3-045da6869a15>,
       <e73699b0-9638-4a9a-bfdd-ed1715416f02>,
+      <7d7fc017-61ba-4f80-88e1-744f1d00dd60>
       ;
     .
 <fb96f7c5-7b26-49ab-8d71-ed6ca7bd3aa2>
     a crm:E65_Creation ;
     crm:P94:has_created <58445630-19b4-4070-bc10-586bad027327> ;
     crm:P14_carried_out_by <efc50e78-f849-4f2f-9ac1-d384f2fa9843>,
-        <635f1b1b-322e-4958-88e6-45d1efaed0db>,
+        <635f1b1b-322e-4958-88e6-45d1efaed0db>
         ;
     .
 <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>

@@ -126,3 +126,5 @@
     ] ;
     crm:P2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
     .
+
+# Dernière action : définition du E42 URI TEI + Xpath
