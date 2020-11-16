@@ -1,0 +1,26 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mo: <http://purl.org/ontology/chord/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# L'événement de délimitation matérielle d'un fragment
+
+<da813b0f-62ed-4c39-bfe2-49e89091cd9e>
+  a crm:E13_Attribute_Assignment ;
+  crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+  crm:P140_assigned_attribute_to <6e1efc03-1d24-4204-843b-d78cb884b640> ;
+  crm:P141_assigned <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
+  crm:P177_assigned_property_type <86c33294-edb1-4cb3-b349-8c12ed0032fb> ;
+  dcterms:created "2020-11-16T14:55:58+0000"^^xsd:dateTime ;
+  .
+
+<0ccd5c86-03bb-483f-bafe-de7585d533ca>
+  a crm:E33_Linguistic_Object ;
+  .
+
