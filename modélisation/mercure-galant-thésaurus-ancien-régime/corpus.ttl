@@ -11,6 +11,7 @@
 @prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdt: <http://data-iremus.huma-num.fr/datatypes/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ################################################################################
@@ -95,6 +96,7 @@
     ] ;
     crm:P2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
     crm:P130_shows_features_of <a821b874-2ca3-4bd3-b227-f7e083531d25> ;
+    lrmoo:R5_has_component <6e1efc03-1d24-4204-843b-d78cb884b640> ;
     .
 <0f6fb146-e312-42fb-bd57-eac69b9d6793>
     a crm:E65_Creation ;
@@ -109,6 +111,7 @@
 <7f881a99-8bfb-4b61-95ba-35600c097bfe>
     a lrmoo:F1_Work ;
     crm:P1_is_identified_by "Le Libraire au lecteur" ;
+    lrmoo:R3_is_realised_in <6e1efc03-1d24-4204-843b-d78cb884b640> ;
     .
 
 <6e1efc03-1d24-4204-843b-d78cb884b640>
@@ -117,14 +120,17 @@
     a lrmoo:F2_Expression ;
     crm:P1_is_identified_by [
         a crm:E42_Identifier ;
-        crm:P2_has_type <9b63d6ef-5c5b-4eca-92f4-76c083918129> ;
-        rdfs:label <http://data-iremus.huma-num.fr/files/mercure-galant-1672-01.tei> ;
-    ], [
-        a crm:E42_Identifier ;
-        crm:P2_has_type <a1e06dc7-f2d8-403a-8061-50d56411c031> ;
-        rdfs:label "//*[@xml:id='MG-1672-01_000']" ;
+        crm:P2_has_type <b486f08e-4d50-4363-97b4-d4ea100818e5> ;
+        crm:P106_is_composed_of [
+                a crm:E42_Identifier ;
+                crm:P2_has_type <9b63d6ef-5c5b-4eca-92f4-76c083918129> ;
+                rdfs:label <http://data-iremus.huma-num.fr/files/mercure-galant-1672-01.tei> ;
+            ], [
+                a crm:E42_Identifier ;
+                crm:P2_has_type <a1e06dc7-f2d8-403a-8061-50d56411c031> ;
+                rdfs:label "//*[@xml:id='MG-1672-01_000']"^^sdt:XPathSelector ;
+            ]
     ] ;
     crm:P2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
+    crm:P2_has_type <13f43e00-680a-4a6d-a223-48e8d9bbeaae> ;
     .
-
-# Dernière action : définition du E42 URI TEI + Xpath

@@ -69,9 +69,14 @@
     .
 <a1e06dc7-f2d8-403a-8061-50d56411c031>
     a crm:E55_Type ;
-    crm:P1_is_identified_by "XPath" ;
+    crm:P1_is_identified_by "XPathSelector" ;
     .
 <f4262bac-f72c-40e2-aa51-ae352da5a35c>
     a crm:E55_Type ;
     crm:P1_is_identified_by "Ark Gallica" ;
+    .
+
+<b486f08e-4d50-4363-97b4-d4ea100818e5>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "XML Fragment" ;
     .
