@@ -1,0 +1,72 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdt: <http://data-iremus.huma-num.fr/datatypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<f4f3476e-3551-4633-8f9b-2ef564e63155> a crm:E21_Person .
+<6e6c58e4-bd6e-4f9a-8baf-49263232d944>
+    a crm:E85_Joining ;
+    crm:P143_joined <f4f3476e-3551-4633-8f9b-2ef564e63155> ;
+    .
+<5077dfd9-902f-4166-81a0-ad4bf1070f3d> a crm:E74_Group .
+
+# E21 ---P143/P145--- E85/E86 ---P144(.1)/P146--- E74
+#
+# TODO
+#   - modéliser l'hypothèse d'appartenance d'un E21 à un E74
+
+# <0083ab1c-2ecc-47ae-983c-307510b2fcbe>
+#     a crm:PC144_joined_with ;
+#     crm:P144.1_kind_of_member [ a E55_Type ; crm:P1_is_identified_by "Cheffe" ] ;
+#     # crm:P01_has_domain <6e6c58e4-bd6e-4f9a-8baf-49263232d944> ;
+#     # crm:P02_has_range <5077dfd9-902f-4166-81a0-ad4bf1070f3d> ;
+#     .
+
+<7c620496-95a5-4afd-92bb-5e344163f9ee>
+    a she:sheE_Historically_Dated_Attribute_Assignment ;
+    crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+    crm:P140_assigned_attribute_to <6e6c58e4-bd6e-4f9a-8baf-49263232d944> ;
+    crm:P141_assigned <5077dfd9-902f-4166-81a0-ad4bf1070f3d> ;
+    crm:P177_assigned_property_type crm:P144_joined_with ;
+    she:sheP_has_historical_time-span [
+        a crm:E52_Time-Span ;
+        crm:P80_end_is_qualified_by "1672"
+    ] ;
+    dcterms:created "2020-11-18T06:16:06+0000"^^xsd:dateTime ;
+    .
+
+<fa75f901-ddf5-4653-ad19-a41670850a9f>
+    a she:sheE_Historically_Dated_Attribute_Assignment ;
+    crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+    crm:P140_assigned_attribute_to <6e6c58e4-bd6e-4f9a-8baf-49263232d944> ;
+    crm:P141_assigned [ a E55_Type ; crm:P1_is_identified_by "Cheffe" ] ;
+    crm:P177_assigned_property_type crm:P2_has_type ;
+    she:sheP_has_historical_time-span [
+        a crm:E52_Time-Span ;
+        crm:P80_end_is_qualified_by "1672"
+    ] ;
+    dcterms:created "2020-11-18T06:16:06+0000"^^xsd:dateTime ;
+    .
+
+<13be9e20-17a6-4ffe-ab91-1b3cb7a982ec>
+    a crminf:I4_Proposition_Set ;
+    crm:P190_has_symbolic_content "Machinette est devenue cheffe du groupe des trucs en 1672.
+        <E21 P143 E85>
+        <<E85 P144 E74> P144.1 'Cheffe de file'>
+    " ;
+    .
+<0fe35687-9d9e-4b4e-87f6-d8a8c67be237>
+    a crminf:I2_Belief ;
+    crminf:J4_that <13be9e20-17a6-4ffe-ab91-1b3cb7a982ec> ;
+    crminf:J5_holds_to_be true ;
+    .
+<dafc3c3c-df84-415d-abf7-4e920a8c08a2>
+    a crminf:I7_Belief_Adoption ;
+    crminf:J6_adopted <0fe35687-9d9e-4b4e-87f6-d8a8c67be237> ;
+    crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+    .

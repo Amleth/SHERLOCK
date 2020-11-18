@@ -44,9 +44,3 @@
   crm:P2_has_type <4a673f92-174e-41cb-b0e1-9c32985fa07c> ;
   dcterms:created "2020-11-17T15:23:34+0000"^^xsd:dateTime ;
 .
-
-# Une entité qu'on connecte au texte
-
-<f4f3476e-3551-4633-8f9b-2ef564e63155>
-  a crm:E21_Person ;
-  .
