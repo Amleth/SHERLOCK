@@ -1,9 +1,3 @@
-# Questions à Nathalie :
-#   - Quelle est la meilleure manière de désigner le titre d'une livraison ?
-# TODO
-#   - P130.1 kind of similarity entre la F2 originale et la F2 TEI
-#   - créer les types Livraison & Article pour le MG
-
 @base <http://data-iremus.huma-num.fr/id/> .
 
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .

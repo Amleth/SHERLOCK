@@ -3,11 +3,24 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix mo: <http://purl.org/ontology/chord/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix she: <http://data-iremus.huma-num.fr/ns/sherlock-ontology#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Le fragment de texte
+
+<0ccd5c86-03bb-483f-bafe-de7585d533ca>
+  a crm:E33_Linguistic_Object ;
+  lrmoo:R15_is_fragment_of <6e1efc03-1d24-4204-843b-d78cb884b640> ;
+  crm:P1_is_identified_by [
+    a crm:E42_Identifier ;
+    crm:P2_has_type <a1e06dc7-f2d8-403a-8061-50d56411c031> ; # XPathSelector
+  ]
+  .
 
 # L'événement de délimitation matérielle d'un fragment
 
@@ -20,7 +33,20 @@
   dcterms:created "2020-11-16T14:55:58+0000"^^xsd:dateTime ;
   .
 
-<0ccd5c86-03bb-483f-bafe-de7585d533ca>
-  a crm:E33_Linguistic_Object ;
-  .
+# L'événement d'annotation
 
+<447672cc-589a-4881-8ab5-8890a1611e95>
+  a she:sheE_Reference_Assignment ;
+  crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+  crm:P140_assigned_attribute_to <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
+  crm:P141_assigned <f4f3476e-3551-4633-8f9b-2ef564e63155> ;
+  crm:P177_assigned_property_type crm:P67_refers_to ;
+  crm:P2_has_type <4a673f92-174e-41cb-b0e1-9c32985fa07c> ;
+  dcterms:created "2020-11-17T15:23:34+0000"^^xsd:dateTime ;
+.
+
+# Une entité qu'on connecte au texte
+
+<f4f3476e-3551-4633-8f9b-2ef564e63155>
+  a crm:E21_Person ;
+  .

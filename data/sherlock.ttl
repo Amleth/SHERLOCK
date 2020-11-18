@@ -93,3 +93,18 @@ a crm:E32_Authority_Document ;
     a crm:E55_Type ;
     crm:P1_is_identified_by "A pour passage intéressant" ;
     .
+
+<4a673f92-174e-41cb-b0e1-9c32985fa07c>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Identification" ;
+    .
+
+<2b85ba93-5325-4f79-84cd-1b7c1773ec4b>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Fait référence à" ;
+    .
+
+<cead6995-9f5e-498a-9601-f95b28404861>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Datation" ;
+    .
