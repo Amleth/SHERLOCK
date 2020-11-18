@@ -1,0 +1,1 @@
+cat ./data/iremus.ttl ./data/mercure-galant.ttl ./data/sherlock.ttl ./modélisation/mercure-galant-thésaurus-ancien-régime/corpus.ttl ./modélisation/mercure-galant-thésaurus-ancien-régime/annotation.ttl > ./output/mercure.ttl

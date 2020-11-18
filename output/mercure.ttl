@@ -1,0 +1,397 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<672c0b4e-e39f-414b-acb8-3cd313570e6e>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Code UMR" ;
+    .
+
+# le CNRS
+<7b38dab1-3f9f-431b-83e5-4bc98ccfd497>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "Centre national de recherche scientifique" ;
+    crm:P107_has_current_or_former_member <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
+    .
+
+# l'IReMus
+<48a8e9ad-4264-4b0b-a76d-953bc9a34498>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "Institut de Recherche en Musicologie" ;
+    crm:P1_is_identified_by [
+        a crm:E42_Identifier ;
+        crm:P2_has_type <672c0b4e-e39f-414b-acb8-3cd313570e6e> ;
+        rdfs:label "8823"^^xsd:integer
+    ] ;
+    crm:P107_has_current_or_former_member <fccdf69c-4d6b-482e-869c-785551482dc2> ;
+    crm:P107_has_current_or_former_member <efc50e78-f849-4f2f-9ac1-d384f2fa9843> ;
+    .
+
+# Christophe
+<fccdf69c-4d6b-482e-869c-785551482dc2>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Christophe" ;
+        crmdig:L52_has_last_name "Guillotel-Nothmann"
+    ] ;
+    .
+
+# Thomas
+<efc50e78-f849-4f2f-9ac1-d384f2fa9843>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Thomas" ;
+        crmdig:L52_has_last_name "Bottini"
+    ] ;
+    .
+
+# Rebecca
+<635f1b1b-322e-4958-88e6-45d1efaed0db>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Rebecca" ;
+        crmdig:L52_has_last_name "Bristow"
+    ] ;
+    .
+
+# L'OBVIL
+<417fb659-4bf6-447f-8145-9ac22f511054>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "OBVIL" ;
+    .@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<03499b44-ba0b-491f-9452-978e03bef78a>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Types Mercure Galant" ;
+  crm:P71_lists <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>, 
+    <13f43e00-680a-4a6d-a223-48e8d9bbeaae>,
+    <1317e1ac-50c8-4b97-9eac-c4d902b7da10>,
+    <2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7>,
+    <11f1b780-2325-498e-811f-c96a617873de>,
+    <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> ;
+  .
+<901c2bb5-549d-47e9-bd91-7a21d7cbe49f>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Livraison" ;
+  .
+<13f43e00-680a-4a6d-a223-48e8d9bbeaae>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Article" ;
+  .
+<1317e1ac-50c8-4b97-9eac-c4d902b7da10>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Gravure" ;
+  .
+<2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Énigme" ;
+  .
+<11f1b780-2325-498e-811f-c96a617873de>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Poème" ;
+  .
+<e2f6219a-2a40-4724-b4f9-1cf45a4f2849>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Partition" ;
+  .@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mo: <http://purl.org/ontology/chord/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Types de documents
+
+<58445630-19b4-4070-bc10-586bad027327>
+    a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Types de documents"@fr ;
+    crm:P71_lists <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>,
+      <62b49ca2-ec73-4d72-aaf3-045da6869a15>,
+      <e73699b0-9638-4a9a-bfdd-ed1715416f02>,
+      <7d7fc017-61ba-4f80-88e1-744f1d00dd60>
+      ;
+    .
+<fb96f7c5-7b26-49ab-8d71-ed6ca7bd3aa2>
+    a crm:E65_Creation ;
+    crm:P94:has_created <58445630-19b4-4070-bc10-586bad027327> ;
+    crm:P14_carried_out_by <efc50e78-f849-4f2f-9ac1-d384f2fa9843>,
+        <635f1b1b-322e-4958-88e6-45d1efaed0db>
+        ;
+    .
+<bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Partition MEI"@fr ;
+    .
+<62b49ca2-ec73-4d72-aaf3-045da6869a15>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Fichier TEI"@fr ;
+    .
+<e73699b0-9638-4a9a-bfdd-ed1715416f02>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Gallica" ;
+  .
+<7d7fc017-61ba-4f80-88e1-744f1d00dd60>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Édition physique" ;
+  .
+
+# Types d'identifiants techniques
+
+<c9b9f7f6-9f96-4464-a5bd-85a1eab7bb29>
+    a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Identifiants techniques"@fr ;
+    crm:P71_lists <219fd53d-cdf2-4174-8d71-6d12bdd24016> ;
+    crm:P71_lists <a1e06dc7-f2d8-403a-8061-50d56411c031> ;
+    crm:P71_lists <9b63d6ef-5c5b-4eca-92f4-76c083918129> ;
+    crm:P71_lists <f4262bac-f72c-40e2-aa51-ae352da5a35c> ;
+    .
+<09c7ee4e-619d-4fb0-8905-7c8f1128657e>
+    a crm:E65_Creation ;
+    crm:P94:has_created <c9b9f7f6-9f96-4464-a5bd-85a1eab7bb29> ;
+    crm:P14_carried_out_by <efc50e78-f849-4f2f-9ac1-d384f2fa9843> ;
+    .
+<219fd53d-cdf2-4174-8d71-6d12bdd24016>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Fichier SHERLOCK"@fr ;
+    .
+<9b63d6ef-5c5b-4eca-92f4-76c083918129>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "URI de fichier XML" ;
+    .
+<a1e06dc7-f2d8-403a-8061-50d56411c031>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "XPathSelector" ;
+    .
+<f4262bac-f72c-40e2-aa51-ae352da5a35c>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Ark Gallica" ;
+    .
+
+<b486f08e-4d50-4363-97b4-d4ea100818e5>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "XML Fragment" ;
+    .
+
+# Types d'annotations
+
+<fdc2bd53-30a7-4623-a27a-5d8cb82f1d5f>
+a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Annotations scientifiques"@fr ;
+    crm:P71_lists <86c33294-edb1-4cb3-b349-8c12ed0032fb> ;
+    .
+
+<86c33294-edb1-4cb3-b349-8c12ed0032fb>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "A pour passage intéressant" ;
+    .
+
+<4a673f92-174e-41cb-b0e1-9c32985fa07c>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Identification" ;
+    .
+
+<2b85ba93-5325-4f79-84cd-1b7c1773ec4b>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Fait référence à" ;
+    .
+
+<cead6995-9f5e-498a-9601-f95b28404861>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Datation" ;
+    .
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdt: <http://data-iremus.huma-num.fr/datatypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+################################################################################
+# Le Mercure Galant
+################################################################################
+
+<4997648d-7ba3-4092-858e-b1c3bebe206b>
+    a lrmoo:F18_Serial_Work ;
+    crm:p1_is_identified_by "Mercure Galant" ;
+    lrmoo:R10_has_member <ba127bc1-a8a0-4d83-93bc-a41ed8752cab>, <322039fc-3951-4bc6-bd59-e23d22ac6bda> ;
+    .
+<0520c87e-8f8c-4bbf-b205-4631242a8cd6>
+    a crm:E21_Person ;
+    crm:p1_is_identified_by "Jean Donneau de Visé" ;
+    .
+<d66f5afc-0e6a-41f8-88cb-ed8960634ca8>
+    a lrmoo:F27_Work_Conception ;
+    crm:P14_carried_out_by <0520c87e-8f8c-4bbf-b205-4631242a8cd6> ;
+    .
+
+################################################################################
+# Une livraison
+################################################################################
+
+<ba127bc1-a8a0-4d83-93bc-a41ed8752cab>
+    a lrmoo:F1_Work ;
+    crm:P1_is_identified_by "Mercure Galant, tome I, 1672" ;
+    lrmoo:R3_is_realised_in <a821b874-2ca3-4bd3-b227-f7e083531d25>, <ddb9bd53-f634-4320-b2d3-013958faa087>, <2292ac1d-60b3-4b1e-b963-f53a48e1c6e9> ;
+    lrmoo:R10_has_member <7f881a99-8bfb-4b61-95ba-35600c097bfe> ;
+    .
+<e0b54c4a-4b64-4a31-9665-834aaf22e979>
+    a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span [
+        a crm:E52_Time-Span ;
+        crm:P80_end_is_qualified_by "1672-01"
+    ] ;
+    crm:P92_brought_into_existence <a821b874-2ca3-4bd3-b227-f7e083531d25> ;
+    .
+<a821b874-2ca3-4bd3-b227-f7e083531d25>
+    a lrmoo:F2_Expression ;
+    crm:P2_has_type <7d7fc017-61ba-4f80-88e1-744f1d00dd60> ;
+    crm:P2_has_type <901c2bb5-549d-47e9-bd91-7a21d7cbe49f> ;
+    .
+<3e7b1615-ab4d-4976-8a47-b0423a0af17e>
+    a lrmoo:F3_Manifestation ;
+    lrmoo:R4_embodies <a821b874-2ca3-4bd3-b227-f7e083531d25> ;
+    .
+# Item numérisé par Gallica
+<722c96a9-ccc0-4a19-a150-932d0521bdd6>
+    a lrmoo:F5_Item ;
+    lrmoo:R7_is_materialization_of <3e7b1615-ab4d-4976-8a47-b0423a0af17e> ;
+    .
+
+# Le Facsimile sur Gallica
+
+<9672046f-dc11-4261-8e45-84d681d12039>
+    a crmdig:D2_Digitization_Process ;
+    crmdig:L1_digitized <722c96a9-ccc0-4a19-a150-932d0521bdd6> ;
+    crmdig:L11_had_output <2292ac1d-60b3-4b1e-b963-f53a48e1c6e9> ;
+    .
+<2292ac1d-60b3-4b1e-b963-f53a48e1c6e9>
+    a crmdig:D1_Digital_Object ;
+    a lrmoo:F2_Expression ;
+    crm:P1_is_identified_by [
+        a crm:E42_Identifier ;
+        crm:P2_has_type <f4262bac-f72c-40e2-aa51-ae352da5a35c> ;
+        rdfs:label <https://gallica.bnf.fr/ark:/12148/bpt6k32948j/>
+    ] ;
+    crm:P2_has_type <e73699b0-9638-4a9a-bfdd-ed1715416f02> ;
+    .
+
+# L'édition TEI de la livraison
+
+<ddb9bd53-f634-4320-b2d3-013958faa087>
+    a crm:E31_Document ;
+    a crmdig:D1_Digital_Object ;
+    a lrmoo:F2_Expression ;
+    crm:P1_is_identified_by [
+        a crm:E42_Identifier ;
+        crm:P2_has_type <219fd53d-cdf2-4174-8d71-6d12bdd24016> ;
+        rdfs:label <http://data-iremus.huma-num.fr/files/mercure-galant-1672-01.tei>
+    ] ;
+    crm:P2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
+    crm:P130_shows_features_of <a821b874-2ca3-4bd3-b227-f7e083531d25> ;
+    lrmoo:R5_has_component <6e1efc03-1d24-4204-843b-d78cb884b640> ;
+    .
+<0f6fb146-e312-42fb-bd57-eac69b9d6793>
+    a crm:E65_Creation ;
+    crm:P94_has_created <ddb9bd53-f634-4320-b2d3-013958faa087> ;
+    crm:P14_carried_out_by <417fb659-4bf6-447f-8145-9ac22f511054> ;
+    .
+
+################################################################################
+# Un article
+################################################################################
+
+<7f881a99-8bfb-4b61-95ba-35600c097bfe>
+    a lrmoo:F1_Work ;
+    crm:P1_is_identified_by "Le Libraire au lecteur" ;
+    lrmoo:R3_is_realised_in <6e1efc03-1d24-4204-843b-d78cb884b640> ;
+    .
+
+<6e1efc03-1d24-4204-843b-d78cb884b640>
+    a crm:E31_Document ;
+    a crmdig:D1_Digital_Object ;
+    a lrmoo:F2_Expression ;
+    crm:P1_is_identified_by [
+        a crm:E42_Identifier ;
+        crm:P2_has_type <b486f08e-4d50-4363-97b4-d4ea100818e5> ;
+        crm:P106_is_composed_of [
+                a crm:E42_Identifier ;
+                crm:P2_has_type <9b63d6ef-5c5b-4eca-92f4-76c083918129> ;
+                rdfs:label <http://data-iremus.huma-num.fr/files/mercure-galant-1672-01.tei> ;
+            ], [
+                a crm:E42_Identifier ;
+                crm:P2_has_type <a1e06dc7-f2d8-403a-8061-50d56411c031> ;
+                rdfs:label "//*[@xml:id='MG-1672-01_000']"^^sdt:XPathSelector ;
+            ]
+    ] ;
+    crm:P2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
+    crm:P2_has_type <13f43e00-680a-4a6d-a223-48e8d9bbeaae> ;
+    .@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix mo: <http://purl.org/ontology/chord/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix she: <http://data-iremus.huma-num.fr/ns/sherlock-ontology#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Le fragment de texte
+
+<0ccd5c86-03bb-483f-bafe-de7585d533ca>
+  a crm:E33_Linguistic_Object ;
+  lrmoo:R15_is_fragment_of <6e1efc03-1d24-4204-843b-d78cb884b640> ;
+  crm:P1_is_identified_by [
+    a crm:E42_Identifier ;
+    crm:P2_has_type <a1e06dc7-f2d8-403a-8061-50d56411c031> ; # XPathSelector
+  ]
+  .
+
+# L'événement de délimitation matérielle d'un fragment
+
+<da813b0f-62ed-4c39-bfe2-49e89091cd9e>
+  a crm:E13_Attribute_Assignment ;
+  crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+  crm:P140_assigned_attribute_to <6e1efc03-1d24-4204-843b-d78cb884b640> ;
+  crm:P141_assigned <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
+  crm:P177_assigned_property_type <86c33294-edb1-4cb3-b349-8c12ed0032fb> ;
+  dcterms:created "2020-11-16T14:55:58+0000"^^xsd:dateTime ;
+  .
+
+# L'événement d'annotation
+
+<447672cc-589a-4881-8ab5-8890a1611e95>
+  a she:sheE_Reference_Assignment ;
+  crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+  crm:P140_assigned_attribute_to <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
+  crm:P141_assigned <f4f3476e-3551-4633-8f9b-2ef564e63155> ;
+  crm:P177_assigned_property_type crm:P67_refers_to ;
+  crm:P2_has_type <4a673f92-174e-41cb-b0e1-9c32985fa07c> ;
+  dcterms:created "2020-11-17T15:23:34+0000"^^xsd:dateTime ;
+.
+
+# Une entité qu'on connecte au texte
+
+<f4f3476e-3551-4633-8f9b-2ef564e63155>
+  a crm:E21_Person ;
+  .
