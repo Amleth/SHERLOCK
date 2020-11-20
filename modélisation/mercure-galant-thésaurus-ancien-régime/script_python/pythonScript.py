@@ -1,24 +1,9 @@
 from lxml import etree
 import uuid
-#import io
-#from io import StringIO
-
-##################################################################
-#### VARIABLES
-###################################################################
+import os
 
 #Document turtle
 turtle = open('pythonScript_output.ttl', 'w+')
-
-#Livraisons
-livraison = 'MG_1681.xml'
-tei = etree.parse(livraison)
-root = tei.getroot()
-for text_tag in root.iter('{http://www.tei-c.org/ns/1.0}text'):
-    livraison_titre = text_tag[0][0][0][0].text
-    livraison_titre2 = text_tag[0][0][0].text
-livraison_uuid = uuid.uuid1()
-
 
 ##################################################################
 #### ECRITURE DU TURTLE
@@ -48,7 +33,23 @@ turtle.write('''
 <4997648d-7ba3-4092-858e-b1c3bebe206b> 
     a lrmoo:F18_Serial_Work ; 
     crm:P1_is_identified_by "Mercure Galant" ;
-    lrmoo:R10_has_member <''' + str(livraison_uuid) + '''> ;
+    lrmoo:R10_has_member ''')
+
+#Livraisons
+
+dir = "c://Users/rebecca/Documents/GitHub/SHERLOCK/modélisation/mercure-galant-thésaurus-ancien-régime/script_python/livraisons"
+for file in os.listdir(dir):
+    livraison_work_uuid = uuid.uuid4()
+    livraison_expression_uuid = uuid.uuid4()
+    with open(os.path.join(dir, file), 'r', encoding='utf-8') as livraison:
+        xml = etree.parse(livraison)
+        root = xml.getroot()
+        for text_tag in root.iter('{http://www.tei-c.org/ns/1.0}text'):
+            livraison_titre = text_tag[0][0][0][0].text
+            livraison_titre2 = text_tag[0][0][0].text
+    turtle.write('<' + str(livraison_work_uuid) + '>, ')
+
+turtle.write(''' ;
     .
     
 <0520c87e-8f8c-4bbf-b205-4631242a8cd6>
@@ -62,11 +63,23 @@ turtle.write('''
     .
 ''')
 
-#Livraisons
-
 turtle.write('''
 ################################################################################
 # Une livraison
 ################################################################################
              
              ''')
+
+for file in os.listdir(dir):
+    turtle.write('<' + str(livraison_work_uuid) + '''>
+        a lrmoo:F1_Work ;
+        crm:P1_is_identified_by "''' + str(livraison_titre) + ' ' + str(livraison_titre2) + '''"
+        
+        ''')
+
+'''
+            <ba127bc1-a8a0-4d83-93bc-a41ed8752cab>
+                a lrmoo:F1_Work ;
+                crm:P1_is_identified_by "Mercure Galant, tome I, 1672" ;
+                lrmoo:R3_is_realised_in <a821b874-2ca3-4bd3-b227-f7e083531d25>, <ddb9bd53-f634-4320-b2d3-013958faa087>, <2292ac1d-60b3-4b1e-b963-f53a48e1c6e9> ;
+                lrmoo:R10_has_member <7f881a99-8bfb-4b61-95ba-35600c097bfe> ;'''
