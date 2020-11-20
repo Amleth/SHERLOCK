@@ -74,12 +74,8 @@ for file in os.listdir(dir):
     turtle.write('<' + str(livraison_work_uuid) + '''>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "''' + str(livraison_titre) + ' ' + str(livraison_titre2) + '''"
-        
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
         ''')
 
-'''
-            <ba127bc1-a8a0-4d83-93bc-a41ed8752cab>
-                a lrmoo:F1_Work ;
-                crm:P1_is_identified_by "Mercure Galant, tome I, 1672" ;
-                lrmoo:R3_is_realised_in <a821b874-2ca3-4bd3-b227-f7e083531d25>, <ddb9bd53-f634-4320-b2d3-013958faa087>, <2292ac1d-60b3-4b1e-b963-f53a48e1c6e9> ;
-                lrmoo:R10_has_member <7f881a99-8bfb-4b61-95ba-35600c097bfe> ;'''

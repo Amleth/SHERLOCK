@@ -16,7 +16,7 @@
 <4997648d-7ba3-4092-858e-b1c3bebe206b> 
     a lrmoo:F18_Serial_Work ; 
     crm:P1_is_identified_by "Mercure Galant" ;
-    lrmoo:R10_has_member <cb9623dc-2658-4f25-a6b7-b1060fa356a0>, <9533b927-46f3-4ba8-ae0a-f4de125b3001>, <bf45b6f6-3858-4166-be4b-e50ec185e0f3>, <6006fb47-97e3-484e-a18e-9639714a280a>, <57edc4d6-f5a9-483e-8c21-785b7d607db2>, <3ce75e83-612a-4f2b-8d38-4cfb6f8d5f77>, <2c9441bc-61d7-4a03-bf72-db2c731bda83>, <0ecddfbb-40ef-49a6-80da-2420815765ed>, <486bf7a0-9780-44aa-99ff-593b0fd6ab03>, <afbe74d1-8320-48eb-81b9-af593f027af3>, <56bf69a2-14f5-4c36-bfe8-a9ea9d0cfaa8>, <68343b12-e6f0-4823-abb0-1638d1e2579f>, <dbe5f49d-c54e-496a-ba1d-513d3ff5541b>, <6eed7334-f834-4340-8015-23adf9cfe0ed>, <069f038a-5974-49ab-b1ba-ee9565f2bc3d>, <3c4eea1b-76e2-4b31-9de1-14c9dd458da5>, <c43baeda-8d38-4d8d-9610-1be83a05b359>, <ad048691-3810-48f8-96f7-2973f5c5458c>, <8e275a96-90bc-4dea-bc2a-3f28197b54c8>, <34ee17c5-c350-464c-b13d-a3646365143e>, <3f6242bb-4a4b-49be-a6e2-b7ee5c09ef10>, <ba083c48-32eb-4f19-9d97-e56365560ac6>, <648b4eef-20dd-4456-92c3-bac28bef434b>, <98d372c3-c775-4e92-898a-76012e847eee>, <c8969120-8199-4933-8dc0-bfcaef870810>, <440193e9-3e70-49ba-af5b-ee689056aae5>, <daac399e-28f9-4ca6-80e9-6abb96b7d9c5>, <09ea3dcd-bfce-4c05-9fb4-764e5ecd8dc0>, <a8ff61fd-2db3-43cf-b805-1c857f754846>, <d9d41384-5a59-47c8-a2a7-ccdf20315990>,  ;
+    lrmoo:R10_has_member <8d2142c9-3c99-4d82-81c0-5d8958857025>, <bdf7ed93-3735-4d2d-9b82-2ac665371401>, <18ff8926-e80d-4ddf-a026-7ba823bb13b7>, <861b934f-7bd9-4cd5-957c-49f550d71d9a>, <5c9b5325-fcef-4a81-9d64-b8a222304433>, <b79801fa-56bd-4935-a96b-4c51322ab3bb>, <1e2f8091-30c6-4843-a7c9-9a7d9524bba2>, <dab512ca-2610-4818-9578-2421c73cc0ea>, <d915e02f-4f8f-4fb5-906d-1a1ac7e739f9>, <1d0e46d6-ecd8-4f00-96bf-2094a6b417fb>, <8daefaaa-6b20-464a-892a-d2aa70614a4a>, <bb7f97ba-40b8-4298-81eb-a92b08b2008b>, <09898e7c-feba-44c3-a318-9c00e7fab3cf>, <ffc5de71-7995-4245-b49f-0bb3310d8838>, <887fd3a4-c383-4364-a411-26155d8561d8>, <8d2e9358-d772-4920-b4ee-b22be0b02276>, <4147e65e-6caa-48b8-813a-08ddb81b2532>, <104db99a-a09d-44cc-ac0e-61d0bc0412c5>, <9716e737-3c21-4d66-91cf-994423bd37e8>, <29f6ed7e-0dc5-49b5-90b6-8d13c73c817f>, <ec63bb13-2bf1-4593-ab3d-79153d36463a>, <cd5a7dd1-6c59-44e7-92cc-24538312cb83>, <edb76108-31a0-44bb-939c-012e828fc9b9>, <4eb004b0-72ca-47da-904f-812e0ad297c7>, <c552acbc-bf78-4f62-8768-fc31e75ecef5>, <d81b2fea-69a3-4187-9724-b95efb143635>, <1ec23c7f-8e76-436b-ad13-f442f29203ed>, <9084c333-4de7-475b-a261-de5d917a2e89>, <f8a605f1-03fa-43ec-9480-ccf873b21f77>, <81d58228-d174-473c-a648-86d345bd6eb7>,  ;
     .
     
 <0520c87e-8f8c-4bbf-b205-4631242a8cd6>
@@ -33,124 +33,184 @@
 # Une livraison
 ################################################################################
              
-             <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+             <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
-        <d9d41384-5a59-47c8-a2a7-ccdf20315990>
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
+        <81d58228-d174-473c-a648-86d345bd6eb7>
         a lrmoo:F1_Work ;
         crm:P1_is_identified_by "Mercure Galant None"
-        
+        lrmoo:R3_is_realised_in ;
+        lrmoo:R10_has_member ;
+        .
         
