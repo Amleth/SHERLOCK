@@ -76,6 +76,7 @@ for file in os.listdir(dir):
         crm:P1_is_identified_by "''' + str(livraison_titre) + ' ' + str(livraison_titre2) + '''"
         lrmoo:R3_is_realised_in ;
         lrmoo:R10_has_member ;
+        
         .
         ''')
 
