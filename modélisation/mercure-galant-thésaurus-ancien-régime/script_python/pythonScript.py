@@ -91,6 +91,7 @@ for file in os.listdir(dir):
         + """"
         lrmoo:R3_is_realised_in ;
         lrmoo:R10_has_member ;
+        
         .
         """
     )
