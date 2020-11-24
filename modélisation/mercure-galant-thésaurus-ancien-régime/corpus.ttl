@@ -75,7 +75,6 @@
         crm:P2_has_type <f4262bac-f72c-40e2-aa51-ae352da5a35c> ;
         rdfs:label <https://gallica.bnf.fr/ark:/12148/bpt6k32948j/>
     ] ;
-    crm:P2_has_type <e73699b0-9638-4a9a-bfdd-ed1715416f02> ;
     .
 
 # L'édition TEI de la livraison
