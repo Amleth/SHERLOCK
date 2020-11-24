@@ -73,7 +73,7 @@
     crm:P1_is_identified_by [
         a crm:E42_Identifier ;
         crm:P2_has_type <f4262bac-f72c-40e2-aa51-ae352da5a35c> ;
-        rdfs:label <https://gallica.bnf.fr/ark:/12148/bpt6k32948j/>
+        rdfs:label <ark:/12148/bpt6k32948j>
     ] ;
     .
 
@@ -91,6 +91,8 @@
     crm:P2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
     crm:P130_shows_features_of <a821b874-2ca3-4bd3-b227-f7e083531d25> ;
     lrmoo:R5_has_component <6e1efc03-1d24-4204-843b-d78cb884b640> ;
+    crm:P130i_features_are_also_found_on <http://obvil.sorbonne-universite.site/corpus/mercure-galant/MG-1672-01> ;
+    crm:P130i_features_are_also_found_on <http://data-iremus.huma-num.fr/edition-electronique/mg/1672-01> ; # à revoir
     .
 <0f6fb146-e312-42fb-bd57-eac69b9d6793>
     a crm:E65_Creation ;
