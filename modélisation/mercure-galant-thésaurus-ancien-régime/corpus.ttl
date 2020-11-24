@@ -24,6 +24,7 @@
 <d66f5afc-0e6a-41f8-88cb-ed8960634ca8>
     a lrmoo:F27_Work_Conception ;
     crm:P14_carried_out_by <0520c87e-8f8c-4bbf-b205-4631242a8cd6> ;
+    lrmoo:R16_initiated <4997648d-7ba3-4092-858e-b1c3bebe206b> ;
     .
 
 ################################################################################
