@@ -98,15 +98,10 @@ for file in os.listdir(args.tei):
     g.add((livraison_D2_uri, RDF.type, URIRef(crmdig_ns["D2_Digitization_Process"])))
     g.add((livraison_D2_uri, URIRef(crm_ns["L1_digitized"]), livraison_F5_uri))
     livraison_D1_uri = URIRef(iremus_ns[str(uuid.uuid4())])
+    g.add((livraison_D1_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["e73699b0-9638-4a9a-bfdd-ed1715416f02"])))
     g.add((livraison_D2_uri, URIRef(crm_ns["had_output"]), livraison_D1_uri))
     g.add((livraison_D1_uri, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
     g.add((livraison_D1_uri, RDF.type, URIRef(crm_ns["F2_Expression"])))
-    livraison_D1_E42_uri = URIRef(iremus_ns[str(uuid.uuid4())])
-    g.add((livraison_D1_E42_uri, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-    g.add((livraison_D1_uri, URIRef(crm_ns["P1_is_identified_by"]), livraison_D1_E42_uri))
-    g.add((livraison_D1_E42_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["f4262bac-f72c-40e2-aa51-ae352da5a35c"])))
-    g.add((livraison_D1_E42_uri, RDFS.label,
-           ))
 
 
     # Expression TEI
