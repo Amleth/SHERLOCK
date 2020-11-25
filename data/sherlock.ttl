@@ -16,8 +16,8 @@
     crm:P1_is_identified_by "Types de documents"@fr ;
     crm:P71_lists <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>,
       <62b49ca2-ec73-4d72-aaf3-045da6869a15>,
-      <e73699b0-9638-4a9a-bfdd-ed1715416f02>,
-      <7d7fc017-61ba-4f80-88e1-744f1d00dd60>
+      <7d7fc017-61ba-4f80-88e1-744f1d00dd60>,
+      <e73699b0-9638-4a9a-bfdd-ed1715416f02>
       ;
     .
 <fb96f7c5-7b26-49ab-8d71-ed6ca7bd3aa2>
@@ -37,7 +37,7 @@
     .
 <e73699b0-9638-4a9a-bfdd-ed1715416f02>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Gallica" ;
+  crm:P1_is_identified_by "Document Gallica" ;
   .
 <7d7fc017-61ba-4f80-88e1-744f1d00dd60>
   a crm:E55_Type ;
