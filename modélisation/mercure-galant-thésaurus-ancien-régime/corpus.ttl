@@ -110,6 +110,8 @@
     a crm:E31_Document ;
     a crmdig:D1_Digital_Object ;
     a lrmoo:F2_Expression ;
+    crm:P2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
+    crm:P2_has_type <13f43e00-680a-4a6d-a223-48e8d9bbeaae> ;
     crm:P1_is_identified_by [
         a crm:E42_Identifier ;
         crm:P2_has_type <b486f08e-4d50-4363-97b4-d4ea100818e5> ;
@@ -123,6 +125,4 @@
                 rdfs:label "//*[@xml:id='MG-1672-01_000']"^^sdt:XPathSelector ;
             ]
     ] ;
-    crm:P2_has_type <62b49ca2-ec73-4d72-aaf3-045da6869a15> ;
-    crm:P2_has_type <13f43e00-680a-4a6d-a223-48e8d9bbeaae> ;
     .

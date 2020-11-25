@@ -138,7 +138,6 @@ for file in os.listdir(args.tei):
         # Identifiant et titre
         article_titre_xpath = article.xpath('./tei:head/child::node()', namespaces=tei_ns)
         article_id = article.attrib['{http://www.w3.org/XML/1998/namespace}id']
-        #print(article_id)
         for node in article_titre_xpath:
             article_titre = ""
             if type(node) == etree._ElementUnicodeResult:
@@ -153,6 +152,10 @@ for file in os.listdir(args.tei):
         g.add((article_F2_uri, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
         g.add((article_F2_uri, RDF.type, URIRef(crm_ns["E31_Document"])))
         g.add((article_F2_uri, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
+        g.add((article_F2_uri, URIRef(crm_ns["P2_has_type"]),
+               URIRef(iremus_ns["62b49ca2-ec73-4d72-aaf3-045da6869a15"])))
+        g.add((article_F2_uri, URIRef(crm_ns["P2_has_type"]),
+               URIRef(iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"])))
         ## Identifiant de l'expression
         article_F2_E42_uri = URIRef(iremus_ns[str(uuid.uuid4())])
         g.add((article_F2_uri, URIRef(crm_ns["P1_is_identified_by"]), article_F2_E42_uri))
@@ -160,31 +163,25 @@ for file in os.listdir(args.tei):
         g.add((article_F2_E42_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["b486f08e-4d50-4363-97b4-d4ea100818e5"])))
         article_F2_E42_uri_part1 = URIRef(iremus_ns[str(uuid.uuid4())])
         article_F2_E42_uri_part2 = URIRef(iremus_ns[str(uuid.uuid4())])
+        ### Parties de l'identifiant
+        #### Partie 1
         g.add((article_F2_E42_uri, URIRef(crm_ns["P106_is_composed_of"]), article_F2_E42_uri_part1))
+        g.add((article_F2_E42_uri_part1, RDF.type, URIRef(crm_ns["E42_Identifier"])))
+        g.add((article_F2_E42_uri_part1, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["9b63d6ef-5c5b-4eca-92f4-76c083918129"])))
+        g.add((article_F2_E42_uri_part1, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant-{article_id[3:]}.tei")))
+        #### Partie 2
+        g.add((article_F2_E42_uri, URIRef(crm_ns["P106_is_composed_of"]), article_F2_E42_uri_part2))
+        g.add((article_F2_E42_uri_part2, RDF.type, URIRef(crm_ns["E42_Identifier"])))
+        g.add((article_F2_E42_uri_part2, URIRef(crm_ns["P2_has_type"]),
+               URIRef(iremus_ns["a1e06dc7-f2d8-403a-8061-50d56411c031"])))
+        g.add((article_F2_E42_uri_part2, RDFS.label, Literal("//*[@xml:id='MG-1672-01_000']", datatype="sdt:XPathSelector")))
 
-
-
-'''
-
-        bibl = div.find("{http://www.tei-c.org/ns/1.0}bibl")
-        bibl_str = ""
-        if bibl:
-            for node in bibl.xpath("child::node()"):
-                if type(node) == etree._ElementUnicodeResult:
-                    bibl_str += node
-                if type(node) == etree._Element:
-                    if node.tag == "{http://www.tei-c.org/ns/1.0}title":
-                        bibl_str += node.text
-        print(bibl_str)
-        #
-        #
-        #
-        # if node.tag == "{http://www.tei-c.org/ns/1.0}title":
-        #    print(node.text)
-
-'''
 
 turtle = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/").decode("utf-8")
 print(turtle)
+
+corpus = open("C:/Users/rebecca/Documents/GitHub/SHERLOCK/modélisation/mercure-galant-thésaurus-ancien-régime/pythonProject/corpus.ttl", "w+")
+corpus.write(turtle)
+
 
 
