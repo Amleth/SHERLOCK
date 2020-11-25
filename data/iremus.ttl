@@ -63,6 +63,17 @@
     ] ;
     .
 
+# Nathalie Berton-Blivet
+<899e29f6-43d7-4a98-8c39-229bb20d23b2>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Nathalie" ;
+        crmdig:L52_has_last_name "Berton-Blivet"
+    ] ;
+    .
+
+
 # L'OBVIL
 <417fb659-4bf6-447f-8145-9ac22f511054>
     a crm:E74_Group ;

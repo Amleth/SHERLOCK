@@ -117,16 +117,54 @@ for file in os.listdir(args.tei):
            URIRef(iremus_ns["219fd53d-cdf2-4174-8d71-6d12bdd24016"])))
     g.add((livraison_F2_tei_E42_uri, RDFS.label,
            URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant-{file[3:-4]}.tei")))
+    ## Creation de l'expression TEI
+    livraison_F2_tei_E65_uri = URIRef(iremus_ns[str(uuid.uuid4())])
+    g.add((livraison_F2_tei_E65_uri, RDF.type, URIRef(crm_ns["E65_Creation"])))
+    g.add((livraison_F2_tei_E65_uri, URIRef(crm_ns["P94_has_created"]), livraison_F2_tei_uri))
+    g.add((livraison_F2_tei_E65_uri, URIRef(crm_ns["P14_carried_out_by"]), URIRef(iremus_ns["899e29f6-43d7-4a98-8c39-229bb20d23b2"])))                               ## A MODIFIER?
+
 
     ################################################################################
     # ARTICLES
     ################################################################################
 
+    # Work
+    div = root.xpath('//tei:body/tei:div[@type="article"]', namespaces=tei_ns)
+    for article in div:
+        article_F1_uri = URIRef(iremus_ns[str(uuid.uuid4())])
+        article_F2_uri = URIRef(iremus_ns[str(uuid.uuid4())])
+        g.add((article_F1_uri, RDF.type, URIRef(lrmoo_ns["F1_Work"])))
+        g.add((livraison_F1_uri, URIRef(lrmoo_ns["R10_has_member"]), article_F1_uri))
+        # Identifiant et titre
+        article_titre_xpath = article.xpath('./tei:head/child::node()', namespaces=tei_ns)
+        article_id = article.attrib['{http://www.w3.org/XML/1998/namespace}id']
+        #print(article_id)
+        for node in article_titre_xpath:
+            article_titre = ""
+            if type(node) == etree._ElementUnicodeResult:
+                article_titre += node
+            if type(node) == etree._Element:
+                if node.tag == "{http://www.tei-c.org/ns/1.0}hi":
+                    article_titre += node.text
+        g.add((article_F1_uri, URIRef(crm_ns["P1_is_identified_by"]), Literal(article_titre)))
+        g.add((article_F1_uri, URIRef(lrmoo_ns["R3_is_realised_in"]), article_F2_uri))
+
+        # Expression
+        g.add((article_F2_uri, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
+        g.add((article_F2_uri, RDF.type, URIRef(crm_ns["E31_Document"])))
+        g.add((article_F2_uri, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
+        ## Identifiant de l'expression
+        article_F2_E42_uri = URIRef(iremus_ns[str(uuid.uuid4())])
+        g.add((article_F2_uri, URIRef(crm_ns["P1_is_identified_by"]), article_F2_E42_uri))
+        g.add((article_F2_E42_uri, RDF.type, URIRef(crm_ns["E42_Identifier"])))
+        g.add((article_F2_E42_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["b486f08e-4d50-4363-97b4-d4ea100818e5"])))
+        article_F2_E42_uri_part1 = URIRef(iremus_ns[str(uuid.uuid4())])
+        article_F2_E42_uri_part2 = URIRef(iremus_ns[str(uuid.uuid4())])
+        g.add((article_F2_E42_uri, URIRef(crm_ns["P106_is_composed_of"]), article_F2_E42_uri_part1))
+
+
 
 '''
-    for div in root.xpath('//tei:body/tei:div[@type="article"]', namespaces=tei_ns):
-        article_id = div.attrib['{http://www.w3.org/XML/1998/namespace}id']
-        # TODO prendre head !!!
 
         bibl = div.find("{http://www.tei-c.org/ns/1.0}bibl")
         bibl_str = ""
