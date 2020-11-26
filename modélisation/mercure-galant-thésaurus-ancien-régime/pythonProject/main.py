@@ -2,10 +2,12 @@ import argparse
 from lxml import etree
 import os
 from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef
+import re
 import uuid
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--tei")  # Je m'attends à trouver tel argument
+parser.add_argument("--ttl")  # Je m'attends à trouver tel argument
 args = parser.parse_args()  # Où sont stockés tous les paramètres passés en ligne de commande
 
 ################################################################################
@@ -138,13 +140,13 @@ for file in os.listdir(args.tei):
         # Identifiant et titre
         article_titre_xpath = article.xpath('./tei:head/child::node()', namespaces=tei_ns)
         article_id = article.attrib['{http://www.w3.org/XML/1998/namespace}id']
+        article_titre = ""
         for node in article_titre_xpath:
-            article_titre = ""
             if type(node) == etree._ElementUnicodeResult:
-                article_titre += node
+                article_titre += re.sub(r'\s+', ' ', node.replace("\n", ""))
             if type(node) == etree._Element:
                 if node.tag == "{http://www.tei-c.org/ns/1.0}hi":
-                    article_titre += node.text
+                    article_titre += re.sub(r'\s+', ' ', node.text.replace("\n", ""))
         g.add((article_F1_uri, URIRef(crm_ns["P1_is_identified_by"]), Literal(article_titre)))
         g.add((article_F1_uri, URIRef(lrmoo_ns["R3_is_realised_in"]), article_F2_uri))
 
@@ -178,10 +180,6 @@ for file in os.listdir(args.tei):
 
 
 turtle = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/").decode("utf-8")
-print(turtle)
 
-corpus = open("C:/Users/rebecca/Documents/GitHub/SHERLOCK/modélisation/mercure-galant-thésaurus-ancien-régime/pythonProject/corpus.ttl", "w+")
+corpus = open(args.ttl, "w+")
 corpus.write(turtle)
-
-
-
