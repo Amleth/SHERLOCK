@@ -179,7 +179,4 @@ for file in os.listdir(args.tei):
         g.add((article_F2_E42_uri_part2, RDFS.label, Literal("//*[@xml:id='MG-1672-01_000']", datatype="sdt:XPathSelector")))
 
 
-turtle = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/").decode("utf-8")
-
-corpus = open(args.ttl, "w+")
-corpus.write(turtle)
+turtle = g.serialize(destination=args.ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/").decode("utf-8")
