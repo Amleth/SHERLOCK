@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:iso-thes="http://purl.org/iso25964/skos-thes#"
+	xmlns:opentheso="http://purl.org/umu/uneskos#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://opentheso5.mom.fr/opentheso5/?idc=abbe_de_floreffe_(fl_169207)&amp;idt=25">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">abbé de Floreffe (fl. 1692.07)</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">Surnom</skos:altLabel>
+	<skos:inScheme rdf:resource="http://opentheso5.mom.fr/opentheso5/25"/>
+	<opentheso:memberOf rdf:resource="http://opentheso5.mom.fr/opentheso5/?idg=person&amp;idt=25"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-10</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-10</dcterms:modified>
+	<dcterms:identifier>abbe_de_floreffe_(fl_169207)</dcterms:identifier>
+	<dcterms:description>abbe_de_floreffe_(fl_169207)</dcterms:description>
+	<skos:note xml:lang="fr">##id## MG-1692-07a_295</skos:note>
+	<skos:note xml:lang="fr">##id## MG-1693-09_010</skos:note>
+	<skos:scopeNote xml:lang="fr">IReMus : ABBÉ DE FLOREFFE 1692.07</skos:scopeNote>
+	<skos:scopeNote xml:lang="fr">IReMus : ABBÉ DE SAINT-ANTOINE 1693.09</skos:scopeNote>
+</rdf:Description>
+
+</rdf:RDF>
