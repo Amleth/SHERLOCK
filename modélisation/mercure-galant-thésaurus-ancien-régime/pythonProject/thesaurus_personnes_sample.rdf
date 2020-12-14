@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:iso-thes="http://purl.org/iso25964/skos-thes#"
+	xmlns:opentheso="http://purl.org/umu/uneskos#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://opentheso5.mom.fr/opentheso5/25">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:prefLabel xml:lang="fr">PERSONNES</skos:prefLabel>
+	<skos:hasTopConcept rdf:resource="http://opentheso5.mom.fr/opentheso5/?idc=15737&amp;idt=25"/>
+	<skos:hasTopConcept rdf:resource="http://opentheso5.mom.fr/opentheso5/?idc=15738&amp;idt=25"/>
+	<skos:hasTopConcept rdf:resource="http://opentheso5.mom.fr/opentheso5/?idc=15739&amp;idt=25"/>
+</rdf:Description>
+	
+<rdf:Description rdf:about="http://opentheso5.mom.fr/opentheso5/?idg=person&amp;idt=25">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<skos:prefLabel xml:lang="fr">Personnes</skos:prefLabel>
+	<iso-thes:microThesaurusOf rdf:resource="http://opentheso5.mom.fr/opentheso5/?idg=person&amp;idt=25"/>
+	<skos:member rdf:resource="http://opentheso5.mom.fr/opentheso5/?idc=15737&amp;idt=25"/>
+	<skos:member rdf:resource="http://opentheso5.mom.fr/opentheso5/?idc=15738&amp;idt=25"/>
+	<skos:member rdf:resource="http://opentheso5.mom.fr/opentheso5/?idc=15739&amp;idt=25"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://opentheso5.mom.fr/opentheso5/?idc=15737&amp;idt=25">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chauvon, M. (fl. 1703)</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://opentheso5.mom.fr/opentheso5/25"/>
+	<skos:inScheme rdf:resource="http://opentheso5.mom.fr/opentheso5/25"/>
+	<opentheso:memberOf rdf:resource="http://opentheso5.mom.fr/opentheso5/?idg=person&amp;idt=25"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-26</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-26</dcterms:modified>
+	<dcterms:identifier>15737</dcterms:identifier>
+	<dcterms:description>15737</dcterms:description>
+	<skos:historyNote xml:lang="fr">M. Chauvon est l'auteur d'un air paru dans le Mercure galant d'avril 1703 (MG-1703-04_156).</skos:historyNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opentheso5.mom.fr/opentheso5/?idc=15738&amp;idt=25">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Prévost, M. (fl. 1703)</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://opentheso5.mom.fr/opentheso5/25"/>
+	<skos:inScheme rdf:resource="http://opentheso5.mom.fr/opentheso5/25"/>
+	<opentheso:memberOf rdf:resource="http://opentheso5.mom.fr/opentheso5/?idg=person&amp;idt=25"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-26</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-26</dcterms:modified>
+	<dcterms:identifier>15738</dcterms:identifier>
+	<dcterms:description>15738</dcterms:description>
+	<skos:historyNote xml:lang="fr">M. Prévost a été nommé en 1703 chantre à Herdins, localité que nous n'avons pas pu localiser (MG-1703-04_207).</skos:historyNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opentheso5.mom.fr/opentheso5/?idc=15739&amp;idt=25">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Imbert, Raphaël (fl. 1703)</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://opentheso5.mom.fr/opentheso5/25"/>
+	<skos:inScheme rdf:resource="http://opentheso5.mom.fr/opentheso5/25"/>
+	<opentheso:memberOf rdf:resource="http://opentheso5.mom.fr/opentheso5/?idg=person&amp;idt=25"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-26</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-26</dcterms:modified>
+	<dcterms:identifier>15739</dcterms:identifier>
+	<dcterms:description>15739</dcterms:description>
+	<skos:historyNote xml:lang="fr">Rpahaël Imbert est un augustin déchaussé, auteur d'un Noël paru dans le Mercure galant en décembre 1702 (MG-1702-12_186).</skos:historyNote>
+</rdf:Description>
+
+</rdf:RDF>

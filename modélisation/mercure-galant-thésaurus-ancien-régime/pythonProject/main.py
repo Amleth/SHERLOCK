@@ -178,5 +178,4 @@ for file in os.listdir(args.tei):
                URIRef(iremus_ns["a1e06dc7-f2d8-403a-8061-50d56411c031"])))
         g.add((article_F2_E42_uri_part2, RDFS.label, Literal("//*[@xml:id='MG-1672-01_000']", datatype="sdt:XPathSelector")))
 
-
-turtle = g.serialize(destination=args.ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+g.serialize(destination=args.ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
