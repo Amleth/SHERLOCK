@@ -35,7 +35,7 @@ iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 ## Données statiques
 ####################################################################################
 
-for core_concept in g_pers:
+for s, p, o in g_pers.triples((None, RDF.type, URIRef("http://www.w3.org/2004/02/skos/core#Concept"))):
     personne = URIRef(iremus_ns[str(uuid.uuid4())])
     g_pers.add((personne, RDF.type, URIRef(crm_ns["E21_Person"])))
 
@@ -63,7 +63,6 @@ for core_concept in g_pers:
         D21_uri = URIRef(iremus_ns[str(uuid.uuid4())])
         g_pers.add((D21_uri, RDFS.label, Literal(o)))
         ## Attribution du nom
-
 
 
 turtle = g_pers.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/").decode("utf-8")
