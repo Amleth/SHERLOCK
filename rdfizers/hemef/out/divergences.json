@@ -1,0 +1,175 @@
+{
+    "1856-0062": {
+        "exerce_profession_connue": [
+            "appartient au 8e régiment d'artillerie, en garnison à Toulouse",
+            "appartient au 8e régiment d'artillerie, en garnison à Toulouse ; sous-chef de musique aux chasseurs de la garde"
+        ],
+        "lignes": 3
+    },
+    "1856-0090": {
+        "exerce_profession_connue": [
+            "engagé au Théâtre Français où il débute le 14 février 1858 dans Valère de Tartuffe",
+            "engagé au Théâtre Français où il débute le 14 février 1858"
+        ],
+        "lignes": 2
+    },
+    "1856-0098": {
+        "exerce_profession_connue": [
+            "musicien gagiste de la marine ; en 1863, musicien de 3e classe gagiste dans la gendarmerie de la garde au Louvre",
+            "musicien gagiste de la marine à bord du Friedland ; en 1863, musicien de 3e classe gagiste dans la gendarmerie de la garde au Louvre"
+        ],
+        "lignes": 3
+    },
+    "1857-0219": {
+        "exerce_profession_connue": [
+            "musicien au 10e d'artillerie, en garnison à Rennes",
+            "musicien au 10e d'artillerie, en garnison à Rennes (1857) ; sous-chef au 17e d’artillerie (1859)"
+        ],
+        "lignes": 5
+    },
+    "1857-0256": {
+        "cursus_date_sortie_conservatoire": [
+            "[1871] ?-?-?",
+            "[1871-00-00]"
+        ],
+        "lignes": 8
+    },
+    "1857-0290": {
+        "eleve_prenom_1": [
+            "Jules",
+            "[Jules"
+        ],
+        "eleve_prenom_2": [
+            "Émile",
+            "Émile]"
+        ],
+        "cursus_date_sortie_conservatoire": [
+            "[1860-00-00]",
+            "[1860 ?]--"
+        ],
+        "lignes": 8
+    },
+    "1857-0294": {
+        "exerce_date_debut": [
+            "=#N/A",
+            "1860-00-00"
+        ],
+        "lignes": 9
+    },
+    "1857-0342": {
+        "cursus_date_sortie_conservatoire": [
+            "?-?-?",
+            "-?-?"
+        ],
+        "lignes": 4
+    },
+    "1858-0496": {
+        "exerce_profession_connue": [
+            "début au théâtre de l'Odéon de Chimène du Cid (14 janvier 1861), au Théâtre Français (1864)",
+            "début au théâtre de l'Odéon (14 janvier 1861), au Théâtre Français (1864)"
+        ],
+        "lignes": 3
+    },
+    "1858-0500": {
+        "eleve_profession_pere": [
+            "contrôleur de ville dans les contributions indirectes",
+            "contrôleur de ville  dans les contributions indirectes"
+        ],
+        "lignes": 2
+    },
+    "1858-0521": {
+        "eleve_profession_pere": [
+            "ébéniste ; chef visiteur ? de l'attraction au chemin de fer de l'ouest",
+            "ébéniste ; chef ? de l'attraction au chemin de fer de l'ouest"
+        ],
+        "lignes": 3
+    },
+    "1858-0563": {
+        "exerce_profession_connue": [
+            "a débuté à l'Opéra-Comique (18 mars 1861)",
+            "a débuté à l'Opéra-Comique dans Maître Claude, premier ouvrage de Jules Cohen (18 mars 1861)"
+        ],
+        "lignes": 5
+    },
+    "1858-0589": {
+        "exerce_profession_connue_TDC": [
+            "« à l’Opéra » (1861)",
+            "« à l’Opéra » (1861) ; ancien classe de violon"
+        ],
+        "lignes": 6
+    },
+    "1858-0611": {
+        "exerce_lieu_exercice": [
+            "Opéra",
+            "Opéra ; Vaudeville"
+        ],
+        "lignes": 2
+    },
+    "1859-0618": {
+        "exerce_profession_connue_TDC": [
+            "Porte Saint-Martin (1862)",
+            "« aux Italiens » ? (1859)"
+        ],
+        "exerce_date_debut": [
+            "1862-00-00",
+            "1859-00-00"
+        ],
+        "lignes": 5
+    },
+    "1859-0646": {
+        "exerce_profession_connue": [
+            "musicien au 82e de ligne en garnison à Montrouge",
+            "musicien de 3e classe au 17e régiment de ligne, en garnison à Perpignan"
+        ],
+        "lignes": 6
+    },
+    "1859-0695": {
+        "exerce_profession_connue": [
+            "engagé à l'Opéra-Comique où elle débute dans le rôle de Virginie du Caïd (septembre 1861)",
+            "engagé à l'Opéra-Comique où elle débute (septembre 1861)"
+        ],
+        "lignes": 4
+    },
+    "1860-0853": {
+        "exerce_profession_connue": [
+            "a débuté au Théâtre Français",
+            "Théâtre-Français (1863), a débuté dans Célimène du Misanthrope le23 janvier 1863"
+        ],
+        "lignes": 2
+    },
+    "1860-0903": {
+        "cursus_date_sortie_conservatoire": [
+            "1862-?-01",
+            "1862-00-01"
+        ],
+        "lignes": 7
+    },
+    "1860-0959": {
+        "exerce_date_debut": [
+            "1860-00-00",
+            "=#N/A"
+        ],
+        "lignes": 3
+    },
+    "1861-1029": {
+        "exerce_profession_connue": [
+            "musicien de 4e classe au 4e voltigeur de la garde à Courbevoie",
+            "musicien de 4e classe au 4e voltigeurs de la garde à Courbevoie"
+        ],
+        "lignes": 3
+    },
+    "1861-1036": {
+        "exerce_profession_connue": [
+            "a débuté à l'Opéra dans Eléonore du Trouvère (15 juillet 1868)",
+            "a débuté à l'Opéra (15 juillet 1868)"
+        ],
+        "lignes": 3
+    },
+    "1861-1208": {
+        "exerce_profession_connue": [
+            "musicien de 2e classe au 11e régiment d'artillerie montée en garnison à Rennes",
+            "musicien de 2e classe au 11e régiment d'artillerie monté en garnison à Rennes"
+        ],
+        "lignes": 5
+    }
+}

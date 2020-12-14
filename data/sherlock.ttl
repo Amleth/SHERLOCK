@@ -4,8 +4,10 @@
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix mo: <http://purl.org/ontology/chord/> .
+@prefiw owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix she: <http://data-iremus.huma-num.fr/ns/sherlock#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -53,6 +55,7 @@
     crm:P71_lists <a1e06dc7-f2d8-403a-8061-50d56411c031> ;
     crm:P71_lists <9b63d6ef-5c5b-4eca-92f4-76c083918129> ;
     crm:P71_lists <f4262bac-f72c-40e2-aa51-ae352da5a35c> ;
+    crm:P71_lists <01de41ec-850f-473b-bd7f-268a18afc6a3> ;
     .
 <09c7ee4e-619d-4fb0-8905-7c8f1128657e>
     a crm:E65_Creation ;
@@ -81,6 +84,11 @@
     crm:P1_is_identified_by "XML Fragment" ;
     .
 
+<01de41ec-850f-473b-bd7f-268a18afc6a3>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "SHA1" ;
+    .
+
 # Types d'annotations
 
 <fdc2bd53-30a7-4623-a27a-5d8cb82f1d5f>
@@ -107,4 +115,13 @@ a crm:E32_Authority_Document ;
 <cead6995-9f5e-498a-9601-f95b28404861>
     a crm:E55_Type ;
     crm:P1_is_identified_by "Datation" ;
+    .
+
+# Types
+
+she:sheP_MEI_Element
+    a owl:ObjectProperty ;
+    rdfs:domain crmdig:D1_Digital_Object ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "MEI element"
     .

@@ -36,6 +36,7 @@
   crm:P71_lists <905674f2-40ed-4bf0-8d13-df113ed84513> ;
   crm:P71_lists <791d8d87-9eb0-43f5-ae34-3f2da8ea40cb> ;
   crm:P71_lists <0bbe0556-1ac9-4ef8-b449-23e834dcc2b2> ;
+  crm:P71_lists <184b74d9-3452-42f1-963b-40d820021dfc> ;
   .
 <d161f8dc-f149-4c75-9efb-15e438f1041c>
   a crm:E65_Creation ;
@@ -46,6 +47,10 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Passing note"@en ;
   crm:P1_is_identified_by "Note de passage"@fr ;
+  .
+<184b74d9-3452-42f1-963b-40d820021dfc>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Consonant note"@en ;
   .
 <14e52704-1322-4338-92a5-2b866c856d1f>
   a crm:E55_Type ;

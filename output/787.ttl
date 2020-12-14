@@ -1,0 +1,2742 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<006553b4-5f58-4e69-82bd-ebd6412f4e58> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<00c1726e-ea76-44d3-9411-98ccfa67a240> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0147885e-bd04-4e45-ba30-8d1d38b3ca73> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<01af123b-a6e4-42bb-ac76-e8f94e54b228> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0246a0d2-f8af-4ce0-b3dd-4c9b718f2fd7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0257ddf6-91f1-40c1-bf3e-11b2bb06b1ef> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<02700498-e5bb-476c-a013-c241c544bf65> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<02749d4c-716d-406c-827d-5d077ef09210> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<02aa09a5-c715-40f9-a295-56c3d6fb8241> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<02b8e3b5-0b51-4d7c-8186-49e5ce861367> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<02f7a266-8bd9-41bf-af23-58338b8606c1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<032bd492-4758-43c5-985d-a9d60253139f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0337a2d2-cfea-4d27-80a9-16b099ffc94c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<033f1ec4-73d2-4dc9-9976-d661c028f7dd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<03ccab58-a629-4b2c-a529-7200413ef27c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<03d2a62d-b8d6-4e2c-85f2-c8e2b3e6c93d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<03dace1c-1780-426f-bd71-b3dd58fcebf8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0414fdb7-aa23-4f57-89c9-43332f6a9d1e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<04564ed9-dd65-4000-ad9a-7edc8b88c722> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<045b1284-eebc-470f-9daa-e9812ae1dab4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0477dde9-ab7b-4121-8bd0-e96ecf5a01ff> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<04abd718-f5a2-471c-94f5-31132450d376> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<054d6ca8-b123-4514-81ee-5f874ae6d428> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0561becc-fdfe-4242-9123-d2fbb489f499> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0586ff5c-9086-4e45-af01-1a4073d5fcd0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<05baa18c-bcb4-4bf8-950c-9ba242478f85> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<06124454-5037-4185-bbdf-3c4563c01f44> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<06a0c086-3a08-4865-8607-c68997a720a8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0789f059-5020-42bd-94ae-f54c3513c2a6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<080df73a-8166-45b0-8b35-2597bcfe588e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<08ce0c95-a226-4c59-84ac-b72db490cf30> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<098e5ac8-f9a8-49b4-9ef1-864c5b0a15c7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<09bb45f8-b72d-43bc-bb45-dc6e452cc166> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0a559c12-ad7b-48ff-a5a3-5f01a5c9ba25> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0b768772-331e-4533-8692-381a3d9a490a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0b79b214-862a-4137-a6a0-26701e9ae68a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0b866b1b-24c0-4720-9e8d-e90d0bdf211a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0b992f3b-4e5d-48ca-b838-5fbfb7945475> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0bad53ef-de5b-491f-afae-9ac92e8508c4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0bb91935-3582-425d-9042-600739fe3eb0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0bc03a5d-61a3-41f5-92ad-6a6d440eb8eb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0c26599e-d708-4bed-b2eb-709b992ed517> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0c2ba050-9da6-4afc-b045-1206519d9d2b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0c415045-51d7-48a1-855e-a5c03344eee3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0ce8dcfc-bc64-471f-b3ed-dd89f1856a62> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0d061588-db91-4c6c-a1f8-0845c0ea9dd8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0d2d1fbb-1a37-4036-9ddf-1d6235fc6234> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0d3d6b5d-8ccd-4c45-86fa-afac13c8b0c2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0d3fc7c4-209b-4ece-a80a-c95350de64e0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0d59561b-cb1d-423b-83da-a1f63190284e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0d75ccd3-33bd-4df9-a529-621b91dd8fc6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0d82abd3-119a-4f9b-a05e-3800c29928cb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0dbb1d27-b304-4d08-b970-8c9fd75b5fd2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0e1c24d5-7c54-42e9-a818-04113a5858f6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0e2e0e2e-e886-4742-8171-fc79f05a8233> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0e4f1138-cd5d-4be5-baa0-2b44f219881f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0efa3fe8-7598-4e99-84d0-9b2c8c80de62> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<0fc17592-631a-4c57-8b1b-f76b4ef235bd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<100c44c1-7844-42b5-862e-f50b7465ce71> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<104b077a-1c41-4391-8f6d-551674e79ce5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<106f87ad-a5a0-41c5-b763-b7dfa71d17dc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1091cdad-b75d-4b82-8088-60452c434963> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<11217b99-9baf-40d9-8da2-f3a451714458> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<117e0fed-ebe2-46dc-b0b0-51de88f33792> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<128b7adc-c5dc-46bf-97bf-6da3a9569da8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<12983fcf-8709-4317-b7bb-a67cb7c73ad3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<12f3ec1e-5d31-4230-8e0e-344b39326ef9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<13352428-fb5a-4eed-b6f7-7fe74f421bba> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1350b8f3-e6da-40a8-acaa-69e6f0049d14> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<13c25e62-f3bd-45d3-9325-cdc1585a857e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<13c7f756-4a75-4cbe-9241-7e1aa373c322> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1439b11d-58bf-45c9-9336-abc77279812f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<14b17700-998e-4b3d-9719-34b067e0dd80> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<14e9868b-71b7-4347-a3eb-dde0ac7687d8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<14ff5c2a-cd0e-44b6-a5a5-73d5faaa3994> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1512ab53-25c9-41b3-bcce-4af754fba194> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<155eebe1-e642-46ea-ac1b-8bfcfed79c60> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<15f2a08b-2c1b-4e94-bb65-a46a9ec4fea9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<161e9bf3-b43d-4e98-b522-f47a332b2c8a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<16824f67-b48a-4a75-85de-4849bbd9ddeb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1775c30b-86b5-4cee-9110-d5b3903ba1ac> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<17dc1c68-e6dd-4791-9cb8-e66bfcae98a8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1814acff-7c58-4f85-a4a7-2abdba5929a5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1823b53c-1f27-4570-a640-2dcb511c5626> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1833793e-699a-4f33-a3d5-1d19d0555465> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<187a596b-afa7-40b7-8282-8e83518528d8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<18c633a0-75f6-4d13-a941-99327d484982> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<18e66a0b-5a00-4023-9468-872eb49d67ae> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<193b49cb-1c88-4853-a482-b2a6f04eeaa5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<194b5afb-5a5f-40cd-a4b9-60f313f9ef74> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<197fc188-f0b6-4d36-94d6-c991de70e108> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1986eed5-e905-4763-8a6b-fece7265180d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1990a867-6d6e-4084-ab79-36222973eac8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<19a77174-1040-4a9d-9a67-ed314ed29457> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<19be5aa3-e547-4ac5-89c5-c48a204fa8b2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<19d57edf-8bc2-4e58-af0d-58d8606f817a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1aa2b21f-b7a1-4c2d-8f7c-e9baef832c35> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1b31480b-5124-4e75-8e88-60c6dc67d0f4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1b9313cf-81a0-47c2-b8fa-af11b02fc05a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1c3b2c4f-6621-4836-aab7-23d6e9314b29> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1cb61940-418d-4212-82fe-0ac0a45f8767> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1d877f10-3822-4dd8-b679-12107f82d1b7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1d8ad6cb-d914-4dfb-9ad8-09b72fabece5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1de7b526-506f-43e5-8483-3ae88485cffd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1e19cb4e-88a6-4a97-9f66-28cd93d0269e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1e253b31-c0d8-4bd5-9150-692423ac8b3b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1e424960-d0ed-4b09-b582-19ea44ce0f70> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1e6cf3c6-8563-4b35-9d6a-d6b13801ae7c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1efc35be-6351-4e6a-872c-8fce18b04d7b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1fa887f0-219d-4d9d-a46f-12207359f1f1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1fce2f89-a0cb-4737-90a0-60776dd09ac6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<1fffd176-cea7-4cee-be11-2fed87763fcb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2005756d-b0af-434e-a04f-3e3e010f3d97> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<200778c1-39e5-4de7-bdf4-ed00af4e64d4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<201e15c2-778d-4759-9cad-845a899da716> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2048a784-2ced-4bff-9729-168c72e4cf16> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<20af6a7a-693e-4292-992d-b1fc2f4104c8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<20b04f3a-789d-4e98-a91b-97d73a06d3f8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<20c3cbca-02ae-42e2-94c6-3c0a6198f464> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<214ec570-e214-4fe8-871b-0f98380161a1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<21e7b7a5-ee58-46a2-a97f-de18b414a6a4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<231c68c0-38ae-43fa-a56a-a3a3aef585b9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<23246ff2-7377-4611-83fc-4ed72cc00b20> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2392b662-d3d5-42fb-8b3a-0cdd76974c65> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2402d9ee-d178-45b1-901d-880d81838954> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2446934b-db2e-4c58-8133-6250624f7e9e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<248f180b-4e73-4e11-a1b1-494bf86951b1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<24d0405f-7f8e-416f-a78b-7793714fa3f8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<24e89aa5-748f-4ad8-8c69-a3327306441c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<251d6644-5067-442e-a039-e5c156f75095> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<252bc0d4-da3e-4974-a30f-a19727971e11> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<252dfd14-e169-45a5-b181-ec54ad4fcd71> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<255205e6-face-4e36-9a61-ed4463d6ca34> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<25958f42-0eab-4bec-97af-d3ef2da35a09> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<25b17a27-0c8c-44df-b6c3-fabb87fc4443> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<25cc8190-81d4-4bbf-8a0d-49f2b7022b18> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<26267073-3b93-49e1-b8b7-40c7eef06736> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<268c50f2-3ed3-4ec1-ae16-b9a759ed4099> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<26a610aa-8e97-4831-9882-925a4245e5c6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<273e9e61-2c2e-4136-89e7-8a26308b669c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<27c04dd8-7a99-43d6-bd93-3e273319bdb2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<27dc2707-ed5e-4bb9-a1e2-08b2876add2d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<27ec0937-62b6-4347-8f5d-3926ffc3ed84> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<27fd37ee-653d-492b-8255-b22575ff2cb4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2870f387-56ee-46f9-9c87-07733f281176> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<288d4011-8789-4d13-a4a4-3f2c18283718> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<293890d1-bcd2-4c3b-8a91-41d00229c413> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2968c331-5fb3-458e-b0bf-bc9a3c4e4572> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<29acd905-faf5-43cd-a6ee-84dd1e211f9a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<29f22169-8637-4cc9-a9f9-eb8eac843484> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2a6ea37b-c634-4774-8ced-2e3dda12d792> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2c235d8a-9afe-4647-9689-e7b13b3d091e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2c3c746e-02ee-4c0b-989c-820c6638d76e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2cc3d886-7bd2-4859-b099-90202755a718> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2d4084dd-e7a1-4ce2-aa04-71bd80bd0aa9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2e0df47a-fc3f-4dea-811c-a21cc3e1ab3d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2e8eb168-a283-4ed8-b129-8d2d05bfea87> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2ebeff5e-cfd3-4fb6-aafd-a9c4d740ce09> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2ecf171b-8820-4193-92b4-d0d77de6712c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2ed797b6-cb1b-4061-8c04-785bf5d81339> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2ef9f9d5-a898-4d15-b66a-d52e71bbd30e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2f3f81b8-08e6-47c9-9552-59a885fd92bd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2f674953-1217-4419-91c6-95b1f77a42f4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2f995392-573e-46e4-9f4e-688878c46027> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<2fe269b2-c22f-40d7-b68c-373c8309e2bd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<300d42b6-ef41-430f-a43d-4aa6f304d350> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3029ad51-9e4b-4cb5-ae82-ffd4d68be1b2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<302f177a-6c97-47c9-b70c-251510f15be3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<30708c98-0b4f-4e2b-adc4-b30b8d6465d2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<30e480fa-c4c4-41a5-9252-f6a87e086bb7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<30fe8670-e954-49d9-86c7-be51cf12df42> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<311b08a6-fc33-4c91-9dd8-a675dbe7ea32> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3127054d-16a3-41d0-acea-ddad7f539966> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<31374d6f-5c32-4323-9f26-f42d2c5ed8ba> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<31c70f7b-b0b2-446e-81a0-4dca89b2c7b1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<31cac3bc-af1c-4963-9e9e-2b094c2d086c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3209fe9e-353c-492b-bcca-3ba29b11016f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<32bdc84d-f09e-4a20-abe8-ac869e284139> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<330997a8-ba4b-4256-9a1b-5ce8b21ebd38> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3330c3b0-dd5b-4e06-92d4-ff5bf8dca90c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<33a47e73-0f3a-479d-98b7-904df71b74ee> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<34430b52-cee0-4abd-8c07-2a77f5965010> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<34465d6f-6ce3-4faf-af47-ea409ede79fb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3567cd2d-34a8-45fd-944b-c414d300ad0f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<35bb86ed-8fe8-4424-8b0e-e8fef70dc0d3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<36252248-014b-40b9-9c2c-1f299ea9c666> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<36b88566-3cd0-4cbf-b947-8ea416ba24fb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<36d15552-7959-461f-b9a4-b38dfb6f3494> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<371cc4c8-1548-4dce-9cdd-7f4f37fbb5a6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3746de83-0749-40c8-bbce-e501b8d9e1e3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<376de260-fab4-4bf7-8502-0a7991c06d82> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3790a534-498d-4d6d-b80c-a56bae3948a0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3794f69e-008a-48ea-9b2e-d02b5c09ed27> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3827aa37-f959-4f40-96ea-984d2c224b02> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<38d10872-c973-4bbb-950d-7830027e1e09> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<38d9ff12-1dbb-4d97-8a30-cf8b67568d37> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<390b03dd-855a-4d5a-9cb9-774d881f44bf> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<39b7c691-524b-4036-a8b4-472bbeb86f60> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<39c2457d-699c-4f11-9326-4cb115a394b3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<39d94b3d-977a-48a8-b00b-7b4e5b23e756> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<39dfd72e-a84d-409f-8d4c-a18a7d4de139> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3a123a9c-3efd-4ac9-b1a3-7a29da7ee570> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3a85a02e-0986-4b8b-a246-df20e973721a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3a900036-e533-41c6-a804-96be1241bcdd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3aa7bb9e-252e-4b1e-ab36-a24c01a850b8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3aca968c-6061-45a1-a741-25000dfb4e3e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3b83460c-36ee-4e4e-9f8c-de7e6090df7b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3b94cbce-ce81-4938-86ef-937646f75248> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3bafb757-bc94-41ad-9f44-292b81262102> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3bdcabb2-dc69-4bdc-bd61-3528164df5d9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3bfaf39b-9381-4afd-957f-ccf193eabd8d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3d3a6065-d90e-4e89-8878-202200a75888> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3dce7fb0-51da-4e55-a073-680d12a53341> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3eadf00a-9e8b-40dd-ae70-173557914adc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3eca2173-9ad7-4e48-8706-c1f13818960f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3eccc05a-5195-47aa-bc39-38f16ad1fc29> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3f2e93a6-f746-4b80-aeeb-23d0338623c2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3f7e6bbf-1a7d-414f-9ae3-e0d79acf555f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<3fecba5d-aec1-4db9-9cb8-c6e29fbeb4bc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<40249837-8c40-4c42-8fb9-10f7566cabe7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4083e55b-6e35-4cd2-b7af-12f934d46c36> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<40d61cf2-356c-46e1-ad5e-ec5049cf9f57> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<414cadbd-866d-4879-9780-248d775016ce> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<417029aa-9039-4d32-9bea-fe7b6872fb7b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<41cc3b0a-7c3c-4854-82e7-05a05562c29e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<421b29f2-bd8d-4808-bd92-a2490d4868e2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4257221c-87cc-4199-b354-52bc98a20b8e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<42a916b7-9265-4682-a9d9-0abb731bd07a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<42b0fae5-3517-47cc-97c5-c5b3ef346829> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<42b3ca3f-d552-4963-a77e-1241c41c15c5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<42f1452b-9c4f-41d6-83a8-7a2b884f1171> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<431fa375-2667-4ce7-bc2c-35ebd72a83b2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4324bffa-b3d8-4650-987b-d14e3e59eece> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<43782e86-ffd8-45c8-9626-fe2c66589ab6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<43ba91fe-d558-4ba0-863e-c48451a3ff5c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<43dca153-b1ff-42b5-9f14-bfb869528169> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<43fe3ee7-4aba-40c3-9b2f-47036a21eb99> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<443468c1-a28e-4e73-a2db-3c0117914fe8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<44d57153-9760-46c1-9c3b-30923efcf2b7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<458fd94f-5cf9-4994-b9c8-0d43e8dc7bac> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4591cf66-53ca-4257-9ef3-2f6aa2aff18f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<45de9f01-8cb7-4f87-9c59-5b20f11a7b17> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4616e94c-b4f2-4319-9036-d6e0fa3369e7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<46408c65-af6a-4503-b440-edcc8c73d22d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4674965f-3752-4e59-9b5a-542a749b99aa> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<468b63cf-309e-46b0-b2d5-94a747b3687a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<469eca32-981c-4437-9d33-4f519476ef31> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<46ae342b-2c86-4b1e-91fe-5d8807e23f51> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<46cd42d7-2cbf-4afd-94ba-dcec31da0ac1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<46eae992-0312-407c-99f3-cffec441a612> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<47245bd3-3cfa-45cd-9853-c12c5fe65439> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<472846a6-507b-4a79-87a1-3059ad048cdf> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<47a0fcfd-5667-4145-8bde-5647e6167cc7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<47bce660-e718-48a3-8eea-7c717a9356e4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<47c12d86-2393-46fb-8119-c38c2319fef9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<480f0fe2-e45e-43b4-9813-a2b9db494580> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<48d4830c-4928-4598-a6be-066ad937c381> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<48fc52f3-340f-49a3-ba99-df076acfd3a7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<49057a94-de65-4c1f-85fb-efe361b90184> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<491a17eb-9587-4b00-97a2-aed2d2cde768> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4936dbcf-4723-4ca1-b15f-d2e48e5bf97f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<49b23a07-d6c2-4053-8ecb-35344a7eb5df> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<49d50824-421d-425b-9d40-c3693e7e6971> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<49f73dcf-134b-4ddf-ab60-836a38bd3f13> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4a241502-9263-4a94-aba8-d8cbf40973bf> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4a53e415-3df4-4df0-99b7-ee0274b7590e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4ad32860-b575-4190-aed7-193c2577dd23> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4ae0c313-b761-408a-a370-481d7b04b7fd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4b21fba9-8667-4293-9633-4c2568d8dd1a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4b8c3e2d-633c-4991-9f28-0d65f2f7143d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4baf1e03-a0bd-4cec-b2eb-cc4438953881> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4c19dc11-5149-484d-b6a3-70d41cb6cb95> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4c440e0b-15f8-4d40-baa0-6ef8d410e6d2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4c46a89c-707b-4f27-a9a5-82e5e95b03de> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4c495965-68df-4b12-856c-fb78d5c50af6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4c747a22-1324-4333-b2e5-ca72325353f9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4c8f3282-1cd0-4c98-b786-d4bfbb987bc8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4c9f36ae-6c46-4a03-803b-008c95150149> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4cebcd66-e58a-492f-906f-7763ac875c1b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4d233c8e-46ee-48f1-a57b-3107a8d53340> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4d6942a5-d7ef-433d-9602-cab8717593b4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4dec3031-4abc-488f-bcc3-b92bcf17636a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4df4cd51-f83e-4e18-ab7f-05f13ee345d5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4ed70812-3415-4793-a657-5ed3491172d4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4ee98226-4b66-4287-83ad-d4b6631a5b3c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4f3c28f8-00aa-4636-bf05-95a4019e3734> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4f659ea4-8a8b-4141-be3f-70d32eae03ba> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4fa6a2d3-ca53-4cae-b02d-819cd934c46b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4fcebf5e-c807-47ae-8a54-e01870e6a87c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4fdfaf06-8865-4e1d-bcf8-1f4f2a3dba5f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4fe513b7-c7c7-473d-a337-6d23f45fc60b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<4fefa1c7-e073-48c4-9c66-e673675cf5f7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5002a83a-6bda-4e7d-a182-571bdc41c6d0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5056b812-37e7-4371-94be-43494222592e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5066a0c8-2faf-4d0b-84ec-657d43bb37f1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5120903a-7734-48f9-a4a6-ccdd4c87a651> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<516a6432-b90c-4e34-90ca-cca55a82d794> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<51a585b1-4682-4f4a-9444-4dc418ec921b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<51fa234d-ba9d-4382-82bd-6a8b30a1637b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<529eca25-3fc0-4736-8a5f-8cc939e8d4b5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<53551618-8c06-402b-9849-ed90e9117292> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<53902a46-cfef-4170-bcd3-f305d45a082d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<53929a98-07e2-4f14-b296-95b5eb6d1cc6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<54d5e0ce-a37a-4708-87e3-a54791b17512> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<551ec6d6-b645-4085-acd1-4d2c900b3567> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<57196188-458c-4ec0-b3e6-d2496169acf8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5723cd30-41f5-4caa-87e7-6186e6f14329> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5799967d-5f95-47a7-a841-5da11a718f82> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<57edf21a-2865-4f5b-8060-8e4fa3d971fe> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<583d4f28-ccee-4a9e-9e1a-d7aff1f52f98> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<583f9f1a-a344-4cd6-8fef-1aec649674c8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<58b5778c-f735-4441-a9eb-dcf053335801> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<593c8a8a-46f5-45c1-953d-93814748df41> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<59452dc6-17a6-49b2-8d43-83e8eb2715a0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<597dd65f-ee7d-49b4-ae44-a71b23906a94> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<59b34435-df6e-438f-985e-2d6d8e1ae1d5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5a1db4a0-7cee-4b86-b67e-a2bb5613151e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5a339e02-91ba-4fab-a527-ecc391a1432c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5a3e8a08-9939-47e9-9556-7a4361f214ce> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5ae4d62f-8cf1-4a79-a297-9553f2e42b1b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5ae6f516-7cfc-468a-a149-589074e3f779> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5b7c3a8b-5ff0-439e-b71f-3a413cec310f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5bf4cd93-c580-46e9-aa35-7cfc8822d3d3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5c160855-2f9d-4046-ae33-9be5d786a4ab> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5c2468a7-a328-46f3-b2c4-79a40c286435> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5c6a5d93-0fe8-4187-a4b2-b8fd3ca724cb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5cb4ad64-f1b5-4e64-bed5-b6f620c85508> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5d6c078c-0710-4f46-9fd7-0f437a0739af> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5dec4a7c-a752-497c-b22e-81ce04d3fe61> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5e21d9e3-e203-42c7-8cff-988c9f040df0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5e5ef8c9-e501-4bc6-abde-dd699f18e4ba> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5ed7810c-2fef-40b7-b24e-3e097a1f4fc1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5efcd389-dc95-4a5c-ab5a-e7cce312b9d8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5f149e4a-d1af-46c7-bd0a-938cf5448734> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5f71c211-3be3-4688-83fa-4b59d5e0d206> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5f9b2d09-4de0-4659-9b6f-0c915f72550a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<5fe345d4-7293-4d48-b3bd-cb640ccc7b16> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<603aaf54-bb3a-433e-8df0-8c8b2fbc3aa5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<606ff645-218b-4455-b8da-d26816dca05a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<60886d41-e094-464a-af9c-e4be14532218> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<60a005ba-cd88-448f-925d-d10ef098a48b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<60aca98f-c578-4062-a5fa-f4fcaae528e5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<60c844b4-e14a-41f0-af66-3dbcac439c5d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<60cc6ae3-7c2f-4e54-968e-45e751e72dc0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<60f97098-0a83-4758-8302-47c697e5a1b7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<610214b4-8de1-4170-80ab-4b4d7eb8b976> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<622a7673-4b34-4579-b32d-16340639889b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<62475929-0253-4c91-8862-b4d080fea3c8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<630d4049-d086-48a0-b87f-0acffc0b6ba9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<635aba7f-d1e5-4bc0-b5d6-d8341e0ce679> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<63894847-2806-4a0d-b86d-fb3376265d56> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6390f27b-4990-4859-8686-17a4cfceecb2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<63c989a8-1086-4c96-a836-61d1473e3755> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<63f5c891-23c9-4e18-a250-28fd1d4cc325> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<64238650-8dd1-4edc-ac43-74e66d5b1701> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6445212d-7d05-49a0-b4f9-3a4b34da1da4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6449044e-f332-43c6-ae27-56904dc0be25> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<645117df-9d8f-4612-930e-9c947a7f7e5e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<646190af-3dcb-4b50-ad56-523d2732181f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<649802ba-fda7-47cf-8c57-8b5366f9d516> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<64bbe097-9b4c-455c-ae6f-0cf4b0b21363> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<65be7273-070c-4524-9b40-ea54579d340e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<662515ad-b29f-43e8-ad91-22d0af12f6f1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<665c386c-45ee-465f-9436-7408f2fcdf76> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<666cd29f-4607-46d7-be39-2ee1e56382d0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<66829cba-ad40-4e45-8631-a842c4526978> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<66c8f40e-2595-4384-9400-594c643ede9d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6737aa25-a645-47bf-8226-5043e45e5b88> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<67baac96-b57a-4e31-843e-677600ba9174> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<67f55480-7ccc-47ca-b5d9-98bd26601210> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<681ac16f-d862-4770-94e6-f092bd33582c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<681ce1a1-1cd0-470f-8443-e45342e02628> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6823ed72-c223-4588-8c42-e2893335b701> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<695dd18b-3f70-45a1-9cad-417ba2d43446> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<69abea43-2fce-4d31-ace6-d9ef179e2574> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<69b75891-d1df-4319-ab00-7e3aba6da755> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<69d170ae-ced5-4efe-b066-72feade3238c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6a4f02d4-e67b-4b3d-8f95-95b19ef79ee6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6a57f02c-e1a8-4650-afe4-0ab2ed1f1040> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6ab65a6e-8355-483a-839a-bea529e22e73> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6acce65f-4238-45e3-8fea-905780b36735> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6b3952ec-3b81-42db-afe8-c7fc20787f68> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6b42d82e-ffd3-4f18-8b9d-00af3ecc57a8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6ba0e2de-10cf-4de9-bc76-5ab59e08ea8a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6beecac6-c154-423f-9b37-8d683a004c6d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6bf34a2b-a108-4fae-a147-a31cc53f2f33> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6c153fe6-67d5-4366-b805-821a2018b0cf> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6c22340d-1fd3-4a57-b733-134709491933> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6c653299-fd06-48c9-9eb5-6727d6de151a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6c7799f2-0490-48de-9607-bc945c0a90fc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6c9bfb90-7ef9-4837-b093-730b23be2448> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6ca069ae-f291-464f-afd9-a5c93330660a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6cb3b26a-b3e1-48c9-a318-31d600c76f9e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6cf18895-6591-4235-a3e0-e7052400d05b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6d0606ef-db1f-430b-8817-6142c4185a9f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6da08986-9f59-4c99-a13c-f658aea6aa07> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6e45e80f-c0d3-4d15-986c-4554babfefc1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6e613ec7-f0e7-47a1-9fdd-725f6abdb808> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6e7131f5-e6ae-4c98-b7c3-fa91b397147d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6e766fca-3e09-4a63-ab31-69726de7c6f9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6edea176-2474-4248-b5a2-f49077823ace> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6f1cfe4a-dddd-418b-8ef4-de99069c116d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6f3ff83f-8774-4de6-be2f-3603f12ea27a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6fc3d543-5edb-4d24-9f30-29d107e2be31> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<6fd9b579-7d04-49ec-8ef5-cc6f47f91b9c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7046b321-c860-422e-8cd4-41c0a31b4f91> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<70615243-70d6-4fe4-97ab-b64bcba1b6dc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<710326ad-9498-4c0d-a0fd-bd9dc09754c2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<713a837c-6677-4f57-83f2-76c357934078> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7186be8b-1fc3-49ed-8b06-c53ced9cfc57> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<71d2574f-f6c5-4919-a31e-579707b09baf> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7224ea02-5d70-4fd9-99c1-3562e84518b4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<72959b4f-8f53-4f24-a1ae-4f3ef2b6e86e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<72b91670-7e30-42d4-8671-fccb65b7e867> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<72f01028-a0e9-4b5a-bcc0-2a182bab4644> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7304b002-181b-4cac-89db-db7607355b23> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<736d7efc-b3ac-4ff5-8114-2e1e8ddc30ee> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<73706f32-aa3b-4d6b-b8da-c38d2f5f3ed5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<73aac72a-d494-41c6-ade8-5b073eea8a0a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<73e4e3ac-1968-43e9-b33b-edbb471a1b81> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<74133c4a-6e21-495e-9373-f149cfe233dc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<743c39f5-b001-46bc-89a1-2495ca8c003d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<75e2cf20-442b-4395-b831-e007c2ec39ff> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7625872c-e17f-4e7f-af57-2f91a5b3f079> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<76342834-408a-47fb-802e-8d7e50bf01ac> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<763e1fd3-6973-4d27-a5a2-3c02e977eb25> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7719419c-d6a6-43b7-a482-1b6f163bab7f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<773d9ebe-044a-4e52-b866-340b71285729> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7752600b-8d86-44f0-a047-9776eb025490> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7755872a-9445-4545-9c7b-921f74010df2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7780ddcf-dc06-4f8c-b773-2f6a84a4ba75> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<77bff211-1c80-4227-844b-3ecc6966b367> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<77cbabe6-df92-4bd7-af8f-42a739570e93> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<77cf9154-d769-4ec2-a227-e595c049ffb8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<77d06a48-4170-45d2-ba62-bfc7f3f94038> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<77e1d12d-61ee-4464-9041-fa6d25add191> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<785316dd-c11f-44ab-801c-eb0f55f1602b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<786068a7-9dee-4958-9aea-9aacf4828e1b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<78b8d58a-4841-42c9-b3a7-545089b2811b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<790ce2f1-1dc6-4665-bf76-77968f6946a5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<79502fd6-d6f6-4d7a-add3-2d112a1c2815> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<797316e3-9f7d-4a0e-b2e6-9142023aa539> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<79bb7166-ca79-4adb-bd66-47499e84951f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<79c94f8d-cb84-403b-872b-016da819d112> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<79e78558-6a89-4ad8-b197-fbca1268292e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7a66299c-25d4-4b07-95c7-6a542e284050> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7a746794-3afd-4958-8ef2-9100f8d42d15> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7b136b36-b1d8-49e0-a12c-6b0662e745c9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7b2e05eb-6eca-47f3-a5a5-6ed73d14e8b5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7bb545e0-6dc5-4616-882c-52e04bd58024> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7bba2d6e-e109-4b80-9deb-5dfe47ead62d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7d090155-4c40-4ca1-b22f-0d9e918a30c8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7d12cc83-2bc5-4432-9c85-800a3b9ec49c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7d41b1bb-a6fd-46b9-bc8e-2444a36b87bc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7e2d7919-50ce-4de6-966c-5c254bc820da> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7e416d5d-646e-401d-9a77-8f3121e2ede4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<7f243607-46f9-4e68-9e8c-edfbc20780a2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<80288872-8857-4fe7-8910-402e9b10f032> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<805a4479-8b5f-4bc1-b453-cb2602b71027> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<806c398d-1aed-4222-8ad5-16788469e61b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<80cb9df5-53f0-4486-a2b5-98c3ec2b6ef3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<80d114e5-ad80-4fb9-bcf2-7061464a73b4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<810fa293-a058-4a37-814e-19f83932ffa3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<81311acd-f386-4d94-8a71-7bbda97c9a0f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8167aa15-a981-44b5-9aec-323148dd981d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<81811806-9a21-49c8-aa86-ac3827ee1785> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8235e173-126e-4e16-9384-551df5b68136> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<828697df-465e-426d-afd7-e9dac2fb98eb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<82d31a83-c3c1-4251-9492-3a32e7dd5a7b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8324847e-548a-4969-ab1d-b543192a7667> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8371994e-7bbd-4f3b-ba9f-df2c91f3edb2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<84067b90-68d0-411d-90ba-188cb6f10969> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8406f662-5b57-4660-9c27-2e7a2f3c2b1e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8441f894-85c7-439a-9b1f-e550e90944a3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<84b77b63-0406-4e8e-9584-6ca1a61a87f0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<84e73873-d6df-49c1-94b1-9ffed6ff95ed> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<852ac1c5-bcc1-42fb-a94a-2c0b6f366725> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<85640202-dca0-4624-9e20-c7781d5af4a1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<85dc5bef-ea48-4ab3-a591-25319c4d693d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<86399fe8-070e-4583-ac65-f9592ff1a142> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<868c143a-8d82-4568-8c27-5985c5f29586> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<874201a6-c70d-4542-bfbb-90ddbf4b2484> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<87a36dee-705d-4f12-a677-51fe3f5e1b4a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<884c5e75-c5a3-4e7c-8e34-d99a89056e20> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<88662176-035a-41e6-a1ed-ed210b3dfacc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<894266c5-f427-4d36-9b25-b5899f69e164> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8963e5d5-b5d2-4cdc-a78e-bf23f2ea4000> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<89678d01-ad01-4fd0-aa0a-7a1e08825997> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<89b1d6af-5534-4032-8b18-392b867b5e5d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8a065e59-35da-4ac3-b249-d78c3d4f006a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8a130e48-7842-48f1-abb7-0e4463a54bd4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8a55bb57-6452-403b-8764-fc8d0a1c830d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8b5154ff-8426-4864-ab65-70c5352e4f78> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8b5bedcb-e979-4091-9ad6-7b5d5468d669> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8b674ab3-6212-4e65-bc3d-73620e3a8008> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8b71e9b7-5784-4a70-89e4-7de6fe96dc76> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8b7e1e18-fbb1-40dd-aa6f-be8e2eb0603e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8b9fa827-8ed7-4e7a-a688-fe07212ea163> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8bd05838-a4e7-40ab-aa5f-0b7d74ff744e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8c3a7217-a6a3-44c0-b8d9-0ef3006e2adb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8cc63d53-69dc-47fe-b3f7-97f184f9191d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8ccd684f-c801-4f33-b5cc-830743adddde> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8cdce868-f1fa-4a42-b0e2-5dcced3ef5c8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8cf285ea-b5e6-4e80-a787-b2285b0b5412> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8d598c40-951c-49a4-8b37-554738b2cf7a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8dab7e7e-8541-4b69-a314-7d0f1a1a07e5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8e4d6a75-a39c-481e-82a0-1924ae692711> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8ee2901a-8380-4a86-a2da-556c2dcba60a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8ef3eb27-dd07-4ad7-9f35-165e2b5901bd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8f2700ab-d4f9-4443-abf5-f9919fd9bc4f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<8fb1bd13-4f70-4a66-91c4-c85ab3870f88> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<905c4b16-a4f1-4811-9b1e-f28a75e4a28c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<90d0340f-9289-4b7d-ab8e-6be7983c1b0f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<90d404df-faf2-4974-afdd-f9bb16ab9761> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9204b139-4778-4603-94a7-175f12eac63a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<926f5dc0-59e3-4e37-9dd7-59f498171037> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<929c5c06-1826-47ab-8b10-520e3a74052f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9336e734-d500-45cf-8298-e1b740b65e5c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<93815fef-a69e-4f24-a9fa-7971237fffd3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<93d8a34a-8298-4d82-bf51-1b0e7b527904> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<946f4c46-555e-4ad6-8892-c421630e55c0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<94738490-65b0-4e46-956b-821b192cdb22> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9498acc7-5772-4e8c-b68c-b305efd0ea04> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<94bc7cbc-786e-43ad-b719-2a596be433e4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<95002ff8-ebcb-49c4-b11f-c2598dea6802> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<95126d49-74b6-4f20-9350-8f7acd621ec1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<951bed50-c4ab-400d-a49b-1d8de9ff9ee5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9529c03c-45a9-4cda-bf65-ffc3a69bca4e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<95844ef8-e83c-44f5-888f-00ea91586229> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<96ed3977-8b50-41bc-b211-b26c7aaeda02> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<970aae9f-933b-47cf-8a94-7dd4f37de6e3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<98069de8-c2c8-43e5-a7d7-9b3f357a04eb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<982c74fb-ef29-429b-adef-d22c1ee9c574> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<982eb5fb-7375-4006-810a-66f53d1f68e3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9857e3cf-ab99-42a8-ad19-c12177714b2a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<98688982-e088-424a-b2a3-b9221904f0d4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<989d739f-f887-4f78-86ad-6da9b2262def> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<98b89741-e5ad-42b8-8bdc-5ee0b0ad3465> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<98f0df21-d6f0-451b-b42c-02b4aa29aa55> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9919b7d2-7707-4784-afb9-38ef6b6fc179> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<994ae5c3-b155-443d-838e-64b292a88ff4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<998335f1-406f-4c84-b4f7-2c39bb78a288> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9a221c74-6ee1-4082-8caf-5ca0491e8db0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9a47046a-3455-4195-af90-3112bf8d2049> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9a819669-48c6-4165-9322-78592e5b2f6d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9b233b2d-2230-4b22-a06f-6bbe037909d6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9b715460-4d6b-4f37-a0c0-973db843eb3b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9b949136-a309-4daa-9d7f-e8315fb4c193> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9bd7f8f7-247d-41f0-b8ff-5486602856d1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9c36c415-97ca-4db8-ad56-21c56074aff6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9c4fb1b0-7828-4142-b206-1b63a9b88ff9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9c817377-42b9-44f8-8d2a-67edb9c01cbb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9d0cdfcf-dd6a-4942-9947-881ba2510dcc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9d41b013-ecc3-47b7-a618-74afcf51a4d3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9ddba6ae-c169-43ae-a8f8-cf4abf376b26> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9dfab7b8-3f99-406d-8581-bf470776d84d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9dffba62-2258-48b6-b8e4-1f7998339008> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9e20e961-3120-469e-8adc-7cd4e0c509af> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9e28f423-2648-4fe5-8c83-349e87c6328c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9e8d1474-23d9-48df-8da1-d1641d070389> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9e98de5b-b1ab-448c-9979-c57ec3646fc7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9e9aba44-9cfe-40be-b33e-f1928c36c255> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9ef80ff4-b3eb-4044-950f-dff34c9c0767> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9ef96837-a1d9-46cb-b2ac-fa7fae6e78a6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9f563fac-d88b-440a-9134-cc0df861dc80> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9f78fc31-3139-470f-b660-3ce28c0b6272> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9f90f665-3380-4036-aead-a9e131a9ac93> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9fa86745-b095-4b78-a9be-e2ab08199edc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<9ff2e217-93c6-40c9-945e-d88021b44a3a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a04774dc-0020-42b4-9d2a-3c9e3d16b3e3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a06b3909-3bf5-4167-86c3-e672527226f2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a0fb4fe9-6b5c-4c7f-b215-cf637380e39c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a174a024-2e85-407e-a357-7af8779afffd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a17e5c87-cb13-4471-9297-191ebcf662aa> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a1dc80f1-07a7-4546-8936-c62135c8e5ba> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a20cdf1e-f6a0-4c21-947c-c7f83f184f32> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a23b6342-0092-4fa4-a049-88cee15e7d60> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a2632acc-3936-4613-b44c-809682422e0b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a2f66982-fdc1-4737-b980-df6bacdb1379> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a34b5755-6ab3-4637-8de9-12aae773b35c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a34fcb21-dcfb-430f-b431-0f44062d9121> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a3654747-1f64-43b0-baff-6af7f8373d7b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a3b88f3a-b328-4b3b-82eb-96c1c94928d1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a3b8df48-bbb0-4ddd-b3ad-d5085333f98d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a424c842-e4a9-4ead-812b-ee38ddb63a16> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a448dd1e-892c-473b-8863-d9a517b6fb15> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a4b75911-5ec2-48fe-a043-a1b86d105ef5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a4c2aa9d-b8a1-4b21-a012-98aea14e7961> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a4c663ec-bcee-4a76-a3e6-fe4288ac6a5a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a4fec5e4-74b5-4059-8b41-507705999af6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a59d5d6a-d0a0-4be5-a405-53164c23c89e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a600d279-2df7-40c7-97a1-e698a3701280> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a6215c2b-665d-42ed-b255-0a6657e62337> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a688b28f-9937-4d47-8b9a-62ce7c777f64> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a689ecb3-1e8e-425c-8c8e-95b4e6740540> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a77571b9-b59a-4489-b359-38a8a05058f6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a7ff31e7-b170-46a4-bc46-88e1980e7692> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a8289ce6-051e-4f6d-b5dc-10d8e9f3f343> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a847f269-a5b1-440f-94d4-b2c5c9c4870f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a88c10e4-a326-47df-a68f-ebd15ee428ac> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a8a93e97-bf83-47b1-a9e4-cf48c9c3b244> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a8f681f1-e4e3-4837-bae6-6caa4743958e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a904822f-bf61-413e-a889-e258074d72a8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a9127f49-922f-46f5-a4e7-ce9e8c7e168d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a92f0a90-0291-45c2-a3dc-f7f4c26f8be4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a931bb19-8958-4e0d-bd18-0a54f1665509> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<a9e389a6-4659-44e2-a132-afb69a287ff1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aa6c12a4-9e94-4479-b435-179df9194387> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aa777bd9-ea6b-4fb3-9f86-667558cb0672> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aa9e309c-09d7-4ec2-bb4c-d463ebb5f7f4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aaaef701-0e9b-458b-a1bb-48154dd75e01> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aabca991-a21c-4833-896a-aa795cb1d5e5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aacab558-0eb8-4fc3-96a6-427ec9ced18c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aafd4c61-b0cc-4dde-add9-681f8a029ffb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ab209b94-7342-48a8-bd19-af259bde2ab8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ab434427-cb5c-46a4-bbb6-9e0349452af2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ab674a6b-20f1-4b7f-9533-91bad70317f8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<abc8b9d7-fad4-48cf-916d-999efa1e9d82> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<abd5bae0-9af6-4103-a8f5-daf6f611c7a1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<abf9b83e-0828-4e3a-ada1-a022c2a92882> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ac654ec5-dbcf-4382-bdfa-17a9d2571b69> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ac953971-a357-43f5-8575-ce166e0ac700> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ac988716-1653-4ba7-a6e1-3aaaa44e32db> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aca31920-ce1d-4916-8a18-9688ba94d04e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aca8d769-b2ec-4daa-8a98-60813d5f892f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<accc8dd7-f2f3-44f0-b6eb-38e2fbace53f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ace24beb-1ee3-4f72-a519-b9d852a266af> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<acebe4fa-4846-4b70-8b35-0612691e1463> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ad4df46e-e8b3-448a-8de0-348e1c3a97d4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ad9a31e1-ace3-43fc-b194-f86e4968c88e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ae898c78-b0e8-4d21-b934-d6b0cc2d5c24> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aeb290b7-fd97-4f77-9951-faf638372622> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aec3ca09-febc-4d6a-9bcb-83fc95aed24b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<aed770b8-4e13-4eac-b422-2d8c3287c390> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<af0ebc89-1725-4e34-81fc-bb7da4d6f4e6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<af30f149-2340-425a-9b7e-82523dcb8dec> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<afa9e15c-371f-4bc7-adea-dac79c1899d2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<afe36cc5-cdf0-4bd6-aacb-5f874fd737e3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b0c1deae-5591-4ee5-afa5-b7e2c9035100> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b0e31a3f-af24-4327-9552-796d7de5ad0d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b0ed089d-5d55-4d71-b793-4eedda645cab> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b13964f5-514b-47bc-af59-723039242f48> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b21dc31e-495b-444d-9e45-2bbb344d499f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b22a765a-977f-4a9d-aca4-7135db9b0d86> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b250d553-929a-4c7d-853d-c1b076a96219> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b28a91ad-5394-45c9-8610-6bd042cbd6ae> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b2921c4c-1de0-4aa3-b9ae-791f12c30e02> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b2bff17a-913a-4a1a-a5e2-8660279b1993> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b2ccc68a-7e1a-4b9e-b4bb-465d1a510bd1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b2fb586e-75be-4f56-8571-17cdacb62a22> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b33cd483-310d-4dc6-b656-cc47c653e414> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b38ede71-4c45-4fe1-b102-a847c9c50ebb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b42832fa-8f4b-449c-a9ff-dbd3c3c5991d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b4b5c041-35ab-4b5f-b0ce-1a73eafd221d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b54d7434-44f8-4b01-b2ed-6cf88ea680a2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b59004f6-01de-4d9a-8f47-1055a612f269> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b5a887f9-3e66-440a-816a-d3e6d4cadd60> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b5f10773-9b87-46e2-9591-9339a7e3cfb0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b63c5d9c-d42f-4c82-89b0-7840650ea67f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b65f095a-964c-4672-96f5-23cbc379a9d9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b67d31cf-d75d-42bd-92cc-0b7e0174f0ee> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b6c43a6a-0c76-494a-b16d-97938e71ae4a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b771c0e1-ba44-47c7-969a-6262469ca0d1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b821ee37-b1b1-49e0-968c-9a44ab8a606e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b841d1ee-2504-4771-862f-5e9afdbbb50e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b8f55033-e321-422f-84cd-f3ca718b58bc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b93dba75-665e-4368-992b-3477a4d76e65> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<b94ba44d-c56b-4940-a6ee-a50555836da4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ba0c758a-591d-438a-a7bd-795038698afb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ba768c48-316a-44a7-938f-2103233d48b4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<baef12c3-3118-484d-8dbb-2aaa1454ba29> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<baf98c39-6eba-47cd-89f9-55d4754d7fd8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bb599e8d-36e8-4656-b8ef-75261f8e5f31> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bb7fa1d7-9fd5-436b-879f-a00d0420833b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bba78b84-1d20-4315-9fa1-8822470f034d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bd2ea488-ba1a-4e50-86e0-9e02dcbbfc47> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bd4986a6-3976-41f4-b650-a39cabbc1a4a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bd58933a-4232-4c0b-a34a-60ba0c35639c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bd8d0ccb-b28a-4708-b396-a2383170976b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bddc01b1-187c-427f-b55a-76f6c170807b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<be876f76-bfaa-449f-81a0-4c58d5bf22af> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bf4a0b43-e75c-465e-8942-fabb95565772> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bf513607-87b0-4272-b5c6-5c861e6e4510> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bf5df60f-9aa2-4831-bbb7-b1ebd0416db2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bf719cc6-d736-456d-9e77-67d7ba5ea54e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bf8079be-68bc-4858-bba2-b703d5aaa65b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bfb7d490-3cfb-499d-83fb-d0d8679a9312> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<bffd85c4-0b36-4d7d-adff-7bc14604048d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c0386181-7bfc-46dc-8554-fbecbf17a42c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c04b05fb-c8c7-4eac-8137-fd2a85ffb768> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c0684cb9-a56c-4bc2-b893-692284b3a4b9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c0787e4b-3c6e-40bf-ac9e-afae5e70af02> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c0b0b138-67af-42b6-aec9-6fa2a5ff36e6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c0bcd4c0-3cf6-4b92-9b1c-b14fffb8f527> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c0d07fda-d5fb-4316-bd29-758b711b1892> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c0e43616-5782-4db9-831a-9da8d5b742e9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c1519eb6-7c55-485b-bb7d-c40008b80eec> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c156b674-7e41-471e-8941-9b6001d189d8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c18a3c32-381f-49a9-a813-c49f154bfcd6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c1d4a551-e433-4858-b5cb-04179f58afbf> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c1e940a6-68a7-4211-ba1b-d5aa19b563af> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c1ec6f92-4a81-4b1b-ad51-c4e9b6716587> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c270a31c-9af6-4809-8e40-e9dbfe63e99f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c31a6941-bac5-45a3-8df4-2f18ec04da5a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c36deec2-bb4a-40e5-9b0d-6e7a2b4b6da4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c386238e-c05b-4bb8-a83b-374508b8093e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c4069177-ef8e-4439-8f51-7c7742f5e2e8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c40c0926-9446-4cc4-9f3b-de7231d7bac2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c40d4eb7-8bfe-467f-ad95-54e349c623c4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c53280d6-64e6-4017-91a3-449d3a878ecf> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c56c1c95-d4bd-45ad-ac2a-e126a65899b5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c5d18566-6c02-4054-a803-6e099939e528> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c5f6a8f4-d76b-43ce-adf0-8030faf299d1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c60f8966-365c-4b04-89a8-b94923718ec1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c60fc3db-98b6-47cb-9bc1-b93cb641b142> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c616e34f-d98f-4f47-8d71-c4558edb097a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c666c52d-e357-459d-86fb-731517150fca> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c70f1906-2699-441c-b0f7-4e5245dc1f59> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c779f7d4-e0ed-4c80-bf13-e642673a8fa7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c855cc7d-ce71-48eb-ae7d-d6098fdf5d3c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c8730854-d5ac-4cc2-bb90-dc8017acdc32> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c9620faf-240e-48d3-a181-929a661dd410> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c966125a-b350-4c53-9564-54ae739eb542> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<c97b13a4-2074-4b6b-88c8-85fff9603c3a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ca06b2f5-0d4a-44b9-a580-4138eb26e4c0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cb3396ad-9860-4058-b699-88783b4de961> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cb5d087c-cd0e-45e5-b430-b042041bf53d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cb6df32a-9be7-4db2-af29-c107d65597e6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cc156e7d-6451-4b7e-8244-3bf8cca53748> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cc198bcc-3c00-4252-8ecf-54f4ca640d25> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cc5635be-8186-4927-872e-96829e46c2ce> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cc68e94c-38ea-48dd-b930-c1ffd5de812e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cca5eee0-cebc-4ae1-bfdf-5c8d490cd805> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ccfd78c7-4888-45af-9c35-22d753ae6bd3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cd3b9fd6-b695-42c7-8831-173cdb6192cd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cdc3c1cd-3693-4408-9ea2-250fe71a85ef> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ce2543fd-302d-4005-9d3d-29790c54ebdb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ce94d02b-9b38-4d25-8761-5d18415fd905> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cea79e3a-f851-45d7-9365-2948ca633a18> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cee4b379-3af0-4019-b0c2-67d692ad0f9c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cef0b338-b023-4192-a0de-f325dbef4296> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cef2f479-e671-4dde-b6ba-4416b045f6c8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cef56b83-eb1b-4f4d-aa61-17bf41461785> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cef5b76f-1057-4bc9-8be0-81b4abab04a3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cf2db87a-0076-4fe1-a518-77160fea4617> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cf4b1add-9922-4cc5-8b8d-08d7d3f85c30> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cf8665b0-5eb2-4c26-b90a-caeb95fa4455> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cf957248-0a2c-4748-86d1-9603fe5b3ee2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cf96c255-0b49-4cc9-9483-0e5cd88b5ff8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cfbbf6d7-a90b-4832-99c2-62c6c8a1cb6c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cfe52bd9-393a-4a1a-ba82-9b71724318cb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<cfea501e-72c3-4843-8755-7b400d15f1ab> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d03b6ba6-bf10-4bce-a303-37e7c9d2f5d5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d04dba18-d8af-4838-9c03-64b3523fc8ab> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d07682bd-47bf-44bf-a907-6c04158e8972> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d0be9539-7fcc-4d9b-be39-e65b5d94f66f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d12a2532-564b-4639-8666-d9f7d28ff969> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d155e3f4-d01c-4c7c-816a-2440ad7045f4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d19f6a91-96b9-41f9-a13f-e49147f76128> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d1de387a-c1c7-467b-af38-730ed3040f9d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d2745b36-6de8-47a4-b3d6-4f4ecdfc2985> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d2b40511-0aba-4468-bb19-dfaac268854b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d3142907-274d-4af8-8e21-6d3493420b9a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d31676ce-b4de-4fab-bf0e-af191ea6b5d4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d3e7980a-e73f-42b4-a4ca-dd637ada9b6e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d42f4bde-bd5e-459b-8ebc-f601c48f59d9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d4c5b048-9365-435a-aeae-f09e07cdd26e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d4ddf243-bde5-4676-ac71-c8d7bb8512e2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d5112b4d-8eba-4c42-afd1-c0bad38b5c56> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d5822189-523a-4fe1-85a7-ec8ce5f75117> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d587680f-d224-43d0-b0e9-880aa5249189> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d5e5e1f7-18f3-4206-aac4-d009319ad0f1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d5fa29c6-c786-4a77-9ff5-d0f7f6160a41> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d61cdabd-f822-4dce-a42c-280a8a296d62> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d62afe58-411b-4bfc-af5e-32971bad2e57> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d639d4dc-5505-4a14-8074-90bbcb7fc810> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d6654be6-80f2-4610-8d7f-9963d4d0c83d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d68e93e6-73ad-421c-9e14-64e0780989af> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d697c9aa-4fca-4b84-ab99-e533b3b70f7e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d7584470-dec0-42c2-b86a-4100c83f800c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d83ca42e-8469-4fa6-a446-792e5eea657e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d8aa8586-37e0-45b9-b93b-e03f5db898d8> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d8af59c4-17fb-4c2b-943d-ad1a83fd6f63> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d8da8f30-0b36-48a5-a6db-43e7acdb1a06> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d94cdb1b-cf42-4cd1-a764-50e616f5ec6d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d9b8d336-0a19-4099-aaa4-f52c8b6b19b7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<d9e1e4d6-c146-4d37-abe5-3d0f441da066> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<da21ccb5-ac76-45d7-ba44-57a00a7a8d3e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<daa6d136-e88c-486c-8e06-bfb3a32c9f28> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<dab0d035-9b61-4c1d-a4a7-5926876c1634> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<dada214f-06f7-4570-8b47-36dc29dbed75> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<db14f95b-a95f-409c-88ae-798a6f9b2e90> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<db713b1b-1441-43bd-a713-541b69ef82b4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<dce0d39c-9e33-42d3-9228-132318faf373> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<dcf92ae0-aa4a-4a76-9ffb-2b890882de07> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<dd17fc7a-1aa5-4817-b188-d2270604f5e9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<dd60d41c-f872-4ea4-b3bf-f4f1feffb9e9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<dd6e4106-75de-44d8-949a-44443504fe46> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<dd707a8e-c7bb-4bc3-a4f0-58c4531da161> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ddb6a0f0-1530-4b55-ba54-a7ab821b5cea> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ddc2df58-72bf-46f7-99b7-d055ca6d580d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<de3421ae-3201-45d9-a1ca-0222f6391045> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<de802267-422e-4c57-af66-2e64b0e7551d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<dfc8d286-93b1-4bfe-97c8-b4abbb54aa93> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e00d2609-01c1-4e7f-91d0-b6c3d24a95bb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e06a2cf7-2419-4bb6-8c9c-a456ba6c422c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e0b4098a-08c4-485c-b2ac-3330cadb2a84> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e0c7805b-e9b2-407c-baa5-13eb716fceec> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e0d0d065-9d66-4463-a514-08164302f259> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e13d40fc-41c8-45e5-8300-24b4c8732473> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e13fa21f-6a0c-4039-bda3-9ddcec53fb09> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e1e0e9c7-54b4-4fac-b794-5adec9fccdc4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e2005519-08e9-4e84-99ed-b34f2c88ebd7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e2c1a5f4-ed28-4fa4-bfc4-925dbca510ec> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e365bd5e-67e4-4709-99fe-6342defb3431> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e36ce520-5d16-4144-9338-12a874d3fea5> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e46c7688-532d-4e3b-85e5-52620196121c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e5bb68d8-e589-4615-8b0a-9390ef91a852> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e5ece087-5d7e-44ff-9e8e-de65a1a4df1d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e6220083-c56d-43f7-8e9c-06b309d60ad6> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e6236f57-f7c0-4e5f-9277-920e8385d005> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e64d65f5-fbb7-4d8e-a696-107bf65b0190> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e66c222a-b811-4238-9ae4-99b78c8ac73d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e678faa6-c1cd-4f0d-9403-31057da64772> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e6a924ee-a6ac-4553-8188-3b7ef57a556b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e75ade4b-fadb-4c5d-bd6d-d6046a861846> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e7715d3a-6959-4ca6-8b32-d5c8bbdf7511> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e78dbcf5-bd56-4465-b2ce-00b514d7c78c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e7b939ef-3e9f-4364-9298-4dea76e5bb18> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e8406b56-d241-46ac-b11b-20299bc44921> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e8d4f750-76f0-48cc-96d3-7e5505ccbbaf> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e8efc793-261f-4533-a9f1-d01b7eaaf874> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e90a472a-1273-4cd0-98f8-e17a44efdd32> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e92fc222-5aba-454d-8c39-a3bfa7e0fc85> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e95ed69d-6a6e-43c5-9927-79ab3230c36b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e97bdd3b-e57e-4f0c-a683-52851b9d7561> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e97daf7b-704e-4308-a891-996c664b2953> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e9c70b61-e2f3-42f0-9353-6f1206298478> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<e9e73b6c-1bbf-4762-86cc-40b2fbb4862b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ea095e1c-3297-4f02-967f-aae5b45f8f59> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ea694548-ed41-4e3d-80af-299d7ee18c18> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ea6f003a-883d-4d50-a55f-5560504187a2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<eaa648a0-e350-46f0-9218-5cd9ea93d21b> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ead34396-6338-40e3-a3f9-118f0458e81a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<eb1259bd-9aea-4f52-a845-6e9caa15b67a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ebbd3b9c-3519-48d3-b63a-375d71f95070> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ebd2ad10-4ecc-48c0-9524-05925686a20a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ecd2901e-7039-481e-969e-9dff2516d7e2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ecde7273-b3ae-4ebc-90ce-5f244a711209> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ed155f08-aec1-4f3e-8e01-a287c765bdcd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ed9ccb74-f6ce-46a2-9ef7-e6749ce604e2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<eee5e9f2-dde3-4f8f-ba58-777abc01b578> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<eeeb2c72-8c5b-486e-a1f3-cc81fd1777fc> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<eef2a61f-5fc3-496f-88c0-71c086e56756> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ef0c3b16-2a8c-44aa-a9b6-37aced644dc3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ef309f00-bf11-4ed1-9c1a-ad6cd34b1b16> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ef3bd04f-f31f-43fc-b1cf-199503bf26b1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<eff9304a-1df4-4c76-bfa0-48d7fd2af9ef> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<effb4dd3-52b6-4a09-9c85-11ffc7a8297f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f0212b75-78b5-4877-bb15-376d61bb1632> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f0292e4c-b083-437d-b8a3-47d78561ff8d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f04bcc1a-f7ce-4b96-abf0-f8d8683cd4bd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f0c38391-8d25-439a-bbbf-d00a7a5e8a9f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f102ca06-4409-4a54-afaa-6edfee53e07a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f13a20d4-ba76-450a-bddb-e6f4ad75816f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f16bc583-c2d4-49c2-8d88-0e55b77e3c48> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f1ae9746-9843-4470-9a0d-33db78b29267> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f1d995a8-2be2-43f6-984c-110943952acd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f218e877-c4c6-4c21-b95b-93b153114317> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f26e5108-2089-4e37-94f1-36a1fd890070> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f278d480-6ef0-464d-9ebd-b9ffc3b05beb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f2dcc3f2-3d9a-4e4b-af5c-1ea7affa63ef> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f2e90340-5a86-4132-b5d8-57ee1bd8cb46> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f31343d4-ad46-4697-818a-40dfdf70f1ec> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f33e3642-93e9-4846-8a6e-dfec2512f3fb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f3a717a6-5a20-4bf4-95b9-ab5cdbcdae9e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f3d9f6bc-93cf-45fa-b212-aeba37f01675> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f4437ccb-ba63-44af-af9b-e0d98bb6f089> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f45fa62d-f2a0-4a06-aba2-5feacfbdc456> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f507a64b-e726-4aa7-b791-915d2465313a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f592ef7d-fe16-421b-961f-cb1911c3dca2> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f5e0ccf0-f3d7-416f-bed0-f012316cb52e> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f5f2db82-3c3a-41ba-b970-a70b17032844> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f6017a81-164f-44c3-bdf9-91b7f6a1f1e1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f6358e4b-0f9f-4db1-be08-b70f4c658873> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f65cf591-e818-4342-925e-2ccfa5acad23> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f670e34f-9720-4b50-9374-f90d4e40b65f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f6e4fd25-9bde-4496-9fb1-a36e17001808> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f71e9cfc-9c5e-4cf4-b626-c2861deb8da9> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f76ccafd-aaf3-402d-b5c3-c63f2c1639cb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f8227f9d-0ec0-49d7-96e8-c514c834f0ae> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f882af3a-2553-41a1-b471-cbd7161304bb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f8ae14e8-df0e-4c57-8043-5579b798e666> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f8f1d131-c069-486b-a6be-4752438c4cdd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f8fe19b6-68b3-4836-ba49-e83f1b759c4c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f992725e-cf71-4b30-954b-2a9617f067d4> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<f9c48d02-26f1-4497-9471-f672eafec3fd> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<fa4a2173-c29e-4037-a569-0a1b8821d7d3> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<facb2bd2-8c93-4e7e-a429-c2f54b0d1837> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<fb2e54b1-1e39-49c9-ab55-781b4969179c> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<fb4f64a6-b645-4011-a220-03892d32ee7f> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<fd0693ae-40ac-42e2-805b-7f7cb92da83d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<fd25c9ab-9df9-411f-9bf7-11cb826116ac> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<fd927d46-0da9-4ef7-8b27-c9d901509fb0> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<fda64254-908c-4aea-b6b6-d9763a66388d> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<fe92f03f-c73c-4259-a1bb-8b9255962eb7> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<fe9d4ba7-6733-4465-b32c-5a7f5fee4242> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<feef9ef3-1f12-45ea-91cb-b717f8b50307> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<fef945fb-a344-490f-b446-339f4126a8da> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ff2ed7c6-1040-4b9b-873a-4663c9b72b09> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ff5906b4-13a3-415b-b8a7-6e3976296aeb> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ff59f959-51a6-46ad-a50f-dab19fd70d57> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+
+<ff7ed94b-225c-401e-a51a-dd9ec6a0594a> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> .
+

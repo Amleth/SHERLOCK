@@ -1,0 +1,18 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix polymir: <http://data-iremus.huma-num.fr/ns/polymir#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+polymir:polymir1
+    rdf:type OWL:Class ;
+    rdfs:comment "" ;
+    rdfs:subClassOf crm:E13_Attribute_Assignment ;
+    # rdfs:subClassOf [
+    #     rdf:type OWL:Restriction ;
+    #     OWL:onProperty ecrm:P30_transferred_custody_of ;
+    #     OWL:someValuesFrom ecrm:E18_Physical_Thing
+    # ] ;
+    skos:label "Annotation de dissonance"@fr ;
+    skos:notation "polymir1"^^xsd:string ;
+    .

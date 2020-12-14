@@ -6,6 +6,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdt: <http://data-iremus.huma-num.fr/datatypes/> .
+@prefix she: <http://data-iremus.huma-num.fr/ns/sherlock#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <f4f3476e-3551-4633-8f9b-2ef564e63155> a crm:E21_Person .
