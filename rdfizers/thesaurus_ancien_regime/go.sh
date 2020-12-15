@@ -2,5 +2,6 @@ rm -rf out
 mkdir out
 touch cache_personnes.yaml
 python3 personnes.py\
-    --rdf ./sources/thesaurus_personnes.rdf\
-    --ttl ./out/personnes.ttl\
+    --inputrdf ./sources/thesaurus_personnes.rdf\
+    --outputttl ./out/personnes.ttl\
+    --corpus_cache faux_cache_corpus.yaml\

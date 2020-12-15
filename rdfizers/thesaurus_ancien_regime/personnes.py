@@ -1,4 +1,5 @@
 import argparse
+import hashlib
 import os
 from pathlib import Path, PurePath
 from types import prepare_class
@@ -6,10 +7,12 @@ from rdflib import Graph, Literal, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, 
 import re
 import sys
 import uuid
+import yaml
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--rdf")
-parser.add_argument("--ttl")
+parser.add_argument("--inputrdf")
+parser.add_argument("--outputttl")
+parser.add_argument("--corpus_cache")
 args = parser.parse_args()
 
 # CACHE
@@ -18,14 +21,18 @@ sys.path.append(str(Path(".").absolute().parent.parent))
 from cache_management import get_uuid, read_cache, write_cache  # nopep8
 
 cache_file = str(PurePath.joinpath(Path(".").absolute(), "cache_personnes.yaml"))
-read_cache(cache_file)
+
+# Lecture du cache du corpus
+cache_des_uuid_du_corpus = None
+with open(args.corpus_cache) as f:
+    cache_des_uuid_du_corpus = yaml.load(f, Loader=yaml.FullLoader)
 
 ################################################################################
 # Initialisation des graphes
 ################################################################################
 
 input_graph = Graph()
-input_graph.load(args.rdf)
+input_graph.load(args.inputrdf)
 
 output_graph = Graph()
 
@@ -71,7 +78,7 @@ def ro(s, p):
         return None
 
 
-def rol(s, p):
+def ro_list(s, p):
     try:
         return list(input_graph.objects(s, p))
     except:
@@ -82,7 +89,7 @@ def rol(s, p):
 ####################################################################################
 
 
-indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-z]?_[0-9]{1,3}"
+indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
 
 for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
     dcterms_identifier = str(list(input_graph.objects(opentheso_personne_uri, DCTERMS.identifier))[0])
@@ -92,7 +99,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
     t(E21_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
     t(E41_uri, RDFS.label, ro(opentheso_personne_uri, SKOS.prefLabel))
-    altLabels = rol(opentheso_personne_uri, SKOS.altLabel)
+    altLabels = ro_list(opentheso_personne_uri, SKOS.altLabel)
     if len(altLabels) > 0:
         for altLabel in altLabels:
             E41_alt_uri = she(get_uuid(["personnes", dcterms_identifier, "E41_alt", altLabel]))
@@ -103,7 +110,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
     t(E21_uri, DCTERMS.modified, ro(opentheso_personne_uri, DCTERMS.modified))
 
     def process_note(p):
-        values = rol(opentheso_personne_uri, p)
+        values = ro_list(opentheso_personne_uri, p)
         for v in values:
             if "##id##" in v:
                 v = v.split("##id##")
@@ -111,17 +118,37 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                     if v:
                         m = re.search(indexation_regexp, v)
                         if m:
-                            clef_mercure = m
-                            # On peut faire l'indexation
+                            clef_mercure = m.group()
+                            # Un truc du genre F2_article_uuid = get_uuid(["F2", "article", clef_mercure], cache_des_uuid_du_corpus)
+            elif "##" in v:
+                v = v.split("##")
+                for v in v:
+                    if v:
+                        m = re.search(indexation_regexp, v)
+                        if m:
+                            clef_mercure = m.group()
+                            # TODO, comme en haut
+            else:
+                note_sha1_object = hashlib.sha1(v.encode())
+                note_sha1 = note_sha1_object.hexdigest()
+                E13_uuid = get_uuid(["personnes", dcterms_identifier, "E13_notes", note_sha1])
+                # TODO (2 x P14 : Nathalie & Isabelle)
 
     for note in [SKOS.editorialNote, SKOS.historyNote, SKOS.note, SKOS.scopeNote]:
         process_note(note)
 
-    # skos:exactMatch
-    # skos:closeMatch
+    exactMatches = ro_list(opentheso_personne_uri, SKOS.exactMatch)
+    for exactMatch in exactMatches:
+        if exactMatch == "https://opentheso3.mom.fr/opentheso3/index.xhtml":
+            continue
+        t(E21_uri, SKOS.exactMatch, exactMatch)
+
+    closeMatches = ro_list(opentheso_personne_uri, SKOS.closeMatch)
+    for closeMatch in closeMatches:
+        t(E21_uri, SKOS.closeMatch, closeMatch)
 
 write_cache(cache_file)
-output_graph.serialize(destination=args.ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
 
 sys.exit()
 

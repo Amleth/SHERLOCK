@@ -1,3 +1,4 @@
+touch cache.yaml
 rm -rf ./out
 mkdir ./out
 python3 jsonizer.py\

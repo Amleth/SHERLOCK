@@ -13,15 +13,28 @@ def read_cache(file):
             cache = _
 
 
-def get_uuid(key_parts):
+def get_uuid(key_parts, external_cache=None):
     global cache
-
-    key_parts = [str(k) for k in key_parts]
 
     if not cache:
         cache = dict()
 
+    if external_cache:
+        value = external_cache
+        for i in range(len(key_parts)):
+            k = key_parts[i]
+            if k not in value:
+                raise Exception(f"La clef demandée {str(key_parts)} n'existe pas dans le cache soumis.")
+            else:
+                if i == len(key_parts) - 1:
+                    return value[k]
+            value = value[k]
+    if external_cache:
+        raise Exception("On ne devrait jamais être ici.")
+
     value = cache
+
+    key_parts = [str(k) for k in key_parts]
     for i in range(len(key_parts)):
         k = key_parts[i]
         if k not in value:

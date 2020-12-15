@@ -84,6 +84,9 @@ for row in ws.rows:
 
     def w(o, must_not_diverge, column_name, data_key):
         value = r(column_name)
+        wv(o, must_not_diverge, data_key, column_name, value)
+
+    def wv(o, must_not_diverge, data_key, column_name, value):
         if not value:
             return
         if data_key in o:
@@ -124,10 +127,11 @@ for row in ws.rows:
 
     if not r("identifiant_1"):
         continue
+        # TODO : on en fait quoi ?
 
     # ÉLÈVE
 
-    eleve_uuid = get_uuid(["élèves_identifiant_1", r("identifiant_1")])
+    eleve_uuid = get_uuid(["élèves_identifiant_1", r("identifiant_1"), "uuid"])
 
     eleve = data["eleves_identifiant_1"][r("identifiant_1")]
     w(eleve, True, "identifiant_2", "identifiant_2")
@@ -312,13 +316,86 @@ for row in ws.rows:
 
     # PARCOURS CLASSE
 
+    # AMLETH Dans un premier temps, on n'utilise pas les _TDC du tout.
+
+    # On doit absolument donner une identité à chaque parcours_classe.
+    # parcours_classe_uuid = get_uuid(["élèves_identifiant_1", r("identifiant_1"), "pc", r("classe_discipline_categorie")])
+    # print(r("identifiant_1"), r("classe_discipline_categorie"), r("classe_nom_professeur"), r("parcours_classe_date_entree"))
+
+    # parcours_classe_statut_eleve
+    # parcours_classe_motif_entree
+    # parcours_classe_date_entree
+    # parcours_classe_date_sortie
+    # parcours_classe_motif_sortie
+    # parcours_classe_observations_eleve
+
+    # parcours_classe_statut_eleve_TDC
+    # parcours_classe_motif_entree_TDC
+    # parcours_classe_date_entree_TDC
+    # parcours_classe_date_sortie_TDC
+    # parcours_classe_motif_sortie_TDC
+    # parcours_classe_observations_eleve_TDC
+
     # CLASSE
 
-    classe_uuid = get_uuid(["classes", r("classe_discipline_categorie"), r("classe_nom_professeur")])
-    classe = data["classes"][classe_uuid] if "classe_uuid" in data["classes"] else defaultdict()
+    classe_uuid = None
+    cdc_v = None
+    cnp_v = None
 
+    # DÉMARCHE : Détecter les lignes mixant informations TDC & non TDC. La démarche est de construire une classe, en piochant les infos en non TDC & TDC
+    # NOTES :
+    #   -  cdc and cnp and cdc_TDC and cnp_TDC n'existe pas
+
+    # Identification des identifiants partiels
+
+    id1 = r('identifiant_1')
+    cdc = r("classe_discipline_categorie")
+    cnp = r("classe_nom_professeur")
+    cdc_tdc = r("classe_discipline_categorie_TDC")
+    cnp_tdc = r("classe_nom_professeur_TDC")
+
+    # On recherche d'abord les cas foireux sur lesquels on veut planter
+    # Cas où on a 3 valeurs parmis cdc cnp cdc_tdc cnp_tdc
+    if cdc and cnp and cdc_tdc and not cnp_tdc:
+        print(id1, "cdc & cnp & cdc_tdc & not cnp_tdc")
+    elif cdc and cnp and not cdc_tdc and cnp_tdc:
+        print(id1, "cdc & cnp & not cdc_tdc & cnp_tdc")
+    elif not cdc and cnp and cdc_tdc and cnp_tdc:
+        print(id1, "not cdc and cnp and cdc_tdc and cnp_tdc")
+    elif cdc and not cnp and cdc_tdc and cnp_tdc:
+        print(id1, "cdc and not cnp and cdc_tdc and cnp_tdc")
+    # Ensuite on cherche à constituer un id pour la classe
+    # elif cdc and cnp:
+    #     cdc_v = cdc
+    #     cnp_v = cnp
+    # elif cdc_tdc and cnp_tdc:
+    #     cdc_v = cdc_tdc
+    #     cnp_v = cnp_tdc
+
+    # if cdc_v and cnp_v:
+    #     classe_uuid = get_uuid(["classes", cdc_v, cnp_v])
+    # if not classe_uuid:
+    #     print(f"Pas d'UUID de classe généré pour {r('identifiant_1')} (ligne {i}).")
+
+    # r("classe_discipline"),
+    # r("classe_discipline_categorie"),
+    # r("classe_nom_professeur"),
+    # r("classe_nom_TDC"),
+    # r("classe_discipline_TDC"),
+    # r("classe_discipline_categorie_TDC"),
+    # r("classe_type_TDC"),
+    # r("classe_nom_professeur_TDC"),
+    # r("classe_cote_AN_TDC")
+
+    # data["classes"][classe_uuid]["uuid"] = classe_uuid
+    # data["classes"][classe_uuid]["discipline_categorie"] = r("classe_discipline_categorie")
+    # data["classes"][classe_uuid]["professeur_nom"] = r("classe_nom_professeur")
+    # w(data["classes"][classe_uuid], False, "classe_discipline", "discipline")
+    # w(data["classes"][classe_uuid], True, "classes_remarques_saisie", "remarques_saisie")
+
+    # classe_discipline
+    # classe_discipline_categorie
     # classe_nom_professeur
-    # classes_remarques_saisie
 
     # classe_nom_TDC
     # classe_discipline_TDC
@@ -349,3 +426,15 @@ with open(args.divergences_cursus_parcoursclasse, 'w', encoding='utf-8') as outf
 
 with open(args.json, 'w', encoding='utf-8') as outfile:
     json.dump(data, outfile, ensure_ascii=False, indent=4)
+
+# étude du clavier                  'étude du clavier\xa0?', 'étude du clavier'
+# trombone                          'trombone', 'trombone à pistons', 'trombone à cylindre'
+# trompette                         'trompette à cylindre', 'trompette'
+# Harmonie – accompagnement         'harmonie et accompagnement', 'harmonie', 'harmonie et accompagnement pratique'
+# étude du clavier                  'clavier', 'étude du clavier'
+# Contrepoint – fugue               'composition et contrepoint et fugue', 'composition et contrepoint'
+# Harmonie – accompagnement         'harmonie seule', 'harmonie'
+# trompette                         'trompette à pistons', 'trompette'
+# déclamation dramatique            'déclamation', 'déclamation dramatique'
+# saxhorn                           'saxhorn', 'saxhorn en si bémol', 'saxhorn tromba', 'saxhorn en mi bémol', 'saxhorn alto en mi bémol'
+# saxophone                         'saxophone alto', 'saxophone basse', 'saxophone', 'saxophone baryton'
