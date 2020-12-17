@@ -131,8 +131,14 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
             else:
                 note_sha1_object = hashlib.sha1(v.encode())
                 note_sha1 = note_sha1_object.hexdigest()
-                E13_uuid = get_uuid(["personnes", dcterms_identifier, "E13_notes", note_sha1])
-                # TODO (2 x P14 : Nathalie & Isabelle)
+                E13_uri = she(get_uuid(["personnes", dcterms_identifier, "E13"]))
+                t(E13_uri, a, crm("E13_Attribute_Assignement"))
+                t(E13_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  #Ajouter Isabelle
+                t(E13_uri, crm("P140_assigned_attribute_to"), E21_uri)
+                E13_notes_uri = she(get_uuid(["personnes", dcterms_identifier, "E13_notes", note_sha1]))
+                t(E13_notes_uri, RDFS.label, Literal(v))                    #Mais alors toutes les notes sont mélangées
+                t(E13_uri, crm("P141_assigned"), E13_notes_uri)
+                t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
     for note in [SKOS.editorialNote, SKOS.historyNote, SKOS.note, SKOS.scopeNote]:
         process_note(note)
@@ -150,33 +156,3 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 write_cache(cache_file)
 output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
 
-sys.exit()
-
-####################################################################################
-# Noms
-####################################################################################
-
-for opentheso_personne_uri, p, o in input_graph.triples((None, URIRef("http://www.w3.org/2004/02/skos/core#prefLabel"), None)):
-    # prefLabel
-    D21_uri = URIRef(iremus_ns[str(uuid.uuid4())])
-    input_graph.add((D21_uri, RDF.type, URIRef(crmdig_ns["D21_Person_Name"])))
-    input_graph.add((D21_uri, RDFS.label, Literal(o)))
-    # Attribution du nom
-    E13_uri = URIRef(iremus_ns[str(uuid.uuid4())])
-    input_graph.add((E13_uri, RDF.type, URIRef(crm_ns["E13_Attribute_Assignement"])))
-    input_graph.add((E13_uri, URIRef(crm_ns["P14_carried_out_by"]), URIRef(iremus_ns["899e29f6-43d7-4a98-8c39-229bb20d23b2"])))
-    input_graph.add((E13_uri, URIRef(crm_ns["P141_assigned"]), D21_uri))
-    input_graph.add((E13_uri, URIRef(crm_ns["P177_assigned_property_type"]), URIRef(iremus_ns["4a673f92-174e-41cb-b0e1-9c32985fa07c"])))  # Identification
-    input_graph.add((E13_uri, URIRef(crm_ns["P140_assigned_attribute_to"]), personne))
-    if (opentheso_personne_uri, "dcterms:created", o) in input_graph:
-        input_graph.add((E13_uri, URIRef(crm_ns["P4_has_time-span"]), Literal(o)))
-
-    # altLabel
-for opentheso_personne_uri, p, o in input_graph.triples((None, URIRef("http://www.w3.org/2004/02/skos/core#altLabel"), None)):
-    D21_uri = URIRef(iremus_ns[str(uuid.uuid4())])
-    input_graph.add((D21_uri, RDFS.label, Literal(o)))
-    # Attribution du nom
-
-
-turtle = input_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/").decode("utf-8")
-print(turtle)
