@@ -1,0 +1,6 @@
+--tei
+C:\Users\rebecca\Desktop\mercure_galant\xml
+--ttl
+C:\Users\rebecca\Documents\GitHub\SHERLOCK\rdfizers\mercure_galant\mercure-corpus.ttl
+--corpus_cache
+/Users/rebecca/Documents/GitHub/SHERLOCK/rdfizers/mercure_galant/cache_corpus.yaml
