@@ -45,6 +45,7 @@ g.bind("lrmoo", lrmoo_ns)
 # Helpers
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 
+
 def she(x):
     return URIRef(iremus_ns[x])
 
@@ -52,11 +53,12 @@ def she(x):
 # Création des données statiques
 ################################################################################
 
+
 # Serial Work
 F18_uri = she(get_uuid(["Corpus", "F18", "uuid"]))
 g.add((F18_uri, RDF.type, lrmoo_ns["F18_Serial_Work"]))
 g.add((F18_uri, crm_ns["P1_is_identified_by"], Literal("Mercure Galant")))
-## Work Conception du Serial Work
+# Work Conception du Serial Work
 F27_F18_uri = she(get_uuid(["Corpus", "F18", "F27"]))
 g.add((F27_F18_uri, RDF.type, lrmoo_ns["F27_Work_Conception"]))
 g.add((F27_F18_uri, lrmoo_ns["R16_initiated"], F18_uri))
@@ -89,11 +91,10 @@ for file in os.listdir(args.tei):
     livraison_F2_originale_uri = she(get_uuid(["Corpus", "Livraisons", livraison_titre, "Expression originale", "F2"]))
     g.add((livraison_F1_uri, URIRef(lrmoo_ns["R3_is_realised_in"]), livraison_F2_originale_uri))
     g.add((livraison_F2_originale_uri, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
-    ## Type = "édition physique"
+    # Type = "édition physique"
     g.add((livraison_F2_originale_uri, URIRef(lrmoo_ns["P2_has_type"]), URIRef(iremus_ns["7d7fc017-61ba-4f80-88e1-744f1d00dd60"])))
-    ## Type = "livraison"
-    g.add((livraison_F2_originale_uri, URIRef(lrmoo_ns["P2_has_type"]),
-           URIRef(iremus_ns["901c2bb5-549d-47e9-bd91-7a21d7cbe49f"])))
+    # Type = "livraison"
+    g.add((livraison_F2_originale_uri, URIRef(lrmoo_ns["P2_has_type"]), URIRef(iremus_ns["901c2bb5-549d-47e9-bd91-7a21d7cbe49f"])))
 
     # Date de l'expression originale
     livraison_F2_originale_E63_uri = she(get_uuid(["Corpus", "Livraisons", livraison_titre, "Expression originale", "F2_E63"]))
@@ -106,15 +107,15 @@ for file in os.listdir(args.tei):
     g.add((livraison_F2_originale_E63_uri, URIRef(crm_ns["P92_brought_into_existence"]), livraison_F2_originale_uri))
 
     # Facsimile de l'expression originale
-    ## Manifestation
+    # Manifestation
     livraison_F3_uri = she(get_uuid(["Corpus", "Livraisons", livraison_titre, "Expression originale", "F3"]))
     g.add((livraison_F3_uri, RDF.type, URIRef(crm_ns["F3_Manifestation"])))
     g.add((livraison_F3_uri, URIRef(crm_ns["R4_embodies"]), livraison_F2_originale_uri))
-    ## Item
+    # Item
     livraison_F5_uri = she(get_uuid(["Corpus", "Livraisons", livraison_titre, "Expression originale", "F5"]))
     g.add((livraison_F5_uri, RDF.type, URIRef(crm_ns["F5_Item"])))
     g.add((livraison_F5_uri, URIRef(crm_ns["R7_is_materialization_of"]), livraison_F3_uri))
-    ## Facsimile
+    # Facsimile
     livraison_D2_uri = she(get_uuid(["Corpus", "Livraisons", livraison_titre, "Expression originale", "D2"]))
     g.add((livraison_D2_uri, RDF.type, URIRef(crmdig_ns["D2_Digitization_Process"])))
     g.add((livraison_D2_uri, URIRef(crm_ns["L1_digitized"]), livraison_F5_uri))
@@ -123,7 +124,6 @@ for file in os.listdir(args.tei):
     g.add((livraison_D2_uri, URIRef(crm_ns["had_output"]), livraison_D1_uri))
     g.add((livraison_D1_uri, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
     g.add((livraison_D1_uri, RDF.type, URIRef(crm_ns["F2_Expression"])))
-
 
     # Expression TEI
     livraison_F2_tei_uri = she(get_uuid(["Corpus", "Livraisons", livraison_titre, "Expression TEI", "F2"]))
@@ -134,16 +134,13 @@ for file in os.listdir(args.tei):
     livraison_F2_tei_E42_uri = she(get_uuid(["Corpus", "Livraisons", livraison_titre, "Expression TEI", "F2_E42"]))
     g.add((livraison_F2_tei_uri, URIRef(crm_ns["P1_is_identified_by"]), livraison_F2_tei_E42_uri))
     g.add((livraison_F2_tei_E42_uri, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-    g.add((livraison_F2_tei_E42_uri, URIRef(crmdig_ns["P2_has_type"]),
-           URIRef(iremus_ns["219fd53d-cdf2-4174-8d71-6d12bdd24016"])))
-    g.add((livraison_F2_tei_E42_uri, RDFS.label,
-           URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant-{file[3:-4]}.tei")))
-    ## Creation de l'expression TEI
+    g.add((livraison_F2_tei_E42_uri, URIRef(crmdig_ns["P2_has_type"]), URIRef(iremus_ns["219fd53d-cdf2-4174-8d71-6d12bdd24016"])))
+    g.add((livraison_F2_tei_E42_uri, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant-{file[3:-4]}.tei")))
+    # Creation de l'expression TEI
     livraison_F2_tei_E65_uri = she(get_uuid(["Corpus", "Livraisons", livraison_titre, "Expression TEI", "F2_E65"]))
     g.add((livraison_F2_tei_E65_uri, RDF.type, URIRef(crm_ns["E65_Creation"])))
     g.add((livraison_F2_tei_E65_uri, URIRef(crm_ns["P94_has_created"]), livraison_F2_tei_uri))
-    g.add((livraison_F2_tei_E65_uri, URIRef(crm_ns["P14_carried_out_by"]), URIRef(iremus_ns["899e29f6-43d7-4a98-8c39-229bb20d23b2"])))                               ## A MODIFIER?
-
+    g.add((livraison_F2_tei_E65_uri, URIRef(crm_ns["P14_carried_out_by"]), URIRef(iremus_ns["899e29f6-43d7-4a98-8c39-229bb20d23b2"])))  # A MODIFIER?
 
     ################################################################################
     # ARTICLES
@@ -174,28 +171,25 @@ for file in os.listdir(args.tei):
         g.add((article_F2_uri, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
         g.add((article_F2_uri, RDF.type, URIRef(crm_ns["E31_Document"])))
         g.add((article_F2_uri, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
-        g.add((article_F2_uri, URIRef(crm_ns["P2_has_type"]),
-               URIRef(iremus_ns["62b49ca2-ec73-4d72-aaf3-045da6869a15"])))
-        g.add((article_F2_uri, URIRef(crm_ns["P2_has_type"]),
-               URIRef(iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"])))
-        ## Identifiant de l'expression
+        g.add((article_F2_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["62b49ca2-ec73-4d72-aaf3-045da6869a15"])))
+        g.add((article_F2_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"])))
+        # Identifiant de l'expression
         article_F2_E42_uri = she(get_uuid(["Corpus", "Livraisons", livraison_titre, "Expression originale", "Articles", article_titre, "F2_E42"]))
         g.add((article_F2_uri, URIRef(crm_ns["P1_is_identified_by"]), article_F2_E42_uri))
         g.add((article_F2_E42_uri, RDF.type, URIRef(crm_ns["E42_Identifier"])))
         g.add((article_F2_E42_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["b486f08e-4d50-4363-97b4-d4ea100818e5"])))
         article_F2_E42_uri_part1 = she(get_uuid(["Corpus", "Livraisons", livraison_titre, "Expression originale", "Articles", article_titre, "F2_E42_part1"]))
         article_F2_E42_uri_part2 = she(get_uuid(["Corpus", "Livraisons", livraison_titre, "Expression originale", "Articles", article_titre, "F2_E42_part2"]))
-        ### Parties de l'identifiant
-        #### Partie 1
+        # Parties de l'identifiant
+        # Partie 1
         g.add((article_F2_E42_uri, URIRef(crm_ns["P106_is_composed_of"]), article_F2_E42_uri_part1))
         g.add((article_F2_E42_uri_part1, RDF.type, URIRef(crm_ns["E42_Identifier"])))
         g.add((article_F2_E42_uri_part1, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["9b63d6ef-5c5b-4eca-92f4-76c083918129"])))
         g.add((article_F2_E42_uri_part1, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant-{article_id[3:]}.tei")))
-        #### Partie 2
+        # Partie 2
         g.add((article_F2_E42_uri, URIRef(crm_ns["P106_is_composed_of"]), article_F2_E42_uri_part2))
         g.add((article_F2_E42_uri_part2, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-        g.add((article_F2_E42_uri_part2, URIRef(crm_ns["P2_has_type"]),
-               URIRef(iremus_ns["a1e06dc7-f2d8-403a-8061-50d56411c031"])))
+        g.add((article_F2_E42_uri_part2, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["a1e06dc7-f2d8-403a-8061-50d56411c031"])))
         g.add((article_F2_E42_uri_part2, RDFS.label, Literal("//*[@xml:id='MG-1672-01_000']", datatype="sdt:XPathSelector")))
 
 write_cache(cache_file)
