@@ -2,6 +2,7 @@ import argparse
 from lxml import etree
 import os
 from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef
+import pathlib
 import re
 import uuid
 import sys
@@ -73,6 +74,8 @@ g.add((Donneau_de_vise_uri, crm_ns["P1_is_identified_by"], Literal("Jean Donneau
 tei_ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 for file in os.listdir(args.tei):
+    if pathlib.Path(file).suffix != ".xml":
+        continue
     tree = etree.parse(os.path.join(args.tei, file))
     root = tree.getroot()
 
@@ -147,7 +150,7 @@ for file in os.listdir(args.tei):
     ################################################################################
 
     # Work
-    div = root.xpath('//tei:body/tei:div[@type="article"]', namespaces=tei_ns)
+    div = root.xpath('//tei:body//tei:div[@type="article"]', namespaces=tei_ns)
     for article in div:
         # Identifiant et titre
         article_titre_xpath = article.xpath('./tei:head/child::node()', namespaces=tei_ns)
