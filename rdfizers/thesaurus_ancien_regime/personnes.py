@@ -12,7 +12,7 @@ import yaml
 parser = argparse.ArgumentParser()
 parser.add_argument("--inputrdf")
 parser.add_argument("--outputttl")
-parser.add_argument("--corpus_cache")
+parser.add_argument("--cache_personnes")
 args = parser.parse_args()
 
 # CACHE
@@ -22,9 +22,9 @@ from cache_management import get_uuid, read_cache, write_cache  # nopep8
 
 cache_file = str(PurePath.joinpath(Path(".").absolute(), "cache_personnes.yaml"))
 
-# Lecture du cache du corpus
+# Lecture du cache
 cache_des_uuid_du_corpus = None
-with open(args.corpus_cache) as f:
+with open(args.cache_personnes) as f:
     cache_des_uuid_du_corpus = yaml.load(f, Loader=yaml.FullLoader)
 
 ################################################################################
