@@ -36,3 +36,19 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Partition" ;
   .
+
+<b18e2fad-4827-4533-946a-1b9914df6e18>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Ancien Régime"
+  .
+
+<947a38f0-34ac-4c54-aeb7-69c5f29e77c0>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Noms de personnes"
+  .
+
+<4e7cdc71-b834-412a-8cab-daa363a8334e>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Noms de lieux"
+  .
+

@@ -107,7 +107,7 @@ for file in os.listdir(args.tei):
     g.add((livraison_F2_originale_E52_uri, RDF.type, URIRef(crm_ns["E52_Time-Span"])))
     livraison_F2_originale_date_uri = root.xpath('string(//tei:creation/tei:date/@when)', namespaces=tei_ns)
     g.add((livraison_F2_originale_E52_uri, URIRef(crm_ns["P80_end_is_qualified_by"]), Literal(livraison_F2_originale_date_uri)))
-    g.add((livraison_F2_originale_E63_uri, URIRef(crm_ns["P4_has-time"]), livraison_F2_originale_E52_uri))
+    g.add((livraison_F2_originale_E63_uri, URIRef(crm_ns["P4_has_time-span"]), livraison_F2_originale_E52_uri))
     g.add((livraison_F2_originale_E63_uri, URIRef(crm_ns["P92_brought_into_existence"]), livraison_F2_originale_uri))
 
     # Facsimile de l'expression originale
