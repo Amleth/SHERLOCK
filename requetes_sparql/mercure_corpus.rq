@@ -36,3 +36,22 @@ select distinct ?F2_livraison ?titre ?date ?article ?titre_article where {
 } 
 
 ORDER BY ?date ?titre
+
+# AFFICHER LES NOMS DE PERSONNES TRIES PAR ORDRE ALPHABETIQUE
+
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select distinct ?personne ?nom ?autrenom where { 
+    ?E32 rdf:type crm:E32_Authority_Document .
+    ?E32 crm:P1_is_identified_by "Noms de personnes" .
+    ?E32 crm:P71_lists ?personne .
+    ?personne crm:P1_is_identified_by ?E41 .
+    ?E41 rdfs:label ?nom .
+    ?E41 crm:P139_has_alternative_form/rdfs:label ?autrenom .
+} 
+
+ORDER BY ?nom
+LIMIT 100
