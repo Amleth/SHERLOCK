@@ -296,7 +296,7 @@
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=apprenti_apothicaire&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=archer_du_guet_de_paris&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=archers&amp;idt=173"/>
-	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
+	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=architecte_charles1_hesse-cassel&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=architecte_de_la_province_du_languedoc&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=architecte_des_batiments_du_roi&amp;idt=173"/>
@@ -1323,7 +1323,7 @@
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=guidon_de_gendarmerie&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=guidon_des_gendarmes_anglais&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=guidon_des_gendarmes_ecossais&amp;idt=173"/>
-	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
+	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=guindre&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=haras&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=harengere&amp;idt=173"/>
@@ -1499,7 +1499,7 @@
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lieutenant_general_honoraire_du_bailliage_du_palais&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lieutenant_particulier_des_marechaux_de_france&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lieutenants_des_marechaux_de_france&amp;idt=173"/>
-	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
+	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=limoges&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=limonadier&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lingere&amp;idt=173"/>
@@ -2171,7 +2171,7 @@
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=syndics_de_morlaix&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=syndics_de_vitre&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi&amp;idt=173"/>
-	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_ &amp;idt=173"/>
+	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=table_de_marbre_amiraute&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=table_de_marbre_de_rouen&amp;idt=173"/>
 	<skos:member rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=table_de_marbre_du_palais&amp;idt=173"/>
@@ -4066,7 +4066,7 @@
 	<dcterms:description>institution##chatelet_de_paris##lieutenant_criminel_au_chatelet</dcterms:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=lieutenant_de_police_au_chatelet_(chambre_criminelle)&amp;idt=173">
+<rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=lieutenant_de_police_au_chatelet_chambre_criminelle&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Lieutenant de police au Châtelet (chambre criminelle)</skos:prefLabel>
 	<skos:broader rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=officier&amp;idt=173"/>
@@ -4155,7 +4155,7 @@
 <rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=chambre_criminelle&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Chambre criminelle</skos:prefLabel>
-	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lieutenant_de_police_au_chatelet_(chambre criminelle)&amp;idt=173"/>
+	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lieutenant_de_police_au_chatelet_chambre_criminelle&amp;idt=173"/>
 	<skos:broader rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=chatelet_de_paris&amp;idt=173"/>
 	<skos:inScheme rdf:resource="http://opentheso3.mom.fr/opentheso3/173"/>
 	<opentheso:memberOf rdf:resource="http://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
@@ -5230,17 +5230,17 @@
 <rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=marechaussee&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Maréchaussée</skos:prefLabel>
-	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
+	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=commissaire_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=controleur_a_faire_les_montres_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=exempt_du_prevot_general_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=garde_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=greffier_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
-	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
+	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=huissier_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lieutenant_particulier_des_marechaux_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lieutenants_des_marechaux_de_france&amp;idt=173"/>
-	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
+	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=marechal_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=marechaussee_de_blois&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=marechaussee_de_la_ferte-bernard&amp;idt=173"/>
@@ -5262,7 +5262,7 @@
 	<dcterms:description>institution##intendance_et_generalite##marechaussee</dcterms:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173">
+<rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Archers du prévôt général du connétable et maréchaux de France</skos:prefLabel>
 	<skos:broader rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=marechaussee&amp;idt=173"/>
@@ -5354,7 +5354,7 @@
 	<dcterms:description>institution##intendance_et_generalite##marechaussee##greffier_de_la_connetablie_et_marechaussee_de_france</dcterms:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173">
+<rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Guidon du prévôt général du connétable et maréchaux de France</skos:prefLabel>
 	<skos:broader rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=marechaussee&amp;idt=173"/>
@@ -5406,7 +5406,7 @@
 	<dcterms:description>institution##intendance_et_generalite##marechaussee##lieutenants_des_marechaux_de_france</dcterms:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173">
+<rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Lieutenants du prévôt général du connétable et maréchaux de France</skos:prefLabel>
 	<skos:broader rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=marechaussee&amp;idt=173"/>
@@ -12971,7 +12971,7 @@
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=logements_de_la_cour_et_suite&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=prevote_de_l_hotel&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=secretaire_d_etat_de_la_maison_du_roi&amp;idt=173"/>
-	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_ &amp;idt=173"/>
+	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_&amp;idt=173"/>
 	<skos:narrower rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=venerie_du_roi&amp;idt=173"/>
 	<skos:broader rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=departement_de_la_maison_du_roi&amp;idt=173"/>
 	<skos:inScheme rdf:resource="http://opentheso3.mom.fr/opentheso3/173"/>
@@ -15002,7 +15002,7 @@
 	<dcterms:description>institution##departement_de_la_maison_du_roi##maison_du_roi##prevote_de_l_hotel##grand_prevot_de_france</dcterms:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_ &amp;idt=173">
+<rdf:Description rdf:about="http://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Syndics généraux des marchands privilégiés de la Maison du roi</skos:prefLabel>
 	<skos:broader rdf:resource="http://opentheso3.mom.fr/opentheso3/?idc=maison_du_roi&amp;idt=173"/>

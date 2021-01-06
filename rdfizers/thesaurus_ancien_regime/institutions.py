@@ -92,9 +92,21 @@ E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"]
 E32_institutions_uri = URIRef(iremus_ns["8a29e857-3faf-49f1-969b-91572e77218e"])
 t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
 t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
-t(E32_ancien_regime_uri, crm("P71_lists"), E32_lieux_uri)
+t(E32_ancien_regime_uri, crm("P71_lists"), E32_institutions_uri)
 t(E32_institutions_uri, a, crm("E32_Authority_Document"))
 t(E32_institutions_uri, crm("P1_is_identified_by"), Literal("Noms d'institutions et de corporations"))
+
+for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
+    identifier = ro(opentheso_institution_uri, DCTERMS.identifier)
+    E74_uri = she(get_uuid(["institutions et corporations", identifier, "uuid"]))
+    E41_uri = she(get_uuid(["institutions et corporations", identifier, "E41"]))
+    t(E74_uri, a, crm("E74_Group"))
+    t(E32_institutions_uri, crm("P71_lists"), E74_uri)
+    t(E74_uri, crm("P1_is_identified_by"), E41_uri)
+    t(E41_uri, a, crm("E41_Appellation"))
+    t(E41_uri, RDFS.label, ro(opentheso_institution_uri, SKOS.prefLabel))
+    #altLabels = ro_list(opentheso_personne_uri, SKOS.altLabel)
+
 
 write_cache(cache_file)
 output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
