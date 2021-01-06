@@ -52,3 +52,7 @@
   crm:P1_is_identified_by "Noms de lieux"
   .
 
+<8a29e857-3faf-49f1-969b-91572e77218e>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Noms d'institutions et de corporations'"
+  .

@@ -114,20 +114,20 @@ for file in os.listdir(args.tei):
     # Manifestation
     livraison_F3_uri = she(get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F3"]))
     g.add((livraison_F3_uri, RDF.type, URIRef(crm_ns["F3_Manifestation"])))
-    g.add((livraison_F3_uri, URIRef(crm_ns["R4_embodies"]), livraison_F2_originale_uri))
+    g.add((livraison_F3_uri, URIRef(lrmoo_ns["R4_embodies"]), livraison_F2_originale_uri))
     # Item
     livraison_F5_uri = she(get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F5"]))
     g.add((livraison_F5_uri, RDF.type, URIRef(crm_ns["F5_Item"])))
-    g.add((livraison_F5_uri, URIRef(crm_ns["R7_is_materialization_of"]), livraison_F3_uri))
+    g.add((livraison_F5_uri, URIRef(lrmoo_ns["R7_is_materialization_of"]), livraison_F3_uri))
     # Facsimile
     livraison_D2_uri = she(get_uuid(["Corpus", "Livraisons", livraison_id, "Facsimile", "D2"]))
     g.add((livraison_D2_uri, RDF.type, URIRef(crmdig_ns["D2_Digitization_Process"])))
-    g.add((livraison_D2_uri, URIRef(crm_ns["L1_digitized"]), livraison_F5_uri))
+    g.add((livraison_D2_uri, URIRef(crmdig_ns["L1_digitized"]), livraison_F5_uri))
     livraison_D1_uri = she(get_uuid(["Corpus", "Livraisons", livraison_id, "Facsimile", "D1"]))
     g.add((livraison_D1_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["e73699b0-9638-4a9a-bfdd-ed1715416f02"])))
-    g.add((livraison_D2_uri, URIRef(crm_ns["had_output"]), livraison_D1_uri))
+    g.add((livraison_D2_uri, URIRef(crmdig_ns["L11_had_output"]), livraison_D1_uri))
     g.add((livraison_D1_uri, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
-    g.add((livraison_D1_uri, RDF.type, URIRef(crm_ns["F2_Expression"])))
+    g.add((livraison_D1_uri, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
 
     # Expression TEI
     livraison_F2_tei_uri = she(get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2"]))

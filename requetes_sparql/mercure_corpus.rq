@@ -1,3 +1,7 @@
+#######################################################################
+#### REQUETES SELECT
+#######################################################################
+
 # AFFICHER LES LIVRAISONS ET LEUR AUTEUR, TRIEES PAR DATE ET PAR TITRE
 
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
@@ -5,15 +9,37 @@ PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 select distinct ?F2_livraison ?titre ?date ?nom where { 
-	?F18 rdf:type lrmoo:F18_Serial_Work .
-	?F27 lrmoo:R16_initiated ?F18 .
-	?F27 crm:P14_carried_out_by ?auteur .
+	?F18 a lrmoo:F18_Serial_Work ;
+         lrmoo:R10_has_member ?F1_livraison .
+	?F27 lrmoo:R16_initiated ?F18 ;
+	     crm:P14_carried_out_by ?auteur .
 	?auteur crm:P1_is_identified_by ?nom .
-	?F18 lrmoo:R10_has_member ?F1_livraison .
-    ?F1_livraison crm:P1_is_identified_by ?titre .
-    ?F1_livraison lrmoo:R3_is_realised_in ?F2_livraison .
-    ?E63 crm:P92_brought_into_existence ?F2_livraison .
-    ?E63 crm:P4_has_time-span/crm:P80_end_is_qualified_by ?date .
+    ?F1_livraison crm:P1_is_identified_by ?titre ;
+                  lrmoo:R3_is_realised_in ?F2_livraison .
+    ?E63 crm:P92_brought_into_existence ?F2_livraison ;
+         crm:P4_has_time-span/crm:P80_end_is_qualified_by ?date .
+} 
+
+ORDER BY ?date ?titre
+
+# AFFICHER LE FACSIMILE D'UNE LIVRAISON
+
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+
+select distinct ?F2_livraison ?titre ?date ?D1 where { 
+	?F18 a lrmoo:F18_Serial_Work ;
+         lrmoo:R10_has_member ?F1_livraison .
+    ?F1_livraison crm:P1_is_identified_by ?titre ;
+                  lrmoo:R3_is_realised_in ?F2_livraison .
+    ?F3_livraison lrmoo:R4_embodies ?F2_livraison .
+    ?F5_livraison lrmoo:R7_is_materialization_of ?F3_livraison .
+    ?D2 crmdig:L1_digitized ?F5_livraison ;
+        crmdig:L11_had_output ?D1 .
+    ?E63 crm:P92_brought_into_existence ?F2_livraison ;
+         crm:P4_has_time-span/crm:P80_end_is_qualified_by ?date .
 } 
 
 ORDER BY ?date ?titre
@@ -25,14 +51,14 @@ PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 select distinct ?F2_livraison ?titre ?date ?article ?titre_article where { 
-	?F18 rdf:type lrmoo:F18_Serial_Work .
-	?F18 lrmoo:R10_has_member ?F1_livraison .
-    ?F1_livraison crm:P1_is_identified_by ?titre .
-    ?F1_livraison lrmoo:R3_is_realised_in ?F2_livraison .
-    ?F1_livraison lrmoo:R10_has_member ?article .
+	?F18 a lrmoo:F18_Serial_Work ;
+         lrmoo:R10_has_member ?F1_livraison .
+    ?F1_livraison crm:P1_is_identified_by ?titre ;
+                  lrmoo:R3_is_realised_in ?F2_livraison ;
+                  lrmoo:R10_has_member ?article .
     ?article crm:P1_is_identified_by ?titre_article .
-    ?E63 crm:P92_brought_into_existence ?F2_livraison .
-    ?E63 crm:P4_has_time-span/crm:P80_end_is_qualified_by ?date .
+    ?E63 crm:P92_brought_into_existence ?F2_livraison ;
+         crm:P4_has_time-span/crm:P80_end_is_qualified_by ?date .
 } 
 
 ORDER BY ?date ?titre
@@ -42,8 +68,8 @@ ORDER BY ?date ?titre
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
 select distinct ?personne ?nom ?autrenom where { 
     ?E32 rdf:type crm:E32_Authority_Document .
     ?E32 crm:P1_is_identified_by "Noms de personnes" .
@@ -55,3 +81,62 @@ select distinct ?personne ?nom ?autrenom where {
 
 ORDER BY ?nom
 LIMIT 100
+
+# AFFICHER LES NOTES ASSOCIEES AUX NOMS DE PERSONNES
+
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+select distinct ?E21 ?nom ?note ?date ?firstname ?lastname where {
+    
+    ?E21 a crm:E21_Person ;
+    	 crm:P1_is_identified_by/rdfs:label ?nom .
+    ?E13 crm:P140_assigned_attribute_to ?E21 ;
+    	 crm:P14_carried_out_by/crm:P1_is_identified_by/crmdig:L51_has_first_name ?firstname ;
+         crm:P14_carried_out_by/crm:P1_is_identified_by/crmdig:L52_has_last_name ?lastname ;
+         crm:P141_assigned/rdfs:label ?note .
+         #dcterms:created ?date .
+    
+} 
+
+ORDER BY ?nom
+LIMIT 100
+
+# AFFICHER TOUTES LES ANNOTATIONS D'UNE PERSONNE
+
+
+
+#######################################################################
+#### REQUETES INSERT
+#######################################################################
+
+# DELIMITATION D'UN FRAGMENT DE TEXTE
+
+insert {
+
+    
+}
+
+<da813b0f-62ed-4c39-bfe2-49e89091cd9e>
+  a crm:E13_Attribute_Assignment ;
+  crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+  crm:P140_assigned_attribute_to <6e1efc03-1d24-4204-843b-d78cb884b640> ;
+  crm:P141_assigned <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
+  crm:P177_assigned_property_type <86c33294-edb1-4cb3-b349-8c12ed0032fb> ;
+  dcterms:created "2020-11-16T14:55:58+0000"^^xsd:dateTime ;
+  .
+
+# L'événement d'annotation
+
+<447672cc-589a-4881-8ab5-8890a1611e95>
+  a she:sheE_Reference_Assignment ;
+  crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+  crm:P140_assigned_attribute_to <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
+  crm:P141_assigned <f4f3476e-3551-4633-8f9b-2ef564e63155> ;
+  crm:P177_assigned_property_type crm:P67_refers_to ;
+  crm:P2_has_type <4a673f92-174e-41cb-b0e1-9c32985fa07c> ;
+  dcterms:created "2020-11-17T15:23:34+0000"^^xsd:dateTime ;
