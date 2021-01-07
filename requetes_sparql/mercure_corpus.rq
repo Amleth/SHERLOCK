@@ -106,6 +106,26 @@ select distinct ?E21 ?nom ?note ?date ?firstname ?lastname where {
 ORDER BY ?nom
 LIMIT 100
 
+# AFFICHER LES INSTITUTIONS ET LEUR SOUS-INSTITUTIONS
+
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select distinct ?groupe ?nom ?sousgroupe ?sousgroupenom where { 
+
+	?groupe a crm:E74_Group ;
+            crm:P1_is_identified_by/rdfs:label ?nom .
+    ?groupe crm:P107_has_current_or_former_member ?sousgroupe .
+    ?sousgroupe crm:P1_is_identified_by/rdfs:label ?sousgroupenom .
+    
+}
+
+ORDER BY ?nom
+
+
 # AFFICHER TOUTES LES ANNOTATIONS D'UNE PERSONNE
 
 
