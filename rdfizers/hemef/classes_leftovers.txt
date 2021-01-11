@@ -1,0 +1,43 @@
+    # # Aucune info n'est dispo pour forger une clef
+    # if not cdc and not cdc_tdc and not cn_tdc and (not cnp or cnp == '?') and not cnp_tdc:
+    #     print_error("CLASSE", "Ni discipline, ni professeur.")
+    # # Professeur sans disciplie : on essaye de la trouver dans le cache professeur_discipline
+    # elif not (cdc or cdc_tdc or cn_tdc) and (cnp or cnp_tdc) and cnp != '?' and cnp_tdc != '?':
+    #     prof_k = cnp or cnp_tdc
+    #     temp_disc = professeur_disciplines[cnp or cnp_tdc]
+    #     if len(temp_disc) == 0:
+    #         print_error("CLASSE", "Impossible d'attribuer une discipline à ce professeur (classe ignorée)", cnp or cnp_tdc)
+    #     elif len(temp_disc) == 1:
+    #         disc_k = list(temp_disc)[0]
+    #     else:
+    #         disc_k = " [ou] ".join(sorted(temp_disc))
+    # # Discipline sans professeur
+    # elif (cdc or cdc_tdc or cn_tdc) and not cnp and not cnp_tdc:
+    #     print_error("CLASSE", "Discipline sans professeur.")
+    # # Cas où on a 3 valeurs parmis cdc cnp cdc_tdc cnp_tdc
+    # elif not cdc and cdc_tdc and cnp and cnp_tdc:
+    #     print_error("CLASSE", "not cdc and cdc_tdc and cnp and cnp_tdc")
+    # elif cdc and not cdc_tdc and cnp and cnp_tdc:
+    #     print_error("CLASSE", "cdc and not cdc_tdc and cnp and cnp_tdc")
+    # elif cdc and cdc_tdc and not cnp and cnp_tdc:
+    #     print_error("CLASSE", "cdc and cdc_tdc and not cnp and cnp_tdc")
+    # elif cdc and cdc_tdc and cnp and not cnp_tdc:
+    #     print_error("CLASSE", "cdc and cdc_tdc and cnp and not cnp_tdc")
+    # # Ensuite on cherche à constituer un id pour la classe
+    # elif cdc and cnp:
+    #     disc_k = cdc
+    #     prof_k = cnp
+    # elif cdc_tdc and cnp_tdc:
+    #     disc_k = cdc_tdc
+    #     prof_k = cnp_tdc
+    # elif cdc and cnp_tdc:
+    #     disc_k = cdc
+    #     prof_k = cnp_tdc
+    # elif cdc_tdc and cnp:
+    #     disc_k = cdc_tdc
+    #     prof_k = cnp
+    # elif not (cdc or cdc_tdc) and (cnp or cnp_tdc) and cn_tdc:
+    #     disc_k = cn_tdc
+    #     prof_k = cnp or cnp_tdc
+    # else:
+    #     print_error("CLASSE", "Erreur inconnue.")

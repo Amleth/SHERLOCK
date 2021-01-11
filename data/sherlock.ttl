@@ -4,7 +4,7 @@
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix mo: <http://purl.org/ontology/chord/> .
-@prefiw owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix she: <http://data-iremus.huma-num.fr/ns/sherlock#> .
@@ -19,7 +19,8 @@
     crm:P71_lists <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>,
       <62b49ca2-ec73-4d72-aaf3-045da6869a15>,
       <7d7fc017-61ba-4f80-88e1-744f1d00dd60>,
-      <e73699b0-9638-4a9a-bfdd-ed1715416f02>
+      <e73699b0-9638-4a9a-bfdd-ed1715416f02>,
+      <d474af68-baa5-4afc-9c2d-eeeb2fada37d>
       ;
     .
 <fb96f7c5-7b26-49ab-8d71-ed6ca7bd3aa2>
@@ -45,6 +46,10 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Édition physique" ;
   .
+<d474af68-baa5-4afc-9c2d-eeeb2fada37d>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Tweet"@fr ;
+    .
 
 # Types d'identifiants techniques
 
@@ -124,4 +129,49 @@ she:sheP_MEI_Element
     rdfs:domain crmdig:D1_Digital_Object ;
     rdfs:range crm:E55_Type ;
     rdfs:label "MEI element"
+    .
+
+# Twitter
+
+<4c54339f-6220-4a3a-9d4c-687177d314bf>
+    a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Concepts pour décrire un corpus Twitter"@fr ;
+    crm:P71_lists <70867d47-25d5-494a-8843-3ac6bbd1e724> ;
+    .
+<4a0a1e11-b71b-4458-8afe-11cc386cf008>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Hashtag" ;
+    .
+
+# Analyse sémiotique de Twitter
+
+<3279e2a7-09e5-4454-aadf-a06963c4d29f>
+    a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Concepts pour l'analyse sémiotique de Twitter"@fr ;
+    crm:P71_lists <451a9db1-f2c9-4e68-83b1-4d984159de63>,
+    <3e9e3a20-a5f2-47ee-80df-b9f7e5741bc8> ;
+    .
+<451a9db1-f2c9-4e68-83b1-4d984159de63>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Énonciateur" ;
+    .
+<3e9e3a20-a5f2-47ee-80df-b9f7e5741bc8>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Compte Twitter" ;
+    .
+<b8b5f8ac-ecb9-4739-a505-a854b1ab2b18>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Source" ;
+    .
+
+# Vocabulaire sémiotique
+
+<fd2f26c9-9624-4206-a2b2-89c3803970fb>
+    a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Vocabulaire sémiotique"@fr ;
+    crm:P71_lists <c605c8bb-9387-4da1-baec-b0514fd9999c> ;
+    .
+<c605c8bb-9387-4da1-baec-b0514fd9999c>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Désigne"@fr ;
     .
