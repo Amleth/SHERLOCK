@@ -1,0 +1,4121 @@
+{
+    "1856-0001": {
+        "cursus_motif_admission": [
+            "admis par décision du comité après examen ; élève présenté par Mme Beaufour",
+            "réadmis"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, « étant resté à Nancy, sa ville natale »",
+            "rayé"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, parti en province en août 1860",
+            "rayé absent six mois"
+        ],
+        "lignes": 7
+    },
+    "1856-0003": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le piano]",
+            "quitte la classe",
+            "[études terminées pour cette classe]"
+        ],
+        "lignes": 7
+    },
+    "1856-0004": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a changé de classe",
+            "rayé de la classe ayant concouru en 1858-1859",
+            "[études terminées pour le solfège]"
+        ],
+        "lignes": 5
+    },
+    "1856-0012": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe ayant concouru en 1860 et 1861",
+            "absent trois mois"
+        ],
+        "lignes": 2
+    },
+    "1856-0014": {
+        "cursus_motif_sortie": [
+            "rayé, à l'Opéra",
+            "?"
+        ],
+        "lignes": 7
+    },
+    "1856-0018": {
+        "cursus_motif_sortie": [
+            "?",
+            "démissionnaire"
+        ],
+        "lignes": 4
+    },
+    "1856-0023": {
+        "cursus_motif_sortie": [
+            "rayé parti à Lyon",
+            "rayé, démissionnaire"
+        ],
+        "cursus_motif_admission": [
+            "présenté et recommandé à M. Auber par MM. Halévy et Carafa, professeur membre de l'Institut",
+            "réadmis"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé, parti à Lyon"
+        ],
+        "lignes": 4
+    },
+    "1856-0033": {
+        "cursus_motif_admission": [
+            "admis par décision du comité après examen ; présenté par M. Duponchel, ancien directeur de l'Opéra",
+            "réadmis (était malade)"
+        ],
+        "cursus_motif_sortie": [
+            "rayé par décision du comité pour absence",
+            "rayé par décision du comité"
+        ],
+        "lignes": 2
+    },
+    "1856-0035": {
+        "cursus_motif_admission": [
+            "présenté par M. Laurent, professeur de piano",
+            "réadmis sur la demande de M. Guigard"
+        ],
+        "cursus_motif_sortie": [
+            "a quitté volontairement l'école",
+            "rayé, absent trois mois"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1856-0038": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/4-AJ/37/156/1",
+            "AJ/37/155/5-AJ/37/156/1"
+        ],
+        "lignes": 3
+    },
+    "1856-0039": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé pour absences",
+            "rayé",
+            "rayé a concouru en 1866, 1867 et 1868"
+        ],
+        "eleve_observations_TDC": [
+            "le tableau de classe 1862-1863 et suivants mentionnent « aux Folies dramatiques »",
+            "le tableau de classe 1862-1863 et suivants mentionnent « aux Folies dramatiques » ; le tableau des classes 1866-1867 mentionne un changement d’adresse et « au théâtre lyrique »"
+        ],
+        "lignes": 7
+    },
+    "1856-0040": {
+        "cursus_motif_sortie": [
+            "?",
+            "démissionnaire de la classe"
+        ],
+        "lignes": 2
+    },
+    "1856-0042": {
+        "cursus_motif_admission": [
+            "présenté par son père et M. Balland ancien régisseur du Vaudeville ; recommandé par M. Hutteau d'Origny et M. Alfred Blanche",
+            "réadmis par décision du comité du 22 octobre 1857",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé absent un mois",
+            "rayé absent quatre mois",
+            "?"
+        ],
+        "lignes": 5
+    },
+    "1856-0043": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé sous-chef au 4e voltigeurs",
+            "rayé de la classe"
+        ],
+        "lignes": 3
+    },
+    "1856-0044": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Jonas ouverte le 15 juin 1857",
+            "rayé, « a rejoint son corps »",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1856-0045": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, « passé chez Durand »",
+            "rayé passé sous-chef de musique au 97e de ligne"
+        ],
+        "lignes": 3
+    },
+    "1856-0046": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé sous-chef de musique au 13e de ligne",
+            "rayé"
+        ],
+        "cursus_motif_admission": [
+            "admis élève militaire par décision du ministre de la Guerre du 1er février 1856 après examen du 13 décembre 1855 devant la commission du Conservatoire",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé passé sous-chef de musique 6e chasseurs",
+            "rayé pour absences"
+        ],
+        "lignes": 6
+    },
+    "1856-0047": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Alkan ouverte le 16 juin 1857",
+            "rayé",
+            "rayé, passé sous-chef au 1er chasseur d'Afrique"
+        ],
+        "lignes": 4
+    },
+    "1856-0048": {
+        "cursus_motif_sortie": [
+            "a quitté la classe de flûte",
+            "a quitté l'école pour aller en province"
+        ],
+        "lignes": 2
+    },
+    "1856-0049": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé sous-chef au 10e de ligne",
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Alkan ouverte le 16 juin 1857"
+        ],
+        "lignes": 4
+    },
+    "1856-0050": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé chez Forestier",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1856-0051": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé dans la classe de Sax",
+            "rayé, nommé sous-chef",
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Alkan ouverte le 16 juin 1857",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 5
+    },
+    "1856-0052": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé dans la classe de Sax",
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Durand ouverte le 15 juin 1857",
+            "rayé de la classe",
+            "rayé, nommé sous-chef"
+        ],
+        "lignes": 5
+    },
+    "1856-0053": {
+        "cursus_motif_admission": [
+            "admis élève militaire par décision du ministre de la Guerre du 1er février 1856 après examen du 13 décembre 1855 devant la commission du Conservatoire",
+            "admis élève militaire  par décision du ministre de la Guerre du 1er février 1856 après examen du 13 décembre 1855 devant la commission du Conservatoire",
+            "réadmis élève militaire par la commission d’examen du 23 décembre 1863"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Jonas ouverte le 16 juin 1857",
+            "rayé, « a rejoint son corps »",
+            "rayé"
+        ],
+        "eleve_observations": [
+            "13e élève militaire de l’année 1 admis au Conservatoire par décision du ministre de la Guerre du 1er février 1856 pour pallier à la suppression en février 1855 du Gymnase musical militaire ; à sa réadmission 19e élève militaire de la 9e année (n° 285 de la totalité)",
+            "13e élève militaire de l’année 1 admis au Conservatoire par décision du ministre de la Guerre du 1er février 1856 pour pallier à la suppression en février 1855 du Gymnase musical militaire ; à sa réadmission 19e élève militaire de la 9e année (n° 285 de la totalité) ; saxhorn contralto en si bémol en 1863"
+        ],
+        "cursus_motif_sortie": [
+            "rayé a rejoint son corps",
+            "?"
+        ],
+        "lignes": 7
+    },
+    "1856-0054": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Durand ouverte le 15 juin 1857",
+            "rayé, « a rejoint son corps »",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1856-0055": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé sous-chef au 91e de ligne",
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Jonas ouverte le 15 juin 1857"
+        ],
+        "lignes": 5
+    },
+    "1856-0056": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Jonas ouverte le 15 juin 1857",
+            "rayé, nommé sous-chef de musique au 64e de ligne"
+        ],
+        "lignes": 4
+    },
+    "1856-0057": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Alkan ouverte le 16 juin 1857",
+            "rayé, « a rejoint son corps »"
+        ],
+        "lignes": 4
+    },
+    "1856-0058": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Alkan ouverte le 16 juin 1857",
+            "rayé, « a rejoint son corps »",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1856-0061": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé de la classe"
+        ],
+        "lignes": 3
+    },
+    "1856-0062": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe (études de solfège terminées)",
+            "rayé, passé sous-chef aux chasseurs de la Garde"
+        ],
+        "exerce_profession_connue": [
+            "appartient au 8e régiment d'artillerie, en garnison à Toulouse",
+            "appartient au 8e régiment d'artillerie, en garnison à Toulouse ; sous-chef de musique aux chasseurs de la garde"
+        ],
+        "lignes": 3
+    },
+    "1856-0065": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Alkan ouverte le 16 juin 1857",
+            "rayé, « rejoint son corps »"
+        ],
+        "lignes": 4
+    },
+    "1856-0067": {
+        "cursus_motif_sortie_TDC": [
+            "passe dans la classe de solfège de Mlle Klotz",
+            "a quitté volontairement l'école"
+        ],
+        "lignes": 2
+    },
+    "1856-0068": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "quitte la classe",
+            "rayé"
+        ],
+        "cursus_motif_admission": [
+            "présenté par sa mère, sœur de Pierrette Boulanger",
+            "admis par décision du comité du 24 octobre 1862"
+        ],
+        "lignes": 7
+    },
+    "1856-0071": {
+        "eleve_observations": [
+            "24e élève militaire de l’année 1 admis au Conservatoire par décision du ministre de la Guerre du 1er février 1856 pour pallier à la suppression en février 1855 du Gymnase musical militaire ; est indiqué comme date d’admission sur le registre d’inscription « 6 mars et 29 février 1856 »",
+            "24e élève militaire de l’année 1 admis au Conservatoire par décision du ministre de la Guerre du 1er février 1856 pour pallier à la suppression en février 1855 du Gymnase musical militaire"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Jonas ouverte le 15 juin 1857",
+            "rayé, passé sous-chef au 2e des voltigeurs de la Garde"
+        ],
+        "lignes": 5
+    },
+    "1856-0072": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, nommé sous-chef",
+            "rayé de la classe",
+            "rayé, a quitté la classe",
+            "rayé nommé sous-chef",
+            "(nommé sous-chef)"
+        ],
+        "cursus_motif_admission": [
+            "admis sur la demande du professeur ; admis élève militaire le 21 décembre 1856 par la commission du Conservatoire après examen du 24 novembre 1856",
+            "admis élève militaire le 21 décembre 1856 par la commission du Conservatoire après examen du 24 novembre 1856",
+            "réadmis élève civil"
+        ],
+        "parcours_classe_date_sortie_TDC": [
+            "1858-12-02",
+            "1859-03-01"
+        ],
+        "parcours_classe_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé nommé sous-chef"
+        ],
+        "cursus_motif_sortie": [
+            "rayé nommé sous-chef",
+            "rayé parti dans un régiment"
+        ],
+        "lignes": 6
+    },
+    "1856-0086": {
+        "cursus_motif_admission": [
+            "présenté par MM. Prumier, Panseron et Kastner, professeur de l'école de Montigny",
+            "présenté par M. Panseron, professeur de chant"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé pour absences",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1856-0090": {
+        "exerce_profession_connue": [
+            "engagé au Théâtre Français où il débute le 14 février 1858 dans Valère de Tartuffe",
+            "engagé au Théâtre Français où il débute le 14 février 1858"
+        ],
+        "lignes": 2
+    },
+    "1856-0095": {
+        "cursus_motif_admission": [
+            "adressé par M. Escudier",
+            "réadmis par décision du comité"
+        ],
+        "cursus_motif_sortie": [
+            "rayé absent deux mois",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1856-0098": {
+        "eleve_observations": [
+            "musicien gagiste de la marine à ? de Friedland ; présent à ? de la ville de Paris, le 17 ocotbre 1854 lors du combat ? de Sébastopol en 1856 ; élève musicien de la gendarmerie de la garde",
+            "présent à bord de la ville de Paris, le 17 octobre 1854 lors du combat devant les batteries de Sébastopol ; élève musicien de la gendarmerie de la garde (1856)"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, parti dans un régiment",
+            "rayé"
+        ],
+        "exerce_profession_connue": [
+            "musicien gagiste de la marine ; en 1863, musicien de 3e classe gagiste dans la gendarmerie de la garde au Louvre",
+            "musicien gagiste de la marine à bord du Friedland ; en 1863, musicien de 3e classe gagiste dans la gendarmerie de la garde au Louvre"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/4-AJ/37/156/6",
+            "AJ/37/156/4-AJ/37/157/1"
+        ],
+        "lignes": 3
+    },
+    "1856-0101": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1856-0104": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/6-AJ/37/156/3",
+            "AJ/37/156/1-AJ/37/156/3"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "rayé, passé chez M. Laurent",
+            "[études terminées pour le piano]"
+        ],
+        "lignes": 12
+    },
+    "1856-0105": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, absent cinq mois",
+            "rayé, a quitté la classe",
+            "rayé de la classe"
+        ],
+        "lignes": 4
+    },
+    "1856-0107": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, parti en province",
+            "rayé de la classe"
+        ],
+        "lignes": 2
+    },
+    "1856-0109": {
+        "eleve_observations_TDC": [
+            "étranger (belge)",
+            "étranger (belge) ; le tableau de classe 1864-1865 mentionne « à l’Eldorado »"
+        ],
+        "cursus_motif_admission": [
+            "admis sur la présentation du professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé parti dans un régiment",
+            "rayé, absent trois mois"
+        ],
+        "lignes": 3
+    },
+    "1856-0110": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/6-AJ/37/156/3",
+            "AJ/37/156/1-AJ/37/156/3"
+        ],
+        "lignes": 4
+    },
+    "1856-0112": {
+        "cursus_motif_sortie": [
+            "?",
+            "démissionnaire"
+        ],
+        "lignes": 4
+    },
+    "1856-0117": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé de la classe pour absences"
+        ],
+        "lignes": 3
+    },
+    "1856-0118": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, absent deux mois ?",
+            "rayé, parti en province"
+        ],
+        "lignes": 3
+    },
+    "1856-0119": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé, engagé à la Nouvelle-Orléans"
+        ],
+        "lignes": 6
+    },
+    "1856-0120": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, parti pour Rio-Janeiro",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 4
+    },
+    "1856-0121": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé de la classe, démissionnaire",
+            "rayé de la classe",
+            "rayé, engagé à l’Opéra"
+        ],
+        "lignes": 6
+    },
+    "1856-0122": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "études terminées",
+            "rayé absent deux mois"
+        ],
+        "lignes": 3
+    },
+    "1856-0123": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réintégré"
+        ],
+        "lignes": 2
+    },
+    "1856-0124": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé, démissionnaire de la classe de flûte"
+        ],
+        "lignes": 4
+    },
+    "1856-0125": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/5-AJ/37/156/2",
+            "AJ/37/156/2"
+        ],
+        "eleve_observations": [
+            "fils de Mlle Céha, ancienne élève de chant (12 juin 1833)",
+            "se destine au piano ; fils de Mlle Céha, ancienne élève de chant (12 juin 1833)",
+            "sœur de Mlle Larcéna, 1ère élève de chant (24 décembre 1846) ; a épousé en mai 1866 l'élève Vincent"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté l’école",
+            "rayé"
+        ],
+        "lignes": 6
+    },
+    "1856-0129": {
+        "cursus_motif_admission": [
+            "adressé par M. Sermet, chef de musique du 11e dragons",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé parti avec son régiment",
+            "?"
+        ],
+        "lignes": 2
+    },
+    "1856-0130": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe pour absences",
+            "[n’apparaît pas comme élève pour l’année 1861-1862]",
+            "rayé"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé pour absences",
+            "rayé, absent"
+        ],
+        "lignes": 4
+    },
+    "1856-0132": {
+        "eleve_observations": [
+            "fille de Mlle Franci-Cornu (Maria Francis, dite), ex-élève de chant (1er prix de chant en 1840), admise le 17 octobre 1833 R. 3. f° 214",
+            "sœur de Mlle Larcéna, 1ère élève de chant (24 décembre 1846) ; a épousé en mai 1866 l'élève Vincent"
+        ],
+        "cursus_motif_sortie": [
+            "études terminées",
+            "rayé, absent deux mois"
+        ],
+        "lignes": 2
+    },
+    "1856-0134": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, engagé en province",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 4
+    },
+    "1856-0135": {
+        "cursus_motif_admission": [
+            "admis par décision du comité",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "a quitté l'école",
+            "rayé par décision du comité"
+        ],
+        "lignes": 3
+    },
+    "1856-0136": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, études terminées",
+            "rayé, a quitté la classe",
+            "rayé de la classe, engagé à l’Opéra Comique"
+        ],
+        "lignes": 3
+    },
+    "1856-0137": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, engagé à l’Opéra Comique",
+            "rayé, engagé à l'Opéra-Comique",
+            "rayé, engagé à l’0péra Comique",
+            "rayé, engagé à l’Opéra Comique (a quitté le pensionnat)"
+        ],
+        "lignes": 6
+    },
+    "1856-0138": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe ayant concouru trois fois",
+            "rayé du pensionnat et des classes",
+            "rayé, a quitté le pensionnat"
+        ],
+        "cursus_motif_admission_TDC": [
+            "admis par décision du comité ; il a été appelé de Toulouse sur le rapport formulé de M. Thomas, inspecteur",
+            "admis dans la classe spécialement consacrée aux élèves pensionnaires du chant ouverte par décision de M. Auber du 1er décembre 1857"
+        ],
+        "lignes": 6
+    },
+    "1856-0139": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, engagé à Marseille",
+            "passé dans la classe de grand-opéra de M. Levasseur",
+            "rayé de la classe",
+            "rayé, engagé au Théâtre de Marseille",
+            "rayé"
+        ],
+        "cursus_motif_admission_TDC": [
+            "admis dans la classe spécialement consacrée aux élèves pensionnaires du chant ouverte par décision de M. Auber du 1er décembre 1857",
+            "auparavant dans la classe de grand-opéra de M. Duvernoy"
+        ],
+        "lignes": 7
+    },
+    "1856-0140": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, quitte le pensionnat (engagé à l’Opéra le 11 février 1859)",
+            "rayé, a quitté le pensionnat",
+            "rayé, a quitté le pensionnat (engagé à l’Opéra)"
+        ],
+        "lignes": 6
+    },
+    "1856-0142": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, engagé en Suède",
+            "rayé de la classe",
+            "rayé de la classe, absent deux mois"
+        ],
+        "lignes": 5
+    },
+    "1856-0143": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé, parti en province"
+        ],
+        "lignes": 4
+    },
+    "1856-0146": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, démissionnaire",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 3
+    },
+    "1856-0147": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe par décision du comité",
+            "rayé parti en province"
+        ],
+        "lignes": 3
+    },
+    "1856-0150": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, engagé à Douai",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 5
+    },
+    "1856-0154": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé, démissionnaire"
+        ],
+        "lignes": 4
+    },
+    "1856-0155": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé, engagé aux Folies-Nouvelles"
+        ],
+        "lignes": 3
+    },
+    "1856-0158": {
+        "eleve_observations": [
+            "a débuté avec succès au Gymnase, où elle est engagée en mars 1860 dans Les deux timides ; mariée en 1866 à M. Brigueboul",
+            "a débuté avec succès au Gymnase, où elle est engagée en mars 1860 dans Les deux timides ; mariée en 1866 à M. Briqueboul"
+        ],
+        "lignes": 3
+    },
+    "1856-0159": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé, engagé en Suède"
+        ],
+        "lignes": 3
+    },
+    "1856-0160": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe de chant de M. Panseron",
+            "rayé, a quitté la classe",
+            "rayé, démissionnaire"
+        ],
+        "lignes": 4
+    },
+    "1856-0162": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe par décision du comité",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 3
+    },
+    "1856-0164": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis par décision du comité du 18 juin 1863"
+        ],
+        "cursus_motif_sortie": [
+            "rayé absent trois mois",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1856-0169": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé",
+            "rayé, démissionnaire"
+        ],
+        "eleve_observations_TDC": [
+            "le tableau de classe 1860-1861 et le suivant mentionnent « à la Gaîté »",
+            "le tableau de classe 1862-1863 mentionne « au Théâtre Lyrique »"
+        ],
+        "lignes": 3
+    },
+    "1856-0173": {
+        "cursus_motif_admission": [
+            "fils de M. Louis Fortoul, commis de l'ancien ministre",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "démissionnaire",
+            "mort à Paris"
+        ],
+        "lignes": 2
+    },
+    "1856-0175": {
+        "cursus_motif_admission": [
+            "présenté par M. Broha, 2nd vicaire de Bonne-Nouvelle et le professeur",
+            "admis par décision du comité du 12 avril 1860"
+        ],
+        "lignes": 4
+    },
+    "1856-0176": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour la flûte]",
+            "rayé, démissionnaire ?",
+            "quitte la classe",
+            "rayé"
+        ],
+        "lignes": 7
+    },
+    "1856-à178": {
+        "cursus_motif_sortie": [
+            "rayé",
+            "rayé parti en province"
+        ],
+        "lignes": 2
+    },
+    "1857-0185": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "passé chez Savard"
+        ],
+        "lignes": 3
+    },
+    "1857-0186": {
+        "eleve_observations": [
+            "élève militaire, numéro 1, année 2, numéro 26 de la totalité ; cousin de M. Sauret, ancien élève trombone",
+            "élève militaire, numéro 1, année 2, numéro 26 de la totalité ; cousin de M. Sauret, ancien élève trombone ;"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, nommé sous-chef",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 4
+    },
+    "1857-0187": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, nommé sous-chef",
+            "rayé de la classe"
+        ],
+        "lignes": 3
+    },
+    "1857-0188": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé chez Arban",
+            "rayé, nommé sous-chef"
+        ],
+        "lignes": 3
+    },
+    "1857-0189": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Durand ouverte le 15 juin 1857",
+            "rayé, « rejoint son corps »"
+        ],
+        "cursus_motif_admission": [
+            "admis élève militaire le 11 décembre 1856 après examen du 8 décembre 1856 devant la commission du Conservatoire et inscrit par décision du ministre de la Guerre du 8 janvier 1857",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé rejoint son régiment",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1857-0191": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé dans la classe de Sax",
+            "rayé, « a rejoint son corps »"
+        ],
+        "eleve_observations": [
+            "élève militaire, numéro 6, année 2, numéro 31 de la totalité",
+            "élève militaire, numéro 7, année 2, numéro 32 de la totalité"
+        ],
+        "lignes": 4
+    },
+    "1857-0192": {
+        "cursus_motif_sortie_TDC": [
+            "passé élève civil",
+            "rayé, parti dans un régiment",
+            "rayé, passé élève civil [année scolaire 1858-1859]",
+            "rayé, passé élève civil"
+        ],
+        "lignes": 4
+    },
+    "1857-0195": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe militaire de solfège de M. Jonas ouverte le 15 juin 1857",
+            "rayé, nommé sous-chef"
+        ],
+        "lignes": 4
+    },
+    "1857-0196": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé dans la classe militaire de cornet à pistons de M. Forestier",
+            "rayé, « a rejoint son corps »"
+        ],
+        "lignes": 3
+    },
+    "1857-0198": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Alkan ouverte le 16 juin 1857",
+            "rayé, « a rejoint son corps »"
+        ],
+        "lignes": 4
+    },
+    "1857-0199": {
+        "eleve_observations": [
+            "élève militaire, numéro 14, année 2, numéro 39 de la totalité",
+            "élève militaire, numéro 14, année 2, numéro 39 de la totalité ; il demande à quitter le bugle pour passer au cornet à pistons"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Durand ouverte le 15 juin 1857",
+            "rayé, « a rejoint son corps »",
+            "rayé, passé chez Arban dans la classe de Saxhorn"
+        ],
+        "lignes": 5
+    },
+    "1857-0201": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Alkan ouverte le 16 juin 1857",
+            "rayé, « a rejoint son corps »"
+        ],
+        "lignes": 4
+    },
+    "1857-0202": {
+        "eleve_remarques de saisie_TDC": [
+            "vérifier dans AJ/37/155/4 si bien 17 janvier 1857 !",
+            "est mentionné à la classe d’Alkan « était chez Gillette depuis le 15 janvier 1857 » (mais il ne figure pas dans les effectifs de la classe de Gillette pour l’année 1856-1857 !"
+        ],
+        "lignes": 3
+    },
+    "1857-0204": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Jonas ouverte le 15 juin 1857",
+            "rayé, « a rejoint son corps »"
+        ],
+        "lignes": 4
+    },
+    "1857-0206": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Jonas ouverte le 15 juin 1857",
+            "rayé, nommé sous-chef"
+        ],
+        "lignes": 4
+    },
+    "1857-0214": {
+        "cursus_motif_admission": [
+            "admis par décision du comité ; adressé par M. Samson",
+            "réadmis par décision du comité"
+        ],
+        "cursus_motif_sortie": [
+            "rayé absent deux mois",
+            "rayé"
+        ],
+        "lignes": 2
+    },
+    "1857-0219": {
+        "eleve_observations": [
+            "se destine au cor à pistons ou à l'alto ; admis provisoirement chez M. Forestier ; élève militaire, numéro 47, année 2",
+            "élève militaire, numéro 22, année 2, numéro 47 de la totalité"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé chez Arban dans la classe de Saxhorn",
+            "passé dans la classe spéciale de solfège des élèves militaires de M. Durand ouverte le 15 juin 1857",
+            "rayé, nommé sous-chef au 17e d’artillerie"
+        ],
+        "exerce_profession_connue": [
+            "musicien au 10e d'artillerie, en garnison à Rennes",
+            "musicien au 10e d'artillerie, en garnison à Rennes (1857) ; sous-chef au 17e d’artillerie (1859)"
+        ],
+        "lignes": 5
+    },
+    "1857-0220": {
+        "eleve_observations": [
+            "se destine au saxophone ; élève militaire, numéro 48, année 2",
+            "élève militaire, numéro 23, année 2, numéro 48 de la totalité"
+        ],
+        "lignes": 2
+    },
+    "1857-0221": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe, passé au chant chez M. Faure",
+            "rayé, passé à la classe de chant de M. Faure",
+            "rayé, engagé au Théâtre-Lyrique"
+        ],
+        "lignes": 5
+    },
+    "1857-0222": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé a rejoint son corps"
+        ],
+        "eleve_remarques de saisie_TDC": [
+            "le tableau de classe 1857-1858 donne comme date d’entrée dans la classe d’harmonie et composition la date du 1er juin 1858 !",
+            "est mentionné à la classe de Durand « était chez Tariot depuis le 2 mars 1857 » (mais il ne figure pas dans les effectifs de la classe de Tariot pour l’année 1856-1857 !"
+        ],
+        "lignes": 3
+    },
+    "1857-0223": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe militaire de solfège de M. Jonas ouverte le 15 juin 1857",
+            "rayé, « a rejoint son corps »"
+        ],
+        "eleve_observations": [
+            "élève militaire, numéro 26, année 2, numéro 51 de la totalité ; se destine au saxophone",
+            "élève militaire, numéro 26, année 2, numéro 51 de la totalité"
+        ],
+        "lignes": 4
+    },
+    "1857-0224": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, études terminées",
+            "rayé, a quitté le pensionnat"
+        ],
+        "lignes": 5
+    },
+    "1857-0228": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, démissionnaire de la classe",
+            "rayé ayant concouru en 1859, 1860 et 1861"
+        ],
+        "lignes": 3
+    },
+    "1857-0230": {
+        "cursus_motif_admission": [
+            "présenté par son père, professeur de chant",
+            "?"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé"
+        ],
+        "lignes": 8
+    },
+    "1857-0234": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé"
+        ],
+        "lignes": 7
+    },
+    "1857-0238": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/5-AJ/37/156/4",
+            "AJ/37/156/2-AJ/37/156/4"
+        ],
+        "lignes": 5
+    },
+    "1857-0242": {
+        "cursus_motif_admission": [
+            "présenté par le professeur et M. Lagarde, professeur muscien aux chasseurs de la garde",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé parti dans un régiment",
+            "?"
+        ],
+        "lignes": 2
+    },
+    "1857-0243": {
+        "cursus_motif_admission": [
+            "présenté par MM. Mohr et le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "études terminées",
+            "rayé parti à l'île Maurice"
+        ],
+        "lignes": 2
+    },
+    "1857-0252": {
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "rayé pour absences",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 5
+    },
+    "1857-0253": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé dans la classe de composition de M. Reber",
+            "[études terminées pour cette classe]"
+        ],
+        "lignes": 8
+    },
+    "1857-0256": {
+        "cursus_date_sortie_conservatoire": [
+            "[1871] ?-?-?",
+            "[1871-00-00]"
+        ],
+        "lignes": 8
+    },
+    "1857-0259": {
+        "cursus_motif_admission": [
+            "admis par décision du comité ; présenté par M. Carafa et Portéhaut",
+            "?"
+        ],
+        "cursus_motif_sortie": [
+            "?",
+            "rayé"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le piano]",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1857-0266": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé pour absences"
+        ],
+        "lignes": 3
+    },
+    "1857-0269": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé, passé chez M. Grosset",
+            "rayé, a quitté la classe",
+            "rayé"
+        ],
+        "cursus_motif_admission": [
+            "présenté à M. Auber par Mmes Dabadie et Laury",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé parti à l'étranger",
+            "rayé"
+        ],
+        "lignes": 7
+    },
+    "1857-0274": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "rayé",
+            "rayé, démissionnaire, reste à Bordeaux"
+        ],
+        "lignes": 8
+    },
+    "1857-0275": {
+        "cursus_motif_sortie": [
+            "rayé, démissionnaire",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1857-0278": {
+        "cursus_motif_admission": [
+            "admis par décision du comité ; présenté par le professeur",
+            "auparavant dans la classe de M. Provost",
+            "réadmis sur la demande du professeur",
+            "réadmis sur la demande de M. Auber"
+        ],
+        "cursus_motif_sortie": [
+            "a quitté la classe",
+            "rayé, démissionnaire",
+            "?"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "passé chez Beauvallet",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1857-0280": {
+        "cursus_motif_admission": [
+            "admis par décision du comité",
+            "auparavant dans la classe de M. Beauvallet"
+        ],
+        "cursus_motif_sortie": [
+            "passé dans la classe de M. Provost",
+            "rayé par décision du comité"
+        ],
+        "lignes": 2
+    },
+    "1857-0283": {
+        "eleve_observations_TDC": [
+            "pensionnaire",
+            "Pensionnaire ; le tableau de classe 1860-1861 mentionne comme date d’entrée 8 juin 1857, l’élève ne semble donc pas avoir été réadmis"
+        ],
+        "cursus_motif_admission": [
+            "admis par décision du comité",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé absent un mois ?",
+            "études terminées"
+        ],
+        "lignes": 2
+    },
+    "1857-0286": {
+        "cursus_motif_admission": [
+            "présenté par M. Halary, de la chapelle de l'Empereur",
+            "?"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "rayé"
+        ],
+        "lignes": 6
+    },
+    "1857-0290": {
+        "eleve_prenom_1": [
+            "Jules",
+            "[Jules"
+        ],
+        "eleve_prenom_2": [
+            "Émile",
+            "Émile]"
+        ],
+        "cursus_date_sortie_conservatoire": [
+            "[1860-00-00]",
+            "[1860 ?]--"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "rayé, a quitté la classe",
+            "rayé, engagé au Théâtre-Lyrique",
+            "rayé de la classe",
+            "rayé, a quitté le pensionnat"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/6-AJ/37/156/1",
+            "AJ/37/155/6-"
+        ],
+        "lignes": 8
+    },
+    "1857-0294": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé, engagé au Théâtre-Lyrique",
+            "Rayé, a quitté (engagé au Théâtre-Lyrique)",
+            "Rayé ne venant plus aux classes"
+        ],
+        "exerce_date_debut": [
+            "=#N/A",
+            "1860-00-00"
+        ],
+        "parcours_classe_date_sortie": [
+            "?",
+            "1860-10-01"
+        ],
+        "parcours_classe_motif_sortie": [
+            "?",
+            "rayé, engagé au Théâtre-Lyrique"
+        ],
+        "cursus_motif_admission": [
+            "admis par décision du comité",
+            "rentré dans les classes après 1860"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé de la classe",
+            "rayé, engagé au Théâtre-Lyrique"
+        ],
+        "cursus_motif_admission_TDC": [
+            "réadmis ?",
+            "admis dans la classe spécialement consacrée aux élèves pensionnaires du chant ouverte par décision de M. Auber du 1er décembre 1857"
+        ],
+        "lignes": 9
+    },
+    "1857-0296": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé, parti conscrit"
+        ],
+        "lignes": 3
+    },
+    "1857-0297": {
+        "eleve_observations": [
+            "a épousé M. François Robineau, peintre, en février 1852 ; cousine de Berton, ancien acteur au Gymnase, aujoud'hui en Russie",
+            "a épousé M. François Robineau, peintre en février 1852 ; cousine de Berton, ancien acteur au Gymnase, aujoud'hui en Russie"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe de M. Faure",
+            "rayé, engagé au Théâtre-Lyrique"
+        ],
+        "cursus_motif_admission_TDC": [
+            "auparavant chez M. Faure",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "?",
+            "rayé engagé au Théâtre-Lyrique"
+        ],
+        "lignes": 4
+    },
+    "1857-0298": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, engagé à Dijon",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 3
+    },
+    "1857-0299": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, n’est pas rentré",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 3
+    },
+    "1857-0301": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe, absent trois mois",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 3
+    },
+    "1857-0302": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe, démissionnaire",
+            "rayé, démissionnaire"
+        ],
+        "lignes": 3
+    },
+    "1857-0303": {
+        "cursus_motif_admission": [
+            "admis par décision du comité ; présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, démissionnaire",
+            "rayé, parti en Allemagne"
+        ],
+        "lignes": 6
+    },
+    "1857-0304": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé chez M. Grosset",
+            "rayé de la classe, absent quatre mois",
+            "rayé de la classe"
+        ],
+        "lignes": 5
+    },
+    "1857-0306": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé, démissionnaire (elle se marie)"
+        ],
+        "lignes": 3
+    },
+    "1857-0308": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé chez Savard",
+            "[études terminées pour cette classe]"
+        ],
+        "lignes": 7
+    },
+    "1857-0310": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé absent deux mois"
+        ],
+        "lignes": 2
+    },
+    "1857-0311": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe pour absences",
+            "passé dans la classe de M. Massart car le professeur M. Guérin a été admis à la retraite le 1er janvier 1860"
+        ],
+        "lignes": 3
+    },
+    "1857-0316": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "?"
+        ],
+        "lignes": 2
+    },
+    "1857-0317": {
+        "cursus_motif_sortie": [
+            "rayé",
+            "[études terminées ?]"
+        ],
+        "lignes": 4
+    },
+    "1857-0319": {
+        "cursus_motif_admission": [
+            "présenté par M. Matthieu et M. Jules Cohen à M. Auber",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé absent trois mois",
+            "rayé pour absences"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, absent trois mois",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1857-0321": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1857-0324": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "[études terminées pour cette classe]",
+            "rayé"
+        ],
+        "eleve_observations_TDC": [
+            "les tableaux de classe mentionnent « fils de l’acteur »",
+            "le tableau de classe 1860-1861 mentionne « fils de l’acteur du Palais Royal » , ceux de 1861-1862 à 1864-1865 « fils de l’acteur du Vaudeville » et celui de 1865-1866 « fils de l’acteur du Gymnase »"
+        ],
+        "lignes": 10
+    },
+    "1857-0328": {
+        "cursus_motif_sortie": [
+            "démissionnaire",
+            "rayé pour absences"
+        ],
+        "lignes": 2
+    },
+    "1857-0333": {
+        "cursus_motif_admission": [
+            "admis sur la présentation du professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "rayé, absent deux mois"
+        ],
+        "lignes": 3
+    },
+    "1857-0335": {
+        "cursus_motif_sortie": [
+            "démissionnaire",
+            "rayé, démissionnaire"
+        ],
+        "lignes": 3
+    },
+    "1857-0338": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé, engagé à Dunkerque"
+        ],
+        "lignes": 4
+    },
+    "1857-0341": {
+        "eleve_remarques de saisie": [
+            "sortie : indication : \"a quitté le pensionnat\" le 1859-10-01 et non pas les classes !!",
+            "sortie : indication : \"a quitté le pensionnat\" le 1859-10-01 et non pas les classes !! S'agit-il de la même date ?"
+        ],
+        "cursus_motif_sortie": [
+            "Rayé, a quitté le pensionnat ; engagé à l'Opéra",
+            "a quitté le pensionnat ; engagé à l'Opéra"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/5-AJ/37/155/6",
+            "AJ/37/155/5-"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, engagé à l’Opéra",
+            "rayé, a quitté le pensionnat (engagé à l’Opéra)"
+        ],
+        "lignes": 7
+    },
+    "1857-0342": {
+        "cursus_date_sortie_conservatoire": [
+            "?-?-?",
+            "-?-?"
+        ],
+        "lignes": 4
+    },
+    "1857-0343": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté le pensionnat, études terminées",
+            "rayé, a quitté le pensionnat et les classes, études terminées",
+            "rayé, a quitté le pensionnat et les classes"
+        ],
+        "cursus_motif_admission": [
+            "admis par décision du comité",
+            "réintégré"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, a quitté le pensionnat, études terminées",
+            "études terminées"
+        ],
+        "lignes": 4
+    },
+    "1857-0344": {
+        "cursus_motif_sortie": [
+            "renvoyé du pensionnat et des classes par décision du Ministre du 24 mai 1859",
+            "renvoyé du pensionnat et des classes par décision du comité",
+            "rayé, renvoyé du pensionnat et des classes"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "renvoyé pour cause d’insubordination par arrêté du Ministre du 24 mai 1859",
+            "par arrêté du Ministre du 24 mai 1859 pour cause d’insubordination"
+        ],
+        "lignes": 4
+    },
+    "1857-0345": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe et le pensionnat",
+            "rayé du pensionnat et des classes"
+        ],
+        "lignes": 4
+    },
+    "1857-0348": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/6-AJ/37/156/2",
+            "AJ/37/156/2"
+        ],
+        "lignes": 3
+    },
+    "1857-0349": {
+        "cursus_motif_admission": [
+            "présenté par M. Édouard Monnais",
+            "réadmis"
+        ],
+        "lignes": 3
+    },
+    "1857-0352": {
+        "cursus_motif_admission": [
+            "présenté par Rossini à M. Auber",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé ; n'est pas rentré à l'école",
+            "rayé"
+        ],
+        "lignes": 2
+    },
+    "1857-0353": {
+        "cursus_motif_admission": [
+            "présenté par M. Lutgen, maître de chapelle de Notre-Dame de Lorette",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé pour absences",
+            "rayé, absent trois mois"
+        ],
+        "lignes": 3
+    },
+    "1857-0356": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "renvoyé",
+            "rayé"
+        ],
+        "lignes": 2
+    },
+    "1857-0361": {
+        "eleve_observations": [
+            "son frère, élève militaire, cor à pistons,  R. D. f° 15, 18 février 1856",
+            "n° 311 de la totalité des élèves militaires ; son frère, élève militaire, cor à pistons,  R. D. f° 15, 18 février 1856"
+        ],
+        "cursus_motif_sortie": [
+            "rayé ; parti enfant de troupe",
+            "rayé"
+        ],
+        "lignes": 7
+    },
+    "1857-0366": {
+        "cursus_motif_admission": [
+            "admis par décision du comité",
+            "auparavant dans la classe de M. Beauvallet"
+        ],
+        "cursus_motif_sortie": [
+            "est passé à la classe de M. Provost",
+            "rayé ; absent deux mois"
+        ],
+        "lignes": 2
+    },
+    "1857-0367": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour la comédie]",
+            "rayé ayant concouru en 1858, 1859 et 1860"
+        ],
+        "lignes": 6
+    },
+    "1857-0380": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé, « passé chez Laurent » ??",
+            "rayé"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "rayé pour absences"
+        ],
+        "lignes": 6
+    },
+    "1857-0381": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, démissionnaire de la classe",
+            "rayé, a quitté la classe"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "rayé, absent deux mois"
+        ],
+        "lignes": 4
+    },
+    "1857-0399": {
+        "eleve_observations": [
+            "étranger ; admission approuvée par décision du Ministre du 8 février 1858",
+            "étranger"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "passe dans la classe de M. Girard car le professeur M. Guérin admis à la retraite le 1er janvier 1860",
+            "rayé de la classe, absent deux mois"
+        ],
+        "lignes": 3
+    },
+    "1858-0403": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "[études terminées pour cette classe]",
+            "rayé"
+        ],
+        "cursus_motif_admission": [
+            "présenté par M. Henri Herz ; son père est employé chez lui",
+            "admis par décision du comité du 21 octobre 1863"
+        ],
+        "lignes": 5
+    },
+    "1858-0404": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "rayé",
+            "rayé, démissionnaire de la classe"
+        ],
+        "lignes": 5
+    },
+    "1858-0412": {
+        "cursus_motif_sortie_TDC": [
+            "passe dans la classe de M. Dancla car le professeur M. Guérin admis à la retraite le 1er janvier 1860",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1858-0419": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé ; parti dans un régiment",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1858-0421": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé"
+        ],
+        "lignes": 7
+    },
+    "1858-0438": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/5-AJ/37/156/3",
+            "AJ/37/156/1-AJ/37/156/3"
+        ],
+        "lignes": 4
+    },
+    "1858-0440": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé ; parti dans un régiment",
+            "rayé ; absent deux mois"
+        ],
+        "lignes": 2
+    },
+    "1858-0451": {
+        "cursus_motif_sortie_TDC": [
+            "classe supprimée, passe chez M. Durand",
+            "rayé, études terminées"
+        ],
+        "lignes": 4
+    },
+    "1858-0457": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, « renvoyé dans son régiment »",
+            "rayé, renvoyé à son régiment"
+        ],
+        "lignes": 4
+    },
+    "1858-0458": {
+        "cursus_motif_sortie_TDC": [
+            "classe supprimée, passe chez M. Durand",
+            "rayé, études terminées"
+        ],
+        "lignes": 4
+    },
+    "1858-0460": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, études terminées",
+            "passé dans la classe militaire de solfège de M. Alkan"
+        ],
+        "lignes": 5
+    },
+    "1858-0462": {
+        "eleve_observations": [
+            "élève militaire, numéro 17, année 3 ; numéro 71 de la totalité",
+            "élève militaire, numéro 17, année 3 ; numéro 71 de la totalité ; saxophone alto"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe militaire de solfège de M. Alkan",
+            "rayé, études terminées",
+            "rayé, études terminées (nommé sous-chef)"
+        ],
+        "lignes": 4
+    },
+    "1858-0465": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "mort à Paris"
+        ],
+        "lignes": 3
+    },
+    "1858-0466": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé dans la classe militaire de solfège de M. Alkan",
+            "rayé, études terminées"
+        ],
+        "lignes": 4
+    },
+    "1858-0470": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé chez Forestier1J",
+            "rayé, études terminées"
+        ],
+        "lignes": 4
+    },
+    "1858-0472": {
+        "cursus_motif_sortie_TDC": [
+            "classe supprimée, passe chez M. Durand",
+            "rayé, études terminées (nommé sous-chef)",
+            "rayé, études terminées"
+        ],
+        "lignes": 4
+    },
+    "1858-0476": {
+        "cursus_motif_sortie_TDC": [
+            "classe supprimée, passe chez M. Durand",
+            "rayé, études terminées"
+        ],
+        "lignes": 3
+    },
+    "1858-0477": {
+        "cursus_motif_admission": [
+            "a concouru le 19 mars 1858 devant la commission d’examen qui l'a refusé ; admis élève militaire sur la demande du professeur à M. le général de division Mellinet",
+            "admis élève militaire le 16 avril 1858 après avoir concouru le 19 mars 1858 devant la commission d’examen présidée par le général de division Mellinet"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé, études terminées"
+        ],
+        "lignes": 3
+    },
+    "1858-0478": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, études terminées",
+            "rayé, études terminées (nommé sous-chef)"
+        ],
+        "lignes": 3
+    },
+    "1858-0479": {
+        "cursus_motif_sortie_TDC": [
+            "classe supprimée, passe chez M. Durand",
+            "rayé, études terminées"
+        ],
+        "lignes": 4
+    },
+    "1858-0480": {
+        "cursus_motif_admission": [
+            "présenté par M. Jonas, répétiteur de solfège",
+            "admis par décision du comité du 24 octobre 1862"
+        ],
+        "lignes": 3
+    },
+    "1858-0482": {
+        "cursus_motif_admission": [
+            "présenté par M. Ferrière",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "a quitté le solfège",
+            "rayé, démissionnaire"
+        ],
+        "lignes": 2
+    },
+    "1858-0484": {
+        "cursus_motif_sortie": [
+            "démissionnaire",
+            "rayé"
+        ],
+        "cursus_motif_admission": [
+            "adressé par M. Masquillier, artiste de la comédie française",
+            "admis par décision du comité du 28 octobre 1861"
+        ],
+        "lignes": 3
+    },
+    "1858-0487": {
+        "cursus_motif_sortie_TDC": [
+            "passé chez Thomas",
+            "[études terminées pour le piano]"
+        ],
+        "lignes": 6
+    },
+    "1858-0496": {
+        "exerce_profession_connue": [
+            "début au théâtre de l'Odéon de Chimène du Cid (14 janvier 1861), au Théâtre Français (1864)",
+            "début au théâtre de l'Odéon (14 janvier 1861), au Théâtre Français (1864)"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/6-AJ/37/156/2",
+            "AJ/37/156/1-AJ/37/156/2"
+        ],
+        "lignes": 3
+    },
+    "1858-0500": {
+        "eleve_profession_pere": [
+            "contrôleur de ville dans les contributions indirectes",
+            "contrôleur de ville  dans les contributions indirectes"
+        ],
+        "cursus_motif_admission": [
+            "admis après examen et décision du comité",
+            "réadmis par décision du comité"
+        ],
+        "cursus_motif_sortie": [
+            "rayé ; absent trois mois",
+            "rayé ; engagé à la Porte Saint-Martin"
+        ],
+        "lignes": 2
+    },
+    "1858-0502": {
+        "cursus_motif_admission_TDC": [
+            "réadmis ?",
+            "réadmis"
+        ],
+        "lignes": 4
+    },
+    "1858-0503": {
+        "cursus_motif_admission": [
+            "adressé à M. Auber par M. Heurtier, conseiller d'état ; entendu par le professeur",
+            "adressé à M. Auber par M. Heurtier, conseiller d'état"
+        ],
+        "lignes": 4
+    },
+    "1858-0505": {
+        "eleve_observations": [
+            "« considéré comme élève civil, quoique musicien de 1ère classe au 2e de grenadiers de la garde » ; son frère aîné, élève de trombone, f° 209 [1859-617]",
+            "élève militaire, numéro 2, année 5, numéro 124 de la totalité ; son frère aîné, élève de trombone, f° 209 [1859-617]"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "admis élève militaire le 6 février 1860 après examen du 18 janvier 1860 devant la commission des élèves militaires"
+        ],
+        "cursus_motif_sortie": [
+            "rayé ; parti dans un régiment",
+            "études terminées"
+        ],
+        "eleve_observations_TDC": [
+            "les tableaux de classe 1859-1860 et 1860-1861 mentionnent « 19e Léger »",
+            "ancien élève civil admis élève militaire le 6 février 1860"
+        ],
+        "lignes": 3
+    },
+    "1858-0508": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté le pensionnat",
+            "rayé de la classe",
+            "rayé, a quitté le pensionnat et la classe"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur à M. Auber qui l'a entendu",
+            "admis au pensionnat"
+        ],
+        "lignes": 4
+    },
+    "1858-0510": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/6-aJ/37/156/5",
+            "AJ/37/156/2-AJ/37/156/5"
+        ],
+        "lignes": 4
+    },
+    "1858-0513": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, « passé à la classe de M. Laurent »",
+            "[études terminées pour cette classe]",
+            "rayé de la classe"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "?"
+        ],
+        "lignes": 6
+    },
+    "1858-0516": {
+        "cursus_motif_sortie_TDC": [
+            "passé chez Mme Farrenc",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 3
+    },
+    "1858-0518": {
+        "cursus_motif_admission": [
+            "entendu par M. Auber et présenté par le professeur",
+            "admis au pensionnat le 12 novembre [1858] en remplacement de M. Boutines"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "rayé, a quitté la classe",
+            "rayé de la classe"
+        ],
+        "lignes": 7
+    },
+    "1858-0521": {
+        "eleve_profession_pere": [
+            "ébéniste ; chef visiteur ? de l'attraction au chemin de fer de l'ouest",
+            "ébéniste ; chef ? de l'attraction au chemin de fer de l'ouest"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé pour absence",
+            "rayé, absent trois mois"
+        ],
+        "cursus_motif_admission": [
+            "présenté par son père",
+            "admis par décision du comité du 12 décembre 1860"
+        ],
+        "lignes": 3
+    },
+    "1858-0528": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe ayant concouru en 1860 et 1861",
+            "rayé, démissionnaire"
+        ],
+        "lignes": 3
+    },
+    "1858-0533": {
+        "cursus_motif_sortie": [
+            "rayé, parti à Marseille",
+            "démissionnaire"
+        ],
+        "lignes": 2
+    },
+    "1858-0534": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe ayant concouru trois fois sans succès",
+            "n’est pas rentré de Toulouse",
+            "rayé"
+        ],
+        "parcours_classe_motif_sortie_TDC": [
+            "n’est pas rentré de Toulouse",
+            "rayé"
+        ],
+        "lignes": 7
+    },
+    "1858-0539": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "admis par décision du comité du 24 octobre 1862"
+        ],
+        "lignes": 3
+    },
+    "1858-0541": {
+        "cursus_motif_sortie_TDC": [
+            "passé dans la classe de piano de Le Couppey",
+            "[études terminées pour cette classe]",
+            "[études terminées pour le piano]",
+            "rayé, passé chez Battaille"
+        ],
+        "cursus_motif_admission": [
+            "adressé à M. Auber par le directeur de l'école de Toulouse",
+            "admis par décision du comité du 21 octobre 1863"
+        ],
+        "lignes": 11
+    },
+    "1858-0542": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, absent trois mois de la classe",
+            "rayé de la classe"
+        ],
+        "lignes": 3
+    },
+    "1858-0543": {
+        "cursus_motif_sortie_TDC": [
+            "le professeur M. Vaslin remplacé à partir du 4 janvier 1860 par M. Chevillard",
+            "rayé de la classe"
+        ],
+        "lignes": 4
+    },
+    "1858-0544": {
+        "cursus_motif_admission": [
+            "entendu et admise par le comité le 3 novembre 1858 ; présenté par le professeur et Mme Mongeal",
+            "?"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "passe dans la classe de chant de M. Grosset",
+            "rayé de la classe",
+            "rayé"
+        ],
+        "eleve_observations_TDC": [
+            "a débuté à l'Opéra dans Valentine des Huguenots (septembre 1869) ; autre adresse : Sentier ?, rue du, 10",
+            "a débuté à l'Opéra dans Valentine des Huguenots (septembre 1869)"
+        ],
+        "lignes": 6
+    },
+    "1858-0545": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé de la classe"
+        ],
+        "lignes": 4
+    },
+    "1858-0561": {
+        "cursus_motif_admission": [
+            "entendu et admis par le comité",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé par décision du comité pour cause d'absences aux examens",
+            "rayé ; absent deux mois"
+        ],
+        "lignes": 3
+    },
+    "1858-0563": {
+        "eleve_observations": [
+            "baryton ; admis au pensionnat le 31 octobre 1859 ; a débuté à l'Opéra-Comique (18 mars 1861) dans Maître Claude, premier ouvrage de Jules Cohen",
+            "a débuté à l'Opéra-Comique (18 mars 1861) dans Maître Claude, premier ouvrage de Jules Cohen"
+        ],
+        "exerce_profession_connue": [
+            "a débuté à l'Opéra-Comique (18 mars 1861)",
+            "a débuté à l'Opéra-Comique dans Maître Claude, premier ouvrage de Jules Cohen (18 mars 1861)"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/1-AJ/37/156/2",
+            "AJ/37/156/1-"
+        ],
+        "cursus_motif_admission": [
+            "entendu et admis par le comité ; présenté par M. Faure",
+            "admis au pensionnat le 31 octobre 1859"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, débute à l’Opéra-Comique",
+            "rayé, a quitté le pensionnat",
+            "rayé, débute le 18 mars à l’Opéra-Comique"
+        ],
+        "lignes": 5
+    },
+    "1858-0564": {
+        "cursus_motif_admission": [
+            "entendu et admis par le comité dans sa séance du 12 novembre 1858",
+            "admis au pensionnat le 31 octobre 1859"
+        ],
+        "lignes": 7
+    },
+    "1858-0566": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé ; engagé à Béziers"
+        ],
+        "lignes": 5
+    },
+    "1858-0569": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé, quitte la classe",
+            "rayé"
+        ],
+        "lignes": 7
+    },
+    "1858-0573": {
+        "cursus_motif_sortie": [
+            "engagé à Besançon",
+            "?"
+        ],
+        "cursus_motif_admission": [
+            "admis par décision du comité ; adressé par l'école de Lille",
+            "réadmis"
+        ],
+        "lignes": 6
+    },
+    "1858-0576": {
+        "cursus_motif_admission": [
+            "admis après audition ; présenté par Mme Roulle, son professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé ; absent deux mois",
+            "rayé ayant refusé de signer l'engagement des élèves"
+        ],
+        "lignes": 2
+    },
+    "1858-0581": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé"
+        ],
+        "parcours_classe_date_sortie": [
+            "?",
+            "1863-10-01"
+        ],
+        "parcours_classe_motif_sortie": [
+            "?",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1858-0585": {
+        "cursus_motif_admission_TDC": [
+            "présenté par la maison Erard",
+            "auparavant chez M. Girard"
+        ],
+        "lignes": 2
+    },
+    "1858-0587": {
+        "cursus_motif_sortie": [
+            "rayé, parti en province",
+            "rayé ; parti en province"
+        ],
+        "lignes": 3
+    },
+    "1858-0588": {
+        "cursus_motif_sortie": [
+            "rayé",
+            "rayé de la classe"
+        ],
+        "lignes": 2
+    },
+    "1858-0589": {
+        "cursus_motif_admission": [
+            "admis après examen et décision du comité ; adressé par l'école de Marseille et recommandé par le professeur",
+            "admis par décision du comité",
+            "?"
+        ],
+        "cursus_motif_sortie": [
+            "démissionnaire",
+            "rayé ; au Théâtre-Lyrique",
+            "rayé ; au Théâtre-Lyrique ?"
+        ],
+        "exerce_profession_connue_TDC": [
+            "« à l’Opéra » (1861)",
+            "« à l’Opéra » (1861) ; ancien classe de violon"
+        ],
+        "lignes": 6
+    },
+    "1858-0593": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, absent deux mois",
+            "rayé de la classe"
+        ],
+        "lignes": 3
+    },
+    "1858-0597": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "[études terminées pour cette classe]",
+            "rayé"
+        ],
+        "lignes": 6
+    },
+    "1858-0599": {
+        "cursus_motif_admission": [
+            "admis après examen et décision du comité ; présenté par M. Henri Herz et le professeur",
+            "admis après examen et décision du comité du 16 décembre 1858 ; présenté par M. Henri Herz et le professeur"
+        ],
+        "cursus_motif_sortie": [
+            "rayé ; parti en Allemagne",
+            "rayé, parti en Allemagne"
+        ],
+        "parcours_classe_motif_entree": [
+            "admis après examen et décision du comité ; présenté par M. Henri Herz et le professeur",
+            "admis après examen et décision du comité du 16 décembre 1858 ; présenté par M. Henri Herz et le professeur"
+        ],
+        "parcours_classe_motif_sortie": [
+            "rayé ; parti en Allemagne",
+            "rayé, parti en Allemagne"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/1-AJ/37/156/3",
+            "AJ/37/156/3"
+        ],
+        "lignes": 4
+    },
+    "1858-0601": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, démissionnaire",
+            "rayé de la classe"
+        ],
+        "lignes": 2
+    },
+    "1858-0603": {
+        "cursus_motif_sortie_TDC": [
+            "[passé chez Mme Farrenc]",
+            "rayé, démissionnaire"
+        ],
+        "eleve_observations_TDC": [
+            "le professeur Mme Dupuis démissionnaire le 9 novembre 1860, remplacée par Mlle Barles",
+            "le tableau de classe 1860-1861 mentionne «était chez M. Herz depuis le 21 décembre 1858 » ; autre adresse : Faubourg-Saint-Martin, rue du, 147"
+        ],
+        "lignes": 3
+    },
+    "1858-0608": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé à la classe de M. Gillette",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 5
+    },
+    "1858-0611": {
+        "cursus_motif_admission": [
+            "présenté par M. Leborne et Deslandes, son professeur particulier ; recommandé par M. Urbain von Esch et M. Hyppolite Caillot",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "a quitté volontairement",
+            "rayé, absent deux mois"
+        ],
+        "exerce_lieu_exercice": [
+            "Opéra",
+            "Opéra ; Vaudeville"
+        ],
+        "lignes": 2
+    },
+    "1859-0618": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour la flûte]",
+            "[études terminées pour le solfège]"
+        ],
+        "exerce_profession_connue_TDC": [
+            "Porte Saint-Martin (1862)",
+            "« aux Italiens » ? (1859)"
+        ],
+        "exerce_date_debut": [
+            "1862-00-00",
+            "1859-00-00"
+        ],
+        "lignes": 5
+    },
+    "1859-0619": {
+        "cursus_motif_admission": [
+            "admis sur la demande de son chef de musique, M. Metzger et du professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, parti avec son régiment",
+            "rayé"
+        ],
+        "lignes": 2
+    },
+    "1859-0622": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/6-AJ/37/156/3",
+            "AJ/37/155/6-AJ/37/156/4"
+        ],
+        "lignes": 5
+    },
+    "1859-0623": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, études terminées",
+            "rayé, passé chez Dax ?"
+        ],
+        "eleve_observations": [
+            "élève militaire, numéro 1, année 4, 89 de la totalité",
+            "élève militaire, numéro 1, année 4, 89 de la totalité ; son frère cadet, élève militaire, 2 mars 1861, f° 347 [1861-1025]"
+        ],
+        "lignes": 4
+    },
+    "1859-0630": {
+        "eleve_observations": [
+            "élève militaire, numéro 8, année 4, 96 de la totalité ; saxophone alto",
+            "élève militaire, numéro 8, année 4, 96 de la totalité"
+        ],
+        "lignes": 4
+    },
+    "1859-0633": {
+        "eleve_observations": [
+            "élève militaire, numéro 11, année 4, 99 de la totalité ;",
+            "élève militaire, numéro 11, année 4, 99 de la totalité"
+        ],
+        "lignes": 3
+    },
+    "1859-0636": {
+        "cursus_motif_sortie_TDC": [
+            "renvoyé pour inconduite",
+            "rayé, renvoyé pour inconduite"
+        ],
+        "lignes": 4
+    },
+    "1859-0639": {
+        "eleve_observations": [
+            "élève militaire, numéro 17, année 4, 105 de la totalité ; saxophone alto en mi bémol≈",
+            "élève militaire, numéro 17, année 4, 105 de la totalité ; saxophone alto en mi bémol",
+            "élève militaire, numéro 17, année 4, 105 de la totalité"
+        ],
+        "eleve_observations_TDC": [
+            "le tableau de classe 1858-1859 mentionne « passé au saxophone »",
+            "ancien élève civil de contrebasse [1855-1016]"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, études terminées",
+            "études terminées"
+        ],
+        "lignes": 4
+    },
+    "1859-0641": {
+        "eleve_observations": [
+            "élève militaire, numéro 19, année 4, 107 de la totalité",
+            "élève militaire, numéro 19, année 4, 107 de la totalité ;"
+        ],
+        "lignes": 3
+    },
+    "1859-0646": {
+        "cursus_motif_admission": [
+            "admis élève militaire le 22 février 1859 par la commission présidée par le général de division Mellinet après avoir concouru le 4 février 1859",
+            "réadmis élève militaire le 23 janvier 1866 par la commission d'examen  présidée par le général de division Mellinet"
+        ],
+        "cursus_motif_sortie": [
+            "études terminées",
+            "rayé"
+        ],
+        "exerce_profession_connue": [
+            "musicien au 82e de ligne en garnison à Montrouge",
+            "musicien de 3e classe au 17e régiment de ligne, en garnison à Perpignan"
+        ],
+        "lignes": 6
+    },
+    "1859-0651": {
+        "eleve_observations": [
+            "élève militaire, numéro 29, année 4, 117 de la totalité",
+            "élève militaire, numéro 29, année 4, 117 de la totalité ; saxhorn en mi bémol"
+        ],
+        "lignes": 3
+    },
+    "1859-0652": {
+        "eleve_observations": [
+            "élève militaire, numéro 30, année 4, 118 de la totalité",
+            "élève militaire, numéro 30, année 4, 118 de la totalité ; saxophone soprano"
+        ],
+        "lignes": 4
+    },
+    "1859-0653": {
+        "eleve_observations_TDC": [
+            "le tableau de classe 1858-1859 mentionne « passé au saxophone »",
+            "élève militaire, numéro 31, année 4, 119 de la totalité ; le tableau de classe 1858-1859 mentionne « 66e de ligne »",
+            "le tableau de classe 1859-1860 et celui de l’année suivante mentionnent « 66e de ligne » alors que le registre d’inscription mentionne « 31e de ligne en garnison à Verdun » !"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, études terminées",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1859-0663": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/155/6-",
+            "AJ/37/155/6-AJ/37/156/2"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "?"
+        ],
+        "lignes": 3
+    },
+    "1859-0665": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1859-0668": {
+        "cursus_motif_admission": [
+            "admis par suite de l'examen et décision du comité",
+            "admis au pensionnat"
+        ],
+        "lignes": 3
+    },
+    "1859-0670": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, engagé à La Haye",
+            "rayé, a quitté la classe",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1859-0671": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé, démissionnaire"
+        ],
+        "lignes": 3
+    },
+    "1859-0672": {
+        "cursus_motif_admission": [
+            "admis par décision du comité ; présenté par le professeur",
+            "réadmis sur la demande de M. Ferrend, sous-chef du bureau des Beaux-Arts"
+        ],
+        "cursus_motif_sortie": [
+            "rayé ; parti en Allemagne",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1859-0673": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, démissionnaire",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 2
+    },
+    "1859-0677": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé, démissionnaire"
+        ],
+        "lignes": 3
+    },
+    "1859-0682": {
+        "parcours_classe_observations_eleve_TDC": [
+            "le professeur M. Provost, démissionnaire, remplacé par M. Samson à compter du 2 avril 1862",
+            "le professeur M. Provost admis à la retraite par arrêté du 25 mars 1862, remplacé par M. Samson"
+        ],
+        "lignes": 4
+    },
+    "1859-0691": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé pour absences",
+            "rayé, absent deux mois"
+        ],
+        "lignes": 2
+    },
+    "1859-0693": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "rayé, a quitté volontairement la classe"
+        ],
+        "lignes": 6
+    },
+    "1859-0695": {
+        "eleve_observations": [
+            "engagé à l'Opéra-Comique où elle débute en septembre 1861 dans le rôle de Virginie du Caïd≈",
+            "engagé à l'Opéra-Comique où elle débute en septembre 1861 dans le rôle de Virginie du Caïd"
+        ],
+        "cursus_motif_sortie": [
+            "?",
+            "rayé ; engagé à l'Opéra-Comique"
+        ],
+        "exerce_profession_connue": [
+            "engagé à l'Opéra-Comique où elle débute dans le rôle de Virginie du Caïd (septembre 1861)",
+            "engagé à l'Opéra-Comique où elle débute (septembre 1861)"
+        ],
+        "lignes": 4
+    },
+    "1859-0696": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1859-0697": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "études terminées",
+            "?"
+        ],
+        "lignes": 6
+    },
+    "1859-0699": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, engagé au Théâtre-Lyrique",
+            "rayé, engagé au Théâtre-Lyrique en décembre 1860"
+        ],
+        "lignes": 3
+    },
+    "1859-0701": {
+        "cursus_motif_admission": [
+            "admis par décision du comité du 29 octobre 1859 ; présenté par le professeur",
+            "admis au pensionnat le 31 octobre 1859"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "rayé de la classe",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 8
+    },
+    "1859-0702": {
+        "cursus_motif_admission": [
+            "a été entendu par le comité ; présenté par le professeur",
+            "admis au pensionnat le 31 octobre 1859"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, engagé à l’Opéra-Comique",
+            "rayé, a quitté le pensionnat",
+            "rayé de la classe"
+        ],
+        "lignes": 6
+    },
+    "1859-0703": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1859-0704": {
+        "cursus_motif_admission": [
+            "admis par décision du comité",
+            "réadmis"
+        ],
+        "lignes": 2
+    },
+    "1859-0707": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe, absent deux mois",
+            "rayé de la classe pour absences"
+        ],
+        "lignes": 3
+    },
+    "1859-0711": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé, absent deux mois"
+        ],
+        "lignes": 4
+    },
+    "1859-0716": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1859-0717": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé, engagé aux Bouffes"
+        ],
+        "lignes": 3
+    },
+    "1859-0718": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "[études terminées pour cette classe]"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/2-AJ/37/156/5",
+            "AJ/37/156/3-AJ/37/156/5"
+        ],
+        "lignes": 5
+    },
+    "1859-0719": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé, parti en province"
+        ],
+        "lignes": 4
+    },
+    "1859-0720": {
+        "cursus_motif_admission": [
+            "admis par décision du comité",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "démissionnaire",
+            "rayé ; engagé à l'île Maurice"
+        ],
+        "lignes": 4
+    },
+    "1859-0721": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1859-0723": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "[études terminées pour cette classe]"
+        ],
+        "lignes": 6
+    },
+    "1859-0724": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/1-AJ/37/156/3",
+            "AJ/37/156/1-"
+        ],
+        "cursus_motif_admission": [
+            "présenté par sa mère",
+            "admis par décision du comité du 19 décembre 1864"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "?"
+        ],
+        "lignes": 4
+    },
+    "1859-0725": {
+        "eleve_observations": [
+            "son père est un ancien professeur du Conservatoire",
+            "son père est un ancien professeur du Conservatoire ; accompagnateur de la classe du soir,  le 1 janvier 1868",
+            "son père est un ancien professeur du Conservatoire ; accompagnateur de la classe du soir, le 1 janvier 1868"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, « passé chez Laurent »",
+            "rayé"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "?"
+        ],
+        "cursus_motif_admission": [
+            "présenté par M. Ferrière, surveillant des classes",
+            "?"
+        ],
+        "lignes": 7
+    },
+    "1859-0726": {
+        "cursus_motif_admission": [
+            "présenté par son père, ancien élève de violoncelle",
+            "admis par décision du comité du 11 décembre 1860"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, absent trois mois",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1859-0730": {
+        "cursus_motif_sortie_TDC": [
+            "a quitté la classe",
+            "rayé, quitte la classe",
+            "[n’apparaît plus dans le tableau de classe 1862-1863]",
+            "rayé"
+        ],
+        "cursus_motif_admission": [
+            "présenté à M. Auber par son père",
+            "admis par décision du comité du 28 octobre 1861"
+        ],
+        "lignes": 6
+    },
+    "1859-0732": {
+        "cursus_motif_admission": [
+            "présenté par M. Charles Potier, acteur aux Variétés",
+            "admis par décision du comité du 28 octobre [1861]"
+        ],
+        "lignes": 2
+    },
+    "1859-0735": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/1-AJ/37/156/3",
+            "AJ/37/156/2-AJ/37/156/3"
+        ],
+        "lignes": 3
+    },
+    "1859-0737": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, parti en province",
+            "rayé, parti à Rome"
+        ],
+        "lignes": 5
+    },
+    "1859-0740": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, quitte la classe",
+            "rayé de la classe",
+            "rayé, a quitté la classe le 31 janvier 1863 ?",
+            "rayé"
+        ],
+        "lignes": 6
+    },
+    "1859-0743": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "rayé"
+        ],
+        "cursus_motif_admission": [
+            "présenté par M. Théodore Anne, rédacteur au journal l'Union",
+            "admis par décision du comité du 24 octobre 1862"
+        ],
+        "lignes": 6
+    },
+    "1859-0744": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "quitte la classe"
+        ],
+        "lignes": 5
+    },
+    "1859-0745": {
+        "cursus_motif_admission": [
+            "présenté et recommandé par M. Adrien Boieldieu",
+            "réadmis par décision du comité du 19 janvier 1866"
+        ],
+        "cursus_motif_sortie": [
+            "rayé ; absent deux mois",
+            "?"
+        ],
+        "lignes": 2
+    },
+    "1859-0746": {
+        "cursus_motif_admission": [
+            "admis par décision du comité du 29 novembre 1859",
+            "?"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, absent trois mois",
+            "rayé pour absences"
+        ],
+        "lignes": 3
+    },
+    "1859-0758": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/1-AJ/37/156/3",
+            "AJ/37/156/2-AJ/37/156/3",
+            "AJ/37/156/4"
+        ],
+        "lignes": 3
+    },
+    "1859-0759": {
+        "cursus_motif_admission": [
+            "adressé par M. Mériel, directeur de l'école de Toulouse",
+            "admis par décision du comité du 17 janvier 1866"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "passé chez Le Couppey"
+        ],
+        "cursus_motif_sortie": [
+            "études terminées",
+            "rayé"
+        ],
+        "lignes": 8
+    },
+    "1859-0762": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé dans la classe de piano de Le Couppey",
+            "rayé, pour absences",
+            "rayé"
+        ],
+        "lignes": 6
+    },
+    "1859-0763": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "?"
+        ],
+        "lignes": 4
+    },
+    "1859-0764": {
+        "cursus_motif_sortie": [
+            "études terminées",
+            "rayé pour absences"
+        ],
+        "lignes": 2
+    },
+    "1860-0766": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/4",
+            "AJ/37/156/4-AJ/37/156/5"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "[études terminées pour cette classe]"
+        ],
+        "cursus_motif_admission": [
+            "présenté par M. Auguste Wolff de la maison Pleyel",
+            "admis par décision du comité du 18 décembre 1862"
+        ],
+        "lignes": 4
+    },
+    "1860-0767": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour la flûte]",
+            "[études terminées pour l’harmonie écrite]"
+        ],
+        "lignes": 4
+    },
+    "1860-0771": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 5
+    },
+    "1860-0776": {
+        "cursus_motif_admission": [
+            "a été entendu par M. Auber",
+            "admis par décision du comité du 28 octobre [1861]"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, quitte la classe",
+            "[n’apparaît plus dans le tableau de classe 1861-1862]",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1860-0777": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "[études terminées pour le basson]"
+        ],
+        "lignes": 5
+    },
+    "1860-0778": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "rayé",
+            "quitte la classe"
+        ],
+        "cursus_motif_admission": [
+            "présenté par Mlle Léontine, actrice de la Gaité",
+            "réadmis"
+        ],
+        "lignes": 5
+    },
+    "1860-0779": {
+        "cursus_motif_sortie_TDC": [
+            "« passé chez Sax »",
+            "rayé, études terminées"
+        ],
+        "lignes": 4
+    },
+    "1860-0780": {
+        "cursus_motif_admission": [
+            "admis élève militaire le 6 février 1860 par la commission présidée par le général de division Mellinet après avoir concouru le 25 janvier 1860",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé pour inconduite",
+            "?"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[rayé]",
+            "rayé"
+        ],
+        "lignes": 6
+    },
+    "1860-0782": {
+        "eleve_observations": [
+            "élève militaire, numéro 6, année 5, numéro 128 de la totalité ; saxophone alto",
+            "élève militaire, numéro 6, année 5, numéro 128 de la totalité"
+        ],
+        "lignes": 3
+    },
+    "1860-0787": {
+        "eleve_observations": [
+            "élève militaire, numéro 13, année 5, numéro 135 de la totalité ; saxophone baryton",
+            "élève militaire, numéro 13, année 5, numéro 135 de la totalité",
+            "élève militaire, numéro 13, année 5, numéro 135 de la totalité réadmis le 22 décembre 1864"
+        ],
+        "cursus_motif_admission": [
+            "admis élève militaire le 6 février 1860 par la commission présidée par le général de division Mellinet après avoir concouru le 25 janvier 1860",
+            "réadmis élève militaire le 22 décembre 1864 par la commission"
+        ],
+        "cursus_motif_sortie": [
+            "études terminées",
+            "?"
+        ],
+        "lignes": 6
+    },
+    "1860-0796": {
+        "eleve_observations": [
+            "élève militaire, numéro 22, année 5, numéro 144 de la totalité ; saxophone alto",
+            "élève militaire, numéro 22, année 5, numéro 144 de la totalité"
+        ],
+        "lignes": 3
+    },
+    "1860-0806": {
+        "eleve_observations": [
+            "élève militaire, numéro 32, année 5, numéro 154 de la totalité",
+            "élève militaire, numéro 32, année 5, numéro 154 de la totalité ; saxhorn en si bémol"
+        ],
+        "cursus_motif_sortie": [
+            "?",
+            "études terminées"
+        ],
+        "lignes": 5
+    },
+    "1860-0810": {
+        "cursus_motif_sortie_TDC": [
+            "« passe chez Forestier »",
+            "rayé, études terminées"
+        ],
+        "lignes": 4
+    },
+    "1860-0811": {
+        "cursus_motif_sortie_TDC": [
+            "passé chez Sax",
+            "rayé, études terminées"
+        ],
+        "lignes": 4
+    },
+    "1860-0817": {
+        "cursus_motif_admission": [
+            "présenté à M. Auber par son père",
+            "admis par décision du comité du 24 octobre [1862]"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "quitte la classe",
+            "[passé chez M. Fontana]",
+            "rayé, passé chez M. Grosset",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1860-0818": {
+        "cursus_motif_sortie": [
+            "rayé",
+            "?"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "lignes": 5
+    },
+    "1860-0820": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé dans la classe d’orgue de M. Benoist",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 3
+    },
+    "1860-0823": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/3",
+            "AJ/37/156/2-AJ/37/156/3"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le trombone]",
+            "rayé, démissionnaire de la classe"
+        ],
+        "lignes": 3
+    },
+    "1860-0826": {
+        "cursus_motif_sortie": [
+            "rayé",
+            "?"
+        ],
+        "lignes": 4
+    },
+    "1860-0830": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, absent un mois",
+            "rayé, parti en province"
+        ],
+        "lignes": 3
+    },
+    "1860-0833": {
+        "eleve_observations": [
+            "externe placé au pensionnat ; ténor ; débute au Théâtre Lyrique dans Le Neveu de Gulliver de Lajarte",
+            "ténor ; débute au Théâtre Lyrique dans Le Neveu de Gulliver de Lajarte"
+        ],
+        "lignes": 3
+    },
+    "1860-0835": {
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "rayé, a quitté la classe",
+            "démissionnaire, absent deux mois"
+        ],
+        "lignes": 5
+    },
+    "1860-0837": {
+        "cursus_motif_sortie": [
+            "démissionnaire",
+            "rayé, démissionnaire"
+        ],
+        "lignes": 2
+    },
+    "1860-0838": {
+        "eleve_remarques de saisie_TDC": [
+            "le tableau de classe 1861-1862 mentionne en observations « belge (Gevaërt) » !",
+            "le registre d’inscription mentionne un 1er prix en 1863 et le tableau de classe 1862-1863 et le CP mentionnent un 2e prix en 1863"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/3",
+            "AJ/37/156/4"
+        ],
+        "lignes": 4
+    },
+    "1860-0839": {
+        "cursus_motif_sortie_TDC": [
+            "quitte cette classe",
+            "rayé de la classe",
+            "[études terminées pour cette classe]"
+        ],
+        "lignes": 6
+    },
+    "1860-0842": {
+        "cursus_motif_sortie_TDC": [
+            "quitte la classe",
+            "rayé, quitte la classe",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1860-0845": {
+        "cursus_motif_sortie": [
+            "rayé pour absences",
+            "rayé"
+        ],
+        "lignes": 2
+    },
+    "1860-0847": {
+        "eleve_observations": [
+            "avait déjà été entendu par le comité et refusé le 12 avril ; étranger",
+            "étranger"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé à la classe de Mlle Raillard",
+            "rayé",
+            "rayé de la classe, absent deux mois"
+        ],
+        "lignes": 5
+    },
+    "1860-0848": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/2-AJ/37/156/4",
+            "AJ/37/156/3-AJ/37/156/4"
+        ],
+        "lignes": 3
+    },
+    "1860-0849": {
+        "cursus_motif_admission": [
+            "présenté par le professeur ; jugé admissible par le comité à l'examen du 18 juin 1860",
+            "réadmis par décision du comité du 23 octobre 1862"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, parti en province",
+            "rayé, absent deux mois"
+        ],
+        "lignes": 3
+    },
+    "1860-0853": {
+        "exerce_profession_connue": [
+            "a débuté au Théâtre Français",
+            "Théâtre-Français (1863), a débuté dans Célimène du Misanthrope le23 janvier 1863"
+        ],
+        "lignes": 2
+    },
+    "1860-0856": {
+        "cursus_motif_admission": [
+            "admis par décision du comité du 20 juin 1860",
+            "admis par décision du comité du 21 octobre 1863"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe, est au Vaudeville",
+            "rayé",
+            "quitte la classe"
+        ],
+        "lignes": 5
+    },
+    "1860-0858": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "[études terminées pour cette classe]"
+        ],
+        "cursus_motif_admission": [
+            "présenté par Marmontel",
+            "?"
+        ],
+        "lignes": 9
+    },
+    "1860-0859": {
+        "cursus_motif_admission": [
+            "adressé par M. Fiorentino",
+            "admis par décision du comité des études du 11 décembre 1862"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "quitte la classe",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1860-0869": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1860-0871": {
+        "cursus_motif_sortie_TDC": [
+            "change de classe",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1860-0877": {
+        "cursus_motif_admission": [
+            "présenté par M. Carafa",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé pour absences",
+            "?"
+        ],
+        "lignes": 2
+    },
+    "1860-0879": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "[études terminées pour le solfège]",
+            "rayé"
+        ],
+        "lignes": 6
+    },
+    "1860-0881": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "[études terminées pour cette classe]"
+        ],
+        "cursus_motif_admission": [
+            "présenté par son oncle, M. Forestier, professeur de pistons pour les élèves militaires",
+            "réadmis"
+        ],
+        "lignes": 9
+    },
+    "1860-0882": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "?"
+        ],
+        "lignes": 4
+    },
+    "1860-0888": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "[études terminées pour cette classe]"
+        ],
+        "lignes": 8
+    },
+    "1860-0889": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "classe supprimée après l’admission à la retraite de M. Meifred"
+        ],
+        "lignes": 2
+    },
+    "1860-0891": {
+        "cursus_motif_admission": [
+            "recommandé par M. de La Rochefoucauld-Doudeauville, duc de, ancien directeur des Beaux-Arts en 1830",
+            "réadmis"
+        ],
+        "lignes": 3
+    },
+    "1860-0892": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "passé chez Le Couppey"
+        ],
+        "lignes": 8
+    },
+    "1860-0899": {
+        "cursus_motif_sortie_TDC": [
+            "quitte la classe",
+            "rayé"
+        ],
+        "lignes": 6
+    },
+    "1860-0901": {
+        "cursus_motif_admission": [
+            "présenté par M. le baron Taylor",
+            "admis le 30 décembre 1861"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, « passé à la classe de M. Laurent »",
+            "rayé",
+            "rayé de la classe"
+        ],
+        "lignes": 4
+    },
+    "1860-0902": {
+        "cursus_motif_sortie": [
+            "rayé, études terminées",
+            "?",
+            "études terminées"
+        ],
+        "cursus_motif_admission": [
+            "admis par décision du comité du 22 octobre 1860 ; venu de Toulouse sur le rapport de M. A. Thomas, inspecteur général des succursales",
+            "?"
+        ],
+        "lignes": 7
+    },
+    "1860-0903": {
+        "cursus_motif_admission": [
+            "admis au pensionnat le 23 octobre 1860",
+            "admis par décision du comité du 22 octobre 1860"
+        ],
+        "cursus_date_sortie_conservatoire": [
+            "1862-?-01",
+            "1862-00-01"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, a terminé ses études",
+            "rayé de la classe"
+        ],
+        "lignes": 7
+    },
+    "1860-0904": {
+        "cursus_motif_admission": [
+            "admis au pensionnat le 23 octobre 1860",
+            "admis par décision du comité du 22 octobre 1860 ; présenté par MM. Limnander er la professeur"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "rayé, a quitté la classe",
+            "rayé ?"
+        ],
+        "lignes": 8
+    },
+    "1860-0906": {
+        "cursus_motif_sortie_TDC": [
+            "a changé de classe",
+            "rayé de la classe",
+            "quitte la classe"
+        ],
+        "lignes": 4
+    },
+    "1860-0907": {
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "rayé de la classe"
+        ],
+        "lignes": 6
+    },
+    "1860-0909": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé, absent deux mois"
+        ],
+        "lignes": 3
+    },
+    "1860-0910": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé",
+            "rayé de la classe"
+        ],
+        "lignes": 4
+    },
+    "1860-0913": {
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "rayé de la classe"
+        ],
+        "lignes": 3
+    },
+    "1860-0914": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "[études terminées pour cette classe]"
+        ],
+        "lignes": 5
+    },
+    "1860-0916": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "lignes": 2
+    },
+    "1860-0918": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/2-AJ/37/156/4",
+            "AJ/37/156/4",
+            "AJ/37/156/2-",
+            "AJ/37/156/2-AJ/37/156/3"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour l’opéra-comique]",
+            "[études terminées pour le grand-opéra]"
+        ],
+        "lignes": 6
+    },
+    "1860-0919": {
+        "cursus_motif_sortie_TDC": [
+            "quitte la classe",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1860-0921": {
+        "cursus_motif_sortie_TDC": [
+            "quitte la classe",
+            "[passe chez Levasseur]",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1860-0926": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1860-0929": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé ; démissionnaire"
+        ],
+        "lignes": 3
+    },
+    "1860-0930": {
+        "cursus_motif_sortie_TDC": [
+            "[n’apparaît plus dans le tableau de classe 1862-1863]",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1860-0931": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "[études terminées pour cette classe]",
+            "quitte la classe"
+        ],
+        "lignes": 6
+    },
+    "1860-0933": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé, démissionnaire"
+        ],
+        "lignes": 3
+    },
+    "1860-0937": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le solfège]",
+            "rayé de la classe"
+        ],
+        "lignes": 4
+    },
+    "1860-0938": {
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "rayée le 24 janvier 1868 – absente 3 mois",
+            "rayée le 24 janvier 1868",
+            "rayée"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/157/1",
+            "AJ/37/157/1-AJ/37/157/2"
+        ],
+        "lignes": 7
+    },
+    "1860-0946": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé, absent trois mois"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "rayé de cette classe pour 3 concours"
+        ],
+        "lignes": 8
+    },
+    "1860-0948": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé étant engagé aux Concerts populaires de M. Pasdeloup",
+            "rayé ; absent deux mois"
+        ],
+        "lignes": 2
+    },
+    "1860-0949": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/5",
+            "AJ/37/156/5-AJ/37/156/6"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "admis par décision du comité du 18 décembre 1862"
+        ],
+        "lignes": 4
+    },
+    "1860-0950": {
+        "cursus_motif_sortie": [
+            "rayé",
+            "?"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "?"
+        ],
+        "lignes": 13
+    },
+    "1860-0953": {
+        "cursus_motif_admission": [
+            "présenté par M. Carafa",
+            "réadmis par décision du comité du 11 novembre 1864",
+            "réadmis par décision du comité"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, absent deux mois",
+            "rayé, absent à l'examen",
+            "?"
+        ],
+        "lignes": 3
+    },
+    "1860-0957": {
+        "cursus_motif_admission": [
+            "présenté par Mme Sannier et M. Jourdan",
+            "réadmis par décision du comité du 12 novembre 1864",
+            "réadmis par décision du comité"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, absent trois mois",
+            "?",
+            "rayé, engagé à l'Opéra-Comique"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/6",
+            "AJ/37/156/6-AJ/37/157/2"
+        ],
+        "lignes": 9
+    },
+    "1860-0958": {
+        "cursus_motif_sortie_TDC": [
+            "« passé … à la classe de Mlle Mercié-Porte »",
+            "rayé, a quitté l’école"
+        ],
+        "lignes": 2
+    },
+    "1860-0959": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé de la classe, absent deux mois",
+            "rayé"
+        ],
+        "exerce_date_debut": [
+            "1860-00-00",
+            "=#N/A"
+        ],
+        "lignes": 3
+    },
+    "1860-0962": {
+        "cursus_motif_admission": [
+            "présenté par son père, ancien professeur de violon au Conservatoire",
+            "réadmis par décision du comité du 3 décembre 1863",
+            "?"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "rayé ne venant pas aux cours",
+            "démissionnaire"
+        ],
+        "lignes": 4
+    },
+    "1860-0969": {
+        "cursus_motif_sortie_TDC": [
+            "[n’apparaît plus dans le tableau de classe 1862-1863]",
+            "rayé de la classe, absent trois mois"
+        ],
+        "lignes": 9
+    },
+    "1861-0976": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "a quitté la classe"
+        ],
+        "lignes": 3
+    },
+    "1861-0977": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "passé chez Farrenc"
+        ],
+        "lignes": 4
+    },
+    "1861-0980": {
+        "eleve_observations_TDC": [
+            "le tableau de classe 1862-1863 et suivants mentionnent « vient de Mulhouse » ; le professeur Mme Lemarchand démissionnaire le 5 octobre 1863, Mlle Rouget de Lisle, répétiteur entre en fonction le 5 octobre 1863",
+            "le tableau de classe 1862-1863 mentionne « vient de Mulhouse »"
+        ],
+        "cursus_motif_admission": [
+            "adressé par M. de Jancigny, sous-préfet",
+            "admis par décision du comité du 28 octobre 1861"
+        ],
+        "lignes": 3
+    },
+    "1861-0983": {
+        "cursus_motif_sortie": [
+            "rayé par décision du comité",
+            "?",
+            "démissionnaire"
+        ],
+        "lignes": 5
+    },
+    "1861-0984": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé, études terminées",
+            "rayé"
+        ],
+        "lignes": 2
+    },
+    "1861-0991": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "admis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "?"
+        ],
+        "lignes": 3
+    },
+    "1861-0992": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis par décision du comité du 10 mars 1864"
+        ],
+        "lignes": 3
+    },
+    "1861-0993": {
+        "eleve_remarques de saisie_TDC": [
+            "le registre d’inscription mentionne un 2e prix à Toulouse en 1860 et le tableau de classe 1863-1864 et suivant un 2e prix à Toulouse en 1859 !",
+            "le tableau de classe 1862-1863 mentionne « 2e prix à Toulouse 1859 »"
+        ],
+        "lignes": 3
+    },
+    "1861-0997": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "[études terminées pour le solfège]"
+        ],
+        "eleve_observations_TDC": [
+            "les tableaux de classe 1860-1861 et suivants mentionnent « à la Porte Saint-Martin »",
+            "les tableaux de classe 1860-1861 et 1861-1862 mentionnent « à la Porte Saint-Martin »"
+        ],
+        "lignes": 7
+    },
+    "1861-0998": {
+        "cursus_motif_admission": [
+            "présenté par M. Hertz",
+            "réadmis [par décision du comité du] 30 décembre 1861"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/ 3",
+            "AJ/37/156/ 3-AJ/37/157/1"
+        ],
+        "lignes": 4
+    },
+    "1861-0999": {
+        "cursus_motif_admission": [
+            "présenté par M. Merly aîné",
+            "admis par décision du comité du 12 avril 1861"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1861-1004": {
+        "eleve_observations": [
+            "élève militaire, numéro 4, année 6, numéro 166 de la totalité ; saxophone soprano",
+            "élève militaire, numéro 4, année 6, numéro 166 de la totalité"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé, renvoyé à son corps pour incapacité",
+            "rayé, renvoyé pour incapacité"
+        ],
+        "lignes": 3
+    },
+    "1861-1012": {
+        "eleve_observations": [
+            "élève militaire, numéro 12, année 6, numéro 174 de la totalité ; saxhorn alto",
+            "élève militaire, numéro 12, année 6, numéro 174 de la totalité"
+        ],
+        "lignes": 4
+    },
+    "1861-1024": {
+        "eleve_observations": [
+            "élève militaire, numéro 24, année 6, numéro 186 de la totalité",
+            "élève militaire, numéro 24, année 6, numéro 186 de la totalité ; saxophone baryton"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/2-AJ/37/156/3",
+            "AJ/37/156/3"
+        ],
+        "lignes": 3
+    },
+    "1861-1025": {
+        "eleve_observations": [
+            "élève militaire, numéro 25, année 6, numéro 187 de la totalité ; alto ; son frère aîné, élève militaire, saxophone, 22 février 1859 [1859-623]",
+            "élève militaire, numéro 25, année 6, numéro 187 de la totalité ; so,n frère aîné, élève militaire, saxophone, 22 février 1859 [1859-623]"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour le saxhorn]",
+            "rayé, études terminées"
+        ],
+        "lignes": 3
+    },
+    "1861-1027": {
+        "cursus_motif_sortie_TDC": [
+            "renvoyé à son corps pour incapacité",
+            "rayé, « renvoyé à son corps pour incapacités »"
+        ],
+        "lignes": 3
+    },
+    "1861-1029": {
+        "exerce_profession_connue": [
+            "musicien de 4e classe au 4e voltigeur de la garde à Courbevoie",
+            "musicien de 4e classe au 4e voltigeurs de la garde à Courbevoie"
+        ],
+        "lignes": 3
+    },
+    "1861-1032": {
+        "eleve_observations": [
+            "élève militaire, numéro 32, année 6, numéro 194 de la totalité ; Courtille, à la (caserne) ; Nouvelle-France, à la (caserne)",
+            "élève militaire, numéro 32, année 6, numéro 194 de la totalité ; Courtille, à la (caserne)"
+        ],
+        "lignes": 3
+    },
+    "1861-1036": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "rayé"
+        ],
+        "exerce_profession_connue": [
+            "a débuté à l'Opéra dans Eléonore du Trouvère (15 juillet 1868)",
+            "a débuté à l'Opéra (15 juillet 1868)"
+        ],
+        "lignes": 3
+    },
+    "1861-1038": {
+        "cursus_motif_admission": [
+            "présenté par sa tante, Mme Dufresne, professeur d'harmonie",
+            "?"
+        ],
+        "lignes": 6
+    },
+    "1861-1039": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "admis par décision du comité du 18 décembre 1862"
+        ],
+        "cursus_motif_sortie": [
+            "?",
+            "rayé pour absences"
+        ],
+        "lignes": 3
+    },
+    "1861-1040": {
+        "eleve_observations": [
+            "cet aspirant est employé à la préfecture de Nantes, il a obtenu un congé pour venir aux classes avant le 18 juin 1861, il n’est entré que le 20 juin",
+            "cet aspirant est employé à la préfecture de Nantes , il a obtenu un congé pour venir aux classes avant le 18 juin 1861, il n’est entré que le 20 juin"
+        ],
+        "lignes": 3
+    },
+    "1861-1041": {
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "rayé de la classe ?",
+            "rayé, quitte la classe"
+        ],
+        "lignes": 4
+    },
+    "1861-1043": {
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "rayé de la classe"
+        ],
+        "lignes": 5
+    },
+    "1861-1045": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1861-1047": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "rayé, quitte la classe"
+        ],
+        "lignes": 4
+    },
+    "1861-1048": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "admis élève externe par décision du comité du 23 octobre 1861"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "quitte la classe",
+            "rayé, a été impoli à la classe et M. Fontana a demandé son renvoi",
+            "rayé, absent deux mois",
+            "[n’apparaît plus dans le tableau de classe 1862-1863]",
+            "rayé"
+        ],
+        "lignes": 7
+    },
+    "1861-1055": {
+        "cursus_motif_sortie": [
+            "démissionnaire",
+            "études terminées"
+        ],
+        "lignes": 6
+    },
+    "1861-1057": {
+        "cursus_motif_admission": [
+            "présenté par son père",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "rayé pour absences",
+            "démissionnaire"
+        ],
+        "lignes": 7
+    },
+    "1861-1058": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, quitte la classe",
+            "rayé",
+            "rayé de la classe"
+        ],
+        "lignes": 7
+    },
+    "1861-1075": {
+        "cursus_motif_sortie_TDC": [
+            "[en congé]",
+            "rayé"
+        ],
+        "lignes": 4
+    },
+    "1861-1079": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "quitte la classe [ne semble pas avoir suivi la classe]"
+        ],
+        "lignes": 8
+    },
+    "1861-1083": {
+        "cursus_motif_admission": [
+            "recommandé par M. Denériez",
+            "admis par décision du comité du 24 octobre 1865",
+            "?"
+        ],
+        "cursus_motif_sortie": [
+            "?",
+            "démissionnaire"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "rayé, démissionnaire de la classe"
+        ],
+        "lignes": 6
+    },
+    "1861-1085": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/5-AJ/37/157/2",
+            "AJ/37/156/5-AJ/37/157/1"
+        ],
+        "parcours_classe_observations_eleve_TDC": [
+            "le tableau de classe 1866-1867 donne par erreur « 16 octobre 1861 » pour la date d’entrée dans la classe.",
+            "figure encore dans le tableau de classe 1866-1867."
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur et Mlle de Saint-?",
+            "admis [par décision du] 21 décembre 1864"
+        ],
+        "cursus_motif_sortie": [
+            "rayé ; a concouru en 1866, 1867 et 1868",
+            "démissionnaire"
+        ],
+        "lignes": 7
+    },
+    "1861-1086": {
+        "cursus_motif_sortie_TDC": [
+            "quitte la classe",
+            "[études terminées pour cette classe]"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le baron Larrey, chirurgien de l'empereur et Mme Devalette",
+            "?"
+        ],
+        "lignes": 10
+    },
+    "1861-1087": {
+        "cursus_motif_admission": [
+            "présenté par Mlle Charlotte Gervaise, ancienne élève",
+            "admis par décision du comité du 3 juin 1862"
+        ],
+        "lignes": 2
+    },
+    "1861-1091": {
+        "cursus_motif_admission": [
+            "recommandé à M. Auber par Mme Cabel",
+            "admis par décision du comité du 21 octobre 1863"
+        ],
+        "cursus_motif_sortie": [
+            "?",
+            "rayé ; à l'Athénée"
+        ],
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/6-AJ/37/157/2",
+            "AJ/37/156/6"
+        ],
+        "lignes": 4
+    },
+    "1861-1095": {
+        "cursus_motif_admission": [
+            "présenté par Georges Kastner",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "démissionnaire",
+            "mort à Paris"
+        ],
+        "lignes": 2
+    },
+    "1861-1097": {
+        "cursus_motif_admission": [
+            "présenté par le professeur et Mlle Anna Loiseau aînée, ancienne élève",
+            "admis par décision du comité du 18 décembre 1862"
+        ],
+        "lignes": 2
+    },
+    "1861-1103": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1861-1105": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, a quitté la classe",
+            "rayé"
+        ],
+        "lignes": 6
+    },
+    "1861-1107": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, absent deux mois",
+            "rayé de la classe"
+        ],
+        "cursus_motif_sortie": [
+            "?",
+            "rayé, engagé à Toulon"
+        ],
+        "lignes": 7
+    },
+    "1861-1109": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé, quitte la classe",
+            "rayé, a quitté la classe",
+            "rayé"
+        ],
+        "lignes": 11
+    },
+    "1861-1111": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "quitte la classe"
+        ],
+        "lignes": 5
+    },
+    "1861-1114": {
+        "cursus_motif_admission": [
+            "admis par décision du comité du 23 octobre 1861 ; présenté par M. Prumier père, professeur de harpe",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "a quitté la classe",
+            "rayé"
+        ],
+        "lignes": 2
+    },
+    "1861-1116": {
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "quitte la classe"
+        ],
+        "lignes": 5
+    },
+    "1861-1117": {
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé, a quitté la classe"
+        ],
+        "lignes": 3
+    },
+    "1861-1119": {
+        "parcours_classe_date_sortie_TDC": [
+            "1864-10-01",
+            "1864-02-20"
+        ],
+        "lignes": 7
+    },
+    "1861-1120": {
+        "cursus_motif_sortie_TDC": [
+            "rayé",
+            "quitte la classe"
+        ],
+        "lignes": 4
+    },
+    "1861-1121": {
+        "cursus_motif_admission": [
+            "admis par décision du comité ; présenté par M. Masset et Battaille",
+            "admis par décision du comité du 28 octobre 1861 ; présenté par M.M. Masset et Battaille"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé de la classe",
+            "rayé, passé à la classe de M. Masset"
+        ],
+        "lignes": 3
+    },
+    "1861-1128": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé chez Masset",
+            "quitte la classe",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1861-1129": {
+        "cursus_motif_sortie": [
+            "?",
+            "rayé"
+        ],
+        "lignes": 6
+    },
+    "1861-1134": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/4-AJ/37/157/1",
+            "AJ/37/156/6-AJ/37/157/1"
+        ],
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "réadmis"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "rayé ; absent un mois"
+        ],
+        "lignes": 4
+    },
+    "1861-1139": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "admis par décision du comité"
+        ],
+        "cursus_motif_sortie": [
+            "?",
+            "rayé ; a débuté au Théâtre Français"
+        ],
+        "lignes": 4
+    },
+    "1861-1158": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, passé à la classe de déclamation de M. Samson",
+            "[passé dans la classe de Mlle Brohan]"
+        ],
+        "lignes": 4
+    },
+    "1861-1159": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/5-AJ/37/156/6",
+            "AJ/37/156/5-AJ/37/157/1"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "quitte la classe"
+        ],
+        "lignes": 5
+    },
+    "1861-1160": {
+        "cursus_motif_sortie_TDC": [
+            "[études terminées pour cette classe]",
+            "rayé"
+        ],
+        "lignes": 5
+    },
+    "1861-1165": {
+        "eleve_observations_TDC": [
+            "le tableau de classe 1861-1862 et suivants  mentionnent « pensionnée par Troyes », celui de 1864-1865 mentionne « a épousé le jeudi 7 juin 1866 le violoniste White »",
+            "le tableau de classe 1863-1864 mentionne « change de classe »"
+        ],
+        "lignes": 2
+    },
+    "1861-1166": {
+        "eleve_observations": [
+            "étranger (espagnol) ; il est le fils du célèbre guitariste Huerta",
+            "étranger ; il est le fils du célèbre guitariste Huerta"
+        ],
+        "lignes": 2
+    },
+    "1861-1168": {
+        "cursus_motif_admission": [
+            "admis par décision du comité du 10 décembre 186 ; recommandé par le vicomte de Païva, ministre du Portugal",
+            "réadmis sur la demande de M. le vicomte de Païva, ministre plénipotentiaire de Portugal",
+            "réadmis par décision du comité du 19 janvier 1866"
+        ],
+        "cursus_motif_sortie": [
+            "rayé pour cause d'incivilité et d'incapacité",
+            "rayé"
+        ],
+        "cursus_motif_sortie_TDC": [
+            "rayé par décision du comité pour cause d'incivilité et d'incapacité",
+            "rayé"
+        ],
+        "lignes": 3
+    },
+    "1861-1181": {
+        "classe_cote_AN_TDC": [
+            "AJ/37/156/3",
+            "AJ/37/156/4"
+        ],
+        "lignes": 4
+    },
+    "1861-1182": {
+        "eleve_observations": [
+            "élève militaire, numéro 9, année 7, numéro 203 de la totalité",
+            "élève militaire, numéro 9, année 7, numéro 203 de la totalité ; le registre d’inscription donne comme état civil « fils de Pierre Liré, voiturier »"
+        ],
+        "lignes": 3
+    },
+    "1861-1195": {
+        "cursus_motif_sortie_TDC": [
+            "rayé, congédié (a quitté le régiment?)",
+            "rayé, congédié, a quitté volontairement l'école"
+        ],
+        "lignes": 3
+    },
+    "1861-1208": {
+        "exerce_profession_connue": [
+            "musicien de 2e classe au 11e régiment d'artillerie montée en garnison à Rennes",
+            "musicien de 2e classe au 11e régiment d'artillerie monté en garnison à Rennes"
+        ],
+        "lignes": 5
+    },
+    "1861-1214": {
+        "cursus_motif_admission": [
+            "présenté par le professeur",
+            "admis par décision du comité du 19 janvier 1866"
+        ],
+        "cursus_motif_sortie": [
+            "rayé",
+            "?",
+            "rayé pour absences"
+        ],
+        "lignes": 4
+    },
+    "1861-1216": {
+        "cursus_motif_sortie": [
+            "rayé",
+            "?"
+        ],
+        "cursus_motif_admission": [
+            "présenté par M. Horrer, maire du 2e arrondissement et et le professeur",
+            "?"
+        ],
+        "lignes": 8
+    },
+    "1861-1220": {
+        "cursus_motif_sortie_TDC": [
+            "rayé par décision du comité",
+            "quitte la classe"
+        ],
+        "lignes": 2
+    },
+    "1861-1225": {
+        "cursus_motif_admission": [
+            "admis après examen et par décision du comité du 30 décembre 1861 ; présenté par le professeur",
+            "?"
+        ],
+        "lignes": 4
+    },
+    "colonnes_divergentes": [
+        "exerce_profession_connue_TDC",
+        "parcours_classe_date_sortie",
+        "classe_cote_AN_TDC",
+        "eleve_profession_pere",
+        "exerce_lieu_exercice",
+        "eleve_prenom_2",
+        "cursus_motif_admission",
+        "exerce_date_debut",
+        "parcours_classe_observations_eleve_TDC",
+        "parcours_classe_motif_entree",
+        "eleve_remarques de saisie_TDC",
+        "parcours_classe_date_sortie_TDC",
+        "exerce_profession_connue",
+        "eleve_prenom_1",
+        "eleve_remarques de saisie",
+        "eleve_observations_TDC",
+        "cursus_motif_admission_TDC",
+        "parcours_classe_motif_sortie",
+        "parcours_classe_motif_sortie_TDC",
+        "cursus_motif_sortie_TDC",
+        "cursus_date_sortie_conservatoire",
+        "cursus_motif_sortie",
+        "eleve_observations"
+    ]
+}

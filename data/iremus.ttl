@@ -63,6 +63,16 @@
     ] ;
     .
 
+# Virginie
+<bfe4a11f-6940-4c30-83fa-b0156aceb539>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Virginie" ;
+        crmdig:L52_has_last_name "Julliard"
+    ] ;
+    .
+
 # Nathalie Berton-Blivet
 <899e29f6-43d7-4a98-8c39-229bb20d23b2>
     a crm:E21_Person ;

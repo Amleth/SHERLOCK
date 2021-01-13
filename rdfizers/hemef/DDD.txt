@@ -120,9 +120,13 @@ VERT (classe)
     classe_discipline_TDC
     classe_discipline_categorie
     classe_discipline_categorie_TDC
+    * classe_type
     classe_type_TDC
     classe_nom_professeur
     classe_nom_professeur_TDC
     classe_cote_AN_TDC
+    * classe_observations
     classe_observations_TDC
     classes_remarques_saisie
+
+* : uniquement sur 1906-1910_1912-1914  

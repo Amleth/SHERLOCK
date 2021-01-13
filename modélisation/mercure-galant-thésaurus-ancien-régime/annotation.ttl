@@ -40,7 +40,10 @@
   crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
   crm:P140_assigned_attribute_to <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
   crm:P141_assigned <f4f3476e-3551-4633-8f9b-2ef564e63155> ;
-  crm:P177_assigned_property_type crm:P67_refers_to ;
+  crm:P177_assigned_property_type crm:P67_refers_to ; # TODO, non ce n'est pas P67 ici (cf scope note) => Utiliser <c605c8bb-9387-4da1-baec-b0514fd9999c>
   crm:P2_has_type <4a673f92-174e-41cb-b0e1-9c32985fa07c> ;
   dcterms:created "2020-11-17T15:23:34+0000"^^xsd:dateTime ;
 .
+
+# TODO créer une propriété qui établit le fait qu'un E33 désigne un E55
+# TODO créer une propriété qui établit le fait qu'un E33 parle d'un E55 (c'est P129 en fait)

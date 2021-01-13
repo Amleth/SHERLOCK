@@ -1,0 +1,1433 @@
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0001 3
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0001 4
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1856-0001 6
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1856-0001 7
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1856-0001 8
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1856-0002 10
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1856-0002 11
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1856-0003 14
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1856-0003 15
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1856-0003 16
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1856-0003 17
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1856-0003 18
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1856-0004 20
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1856-0004 21
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1856-0004 21
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1856-0004 22
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1856-0004 22
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1856-0004 23
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1856-0005 26
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1856-0005 27
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1856-0008 32
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1856-0009 34
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1856-0010 37
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Elwart'  1856-0012 40
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Elwart'  1856-0014 48
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Elwart'  1856-0014 49
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Thomas'  1856-0014 50
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0018 58
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0018 59
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1856-0018 60
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1856-0019 62
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Colin'  1856-0023 70
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1856-0023 72
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1856-0035 87
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1856-0035 90
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Klotz'  1856-0036 92
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Lorotte'  1856-0037 95
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Chevillard'  1856-0039 102
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delle Sedie'  1856-0039 103
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Paulin de Lespinasse'  1856-0039 104
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mocker'  1856-0039 105
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1856-0041 109
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0043 116
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1856-0043 117
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1856-0044 119
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0044 120
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1856-0044 121
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1856-0045 123
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0045 124
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0046 127
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0046 128
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1856-0046 129
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1856-0047 132
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0047 133
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0047 134
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0048 136
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0049 138
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0049 139
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0049 140
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0050 142
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1856-0050 143
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Forestier'  1856-0050 144
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1856-0050 145
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sax'  1856-0051 147
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0051 148
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0051 149
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0051 150
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1856-0052 152
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0052 153
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1856-0052 154
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sax'  1856-0052 155
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1856-0053 157
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0053 158
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1856-0053 159
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Arban'  1856-0053 160
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0053 162
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1856-0054 164
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0054 165
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1856-0054 166
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0055 169
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1856-0055 170
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1856-0055 171
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1856-0056 173
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0056 174
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1856-0056 175
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0057 178
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0057 179
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Forestier'  1856-0058 181
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0058 182
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0058 183
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1856-0059 187
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0060 189
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0061 191
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1856-0061 192
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0062 195
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0065 199
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1856-0065 201
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0065 202
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Klotz'  1856-0067 205
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1856-0068 209
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1856-0071 217
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0071 218
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1856-0071 219
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1856-0072 221
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0072 222
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dauverné'  1856-0072 225
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1856-0073 227
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1856-0073 227
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1856-0073 228
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1856-0073 228
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1856-0074 230
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0075 232
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1856-0077 236
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1856-0078 238
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Prumier'  1856-0085 245
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1856-0095 266
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1856-0095 266
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Beauvallet'  1856-0095 267
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Coche'  1856-0101 276
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Coche'  1856-0101 277
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Coche'  1856-0101 278
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Coche'  1856-0101 279
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1856-0104 288
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1856-0104 289
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1856-0104 290
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1856-0104 291
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1856-0104 292
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1856-0104 293
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0104 294
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0104 295
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0104 296
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1856-0105 299
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0105 300
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1856-0107 303
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1856-0108 306
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1856-0108 307
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gallay'  1856-0109 309
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gallay'  1856-0109 310
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1856-0110 314
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Marmontel'  1856-0112 317
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Marmontel'  1856-0112 318
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1856-0112 319
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Panseron'  1856-0117 329
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Fontana'  1856-0119 335
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Cokken'  1856-0120 340
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Carafa'  1856-0120 341
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Carafa'  1856-0120 342
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1856-0121 347
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1856-0124 356
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1856-0125 362
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Elwart'  1856-0126 365
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Batiste'  0 367
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dancla'  1856-0128 369
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dieppo'  1856-0129 371
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dauverné'  1856-0130 373
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1856-0130 375
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1856-0130 375
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1856-0134 383
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1856-0134 384
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1856-0135 387
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1856-0136 389
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1856-0137 393
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1856-0137 394
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1856-0137 396
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1856-0138 398
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1856-0138 399
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1856-0138 401
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1856-0139 406
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1856-0139 408
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1856-0140 414
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1856-0140 415
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1856-0141 417
+ERREUR CLASSE Classe partiellement définie — discipline :'chant' ; professeur : 'None'  [1856-0141bis] 418
+ERREUR PARCOURS-CLASSE Erreur inconnue.  [1856-0141bis] 418
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1856-0142 420
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1856-0143 425
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Battaille'  1856-0144 429
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1856-0146 433
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1856-0147 435
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1856-0149 440
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1856-0150 446
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1856-0150 447
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1856-0153 453
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dupuis'  1856-0154 455
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dupuis'  1856-0155 459
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1856-0157 465
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dupuis'  1856-0160 473
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Panseron'  1856-0160 475
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Lorotte'  1856-0162 478
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1856-0164 483
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1856-0176 507
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Elwart'  1856-0176 508
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1856-0176 509
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1856-0176 510
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1856-à178 514
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1856-à178 514
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1857-0183 520
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1857-0185 524
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1857-0185 525
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0186 528
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0186 529
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0187 531
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0187 532
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0188 534
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Arban'  1857-0188 535
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0189 537
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0189 538
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0190 541
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0190 542
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0191 544
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0191 545
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sax'  1857-0191 546
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dieppo'  1857-0192 548
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0192 549
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0192 550
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0193 552
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0194 554
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0195 557
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Arban'  1857-0195 558
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0196 560
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Forestier'  1857-0196 561
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0197 564
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0197 565
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0198 567
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0198 568
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0198 569
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0199 571
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Arban'  1857-0199 572
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0199 573
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Forestier'  1857-0199 574
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0200 576
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0201 578
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0201 579
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0201 580
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0202 582
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0202 583
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0203 585
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0203 586
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Arban'  1857-0204 588
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0204 590
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Verroust'  1857-0206 594
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0206 595
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1857-0216 608
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1857-0216 608
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1857-0218 611
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0219 613
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0219 614
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0219 615
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Arban'  1857-0219 616
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sax'  1857-0220 618
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Arban'  1857-0221 620
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1857-0221 622
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sax'  1857-0222 625
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0222 626
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sax'  1857-0223 629
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0223 630
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1857-0224 634
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0225 637
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0225 638
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Elwart'  1857-0228 646
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1857-0228 647
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Colin'  1857-0229 649
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1857-0230 652
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1857-0230 653
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1857-0230 654
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1857-0230 655
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1857-0230 656
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1857-0230 657
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1857-0233 661
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Klotz'  1857-0234 663
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1857-0234 664
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1857-0234 665
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1857-0234 666
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1857-0234 667
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1857-0234 668
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1857-0238 679
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1857-0242 685
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0244 689
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sauzay'  1857-0245 691
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sauzay'  1857-0245 692
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sauzay'  1857-0245 693
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1857-0250 701
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0252 704
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1857-0252 705
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1857-0252 706
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1857-0252 707
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1857-0253 711
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0253 712
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1857-0253 713
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1857-0253 714
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1857-0253 715
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0256 723
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0256 724
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0256 725
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1857-0259 730
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0259 731
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0259 732
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dupuis'  1857-0262 741
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'klotz'  1857-0264 744
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Fontana'  1857-0265 746
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Battaille'  1857-0266 749
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Batiste'  1857-0273 763
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1857-0274 768
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1857-0274 769
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1857-0274 770
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Farrenc'  1857-0274 771
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1857-0275 773
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1857-0275 774
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1857-0275 774
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Beauvallet'  1857-0278 779
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Beauvallet'  1857-0278 780
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Provost'  1857-0280 784
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Régnier'  [1857-280 bis] 785
+ERREUR PARCOURS-CLASSE Erreur inconnue.  [1857-280 bis] 785
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Régnier'  1857-0283 789
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1857-0286 794
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1857-0286 795
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1857-0286 796
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1857-0286 797
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1857-0287 800
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1857-0288 803
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1857-0288 804
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1857-0290 809
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0290 813
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1857-0290 814
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1857-0294 824
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1857-0294 826
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1857-0294 827
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1857-0295 830
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Giuliani'  1857-0296 832
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Giuliani'  1857-0297 836
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1857-0299 842
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1857-0301 846
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1857-0302 850
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Masset'  1857-0303 855
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dupuis'  1857-0304 859
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Grosset'  1857-0304 860
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1857-0308 868
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1857-0308 869
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dancla'  1857-0308 870
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dancla'  1857-0308 871
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dancla'  1857-0308 872
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dancla'  1857-0308 873
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1857-0309 875
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1857-0310 877
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Guérin'  1857-0311 879
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Massart'  1857-0311 880
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laget'  1857-0312 883
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1857-0313 885
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Goblin'  1857-0315 890
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duprato'  1857-0316 892
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Farrenc'  1857-0317 895
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gautier'  1857-0317 896
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Faure'  1857-0319 899
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Faure'  1857-0319 901
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1857-0321 905
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Elwart'  1857-0321 906
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0324 912
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0324 913
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0324 914
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0324 915
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1857-0324 916
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1857-0324 917
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1857-0324 918
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Thomas'  1857-0324 919
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Prumier'  1857-0326 922
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1857-0328 925
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1857-0329 928
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1857-0330 930
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0333 934
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Verroust'  1857-0333 935
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1857-0335 937
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1857-0335 939
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  [1857-336] 941
+ERREUR PARCOURS-CLASSE Erreur inconnue.  [1857-336] 941
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0337 943
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0338 946
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0340 950
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  [1857-0340 bis] 951
+ERREUR PARCOURS-CLASSE Erreur inconnue.  [1857-0340 bis] 951
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1857-0341 958
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1857-0342 960
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1857-0342 961
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1857-0343 965
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1857-0344 969
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1857-0345 972
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1857-0347 978
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0348 981
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1857-0349 984
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Faure'  1857-0351 987
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1857-0353 993
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0354 995
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0357 1001
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0357 1002
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0357 1003
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1857-0361 1011
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0361 1012
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1857-0361 1013
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Provost'  1857-0366 1021
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1857-0367 1024
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le bel'  1857-0367 1025
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1857-0367 1026
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Paulin de Lespinasse'  1857-0367 1027
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1857-0373 1034
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Thomas'  1857-0376 1042
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1857-0380 1048
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1857-0380 1049
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1857-0380 1053
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0381 1055
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Halévy'  1857-0381 1056
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1857-0381 1057
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0382 1059
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Lorotte'  1857-0384 1063
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1857-0384 1064
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1857-0386 1070
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1857-0388 1073
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1857-0388 1074
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Goblin'  1857-0389 1078
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0393 1083
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Elwart'  1857-0394 1088
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1857-0395 1091
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1857-0399 1096
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Girard'  1857-0399 1097
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1857-0400 1099
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1858-0403 1103
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1858-0403 1104
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1858-0403 1105
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Lorotte'  1858-0404 1108
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Lorotte'  1858-0404 1109
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1858-0404 1110
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1858-0404 1111
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1858-0409 1122
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dancla'  1858-0412 1129
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dancla'  1858-0412 1130
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0412 1131
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1858-0414 1134
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0420 1144
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0420 1145
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0420 1146
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dupuis'  1858-0421 1148
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dupuis'  1858-0421 1149
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1858-0421 1150
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1858-0421 1150
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1858-0421 1151
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1858-0421 1151
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1858-0421 1152
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1858-0421 1153
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Clapisson'  1858-0425 1161
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Battaille'  1858-0427 1164
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dieppo'  1858-0440 1184
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0446 1194
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0446 1195
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0447 1197
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0447 1198
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0448 1200
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0448 1201
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0448 1202
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0449 1205
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0450 1207
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0451 1208
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0451 1210
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0451 1211
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0452 1213
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0452 1214
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0453 1216
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0453 1217
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0454 1219
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0454 1220
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0455 1222
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0455 1223
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0456 1225
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0456 1226
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0457 1227
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0457 1229
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0457 1230
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0458 1232
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0458 1233
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0458 1234
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0459 1236
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0459 1237
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0460 1240
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0460 1241
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0460 1242
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0461 1244
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0461 1245
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0462 1246
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0462 1248
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0462 1249
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0463 1251
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0463 1252
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0464 1255
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0464 1256
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0465 1257
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0465 1259
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0466 1260
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0466 1262
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0466 1263
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0467 1265
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0468 1267
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0468 1268
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0469 1269
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0470 1273
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0470 1274
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Forestier'  1858-0470 1275
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0471 1277
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0471 1278
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0472 1280
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0472 1281
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0472 1282
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0473 1284
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0473 1285
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0474 1288
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0475 1289
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0476 1291
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0476 1293
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0477 1295
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0477 1296
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0478 1297
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0478 1299
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0479 1300
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0479 1302
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0479 1303
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1858-0481 1308
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1858-0483 1312
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Marmontel'  1858-0487 1321
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Marmontel'  1858-0487 1322
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Marmontel'  1858-0487 1323
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Thomas'  1858-0487 1324
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1858-0496 1334
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Paulin de Lespinasse'  1858-0502 1349
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1858-0503 1351
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0503 1352
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0503 1353
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0505 1359
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1858-0507 1363
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1858-0507 1363
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1858-0508 1366
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1858-0508 1367
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1858-0510 1370
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1858-0510 1370
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1858-0511 1374
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1858-0513 1377
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1858-0513 1378
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1858-0513 1379
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1858-0513 1380
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0513 1381
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1858-0516 1386
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Farrenc'  1858-0516 1387
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1858-0518 1393
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0518 1394
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1858-0518 1395
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1858-0521 1400
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1858-0529 1413
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1858-0533 1419
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1858-0538 1431
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Lorotte'  1858-0541 1437
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1858-0541 1438
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1858-0541 1439
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1858-0541 1440
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1858-0541 1441
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1858-0541 1442
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1858-0541 1443
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1858-0541 1444
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Battaille'  1858-0541 1446
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0542 1448
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Elwart'  1858-0542 1449
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0543 1453
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1858-0544 1455
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Lorotte'  1858-0544 1456
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Grosset'  1858-0544 1458
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0545 1461
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1858-0545 1462
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1858-0559 1478
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1858-0560 1480
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1858-0563 1488
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1858-0564 1493
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1858-0566 1501
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1858-0566 1502
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1858-0569 1511
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1858-0570 1517
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1858-0570 1517
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laget'  1858-0573 1525
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1858-0574 1529
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1858-0577 1539
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1858-0577 1540
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Klotz'  1858-0586 1556
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dancla'  1858-0587 1558
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Klotz'  1858-0587 1559
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0588 1561
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Couderc'  1858-0589 1565
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1858-0589 1566
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1858-0589 1567
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0590 1569
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1858-0591 1572
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0593 1575
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1858-0593 1576
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Lorotte'  [1858-0593 bis] 1578
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0597 1583
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1858-0597 1584
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1858-0597 1585
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1858-0597 1586
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Carafa'  1858-0597 1587
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Coche'  1858-0601 1593
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Goblin'  1858-0601 1594
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1858-0602 1596
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dupuis'  1858-0603 1598
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Farrenc'  1858-0603 1599
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1858-0604 1601
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Goblin'  1858-0605 1606
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Goblin'  1858-0605 1607
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Lorotte'  1858-0607 1610
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1858-0608 1614
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1858-0608 1615
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Chevillard'  1858-0609 1617
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Anthiome'  1858-0610 1621
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1859-0613 1628
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1859-0618 1636
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0622 1646
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0623 1647
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0623 1649
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0624 1651
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0624 1653
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0625 1655
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0626 1656
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0626 1658
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0627 1659
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0627 1661
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0628 1663
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0628 1664
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0629 1665
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0629 1667
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0630 1669
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0630 1670
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0630 1671
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0631 1673
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0631 1674
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0632 1675
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0632 1677
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0633 1679
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0633 1680
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0634 1681
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0634 1683
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0635 1686
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0635 1687
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0636 1688
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0636 1690
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1859-0636 1691
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1859-0636 1691
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0637 1693
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0637 1694
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0638 1695
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0639 1699
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0639 1700
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0640 1701
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0641 1705
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0641 1706
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0642 1707
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0642 1709
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0643 1710
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0643 1712
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0644 1713
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0644 1715
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0645 1716
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0645 1718
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0646 1719
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0646 1721
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0646 1723
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0646 1724
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0647 1726
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0647 1727
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0648 1728
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0649 1731
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0649 1732
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0650 1733
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0650 1735
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0651 1736
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0651 1738
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0652 1739
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0652 1742
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0653 1743
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0653 1745
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sax'  1859-0653 1746
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0654 1747
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0654 1749
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0655 1750
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1859-0655 1752
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Lorotte'  1859-0656 1754
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1859-0660 1761
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1859-0660 1761
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mathias'  1859-0661 1764
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1859-0661 1765
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1859-0663 1769
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0664 1770
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Battaille'  1859-0666 1778
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1859-0668 1782
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1859-0669 1784
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dupuis'  1859-0670 1787
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dupuis'  1859-0671 1790
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1859-0673 1796
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Doumic'  1859-0675 1805
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laget'  1859-0677 1808
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1859-0690 1826
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1859-0690 1826
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1859-0693 1833
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1859-0693 1834
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1859-0695 1839
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1859-0695 1839
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1859-0696 1842
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1859-0696 1843
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0697 1847
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Doumic'  1859-0700 1855
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1859-0701 1859
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1859-0701 1860
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0701 1861
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1859-0702 1865
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0702 1869
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0703 1871
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1859-0704 1875
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0707 1882
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1859-0707 1883
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1859-0710 1887
+ERREUR CLASSE Classe partiellement définie — discipline :'chant' ; professeur : 'None'  [1859-0710 bis] 1888
+ERREUR PARCOURS-CLASSE Erreur inconnue.  [1859-0710 bis] 1888
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  [1859-0710 ter] 1889
+ERREUR PARCOURS-CLASSE Erreur inconnue.  [1859-0710 ter] 1889
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  [1859-0710 quater] 1890
+ERREUR PARCOURS-CLASSE Erreur inconnue.  [1859-0710 quater] 1890
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  [1859-0710 quinquies] 1891
+ERREUR PARCOURS-CLASSE Erreur inconnue.  [1859-0710 quinquies] 1891
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dupuis'  1859-0711 1893
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1859-0716 1907
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Goblin'  1859-0717 1911
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1859-0719 1920
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1859-0719 1921
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Paulin de Lespinasse'  1859-0720 1923
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1859-0723 1933
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1859-0723 1934
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1859-0723 1935
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1859-0723 1936
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Anthiome'  1859-0724 1939
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laurent'  1859-0725 1943
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mathias'  1859-0725 1944
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mathias'  1859-0725 1945
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1859-0725 1946
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1859-0725 1947
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Régnier'  1859-0726 1950
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Régnier'  1859-0726 1951
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1859-0727 1955
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1859-0727 1956
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1859-0727 1957
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1859-0727 1958
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1859-0728 1960
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1859-0730 1963
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1859-0730 1966
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1859-0735 1975
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1859-0736 1977
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Thomas'  1859-0737 1982
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1859-0740 1987
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Fontana'  1859-0740 1988
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1859-0742 1995
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1859-0743 1999
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1859-0744 2004
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1859-0744 2005
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1859-0744 2006
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1859-0746 2011
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1859-0759 2031
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1859-0759 2032
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1859-0759 2034
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1859-0759 2035
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1859-0759 2036
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1859-0759 2037
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Goblin'  1859-0762 2041
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Goblin'  1859-0762 2042
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1859-0762 2043
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1859-0762 2044
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1859-0762 2045
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dancla'  1859-0764 2051
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1860-0766 2056
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1860-0767 2059
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1860-0767 2060
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1860-0767 2061
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1860-0770 2066
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1860-0771 2070
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1860-0776 2078
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Grosset'  1860-0776 2079
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Cokken'  1860-0777 2082
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Cokken'  1860-0777 2083
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Cokken'  1860-0777 2084
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Triebert'  1860-0777 2085
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1860-0778 2088
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0778 2089
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0779 2092
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0779 2093
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sax'  1860-0779 2094
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0780 2096
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0780 2097
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0781 2101
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0781 2103
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0782 2105
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0782 2106
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0783 2108
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0783 2109
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0784 2111
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0784 2112
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0785 2113
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0785 2115
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0786 2117
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0787 2119
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0787 2120
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0787 2121
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'jonas'  1860-0787 2122
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sax'  1860-0787 2123
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0788 2125
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0788 2126
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0789 2127
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0789 2130
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0789 2132
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0790 2135
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0790 2136
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Arban'  1860-0791 2137
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Arban'  1860-0791 2138
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0791 2139
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0792 2141
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0792 2142
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0793 2144
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0793 2145
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0794 2147
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0794 2148
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0795 2150
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0795 2151
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0796 2153
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0796 2154
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0797 2155
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0797 2157
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0798 2159
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0798 2160
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0799 2162
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0799 2163
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0800 2165
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0800 2166
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0801 2168
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0801 2169
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0802 2171
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0802 2172
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0803 2175
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0803 2176
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0804 2178
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0804 2179
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0805 2181
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0805 2182
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0806 2186
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0806 2187
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0807 2190
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0807 2191
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0808 2193
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0808 2194
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0809 2196
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0809 2197
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0810 2199
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0810 2200
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Forestier'  1860-0810 2201
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0811 2203
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0811 2204
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sax'  1860-0811 2205
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0812 2206
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0812 2208
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0813 2210
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0813 2211
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0814 2213
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0814 2214
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0818 2224
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0818 2225
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0818 2226
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1860-0820 2230
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Thomas'  1860-0820 2231
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Elwart'  1860-0823 2236
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1860-0827 2244
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1860-0828 2247
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1860-0828 2248
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1860-0828 2249
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1860-0829 2253
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0830 2255
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1860-0833 2260
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1860-0835 2264
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1860-0835 2265
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1860-0836 2269
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1860-0839 2277
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Masset'  1860-0842 2290
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1860-0845 2295
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0846 2297
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Fontana'  1860-0847 2299
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1860-0847 2300
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1860-0847 2302
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1860-0848 2305
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0850 2311
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1860-0850 2311
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1860-0856 2321
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0858 2334
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1860-0858 2334
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1860-0859 2336
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Battaille'  1860-0859 2338
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1860-0860 2342
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1860-0860 2343
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1860-0861 2346
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1860-0864 2351
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Doumic'  1860-0869 2360
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1860-0869 2361
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Farrenc'  1860-0869 2362
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1860-0872 2368
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Marmontel'  1860-0874 2373
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Marmontel'  1860-0874 2374
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Marmontel'  1860-0874 2375
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0876 2378
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1860-0876 2378
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1860-0878 2382
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1860-0879 2385
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1860-0879 2386
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bienaimé'  1860-0879 2387
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Coche'  1860-0879 2388
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Marmontel'  1860-0881 2394
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1860-0881 2395
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1860-0881 2396
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1860-0881 2397
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gallay'  1860-0882 2400
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1860-0883 2406
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Farrenc'  1860-0883 2407
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1860-0884 2410
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0885 2412
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : '?'  1860-0888 2419
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : '?'  1860-0888 2420
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1860-0888 2421
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1860-0888 2422
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1860-0888 2423
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1860-0888 2424
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Meifred'  1860-0889 2426
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Reber'  1860-0891 2429
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gautier'  1860-0892 2434
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gautier'  1860-0892 2435
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gautier'  1860-0892 2436
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Coche'  1860-0892 2437
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Couppey'  1860-0892 2438
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0895 2443
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1860-0895 2443
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1860-0896 2446
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1860-0896 2447
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1860-0896 2448
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1860-0898 2453
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1860-0899 2459
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1860-0899 2460
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Marmontel'  1860-0899 2461
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0901 2465
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0901 2466
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1860-0902 2467
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1860-0903 2474
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0903 2476
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1860-0903 2477
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1860-0903 2480
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1860-0904 2481
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1860-0904 2484
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1860-0904 2485
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0906 2491
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1860-0907 2496
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1860-0907 2498
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0908 2501
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1860-0909 2503
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1860-0910 2506
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1860-0911 2510
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1860-0912 2512
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1860-0913 2517
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1860-0913 2518
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1860-0914 2521
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1860-0914 2522
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Beauvallet'  1860-0915 2525
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Beauvallet'  1860-0915 2526
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Beauvallet'  1860-0915 2527
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1860-0915 2528
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0919 2540
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1860-0919 2540
+ERREUR PARCOURS-CLASSE Erreur inconnue.  [1860-0919 bis] 2541
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Goblin'  1860-0923 2550
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Goblin'  1860-0925 2555
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Doumic'  1860-0926 2557
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Doumic'  1860-0927 2560
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Grosset'  1860-0929 2563
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Batiste'  1860-0931 2570
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1860-0933 2576
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1860-0937 2582
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Battaille'  1860-0938 2586
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Battaille'  1860-0938 2587
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Battaille'  1860-0938 2588
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1860-0939 2593
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Chevillard'  1860-0939 2594
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1860-0946 2604
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : '?'  1860-0946 2605
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : '?'  1860-0946 2606
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1860-0946 2607
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mathias'  1860-0946 2608
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gautier'  1860-0949 2615
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0950 2627
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1860-0950 2627
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0950 2628
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1860-0950 2628
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gallay'  1860-0951 2632
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0952 2634
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1860-0952 2634
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0953 2637
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0957 2645
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mocker'  1860-0957 2647
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1860-0957 2649
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1860-0958 2651
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1860-0959 2653
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Goblin'  1860-0961 2658
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1860-0962 2662
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1860-0969 2673
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1860-0969 2677
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1860-0969 2678
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1860-0969 2679
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Anthiome'  1860-0969 2680
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Carafa'  1860-0971 2685
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-0975 2690
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Carafa'  1861-0976 2692
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Benoist'  1861-0976 2693
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Coche'  1861-0977 2696
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Farrenc'  1861-0977 2697
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1861-0979 2700
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Thomas'  1861-0982 2709
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1861-0988 2721
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1861-0988 2722
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1861-0988 2723
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-0992 2730
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-0993 2733
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-0993 2734
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-0997 2744
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-0997 2745
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1861-0997 2746
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1861-1000 2755
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1001 2757
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1001 2758
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1001 2759
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1002 2761
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1002 2762
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dieppo'  1861-1002 2763
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1003 2765
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1003 2766
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1004 2768
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1004 2769
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1005 2771
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1005 2772
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1006 2774
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1006 2775
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sax'  1861-1006 2776
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1007 2778
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1007 2779
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1008 2781
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1008 2782
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1009 2785
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1009 2786
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1010 2788
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1010 2789
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1010 2790
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1011 2793
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1011 2794
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1012 2797
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1012 2798
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1013 2800
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1013 2801
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1014 2803
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1014 2804
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1015 2806
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1015 2807
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1016 2808
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1017 2811
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1018 2813
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1019 2815
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1019 2816
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dauverné'  1861-1020 2818
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1020 2819
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1020 2820
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1021 2823
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1022 2825
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1022 2826
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1023 2828
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1023 2829
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1024 2830
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1025 2834
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1025 2835
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1026 2837
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1026 2838
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1027 2839
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1027 2841
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1028 2844
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1028 2845
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1029 2847
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1029 2848
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1030 2850
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1030 2851
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1030 2852
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1031 2854
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1031 2855
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1032 2856
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1032 2857
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Rouget de Lisle'  1861-1038 2874
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1861-1038 2875
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1861-1039 2878
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1040 2880
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1861-1041 2883
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, Ch.'  1861-1041 2884
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1861-1043 2890
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1861-1043 2891
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1861-1044 2892
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1045 2896
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1861-1047 2900
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Le Bel'  1861-1047 2901
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Rouget de Lisle'  1861-1047 2902
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1861-1048 2905
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Giuliani'  1861-1048 2907
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1861-1049 2913
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1861-1049 2914
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1861-1049 2915
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1861-1050 2917
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sauzay'  1861-1055 2928
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sauzay'  1861-1055 2929
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Clapisson'  1861-1055 2930
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1861-1057 2937
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1861-1058 2944
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1861-1058 2945
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1861-1058 2946
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gallay'  1861-1074 2969
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gallay'  1861-1074 2970
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Batiste'  1861-1075 2973
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Batiste'  1861-1075 2974
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1076 2977
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1861-1076 2977
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1861-1078 2982
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1861-1078 2983
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1861-1079 2986
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1861-1079 2987
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sauzay'  1861-1079 2988
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Sauzay'  1861-1079 2989
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1861-1079 2990
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1861-1079 2991
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1861-1081 2994
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Couderc'  1861-1083 3000
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1861-1083 3001
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1861-1084 3002
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1861-1084 3003
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1861-1084 3004
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1861-1086 3015
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1861-1086 3016
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leroy (Réty)'  1861-1086 3017
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1861-1086 3018
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1861-1086 3019
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1861-1086 3020
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1861-1086 3021
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gautier'  1861-1086 3022
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1861-1089 3029
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Berchtold (Lemarchand)'  1861-1089 3030
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1861-1092 3037
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1861-1092 3038
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1094 3041
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1861-1094 3041
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Batiste'  1861-1096 3047
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Anthiome'  1861-1098 3053
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1861-1105 3069
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1861-1106 3072
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1107 3074
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1861-1107 3075
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1107 3076
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Paulin de Lespinasse'  1861-1108 3080
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Giuliani'  1861-1108 3081
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Masset'  1861-1109 3082
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Masset'  1861-1109 3083
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1109 3084
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1109 3085
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1861-1109 3086
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Savard'  1861-1109 3088
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1861-1109 3089
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Révial'  [1861-1109 bis] 3093
+ERREUR PARCOURS-CLASSE Erreur inconnue.  [1861-1109 bis] 3093
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Masset'  1861-1110 3094
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1861-1110 3095
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1861-1110 3096
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1111 3099
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1861-1111 3100
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Laget'  1861-1111 3101
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Grosset'  1861-1112 3104
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1861-1115 3112
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Tariot'  1861-1116 3113
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gillette'  1861-1117 3119
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duvernoy, H.'  1861-1117 3120
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1119 3123
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1861-1119 3123
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Hersant'  1861-1119 3125
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Hersant'  1861-1119 3126
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Doumic'  1861-1121 3133
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Masset'  1861-1121 3135
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1861-1126 3144
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Doumic'  1861-1128 3149
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Masset'  1861-1128 3150
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mercié-Porte'  1861-1129 3153
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Portéhaut'  1861-1137 3171
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1138 3175
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1861-1138 3175
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Batiste'  1861-1139 3177
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jousselin'  1861-1139 3178
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Roulle'  1861-1141 3182
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mathias'  1861-1159 3209
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Mathias'  1861-1159 3210
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Thomas'  1861-1159 3211
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Croharé'  1861-1160 3215
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Prumier'  1861-1160 3216
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1162 3220
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1861-1162 3220
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1163 3222
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leclercq (Tarpet)'  1861-1165 3225
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1166 3227
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Leclercq (Tarpet)'  1861-1167 3231
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Farrenc'  1861-1167 3232
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alard'  1861-1168 3235
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1174 3241
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1174 3242
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1175 3245
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1175 3248
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1176 3249
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1176 3251
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1177 3252
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1177 3255
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1178 3256
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1178 3258
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1179 3259
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1179 3261
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1180 3263
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1181 3264
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1181 3265
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1182 3268
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1182 3269
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1183 3271
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1183 3272
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1184 3274
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1184 3275
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1185 3277
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1185 3279
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1186 3280
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1186 3283
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1187 3284
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1187 3285
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1188 3287
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1188 3288
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1188 3289
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Forestier'  1861-1188 3290
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1189 3291
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1190 3294
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1190 3297
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1191 3298
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1191 3299
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1192 3302
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1192 3303
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1193 3305
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1193 3307
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1194 3308
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1194 3310
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1195 3311
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1195 3313
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1196 3314
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1196 3315
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1197 3318
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1197 3320
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1198 3321
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1198 3323
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1199 3324
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1199 3325
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1200 3327
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1200 3329
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1201 3330
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1201 3331
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1202 3333
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1202 3334
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1203 3336
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1203 3337
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1203 3338
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1204 3341
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1204 3344
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1205 3345
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dauverné'  1861-1205 3347
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1206 3348
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1206 3350
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1207 3351
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1207 3354
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1207 3355
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1208 3356
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1208 3359
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1208 3360
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1209 3361
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1209 3363
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1210 3364
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1210 3365
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Jonas'  1861-1211 3367
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1211 3370
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Bazin'  1861-1212 3371
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Durand, É.'  1861-1212 3374
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gautier'  1861-1214 3378
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Gautier'  1861-1214 3379
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Alkan, N.'  1861-1215 3382
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Marmontel'  1861-1216 3385
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1216 3386
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1861-1216 3386
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1216 3387
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1861-1216 3387
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1216 3388
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1861-1216 3388
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1216 3389
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1861-1216 3389
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Duprato'  1861-1216 3390
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1219 3396
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1861-1219 3396
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Dufresne'  1861-1219 3399
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Raillard'  1861-1220 3401
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1861-1221 3403
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1861-1221 3404
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Delsuc (Maucorps)'  1861-1221 3405
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1223 3408
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1861-1223 3408
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Herz'  1861-1224 3413
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1861-1225 3417
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'Massart'  [1861-1230] 3422
+ERREUR CLASSE Classe partiellement définie — discipline :'Accompagnement au piano' ; professeur : 'None'  1906-0304 42
+ERREUR CLASSE Classe partiellement définie — discipline :'Chant' ; professeur : 'None'  1907-[0345 bis] 280
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1907-[0345 bis] 280
+ERREUR CLASSE Classe partiellement définie — discipline :'Accompagnement au piano' ; professeur : 'None'  1907-0385 507
+ERREUR CLASSE Classe partiellement définie — discipline :'Contrepoint' ; professeur : 'None'  1907-0398 596
+ERREUR CLASSE Classe partiellement définie — discipline :'Accompagnement au piano' ; professeur : 'None'  1907-[0399 bis] 604
+ERREUR CLASSE Classe partiellement définie — discipline :'Accompagnement au piano' ; professeur : 'None'  1907-[0399 bis] 605
+ERREUR CLASSE Classe partiellement définie — discipline :'Accompagnement au piano' ; professeur : 'None'  1907-[0399 bis] 606
+ERREUR CLASSE Classe partiellement définie — discipline :'Accompagnement au piano' ; professeur : 'None'  1910-[0475 bis] 1082
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1910-[0481 bis] 1119
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0373 1257
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0373 1257
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0412 bis] 1440
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0412 bis] 1440
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0413 1448
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0413 1448
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0413 1449
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0413 1449
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0413 bis] 1456
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0413 bis] 1456
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0413 bis] 1457
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0413 bis] 1457
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0414 1463
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0414 1463
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1913-[0414 bis] 1467
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0414 bis] 1467
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0414 bis] 1471
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0414 bis] 1471
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0415 bis] 1485
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0415 bis] 1485
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0416 1490
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0416 1490
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0419 1512
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0419 1512
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0419 bis] 1517
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0419 bis] 1517
+ERREUR CLASSE Classe partiellement définie — discipline :'Solfège' ; professeur : 'None'  1913-[0419 bis] 1518
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0419 bis] 1518
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0420 1523
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0420 1523
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0420 bis] 1531
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0420 bis] 1531
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0421 1538
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0421 1538
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0422 bis] 1552
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0422 bis] 1552
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0431 bis] 1635
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0431 bis] 1635
+ERREUR CLASSE Classe partiellement définie — discipline :'Solfège' ; professeur : 'None'  1913-[0432 bis] 1643
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0432 bis] 1643
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0435 1664
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0435 1664
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0435 bis] 1671
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0435 bis] 1671
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0438 1696
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0438 1696
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0439 bis] 1710
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0439 bis] 1710
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0439 bis] 1711
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0439 bis] 1711
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0441 bis] 1729
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0441 bis] 1729
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0447 1765
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0447 1765
+ERREUR CLASSE Classe partiellement définie — discipline :'Accompagnement au piano' ; professeur : 'None'  1913-0447 1766
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0448 1772
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0448 1772
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0448 1773
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0448 1773
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0448 1774
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0448 1774
+ERREUR CLASSE Classe partiellement définie — discipline :'Direction d'Orchestre' ; professeur : 'None'  1913-[0448 bis] 1786
+ERREUR CLASSE Classe partiellement définie — discipline :'None' ; professeur : 'None'  1913-[0455 bis] 1827
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0455 bis] 1827
+ERREUR CLASSE Classe partiellement définie — discipline :'Direction d'Orchestre' ; professeur : 'None'  1913-[0455 bis] 1831
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0455 bis] 1831
+ERREUR CLASSE Classe partiellement définie — discipline :'Direction d'Orchestre' ; professeur : 'None'  1913-[0455 bis] 1832
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0455 bis] 1832
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0456 bis] 1836
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0456 bis] 1836
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0457 bis] 1845
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0457 bis] 1845
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-[0461 bis] 1855
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-[0461 bis] 1855
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1913-0463 1863
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1913-0463 1863
+ERREUR CLASSE Classe partiellement définie — discipline :'Contrepoint' ; professeur : 'None'  1914-0464 1866
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-0464 1866
+ERREUR CLASSE Classe partiellement définie — discipline :'Direction d'Orchestre' ; professeur : 'None'  1914-0464 1867
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-0464 1867
+ERREUR CLASSE Classe partiellement définie — discipline :'Solfège' ; professeur : 'None'  1914-0469 1894
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-0469 1894
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire et Littérature dramatique' ; professeur : 'None'  1914-[0471 bis] 1908
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-[0471 bis] 1908
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1914-0482 1953
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-0482 1953
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-0482 1954
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-0482 1955
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1914-[0488 bis] 2003
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-[0488 bis] 2003
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1914-0489 2006
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-0489 2006
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1914-0489 2007
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-0489 2007
+ERREUR CLASSE Classe partiellement définie — discipline :'Histoire de la Musique' ; professeur : 'None'  1914-[0490 bis] 2018
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-[0490 bis] 2018
+ERREUR CLASSE Classe partiellement définie — discipline :'Solfège' ; professeur : 'None'  1914-[0491 bis] 2025
+ERREUR PARCOURS-CLASSE Erreur inconnue.  1914-[0491 bis] 2025
