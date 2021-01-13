@@ -85,7 +85,7 @@ def ro_list(s, p):
         return None
 
 ####################################################################################
-# Données statiques
+# DONNEES STATIQUES
 ####################################################################################
 
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
@@ -97,6 +97,10 @@ t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
 t(E32_ancien_regime_uri, crm("P71_lists"), E32_institutions_uri)
 t(E32_institutions_uri, a, crm("E32_Authority_Document"))
 t(E32_institutions_uri, crm("P1_is_identified_by"), Literal("Noms d'institutions et de corporations"))
+
+####################################################################################
+# INSTITUTIONS
+####################################################################################
 
 for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
     identifier = ro(opentheso_institution_uri, DCTERMS.identifier)
@@ -163,6 +167,12 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
         identifier = ro(broader, DCTERMS.identifier)
         E74_broader_uri = she(get_uuid(["institutions et corporations", identifier, "uuid"]))
         t(E74_broader_uri, crm("P107_has_current_or_former_member"), E74_uri)
+
+    exactMatches = ro_list(opentheso_institution_uri, SKOS.exactMatch)
+    for exactMatch in exactMatches:
+        if exactMatch == "https://opentheso3.mom.fr/opentheso3/index.xhtml":
+            continue
+        t(E74_uri, SKOS.exactMatch, exactMatch)
 
 write_cache(cache_file)
 output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")

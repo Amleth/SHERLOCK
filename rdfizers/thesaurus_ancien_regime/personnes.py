@@ -85,9 +85,8 @@ def ro_list(s, p):
         return None
 
 ####################################################################################
-# Données statiques
+# DONNEES STATIQUES
 ####################################################################################
-
 
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
 
@@ -98,6 +97,10 @@ t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
 t(E32_ancien_regime_uri, crm("P71_lists"), E32_personnes_uri)
 t(E32_personnes_uri, a, crm("E32_Authority_Document"))
 t(E32_personnes_uri, crm("P1_is_identified_by"), Literal("Noms de personnes"))
+
+####################################################################################
+# PERSONNES
+####################################################################################
 
 for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
     dcterms_identifier = str(list(input_graph.objects(opentheso_personne_uri, DCTERMS.identifier))[0])
