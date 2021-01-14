@@ -84,6 +84,28 @@ def ro_list(s, p):
     except:
         return None
 
+def narrow(id_opentheso, uuid_sherlock):
+
+    # E93_Presence
+    t(uuid_sherlock, a, crm("E93_Presence"))
+
+    # E41_Appellation
+    E41_uri = she(get_uuid(["lieu", identifier, "E93", "E41"]))
+    t(uuid_sherlock, crm("P1_is_identified_by"), E41_uri)
+    t(E41_uri, a, crm("E41_Appellation"))
+    t(E41_uri, RDFS.label, ro(id_opentheso, SKOS.prefLabel))
+    altLabels = ro_list(id_opentheso, SKOS.altLabel)
+    if len(altLabels) > 0:
+        for altLabel in altLabels:
+            E41_alt_uri = she(get_uuid(["lieu", identifier, "E93", "E41_alt", altLabel]))
+            t(E41_alt_uri, a, crm("E41_Appellation"))
+            t(E41_alt_uri, RDFS.label, altLabel)
+            t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
+
+    # DCTERMS.created/modified
+    t(uuid_sherlock, DCTERMS.created, ro(id_opentheso, DCTERMS.created))
+    t(uuid_sherlock, DCTERMS.modified, ro(id_opentheso, DCTERMS.modified))
+
 ####################################################################################
 # DONNEES STATIQUES
 ####################################################################################
@@ -99,39 +121,55 @@ t(E32_lieux_uri, a, crm("E32_Authority_Document"))
 t(E32_lieux_uri, crm("P1_is_identified_by"), Literal("Noms de lieux"))
 
 ####################################################################################
-# LIEUX
+# THESAURUS "GRAND SIECLE"
 ####################################################################################
 
-for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
+for opentheso_GrandSiecle_uri, p, o in input_graph.triples((URIRef("http://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), RDF.type, SKOS.Concept)):
 
-    identifier = ro(opentheso_lieu_uri, DCTERMS.identifier)
+    E32_grand_siecle_uri = URIRef(iremus_ns["78061430-df57-4874-8334-44ed215a112e"])
+    t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
+    t(E32_grand_siecle_uri, crm("P1_is_identified_by"), Literal("Grand Siècle"))
+    t(E32_lieux_uri, crm("P71_lists"), E32_grand_siecle_uri)
 
-    if identifier == Literal("1336"):
-        E32_grand_siecle_uri = URIRef(iremus_ns["78061430-df57-4874-8334-44ed215a112e"])
-        t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
-        t(E32_lieux_uri, crm("P71_lists"), E32_grand_siecle_uri)
+    ## Lieux listés par le thésaurus "Grand Siècle"
 
-    elif identifier == Literal("275949"):
-        E32_per_cont_uri = URIRef(iremus_ns["41dd59e3-2f0c-4ef3-b08c-9606f33a4a48"])
-        t(E32_per_cont_uri, a, crm("E32_Authority_Document"))
-        t(E32_lieux_uri, crm("P71_lists"), E32_per_cont_uri)
+    narrower1 = ro_list(opentheso_GrandSiecle_uri, SKOS.narrower)
+    for narrower in narrower1:
+        identifier = ro(narrower, DCTERMS.identifier)
+        narrower1_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
+        t(E32_grand_siecle_uri, crm("P71_lists"), narrower1_uri)
+        narrow(narrower, narrower1_uri)
+        narrower2 = ro_list(narrower, SKOS.narrower)
+        for narrower in narrower2:
+            identifier = ro(narrower, DCTERMS.identifier)
+            narrower2_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
+            narrow(narrower, narrower2_uri)
+            t(narrower2_uri, crm("P10_falls_within"), narrower1_uri)
+            narrower3 = ro_list(narrower, SKOS.narrower)
+            for narrower in narrower3:
+                identifier = ro(narrower, DCTERMS.identifier)
+                narrower3_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
+                narrow(narrower, narrower3_uri)
+                t(narrower3_uri, crm("P10_falls_within"), narrower2_uri)
+                narrower4 = ro_list(narrower, SKOS.narrower)
+                for narrower in narrower4:
+                    identifier = ro(narrower, DCTERMS.identifier)
+                    narrower4_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
+                    narrow(narrower, narrower4_uri)
+                    t(narrower4_uri, crm("P10_falls_within"), narrower3_uri)
 
-    else:
-        E93_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
-        t(E93_uri, a, crm("E93_Presence"))
-        E41_uri = she(get_uuid(["lieu", identifier, "E93", "E41"]))
-        t(E93_uri, crm("P1_is_identified_by"), E41_uri)
-        t(E41_uri, a, crm("E41_Appellation"))
-        t(E41_uri, RDFS.label, ro(opentheso_lieu_uri, SKOS.prefLabel))
-        altLabels = ro_list(opentheso_lieu_uri, SKOS.altLabel)
-        if len(altLabels) > 0:
-            for altLabel in altLabels:
-                E41_alt_uri = she(get_uuid(["lieu", identifier, "E93", "E41_alt", altLabel]))
-                t(E41_alt_uri, a, crm("E41_Appellation"))
-                t(E41_alt_uri, RDFS.label, altLabel)
-                t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
-        t(E93_uri, DCTERMS.created, ro(opentheso_lieu_uri, DCTERMS.created))
-        t(E93_uri, DCTERMS.modified, ro(opentheso_lieu_uri, DCTERMS.modified))
+####################################################################################
+# THESAURUS "MONDE CONTEMPORAIN"
+####################################################################################
+
+for opentheso_GrandSiecle_uri, p, o in input_graph.triples((URIRef("http://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), RDF.type, SKOS.Concept)):
+
+    E32_mon_cont_uri = URIRef(iremus_ns["78061430-df57-4874-8334-44ed215a112e"])
+    t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
+    t(E32_mon_cont_uri, crm("P1_is_identified_by"), Literal("Monde contemporain"))
+    t(E32_lieux_uri, crm("P71_lists"), E32_mon_cont_uri)
+
+"""
 
         def process_note(p):
             values = ro_list(opentheso_lieu_uri, p)
@@ -189,6 +227,8 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
         closeMatches = ro_list(opentheso_lieu_uri, SKOS.closeMatch)
         for closeMatch in closeMatches:
             t(E93_uri, SKOS.closeMatch, closeMatch)
+            
+            """
 
 write_cache(cache_file)
 output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
