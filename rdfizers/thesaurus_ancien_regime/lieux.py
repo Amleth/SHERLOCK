@@ -13,6 +13,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--inputrdf")
 parser.add_argument("--outputttl")
 parser.add_argument("--cache_lieux")
+parser.add_argument("--cache_corpus")
 args = parser.parse_args()
 
 # CACHE
@@ -21,11 +22,6 @@ sys.path.append(str(Path(".").absolute().parent.parent))
 from cache_management import get_uuid, read_cache, write_cache  # nopep8
 
 cache_file = str(PurePath.joinpath(Path(".").absolute(), "cache_lieux.yaml"))
-
-# Lecture du cache
-cache_des_uuid_du_thesaurus_lieux = None
-with open(args.cache_lieux) as f:
-    cache_des_uuid_du_thesaurus_lieux = yaml.load(f, Loader=yaml.FullLoader)
 
 ################################################################################
 # Initialisation des graphes
@@ -158,23 +154,22 @@ def narrow(id_opentheso, uuid_sherlock):
 
     # Coordonnées géographiques
 
-    #E53_uri = she(get_uuid(["lieu", identifier, "E93", "E53"]))
-    #geolat = ro_list(id_opentheso, URIRef("http://www.w3.org/2003/01/geo/wgs84_pos#lat"))
-    #geolong = ro_list(id_opentheso, URIRef("http://www.w3.org/2003/01/geo/wgs84_pos#long"))
-    #t(uuid_sherlock, crm("P161_has_spatial_projection"), E53_uri)
-    #for lat in geolat:
-        #t(E53_uri, crm("P168_place_is_defined_by"), lat)
-    #for long in geolong:
-        #t(E53_uri, crm("P168_place_is_defined_by"), long)
+    E53_uri = she(get_uuid(["lieu", identifier, "E93", "E53"]))
+    t(uuid_sherlock, crm("P161_has_spatial_projection"), E53_uri)
+
+    geolat = ro(id_opentheso, URIRef("http://www.w3.org/2003/01/geo/wgs84_pos#lat"))
+    geolong = ro(id_opentheso, URIRef("http://www.w3.org/2003/01/geo/wgs84_pos#long"))
+    if geolat and geolong:
+        t(E53_uri, crm("P168_place_is_defined_by"), l(f"[{str(geolat)}, {str(geolong)}]"))
 
 
 ####################################################################################
-# DONNEES STATIQUES
+# DONNÉES STATIQUES
 ####################################################################################
 
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
 
-## Création des thésaurus "Ancien Régime" et "Noms de lieux"
+# Création des thésaurus "Ancien Régime" et "Noms de lieux"
 
 E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
 E32_lieux_uri = URIRef(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
@@ -190,14 +185,14 @@ t(E32_lieux_uri, crm("P1_is_identified_by"), Literal("Noms de lieux"))
 
 for opentheso_GrandSiecle_uri, p, o in input_graph.triples((URIRef("http://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), RDF.type, SKOS.Concept)):
 
-    ## Création du thésaurus "Grand Siècle"
+    # Création du thésaurus "Grand Siècle"
 
     E32_grand_siecle_uri = URIRef(iremus_ns["78061430-df57-4874-8334-44ed215a112e"])
     t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
     t(E32_grand_siecle_uri, crm("P1_is_identified_by"), Literal("Grand Siècle"))
     t(E32_lieux_uri, crm("P71_lists"), E32_grand_siecle_uri)
 
-    ## Lieux listés par le thésaurus "Grand Siècle"
+    # Lieux listés par le thésaurus "Grand Siècle"
 
     narrower1 = ro_list(opentheso_GrandSiecle_uri, SKOS.narrower)
     for narrower in narrower1:
@@ -230,14 +225,14 @@ for opentheso_GrandSiecle_uri, p, o in input_graph.triples((URIRef("http://opent
 
 for opentheso_MondeCont_uri, p, o in input_graph.triples((URIRef("http://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), RDF.type, SKOS.Concept)):
 
-    ## Création du thésaurus "Monde contemporain"
+    # Création du thésaurus "Monde contemporain"
 
     E32_mon_cont_uri = URIRef(iremus_ns["41dd59e3-2f0c-4ef3-b08c-9606f33a4a48"])
     t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
     t(E32_mon_cont_uri, crm("P1_is_identified_by"), Literal("Monde contemporain"))
     t(E32_lieux_uri, crm("P71_lists"), E32_mon_cont_uri)
 
-    ## Lieux listés par le thésaurus "Monde contemporain"
+    # Lieux listés par le thésaurus "Monde contemporain"
 
     narrower1 = ro_list(opentheso_MondeCont_uri, SKOS.narrower)
     for narrower in narrower1:
