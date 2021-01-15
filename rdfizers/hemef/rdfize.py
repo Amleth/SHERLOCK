@@ -1,10 +1,8 @@
 import argparse
-from collections import defaultdict
 import datetime
 import json
 from openpyxl import load_workbook
 from pathlib import Path, PurePath
-from pprint import pprint
 from rdflib import Graph, Literal, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, URIRef as u, Literal, XSD
 import re
 import sys
@@ -45,12 +43,9 @@ propriétés_avec_valeurs_composites = set()
 
 ################################################################################
 #
-# HELPERS
+# RDF HELPERS
 #
 ################################################################################
-
-MULTIVALUE_SEPARATOR = " / "
-UNIFIED_PREDICATE_SUFFIX = "_valeur"
 
 
 def crm(x):
@@ -75,6 +70,16 @@ def l(v):
     else:
         raise Exception(f"Type inconnu : f{v}")
 
+################################################################################
+#
+# DATA HELPERS
+#
+################################################################################
+
+
+MULTIVALUE_SEPARATOR = " ⬢ "  # quelque chose qui n'existera jamais dans les données
+UNIFIED_VALUES_PREDICATE_SUFFIX = "_valeur"
+
 
 def a2l(x):
     if type(x) == list:
@@ -83,21 +88,18 @@ def a2l(x):
         return [x]
 
 
-def add_tdc(x): return x + " [TDC]"
-
-
-# Never use it when you loop over keys, you moron!
-def join_values_with_tdc(k_base, v):
+def join_values(subject, predicate, v, k):
     res = []
-    if k_base in v:
-        res.extend(a2l(v[k_base]))
-    if f"{k_base}_TDC" in v:
-        res.extend(map(add_tdc, a2l(v[f"{k_base}_TDC"])))
+    if k in v:
+        res.extend(a2l(v[k]))
+    res = map(lambda x: str(x), res)
     res = MULTIVALUE_SEPARATOR.join(res)
-    return res
+    if res:
+        t(subject, predicate, l(res))
 
 
-def deal_with_tdc_fields(data_type, data, subject, field_base_name, predicate_base_name, allow_both_values=False):
+def find_usable_value(data_type, data, subject, field_base_name, predicate_base_name, allow_both_values=False):
+    values = []
     if not allow_both_values:
         if field_base_name in data and field_base_name+"_TDC" in data:
             if data[field_base_name] != data[field_base_name+"_TDC"]:
@@ -106,35 +108,70 @@ def deal_with_tdc_fields(data_type, data, subject, field_base_name, predicate_ba
         if type(data[field_base_name]) == list:
             raise Exception(f"La propriété {field_base_name} d'un {data_type} ne peut pas être multivaluée.")
         t(subject, hemef_ns[predicate_base_name], l(data[field_base_name]))
-        t(subject, hemef_ns[predicate_base_name+UNIFIED_PREDICATE_SUFFIX], l(data[field_base_name]))
+        values.append(data[field_base_name])
     if field_base_name+"_TDC" in data and data[field_base_name+"_TDC"]:
         if type(data[field_base_name+"_TDC"]) == list:
             raise Exception(f"La propriété {field_base_name+'_TDC'} d'un {data_type} ne peut pas être multivaluée.")
         t(subject, hemef_ns[predicate_base_name+"_TDC"], l(data[field_base_name+"_TDC"]))
-        t(subject, hemef_ns[predicate_base_name+UNIFIED_PREDICATE_SUFFIX], l(data[field_base_name+"_TDC"]))
+        values.append(data[field_base_name+"_TDC"])
+    values = list(set(values))
+    if values and len(values) == 1:
+        t(subject, hemef_ns[predicate_base_name+UNIFIED_VALUES_PREDICATE_SUFFIX], l(values[0]))
+    else:
+        t(subject, hemef_ns[predicate_base_name+UNIFIED_VALUES_PREDICATE_SUFFIX], l(values[1]))
+
+
+def change_TDC_position(predicate, suffix):
+    if "_TDC" not in predicate:
+        return predicate + suffix
+    else:
+        predicate = predicate.replace("_TDC", "")
+        return predicate + suffix + "_TDC"
 
 
 def parse_date(x, subject, predicate_base, debug=False):
-    if type(x) == str:
-        date_data = parse_atom_date(x)
-        for date_k, date_v in date_data.items():
-            predicate = predicate_base + "_" + date_k
-            t(subject, hemef_ns[predicate], l(date_v))
+    t(subject, hemef_ns[change_TDC_position(predicate_base, "_saisie")], l(str(x)))
+
+    if type(x) == int or type(x) == str:
+        _ = parse_atom_date(x)
+        for date_k, date_v in _.items():
+            t(subject, hemef_ns[change_TDC_position(predicate_base, "_" + date_k)], l(date_v))
+        if _ != {} and type(x) == str and ('[' in x or ']' in x or '?' in x):
+            # Hypothesis
+            t(subject, hemef_ns[change_TDC_position(predicate_base, "_hypothèse")], Literal(True, datatype=XSD.boolean))
+        pass
+
     elif type(x) == list:
-        dates = list(filter(lambda x: True if x else False, map(parse_atom_date, x)))
         dates = [parse_atom_date(d) for d in x if parse_atom_date(d)]
-        for date_part_k in ["année", "mois", "jour"]:
-            try:
-                date_part_v = min(list(map(lambda x: x[date_part_k], dates)))  # discutable…
-                predicate = predicate_base + "_" + date_part_k
-                t(subject, hemef_ns[predicate], l(date_part_v))
-            except:
-                pass
-    elif type(x) == int:
-        t(subject, hemef_ns[predicate_base + "_année"], l(x))
+
+        # We take the min date [TODO discutable…]
+        ymd_list = []
+        for d in dates:
+            ymd = [-1, -1, -1, d]
+            if "année" in d:
+                ymd[0] = d["année"]
+            if "mois" in d:
+                ymd[1] = d["mois"]
+            if "jour" in d:
+                ymd[2] = d["jour"]
+            if ymd.count(-1) < 3:
+                ymd_list.append(ymd)
+
+        if ymd_list:
+            _ = min(ymd_list)[3]
+            for date_k, date_v in _.items():
+                t(subject, hemef_ns[change_TDC_position(predicate_base, "_" + date_k)], l(date_v))
+            # Hypothesis
+            t(subject, hemef_ns[change_TDC_position(predicate_base, "_hypothèse")], Literal(True, datatype=XSD.boolean))
 
 
 def parse_atom_date(v):
+    if type(v) == int:
+        if v >= 0 and v <= 9999:
+            return {"année": v}
+        else:
+            return {"saisie": str(v)}
+
     o = {}
 
     match = re.search(r"([0-9]{4})-?([0-9]{2})?-?([0-9]{2})?", v)
@@ -160,62 +197,6 @@ def parse_atom_date(v):
 
     return o
 
-
-def format_exerce(v):
-    # date_début
-    # lieu
-    # lieu_TDC
-    # profession_connue
-    # profession_connue_TDC
-    profession_connue = MULTIVALUE_SEPARATOR.join(a2l(v["profession_connue"])) if "profession_connue" in v else ""
-    profession_connue_TDC = MULTIVALUE_SEPARATOR.join(map(add_tdc, a2l(v["profession_connue_TDC"]))) if "profession_connue_TDC" in v else ""
-    profession_connue = MULTIVALUE_SEPARATOR.join([x for x in [profession_connue, profession_connue_TDC] if x])
-    lieu = MULTIVALUE_SEPARATOR.join(a2l(v["lieu"])) if "lieu" in v else ""
-    lieu_TDC = MULTIVALUE_SEPARATOR.join(map(add_tdc, a2l(v["lieu_TDC"]))) if "lieu_TDC" in v else ""
-    lieu = MULTIVALUE_SEPARATOR.join([x for x in [lieu, lieu_TDC] if x])
-    date_début = MULTIVALUE_SEPARATOR.join(map(str, a2l(v["date_début"]))) if "date_début" in v else ""
-    exerce = profession_connue
-    if lieu:
-        if exerce:
-            exerce += " — "
-        exerce += "Lieu : " + lieu
-    if date_début:
-        if exerce:
-            exerce += " — "
-        exerce += "Depuis : " + date_début
-    return exerce
-
-
-def format_pré_cursus(v):
-    # nom
-    # nom_TDC
-    # type
-    # ville
-    précursus = ""
-    if "nom" in v:
-        précursus += v["nom"]
-    if "nom_TDC" in v:
-        if "nom" in v:
-            précursus += MULTIVALUE_SEPARATOR
-        précursus += add_tdc(v["nom_TDC"])
-    if "type" in v:
-        if précursus:
-            précursus += " "
-        précursus += f"({v['type']})"
-    if "ville" in v:
-        if précursus:
-            précursus += ", "
-        précursus += v["ville"]
-    return précursus
-
-
-def format_profession_parent(v):
-    # profession
-    # profession_TDC
-    profession = a2l(v["profession"]) if "profession" in v else ""
-    profession_TDC = map(add_tdc, a2l(v["profession_TDC"])) if "profession_TDC" in v else ""
-    return MULTIVALUE_SEPARATOR.join([*profession, *profession_TDC])
-
 ################################################################################
 #
 # CLASSES
@@ -226,32 +207,21 @@ def format_profession_parent(v):
 for classe_uuid, classe in data["classes"].items():
     t(iremus_ns[classe_uuid], RDF.type, hemef_ns["Classe"])
 
-    # observations
-    # observations_TDC
-    # remarques_saisie
-    for k in ("observations", "remarques_saisie"):
-        o = join_values_with_tdc(k, classe)
-        if o:
-            t(iremus_ns[classe_uuid], hemef_ns[k], l(o))
-
-    # discipline_categorie & discipline_categorie_TDC
-    deal_with_tdc_fields("classe", classe, iremus_ns[classe_uuid], "discipline_categorie", "discipline_catégorie")
-    deal_with_tdc_fields("classe", classe, iremus_ns[classe_uuid], "nom_professeur", "nom_professeur", True)
-
-    for k in ("discipline",
-              "discipline_TDC",
-              "nom_TDC",
-              "type_TDC"):
-        if k not in classe:
-            continue
-        v = classe[k]
-        if type(v) == str:
-            t(iremus_ns[classe_uuid], hemef_ns[k], l(v))
-        elif type(v) == list:
-            v = MULTIVALUE_SEPARATOR.join(v)
-            t(iremus_ns[classe_uuid], hemef_ns[k], l(v))
-        else:
-            raise Exception(f"Type d'objet inconnu sur la classe `{classe_uuid}` pour le prédicat `{k}` : `{v}`")
+    for k, v in classe.items():
+        if k in (
+            "discipline",
+            "discipline_TDC",
+            "nom_TDC",
+            "observations",
+            "observations_TDC",
+            "remarques_saisie",
+            "type_TDC"
+        ):
+            join_values(iremus_ns[classe_uuid], hemef_ns[k], classe, k)
+        elif k in ["discipline_categorie", "discipline_categorie_TDC"]:
+            find_usable_value("classe", classe, iremus_ns[classe_uuid], "discipline_categorie", "discipline_catégorie")
+        elif k in ["nom_professeur", "nom_professeur_TDC"]:
+            find_usable_value("classe", classe, iremus_ns[classe_uuid], "nom_professeur", "nom_professeur", True)
 
 ################################################################################
 #
@@ -262,146 +232,118 @@ for classe_uuid, classe in data["classes"].items():
 for eleve_id1, eleve in data["eleves_identifiant_1"].items():
     t(iremus_ns[eleve["uuid"]], RDF.type, hemef_ns["Élève"])
 
-    for k in ("motif_sortie", "motif_admission", "observations", "remarques_de_saisie"):
-        o = join_values_with_tdc(k, eleve)
-        if o:
-            t(iremus_ns[eleve["uuid"]], hemef_ns[k], l(o))
-
     for k, v in eleve.items():
-
-        if k in ("motif_sortie", "motif_admission", "observations", "remarques_de_saisie", "motif_sortie_TDC", "motif_admission_TDC", "observations_TDC", "remarques_de_saisie_TDC"):
-            continue
-
-        if k in ("date_entrée_conservatoire", "date_entrée_conservatoire_TDC", "date_naissance", "date_naissance_TDC", "date_sortie_conservatoire", "date_sortie_conservatoire_TDC"):
+        if k in [
+            "cote_AN_registre",
+            "cote_AN_registre_TDC",
+            "identifiant_1",
+            "identifiant_2",
+            "motif_admission",
+            "motif_admission_TDC",
+            "motif_sortie",
+            "motif_sortie_TDC",
+            "nom",
+            "nom_complément",
+            "nom_épouse",
+            "nom_épouse_TDC",
+            "observations",
+            "observations_TDC",
+            "prénom_1",
+            "prénom_2",
+            "prénom_2_TDC",
+            "prénom_complément",
+            "prénom_complément_TDC",
+            "pseudonyme",
+            "pseudonyme_TDC",
+            "références_bibliographiques",
+            "remarques_de_saisie",
+            "remarques_de_saisie_TDC"
+        ]:
+            join_values(iremus_ns[eleve["uuid"]], hemef_ns[k], eleve, k)
+        elif k in [
+            "date_entrée_conservatoire",
+            "date_entrée_conservatoire_TDC",
+            "date_naissance",
+            "date_naissance_TDC",
+            "date_sortie_conservatoire",
+            "date_sortie_conservatoire_TDC"
+        ]:
             parse_date(v, iremus_ns[eleve["uuid"]], k)
-
-        else:
-
-            # Clefs scalaires
-            if type(v) == str:
-                t(iremus_ns[eleve["uuid"]], hemef_ns[k], l(v))
-
-            # Clefs composites
-            elif type(v) == list:
-                propriétés_avec_valeurs_composites.add(k)
-                if k in ["adresses", "adresses_TDC"]:
-                    for adresse in v:
-                        if "label" in adresse:
-                            t(iremus_ns[eleve["uuid"]], hemef_ns["adresse_label"], l(adresse["label"]))
-                        for k_ville in ["ville", "ville_TDC"]:
-                            if k_ville in adresse:
-                                for k in adresse[k_ville]:
-                                    t(iremus_ns[eleve["uuid"]], hemef_ns["adresse_"+k_ville+"_"+k], l(adresse[k_ville][k]))
+        elif k in ['sexe', 'sexe_TDC']:
+            t(iremus_ns[eleve["uuid"]], hemef_ns[k], l({"H": '♂', "F": '♀'}[v]))
+        elif k in ["naissance_ville", "naissance_ville_TDC"]:
+            for kk, vv in eleve[k].items():
+                if kk in ["nom", "nom_TDC"]:
+                    find_usable_value("ville", eleve[k], iremus_ns[eleve["uuid"]], "nom", "naissance_ville_nom")
                 else:
-                    t(iremus_ns[eleve["uuid"]], hemef_ns[k], l(MULTIVALUE_SEPARATOR.join(v)))
-
-            # Entités liées
-            # mère
-            # naissance_département
-            # naissance_pays
-            # naissance_ville
-            # parcours-classes
-            # profession
-            # père
-            # établissement_pré-cursus
-            elif type(v) == dict:
-                if k == "exerce":
-                    exerce = format_exerce(v)
-                    if exerce:
-                        t(iremus_ns[eleve["uuid"]], hemef_ns["exerce"], l(exerce))
-                elif k == "père":
-                    pp = format_profession_parent(v)
-                    if pp:
-                        t(iremus_ns[eleve["uuid"]], hemef_ns["père_profession"], l(pp))
-                elif k == "mère":
-                    pp = format_profession_parent(v)
-                    if pp:
-                        t(iremus_ns[eleve["uuid"]], hemef_ns["mère_profession"], l(pp))
-                elif k == "naissance_département":
-                    deal_with_tdc_fields("élève", v, iremus_ns[eleve["uuid"]], "nom", "naissance_département")
-                elif k == "naissance_pays":
-                    deal_with_tdc_fields("élève", v, iremus_ns[eleve["uuid"]], "nom", "naissance_pays")
-                elif k == "naissance_ville":
-                    if "nom_ancien" in v:
-                        t(iremus_ns[eleve["uuid"]], hemef_ns["naissance_ville_ancien_nom"], l(v["nom_ancien"]))
-                    deal_with_tdc_fields("élève", v, iremus_ns[eleve["uuid"]], "nom", "naissance_ville")
-                elif k == "établissement_pré-cursus":
-                    précursus = format_pré_cursus(v)
-                    if précursus:
-                        t(iremus_ns[eleve["uuid"]], hemef_ns["établissement_pré-cursus"], l(précursus))
-                elif k == "parcours-classes":
-                    for pc_uuid, pc in v.items():
-                        t(iremus_ns[eleve["uuid"]], hemef_ns["parcours-classe"], iremus_ns[pc_uuid])
-                        t(iremus_ns[pc_uuid], RDF.type, hemef_ns["Parcours-Classe"])
-                        t(iremus_ns[pc_uuid], hemef_ns["classe"], iremus_ns[pc["classe"]])
-
-                        # date_entrée
-                        # date_entrée_TDC
-                        # date_sortie
-                        # date_sortie_TDC
-                        for kk, vv in pc.items():
-                            if kk in ("date_entrée", "date_entrée_TDC", "date_sortie", "date_sortie_TDC"):
-                                date_data = parse_date(vv, iremus_ns[pc_uuid], kk)
-
-                        # motif_entrée
-                        # motif_entrée_TDC
-                        # motif_sortie
-                        # motif_sortie_TDC
-                        for _ in ("motif_entrée", "motif_sortie"):
-                            o = join_values_with_tdc(_, pc)
-                            if o:
-                                t(iremus_ns[pc_uuid], hemef_ns[_], l(o))
-
-                        # observations_élève
-                        # observations_élève_TDC
-                        o = join_values_with_tdc("observations_élève", pc)
-                        if o:
-                            t(iremus_ns[pc_uuid], hemef_ns["observations_élève"], l(o))
-
-                        # statut_élève
-                        # statut_élève_TDC
-                        # TODO deal_with_tdc_fields ?
-                        o = join_values_with_tdc("statut_élève", pc)
-                        if o:
-                            t(iremus_ns[pc_uuid], hemef_ns["statut_élève"], l(o))
-
-                        # cote_AN_TDC
-                        o = join_values_with_tdc("cote_AN_TDC", pc)
-                        if o:
-                            t(iremus_ns[pc_uuid], hemef_ns["cote_AN"], l(o))
-
-                        # prix
-                        if "prix" in pc:
-                            for prix_uuid, prix in pc["prix"].items():
-                                t(iremus_ns[pc_uuid], hemef_ns["prix"], iremus_ns[prix_uuid])
-                                t(iremus_ns[prix_uuid], RDF.type, hemef_ns["Prix"])
-
-                                # discipline_categorie & discipline_categorie_TDC
-                                deal_with_tdc_fields("prix", prix, iremus_ns[prix_uuid], "discipline_categorie", "discipline_catégorie")
-
-                                # date & date_TDC
-                                for k in ["date", "date_TDC"]:
-                                    if k in prix:
-                                        parse_date(prix[k], iremus_ns[prix_uuid], "date", debug=True)
-
-                                # discipline & discipline_TDC
-                                deal_with_tdc_fields("prix", prix, iremus_ns[prix_uuid], "discipline", "discipline")
-
-                                # nom & nom_TDC
-                                deal_with_tdc_fields("prix", prix, iremus_ns[prix_uuid], "nom", "nom")
-
-                                # nom_complément & nom_complément_TDC
-                                deal_with_tdc_fields("prix", prix, iremus_ns[prix_uuid], "nom_complément", "nom_complément")
-
-                                # rang
-                                if "rang" in prix:
-                                    t(iremus_ns[prix_uuid], hemef_ns["rang"], l(prix["rang"]))
-
-                                # type & type_TDC
-                                deal_with_tdc_fields("prix", prix, iremus_ns[prix_uuid], "type", "type")
-                                pass
-            else:
-                raise Exception("???")
+                    join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
+        elif k in ["naissance_département", "naissance_département_TDC"]:
+            for kk, vv in eleve[k].items():
+                join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
+        elif k in ["naissance_pays", "naissance_pays_TDC"]:
+            for kk, vv in eleve[k].items():
+                join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
+        elif k in ["mère", "père"]:
+            for kk, vv in v.items():
+                join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
+        elif k == "adresses":
+            for adresse_uuid, adresse in eleve["adresses"].items():
+                t(iremus_ns[eleve["uuid"]], hemef_ns["adresse"], iremus_ns[adresse_uuid])
+                for k, v in adresse.items():
+                    t(iremus_ns[adresse_uuid], hemef_ns["adresse_"+k], l(v))
+        elif k == "exerce":
+            for kk, vv in eleve[k].items():
+                join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
+        elif k == "établissement_pré-cursus":
+            for kk, vv in eleve[k].items():
+                join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
+        elif k == "parcours-classes":
+            for pc_uuid, pc in v.items():
+                t(iremus_ns[eleve["uuid"]], hemef_ns["parcours-classe"], iremus_ns[pc_uuid])
+                t(iremus_ns[pc_uuid], hemef_ns["élève"], iremus_ns[eleve["uuid"]])
+                t(iremus_ns[pc_uuid], RDF.type, hemef_ns["Parcours-Classe"])
+                t(iremus_ns[pc_uuid], hemef_ns["classe"], iremus_ns[pc["classe"]])
+                for pc_k, pc_v in pc.items():
+                    if pc_k == "classe":
+                        continue
+                    if pc_k in [
+                        "date_entrée",
+                        "date_entrée_TDC",
+                        "date_sortie",
+                        "date_sortie_TDC",
+                    ]:
+                        parse_date(pc_v, iremus_ns[pc_uuid], pc_k)
+                    elif pc_k in [
+                        "cote_AN_TDC",
+                        "motif_entrée",
+                        "motif_entrée_TDC",
+                        "motif_sortie",
+                        "motif_sortie_TDC",
+                        "observations_classe",
+                        "observations_élève",
+                        "observations_élève_TDC",
+                        "statut_élève",
+                        "statut_élève_TDC",
+                    ]:
+                        join_values(iremus_ns[pc_uuid], hemef_ns[pc_k], pc, pc_k)
+                    elif pc_k == "prix":
+                        for prix_uuid, prix in pc["prix"].items():
+                            t(iremus_ns[pc_uuid], hemef_ns["prix"], iremus_ns[prix_uuid])
+                            t(iremus_ns[prix_uuid], RDF.type, hemef_ns["Prix"])
+                            for prix_k, prix_v in prix.items():
+                                if prix_k in [
+                                    "nom",
+                                    "nom_TDC",
+                                    "type",
+                                    "type_TDC",
+                                    "nom_complément",
+                                    "nom_complément_TDC",
+                                ]:
+                                    find_usable_value("prix", prix, iremus_ns[prix_uuid], prix_k.replace("_TDC", ""), prix_k.replace("_TDC", ""))
+                                elif prix_k in ["discipline_categorie", "discipline_categorie_TDC"]:
+                                    find_usable_value("prix", prix, iremus_ns[prix_uuid], "discipline_categorie", "discipline_catégorie")
+                                else:
+                                    join_values(iremus_ns[prix_uuid], hemef_ns[prix_k], prix, prix_k)
 
 ################################################################################
 #

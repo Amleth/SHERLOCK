@@ -8,6 +8,7 @@ from openpyxl import load_workbook
 from pathlib import Path, PurePath
 from pprint import pprint
 import sys
+import uuid
 
 ################################################################################
 #
@@ -192,17 +193,18 @@ for row in ws.rows:
     w(eleve, True, "eleve_pseudonyme_TDC", "pseudonyme_TDC")
     w(eleve, True, "eleve_sexe", "sexe")
     w(eleve, True, "eleve_sexe_TDC", "sexe_TDC")
-    w(eleve, True, "eleve_date_naissance", "date_naissance")
-    w(eleve, True, "eleve_date_naissance_TDC", "date_naissance_TDC")
-
     w(eleve, True, "eleve_refs_bibliographiques", "références_bibliographiques")
     w(eleve, True, "eleve_cote_AN_registre", "cote_AN_registre")
     w(eleve, True, "eleve_cote_AN_registre_TDC", "cote_AN_registre_TDC")
-
     w(eleve, True, "eleve_observations", "observations")
     w(eleve, True, "eleve_observations_TDC", "observations_TDC")
     w(eleve, True, "eleve_remarques de saisie", "remarques_de_saisie")
     w(eleve, True, "eleve_remarques de saisie_TDC", "remarques_de_saisie_TDC")
+
+    # NAISSANCE
+
+    w(eleve, True, "eleve_date_naissance", "date_naissance")
+    w(eleve, True, "eleve_date_naissance_TDC", "date_naissance_TDC")
 
     # VILLE DE NAISSANCE
 
@@ -266,7 +268,7 @@ for row in ws.rows:
     w(eleve, True, "cursus_motif_sortie", "motif_sortie")
     w(eleve, True, "cursus_motif_sortie_TDC", "motif_sortie_TDC")
 
-    # EXERCE
+    # EXERCE + PROFESSION
 
     exerce = eleve["exerce"] if "exerce" in eleve else defaultdict()
     w(exerce, True, "exerce_distinctions", "distinctions")
@@ -275,17 +277,13 @@ for row in ws.rows:
     w(exerce, True, "exerce_date_debut", "date_début")
     w(exerce, True, "exerce_lieu_exercice", "lieu")
     w(exerce, True, "exerce_lieu_exercice_TDC", "lieu_TDC")
+
+    w(exerce, True, "profession_nom", "profession_nom")
+    w(exerce, True, "profession_nom_TDC", "profession_nom_TDC")
+    w(exerce, True, "profession_secteur", "profession_secteur")
+
     if "exerce" not in eleve and len(exerce) != 0:
         eleve["exerce"] = exerce
-
-    # PROFESSION
-
-    profession = eleve["profession"] if "profession" in eleve else defaultdict()
-    w(profession, True, "profession_nom", "nom")
-    w(profession, True, "profession_nom_TDC", "nom_TDC")
-    w(profession, True, "profession_secteur", "secteur")
-    if "profession" not in eleve and len(profession) != 0:
-        eleve["profession"] = profession
 
     # PRÉCURSUS
 
@@ -293,7 +291,7 @@ for row in ws.rows:
     w(etablissement_precursus, True, "pre-cursus_nom_etablissement", "nom")
     w(etablissement_precursus, True, "pre-cursus_nom_etablissement_TDC", "nom_TDC")
     w(etablissement_precursus, True, "pre-cursus_type_etablissement", "type")
-    w(etablissement_precursus, True, "pre-cursus_ville_etablissement", "ville")
+    w(etablissement_precursus, True, "pre-cursus_ville_etablissement", "ville_nom")
     if "établissement_pré-cursus" not in eleve and len(etablissement_precursus) != 0:
         eleve["établissement_pré-cursus"] = etablissement_precursus
 
@@ -321,112 +319,31 @@ for row in ws.rows:
     # adresse_ville_TDC
     # adresse_ville_ancien nom_TDC
 
-    def make_adresse(tdc):
-
-        nom_voie = r("adresse_nom_voie") if not tdc else r("adresse_nom_voie_TDC")
-        type_voie = r("adresse_type_voie") if not tdc else r("adresse_type_voie_TDC")
-        article_voie = r("adresse_article_voie") if not tdc else r("adresse_article_voie_TDC")
-        numéro_voie = r("adresse_numero_voie") if not tdc else r("adresse_numero_voie_TDC")
-        compléments = r("adresse_complements") if not tdc else r("adresse_complements_TDC")
-        ville = r("adresse_ville") if not tdc else r("adresse_ville_TDC")
-        ville_ancien_nom = r("adresse_ville_ancien nom") if not tdc else r("adresse_ville_ancien nom_TDC")
-        pays = r("adresse_pays")
-        habite_début = r("habite_debut")
-        habite_fin = r("habite_fin")
-
-        adresse_label = ""
-        if numéro_voie:
-            adresse_label += str(numéro_voie) + " "
-        if type_voie:
-            adresse_label += type_voie + " "
-        if article_voie:
-            adresse_label += article_voie
-            if article_voie[-1] != "'":
-                adresse_label += " "
-        if nom_voie:
-            adresse_label += nom_voie + " "
-        if compléments:
-            compléments = str(compléments)
-            adresse_complements_formatted = compléments
-            if compléments[-1] == ")" and "(" not in compléments:
-                adresse_complements_formatted = compléments[:-1]
-            adresse_label += "(" + adresse_complements_formatted + ")"
-        adresse_label = adresse_label.strip()
-
-        # Villes
-        if ville and not ville_ancien_nom:
-            if adresse_label:
-                adresse_label += ", "
-            adresse_label += (f"{ville}" if adresse_label else ville)
-        elif not ville and ville_ancien_nom:
-            if adresse_label:
-                adresse_label += ", "
-            adresse_label += f"<dénomination contemporaine de la ville inconnue> (anciennement {ville_ancien_nom})"
-        elif ville and ville_ancien_nom:
-            if adresse_label:
-                adresse_label += ", "
-            adresse_label += f"{ville} (anciennement {ville_ancien_nom})"
-
-        if not tdc:
-            # Pays
-            if pays:
-                adresse_label += f", {pays}"
-            # Date
-            if habite_début and habite_fin:
-                adresse_label += f" [{habite_début} → {habite_fin}]"
-            elif habite_début and not habite_fin:
-                adresse_label += f" [{habite_début} → …]"
-            if not habite_début and habite_fin:
-                adresse_label += f" [… → {habite_fin}]"
-
-        return adresse_label
-
-    adresses = eleve["adresses"] if "adresses" in eleve else []
-    adresses_TDC = eleve["adresses_TDC"] if "adresses_TDC" in eleve else []
+    adresse_uuid = str(uuid.uuid4())
     adresse = {}
-    adresse_TDC = {}
-
-    adresse_label = make_adresse(False)
-    if adresse_label:
-        adresse["label"] = adresse_label
-    adresse_TDC_label = make_adresse(True)
-    if adresse_TDC_label:
-        adresse_TDC["label_TDC"] = adresse_TDC_label
-    if r("habite_debut"):
-        adresse["habite_début"] = r("habite_debut")
-    if r("habite_fin"):
-        adresse["habite_fin"] = r("habite_fin")
-    ville = {}
-    if r("adresse_ville"):
-        ville["nom"] = r("adresse_ville")
-    if r("adresse_ville_ancien nom"):
-        ville["ancien_nom"] = r("adresse_ville_ancien nom")
-    if len(ville) > 0:
-        adresse["ville"] = ville
-    ville_TDC = {}
-    if r("adresse_ville_TDC"):
-        ville_TDC["nom"] = r("adresse_ville_TDC")
-    if r("adresse_ville_ancien nom_TDC"):
-        ville_TDC["ancien_nom"] = r("adresse_ville_ancien nom_TDC")
-    if len(ville_TDC) > 0:
-        adresse["ville_TDC"] = ville_TDC
-    pays = {}
-    if r("adresse_pays"):
-        pays["nom"] = r("adresse_pays")
-    if r("adresse_geolocalisation"):
-        pays["géolocalisation"] = r("adresse_geolocalisation")
-    if len(pays) > 0:
-        adresse["pays"] = pays
-
-    if adresse and adresse not in adresses:
-        adresses.append(adresse)
-    if adresse_TDC and adresse_TDC not in adresses_TDC:
-        adresses_TDC.append(adresse_TDC)
-
-    if "adresses" not in eleve and len(adresses) > 0:
-        eleve["adresses"] = adresses
-    if "adresses_TDC" not in eleve and len(adresses_TDC) > 0:
-        eleve["adresses_TDC"] = adresses_TDC
+    w(adresse, False, "habite_debut", "habite_début")
+    w(adresse, False, "habite_fin", "habite_fin")
+    w(adresse, False, "adresse_nom_voie", "nom_voie")
+    w(adresse, False, "adresse_nom_voie_TDC", "nom_voie_TDC")
+    w(adresse, False, "adresse_type_voie", "type_voie")
+    w(adresse, False, "adresse_type_voie_TDC", "type_voie_TDC")
+    w(adresse, False, "adresse_article_voie", "article_voie")
+    w(adresse, False, "adresse_article_voie_TDC", "article_voie_TDC")
+    w(adresse, False, "adresse_numero_voie", "numéro_voie")
+    w(adresse, False, "adresse_numero_voie_TDC", "numéro_voie_TDC")
+    w(adresse, False, "adresse_complements", "compléments")
+    w(adresse, False, "adresse_complements_TDC", "compléments_TDC")
+    w(adresse, False, "adresse_ville", "ville_nom")
+    w(adresse, False, "adresse_ville_TDC", "ville_nom_TDC")
+    w(adresse, False, "adresse_ville_ancien nom", "ville_ancien_nom")
+    w(adresse, False, "adresse_ville_ancien nom_TDC", "ville_ancien_nom_TDC")
+    w(adresse, False, "adresse_pays", "pays_nom")
+    w(adresse, False, "adresse_geolocalisation", "géolocalisation")
+    if adresse:
+        if "adresses" not in eleve:
+            eleve["adresses"] = {}
+        if adresse not in eleve["adresses"].values():
+            eleve["adresses"][adresse_uuid] = adresse
 
     # CLASSE
 
@@ -441,6 +358,7 @@ for row in ws.rows:
     #     - cdc and cdc_tdc and cn_tdc
 
     def print_error(type, msg, data=None):
+        return
         print("ERREUR", type, msg, data if data else "", i, id1)
 
     id1 = r('identifiant_1')
@@ -581,7 +499,8 @@ if not divergences["cursus_parcoursclasse"]:
 #
 ################################################################################
 
-print('COLONNES INCONNUES', args.xlsx, sorted(colonnes_inconnues))
+print('COLONNES INCONNUES', args.xlsx)
+pprint(sorted(colonnes_inconnues))
 
 wb.close()
 
