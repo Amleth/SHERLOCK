@@ -90,6 +90,8 @@ def ro_list(s, p):
 
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
 
+## Création des thésaurus "Ancien Régime" et "Noms de personnes"
+
 E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
 E32_personnes_uri = URIRef(iremus_ns["947a38f0-34ac-4c54-aeb7-69c5f29e77c0"])
 t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
