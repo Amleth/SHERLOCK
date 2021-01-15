@@ -27,6 +27,9 @@ cache_des_uuid_du_thesaurus_institutions = None
 with open(args.cache_institutions) as f:
     cache_des_uuid_du_thesaurus_institutions = yaml.load(f, Loader=yaml.FullLoader)
 
+# Cache du corpus
+cache_des_uuid_du_corpus = str(PurePath.joinpath(Path("C:/Users/rebecca/Documents/GitHub/SHERLOCK/rdfizers/mercure_galant").absolute(), "cache_corpus.yaml"))
+
 ################################################################################
 # Initialisation des graphes
 ################################################################################
@@ -85,10 +88,13 @@ def ro_list(s, p):
         return None
 
 ####################################################################################
-# Données statiques
+# DONNEES STATIQUES
 ####################################################################################
 
-indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
+indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}[a-zA-Z]?"
+indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
+
+## Création des thésaurus "Ancien Régime" et "Noms d'institutions et de corporations"
 
 E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
 E32_institutions_uri = URIRef(iremus_ns["8a29e857-3faf-49f1-969b-91572e77218e"])
@@ -97,6 +103,10 @@ t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
 t(E32_ancien_regime_uri, crm("P71_lists"), E32_institutions_uri)
 t(E32_institutions_uri, a, crm("E32_Authority_Document"))
 t(E32_institutions_uri, crm("P1_is_identified_by"), Literal("Noms d'institutions et de corporations"))
+
+####################################################################################
+# INSTITUTIONS
+####################################################################################
 
 for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
     identifier = ro(opentheso_institution_uri, DCTERMS.identifier)
@@ -125,9 +135,12 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                 for v in v:
                     if v:
                         m = re.search(indexation_regexp, v)
+                        m_livraison = re.search(indexation_regexp_livraison, v)
                         if m:
                             clef_mercure = m.group()
-                            # Un truc du genre F2_article_uuid = get_uuid(["F2", "article", clef_mercure], cache_des_uuid_du_corpus)
+                            clef_mercure_livraison = m_livraison.group()
+                            #F2_article_uuid = get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure, "F2"], cache_des_uuid_du_corpus)
+                            #print(F2_article_uuid)
             elif "##" in v:
                 v = v.split("##")
                 for v in v:
@@ -163,6 +176,12 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
         identifier = ro(broader, DCTERMS.identifier)
         E74_broader_uri = she(get_uuid(["institutions et corporations", identifier, "uuid"]))
         t(E74_broader_uri, crm("P107_has_current_or_former_member"), E74_uri)
+
+    exactMatches = ro_list(opentheso_institution_uri, SKOS.exactMatch)
+    for exactMatch in exactMatches:
+        if exactMatch == "https://opentheso3.mom.fr/opentheso3/index.xhtml":
+            continue
+        t(E74_uri, SKOS.exactMatch, exactMatch)
 
 write_cache(cache_file)
 output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")

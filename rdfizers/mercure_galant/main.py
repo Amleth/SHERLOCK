@@ -51,9 +51,8 @@ def she(x):
     return URIRef(iremus_ns[x])
 
 ################################################################################
-# Création des données statiques
+# DONNEES STATIQUES
 ################################################################################
-
 
 # Serial Work
 F18_uri = she(get_uuid(["Corpus", "F18", "uuid"]))

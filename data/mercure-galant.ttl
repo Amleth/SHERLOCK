@@ -56,3 +56,14 @@
   a crm:E32_Authority_Document ;
   crm:P1_is_identified_by "Noms d'institutions et de corporations'"
   .
+
+<78061430-df57-4874-8334-44ed215a112e>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Grand Siècle'"
+.
+
+<41dd59e3-2f0c-4ef3-b08c-9606f33a4a48>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Monde contemporain"
+.
+
