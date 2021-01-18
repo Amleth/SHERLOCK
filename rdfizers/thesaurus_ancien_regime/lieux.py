@@ -158,7 +158,7 @@ def narrow(id_opentheso, uuid_sherlock):
 
     # Coordonnées géographiques
 
-    #E53_uri = she(get_uuid(["lieu", identifier, "E93", "E53"]))
+    E53_uri = she(get_uuid(["lieu", identifier, "E93", "E53"]))
     #geolat = ro_list(id_opentheso, URIRef("http://www.w3.org/2003/01/geo/wgs84_pos#lat"))
     #geolong = ro_list(id_opentheso, URIRef("http://www.w3.org/2003/01/geo/wgs84_pos#long"))
     #t(uuid_sherlock, crm("P161_has_spatial_projection"), E53_uri)
