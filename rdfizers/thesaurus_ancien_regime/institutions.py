@@ -13,6 +13,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--inputrdf")
 parser.add_argument("--outputttl")
 parser.add_argument("--cache_institutions")
+parser.add_argument("--cache_corpus")
 args = parser.parse_args()
 
 # CACHE
@@ -20,15 +21,10 @@ args = parser.parse_args()
 sys.path.append(str(Path(".").absolute().parent.parent))
 from cache_management import get_uuid, read_cache, write_cache  # nopep8
 
-cache_file = str(PurePath.joinpath(Path(".").absolute(), "cache_institutions.yaml"))
-
-# Lecture du cache
-cache_des_uuid_du_thesaurus_institutions = None
-with open(args.cache_institutions) as f:
-    cache_des_uuid_du_thesaurus_institutions = yaml.load(f, Loader=yaml.FullLoader)
-
-# Cache du corpus
-cache_des_uuid_du_corpus = str(PurePath.joinpath(Path("C:/Users/rebecca/Documents/GitHub/SHERLOCK/rdfizers/mercure_galant").absolute(), "cache_corpus.yaml"))
+# Cache de corpus
+cache_corpus = None
+with open(args.cache_corpus) as f:
+    cache_corpus = yaml.load(f, Loader=yaml.FullLoader)
 
 ################################################################################
 # Initialisation des graphes
@@ -50,6 +46,7 @@ output_graph.bind("crmdig", crmdig_ns)
 output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("lrmoo", lrmoo_ns)
 output_graph.bind("sdt", sdt_ns)
+output_graph.bind("skos", SKOS)
 
 a = RDF.type
 
@@ -91,10 +88,11 @@ def ro_list(s, p):
 # DONNEES STATIQUES
 ####################################################################################
 
+
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}[a-zA-Z]?"
 indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
 
-## Création des thésaurus "Ancien Régime" et "Noms d'institutions et de corporations"
+# Création des thésaurus "Ancien Régime" et "Noms d'institutions et de corporations"
 
 E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
 E32_institutions_uri = URIRef(iremus_ns["8a29e857-3faf-49f1-969b-91572e77218e"])
@@ -137,10 +135,13 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                         m = re.search(indexation_regexp, v)
                         m_livraison = re.search(indexation_regexp_livraison, v)
                         if m:
-                            clef_mercure = m.group()
                             clef_mercure_livraison = m_livraison.group()
-                            #F2_article_uuid = get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure, "F2"], cache_des_uuid_du_corpus)
-                            #print(F2_article_uuid)
+                            clef_mercure_article = m.group()
+                            try:
+                                F2_article_uuid = get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"], cache_corpus)
+                            except:
+                                # print(identifier, clef_mercure_article)
+                                pass
             elif "##" in v:
                 v = v.split("##")
                 for v in v:
@@ -148,6 +149,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                         m = re.search(indexation_regexp, v)
                         if m:
                             clef_mercure = m.group()
+                            print(m)
                             # TODO, comme en haut
 
             else:
@@ -183,5 +185,5 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
             continue
         t(E74_uri, SKOS.exactMatch, exactMatch)
 
-write_cache(cache_file)
+write_cache(args.cache_institutions)
 output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")

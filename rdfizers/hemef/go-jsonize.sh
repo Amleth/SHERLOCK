@@ -15,3 +15,5 @@ python3 jsonize.py\
 # EXEMPLES D'UTILISATIONS
 # ./go-jsonizer.sh | grep "COLONNE INCONNUE" | sort | uniq
 # rm log.txt ; rm cache.yaml ; ./go-jsonizer.sh | grep -v "COLONNE INCONNUE" > log.txt
+
+cat ./out/nosj* > ./out/all.json
