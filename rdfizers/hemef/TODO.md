@@ -3,21 +3,28 @@
 - les entités potentielles qui ne sont référencées que par leur nom doivent l'être par un prédicat en _nom (ville, département, pays, établissement…)
 - traiter les dates comme ça : "1863 ?-01-31", extraire les mois et jours
 - traiter les lignes qui ont un identifiant_1_TDC
+- extraire les années des prix
 
 # RDFIZE
 
 - Et merde, find_usable n'a pas marché : naissance_ville_nom_valeur / naissance_ville_nom_TDC_valeur
 
-# VUE
+# CRA
 
-- afficher une donnée avec une hypothèse
 - afficher une adresse avec compléments
+- onglet discipline (mais de quelles disciplines parle t-on ?)
+- pour le filtrage chronologique : raisonner en années scolaires et pas en années civiles
 
 # DONNÉES
 
-- Pour l'instant, je ne gère qu'une profession unique par inscrit•e
+- Les deux prix de 1859-0740 sont-ils les mêmes ?
+- La moitié des prix ont une discipline_catégorie
 - En guise d'exemples
     - http://localhost:3000/hemef/eleve/3d170e6e-336e-417f-b25c-a2f7e6eb1698
+    - http://localhost:3000/hemef/eleve/40322daf-c5e3-475f-b33e-cbef0ea20c9f
+    - http://localhost:3000/hemef/eleve/9ffd5760-5051-4ff9-8f89-b6a492c207dc (valeur divergente)
+    - http://localhost:3000/hemef/eleve/f322f70b-bc14-4b0c-9473-df08326d9943 (pour les valeurs identiques R/TDC)
+    - http://localhost:3000/hemef/eleve/251c07d5-617a-4da5-9403-28cb13df2910 (date avec hypothèse)
 - Point sur les colonnes inconnues
     COLONNES INCONNUES sources/1856_1861_modifié V3.xlsx
         ['classe_observations', 'classe_type']
@@ -73,10 +80,7 @@
         'prix_nom_complément_TDC',
         'prix_type_TDC',
         'profession_nom_TDC']
-
-## Dates divergentes
-
-- Discuter cela :
+- Dates divergentes :
     1907-[0368 bis] parcours classe fc450cf4-2880-4b13-beb8-981ae61f884f date_sortie ['[1914-00-00]', '[1909-00-00]']
         {'date_sortie_année': 1909}
     1907-[0394 bis] parcours classe e5b4c7e9-efdc-4490-b28b-2cf11bf1f6c3 date_sortie ['[1911-00-00]', '[1910-00-00]']
@@ -100,19 +104,10 @@
         {'date_sortie_conservatoire_année': 1862}
     1861-1119 parcours classe 633bb961-23f8-4634-8f0f-2a126f18c026 date_sortie_TDC ['1864-10-01', '1864-02-20']
         {'date_sortie_TDC_année': 1864, 'date_sortie_TDC_mois': 2, 'date_sortie_TDC_jour': 20}
+- Remarques sur mon avancée dans la reprise de la feuille Excel
+    - Pour l'instant, je ne gère qu'une profession unique par inscrit•e
 
 # INVESTIGATION
 
 Montrer les prédicats qui ont des valeurs composites :
 `cat out/hemef.ttl| grep ⬢ | cut -c 5- | cut -d " " -f 1 | sort | uniq`
-
-
-
-# SITE
-
-- onglet discipline
-- titrer le filtre (date d'entrée au conservatoire)
-- pour le filtrage chronologique : raisonner en années scolaires et pas en années civiles
-- Manque : adresse (voir dans le nouveau tableau)
-- tri des élèves en faisant sauter la particule (et la mentionner)
-- passer du temps sur les écrans : ergonomie, création de l'écran par type de prix, dates et leur statut d'hypothèse

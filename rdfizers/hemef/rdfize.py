@@ -243,6 +243,7 @@ for eleve_id1, eleve in data["eleves_identifiant_1"].items():
             "motif_sortie",
             "motif_sortie_TDC",
             "nom",
+            "nom_TDC",
             "nom_complément",
             "nom_épouse",
             "nom_épouse_TDC",

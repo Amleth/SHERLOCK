@@ -145,6 +145,8 @@ for row in ws.rows:
         wv(o, must_not_diverge, data_key, column_name, value)
 
     def wv(o, must_not_diverge, data_key, column_name, value):
+        if value and type(value) == str:
+            value = value.replace('’', '\'')
         if not value:
             return
         if data_key in o:
@@ -173,7 +175,7 @@ for row in ws.rows:
     current_eleve_line += 1
 
     eleve_uuid = get_uuid(["élèves_identifiant_1", r("identifiant_1"), "uuid"])
-
+    print("CACA", r("eleve_nom_TDC"))
     eleve = data["eleves_identifiant_1"][r("identifiant_1")]
     eleve["uuid"] = eleve_uuid
     w(eleve, True, "identifiant_1", "identifiant_1")
@@ -446,9 +448,11 @@ for row in ws.rows:
         "élèves_identifiant_1_branch": "élèves_identifiant_1",
         "élève_id": r("identifiant_1"),
         "prix": "prix",
-        "discipline": r("prix_discipline_categorie") or r("prix_discipline_categorie_TDC") or r("prix_discipline") or r("prix_discipline_TDC") or "sans_discipline",
+        "discipline_catégorie": r("prix_discipline_categorie") or r("prix_discipline_categorie_TDC"),
+        "discipline": r("prix_discipline") or r("prix_discipline_TDC") or "sans_discipline",
         "nom": r("prix_nom") or r("prix_nom_TDC") or "sans_nom",
-        "date": r("prix_date") or r("prix_date_TDC") or "sans_date"
+        "date": r("prix_date") or r("prix_date_TDC") or "sans_date",
+        "parcours_classe_date_entrée_valeur": r("parcours_classe_date_entree") or r("parcours_classe_date_entree_TDC")
     }
 
     def is_empty_prix():
