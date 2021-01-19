@@ -52,4 +52,4 @@ def get_uuid(key_parts, external_cache=None):
 
 def write_cache(file):
     with open(file, 'w') as f:
-        yaml.dump(cache, f, default_flow_style=False, sort_keys=False)
+        yaml.dump(cache, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
