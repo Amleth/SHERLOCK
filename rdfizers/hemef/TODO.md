@@ -11,6 +11,7 @@
 
 # CRA
 
+- Nom prénom ne marche plus
 - afficher une adresse avec compléments
 - onglet discipline (mais de quelles disciplines parle t-on ?)
 - pour le filtrage chronologique : raisonner en années scolaires et pas en années civiles

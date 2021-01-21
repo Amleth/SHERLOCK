@@ -1,0 +1,9 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+sherlock:sheP_associe
+    a owl:ObjectProperty ;
+    rdfs:domain crm:E74_Group ; # sherlock:sheE_Corporation
+    rdfs:range crm:E55_Type ;
+    .

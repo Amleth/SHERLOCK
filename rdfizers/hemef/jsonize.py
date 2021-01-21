@@ -175,7 +175,6 @@ for row in ws.rows:
     current_eleve_line += 1
 
     eleve_uuid = get_uuid(["élèves_identifiant_1", r("identifiant_1"), "uuid"])
-    print("CACA", r("eleve_nom_TDC"))
     eleve = data["eleves_identifiant_1"][r("identifiant_1")]
     eleve["uuid"] = eleve_uuid
     w(eleve, True, "identifiant_1", "identifiant_1")

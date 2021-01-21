@@ -233,10 +233,10 @@
         "lignes": 4
     },
     "colonnes_divergentes": [
+        "eleve_observations",
+        "parcours_classe_date_sortie",
         "cursus_motif_sortie",
         "eleve_remarques de saisie",
-        "parcours_classe_observations_eleve",
-        "parcours_classe_date_sortie",
-        "eleve_observations"
+        "parcours_classe_observations_eleve"
     ]
 }

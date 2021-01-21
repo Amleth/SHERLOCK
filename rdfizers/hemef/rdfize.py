@@ -280,10 +280,16 @@ for eleve_id1, eleve in data["eleves_identifiant_1"].items():
                     join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
         elif k in ["naissance_département", "naissance_département_TDC"]:
             for kk, vv in eleve[k].items():
-                join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
+                if kk in ["nom", "nom_TDC"]:
+                    find_usable_value("département", eleve[k], iremus_ns[eleve["uuid"]], "nom", "naissance_département_nom")
+                else:
+                    join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
         elif k in ["naissance_pays", "naissance_pays_TDC"]:
             for kk, vv in eleve[k].items():
-                join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
+                if kk in ["nom", "nom_TDC"]:
+                    find_usable_value("pays", eleve[k], iremus_ns[eleve["uuid"]], "nom", "naissance_pays_nom")
+                else:
+                    join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
         elif k in ["mère", "père"]:
             for kk, vv in v.items():
                 join_values(iremus_ns[eleve["uuid"]], hemef_ns[k+"_"+kk], v, kk)
