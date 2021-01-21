@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Harmonie Universelle, contenant la theorie et la pratique de la musique</title>
+            <author>
+               <forename>Marin</forename>
+               <surname>Mersenne</surname>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>IReMus</edition>
+            <respStmt>
+               <name>Alban Framboisier</name>
+               <resp>Responsable d’édition</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>IReMus</publisher>
+            <date/>
+            <!-- On insèrera ici la date de publication en ligne -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="Mersenne1637">
+               <title>Harmonie Universelle, contenant la theorie et la pratique de la
+                  musique</title>
+               <author>
+                  <forename>Marin</forename>
+                  <surname>Mersenne</surname>
+               </author>
+               <publisher>Chez Sébastien Cramoisy, Imprimeur ordinaire du Roy</publisher>
+               <pubPlace>Rue Saint Jacques, aux Cicognes</pubPlace>
+               <date>1636-1637</date>
+               <extent>2 volumes</extent>
+            </bibl>
+            <bibl xml:id="Mersenne1965">
+               <title>Harmonie Universelle, contenant la theorie et la pratique de la
+                  musique</title>
+               <author>
+                  <forename>Marin</forename>
+                  <surname>Mersenne</surname>
+               </author>
+               <publisher>Centre national de la recherche scientifique</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date>1965</date>
+               <extent>3 volumes</extent>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fre"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="livre" n="2">
+            <head>Livre second, des Instrvmens a chordes</head>
+
+            <div type="proposition" n="14">
+               <head>PROPOSITION XIV.</head>
+               <p>Expliquer les figures, l'<seg ana="desc_théorie_musique"><rs key="guitare:accord"
+                        >accord</rs></seg>, la <seg ana="desc_théorie_musique"><rs
+                        key="guitare:tablature">tablature</rs></seg>, et les <seg ana="desc_geste"
+                        ><rs key="guitare:batteries">bateries</rs></seg> de la <rs
+                     key="class_cordes:guitare">Guiterre</rs>.</p>
+               <p>LEs premieres <seg ana="desc_organo"><rs key="guitare:guiterres"
+                     >Guiterres</rs></seg>, dont l'<seg ana="desc_organo"><rs
+                        key="guitare:invention">inuention</rs></seg> est ce semble <seg
+                     ana="desc_hist"><rs key="guitare:venue d'Espagne">venuë d'Espagne</rs></seg>,
+                  n'auoient que <seg ana="théorie_musique desc_organo"><rs
+                        key="guitare:quatre rangs">quatre rangs</rs></seg> de <rs
+                     key="class_cordes:guitare"><choice>
+                        <orig>chordes</orig>
+                        <reg>cordes</reg>
+                     </choice></rs>, dont <seg ana="desc_organo">le premier est simple, qui
+                     s'appelle <rs key="guitare:chanterelle">chanterelle</rs> comme la premiere des
+                     autres instrumens, parce qu'elle sert à la partie du Dessus, et qu'elle chante
+                     souuent le suiet: or cette premiere figure represente fort bien lesdites <rs
+                        key="guitare:guiterres">Guiterres</rs>, dont le <rs key="guitare:manche"
+                        >manche</rs> est diuisé en 8 <rs key="guitare:touches">touches</rs></seg>,
+                  afin que chaque chorde puisse monter iusques à l'<seg ana="desc_theorie"><rs
+                        key="guitare:hexacorde mineur">Hexachorde mineur</rs></seg>. Le costé gauche
+                  monstre son <seg ana="desc_organo"><rs key="guitare:epaisseur"><choice>
+                           <orig>espaisseur<reg>épaisseur</reg></orig>
+                        </choice></rs>, et les <rs key="guitare:ornements"><choice>
+                           <orig>ornemens<reg>ornements</reg></orig>
+                        </choice></rs> et <rs key="guitare:figures">figures</rs> que les <rs
+                        key="guitare:facteurs">Facteurs</rs> y adioustent pour l'enioliuer et
+                     l'enrichir; mais ils ont vn soin particulier que la <rs key="guitare:rose"
+                        >rose</rs> en soit bien faite.</seg></p>
+               <figure>
+                  <graphic
+                     url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54710466/f287/55,2057,1880,710/full/0/native.jpg"
+                  />
+               </figure>
+               <p> Quant à l'autre figure qui suit, elle monstre tout ce qui appartient à la <seg
+                     ana="desc_organo"><rs key="guitare:guiterre">Guiterre</rs> à <rs
+                        key="guitare:cinq rangs">cinq rangs</rs>, dont on vse maintenant. Ces <rs
+                        key="guitare:cing rangs">cinq rangs</rs> ont <rs key="guitare:dix cordes"
+                        >dix chordes</rs>, quoy que plusieurs ne mettent qu'vne chorde à la <rs
+                        key="guitare:chanterelle">chanterelle</rs>; le <rs key="guitare:col"
+                        >col</rs> A B à dix <rs key="guitare:cheville"><choice>
+                           <orig>cheuilles</orig>
+                           <reg>chevilles</reg>
+                        </choice></rs>, et le <rs key="guitare:manche">manche</rs> à <rs
+                        key="guitare:8 touches">8 touches</rs> comme le precedent. Mais il y a
+                     plusieurs choses dans cette figure qui manquent à l'autre; premierement l'<rs
+                        key="guitare:accord">accord</rs> par notes, dont la premiere respond à la 5,
+                     ou derniere <rs key="guitare:corde">chorde</rs>, la seconde à la 4, la
+                     troisiesme à la 3, la quatriesme à la 2. et la cinquiesme à la <rs
+                        key="guitare:chanterelle">chanterelle</rs>: ce que signifient les nombres de
+                     dessus: ces notes se prononcent ainsi, <rs key="guitare:ré, sol, ut, mi, la"
+                        >RE, SOL, VT, MI, LA</rs></seg>: par où l'on void que le son de la 5. chorde
+                  est plus <pb n="95v"/>[-95v-] haut d'vn ton que celuy de la 3: ce qui est
+                  particulier à l'<seg ana="desc_organo"><rs key="guitare:accord">accord</rs> de la
+                        <rs key="guitare:guiterre">Guiterre</rs></seg>.</p>
+               <figure>
+                  <head>[Mersenne, Instruments à chordes, 95v; text: a, b, c, d, e, f, g, h, i, A,
+                     B, C, D, e, F, G, H, I, K, L, M, N, O, P, 1, 2, 3, 4, 5, henri le Roy fecit]
+                     [MERHU3_2 15GF]</head>
+               </figure>
+               <p>Or outre cet accord par notes, il est encore marqué auec les lettres ordinaires de
+                  la <seg ana="desc_organo"><rs key="guitare:tablature">tablature</rs>, dont le
+                     premier en descendant, lequel est vis à vis de la <rs key="guitare:rose"
+                        >rose</rs>, commence à donner le ton tel que l'on veut à la 3. chorde, dont
+                     le son à vuide est marqué par les 2 premiers a a: or le c de la mesme chorde
+                     doit estre mis à l'vnisson de l'a de la 5. et puis il faut mettre le c de la 5.
+                     à l'vnisson de l'a de la 2; le d de cette 2 à l'vnisson de l'a de la 4, et le c
+                     de cette 4 à l'vnisson de l'a de la chanterelle. Il est aysé de iuger des
+                     autres par leurs lettres, par exemple le dernier donne aussi le mesme accord
+                     par vnissons; ce qui arriue semblablement à celuy du milieu, si l'on considere
+                     les six premiers rangs des lettres, car les deux derniers font
+                  l'Octaue.</seg></p>
+               <p>Quant à la <seg ana="desc_organo"><rs key="guitare:tablature">tablature</rs>, elle
+                     est icy en deux façons, à sçauoir à l'<rs key="guitare:italienne"
+                        >Italienne</rs> par les nombres: et à l'Espagnole par les characteres qui
+                     sont sur les lettres, qui seruent à la <rs key="guitare:tablature française"
+                        >Tablature Françoise</rs>; or il est tres-aysé d'entendre ces deux sortes de
+                        <rs key="guitare:tablature">tablature</rs> en les comparant l'vne à l'autre,
+                     puis que chaque rang de l'Espagnole est dessouz chaque rang de l'Italienne, et
+                     qu'elles vont toutes deux iusques au P. Si quelqu'vn veut se seruir de nombres
+                     harmoniques pour exprimer l'<rs key="guitare:accord">accord</rs> de la <rs
+                        key="guitare:guiterre">Guiterre</rs></seg>, il n'en peut prendre de moindres
+                  que ceux-cy 27, 36, 24, 30, 40, dont le premier fait l'<seg ana="desc_theorie"><rs
+                        key="guitare:hexacorde majeur">hexachorde maieur</rs></seg> auec le dernier.
+                  Mais ie parleray encore de la <seg ana="desc_organo desc_theorie"><rs
+                        key="guitare:tablature">tablature</rs></seg> de cet instrument, apres auoir
+                  remarqué que la longueur de son <rs key="guitare:corps">corps</rs> est
+                  sesquialtere de [-96-] la longueur de son <seg ana="desc_organo"><rs
+                        key="guitare:manche">manche</rs> qui finit à C, c'est à dire que le <rs
+                        key="guitare:manche">manche</rs> est aussi long que depuis le milieu de la
+                        <rs key="guitare:rose">rose</rs> iusques au bas du <rs key="guitare:corps"
+                        >corps</rs> E. F G monstre le lieu et la forme du <rs key="guitare:chevalet"><choice>
+                           <orig>cheualet</orig>
+                           <reg>chevalet</reg>
+                        </choice></rs>, et D marque son espaisseur. Le <rs key="guitare:fond"
+                        >fonds</rs>, ou le <rs key="guitare:dos">dos</rs> qui ne se void point est
+                     quelquefois droit comme la <rs key="guitare:table">table</rs></seg>, et
+                  d'autres fois vn peu conuexe: ce qui n'importe pas beaucoup, et quelque façon
+                  qu'on luy donne ses sons tiennent quelque chose du chaudron, et semblent tousjours
+                  gemir. Or ie donneray tantost sa <rs key="guitare:tablature">tablature</rs> plus
+                  exactement qu'elle n'est sur la planche de cuiure, afin que nul ne puisse se
+                  mesprendre.</p>
+               <p>Quant à l'autre <seg ana="desc_organo"><rs key="guitare:tablature">Tablature</rs>
+                     qui est à gauche, et dont les cinq lignes sont marquées par les nombres, elle
+                     signifie la mesme chose que celle de dessouz, dont les cinq lignes sont
+                     couuertes des lettres b, c, d, et cetera qui signifient les <rs
+                        key="guitare:touches">touches</rs> du <rs key="guitare:manche">manche</rs>
+                     de la <rs key="guitare:guiterre">Guiterre</rs></seg>. Or chaque lettre capitale
+                  qui suit la [+] monstre chaque <seg ana="desc_organo"><rs key="guitare:accord"
+                        >accord</rs>, de sorte que ceux qui sçauent toucher cet instrument n'ont pas
+                     besoin d'autre <rs key="guitare:tablature">tablature</rs> que de ces lettres,
+                     ausquelles respondent les caracteres mis sur les cinq premieres lignes de la
+                        <rs key="guitare:tablature espagnole">Tablature Espagnole</rs> qui se marque
+                     par lettres comme la nostre. Il faut donc remarquer que la [+] de la <rs
+                        key="guitare:tablature italienne">Tablature Italienne</rs> signifie qu'il
+                     faut mettre le premier doigt sur la seconde <rs key="guitare:touche"
+                        >touche</rs> c de la derniere chorde, c'est à dire de la <rs
+                        key="guitare:chanterelle">chanterelle</rs>, que les Italiens content la
+                     derniere, au lieu que nous la mettons la premiere: et le second 2 signifie
+                     qu'il faut mettre le 2 doigt sur le c de la 4. chorde, de sorte que cet <rs
+                        key="guitare:accord">accord</rs></seg> n'a besoin que de deux doigts: quand
+                  il y a 3, 4, ou 5 caracteres, il faut vser de tous les doigts, ou <seg
+                     ana="desc_geste"><rs key="guitare:coucher">coucher</rs></seg> l'vn sur deux ou
+                  trois <seg ana="desc_organo"><rs key="guitare:touches">touches</rs> de 2 ou 3
+                     chordes differentes, comme l'on void à l'<rs key="guitare:accord">accord</rs>
+                     H, qui se fait sur les <rs key="guitare:cinq cordes">cinq chordes</rs>, et qui
+                     respond iustement à l'<rs key="guitare:accord">accord</rs> marqué par 3 de la
+                        <rs key="guitare:tablature">tablature</rs></seg>: ce qui est si aysé à
+                  comprendre, qu'il n'est pas necessaire d'en parler plus au long. C'est pourquoy ie
+                  viens aux differentes <seg ana="desc_geste"><rs key="guitare:batterie"
+                        >bateries</rs> dont on vse en ioüant de cet instrument: lesquelles on
+                     pratique dans la mesure binaire, ou ternaire. La simple <rs
+                        key="guitare:batterie">batterie</rs> de la binaire est composée de deux <rs
+                        key="guitare:battement">battemens</rs></seg>, dont le premier monte, et
+                  l'autre descend, ou tout au contraire, suiuant la volonté de celuy qui touche la
+                     <seg ana="desc_organo"><rs key="guitare:guiterre">Guiterre</rs></seg>.</p>
+               <p>Quand on veut doubler ou tripler cette <seg ana="desc_geste"><rs
+                        key="guitare:batterie">batterie</rs>, on bat 4 ou 8 coups toutes les chordes
+                     d'vn, de 2, de 3, ou de 4 doigts selon qu'on veut: quant au pouce il ne bat que
+                     la <rs key="guitare:chanterelle">chanterelle</rs> en montant, et toutes les
+                     chordes en descendant. La <rs key="guitare:batterie ternaire simple">batterie
+                        ternaire simple</rs> est composée de trois <rs key="guitare:battements"
+                        >battemens</rs>, qui commencent tousiours en descendant selon le mouuement
+                     de la piece: ce que l'on a coustume de marquer dans la <rs
+                        key="guitare:tablature">tablature</rs>. Quand on redouble cette <rs
+                        key="guitare:batterie">batterie</rs>, elle a <rs
+                        key="guitare:cinq battements">cinq battemens</rs>, dont le cinquiesme coup
+                     se fait en descendant, soit du doigt seul, ou du pouce et du doigt: mais l'on
+                     entend le coup du doigt distinct et separé du coup du pouce. Or l'on a coustume
+                     de battre sur l'eclisse au defaut de la table, quand on veut rendre la <rs
+                        key="guitare:batterie">batterie</rs> plus douce, et pres du <rs
+                        key="guitare:chevalet">cheualet</rs>, quand on la veut rendre plus forte,
+                     quoy que l'on puisse battre en tel autre lieu que l'on voudra depuis le <rs
+                        key="guitare:chevalet">cheualet</rs> iusques aux <rs key="guitare:touches"
+                        >touches</rs>. Mais il faut que le <rs key="guitare:pouce">pouce</rs> qui
+                     bat apres les doigts les suiue aussi tost: il faut encore remarquer que l'on ne
+                     redouble, ou que l'on ne triple pas ordinairement les <rs
+                        key="guitare:batteries">batteries</rs></seg> sur les pieces difficiles, mais
+                  seulement sur les plus aysées, comme sur les <seg ana="desc_repert"><rs
+                        key="guitare:passacailles">Passe-cailles</rs></seg>: car quant aux autres on
+                  se contente de la <seg ana="desc_geste"><rs key="guitare:batterie simple">batterie
+                        simple</rs></seg>, ou du double des contre-temps, qui font les deux tiers de
+                  la mesure, qui commence ou finit par ledit contre-temps composé de trois coups
+                  esgaux.</p>
+               <p>[-96v-] PROPOSITION XIV.</p>
+               <p>Donner des exemples de la <seg ana="desc_organo"><rs
+                        key="guitare:tablature française">Tablature Françoise</rs> de la <rs
+                        key="guitare:guiterre">Guiterre</rs>, et expliquer celle des <rs
+                        key="guitare:tablature espagnols">Espagnols</rs>, et des <rs
+                        key="guitare:tablature italiens">Italiens</rs>. LA <rs
+                        key="guitare:tablature">Tablature</rs> de la <rs key="guitare:guiterre"
+                        >Guiterre</rs> depend en partie de son <rs key="guitare:accord">accord</rs>,
+                     lequel i'ay mis et expliqué auec la figure. Mais il faut corriger les
+                     caracteres de la <rs key="guitare:tablature">tablature</rs> qui y est grauée
+                     suiuant celle-cy, dont vsent les <rs key="guitare:tablature italiens"
+                        >Italiens</rs>, qui se seruent des lettres capitales A, B, E, et cetera
+                     iusques à O, pour signifier les accords marquez en <rs
+                        key="guitare:tablature française">tablature Françoise</rs></seg> par les
+                  petites lettres qui sont dessouz.</p>
+               <figure>
+                  <head>[Mersenne, Instruments à chordes, 96v,1; text: a, b, c, d, e, <seg
+                        ana="desc_organo"><rs key="guitare:tablature italienne">Tablature
+                           Italienne</rs> expliquée par la Françoise. <rs
+                           key="guitare:tablature espagnols">Espagnole</rs></seg>, A, B, C, D, E, F,
+                     G, H, I, K, L, M, N, O. 1, 2, 3, 4, 5, 6, 7, P] [MERHU3_2 16GF]</head>
+               </figure>
+               <p>De sorte que les Italiens n'ont besoin que des lettres capitales pour leur <seg
+                     ana="desc_organo"><rs key="guitare:tablature">tablature</rs></seg>, comme l'on
+                  void dans celle que <seg ana="desc_comp"><rs key="guitare:Pierre Million">Pierre
+                        Million</rs> feist imprimer à Rome l'an 1624, qui commence cette <rs
+                        key="guitare:chanson">chanson</rs></seg> à la page 61 auec les trois lettres
+                  qui sont dessus:</p>
+               <figure>
+                  <head>[Mersenne, Instruments à chordes, 96v,2; text: G, B, Vna Vecchia Sdentata, e
+                     bauosa] [MERHU3_2 17GF]</head>
+               </figure>
+               <p>et lors qu'ils veulent marquer les <seg ana="desc_geste"><rs
+                        key="guitare:batteries">batteries</rs>, ils mettent vne petite ligne
+                     semblable à vn I sur la regle quand on bat en montant, et dessouz lors qu'il
+                     faut <rs key="guitare:battre">battre</rs></seg> en descendant, comme l'on void
+                  dans la <seg ana="desc_repert"><rs key="guitare:Gaillarde">Gaillarde</rs></seg> du
+                  mesme Autheur page 20.</p>
+               <figure>
+                  <head>[Mersenne, Instruments à chordes, 96v,3; text: I C F P] [MERHU3_2
+                     17GF]</head>
+               </figure>
+               <p><seg ana="desc_comp"><rs key="guitare:Ambroise Colomna">Ambroise
+                     Colomna</rs></seg> vse de la mesme <seg ana="desc_organo"><rs
+                        key="guitare:tablature">Tablature</rs></seg> dans le liure qu'il feist
+                  imprimer à Milan l'an 1627, quoy que son Alphabet Harmonique soit vn peu plus
+                  long, et qu'il soit different en quelques accords de celuy de <seg ana="desc_comp"
+                        ><rs key="guitare:Million">Million</rs>, comme tous les deux sont fort
+                     differens de celuy du Seigneur <rs key="guitare:Louys">Louys</rs></seg>, qui a
+                  mis la <seg ana="desc_organo"><rs key="guitare:tablature française">tablature
+                        Françoise</rs></seg> souz la sienne: quoy qu'il n'vse que de nombres pour
+                  exprimer ses <seg ana="desc_repert"><rs key="guitare:chansons">chansons</rs> que
+                     l'on peut voir dans son <rs key="guitare:livre imprimé chez Ballard l'an 1626"
+                        >liure imprimé chez Ballard l'an 1626</rs></seg>. Or il vse de notes pour
+                  signifier le temps de chaque <seg ana="desc_organo"><rs
+                        key="guitare:tablature française">accord</rs></seg>, comme fait aussi
+                  quelquefois <seg ana="desc_comp"><rs key="guitare:Colomna">Colomna</rs>: mais
+                     Monsieur <rs key="guitare:Martin">Martin</rs></seg> qui touche parfaitement la
+                     <seg ana="desc_organo"><rs key="guitare:guiterre">Guiterre</rs></seg>, se sert
+                  de notes non seulement pour marquer les temps de chaque <seg ana="desc_geste"><rs
+                        key="guitare:batterie">batterie</rs>, mais aussi pour signifier quand il
+                     faut <rs key="guitare:battre">battre</rs> en <rs key="guitare:levant"
+                        >leuant</rs>, ou en <rs key="guitare:baissant">baissant</rs> la main, car il
+                     bat tousiours en leuant quand les notes ont la iambe en haut, et si elles l'ont
+                     en bas, il bat en baissant. Il y adiouste encore plusieurs autres caracteres,
+                     par exemple les <rs key="guitare:tenues">tenuës</rs>, afin d'<rs
+                        key="guitare:imiter celle du luth">imiter celle du [-97-] Luth</rs></seg>,
+                  laquelle est l'original de toutes les autres, comme les notes de la Musique sont
+                  l'original de celle du Luth. Or les deux exemples de <seg ana="desc_organo"><rs
+                        key="guitare:tablature">tablature</rs> qui suiuent font voir la maniere dont
+                     il vse, sans qu'il soit besoin d'vn plus long discours: il faut toutesfois
+                     remarquer que les points qui precedent les notes noires les doiuent suiure, ce
+                     que nous n'auons peu obseruer dans cette <rs key="nouvelle tablature">nouuelle
+                        tablature</rs></seg>, parce que l'on n'a point encore de caracteres propres
+                  pour la marquer.</p>
+               <figure>
+                  <head>[Mersenne, Instruments à chordes, 97; text: a, b, c, d, e, f, ALLEMANDE.
+                     SARABANDE.] [MERHU3_2 17GF]</head>
+               </figure>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -126,37 +126,102 @@ select distinct ?groupe ?nom ?sousgroupe ?sousgroupenom where {
 ORDER BY ?nom
 
 
-# AFFICHER TOUTES LES ANNOTATIONS D'UNE PERSONNE
-
-
-
 #######################################################################
 #### REQUETES INSERT
 #######################################################################
 
-# DELIMITATION D'UN FRAGMENT DE TEXTE
+# AJOUT D'UN LIEU
 
-insert {
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+BASE <http://data-iremus.huma-num.fr/id/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+INSERT DATA
+  { 
+    GRAPH <http://data-iremus.huma-num.fr/graph/ancien_regime/lieux> 
+      { 
+        <idfacticeE93> a crm:E93_Presence ;
+                       dcterms:created "2017-07-07"^^xsd:date ;
+                       dcterms:creator <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+                       crm:P1_is_identified_by <idfacticeE41> .
+        <idfacticeE41> rdfs:label "Lieu factice" ;
+                       crm:P139_has_alternative_form <idfacticeE41alt> .
+        <idfacticeE41alt> rdfs:label "Lieu factice synonyme" .
+      } 
+  }
+
+
+# ANNOTER UN LIEU (AJOUTER UN NOM)
+
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+BASE <http://data-iremus.huma-num.fr/id/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ 
+INSERT DATA
+  { 
+    GRAPH <http://data-iremus.huma-num.fr/graph/ancien_regime/lieux> 
+      { 
+        <idfacticeE13> a crm:E13_Attribute_Assignment ;
+        			   crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+                       crm:P140_assigned_attribute_to <idfacticeE93> ;
+                       crm:P141_assigned <idfacticeE41> ;
+                       crm:P177_assigned_property__type crm:P1_is_identified_by .
+        <idfacticeE41> rdfs:label "nom factice" .
+      } 
+  }
+
+  # ANNOTER UN LIEU (MODIFIER LE NOM)
+
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+BASE <http://data-iremus.huma-num.fr/id/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ 
+INSERT DATA
+  { 
+    GRAPH <http://data-iremus.huma-num.fr/graph/ancien_regime/lieux> 
+      { 
+        <idfacticeE13> a crm:E13_Attribute_Assignment ;
+        			   crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+                       crm:P140_assigned_attribute_to <idfacticeE41> ;
+                       crm:P141_assigned "nom modifié" ;
+                       crm:P177_assigned_property__type rdfs:label .
+      } 
+  }
+
+  # TROUVER TOUS LES NOMS D'UN LIEU
+
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+BASE <http://data-iremus.huma-num.fr/id/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ 
+SELECT ?lieu ?nom 
+FROM <http://data-iremus.huma-num.fr/graph/ancien_regime/lieux>
+WHERE {
+    
+     ?lieu a crm:E93_Presence ;
+          crm:P1_is_identified_by/rdfs:label ?nom .
+	FILTER (?lieu = <idfacticeE93>) 
     
 }
 
-<da813b0f-62ed-4c39-bfe2-49e89091cd9e>
-  a crm:E13_Attribute_Assignment ;
-  crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
-  crm:P140_assigned_attribute_to <6e1efc03-1d24-4204-843b-d78cb884b640> ;
-  crm:P141_assigned <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
-  crm:P177_assigned_property_type <86c33294-edb1-4cb3-b349-8c12ed0032fb> ;
-  dcterms:created "2020-11-16T14:55:58+0000"^^xsd:dateTime ;
-  .
-
-# L'événement d'annotation
-
-<447672cc-589a-4881-8ab5-8890a1611e95>
-  a she:sheE_Reference_Assignment ;
-  crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
-  crm:P140_assigned_attribute_to <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
-  crm:P141_assigned <f4f3476e-3551-4633-8f9b-2ef564e63155> ;
-  crm:P177_assigned_property_type crm:P67_refers_to ;
-  crm:P2_has_type <4a673f92-174e-41cb-b0e1-9c32985fa07c> ;
-  dcterms:created "2020-11-17T15:23:34+0000"^^xsd:dateTime ;
+ORDER BY ?nom
