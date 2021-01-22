@@ -113,9 +113,25 @@ def narrow(id_opentheso, uuid_sherlock):
                 for v in v:
                     if v:
                         m = re.search(indexation_regexp, v)
+                        m_livraison = re.search(indexation_regexp_livraison, v)
                         if m:
-                            clef_mercure = m.group()
-                            # Un truc du genre F2_article_uuid = get_uuid(["F2", "article", clef_mercure], cache_des_uuid_du_corpus)
+                            clef_mercure_livraison = m_livraison.group()
+                            clef_mercure_article = m.group()
+                            try:
+                                F2_article_uri = she(get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"], cache_corpus))
+                                E13_index_uri = she(get_uuid(["lieu", identifier, "E93", "E13_indexation"]))
+                                t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, crm("P14_carried_out_by"),
+                                  she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
+                                t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
+                                t(E13_index_uri, crm("P141_assigned"), uuid_sherlock)
+                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+
+                            except:
+                                # print(identifier, clef_mercure_article)
+                                pass
+
+
             elif "##" in v:
                 v = v.split("##")
                 for v in v:
@@ -168,6 +184,7 @@ def narrow(id_opentheso, uuid_sherlock):
 ####################################################################################
 
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
+indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
 
 # Création des thésaurus "Ancien Régime" et "Noms de lieux"
 
