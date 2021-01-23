@@ -22683,6 +22683,12 @@
                             "nom": "Prix 2",
                             "type": "Conservatoire",
                             "discipline": "Flûte"
+                        },
+                        "909208d2-31ab-40a5-abc1-ef54efe256b6": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "type": "Conservatoire",
+                            "discipline": "Flûte"
                         }
                     }
                 },
@@ -24249,6 +24255,12 @@
                             "nom": "Prix 2",
                             "type": "Conservatoire",
                             "discipline": "Contrebasse"
+                        },
+                        "0dfdd7d3-8600-4464-a570-5b1df667d6dd": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "nom_complément": "Prix d'Excellence",
+                            "discipline": "Contrebasse"
                         }
                     }
                 },
@@ -25141,6 +25153,12 @@
                             "nom": "Prix 2",
                             "type": "Conservatoire",
                             "discipline": "Comédie"
+                        },
+                        "401a4d7a-142f-4007-9357-c43d6f4a00b2": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "type": "Conservatoire",
+                            "discipline": "Comédie"
                         }
                     }
                 }
@@ -25504,6 +25522,12 @@
                     "prix": {
                         "caba421a-036f-4846-848b-a12a4ec04830": {
                             "date": 1916,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Comédie"
+                        },
+                        "9a057aaa-2553-4218-85c4-634943c83eb8": {
+                            "date": 1917,
                             "nom": "Accessit 1",
                             "type": "Conservatoire",
                             "discipline": "Comédie"
@@ -26540,6 +26564,12 @@
                     "observations_classe": "1915 Fév. : Encouragement de 400 frs. ; 1915-1916 : Congé d'un an. Malade.",
                     "classe": "2a0bb1a2-7ca3-4382-9c08-153ec9024e61",
                     "prix": {
+                        "cbf362ee-716d-4676-b01a-40209261a414": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
+                        },
                         "78efaa24-1e9b-4794-9886-070250a414e4": {
                             "date": 1918,
                             "nom": "Prix 1",
@@ -26723,6 +26753,12 @@
                             "nom": "Accessit 1",
                             "type": "Conservatoire",
                             "discipline": "Déclamation lyrique"
+                        },
+                        "91d8e9fa-f606-4e41-b865-922257f1c793": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
                         }
                     }
                 },
@@ -26820,6 +26856,12 @@
                             "nom": "Prix 2",
                             "type": "Conservatoire",
                             "discipline": "Déclamation lyrique"
+                        },
+                        "3ce62ccb-5fdd-477d-abf2-37c1e887f954": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
                         }
                     }
                 },
@@ -26839,7 +26881,15 @@
                 "5da06791-a04f-4f84-b792-5d0b3cad320f": {
                     "date_sortie": "1917-00-00",
                     "observations_élève": "Aucune information sur la date d'inscription dans la classe de Histoire de la musique, ni prof. Titulaire.",
-                    "classe": "2cc0d233-0b03-4e03-a892-7415ede63835"
+                    "classe": "2cc0d233-0b03-4e03-a892-7415ede63835",
+                    "prix": {
+                        "dd407b80-056b-456b-95ec-4cecda292d7a": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "type": "Conservatoire",
+                            "discipline": "Histoire de la musique"
+                        }
+                    }
                 }
             }
         },
@@ -27032,6 +27082,12 @@
                             "nom": "Accessit 2",
                             "type": "Conservatoire",
                             "discipline": "Déclamation lyrique"
+                        },
+                        "bf892f47-9a36-48f3-a0b7-54a853087077": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
                         }
                     }
                 },
@@ -27092,6 +27148,12 @@
                         "f411c43f-3a71-4ae5-8ff1-2868c92c5759": {
                             "date": 1914,
                             "nom": "Médaille 2",
+                            "type": "Conservatoire",
+                            "discipline": "Solfège"
+                        },
+                        "0e6560bb-37b5-4cc8-bd58-5e787c05162c": {
+                            "date": 1917,
+                            "nom": "Médaille 1",
                             "type": "Conservatoire",
                             "discipline": "Solfège"
                         }
@@ -27220,6 +27282,12 @@
                             "nom": "Accessit 2",
                             "type": "Conservatoire",
                             "discipline": "Déclamation lyrique"
+                        },
+                        "ff8db7ec-5ca3-4a14-a372-0641a6ccb60f": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
                         }
                     }
                 }
@@ -27301,6 +27369,12 @@
                             "nom": "Prix 2",
                             "type": "Conservatoire",
                             "discipline": "Déclamation lyrique"
+                        },
+                        "0ad6a182-444f-4f65-903c-85dde7a6a7a5": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
                         }
                     }
                 },
@@ -27379,6 +27453,12 @@
                             "nom": "Mention 2",
                             "type": "Conservatoire",
                             "discipline": "Solfège"
+                        },
+                        "e479c302-9ad5-4812-9d7f-ef0f638b0440": {
+                            "date": 1917,
+                            "nom": "Médaille 2",
+                            "type": "Conservatoire",
+                            "discipline": "Solfège"
                         }
                     }
                 },
@@ -27402,7 +27482,15 @@
                     "date_sortie": "1917-00-00",
                     "motif_sortie": "Rayé art. 102 § 2",
                     "observations_classe": "1915 Fév. : Encouragement de 200 frs. ; 1916 : A concouru Déclamation lyrique.:",
-                    "classe": "983ddf6c-2925-402e-b180-a1efc72a7072"
+                    "classe": "983ddf6c-2925-402e-b180-a1efc72a7072",
+                    "prix": {
+                        "0ca89d45-0817-49cc-9b6d-db1294c8e18b": {
+                            "date": 1917,
+                            "nom": "Accessit 2",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
+                        }
+                    }
                 }
             },
             "remarques_de_saisie": "Il est question d'un « Rappel de 2e Médaille de Solfège » or avant l'élève avait obtenu une « 2e Mention de Solfège ». À vérifier."
@@ -27600,6 +27688,12 @@
                             "nom": "Médaille 3",
                             "type": "Conservatoire",
                             "discipline": "Solfège"
+                        },
+                        "a3b4dea9-4cc4-4e21-b7d8-6e5c618e916f": {
+                            "date": 1917,
+                            "nom": "Médaille 2",
+                            "type": "Conservatoire",
+                            "discipline": "Solfège"
                         }
                     }
                 },
@@ -27618,6 +27712,12 @@
                         "b7f34e01-3aea-47ae-8252-12f44aed6143": {
                             "date": 1916,
                             "nom": "Prix 2",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
+                        },
+                        "afa9fb40-12df-45c8-9a61-1b1b947a9600": {
+                            "date": 1917,
+                            "nom": "Prix 1",
                             "type": "Conservatoire",
                             "discipline": "Déclamation lyrique"
                         }
@@ -27777,6 +27877,12 @@
                             "nom": "Prix 2",
                             "type": "Conservatoire",
                             "discipline": "Piano"
+                        },
+                        "8106ecb9-8316-4b45-8db0-72d982f74dea": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "type": "Conservatoire",
+                            "discipline": "Piano"
                         }
                     }
                 },
@@ -27842,6 +27948,12 @@
                             "date": 1916,
                             "nom": "Prix 2",
                             "type": "Conservatoire",
+                            "discipline": "Piano"
+                        },
+                        "c2e43051-93f6-4cf2-99a8-5e9e36b3de20": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "nom_complément": "Prix d'Excellence",
                             "discipline": "Piano"
                         }
                     }
@@ -27938,6 +28050,12 @@
                         "35e00570-a42b-4207-8b82-ea391b6f3433": {
                             "date": 1916,
                             "nom": "Mention 3",
+                            "type": "Conservatoire",
+                            "discipline": "Solfège"
+                        },
+                        "1d35a29e-036b-4be3-8a67-8bff9bb0dc7a": {
+                            "date": 1917,
+                            "nom": "Médaille 2",
                             "type": "Conservatoire",
                             "discipline": "Solfège"
                         }
@@ -28126,6 +28244,12 @@
                         "e6fbe6ae-faaf-40b2-a30a-77142d1f0aaf": {
                             "date": 1915,
                             "nom": "Médaille 1",
+                            "type": "Conservatoire",
+                            "discipline": "Piano"
+                        },
+                        "ed4ce07b-3c1c-40f8-9faa-6ce825b666e7": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
                             "type": "Conservatoire",
                             "discipline": "Piano"
                         },
@@ -28497,6 +28621,12 @@
                             "type": "Conservatoire",
                             "discipline": "Piano"
                         },
+                        "f491ac4a-ee5c-4220-8a07-f6eed7775f1c": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Piano"
+                        },
                         "9bebc3ec-c6ce-4c47-b4c6-e9d776142eb8": {
                             "date": 1918,
                             "nom": "Prix 2",
@@ -28673,6 +28803,12 @@
                         "746e2588-5995-4075-9a0b-dbf3d007482e": {
                             "date": 1916,
                             "nom": "Mention 1",
+                            "type": "Conservatoire",
+                            "discipline": "Piano"
+                        },
+                        "3af4d467-299a-420e-879e-f1542ad36205": {
+                            "date": 1917,
+                            "nom": "Accessit 2",
                             "type": "Conservatoire",
                             "discipline": "Piano"
                         },
@@ -28906,6 +29042,12 @@
                             "type": "Conservatoire",
                             "discipline": "Piano"
                         },
+                        "e165e515-5029-4f6e-abb6-79d49d1d0563": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Piano"
+                        },
                         "3b332e14-9d41-461c-af7e-212b6156013b": {
                             "date": 1918,
                             "nom": "Prix 1",
@@ -28966,6 +29108,12 @@
                             "nom": "Prix 2",
                             "type": "Conservatoire",
                             "discipline": "Violon"
+                        },
+                        "61ba476f-21e3-424a-ab4b-a4264ddc13e8": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "type": "Conservatoire",
+                            "discipline": "Violon"
                         }
                     }
                 },
@@ -29019,6 +29167,12 @@
                         "61ba8364-1f49-41ed-9d87-02173e8bb434": {
                             "date": 1916,
                             "nom": "Prix 2",
+                            "type": "Conservatoire",
+                            "discipline": "Violon"
+                        },
+                        "cf453c45-6b04-4a85-8c9f-df72c3bc7e0e": {
+                            "date": 1917,
+                            "nom": "Prix 1",
                             "type": "Conservatoire",
                             "discipline": "Violon"
                         }
@@ -29489,6 +29643,12 @@
                         "d2c82e12-158d-47e2-b2ce-597fcf1101f2": {
                             "date": 1915,
                             "nom": "Médaille 1",
+                            "type": "Conservatoire",
+                            "discipline": "Violon"
+                        },
+                        "baab626c-5d5d-4f20-b476-09ebcef575f1": {
+                            "date": 1917,
+                            "nom": "Prix 1",
                             "type": "Conservatoire",
                             "discipline": "Violon"
                         }
@@ -30001,6 +30161,12 @@
                             "type": "Conservatoire",
                             "discipline": "Piano"
                         },
+                        "b888bf6c-063b-47f9-99ac-64ca4f0aaf76": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Piano"
+                        },
                         "8db5254c-49e9-4e9f-b2f0-ef271812f070": {
                             "date": 1918,
                             "nom": "Prix 1",
@@ -30060,6 +30226,12 @@
                         "79b5661c-8d5d-46cf-9207-1315c85b78dd": {
                             "date": 1916,
                             "nom": "Mention 1",
+                            "type": "Conservatoire",
+                            "discipline": "Piano"
+                        },
+                        "9c059e36-05ca-41c6-93e6-190b8c068169": {
+                            "date": 1917,
+                            "nom": "Accessit 2",
                             "type": "Conservatoire",
                             "discipline": "Piano"
                         },
@@ -30211,6 +30383,12 @@
                             "type": "Conservatoire",
                             "discipline": "Piano"
                         },
+                        "423f7baa-abcd-4b1d-941e-5896604190e5": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "type": "Conservatoire",
+                            "discipline": "Piano"
+                        },
                         "cae66408-5c4d-4ac4-b8cf-a1c10fd10a15": {
                             "date": 1918,
                             "nom": "Prix d'Honneur",
@@ -30326,6 +30504,12 @@
                         "954d5f8b-f077-4fea-8741-90a6f61e05f4": {
                             "date": 1916,
                             "nom": "Mention 2",
+                            "type": "Conservatoire",
+                            "discipline": "Piano"
+                        },
+                        "be865abe-8c5e-44a6-8a9a-3a2d51c9ebf7": {
+                            "date": 1917,
+                            "nom": "Médaille 2",
                             "type": "Conservatoire",
                             "discipline": "Piano"
                         }
@@ -30507,6 +30691,12 @@
                         "4aeab18c-0151-477a-842b-bf1eaee8a4b7": {
                             "date": 1916,
                             "nom": "Mention 2",
+                            "type": "Conservatoire",
+                            "discipline": "Solfège"
+                        },
+                        "18d63430-2f39-47e7-8204-ed24efcfeb2e": {
+                            "date": 1917,
+                            "nom": "Médaille 1",
                             "type": "Conservatoire",
                             "discipline": "Solfège"
                         }
@@ -31100,6 +31290,12 @@
                             "nom": "Mention 2",
                             "type": "Conservatoire",
                             "discipline": "Solfège"
+                        },
+                        "a6d06a06-592e-4853-b278-69149ae81e1c": {
+                            "date": 1917,
+                            "nom": "Médaille 1",
+                            "type": "Conservatoire",
+                            "discipline": "Solfège"
                         }
                     }
                 }
@@ -31154,6 +31350,12 @@
                         "cd4023ab-dd55-4db6-92e1-bcfec1279bdb": {
                             "date": 1916,
                             "nom": "Mention 1",
+                            "type": "Conservatoire",
+                            "discipline": "Violon"
+                        },
+                        "8adca8a1-7384-4612-8499-cca6ceaf2c8b": {
+                            "date": 1917,
+                            "nom": "Accessit 2",
                             "type": "Conservatoire",
                             "discipline": "Violon"
                         },
@@ -31457,7 +31659,15 @@
                     "date_sortie": "1918-00-00",
                     "observations_élève": "Aucune information sur la date d'inscription dans la classe de Histoire de la musique, ni prof. Titulaire.",
                     "observations_classe": "1914 : A concouru Harmonie ; 1915 : A concouru Harmonie ; 1916 : A concouru Harmonie ; 1916 : Rayée art. 102 § 1er ; 1916-11-27 : readmise élève d'Harmonie (M. Chapuis).",
-                    "classe": "951b819d-08c1-4131-9a01-90776e48fcc4"
+                    "classe": "951b819d-08c1-4131-9a01-90776e48fcc4",
+                    "prix": {
+                        "51bf7ac7-3c39-4566-a187-163b30bddbdc": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Histoire de la musique"
+                        }
+                    }
                 },
                 "36b64d39-72fb-489e-83b0-6a5f82d0fda5": {
                     "date_sortie": "1918-00-00",
@@ -31707,6 +31917,13 @@
                             "nom": "Accessit 1",
                             "type": "Conservatoire",
                             "discipline": "Harmonie"
+                        },
+                        "8a5c3796-9da5-47be-ada9-5ad2481e3257": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "nom_complément": "Prix d'Excellence",
+                            "type": "Conservatoire",
+                            "discipline": "Harmonie"
                         }
                     }
                 },
@@ -31943,6 +32160,12 @@
                         "5ff03602-ca47-4678-9ab5-096cc63f0f1d": {
                             "date": 1916,
                             "nom": "Mention 2",
+                            "type": "Conservatoire",
+                            "discipline": "Solfège"
+                        },
+                        "62a58efe-109b-4b12-9285-0d4a99e48acd": {
+                            "date": 1917,
+                            "nom": "Médaille 1",
                             "type": "Conservatoire",
                             "discipline": "Solfège"
                         }
@@ -32345,6 +32568,12 @@
                         "086a5ebb-16dd-46bc-a0a6-71a48dce9e67": {
                             "date": 1916,
                             "nom": "Prix 2",
+                            "type": "Conservatoire",
+                            "discipline": "Harmonie"
+                        },
+                        "06197022-4f7d-4525-a493-e0f55c428410": {
+                            "date": 1917,
+                            "nom": "Prix 1",
                             "type": "Conservatoire",
                             "discipline": "Harmonie"
                         }
@@ -33089,6 +33318,12 @@
                             "type": "Conservatoire",
                             "discipline": "Piano"
                         },
+                        "aab401a7-7adc-49b0-be8e-c94416df0153": {
+                            "date": 1917,
+                            "nom": "Médaille 1",
+                            "type": "Conservatoire",
+                            "discipline": "Piano"
+                        },
                         "c1d26796-9e5f-42ca-9cfd-c958ca75397b": {
                             "date": 1921,
                             "nom": "Accessit 2",
@@ -33381,6 +33616,12 @@
                         "ab0c1ac4-d414-495f-a421-e11c725b002b": {
                             "date": 1916,
                             "nom": "Prix 2",
+                            "type": "Conservatoire",
+                            "discipline": "Hautbois"
+                        },
+                        "6245a606-cd73-41b7-af04-94f3ffb8ce9c": {
+                            "date": 1917,
+                            "nom": "Prix 1",
                             "type": "Conservatoire",
                             "discipline": "Hautbois"
                         }
@@ -33945,6 +34186,12 @@
                     "observations_classe": "1916 : A concouru Comédie ; 1917 : Rayé art. 102 § 2 ; 1917-1918 : Autorisée à faire une année supplémentaire.",
                     "classe": "f5d9b76c-7bc2-4093-9b1f-b3344c0f8650",
                     "prix": {
+                        "72a826a5-917e-4575-8a41-0848f8835cad": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Comédie"
+                        },
                         "cb5a17a6-015b-467d-95b2-3b33b9b7c64d": {
                             "date": 1918,
                             "nom": "Prix 1",
@@ -34171,6 +34418,12 @@
                             "nom": "Prix 2",
                             "type": "Conservatoire",
                             "discipline": "Tragédie"
+                        },
+                        "b699dda6-3493-41bc-a3e6-d3df867b36ec": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "nom_complément": "Prix d'Excellence",
+                            "discipline": "Comédie"
                         }
                     }
                 }
@@ -34426,6 +34679,18 @@
                             "nom": "Accessit 2",
                             "type": "Conservatoire",
                             "discipline": "Tragédie"
+                        },
+                        "8876c0de-ee65-4e24-b1ac-ca6372485201": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Tragédie"
+                        },
+                        "37779e9e-2ed2-453d-b956-d9df2f80db79": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Comédie"
                         }
                     }
                 }
@@ -34627,6 +34892,12 @@
                             "type": "Conservatoire",
                             "discipline": "[Histoire et Littérature dramatique]"
                         },
+                        "52d91c1e-52c1-4940-a77d-67097a0f2b74": {
+                            "date": 1917,
+                            "nom": "Prix 1",
+                            "type": "Conservatoire",
+                            "discipline": "Tragédie"
+                        },
                         "fbb0c9cd-e59d-4a01-a229-cdbc0a8d19ca": {
                             "date": 1917,
                             "nom": "Prix 2",
@@ -34762,7 +35033,15 @@
                     "date_entrée": "1916-01-31",
                     "date_sortie": "1918-00-00",
                     "observations_classe": "1915 Fév. : Encouragement de 600 frs.",
-                    "classe": "b5447134-e90c-446c-b25e-9045d221d122"
+                    "classe": "b5447134-e90c-446c-b25e-9045d221d122",
+                    "prix": {
+                        "270d5e9d-90b4-4761-9d71-71d58031e15b": {
+                            "date": 1917,
+                            "nom": "Accessit 2",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
+                        }
+                    }
                 },
                 "c580dee2-73b0-473f-8ba0-466b4c8d890c": {
                     "date_entrée": "1916-01-31",
@@ -35270,6 +35549,12 @@
                     "date_sortie": "1918-00-00",
                     "classe": "2a0bb1a2-7ca3-4382-9c08-153ec9024e61",
                     "prix": {
+                        "863b037d-d967-4bbd-a805-311362685271": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
+                        },
                         "ba4b2236-0cd6-4f29-a4f3-c4d1a2d8b0cf": {
                             "date": 1918,
                             "nom": "Prix 1",
@@ -35532,6 +35817,12 @@
                     "motif_sortie": "Rayé art. 102 § 2",
                     "classe": "1383acaa-e5a1-44af-8b14-07c11056253a",
                     "prix": {
+                        "96358c51-6b4d-494f-8a06-858d41ca1912": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
+                        },
                         "559ee1da-2706-4311-8aff-617042e390a1": {
                             "date": 1918,
                             "nom": "Prix 2",
@@ -35700,7 +35991,15 @@
                     "date_sortie": "1918-00-00",
                     "motif_sortie": "Rayé art. 102 § 2",
                     "observations_classe": "1918 : A concouru Déclamation lyrique.",
-                    "classe": "1383acaa-e5a1-44af-8b14-07c11056253a"
+                    "classe": "1383acaa-e5a1-44af-8b14-07c11056253a",
+                    "prix": {
+                        "0959f4be-134e-443b-8600-53b9a7645a5f": {
+                            "date": 1917,
+                            "nom": "Accessit 2",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
+                        }
+                    }
                 },
                 "dfd13d09-23c2-47ef-9efc-98970e958d6f": {
                     "observations_élève": "Aucune information sur la date d'inscription dans la classe de Histoire de la musique, ni prof. Titulaire.",
@@ -35979,6 +36278,12 @@
                     "date_sortie": "1918-00-00",
                     "classe": "2a0bb1a2-7ca3-4382-9c08-153ec9024e61",
                     "prix": {
+                        "7f4e303b-9eaa-4c35-beec-fcc8492aeaaa": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Déclamation lyrique"
+                        },
                         "84e4bd99-015a-4662-8498-bedd8b6d3987": {
                             "date": 1918,
                             "nom": "Prix 1",
@@ -36259,6 +36564,12 @@
                     "observations_classe": "Congé (Guerre) 1914-1916.",
                     "classe": "21f1371a-36b8-44db-a9df-16792829d479",
                     "prix": {
+                        "1671fe30-77d8-4329-9173-d432c04daade": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Alto"
+                        },
                         "2b9f06d3-7351-422c-bd71-0f6e94bad9c1": {
                             "date": 1918,
                             "nom": "Prix 1",
@@ -36306,6 +36617,13 @@
                         "c5e4fee8-116b-4934-b3d4-48f0fd257e08": {
                             "date": 1916,
                             "nom": "Accessit 1",
+                            "type": "Conservatoire",
+                            "discipline": "Alto"
+                        },
+                        "15334b9d-204a-48a7-9fc8-0d18554ce6d7": {
+                            "date": 1917,
+                            "nom": "Accessit 1",
+                            "nom_complément": "Rappel",
                             "type": "Conservatoire",
                             "discipline": "Alto"
                         },
