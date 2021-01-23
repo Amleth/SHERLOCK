@@ -138,19 +138,44 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                             clef_mercure_livraison = m_livraison.group()
                             clef_mercure_article = m.group()
                             try:
-                                F2_article_uuid = get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"], cache_corpus)
+                                F2_article_uri = she(get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"], cache_corpus))
+                                E13_index_uri = she(get_uuid(["institutions et corporations", identifier, "E13_indexation"]))
+                                t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, crm("P14_carried_out_by"),
+                                  she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
+                                t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
+                                t(E13_index_uri, crm("P141_assigned"), E74_uri)
+                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+
                             except:
-                                # print(identifier, clef_mercure_article)
+                                #print(identifier, clef_mercure_article)
                                 pass
+
             elif "##" in v:
                 v = v.split("##")
                 for v in v:
                     if v:
                         m = re.search(indexation_regexp, v)
+                        m_livraison = re.search(indexation_regexp_livraison, v)
                         if m:
-                            clef_mercure = m.group()
-                            print(m)
-                            # TODO, comme en haut
+                            clef_mercure_livraison = m_livraison.group()
+                            clef_mercure_article = m.group()
+                            try:
+                                F2_article_uri = she(get_uuid(
+                                    ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
+                                     clef_mercure_article, "F2"], cache_corpus))
+                                E13_index_uri = she(
+                                    get_uuid(["institutions et corporations", identifier, "E13_indexation"]))
+                                t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, crm("P14_carried_out_by"),
+                                  she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
+                                t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
+                                t(E13_index_uri, crm("P141_assigned"), E74_uri)
+                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+
+                            except:
+                                #print(identifier, clef_mercure_article)
+                                pass
 
             else:
                 note_sha1_object = hashlib.sha1(v.encode())
