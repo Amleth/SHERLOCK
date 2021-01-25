@@ -18,14 +18,19 @@
 
 # DONNÉES
 
-- Les deux prix de 1859-0740 sont-ils les mêmes ?
-- La moitié des prix ont une discipline_catégorie
-- En guise d'exemples
-    - http://localhost:3000/hemef/eleve/3d170e6e-336e-417f-b25c-a2f7e6eb1698
-    - http://localhost:3000/hemef/eleve/40322daf-c5e3-475f-b33e-cbef0ea20c9f
-    - http://localhost:3000/hemef/eleve/9ffd5760-5051-4ff9-8f89-b6a492c207dc (valeur divergente)
+- Dire qu'on a développé des heuristiques pour :
+    - trouver une valeur utilisable (on favorise la valeur TDC)
+    - joindre des valeurs divergentes dans une même chaîne de caractère, mais par colonne (donc pas de fusion non-TDC/TDC)
+- ÉLÈVES :
+    - (valeur divergente)
     - http://localhost:3000/hemef/eleve/f322f70b-bc14-4b0c-9473-df08326d9943 (pour les valeurs identiques R/TDC)
     - http://localhost:3000/hemef/eleve/251c07d5-617a-4da5-9403-28cb13df2910 (date avec hypothèse)
+- CLASSES :
+    - classe_cote_AN_TDC devrait être sur les parcours-classe
+    - Cette élève est passée deux fois dans la même classe : http://localhost:3000/hemef/eleve/2b1ee73b-47bd-4343-9903-b83c876aa826
+- PRIX :
+    Les deux prix de 1859-0740 sont-ils les mêmes ?s
+    - La moitié des prix ont une discipline_catégorie
 - Point sur les colonnes inconnues
     COLONNES INCONNUES sources/1856_1861_modifié V3.xlsx
         ['classe_observations', 'classe_type']

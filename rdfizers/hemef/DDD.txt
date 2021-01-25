@@ -115,6 +115,7 @@ JAUNE PÂLE
     parcours_classe_observations_eleve
     parcours_classe_observations_eleve_TDC
 VERT (classe)
+    classe_nom
     classe_nom_TDC
     classe_discipline
     classe_discipline_TDC

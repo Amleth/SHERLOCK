@@ -98,8 +98,11 @@ def join_values(subject, predicate, v, k):
         t(subject, predicate, l(res))
 
 
-def find_usable_value(data_type, data, subject, field_base_name, predicate_base_name, allow_both_values=False):
+def find_usable_value(data_type, data, subject, field_base_name, predicate_base_name, allow_both_values=False, merge_multi_values=False):
     values = []
+    non_tdc_value = None
+    tdc_value = None
+
     if not allow_both_values:
         if field_base_name in data and field_base_name+"_TDC" in data:
             if data[field_base_name] != data[field_base_name+"_TDC"]:
@@ -109,16 +112,25 @@ def find_usable_value(data_type, data, subject, field_base_name, predicate_base_
             raise Exception(f"La propriété {field_base_name} d'un {data_type} ne peut pas être multivaluée.")
         t(subject, hemef_ns[predicate_base_name], l(data[field_base_name]))
         values.append(data[field_base_name])
+        non_tdc_value = data[field_base_name]
     if field_base_name+"_TDC" in data and data[field_base_name+"_TDC"]:
-        if type(data[field_base_name+"_TDC"]) == list:
-            raise Exception(f"La propriété {field_base_name+'_TDC'} d'un {data_type} ne peut pas être multivaluée.")
-        t(subject, hemef_ns[predicate_base_name+"_TDC"], l(data[field_base_name+"_TDC"]))
-        values.append(data[field_base_name+"_TDC"])
+        v = data[field_base_name+"_TDC"]
+        if type(v) == list:
+            if not merge_multi_values:
+                raise Exception(f"La propriété {field_base_name+'_TDC'} d'un {data_type} ne peut pas être multivaluée.")
+            else:
+                v = MULTIVALUE_SEPARATOR.join(v)
+
+        t(subject, hemef_ns[predicate_base_name+"_TDC"], l(v))
+        values.append(v)
+        tdc_value = v
+
     values = list(set(values))
     if values and len(values) == 1:
         t(subject, hemef_ns[predicate_base_name+UNIFIED_VALUES_PREDICATE_SUFFIX], l(values[0]))
     else:
-        t(subject, hemef_ns[predicate_base_name+UNIFIED_VALUES_PREDICATE_SUFFIX], l(values[1]))
+        # TOOD : on favorise la valeur TDC
+        t(subject, hemef_ns[predicate_base_name+UNIFIED_VALUES_PREDICATE_SUFFIX], l(tdc_value))
 
 
 def change_TDC_position(predicate, suffix):
@@ -215,11 +227,12 @@ for classe_uuid, classe in data["classes"].items():
             "observations",
             "observations_TDC",
             "remarques_saisie",
-            "type_TDC"
         ):
             join_values(iremus_ns[classe_uuid], hemef_ns[k], classe, k)
         elif k in ["discipline_categorie", "discipline_categorie_TDC"]:
             find_usable_value("classe", classe, iremus_ns[classe_uuid], "discipline_categorie", "discipline_catégorie")
+        elif k in ["type", "type_TDC"]:
+            find_usable_value("classe", classe, iremus_ns[classe_uuid], "type", "type", False, True)
         elif k in ["nom_professeur", "nom_professeur_TDC"]:
             find_usable_value("classe", classe, iremus_ns[classe_uuid], "nom_professeur", "nom_professeur", True)
 
@@ -349,6 +362,10 @@ for eleve_id1, eleve in data["eleves_identifiant_1"].items():
                                     find_usable_value("prix", prix, iremus_ns[prix_uuid], prix_k.replace("_TDC", ""), prix_k.replace("_TDC", ""))
                                 elif prix_k in ["discipline_categorie", "discipline_categorie_TDC"]:
                                     find_usable_value("prix", prix, iremus_ns[prix_uuid], "discipline_categorie", "discipline_catégorie")
+                                elif prix_k in ["discipline", "discipline_TDC"]:
+                                    find_usable_value("prix", prix, iremus_ns[prix_uuid], "discipline", "discipline")
+                                elif prix_k in ["date", "date_TDC"]:
+                                    parse_date(prix_v, iremus_ns[prix_uuid], "date")
                                 else:
                                     join_values(iremus_ns[prix_uuid], hemef_ns[prix_k], prix, prix_k)
 

@@ -7,3 +7,9 @@ sherlock:sheP_associe
     rdfs:domain crm:E74_Group ; # sherlock:sheE_Corporation
     rdfs:range crm:E55_Type ;
     .
+
+sherlock:sheP_rôle_possible_dans_un_groupe
+    a owl:ObjectProperty ;
+    rdfs:domain crm:E74_Group ;
+    rdfs:range crm:E55_Type ;
+    .
