@@ -13,6 +13,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--inputrdf")
 parser.add_argument("--outputttl")
 parser.add_argument("--cache_personnes")
+parser.add_argument("--cache_corpus")
 args = parser.parse_args()
 
 # CACHE
@@ -20,12 +21,10 @@ args = parser.parse_args()
 sys.path.append(str(Path(".").absolute().parent.parent))
 from cache_management import get_uuid, read_cache, write_cache  # nopep8
 
-cache_file = str(PurePath.joinpath(Path(".").absolute(), "cache_personnes.yaml"))
-
-# Lecture du cache
-cache_des_uuid_du_thesaurus_personnes = None
-with open(args.cache_personnes) as f:
-    cache_des_uuid_du_thesaurus_personnes = yaml.load(f, Loader=yaml.FullLoader)
+# Cache de corpus
+cache_corpus = None
+with open(args.cache_corpus) as f:
+    cache_corpus = yaml.load(f, Loader=yaml.FullLoader)
 
 ################################################################################
 # Initialisation des graphes
@@ -89,6 +88,7 @@ def ro_list(s, p):
 ####################################################################################
 
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
+indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
 
 ## Création des thésaurus "Ancien Régime" et "Noms de personnes"
 
@@ -131,17 +131,48 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                 for v in v:
                     if v:
                         m = re.search(indexation_regexp, v)
+                        m_livraison = re.search(indexation_regexp_livraison, v)
                         if m:
-                            clef_mercure = m.group()
-                            # Un truc du genre F2_article_uuid = get_uuid(["F2", "article", clef_mercure], cache_des_uuid_du_corpus)
+                            clef_mercure_livraison = m_livraison.group()
+                            clef_mercure_article = m.group()
+                            try:
+                                F2_article_uri = she(get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"], cache_corpus))
+                                E13_index_uri = she(get_uuid(["personnes", dcterms_identifier, "E13_indexation"]))
+                                t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, crm("P14_carried_out_by"),
+                                  she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
+                                t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
+                                t(E13_index_uri, crm("P141_assigned"), E21_uri)
+                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+
+                            except:
+                                # print(identifier, clef_mercure_article)
+                                pass
             elif "##" in v:
                 v = v.split("##")
                 for v in v:
                     if v:
                         m = re.search(indexation_regexp, v)
+                        m_livraison = re.search(indexation_regexp_livraison, v)
                         if m:
-                            clef_mercure = m.group()
-                            # TODO, comme en haut
+                            clef_mercure_livraison = m_livraison.group()
+                            clef_mercure_article = m.group()
+                            try:
+                                F2_article_uri = she(get_uuid(
+                                    ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
+                                     clef_mercure_article, "F2"], cache_corpus))
+                                E13_index_uri = she(
+                                    get_uuid(["personnes", dcterms_identifier, "E13_indexation"]))
+                                t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, crm("P14_carried_out_by"),
+                                  she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
+                                t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
+                                t(E13_index_uri, crm("P141_assigned"), E21_uri)
+                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+
+                            except:
+                                #print(identifier, clef_mercure_article)
+                                pass
             else:
                 note_sha1_object = hashlib.sha1(v.encode())
                 note_sha1 = note_sha1_object.hexdigest()
@@ -167,6 +198,6 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
     for closeMatch in closeMatches:
         t(E21_uri, SKOS.closeMatch, closeMatch)
 
-write_cache(cache_file)
+write_cache(args.cache_personnes)
 output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
 

@@ -148,7 +148,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                #print(identifier, clef_mercure_article)
+                                print(identifier, clef_mercure_article)
                                 pass
 
             elif "##" in v:
@@ -174,7 +174,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                #print(identifier, clef_mercure_article)
+                                print(identifier, clef_mercure_article)
                                 pass
 
             else:

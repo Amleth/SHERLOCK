@@ -21,7 +21,10 @@ args = parser.parse_args()
 sys.path.append(str(Path(".").absolute().parent.parent))
 from cache_management import get_uuid, read_cache, write_cache  # nopep8
 
-cache_file = str(PurePath.joinpath(Path(".").absolute(), "cache_lieux.yaml"))
+# Cache de corpus
+cache_corpus = None
+with open(args.cache_corpus) as f:
+    cache_corpus = yaml.load(f, Loader=yaml.FullLoader)
 
 ################################################################################
 # Initialisation des graphes
@@ -137,9 +140,26 @@ def narrow(id_opentheso, uuid_sherlock):
                 for v in v:
                     if v:
                         m = re.search(indexation_regexp, v)
+                        m_livraison = re.search(indexation_regexp_livraison, v)
                         if m:
-                            clef_mercure = m.group()
-                            # TODO, comme en haut
+                            clef_mercure_livraison = m_livraison.group()
+                            clef_mercure_article = m.group()
+                            try:
+                                F2_article_uri = she(get_uuid(
+                                    ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
+                                     clef_mercure_article, "F2"], cache_corpus))
+                                E13_index_uri = she(
+                                    get_uuid(["lieu", identifier, "E93", "E13_indexation"]))
+                                t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, crm("P14_carried_out_by"),
+                                  she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
+                                t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
+                                t(E13_index_uri, crm("P141_assigned"), uuid_sherlock)
+                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+
+                            except:
+                                print(identifier, clef_mercure_article)
+                                pass
 
             else:
                 note_sha1_object = hashlib.sha1(v.encode())
@@ -276,5 +296,5 @@ for opentheso_MondeCont_uri, p, o in input_graph.triples((URIRef("http://openthe
                     narrow(narrower, narrower4_uri)
                     t(narrower4_uri, crm("P10_falls_within"), narrower3_uri)
 
-write_cache(cache_file)
+write_cache(args.cache_lieux)
 output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
