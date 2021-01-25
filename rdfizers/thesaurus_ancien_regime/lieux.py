@@ -131,7 +131,7 @@ def narrow(id_opentheso, uuid_sherlock):
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                # print(identifier, clef_mercure_article)
+                                print(identifier, clef_mercure_article)
                                 pass
 
 

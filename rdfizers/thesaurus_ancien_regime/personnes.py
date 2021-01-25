@@ -146,7 +146,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                # print(identifier, clef_mercure_article)
+                                print(identifier, clef_mercure_article)
                                 pass
             elif "##" in v:
                 v = v.split("##")
@@ -171,7 +171,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                #print(identifier, clef_mercure_article)
+                                print(identifier, clef_mercure_article)
                                 pass
             else:
                 note_sha1_object = hashlib.sha1(v.encode())
