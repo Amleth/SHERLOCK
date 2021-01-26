@@ -1,0 +1,48 @@
+{
+    "Corps de ville": [
+        "�chevin",
+        "Consul",
+        "Jurats",
+        "Maire",
+        "�chevin",
+        "Syndics",
+        "echevin",
+        "Consuls",
+        "Corps de ville",
+        "Maire perp�tuel",
+        "�chevins",
+        "Jurat",
+        "Corps de justice"
+    ],
+    "Musique": [
+        "Violons d'Avignon",
+        "Trompettes de Montpelier",
+        "Trompettes de Lyon",
+        "Tambours de Ch�teau-Thierry",
+        "Violons de Bordeaux",
+        "Hautbois de Toulouse",
+        "Hautbois de Chartres",
+        "Hautbois de Paris"
+    ],
+    "Magistrats": [
+        "Juge et consuls de la Bourse de Bordeaux",
+        "Juges consuls de Chartres"
+    ],
+    "Milice bourgeoise": [
+        "Fifres de la milice bourgeoise d�Auch",
+        "Fifres de la milice bourgeoise de Toulouse"
+    ],
+    "Syndics": [],
+    "Guet": [
+        "Compagnie des hallebardiers de La Rochelle"
+    ],
+    "Corps de justice": [],
+    "Pr�v�t des marchands": [],
+    "Officiers de la ville": [],
+    "Administrateur municipal": [],
+    "Officiers": [],
+    "Vierg": [],
+    "Compagnie de fusiliers": [],
+    "Quartiniers": [],
+    "Pr�v�ts des marchands": []
+}
