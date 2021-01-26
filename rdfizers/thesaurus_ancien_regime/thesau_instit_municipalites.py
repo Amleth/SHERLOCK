@@ -79,24 +79,3 @@ for opentheso_municipalite_uri, p, o in input_graph.triples((URIRef("http://open
 test = json.dumps(lst, indent = 4, ensure_ascii=False)
 outputtxt.write(test)
 print(test)
-
-"""
-				# On crée la clé "Corps de ville"
-				cle = "Corps de ville"
-				lst.setdefault(cle, [])
-
-				if "Corps de ville" in chaine_caract:
-					# On ajoute les valeurs de chaque clé en supprimant le nom de la municipalité
-					narrower = (ro(institution, SKOS.narrower))
-					if narrower != None:
-						narrower_prefLabel = str((ro(narrower, SKOS.prefLabel)))
-						n = re.search(".*(?= de| d\'A)", narrower_prefLabel)
-						if n != None:
-							# On normalise les caractères
-							n_group = n.group().capitalize()
-							n_group_decode = unidecode.unidecode(n_group)
-							if n_group_decode not in lst[cle]:
-								lst[cle].append(n_group_decode)
-								pass
-
-"""
