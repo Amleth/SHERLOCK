@@ -2,6 +2,7 @@ import argparse
 from rdflib import Graph, Literal, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, URIRef as u, Literal as l
 import re
 import json
+import unidecode
 
 ################################################################################
 ### Ouverture du graphe et du fichier texte
@@ -44,17 +45,42 @@ for opentheso_municipalite_uri, p, o in input_graph.triples((URIRef("http://open
 
 	lst = {}
 
-	# On récupère les URIs des institutions/fonctions de chaque municipalité
+	# On récupère les URIs des institutions de chaque municipalité
 	for municipalite in municipalites_uri:
 		institutions_uri = ro_list(municipalite, SKOS.narrower)
 
-		# On récupère leur nom
+		# On récupère le nom des institutions
 		for institution in institutions_uri:
 			institution_prefLabel = (ro_list(institution, SKOS.prefLabel))
 
-			# On transforme chaque valeur en clé de dictionnaire
+			# On transforme chaque institution en clé de dictionnaire en supprimant le nom de la municipalité
 			for chaine_caract in institution_prefLabel:
+				cle = re.search("Corps de ville|.*(?= de | d\'A)", chaine_caract)
+				if cle != None:
+					# On normalise les caractères
+					cle_group = cle.group().capitalize()
+					cle_group_decode = unidecode.unidecode(cle_group)
+					if cle_group_decode not in lst:
+						lst.setdefault(cle_group_decode, [])
 
+					# On ajoute leurs valeurs en supprimant le nom de la municipalité
+					narrower = (ro(institution, SKOS.narrower))
+					if narrower != None:
+						narrower_prefLabel = str((ro(narrower, SKOS.prefLabel)))
+						valeur = re.search(".*(?= de | de la | d\'A)", narrower_prefLabel)
+						if valeur != None:
+							# On normalise les caractères
+							valeur_group = valeur.group().capitalize()
+							valeur_group_decode = unidecode.unidecode(valeur_group)
+							if valeur_group_decode not in lst[cle_group_decode]:
+								lst[cle_group_decode].append(valeur_group_decode)
+
+
+test = json.dumps(lst, indent = 4, ensure_ascii=False)
+outputtxt.write(test)
+print(test)
+
+"""
 				# On crée la clé "Corps de ville"
 				cle = "Corps de ville"
 				lst.setdefault(cle, [])
@@ -66,31 +92,11 @@ for opentheso_municipalite_uri, p, o in input_graph.triples((URIRef("http://open
 						narrower_prefLabel = str((ro(narrower, SKOS.prefLabel)))
 						n = re.search(".*(?= de| d\'A)", narrower_prefLabel)
 						if n != None:
-							n_group = n.group()
-							if n_group not in lst[cle]:
-								lst[cle].append(n_group)
+							# On normalise les caractères
+							n_group = n.group().capitalize()
+							n_group_decode = unidecode.unidecode(n_group)
+							if n_group_decode not in lst[cle]:
+								lst[cle].append(n_group_decode)
 								pass
 
-				# On ajoute les autres clés en supprimant le nom de la municipalité
-				else:
-					e = re.search(".*(?= de | d\'A)", chaine_caract)
-					if e != None:
-						e_group = e.group()
-						if e_group not in lst:
-							lst.setdefault(e_group, [])
-
-							# On ajoute leurs valeurs en supprimant le nom de la municipalité
-						narrower = (ro(institution, SKOS.narrower))
-						if narrower != None:
-							narrower_prefLabel = str((ro(narrower, SKOS.prefLabel)))
-							if n != None:
-								n = re.search(".*(?= de | d\'A|)", narrower_prefLabel)
-								n_group = n.group()
-								if n_group not in lst[e_group]:
-									lst[e_group].append(n_group)
-
-
-test = json.dumps(lst, indent = 4, ensure_ascii=False)
-outputtxt.write(test)
-print(test)
-
+"""

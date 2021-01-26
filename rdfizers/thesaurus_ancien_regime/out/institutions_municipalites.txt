@@ -1,48 +1,43 @@
 {
     "Corps de ville": [
-        "�chevin",
-        "Consul",
-        "Jurats",
+        "Echevin",
         "Maire",
-        "�chevin",
-        "Syndics",
-        "echevin",
+        "Consul",
+        "Capitoul",
+        "Conseillers",
+        "Echevins",
         "Consuls",
-        "Corps de ville",
-        "Maire perp�tuel",
-        "�chevins",
-        "Jurat",
-        "Corps de justice"
-    ],
-    "Musique": [
-        "Violons d'Avignon",
-        "Trompettes de Montpelier",
-        "Trompettes de Lyon",
-        "Tambours de Ch�teau-Thierry",
-        "Violons de Bordeaux",
-        "Hautbois de Toulouse",
-        "Hautbois de Chartres",
-        "Hautbois de Paris"
+        "Jurats",
+        "Syndics",
+        "Maire perpetuel",
+        "Corps de justice",
+        "Corps de ville"
     ],
     "Magistrats": [
-        "Juge et consuls de la Bourse de Bordeaux",
-        "Juges consuls de Chartres"
+        "Juges consuls",
+        "Juge et consuls de la bourse"
     ],
-    "Milice bourgeoise": [
-        "Fifres de la milice bourgeoise d�Auch",
-        "Fifres de la milice bourgeoise de Toulouse"
+    "Guet": [
+        "Compagnie des hallebardiers"
+    ],
+    "Musique": [
+        "Tambours",
+        "Trompettes",
+        "Violons",
+        "Hautbois"
     ],
     "Syndics": [],
-    "Guet": [
-        "Compagnie des hallebardiers de La Rochelle"
+    "Milice bourgeoise": [
+        "Fifres de la milice bourgeoise",
+        "Fifres"
     ],
-    "Corps de justice": [],
-    "Pr�v�t des marchands": [],
-    "Officiers de la ville": [],
     "Administrateur municipal": [],
-    "Officiers": [],
-    "Vierg": [],
-    "Compagnie de fusiliers": [],
+    "Officiers de la ville": [],
+    "Prevot des marchands": [],
+    "Prevots des marchands": [],
     "Quartiniers": [],
-    "Pr�v�ts des marchands": []
+    "Officiers": [],
+    "Corps de justice": [],
+    "Compagnie de fusiliers": [],
+    "Vierg": []
 }
