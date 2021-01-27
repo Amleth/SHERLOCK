@@ -139,6 +139,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 F2_article_uri = she(get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"], cache_corpus))
                                 E13_index_uri = she(get_uuid(["personnes", dcterms_identifier, "E13_indexation"]))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
                                   she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
@@ -146,7 +147,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                print(identifier, clef_mercure_article)
+                                #print(dcterms_identifier, clef_mercure_article)
                                 pass
             elif "##" in v:
                 v = v.split("##")
@@ -164,6 +165,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 E13_index_uri = she(
                                     get_uuid(["personnes", dcterms_identifier, "E13_indexation"]))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
                                   she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
@@ -171,17 +173,18 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                print(identifier, clef_mercure_article)
+                                #print(dcterms_identifier, clef_mercure_article)
                                 pass
             else:
                 note_sha1_object = hashlib.sha1(v.encode())
                 note_sha1 = note_sha1_object.hexdigest()
                 E13_uri = she(get_uuid(["personnes", dcterms_identifier, "E13"]))
                 t(E13_uri, a, crm("E13_Attribute_Assignement"))
+                t(E13_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
                 t(E13_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  #Ajouter Isabelle
                 t(E13_uri, crm("P140_assigned_attribute_to"), E21_uri)
                 E13_notes_uri = she(get_uuid(["personnes", dcterms_identifier, "E13_notes", note_sha1]))
-                t(E13_notes_uri, RDFS.label, Literal(v))                    #Mais alors toutes les notes sont mélangées
+                t(E13_notes_uri, RDFS.label, Literal(v))
                 t(E13_uri, crm("P141_assigned"), E13_notes_uri)
                 t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
 

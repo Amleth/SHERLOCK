@@ -124,6 +124,7 @@ def narrow(id_opentheso, uuid_sherlock):
                                 F2_article_uri = she(get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"], cache_corpus))
                                 E13_index_uri = she(get_uuid(["lieu", identifier, "E93", "E13_indexation"]))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, DCTERMS.created, ro(id_opentheso, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
                                   she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
@@ -131,7 +132,7 @@ def narrow(id_opentheso, uuid_sherlock):
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                print(identifier, clef_mercure_article)
+                                #print(identifier, clef_mercure_article)
                                 pass
 
 
@@ -151,6 +152,7 @@ def narrow(id_opentheso, uuid_sherlock):
                                 E13_index_uri = she(
                                     get_uuid(["lieu", identifier, "E93", "E13_indexation"]))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, DCTERMS.created, ro(id_opentheso, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
                                   she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
@@ -158,7 +160,7 @@ def narrow(id_opentheso, uuid_sherlock):
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                print(identifier, clef_mercure_article)
+                                #print(identifier, clef_mercure_article)
                                 pass
 
             else:
@@ -166,6 +168,7 @@ def narrow(id_opentheso, uuid_sherlock):
                 note_sha1 = note_sha1_object.hexdigest()
                 E13_uri = she(get_uuid(["lieu", identifier, "E93", "E13"]))
                 t(E13_uri, a, crm("E13_Attribute_Assignement"))
+                t(E13_uri, DCTERMS.created, ro(id_opentheso, DCTERMS.created))
                 t(E13_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
                 t(E13_uri, crm("P140_assigned_attribute_to"), uuid_sherlock)
                 E13_notes_uri = she(get_uuid(["lieu", identifier, "E93", "E13_notes", note_sha1]))

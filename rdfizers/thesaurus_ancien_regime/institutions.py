@@ -141,6 +141,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                                 F2_article_uri = she(get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"], cache_corpus))
                                 E13_index_uri = she(get_uuid(["institutions et corporations", identifier, "E13_indexation"]))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, DCTERMS.created, ro(opentheso_institution_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
                                   she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
@@ -148,7 +149,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                print(identifier, clef_mercure_article)
+                                #print(identifier, clef_mercure_article)
                                 pass
 
             elif "##" in v:
@@ -167,6 +168,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                                 E13_index_uri = she(
                                     get_uuid(["institutions et corporations", identifier, "E13_indexation"]))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, DCTERMS.created, ro(opentheso_institution_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
                                   she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
@@ -174,7 +176,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                print(identifier, clef_mercure_article)
+                                #print(identifier, clef_mercure_article)
                                 pass
 
             else:
@@ -182,6 +184,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                 note_sha1 = note_sha1_object.hexdigest()
                 E13_uri = she(get_uuid(["institutions et corporations", identifier, "E13"]))
                 t(E13_uri, a, crm("E13_Attribute_Assignement"))
+                t(E13_uri, DCTERMS.created, ro(opentheso_institution_uri, DCTERMS.created))
                 t(E13_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))  # Ajouter Isabelle
                 t(E13_uri, crm("P140_assigned_attribute_to"), E74_uri)
                 E13_notes_uri = she(get_uuid(["institutions et corporations", identifier, "E13_notes", note_sha1]))

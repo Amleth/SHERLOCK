@@ -22,7 +22,6 @@ select distinct ?F2_livraison ?titre ?date ?nom where {
 
 ORDER BY ?date ?titre
 
-
 # AFFICHER LE FACSIMILE D'UNE LIVRAISON
 
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
@@ -45,7 +44,6 @@ select distinct ?F2_livraison ?titre ?date ?D1 where {
 
 ORDER BY ?date ?titre
 
-
 # AFFICHER LES ARTICLES TRIES PAR DATE ET PAR TITRE
 
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
@@ -65,7 +63,6 @@ select distinct ?F2_livraison ?titre ?date ?article ?titre_article where {
 
 ORDER BY ?date ?titre
 
-
 # AFFICHER LES NOMS DE PERSONNES TRIES PAR ORDRE ALPHABETIQUE
 
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
@@ -84,7 +81,6 @@ select distinct ?personne ?nom ?autrenom where {
 
 ORDER BY ?nom
 LIMIT 100
-
 
 # AFFICHER LES NOTES ASSOCIEES AUX NOMS DE PERSONNES
 
@@ -109,7 +105,6 @@ select distinct ?E21 ?nom ?note ?date ?firstname ?lastname where {
 
 ORDER BY ?nom
 LIMIT 100
-
 
 # AFFICHER LES INSTITUTIONS ET LEUR SOUS-INSTITUTIONS
 
