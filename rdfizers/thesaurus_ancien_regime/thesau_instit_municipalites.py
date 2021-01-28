@@ -74,8 +74,9 @@ for opentheso_municipalite_uri, p, o in input_graph.triples((URIRef("http://open
 							valeur_group_decode = unidecode.unidecode(valeur_group)
 							if valeur_group_decode not in lst[cle_group_decode]:
 								lst[cle_group_decode].append(valeur_group_decode)
+								print(cle_group_decode, institution)
 
 
 test = json.dumps(lst, indent = 4, ensure_ascii=False)
 outputtxt.write(test)
-print(test)
+#print(test)
