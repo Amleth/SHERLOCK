@@ -9,25 +9,27 @@ import re
 import sys
 
 #
-# CACHE
-#
-
-sys.path.append(str(Path(".").absolute().parent.parent))
-from cache_management import get_uuid, read_cache, write_cache  # nopep8
-
-cache_file = str(PurePath.joinpath(Path(".").absolute(), "cache.yaml"))
-read_cache(cache_file)
-
-#
 # ARGS
 #
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--mei_uuid")
+parser.add_argument("--mei_cache")
+parser.add_argument("--analytical_data_cache")
+parser.add_argument("--mei_sha1")
 parser.add_argument("--dataset_uuid")
 parser.add_argument("--xml")
 parser.add_argument("--ttl")
 args = parser.parse_args()
+
+#
+# CACHES
+#
+
+sys.path.append(str(Path(".").absolute().parent.parent))
+from Cache import Cache  # nopep8
+
+mei_cache = Cache(args.mei_cache)
+analytical_data_cache = Cache(args.analytical_data_cache)
 
 #
 # RDFLIB
@@ -35,18 +37,22 @@ args = parser.parse_args()
 
 g = Graph()
 
-sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
-g.bind("sdt", sdt_ns)
+# sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
+# g.bind("sdt", sdt_ns)
+
 polymir_ns = Namespace("http://data-iremus.huma-num.fr/ns/polymir#")
 g.bind("polymir", polymir_ns)
+
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 g.bind("crm", crm_ns)
+
 crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 g.bind("crmdig", crmdig_ns)
+
 sherlock_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 
 #
-# SHERLOCK
+# SHERLOCK DATA
 #
 
 E55 = {
@@ -64,18 +70,20 @@ E55 = {
 root = etree.parse(args.xml).getroot()
 for pitch_coll in root:
     for analyzed_pitch in pitch_coll:
-        analyzed_pitch_uuid = get_uuid([analyzed_pitch.attrib["id"], analyzed_pitch.attrib["offset"]])
-        s = URIRef(sherlock_ns[analyzed_pitch_uuid])
-        g.add((s, RDF.type, URIRef(crm_ns["E13_Attribute_Assignment"])))
-        g.add((s, URIRef(crm_ns["P14_carried_out_by"]), URIRef(args.dataset_uuid)))
-        # g.add((s, RDF.type, URIRef(polymir_ns['AnalyzedPitch'])))
-        # g.add((s, URIRef(polymir_ns['pitchType']), URIRef(E55[analyzed_pitch.attrib["pitchType"]])))
+        print(analyzed_pitch)
+#         analyzed_pitch_uuid = get_uuid([analyzed_pitch.attrib["id"], analyzed_pitch.attrib["offset"]])
+#         s = URIRef(sherlock_ns[analyzed_pitch_uuid])
+#         g.add((s, RDF.type, URIRef(crm_ns["E13_Attribute_Assignment"])))
+#         g.add((s, URIRef(crm_ns["P14_carried_out_by"]), URIRef(args.dataset_uuid)))
+#         # g.add((s, RDF.type, URIRef(polymir_ns['AnalyzedPitch'])))
+#         # g.add((s, URIRef(polymir_ns['pitchType']), URIRef(E55[analyzed_pitch.attrib["pitchType"]])))
 
 
-#
-# BYE
-#
+# #
+# # BYE
+# #
 
-write_cache(cache_file)
-print(g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/").decode("UTF8"))
-g.serialize(destination=args.ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+# print(g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/").decode("UTF8"))
+# g.serialize(destination=args.ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+
+analytical_data_cache.bye()

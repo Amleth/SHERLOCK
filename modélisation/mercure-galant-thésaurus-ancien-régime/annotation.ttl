@@ -29,21 +29,17 @@
   crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
   crm:P140_assigned_attribute_to <6e1efc03-1d24-4204-843b-d78cb884b640> ;
   crm:P141_assigned <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
-  crm:P177_assigned_property_type <86c33294-edb1-4cb3-b349-8c12ed0032fb> ;
+  crm:P177_assigned_property_type sherlock:sheP_a_pour_passage_intéressant ;
   dcterms:created "2020-11-16T14:55:58+0000"^^xsd:dateTime ;
   .
 
 # L'événement d'annotation
 
 <447672cc-589a-4881-8ab5-8890a1611e95>
-  a she:sheE_Reference_Assignment ;
+  a crm:E13_Attribute_Assignment ;
   crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
-  crm:P140_assigned_attribute_to <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
-  crm:P141_assigned <f4f3476e-3551-4633-8f9b-2ef564e63155> ;
-  crm:P177_assigned_property_type crm:P67_refers_to ; # TODO, non ce n'est pas P67 ici (cf scope note) => Utiliser <c605c8bb-9387-4da1-baec-b0514fd9999c>
-  crm:P2_has_type <4a673f92-174e-41cb-b0e1-9c32985fa07c> ;
+  crm:P140_assigned_attribute_to <0ccd5c86-03bb-483f-bafe-de7585d533ca> ; # fragment de texte
+  crm:P141_assigned <f4f3476e-3551-4633-8f9b-2ef564e63155> ; # une personne du KG
+  crm:P177_assigned_property_type <c605c8bb-9387-4da1-baec-b0514fd9999c> ; # le fragment désigne la personne
   dcterms:created "2020-11-17T15:23:34+0000"^^xsd:dateTime ;
 .
-
-# TODO créer une propriété qui établit le fait qu'un E33 désigne un E55
-# TODO créer une propriété qui établit le fait qu'un E33 parle d'un E55 (c'est P129 en fait)

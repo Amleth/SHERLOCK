@@ -99,27 +99,18 @@
 <fdc2bd53-30a7-4623-a27a-5d8cb82f1d5f>
 a crm:E32_Authority_Document ;
     crm:P1_is_identified_by "Annotations scientifiques"@fr ;
-    crm:P71_lists <86c33294-edb1-4cb3-b349-8c12ed0032fb> ;
+    crm:P71_lists <c605c8bb-9387-4da1-baec-b0514fd9999c> ;
+    crm:P71_lists <4d6dec11-4b38-4c27-91b0-5346c83d96f8> ;
     .
 
-<86c33294-edb1-4cb3-b349-8c12ed0032fb>
+<4d6dec11-4b38-4c27-91b0-5346c83d96f8>
     a crm:E55_Type ;
-    crm:P1_is_identified_by "A pour passage intéressant" ;
+    crm:P1_is_identified_by "Évoque"@fr ;
     .
 
-<4a673f92-174e-41cb-b0e1-9c32985fa07c>
+<c605c8bb-9387-4da1-baec-b0514fd9999c>
     a crm:E55_Type ;
-    crm:P1_is_identified_by "Identification" ;
-    .
-
-<2b85ba93-5325-4f79-84cd-1b7c1773ec4b>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Fait référence à" ;
-    .
-
-<cead6995-9f5e-498a-9601-f95b28404861>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Datation" ;
+    crm:P1_is_identified_by "Désigne"@fr ;
     .
 
 # Types
@@ -162,16 +153,4 @@ she:sheP_MEI_Element
 <b8b5f8ac-ecb9-4739-a505-a854b1ab2b18>
     a crm:E55_Type ;
     crm:P1_is_identified_by "Source" ;
-    .
-
-# Vocabulaire sémiotique
-
-<fd2f26c9-9624-4206-a2b2-89c3803970fb>
-    a crm:E32_Authority_Document ;
-    crm:P1_is_identified_by "Vocabulaire sémiotique"@fr ;
-    crm:P71_lists <c605c8bb-9387-4da1-baec-b0514fd9999c> ;
-    .
-<c605c8bb-9387-4da1-baec-b0514fd9999c>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Désigne"@fr ;
     .

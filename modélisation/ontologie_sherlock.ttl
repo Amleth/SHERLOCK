@@ -13,3 +13,10 @@ sherlock:sheP_rôle_possible_dans_un_groupe
     rdfs:domain crm:E74_Group ;
     rdfs:range crm:E55_Type ;
     .
+
+sherlock:sheP_a_pour_passage_intéressant
+    a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P106_is_composed_of ;
+    rdfs:domain crm:E90_Symbolic_Object ;
+    rdfs:range crm:E90_Symbolic_Object ;
+    .

@@ -7,30 +7,20 @@
 
 # RDFIZE
 
-- Et merde, find_usable n'a pas marché : naissance_ville_nom_valeur / naissance_ville_nom_TDC_valeur
+- Et zut, find_usable n'a pas marché : naissance_ville_nom_valeur / naissance_ville_nom_TDC_valeur
 
 # CRA
 
-- Nom prénom ne marche plus
 - afficher une adresse avec compléments
-- onglet discipline (mais de quelles disciplines parle t-on ?)
 - pour le filtrage chronologique : raisonner en années scolaires et pas en années civiles
+- pb de légende des tooltips à cause du %5
 
 # DONNÉES
 
-- Dire qu'on a développé des heuristiques pour :
-    - trouver une valeur utilisable (on favorise la valeur TDC)
-    - joindre des valeurs divergentes dans une même chaîne de caractère, mais par colonne (donc pas de fusion non-TDC/TDC)
-- ÉLÈVES :
-    - (valeur divergente)
-    - http://localhost:3000/hemef/eleve/f322f70b-bc14-4b0c-9473-df08326d9943 (pour les valeurs identiques R/TDC)
-    - http://localhost:3000/hemef/eleve/251c07d5-617a-4da5-9403-28cb13df2910 (date avec hypothèse)
 - CLASSES :
     - classe_cote_AN_TDC devrait être sur les parcours-classe
-    - Cette élève est passée deux fois dans la même classe : http://localhost:3000/hemef/eleve/2b1ee73b-47bd-4343-9903-b83c876aa826
 - PRIX :
-    Les deux prix de 1859-0740 sont-ils les mêmes ?s
-    - La moitié des prix ont une discipline_catégorie
+    - Les deux prix de 1859-0740 sont-ils les mêmes ?
 - Point sur les colonnes inconnues
     COLONNES INCONNUES sources/1856_1861_modifié V3.xlsx
         ['classe_observations', 'classe_type']
@@ -117,3 +107,32 @@
 
 Montrer les prédicats qui ont des valeurs composites :
 `cat out/hemef.ttl| grep ⬢ | cut -c 5- | cut -d " " -f 1 | sort | uniq`
+
+# GRAPHIQUES MARIE
+
+<!-- 1. (proposée par Thomas) Répartition F/H par prix obtenu dans chaque discipline, sous forme d’histogramme empilé (une barre par discipline, scindée en deux sous-barres représentant la répartition H/F).
+
+colonnes : 
+prix_discipline_categorie et categorie_TDC (pour le nouveau tableau)
+prix_nom et prix_nom TDC -->
+
+2. Nombre d'élèves nouvellement inscrits au Conservatoire (et dans telle discipline ?), sous forme d'histogramme empilé (une barre par année, scindée en deux sous-barres représentant la répartition H/F). (Idéalement, il faudrait pouvoir sélectionner soit tous les élèves, soit seulement les hommes, soit seulement les femmes, et pouvoir cibler une discipline ou toutes.)
+
+colonnes :
+cursus_date_entree_conservatoire et TDC
+eleve_sexe et TDC
++ 
+parcours_classe_date_entree et TDC 
+classe_discipline_categorie et TDC
+eleve_sexe et TDC
+
+
+3. Répartition des élèves nouvellement inscrits à un instant T dans les différentes disciplines du Conservatoire, sous forme de camembert, chaque tranche de camembert correspondant à une discipline (Idéalement, il faudrait pouvoir créer des camemberts en sélectionnant soit tous les élèves, soit seulement les hommes, soit seulement les femmes.)
+
+colonnes :
+eleve_sexe et TDC
+classe_discipline_categorie et TDC
+
+5. Eventuellement durée des cursus, sous forme d'histogramme (une barre par nombre d'années passées dans l'établissement).
+
+colonnes : opération à faire : cursus_date_sortie_conservatoire et TDC MOINS cursus_date_entree_conservatoire et TDC
