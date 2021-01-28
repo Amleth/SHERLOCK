@@ -14,7 +14,7 @@
 ################################################################################
 
 # un fichier MEI
-<1269f40f-a960-4c94-aa8d-bff42414ad89>
+<04dd4963-8dc3-44ce-a9bc-b38f7d9a02ac>
   a crmdig:D1_Digital_Object ;
   a crm:E31_Document ;
   crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> ;
@@ -34,8 +34,7 @@
 # une note (cible d'annotations)
 <549120f5-fbe8-496b-8578-90fd54de202b>
   a crmdig:D35_Area ;
-  # a mo:Note ;
-  crmdig:L49_is_primary_area_of <1269f40f-a960-4c94-aa8d-bff42414ad89> ;
+  crmdig:L49_is_primary_area_of <04dd4963-8dc3-44ce-a9bc-b38f7d9a02ac> ;
   crm:P1_is_identified_by [
     a crm:E42_Identifier ;
     crm:P2_has_type <a1e06dc7-f2d8-403a-8061-50d56411c031> ;
@@ -56,7 +55,7 @@
 # une éxécution de l'algorithme PolyMIR
 <eb7c7e2b-8c9b-439a-a786-e561af3ae868>
   a crmdig:D10_Software_Execution ;
-  crmdig:L10_had_input <1269f40f-a960-4c94-aa8d-bff42414ad89> ;
+  crmdig:L10_had_input <04dd4963-8dc3-44ce-a9bc-b38f7d9a02ac> ;
   crmdig:L10_had_input <7fbdd0aa-0c17-451c-884b-f79efdfd8381> ;
   crmdig:L11_had_output <de48731c-b714-464e-a7ae-bb93ce9bfba7> ;
   crmdig:L13_used_parameters <d0992488-ccaa-4af3-bb91-ee388772584a> ;
@@ -95,14 +94,7 @@
   crm:P141_assigned <0bbe0556-1ac9-4ef8-b449-23e834dcc2b2> ;
   crm:P177_assigned_property_type <169ab089-c0a8-43ab-aec4-5a1a6e1b52c1> ;
   crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> ;
-  crm:P4_has_time-span [
-    a crm:E52_Time-Span ;
-    a time:Interval ;
-    time:hasEnd [
-      a time:Instant ;
-      time:inXSDDateTimeStamp "2019-10-13T13:00:00Z"^^xsd:dateTime
-    ];
-  ] ;
+  dcterms:created "2019-10-13T13:00:00Z"^^xsd:dateTime ;
   .
 
 # Une annotation effectuée par Christophe
