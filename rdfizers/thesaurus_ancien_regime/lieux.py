@@ -131,7 +131,7 @@ def narrow(id_opentheso, uuid_sherlock):
                                   she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), uuid_sherlock)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+                                t(E13_index_uri, crm("P177_assigned_property_type"), she("c605c8bb-9387-4da1-baec-b0514fd9999c"))
 
                             except:
                                 #print(identifier, clef_mercure_article)
@@ -161,7 +161,7 @@ def narrow(id_opentheso, uuid_sherlock):
                                   she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), uuid_sherlock)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+                                t(E13_index_uri, crm("P177_assigned_property_type"), she("c605c8bb-9387-4da1-baec-b0514fd9999c"))
 
                             except:
                                 #print(identifier, clef_mercure_article)

@@ -22,17 +22,9 @@
     <list default="true" id="3b313471-60a7-4828-a830-a4eeb3bf8b08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../cache_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cache_management.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_institutions.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_institutions.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_lieux.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_lieux.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_personnes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_personnes.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/institutions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/institutions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/lieux.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/lieux.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/out/institutions.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/out/institutions.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/out/institutions_municipalites.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/out/institutions_municipalites.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/out/lieux.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/out/lieux.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/out/personnes.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/out/personnes.ttl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/personnes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/personnes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/thesau_instit_municipalites.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/thesau_instit_municipalites.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
