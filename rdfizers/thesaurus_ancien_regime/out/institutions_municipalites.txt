@@ -1,41 +1,43 @@
 {
     "Corps de ville": [
         "Echevin",
-        "Corps de justice",
         "Maire",
+        "Maire perpetuel",
         "Consuls",
-        "Consul",
-        "Bourgmestre",
         "Echevins",
+        "Bourgmestre",
+        "Consul",
+        "Jurat",
         "Jurats",
+        "Capitoul",
         "Conseillers",
-        "Corps de ville",
-        "Maire perpetuel"
+        "Corps de ville"
     ],
+    "Syndics": [],
     "Magistrats": [
-        "Juges consuls",
-        "Juges"
+        "Juges",
+        "Juges consuls"
     ],
+    "Milice bourgeoise": [
+        "Fifres",
+        "Fifres de la milice bourgeoise"
+    ],
+    "Musique": [
+        "Hautbois",
+        "Trompettes",
+        "Tambours",
+        "Violons"
+    ],
+    "Quartiniers": [],
+    "Officiers de la ville": [],
+    "Prevots des marchands": [],
+    "Officiers": [],
+    "Prevot des marchands": [],
     "Guet": [
         "Compagnie des hallebardiers"
     ],
-    "Musique": [
-        "Tambours",
-        "Violons",
-        "Hautbois"
-    ],
-    "Milice bourgeoise": [
-        "Fifres de la milice bourgeoise",
-        "Fifres"
-    ],
-    "Administrateur municipal": [],
-    "Syndics": [],
-    "Officiers": [],
-    "Officiers de la ville": [],
-    "Prevots des marchands": [],
-    "Quartiniers": [],
-    "Prevot des marchands": [],
     "Vierg": [],
+    "Administrateur municipal": [],
     "Corps de justice": [],
     "Compagnie de fusiliers": []
 }
