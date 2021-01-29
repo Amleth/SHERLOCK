@@ -105,7 +105,7 @@ t(P1_file_sha1_uri, RDFS.label, l(args.mei_sha1))
 for e in root.xpath("//*"):
     xmlida = "{" + xml_ns["xml"] + "}id"
     if xmlida in e.attrib:
-        xmlid_uuid = u(mei_cache.get_uuid([args.mei_sha1, "xml:id", l(e.attrib[xmlida])]))
+        xmlid_uuid = u(mei_cache.get_uuid([args.mei_sha1, "xml:id", l(e.attrib[xmlida])], True))
         t(xmlid_uuid, RDF.type, dig("D35_Area"))
         t(xmlid_uuid, she("sheP_MEI_Element"), l(etree.QName(e.tag).localname))
         print(l(etree.QName(e.tag).localname))
@@ -115,5 +115,5 @@ for e in root.xpath("//*"):
 # BYE
 #
 
-g.serialize(destination=args.ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/").decode("utf-8")
+g.serialize(destination=args.ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
 mei_cache.bye()
