@@ -233,6 +233,7 @@ def explore(id, depth):
 			t(narrower_uuid, crm("P10_falls_within"), E93_uri)
 		explore(narrower, depth + 1)
 
+
 ####################################################################################
 # DONNÉES STATIQUES
 ####################################################################################
@@ -250,6 +251,7 @@ t(E32_ancien_regime_uri, crm("P71_lists"), E32_lieux_uri)
 t(E32_lieux_uri, a, crm("E32_Authority_Document"))
 t(E32_lieux_uri, crm("P1_is_identified_by"), Literal("Noms de lieux"))
 
+
 ####################################################################################
 # THESAURUS "GRAND SIECLE"
 ####################################################################################
@@ -263,76 +265,24 @@ t(E32_lieux_uri, crm("P71_lists"), E32_grand_siecle_uri)
 
 explore(URIRef("http://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 
-"""
-
-	# Lieux listés par le thésaurus "Grand Siècle"
-
-	narrower1 = ro_list(opentheso_GrandSiecle_uri, SKOS.narrower)
-	for narrower in narrower1:
-		identifier = ro(narrower, DCTERMS.identifier)
-		narrower1_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
-		t(E32_grand_siecle_uri, crm("P71_lists"), narrower1_uri)
-		narrow(narrower, narrower1_uri)
-		narrower2 = ro_list(narrower, SKOS.narrower)
-		for narrower in narrower2:
-			identifier = ro(narrower, DCTERMS.identifier)
-			narrower2_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
-			narrow(narrower, narrower2_uri)
-			t(narrower2_uri, crm("P10_falls_within"), narrower1_uri)
-			narrower3 = ro_list(narrower, SKOS.narrower)
-			for narrower in narrower3:
-				identifier = ro(narrower, DCTERMS.identifier)
-				narrower3_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
-				narrow(narrower, narrower3_uri)
-				t(narrower3_uri, crm("P10_falls_within"), narrower2_uri)
-				narrower4 = ro_list(narrower, SKOS.narrower)
-				for narrower in narrower4:
-					identifier = ro(narrower, DCTERMS.identifier)
-					narrower4_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
-					narrow(narrower, narrower4_uri)
-					t(narrower4_uri, crm("P10_falls_within"), narrower3_uri)
 
 ####################################################################################
 # THESAURUS "MONDE CONTEMPORAIN"
 ####################################################################################
 
-for opentheso_MondeCont_uri, p, o in input_graph.triples((URIRef("http://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), RDF.type, SKOS.Concept)):
+# Création du thésaurus "Monde Contemporain"
 
-	# Création du thésaurus "Monde contemporain"
+E32_mon_cont_uri = URIRef(iremus_ns["41dd59e3-2f0c-4ef3-b08c-9606f33a4a48"])
+t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
+t(E32_mon_cont_uri, crm("P1_is_identified_by"), Literal("Monde contemporain"))
+t(E32_lieux_uri, crm("P71_lists"), E32_mon_cont_uri)
 
-	E32_mon_cont_uri = URIRef(iremus_ns["41dd59e3-2f0c-4ef3-b08c-9606f33a4a48"])
-	t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
-	t(E32_mon_cont_uri, crm("P1_is_identified_by"), Literal("Monde contemporain"))
-	t(E32_lieux_uri, crm("P71_lists"), E32_mon_cont_uri)
+explore(URIRef("http://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
 
-	# Lieux listés par le thésaurus "Monde contemporain"
 
-	narrower1 = ro_list(opentheso_MondeCont_uri, SKOS.narrower)
-	for narrower in narrower1:
-		identifier = ro(narrower, DCTERMS.identifier)
-		narrower1_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
-		t(E32_mon_cont_uri, crm("P71_lists"), narrower1_uri)
-		narrow(narrower, narrower1_uri)
-		narrower2 = ro_list(narrower, SKOS.narrower)
-		for narrower in narrower2:
-			identifier = ro(narrower, DCTERMS.identifier)
-			narrower2_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
-			narrow(narrower, narrower2_uri)
-			t(narrower2_uri, crm("P10_falls_within"), narrower1_uri)
-			narrower3 = ro_list(narrower, SKOS.narrower)
-			for narrower in narrower3:
-				identifier = ro(narrower, DCTERMS.identifier)
-				narrower3_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
-				narrow(narrower, narrower3_uri)
-				t(narrower3_uri, crm("P10_falls_within"), narrower2_uri)
-				narrower4 = ro_list(narrower, SKOS.narrower)
-				for narrower in narrower4:
-					identifier = ro(narrower, DCTERMS.identifier)
-					narrower4_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
-					narrow(narrower, narrower4_uri)
-					t(narrower4_uri, crm("P10_falls_within"), narrower3_uri)
-
-"""
+####################################################################################
+# ECRITURE DU CACHE ET DES TRIPLETS
+####################################################################################
 
 write_cache(args.cache_lieux)
 output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
