@@ -138,7 +138,7 @@ for file in os.listdir(args.tei):
     g.add((livraison_F2_tei_uri, URIRef(crm_ns["P1_is_identified_by"]), livraison_F2_tei_E42_uri))
     g.add((livraison_F2_tei_E42_uri, RDF.type, URIRef(crm_ns["E42_Identifier"])))
     g.add((livraison_F2_tei_E42_uri, URIRef(crmdig_ns["P2_has_type"]), URIRef(iremus_ns["219fd53d-cdf2-4174-8d71-6d12bdd24016"])))
-    g.add((livraison_F2_tei_E42_uri, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant-{file[3:-4]}.tei")))
+    g.add((livraison_F2_tei_E42_uri, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/MG-{file[3:-4]}.tei")))
     # Creation de l'expression TEI
     livraison_F2_tei_E65_uri = she(get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E65"]))
     g.add((livraison_F2_tei_E65_uri, RDF.type, URIRef(crm_ns["E65_Creation"])))
@@ -188,7 +188,7 @@ for file in os.listdir(args.tei):
         g.add((article_F2_E42_uri, URIRef(crm_ns["P106_is_composed_of"]), article_F2_E42_uri_part1))
         g.add((article_F2_E42_uri_part1, RDF.type, URIRef(crm_ns["E42_Identifier"])))
         g.add((article_F2_E42_uri_part1, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["9b63d6ef-5c5b-4eca-92f4-76c083918129"])))
-        g.add((article_F2_E42_uri_part1, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant-{article_id[3:]}.tei")))
+        g.add((article_F2_E42_uri_part1, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/MG-{file[3:-4]}.tei")))
         # Partie 2
         g.add((article_F2_E42_uri, URIRef(crm_ns["P106_is_composed_of"]), article_F2_E42_uri_part2))
         g.add((article_F2_E42_uri_part2, RDF.type, URIRef(crm_ns["E42_Identifier"])))
