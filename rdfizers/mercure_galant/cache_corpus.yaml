@@ -115,6 +115,8 @@ Corpus:
             F2_E42: 4d385ded-e5d1-415e-b2f5-b2452319cd61
             F2_E42_part1: 726c66c5-b301-45f0-8a3a-c301f32e95eb
             F2_E42_part2: bac23f17-7c78-4cff-90b1-df0b4e66db6d
+          MG-1677-06_151:
+            F2: 658a1093-0b8f-4992-9400-9bdc12fe20db
     MG-1677-12:
       F1: 2cf41c29-a069-4dea-a8c1-7eb4c7cb2c25
       Expression originale:
@@ -317,6 +319,8 @@ Corpus:
             F2_E42: 36269e2c-8440-48aa-973f-221f3eb74113
             F2_E42_part1: da5ffe1b-ca63-41d7-88ba-fd40ca414dd9
             F2_E42_part2: 4470642d-0286-4dce-9990-bcf0b2cb16ba
+          MG-1677-12_055:
+            F2: 935f7450-2845-4f77-8178-aee7bb8e2ea3
     MG-1701-04A:
       F1: c3bc72b7-34a9-4d03-ba1e-9e9041d458a5
       Expression originale:
@@ -767,6 +771,12 @@ Corpus:
             F2_E42: 3a998bd6-b6a0-4a35-9eca-aba47c9e7636
             F2_E42_part1: 6fe8341f-777a-454d-b506-91412cf94232
             F2_E42_part2: ed18d869-b3cb-4da0-bb9b-3bc6591f00a8
+          MG-1679-03_055:
+            F2: aebea3ec-f5bd-4a04-bec7-5cabc7a167a3
+          MG-1679-03_136:
+            F2: 1fa9bafb-42f3-4ce6-a331-775413124370
+          MG-1679-03_167:
+            F2: 885c680f-c112-4d0d-bae2-f0d5a6affc1e
     MG-1681-09:
       F1: f304a9a7-3b08-4778-b16c-12c4ff57776f
       Expression originale:
@@ -891,6 +901,10 @@ Corpus:
             F2_E42: 6935da0e-fc66-45bf-9fc4-8ff13e1b0b8f
             F2_E42_part1: 8b4c6261-8a26-4db1-9f0c-69bafef75d45
             F2_E42_part2: c024762e-0676-4b69-99fd-492afc09bebe
+          MG-1681-09_025:
+            F2: 53db179a-7ea6-4cfb-8f33-566d8de71525
+          MG-1681-09_013:
+            F2: 948a5b83-c78f-4717-9003-912336496554
     MG-1704-03:
       F1: 9e08ff4c-a620-4f9a-a0c9-b6fc196962ac
       Expression originale:
@@ -3449,6 +3463,8 @@ Corpus:
             F2_E42: c2e4adb6-8a6e-4fee-b685-4f49fff1acad
             F2_E42_part1: b46b084f-da24-4cf1-9557-5c8aabaf290e
             F2_E42_part2: 2c6fc0bc-30a0-459a-937f-63e3d8bbffbe
+          MG-1698-01_077:
+            F2: ab59ca9b-ad16-42e9-93bb-556f3622db1e
     MG-1681-08:
       F1: 0a9be7a8-2ffa-4089-9035-a26398fbecf4
       Expression originale:
@@ -3621,6 +3637,12 @@ Corpus:
             F2_E42: 21cd3f84-69cd-4a7e-8e8e-3814629c33f5
             F2_E42_part1: baa20d92-e1b4-4840-a77e-54a67e8f15cc
             F2_E42_part2: 00dc3357-e696-4780-8f9d-a7daeabbafa8
+          MG-1681-08_019:
+            F2: 9754def5-44d4-4ed6-be0d-e4f79504e766
+          MG-1681-08_053:
+            F2: d2b015f0-0c03-4481-97cd-44fe94338c3c
+          MG-1681-08_081:
+            F2: 33be195a-242c-4625-8572-0185a7aaaeb8
     MG-1686-01:
       F1: a35fe4fc-f89d-493c-9752-8c262178394a
       Expression originale:
@@ -3787,6 +3809,8 @@ Corpus:
             F2_E42: b9f88edf-5513-4c98-b0f1-ee725279998c
             F2_E42_part1: 90d705e4-ea1e-4bd3-a141-4ff7aa1ddf1b
             F2_E42_part2: a4856acf-921b-4063-9f7b-331a8a4b5dc9
+          MG-1686-01_284:
+            F2: acd2b272-d338-447a-b3f4-5511b82df4ef
     MG-1704-02:
       F1: 4ed92737-dee8-4d13-b4e2-734ace2e33eb
       Expression originale:
@@ -4119,6 +4143,8 @@ Corpus:
             F2_E42: 39d890b6-2240-4fcb-bb88-112b553a1e51
             F2_E42_part1: f92c5415-a53b-499a-82ec-514615deefc6
             F2_E42_part2: 2ec03bde-d5da-46cf-8807-fdfb15242bfb
+          MG-1679-02_202:
+            F2: 590e9db3-d3a4-47d4-8a72-40d2cd909b34
     MG-1677-07:
       F1: aa8b0a0d-140d-49ae-b326-74b140a43d8f
       Expression originale:
@@ -4303,6 +4329,8 @@ Corpus:
             F2_E42: 19f91f89-0c98-4fa4-9e32-7ac1e694368f
             F2_E42_part1: 551452a3-0b45-4a59-b38b-9ada7dc8cc6e
             F2_E42_part2: 3a2662b8-9867-4169-9959-f9ceb7b3d160
+          MG-1677-07_100:
+            F2: 21f736c2-8153-42df-8a76-da6d0f8d3039
     MG-1677-11:
       F1: 2e08edb2-f332-4c89-a6e9-d4486a994e52
       Expression originale:
@@ -7071,6 +7099,12 @@ Corpus:
             F2_E42: c19bbbb5-21d9-4c19-b970-daab467df290
             F2_E42_part1: fb1d276b-f6ed-49f0-b741-36929b239e93
             F2_E42_part2: 7f9c1faa-317a-43c0-a766-a3f9178ae59d
+          MG-1704-07b_34:
+            F2: 78d207ef-04cd-44b7-9392-2f81b47974c7
+          MG-1704-07b_198:
+            F2: 5fd23174-4669-4ae2-856b-7675e4df4544
+          MG-1704-07b_371:
+            F2: fda9532c-5367-41d9-b756-524bb2566a6c
     MG-1694-02:
       F1: 4d2bbf29-7d30-403c-a0a1-c098b067e6e1
       Expression originale:
@@ -7957,6 +7991,14 @@ Corpus:
             F2_E42: fbd9a6c7-954a-49c3-876c-990c2eaae022
             F2_E42_part1: 7f533427-d416-44b1-946c-d1c107dc059c
             F2_E42_part2: 85565c1f-9c24-42f7-9477-36198c90d09c
+          MG-1679-01_331:
+            F2: b650ebd7-5a28-4203-bd31-0c5cb02d3fe1
+          MG-1679-01_189:
+            F2: 1c6b8863-0109-46b0-8aa9-4dfc7b6f7699
+          MG-1679-01_000:
+            F2: 8856ce6f-da6a-464b-bffd-f1627cba363a
+          MG-1679-01_330:
+            F2: 20f11689-0b5f-4fff-9c0e-b7dfde96f61d
     MG-1677-04:
       F1: f310df38-0b9a-4170-addb-8246635875ca
       Expression originale:
@@ -8283,6 +8325,8 @@ Corpus:
             F2_E42: de002f5c-5381-49f7-a1d4-b757023b27ff
             F2_E42_part1: bef4f3fa-3bc4-4792-9c5e-9591ccf97dab
             F2_E42_part2: 4ac60d3f-c9af-4b68-b7a8-b6c8425478a1
+          MG-1677-10_085:
+            F2: d412a71c-e801-464c-a061-786a19e9995a
     MG-1679-05:
       F1: f052c20c-0f19-4907-a11c-bcc1c92a8eb3
       Expression originale:
@@ -8503,6 +8547,8 @@ Corpus:
             F2_E42: c53a3eb9-43e4-4a3e-a090-862d36ff12b8
             F2_E42_part1: d75d8b45-c5ed-486d-9889-ade34e032714
             F2_E42_part2: 2fb91c64-24b4-45c9-866a-48ae0d34f4eb
+          MG-1679-05_009:
+            F2: 89033f32-9073-46ab-83f5-383414ad813c
     MG-1679-11:
       F1: de231689-8405-41e1-90ca-93595a4a7a5c
       Expression originale:
@@ -8705,6 +8751,10 @@ Corpus:
             F2_E42: b53da6d4-7804-4bc3-a687-168e96b5242d
             F2_E42_part1: ef7295aa-301c-4241-ab83-b8e3b1f6d42d
             F2_E42_part2: 0e551f7b-3d21-4da8-84f8-a75e72367083
+          MG-1679-11_322:
+            F2: 89990471-1108-43c5-ab7e-057b689186ab
+          MG-1679-11_229:
+            F2: 9679bbb9-b738-4dce-8804-38bfedd14f22
     MG-1680-06e:
       F1: ed1c9b7f-f35a-4a6e-94bf-e06386e91776
       Expression originale:
@@ -8739,6 +8789,8 @@ Corpus:
             F2_E42: 49e351d6-8f54-4c35-9baf-9622060b340e
             F2_E42_part1: d17e8328-e488-466e-8fe1-5ba66b9ac343
             F2_E42_part2: 835cf126-3554-472c-84b0-614024e3c5b4
+          MG-1680-06e_262:
+            F2: df2fc59c-26e5-45c5-aab9-16aa303fab54
     MG-1690-07a:
       F1: 5828c684-572c-4679-8f9e-f2619de5a0a1
       Expression originale:
@@ -9251,6 +9303,8 @@ Corpus:
             F2_E42: 8132caef-c271-4026-bb5f-a3a8796e8bab
             F2_E42_part1: b6d3c0d1-7740-43c8-a156-717d17b7861a
             F2_E42_part2: f24dd3b7-0286-42c4-a89a-503415fdad89
+          MG-1688-03_180:
+            F2: 774029a7-1b62-4551-a690-e78a116769bc
     MG-1684-12e:
       F1: 6afe3464-7622-4468-9b0d-6813d4aff448
       Expression originale:
@@ -10431,6 +10485,10 @@ Corpus:
             F2_E42: 28904ac3-eca2-4114-b6a6-db16779746bd
             F2_E42_part1: a6ab094f-60bb-4bcf-9d3b-2beca479c9f5
             F2_E42_part2: fdb412ea-fb44-4d36-8efa-d033777f5dee
+          MG-1694-06_255:
+            F2: 626857b1-eb87-451c-93d5-e8f02ef5f64d
+          MG-1694-06_340:
+            F2: ca4fcc25-fa55-486a-9728-d6356938ab24
     MG-1694-12:
       F1: 330d39f6-a6d8-4268-99a6-50ff0e1b20b9
       Expression originale:
@@ -12735,6 +12793,8 @@ Corpus:
             F2_E42: 57d9e66c-9c93-47a0-b96a-69dc0a20b9dd
             F2_E42_part1: 086cfaaf-a4e0-4546-89ef-eaa12a4c2536
             F2_E42_part2: b93cda50-ca8a-43b1-90f2-baac3cfb8c3a
+          MG-1679-04_004:
+            F2: ff903d2b-3920-45ba-b307-b957ea13ed56
     MG-1690-07b:
       F1: c11d1315-cd2f-4fde-9c4a-d4a0ebb40018
       Expression originale:
@@ -12815,6 +12875,8 @@ Corpus:
             F2_E42: 5b8f1ab1-5024-46b5-92e3-680a8000d497
             F2_E42_part1: 0c81f382-47cb-40fd-bb81-5250a388db03
             F2_E42_part2: e894493a-5a34-4e9a-be8e-2c6b4cb2b0e4
+          MG-1679-12_232:
+            F2: b298bac6-7a9d-4a37-b770-27373448b51a
     MG-1679-06:
       F1: 77530eb0-2af2-4e99-b90a-06f85c07d591
       Expression originale:
@@ -13353,6 +13415,8 @@ Corpus:
             F2_E42: c301e59a-0e28-4889-89ab-9cc12d3b4413
             F2_E42_part1: 7e075895-199b-437a-9224-eaebeeea09d2
             F2_E42_part2: b8043005-8d57-4e2f-a6f1-b8dc8a2ecc1e
+          MG-1686-05_206:
+            F2: a39edab6-05a9-43df-9e79-f8aa9002280e
     MG-1704-12:
       F1: 0d75b15b-dcae-4903-914b-7787851650a8
       Expression originale:
@@ -14015,6 +14079,22 @@ Corpus:
             F2_E42: f3f8c32f-a9ca-47c4-a07f-171b33ceeb8d
             F2_E42_part1: c78db22c-4ae5-4df7-8c0a-b206c8d665f2
             F2_E42_part2: e3fb652e-b8a7-4e39-93eb-c2930c7b5c67
+          MG-1687-03b_006:
+            F2: 3959b6a1-c9e9-4d62-96e5-9344be23d7c7
+          MG-1687-03b_007:
+            F2: b53c2593-02b5-4fd1-a07b-e09f114f7f6d
+          MG-1687-03b_208:
+            F2: 084399ff-3386-42e4-8599-1d23fb674266
+          MG-1687-03b_109:
+            F2: 60233ea7-2547-4122-a5f7-7191efe996e3
+          MG-1687-03b_297:
+            F2: 78f3c91e-7708-46b6-9f90-8112715c7939
+          MG-1687-03b_422:
+            F2: c1944866-1d05-4931-8689-7054ab15e6e2
+          MG-1687-03b_415:
+            F2: 9189706c-76ce-46b5-a363-dbe6b4a7c456
+          MG-1687-03b_048:
+            F2: b1ee8cab-b1a7-42fe-af98-abc037d2d2c0
     MG-1691-09:
       F1: 673b3676-94e0-4432-8d41-e08b28ac4329
       Expression originale:
@@ -14321,6 +14401,8 @@ Corpus:
             F2_E42: 39e6cf6c-7b76-4c7a-bc4d-3f8d8a9ed6fd
             F2_E42_part1: 6888ae31-6911-4b19-a53c-87157d53d6b7
             F2_E42_part2: 98ff534c-6d13-40cd-a357-76b52d7817f2
+          MG-1698-11_209:
+            F2: 5b27c53f-821e-40e5-9f39-c6e4a329055c
     MG-1689-07a:
       F1: bfedf3ef-f2e7-47c5-83bf-38114f724dc5
       Expression originale:
@@ -14639,6 +14721,8 @@ Corpus:
             F2_E42: fae39c1a-81d3-4d1b-a756-a81c243a1a8a
             F2_E42_part1: de91f5fd-510b-40c3-90ad-2c3e7e015a93
             F2_E42_part2: 886e71e6-57c3-4564-9579-4e6471d97662
+          MG-1694-05_225:
+            F2: 2d778cc3-b983-47d6-9dcf-680ee83b0738
     MG-1683-09:
       F1: f3334bde-ef12-4cc1-8a22-d2f96445b292
       Expression originale:
@@ -14799,6 +14883,10 @@ Corpus:
             F2_E42: 6c177a58-2b63-4075-8cdc-8a99c722363a
             F2_E42_part1: 3881a366-1024-4ee3-a234-9bd699259eb3
             F2_E42_part2: a55ca5ae-9325-43ae-b906-baee13f1a681
+          MG-1683-09_033:
+            F2: 72d2d044-a6e6-4f76-9c87-6782701adc89
+          MG-1683-09_055:
+            F2: 3cccb63b-dce9-4a09-a0c2-7fe822de40ce
     MG-1706-03:
       F1: 02c1fbf7-1f25-442f-97a9-d1cf60925d7c
       Expression originale:
@@ -15139,6 +15227,8 @@ Corpus:
             F2_E42: cc5c25ff-ce95-4b94-8407-9b64056ece1c
             F2_E42_part1: bd5c2ab1-c493-41ad-8ed9-56085565138d
             F2_E42_part2: 8c6dc46d-957f-452e-9c76-bf22efc9a7a3
+          MG-1685-09e_188:
+            F2: 81edea1d-baaa-4d87-a62f-91943f490717
     MG-1683-08:
       F1: 84b7400b-521b-440f-a594-6c8e891b8bdb
       Expression originale:
@@ -15233,6 +15323,8 @@ Corpus:
             F2_E42: db6cb5c9-6f81-40d7-a873-3124d953d103
             F2_E42_part1: e18d32f7-421b-445f-bd4d-f604a2e23b7f
             F2_E42_part2: cec2a9f0-777f-4735-9571-7f2c0488f77a
+          MG-1683-08_119:
+            F2: f0e7adfd-dbf6-49d7-9682-65a13f0f437f
     MG-1684-01:
       F1: fb9b1934-b8dc-47ed-890d-50647bd44407
       Expression originale:
@@ -16163,6 +16255,10 @@ Corpus:
             F2_E42: 92b0a6b6-8da1-493a-befb-e82ce815598f
             F2_E42_part1: cc100d18-327c-460c-9f05-18fc272d73d4
             F2_E42_part2: fd965522-8f7e-4777-b2b3-574aa3236487
+          MG-1696-01_333:
+            F2: 1e59083c-a388-4d4d-a397-2890183075e3
+          MG-1696-01_328:
+            F2: 95ea4d2b-d25a-4465-8375-8f4e248a773d
     MG-1691-08:
       F1: a520a9e9-3862-4dcb-93f6-1fb7f530f6d7
       Expression originale:
@@ -16749,6 +16845,10 @@ Corpus:
             F2_E42: 1271736e-3333-4db5-bddc-8c0093ba0341
             F2_E42_part1: 419f6a7d-9775-46d3-b564-56407a924bdb
             F2_E42_part2: 9b9f12bf-2522-4acc-8143-db337d32e059
+          MG-1686-04_250:
+            F2: 306f1fe5-4549-4a6c-8896-b029ffb741db
+          MG-1686-04_119:
+            F2: 31752b3b-525e-4198-b4c5-6ed6168c2270
     MG-1679-07:
       F1: 3de2e2e0-37f7-4f0d-848b-4030fbfaf67a
       Expression originale:
@@ -17287,6 +17387,8 @@ Corpus:
             F2_E42: 601b24aa-1c9e-4fad-a536-74f08b580c1b
             F2_E42_part1: dc08aa46-3414-48d1-857a-513a1bf9512f
             F2_E42_part2: bde83c45-caef-4345-a30f-bd724336f8df
+          MG-1686-09b_275:
+            F2: ccf206be-22bd-45e9-a3a7-ec7c383aa284
     MG-1710-01:
       F1: 21afe5e0-12bc-4d91-9256-de9929711b81
       Expression originale:
@@ -18013,6 +18115,8 @@ Corpus:
             F2_E42: 37cca316-1315-45b6-b0bd-253d8d907909
             F2_E42_part1: 5f162bc9-6ed5-4273-842c-4156f4dc216b
             F2_E42_part2: 820961a2-c511-4000-89b7-75fe1e75bb70
+          MG-1678-08_056:
+            F2: 8cf42957-535d-4677-b6a0-c05dcb37bbce
     MG-1680-02:
       F1: 04fb0d80-f0a9-4efe-9f95-3c0432db765a
       Expression originale:
@@ -18095,6 +18199,12 @@ Corpus:
             F2_E42: f1a2ab15-c507-4d0d-a561-3105ee49a49d
             F2_E42_part1: af833ae1-6219-4ada-89d3-4303685b45ea
             F2_E42_part2: af8428d1-01ef-4952-af75-ffca56bbab75
+          MG-1680-02_166:
+            F2: cbe977fa-0831-40c6-a877-64cf1945307c
+          MG-1680-02_001:
+            F2: 1ba7b95f-a417-4c17-a6a8-5d6fcaaa625b
+          MG-1680-02_344:
+            F2: 440b9f8d-ef26-4a7b-b8a9-e6e542a38af4
     MG-1682-06e:
       F1: 105de5a9-8353-4cbc-a273-ece7b60c5b6c
       Expression originale:
@@ -18719,6 +18829,8 @@ Corpus:
             F2_E42: ce5e3f8a-3c84-41b4-9f5e-08fb78dce151
             F2_E42_part1: 8f03c9b9-a3a0-4bf5-a161-cec958b12ba8
             F2_E42_part2: 72e130d9-a5d3-4100-a03f-8d91639c44dc
+          MG-1690-12_198:
+            F2: 3f936734-16fa-4beb-b7ba-e630b25d5190
     MG-1705-09:
       F1: 5ef07b7c-7568-409f-b15d-fb44bef5ea66
       Expression originale:
@@ -19257,6 +19369,8 @@ Corpus:
             F2_E42: 54410917-2ebc-4ccd-b566-74b720c61b5e
             F2_E42_part1: d9a8f742-a81a-45d2-90a0-0ed4277d7049
             F2_E42_part2: c78c136b-43b5-4374-bdb7-c685fb20ab44
+          MG-1682-12_055:
+            F2: 99e72771-f75b-4629-90fa-560e6d56efba
     MG-1700-11:
       F1: dc39d65b-6df5-4965-910d-01a8686f56a9
       Expression originale:
@@ -19487,6 +19601,8 @@ Corpus:
             F2_E42: bcc58f2d-6545-43b6-9d0b-312846b9d3d3
             F2_E42_part1: bc9832c8-00a8-4fae-90b8-41f0640588af
             F2_E42_part2: caf14518-2100-4b11-b230-c446a12b7f5d
+          MG-1700-05_019:
+            F2: 8b3b6c36-f4e7-439c-bce8-849f004fb5e2
     MG-1682-06:
       F1: a5c044a7-d691-4d72-ae61-e3ac00919b59
       Expression originale:
@@ -19731,6 +19847,8 @@ Corpus:
             F2_E42: 07d85386-ef49-407d-81e6-db5d07d47362
             F2_E42_part1: 9d2e0779-919b-497c-a9b5-818ef43c0aea
             F2_E42_part2: 63a969a9-49e7-474c-87bd-d7cbbe0b4541
+          MG-1682-06_084:
+            F2: f9a466e1-8be2-4cd7-93aa-f06140a49003
     MG-1709-09:
       F1: fd67c532-9a30-4df9-b6ac-4eca80cc6cca
       Expression originale:
@@ -19853,6 +19971,10 @@ Corpus:
             F2_E42: bf8be207-dd56-40ad-b42b-c85356bc96a3
             F2_E42_part1: 1c37fafc-109e-4767-975e-e3b8b0a94bb2
             F2_E42_part2: 3b1742b4-ea34-4e5a-840f-8da2db5eb2ca
+          MG-1687-08b_295:
+            F2: eec84f18-5068-4c84-a95a-dc47b9d64709
+          MG-1687-08b_260:
+            F2: f2668a3a-d3af-48eb-b082-297cdb03d5da
     MG-1693-10a:
       F1: 304952ed-aea4-4794-9bf7-7a2b447bff6c
       Expression originale:
@@ -20371,6 +20493,8 @@ Corpus:
             F2_E42: 34d9fffb-32f0-4ba6-a15d-622f06e62bec
             F2_E42_part1: 4e5e5772-0794-4ea1-8fa9-0f6b231618d7
             F2_E42_part2: 93b12d7b-9405-41f4-930e-1b1317d209e6
+          MG-1686-09a_035:
+            F2: a289c18e-2ed3-4dbf-af2f-271661ae0611
     MG-1710-02:
       F1: 723534b1-7380-4d85-9d42-d7fd4bd0ab83
       Expression originale:
@@ -20605,6 +20729,8 @@ Corpus:
             F2_E42: 25778a7a-9eaa-4589-8de2-c789d52ffb0f
             F2_E42_part1: fae8a10c-8067-4cce-b083-a7a24ec14407
             F2_E42_part2: f6201d97-fbb1-4c65-af66-a27acc1ed20d
+          MG-1673-02_248:
+            F2: 6fa8e3b7-d51b-4948-bb1f-69e880af64ac
     MG-1682-04:
       F1: 6b20d16b-8957-49cd-8271-0ba7a35db5a1
       Expression originale:
@@ -20963,6 +21089,8 @@ Corpus:
             F2_E42: 79250bdd-fb8d-4d5e-ad1c-e2e980ea8415
             F2_E42_part1: 946a10c8-3ef8-4633-a68d-d75c3a88ad89
             F2_E42_part2: d9962e16-2078-4ea2-b818-fe736f39b552
+          MG-1690-04_064:
+            F2: 7cdc01a1-1f6b-49df-a17f-a2d55e42b3be
     MG-1690-10:
       F1: af7870fd-4b4e-4c1b-9ea5-83559446e3b5
       Expression originale:
@@ -21093,6 +21221,10 @@ Corpus:
             F2_E42: 4f70ca39-89cf-4cf6-9835-75068c4dc30c
             F2_E42_part1: 8cfb1bea-2198-48c6-a581-1f007f905ce0
             F2_E42_part2: 0b4e85d2-6954-4744-84f9-83c641c87732
+          MG-1690-10_061:
+            F2: 0decec0c-a361-4bba-b538-0cf9abacd3ef
+          MG-1690-10_290:
+            F2: 22eeb83b-a7c0-488a-9100-20a441996817
     MG-1690-11:
       F1: 2cea67c8-9d44-4901-8598-889de34bde38
       Expression originale:
@@ -21299,6 +21431,8 @@ Corpus:
             F2_E42: 32513d7e-c881-48cc-b67b-402ae0f72a51
             F2_E42_part1: 4552b804-d72a-4a84-bdbe-c89b11e761aa
             F2_E42_part2: 1f46409c-3079-4bd9-afd0-8ddb03f1163b
+          MG-1690-05_224:
+            F2: f03d3053-2cc6-418d-a2cb-9d34ceb270c0
     MG-1699-09:
       F1: 2d1cd811-d3a9-4e49-a8fb-d225b3bb7ada
       Expression originale:
@@ -23531,6 +23665,10 @@ Corpus:
             F2_E42: 33978366-fd34-4f34-8b9f-19106eb4308a
             F2_E42_part1: 0b9caf71-a2ba-44d1-843d-f22d6acce8cc
             F2_E42_part2: 92646f46-402b-4896-a71c-17cc60303eb6
+          MG-1678-03e_485:
+            F2: 4aeb407a-5175-4b30-9483-a04321c84cde
+          MG-1678-03e_215:
+            F2: 1de67bcc-7c58-4492-b631-df74b79a1b7e
     MG-1687-09a:
       F1: 095f52cd-07bd-4ce1-bf19-1eb3684f3006
       Expression originale:
@@ -23637,6 +23775,8 @@ Corpus:
             F2_E42: 81efda78-e700-4d2d-bc90-1eff8f17dde9
             F2_E42_part1: b2db8904-ba20-4e6d-a44e-ad06d961d632
             F2_E42_part2: f694f3a1-26cf-4d81-bda4-e80cbafc46ee
+          MG-1687-09a_329:
+            F2: 87b9fb8e-ad73-4c2c-8f01-0109ae4d4cbf
     MG-1685-08:
       F1: da09695e-dddf-40ef-9f83-2d98719eae52
       Expression originale:
@@ -24043,6 +24183,8 @@ Corpus:
             F2_E42: fe495113-5799-4bfa-ac48-492701a81154
             F2_E42_part1: 3e748822-b8bb-4625-b3c0-13272357f7d4
             F2_E42_part2: 75cb5b13-ab21-4962-95c1-4d6a1f507a1f
+          MG-1689-01a_301:
+            F2: 395c67ab-9190-4965-bc10-76455a7c5180
     MG-1680-10:
       F1: 4fb69927-7dd5-4067-b9e7-b3067421fc2a
       Expression originale:
@@ -24313,6 +24455,10 @@ Corpus:
             F2_E42: 7c42d2b4-8886-48ed-b286-90a96b32fe54
             F2_E42_part1: 290be9cd-3230-4237-957c-8c46186194e5
             F2_E42_part2: 74e13bce-ef67-4b52-8f31-69b210cd920a
+          MG-1690-01_150:
+            F2: 477879d9-4c88-40b9-99b1-e9333d4f64d7
+          MG-1690-01_189:
+            F2: e9e85d58-2395-47b0-af00-92c68b234850
     MG-1707-10A:
       F1: 4f069c82-be8b-4c98-80f1-5e234716edf2
       Expression originale:
@@ -24823,6 +24969,8 @@ Corpus:
             F2_E42: 429095e5-9e60-4fe5-9a38-c1350b1de0b8
             F2_E42_part1: fdb167e5-42d3-4396-ad21-ed01eb3ca1d5
             F2_E42_part2: 50b91909-5def-488c-adb7-5a5447a7f40b
+          MG-1680-05_090:
+            F2: 348b3655-5138-43ab-b665-0c9b92ed8314
     MG-1680-11:
       F1: abeb640c-2616-49db-ab05-6ca5505cfaa8
       Expression originale:
@@ -24893,6 +25041,8 @@ Corpus:
             F2_E42: f78744b4-22f4-40aa-bdba-05f36d64434f
             F2_E42_part1: f8956f08-8db8-4a6b-8956-637073b729d4
             F2_E42_part2: 826fd0db-738f-4225-8306-4dfd8dc1db12
+          MG-1680-11_248:
+            F2: cc9c6377-7b0e-4136-b941-42a020d4fb40
     MG-1702-12:
       F1: 032849ab-3777-40c6-ab7c-4dbd1ccfb854
       Expression originale:
@@ -25099,6 +25249,8 @@ Corpus:
             F2_E42: 1f1a86a8-4d0a-4675-b094-1625ef6a31e1
             F2_E42_part1: 5cdba7ed-6a70-4466-bd88-0e92571f026e
             F2_E42_part2: bd48f788-a384-4968-a4cd-fd1d7438b822
+          MG-1685-09_219:
+            F2: 3cad4078-ef00-4316-9265-846f4b935c11
     MG-1700-03:
       F1: 322aa427-1d28-4ada-8991-cf1c724d8617
       Expression originale:
@@ -25825,6 +25977,10 @@ Corpus:
             F2_E42: f399f895-d30d-4bbe-85ab-73e25f2a8b4c
             F2_E42_part1: 8c19ffce-a730-4ea0-acda-a91811502057
             F2_E42_part2: 26269559-06cd-4c6b-8f35-677dc44dbe66
+          MG-1673-06_046:
+            F2: b4ae2b86-9d5c-412c-96cb-70866cd305b1
+          MG-1673-06_022:
+            F2: 110c9af1-78b6-4dbe-bd16-8217990c01ec
     MG-1692-11:
       F1: f2b056f3-d699-4253-8fe1-5e45f6b2a048
       Expression originale:
@@ -26101,6 +26257,8 @@ Corpus:
             F2_E42: a409cb8b-c717-4550-a69c-5b861e507911
             F2_E42_part1: 0a374304-07eb-4782-b0e9-1f1c5496f509
             F2_E42_part2: f70b2126-0e2c-4a2d-9071-7360158bba04
+          MG-1680-01a_190:
+            F2: 45544212-bd69-4989-9a77-8f2347c4a330
     MG-1710-04:
       F1: cd6903f2-942f-471e-90d1-235bf8253609
       Expression originale:
@@ -26305,6 +26463,8 @@ Corpus:
             F2_E42: f87be78b-e96d-46a7-805a-a9a189f781dd
             F2_E42_part1: 65665a02-5251-4502-b811-d1236eff90a1
             F2_E42_part2: a0bb3ef5-d701-47fe-ac43-e473306e2881
+          MG-1673-04_225:
+            F2: 2db7a86b-15f9-4bcf-82f6-b1318256dbf0
     MG-1682-02:
       F1: 2348040c-7758-4987-ba44-a648713a6bb4
       Expression originale:
@@ -26621,6 +26781,8 @@ Corpus:
             F2_E42: 6777b214-6846-4992-b673-41b67c6e7f76
             F2_E42_part1: 19791fa8-542e-4a76-aee6-18c369262caa
             F2_E42_part2: fdae0508-bd0d-428e-ba03-27d7dd33e803
+          MG-1680-07_186:
+            F2: 682590bc-b679-4c2d-bc3a-4c5cf7ceb2a0
     MG-1702-04:
       F1: 6fa33b76-183a-48c9-9b18-2e6c3e1009e2
       Expression originale:
@@ -27443,6 +27605,8 @@ Corpus:
             F2_E42: 1c8e03a8-499a-48f5-a46b-0fb09042d87b
             F2_E42_part1: 80ccf2e2-c01f-4f41-8e62-1ebc0806f769
             F2_E42_part2: e2647fc1-8aaa-40e7-b652-338456021477
+          MG-1680-12_317:
+            F2: 0c7955f2-38ba-4bf7-ba2e-307ccd82bb72
     MG-1702-11:
       F1: 453823ba-f87e-45c6-b32e-552f866ee9a4
       Expression originale:
@@ -27951,6 +28115,10 @@ Corpus:
             F2_E42: addf55f1-c8de-40f4-b235-75d89843223b
             F2_E42_part1: 046fa1d8-7d0f-4b27-8a39-04cdff51afa6
             F2_E42_part2: 93b4c42e-e302-4930-a851-ed0e734d94b9
+          MG-1682-10a_172:
+            F2: 67956203-d984-4472-927e-0338467b49f2
+          MG-1682-10a_067:
+            F2: fcb4937b-8c89-4259-812a-356cada88aa4
     MG-1682-03:
       F1: 776cd8c3-6b2f-49fe-adb8-4ca232ece6e9
       Expression originale:
@@ -29647,6 +29815,8 @@ Corpus:
             F2_E42: 85a759ba-2ca6-49d0-8bbc-1243daa93d6e
             F2_E42_part1: 46a4a448-a72b-46db-818d-9c5bcacfab3d
             F2_E42_part2: 72d253e6-0b2f-4ed7-9b33-9bf97fd51be7
+          MG-1699-02_231:
+            F2: 5a7f48b6-699e-4d69-b8cd-a599a985bb73
     MG-1699-03:
       F1: 8eb6a427-e8cb-4857-a208-8666bf6a75c9
       Expression originale:
@@ -30555,6 +30725,8 @@ Corpus:
             F2_E42: 8f353ec0-7033-4b12-9cee-799c17303790
             F2_E42_part1: 733119de-0506-40ea-a8b1-d5323760f2db
             F2_E42_part2: 3d44a883-d235-4178-94cf-4d883c65c99f
+          MG-1682-09b_331:
+            F2: 15610f5f-9d28-48a9-9355-e4679f87834e
     MG-1682-12e:
       F1: 75d49530-cb8b-458e-a03b-75827df4f6e9
       Expression originale:
@@ -31773,6 +31945,12 @@ Corpus:
             F2_E42: f3e2fadb-dd1c-46c3-a1b3-0d96dfb6160c
             F2_E42_part1: 90ca1be3-7a78-4302-9c42-9f9059ee21e5
             F2_E42_part2: f44d081f-f73b-4d53-a55e-70df3f231fe0
+          MG-1687-06b_299:
+            F2: f759003a-6b5f-4c94-b9a7-0cb67b077b80
+          MG-1687-06b_320:
+            F2: 8f07362b-505f-4ed7-81c2-5f436f508f84
+          MG-1687-06b_126:
+            F2: d5f250af-5661-4346-a03a-406f298d66d0
     MG-1709-02:
       F1: 3869ee3d-7bdf-4f01-8851-459737242ccc
       Expression originale:
@@ -32063,6 +32241,8 @@ Corpus:
             F2_E42: 56172cca-7c23-4948-ab0c-79515809f320
             F2_E42_part1: f37b048b-cbd0-4eb3-923f-b728cff7ad01
             F2_E42_part2: f58d4927-1f76-4793-ae2d-96686359d5af
+          MG-1678-02_315:
+            F2: c861142d-8dd4-4794-8891-e3c9fb211c9d
     MG-1689-02a:
       F1: 81a64ee4-33a5-47f9-a4fc-33931d961b6d
       Expression originale:
@@ -33781,6 +33961,10 @@ Corpus:
             F2_E42: de55cd61-d753-482b-b44b-39dd64547c2b
             F2_E42_part1: 64a0e167-416f-4463-b8ee-d4abf6b1a6be
             F2_E42_part2: 9db7c559-b410-4a20-aa3c-de2216b78920
+          MG-1678-03_040:
+            F2: 9ce5af5f-8755-4dc7-9180-33ea2e24fcfe
+          MG-1678-03_111:
+            F2: 23488f29-e55f-4d8e-a6d4-6125b297cae6
     MG-1709-03:
       F1: 23917bf2-d4d1-451e-961c-b8b02d41e66c
       Expression originale:
@@ -33975,6 +34159,8 @@ Corpus:
             F2_E42: 3b01dd26-0cf9-493a-9e4a-179d25522770
             F2_E42_part1: 051c3ceb-18c8-4c00-a09b-57a96318857e
             F2_E42_part2: 509d08f6-542a-4d17-843d-09855871dc81
+          MG-1685-11_198:
+            F2: f186adea-1f12-4af9-84d9-ce59ee240d73
     MG-1707-06:
       F1: 377b7a84-4205-4d51-8283-fc11926303a5
       Expression originale:
@@ -34941,6 +35127,14 @@ Corpus:
             F2_E42: b3f1e1b9-a360-481f-986f-9984df1e86b6
             F2_E42_part1: 0f2a48fa-6d6e-482b-86ff-99623d5d2d5a
             F2_E42_part2: b64d0bdb-812a-442b-8612-68381ee818ee
+          MG-1682-08_114:
+            F2: a5b0bedb-833c-4bba-8bde-f0a48eab0f00
+          MG-1682-08_121:
+            F2: bb32d0c0-a6ce-49e0-8f2e-cef430c682f1
+          MG-1682-08_148:
+            F2: 8125724e-ba54-4b78-8d46-3f9f6c411c29
+          MG-1682-08_118:
+            F2: 8113b288-bc06-4687-9700-fe468c092f9e
     MG-1685-01:
       F1: 8ece2eda-85b7-44a5-9804-2256f64b6eb6
       Expression originale:
@@ -35657,6 +35851,10 @@ Corpus:
             F2_E42: 18d57d7b-de7a-4ef2-a3bf-a1ff38e5c5eb
             F2_E42_part1: aed2685a-5be8-49e9-9a13-af52c5739d09
             F2_E42_part2: ff6fc097-f996-407b-a4d7-65badceccb76
+          MG-1678-07_037:
+            F2: 424ad3f5-e27c-4e65-95b8-f0dd23e0e28f
+          MG-1678-07_252:
+            F2: 11972e69-440c-4ed0-9c3e-ea39940fa884
     MG-1687-04:
       F1: ba56d2fd-c591-4975-98ca-87b45ec499b2
       Expression originale:
@@ -35945,6 +36143,8 @@ Corpus:
             F2_E42: 1370666d-4bf5-4c89-a89e-69f409d06675
             F2_E42_part1: 57b912b0-41e6-427a-b13e-b4d029553b35
             F2_E42_part2: 8a97356e-612f-475e-9e48-0be7a6ffd946
+          MG-1687-10_190:
+            F2: 5eafc928-019f-413d-b594-3f95af244aa9
     MG-1702-07a:
       F1: 259d7f46-9585-4dae-bf5c-3ee9d17e8fca
       Expression originale:
@@ -36671,6 +36871,10 @@ Corpus:
             F2_E42: 67e81a95-978f-4ea5-9a46-da2faf775da7
             F2_E42_part1: f38658bc-6ddf-4d0f-a8b5-e667a206518d
             F2_E42_part2: 0fcd8a0d-dda5-43a6-b964-fc4e4603ee4b
+          MG-1690-09_114:
+            F2: a3586934-3211-4b20-a154-b8d9d164354a
+          MG-1690-09_148:
+            F2: a49d5a0b-4b25-4004-ae32-e904037deaf9
     MG-1699-11:
       F1: c75e89ef-da1b-4983-9c10-83a9ffa7707c
       Expression originale:
@@ -37891,6 +38095,8 @@ Corpus:
             F2_E42: 2bf2d797-0e3e-4749-be9d-8b6e69178eaa
             F2_E42_part1: e92c3b7c-022f-4b1a-85d1-36ec4b623ae9
             F2_E42_part2: da2f4f61-16d7-4e79-8816-05a561920166
+          MG-1678-12_122:
+            F2: 0fdc6013-c019-49db-a233-eb6d4be2304a
     MG-1689-03a:
       F1: 05764448-1221-4a33-9185-50d504625c24
       Expression originale:
@@ -39701,6 +39907,8 @@ Corpus:
             F2_E42: 56c5a638-e0bd-46b1-85f5-ef57750aed27
             F2_E42_part1: 6d1cb0d3-040b-4f40-aaf7-51c81b40c888
             F2_E42_part2: 2d09424f-079c-49f9-aa30-5d043f44997d
+          MG-1678-10_033:
+            F2: cb3b44f7-6284-4c48-8868-895f4bd35574
     MG-1705-10:
       F1: d27acab8-77dd-4202-9851-0cc99f550459
       Expression originale:
@@ -40267,6 +40475,8 @@ Corpus:
             F2_E42: 964c3173-2761-4aa6-94c2-5414448d5787
             F2_E42_part1: 832a6c8f-0efd-4b58-9d43-805c407b292f
             F2_E42_part2: b62613ee-c1f2-45d9-b6a0-7414693bf0cd
+          MG-1699-07_256:
+            F2: 7a802d5c-2350-4b63-8387-62123014a7a7
     MG-1702-07b:
       F1: 509df662-2ce7-4f63-9939-3d9369cf9c86
       Expression originale:
@@ -41405,6 +41615,12 @@ Corpus:
             F2_E42: 3a403c0c-ae73-44b8-8b8a-bb71f44ae763
             F2_E42_part1: 3d93073b-df01-455d-9bb4-90d7a8b544f4
             F2_E42_part2: 993bba96-3b5c-4e5c-9da7-0ff96adcf24b
+          MG-1678-05_087:
+            F2: 565cef16-c4b6-47fc-8856-f3c134a22eb2
+          MG-1678-05_094:
+            F2: 0d23a62c-6f17-48e0-bf76-dc0716eb9d4c
+          MG-1678-05_183:
+            F2: bbe8e724-a214-4c34-84fd-285cc5cda797
     MG-1689-03b:
       F1: 04d21707-b931-4d11-8468-c6565fa1be83
       Expression originale:
@@ -42039,6 +42255,8 @@ Corpus:
             F2_E42: 225a57fa-e71f-4dcc-87c1-897516b847a5
             F2_E42_part1: b44a604b-fbe2-4f44-945c-1bcf086b5bed
             F2_E42_part2: aa36f4fe-e7eb-43a9-8803-1bd564adf30b
+          MG-1695-06_091:
+            F2: 518b539a-fc71-431b-a88a-4c98c0087ae7
     MG-1683-12e:
       F1: 78b16b4a-49d4-4a63-8de7-39771b863d63
       Expression originale:
@@ -42185,6 +42403,8 @@ Corpus:
             F2_E42: 48106de7-787d-4570-96a0-cda37d315bca
             F2_E42_part1: bcd58636-d05a-4602-83bc-9749ecf9ba67
             F2_E42_part2: 2e0bd0d2-f637-4f01-85f9-8e85e5520026
+          MG-1680-03a_330:
+            F2: a50292cb-73a8-4009-9f48-6673d1334a34
     MG-1703-03:
       F1: 43befa37-81d5-41ee-94fa-d0afab108651
       Expression originale:
@@ -42617,6 +42837,8 @@ Corpus:
             F2_E42: 0ba73379-f849-4238-bfc8-53e143fbe6c8
             F2_E42_part1: fcb42174-77e1-4a86-9a36-cb9d335e07e2
             F2_E42_part2: 20a1bfce-6407-45bb-a95c-25327a9dda56
+          MG-1678-06e_280:
+            F2: b164a59b-869f-4383-814e-d4397d4b1d8f
     MG-1691-05:
       F1: f108bb59-df26-4f33-aad7-eb4199bbd975
       Expression originale:
@@ -42947,6 +43169,8 @@ Corpus:
             F2_E42: b659a0a6-0452-422d-8031-212ffe1400f8
             F2_E42_part1: df2b2565-b8c9-4dc0-b38a-0117195957d6
             F2_E42_part2: d79e9b98-5a42-4afc-9d86-3ceee7cc27fe
+          MG-1698-09_184:
+            F2: 2d1caf51-4035-4720-8162-85bc1b47a683
     MG-1689-04a:
       F1: a1c539b1-e24c-49cc-b4be-59a0634dbe8a
       Expression originale:
@@ -43809,6 +44033,8 @@ Corpus:
             F2_E42: e9bb506c-3db2-434d-a183-130d07a50b2f
             F2_E42_part1: 10d48750-6697-4955-9e86-58b484d318ad
             F2_E42_part2: 316319e4-7b62-45ed-b44b-bf086a5d7a83
+          MG-1683-05_064:
+            F2: 61fd6042-db53-4fd1-a3aa-41d6921aa2e9
     MG-1688-09b:
       F1: ed3a958a-86be-4dc4-a2c4-59c41e31613d
       Expression originale:
@@ -43831,6 +44057,8 @@ Corpus:
             F2_E42: 60d8e3f4-d880-4e3b-8600-8e4ff383b71a
             F2_E42_part1: b88900d5-7007-43c3-a9c4-3b6b9595f999
             F2_E42_part2: 2a879f63-b656-4156-a301-612720dd1413
+          MG-1688-09b_013:
+            F2: 3fea73cc-aaa0-4e77-9f51-265ee1b15b73
     MG-1683-04:
       F1: ca5bfc48-f4ca-4413-a5c5-274ec700dde0
       Expression originale:
@@ -43985,6 +44213,8 @@ Corpus:
             F2_E42: a8863eb8-18bf-4fff-a11b-193a0a704037
             F2_E42_part1: 4d7ef2d0-1888-403a-bb7f-27fc977feb0b
             F2_E42_part2: 045e1f2d-9159-4081-b377-a6c8c085167d
+          MG-1683-04_045:
+            F2: 307fab27-5994-42ed-af4b-75e4bc987a43
     MG-1701-07:
       F1: ee740fac-b263-4efa-b83b-36a58f740dd0
       Expression originale:
@@ -45759,6 +45989,12 @@ Corpus:
             F2_E42: a4123765-5d56-4c64-9b78-be6b34e15f41
             F2_E42_part1: a75bc1fc-9835-4ee8-a706-84b10bf587d2
             F2_E42_part2: 5c861b04-98a7-4e8e-aa2d-2f87892bb7aa
+          MG-1681-03_063:
+            F2: 51c98350-7254-4de1-81d0-f2b5a6efab85
+          MG-1681-03_044:
+            F2: ace309ed-fd40-4467-ac8a-43bad4bd4b9f
+          MG-1681-03_006:
+            F2: 69220c85-e32f-4909-9456-31dc3f8405ba
     MG-1704-09:
       F1: 5da7aae7-e26e-4599-a7aa-0813e44fc71b
       Expression originale:
@@ -45983,6 +46219,8 @@ Corpus:
             F2_E42: 2df49a51-0a73-40f2-8011-8dad51ad9d57
             F2_E42_part1: bea31818-0e1f-468c-bd7b-59b36a0124a3
             F2_E42_part2: fbcc8387-d681-4309-87c6-ed902de02650
+          MG-1691-12_200:
+            F2: 242ee724-f48c-4797-93a0-e9198c1303e4
     MG-1691-06:
       F1: 75782031-52df-4c3f-8468-4187d4c76f58
       Expression originale:
@@ -46549,6 +46787,8 @@ Corpus:
             F2_E42: 3addfa24-c385-4f95-bd4c-ebd09eea45ad
             F2_E42_part1: 77fea3a4-7f62-4095-bf01-b834545743dc
             F2_E42_part2: 30ceb286-cf84-4e4f-966e-6a0884be3930
+          MG-1683-06_237:
+            F2: 39122f15-c41e-45f3-b977-b40ba8b066cf
     MG-1683-12:
       F1: 6c6dc987-c5f1-44c8-83a0-6aece1ae9856
       Expression originale:
@@ -46721,6 +46961,8 @@ Corpus:
             F2_E42: c942d881-2348-46c4-a2ad-d26bfce19f25
             F2_E42_part1: 86bf37b8-2d42-4640-a93f-09188573f201
             F2_E42_part2: 319fd9ce-ec14-4dc0-8238-4a6a26834c15
+          MG-1683-12_250:
+            F2: 10ca3372-2739-4668-a2bc-5d29ed0dfedb
     MG-1701-11:
       F1: abbb1fd6-c84c-413a-8511-0c3beb943e2b
       Expression originale:
@@ -47339,6 +47581,10 @@ Corpus:
             F2_E42: f5ba407a-eb0c-47a2-9c55-fd95b0b47d57
             F2_E42_part1: 55663d34-3f5c-4afb-b2c7-719d28416b64
             F2_E42_part2: 99182fe0-946a-429b-af18-66e8d76da2fa
+          MG-1688-09a_036:
+            F2: 9c0ff584-b0c6-436c-91a9-2aabbdac7995
+          MG-1688-09a_028:
+            F2: f714e1c5-e371-4241-8fe8-646fca0fa137
     MG-1701-10:
       F1: 4e0bcc69-ee5f-4bff-b89f-0b81b55fee65
       Expression originale:
@@ -47651,6 +47897,10 @@ Corpus:
             F2_E42: f00fc1d4-4752-4385-b9f3-3b550c977b4d
             F2_E42_part1: 409afb6d-669f-4278-8ed0-1afc1714c31f
             F2_E42_part2: 298b6c12-8d9d-455c-9791-06c710f331c3
+          MG-1685-06e_102:
+            F2: c7d07b8c-a352-4638-a489-1e3cd0ea97b3
+          MG-1685-06e_268:
+            F2: c34c9cc1-08e4-4e48-abb4-0e25b3d0d71c
     MG-1679-10b:
       F1: 2c0c561f-2b6f-4547-8092-0c259b2ce824
       Expression originale:
@@ -48353,6 +48603,10 @@ Corpus:
             F2_E42: e5be7795-b93b-4374-9bef-f4a00f257b3e
             F2_E42_part1: a0b5e090-e3fe-4d57-9690-13b56ad1df76
             F2_E42_part2: 9a306b50-4db5-4a15-ba8b-c3d7ef1fd809
+          MG-1681-02_131:
+            F2: 58b1f6dd-86cf-4814-9d00-8d89ccea6b66
+          MG-1681-02_079:
+            F2: db017c51-5ef5-45d0-a570-40495f727b0b
     MG-1703-01:
       F1: 5e87723f-134a-44a2-b909-b4c9fa279433
       Expression originale:
@@ -49037,6 +49291,8 @@ Corpus:
             F2_E42: 81c064d1-bacf-474c-be3a-a0e606d97445
             F2_E42_part1: c5709ba9-655d-4afe-abc3-48941e59c631
             F2_E42_part2: 45096799-e3fd-4bc6-b23d-23c20901b8c5
+          MG-1679-08_324:
+            F2: 224302c3-285f-409b-9923-70d09a37b3f2
     MG-1677-09:
       F1: 93f7fa9d-1d52-4cf6-9e71-f0e2a4f17c5e
       Expression originale:
@@ -49197,6 +49453,8 @@ Corpus:
             F2_E42: ba14da8f-ab6f-4335-a495-cd3525ea0101
             F2_E42_part1: 2d458c8d-ea0f-401e-895f-b7c5aba82870
             F2_E42_part2: 5286f64a-e681-4fa4-8599-c90357944e9e
+          MG-1677-09_098:
+            F2: 0a18154b-c967-4b0f-be05-85eb0e29744d
     MG-1688-12b:
       F1: 8958e36b-62ea-4c6f-8740-7d7cf9ce28f1
       Expression originale:
@@ -49491,6 +49749,16 @@ Corpus:
             F2_E42: 79042fa4-4301-4e0e-afc0-0b3f5b437ffa
             F2_E42_part1: 0c4029c0-bdb0-4872-9d9b-680df6a42a08
             F2_E42_part2: ed51c8ee-8f5d-4ad9-b7a2-22afe4e26506
+          MG-1681-06_003:
+            F2: df467450-6b9b-4d3d-abe6-3804e04ff344
+          MG-1681-06_016:
+            F2: 47d420fa-a8db-40db-be2d-87133343c986
+          MG-1681-06_089:
+            F2: f988f2ef-2644-4cfb-ba72-a7df05d08f6b
+          MG-1681-06_069:
+            F2: aa485eda-12a5-47b9-ad65-fcd429a989bb
+          MG-1681-06_062:
+            F2: 48622324-a871-4d65-9471-6d418bc0a76e
     MG-1681-12:
       F1: 6cda248b-680d-45e2-81fd-118e129fdb63
       Expression originale:
@@ -49651,6 +49919,12 @@ Corpus:
             F2_E42: d33c3da7-8e56-4778-a51f-2c026e6547b2
             F2_E42_part1: 0c9500e4-f2f9-4cfb-9766-43b0d15c97fe
             F2_E42_part2: 61dfc0f8-c534-488a-9ec0-ec5a9bae387e
+          MG-1681-12_051:
+            F2: 23c9640e-27e2-4796-baf0-3894930833e2
+          MG-1681-12_167:
+            F2: 1ad0a548-9b9b-4932-b8c0-2d46f59a2758
+          MG-1681-12_027:
+            F2: 094bf3d5-f07d-4043-8090-7d5d3aec8dc4
     MG-1691-03:
       F1: a09bc31b-ad8b-4a91-90ef-084249d2570c
       Expression originale:
@@ -49811,6 +50085,8 @@ Corpus:
             F2_E42: 0c2dd273-8194-48d8-bcd8-254acfda9263
             F2_E42_part1: c1b37229-9cdc-4660-8808-7f44e4281d49
             F2_E42_part2: 9ef615ca-b7f1-4995-a022-f048f5deffa2
+          MG-1691-03_350:
+            F2: 29623ed1-cd8e-4a56-9aeb-0cf4d5c0f302
     MG-1708-07a:
       F1: 8d13cd48-ccbc-4fec-8749-c31204e79b4a
       Expression originale:
@@ -50251,6 +50527,8 @@ Corpus:
             F2_E42: e019d71d-54d3-4b1b-ac2e-e060edcdc158
             F2_E42_part1: 9c2b52fe-0f14-404e-b2f5-916d8a025d73
             F2_E42_part2: 1d32ca5c-0ef4-4514-8d51-d349fc2b322a
+          MG-1693-06_317:
+            F2: d3157f4e-26ff-422f-94ef-2f3462188a2a
     MG-1688-04b:
       F1: bbb25be5-9bdb-4dd2-8e34-646cd74e0306
       Expression originale:
@@ -50481,6 +50759,8 @@ Corpus:
             F2_E42: 672bcc74-0099-4387-9446-c1f501779d65
             F2_E42_part1: bbd5d2a6-3e33-4aaa-b1c9-51f9dca1e58f
             F2_E42_part2: d4fad145-66d5-40cf-bbcd-3c2768d3ccf0
+          MG-1683-03_302:
+            F2: 9e8528e2-255d-4a71-8329-5bd24a36ffef
     MG-1706-09:
       F1: d61b13dd-c84e-4937-9176-4dd4dddd98f7
       Expression originale:
@@ -50891,6 +51171,8 @@ Corpus:
             F2_E42: 89694a90-4da9-44fc-bb94-3dc2d008c870
             F2_E42_part1: 735ac628-c404-4426-be13-82d51d84ebb0
             F2_E42_part2: 3251a2ce-de14-44c0-ae04-2e982c58296e
+          MG-1680-12e_076:
+            F2: 0cd1127c-6682-4de7-85ef-6d0ebe805c29
     MG-1693-07:
       F1: b5ebf4a6-e470-4477-bf3d-4ee231d8f8fd
       Expression originale:
@@ -50949,6 +51231,8 @@ Corpus:
             F2_E42: 6da59548-d084-4a38-86ab-d7a5b80c3b27
             F2_E42_part1: 3f50f54a-d554-46c2-80d5-e35bb1beae84
             F2_E42_part2: 4f506625-599a-4a4a-af7d-b171e609a4f3
+          MG-1693-07_197:
+            F2: e1225f71-9c3d-442e-ac9f-0926830bbdbe
     MG-1689-05b:
       F1: 250143a5-5b7c-4f9c-b9ec-53ddb1614c68
       Expression originale:
@@ -51177,6 +51461,8 @@ Corpus:
             F2_E42: a4c24844-198d-4c31-8154-9992e96a629a
             F2_E42_part1: 5ab395b0-98c2-44ca-9d85-d708a74d11a1
             F2_E42_part2: 89296a50-ee27-415d-ab0c-e1ee6e2420df
+          MG-1691-02_001:
+            F2: 8ff3bc6f-ce0b-4c05-a86d-1bf52a6ede59
     MG-1687-01a:
       F1: 9fdb00ee-1df3-4733-920d-d0102c96281d
       Expression originale:
@@ -51577,6 +51863,8 @@ Corpus:
             F2_E42: cc27e8eb-c13c-439f-8099-f8a460d3b0df
             F2_E42_part1: 4ecfcdc6-6658-4822-86e7-276ee6187e23
             F2_E42_part2: 08963b1b-6033-4bd0-8e3a-8150ab23f8da
+          MG-1677-08_072:
+            F2: 3a3c742d-a51a-4c0d-859f-a3872046630d
     MG-1688-12a:
       F1: 4548866d-2702-4575-97ff-476b353da546
       Expression originale:
@@ -51883,6 +52171,12 @@ Corpus:
             F2_E42: 373a82bd-af8d-4a5f-a291-202f7202f872
             F2_E42_part1: 168c874b-45ec-444b-9a23-c67bc9e56636
             F2_E42_part2: f2621085-63e6-4610-842e-6fea16f147b0
+          MG-1681-11_017:
+            F2: 8cac3471-4807-4ea3-b963-fbd8bc58a3cc
+          MG-1681-11_056:
+            F2: 4cab18cc-69fe-4bf1-8de9-a7f8563fc407
+          MG-1681-11_041:
+            F2: d00c4b5e-98af-4883-a18d-bc4930c9d673
     MG-1703-12:
       F1: f37c06b7-6748-4748-a9d5-f7fb6e6cad7a
       Expression originale:
@@ -52219,6 +52513,10 @@ Corpus:
             F2_E42: d8a163cd-9d62-49e6-82cc-6352c985936f
             F2_E42_part1: 34973bbe-43bb-4b9d-8d82-0713b1326e8b
             F2_E42_part2: e3739449-2acb-47e1-9854-4bd80070ee2b
+          MG-1681-05_048:
+            F2: 8f605d74-0d96-4734-a157-d9cbaf496f03
+          MG-1681-05_087:
+            F2: 2338c4d6-8a58-4712-99cb-eb379d2f15a9
     MG-1681-09e:
       F1: bb76dd1e-2053-4edc-a341-433e2d09d3ef
       Expression originale:
@@ -52443,6 +52741,8 @@ Corpus:
             F2_E42: 1f71ce92-b1f4-4860-9bfb-cab1760cdc87
             F2_E42_part1: 949bcb4d-04e0-4263-8731-1393b5885375
             F2_E42_part2: 83f59993-c6a6-45e7-9c88-8c8e2f2e1e2a
+          MG-1696-09_269:
+            F2: 9fa77989-5935-4155-9a40-933877deeddd
     MG-1692-02b:
       F1: 6252db1b-434b-42ed-a7c8-5fd541639df1
       Expression originale:
@@ -54551,6 +54851,10 @@ Corpus:
             F2_E42: 3ae390bc-f205-4a05-a944-08659465a675
             F2_E42_part1: e8a00861-f3fd-4fda-b95d-ea4823aeec00
             F2_E42_part2: 138dbe6b-6203-4e15-a957-0319ddb199a0
+          MG-1681-10_016:
+            F2: 54be4c60-1076-4f60-ae9f-2eb44d1a4cb8
+          MG-1681-10_049:
+            F2: 9b679e6a-fcbb-4612-a458-f3c045a3d198
     MG-1680-09a:
       F1: 22f64615-4eed-48fd-bb57-08a2b49ad6b9
       Expression originale:
@@ -54769,3 +55073,30 @@ Corpus:
             F2_E42: a1f6d8cb-94b9-47e2-80f0-5634a9098150
             F2_E42_part1: 60eb17e6-884c-40e7-bed3-4d8d83e5049a
             F2_E42_part2: a147f5af-82e4-4a3d-ae0c-1b1eccbdf737
+    MG-1686-10:
+      Expression TEI:
+        Articles:
+          MG-1686-10_151:
+            F2: 6805c976-8bba-4e65-8c4b-2b82fbc83345
+    MG-1690-07:
+      Expression TEI:
+        Articles:
+          MG-1690-07_014:
+            F2: bb45f3c8-ecbe-48c3-9bc1-405bbda76d05
+    MG-1681-07:
+      Expression TEI:
+        Articles:
+          MG-1681-07_256:
+            F2: 7d9ade38-106c-4757-8860-7557c7c3f8be
+          MG-1681-07_141:
+            F2: 44c48212-86ce-44ff-bfb6-80b591ca66af
+    MG-1701-04a:
+      Expression TEI:
+        Articles:
+          MG-1701-04a_114:
+            F2: 28ad5ff8-c70f-4405-a22c-4a88ecbb434b
+    MG-1701-04b:
+      Expression TEI:
+        Articles:
+          MG-1701-04b_003:
+            F2: 0d755028-9d00-4668-af03-5bd6cef9c758

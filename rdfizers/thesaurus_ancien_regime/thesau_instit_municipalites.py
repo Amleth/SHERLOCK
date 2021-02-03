@@ -18,7 +18,7 @@ input_graph = Graph()
 input_graph.load(args.inputrdf)
 
 input_graph_ttl = Graph()
-input_graph_ttl.load(args.inputttl)
+input_graph_ttl.load(args.inputttl, format="turtle")
 
 outputtxt = open(args.outputtxt, "w")
 

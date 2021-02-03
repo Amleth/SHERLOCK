@@ -19,12 +19,10 @@ args = parser.parse_args()
 # CACHE
 
 sys.path.append(str(Path(".").absolute().parent.parent))
-from cache_management import get_uuid, read_cache, write_cache  # nopep8
+from Cache import Cache # nopep8
 
-# Cache de corpus
-cache_corpus = None
-with open(args.cache_corpus) as f:
-	cache_corpus = yaml.load(f, Loader=yaml.FullLoader)
+cache_corpus = Cache(args.cache_corpus)
+cache_lieux = Cache(args.cache_lieux)
 
 ################################################################################
 # Initialisation des graphes
@@ -90,7 +88,7 @@ def explore(id, depth):
 	# E93 Presence
 	identifier = ro(id, DCTERMS.identifier)
 	if identifier != "http://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43":
-		E93_uri = she(get_uuid(["lieu", identifier, "E93", "uuid"]))
+		E93_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "uuid"], True))
 		t(E93_uri, a, crm("E93_Presence"))
 		t(E32_grand_siecle_uri, crm("P71_lists"), E93_uri)
 
@@ -101,14 +99,14 @@ def explore(id, depth):
 
 
 		# E41_Appellation
-		E41_uri = she(get_uuid(["lieu", identifier, "E93", "E41"]))
+		E41_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E41"], True))
 		t(E93_uri, crm("P1_is_identified_by"), E41_uri)
 		t(E41_uri, a, crm("E41_Appellation"))
 		t(E41_uri, RDFS.label, ro(id, SKOS.prefLabel))
 		altLabels = ro_list(id, SKOS.altLabel)
 		if len(altLabels) > 0:
 			for altLabel in altLabels:
-				E41_alt_uri = she(get_uuid(["lieu", identifier, "E93", "E41_alt", altLabel]))
+				E41_alt_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E41_alt", altLabel], True))
 				t(E41_alt_uri, a, crm("E41_Appellation"))
 				t(E41_alt_uri, RDFS.label, altLabel)
 				t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
@@ -128,10 +126,10 @@ def explore(id, depth):
 								clef_mercure_livraison = m_livraison.group()
 								clef_mercure_article = m.group()
 								try:
-									F2_article_uri = she(get_uuid(
+									F2_article_uri = she(cache_corpus.get_uuid(
 										["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
-										 clef_mercure_article, "F2"], cache_corpus))
-									E13_index_uri = she(get_uuid(["lieu", identifier, "E93", "E13_indexation"]))
+										 clef_mercure_article, "F2"], True))
+									E13_index_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_indexation"], True))
 									t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
 									t(E13_index_uri, DCTERMS.created, ro(id, DCTERMS.created))
 									t(E13_index_uri, crm("P14_carried_out_by"),
@@ -158,11 +156,11 @@ def explore(id, depth):
 								clef_mercure_livraison = m_livraison.group()
 								clef_mercure_article = m.group()
 								try:
-									F2_article_uri = she(get_uuid(
+									F2_article_uri = she(cache_corpus.get_uuid(
 										["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
-										 clef_mercure_article, "F2"], cache_corpus))
+										 clef_mercure_article, "F2"], True))
 									E13_index_uri = she(
-										get_uuid(["lieu", identifier, "E93", "E13_indexation"]))
+										cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_indexation"], True))
 									t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
 									t(E13_index_uri, DCTERMS.created, ro(id, DCTERMS.created))
 									t(E13_index_uri, crm("P14_carried_out_by"),
@@ -181,14 +179,14 @@ def explore(id, depth):
 				else:
 					note_sha1_object = hashlib.sha1(v.encode())
 					note_sha1 = note_sha1_object.hexdigest()
-					E13_uri = she(get_uuid(["lieu", identifier, "E93", "E13"]))
+					E13_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13"], True))
 					t(E13_uri, a, crm("E13_Attribute_Assignement"))
 					t(E13_uri, DCTERMS.created, ro(id, DCTERMS.created))
 					t(E13_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
 					t(E13_uri, crm("P14_carried_out_by"),
 					  she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
 					t(E13_uri, crm("P140_assigned_attribute_to"), E93_uri)
-					E13_notes_uri = she(get_uuid(["lieu", identifier, "E93", "E13_notes", note_sha1]))
+					E13_notes_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_notes", note_sha1], True))
 					t(E13_notes_uri, RDFS.label, Literal(v))
 					t(E13_uri, crm("P141_assigned"), E13_notes_uri)
 					t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
@@ -210,7 +208,7 @@ def explore(id, depth):
 
 
 		# Coordonnées géographiques
-		E53_uri = she(get_uuid(["lieu", identifier, "E93", "E53"]))
+		E53_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E53"], True))
 		t(E93_uri, crm("P161_has_spatial_projection"), E53_uri)
 
 		geolat = ro(id, URIRef("http://www.w3.org/2003/01/geo/wgs84_pos#lat"))
@@ -229,7 +227,7 @@ def explore(id, depth):
 
 			# P10 falls within
 			identifier_n = ro(narrower, DCTERMS.identifier)
-			narrower_uuid = she(get_uuid(["lieu", identifier_n, "E93", "uuid"]))
+			narrower_uuid = she(cache_lieux.get_uuid(["lieu", identifier_n, "E93", "uuid"], True))
 			t(narrower_uuid, crm("P10_falls_within"), E93_uri)
 		explore(narrower, depth + 1)
 
@@ -284,5 +282,6 @@ explore(URIRef("http://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
 # ECRITURE DU CACHE ET DES TRIPLETS
 ####################################################################################
 
-write_cache(args.cache_lieux)
 output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+cache_corpus.bye()
+cache_lieux.bye()
