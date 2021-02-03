@@ -227,7 +227,7 @@ def explore(id, depth):
 		if identifier != "http://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43":
 
 
-			# P10 A TERMINER
+			# P10 falls within
 			identifier_n = ro(narrower, DCTERMS.identifier)
 			narrower_uuid = she(get_uuid(["lieu", identifier_n, "E93", "uuid"]))
 			t(narrower_uuid, crm("P10_falls_within"), E93_uri)
