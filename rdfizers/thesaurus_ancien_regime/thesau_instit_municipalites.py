@@ -90,7 +90,7 @@ villes = ro_list(URIRef("http://opentheso3.mom.fr/opentheso3/?idc=municipalite&i
 for ville in villes:
 	ville_prefLabel_lower = ro(ville, SKOS.prefLabel)
 	ville_prefLabel = ville_prefLabel_lower.upper()
-	print(ville_prefLabel)
+	lst.setdefault(ville_prefLabel, [])
 
 
 # On récupère les uuid de ces villes dans lieux.ttl
@@ -107,7 +107,10 @@ for ville in villes:
             }""", initBindings={"nom":Literal(ville_prefLabel, lang='fr')})
 
 	for result in query:
-		print(result)
+		result_string = str(result)
+		result_propre = result_string.replace("(rdflib.term.URIRef('", "")
+		result_propre2 = result_propre.replace("'),)", "")
+		lst[ville_prefLabel].append(result_propre2)
 
 ################################################################################
 ### Ecriture du json

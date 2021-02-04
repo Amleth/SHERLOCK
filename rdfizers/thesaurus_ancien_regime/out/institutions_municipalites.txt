@@ -1,43 +1,284 @@
 {
     "Corps de ville": [
+        "Consuls",
         "Maire",
         "Echevin",
-        "Consuls",
-        "Consul",
-        "Maire perpetuel",
-        "Corps de ville",
-        "Bourgmestre",
-        "Capitoul",
-        "Corps de justice",
         "Echevins",
-        "Syndics",
-        "Jurat"
+        "Corps de ville",
+        "Officiers de la ville",
+        "Consul",
+        "Jurat",
+        "Corps de justice",
+        "Capitoul",
+        "Maire perpetuel",
+        "Conseillers"
+    ],
+    "Compagnie de fusiliers": [],
+    "Magistrats": [
+        "Juges",
+        "Juges consuls"
     ],
     "Musique": [
-        "Tambours",
         "Violons",
         "Trompettes",
-        "Hautbois"
+        "Tambours",
+        "Fifres"
     ],
-    "Prevot des marchands": [],
-    "Officiers de la ville": [],
     "Milice bourgeoise": [
         "Fifres",
         "Fifres de la milice bourgeoise"
     ],
-    "Magistrats": [
-        "Juges consuls",
-        "Juges"
-    ],
-    "Compagnie de fusiliers": [],
+    "Syndics": [],
+    "Corps de justice": [],
+    "Administrateur municipal": [],
+    "Officiers": [],
+    "Vierg": [],
     "Prevots des marchands": [],
     "Quartiniers": [],
-    "Vierg": [],
+    "Officiers de la ville": [],
     "Guet": [
         "Compagnie des hallebardiers"
     ],
-    "Officiers": [],
-    "Corps de justice": [],
-    "Administrateur municipal": [],
-    "Syndics": []
+    "Prevot des marchands": [],
+    "ABBEVILLE": [],
+    "LIBOURNE": [
+        "http://data-iremus.huma-num.fr/id/288f6bf1-9b99-4018-923d-8fb904aaedb0"
+    ],
+    "SOISSONS": [
+        "http://data-iremus.huma-num.fr/id/f68336f6-51b6-4256-99f8-16422fd698af"
+    ],
+    "BAYONNE": [
+        "http://data-iremus.huma-num.fr/id/68931ad5-0a9c-405a-8479-073bb2f76646"
+    ],
+    "ARRAS": [
+        "http://data-iremus.huma-num.fr/id/7be2aaca-a380-49ca-8f04-cf26d0d0cb8c"
+    ],
+    "MONTPELLIER": [
+        "http://data-iremus.huma-num.fr/id/b6257632-4780-4517-b295-0926ceb114e4"
+    ],
+    "PÉRONNE": [
+        "http://data-iremus.huma-num.fr/id/4fa02c9a-0b36-4e13-af87-81caf98b83bf"
+    ],
+    "VITRÉ": [
+        "http://data-iremus.huma-num.fr/id/532e4ca3-dfc6-4230-bfd5-f5ec3f883d2b"
+    ],
+    "CARPENTRAS": [
+        "http://data-iremus.huma-num.fr/id/4fbc9864-1b83-45f1-9163-a1d8b00857c3"
+    ],
+    "MARSEILLE": [
+        "http://data-iremus.huma-num.fr/id/c148fb45-6063-4d23-9a95-195e406ba865"
+    ],
+    "SENS": [
+        "http://data-iremus.huma-num.fr/id/5999b586-66ff-4809-b706-5a3dbf2c3ad3"
+    ],
+    "CHÂTEAUROUX": [
+        "http://data-iremus.huma-num.fr/id/1ff361b2-17bd-40d7-9df4-bc5a8f1477bd"
+    ],
+    "CASTELNAUDARY": [],
+    "MORLAIX": [
+        "http://data-iremus.huma-num.fr/id/4727a0d4-85f7-4579-89b1-554d7e697263"
+    ],
+    "DIJON": [
+        "http://data-iremus.huma-num.fr/id/534a2220-9026-4a61-93f7-d3d1ae8df866"
+    ],
+    "AVIGNON": [],
+    "SAINT-DENIS-EN-FRANCE": [
+        "http://data-iremus.huma-num.fr/id/a52e0acf-c4ff-43a0-8358-4421b6c433a6"
+    ],
+    "ALENÇON": [
+        "http://data-iremus.huma-num.fr/id/848f5fd4-9bba-4b65-ac94-27d8c99740df"
+    ],
+    "CLAMECY": [
+        "http://data-iremus.huma-num.fr/id/15236199-055a-458c-a0eb-8a756f652761"
+    ],
+    "CASTRES": [
+        "http://data-iremus.huma-num.fr/id/3f7a4cdd-3d3a-4b66-9c24-2701a3401814"
+    ],
+    "CHÂTILLON-SUR-SEINE": [
+        "http://data-iremus.huma-num.fr/id/52d18212-a142-4ac9-a893-9aafdd0ae454"
+    ],
+    "MANTES-LA-JOLIE": [
+        "http://data-iremus.huma-num.fr/id/3fdb25c0-1612-415d-8cd6-d240bd89b489"
+    ],
+    "MÂCON": [
+        "http://data-iremus.huma-num.fr/id/130db28c-b495-4adf-83d3-3b9cf8e59797"
+    ],
+    "OULCHY-LE-CHÂTEAU": [],
+    "NOGENT-LE-ROTROU": [
+        "http://data-iremus.huma-num.fr/id/54f4b0f9-250a-4caa-90ec-116f4a6268ab"
+    ],
+    "PÉZENAS": [],
+    "RETHEL": [
+        "http://data-iremus.huma-num.fr/id/7e619fca-2aa8-4038-b01f-11b9143553c3"
+    ],
+    "FONTENAY-EN-BRIE": [],
+    "PROVINS": [
+        "http://data-iremus.huma-num.fr/id/c4897507-f31d-43c1-a01f-a9b43c4736cf"
+    ],
+    "DOUAY": [
+        "http://data-iremus.huma-num.fr/id/7fc0eac1-e756-42bf-91bc-4316227ad73e"
+    ],
+    "LA RÉOLE": [],
+    "IRÙN [ROYAUME D'ESPAGNE]": [],
+    "BOURGES": [
+        "http://data-iremus.huma-num.fr/id/2f1ba978-06bb-4efc-be1e-81abf7315ddb"
+    ],
+    "AMIENS": [
+        "http://data-iremus.huma-num.fr/id/ffa19399-b4e2-4eda-917b-cf0aaf7684b4"
+    ],
+    "LE HAVRE": [],
+    "HOMBOURG": [
+        "http://data-iremus.huma-num.fr/id/54df437b-2941-4a18-a0b6-71a571a4698d"
+    ],
+    "MONTÉLIMAR": [],
+    "LIÈGE": [
+        "http://data-iremus.huma-num.fr/id/a54311fa-194f-48cf-97f5-73b8e02524cb"
+    ],
+    "AUCH": [
+        "http://data-iremus.huma-num.fr/id/0156eb89-2299-4283-8e11-579b5df839b6"
+    ],
+    "LE MANS": [
+        "http://data-iremus.huma-num.fr/id/df8c4109-51e1-4742-b693-24248a3d4194"
+    ],
+    "TROYES": [
+        "http://data-iremus.huma-num.fr/id/2620ffbb-696e-4984-a03a-232e99fb3957"
+    ],
+    "CRUSY-LE-CHÂTEL": [],
+    "AUTUN": [
+        "http://data-iremus.huma-num.fr/id/439a922a-91bf-4032-aa0e-689a8b4440b3"
+    ],
+    "LA FERTÉ-MILON": [
+        "http://data-iremus.huma-num.fr/id/8d9ccaf0-7923-4f69-bf6a-40eb3a824d49"
+    ],
+    "MONTARGIS": [
+        "http://data-iremus.huma-num.fr/id/e0a291ae-ce66-4222-879a-8b685dfce4e9"
+    ],
+    "NANCY": [
+        "http://data-iremus.huma-num.fr/id/2d16d450-35fc-49d0-b5ed-b60e6cfbc341"
+    ],
+    "LIMOGES": [
+        "http://data-iremus.huma-num.fr/id/319b971b-e044-4f30-b226-5c9c82574993"
+    ],
+    "CHÂLONS-EN-CHAMPAGNE": [
+        "http://data-iremus.huma-num.fr/id/57c2301b-3be9-4821-af82-8670f223f4d1"
+    ],
+    "ARLES": [
+        "http://data-iremus.huma-num.fr/id/3d088d5a-4c1d-44e1-bc3a-d315f1125480"
+    ],
+    "SAINT-MAXIMIN-LA-SAINTE-BAUME": [
+        "http://data-iremus.huma-num.fr/id/3ade3836-a67f-4518-8168-2a38c39e98c0"
+    ],
+    "PARIS": [
+        "http://data-iremus.huma-num.fr/id/e577ed19-2d01-4195-a768-0797b4d160a5"
+    ],
+    "SENLIS": [
+        "http://data-iremus.huma-num.fr/id/2b7c78d6-b4e6-4884-bfc2-f102045a2e99"
+    ],
+    "CHÂTEAU-THIERRY": [
+        "http://data-iremus.huma-num.fr/id/2d4187c5-8f43-4dfb-95d8-153f6dcb29fd"
+    ],
+    "AGDE": [
+        "http://data-iremus.huma-num.fr/id/43e1e499-94a5-48ac-b113-c86ff0b74b84"
+    ],
+    "BORDEAUX": [
+        "http://data-iremus.huma-num.fr/id/3c484987-0ca2-40d5-9c19-9f9214ef0f28"
+    ],
+    "BAUGÉ": [
+        "http://data-iremus.huma-num.fr/id/febcff8b-27c4-40b4-bca6-05b74ed47f33"
+    ],
+    "MONTAUBAN": [
+        "http://data-iremus.huma-num.fr/id/e9eb8b48-3272-4098-84ef-72ff5ecde66c"
+    ],
+    "AGEN": [
+        "http://data-iremus.huma-num.fr/id/480e39f7-6fe9-45ab-969e-aa21a65f33f2"
+    ],
+    "BÉZIERS": [
+        "http://data-iremus.huma-num.fr/id/7e588946-9040-42bb-838e-db525226f864"
+    ],
+    "CLERMONT-EN-BEAUVAISIS": [],
+    "KALININGRAD [ROYAUME DE PRUSSE]": [],
+    "LA FLÈCHE": [
+        "http://data-iremus.huma-num.fr/id/cde8239f-6c9d-4585-bb0c-5b0275cf17b6"
+    ],
+    "CHARTRES": [
+        "http://data-iremus.huma-num.fr/id/a4e8562b-f696-4c08-8649-294cd3b2319e"
+    ],
+    "LUZY": [
+        "http://data-iremus.huma-num.fr/id/7769ee75-5f64-4c81-a4fe-c926d7faf869"
+    ],
+    "TOURS": [
+        "http://data-iremus.huma-num.fr/id/1a35671b-7b4e-443f-94bf-72cb22a1dfbb"
+    ],
+    "GRENOBLE": [
+        "http://data-iremus.huma-num.fr/id/2f0a8592-5183-408d-a785-97ec1cb00f64"
+    ],
+    "POITIERS": [
+        "http://data-iremus.huma-num.fr/id/536e2f91-a923-4d7a-9916-5b6ef82d86f9"
+    ],
+    "CAEN": [
+        "http://data-iremus.huma-num.fr/id/f535de59-3790-4f4b-94e4-7103f20b50e7"
+    ],
+    "BLOIS": [
+        "http://data-iremus.huma-num.fr/id/7e55d72c-2f4f-4c40-bf64-f96602e9d389"
+    ],
+    "VIENNE": [],
+    "TOULOUSE": [
+        "http://data-iremus.huma-num.fr/id/cd715c39-29df-46b3-a446-8ada6577084c"
+    ],
+    "LYON": [
+        "http://data-iremus.huma-num.fr/id/eda70c22-7e06-41c4-98d0-48d946043da7"
+    ],
+    "SAUMUR": [
+        "http://data-iremus.huma-num.fr/id/56ac1028-7079-454b-b75e-815812dfd694"
+    ],
+    "TIFFAUGES": [
+        "http://data-iremus.huma-num.fr/id/a4d3a0a3-c6df-41fa-a0f2-2d42b00ffcc2"
+    ],
+    "GRASSE": [
+        "http://data-iremus.huma-num.fr/id/d78d308d-3647-486c-b38f-444f4a2cf0c2"
+    ],
+    "LA ROCHELLE": [
+        "http://data-iremus.huma-num.fr/id/4b9b97fb-fe3e-4d78-bbef-23a54bd17741"
+    ],
+    "NANTES": [
+        "http://data-iremus.huma-num.fr/id/e053dae9-55c3-4b69-a7c4-efa9c179d245"
+    ],
+    "DOLE": [],
+    "VENDÔME": [],
+    "CAUDEBEC-EN-CAUX": [
+        "http://data-iremus.huma-num.fr/id/ed39b9ac-3245-44b9-adc1-052072f7b6f1"
+    ],
+    "RIEUX": [
+        "http://data-iremus.huma-num.fr/id/a93855d8-a8ab-4ce2-bb0e-5bed266969d0"
+    ],
+    "TOUL": [
+        "http://data-iremus.huma-num.fr/id/ec6dca91-a732-4c43-bada-3b28c6276d41"
+    ],
+    "HONFLEUR": [
+        "http://data-iremus.huma-num.fr/id/b4efd235-319f-48c5-aae7-30f06469e10e"
+    ],
+    "NARBONNE": [
+        "http://data-iremus.huma-num.fr/id/7f71dc08-6281-4e05-8f8b-86bc2e837543"
+    ],
+    "VANNES": [
+        "http://data-iremus.huma-num.fr/id/c7674924-0007-40ba-a88c-c70de72dfe38"
+    ],
+    "BEAUVAIS": [
+        "http://data-iremus.huma-num.fr/id/aa5f194e-40a7-493d-b8e3-44b7dd692533"
+    ],
+    "RENNES": [
+        "http://data-iremus.huma-num.fr/id/c6e9fe08-12db-4894-8209-f7e125cbc3dd"
+    ],
+    "BELLEY": [
+        "http://data-iremus.huma-num.fr/id/cc6f7e24-826a-4b20-8133-484f3c718d3c"
+    ],
+    "REIMS": [
+        "http://data-iremus.huma-num.fr/id/b84ed172-5fa3-43f9-a6b0-1c2ccbdaee2e"
+    ],
+    "NIORT": [
+        "http://data-iremus.huma-num.fr/id/f4d25e71-5070-4183-9b10-ddd09044d122"
+    ],
+    "LA FERTÉ-BERNARD": [
+        "http://data-iremus.huma-num.fr/id/84b03fa8-0af3-41a2-a2a8-d2cc8352912e"
+    ]
 }
