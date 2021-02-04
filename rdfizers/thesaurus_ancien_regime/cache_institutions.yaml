@@ -57,7 +57,7 @@ institutions et corporations:
   argentier_de_la_dauphine:
     uuid: e0aa7a7a-ef05-4d63-9427-288b31abc09c
     E41: be363380-050a-4fca-9949-9b412fe8d89b
-  "maison_de_marie-adela\xEFde_de_savoie_duchesse_de_bourgogne_(1685-1712)":
+  maison_de_marie-adelaïde_de_savoie_duchesse_de_bourgogne_(1685-1712):
     uuid: bab04090-fcea-4026-899e-858b4b6efbe7
     E41: 1d6408ec-ae6d-4ebe-aa8c-47a6d56b1467
   intendant_de_metz:
@@ -103,7 +103,7 @@ institutions et corporations:
     uuid: f54a1c99-1784-4270-8151-78e88dd5238e
     E41: 4cff05ac-b040-4740-9cf3-3429eb0400cc
     E41_alt:
-      "Bailliage du ch\xE2teau de Louvre artillerie arsenal de Paris poudres et salp\xEAtres par tout le royaume de France": 4ad4ad0e-a14a-48e7-9581-5cf3b118cd2a
+      Bailliage du château de Louvre artillerie arsenal de Paris poudres et salpêtres par tout le royaume de France: 4ad4ad0e-a14a-48e7-9581-5cf3b118cd2a
   bailliages_et_senechaussees:
     uuid: 2ab76749-e9ee-4309-a6d8-afd5b9e61b31
     E41: 27bc99a0-deb0-478a-9844-6f12d3a8d69e
@@ -287,7 +287,7 @@ institutions et corporations:
     uuid: d98d0419-b1ef-4e35-8db6-53a7b5afe03f
     E41: 36715272-c5ef-4e0e-8d9c-95b830873de6
     E41_alt:
-      "r\xE9giment royal": 23434c7f-4f24-4500-bdb2-66cd6037ef78
+      régiment royal: 23434c7f-4f24-4500-bdb2-66cd6037ef78
     E13_indexation: 5e8fbaa2-08c5-4738-ba2a-150ed9b25706
   aide-apothicaire_de_gaston_duc_d_orleans:
     uuid: aa51e49f-e839-4644-82c4-5372abaeed93
@@ -450,8 +450,8 @@ institutions et corporations:
     uuid: a107e4d1-f67c-4f9d-97ab-7ba2dd41070e
     E41: 649216d6-3dda-40b0-aedf-cd3cf690eee0
     E41_alt:
-      "Petite Acad\xE9mie": 5e5ac1ae-9047-4859-959e-60c147605e1c
-      "Acad\xE9mie royale des inscriptions et m\xE9dailles": 29251cd4-01f6-4803-bf94-2ea989911709
+      Petite Académie: 5e5ac1ae-9047-4859-959e-60c147605e1c
+      Académie royale des inscriptions et médailles: 29251cd4-01f6-4803-bf94-2ea989911709
   intendant_de_paris:
     uuid: 30ff67d5-904a-496d-bb2a-96979e5aa0ed
     E41: 74a9f915-ed9b-4396-a759-372ce64523f8
@@ -501,8 +501,8 @@ institutions et corporations:
     uuid: 99b49a38-a178-4182-b0f2-dc8b05b1895f
     E41: ebae7dce-7ca4-4ee8-9863-ad2c3662e22d
     E41_alt:
-      "Coll\xE8ge de Clermont": b09afae9-4e04-4efb-b201-bb5a4bd3f264
-      "Coll\xE8ge des J\xE9suites de Paris": b992f281-ede0-4e76-a5f3-2ba654074bc8
+      Collège de Clermont: b09afae9-4e04-4efb-b201-bb5a4bd3f264
+      Collège des Jésuites de Paris: b992f281-ede0-4e76-a5f3-2ba654074bc8
     E13_indexation: 3abc8013-5b1a-4c50-b82e-f27fc9afcaac
   table_de_marbre_amiraute:
     uuid: b7d2d0aa-7f83-4991-9446-b7c6f935aed1
@@ -833,8 +833,8 @@ institutions et corporations:
     uuid: 35427f74-d123-49a1-adee-e9f6e2704127
     E41: a2d235ca-42d0-4ed7-a0d5-2e4eee4cf086
     E41_alt:
-      "G\xE9nie": 3d6fa713-5de6-4fcd-bb6e-6e2465fa929f
-      "Direction g\xE9n\xE9ral des fortifications des places de terre et de mer": 11516091-4c5b-41e5-ace7-1c227b2deb20
+      Génie: 3d6fa713-5de6-4fcd-bb6e-6e2465fa929f
+      Direction général des fortifications des places de terre et de mer: 11516091-4c5b-41e5-ace7-1c227b2deb20
   echevin_de_la_ferte-bernard:
     uuid: 3bdc8b6a-20e0-4067-bfc0-246de15515d7
     E41: 7dc01162-49e2-40d1-81e9-dc7a28ee3afe
@@ -879,7 +879,7 @@ institutions et corporations:
     uuid: 5ff8a173-9f5e-4ce9-9510-96606df06bdc
     E41: 5744a32c-bbc1-4548-b4f7-e16c365842b5
     E41_alt:
-      "Pr\xE9v\xF4t\xE9 et vicomt\xE9 de Paris": 760d80f0-1c5c-4325-b63d-f1ccaa8a0f4c
+      Prévôté et vicomté de Paris: 760d80f0-1c5c-4325-b63d-f1ccaa8a0f4c
   tondeur:
     uuid: 1f85a84a-552e-4e73-ac24-bda57e1ca20c
     E41: d533c2c9-db9f-4358-8f68-f758cd6c1fd9
@@ -906,7 +906,7 @@ institutions et corporations:
       Marchand de vieux fer: 10017a3e-58b2-4007-bad5-12754b4bb7c1
       Crieur de vieux fer: 1ee0add6-8a19-4a26-8fde-575644bd0637
       Ferrailleur: d3c1cb1d-bef4-4ec0-bde3-f36e31c59124
-      "D\xE9peceur de carosses": 5894db00-5a38-4948-99e7-55e7d3fc8fa5
+      Dépeceur de carosses: 5894db00-5a38-4948-99e7-55e7d3fc8fa5
     E13_indexation: 7c59b078-dedc-494e-935a-5b43ffe5fb29
   piqueur_du_vol_pour_champs:
     uuid: aff77fea-d632-4e08-93df-30573dee3d3f
@@ -918,7 +918,7 @@ institutions et corporations:
     uuid: 7f48854a-69f5-4ee5-9ac0-aeaf40550a69
     E41: 3f513948-89a3-4cda-8de6-82ac427da2f6
     E41_alt:
-      "Acad\xE9mie des sciences": 6864fd9c-c619-4732-bf89-c74b528aee3c
+      Académie des sciences: 6864fd9c-c619-4732-bf89-c74b528aee3c
   bailliage_de_soissons:
     uuid: 7acd6ac4-0fa2-4402-85ef-e0e58b1558dc
     E41: 8ccec46c-105c-4adb-a476-2253372813d6
@@ -972,7 +972,7 @@ institutions et corporations:
     uuid: 88e65ec0-2a13-4bf2-bd30-4b60eeb2cc91
     E41: dc5f1525-a40d-4280-b417-6636c3665fb7
     E41_alt:
-      "Garde de la pr\xE9v\xF4t\xE9 de Paris": ba3bea67-ecc6-4cd4-895f-9e40a51f5e25
+      Garde de la prévôté de Paris: ba3bea67-ecc6-4cd4-895f-9e40a51f5e25
       Chambellan ordinaire du roi: 39a6f68b-8c96-4cc2-8a42-ae6bbc3c70ba
   gouverneur_d_amiens:
     uuid: f114a5fa-4f12-4393-9762-f69e4d05f81d
@@ -1024,8 +1024,8 @@ institutions et corporations:
     uuid: 670af03c-5517-40dd-8bf3-f23391203c3a
     E41: 200a5373-b310-44d6-a767-6001a253a02b
     E41_alt:
-      "Ma\xEEtre des requ\xEAtes ordinaires de l'H\xF4tel du roi": 9a4bdb77-ccd5-4870-bb40-a2e866b39555
-      "Ma\xEEtre des requ\xEAtes de l'H\xF4tel du roi": 5ef0e558-e8b0-439e-8321-0876317e4870
+      Maître des requêtes ordinaires de l'Hôtel du roi: 9a4bdb77-ccd5-4870-bb40-a2e866b39555
+      Maître des requêtes de l'Hôtel du roi: 5ef0e558-e8b0-439e-8321-0876317e4870
   gabarier:
     uuid: 8d79a55e-8420-4d42-8b00-f8715186aab9
     E41: 2eafa773-1deb-44b9-b0b2-99a93a51465d
@@ -1097,7 +1097,7 @@ institutions et corporations:
     uuid: d6c75902-67f9-454f-aebe-aca9d3cfe95d
     E41: 1a2d09e0-80f8-414a-be95-56b7a20ae420
     E41_alt:
-      "Envoy\xE9 extraordinaire du roi \xE0 l'\xE9tranger": 27c0c713-5a9a-40c0-a00c-07fb9753ee30
+      Envoyé extraordinaire du roi à l'étranger: 27c0c713-5a9a-40c0-a00c-07fb9753ee30
   envoye_extraordinaire_aupres_de_l_electeur_de_treves_et_de_l_electeur_palatin:
     uuid: 111c2bec-777c-4a43-aaec-c207110ed82f
     E41: e08020f7-226a-4f32-bd86-628ff08d2e3f
@@ -1338,7 +1338,7 @@ institutions et corporations:
     uuid: 52c5fd02-6c73-4e34-a3ee-36121cc699ff
     E41: 996d78b0-d157-41e4-90d2-56d86e0a6f61
     E41_alt:
-      "grand ma\xEEtre de la Maison du roi": f981aec4-d32b-4fdf-9cd3-cfe3bc53a372
+      grand maître de la Maison du roi: f981aec4-d32b-4fdf-9cd3-cfe3bc53a372
   secretaire_d_etat_de_la_maison_du_roi:
     uuid: 78b96e57-6724-44e7-a8ab-4ec1a20359a3
     E41: 78e5cd7b-cfef-4c55-981a-d70a97cc272a
@@ -1393,11 +1393,11 @@ institutions et corporations:
     uuid: fc476e48-4276-4ea1-b8bb-99d1f413ad14
     E41: 3ee0a2ca-f9c6-4404-b01b-4a82444d98a9
     E41_alt:
-      "r\xE9giment de Ruffec cavalerie [1717]": 084ceb50-b95e-4812-b9bb-6994615ea2e8
-      "r\xE9giment de Barentin cavalerie [1696]": 05940d41-be9a-4096-afd8-a0fc6d9ad25d
-      "r\xE9giment de Barban\xE7on cavalerie [1735]": df66dae4-0270-476e-ada8-abeea1bb4a90
-      "r\xE9giment de Courtebonne cavalerie [1677]": fbad935a-67fd-4721-9052-aead61218246
-      "r\xE9giment de Villepreux cavalerie [1709]": 393e3116-60d0-4f98-8896-d3b21daf23c3
+      régiment de Ruffec cavalerie [1717]: 084ceb50-b95e-4812-b9bb-6994615ea2e8
+      régiment de Barentin cavalerie [1696]: 05940d41-be9a-4096-afd8-a0fc6d9ad25d
+      régiment de Barbançon cavalerie [1735]: df66dae4-0270-476e-ada8-abeea1bb4a90
+      régiment de Courtebonne cavalerie [1677]: fbad935a-67fd-4721-9052-aead61218246
+      régiment de Villepreux cavalerie [1709]: 393e3116-60d0-4f98-8896-d3b21daf23c3
   maitre_de_camp_pour_la_cavalerie_au_regiment_de_ruffec:
     uuid: 3b4545a3-4464-4226-a6b4-d11fe056568c
     E41: ba5d6b55-6f7e-466f-bb74-21aa22b22667
@@ -1547,7 +1547,7 @@ institutions et corporations:
     uuid: 43d813e9-4959-49a8-b795-8439334767a1
     E41: 636a96d8-0ecd-414c-89a5-fc8d010b2933
     E41_alt:
-      "Coll\xE8ge de France": c1dbbc5c-4a72-446e-8577-74e19f3e0999
+      Collège de France: c1dbbc5c-4a72-446e-8577-74e19f3e0999
   enfant_d_honneur_du_dauphin:
     uuid: bcfc2b0f-5910-4b6f-80bb-21b5f0dcb8c9
     E41: 7cf859f2-fe57-4aa4-9c28-9da942cd0c25
@@ -1579,7 +1579,7 @@ institutions et corporations:
     uuid: 8f44a7c2-1af2-416c-8eb7-33cd74ed8b52
     E41: ca2c8c5f-f985-40cc-9e03-68da107fd561
     E41_alt:
-      "compagnie des chevau-l\xE9gers d'Orl\xE9ans": 33509371-0ab4-4cb7-b8aa-b1e09d5da381
+      compagnie des chevau-légers d'Orléans: 33509371-0ab4-4cb7-b8aa-b1e09d5da381
   president_du_grand_conseil:
     uuid: f8996e07-8c96-43e2-bd41-304350609815
     E41: 3d1c6fbe-de9e-4004-83f4-361d318ec9ea
@@ -1810,7 +1810,7 @@ institutions et corporations:
     uuid: 61c5cd91-ff3f-4f0b-a81a-f378bc61f10d
     E41: 713a5c73-47a7-4022-8542-c58f4de26d98
     E41_alt:
-      "R\xE9giment des Gardes": 650277a5-b6dd-4b51-9c66-45e8ab703b01
+      Régiment des Gardes: 650277a5-b6dd-4b51-9c66-45e8ab703b01
     E13_indexation: 6b070535-887f-43e8-8c64-0d01d52b1184
   valet_de_chien_de_la_venerie_du_roi:
     uuid: 73d037d5-631d-4603-835e-1bfa9b5851a4
@@ -1864,7 +1864,7 @@ institutions et corporations:
     E41: f11ad331-37ec-4811-884a-4709ea455140
     E41_alt:
       Maison de Monsieur (1640-1701): c0e30b3d-f4ba-4367-bae5-1137948d625e
-      "Maison de Monsieur fr\xE8re du roi (1640-1701)": ddf797e8-1313-4e76-a77a-1052fe5ad838
+      Maison de Monsieur frère du roi (1640-1701): ddf797e8-1313-4e76-a77a-1052fe5ad838
   doyen_de_la_faculte_de_paris:
     uuid: 076974dd-c44c-4f19-850e-24a512219ef2
     E41: b5e2cdcc-dbfa-4d98-917e-5c2020421029
@@ -2009,10 +2009,10 @@ institutions et corporations:
     uuid: ae405249-0555-4a66-8796-87336b96111c
     E41: 81f269aa-77df-49c7-a9d2-f8db1f000b53
     E13_indexation: 07462f4a-1def-4f7f-9ee9-0b4a08152e6a
-  "passementier_fran\xE7ais_de_la_ville_d_alep":
+  passementier_français_de_la_ville_d_alep:
     uuid: 536222d7-879b-4989-8cfc-9bc851c09484
     E41: 20aff498-4442-48ef-aa98-42999b1bb5a8
-  "marchands_fran\xE7ais_de_la_ville_d_alep":
+  marchands_français_de_la_ville_d_alep:
     uuid: 7806e62e-02f9-458f-af77-67245cb8ebaf
     E41: 1a664fb8-3e63-48d7-8817-eb57e535627f
   bailli_au_bailliage_de_la_ferte-bernard:
@@ -2054,7 +2054,7 @@ institutions et corporations:
     uuid: 70489f74-c60a-4059-b227-8dc571a95c91
     E41: 17d859dd-e495-43da-b7cc-869c7deeabd0
     E41_alt:
-      "Ma\xEEtre des petites-\xE9coles": 099fbd51-dddc-46bd-90c0-c4c9a66ed532
+      Maître des petites-écoles: 099fbd51-dddc-46bd-90c0-c4c9a66ed532
     E13_indexation: 6487e4a6-61c4-4270-bc5d-15c47022a066
   maison_de_la_comtesse_d_artois:
     uuid: 223ac4c8-246f-4c64-8f2a-d2c60030904d
@@ -2125,7 +2125,7 @@ institutions et corporations:
     uuid: eecc8d23-bcd2-40e2-a986-b460e7d16d42
     E41: d206a8a1-b466-4dca-9646-32a054f7fa89
     E41_alt:
-      "Ma\xEEtresse des petites-\xE9coles": ea48ad5f-ef87-47be-9419-a8cc1631588a
+      Maîtresse des petites-écoles: ea48ad5f-ef87-47be-9419-a8cc1631588a
     E13_indexation: 263ebc0b-3452-4164-bc42-864d424268f4
   professeur_de_medecine_a_l_universite_de_reims:
     uuid: b8177939-2d8c-4ccb-a2bd-f888ba9dfdf5
@@ -2312,7 +2312,7 @@ institutions et corporations:
   membre_honoraire_de_l_academie_royale_des_inscriptions_et_belles-lettres:
     uuid: 3db41006-a7bf-4e24-8342-7513f778c2a2
     E41: 076bd04d-c002-4fad-b301-617ec6723529
-  "marchand_de_satin_et_de_dentelle_fran\xE7ais_de_la_ville_d_alep":
+  marchand_de_satin_et_de_dentelle_français_de_la_ville_d_alep:
     uuid: 173b80e7-31f7-4536-b7fc-352e645a78b0
     E41: fc303b81-34a8-4c31-91b7-a24dd786506b
   associe_astronome_de_l_academie_royale_des_sciences:
@@ -2350,7 +2350,7 @@ institutions et corporations:
     uuid: 35916618-5912-40c3-a344-d1e245e04696
     E41: 4b15f5de-b429-4362-a3de-7ab91db697bd
     E41_alt:
-      "Conseil souverain de B\xE9arn": 85b94319-4add-45c5-9f28-e9f59eeac1c4
+      Conseil souverain de Béarn: 85b94319-4add-45c5-9f28-e9f59eeac1c4
   conseillers_du_roi_notaires_au_chatelet:
     uuid: 308afb4c-a0fe-462a-9892-78f9c80543d9
     E41: adf82b70-cfaa-4b85-bc35-6d284ed9eb53
@@ -2361,7 +2361,7 @@ institutions et corporations:
     uuid: 6d5acd1f-f4bc-4178-af92-3ffe3ff907a1
     E41: b9cf99ad-9682-4299-b9ff-0da411b3f123
     E41_alt:
-      "Faiseur d\u2019instruments": 06bdd0d4-1861-4e2f-abef-6f4fcecc4eda
+      Faiseur d’instruments: 06bdd0d4-1861-4e2f-abef-6f4fcecc4eda
     E13_indexation: 39e8a8b9-8aea-47ea-9974-1a219f365ef2
   election_de_chartres:
     uuid: 3d475e93-b960-4d6b-8ed1-5174ddde3d5b
@@ -2830,7 +2830,7 @@ institutions et corporations:
   dame_d_honneur_de_madame_adelaide:
     uuid: 7f802178-df89-4274-9a90-8e8a4aa00e80
     E41: ddd82bc1-73d5-463c-aa29-b290958b98e9
-  "maison_de_madame_adela\xEFde_(1732-1800)":
+  maison_de_madame_adelaïde_(1732-1800):
     uuid: 5518b803-e943-4ddf-a63a-b612109f958b
     E41: 915fbd0a-5b42-4f78-b193-5875232fafa8
   sous-gouvernante_des_enfants_de_france:
@@ -2888,7 +2888,7 @@ institutions et corporations:
     uuid: a01db0a0-9b1c-493d-8fbc-b46fc9faf90b
     E41: cfe9ac1e-4595-4255-82bf-227e0fb8b3ae
     E41_alt:
-      "\xE9mouleur": 8523b3f7-5fce-40e0-b77f-6e0611b087d4
+      émouleur: 8523b3f7-5fce-40e0-b77f-6e0611b087d4
   echansonnerie-bouche:
     uuid: 564b53df-21ee-4fa6-a221-46e7802e4205
     E41: 5c225e9f-aa0a-45d6-8b5d-9815db08a655
@@ -2932,7 +2932,7 @@ institutions et corporations:
     uuid: ff7be371-eed6-40f1-a451-f02ce6b090ef
     E41: 605303bf-8172-4189-ae5a-ffabc1d069d6
     E41_alt:
-      "Compagnie des chevaliers du jeu de l\u2019arquebuse de Poitiers": f2a3633c-c4fc-483d-875f-b6d7ab4892d8
+      Compagnie des chevaliers du jeu de l’arquebuse de Poitiers: f2a3633c-c4fc-483d-875f-b6d7ab4892d8
   jeu_de_l_arquebuse:
     uuid: 19ed6744-eaaf-4641-883f-073042f26427
     E41: 6f3c3ac0-9cae-48cc-9f80-f3bed4fc243a
@@ -3045,7 +3045,7 @@ institutions et corporations:
     uuid: 66e058c9-b5ef-4346-a7bb-a723864a80ff
     E41: a5124ccf-7151-4f5d-8b03-6a0cc01809b1
     E41_alt:
-      "compagnie des gendarmes d'Orl\xE9ans": 50715ce8-cf0c-49b3-8aad-b21bf7321d52
+      compagnie des gendarmes d'Orléans: 50715ce8-cf0c-49b3-8aad-b21bf7321d52
   montargis:
     uuid: 7e1fc8e9-fa7f-4444-9e1b-b90b64314dab
     E41: 5f233bfa-2015-4ac5-885b-eb9afe97c840
@@ -3132,9 +3132,9 @@ institutions et corporations:
     uuid: f0e05ecd-8b85-4074-b58f-e7ccbf97fbdb
     E41: 2031247f-89bb-4968-9e01-4a2b9bf50002
     E41_alt:
-      "Coll\xE8ge du Cardinal Le Moine": 2fcd1325-54cd-4189-8ac3-e4742237a10d
-      "Coll\xE8ge du Cardinal Le Moyne": 1484fc89-6f14-43d9-af6b-cc3209c65716
-      "Coll\xE8ge du Cardinal Lemoyne": 33047fb2-6564-4ae5-92ba-e4d4706f074c
+      Collège du Cardinal Le Moine: 2fcd1325-54cd-4189-8ac3-e4742237a10d
+      Collège du Cardinal Le Moyne: 1484fc89-6f14-43d9-af6b-cc3209c65716
+      Collège du Cardinal Lemoyne: 33047fb2-6564-4ae5-92ba-e4d4706f074c
     E13_indexation: 16ca98d7-9e25-45ee-8973-ab9ca4db1191
   sommier_de_la_chapelle_du_roi:
     uuid: 687d98d7-642b-48e6-9eaf-03ac09929164
@@ -3156,7 +3156,7 @@ institutions et corporations:
     uuid: 62178fe8-b0ec-47b3-9965-24a45c7e5079
     E41: b3778c4f-56fe-4641-82f0-68f621190db0
     E41_alt:
-      "Exempt du pr\xE9v\xF4t g\xE9n\xE9ral du conn\xE9table et mar\xE9chaux de France": 68772d5f-db55-4e04-952c-ee809452d0a5
+      Exempt du prévôt général du connétable et maréchaux de France: 68772d5f-db55-4e04-952c-ee809452d0a5
   violons_d_avignon:
     uuid: 8f080ea2-5461-4bd8-90a5-de0fd0138043
     E41: c9d6866d-ffec-495a-80d3-9751346581c0
@@ -3334,7 +3334,7 @@ institutions et corporations:
   '277999':
     uuid: 8b8bdaee-a28c-41e4-826f-c2c1150fc154
     E41: d304ce9b-7b05-4090-b183-c6d7918b3732
-  "teinturier_en_rouge_fran\xE7ais_de_la_ville_d_alep":
+  teinturier_en_rouge_français_de_la_ville_d_alep:
     uuid: 8b8be5f2-bf47-4eda-99f3-6c512bc959db
     E41: 91661f40-c221-4922-a619-f861cf913b88
   chateau_de_bellevue:
@@ -3718,7 +3718,7 @@ institutions et corporations:
     uuid: 9b200c55-476d-41e0-9ffc-36ea5e3c02f2
     E41: 70595d2c-1ce0-4e22-b39c-cdc19fd18022
     E41_alt:
-      "Compagnie des chevaliers du jeu de l\u2019arquebuse de Corbeil": a7c64073-82ff-4213-9a86-204e9d57f504
+      Compagnie des chevaliers du jeu de l’arquebuse de Corbeil: a7c64073-82ff-4213-9a86-204e9d57f504
     E13_indexation: 71775fd5-fa2e-4b80-82bb-0600ebe43c23
   academie_de_soissons:
     uuid: c7c9cc8b-1028-45cd-a8c1-d6feee594a21
@@ -3814,7 +3814,7 @@ institutions et corporations:
   rieux:
     uuid: 83c93b77-6b29-48f6-ac20-22b5eeaca635
     E41: 6e3a7564-8aef-49ee-b31c-062ec99b8109
-  "fabricant_de_fils_de_soie_et_d_argent_fran\xE7ais_de_la_ville_d_alep":
+  fabricant_de_fils_de_soie_et_d_argent_français_de_la_ville_d_alep:
     uuid: a8bfb0d7-1d9d-4c24-a392-41e03ac17105
     E41: 73eec0df-ae76-443f-ab8f-c0e047f9a540
   '278005':
@@ -3860,7 +3860,7 @@ institutions et corporations:
     uuid: 0f0cdba2-8440-4ec1-bbac-9a5113517728
     E41: 764358ae-73c1-434a-95a6-0e18c563340e
     E41_alt:
-      "Maison d'Henriette d'Angleterre (1644-1670) duchesse d'Orl\xE9ans": 1c1ab16e-e38a-466a-ae8f-ae061f49a53f
+      Maison d'Henriette d'Angleterre (1644-1670) duchesse d'Orléans: 1c1ab16e-e38a-466a-ae8f-ae061f49a53f
   apothicaire_des_ecuries_du_duc_d_orleans:
     uuid: e95a8a17-c057-4257-816d-891b2e2e7561
     E41: ca12ee31-34db-4c58-92cf-7ca23a0911d9
@@ -4105,8 +4105,8 @@ institutions et corporations:
     uuid: 1408f333-dcd7-4a32-8b52-488f000a9faf
     E41: 5e68b245-1c8d-4797-b96b-d39bc874ffe4
     E41_alt:
-      "Paten\xF4trier et boutonnier d\u2019\xE9mail": 279c7f3b-e536-4134-aa58-8ce9076a0189
-      "Paten\xF4trier-boutonnier d\u2019\xE9mail, verre et cristal": b151d07d-e053-4b1b-ae01-b643687affcf
+      Patenôtrier et boutonnier d’émail: 279c7f3b-e536-4134-aa58-8ce9076a0189
+      Patenôtrier-boutonnier d’émail, verre et cristal: b151d07d-e053-4b1b-ae01-b643687affcf
   sens:
     uuid: 9b03ce3e-3a72-4733-bcdd-fab908b8e37a
     E41: 472c3da4-c536-4cf7-b75a-abac34d75e1b
@@ -4122,7 +4122,7 @@ institutions et corporations:
   confesseur_de_monsieur:
     uuid: 92bddb82-ee67-4b7a-85ec-4477bd37d8b5
     E41: 82306845-fed3-4ec4-8be6-00e829f08a7c
-  "enqu\xEAteur-examinateur_au_chatelet":
+  enquêteur-examinateur_au_chatelet:
     uuid: 89e1c166-8e54-46b0-ae57-bd60b12fa533
     E41: f437045f-0192-450e-ae24-66318f41b14c
   journalier:
@@ -4287,7 +4287,7 @@ institutions et corporations:
   garcon_de_chambre_des_enfants_de_france:
     uuid: 745a4376-208f-4d60-8ea1-b18d31e7d02a
     E41: 97334f78-9b92-4078-b123-56f9fada67fc
-  "lustreur_d_etoffe_fran\xE7ais_de_la_ville_d_alep":
+  lustreur_d_etoffe_français_de_la_ville_d_alep:
     uuid: 4885e27d-0683-44e3-88c8-fcc415f3ee85
     E41: 81806498-7925-4c06-8e3e-54b49dabf630
   commis_controleur_general_finances:
@@ -4368,7 +4368,7 @@ institutions et corporations:
     E41: 05ed2973-3da4-422e-b7f6-c505de0e3482
     E41_alt:
       Ordre de Notre-Dame-du-Mont-Carmel: 5252ddea-b700-4aa5-9ebc-1046c4ccef91
-      "Grand Prieur\xE9 de France": 0b5dabff-f320-4ac8-ac8e-915836fbeb4d
+      Grand Prieuré de France: 0b5dabff-f320-4ac8-ac8e-915836fbeb4d
       Ordre de Saint-Lazare: 85d46c46-1fd1-4340-9410-66a425781332
     E13_indexation: fc266a1f-0d9c-40d1-88f0-c75dad37dc6f
   corps_des_procureurs_au_presidial_de_montpellier:
@@ -4594,7 +4594,7 @@ institutions et corporations:
     uuid: 2350a09a-cf94-4775-ab10-be3be12d698f
     E41: 0e00a4c6-5770-449e-ad3c-efd069aea15a
     E41_alt:
-      "Coll\xE8ge de la Marche-Winville": f6d4c64a-0a58-43ec-b681-0ffa5093e988
+      Collège de la Marche-Winville: f6d4c64a-0a58-43ec-b681-0ffa5093e988
   armee_d_irlande:
     uuid: ac108406-37c5-4964-b2e6-acc5b0a5528a
     E41: 0ff8e962-bafb-4500-be34-e4eac7986015
@@ -4752,7 +4752,7 @@ institutions et corporations:
   perruquier_ordinaire_du_roi:
     uuid: 59a279ef-64cf-421c-aa61-0f21d0493e16
     E41: ec950887-751f-4739-9c15-6abeb6ce6ebb
-  "fabriquant_et_marchand_de_soie_fran\xE7ais_de_la_ville_d_alep":
+  fabriquant_et_marchand_de_soie_français_de_la_ville_d_alep:
     uuid: e88af4a7-636c-4e76-8cfb-b47052131bee
     E41: 5839a27f-6e2a-4b31-9056-958c4a1bb823
   lieutenant_general_civil_criminel_et_de_police_du_bailliage_du_palais:
@@ -5107,7 +5107,7 @@ institutions et corporations:
     uuid: 48d44e81-0d30-4e8b-90b3-e1ca041e1d6a
     E41: 91bb3582-a9a3-4b1f-b49d-3cc863a07303
     E41_alt:
-      "Compagnie des chevaliers du jeu de l\u2019arquebuse de Reims": b16a457a-d664-4484-8f0a-25ff5f54666e
+      Compagnie des chevaliers du jeu de l’arquebuse de Reims: b16a457a-d664-4484-8f0a-25ff5f54666e
   papetier:
     uuid: 7e2479c3-258b-4950-b999-f33cdc92cf52
     E41: bfe4b07d-59b9-4e8c-b172-be5677ceae14
@@ -5118,7 +5118,7 @@ institutions et corporations:
     uuid: 9b4b550f-c767-4bb0-989c-dcd11dcf1da0
     E41: 851a0c78-670d-4f3f-9a3b-e0e2f1e1be59
     E13_indexation: 0a3f65f5-834e-4419-a719-c0f9c9ff88c6
-  "blanchisseur_fran\xE7ais_de_la_ville_d_alep":
+  blanchisseur_français_de_la_ville_d_alep:
     uuid: c332bd43-91c1-4219-a6dd-26aca3161609
     E41: b48f03c7-af7a-46b4-a8ef-d69f3cf0c191
   grand_audiencier:
@@ -5292,7 +5292,7 @@ institutions et corporations:
     uuid: 460d4ba1-8106-4c3b-831f-cb85405cdca4
     E41: b3434314-0e7d-414c-8768-30ab1dfede11
     E41_alt:
-      "pr\xE9v\xF4t provincial des mar\xE9chaux pour la province": 3ee05ea3-659b-4de7-bd1e-1aaa75272e91
+      prévôt provincial des maréchaux pour la province: 3ee05ea3-659b-4de7-bd1e-1aaa75272e91
   jeu_d_adresse:
     uuid: 18c6e6ab-fa38-4434-9731-6d4b4f545a7d
     E41: 512b9660-8388-4b14-8bfe-9c043fa986a1
@@ -5458,8 +5458,8 @@ institutions et corporations:
     uuid: 6bec125c-8086-4447-b4ef-ac96cf182ac1
     E41: c1027598-3cc2-4113-9cc0-8236e1cc6ae2
     E41_alt:
-      "Acad\xE9mie d\u2019Angers": 31a30b13-64b2-4d47-bd61-0dafdcd05ffd
-      "Acad\xE9mie royale des belles-lettres d\u2019Angers": a8d6c998-e51b-458e-8097-571c0aaa5449
+      Académie d’Angers: 31a30b13-64b2-4d47-bd61-0dafdcd05ffd
+      Académie royale des belles-lettres d’Angers: a8d6c998-e51b-458e-8097-571c0aaa5449
     E13_indexation: 4853a412-a695-4b2b-97e2-b8953b97fcb8
   controleur_de_l_extraordinaire_des_guerres:
     uuid: 31c93c22-5d0d-4313-965b-5f7779464876
@@ -5520,7 +5520,7 @@ institutions et corporations:
     uuid: d06ac3ae-8edf-4c6c-89ff-1ff7972ceec3
     E41: d2319ccf-78db-416c-a1e3-5f5ec8d404ec
     E41_alt:
-      "Compagnie des chevaliers du jeu de l\u2019arquebuse de Saint-Denis-en-France": 7816b547-9a94-4dee-b179-42f029b32f2f
+      Compagnie des chevaliers du jeu de l’arquebuse de Saint-Denis-en-France: 7816b547-9a94-4dee-b179-42f029b32f2f
   concierge_du_chateau_de_marly:
     uuid: 6427ff65-0640-4e03-ab66-a763ac60893a
     E41: a5bc1ace-3375-43f0-90a9-26a1f3a889eb
@@ -5747,7 +5747,7 @@ institutions et corporations:
     uuid: e61c97c4-8953-4e17-a6f3-348bf1a8e141
     E41: 54006e62-9be8-4f92-8d6f-c4c4a0e0d154
     E41_alt:
-      "Pr\xE9v\xF4t de l'H\xF4tel": c5ea3863-d06c-43a4-89bb-e4411a9a5ef9
+      Prévôt de l'Hôtel: c5ea3863-d06c-43a4-89bb-e4411a9a5ef9
   souverain_senat_du_comte_de_nice:
     uuid: a9476a47-3efe-4445-8000-9ad81454d2ea
     E41: cbc49a83-d176-4517-9b45-40df10699ac2
@@ -5765,7 +5765,7 @@ institutions et corporations:
     uuid: 6ec7572e-b484-4434-81d7-57a5bee610f0
     E41: 17623451-15f8-4299-98a7-0bc4c200edfe
     E41_alt:
-      "Compagnie des chevaliers du jeu de l\u2019arquebuse de Ch\xE2teau-Thierry": cafe0d8e-34cd-4d3b-95df-f401d8249cde
+      Compagnie des chevaliers du jeu de l’arquebuse de Château-Thierry: cafe0d8e-34cd-4d3b-95df-f401d8249cde
   maitre_de_mathematiques_du_grand_dauphin:
     uuid: daa591ae-1c7f-4114-9036-f91cb8b2a399
     E41: 30cbb108-0eac-4275-b602-b2f999b31b98
@@ -5776,7 +5776,7 @@ institutions et corporations:
     uuid: f033bd6c-7d56-4987-b323-fd71398f0b3c
     E41: b1d71ad6-6cbb-465c-948b-174f8702e6b1
     E41_alt:
-      "R\xE9giment de la Couronne": bf4fed18-39a1-42c8-b628-523e2bb93938
+      Régiment de la Couronne: bf4fed18-39a1-42c8-b628-523e2bb93938
   capitaine_au_regiment_de_la_couronne:
     uuid: 4754e5f4-d7b5-4343-a7f8-8e9e48ee51a9
     E41: 7ac6cc9c-8e3f-4a4a-b60f-fba8044c9412
@@ -6107,7 +6107,7 @@ institutions et corporations:
     uuid: e7436f62-53b1-4291-96af-c1a9ca67edbc
     E41: 64d760d3-65a8-4b69-a285-a1c25517544b
     E41_alt:
-      "Com\xE9dien du Marais": 31f071e2-e8f1-4647-91b6-58edacee64ca
+      Comédien du Marais: 31f071e2-e8f1-4647-91b6-58edacee64ca
     E13_indexation: 76a1e5f9-f41c-4d40-83c3-3385a3d0b3b5
   chateau_de_la_muette:
     uuid: 87818d2c-4c89-49c2-bd70-24ee16f2d0df
@@ -6126,8 +6126,8 @@ institutions et corporations:
     uuid: 12e35613-c905-497b-adb3-6bc42a8d8ce2
     E41: ff9d9d31-8825-4b88-857c-05bbc6df27ea
     E41_alt:
-      "Coll\xE8ge de France": eb45ad47-aa16-4535-ae19-adfeaabf1870
-      "Coll\xE8ge des Quatre-Nations": 276e2003-21a3-48e9-8ad7-3d046e6992ef
+      Collège de France: eb45ad47-aa16-4535-ae19-adfeaabf1870
+      Collège des Quatre-Nations: 276e2003-21a3-48e9-8ad7-3d046e6992ef
   commis_du_bureau_du_chiffre:
     uuid: d5946fb7-fe28-4612-981f-011b6adb28de
     E41: ec7ffd91-af5a-4fc3-8468-a5915e0e305a
@@ -6153,9 +6153,9 @@ institutions et corporations:
     uuid: 08c2367b-34c7-44cc-a4f7-1905534b926e
     E41: ecb859b4-a68b-4340-8414-5e8de5c93571
     E41_alt:
-      "Acad\xE9mie de Villefranche-en-Beaujolais (Villefranche-sur-Sa\xF4ne Rh\xF4ne)": fcdf2e98-4f20-4b59-a39a-ba427a3e67f3
-      "Soci\xE9t\xE9 des sciences et arts du Beaujolais": 6e54fc35-2fd6-4445-bf5a-506b34066836
-      "Soci\xE9t\xE9 des sciences arts et belles lettres du Beaujolais": e349cbc8-08c6-4cea-afd9-e72b6359b67f
+      Académie de Villefranche-en-Beaujolais (Villefranche-sur-Saône Rhône): fcdf2e98-4f20-4b59-a39a-ba427a3e67f3
+      Société des sciences et arts du Beaujolais: 6e54fc35-2fd6-4445-bf5a-506b34066836
+      Société des sciences arts et belles lettres du Beaujolais: e349cbc8-08c6-4cea-afd9-e72b6359b67f
     E13_indexation: 0908980e-dcd9-4f36-9513-943f59e3c8e4
   '278001':
     uuid: fc0daee7-59da-40dd-812f-b3f6e5e2c054
@@ -6173,7 +6173,7 @@ institutions et corporations:
     uuid: eca2c64b-9a3f-481d-9376-f4a6e55db3eb
     E41: e66da902-0964-453f-8d6d-746960be9585
     E41_alt:
-      "garde du corps de Philippe d'Orl\xE9ans": c4d1fdaa-d930-4de5-8863-527837626837
+      garde du corps de Philippe d'Orléans: c4d1fdaa-d930-4de5-8863-527837626837
   bailli_au_bailliage_de_gresivaudan:
     uuid: 2d135ba2-1840-4ba6-ae7c-60077bda6b8c
     E41: f33d20c9-beac-4e67-95fe-222e84799a59
@@ -6353,7 +6353,7 @@ institutions et corporations:
     uuid: 2ac6c944-f47d-46b4-8fad-f644607e2ef7
     E41: 375c2bcb-df15-4cc1-a54e-9d10dc436b79
     E41_alt:
-      "Poudrier salpr\xEAtreur": 0b5e715e-1c3a-4b1a-8efd-194403762d6f
+      Poudrier salprêtreur: 0b5e715e-1c3a-4b1a-8efd-194403762d6f
     E13_indexation: 0d7cfeda-4737-4f20-b372-fbbfd7fa6245
   confesseur_philippe_ii_duc_d_orleans:
     uuid: 74cbb5b1-d80f-4df4-881d-71465044324d
@@ -6390,7 +6390,7 @@ institutions et corporations:
     uuid: 4dc9fca2-3c6f-4577-a8e5-553647aba6a7
     E41: 78351693-b0c5-40dc-9423-598d5595b97e
     E41_alt:
-      "commis \xE0 la garde de la Biblioth\xE8que du roi": 8eb56fb8-27a3-4763-be7b-617e7f8b9e51
+      commis à la garde de la Bibliothèque du roi: 8eb56fb8-27a3-4763-be7b-617e7f8b9e51
   directeur_des_travaux_du_siege_de_nice:
     uuid: 41f700fc-6ea6-489e-a120-79ccd31289ff
     E41: 7a87d32c-f0e4-4028-9e8e-2ce4238894c2
@@ -6414,7 +6414,7 @@ institutions et corporations:
     uuid: d15af67b-3ca8-44a9-8d03-b8d25e640577
     E41: 2ec92638-1881-41ef-9f71-86d375c24799
     E41_alt:
-      "Arbal\xE9triers de Caudebec-en-Caux": 2a531613-afbc-4f53-821d-e3e6508c9a66
+      Arbalétriers de Caudebec-en-Caux: 2a531613-afbc-4f53-821d-e3e6508c9a66
     E13_indexation: 6f041fce-9a69-43a8-8586-e7bfbe628508
   barbier-perruquier:
     uuid: 8c59339e-e1fc-4f9d-80d9-1a8460f2003e
@@ -6480,12 +6480,12 @@ institutions et corporations:
     E41_alt:
       Compagnie royale des arquebusiers de Mantes-la-Jolie: 346042f9-049b-4893-8685-7f3b225a8147
       Arquebusiers de Mantes-la-Jolie: 1eec24aa-f662-4090-9fe6-010a5ebc5c29
-      "Compagnie des chevaliers du jeu de l\u2019arquebuse de Mantes-la-Jolie": d1a792ab-d00f-402c-84fc-46acfc7466e7
+      Compagnie des chevaliers du jeu de l’arquebuse de Mantes-la-Jolie: d1a792ab-d00f-402c-84fc-46acfc7466e7
     E13_indexation: 1ed23f55-8318-4c1c-9588-de7d011b0cd9
   adjoint_astronome_surnumeraire_de_l_academie_royale_des_sciences:
     uuid: 8f7b44d6-66b5-4cb4-ad72-5ab7089fb7ee
     E41: 0d946a6b-5125-4e06-9287-10d5a2b095cb
-  "tisserand_fran\xE7ais_de_la_ville_d_alep":
+  tisserand_français_de_la_ville_d_alep:
     uuid: a5c193b1-ddb8-45b4-b427-c0c40212dcc8
     E41: 6d8ed4df-ee5c-427b-8f2c-b10d534535af
   bourgmestre_de_vienne:
@@ -6525,7 +6525,7 @@ institutions et corporations:
     uuid: d0038085-9842-4f99-8d44-c1c2ff70c8ce
     E41: 0a3913b2-9acb-44bd-981d-7595b65ca4de
     E41_alt:
-      "Compagnie des chevaliers du jeu de l\u2019arquebuse de Troyes": 325090d5-7e1c-4fba-bf54-358273fa7dae
+      Compagnie des chevaliers du jeu de l’arquebuse de Troyes: 325090d5-7e1c-4fba-bf54-358273fa7dae
   compagnie_des_arquebusiers_de_laon:
     uuid: 9ab20d66-a145-4235-8d60-d01f40899ceb
     E41: dd7d27f0-ad5e-430e-ae94-de78ce28149b
@@ -6580,7 +6580,7 @@ institutions et corporations:
     E41: 145e9622-3f3f-42da-a334-28789e29907b
     E41_alt:
       Chevaliers de Soissons: 59d515ed-0a33-4fb9-8a30-e8bff237b686
-      "Compagnie des chevaliers du jeu de l\u2019arquebuse de Soissons": e67ad2ad-225b-4181-9f84-dcf9da15b66a
+      Compagnie des chevaliers du jeu de l’arquebuse de Soissons: e67ad2ad-225b-4181-9f84-dcf9da15b66a
   grand_echanson_de_la_maison_du_roi:
     uuid: 0fc3a15d-c0de-4bd8-b443-212146bfb1b5
     E41: efe19498-5647-4c58-a62d-341d65f80ae6
@@ -6809,7 +6809,7 @@ institutions et corporations:
     E41: bb4b791f-2562-4cea-8fef-9f3f43319656
     E41_alt:
       Maison royale de Saint-Cyr: abe541b0-fbb1-497e-805c-7dcf0edcd9ec
-      "Maison royale de Saint-Louis \xE0 Saint-Cyr-l'\xC9cole": 3363de9e-1de0-4f0b-a38e-2a3767c89b1a
+      Maison royale de Saint-Louis à Saint-Cyr-l'École: 3363de9e-1de0-4f0b-a38e-2a3767c89b1a
   '277903':
     uuid: c7dfa202-63dd-4c77-9a80-1363098a57aa
     E41: 30d5d946-ebb0-4133-94d3-e32abf9d9d85
@@ -6858,7 +6858,7 @@ institutions et corporations:
     uuid: 85781da1-b493-49d4-96a3-953317da6ba0
     E41: a1eaa0e8-342b-4e86-a597-60cb91e08aec
     E41_alt:
-      "R\xE9publique des Grisons": 102ad0ec-8c1b-4d25-9b94-4ef358e14b76
+      République des Grisons: 102ad0ec-8c1b-4d25-9b94-4ef358e14b76
       Les Grisons: 7e141750-5b02-474a-8c2f-dc8d488aecba
   manufacture_de_draps_des_saptes:
     uuid: c7053a97-6ff8-414e-8e75-9f0f40d87488
@@ -6941,7 +6941,7 @@ institutions et corporations:
     uuid: 085f4fd8-e8be-49b3-803f-3f602660e456
     E41: f379ae8d-6c3f-4704-add7-32f43f2c3e82
     E41_alt:
-      "Compagnie des chevaliers du jeu de l'arquebuse d'\xC9pernay": 202b56aa-d46e-4a05-8b0b-d628545d1740
+      Compagnie des chevaliers du jeu de l'arquebuse d'Épernay: 202b56aa-d46e-4a05-8b0b-d628545d1740
   '278031':
     uuid: 5594c29f-6f97-4171-9dc4-345ab951d794
     E41: 9370b4f5-d099-43d8-8339-f5736e44f6bd
@@ -7010,7 +7010,7 @@ institutions et corporations:
   taillandier:
     uuid: b23b52fe-8e74-4d4b-9bc5-997b7e3b9ca3
     E41: e115164c-a4a4-4df0-b9f5-b887a2822c2f
-  "imprimeur_sur_toile_fran\xE7ais_de_la_ville_d_alep":
+  imprimeur_sur_toile_français_de_la_ville_d_alep:
     uuid: d1c6eb65-ab75-45e9-8c46-b4f131eec7af
     E41: b16743fb-47c6-431b-a9a6-fddf96b978c7
   cour_des_comptes_d_aix-en-provence:
@@ -7060,7 +7060,7 @@ institutions et corporations:
     uuid: 78fab772-04b9-4b4a-bc99-c0afbb99095a
     E41: aed4fee8-7105-418c-9e63-ca80d072fc55
     E41_alt:
-      "Petit coll\xE8ge Notre-Dame de Lyon": 016790b0-5cf4-484e-9777-e28a0266fb55
+      Petit collège Notre-Dame de Lyon: 016790b0-5cf4-484e-9777-e28a0266fb55
   '278076':
     uuid: a386dd9c-12a9-4c12-9fb7-aa699c7c0e8e
     E41: 006c1b25-eb1f-4e01-92b0-ba49bc2b5d0a
@@ -7221,7 +7221,7 @@ institutions et corporations:
     uuid: 4b21086f-3d3c-40d6-9137-5e7e66e81f3d
     E41: 98f7b3da-3477-4c73-884b-7a55ecc20532
     E41_alt:
-      "Compagnie des chevaliers du jeu de l\u2019arquebuse de Caudebec-en-Caux": 2b0ea759-2e02-42ac-a941-0e4b4215e445
+      Compagnie des chevaliers du jeu de l’arquebuse de Caudebec-en-Caux: 2b0ea759-2e02-42ac-a941-0e4b4215e445
   confrerie_de_saint-roch:
     uuid: 86816a42-db00-454d-be7f-6aab1596b565
     E41: febe7558-632d-4668-b4ca-908e99c77977
@@ -7293,7 +7293,7 @@ institutions et corporations:
     uuid: a6a885b1-a8d6-44b0-933a-0f678917e38d
     E41: fae6147d-40ce-465d-a464-72a504be913e
     E41_alt:
-      "Compagnie des chevaliers du jeu de l\u2019arquebuse de La Fert\xE9-Milon": 5749346f-3408-4286-aae6-bdfd335ec09b
+      Compagnie des chevaliers du jeu de l’arquebuse de La Ferté-Milon: 5749346f-3408-4286-aae6-bdfd335ec09b
   cristallerie_de_portieux:
     uuid: 03c96664-22e8-42ed-a4ec-4ee6d9d5632f
     E41: a71ea6c0-2f75-434c-be5a-967306110a8d
@@ -7310,7 +7310,7 @@ institutions et corporations:
     uuid: cbea8868-9b3d-4ef1-b622-55f61d8b9f43
     E41: 67093869-2636-43f7-b3ec-6f294b6ce83c
     E41_alt:
-      "Compagnie des chevaliers du jeu de l\u2019arquebuse de Meaux": 1a28b740-36e9-4735-b8fb-6df00bb7c8a6
+      Compagnie des chevaliers du jeu de l’arquebuse de Meaux: 1a28b740-36e9-4735-b8fb-6df00bb7c8a6
   conseil_des_prises:
     uuid: 5c55c706-3cc4-4119-8690-27d25c32e544
     E41: 51a68dd3-56b3-4512-b11f-f29144169ddc
@@ -7348,7 +7348,7 @@ institutions et corporations:
     uuid: 81098688-83da-42c4-8325-897e2d011e18
     E41: 583faa47-428b-46f0-8d06-e5f77984f1ee
     E41_alt:
-      "Acad\xE9mie de Mesmont": 600f68e6-e1e1-4551-8d5b-8d5f2e77d7a2
+      Académie de Mesmont: 600f68e6-e1e1-4551-8d5b-8d5f2e77d7a2
     E13_indexation: e94648d2-442b-4b26-be14-c2a2c241b326
   maire_de_provins:
     uuid: 55f918a0-8b5b-4cce-a9ad-159d00136cbd
@@ -7357,7 +7357,7 @@ institutions et corporations:
     uuid: c57a8aa5-722b-48e6-a276-0091c0cd9ace
     E41: 5afef702-b21d-4d35-8a18-74da9e8ad0ef
     E41_alt:
-      "Coll\xE8ge royal des Chanoines r\xE9guliers de Sainte-Genevi\xE8ve": c2779477-07ed-4a77-b52e-a521fed0ee06
+      Collège royal des Chanoines réguliers de Sainte-Geneviève: c2779477-07ed-4a77-b52e-a521fed0ee06
     E13_indexation: 23b84bcc-bdba-4cea-898d-75d726cdd536
   premier_aumonier_du_roi:
     uuid: cf03c0d7-e3e5-4b57-9b7b-336f9ccf94b6
@@ -7397,3 +7397,5 @@ institutions et corporations:
   tailleur_fournisseur_de_la_garde-robe_du_roi:
     uuid: 3cb0f079-d5ac-46f1-b76b-2af97e499518
     E41: 2d3f632d-1a09-4d6a-a397-53585ae30b1a
+  None:
+    uuid: 94eb9bd8-9be2-40bc-b4f0-55a23e40313c

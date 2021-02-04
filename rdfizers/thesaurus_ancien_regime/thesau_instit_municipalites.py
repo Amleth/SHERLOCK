@@ -23,8 +23,17 @@ input_graph_ttl.load(args.inputttl, format="turtle")
 outputtxt = open(args.outputtxt, "w")
 
 ################################################################################
+# Namespaces
+################################################################################
+
+#crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
+#input_graph_ttl.bind("crm", crm_ns)
+
+################################################################################
 ### Fonctions
 ################################################################################
+
+a = RDF.type
 
 def ro(s, p):
 	try:
@@ -86,13 +95,38 @@ for municipalite in municipalites_uri:
 # On récupère le nom des villes
 villes = ro_list(URIRef("http://opentheso3.mom.fr/opentheso3/?idc=municipalite&idt=173"), SKOS.narrower)
 for ville in villes:
-	ville_prefLabel = ro(ville, SKOS.prefLabel)
+	ville_prefLabel_lower = ro(ville, SKOS.prefLabel)
+	ville_prefLabel = ville_prefLabel_lower.upper()
 	print(ville_prefLabel)
 
 # On récupère les uuid de ces villes dans lieux.ttl
-	#E93_uri = list(input_graph_ttl.subjects(crm("P1_is_identified_by"), ville_prefLabel))
-	#print(E93)
 
+	query = input_graph_ttl.query("""PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	BASE <http://data-iremus.huma-num.fr/id/>
+ 
+	SELECT ?lieu
+	WHERE {
+    
+        ?lieu a crm:E93_Presence ;
+            crm:P1_is_identified_by/rdfs:label ?nom .
+            }""", initBindings={"nom":Literal(ville_prefLabel, lang='fr')})
+
+	for result in query:
+		print(result)
+
+
+"""
+	E93_uri = list(input_graph_ttl.subjects(RDF.type, URIRef("http://www.cidoc-crm.org/cidoc-crm/E93_Presence")))
+	for E93 in E93_uri:
+		E93_uri_E41 = list(input_graph_ttl.objects(E93, URIRef("http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by")))
+		for E93 in E93_uri_E41:
+			E93_label = list(input_graph_ttl.objects(E93, RDFS.label))
+			print(Literal(E93_label))
+			#if E93_label == ville_prefLabel:
+			#	print(E93_label)
+		"""
 
 ################################################################################
 ### Ecriture du json

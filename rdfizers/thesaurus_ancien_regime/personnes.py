@@ -19,12 +19,10 @@ args = parser.parse_args()
 # CACHE
 
 sys.path.append(str(Path(".").absolute().parent.parent))
-from cache_management import get_uuid, read_cache, write_cache  # nopep8
+from Cache import Cache # nopep8
 
-# Cache de corpus
-cache_corpus = None
-with open(args.cache_corpus) as f:
-    cache_corpus = yaml.load(f, Loader=yaml.FullLoader)
+cache_corpus = Cache(args.cache_corpus)
+cache_personnes = Cache(args.cache_personnes)
 
 ################################################################################
 # Initialisation des graphes
@@ -106,8 +104,8 @@ t(E32_personnes_uri, crm("P1_is_identified_by"), Literal("Noms de personnes"))
 
 for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
     dcterms_identifier = str(list(input_graph.objects(opentheso_personne_uri, DCTERMS.identifier))[0])
-    E21_uri = she(get_uuid(["personnes", dcterms_identifier, "uuid"]))
-    E41_uri = she(get_uuid(["personnes", dcterms_identifier, "E41"]))
+    E21_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "uuid"], True))
+    E41_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E41"], True))
     t(E21_uri, a, crm("E21_Person"))
     t(E32_personnes_uri, crm("P71_lists"), E21_uri)
     t(E21_uri, crm("P1_is_identified_by"), E41_uri)
@@ -116,7 +114,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
     altLabels = ro_list(opentheso_personne_uri, SKOS.altLabel)
     if len(altLabels) > 0:
         for altLabel in altLabels:
-            E41_alt_uri = she(get_uuid(["personnes", dcterms_identifier, "E41_alt", altLabel]))
+            E41_alt_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E41_alt", altLabel], True))
             t(E41_alt_uri, a, crm("E41_Appellation"))
             t(E41_alt_uri, RDFS.label, altLabel)
             t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
@@ -136,8 +134,8 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                             clef_mercure_livraison = m_livraison.group()
                             clef_mercure_article = m.group()
                             try:
-                                F2_article_uri = she(get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"], cache_corpus))
-                                E13_index_uri = she(get_uuid(["personnes", dcterms_identifier, "E13_indexation"]))
+                                F2_article_uri = she(cache_corpus.get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"], True))
+                                E13_index_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E13_indexation"], True))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
@@ -161,9 +159,9 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                             clef_mercure_livraison = m_livraison.group()
                             clef_mercure_article = m.group()
                             try:
-                                F2_article_uri = she(get_uuid(
+                                F2_article_uri = she(cache_corpus.get_uuid(
                                     ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
-                                     clef_mercure_article, "F2"], cache_corpus))
+                                     clef_mercure_article, "F2"], True))
                                 E13_index_uri = she(
                                     get_uuid(["personnes", dcterms_identifier, "E13_indexation"]))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
@@ -182,14 +180,14 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
             else:
                 note_sha1_object = hashlib.sha1(v.encode())
                 note_sha1 = note_sha1_object.hexdigest()
-                E13_uri = she(get_uuid(["personnes", dcterms_identifier, "E13"]))
+                E13_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E13"], True))
                 t(E13_uri, a, crm("E13_Attribute_Assignement"))
                 t(E13_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
                 t(E13_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
                 t(E13_uri, crm("P14_carried_out_by"),
                   she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
                 t(E13_uri, crm("P140_assigned_attribute_to"), E21_uri)
-                E13_notes_uri = she(get_uuid(["personnes", dcterms_identifier, "E13_notes", note_sha1]))
+                E13_notes_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E13_notes", note_sha1], True))
                 t(E13_notes_uri, RDFS.label, Literal(v))
                 t(E13_uri, crm("P141_assigned"), E13_notes_uri)
                 t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
@@ -207,6 +205,6 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
     for closeMatch in closeMatches:
         t(E21_uri, SKOS.closeMatch, closeMatch)
 
-write_cache(args.cache_personnes)
 output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
-
+cache_corpus.bye()
+cache_personnes.bye()
