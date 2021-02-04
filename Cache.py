@@ -9,11 +9,10 @@ class Cache:
             _ = yaml.load(f, Loader=yaml.FullLoader)
             if _:
                 self.cache = _
+            else:
+                self.cache = {}
 
     def get_uuid(self, key_parts, create=False):
-        if not self.cache:
-            self.cache = dict()
-
         if not create:
             value = self.cache
             for i in range(len(key_parts)):
