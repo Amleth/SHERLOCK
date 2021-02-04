@@ -23,13 +23,6 @@ input_graph_ttl.load(args.inputttl, format="turtle")
 outputtxt = open(args.outputtxt, "w")
 
 ################################################################################
-# Namespaces
-################################################################################
-
-#crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
-#input_graph_ttl.bind("crm", crm_ns)
-
-################################################################################
 ### Fonctions
 ################################################################################
 
@@ -120,5 +113,5 @@ for ville in villes:
 ### Ecriture du json
 ################################################################################
 
-test = json.dumps(lst, indent = 4, ensure_ascii=False)
+test = json.dumps(lst, indent=4, ensure_ascii=False)
 outputtxt.write(test)
