@@ -99,8 +99,8 @@ for ville in villes:
 	ville_prefLabel = ville_prefLabel_lower.upper()
 	print(ville_prefLabel)
 
-# On récupère les uuid de ces villes dans lieux.ttl
 
+# On récupère les uuid de ces villes dans lieux.ttl
 	query = input_graph_ttl.query("""PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -115,18 +115,6 @@ for ville in villes:
 
 	for result in query:
 		print(result)
-
-
-"""
-	E93_uri = list(input_graph_ttl.subjects(RDF.type, URIRef("http://www.cidoc-crm.org/cidoc-crm/E93_Presence")))
-	for E93 in E93_uri:
-		E93_uri_E41 = list(input_graph_ttl.objects(E93, URIRef("http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by")))
-		for E93 in E93_uri_E41:
-			E93_label = list(input_graph_ttl.objects(E93, RDFS.label))
-			print(Literal(E93_label))
-			#if E93_label == ville_prefLabel:
-			#	print(E93_label)
-		"""
 
 ################################################################################
 ### Ecriture du json
