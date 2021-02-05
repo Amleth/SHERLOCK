@@ -22,8 +22,9 @@
     <list default="true" id="3b313471-60a7-4828-a830-a4eeb3bf8b08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../cache_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../cache_management.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/out/institutions_municipalites.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/out/institutions_municipalites.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/thesau_instit_municipalites.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/thesau_instit_municipalites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_institutions.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_institutions.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_lieux.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_lieux.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_personnes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/cache_personnes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../rdfizers/thesaurus_ancien_regime/lieux-exemple.py" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
-  <component name="RunManager" selected="Python.institutions_municipalites">
+  <component name="RunManager" selected="Python.personne">
     <configuration name="institutions" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,22 +227,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="772" y="190" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611911618354" />
-    <state width="1515" height="167" key="GridCell.Tab.0.bottom" timestamp="1612452095783">
+    <state width="1515" height="412" key="GridCell.Tab.0.bottom" timestamp="1612514156385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612452095783" />
-    <state width="1515" height="167" key="GridCell.Tab.0.center" timestamp="1612452095783">
+    <state width="1515" height="412" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612514156385" />
+    <state width="1515" height="412" key="GridCell.Tab.0.center" timestamp="1612514156385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612452095783" />
-    <state width="1515" height="167" key="GridCell.Tab.0.left" timestamp="1612452095782">
+    <state width="1515" height="412" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612514156385" />
+    <state width="1515" height="412" key="GridCell.Tab.0.left" timestamp="1612514156385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612452095782" />
-    <state width="1515" height="167" key="GridCell.Tab.0.right" timestamp="1612452095783">
+    <state width="1515" height="412" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612514156385" />
+    <state width="1515" height="412" key="GridCell.Tab.0.right" timestamp="1612514156385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612452095783" />
+    <state width="1515" height="412" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612514156385" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1612429940792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
