@@ -44,4 +44,4 @@ class Cache:
 
     def bye(self):
         with open(self.path, 'w') as f:
-            yaml.dump(self.cache, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
+            yaml.dump(self.cache, f, default_flow_style=False, sort_keys=False)

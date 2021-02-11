@@ -1,0 +1,2554 @@
+lieu:
+  '1336':
+    E93:
+      uuid: 3d86cb69-4d84-4447-bcb3-bcb9acde207d
+      E41: 4f6ba685-b4c6-4ea8-a650-b4494909c660
+      E53: 0f47857f-804f-4640-b8d6-a1278c0a5a51
+  '1623':
+    E93:
+      uuid: bc223c0f-c752-4b5d-a1c3-fdf1b3cbcbbc
+      E41: 04daa689-d627-416f-832a-c359da644e94
+      E41_alt:
+        ANTICHI STATI ITALIANI: e7d100e9-dfbc-4d33-b680-08c7ac925f46
+      E13_indexation: d5938dbf-dbb2-46bd-800f-8a2f0e74aea3
+      E53: 9b490973-8df4-4541-b444-5a8d373fa222
+  '1762':
+    E93:
+      uuid: f472dafc-d98d-4c49-9b6c-4529db131a67
+      E41: 0913bc5d-4290-4f12-a6e7-314b25a9332e
+      E41_alt:
+        REPUBBLICA DI VENEZIA: 1b5f3d39-1831-41f7-94c6-beeadd0bd7ff
+      E53: a5f417a3-ffcc-45f5-9c22-c0296dbbc1c9
+  '1764':
+    E93:
+      uuid: 2b335c01-d6aa-4070-bd9c-4e630c3351e8
+      E41: 45c080b6-5505-4219-8f80-f02a602b0ed1
+      E13_indexation: 272cfc1a-0797-4442-a17f-09698fb62d48
+      E53: 0f02c78b-2423-4e64-841b-04b46055bcb6
+  '1804':
+    E93:
+      uuid: 836d2123-9d13-4dc5-8335-7d64384247ab
+      E41: ca4229e0-e4e8-43a6-8c83-3e5eb8a80bca
+      E41_alt:
+        VERONA: ec8231c6-db95-4476-a709-57cd0aff050e
+      E13_indexation: 1a8381e6-ac5c-4ef2-ba5a-eea36df77977
+      E53: b16df014-1298-43b3-a7bf-af7834f71fa5
+  '1805':
+    E93:
+      uuid: 19f5f2d9-aec3-4e88-9e58-f1ee3f5b11e5
+      E41: c4a32b26-1cfc-41ba-a286-73698e0a4eef
+      E41_alt:
+        VERONA, Palazzo del Podesta: a96187b0-b142-4b54-96e8-1f8e329bdcc7
+      E13_indexation: fb1472dd-e6e8-4f58-8ab3-3be2b6dbdff9
+      E53: dd3f5dca-3f8b-43f5-bafc-42afb7ad98bb
+  '1774':
+    E93:
+      uuid: 72fa52c9-6171-435b-8204-2e8eca40bb5f
+      E41: 6665a71a-2577-46a6-aa52-48abecd187a6
+      E53: a620c736-5794-470b-9a58-2ba6f4bec252
+  '225161':
+    E93:
+      uuid: ce16c9dd-495a-41e4-98e4-44a5ba7f438b
+      E41: d7807633-b731-4238-8718-93b6f3be369e
+      E41_alt:
+        CEFALOGNA: da21aeb9-ae69-46b4-9775-7c9f54b9d463
+      E53: eef6f46f-eaaa-4d1e-b2d6-e4dfeb06c8ad
+  '1768':
+    E93:
+      uuid: 04c265fb-74e7-404e-8549-7720f9b3271b
+      E41: 1dd6445b-64f0-48c8-8255-ed0495a69cce
+      E41_alt:
+        PADOVA: a8d63d46-94a6-42d9-a21e-bd8074a29aad
+      E13_indexation: d0b0a950-663f-485c-a24b-58ff84f1cb65
+      E53: 2d2fb758-2ebf-4880-baed-ac0375fe8ac7
+  '1769':
+    E93:
+      uuid: a1fd30bf-7b54-4ddf-b1ce-57c9a68a94dc
+      E41: 8622b6ed-ef9f-468a-a3f1-cb85dd803e3f
+      E13_indexation: 7c0d692e-fd02-43e4-a730-a6ad5b3b7668
+      E53: b1e8392d-b4f2-4f68-a005-d07422619042
+  '1766':
+    E93:
+      uuid: 8b7a97e7-3ffd-4141-b638-9ec24d8fb455
+      E41: 3e0a761f-679e-4ed6-ae3a-a8ddebfd27f0
+      E13_indexation: bfb50e56-39ef-4f63-8724-44bad035e114
+      E53: 539e1f19-0800-449e-a1b1-9d3662a32e1a
+  '1770':
+    E93:
+      uuid: 16535f4f-ecdd-4991-9811-3d98aad65c1c
+      E41: e26a1187-f2bd-4b6b-86f5-48f5b9c063f1
+      E53: 0c1bf529-615a-49d8-933d-ccc3604519b5
+  '1771':
+    E93:
+      uuid: 0219be9b-c6de-47b1-a7a0-676ddd9d1c4d
+      E41: e7b2b9ad-5281-4dd1-b40d-8818330d8058
+      E13_indexation: 1ebd7be3-8e3f-434d-bbe6-951b70a425b3
+      E53: 05d571b3-bf31-4f71-9b83-fefff8311003
+  '1772':
+    E93:
+      uuid: a1496178-d0b3-4d5b-ae38-4c1d06d6540b
+      E41: 1ebf8d05-e16a-4a72-93ec-d36b17ea64f9
+      E13_indexation: a5d6bdf3-82e0-41ae-a820-46ee9ab12c54
+      E53: 43dbcfd9-8378-449e-90a1-0ff7e25c80bf
+  '1767':
+    E93:
+      uuid: 3d70f094-7c7d-419d-ac50-1c3b546694d3
+      E41: c42a73d9-d567-482a-9c18-9c455325ef5c
+      E41_alt:
+        KORONI: c6071fca-1507-4593-be90-f6506adbde91
+      E13_indexation: 9b0526e8-47be-4e38-be56-c9616c17d190
+      E13: ca9ac2ee-50fe-4623-bdeb-ccfcca87196f
+      E13_notes:
+        e37b5b1db0342730287addc32c66b78ca1cc1d07: 7b87101a-2ec2-403e-b227-c7f9e259a9b1
+      E53: 93b525a8-6501-4302-a951-dba5ff083506
+  '1806':
+    E93:
+      uuid: c0d8a619-26fe-4981-8745-d041b434f14d
+      E41: 68eaa6f5-2f22-4a9f-af86-75ed4bd2c5e5
+      E41_alt:
+        VICENZA: 2b0e2ff4-0d3f-410b-9852-6d03d3702eac
+      E13_indexation: a8a4428e-ed3c-4cc2-85b5-b5066ab981fc
+      E53: 3a45883a-3503-414e-bc0e-746c97eee65d
+  '1807':
+    E93:
+      uuid: ab9f01f9-3e41-4292-b422-8892d54f9879
+      E41: fb09fb92-e7b9-4c1f-989f-2221dafcebcf
+      E41_alt:
+        VICENCE, Chiesa di San Laurenzo: d3a3e43d-da12-4130-b548-ba8ea99f5d05
+      E13_indexation: b7ca1c06-5c3f-4dc1-98a3-981d864f76e6
+      E53: 5b17b69b-89f0-49c6-aa60-85268c4f652d
+  '1763':
+    E93:
+      uuid: 533a03ff-fd40-4af7-9def-7de43f283cfb
+      E41: 5e37e882-0b81-40b8-b010-e0c20c1bd3ac
+      E41_alt:
+        BERGAMA: 5f218b09-a01e-47cb-b410-2e155f4fdc6b
+      E53: 03140598-9a20-4eba-9b02-149317920702
+  '1773':
+    E93:
+      uuid: f342e621-afb0-4d61-a118-320d7c07fae7
+      E41: 2d06b255-460d-478d-a9b4-6a82a72380fd
+      E41_alt:
+        TREVISO: 368fab14-e7e0-440a-a083-18d54db4aa23
+      E53: 5298f6d2-edde-403b-9dd6-f4ce8009e07f
+  '1765':
+    E93:
+      uuid: 16d15c37-6de6-49e7-bb90-6348b361ec22
+      E41: 5fd99871-0252-41f2-8a6b-5445231287bf
+      E53: af96a8bd-1f60-41f2-bb58-532ba0e3d910
+  '1775':
+    E93:
+      uuid: 61f75411-bcfc-4ff1-870c-08a4cf3bba13
+      E41: d53927f5-22c7-405b-a953-d5da92167f3d
+      E41_alt:
+        VENEZIA: cb697915-8e54-454c-9e72-e188549a313d
+      E13_indexation: 44fe9408-c23b-4568-bd4f-3ea03265f16d
+      E53: 97dfd25d-2b4d-460d-a410-438b0877d09d
+  '1783':
+    E93:
+      uuid: 85fa94cf-3c75-4571-8b10-d9a2bc038471
+      E41: cf7f531f-3a05-490f-8efb-b7e720ace64c
+      E41_alt:
+        VENISE, Isola di Santo Spirito: 833c91c0-7922-4ae2-82f8-3ab96b5fddb8
+      E13_indexation: af101f85-dc3c-4e37-a012-5e06ef3b8dfd
+      E53: 6630d6c8-3f65-4451-9e7d-8a061138f26e
+  '1800':
+    E93:
+      uuid: 1a46b799-826c-4250-af37-e883bfe73272
+      E41: fada0a67-fa4c-4958-b0e9-bcecfb9f625b
+      E13_indexation: ef621ed2-2477-4070-972b-65e05b79dc2e
+      E53: 2b4e074a-0e04-45bc-b387-256010986453
+  '1786':
+    E93:
+      uuid: a24d03a5-903a-4c8c-8656-32fa89b1c3f0
+      E41: c83d7560-45ae-42e0-bb76-7a4f71fadfd7
+      E41_alt:
+        VENISE, Ospedale dei Derelitti: b99b864d-08d4-4114-ae00-d53accaf449b
+      E13_indexation: 7eb5efd1-e04a-4346-8f3a-83ddc2f6a359
+      E53: 2f447fc5-a0f5-4a1e-9101-394bfdb832d8
+  '1794':
+    E93:
+      uuid: 1dd23e47-9e64-4c32-8032-1a66a7fdd578
+      E41: 8d0e8d34-ab32-4ef6-ba87-1efb446cba77
+      E13_indexation: ebd696a5-49da-4134-a714-158ab7f2f3c2
+      E53: 2c0ccc5c-5db9-4c4b-8b64-b15cf8a340a8
+  '1780':
+    E93:
+      uuid: 687e14db-7dc1-4649-9020-f42680cd8394
+      E41: d1670bcf-550e-4bc4-98ca-ed310740b3cf
+      E41_alt:
+        VENISE, Chiesa degli Incurabili: 1ac168b7-e453-4c13-a71f-94d52b7c0a29
+      E13_indexation: e0ddfee9-6f7a-4069-8ea8-6c6ec263f545
+      E53: c23dd406-a510-49e3-aefd-27d9e0bad988
+  '1788':
+    E93:
+      uuid: 1b1ee2c4-9866-426f-98ae-e79e175edb8c
+      E41: 7c59f409-4e9a-4b64-8bac-4dadb150114d
+      E13_indexation: 5d044e61-886e-4733-a352-504bf017f704
+      E53: 6b8477db-8715-4adb-baae-0a5ac4209a93
+  '1798':
+    E93:
+      uuid: 81221ba6-506f-414e-8d87-f3b02027d9d1
+      E41: 19dc7b99-138b-44eb-b10e-b3e41ac84940
+      E41_alt:
+        VENISE, Théâtre San Salvatore: 52ac1bfb-018f-49c6-9d04-dbae89c2b78e
+        VENISE, Théâtre Vendramin: 162850dd-0dcb-4b4b-a686-4e28a2bb8982
+      E13_indexation: fe025c8d-dd16-492b-a37f-88e4c7376f33
+      E53: a27bed44-9c4e-440e-9e6b-bc982520ced0
+  '1792':
+    E93:
+      uuid: 4b037c31-5930-43cc-a645-01f600fa2a5c
+      E41: 51c1ea5d-fa09-4165-a5b9-1afd9458fbed
+      E13_indexation: 9d17f6a3-7a08-4e63-8729-62a0e8f53290
+      E53: a1bf3819-0a5e-49ef-b32e-7eaf33e8b2a4
+  '1779':
+    E93:
+      uuid: 758cf319-95da-4b31-ba13-b78acff5981c
+      E41: f238067a-a56b-4577-8237-e1aebaab098c
+      E41_alt:
+        VENISE, Canal grande: 30c9346b-9c4a-4f2d-9c6b-de892d71341a
+      E13_indexation: 0c8f933f-e329-4444-8c6d-3b5f058f878a
+      E53: af0a1c78-a6ce-452e-ba1a-5879faed2ad1
+  '1799':
+    E93:
+      uuid: 9f725bd8-7f64-4d44-8345-3fb2abfc6e38
+      E41: b59cb3e0-26ee-47a9-9ae1-735095bd054f
+      E13_indexation: b02d8792-4e6c-4bb2-88de-0cd12c655e11
+      E53: 0cb59cc8-29b7-4b40-acca-c9226c5c4604
+  '1776':
+    E93:
+      uuid: 434846f9-b096-4bdd-99df-d61c1e05e54d
+      E41: 67f8f47c-2564-4b29-8b63-480169a3d447
+      E41_alt:
+        VENISE, Basilica di San Marco: d5359d99-3af4-44eb-b89c-7db3ab6df917
+      E13_indexation: 41febda4-00ff-4c4c-9056-f450aac9ec88
+      E53: a06c03fb-621b-478d-b818-04365f7e7e65
+  '1803':
+    E93:
+      uuid: b189eff3-bfc4-4be9-8e63-6250340b9cba
+      E41: 4bdbba7d-0268-4fe1-a484-95f0325b9b91
+      E13_indexation: bc709d33-1c99-4157-8a70-61d418848b46
+      E53: ba4099fe-dede-45a5-bbdc-23e0c46d8af8
+  '1777':
+    E93:
+      uuid: 08615982-e9c0-4fcb-a8f5-a711b8ad232e
+      E41: 3926209a-23e7-4018-b8e7-654717e56d38
+      E41_alt:
+        VENISE, Basilica di San Pietro di Castello: 7c676d7c-7436-4a8d-878c-4dd88d2d17cc
+      E13_indexation: 1e0a040d-b637-4b55-bb56-f622b6a11cec
+      E53: 0d5e55c0-5092-462a-b02c-3dc7ec90faae
+  '1802':
+    E93:
+      uuid: 33f76dae-fc50-4b5e-b7e8-62356ea7366e
+      E41: 69e508c6-6cfe-4c66-9530-644a1ed8ee33
+      E13_indexation: 06dadfa6-67f7-4528-b333-37abcae47f26
+      E53: c796ed43-836f-47aa-87d0-f2b8de571515
+  '1795':
+    E93:
+      uuid: 7d97f699-caec-416d-b3b8-3ddaf0a22da1
+      E41: aa8f55b7-3d6e-4ac0-a1bd-626bbc0dbc7c
+      E13_indexation: 24f7495b-7e72-44ed-a423-6e7e0fa785b0
+      E53: a09881f5-2450-4d69-a778-1c690170be8a
+  '1791':
+    E93:
+      uuid: ac2fbdc0-7148-4ff1-9883-6b85ba66f1fd
+      E41: d1f84b20-4b6b-44e2-9e74-05380f9d2fc6
+      E13_indexation: 18091ab5-9e6f-4e5e-92da-e28ce27bf932
+      E53: dc836850-ebf0-48bb-9793-532c09f056b8
+  '1789':
+    E93:
+      uuid: fb3b0142-1474-4da8-9a3a-b763e793d47f
+      E41: f651b640-6b98-4aa0-aeb9-a5de207941a2
+      E13_indexation: df53a9e7-ea75-4d56-a6b1-57ec8cd79bb9
+      E53: 9799c519-b745-4222-be5c-45e27f430b0b
+  '1801':
+    E93:
+      uuid: 5ca58607-a74c-43ed-9bbd-3e04eb3d08fd
+      E41: 144c9449-2e78-4a71-80b2-ac83f27bfdbb
+      E41_alt:
+        VENISE, Théâtre San Anzolo: 80fa6cc8-31b7-431d-b08a-4db8ec59c246
+      E13_indexation: bbf4e520-28ba-4d64-9e2f-1112eb1fda25
+      E53: e481a235-2bd7-42f5-8d6a-11f8207517da
+  '1782':
+    E93:
+      uuid: e8cc3131-8869-447b-b0b0-1acc59e1bdaf
+      E41: 80e884c2-c671-4fa5-91e0-7174800a7be8
+      E41_alt:
+        VENISE, Chiesa di San Salvador: 2a12c0ce-2d78-415d-a2c3-58008a67e720
+        VENISE, Chiesa di San Salvatore: 1dc23966-15a7-4c2f-b2b9-e4c611f26629
+      E13_indexation: b7b518fb-781d-486c-b76b-e4c6e58ac115
+      E53: d3605ed1-0b7e-4333-bf83-3b1325d6f9e6
+  '1796':
+    E93:
+      uuid: 246a4411-bf79-4e3c-a6fe-759195eb0f47
+      E41: 2552c9ce-28cc-4992-99c6-cfd3b1af4a50
+      E13_indexation: 977c0bfc-e028-4ecf-8aef-a3cd7b9814b7
+      E53: f10d4710-14f7-4b58-a94f-241cf73461b7
+  '1778':
+    E93:
+      uuid: 4a2d9a8a-dfff-468e-9c2f-309a4cfb4251
+      E41: ff4e6828-3ad2-43ba-8139-ef9564d0e06f
+      E13_indexation: c89cc613-e2c8-4124-bb57-b694dc12ea83
+      E53: d32a0160-2ae0-4e2a-8bec-16b0b6ec884d
+  '1793':
+    E93:
+      uuid: c92d51af-d382-4413-b255-edd3cd509c0a
+      E41: c97d3f24-5542-4b51-984b-492c33066294
+      E41_alt:
+        VENISE, Piazza San Marco: a3477539-1455-42e8-adbc-1cc0cf95673a
+      E13_indexation: db7b1c9e-2ec3-4f40-a627-a11b2f6ddc9f
+      E53: 35e83edc-4a55-4908-a2f5-eef77239217f
+  '1797':
+    E93:
+      uuid: 66920926-b2f1-4fda-8e85-cd6b4163f63a
+      E41: 93428f4e-b3d0-4d64-965f-f472e364fe0b
+      E41_alt:
+        VENISE, Théâtre Malibran: a445bc02-598b-4e61-8aaa-ac359e8d339c
+        VENISE, Théâtre San Giovanni Grisostomo: 37ff1561-9cf3-448e-8713-719c721fc0c0
+      E13_indexation: 027dc61c-3f44-4b94-a11c-761c996082b3
+      E53: 96668b4a-f412-43be-a9d6-70f5b91afb00
+  '1781':
+    E93:
+      uuid: 7e0391fb-f300-49ba-9f8e-62cf0617b4d6
+      E41: 013b4543-e10a-4615-82e3-a9c73ad4ab5f
+      E41_alt:
+        VENISE, Chiesa della Madonna dell'Orto: 46ff452a-ca54-4aff-9df6-015b819cc56b
+      E13_indexation: 633bbfe2-4e54-4fbf-b487-81ebca38cd9e
+      E53: a2ba6787-a8c6-4162-a8c2-52a88f83d239
+  '1784':
+    E93:
+      uuid: 9f27cb8f-d2d8-4265-8d38-b5ecd1db6cad
+      E41: 912727c5-182f-4c2c-98f9-1f175ba79654
+      E13_indexation: f3487b34-7829-4061-8cf4-c9568e2591ef
+      E53: 6d3f8cd7-e841-4df3-a6a4-9da4611b103f
+  '1785':
+    E93:
+      uuid: 7c9da4eb-c900-43bc-ba1d-d31f2a23477c
+      E41: a70a8ff5-0db2-42ce-9991-79f7ccc001af
+      E41_alt:
+        VENISE, Ospedale San Lazzaro: 059c8311-61a1-4a5a-ac5a-1bcb918457d2
+      E13_indexation: 8dafe6cc-9952-4e4e-a42f-5968df0477d9
+      E53: 54c1fa30-94c0-424b-9475-023a38e2d86a
+  '1790':
+    E93:
+      uuid: 1659e08f-2957-4d97-89b5-6885035b1ddc
+      E41: 6906b5b0-5688-4262-a335-77ebdef49430
+      E41_alt:
+        VENISE, Palazzo Ducale: 07dfa939-49c2-4e0f-95e8-960c179b2d14
+      E13_indexation: 3a071648-9f64-4a52-ae8d-75811ce43dbe
+      E53: 47c4dc74-f91d-41d8-bee2-02289a163fae
+  '1787':
+    E93:
+      uuid: 8f8ef34d-caac-4b84-b9bb-1836d590e5fe
+      E41: c05a2e5e-2e7a-4392-87ab-52e254d26d29
+      E41_alt:
+        VENISE, Ospedale della Pietà: 68abe946-ff8e-4b96-985c-3db87173b6c7
+        VENISE, Ospedale Santa Maria: 504ef059-fc89-4305-9148-3b57d7da36d2
+      E13_indexation: 732f398f-9b06-4f69-908c-4993d64706ce
+      E53: 528929d4-92cc-44a3-b8de-c0646227b8ca
+  '1631':
+    E93:
+      uuid: bc114cd0-e242-4c36-b08d-eea702a498c2
+      E41: b4448f0f-ed4c-4656-8db9-270d0a647159
+      E41_alt:
+        DUCATO DI MODENA E REGGIO: c2139d05-3b70-4fbb-9883-bcbea2f4fc47
+      E53: e5ff3ba7-8ea1-4e59-ac37-97fea9ef1fec
+  '1638':
+    E93:
+      uuid: 93d08191-89bb-4cf7-984d-87678720f2ab
+      E41: 63020377-c834-4c24-b312-6b7d5a92446e
+      E13_indexation: bb3e0318-4b0b-4137-9630-b0081e46aa0d
+      E53: daaf8103-5561-41b5-9b95-e119966818e1
+  '276172':
+    E93:
+      uuid: 857e2a8d-59c5-4c19-8bc0-b8ec24cb00ea
+      E41: 6072edd5-8666-4022-951f-8e80bf908017
+      E53: a5328eb7-7f1c-4dfe-933f-602f444c3b01
+  '1634':
+    E93:
+      uuid: e7d3fedb-4a07-463e-9e3e-d075eef2a53a
+      E41: cb305fea-f758-46b6-9f6e-a38152b46ae8
+      E41_alt:
+        MODENA: 6a46c393-b63f-430a-a02f-03e857fe3edf
+      E53: 8191c314-63ca-46cd-b1f5-1540f9e56b16
+  '1637':
+    E93:
+      uuid: 078baaf7-1e7f-463e-a2fc-45fa16c0002a
+      E41: 628ec994-0298-4394-87e9-7741e649043a
+      E13_indexation: 4b884dba-c30d-4fb7-8605-678b77707082
+      E53: f7b47f21-6d28-49dc-853c-37bf35c4c019
+  '1635':
+    E93:
+      uuid: 737fc1c5-e694-4ec3-9891-1a60615a20b3
+      E41: a89cae3b-32c8-460d-b4a7-b7ebc368f180
+      E41_alt:
+        MODÈNE, Duomo: 3dc40c28-6045-42d1-bc04-dcd0a91ef127
+      E13_indexation: 1864b7b9-f331-4ea4-9a89-985196c08d3c
+      E53: 885584a0-8fa9-4878-a4af-8bf4ea448543
+  '1636':
+    E93:
+      uuid: 930f4653-2071-47d5-b522-1cf399c6eeaa
+      E41: 1fe89718-103b-4adf-ba9f-a511fb40ffb3
+      E13_indexation: d0ce4491-f85e-46d7-852a-cfbd25f8163d
+      E53: 8e3a6cf8-232e-4063-b7bf-73372e3057a9
+  '262323':
+    E93:
+      uuid: cf4a5dd9-501f-438e-ac9e-07ea02af468b
+      E41: 72dc8edf-15d6-4512-9f59-e31d66c8adc0
+      E41_alt:
+        REGGIO D'ÉMILIE: fe26f336-218a-4bac-8929-9c4d5d0cbd3c
+        REGGE: 334249cd-d77d-420f-83dc-bfc3fd8b4a8a
+        REGGIO NELL'EMILIA: 6af8dbb3-4959-4cd8-9dfc-ebbdb9b00781
+        REGGIO EMILIA: 7a1fb31c-4aa7-4e43-bdb8-f67f7f487ca4
+        RHÈGE EN ÉMILIE: 3bcd01c1-5e2e-41a5-8339-9a05f7aef444
+        REGGIO DE LOMBARDIE: 11da023d-02ec-48f9-8e8d-d3b17b6bc81e
+      E53: 76ad01d3-a7a7-4a4f-8c4e-fa08f95caad8
+  '1632':
+    E93:
+      uuid: d7cb247f-dadc-485c-8ef0-455d3619d076
+      E41: 62c29df0-8a64-4355-a1e9-2db7cb7a3139
+      E41_alt:
+        BUONPORTO: d0e52d7a-c09c-400a-bdb3-2ed1cfe827e1
+      E13_indexation: c372b262-2832-41e2-bf7c-be7c470e8a06
+      E53: bb0dd259-421e-4b8a-83b1-0b793d8aea9a
+  '1633':
+    E93:
+      uuid: e71c5296-9f5c-426b-9097-8099aa450bc0
+      E41: 1fe77f75-52fb-413f-83f3-18093ba65b47
+      E13_indexation: 96ce7b72-e296-4c55-9bc3-55310adcad4a
+      E53: 03fb9aed-ca5a-4278-9454-98eef6a72c92
+  '1746':
+    E93:
+      uuid: 0a79e6eb-09dd-443b-93c0-eaacdb80c2ee
+      E41: 7406de0e-5a27-4187-ac31-52455a79a2a9
+      E41_alt:
+        PRINCIPAUTÉ DE MASSERANO: 16cce1c6-809f-4b97-b471-8a4aebe5cf56
+      E53: 56a20f0a-b8e9-4759-ae78-84634c925a86
+  '1747':
+    E93:
+      uuid: 4ff75b0e-56b9-4499-abf3-330d36000c7c
+      E41: b3662625-5665-46e3-9bce-1b2f9e1d15f4
+      E41_alt:
+        MASSERANO: 0875979d-3e90-4b91-b90f-66b7b44788e2
+      E53: 12e263d1-27d1-4e4b-a27b-60a980e6c258
+  '1624':
+    E93:
+      uuid: 2de08363-6d8e-4ad4-a96a-e8c2b8684517
+      E41: aca1425a-31a6-4020-965d-4a724cd3f4fc
+      E41_alt:
+        CORSICA: d7f66524-f5bf-470e-a9b4-97116480c93d
+      E53: ccaf4308-19e4-4247-8e71-4cc214c17dbb
+  '1627':
+    E93:
+      uuid: 25306163-1eca-4066-bbb1-bf433dc11bc8
+      E41: 3132c152-c31d-4647-b889-9d4a05101fdf
+      E53: b4f02552-3e4d-43e1-8f83-07aceb6d3857
+  '1625':
+    E93:
+      uuid: e58f5177-ad61-4ae0-87ee-533d394af527
+      E41: 8938eaea-9c8a-4531-a14c-895f30541bb7
+      E41_alt:
+        ADIAZZE: 54d5dc52-27b1-4f16-bd63-29c229bb45e7
+        ADIAZZO: 45b5ff78-462d-4d46-ac96-733187e69452
+      E53: 352daeab-e04a-4c79-bc45-c88da09d90dc
+  '1628':
+    E93:
+      uuid: 5e2194dd-039c-4007-89c9-e017ee174b35
+      E41: b93a78ce-ae7d-4b6d-87fc-e3c4e66d2a96
+      E41_alt:
+        CALVIA: 2d37f77d-20a3-478c-8140-a80bbc1b20a2
+      E53: 3900c55c-92de-445b-8d3c-f6460b363e4a
+  '1626':
+    E93:
+      uuid: ca712213-991a-466e-9922-6ed4afd0f0a6
+      E41: 63e00b46-c122-485a-adc0-c6be8c711194
+      E53: 63064302-9bce-4adb-a4ae-a9f5eaac1fb8
+  '1646':
+    E93:
+      uuid: 1e6368a7-8ee1-41ad-92d9-4cd00312066f
+      E41: e29777c7-efe9-4a03-90ba-9c04f59a3613
+      E41_alt:
+        ÉTATS DE L'ÉGLISE: 3e866095-3c6b-4009-8608-de4313f102fa
+        STATO PONTIFICIO: 266e2b62-2d26-4774-8033-45de6c0d7bba
+        STATO DELLA CHIESA: 5417f0f7-467e-45ad-9239-218f05c0725f
+      E53: f3dafed7-04a9-4d17-8b68-a4dbcd608b1a
+  '1662':
+    E93:
+      uuid: a5e47675-ef3b-4b5d-aff5-6dbb166389d0
+      E41: 65457568-0eee-42a2-9ac5-ac9f07f8e8c8
+      E13_indexation: bc244688-f1c9-497b-9875-74cac4d1f135
+      E53: e6f56f92-adc2-4b1c-a7c8-3d6c776ed33a
+  '1665':
+    E93:
+      uuid: e4151697-58db-401b-90ad-75795f5f7880
+      E41: 88a63604-4c6a-4d00-a24b-71705a2c52d0
+      E53: 0bf0a06c-e289-4e8c-af02-0555c28741a4
+  '1657':
+    E93:
+      uuid: 60e36212-a495-4037-a449-4438604ed6f8
+      E41: 359f6888-a8dc-4857-8a1c-ff6b14d217b0
+      E41_alt:
+        FERRARA: 975e679c-ba47-42b0-8eb7-2fdc1cd926cd
+      E53: 37f95095-dd83-4af6-8d9d-aa149af27b5d
+  '1710':
+    E93:
+      uuid: 75f49fd8-6881-4b9a-afdc-780f867e0835
+      E41: f5c17c95-68e5-4539-bf25-62d91b1a328a
+      E41_alt:
+        SÀRSINA: 44e11f28-75c4-4a86-a55f-b566b670e004
+      E53: 17682f9b-58b6-4d8c-9626-4da018aa98f5
+  '113222':
+    E93:
+      uuid: 1638615f-794c-424e-aec8-5cc717188db9
+      E41: 3dc32ef1-bf61-4eef-bb91-89926d425a4e
+      E41_alt:
+        ALBANO LAZIALE: aba3437e-7acb-40ef-b628-3b549d9baec6
+      E53: e7004cf0-15e6-4c1e-ab81-a9d7a1d1a33d
+  '113223':
+    E93:
+      uuid: 530a0093-6172-4343-bb9c-4e486980e3b0
+      E41: 717d5b22-53e9-4f2b-975d-6853cab0e1e3
+      E53: 7aec288d-7606-4f26-b057-1e7e398e2466
+  '1650':
+    E93:
+      uuid: 7d00c163-bf20-4026-ac60-369ddaabaf05
+      E41: 84993870-a223-42bc-91cd-192f6afeb58a
+      E53: 80537209-b67a-4186-ae84-350845e694af
+  '1672':
+    E93:
+      uuid: 63d5c9e6-80c7-4510-9fb1-872af354286d
+      E41: 49c48bd9-adeb-48c3-9ba2-93844270cfae
+      E53: e5e3d38c-98f6-4895-98a5-859d2184fbac
+  '1659':
+    E93:
+      uuid: 17182bc9-72c6-4ad4-bacc-8cf5ed66ac01
+      E41: e8c80b50-c951-4dac-8f24-df7f38604494
+      E13_indexation: b70ba19e-33b8-47b3-bf13-52b63356eb65
+      E53: 6c1b9957-b123-4eae-93e8-0550cd86a67b
+  '1673':
+    E93:
+      uuid: cc75ae2c-8d00-4191-ab2d-e6fa7440c63e
+      E41: ea6b9796-56f8-4ed1-9dda-cc1cbd6420ee
+      E41_alt:
+        ROMA: 443e9f2b-2a83-4a2c-bfd2-0a89dfb46f31
+      E13_indexation: 75d16d98-95c6-4e0f-968e-b471337221f9
+      E53: 001c61f1-5c60-4070-bca2-fa1b812c4e9e
+  '1701':
+    E93:
+      uuid: 2ebefd37-4984-4623-a8d7-920d58ba2148
+      E41: 93bf7460-e961-425c-8e73-eb160510d2f4
+      E41_alt:
+        ROME, Palazzo Corsini: 3577005f-c4ea-4d98-9c8f-ab59416d00aa
+      E53: 7e7b933c-4d43-4015-9f50-91bed0711a4f
+  '1692':
+    E93:
+      uuid: d8795327-4bf9-45b3-9590-eebe73e8e0b2
+      E41: 5853383d-d0f8-4b46-90e7-17769738efaa
+      E41_alt:
+        ROME, Chiesa di Santa Maria sopra Minerva: 29ab2537-f8e1-4c56-a59d-8dc84e22e68a
+        ROME, Église de la Minerve: 84f546e1-1e62-44ea-a364-04440e7b15e2
+      E13_indexation: 6d70d3d9-a0a4-46f6-83d8-9ea6dbbce53e
+      E53: 19c34857-6a1b-4d5e-bb0d-a415b24d6312
+  '1677':
+    E93:
+      uuid: 086269d5-00d6-4dbe-b3e4-c0a884e81db1
+      E41: a273adb8-46b1-4de6-ba66-b078d6809c66
+      E41_alt:
+        ROME, Basilica di San Giovanni in Laterano: 6e715d5a-e465-4644-9491-377eab6baef2
+      E13_indexation: eec82a53-9aca-4b67-bf50-4859534f292a
+      E53: 1752c816-2449-4cc3-b33b-8468e42499ce
+  '275583':
+    E93:
+      uuid: 0996b684-672e-457e-8375-ca4bcc214ebe
+      E41: 87a3b8a6-6527-4ba3-b4a6-fbe2218c1eec
+      E41_alt:
+        ROME, Basilica di San Pietro in Vincoli: 18640707-56fd-44eb-b1c8-a7b8e26e63ae
+      E53: 5da22361-9a66-4c9e-9b28-f85c2f776374
+  '1690':
+    E93:
+      uuid: e945f17d-d7d6-4959-b228-1e7683348a01
+      E41: a7628122-ef8a-40a6-b48f-7c826c035882
+      E41_alt:
+        ROME, Chiesa di San Silvestro in Capite: 88505c09-e994-4228-aed6-5227e3e255ed
+      E13_indexation: 360079c5-ad28-4e67-a138-7f0db04b9aaa
+      E53: d76d3c7e-982a-4cb4-8041-973de600f49c
+  '1688':
+    E93:
+      uuid: 0f5973ec-9ed4-48ab-bf72-11d70f7f9d12
+      E41: 3aee4cde-540f-4605-98be-7259e87e1b95
+      E41_alt:
+        ROME, Chiesa di San Martino ai Monti: c0a4f6a2-e18c-4a7a-9b04-b96440f97f41
+      E13_indexation: 76b9e7b5-4270-41b3-8755-2f803d3522e6
+      E53: c5962f14-bfef-41e4-85db-4a374ebd72a2
+  '1709':
+    E93:
+      uuid: 864ffb2c-d181-4d86-acad-00f1e8c736b4
+      E41: 854a5656-611f-4688-be35-0447ac7e5712
+      E41_alt:
+        ROME, Villa Giulia: 260f0b71-c7d6-4a58-9e27-390ed5a4fc3c
+      E13_indexation: cf9e9c08-62eb-4af7-91b7-341ec36c5f14
+      E53: 21cc1e6f-8162-4ee8-b192-3d242d6f9273
+  '1699':
+    E93:
+      uuid: 07c3f298-12d1-45e4-81b8-aa78e4b8aaec
+      E41: 9f4db7c5-f5d3-48c7-8157-bad4e36b0a30
+      E41_alt:
+        ROME, Oratorio della Confraternita dello Scapolare del Carmine: 3198927a-b584-43ca-b1b8-32dca1a11ba5
+      E13_indexation: 9950d416-00ba-4759-9640-2f5ed696ab80
+      E53: 28c67847-76b4-4358-b1de-fa160085d143
+  '1678':
+    E93:
+      uuid: 44f38d32-2ac1-4eb0-8d02-bbf2fd570812
+      E41: f31f4659-b497-4094-8e93-fac244cba245
+      E41_alt:
+        ROME, Basilique Saint-Pierre du Vatican: 9bc7d30f-1bd8-49f6-a928-7da3002feaab
+        ROME, Basilica di San Pietro in Vaticano: 8b3b3769-f701-416d-ad93-8cb9f2408dbc
+        ROME, Basilica di San Pietro: 2157c517-521e-4e4b-9e05-a5d7d9c62c03
+      E13_indexation: cbaee354-b388-441f-b29c-9f47ef3c9ae4
+      E53: e199e651-4215-4e2c-b3d3-dd58818a3b76
+  '1691':
+    E93:
+      uuid: 414e77c7-eb07-435e-a595-450e1efed6d1
+      E41: 524627ca-a71b-4716-8328-26ae9dc2ea53
+      E41_alt:
+        ROME, Chiesa di Santa Maria dei Miracoli: 5e75353d-a594-4323-9bee-ab3dd8c0c353
+      E13_indexation: dcf0ba93-0313-4cfb-b7a9-b9c280b81691
+      E53: 2af95498-09c5-4333-822f-bf88ddf49083
+  '1696':
+    E93:
+      uuid: 6aacc09c-d0c8-4905-8fa9-a6cc0b6a35d7
+      E41: 06b16d84-76ba-4896-bd23-461a7fab743b
+      E53: d33d6359-a974-40ed-9f5d-48ed42cd3da6
+  '1707':
+    E93:
+      uuid: bbeedf2d-6581-46e5-8a9f-b98fa33bc950
+      E41: 624bd70c-68df-4878-aed0-29d12b11ae03
+      E13_indexation: 8bd636ef-64a8-44fc-a6ca-d8414d636c97
+      E53: c2bcb28e-be8a-45ff-8ccc-596c7e250f7f
+  '1684':
+    E93:
+      uuid: b604c209-6532-407b-9e8f-380cf213fd06
+      E41: 75c97332-8448-4c7c-852e-a722c980353a
+      E41_alt:
+        ROME, Église du saint Nom de Jésus: 778aec37-18d9-42da-aad7-1eed3b1e3193
+        ROME, Chiesa del Gesù: 7343543e-a383-4b91-bd19-3e3779b742b7
+        ROME, Église du Jésus: 92cc4f3e-acbd-4669-ab35-de596225311a
+      E13_indexation: 14d3af39-14df-4b4f-ab1b-0c8a3fc0cef5
+      E53: efa8c84a-3ca6-42ef-87af-6a764f74557a
+  '1708':
+    E93:
+      uuid: c1bc7864-5f87-4b25-a131-f64c5c12418a
+      E41: 0ab92a13-5208-42a5-a008-b5135b3901ba
+      E41_alt:
+        ROME, Teatro Tordinona: d5e93018-b60b-42a4-aa2b-a659e0131ea3
+      E13_indexation: 9cc60ade-fb92-4830-bae9-e1e8dd14b9c9
+      E13: 0cc4439f-e0c8-425b-a1cb-eae3c982afe3
+      E13_notes:
+        08398e9baa7fcef7f7c1898f749b2ed61551526e: ab473d2a-7c30-4dd7-88fe-e2169d79e610
+      E53: 3b58b630-95e7-4155-9e3b-f85cf69abedf
+  '1687':
+    E93:
+      uuid: 0140bbab-e8fa-4865-9bbf-720666cee260
+      E41: f683dfff-0f63-4470-823b-59ae29c6ea31
+      E41_alt:
+        ROME, Chiesa San Luigi dei Francesi: 729226d8-65e6-4048-9c51-27b170a7750c
+      E13_indexation: c0ed42c0-2ebd-4b56-bec7-f8ccf5bc635d
+      E53: 5f38761a-1216-42e2-b4c7-610697594532
+  '1706':
+    E93:
+      uuid: 3a6dfa87-e93b-40ce-8e15-f2fc68edd3ff
+      E41: e8727cbf-01a9-40fb-b90f-cd481da967c5
+      E41_alt:
+        ROME, Piazza di Spagna: c51fafdf-28aa-4d7d-b72e-a8c7e5d9ffdf
+      E13_indexation: 731b8f19-e537-412f-b80b-07f94c17594d
+      E53: 0b8e19a3-3dd1-474e-8094-b15b6dd48b48
+  '1703':
+    E93:
+      uuid: a5b0774c-fd25-407b-84ac-37f0d708733a
+      E41: f3154e2a-d353-4c45-8d1d-568174eee11f
+      E41_alt:
+        ROME, Palazzo Farnese: 8b715a6d-507d-4f44-8272-e9a7547bbf81
+      E13_indexation: 91ec93bf-656e-4e96-a4fd-8b3973751b92
+      E53: 7972dcee-5c4c-45df-a258-8873b55539d5
+  '1686':
+    E93:
+      uuid: f5f01dba-a2ee-411d-968d-0b7fc6891c81
+      E41: b9b3e35c-bff8-41f2-bf73-8f203ddac2fc
+      E41_alt:
+        ROME, Chiesa di Santa Maria in Traspontina: 372945f2-e590-4f72-8a33-48611a15e656
+      E13_indexation: 8128a2a3-a4f6-4027-9182-34ca992a6e4a
+      E53: 5acaebee-7b0b-4358-bef0-fbceb1b22714
+  '1704':
+    E93:
+      uuid: 0d75a3eb-2877-4d1b-b82a-b22e331c5af1
+      E41: e32f3628-48cf-46b9-b4b4-533a75c4c481
+      E41_alt:
+        ROME, Palazzo Riario: ec8fe3e9-07b1-44a8-b5e4-974242051af2
+        ROME, Palais de la Chancellerie: 1ad7bfb0-ee4b-4a6e-b294-3d306ad78df3
+      E13_indexation: c97ab4dc-3a31-4ed9-890b-2450d387e5dc
+      E53: 5597d22f-44c8-410f-a691-9705a8daed23
+  '1674':
+    E93:
+      uuid: a849b7fa-4d40-452c-8843-dbe8ad3599fe
+      E41: 82fc336b-fe24-492c-bf50-eb7297522d21
+      E41_alt:
+        ROME, Basilica di San Marco: 4b8c0f48-170c-4d39-9ebb-4cf3180de9d5
+      E13_indexation: 01b6bde8-8cfa-4c08-94b4-32a25a212439
+      E53: afc58d7c-0840-4771-a196-088409388932
+  '1681':
+    E93:
+      uuid: 795b72dc-557d-4548-8d04-4ec302eb38ed
+      E41: 6cd87631-ff4c-4a41-8bd0-3ada799f81e0
+      E41_alt:
+        ROME, Castel Sant'Angelo: e9cec696-6765-4e0d-ad61-481febfdc029
+      E13_indexation: 9ec19ac8-4f94-4da9-9af4-87a9d435ad20
+      E53: 0603b334-b112-426d-bfcd-4de9c346bc9a
+  '1689':
+    E93:
+      uuid: 8e68f81d-9518-41a4-9ab0-c19cd34db231
+      E41: ae58db36-5a5b-4c3e-8d3d-88f64a75667d
+      E41_alt:
+        ROME, Chiesa di San Salvatore in Lauro: 42b757f3-d14f-48e8-a4b4-c50421ea74b2
+      E13_indexation: be6372d4-d3a2-4b17-945e-0960087d5002
+      E53: 75fceed3-bd97-4e30-b006-3be954fb484c
+  '1695':
+    E93:
+      uuid: 36da8881-7401-4cdb-819c-ca7a821c4a90
+      E41: c9bde50f-2bd9-4d36-accf-392ec316847d
+      E13_indexation: a0955c28-76e1-4f55-9ab8-0ac251dd86e1
+      E53: bcd0bee0-e3d6-472b-b24a-becb768f3cd3
+  '1694':
+    E93:
+      uuid: 50ba80d0-4818-48d4-8863-0a52e83b2dfa
+      E41: b0c5afb7-dbc5-4350-a663-32a91655c9fc
+      E41_alt:
+        ROME, Chiesa di Sant'Antonio dei Portoghesi: 1fc1d81e-9a1a-45f1-8b84-53de6dd167cd
+        ROME, Église Sant'Antonio in Campo Marzio: b5ffc18f-1f6c-40f1-baed-913f9f9f6be6
+      E13_indexation: 505a7279-0ea1-4e7f-8886-3d9de928d477
+      E53: 5b1fe881-f650-4d3d-937f-f8773aa9880a
+  '1679':
+    E93:
+      uuid: 498011ed-9d52-4546-b512-3a82a4da982f
+      E41: 2bda86f4-7f3e-429e-9201-9c6a1226d522
+      E41_alt:
+        ROME, Basilica di Santa Maria degli Angeli e dei Martiri: ce30b485-425b-4f70-94e0-e017486ba304
+      E13_indexation: fc6fa404-fcd5-4e2c-9c08-423c342560bf
+      E53: 5c82c2e5-d152-4b54-a344-124246fa452e
+  '1700':
+    E93:
+      uuid: a9d92e6b-1db6-4967-bcca-954aeaa081a1
+      E41: a15cecaf-f60a-4be6-9f85-4abc416da378
+      E13_indexation: 463266b3-22ef-43cd-be78-194088cb758d
+      E53: ce8146e0-e5ff-40ce-8767-eca7edb9815c
+  '1682':
+    E93:
+      uuid: 849f8e87-39a0-4c1a-99cc-2ea5f7f7fe6a
+      E41: f91594a9-15f5-44d0-bc42-05e999458399
+      E13_indexation: f6162460-c2ff-45ab-8912-d694c25a7bdb
+      E53: 8a9a2263-18f6-49d0-b3f7-8ccdeccfc5dd
+  '1683':
+    E93:
+      uuid: fd1c82b5-361f-484e-93f1-028928c9fbd8
+      E41: e7a60141-e0b8-4ebc-9d44-4e74fbb5c5d4
+      E41_alt:
+        ROME, Collegio de Propaganda Fide: e2489384-17f2-4461-add9-fe1d6263a943
+      E13_indexation: 9485d75c-16b1-421a-a56d-6989e5709ded
+      E53: 4de701fe-c33d-4632-9509-523bf6e83b7a
+  '1697':
+    E93:
+      uuid: c55ccbde-9ad0-4610-8202-a356b9dd9058
+      E41: 2a3b3ae0-f254-4b8b-871b-d3f2d6ab381c
+      E53: 3e0f3263-2786-4e94-a072-44e6c8f6e05b
+  '1698':
+    E93:
+      uuid: e2dc8cff-3218-4b68-afea-9b2d8a14bc07
+      E41: b14febfa-d155-44e1-9642-31c33afb33e2
+      E53: d8e51c37-ce90-4ebf-bed8-6dfb8e77482a
+  '1702':
+    E93:
+      uuid: cf925185-4b3c-4f34-8d0b-b1667600b743
+      E41: a2cf1ad1-158b-4d2c-b025-73f848c87c9d
+      E41_alt:
+        ROME, Palazzo del Quirinale: 94337c14-9153-4ca7-ace6-704c5f779198
+        ROME, Palais pontifical: 0d0a2e90-3a6f-4c0e-ba98-fbe87f965f2b
+        ROME, Palazzo Monte-Cavallo: 4bad81ad-91eb-42e9-9670-a5466d10dd65
+        ROME, Palais Montecavallo: 941d4066-4f54-445e-bfcf-00341ecaf2d1
+      E13_indexation: 6ddeca8c-f760-471f-8a32-ff36a4f0b827
+      E13: 441fe5c0-222a-42ef-857d-f604be2c15c1
+      E13_notes:
+        ca0bd7c3f1474887aad4c8c1a293857aa697a1fc: b095d87b-1b5d-4e8d-a2c0-5501a8e4c134
+      E53: a62d06fc-62a0-4e55-860b-db7d70bac68a
+  '1693':
+    E93:
+      uuid: c19646e4-4532-4d74-b6bd-450db1660766
+      E41: 6925129e-1a9f-4690-a583-766b2df2d655
+      E41_alt:
+        ROME, Chiesa di Sant'Andrea al Quirinale: f72f6348-2961-4c4c-a227-d10d8b4640dc
+        ROME, Église du noviciat des jésuites: bc6d7e73-61ce-4e8b-8d1d-c11f372468b0
+      E13_indexation: 854899ed-56f7-4c95-aea2-6bf38908476f
+      E53: 488e36d5-d64b-441e-a9f1-215f09bbfaa0
+  '1675':
+    E93:
+      uuid: dae90429-7c50-42b8-9016-daa6cfa32331
+      E41: 70703233-00f5-46e9-ad08-35e755350d97
+      E13_indexation: 38ac54e8-18df-4c70-a063-ea7fe3366176
+      E53: c087be36-e36b-4e21-877f-d4d297a1beb1
+  '1676':
+    E93:
+      uuid: 351833cd-b6b8-4a50-83f4-32b361973467
+      E41: 6b1f984b-7270-49cc-9663-b4c22427a574
+      E13_indexation: c3988d1d-1ec0-480c-8006-993151dd1983
+      E53: 236d14dc-d1e2-4353-8eff-25c4c407b618
+  '275582':
+    E93:
+      uuid: 864c58ba-9795-4bf8-88ad-9c8e07094b2f
+      E41: 63c4c483-cb3b-464d-b0cd-5cbd6ed807a5
+      E41_alt:
+        ROME, Église San Lorenzo in Panisperna: bc150e76-d118-4fcc-886e-c94b95f7d3a9
+      E53: a7147a32-431a-4401-b5af-5e28252bbba5
+  '1705':
+    E93:
+      uuid: 7be6b891-f965-477f-b24c-66855cecfbb0
+      E41: bf74de6c-b1fc-429a-b2ec-6966a50b9be3
+      E41_alt:
+        ROME, Porta del Popolo: 8f74df42-248c-4452-a2f8-590a649ec247
+        ROME, Porta Flaminia: e2237b3c-b78b-4123-80f3-a13b8b8deade
+      E13_indexation: 46a4580a-30e4-42b4-b624-88fc39a9490a
+      E53: 4d7caca4-39a1-4ee5-9cbc-5521e0a19288
+  '1685':
+    E93:
+      uuid: c23209a8-3593-452e-a543-7be528ccdf59
+      E41: 9322b297-9b14-43b9-a376-0ca3117a82fb
+      E41_alt:
+        ROME, Chiesa della Trinità dei Monti: ca0e55c6-66cd-492f-94dd-9e3176e68ce2
+      E13_indexation: 52661ca4-1b8e-44bc-812f-6d4ca491ca72
+      E53: d296b463-2b8b-4bc7-bd44-441d37fa852f
+  '1680':
+    E93:
+      uuid: 56705b65-57b9-4058-abac-9a8377baaef1
+      E41: 90df1470-6348-4557-becd-f85c67e15c11
+      E41_alt:
+        ROME, Basilica di Santa Maria Maggiore: a0043370-a304-428d-b0ca-07b19a9a69c0
+      E13_indexation: f026e5b8-5d81-45f0-9ea8-14ad5ac85278
+      E53: 2494ef58-fe38-4f42-8519-d25d8c4825a1
+  '258648':
+    E93:
+      uuid: a24e8c42-1058-475a-8dd1-f60c35f6f253
+      E41: c4af0d07-5630-403c-8ffa-2e05a87e18ea
+      E41_alt:
+        OSTIA: 80a6c65e-2770-4945-a914-768232618226
+      E53: afed6b15-1352-4a93-b683-c81f31a24f00
+  '1651':
+    E93:
+      uuid: a36c03c0-c9d1-4287-bf15-664dce325596
+      E41: edd3716b-9e88-47be-b2fb-bf05db0c344a
+      E53: 777a2dbc-e544-4167-bf23-35cc9eaa91b1
+  '1658':
+    E93:
+      uuid: 54c1a85a-06c4-4468-9f5a-af0960b246d7
+      E41: d4fa6eb6-cf8d-4ce0-8aab-3f3c3d2a3be5
+      E53: 6bc0046a-b23d-42f6-a8c1-717ee79c8600
+  '1714':
+    E93:
+      uuid: 86eb5817-3ed9-4ac7-956c-b1f9a26d63dd
+      E41: 913fa1c3-fdf5-4576-9cb4-d642d0a8058d
+      E13_indexation: 9eee39f8-a00b-45cb-90fe-5d55ba63b671
+      E53: 2640c411-57d6-4ab1-9ed3-e026222daa31
+  '1716':
+    E93:
+      uuid: b3da5b4a-f18f-4f17-bb3a-ee38df0ac28d
+      E41: 72912bd1-840b-40a5-841f-6d73bfeb90cd
+      E41_alt:
+        URBINO: 3e43eeff-c681-4b79-947b-7eb3fc3aa31b
+      E53: 69d328b2-c774-4a45-9be2-56e5b5d221d2
+  '1671':
+    E93:
+      uuid: 9d2eefde-2e61-49ad-8060-307ac084f633
+      E41: 9db9f807-00de-4669-8630-b79470059712
+      E53: 65eba5b5-dc33-4f51-a891-a17729040252
+  '1655':
+    E93:
+      uuid: 900a091f-95e4-4428-a787-70804e840052
+      E41: 90d89927-8acd-4282-8e7d-c8a1ed056173
+      E53: 3a67c82b-6190-4db2-abca-5e041aa4e99c
+  '1648':
+    E93:
+      uuid: 65d26677-9b64-4859-b1d9-d4e046dfa888
+      E41: 8cd68212-1ca6-42c2-a69e-743d8e129e9b
+      E41_alt:
+        ASSISI: 6c62a413-9ca8-4947-8785-193be26ce08a
+      E53: 7d7f24a1-d8fb-4b45-aaa2-3e3046ddf3a1
+  '1712':
+    E93:
+      uuid: aa8e246c-8d97-43c1-9394-903a7e5c7da9
+      E41: 48104a5a-0b6c-443c-a93a-60221dc3190c
+      E41_alt:
+        SPOLETO: 70787cb1-407f-46ca-b8ed-39564aa9fb0b
+      E53: 789328e7-eefe-4728-aeb4-f19e8c022ca5
+  '1357':
+    E93:
+      uuid: d21827d5-ec48-4663-8844-b2df78f472df
+      E41: 17f2512d-cbb7-461d-86ad-b3bd0a273e34
+      E13: fff4ab20-c6a7-4c81-87e0-47d7ad9f68d2
+      E13_notes:
+        efbc3aa959b808557c602f8163bc25b84344024e: 462a43f2-ac35-485b-99cb-db7cfdedc744
+      E53: 53ab2861-20fe-473d-a94a-034f1b102f7f
+  '1376':
+    E93:
+      uuid: 413f4131-6a1f-4be6-afae-4a0a6434465f
+      E41: 5766e83e-d007-472a-9936-4ad065ef2084
+      E53: dceceb85-46ef-4440-acc1-b4a2c753eee4
+  '1334':
+    E93:
+      uuid: 478a5506-b4ab-4203-9c25-8cb28af615fe
+      E41: bf7c0ad8-873b-469c-8bb7-6aa4ed7ab8f2
+      E53: 1e684345-2d35-435a-bc27-4fbc6a677c60
+  '1370':
+    E93:
+      uuid: 6d560dd6-3ce7-41aa-a6dd-32140dc43aa4
+      E41: fc7a3b9c-2b65-4490-b36c-57b8c673b70d
+      E53: f855d902-3977-40e5-b8cd-0150347fd43a
+  '278023':
+    E93:
+      uuid: 060f222b-c3f6-4870-8559-956e66bfd8aa
+      E41: 8937e15f-7e26-4b56-8aa0-7c8d4858522f
+      E53: a58c319e-d6c1-4bdb-bf33-afa6bcfbef9e
+  '278022':
+    E93:
+      uuid: d8488f2c-f2a3-4cf6-aa53-540f12aa6217
+      E41: cf8c72b3-7eb4-4016-adca-820331bf5201
+      E53: 5906bbcc-947b-48d9-807d-5315695754e1
+  '278019':
+    E93:
+      uuid: db8e8cd5-92a6-4055-9166-3214191398a1
+      E41: a6adf8c1-c413-4212-b3b3-9811aa1f92f1
+      E53: 01f75df0-2b92-4b6e-9308-a0c262a1a1bf
+  '278020':
+    E93:
+      uuid: 4aa84854-d78c-48d5-9625-c764e0031725
+      E41: e366213d-4121-4f28-9839-1077d6a53fd4
+      E53: f99c3ded-4f72-437f-b5f9-8e4f7d7df263
+  '278021':
+    E93:
+      uuid: 7ff124ac-6321-4caa-959a-8798b2797ced
+      E41: cd4f9ad9-b268-4a3a-aae7-4b3cd0d60c59
+      E53: b0fa4299-c611-4788-92b1-6380cc7c8e11
+  '1331':
+    E93:
+      uuid: 2e1bc90d-c8b9-4e37-bc58-8dbf201931a6
+      E41: be135828-8420-4b59-bfbd-4b45ac688754
+      E53: 549ae8e0-c03c-4a1d-b011-7423c0f4123d
+  '1333':
+    E93:
+      uuid: 23ee7108-12b0-417b-a438-5351cebe8c2d
+      E41: 41b9e1a9-66fe-4caf-98bb-4cadc310bacd
+      E53: 2281f2cd-8413-4c40-ab44-2a12cce7b08c
+  '1332':
+    E93:
+      uuid: c9c1c3ef-9f35-4cdd-821f-43b89f76c0b8
+      E41: 93f4aadd-b820-4bf8-9ac2-9e6eb0d39631
+      E53: d5d90f16-020a-41ab-915b-b4e9c5c77b4b
+  '1335':
+    E93:
+      uuid: f31983ed-d0ed-4f59-92d1-ef301a630551
+      E41: 69c218f5-8d85-4c3d-b5bc-05d8e3155d21
+      E53: f0b6c4a2-5a18-490f-a46d-d17bf108ba4e
+  '1375':
+    E93:
+      uuid: 003ed020-9a63-4cd4-a488-7a084b6a0db1
+      E41: f1ddc6ba-06d6-4b60-bc8d-aeac951f3971
+      E41_alt:
+        VAISON-LA-ROMAINE: a3f49c80-0d8a-4479-94d6-f96177b0c00a
+      E53: 04a64fd4-a524-4575-9033-062785ade8d6
+  '1371':
+    E93:
+      uuid: 54224b57-ff21-44b3-99db-a6de9d8db217
+      E41: 8ceb5c54-9f9e-43d6-b58f-af97e66060bd
+      E53: c49c3d8c-b0f6-4e79-9da1-55e5eb2a1d66
+  '1373':
+    E93:
+      uuid: 2d0ff8c0-f113-4acf-8be0-60474bc39957
+      E41: ac739b28-fa54-4b84-812b-3a088be4cd1f
+      E13_indexation: 63b29ebd-c3e9-439f-855e-f07faca7546d
+      E53: cdb250af-c570-4738-a2a3-518b30216e13
+  '1372':
+    E93:
+      uuid: 4f5328c1-fe54-46cb-a457-c9d1b948673d
+      E41: a7e857ec-8549-4a51-abd2-0037760f32f9
+      E13_indexation: 4f6519f9-a177-4539-8c6d-fdc1fa361cc9
+      E53: 3a4b9a21-63d0-4c69-848c-8e86405f8983
+  '1374':
+    E93:
+      uuid: 37743e1b-f006-4c05-891d-0b89032f712f
+      E41: a35ce5ab-1116-45b5-88e1-db487fba2750
+      E53: 145a251b-b2d9-45ac-a9d3-75dbdda28702
+  '225159':
+    E93:
+      uuid: 515e645c-1462-46ce-8f1c-62350fc9737f
+      E41: 095f7e22-563c-4e8f-8f03-9163385e8a31
+      E41_alt:
+        CAUMONT-SUR-DURANCE: 2c34b64e-5f42-4c0e-8169-3732a4b3034f
+      E53: 9fc90d21-9674-44dd-b718-7c8325f7a4e6
+  '1358':
+    E93:
+      uuid: a6f633d6-ba1c-4e36-9b9d-832e0bb1fea2
+      E41: 7ef8f8a1-23ff-41bd-8fab-b1762d945d0d
+      E13_indexation: bf1e87aa-501c-4698-b590-3f95e636f927
+      E53: f393cef7-be3a-479e-b696-2f6cdf5beb4e
+  '1361':
+    E93:
+      uuid: bf9ee998-9492-4deb-bdfd-0416cb73746e
+      E41: 51b9f3e7-7862-4232-b8e6-3ab8be0a6830
+      E13_indexation: e9df236e-6623-4959-94e2-b2b2f1e9b88f
+      E53: b618ff78-2546-444f-8434-ac3817f4e99a
+  '1366':
+    E93:
+      uuid: 7b1db64e-4d98-4c0b-99fd-2a248875d9c8
+      E41: f66b1121-386b-491f-a5fd-641c4d905211
+      E13_indexation: eb86aae5-b2cf-4134-bec8-46e395f5314e
+      E53: 48b7ad90-2ca3-4aa9-ab53-1e5268b2a1bb
+  '1368':
+    E93:
+      uuid: f25e87a5-fcc7-414e-b163-fdde72d4f011
+      E41: 9416e135-f548-4ae7-ad5e-9db98ba40523
+      E13_indexation: 88bd7502-9504-4e1c-8d1b-ab5f0631f568
+      E53: 94cf5061-5fea-4787-81b6-ecae62100f18
+  '1360':
+    E93:
+      uuid: 58f863bb-bed2-475f-9ff9-ed6c6a31daa7
+      E41: 62d8aa65-fd0d-4cc8-9131-b7e0ac555674
+      E13_indexation: 03f7bd4f-c866-48e2-92fc-6c2a85d96279
+      E53: babe2a9d-b09e-4c21-8a16-70a4afc2ddf2
+  '1359':
+    E93:
+      uuid: 72d5cda2-c542-4464-8d2f-f4042b6b7607
+      E41: baae675a-f982-46ce-ba95-45e86a706b2a
+      E13_indexation: d3eeaef8-b402-4e32-82e1-929e274b34c2
+      E53: 7ede3463-81b8-4284-834f-ee077671a62b
+  '1365':
+    E93:
+      uuid: 11e370e2-0654-4b54-9c93-084f5774c28c
+      E41: 2d9f598c-6fad-4ee7-98f9-9636ecc2b691
+      E13_indexation: 06f39eab-4ba7-46ed-b345-791fd0c8466e
+      E53: fed75e75-5876-40fd-a2df-9cba52c301f0
+  '1362':
+    E93:
+      uuid: 07ab467b-a453-4eb5-81d5-b89abc211048
+      E41: 0f24dd7b-aba4-4d45-a440-7248d1842726
+      E13_indexation: 636c48f2-a515-4be5-888d-f96e1ee3c97d
+      E53: cec89ff3-48e4-4dec-b147-643d8422cfeb
+  '1364':
+    E93:
+      uuid: 745f5ab2-7e19-4522-9b1a-cf80a5980eff
+      E41: 8eff19b4-103a-4471-8412-bf48151169a2
+      E13_indexation: a97a9382-7e63-47ae-becd-611269b19896
+      E53: 76c65f96-3944-4d34-9f17-6671ca27d133
+  '1363':
+    E93:
+      uuid: 353e9db3-edc1-4a79-b1ff-798385d9dfc9
+      E41: 16e81154-c9d8-4dab-89ea-749f0cc18fd7
+      E13_indexation: 8a9e4c2f-14e3-4630-9252-2ec0f063638a
+      E53: c1acf196-3de9-46da-a45a-e759f22f7708
+  '1367':
+    E93:
+      uuid: c7289b42-2cb1-45fc-86ed-250877e6efec
+      E41: 894198da-1725-4d95-923d-ef499200cae5
+      E13_indexation: 412f2283-1f1a-4edf-8335-5692053639c2
+      E53: 0029c805-8204-4a9d-b2ef-5a39c12a2683
+  '1369':
+    E93:
+      uuid: 4ad73a13-9c8f-46a5-a7d7-f7f08777f748
+      E41: a8758267-5136-4940-baf7-aa359920438f
+      E53: 53b6105b-7a8b-416c-a733-56c14a08e221
+  '1666':
+    E93:
+      uuid: 353addb5-0dbf-49e3-a8e0-3b075a4ab4f0
+      E41: aa01a313-cb24-456d-9af3-6a6769592bd1
+      E53: a46139b5-61e8-4102-bd40-c08dc6222865
+  '1669':
+    E93:
+      uuid: df9b5507-9ccc-402b-a3cd-6bc359d449f2
+      E41: ffbce4b7-3fd4-4a68-b032-2c611a55c9b4
+      E53: d7e4fc8e-96b2-4f7d-a8ce-18a64304a6df
+  '1652':
+    E93:
+      uuid: 53282719-c39f-4cd0-9d01-4ba83dd31da9
+      E41: 7b8fbe3c-5c42-4bc5-8251-24141b80d8d5
+      E53: 45d909e8-f6a0-4f04-b100-0d62f4f41a79
+  '1718':
+    E93:
+      uuid: c4a0cf7d-9aaa-4dcc-ba5b-fa1a51c0322e
+      E41: d92ce787-122a-4c96-a1b2-d9a78b232089
+      E41_alt:
+        VITERBO: 16096560-ddf9-43ce-ad7e-d54a7368d658
+      E53: 547a8743-dae2-4188-ad3e-68b32c134d9a
+  '1711':
+    E93:
+      uuid: db7eb1cc-c2c6-440a-a7e8-d3ff8f3f4913
+      E41: 231e1443-17df-4379-a230-8c7c372be4ff
+      E53: a235e756-b77d-4789-a29d-06535a5b8329
+  '1670':
+    E93:
+      uuid: ca6db750-ab85-4db5-84b4-417fffd2c071
+      E41: 23521568-e213-40f7-b63e-27671c14be38
+      E41_alt:
+        RAVENNA: b734d379-c128-490c-a0c5-caaf605649d3
+      E53: c4a8f6ee-5087-4c01-9136-205248b03c12
+  '1661':
+    E93:
+      uuid: 90f9df12-4371-41a1-ab8a-090db2aaa38c
+      E41: 3e35c7e7-dd8b-4d2f-ad08-26d0d7782120
+      E53: 0efbbad2-cc69-4764-aff7-0632f396841d
+  '1717':
+    E93:
+      uuid: 0714189e-3f69-4788-b80c-56c0a65608ae
+      E41: 85741c08-684b-4317-b832-23ec27665b80
+      E53: 370ab56f-115c-4305-9fcc-a1a3e74902bc
+  '1653':
+    E93:
+      uuid: 51a84669-34b6-47e5-8380-5c4297648be7
+      E41: 0fc4e7df-e1c9-4792-aa95-fafaad1d3738
+      E41_alt:
+        CIVITA VECCHIA: 820a9f37-a246-4bb3-87cc-6ce3ae53f6d8
+      E13_indexation: 87a7c232-042c-4161-9f44-536e997d1cb1
+      E53: 50b9a7d3-22bb-4eb7-b6d6-5441ac2d9451
+  '1656':
+    E93:
+      uuid: b98bf7e8-cb88-4389-9c16-2fa327542315
+      E41: 2f0d3a94-5e58-4569-9c02-71c2f22249b0
+      E53: 53d3be3a-fe8e-4dd8-ae6e-9287a1ae7211
+  '1663':
+    E93:
+      uuid: 4a2cf056-042c-48e2-a158-c44953d7a7ff
+      E41: 277acffb-6222-42ee-a617-1fc23c011ac8
+      E53: 5daffbc2-b77c-4f0c-b77c-5cf45651111a
+  '1713':
+    E93:
+      uuid: a6bf6192-5ee5-4deb-96c3-9f45b196bd59
+      E41: 48247ad3-3db6-42ca-af2e-c9af52ea3872
+      E41_alt:
+        TERRACINA: d799ab8e-f629-4972-b544-35f6e0599ccc
+      E53: aea1aaec-afa8-4bfb-9ab9-82da9b808528
+  '1649':
+    E93:
+      uuid: 5a330f2e-81eb-46c8-b262-2a7b119bc515
+      E41: 3dd3b5ef-71fe-4bbb-8202-81416bbbafc2
+      E41_alt:
+        BOLOGNA: 8dc75554-6088-41a3-8985-0db8eb225d28
+      E13_indexation: 369240cd-d328-4e73-a983-c85ba30e7d60
+      E53: 26640bbd-3aca-4a02-a826-42855bb4a263
+  '1668':
+    E93:
+      uuid: 1ca84b54-e7b5-4d38-a72e-04456503a7d8
+      E41: 18baf346-55ce-4191-bbf3-6ec758e431fb
+      E41_alt:
+        PERUGIA: ca2470c1-3c86-4a6a-b08f-4cb0a7b11892
+      E53: 2db1f531-220b-48c8-a83d-428f3eae3a5e
+  '257971':
+    E93:
+      uuid: a3840330-6a32-412e-a242-7d644ea1186d
+      E41: 38f97567-aea8-4923-9b44-f9b749071d33
+      E41_alt:
+        NEMUS DIANAE: 113ad38b-85f8-40f9-9612-9d06ac0f5537
+        NEMUS: fdc0e9fd-027b-4ee3-b5b9-f78afd12320e
+      E53: 483f43f3-0771-4a81-976b-0b315d4d921e
+  '1715':
+    E93:
+      uuid: bb3dcb35-7bfe-4396-851a-5c6bf3f3393a
+      E41: 488d565d-e7c9-4b0e-8516-c0ecf2a8ce7d
+      E53: 45626361-c6d8-4689-90c4-593ee0a8048c
+  '1647':
+    E93:
+      uuid: 2a81214c-48d3-4bd4-ac31-f757b4564170
+      E41: 041ffbf0-833f-4db6-9dee-57393a27c413
+      E41_alt:
+        ANCONA: f0f3f47a-b23f-4881-855d-82547627e1bc
+      E53: ec657ad7-4a2c-4aed-af14-5abb296de533
+  '1660':
+    E93:
+      uuid: 6a61a438-0e65-4fcf-a569-bba484cfc0d9
+      E41: 9907fc2d-458b-4ce5-90d1-064610debf70
+      E53: 4b6e24df-430c-4806-aefd-1fb9a1bde73b
+  '1667':
+    E93:
+      uuid: 0b95db1d-1d8f-4c8b-ac94-112e01e8a7d7
+      E41: c71308fe-6661-4945-92a5-b510f0457346
+      E53: c96d4195-6d7c-4f76-aea0-f47a2a4001e9
+  '1664':
+    E93:
+      uuid: 3036c657-0e4a-4444-8514-8ebe4356adb9
+      E41: dfc1f5a2-cb70-4b19-bb7f-9e5270877f4b
+      E53: dd494926-d193-49ab-8a6b-e0614710420e
+  '1654':
+    E93:
+      uuid: 8a1f60e5-274e-4fb7-88e8-8e1cb48301aa
+      E41: 3075231a-fca0-4744-a881-be6350aee986
+      E53: 6a7c2f5e-757d-44ed-95b9-adefb70a14bb
+  '1639':
+    E93:
+      uuid: c0841315-ba05-4f6f-aa12-cbfa25b1673d
+      E41: a3c07ff8-66a4-4d21-b538-d442667f6485
+      E41_alt:
+        DUCATO DI PARMA E PIACENZA: 7571532b-9bb4-4666-aa5a-b1c6b071cdef
+      E53: 1bd285a8-edb3-4969-9217-5afac3ce7693
+  '1640':
+    E93:
+      uuid: 9fd6c923-d484-45ab-94d9-73c1c3b95a8a
+      E41: 13786aad-7d1f-4607-8c27-a99bcac90b81
+      E41_alt:
+        PARMA: 7566569c-24c3-49e7-8454-86878c7ad176
+      E13_indexation: d8bb2073-d61b-46c1-850b-5b1d5b6871f9
+      E53: 79d28526-9d9c-4584-b76f-266faf6c6b4b
+  '1642':
+    E93:
+      uuid: 6ad7194d-e121-4856-96b5-6fe3b2a84960
+      E41: 835a0ded-449c-4c80-9908-e905d7c6f2cd
+      E53: 6e607ff4-cc24-4131-9e0c-8108b1b7b755
+  '1641':
+    E93:
+      uuid: fa05abc6-bdc4-4e40-93b5-1ec22cffb819
+      E41: 1f3b9a05-1383-4081-a2a2-3a9f254a6edf
+      E13_indexation: c5a1def1-7469-4cc0-a153-4f54e16d145e
+      E53: 1582c049-4a1d-40a9-aed7-5e44addc38fc
+  '1643':
+    E93:
+      uuid: 6574db91-9b08-4613-8fe4-bcd8113ed720
+      E41: 3cb1813a-1041-41d1-ac34-de43e2231ca9
+      E53: 7b1bfe9f-9542-45b5-a1aa-834082a0f396
+  '1644':
+    E93:
+      uuid: 8ffb92fd-8e3c-4d58-b998-084709a1892f
+      E41: dd038741-e638-4551-bd15-8f4764204855
+      E13_indexation: bfeb77de-ae2f-4c9d-8f98-f3252a56c0fe
+      E53: decaf4f6-51b2-40e7-8ffe-061751d1c1f2
+  '1645':
+    E93:
+      uuid: ca55bf45-f205-43c2-aaf7-d70d786a5e0d
+      E41: f03cf4b1-a7cf-4d33-99d1-34854c51d3e0
+      E41_alt:
+        PIACENZA: 06528253-d2f8-4fa0-84ef-3b1dd4435c02
+      E53: ebebd7a3-4572-42ec-a4e9-80226de0e888
+  '1719':
+    E93:
+      uuid: 90e7d744-c774-4460-8730-b931ad8fb761
+      E41: 90982dd0-87ab-49b0-8f42-bc98319d3aa2
+      E41_alt:
+        GRANDUCATO DI TOSCANA: dd5eef3c-e918-42db-a8b0-f681efe269cb
+      E53: 90c52d51-0e78-41b7-bdde-f457419e9f6b
+  '1739':
+    E93:
+      uuid: 931e79bb-67a8-4535-a51f-c2e03ab99757
+      E41: 729794eb-6a5b-485a-bb64-7fddedd19a7b
+      E41_alt:
+        PISA: 59669445-3bbf-4458-98c8-43437ad1c9ad
+      E13_indexation: 952bed5a-2d1f-46dd-a518-14c5345b430b
+      E53: 24b20a72-5542-423d-8a8f-37eb17aab238
+  '1740':
+    E93:
+      uuid: 9bb6e8e6-118a-45de-ad21-45ea98ed9495
+      E41: 17f4680b-24b9-4fbe-b1d1-30689f5df885
+      E13_indexation: c6045522-63a6-4e3a-82e0-602f42a605db
+      E53: b932aa95-b8f7-4b11-8902-86da9476c7fa
+  '1723':
+    E93:
+      uuid: 1194f429-7fd3-49c6-9304-e537693c287a
+      E41: 823c7510-7970-486b-b35b-d6508a764af8
+      E13_indexation: 9ac96240-008c-4be1-ad5c-95e6d3573523
+      E53: 4f6e1c53-c293-4184-80b0-5c2e2ade2647
+  '1721':
+    E93:
+      uuid: 031f9bc8-3350-4078-b45d-3223cb7c60e2
+      E41: a1913105-c375-436d-ab5b-8e2e7aa6a138
+      E41_alt:
+        CORTONA: 92efe64f-6662-4d01-b1ba-7305a9b72928
+      E53: 25ff052f-c9a5-43ab-893e-3e357fbc3301
+  '1733':
+    E93:
+      uuid: 1f18b806-b3e5-43f8-a755-c94dfff86b40
+      E41: 203faaa2-c06f-462e-9671-dda73ed08057
+      E41_alt:
+        LIVORNO: 59fd92b9-8df8-4453-b742-355c02ecff98
+      E13_indexation: 6bcc5da6-5086-4457-95ae-c53880792855
+      E53: 0fa349fa-8b75-4c59-ac30-4de0845aa0b6
+  '1735':
+    E93:
+      uuid: 6852d642-f701-4613-9704-f8fd064b6c23
+      E41: cf2aa96f-9d35-4bfa-bc45-ce04e8f9bd81
+      E13_indexation: 44f13fdb-db4c-4996-8024-adabdc4ac7c7
+      E53: bd31fa80-7982-4dac-99ba-8d2c2c088ff9
+  '1736':
+    E93:
+      uuid: 9278dd9f-ad95-4a17-96de-6c1c5dec6bc9
+      E41: 817664f2-7f80-4d30-b0f2-b6edf077fc71
+      E13_indexation: f41542a8-eba1-499d-b570-0296e7402656
+      E53: bdff024c-a635-48ee-9e80-626e8f8ff003
+  '1734':
+    E93:
+      uuid: 0c0f266a-cff1-482d-a590-c530474682dd
+      E41: 8a40938a-1935-481a-a55c-648b437beda2
+      E13_indexation: 09d8fbfd-c20f-4bfa-8d7a-f28c5624d8bd
+      E53: 70892ea1-c53c-48e3-90aa-49c17c0e4ed7
+  '1741':
+    E93:
+      uuid: 5acd60ca-39fd-4cbd-99d3-415101cbb946
+      E41: 916b9ea9-24cd-408e-a0d7-ebcfdd2b339a
+      E53: eeeb2dc7-0cfe-4f5a-8abd-a2393a7129b5
+  '1731':
+    E93:
+      uuid: 2c25473c-ae7f-4104-bab9-bef79841c58b
+      E41: 3d1b874c-2798-4d8f-a76e-5f734baf6160
+      E53: a829d032-da34-4f12-bd5e-e5b406fe3e1a
+  '1745':
+    E93:
+      uuid: bf98e9ff-4df7-4471-aa1f-ea3711e011c1
+      E41: 4656e258-303a-416e-bfa1-16c39c448efa
+      E53: 496498d0-1138-43c5-962e-2a49159270f2
+  '1742':
+    E93:
+      uuid: f5291294-21e3-4875-a6a6-efb475b83610
+      E41: 81ebf633-1fe5-408a-a43e-37e995001e73
+      E53: 6bf87141-cb42-4952-9a3b-8291904a722a
+  '1743':
+    E93:
+      uuid: 0d12fa57-bd6f-480c-b8f5-92d8ea537327
+      E41: 10b2605f-d6ba-43f9-97e6-d09e9af3d052
+      E41_alt:
+        SIENA: 9a1e6b03-1c23-48eb-83e6-b7589246414b
+      E53: f1fa3d7d-632f-4342-9e98-f9d5b1fc8b0f
+  '1722':
+    E93:
+      uuid: 4dbabc95-49ac-4345-afb3-cf34dfe1ca30
+      E41: 4f77d70d-da00-476d-9d29-33f6aa4a71f2
+      E53: 20e01a2d-ff6f-4e83-9b53-8027f28ce601
+  '1744':
+    E93:
+      uuid: 593a82a0-0fbe-495f-b44b-57fcec1eaf51
+      E41: d1db2788-0b27-4aae-beda-6cec78b00a21
+      E53: d162435e-c28e-4643-b3f0-5479457b4547
+  '1738':
+    E93:
+      uuid: ee000636-1bf5-4b00-b12a-919eb1b9efc6
+      E41: 19f3ff3c-b4f9-471e-a803-0990720aea0e
+      E53: 504fea69-5342-4caa-91e9-f8b45f95ce5c
+  '1720':
+    E93:
+      uuid: 7d601fe1-de79-4a0c-ae88-cf2d4e5bb7b5
+      E41: aae7a5fa-46e4-49af-ad1d-b3bdd8e616d4
+      E13_indexation: ad8b1c1d-508d-4caa-a5fb-549cf4df4892
+      E53: 3e47070f-09b6-4329-a1dd-3d03a7e319c0
+  '1732':
+    E93:
+      uuid: a26882b1-34b5-43d5-8e16-a257cc9106d0
+      E41: 2812e3b1-309d-4c9b-acb1-f7bc7de24b30
+      E53: 3555ebd0-84f9-4f0c-94a4-95854c00b6a8
+  '1724':
+    E93:
+      uuid: af97466f-baa6-4a92-9fed-28d4f699fffe
+      E41: 7f0584d8-d8e9-4386-81b3-b1fb09ac0187
+      E41_alt:
+        FIRENZE: 05094358-031e-4595-be7b-3e7b0534debe
+      E13_indexation: 13750789-25e0-4cec-b5e1-a13a63ec1047
+      E53: 5a886c10-48c3-478c-98f7-5dc2c873ada7
+  '1726':
+    E93:
+      uuid: 6573c96d-6ab4-4f7e-bc84-b3f17eeadc01
+      E41: e7553c55-92c8-48b3-bc1f-121da439b4f9
+      E41_alt:
+        FIRENZE, Basilica di San Lorenzo: ee88ebca-db14-4334-9f07-26fadbd9f356
+      E13_indexation: 73cbe415-3bcb-4be1-9787-6a13287eee67
+      E53: 1377571e-5a23-45df-a42f-e8169dca2780
+  '1727':
+    E93:
+      uuid: 5442aec2-57c9-4346-b206-91790e15e66e
+      E41: 16d4fc5e-2b75-4092-8bb4-1a16841a05a7
+      E41_alt:
+        FIRENZE, Basilica di San Lorenzo, cappella dei Medici: cad4eb05-64a8-41c7-a703-6a7ff4ceb525
+      E13_indexation: b14635b0-d2c2-49b5-9e27-8160d99a47a9
+      E53: d14862a5-bbbf-49ff-98b4-d320e3cf3171
+  '1729':
+    E93:
+      uuid: baa4c765-8434-431e-97e1-8abbe5558fc3
+      E41: e63303d5-7de3-408d-9a35-8e5c89b0180e
+      E41_alt:
+        FIRENZE, Chiesa di San Piero a Monticelli: 7e514f3b-c7a5-4ccc-ae84-73e4ecb8e867
+      E13_indexation: 36c79446-3139-4dd7-9dc4-23ff909ae33a
+      E53: ee192dfa-d035-4c1f-8cf3-f036da2537a2
+  '1728':
+    E93:
+      uuid: 97455b80-6324-4c47-a2ec-240d2dc7e64b
+      E41: b8f43fd2-6393-4b0b-8dd1-43bb335d31ea
+      E41_alt:
+        FIRENZE, Cattedrale di Santa Maria del Fiore: 01ae2a58-ec4a-4242-aa20-5fd7bca8ab49
+      E13_indexation: f05c2df6-dcbd-4326-9a25-7d28fde11ca2
+      E53: 89375371-ad55-4433-8567-df599352f48f
+  '1730':
+    E93:
+      uuid: 20dc781e-0b8d-4dda-9857-4665512b0b67
+      E41: e152f52f-d6bb-4010-bb34-5903ce45e9bc
+      E41_alt:
+        FIRENZE, Fortezza da Basso: 30284e3c-ccb3-4edd-bb66-01d69eb4dfd0
+        FIRENZE, Fortezza di San Giovanni Battista: 2596e819-92d8-498f-8289-a82a673a297a
+        FLORENCE, Forteresse San Giovanni Battista: b4b522db-1ed8-4436-85b8-1599fd7fe8cc
+      E13_indexation: f229175b-bd11-4f56-a997-65783609c0f6
+      E53: 4c06ec49-64bc-4644-af5e-9e6eda64bb8b
+  '1725':
+    E93:
+      uuid: 9773a026-9fa6-4f3f-903a-1f2d64c2b9a4
+      E41: b99ca5c5-8b4f-492d-80f5-c5204c289e92
+      E41_alt:
+        FIRENZE, Basilica della Santissima Annunziata: b1ef72b6-d8f0-49b7-b112-d9b2b0ed88c2
+      E13_indexation: 2e519656-4be1-4ee7-bcfe-9717ef25cb03
+      E53: 44547eb9-37e2-4521-82fe-76de6d8c834c
+  '1752':
+    E93:
+      uuid: e55f18ef-bc3a-454e-91e9-ca6ee0a8fbfe
+      E41: 68649a62-b2d4-4287-8f5d-e92c1c375ec1
+      E41_alt:
+        REPUBBLICA DI GENOVA: 78b6fc40-10b9-4a55-8242-e3322abe11a1
+      E53: 637f8562-978c-4b21-a885-0f022fcdcc34
+  '1760':
+    E93:
+      uuid: 41663912-c417-441f-baf1-ac082eb8f11b
+      E41: aa53aa2d-8990-46d3-a6de-873068e28a91
+      E53: 21453ff4-6b5b-4eff-a986-58dcd9761cbe
+  '1761':
+    E93:
+      uuid: a1097f7f-92e2-46c4-86b9-094b8ffe96ac
+      E41: 7968fd54-5afc-4c51-aaa7-7cf9df721dfe
+      E53: a51c4bfb-c182-44fc-bd75-1d314ad0e6e6
+  '276232':
+    E93:
+      uuid: c42ff5e0-a878-4a0e-a5eb-38f413fc9f7a
+      E41: 10e299b2-6da0-4664-8c81-651385b03ed4
+      E53: 2d47352a-fcf4-4ebf-a2c7-bc7c673bc126
+  '1755':
+    E93:
+      uuid: c0fb423a-6767-430d-9072-4a765c30a1bc
+      E41: 4db845be-c250-45e0-a67e-dfc409029bf6
+      E41_alt:
+        GENOVA: 560b22e3-bd7d-42d6-a8ca-4060e9963078
+      E53: 0190861d-fbbb-4175-83bb-30a970677a47
+  '1757':
+    E93:
+      uuid: 022c8d35-7c3e-42d7-9938-e5ede516cdf5
+      E41: 1d99cd41-507e-409b-ae1f-139f7cf4f342
+      E13_indexation: 85c5e2e2-0238-438d-93e4-cfd9da15e47e
+      E53: 0478038a-e730-4d2e-a087-3e60ab515ce0
+  '1758':
+    E93:
+      uuid: 15b1a5d5-6548-4c21-895f-e21a6718a65e
+      E41: fe68acf3-0185-46d0-a528-d31eccf229d4
+      E13_indexation: cd6015d7-3a80-45f3-9b72-1cd78949e553
+      E53: 1ce1d145-90cc-43fb-a484-4b6c925a37f0
+  '1759':
+    E93:
+      uuid: 75fa0f0d-6a60-4842-aff5-f2ccd71c47d8
+      E41: 7b1556ac-139f-41aa-ba0a-fd86b1edd520
+      E41_alt:
+        GENOVA, Piazza Campetto: 082c10cb-d108-4ce4-9453-dd956f437621
+      E13_indexation: 9d31be8c-c772-42e0-b136-2c99087f47c9
+      E53: a74e24f1-30db-49b7-bf98-a49fc65a3da5
+  '1756':
+    E93:
+      uuid: 35814e3a-6a0c-41e7-a278-6cf800a0f4b4
+      E41: 87757c1a-df05-4596-8f62-52d8f36ea971
+      E41_alt:
+        GENOVA, Basilica della Santissima Annunziata del Vastato: 791d427a-7321-4104-a734-e050710d148a
+      E13_indexation: a7d73116-daff-4397-8649-632bb29de905
+      E53: 77026666-dcdd-420b-841e-2ecefca6fdbb
+  '276235':
+    E93:
+      uuid: f168757d-dea2-4518-8052-2b8383c1d783
+      E41: 94a5cdd3-8b0f-408a-96c8-1ec1be92fa6f
+      E53: bd8e2ecf-85c0-47c1-ac24-36043b345575
+  '1754':
+    E93:
+      uuid: 2525ee42-f5a0-4229-a282-c69ec4eeaf32
+      E41: c548c8a2-58a1-434a-9f4a-d3169756035f
+      E53: cf573e45-553f-4862-951b-ed89c69be4da
+  '276199':
+    E93:
+      uuid: e5796f1a-fd0a-4840-b3ca-b913d2b911e3
+      E41: 904225bb-35b5-4935-86ae-f926b3e30aa9
+      E53: b3c278b1-c266-467c-a187-b3745c5f746f
+  '1753':
+    E93:
+      uuid: c9068378-a713-47e7-809e-7a43eb8cdb0f
+      E41: f58ea5e0-baa7-4d45-abbe-4942086b2578
+      E53: 94541051-b7bc-45ce-9a0a-2a10e1375066
+  '276233':
+    E93:
+      uuid: d0fe6637-ddcb-474a-b999-2be140fe680d
+      E41: e6792c6f-3413-472f-bece-776432d2d76f
+      E53: 751b3e6c-eda2-43d4-8ad2-881b80ba87d0
+  '1629':
+    E93:
+      uuid: e0b1f56f-2630-4b31-b4e4-29429065d1c7
+      E41: 26649c23-cb34-4db0-a89c-32d6a76f415b
+      E53: 0a9e061c-8e4d-4358-82b8-8f220cd98fcc
+  '1630':
+    E93:
+      uuid: d69600ee-91c0-4c23-aef5-df3c1b92e8b6
+      E41: 69ee6f3e-c3f6-4c2e-98c3-332e16dab588
+      E53: 59d0dd06-0216-442f-9a83-d1fc21c1e171
+  '1808':
+    E93:
+      uuid: 416b1ac7-150c-4b23-980f-37aae52c7840
+      E41: fa8f5e69-7cc8-4815-a8da-a3038c8f9185
+      E41_alt:
+        SERENISSIMA REPUBBLICA DI LUCCA: c64def98-e554-4a71-b286-d28bdaf6a094
+        SERENISSIMA REPUBBLICA LUCENSE: 7896ed3e-eb48-4b3a-b149-29ae5df83bb4
+      E53: afa26f1d-35cb-479d-9a3e-8ba753f77aeb
+  '1809':
+    E93:
+      uuid: b0505b20-7b38-41a7-8dfa-e39dc8a210b2
+      E41: c833cdea-a3c8-42ff-92ff-29484d4318ae
+      E41_alt:
+        LUCCA: b912db4c-83c0-4d57-b21f-17623a45972d
+      E53: 68d861d4-b126-4908-aeca-ea3380a506bb
+  '1810':
+    E93:
+      uuid: d3e0626b-0484-4e86-8bb2-f249d653b4ba
+      E41: 88b4d08d-b584-4557-bc80-9e8632aef3e4
+      E41_alt:
+        REPUBBLICA DI SAN MARINO: c9d44817-c2fa-4a63-a0d6-05c02c4c78f3
+      E53: 113d3e82-6516-44ca-af22-6f4195bddff0
+  '1811':
+    E93:
+      uuid: 02de55d2-a6da-496c-9d65-7e1a154b327b
+      E41: de9cf581-94ea-4010-88e2-aeb4d9831a8b
+      E41_alt:
+        SAN MARINO: 4fea3ccd-2922-422b-b01f-0cceec9cf8dd
+      E53: f8d449c7-e92b-4cec-b108-e13e5941d88c
+  '1750':
+    E93:
+      uuid: 61b3f770-3580-4303-a83b-abd9ee5d0221
+      E41: 233dd7ab-a56b-432e-a5e1-f4bfe47cdcd6
+      E41_alt:
+        PRINCIPATO DI PIOMBINO: 36346056-8516-4806-914e-9c22e7d47904
+      E53: b113d3c0-8408-49e2-bc69-68647760550a
+  '1751':
+    E93:
+      uuid: a53de72c-0518-42f1-89bd-6dad6df591a0
+      E41: 9934b561-9261-4d61-8d37-1afe44943311
+      E53: 749ee0ac-318b-4851-8c1e-d3a2937b188a
+  '1618':
+    E93:
+      uuid: 21abd473-4890-4194-ac56-a45eb7b49395
+      E41: 7a952a71-ccf0-442b-ab1f-a0fcd17fd8f5
+      E53: 2def2b94-9ec0-4a8e-8139-449289125167
+  '1621':
+    E93:
+      uuid: 0854f245-3712-495b-a5ff-2f6967985ae4
+      E41: 291fcbcc-3e91-4a3c-a71b-b38cd6b5c95c
+      E53: eb2ff577-8186-4f0f-86f2-00adc89a1428
+  '1622':
+    E93:
+      uuid: 2c2edd0a-4e0b-411f-a823-980922d8adda
+      E41: dea4bdc2-2883-4a2a-b707-4eee1d474123
+      E53: 8677e73a-cc3e-4637-9573-2f0f3bb0d67e
+  '278067':
+    E93:
+      uuid: 2559129f-13ac-4780-a275-d9d077b60ea6
+      E41: a26abdc7-6b28-4f7f-b760-3c5961ad13b5
+      E41_alt:
+        MARRAKESH: 7fde94a0-8657-48b0-8a10-b2fcf1c21165
+      E53: f8f60e33-f1b7-4fa0-bbb1-d05e6b110c41
+  '1619':
+    E93:
+      uuid: a70663a6-b4f7-4252-bf6a-1d7fb842cb80
+      E41: 9ff34d7c-a86a-4c90-b741-227664bb29ae
+      E41_alt:
+        ROYAUME DE FEZ: 05c2c08e-9960-4022-aeb2-11f65d1524a2
+      E53: b06a6a56-08a8-4792-9420-d71ccbdb56eb
+  '1620':
+    E93:
+      uuid: 48d4cd19-5f9e-420f-88f1-722acf74371d
+      E41: 232bfca9-36db-453f-ac91-0540c9c65d77
+      E41_alt:
+        FEZ: 3397d68a-c5f9-42c9-849e-1989c49cb445
+      E13_indexation: ea4252ec-d669-41f9-9d96-408ec8e29e3b
+      E53: cde0a82e-e792-43dc-88e0-1fcbc992b3f4
+  '617':
+    E93:
+      uuid: 9a2658ec-c589-4c92-abc7-3f0932585557
+      E41: d49873c9-6144-47b0-ac74-b7d99c344197
+      E41_alt:
+        KINGDOM OF GREAT BRITAIN: e0cdeb72-cdbe-49ad-a045-8616e3be2c8f
+      E53: fcdc6038-4244-4642-8a98-7dcd2053f2bc
+  '618':
+    E93:
+      uuid: 146cebfe-8d3a-47e2-91c6-e232997be13b
+      E41: f1212405-f728-413a-a5c1-1900db566464
+      E13_indexation: 38bb94a8-da7a-4740-b76a-7c883b97297a
+      E53: e81eef07-0673-4790-b4de-cd4c340698c8
+  '638':
+    E93:
+      uuid: 64cf4c17-f9cf-4fde-b9f1-90de9179506f
+      E41: e3a9b42d-4238-4367-9a59-47ba20f3cc52
+      E53: f0a19df9-71c9-40a2-8ff0-ed48d7a18b8b
+  '640':
+    E93:
+      uuid: 431bb27c-caac-44a4-8afe-ff343c9a9b0d
+      E41: b9b02e9a-f0bb-400a-b993-f12733afa55b
+      E53: b8f6cdf2-c984-4f5d-87e3-f49c86ab98c4
+  '650':
+    E93:
+      uuid: a844cb4e-ff51-48ac-986f-3e24b23274f0
+      E41: 7b669ae6-5f8b-4a16-ad48-4b65b1f55c1a
+      E53: 28bfbd40-8dd6-48e9-bbda-469b44c0af85
+  '645':
+    E93:
+      uuid: 3cefd44b-9f96-42ac-809d-fcb6048b20b8
+      E41: 3f9f40b8-c01a-4d1f-b111-5b258cb69ffa
+      E53: 7ad62850-f2c9-492c-8d05-fb7617a8f835
+  '647':
+    E93:
+      uuid: c9cf1b08-255a-404f-bf13-e3b0f47af62e
+      E41: c5db6fa2-0c68-4434-87ce-eca2254e1dc2
+      E53: 0d4835e3-bf6a-49f8-89bb-3c8deec38a60
+  '643':
+    E93:
+      uuid: f7a0ffce-9a9e-4ac1-bf50-d4d847401c09
+      E41: b9a0d164-f868-44db-8784-db1a7d81483c
+      E53: 036d3208-bf04-469b-99f0-8fbecec0c05c
+  '651':
+    E93:
+      uuid: 55985fb3-7b2e-4ca7-a072-87f139e5f212
+      E41: 721dfcf0-55a8-4172-a756-02227d7d9ed0
+      E53: d2d93bb2-957f-483c-8a0f-a53e7ae61d76
+  '648':
+    E93:
+      uuid: f4570474-5c95-4733-b2a6-ad8cf2f65eb8
+      E41: f72b5709-9723-4bb2-b6c9-cdb8a6277886
+      E53: dc44ae28-1a1e-4d51-8b74-2c37fb945ddd
+  '641':
+    E93:
+      uuid: 94e361cd-5e5f-4054-a2a1-2e6d19419511
+      E41: 2d8f4a7e-b7ff-415e-bdcc-832483afd84f
+      E41_alt:
+        GLOUCESTER: c52add1f-a36d-4067-9033-16fe473afa2b
+        CAERLOYW: bc3ee915-5aa8-44e2-8141-85317fefd6f7
+      E53: 628ba2c0-e851-4ceb-ac07-0f83b9cb8b18
+  '642':
+    E93:
+      uuid: 08bc0c19-3c1e-4e29-9e69-9c4f357dd48a
+      E41: 8d0a8e6f-b830-4149-a2c1-d22355e5a973
+      E53: 6c325310-50e3-4a73-958d-9279d859a173
+  '644':
+    E93:
+      uuid: f92be00d-56ca-49e5-a90c-15fd3ab5c612
+      E41: 547ac423-4a6b-4f3d-b453-c28519c97049
+      E53: a9dd5371-11de-49a1-a32d-1ccc534c5378
+  '639':
+    E93:
+      uuid: d35315e3-43d8-4da1-8b47-21607f1a965f
+      E41: 3421a17c-8206-434d-994a-615a5f4a3d0e
+      E53: a9af6375-f4f2-487a-a13e-271c9cada623
+  '646':
+    E93:
+      uuid: dafc44b3-84c1-4350-bcad-b80425809700
+      E41: 9e61692a-6903-494d-9f55-f2a19be9b846
+      E53: f88b03db-7420-4d4f-a9c8-a175d0414e95
+  '649':
+    E93:
+      uuid: 3c26bc40-d77f-409e-b52e-64d93923d045
+      E41: 9fc7180f-c570-4707-808d-d944294226d5
+      E53: aa2f3376-de9e-4062-b1cf-62039a7e4fbf
+  '663':
+    E93:
+      uuid: a7c61d27-fab3-434d-b549-84ede4eecc56
+      E41: 2e0ac9b6-70f3-471a-8a7a-7fca94644414
+      E53: b5e5ca65-37d7-47d4-98f2-bb2f9fdffcd9
+  '664':
+    E93:
+      uuid: c82f28d8-2af9-4b78-81e3-18a6b862dfd0
+      E41: 61407691-6bce-4e52-aecd-54f3242aa330
+      E53: 0169e67e-506a-4e2d-a169-c39d3444f7f4
+  '665':
+    E93:
+      uuid: da357bd9-c167-4a5a-a098-6a51e9a39535
+      E41: 4ddfd10d-ab14-4c5d-8900-efd4de2c6ec6
+      E53: 9e1047d1-badc-469b-9145-d533c532a25d
+  '666':
+    E93:
+      uuid: d046cd4d-c16f-4334-b1d1-00e408c7f9d8
+      E41: a25d774e-8e46-4c30-8dfc-6acc18798c36
+      E53: f5d6e6dd-df24-4265-841d-2f566d846dba
+  '619':
+    E93:
+      uuid: 3b6eab13-7c3f-45b6-b761-7255629da407
+      E41: fd932f45-5263-464d-82bc-a0def95cee1c
+      E53: a32f2c70-6734-41d9-a456-51c853d00009
+  '637':
+    E93:
+      uuid: d0865521-2032-48a8-8b4d-826a9d8df329
+      E41: 78cdaae6-058e-44a5-90e0-478ef854856e
+      E53: ab24ea85-dba9-4e02-8fa4-0af24bbbc653
+  '622':
+    E93:
+      uuid: f714e903-0c92-426a-a778-9d9aa9fb0922
+      E41: 7d7e91a2-d820-4c12-b0e0-45e7b94f623c
+      E53: 642ecb4c-c088-4587-8e5f-67d4d3a5e13e
+  '624':
+    E93:
+      uuid: 72530d84-9e7a-4be3-bccb-7077acddab85
+      E41: f6aaf169-d093-4af0-a7c4-248da5e3db16
+      E13_indexation: 3c507f8d-9e8e-467b-a478-e5d8ca686b54
+      E53: b378a85c-8521-48a6-aceb-64153f9bbc96
+  '625':
+    E93:
+      uuid: 22cef844-b44c-406c-bbd5-040a2fc22919
+      E41: eada5306-6cdf-490a-99f1-1673a3ad152d
+      E53: db29bf14-415d-4fe7-8ec5-8daf91009642
+  '257789':
+    E93:
+      uuid: aafa707e-7695-4964-adf8-2abc9044826d
+      E41: 900f7def-6ffe-48ea-bca4-66b2d7372b42
+      E53: 8e4f54b3-c6af-48ab-831a-af80579033da
+  '626':
+    E93:
+      uuid: 92be2850-b341-4064-84d0-570d313017fc
+      E41: 3102cdc5-9ac4-44c2-9f9b-668c25f6e36c
+      E13_indexation: 03c1807c-3fd9-49f0-82a4-aa2cd6bbc903
+      E53: 80321464-c810-41e4-9300-0cab1492e322
+  '630':
+    E93:
+      uuid: 00904942-fd89-47b4-8a7f-907bd5c27f17
+      E41: cdd5a9ab-9e9f-4f82-b0d2-8ffb6a550016
+      E41_alt:
+        LONDRES, Syon Park House: 0419c792-40c6-4eab-90d5-7460cf8105aa
+      E53: b3e18728-bd3d-45bf-ad94-30fb56910703
+  '635':
+    E93:
+      uuid: d15b4ccb-7b2f-46f3-b2a0-a021f42d2f9e
+      E41: 48b9448c-7f11-4f37-be5b-a4cf7da73028
+      E13_indexation: 68f72892-b881-4613-aabb-79e73509c7ee
+      E53: 2cc3f21c-6aca-4e02-a6f3-b4efe458fd96
+  '636':
+    E93:
+      uuid: 12023ab4-fa4f-4bfc-93bd-0a6aad960471
+      E41: 395ff664-aec4-4934-a8a5-b7cb95abc376
+      E41_alt:
+        LONDRES, Wynn House: 151e3eed-de66-42b9-a8f1-3c5e07f5ebd2
+      E53: 33c1bf58-f0fc-47fa-975b-e0bb390de5ef
+  '634':
+    E93:
+      uuid: 956b6307-6dcc-4bc1-adc9-2554655d3b8a
+      E41: 4d380736-9de1-4db1-9204-5ce9e5d01bac
+      E41_alt:
+        LONDRES, Cathédrale Saint-Pierre: 2f5b7785-4f9a-462b-b655-20d9217fbef1
+      E13_indexation: c3167713-4324-4e5d-93ff-71dfe0b06109
+      E53: db2ac867-f30d-4885-b0e7-c6d170c84196
+  '629':
+    E93:
+      uuid: 16243ce1-01e5-4e17-8c76-ff85fb618042
+      E41: 5336b4b3-1432-4f61-9291-e4796a952ee8
+      E13_indexation: c2d86487-7cc8-4836-973f-d91d6746995e
+      E53: 09e22dd9-7c79-4c09-a988-75c2fe2f3923
+  '628':
+    E93:
+      uuid: cca966cc-33e2-4fa0-9b46-9f6c94d3647a
+      E41: bd38b2b7-6e3d-4cfa-8a94-d6878431b82e
+      E13_indexation: e7679a09-9d19-49fc-b378-225505be8594
+      E53: 19f324e0-ac63-4767-8b1a-23c5536ea87c
+  '631':
+    E93:
+      uuid: c5c1a5a1-a27b-47d2-92e0-3a8b627f7673
+      E41: b6501b10-07a4-453b-98b6-2224ac9ec828
+      E13_indexation: 5fb40bd7-9bbf-4b12-b68a-66fe1d9c97f9
+      E53: 12e48376-75a1-43bd-95cb-8565d8418533
+  '632':
+    E93:
+      uuid: 23a3c9f0-38ad-4665-aaab-15ec9a2273fe
+      E41: f7da043f-0dbe-4dee-beda-8a3b5fab02cb
+      E53: 82615c22-f2d0-4185-84d3-29a73c178900
+  '275793':
+    E93:
+      uuid: 228a0bcc-7fe0-45d9-baad-b3b884ef7cae
+      E41: a57e8dae-dcb3-4f55-81c0-a3cf91e65e83
+      E13_indexation: 04bf72bb-f67c-44d6-93e5-0fbb52dc8bd1
+      E53: 79e70376-d099-4f78-ad07-a424be813867
+  '627':
+    E93:
+      uuid: 0ea834bf-f93b-48a7-8dd9-d39866956e97
+      E41: f684ceaf-9bd7-470e-8bba-3e81391d66a4
+      E53: 383aca3f-7709-4704-8210-2869e61c7448
+  '620':
+    E93:
+      uuid: e4e900b2-035d-433b-b6a0-6fd007ee843c
+      E41: 1cce0f31-5d96-462c-82eb-5bab48ece6e0
+      E53: 3c71b480-f69e-4a1a-826b-3657bd855612
+  '621':
+    E93:
+      uuid: d6e865a1-2ac5-4b6d-80d6-54e07972c995
+      E41: e21719fa-1c80-43f8-95c9-68fb9a8b363e
+      E53: 26515cd5-23c7-499d-a3ea-82e6bd30e02e
+  '623':
+    E93:
+      uuid: 1754d482-3000-4c9a-81c3-4d02accb85c9
+      E41: e9292d5a-5d88-419d-af59-ccb2c4064052
+      E53: efdae979-b6a4-4c14-95b1-89d4f281d2ed
+  '652':
+    E93:
+      uuid: 3aefd855-9c00-43f9-95cb-cfb8600298a9
+      E41: 5dd5968d-8cde-4d63-a083-f87aaaab0574
+      E53: f980395d-d2b8-4608-a0d4-9dc266d1321b
+  '654':
+    E93:
+      uuid: 2e219988-239e-4ee6-bf95-57105e3d6353
+      E41: 4060b0d5-a2e0-4dab-9ce8-5a2a10f4675b
+      E53: d613f776-5063-49f9-a1a3-d8945c83878b
+  '656':
+    E93:
+      uuid: debd0e33-c111-45a7-9c15-4e61257dc16a
+      E41: 318a8ff4-1b09-427a-98bf-08d0fc5100a8
+      E53: 6e194d39-8594-4b8e-a88c-e228d026d64c
+  '657':
+    E93:
+      uuid: cfb82a15-40ca-4ed9-8344-bfecde8a6ba2
+      E41: a66b00c0-0e91-4201-8c1d-ac1d5089606b
+      E53: b69466cc-34f5-432e-bc1a-7cfed07718f2
+  '653':
+    E93:
+      uuid: ea4b0d54-acf3-4e93-96d3-95f6293bab65
+      E41: f6972ef9-f787-4b4e-a55b-012ab599feda
+      E53: 533311c0-5368-4d1b-94c8-653fde51444b
+  '659':
+    E93:
+      uuid: e462a0ac-8b82-40e3-8b9c-a6066fbd4f26
+      E41: 02b7da40-572d-4ab9-a3d7-f110540d8880
+      E53: f2a34acd-c060-4587-9641-a8e99746ecb0
+  '655':
+    E93:
+      uuid: deb51c2d-c2dd-413a-8c7f-7a0e25194d7e
+      E41: 9c1d8490-8c2e-4ab3-835c-79e26659dce2
+      E53: 1ff49c59-cfc4-4aa1-937b-03d8d91b698f
+  '658':
+    E93:
+      uuid: f97a49cb-f7ed-46f1-b229-3f63709db31f
+      E41: 84a5ff9f-e360-4c1c-b1ca-e2396701ba62
+      E53: 44df672b-fe3d-42d8-b52c-e32eef20a1a5
+  '113224':
+    E93:
+      uuid: f7e7220b-655c-4a29-b5e3-9fcdeccf5c9d
+      E41: c21c3750-782e-453b-8a04-ef119d93eb63
+      E41_alt:
+        ALNWICK: 8733651c-85f6-43df-be4f-953e1af2fd25
+      E53: 25fa4723-c185-4023-ad64-421282c4ea33
+  '113225':
+    E93:
+      uuid: 0b015876-a909-4d2e-a321-58f41399dc6c
+      E41: bf1c6921-daac-4be5-b964-72ead4e76336
+      E41_alt:
+        ALNWICK, Château d': 0b9f9b44-9867-471d-b9a2-9112154ba9b2
+      E53: 82d3db02-c200-4518-99f7-daac18c35262
+  '225106':
+    E93:
+      uuid: 3040fef0-4a3b-4957-a74e-cd4638ebbc5f
+      E41: 98ee3e01-0721-4c8f-8ad9-33416e9a5f7c
+      E41_alt:
+        BERWICK: ac936949-611e-4993-a4c0-affa30dc9f92
+        BERWICK-UPON-TWEED: 367da608-8870-468d-af51-090d3bbd4951
+      E53: a449e0d8-5fe5-4d6f-b77e-aa40d17e7fe4
+  '662':
+    E93:
+      uuid: bdf06dc2-603d-4087-b8ee-91ac958bd013
+      E41: 6dfdeed9-6898-4599-b772-6e715df9fc90
+      E53: 27df183f-00f7-4390-b4e1-3163844a7404
+  '660':
+    E93:
+      uuid: 37f75e9c-d540-4f2c-aa4e-82654829cb01
+      E41: 25e67e46-d2a3-4eac-84ab-681f8d444de2
+      E53: 62f59f2e-2160-4dcd-8d1c-b3a761183daf
+  '661':
+    E93:
+      uuid: 102692be-395a-41b6-b4cd-52da3d6bed9f
+      E41: 04bd0877-2f49-486c-9c33-a2b490162596
+      E53: e7fd243b-ba79-4b2b-9959-c9789b56068a
+  '667':
+    E93:
+      uuid: 0a2681c5-4c76-4ae8-a412-09ec659b12c3
+      E41: 4056c0f3-4f01-4840-baba-25af62fd6663
+      E53: 1bf9c9ff-e143-4119-831e-4daf1b02c86b
+  '669':
+    E93:
+      uuid: cb329c2f-5a14-4b83-be58-4912db50f7fd
+      E41: be8c6fd4-5a1d-413a-9b8b-c984f56d96b7
+      E53: 4714341a-580c-4b24-a433-aad52e7d8b2a
+  '671':
+    E93:
+      uuid: 1b652458-cf1f-4007-aabd-aa94c619afdd
+      E41: 2aede10c-1b29-4669-b2dd-05aaa294996e
+      E53: 81a94840-c27e-48c2-b80c-21084c8fc33b
+  '668':
+    E93:
+      uuid: 346b2ef0-3ddc-4a19-b926-f56449ab4326
+      E41: 7f713160-47bb-4462-8276-018478c96975
+      E53: 62dd6727-9cbe-44bc-8c4e-beae10b8b592
+  '672':
+    E93:
+      uuid: 7c5a39ed-4f77-4cbd-b2eb-603a59eb47f3
+      E41: 71c9d7de-f291-42af-931a-7927133e9241
+      E53: a32f02e4-7eef-4b18-b9eb-5b9cf44ea4a7
+  '675':
+    E93:
+      uuid: 4bbeab82-af20-47d2-ac5f-baa386e13c59
+      E41: 0d6675e8-f97f-4f05-9080-5d788ed427e7
+      E53: 5fcf4dd0-0c7e-4581-a309-df08843105d8
+  '674':
+    E93:
+      uuid: 73f416ee-2dec-4a3d-81ff-30f3e2ec1db3
+      E41: 2caab347-75a8-4311-9a31-f9ce31124f91
+      E53: 6abf9f13-e724-47b2-a2ee-2a2eb47b0cc9
+  '673':
+    E93:
+      uuid: 00371235-3cb4-4d15-9378-e4b6f55dd2fc
+      E41: 304e315d-4af7-4c1d-9e34-5de00c7dfa7c
+      E53: f8f3d330-84ef-4a99-8eaf-6677f16ce7f1
+  '670':
+    E93:
+      uuid: c234d18b-7db3-49da-828f-c2274e00d8dd
+      E41: e8fbba0a-fbaa-4499-b99f-08d69f7d14dd
+      E53: 4d53b0b3-dea2-4d28-b636-208cbc182065
+  '676':
+    E93:
+      uuid: c87f7cd0-934f-44d4-9d84-4a92d5caecfc
+      E41: 4fb942c5-0aa6-4198-bdc9-70dbee37f119
+      E13: 464be32b-ae6c-4cc5-9874-73644f2a2aef
+      E13_notes:
+        f2fc0df7573f5f5990cdce9fdf1e99cb8765fe71: 6e3fda3b-c813-4f5f-84a3-9c604a353bd6
+      E53: 2248b15c-743d-4a51-8064-5cbe8947d3e0
+  '677':
+    E93:
+      uuid: 642ed86e-3cf3-4cc6-834f-9999d702bb53
+      E41: 50c5ff99-70c9-4906-a73d-15b5f253a009
+      E53: 8b659c52-3fef-44a2-b40e-b36c1a59133a
+  '678':
+    E93:
+      uuid: 9574edf5-d47c-4d3f-ac3f-40fbc392b1e2
+      E41: 8d553a81-02f3-4c10-b056-03d0fee88a79
+      E53: 67e385eb-2aed-4c37-955a-55e2b162cc05
+  '691':
+    E93:
+      uuid: 7e2e2830-5f3f-4372-afd3-f9ecdd59b926
+      E41: 6da61219-6e20-4ef1-86ae-1bcc6428800f
+      E53: c41dcb13-982d-45f4-88b1-eb128e9e7707
+  '679':
+    E93:
+      uuid: f48128a6-f27f-47f4-9e82-58d5249cb932
+      E41: a208f02b-fc9b-4b6d-aa52-e74938c868ba
+      E41_alt:
+        SCOTLAND: e8f2aee5-646e-418f-8913-4890383d51dc
+      E53: 43e35d06-2922-4a4d-a593-21b8e2088a1a
+  '683':
+    E93:
+      uuid: b2a2b916-bf80-4904-9261-f1f22ff70af9
+      E41: c3cf4ee3-ac1e-47ad-8474-59a3c490e5ee
+      E41_alt:
+        SCOTLAND SOUTHERN: 4929084f-03b2-425f-bd43-45af21c93bb7
+      E53: 9b630dcf-b811-45ca-aeff-3db22114041c
+  '689':
+    E93:
+      uuid: d3c68a3d-ad91-46c9-9b82-faaebe44bea6
+      E41: c9a15c87-dc09-40b9-b011-da235239e51f
+      E53: d9546401-ca01-4c2f-bea9-76a502e88758
+  '225263':
+    E93:
+      uuid: 5470e42d-65fa-4c87-a1f8-12832460fdc6
+      E41: 5ec4804f-5720-46b7-803c-9be95d77a577
+      E53: d94c26aa-126a-4eee-aa66-9eeff5dfb33a
+  '684':
+    E93:
+      uuid: ceaa7bed-8f33-4f82-a581-1d6072b089a0
+      E41: 1818dfcc-b029-40db-8531-815eb2c87317
+      E53: 2d8b10ef-54a4-402d-b7ab-960ab71f5152
+  '257750':
+    E93:
+      uuid: 3f8d318b-4d59-4fa9-852e-3def606cda21
+      E41: 96524fa7-db1c-405d-85e1-75ba475cb540
+      E53: a64f1347-772b-4f18-a0d5-169086c08d2b
+  '257751':
+    E93:
+      uuid: ce72aa5f-0483-4ae8-a4ae-c705105258f4
+      E41: b7682b60-9217-4c6c-8d80-7487910adc84
+      E53: 6332cb76-6914-4a9b-b089-8a062d7a1171
+  '685':
+    E93:
+      uuid: 9d54cb16-1edd-4d3b-89ae-a58068fb7403
+      E41: dd3c3a2c-784a-4bdb-8809-ff706530b366
+      E41_alt:
+        EDINGURGH: 411f235a-ea52-435c-87d1-122ff1bbe41a
+      E53: 1a0934ab-e1f5-46c1-9435-ca3f099d935a
+  '687':
+    E93:
+      uuid: 0e3e499b-395d-4ce1-b1ce-149f5facc4fe
+      E41: d0a94f36-74af-414e-b04b-1cd27dbfd93a
+      E53: ef9a4036-041e-4b2b-ac5f-a7cd0fb648be
+  '688':
+    E93:
+      uuid: 464bf31a-9535-4e0f-9145-a400eae37c9c
+      E41: 4bc71630-6417-4076-aa93-8feb2ae24ade
+      E53: e45dc161-f0d7-47ac-b1e1-cb469ac51738
+  '686':
+    E93:
+      uuid: 8980656e-8761-4e4e-8737-b7dbabc7ce66
+      E41: b5e27602-e5eb-47d1-9c5a-e6431e545e0d
+      E13_indexation: eff851a4-3fbc-4aeb-aa4e-66acecb7c940
+      E53: 691c8953-8486-4430-8c0d-0d8a34476fb5
+  '690':
+    E93:
+      uuid: afa9e9b3-fa56-4715-9af4-1a7aedc059b6
+      E41: 28d1b64e-0722-4485-85ef-713c45ba9a9a
+      E53: dd308a1c-ae58-4dba-8678-80ed1d5638ca
+  '225264':
+    E93:
+      uuid: c3e866fe-d268-4604-8e9b-e5fa714ac7e9
+      E41: 776de29b-f7c6-4954-92c6-1fb8e57acd70
+      E53: 6e7f4264-0fe5-4387-9b82-cdc53f58f254
+  '680':
+    E93:
+      uuid: 9c4d8cb9-33aa-4c1d-9514-6914354cbc20
+      E41: 51e7565e-1125-46df-8335-16453234e3d6
+      E41_alt:
+        SCOTLAND NORTHERN: 2936060c-18f9-46df-a0f1-cca809409c1d
+      E53: 1cf7aead-dc2f-48ef-aebe-622c7f4242c6
+  '693':
+    E93:
+      uuid: a443d4be-9bab-4392-9123-39d0813e9392
+      E41: 88526ece-781f-4c1f-929f-b752a11f480c
+      E53: c8e0bd59-1f0f-44c5-a239-95caed4e1732
+  '681':
+    E93:
+      uuid: 61e4b74d-7782-49a3-8f87-4559da8f06e9
+      E41: b02bc7dc-c3b0-45ea-85f6-fd7e1e451eef
+      E53: 2512e389-b6a7-4582-b1f1-bcf04ef45eac
+  '225079':
+    E93:
+      uuid: 3c73d3cb-6614-4a0c-8efd-7ba0b499e1b4
+      E41: e76d8a5a-06bb-40a6-8397-26e91e321e4e
+      E53: 9201b1a1-1c3e-4d05-b5d2-67996407bac2
+  '682':
+    E93:
+      uuid: 25d95d2e-cf69-43e1-b784-3a83cd7ff31a
+      E41: ea1c6795-a599-4177-8ec7-e3118c638dca
+      E53: f7f15e16-cdb9-47f0-a9d9-2bfcd8be4b37
+  '225024':
+    E93:
+      uuid: 5aa12ec4-0999-4d61-9d64-618479af32e6
+      E41: 984d9e0e-0d8f-4aa9-84e5-72b0dfc0fc46
+      E41_alt:
+        ARDERSIER: f67419d4-ebbb-460d-b24a-96e9341bbf2b
+      E53: 775f5bfe-1f74-4faa-aa4f-bf75c86333b6
+  '692':
+    E93:
+      uuid: 90a9eb0a-37a6-4cbd-9408-2b29665aefcd
+      E41: 9ba49b9b-a937-4bd2-b3e9-05f7b198dcd3
+      E41_alt:
+        PRINCIPALITY OF WALES: f36bfe9b-0efb-4948-845e-dadbf79a41ff
+      E53: a0972200-96e7-4319-860a-bc0863e5c712
+  '699':
+    E93:
+      uuid: 17a15116-659f-4f00-9010-0d01a13d8c6d
+      E41: 096433dc-4951-4098-a0d4-fc8606eadb8f
+      E53: 1afa38b7-9274-46ec-b11e-187dbd632a01
+  '694':
+    E93:
+      uuid: 56fef690-8276-43ba-86a6-700bd3e404cb
+      E41: e744cb88-c298-420f-b5f8-777b0e2c7f52
+      E53: 1144098a-21dd-4d01-b130-0720777b00f2
+  '700':
+    E93:
+      uuid: 15c267da-6d78-4f31-a2fd-c155df9d8ffe
+      E41: 27d4002b-02bc-4441-a259-1dc36f621b0b
+      E53: bb326696-2738-4cf8-b692-ecec7445aabb
+  '704':
+    E93:
+      uuid: 36eddd93-9f14-4c5e-82d3-a5e1e1288bc8
+      E41: 547b8af0-906a-43de-93e8-ac21bbf82c80
+      E53: 75f5789b-431c-4b9c-afee-3e95a56f191e
+  '705':
+    E93:
+      uuid: 9de65b4c-f4ae-442f-bd2d-99b97cb5e404
+      E41: 279bee8f-3b1a-43da-961a-1f1482cf5de5
+      E53: 662bc08a-3869-47f4-9f6d-2f7bca93fa75
+  '695':
+    E93:
+      uuid: a6e3ad5e-bb02-478e-bff9-62b71a4f4a0f
+      E41: 69b2315b-783e-4cc7-a771-c063f584b32b
+      E41_alt:
+        ABERHONDDU: e8ef2218-5185-480f-b263-38ca76e8fbde
+        BRECON: fae97cc3-b914-42da-b29d-37c11c883cf9
+      E53: bcd4b9e8-0979-45e2-8245-3701859b9df6
+  '703':
+    E93:
+      uuid: 5a71bd62-281f-48c3-a917-5cf7d443c4b8
+      E41: 1aa41865-bd0d-431f-9c90-8b324d165fe1
+      E53: 877de4c1-94cc-4248-8d6f-1550d81ef55a
+  '698':
+    E93:
+      uuid: 123735f9-244b-4769-8a2e-6e31edde09bf
+      E41: 2d1dc438-bd5a-4632-b4b5-66a3fc14bb0f
+      E41_alt:
+        CARNARVAN: 3cc9ccd3-e9e8-4c01-9aae-3d9fb5b7084b
+        CAERNARFON: 975f699b-420c-4865-b33c-8a1df8ef52cf
+      E53: 01955a9a-0679-4a49-a995-3d1cbd635a4b
+  '701':
+    E93:
+      uuid: e648f20a-97bc-4558-aa3f-d98cea2dc03b
+      E41: 92650dc0-9c17-4c8a-a2f6-182b83d95404
+      E53: f0731142-6b6c-4851-bec9-3452a49637e0
+  '706':
+    E93:
+      uuid: b4e44ff2-3958-496d-a812-8c7dcdd6672e
+      E41: c5feddf9-c5fe-4552-b2b0-c957edb0dc20
+      E53: 02a00832-b3ba-4934-940e-a73dc0c3f4ec
+  '702':
+    E93:
+      uuid: 26950749-3255-4853-bbfe-e2fd21a04f0b
+      E41: bf1ad50a-dfac-4c8b-bec1-6c2abde2b42b
+      E53: 6ba04c5b-1844-495f-b68b-36051728b99a
+  '697':
+    E93:
+      uuid: 8a5868cf-6c4b-48bc-b275-c25628a45a38
+      E41: 8e48806f-422c-40dd-8af9-2ec22bf63e69
+      E53: dfe07118-1d2e-4542-a23d-21f33a180b9d
+  '696':
+    E93:
+      uuid: 287f3930-947a-4adc-b1be-418866df8949
+      E41: ef0efb8c-a75d-4206-9965-064b87e043aa
+      E53: 1f23d7d4-8dad-4752-825e-bc2e5002e74e
+  '1047':
+    E93:
+      uuid: 4c71b054-5a55-4b11-ad02-71ac2287ff57
+      E41: 75e3c291-d9e3-4fb2-ac1a-939c7c296098
+      E53: 1e2a4717-20ed-4451-a092-0d11e886374e
+  '1095':
+    E93:
+      uuid: 24214efd-945d-40a5-8d58-bf217e77db71
+      E41: a5486b98-7eb8-4e5a-b74e-58f732bce02c
+      E41_alt:
+        NIEDERSÄCHSISCHER REICHSKREIS: fdb528ac-730e-4b7e-b85f-817af92ee7f5
+      E53: 8e50fd98-9cb7-48e1-a4cc-fda19d6d6502
+  '1124':
+    E93:
+      uuid: 268dfbc7-80b5-455e-8600-7a99acd5f641
+      E41: 6f75c14e-c019-4327-9de9-c33e52adaffd
+      E53: 2f47d74e-2f84-42de-86af-c7edb6bf8022
+  '1113':
+    E93:
+      uuid: 66304fb6-ca0d-4b8d-8af3-ed0028061051
+      E41: c3096ebf-0a8c-4436-ab32-db64872f49ec
+      E13_indexation: 7608c380-2c3a-4ac5-807c-631db5d205d9
+      E53: d91d5c59-a1bc-478c-a330-8d861a11fc75
+  '1119':
+    E93:
+      uuid: cfcc3e52-8389-43a2-b651-56ce6abdec4a
+      E41: 4f359641-e95e-4584-84b3-ad2450dee4fe
+      E53: ca4bbcd2-a3df-430f-9dfa-335b256bb5da
+  '1101':
+    E93:
+      uuid: 62e24248-de74-4b0e-84da-581dd82f501a
+      E41: ae7ad928-7426-4748-bfd3-c306e64ddda8
+      E53: b07d1b54-63bf-477b-b965-5fdaef3a6be0
+  '1098':
+    E93:
+      uuid: 8f834b20-56d2-4a94-b564-b15d85e3303b
+      E41: 059a79de-268a-4b0a-82d5-e38c98aec0d0
+      E53: d89ea209-29f6-4473-a262-cc536a11e05c
+  '1103':
+    E93:
+      uuid: 73c6c253-b7f9-4a72-8725-d122094a61e9
+      E41: 24ffbb80-119e-4868-b8e6-665ef86e98a7
+      E13_indexation: 5949ae42-9c5d-422e-8b3f-f1c1bd3cbde8
+      E53: 88501bc3-983c-4fff-8fb5-c6b40f412c5d
+  '1117':
+    E93:
+      uuid: 35d6986b-7800-410f-9da7-0a3c795d49a1
+      E41: 02d4f83f-83db-445e-85b6-b8d2b749e06f
+      E41_alt:
+        MAGDEBURG: d7b3b783-d938-4023-9cff-747122b1a200
+      E53: f918a0e6-08b7-4e5b-b4b8-e5e20dd16044
+  '1102':
+    E93:
+      uuid: 75a5649e-d55d-4656-9715-716e66449d4f
+      E41: 42455c72-1151-4c0f-b15a-9b84bfca2733
+      E53: 7d54d93b-2217-467a-8b85-e60c2afbb1f2
+  '1096':
+    E93:
+      uuid: 0f47d838-7d15-416d-b2dc-c6ac3cb6f701
+      E41: 3e549bcf-d405-472d-a37b-499b51aed5ee
+      E53: 28c10522-793a-4e51-b68d-e5a0ba252d02
+  '1097':
+    E93:
+      uuid: b3d54a98-118e-4f94-990c-396b886ec5bd
+      E41: 406dbd2d-e7f7-41be-8f2d-a8c4e574f9b8
+      E13_indexation: c3c9ce21-2be7-47de-a94a-d010950f1243
+      E53: 3c06d7d0-cc89-40df-97f8-8d7024fbf306
+  '1114':
+    E93:
+      uuid: 1de26cce-4088-4985-94fa-655266293e82
+      E41: d0d3ffd9-46cf-449c-b3e5-e27cff70a601
+      E53: 51176516-0c8b-409a-b1c0-0e5cb043d5a2
+  '1112':
+    E93:
+      uuid: 1ecbe691-9c23-4fb3-be24-c40c812c71b7
+      E41: 44a19976-c426-4dfe-a310-3e0e017f1efd
+      E53: ee918873-e4a2-4f50-82f2-06694b252e46
+  '1125':
+    E93:
+      uuid: 421ddd46-8332-432e-ae88-a6b7c3104f23
+      E41: 8b7c961d-ff36-45c1-8c7e-f176b37566ff
+      E41_alt:
+        CELLE: 8f26fd7e-6de5-400a-bb8e-a6df1e8a7278
+        ZELLE: 93fec8d5-fef9-421a-899a-909aba4a5afc
+      E13_indexation: 9b3157ab-eb68-4e18-b516-9da484bc4d07
+      E53: 4c457107-feed-449c-a9cf-ced7a261d1aa
+  '1115':
+    E93:
+      uuid: 95b8016b-bef1-4adc-a5fc-4c5592474f7a
+      E41: 7064fce2-e198-4e07-bf77-399b3973d5ad
+      E41_alt:
+        LAUENBURG: 47a914cf-baa3-4c77-9ee1-a87c01ac9d1b
+      E13_indexation: 1ecae5ab-1d73-45e4-b260-6f4a79d203dd
+      E53: 1e57279b-0ee5-49c3-84a3-eae7783c2589
+  '1100':
+    E93:
+      uuid: 0e0a0265-69ff-41ed-b767-787f3e8b684d
+      E41: 20ef194d-a210-4e43-bdc4-a9ef11e9e0be
+      E41_alt:
+        GARLEBEN: 1f82b88e-1ea4-4b51-88c8-e60b519761be
+      E13_indexation: 14171974-0964-4b68-9018-ca1d5a153479
+      E53: f66d5845-4610-4dd9-a689-d25acc48cdd5
+  '1099':
+    E93:
+      uuid: ce3a56c4-eec8-4a99-ac72-d0ec65790846
+      E41: 9526d800-9f41-4eb1-a022-36a1de286513
+      E41_alt:
+        BRAUNSCHWEIG: 36024ed9-1635-4bb4-a78a-af5e7b95f5c8
+      E53: 73f4e240-b20b-4037-81c9-e77f958299f4
+  '1118':
+    E93:
+      uuid: 8e7eb7b4-524d-4917-83a0-99d7fc4fe7b6
+      E41: 78afbaf7-86aa-4326-a687-227800080e11
+      E13_indexation: 777dbb97-1eb5-4b3f-b3d9-e84886be7916
+      E53: 3e63f51b-57f6-444c-ae3d-6ac9f52a38b7
+  '1120':
+    E93:
+      uuid: bc83f1f9-28b4-4d24-b118-4e83e1651c89
+      E41: f4c7e270-c108-4f52-9c2d-3a9b7644b652
+      E13_indexation: 2d1b9c9c-7fb6-4b8f-9048-ac2153e54a6e
+      E53: 47740c7a-d1d4-4e82-9b8f-2b008de5bd67
+  '1121':
+    E93:
+      uuid: 18ac0499-23e2-4180-b348-4b97dc7eea7b
+      E41: 35487877-c854-4416-a031-133fc9b25237
+      E53: 0cc081f7-773e-44a1-b648-40f071c139f6
+  '1123':
+    E93:
+      uuid: e10e48b6-a7ea-43bd-8b67-080fe6bb2668
+      E41: ef675bea-3cc7-4458-ace0-33f0b9302395
+      E13_indexation: dd19fdf5-d36c-431e-b484-14c88bdc2a77
+      E53: e4922d3d-c64d-4338-a206-f59cda07b416
+  '1122':
+    E93:
+      uuid: b4587338-11de-4655-898f-2f6810f59ed4
+      E41: 436a3678-c56f-4403-934b-95036ceb9a70
+      E13_indexation: 77516a1d-ecfa-44e3-8592-b2425df306a6
+      E53: 7e3f0e4c-6660-4a97-abfe-5a880a8c66a5
+  '1104':
+    E93:
+      uuid: 6b02ccca-1dc1-4006-a8b2-0ea956c46ce6
+      E41: 097100ef-791c-44ff-b84d-22a5eabc4258
+      E41_alt:
+        HANNOVER: 386daccd-ba81-4247-bd65-be8f7ef26c9b
+      E13_indexation: 44671102-d2bd-4364-ba5e-0efa7f210cae
+      E53: ecf17ec7-a659-4b58-9f73-5daac6fde930
+  '1111':
+    E93:
+      uuid: c6c6a13d-012f-476c-a50c-7a605b6b71a6
+      E41: df9515df-86ac-40a2-b86d-fa3d12fb88e5
+      E13_indexation: a5c4fb10-ab0e-447a-ae74-f04dc149d9e1
+      E53: c4bf0061-6cb3-4204-bb24-bfab66d08df5
+  '1105':
+    E93:
+      uuid: 4eb0f9bc-7827-4563-808d-d3476af088c7
+      E41: 2d205f3d-f162-49a0-9ab8-4d344b78a07c
+      E13_indexation: d14fae6a-100d-476a-9d9f-45349292e85c
+      E53: 180a83fe-76ae-49da-b136-03948f181c41
+  '1107':
+    E93:
+      uuid: 26115bbe-fb68-44b2-9890-f397e5390dfe
+      E41: 00127e37-0214-49ad-9c78-a9fdda756ccf
+      E13_indexation: f26b8112-0174-4a3d-90ed-3b22dad359b5
+      E53: 4c69c3d1-4c43-4669-a8ae-611b18fab3e2
+  '1108':
+    E93:
+      uuid: ec5d941f-b605-4c80-9952-c381dd406e51
+      E41: d7162ac6-ce3f-4421-b998-ac0f31383e39
+      E13_indexation: 0d54c688-1cec-4c99-b0cf-a04eac12adfe
+      E53: ea20f544-67ac-4b77-934b-92106de0fe19
+  '1106':
+    E93:
+      uuid: 61fb723c-89e6-4a13-87d9-a05f5870bc23
+      E41: 4b1f3d8b-16ac-4084-9c80-c8a87485aca7
+      E13_indexation: 8ec1061e-2af4-4a34-b95b-aee0bd1bbf04
+      E53: b6109c25-135b-412f-97f2-58c3fc1e4485
+  '1109':
+    E93:
+      uuid: 3e209109-c36e-416d-ab4f-b69a2acbe941
+      E41: af747f1f-5a4d-4073-a431-1cffd911e7cd
+      E13_indexation: fa8dbccc-99ba-495a-a316-5e0758b12fec
+      E53: 149e92a2-2ccc-4270-b578-9a1a41fa6d08
+  '1110':
+    E93:
+      uuid: 3aa5705c-cb49-4445-ac39-48916a0f61ee
+      E41: a72a541a-cb62-4d1d-bd36-9a7edc4a3854
+      E13_indexation: ff832cac-16c9-4f14-ba7c-560def4a8cf4
+      E53: 42aaa3ef-fdfa-46ae-ab61-525ff63d3258
+  '1116':
+    E93:
+      uuid: ddc510f9-f2d8-44e3-b157-4bb1ec270379
+      E41: 3be45a44-56a4-48f2-b053-b17ecce2d44c
+      E53: 1b4fb956-5a10-4ca8-977e-1a7836ecee6c
+  '1284':
+    E93:
+      uuid: 2ba1baa8-2862-4d19-a9e9-f23e4a44f465
+      E41: 74808390-f05d-4c85-bd6a-49f64bd88874
+      E41_alt:
+        REGNO DI NAPOLI: b12e1eb5-4858-4041-b313-85662d16024b
+      E53: e58bca13-5a0f-456c-b503-4831a4a78b42
+  '1294':
+    E93:
+      uuid: 88477d8b-4749-4fb4-9a6c-a27641a6107a
+      E41: b5547be1-32df-436c-850c-c02ef93a8cdf
+      E41_alt:
+        NAPOLI: 787ca4a9-dd09-4ff6-a93b-c9e691badab4
+      E53: c8d53d3b-7360-4a37-8777-cf39579ce181
+  '1299':
+    E93:
+      uuid: 22c074f2-fdda-4918-b6da-a392507a3ac5
+      E41: e52eaf0c-cfe9-48e8-bc20-54238e98d116
+      E41_alt:
+        NAPLES, Palais Maddaloni: 69760cc7-a464-4075-afdd-f961d52c82f7
+      E13_indexation: fc08e855-a4cf-4a99-b6f8-4f3d0a9b7f1a
+      E53: 6174c097-db81-4421-aa74-ec4332248009
+  '1301':
+    E93:
+      uuid: 419c085c-8df5-4621-a786-7638dff8e96f
+      E41: 964c56e6-f81a-42dc-af47-e815c8e6fb94
+      E13_indexation: 3f8d2e5e-c7f0-4720-b009-937f83770a21
+      E53: 385a3d70-6c8f-4567-88f1-a976fbfe3d66
+  '1296':
+    E93:
+      uuid: 4e7c49d8-fe90-4d0c-a349-215a2e936483
+      E41: 8712ab43-cab7-4058-84b6-68ffd1dc5ab0
+      E13_indexation: ae8f406b-1d3e-42a1-bb19-b1b190b577f0
+      E53: 7a3dd004-97df-4ac5-b02c-072814206b7b
+  '1300':
+    E93:
+      uuid: d41f35ca-7856-4b27-85bf-7430fd6cf2b0
+      E41: c9a1e168-e5f4-46ab-ae86-6fcc2a87c37e
+      E41_alt:
+        NAPLES, Palais royal: e0fc5e60-9727-4e01-8d95-08783489eb3d
+      E13_indexation: ae7b0246-c08b-4894-8153-817a68647b93
+      E53: 26c09cc9-a039-4683-a5ad-ed7404017703
+  '1303':
+    E93:
+      uuid: 0a14ed00-7bf7-438b-97ca-e349d49972fc
+      E41: e4b139cd-a88d-4aaf-bb99-c190523fb232
+      E13_indexation: 3856d1f6-17b8-41c5-b88d-bb94b40a861c
+      E53: 11d1ec3e-dedc-429e-92e2-73bacad5ae8f
+  '1298':
+    E93:
+      uuid: 1aa3b49a-6916-494c-b073-ba4568436790
+      E41: 51602359-21a6-4469-8630-4415f0cbcc8e
+      E53: f289f86d-cd57-4bf2-b1b9-efe585b6a10b
+  '1297':
+    E93:
+      uuid: e54ac043-1530-4cc1-8b88-42c50dc74ceb
+      E41: b1e15e25-5929-42e8-8c92-6376e7e50efe
+      E13_indexation: 52aabe83-8c10-48a5-b150-64420c97c7a5
+      E53: 89d50231-496a-4eb7-945f-1810bb45565e
+  '1304':
+    E93:
+      uuid: 94c537c3-5a59-4330-874d-177600defa23
+      E41: 196d801e-d012-4d87-a011-2edc76b25292
+      E41_alt:
+        NAPLES, Rue de Tolède: 9fde2d66-e73f-477b-af73-12d672bebccf
+      E13_indexation: 51177990-460d-4c15-8bac-920f5a8fb98d
+      E53: 59f78e51-5836-4fb8-bb40-b474702e30ad
+  '1295':
+    E93:
+      uuid: a02ca52d-9cbf-4acc-a66f-c1088ae26664
+      E41: 10d0fa12-2d61-4176-88f2-c4fda19dd598
+      E41_alt:
+        NAPLES, Duomo: 681fb236-16d7-4959-b3cb-c3d0a7e8593e
+        NAPLES, Duomo San Gennaro: 1672eeee-a635-43c2-ae97-9f8362281f6f
+      E13_indexation: 45f36eeb-21a6-4c9e-a9b0-2706e95e2b75
+      E53: a55d177f-2b13-4d92-a14f-07a07885588b
+  '1302':
+    E93:
+      uuid: 5173ebb8-f129-4d53-aa00-76cd72379177
+      E41: 6e7c7b4f-e861-46fb-a8cc-3ff1fcaa2238
+      E13_indexation: 44f8e6b1-8518-413c-93f5-54144f7987ac
+      E53: f0f533cd-4792-4b53-8026-3ee69ff8659d
+  '1311':
+    E93:
+      uuid: c2c02c0c-6cc9-4a3d-bce7-5144f4b7ab7e
+      E41: a6f73788-5dbd-4d85-a0e8-567903cfb6fd
+      E53: db1f586e-031a-4d91-8280-bc352cbc5f17
+  '1293':
+    E93:
+      uuid: 2fe38e7d-d7e0-41c4-9497-88123b671b79
+      E41: 5f34f005-4e62-445f-9222-b981e77e103a
+      E53: 68b70035-d4ce-40e7-bfe8-efb8aabe9585
+  '1291':
+    E93:
+      uuid: 6891bc37-71d0-46ce-b9b3-66c946ec889c
+      E41: 112528d7-c2a8-4f22-b1f3-d54d2ca6fc81
+      E41_alt:
+        COSENZA: 97398f5a-21cb-4de9-96d3-bad68ffb080a
+      E53: 183256ee-dda3-4582-a997-3b48c178e928
+  '1309':
+    E93:
+      uuid: 9bb6e609-1cff-4709-962c-34eff57e54ed
+      E41: dec4ff22-f856-4823-9a57-869469c1d5d1
+      E41_alt:
+        POZZUOLI: 574ff67c-51f7-4ee7-9eaf-3a758948e9d0
+      E13_indexation: afea1ab8-5856-4c85-8243-9dd85076ca35
+      E53: ff312455-bdd5-4116-828f-4893fdea1ef8
+  '1306':
+    E93:
+      uuid: 4a6bd1cc-9d34-49db-9893-26b348320406
+      E41: 65229b93-6eb9-41b0-9010-e893359e1882
+      E53: e6e4d9f0-56e9-4732-baba-544802d02668
+  '1289':
+    E93:
+      uuid: 25fa4f40-3a23-4272-b59b-8643f6ca99eb
+      E41: b334924f-b59f-4f6e-b1c2-b16c6c20258a
+      E53: 808e0a78-ff53-4835-a80e-6e6076aedd12
+  '1305':
+    E93:
+      uuid: 5efce644-b42d-482c-9b99-1be2dee17ad8
+      E41: 9509bfb9-e6af-4874-aba0-36a086f10647
+      E41_alt:
+        NOLA: 1fce9b25-a8b5-4266-a09f-513a25350f98
+      E13_indexation: 974ccff8-21e0-47d7-bbbe-6dfc4fc72c01
+      E53: 5d92a428-a3c8-41ed-bb74-aeaddc711583
+  '1292':
+    E93:
+      uuid: 89beaf0b-da2c-4e81-b21b-a5a7ef88829e
+      E41: 41044bcd-6a7c-4d17-aeb9-196098db7b01
+      E41_alt:
+        MANFREDONIA: 80816212-d664-43fb-9c8a-ef9351edcc14
+      E53: edefa277-f32d-4c2a-a1d4-2233d76800ab
+  '1310':
+    E93:
+      uuid: 4cd151e7-fbed-439a-8ab8-eefe6d4971f5
+      E41: f18e4177-3436-4a5c-a678-14080448cf31
+      E53: 97757752-2e97-4600-b8e6-18850a369489
+  '1285':
+    E93:
+      uuid: 6bb080cb-f0c7-4ccd-9cec-53c804ba804e
+      E41: c23df230-3ef5-4c01-ba5b-11c70badc64d
+      E53: 7e0f0868-7f65-4c1a-bfd0-0de1db03eabd
+  '1307':
+    E93:
+      uuid: ca967f78-7e5b-4c80-9491-28471e814820
+      E41: 843596fc-5954-492f-8abe-d59bdb7e40a9
+      E53: 0dba65f9-543d-4278-81fe-1922dc601863
+  '1308':
+    E93:
+      uuid: 7bd0aeab-9ecb-47cc-9bd3-41cbb5640bc7
+      E41: 8df8e49e-9c29-455c-8402-18e8b954a9b5
+      E13_indexation: 43b23eec-5168-4e37-ae97-b4fbaa4de0f9
+      E53: 08e3db66-7c61-43df-a5d2-ea7aa4891da4
+  '1286':
+    E93:
+      uuid: 628b1db7-725b-4f77-ba5a-8cafbafe542b
+      E41: 08c1ae08-c176-43f3-b8d9-c2f891cdbbda
+      E13_indexation: 2e037442-118e-47f8-862a-a8b0d0630211
+      E53: e1995067-451c-4eb2-b048-7bad3d5ad061
+  '1312':
+    E93:
+      uuid: d95cc8cb-6aa7-4a27-b6de-8f85099ea050
+      E41: 980bbec8-3b92-402a-8069-bafa7916a3fb
+      E41_alt:
+        TARANTO: b204fa36-f44f-4190-822b-1f38e7c7df3a
+      E53: 89682df6-3c1d-4e49-93dd-95ed790889ea
+  '1287':
+    E93:
+      uuid: c44713c8-bbb8-4cc7-8b73-21f6272061d9
+      E41: 5799ca43-7f43-4535-8e06-21b2b4c68e4c
+      E53: 69b535b6-bce6-4bff-af22-d25cfefff709
+  '1288':
+    E93:
+      uuid: 1a5db2ca-b961-411d-87a8-ece8cd29ba29
+      E41: 0385dfdb-eca9-4d90-b0c5-509ad7194617
+      E41_alt:
+        BENEVENTO: 18e51602-4e5b-4d83-b353-bcb6a88c3c6a
+      E53: a7cf4329-1c44-4d38-ab33-8a86f24cf2c2
+  '1290':
+    E93:
+      uuid: ca1f4153-6141-407c-8959-6c25bec78ba8
+      E41: 477cf022-2a55-4e90-9c19-7539cbaa7967
+      E41_alt:
+        CAPUA: f5e6ac2e-c4ee-41cc-88b5-4258a4b58473
+      E53: 69a2d1f9-761e-4e40-8cf2-7e155f2984c2
+  '1244':
+    E93:
+      uuid: 7617f7e5-302e-49d1-b62c-f3b25cf6b540
+      E41: 9eff6572-d4de-44b8-bb92-1e69af941c50
+      E41_alt:
+        HERZOGTUM SCHLESIEN: eed6bdbd-81e5-4369-86b2-83b502ae8403
+      E53: a62c8546-e9c6-4fba-a686-6e44b4c62ee8
+  '1245':
+    E93:
+      uuid: c6e2f8f0-b8cc-461d-8dae-5a202af3196b
+      E41: 2a097936-4cae-4d0d-831c-78c46266a34f
+      E41_alt:
+        GLOGÓW: 4e2918bf-e32f-4d51-859d-1e790fd088b3
+      E53: 285b10b2-1d98-461b-8bd3-ae57dd7c5821
+  '1246':
+    E93:
+      uuid: 86ffa311-4117-4786-9aea-a3d410f81083
+      E41: d1d42dfa-5993-4f8a-a12e-c9704bd7c0df
+      E53: e40b5181-67c0-4464-b28d-e51704687006
+  '1252':
+    E93:
+      uuid: 75337dc3-f9e3-4d2a-b3a4-89092eb694e9
+      E41: 165c91e1-806b-4f54-8c2e-7b52aebf87bf
+      E41_alt:
+        WOHLAU: 444424f0-4ff2-43fe-aad1-97bd3ddea2e5
+      E53: 1f2177e7-1c25-46e7-938c-1f93c478cbb3
+  '1249':
+    E93:
+      uuid: 3247ef92-9b3b-4656-8176-cb872e0cf34c
+      E41: ad81b2d6-eda8-4dd7-bbb5-022d88abb7e4
+      E41_alt:
+        RATIBOR: a084f9a9-5e67-410d-b246-b2ef64dec2c9
+      E53: e575ab53-a504-421a-a261-0e81f6a7e757
+  '1248':
+    E93:
+      uuid: 2138a223-34af-479f-9a24-2b7340ce9b28
+      E41: 599c546f-0ab6-4d32-841d-1c0fb468ed10
+      E41_alt:
+        NYSA: bd935e81-837c-4cab-82c7-376f0796dcc8
+      E53: e84427fa-e9fc-498f-8945-f18d225e0e86
+  '1251':
+    E93:
+      uuid: c0e0209c-0941-49fa-9533-de1bb8253427
+      E41: 29f3442b-85d8-4c28-9af4-4fda35704291
+      E53: eaec65e6-8eac-4fc8-bea7-57edad6c00e8
+  '1253':
+    E93:
+      uuid: c1210eba-01fe-448e-88d7-b9d48dc56e14
+      E41: ea4bf824-324b-47a4-8016-5781b59203cf
+      E53: 23953f88-651c-4cde-8bb9-2952e7e5100a
+  '1250':
+    E93:
+      uuid: 9ae034e9-7753-41a6-b3b1-400370be5f2a
+      E41: fce29136-1397-46e1-9770-a081f28a005a
+      E41_alt:
+        

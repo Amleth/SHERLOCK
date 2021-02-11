@@ -1,0 +1,33 @@
+
+#######################################################################
+#### REQUETES SELECT
+#######################################################################
+
+# RECUPRER LES NOMS DE E93 ET LEURS COORDONNEES GEOGRAPHIQUES
+
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+BASE <http://data-iremus.huma-num.fr/id/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ 
+SELECT ?lieu ?nom ?coordinates
+	(strbefore(?coordinates,",") as ?lat) 
+    (strafter(?coordinates,",") as ?long)
+
+FROM <http://data-iremus.huma-num.fr/graph/ancien_regime/lieux>
+WHERE {
+    
+     ?lieu a crm:E93_Presence ;
+          crm:P1_is_identified_by/rdfs:label ?nom ;
+          crm:P161_has_spatial_projection ?E53 .
+     ?E53 crm:P168_place_is_defined_by ?coordinates_initial .
+    
+    BIND(REPLACE(?coordinates_initial, "\\[|]", "", "i") AS ?coordinates) .
+    
+}
+
+ORDER BY ?nom
