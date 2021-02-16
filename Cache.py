@@ -1,3 +1,4 @@
+import os
 import uuid
 import yaml
 
@@ -44,4 +45,7 @@ class Cache:
 
     def bye(self):
         with open(self.path, 'w') as f:
-            yaml.dump(self.cache, f, default_flow_style=False, sort_keys=False)
+            if os.name == "posix":
+                yaml.dump(self.cache, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
+            elif os.name == "nt":
+                yaml.dump(self.cache, f, default_flow_style=False, sort_keys=False, allow_unicode=False)
