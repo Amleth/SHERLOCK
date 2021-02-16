@@ -44,8 +44,6 @@ class Cache:
             value = value[k]
 
     def bye(self):
-        with open(self.path, 'w') as f:
-            if os.name == "posix":
-                yaml.dump(self.cache, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
-            elif os.name == "nt":
-                yaml.dump(self.cache, f, default_flow_style=False, sort_keys=False, allow_unicode=False)
+        with open(self.path, 'w', encoding='utf-8') as f:
+            yaml.dump(self.cache, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
+
