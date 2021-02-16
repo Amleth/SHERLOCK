@@ -102,7 +102,8 @@ def explore(id, depth):
 		E41_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E41"], True))
 		t(E93_uri, crm("P1_is_identified_by"), E41_uri)
 		t(E41_uri, a, crm("E41_Appellation"))
-		t(E41_uri, RDFS.label, ro(id, SKOS.prefLabel))
+		for prefLabel in ro_list(id, SKOS.prefLabel):
+			t(E41_uri, RDFS.label, prefLabel)
 		altLabels = ro_list(id, SKOS.altLabel)
 		if len(altLabels) > 0:
 			for altLabel in altLabels:
@@ -128,7 +129,7 @@ def explore(id, depth):
 								try:
 									F2_article_uri = she(cache_corpus.get_uuid(
 										["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
-										 clef_mercure_article, "F2"], True))
+										 clef_mercure_article, "F2"]))
 									E13_index_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_indexation"], True))
 									t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
 									t(E13_index_uri, DCTERMS.created, ro(id, DCTERMS.created))
@@ -158,7 +159,7 @@ def explore(id, depth):
 								try:
 									F2_article_uri = she(cache_corpus.get_uuid(
 										["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
-										 clef_mercure_article, "F2"], True))
+										 clef_mercure_article, "F2"]))
 									E13_index_uri = she(
 										cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_indexation"], True))
 									t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
