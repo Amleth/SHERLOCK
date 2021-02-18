@@ -129,11 +129,23 @@ for file in os.listdir(args.tei):
     g.add((livraison_F2_tei_uri, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
     g.add((livraison_F2_tei_uri, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
     g.add((livraison_F2_tei_uri, RDF.type, URIRef(crm_ns["E31_Document"])))
+
+    # URL du fichier TEI
     livraison_F2_tei_E42_uri = she(corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E42"], True))
     g.add((livraison_F2_tei_uri, URIRef(crm_ns["P1_is_identified_by"]), livraison_F2_tei_E42_uri))
     g.add((livraison_F2_tei_E42_uri, RDF.type, URIRef(crm_ns["E42_Identifier"])))
     g.add((livraison_F2_tei_E42_uri, URIRef(crmdig_ns["P2_has_type"]), URIRef(iremus_ns["219fd53d-cdf2-4174-8d71-6d12bdd24016"])))
-    g.add((livraison_F2_tei_E42_uri, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/MG-{file[3:-4]}.tei")))
+    g.add((livraison_F2_tei_E42_uri, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/MG-{file[3:-4]}.tei")))
+
+    # Identifiant de la TEI
+    livraison_F2_tei_E42_id_uri = she(
+        corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E42_id"], True))
+    g.add((livraison_F2_tei_uri, URIRef(crm_ns["P1_is_identified_by"]), livraison_F2_tei_E42_id_uri))
+    g.add((livraison_F2_tei_E42_id_uri, RDF.type, URIRef(crm_ns["E42_Identifier"])))
+    g.add((livraison_F2_tei_E42_id_uri, URIRef(crmdig_ns["P2_has_type"]),
+           URIRef(iremus_ns["92c258a0-1e34-437f-9686-e24322b95305"])))
+    g.add((livraison_F2_tei_E42_id_uri, RDFS.label, Literal(livraison_id)))
+
     # Creation de l'expression TEI
     livraison_F2_tei_E65_uri = she(corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E65"], True))
     g.add((livraison_F2_tei_E65_uri, RDF.type, URIRef(crm_ns["E65_Creation"])))
@@ -171,6 +183,7 @@ for file in os.listdir(args.tei):
         g.add((article_F2_uri, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
         g.add((article_F2_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["62b49ca2-ec73-4d72-aaf3-045da6869a15"])))
         g.add((article_F2_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"])))
+
         # Identifiant de l'expression
         article_F2_E42_uri = she(corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2_E42"], True))
         g.add((article_F2_uri, URIRef(crm_ns["P1_is_identified_by"]), article_F2_E42_uri))
@@ -183,12 +196,21 @@ for file in os.listdir(args.tei):
         g.add((article_F2_E42_uri, URIRef(crm_ns["P106_is_composed_of"]), article_F2_E42_uri_part1))
         g.add((article_F2_E42_uri_part1, RDF.type, URIRef(crm_ns["E42_Identifier"])))
         g.add((article_F2_E42_uri_part1, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["9b63d6ef-5c5b-4eca-92f4-76c083918129"])))
-        g.add((article_F2_E42_uri_part1, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/MG-{file[3:-4]}.tei")))
+        g.add((article_F2_E42_uri_part1, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/MG-{file[3:-4]}.tei")))
         # Partie 2
         g.add((article_F2_E42_uri, URIRef(crm_ns["P106_is_composed_of"]), article_F2_E42_uri_part2))
         g.add((article_F2_E42_uri_part2, RDF.type, URIRef(crm_ns["E42_Identifier"])))
         g.add((article_F2_E42_uri_part2, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["a1e06dc7-f2d8-403a-8061-50d56411c031"])))
         g.add((article_F2_E42_uri_part2, RDFS.label, Literal("//*[@xml:id='MG-1672-01_000']", datatype="sdt:XPathSelector")))
+
+        # Identifiant de la TEI
+        article_F2_tei_E42_id_uri = she(
+            corpus_cache.get_uuid(["Corpus", "Articles", article_id, "Expression TEI", "F2_E42_id"], True))
+        g.add((article_F2_uri, URIRef(crm_ns["P1_is_identified_by"]), article_F2_tei_E42_id_uri))
+        g.add((article_F2_tei_E42_id_uri, RDF.type, URIRef(crm_ns["E42_Identifier"])))
+        g.add((article_F2_tei_E42_id_uri, URIRef(crmdig_ns["P2_has_type"]),
+               URIRef(iremus_ns["92c258a0-1e34-437f-9686-e24322b95305"])))
+        g.add((article_F2_tei_E42_id_uri, RDFS.label, Literal(article_id)))
 
 g.serialize(destination=args.ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
 corpus_cache.bye()

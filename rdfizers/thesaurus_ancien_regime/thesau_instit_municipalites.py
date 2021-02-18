@@ -88,29 +88,24 @@ for municipalite in municipalites_uri:
 # On récupère le nom des villes
 villes = ro_list(URIRef("http://opentheso3.mom.fr/opentheso3/?idc=municipalite&idt=173"), SKOS.narrower)
 for ville in villes:
-	ville_prefLabel_lower = ro(ville, SKOS.prefLabel)
-	ville_prefLabel = ville_prefLabel_lower.upper()
+	ville_prefLabel = ro(ville, SKOS.prefLabel)
 	lst.setdefault(ville_prefLabel, [])
 
 
 # On récupère les uuid de ces villes dans lieux.ttl
 	query = input_graph_ttl.query("""PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
-	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-	BASE <http://data-iremus.huma-num.fr/id/>
- 
-	SELECT ?lieu
-	WHERE {
-    
-        ?lieu a crm:E93_Presence ;
-            crm:P1_is_identified_by/rdfs:label ?nom .
-            }""", initBindings={"nom":Literal(ville_prefLabel, lang='fr')})
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?s
+WHERE {
+  ?s rdf:type crm:E93_Presence .
+  ?s crm:P1_is_identified_by/rdfs:label ?nom .
+  FILTER regex(?nom, "^"""+ ville_prefLabel +"""$", "i") 
+}""")
 
 	for result in query:
-		result_string = str(result)
-		result_propre = result_string.replace("(rdflib.term.URIRef('", "")
-		result_propre2 = result_propre.replace("'),)", "")
-		lst[ville_prefLabel].append(result_propre2)
+		lst[ville_prefLabel].append(result.get("s"))
 
 ################################################################################
 ### Ecriture du json

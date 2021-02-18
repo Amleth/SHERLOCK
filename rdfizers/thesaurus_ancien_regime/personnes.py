@@ -134,8 +134,8 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                             clef_mercure_livraison = m_livraison.group()
                             clef_mercure_article = m.group()
                             try:
-                                F2_article_uri = she(cache_corpus.get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"], True))
-                                E13_index_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E13_indexation"], True))
+                                F2_article_uri = she(cache_corpus.get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"]))
+                                E13_index_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E13_indexation"]))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
@@ -161,7 +161,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                             try:
                                 F2_article_uri = she(cache_corpus.get_uuid(
                                     ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
-                                     clef_mercure_article, "F2"], True))
+                                     clef_mercure_article, "F2"]))
                                 E13_index_uri = she(
                                     get_uuid(["personnes", dcterms_identifier, "E13_indexation"]))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
