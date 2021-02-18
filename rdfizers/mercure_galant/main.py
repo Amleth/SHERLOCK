@@ -134,7 +134,7 @@ for file in os.listdir(args.tei):
     livraison_F2_tei_E42_uri = she(corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E42"], True))
     g.add((livraison_F2_tei_uri, URIRef(crm_ns["P1_is_identified_by"]), livraison_F2_tei_E42_uri))
     g.add((livraison_F2_tei_E42_uri, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-    g.add((livraison_F2_tei_E42_uri, URIRef(crmdig_ns["P2_has_type"]), URIRef(iremus_ns["219fd53d-cdf2-4174-8d71-6d12bdd24016"])))
+    g.add((livraison_F2_tei_E42_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["219fd53d-cdf2-4174-8d71-6d12bdd24016"])))
     g.add((livraison_F2_tei_E42_uri, RDFS.label, URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/MG-{file[3:-4]}.tei")))
 
     # Identifiant de la TEI
@@ -142,7 +142,7 @@ for file in os.listdir(args.tei):
         corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E42_id"], True))
     g.add((livraison_F2_tei_uri, URIRef(crm_ns["P1_is_identified_by"]), livraison_F2_tei_E42_id_uri))
     g.add((livraison_F2_tei_E42_id_uri, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-    g.add((livraison_F2_tei_E42_id_uri, URIRef(crmdig_ns["P2_has_type"]),
+    g.add((livraison_F2_tei_E42_id_uri, URIRef(crm_ns["P2_has_type"]),
            URIRef(iremus_ns["92c258a0-1e34-437f-9686-e24322b95305"])))
     g.add((livraison_F2_tei_E42_id_uri, RDFS.label, Literal(livraison_id)))
 
