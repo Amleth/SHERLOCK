@@ -208,7 +208,7 @@ for file in os.listdir(args.tei):
             corpus_cache.get_uuid(["Corpus", "Articles", article_id, "Expression TEI", "F2_E42_id"], True))
         g.add((article_F2_uri, URIRef(crm_ns["P1_is_identified_by"]), article_F2_tei_E42_id_uri))
         g.add((article_F2_tei_E42_id_uri, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-        g.add((article_F2_tei_E42_id_uri, URIRef(crmdig_ns["P2_has_type"]),
+        g.add((article_F2_tei_E42_id_uri, URIRef(crm_ns["P2_has_type"]),
                URIRef(iremus_ns["92c258a0-1e34-437f-9686-e24322b95305"])))
         g.add((article_F2_tei_E42_id_uri, RDFS.label, Literal(article_id)))
 
