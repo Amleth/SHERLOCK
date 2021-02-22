@@ -20,7 +20,6 @@
       <62b49ca2-ec73-4d72-aaf3-045da6869a15>,
       <7d7fc017-61ba-4f80-88e1-744f1d00dd60>,
       <e73699b0-9638-4a9a-bfdd-ed1715416f02>,
-      <d474af68-baa5-4afc-9c2d-eeeb2fada37d>
       ;
     .
 <fb96f7c5-7b26-49ab-8d71-ed6ca7bd3aa2>
@@ -46,10 +45,6 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Édition physique" ;
   .
-<d474af68-baa5-4afc-9c2d-eeeb2fada37d>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Tweet"@fr ;
-    .
 
 # Types d'identifiants techniques
 
@@ -127,7 +122,12 @@ she:sheP_MEI_Element
 <4c54339f-6220-4a3a-9d4c-687177d314bf>
     a crm:E32_Authority_Document ;
     crm:P1_is_identified_by "Concepts pour décrire un corpus Twitter"@fr ;
-    crm:P71_lists <70867d47-25d5-494a-8843-3ac6bbd1e724> ;
+    crm:P71_lists <70867d47-25d5-494a-8843-3ac6bbd1e724>,
+        <d474af68-baa5-4afc-9c2d-eeeb2fada37d> ;
+    .
+<d474af68-baa5-4afc-9c2d-eeeb2fada37d>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Tweet"@fr ;
     .
 <4a0a1e11-b71b-4458-8afe-11cc386cf008>
     a crm:E55_Type ;
@@ -153,4 +153,8 @@ she:sheP_MEI_Element
 <b8b5f8ac-ecb9-4739-a505-a854b1ab2b18>
     a crm:E55_Type ;
     crm:P1_is_identified_by "Source" ;
+    .
+<70d0f445-217a-40de-855a-fad263cecd8c>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Hastag contextualisé" ;
     .

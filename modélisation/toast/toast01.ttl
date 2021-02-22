@@ -6,13 +6,19 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@prefix sdt: <http://data-iremus.huma-num.fr/datatypes/> .
-@prefix tid: <http://data-iremus.huma-num.fr/twitter_tweet_id/> .
-@prefix tag: <http://data-iremus.huma-num.fr/twitter_hashtag/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Données
+@prefix tag: <http://data-iremus.huma-num.fr/id/twitter/hashtag/> .
+@prefix tid: <http://data-iremus.huma-num.fr/id/twitter/status/> .
+@prefix usn: <http://data-iremus.huma-num.fr/id/twitter/user/> .
+
+# Vocabulaires
 @prefix toast: <http://data-iremus.huma-num.fr/ns/toast#> .
 @prefix twitter: <http://data-iremus.huma-num.fr/ns/twitter#> .
-@prefix usn: <http://data-iremus.huma-num.fr/twitter_user_screen_name/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Types de données
+@prefix sdt: <http://data-iremus.huma-num.fr/datatypes/> .
 
 ################################################################################
 # L'énonciateur
@@ -20,39 +26,15 @@
 
 <ba890907-5985-414c-95fd-66fd0c5be17b>
     a crm:E39_Actor ;
-    crm:P2_has_type <451a9db1-f2c9-4e68-83b1-4d984159de63> ;
+    crm:P2_has_type <451a9db1-f2c9-4e68-83b1-4d984159de63> ; # type énonciateur
     crm:P1_is_identified_by "Le dernier carré ن" ;
     .
 
 usn:dernier_carre
     a crm:E7_Activity ;
-    crm:P2_has_type <3e9e3a20-a5f2-47ee-80df-b9f7e5741bc8> ;
+    crm:P2_has_type <3e9e3a20-a5f2-47ee-80df-b9f7e5741bc8> ; # type compte twitter
     crm:P14_carried_out_by <ba890907-5985-414c-95fd-66fd0c5be17b> ;
     twitter:user_screen_name "dernier_carre" ;
-    .
-
-<03bf60ea-e815-42d1-b2c0-ce50b1663a1e>
-    a crm:E13_Attribute_Assignment ;
-    crm:P4_has_time-span [
-        a crm:E52_Time-Span ;
-        rdfs:label "Avant le 3 octobre 2016" ;
-    ] ;
-    crm:P14_carried_out_by <ba890907-5985-414c-95fd-66fd0c5be17b> ;
-    crm:P140_assigned_attribute_to usn:dernier_carre ;
-    crm:P141_assigned "Catholique et vendéen, monarchiste et réactionnaire. Vous déplaire me plaît. Je déteste le progrès et ses adorateurs aveugles de droite comme de gauche." ;
-    crm:P177_assigned_property_type twitter:description ;
-    .
-
-<f9b77d78-8f0a-4b52-beb6-c96fef6ed462>
-    a crm:E13_Attribute_Assignment ;
-    crm:P4_has_time-span [
-        a crm:E52_Time-Span ;
-        rdfs:label "Avant le 21 décembre 2020" ;
-    ] ;
-    crm:P14_carried_out_by <ba890907-5985-414c-95fd-66fd0c5be17b> ;
-    crm:P140_assigned_attribute_to usn:dernier_carre ;
-    crm:P141_assigned "Gauchophobe et crétinophobe, tant qu’il n’y a pas une loi pour l’interdire ..." ;
-    crm:P177_assigned_property_type twitter:description ;
     .
 
 # Image bannière
@@ -62,20 +44,8 @@ usn:dernier_carre
     crm:P1_is_identified_by [
         a crm:E42_Identifier ;
         crm:P2_has_type <219fd53d-cdf2-4174-8d71-6d12bdd24016> ;
-        rdfs:label <http://data-iremus.huma-num.fr/files/cf7f6d5e-7b9d-4ed6-a163-3602b54fea30.png>
+        rdfs:label <http://data-iremus.huma-num.fr/files/twitter/6153a6fa0e4880d9b8d0be4720f78e895265d0a9.png>
     ] ;
-    .
-
-<f9b77d78-8f0a-4b52-beb6-c96fef6ed462>
-    a crm:E13_Attribute_Assignment ;
-    crm:P4_has_time-span [
-        a crm:E52_Time-Span ;
-        rdfs:label "Avant le 3 octobre 2016" ;
-    ] ;
-    crm:P14_carried_out_by <ba890907-5985-414c-95fd-66fd0c5be17b> ;
-    crm:P140_assigned_attribute_to usn:dernier_carre ;
-    crm:P141_assigned <bee2c4c0-38ee-423f-8cc8-a8eb60362962> ;
-    crm:P177_assigned_property_type twitter:profile_banner_url ;
     .
 
 # Image de profil
@@ -89,18 +59,6 @@ usn:dernier_carre
     ] ;
     .
 
-<f9b77d78-8f0a-4b52-beb6-c96fef6ed462>
-    a crm:E13_Attribute_Assignment ;
-    crm:P4_has_time-span [
-        a crm:E52_Time-Span ;
-        rdfs:label "Avant le 3 octobre 2016" ;
-    ] ;
-    crm:P14_carried_out_by <ba890907-5985-414c-95fd-66fd0c5be17b> ;
-    crm:P140_assigned_attribute_to usn:dernier_carre ;
-    crm:P141_assigned <0a60f1ac-96d5-4389-979b-1e6cbfb3c27f> ;
-    crm:P177_assigned_property_type twitter:profile_image_url_https ;
-    .
-
 ################################################################################
 # Le Tweet
 ################################################################################
@@ -110,12 +68,6 @@ tid:782895810862256128
     crm:P2_has_type <d474af68-baa5-4afc-9c2d-eeeb2fada37d> ;
     .
 
-<47fd855e-a465-4c01-a61b-b9d5114ea966>
-    a twitter:ContextualizedHashtag ;
-    twitter:tweet tid:782895810862256128 ;
-    twitter:hashtag tag:E1Midi ;
-    .
-
 tag:E1Midi
     a crmdig:D1_Digital_Object ;
     a crm:E89_Propositional_Object ;
@@ -123,14 +75,12 @@ tag:E1Midi
     crm:P1_is_identified_by "E1Midi" ; # https://twitter.com/hashtag/E1Midi
     .
 
-<fc3e5c94-75f5-4cbd-9f48-65ca5e98bb12>
-    a crm:E65_Creation ;
-    crm:P94_has_created tid:782895810862256128 ;
-    crm:P14_carried_out_by usn:dernier_carre ;
-    crm:P4_has_time-span [
-        a crm:E52_Time-Span ;
-        crm:P80_end_is_qualified_by "2016-10-03T12:51:00+0001"^^xsd:dateTime ;
-    ] ;
+tid:782895810862256128/hashtag/E1Midi
+a crmdig:D1_Digital_Object ;
+    a crm:E89_Propositional_Object ;
+    crm:P2_has_type <70d0f445-217a-40de-855a-fad263cecd8c> ;
+    twitter:tweet tid:782895810862256128 ;
+    twitter:hashtag tag:E1Midi ;
     .
 
 ################################################################################
@@ -166,6 +116,55 @@ tag:E1Midi
 # E13
 ################################################################################
 
+<03bf60ea-e815-42d1-b2c0-ce50b1663a1e>
+    a crm:E13_Attribute_Assignment ;
+    crm:P4_has_time-span [
+        a crm:E52_Time-Span ;
+        rdfs:label "2016-10-03T16:30:00+0001"^^xsd:dateTime ;
+    ] ;
+    crm:P14_carried_out_by <bfe4a11f-6940-4c30-83fa-b0156aceb539> ;
+    crm:P140_assigned_attribute_to usn:dernier_carre ;
+    crm:P141_assigned "Catholique et vendéen, monarchiste et réactionnaire. Vous déplaire me plaît. Je déteste le progrès et ses adorateurs aveugles de droite comme de gauche." ;
+    crm:P177_assigned_property_type twitter:description ;
+    .
+
+<f9b77d78-8f0a-4b52-beb6-c96fef6ed462>
+    a crm:E13_Attribute_Assignment ;
+    crm:P4_has_time-span [
+        a crm:E52_Time-Span ;
+        rdfs:label "2020-12-21T11:20:00+0001"^^xsd:dateTime ;
+    ] ;
+    crm:P14_carried_out_by <bfe4a11f-6940-4c30-83fa-b0156aceb539> ;
+    crm:P140_assigned_attribute_to usn:dernier_carre ;
+    crm:P141_assigned "Gauchophobe et crétinophobe, tant qu’il n’y a pas une loi pour l’interdire ..." ;
+    crm:P177_assigned_property_type twitter:description ;
+    .
+
+<f9b77d78-8f0a-4b52-beb6-c96fef6ed462>
+    a crm:E13_Attribute_Assignment ;
+    crm:P4_has_time-span [
+        a crm:E52_Time-Span ;
+        rdfs:label "2016-10-03T16:30:00+0001"^^xsd:dateTime ;
+    ] ;
+    crm:P14_carried_out_by <bfe4a11f-6940-4c30-83fa-b0156aceb539> ;
+    crm:P140_assigned_attribute_to usn:dernier_carre ;
+    crm:P141_assigned <bee2c4c0-38ee-423f-8cc8-a8eb60362962> ;
+    crm:P177_assigned_property_type twitter:profile_banner_url ;
+    .
+
+<f9b77d78-8f0a-4b52-beb6-c96fef6ed462>
+    a crm:E13_Attribute_Assignment ;
+    crm:P4_has_time-span [
+        a crm:E52_Time-Span ;
+        rdfs:label "2016-10-03T16:30:00+0001"^^xsd:dateTime ;
+    ] ;
+        crm:P14_carried_out_by <bfe4a11f-6940-4c30-83fa-b0156aceb539> ;
+    crm:P140_assigned_attribute_to usn:dernier_carre ;
+    crm:P141_assigned <0a60f1ac-96d5-4389-979b-1e6cbfb3c27f> ;
+    crm:P177_assigned_property_type twitter:profile_image_url_https ;
+    .
+
+
 <e3550acb-d318-4fd4-a315-aee15f3d78b7>
     a crm:E13_Attribute_Assignment ;
     crm:P14_carried_out_by <bfe4a11f-6940-4c30-83fa-b0156aceb539> ;
@@ -180,7 +179,7 @@ tag:E1Midi
     a crm:E13_Attribute_Assignment ;
     crm:P14_carried_out_by <bfe4a11f-6940-4c30-83fa-b0156aceb539> ;
     dcterms:created "2020-12-21T12:04:00+0001"^^xsd:dateTime ;
-    crm:P140_assigned_attribute_to <47fd855e-a465-4c01-a61b-b9d5114ea966> ;
+    crm:P140_assigned_attribute_to tid:782895810862256128/hashtag/E1Midi ;
     crm:P141_assigned "" ; # TODO
     crm:P177_assigned_property_type crm:P3_has_note ;
     .
