@@ -1,0 +1,125 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+# TODO : dire que NVB a rejoint le gouvernement en tant que ministre de l'éducation nationale du 2014.08.26 au 2017.05.17
+# TODO : modéliser la visite de NVB à la crèche Bourdarias + le mausolée Mohammed 5 à Rabat
+
+#
+# RESSOURCES CONCEPTUELLES SUR LE CONTEXTE
+#
+
+<c54ba8f5-6772-47e0-a9cf-bbdc5d6ba838>
+    a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Fonctions politiques" ;
+    crm:P71_lists <da5a769c-e723-4703-807b-e5dc817d8f6e> ;
+    .
+
+<da5a769c-e723-4703-807b-e5dc817d8f6e>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Ministre de l'éducation nationale" ;
+    .
+
+#
+# RESSOURCES CONCEPTUELLES ANALYTIQUES
+#
+
+<1ca32b4c-6fc0-461d-8c75-641cda375991>
+    a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Concepts pour l'analyse sémiotique des images" ;
+    crm:P71_lists <052a5d2b-9918-404e-b3a8-0eddf693fd9c> ;
+    crm:P71_lists <e3d66d62-59d7-481d-b816-2ac4c8a6f0ad> ;
+    crm:P71_lists <742efa29-bc66-4190-8fe0-a61e1b15b790> ;
+    crm:P71_lists <f0810a5f-2fcf-442d-9b9e-72fc71286c49> ;
+    crm:P71_lists <54b8d204-18ce-4670-9a7d-6d4da500a4f2> ;
+    .
+
+<052a5d2b-9918-404e-b3a8-0eddf693fd9c>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Est une déclinaison de" ;
+    .
+
+<e3d66d62-59d7-481d-b816-2ac4c8a6f0ad>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Est une déclinaison matérielle de" ;
+    crm:P127_has_broader_term <052a5d2b-9918-404e-b3a8-0eddf693fd9c> ;
+    .
+
+<742efa29-bc66-4190-8fe0-a61e1b15b790>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Présente un motif similaire à" ;
+    crm:P127_has_broader_term <052a5d2b-9918-404e-b3a8-0eddf693fd9c> ;
+    .
+
+<f0810a5f-2fcf-442d-9b9e-72fc71286c49>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Est un recadrage de" ;
+    crm:P127_has_broader_term <e3d66d62-59d7-481d-b816-2ac4c8a6f0ad> ;
+    .
+
+<54b8d204-18ce-4670-9a7d-6d4da500a4f2>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Présente un texte surimposé" ;
+    crm:P127_has_broader_term <052a5d2b-9918-404e-b3a8-0eddf693fd9c> ;
+    .
+
+#
+# DONNÉES DU MONDE
+#
+
+<6d56631c-d572-4b61-a610-667b3b0429d8>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by "Najat Vallaud-Belkacem" ;
+    .
+
+<f6f57149-f1d0-4b20-afbf-8dcab2b8a490>
+    a crm:E5_Event ;
+    .
+
+#
+# ÉLÉMENTS DU CORPUS
+#
+
+<twitter/status/466453456754567788765667/photo/1>
+    a crm:E36_Visual_Item ;
+    .
+
+<twitter/status/345678987654324567898765/photo/1>
+    a crm:E36_Visual_Item ;
+    .
+
+#
+# ANNOTATIONS
+#
+
+<38779626-6733-4ae4-88c0-a755a1c642c7>
+    a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <bfe4a11f-6940-4c30-83fa-b0156aceb539> ;
+    crm:P140_assigned_attribute_to <twitter/status/466453456754567788765667/photo/1> ;
+    crm:P177_assigned_property_type crm:P138_represents ;
+    crm:P141_assigned <f6f57149-f1d0-4b20-afbf-8dcab2b8a490> ;
+    .
+
+<d31e6368-bc19-4f98-a13d-a08c28cf1e6b>
+    a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <bfe4a11f-6940-4c30-83fa-b0156aceb539> ;
+    crm:P140_assigned_attribute_to <twitter/status/345678987654324567898765/photo/1> ;
+    crm:P177_assigned_property_type crm:P138_represents ;
+    crm:P141_assigned <f6f57149-f1d0-4b20-afbf-8dcab2b8a490> ;
+    .
+
+<676f9e0b-7de3-4e2a-8781-17f473ef00c3>
+    a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <bfe4a11f-6940-4c30-83fa-b0156aceb539> ;
+    crm:P140_assigned_attribute_to <twitter/status/345678987654324567898765/photo/1> ;
+    crm:P177_assigned_property_type <f0810a5f-2fcf-442d-9b9e-72fc71286c49> ;
+    crm:P141_assigned <twitter/status/466453456754567788765667/photo/1> ;
+    .
+
+<676f9e0b-7de3-4e2a-8781-17f473ef00c3>
+    a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <bfe4a11f-6940-4c30-83fa-b0156aceb539> ;
+    crm:P140_assigned_attribute_to <twitter/status/345678987654324567898765/photo/1> ;
+    crm:P177_assigned_property_type <54b8d204-18ce-4670-9a7d-6d4da500a4f2> ;
+    crm:P141_assigned <twitter/status/466453456754567788765667/photo/1> ;
+    .

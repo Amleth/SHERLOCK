@@ -5,6 +5,7 @@
 
 import argparse
 from pathlib import Path, PurePath
+from rdflib.plugins import sparql
 from rdflib import (
     Graph,
     Literal,
@@ -17,6 +18,13 @@ from rdflib import (
     URIRef as u,
     Literal as l,
 )
+import xlsxwriter
+
+# Création des feuilles de calcul
+workbook = xlsxwriter.Workbook('Coincoin.xlsx')
+worksheet_corporations = workbook.add_worksheet("Corporations")
+worksheet_institutions = workbook.add_worksheet("Institutions")
+worksheet_manufactures = workbook.add_worksheet("Manufactures")
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input_rdf")
@@ -26,26 +34,57 @@ args = parser.parse_args()
 g = Graph()
 g.load(args.input_rdf)
 
-
-def get_top_concepts():
-    topConcepts = list(
-        g.objects(u("http://opentheso3.mom.fr/opentheso3/173"), SKOS.hasTopConcept)
-    )
-    return topConcepts
+row = 0
 
 
-def explore_concept(concept, depth=0):
+def explore_concept(worksheet, concept, ancestors=[], depth=0):
+    global row
+
+    ancestors = ancestors[:]
+
     # Label
     prefLabels = list(g.objects(concept, SKOS.prefLabel))
     if len(prefLabels) == 0:
         return
-    print("    " * depth, prefLabels[0])
+    # print("    " * depth, prefLabels[0])
+    row += 1
+    for i in range(0, depth):
+        worksheet.write(row, i, ancestors[i])
+    worksheet.write(row, depth, prefLabels[0])
+    ancestors.append(str(prefLabels[0]))
 
     # Narrowers
-    narrowers = list(g.objects(concept, SKOS.narrower))
+    q = sparql.prepareQuery(
+        """
+        SELECT ?narrower
+        WHERE {
+            ?concept <http://www.w3.org/2004/02/skos/core#narrower> ?narrower .
+            ?narrower <http://www.w3.org/2004/02/skos/core#prefLabel> ?npl .
+        }
+        ORDER BY ?npl
+        """)
+
+    narrowers = list(g.query(q, initBindings={'concept': concept}))
     for narrower in narrowers:
-        explore_concept(narrower, depth + 1)
+        explore_concept(worksheet, narrower[0], ancestors, depth + 1)
 
 
-for topConcept in get_top_concepts():
-    explore_concept(topConcept)
+# Corporations
+explore_concept(
+    worksheet_corporations,
+    u("http://opentheso3.mom.fr/opentheso3/?idc=corporation&idt=173")
+)
+
+# Institutions
+explore_concept(
+    worksheet_institutions,
+    u("http://opentheso3.mom.fr/opentheso3/?idc=institution&idt=173")
+)
+
+# Manufactures
+explore_concept(
+    worksheet_manufactures,
+    u("http://opentheso3.mom.fr/opentheso3/?idc=manufactures&idt=173")
+)
+
+workbook.close()
