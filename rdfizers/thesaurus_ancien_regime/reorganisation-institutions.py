@@ -2,6 +2,8 @@
 #     http://opentheso3.mom.fr/opentheso3/?idc=examinateur_au_ahatelet&idt=173
 #     http://opentheso3.mom.fr/opentheso3/?idc=Orchestre_de_la_Comedie_Francaise&idt=173
 # Certains concepts sont liés à plusieurs skos:narrower
+# Remplacer ' &amp;' par '&amp;'
+# Remplacer 'lieutenant_de_police_au_chatelet_(chambre criminelle)' par 'lieutenant_de_police_au_chatelet_(chambre_criminelle)'
 
 import argparse
 from pathlib import Path, PurePath
@@ -20,12 +22,6 @@ from rdflib import (
 )
 import xlsxwriter
 
-# Création des feuilles de calcul
-workbook = xlsxwriter.Workbook('Coincoin.xlsx')
-worksheet_corporations = workbook.add_worksheet("Corporations")
-worksheet_institutions = workbook.add_worksheet("Institutions")
-worksheet_manufactures = workbook.add_worksheet("Manufactures")
-
 parser = argparse.ArgumentParser()
 parser.add_argument("--input_rdf")
 parser.add_argument("--output_xlsx")
@@ -34,57 +30,48 @@ args = parser.parse_args()
 g = Graph()
 g.load(args.input_rdf)
 
-row = 0
+for branche in [
+        ["Corporations", "https://opentheso3.mom.fr/opentheso3/?idc=corporation&idt=173"],
+        ["Institutions", "https://opentheso3.mom.fr/opentheso3/?idc=institution&idt=173"],
+        ["Manufactures", "https://opentheso3.mom.fr/opentheso3/?idc=manufactures&idt=173"]
+]:
 
+    workbook = xlsxwriter.Workbook(branche[0] + '.xlsx')
+    worksheet = workbook.add_worksheet()
 
-def explore_concept(worksheet, concept, ancestors=[], depth=0):
-    global row
+    row = -1
 
-    ancestors = ancestors[:]
+    def explore_concept(worksheet, concept, ancestors=[], depth=0):
+        global row
 
-    # Label
-    prefLabels = list(g.objects(concept, SKOS.prefLabel))
-    if len(prefLabels) == 0:
-        return
-    # print("    " * depth, prefLabels[0])
-    row += 1
-    for i in range(0, depth):
-        worksheet.write(row, i, ancestors[i])
-    worksheet.write(row, depth, prefLabels[0])
-    ancestors.append(str(prefLabels[0]))
+        ancestors = ancestors[:]
 
-    # Narrowers
-    q = sparql.prepareQuery(
-        """
-        SELECT ?narrower
-        WHERE {
-            ?concept <http://www.w3.org/2004/02/skos/core#narrower> ?narrower .
-            ?narrower <http://www.w3.org/2004/02/skos/core#prefLabel> ?npl .
-        }
-        ORDER BY ?npl
-        """)
+        # Label
+        prefLabels = list(g.objects(concept, SKOS.prefLabel))
+        if len(prefLabels) == 0:
+            return
+        # print("    " * depth, prefLabels[0])
+        row += 1
+        for i in range(0, depth):
+            worksheet.write(row, i, ancestors[i])
+        worksheet.write(row, depth, prefLabels[0])
+        ancestors.append(str(prefLabels[0]))
 
-    narrowers = list(g.query(q, initBindings={'concept': concept}))
-    for narrower in narrowers:
-        explore_concept(worksheet, narrower[0], ancestors, depth + 1)
+        # Narrowers
+        q = sparql.prepareQuery(
+            """
+            SELECT ?narrower
+            WHERE {
+                ?concept <http://www.w3.org/2004/02/skos/core#narrower> ?narrower .
+                ?narrower <http://www.w3.org/2004/02/skos/core#prefLabel> ?npl .
+            }
+            ORDER BY ?npl
+            """)
 
+        narrowers = list(g.query(q, initBindings={'concept': concept}))
+        for narrower in narrowers:
+            explore_concept(worksheet, narrower[0], ancestors, depth + 1)
 
-# Corporations
-explore_concept(
-    worksheet_corporations,
-    u("http://opentheso3.mom.fr/opentheso3/?idc=corporation&idt=173")
-)
+    explore_concept(worksheet, u(branche[1]))
 
-# Institutions
-explore_concept(
-    worksheet_institutions,
-    u("http://opentheso3.mom.fr/opentheso3/?idc=institution&idt=173")
-)
-
-# Manufactures
-explore_concept(
-    worksheet_manufactures,
-    u("http://opentheso3.mom.fr/opentheso3/?idc=manufactures&idt=173")
-)
-
-workbook.close()
+    workbook.close()
