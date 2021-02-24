@@ -4190,7 +4190,7 @@
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=chambre_criminelle&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Chambre criminelle</skos:prefLabel>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenant_de_police_au_chatelet_(chambre criminelle)&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenant_de_police_au_chatelet_(chambre_criminelle)&amp;idt=173"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chatelet_de_paris&amp;idt=173"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
 	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
