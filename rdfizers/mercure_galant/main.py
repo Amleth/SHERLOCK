@@ -121,7 +121,6 @@ for file in os.listdir(args.tei):
     g.add((livraison_D1_uri, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["e73699b0-9638-4a9a-bfdd-ed1715416f02"])))
     g.add((livraison_D2_uri, URIRef(crmdig_ns["L11_had_output"]), livraison_D1_uri))
     g.add((livraison_D1_uri, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
-    g.add((livraison_D1_uri, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
 
     # Expression TEI
     livraison_F2_tei_uri = she(corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2"], True))
