@@ -69,8 +69,12 @@
     .
 <2292ac1d-60b3-4b1e-b963-f53a48e1c6e9>
     a crmdig:D1_Digital_Object ;
-    a lrmoo:F2_Expression ;
     crm:P2_has_type <e73699b0-9638-4a9a-bfdd-ed1715416f02> ;
+    cmr:P1_is_identified_by [
+        a crm:E42_Identifier ;
+        crm:P2_has_type <f4262bac-f72c-40e2-aa51-ae352da5a35c> ;
+        rdfs:label <ark:/XXXXXXXXXXXX>
+    ] ;
     .
 
 # L'édition TEI de la livraison
