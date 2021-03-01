@@ -4,15 +4,31 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-polymir:polymir1
+polymir:AnalyzedPitch
     rdf:type OWL:Class ;
-    rdfs:comment "" ;
-    rdfs:subClassOf crm:E13_Attribute_Assignment ;
+    rdfs:subClassOf crm:E1_Entity ;
+    # rdfs:comment "" ;
+    # rdfs:subClassOf crm:E13_Attribute_Assignment ;
     # rdfs:subClassOf [
     #     rdf:type OWL:Restriction ;
     #     OWL:onProperty ecrm:P30_transferred_custody_of ;
     #     OWL:someValuesFrom ecrm:E18_Physical_Thing
     # ] ;
-    skos:label "Annotation de dissonance"@fr ;
-    skos:notation "polymir1"^^xsd:string ;
+    # skos:label ""@fr ;
+    # skos:notation "polymir1"^^xsd:string ;
     .
+
+polymir:accentuated a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:pitchType a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:pitchSubType a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:offset a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:pitch a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:probability a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:preparationPitchID a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:preparationOffset a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:resolutionPitchID a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:resolutionOffset a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:explained a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:hypothesesChecked a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:id a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .
+polymir:analyticalDivisions a owl:ObjectProperty ; rdfs:domain polymir:AnalyzedPitch ; rdfs:range xsd:anyType .

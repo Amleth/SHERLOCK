@@ -1,11 +1,7 @@
 import argparse
 from lxml import etree
-import os
 from pathlib import Path
-from pathlib import PurePath
-from pprint import pprint
-from rdflib import RDF, RDFS, Graph, Literal, Namespace, URIRef, XSD
-import re
+from rdflib import Graph, Namespace
 import sys
 
 #
@@ -25,7 +21,7 @@ args = parser.parse_args()
 # CACHES
 #
 
-sys.path.append(str(Path(".").absolute().parent.parent))
+sys.path.append(str(Path(".").absolute()))
 from Cache import Cache  # nopep8
 
 mei_cache = Cache(args.mei_cache)
@@ -36,9 +32,6 @@ analytical_data_cache = Cache(args.analytical_data_cache)
 #
 
 g = Graph()
-
-# sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
-# g.bind("sdt", sdt_ns)
 
 polymir_ns = Namespace("http://data-iremus.huma-num.fr/ns/polymir#")
 g.bind("polymir", polymir_ns)
@@ -70,7 +63,7 @@ E55 = {
 root = etree.parse(args.xml).getroot()
 for pitch_coll in root:
     for analyzed_pitch in pitch_coll:
-        print(analyzed_pitch)
+        pass
 #         analyzed_pitch_uuid = get_uuid([analyzed_pitch.attrib["id"], analyzed_pitch.attrib["offset"]])
 #         s = URIRef(sherlock_ns[analyzed_pitch_uuid])
 #         g.add((s, RDF.type, URIRef(crm_ns["E13_Attribute_Assignment"])))

@@ -21,7 +21,6 @@ sherlock:sheP_a_pour_passage_intéressant
     rdfs:range crm:E90_Symbolic_Object ;
     .
 
-
 # Concepts
 
 sherlock:sheP_Fonction

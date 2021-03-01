@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import uuid
 import yaml
 
@@ -6,12 +7,16 @@ import yaml
 class Cache:
     def __init__(self, path):
         self.path = path
-        with open(self.path) as f:
-            _ = yaml.load(f, Loader=yaml.FullLoader)
-            if _:
-                self.cache = _
-            else:
-                self.cache = {}
+        cache_file = Path(self.path)
+        if cache_file.is_file():
+            with open(self.path) as f:
+                _ = yaml.load(f, Loader=yaml.FullLoader)
+                if _:
+                    self.cache = _
+                else:
+                    self.cache = {}
+        else:
+            self.cache = {}
 
     def get_uuid(self, key_parts, create=False):
         if not create:
