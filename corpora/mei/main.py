@@ -1,8 +1,7 @@
+from sherlockcachemanagement import Cache
 import argparse
 from lxml import etree
-from pathlib import Path
 from rdflib import DCTERMS, RDF, RDFS, Graph, Literal as l, Namespace, URIRef, URIRef as u, XSD
-import sys
 
 #
 # ARGS
@@ -18,9 +17,6 @@ args = parser.parse_args()
 #
 # CACHE
 #
-
-sys.path.append(str(Path(".").absolute()))
-from Cache import Cache  # nopep8
 
 cache = Cache(args.cache)
 

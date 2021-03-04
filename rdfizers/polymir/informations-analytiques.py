@@ -1,8 +1,7 @@
+from sherlockcachemanagement import Cache
 import argparse
 from lxml import etree
-from pathlib import Path
 from rdflib import Graph, Namespace
-import sys
 
 #
 # ARGS
@@ -20,9 +19,6 @@ args = parser.parse_args()
 #
 # CACHES
 #
-
-sys.path.append(str(Path(".").absolute()))
-from Cache import Cache  # nopep8
 
 mei_cache = Cache(args.mei_cache)
 analytical_data_cache = Cache(args.analytical_data_cache)
