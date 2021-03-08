@@ -158,3 +158,16 @@ she:sheP_MEI_Element
     a crm:E55_Type ;
     crm:P1_is_identified_by "Hastag contextualisé" ;
     .
+
+# Fonctions de base SHERLOCK en lien avec l'IHM
+
+<1763bb50-103b-4101-a9a7-777ba7ebba3b>
+    a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Concepts pour l'IHM SHERLOCK"@fr ;
+    crm:P71_lists <6db65be7-65f8-42bd-83bc-6fbf2148dc4a> ;
+    .
+
+<6db65be7-65f8-42bd-83bc-6fbf2148dc4a>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Abonné"@fr ;
+    .

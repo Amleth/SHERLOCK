@@ -24,6 +24,7 @@ import xlsxwriter
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input_rdf")
+parser.add_argument("--thesaurus")
 parser.add_argument("--output_xlsx")
 args = parser.parse_args()
 
@@ -36,7 +37,10 @@ for branche in [
         ["Manufactures", "https://opentheso3.mom.fr/opentheso3/?idc=manufactures&idt=173"]
 ]:
 
-    workbook = xlsxwriter.Workbook(branche[0] + '.xlsx')
+    if branche[0] != args.thesaurus:
+        continue
+
+    workbook = xlsxwriter.Workbook(args.output_xlsx)
     worksheet = workbook.add_worksheet()
 
     row = -1
