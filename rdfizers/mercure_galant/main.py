@@ -8,6 +8,7 @@ import uuid
 import sys
 import yaml
 from pathlib import Path, PurePath
+from sherlockcachemanagement import Cache
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--tei")  # Je m'attends à trouver tel argument
@@ -16,9 +17,6 @@ parser.add_argument("--corpus_cache")
 args = parser.parse_args()  # Où sont stockés tous les paramètres passés en ligne de commande
 
 # CACHE
-
-sys.path.append(str(Path(".").absolute().parent.parent))
-from Cache import Cache # nopep8
 
 corpus_cache = Cache(args.corpus_cache)
 

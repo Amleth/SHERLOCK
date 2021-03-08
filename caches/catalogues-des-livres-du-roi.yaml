@@ -1407,7 +1407,7 @@ compositeurs:
     uuid: e0f806c4-d997-40e3-a348-1314eff27b72
   Du Mont, Henry:
     uuid: aaa6578f-4b58-48f5-99fd-8d58a1d09909
-  Campra, André:
+  Campra, AndrÃƒÂ©:
     uuid: 5755baa2-0b7a-4a46-8e91-6631a70d8f9f
   Bernier, Nicolas:
     uuid: 75d39026-c0a4-4862-8d5f-4c345ebf60cd
@@ -1427,10 +1427,22 @@ compositeurs:
     uuid: bbbdc9a8-6a8e-4b62-864d-548e10ea169c
   Mathieu, Julien-Amable:
     uuid: 438abf6d-7d9f-41e0-b6a7-b83ac4077c86
-  Mathieu dit l’Épidor, Michel-Julien:
+  Mathieu dit lÃ¢â‚¬â„¢Ãƒâ€°pidor, Michel-Julien:
     uuid: 7abd1d17-300a-4a9d-b3d3-d04c373e0ad9
-  Giroust, François:
+  Giroust, FranÃƒÂ§ois:
     uuid: 5a04af88-e1df-4a60-88d6-eb9158fa6220
+  Campra, AndrÃ©:
+    uuid: 10033f43-ae85-449c-9fb2-1799a4231d16
+  Mathieu dit lâ€™Ã‰pidor, Michel-Julien:
+    uuid: 19f99835-32ed-41ba-8699-14d38480ddab
+  Giroust, FranÃ§ois:
+    uuid: 70ff52b3-9489-4f2d-b01b-6951cdb60a2a
+  Campra, André:
+    uuid: 880963c1-1387-48df-a660-54619a07d933
+  Mathieu dit l’Épidor, Michel-Julien:
+    uuid: b75dd6cc-74bd-4dfa-8b11-3cac0a8719bf
+  Giroust, François:
+    uuid: 8ce7a8d8-0e25-4654-977b-9e4a4f3ed7dc
 motets:
   EXP01:
     uuid: ac5c6434-3488-4857-ba57-42aa057054ec
