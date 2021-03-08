@@ -8,6 +8,7 @@ import re
 import sys
 import uuid
 import yaml
+from sherlockcachemanagement import Cache
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--inputrdf")
@@ -17,9 +18,6 @@ parser.add_argument("--cache_corpus")
 args = parser.parse_args()
 
 # CACHE
-
-sys.path.append(str(Path(".").absolute().parent.parent))
-from Cache import Cache # nopep8
 
 cache_corpus = Cache(args.cache_corpus)
 cache_lieux = Cache(args.cache_lieux)
@@ -87,7 +85,7 @@ def explore(id, depth):
 
 	# E93 Presence
 	identifier = ro(id, DCTERMS.identifier)
-	if identifier != "http://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43":
+	if identifier != "https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43":
 		E93_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "uuid"], True))
 		t(E93_uri, a, crm("E93_Presence"))
 		t(E32_grand_siecle_uri, crm("P71_lists"), E93_uri)
@@ -223,7 +221,7 @@ def explore(id, depth):
 
 	for narrower in narrowers:
 
-		if identifier != "http://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43":
+		if identifier != "https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43":
 
 
 			# P10 falls within
@@ -262,7 +260,7 @@ t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
 t(E32_grand_siecle_uri, crm("P1_is_identified_by"), Literal("Grand Siècle"))
 t(E32_lieux_uri, crm("P71_lists"), E32_grand_siecle_uri)
 
-explore(URIRef("http://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
+explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 
 
 ####################################################################################
@@ -276,7 +274,7 @@ t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
 t(E32_mon_cont_uri, crm("P1_is_identified_by"), Literal("Monde contemporain"))
 t(E32_lieux_uri, crm("P71_lists"), E32_mon_cont_uri)
 
-explore(URIRef("http://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
+explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
 
 
 ####################################################################################
