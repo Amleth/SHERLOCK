@@ -1,6 +1,0 @@
---inputrdf
-/Users/rebecca/Documents/GitHub/SHERLOCK/rdfizers/thesaurus_ancien_regime/sources/thesaurus_personnes.rdf
---outputttl
-/Users/rebecca/Documents/GitHub/SHERLOCK/rdfizers/thesaurus_ancien_regime/out/personnes.ttl
---corpus_cache
-/Users/rebecca/Documents/GitHub/SHERLOCK/rdfizers/thesaurus_ancien_regime/cache_personnes.yaml

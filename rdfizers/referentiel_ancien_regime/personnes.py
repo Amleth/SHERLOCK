@@ -8,6 +8,7 @@ import re
 import sys
 import uuid
 import yaml
+from sherlockcachemanagement import Cache
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--inputrdf")
@@ -17,9 +18,6 @@ parser.add_argument("--cache_corpus")
 args = parser.parse_args()
 
 # CACHE
-
-sys.path.append(str(Path(".").absolute().parent.parent))
-from Cache import Cache # nopep8
 
 cache_corpus = Cache(args.cache_corpus)
 cache_personnes = Cache(args.cache_personnes)
