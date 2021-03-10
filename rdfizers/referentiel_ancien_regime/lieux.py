@@ -85,13 +85,14 @@ def explore(id, depth):
 
 	# E93 Presence
 	identifier = ro(id, DCTERMS.identifier)
-	if identifier != "https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43":
+	if identifier != "https://opentheso3.mom.fr/opentheso3/?idc=1336&amp;idt=43":
 		E93_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "uuid"], True))
 		t(E93_uri, a, crm("E93_Presence"))
 		t(E32_grand_siecle_uri, crm("P71_lists"), E93_uri)
 
 
 		# DCTERMS.created/modified
+		print(E93_uri, id)
 		t(E93_uri, DCTERMS.created, ro(id, DCTERMS.created))
 		t(E93_uri, DCTERMS.modified, ro(id, DCTERMS.modified))
 
@@ -221,7 +222,7 @@ def explore(id, depth):
 
 	for narrower in narrowers:
 
-		if identifier != "https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43":
+		if identifier != "https://opentheso3.mom.fr/opentheso3/?idc=1336&amp;idt=43":
 
 
 			# P10 falls within
@@ -260,7 +261,7 @@ t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
 t(E32_grand_siecle_uri, crm("P1_is_identified_by"), Literal("Grand Siècle"))
 t(E32_lieux_uri, crm("P71_lists"), E32_grand_siecle_uri)
 
-explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
+explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&amp;idt=43"), 0)
 
 
 ####################################################################################

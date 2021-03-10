@@ -21,6 +21,6 @@ output.write(manifeste)
 
 # Validation du json test
 iiiv = IIIFValidator()
-manifest = requests.get(args.input)
-iiiv.validate(manifest.text)
-iiiv.is_valid
+with open(args.input, "r") as manifeste_test:
+	iiiv.validate(json.load(manifeste_test))
+	iiiv.is_valid
