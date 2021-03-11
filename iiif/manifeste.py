@@ -20,7 +20,8 @@ manifeste = json.dumps(lst, indent=4, ensure_ascii=False)
 output.write(manifeste)
 
 # Validation du json test
-iiiv = IIIFValidator()
+validator = IIIFValidator()
 with open(args.input, "r") as manifeste_test:
-	iiiv.validate(json.load(manifeste_test))
-	iiiv.is_valid
+	validator.validate(json.load(manifeste_test))
+	validator.is_valid
+	validator.print_errors()

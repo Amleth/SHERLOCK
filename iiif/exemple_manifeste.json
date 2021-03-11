@@ -1,35 +1,33 @@
 {
-  "@context": "http://data-iremus.huma-num.fr/iiif/context.json",
-  "id": "http://data-iremus.huma-num.fr/iiif/mercure-galant/manifest",
-  "type": "Manifest",
-  "label": {
-    "fr": [
-      "Gravures du Mercure Galant"
-    ]
-  },
-  "items": [
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://data-iremus.huma-num.fr/iiif/mercure-galant/manifest",
+  "@type": "sc:Manifest",
+  "label": "Gravures du Mercure Galant",
+  "sequences": [
     {
-      "id": "http://data-iremus.huma-num.fr/iiif/mercure-galant/canvas/[id_gravure]",
-      "type": "Canvas",
-      "height": 1000,
-      "width": 750,
-      "items": [
+      "@id": "http://data-iremus.huma-num.fr/iiif/mercure-galant/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
         {
-          "id": "http://data-iremus.huma-num.fr/iiif/mercure-galant/canvas/[id_gravure]/AnnotationList",
-          "type": "AnnotationList",
-          "items": [
+          "@id": "http://data-iremus.huma-num.fr/iiif/mercure-galant/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 3245,
+          "width": 2404,
+          "images": [
             {
-              "id": "http://data-iremus.huma-num.fr/iiif/mercure-galant/canvas/[id_gravure]/AnnotationPage/painting",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "http://data-iremus.huma-num.fr/iiif/mercure-galant/[id_gravure]/full/max/0/default.jpg",
-                "type": "Image",
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://data-iremus.huma-num.fr/iiif/mercure-galant/annotation/image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://data-iremus.huma-num.fr/iiif/mercure-galant/1678-01_224.jpg",
+                "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 1000,
-                "width": 750
+                "height":3245,
+                "width":2404
               },
-              "target": "http://data-iremus.huma-num.fr/iiif/mercure-galant/canvas/[id_gravure]"
+              "on": "http://data-iremus.huma-num.fr/iiif/mercure-galant/canvas/p1"
             }
           ]
         }
