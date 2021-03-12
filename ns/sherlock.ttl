@@ -56,11 +56,11 @@ she:sheP_MEI_Element
     rdfs:label "MEI element"
     .
 
-sherlock:sheP_lists_top_concept
+sherlock:sheP_a_pour_entité_de_plus_haut_niveau
     a owl:ObjectProperty ;
     a crm:E55_Type ;
     rdfs:subPropertyOf crm:P71_lists ;
     rdfs:domain crm:E32_Authority_Document ;
-    rdfs:range crm:E55_Type ;
-    crm:P1_is_identified_by "A pour concept racine"@fr ;
+    rdfs:range crm:E1_CRM_Entity ;
+    crm:P1_is_identified_by "A pour entité de plus haut niveau"@fr ;
     .
