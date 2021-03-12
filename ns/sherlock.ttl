@@ -2,12 +2,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
 
-sherlock:sheP_associe
-    a owl:ObjectProperty ;
-    rdfs:domain crm:E74_Group ; # sherlock:sheE_Corporation
-    rdfs:range crm:E55_Type ;
-    .
-
+# TODO Jouer un rôle fonctionnel dans un groupe n'est pas la même chose qu'appartenir à ce groupe (distinction entre trésorier et adhérent)
 sherlock:sheP_rôle_possible_dans_un_groupe
     a owl:ObjectProperty ;
     rdfs:domain crm:E74_Group ;
@@ -21,12 +16,42 @@ sherlock:sheP_a_pour_passage_intéressant
     rdfs:range crm:E90_Symbolic_Object ;
     .
 
-# Concepts
-
-sherlock:sheP_Fonction
+sherlock:sheP_fonction
     a owl:ObjectProperty ;
     rdfs:subPropertyOf crm:P150_defines_typical_parts_of ;
     rdfs:domain crm:E55_Type ;
     rdfs:range crm:E55_Type ;
     rdfs:label "Définit une fonction dans une institution" ;
+    .
+
+sherlock:sheP_situation_géohistorique
+    a owl:ObjectProperty ;
+    rdfs:domain crm:E1_CRM_Entity ;
+    rdfs:range crm:E93_Presence ;
+    rdfs:label "Situe dans le temps et l'espace" ;
+    .
+
+sherlock:sheP_évoque
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:subPropertyOf crm:P67_refers_to ;
+    rdfs:domain crm:E89_Propositional_Object ;
+    rdfs:range crm:E1_CRM_Entity ;
+    crm:P1_is_identified_by "Évoque"@fr ;
+    .
+
+sherlock:sheP_désigne
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:subPropertyOf crm:P67_refers_to ;
+    rdfs:domain crm:E89_Propositional_Object ;
+    rdfs:range crm:E1_CRM_Entity ;
+    crm:P1_is_identified_by "Désigne"@fr ;
+    .
+
+she:sheP_MEI_Element
+    a owl:ObjectProperty ;
+    rdfs:domain crmdig:D1_Digital_Object ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "MEI element"
     .

@@ -89,34 +89,6 @@
     crm:P1_is_identified_by "SHA1" ;
     .
 
-# Types d'annotations
-
-<fdc2bd53-30a7-4623-a27a-5d8cb82f1d5f>
-a crm:E32_Authority_Document ;
-    crm:P1_is_identified_by "Annotations scientifiques"@fr ;
-    crm:P71_lists <c605c8bb-9387-4da1-baec-b0514fd9999c> ;
-    crm:P71_lists <4d6dec11-4b38-4c27-91b0-5346c83d96f8> ;
-    .
-
-<4d6dec11-4b38-4c27-91b0-5346c83d96f8>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Évoque"@fr ;
-    .
-
-<c605c8bb-9387-4da1-baec-b0514fd9999c>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Désigne"@fr ;
-    .
-
-# Types
-
-she:sheP_MEI_Element
-    a owl:ObjectProperty ;
-    rdfs:domain crmdig:D1_Digital_Object ;
-    rdfs:range crm:E55_Type ;
-    rdfs:label "MEI element"
-    .
-
 # Twitter
 
 <4c54339f-6220-4a3a-9d4c-687177d314bf>

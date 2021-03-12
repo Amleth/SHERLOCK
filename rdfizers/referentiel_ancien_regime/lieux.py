@@ -139,7 +139,7 @@ def explore(id, depth):
 									t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
 									t(E13_index_uri, crm("P141_assigned"), E93_uri)
 									t(E13_index_uri, crm("P177_assigned_property_type"),
-									  she("c605c8bb-9387-4da1-baec-b0514fd9999c"))
+									  she("sheP_désigne"))
 
 								except:
 									# print(identifier, clef_mercure_article)
@@ -170,7 +170,7 @@ def explore(id, depth):
 									t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
 									t(E13_index_uri, crm("P141_assigned"), E93_uri)
 									t(E13_index_uri, crm("P177_assigned_property_type"),
-									  she("c605c8bb-9387-4da1-baec-b0514fd9999c"))
+									  she("sheP_désigne"))
 
 								except:
 									# print(identifier, clef_mercure_article)

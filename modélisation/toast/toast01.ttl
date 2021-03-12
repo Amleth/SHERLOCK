@@ -170,7 +170,7 @@ a crmdig:D1_Digital_Object ;
     crm:P14_carried_out_by <bfe4a11f-6940-4c30-83fa-b0156aceb539> ;
     dcterms:created "2020-12-21T11:20:00+0001"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to tag:E1Midi ;
-    crm:P177_assigned_property_type <c605c8bb-9387-4da1-baec-b0514fd9999c> ;
+    crm:P177_assigned_property_type sherlock:sheP_désigne ;
     crm:P141_assigned <f7e8b68f-7105-41ee-8502-dfbe04828ecc> ;
     crm:P3_has_note "J'ai consulté les résultats de la recherche par mot-clé « E1Midi » sur le moteur de recherche de Twitter." ;
     .
