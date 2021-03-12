@@ -55,3 +55,12 @@ she:sheP_MEI_Element
     rdfs:range crm:E55_Type ;
     rdfs:label "MEI element"
     .
+
+sherlock:sheP_lists_top_concept
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:subPropertyOf crm:P71_lists ;
+    rdfs:domain crm:E32_Authority_Document ;
+    rdfs:range crm:E55_Type ;
+    crm:P1_is_identified_by "A pour concept racine"@fr ;
+    .
