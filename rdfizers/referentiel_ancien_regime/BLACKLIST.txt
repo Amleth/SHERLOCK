@@ -1,0 +1,27 @@
+# À ne pas traiter (mais exraire la liste des indexations)
+
+Amirauté
+Grande Chancellerie
+Conseil du roi
+Contrôle général des finances
+Cour des comptes aides et finances
+Département de la Guerre
+Département de la Maison du roi
+Département de la Marine
+Département des Affaires étrangères
+Fortifications
+Maison sauf Maison des princes étrangers
+
+# À éclaircir par Nathalie
+
+Juridiction royale d'exception
+Juridiction royale ordinaire
+Présidial à supprimer après redistribution iront sous Juridiction royale ordinaire
+Restructurer les Maréchaussées
+Clarifier Intendance et Généralité par rapport aux Maréchaussées
+Doublon Intendances privées du roi
+Bug dans Receveur général des domaines et bois de la généralité de Rouen
+Milice est vide
+Notaire n'est pas une corporation ?
+Prévôté
+Université
