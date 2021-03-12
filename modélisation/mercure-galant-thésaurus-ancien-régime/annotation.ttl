@@ -40,6 +40,6 @@
   crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
   crm:P140_assigned_attribute_to <0ccd5c86-03bb-483f-bafe-de7585d533ca> ; # fragment de texte
   crm:P141_assigned <f4f3476e-3551-4633-8f9b-2ef564e63155> ; # une personne du KG
-  crm:P177_assigned_property_type <c605c8bb-9387-4da1-baec-b0514fd9999c> ; # le fragment désigne la personne
+  crm:P177_assigned_property_type sherlock:sheP_désigne ; # le fragment désigne la personne
   dcterms:created "2020-11-17T15:23:34+0000"^^xsd:dateTime ;
 .

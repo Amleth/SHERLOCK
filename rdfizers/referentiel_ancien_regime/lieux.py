@@ -149,14 +149,11 @@ def explore(id, depth):
                                     E13_index_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_indexation"], True))
                                     t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                     t(E13_index_uri, DCTERMS.created, ro(id, DCTERMS.created))
-                                    t(E13_index_uri, crm("P14_carried_out_by"),
-                                      she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
-                                    t(E13_index_uri, crm("P14_carried_out_by"),
-                                      she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
+                                    t(E13_index_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
+                                    t(E13_index_uri, crm("P14_carried_out_by"), she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
                                     t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                     t(E13_index_uri, crm("P141_assigned"), E93_uri)
-                                    t(E13_index_uri, crm("P177_assigned_property_type"),
-                                      she("c605c8bb-9387-4da1-baec-b0514fd9999c"))
+                                    t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
 
                                 except:
                                     # print(identifier, clef_mercure_article)
@@ -175,18 +172,14 @@ def explore(id, depth):
                                     F2_article_uri = she(cache_corpus.get_uuid(
                                         ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
                                          clef_mercure_article, "F2"]))
-                                    E13_index_uri = she(
-                                        cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_indexation"], True))
+                                    E13_index_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_indexation"], True))
                                     t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                     t(E13_index_uri, DCTERMS.created, ro(id, DCTERMS.created))
-                                    t(E13_index_uri, crm("P14_carried_out_by"),
-                                      she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
-                                    t(E13_index_uri, crm("P14_carried_out_by"),
-                                      she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
+                                    t(E13_index_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
+                                    t(E13_index_uri, crm("P14_carried_out_by"), she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
                                     t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                     t(E13_index_uri, crm("P141_assigned"), E93_uri)
-                                    t(E13_index_uri, crm("P177_assigned_property_type"),
-                                      she("c605c8bb-9387-4da1-baec-b0514fd9999c"))
+                                    t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
 
                                 except:
                                     # print(identifier, clef_mercure_article)
@@ -199,8 +192,7 @@ def explore(id, depth):
                     t(E13_uri, a, crm("E13_Attribute_Assignement"))
                     t(E13_uri, DCTERMS.created, ro(id, DCTERMS.created))
                     t(E13_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
-                    t(E13_uri, crm("P14_carried_out_by"),
-                      she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
+                    t(E13_uri, crm("P14_carried_out_by"), she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
                     t(E13_uri, crm("P140_assigned_attribute_to"), E93_uri)
                     E13_notes_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_notes", note_sha1], True))
                     t(E13_notes_uri, RDFS.label, Literal(v))
@@ -273,7 +265,7 @@ t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
 t(E32_grand_siecle_uri, crm("P1_is_identified_by"), Literal("Grand Siècle"))
 t(E32_lieux_uri, crm("P71_lists"), E32_grand_siecle_uri)
 
-explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
+explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&amp;idt=43"), 0)
 
 
 ####################################################################################
