@@ -10436,6 +10436,12 @@ lieu:
       E41: 1d39507e-8269-46e6-b5e5-ca28584ff27f
       E13_indexation: 9289b0c6-56d1-46f1-b71f-d0c8c088c6a2
       E53: 8b13bef0-3949-47ae-89d2-c00d0ce349c6
+      E41_alt:
+        ÉGALITÉ-SUR-MARNE: 1e645c9f-52b9-41f2-a5d0-afda7945b412
+        CHÂTEAU-ÉGALITÉ: e0deb435-ea01-49c1-861f-f211e6dd0316
+      E13: 750b8a00-0c77-4ae1-906e-7729d8a4f380
+      E13_notes:
+        3791f9ed79a50e6eb6bc328f25f00bac5c55fd68: fb2b6f05-c21a-4160-8a22-2d260662e543
   '1991':
     E93:
       uuid: 60756a60-3d93-4b48-8384-d620fdb6a929
@@ -10852,6 +10858,7 @@ lieu:
       E41_alt:
         RICEY-LE-HAUT: 3d17adbc-ccf9-45ee-9516-d651bee729e7
         ÉRISSÉ-LE-HAUT: c72a6f73-05f7-4cc2-b5a9-d037ca9a10ca
+        ERISSÉ-LE-HAUT: 51f89037-92ee-416c-b12a-db2101b6446f
       E13: cf45d4dd-9bf8-4e69-905c-7e832f53815a
       E13_notes:
         68e128dc623b67022cec85b25cc8398ca3da1906: 016a6f03-6d66-4def-ad59-1d568a2fc021
@@ -12579,6 +12586,7 @@ lieu:
       E13: 55573d1d-6ef2-40c6-a422-9de3d14a32bb
       E13_notes:
         9127a798678062d3236836386db0e0e12d9e9328: f474f10b-b6fa-456c-973c-c0e85dbd0660
+        676e8061c80bc5712b435c907105d13a8a24a76b: f27a5a4b-8f25-45dc-9aea-9c4b363a66f5
       E53: 3973ae4e-33a6-4ed4-92c1-9a5f439c69ab
   '279374':
     E93:
@@ -13772,8 +13780,12 @@ lieu:
       E41: fd4180c6-2d5c-444d-b26a-7d8626250f1a
       E41_alt:
         LE HAVRE: ef0e0bbb-6814-45f5-abdc-85fc992d7b7b
+        LE HAVRE-MARAT: 8b40f098-b5b3-43dc-9af7-6fe86588e093
       E13_indexation: 59db1a47-c2d1-49e3-b601-cdc8475cb2a9
       E53: 1726867c-7e54-497a-8da9-30fef020f883
+      E13: 1c2954a8-60b3-469a-80f1-a60ee5b7fa53
+      E13_notes:
+        54f1a3ec6728e39c8ee6bfcd7ac727661d701c51: f73dd57e-9c25-4968-a489-d709f0a308ef
   '2531':
     E93:
       uuid: 2e5a30b5-5f65-4bf5-88dd-f9d5cda4c875
@@ -14582,6 +14594,9 @@ lieu:
         LA BASTIDE: 7e5b1c30-0444-4f13-a211-a76745580aed
         LA BASTIDE-DE-FRESQUEL: 77d261d1-30e7-4cab-ac36-7b75795b1a88
       E53: 9ee38f89-f79a-42b4-baf5-af4df3267ca5
+      E13: bd3fdf84-c8ec-49d0-b45a-d684d52181ee
+      E13_notes:
+        14f3ea79bc9a5a253df3f2a36658212a4a12da12: cebb07f9-4ca4-4dd0-a706-31fa1da5167c
   '225075':
     E93:
       uuid: 9b59e714-00ad-4920-a298-05ca4ca902c5
@@ -16564,6 +16579,7 @@ lieu:
       E13: 85c6b6a3-e19f-4bd3-9fa8-5c1554d57db1
       E13_notes:
         4488c56ed2ef30a23e37f93b550ce71a9012c28b: f5296c64-cf66-4f9a-acb8-cbebb6566621
+        da39a3ee5e6b4b0d3255bfef95601890afd80709: 3894c62c-e757-43c3-a1f7-4bfa3043069d
       E53: 13eec7a3-ea4e-4802-8d60-c46125ee3ec2
   '257817':
     E93:
@@ -16573,6 +16589,9 @@ lieu:
         BRIOSTEL, Abbaye cistercienne Notre-Dame (hommes): c354e507-f840-4afd-b3fe-b9d0929b50c3
         BRIOTEL, Abbaye cistercienne Notre-Dame (hommes): 9b51c7b6-c88f-4fe4-8942-99fd576afb89
       E53: 4ca43666-f50c-4166-ab5a-0381fb7a08cb
+      E13: e86263e3-327b-4349-94f7-443b21f24e5c
+      E13_notes:
+        4f4122e7c9c31400aecc162085c7f02161a09df6: 2eb096ed-f3a5-4eef-b5a0-964dd42897a7
   '275620':
     E93:
       uuid: 6a2ec2c9-f1ca-49b4-9060-2449ded0f011
@@ -19528,7 +19547,11 @@ lieu:
       E41: df537b5f-a80b-4722-8411-76286cf637c7
       E41_alt:
         LA FERTÉ-ALAIS: e0164638-1bad-465f-a78f-b8839cef2491
+        LA FERTÉ-ALAIX: bdd41ef1-c969-4bb0-8d3c-9c0aeabcd760
       E53: f91a9e2c-d109-4efb-9cfd-41a4a82b0ab3
+      E13: 41d721e4-40f1-43cd-aa9f-b723d468e2ae
+      E13_notes:
+        feede6e4a6bf733b659f57e9eb8780a42d0abadf: 9468cf3d-da46-4bf8-8edf-e045bb83e97f
   '276396':
     E93:
       uuid: b16341f2-7f71-4a79-b0bb-b44b4dd26828
@@ -19882,6 +19905,7 @@ lieu:
       E41_alt:
         BRAYNE: 7910fd97-7f58-4599-9804-fa2998bcb472
         BRAISNE: 2644f3e1-8a59-4e62-ad84-81120938e671
+        BRESNE: f3749a73-d41d-4bcf-bcd4-eade3bbdd2a6
       E53: d49b4cac-6547-453d-b74f-7af2fc8b72cb
   '225142':
     E93:
@@ -20927,6 +20951,7 @@ lieu:
       E41_alt:
         JOUARE: 23a32fb9-4d76-4e59-85dc-2f947b99543b
         JOUARDS: eba1ece8-09c6-49fe-9ed5-1f53cbe8bda7
+        JOUARS: 9fa5d0f4-2b9d-467a-8eb8-4340911b250f
       E13: 8ccf1488-7f76-4335-adeb-5f450c06fb74
       E13_notes:
         0d49f74766a8ca9e3f235af58f929b9adf1f1489: e4856cd9-cb54-4641-91fb-3f912261da43
@@ -23236,6 +23261,9 @@ lieu:
       E41: d0e5a8d9-d810-478c-b25f-d4b453b30176
       E13_indexation: c548d3d3-1929-4ac5-874f-80aa673f618f
       E53: 56b01d34-1bfd-4a02-a656-7a25d7d9c45a
+      E13: 5f7d549a-3f0f-4341-9137-44c9da9e82d8
+      E13_notes:
+        b6204bd27fef83433af432610cc84ebfe77a494b: 447bc736-ed74-421f-813a-f5fa9f6cd95b
   '225020':
     E93:
       uuid: 71f756a7-8bb5-47ea-9031-335764b792bf
@@ -23617,6 +23645,8 @@ lieu:
       uuid: 23cb9417-f7d2-45d8-8374-1abe76e18c0b
       E41: 5836ffd6-75ac-40a0-b45e-b0053e89b5af
       E53: b4ae709e-e5e6-42db-a0ab-7b190d14c68f
+      E41_alt:
+        ESTRÉPAGNY: 663eb2e4-6ba6-4965-bb1e-b8fcb3614a45
   '2590':
     E93:
       uuid: d2641281-487a-49c8-819d-5df45c69fd49
@@ -32547,3 +32577,583 @@ lieu:
       uuid: 103c7040-23be-49ac-b938-1402c2a5fa90
       E41: a2a2ae7f-94e4-465c-b61f-2deba832c302
       E53: dbe4586d-ae40-4033-b9be-3390d372c5b2
+  '294219':
+    E93:
+      uuid: 28cc0d70-6191-4710-b6a5-5300396f7765
+      E41: d080ed59-0a0c-4f7f-81fa-236476b11be9
+      E53: 27bb8075-d6f2-4f3e-aaf5-7a1881ab6303
+  '294063':
+    E93:
+      uuid: b6dd9684-7967-44bc-8c96-b9b3b3000ee7
+      E41: 3c97b1a7-c396-40f4-b39b-28c57844033d
+      E53: 3a479c33-18c7-4355-b743-87db071a22df
+  '294207':
+    E93:
+      uuid: 8e3bb477-97e4-4c35-ac25-00304722dfc6
+      E41: fd55e97d-9b65-4cae-bb37-56093b15b50c
+      E53: ee570090-8bf1-43b7-b11e-de38c0d57219
+  '294123':
+    E93:
+      uuid: 557d37fb-63b9-4f70-9a99-bbb79f39aef7
+      E41: 1c2319bd-065d-4b54-81e9-8c4b31c174c8
+      E53: f7df42f9-6b8c-4b3a-ae92-e67a3171d3fc
+  '294115':
+    E93:
+      uuid: ec19403c-a417-4697-beee-271d555aae41
+      E41: 58c50a1a-42a7-4f10-9df8-b93499843d92
+      E53: 34e044bd-0431-428a-89e2-faf438cf3a84
+  '294127':
+    E93:
+      uuid: b5b132c8-1712-45cb-9dac-708f1d942875
+      E41: df3ab944-6f92-4968-8e6d-bbaf44f6651a
+      E53: 3946d8b4-a20d-49e2-a9fd-774ad019492f
+  '294073':
+    E93:
+      uuid: 6d532b65-75ef-4e56-8b09-302116d5c9b1
+      E41: aa728b75-5855-45ab-af64-8bb7c83c9b78
+      E53: f6167803-96ab-4e08-8270-2105031b58bc
+  '294067':
+    E93:
+      uuid: 0daef5cd-6d6b-4d6c-9e40-17d8c31ff51c
+      E41: 56239d2d-de2f-420d-92f1-85b24eaf04a0
+      E53: e472caf9-05d6-4b93-ad64-383c42acda58
+  '294183':
+    E93:
+      uuid: 6355f30c-aca2-4e82-bdfc-9791fcade05f
+      E41: 6640db27-631a-4655-88c0-a7aafdb5e89c
+      E53: 8488fb97-2462-427f-a7a8-04a31e6201f1
+  '294335':
+    E93:
+      uuid: 9d2e4df6-d64a-4972-b6e9-f943b188cce9
+      E41: 9901a37c-f466-4651-a696-d3eb4797fb96
+      E13: b2d33eda-82ca-4481-8d24-941c1480191c
+      E13_notes:
+        0e719f7ae95f3fc49d08a7de3d09c630f44645b5: 6967dd1b-5dcd-43d2-9663-29d1902e9562
+      E53: 6a613e00-2e0b-4645-b64d-d71270983aca
+  '294141':
+    E93:
+      uuid: a9a30176-c0c9-4b83-977c-f1a1ab1bfa0f
+      E41: 0e96d32c-6c1d-430d-aac0-e3f9f6fbca1d
+      E53: a19ee738-53b6-419b-bcd7-e45ae98283dd
+  '294235':
+    E93:
+      uuid: 48b842ac-5bfa-4ed8-b4e5-4c412d184106
+      E41: 102122b7-ab88-4d9f-9699-aaee6ae18271
+      E13: 7d2b25de-26a2-4ffa-88da-2b792c7048e6
+      E13_notes:
+        139119ec1457b53929620a93edb26e7e2ddbe832: 6f4b9b0b-8b25-4700-9ac0-c7c5272a4d34
+      E53: 608ed334-8d72-4c5c-a220-cc8395ef9654
+  '294331':
+    E93:
+      uuid: be30d3a3-544d-4913-bd1e-33142e6990ba
+      E41: 336fa437-cc6b-4381-9b6c-9f7b77514ff8
+      E53: 77b47c21-6726-4e6b-b55f-c7301808a467
+  '294167':
+    E93:
+      uuid: b49d4c13-581e-43a8-be52-7c36ee5ce46e
+      E41: 1a80c059-4bd4-44bc-9707-7f6940fa06da
+      E53: 45dc8907-305e-4442-b82f-05df8d2cbfb4
+  '294131':
+    E93:
+      uuid: c106260d-4284-45c9-ade7-78e343f3c01f
+      E41: a747cef7-c7e3-46de-b5e1-e62fb4cccca7
+      E53: 483bc154-8b68-410e-856c-a68bedde27f9
+  '294135':
+    E93:
+      uuid: 35e20df1-9254-448d-8a22-f7502c5cf354
+      E41: 5bccff5e-4fd3-4e17-b7ec-b40f0a6ec3c6
+      E53: 87095284-236d-4f62-b5ec-3fb16993b936
+  '294153':
+    E93:
+      uuid: 55957689-e90e-4c02-8546-63a6f8d55cc8
+      E41: 2bb0590b-b564-41e2-9f35-06f7779fa6e8
+      E53: 0288d26b-0aac-4792-b352-759e463f4b24
+  '294371':
+    E93:
+      uuid: 6e025570-2026-4aa6-b49e-19bdceec4870
+      E41: 11dbfd98-f450-48c5-8a3d-b17587dc9aec
+      E53: 5fcfba4b-b210-4fe7-aa77-9b5f75d11d86
+  '294337':
+    E93:
+      uuid: cef0977a-60b8-41ae-a0a4-e66d571c181a
+      E41: db9569af-5bc4-4197-ac39-d892c8d2c378
+      E13: 65630de3-7e51-428f-a3e2-539bfca2a374
+      E13_notes:
+        78026b1369d437539fc3a10b24b41cc7d7d46c96: bb730ee7-efd3-4e96-9d80-8f074dde2e63
+      E53: 3c15afc1-df32-4153-9c95-b962a6caf841
+  '294157':
+    E93:
+      uuid: a23ed4fd-87aa-48e2-b19e-c4b48602fb6b
+      E41: 7201ff59-e084-4c8a-9b15-169ce0b69968
+      E13: b24d5b99-c874-4319-89eb-f73b0335f4b9
+      E13_notes:
+        21a1a780d99716ed663ee09e5021cb282635e1fc: 15abef3c-e6d3-4110-aedc-63aa2ba979bd
+      E53: a6810ff8-e22f-4460-895b-c0af205f203e
+  '294161':
+    E93:
+      uuid: 8e930959-4787-438a-bd5f-e2df3abfbad4
+      E41: 47c69973-5ec7-45c1-9d7a-abff3670d658
+      E13: 3dda3606-5659-4218-9d25-a6638794de8b
+      E13_notes:
+        e892ee95aaff1ccc44813932cf2fe59a0bf94be6: 2eb8b2b2-155c-41a7-b253-50a8b52d68b2
+      E53: ff76891b-000c-4e5f-9fd4-041a5470b150
+  '294177':
+    E93:
+      uuid: e25edbc0-7081-407a-a46b-12655a13e8e5
+      E41: 8a9f8e16-9f46-4de7-9c2b-312ca8ae3275
+      E13: 3e28cff0-9e51-4fbd-a6df-499061b669d9
+      E13_notes:
+        c7b15e6ee2c6383f1a6897e63065abd871814ff0: 3f02bfc4-39a5-434a-9565-52be1564385c
+      E53: 32c76382-839b-42b5-94a8-ede8b37e817f
+  '294159':
+    E93:
+      uuid: 5a3bac89-2c8d-417a-ab71-079875a27c4e
+      E41: 10d52448-04ec-4c2c-a719-781fdd5c8b88
+      E13: 824cdd07-d96b-4c74-bdf2-1f51f77f784d
+      E13_notes:
+        c8914e5f6acbdf81f21a925d749fedc0bbad9b32: d1fd3439-2123-44aa-9877-712e10f46744
+      E53: 5e3b5d72-f0b1-425f-a3b1-023a2cbb7da7
+  '294181':
+    E93:
+      uuid: 4cf6bcc4-230a-4001-b566-426c4a1dbaff
+      E41: c35d26b6-d8b5-46d1-9665-cdd59c4eb2a4
+      E13: 33af1b16-df17-483b-a346-033c3c5327d2
+      E13_notes:
+        7f7efd7c0b7737ba8515cbb2d9fd269c8c0cf5a2: fb81269e-c804-4339-9a3a-c362a1e4cf46
+      E53: 87b7c1f6-d8a5-4b67-8ee4-dcc1928fdcc0
+  '294065':
+    E93:
+      uuid: 9862f729-a3ed-480f-a0be-a781b0a740bb
+      E41: 9dfe43bf-f909-4d44-8392-834466c4849e
+      E53: 509f1d7f-98de-4ee9-9fd8-9cd26de64d00
+  '294365':
+    E93:
+      uuid: 0d30c6f1-807d-4f2c-8508-676f42a56fe4
+      E41: b7ef0a08-2ea4-44f2-9959-e47552852d73
+      E53: 264aa194-aba6-406b-8942-3f1b89e57530
+  '294137':
+    E93:
+      uuid: 332d73c5-542f-4be8-988a-3235ca10f89a
+      E41: 5242d373-f45e-4257-a9b7-09533293e296
+      E53: cb0fa5b2-d9c6-48a7-b5a4-551f902f8cee
+  '294133':
+    E93:
+      uuid: 5bede53b-9d24-4825-aaf8-4c2cd9a243a4
+      E41: b9844ca7-3e49-4ed2-844a-7fa599a13a12
+      E53: 11dd2c9a-d169-430b-a3ab-8ccf4c15478d
+  '294377':
+    E93:
+      uuid: c7a125ca-8b2c-4bfc-a2db-79263c094037
+      E41: da626590-7219-4c1c-90ef-9892ace2097c
+      E53: 2ee1c9e7-2f9f-4320-a3b0-9c578f0a36e2
+  '294059':
+    E93:
+      uuid: 008d7165-0437-43ae-949e-21569d14e6f7
+      E41: a417231f-3159-4599-966b-ae9eed08dd5f
+      E53: bebf933b-17f6-44e7-b528-54d8d3f66cfd
+  '294189':
+    E93:
+      uuid: 2238040e-128d-45f2-9d25-04cfa89ca959
+      E41: 928fc3d5-e1ae-4361-aa1e-4476bf79d1f1
+      E53: c0e22c82-6dde-4eee-8337-6672535458aa
+  '294343':
+    E93:
+      uuid: 63a60c59-a681-4170-9199-0f42735053ca
+      E41: cd5e0e36-93d8-4704-ae72-0b1c5f8609ff
+      E53: ccc6fe98-3415-4632-80cf-86d495d26a6a
+  '294119':
+    E93:
+      uuid: cce154a1-b2b5-41a4-a371-3d6abb38f79d
+      E41: dff3ff1a-9c78-4197-a422-050770ccaf1d
+      E53: efdc1b81-1b1d-44bf-8be5-5794aa9f9769
+  '294061':
+    E93:
+      uuid: 775dd1e6-6847-47e0-ad1c-bc1d7dc17806
+      E41: 8e4ec74a-dbe6-40ea-aec3-978e1f31a5ad
+      E53: 56b49776-245a-4937-ba9e-131695cbec32
+  '294375':
+    E93:
+      uuid: fb1c1ee1-edf2-4bc2-84b4-f3ef56fc3238
+      E41: 55fe6591-180c-411e-a8d6-7542f48ea582
+      E53: 2d42146c-9d61-4016-bc32-62bb25d5d63a
+  '294071':
+    E93:
+      uuid: a4177e3d-55e5-47ed-8560-e6ed11f700e2
+      E41: 25aae8c8-6d9c-4d1e-94fe-d1219f1cc3a0
+      E53: 3e6b65eb-4147-4a40-91da-bb551ed492d5
+  '294069':
+    E93:
+      uuid: 8373b01d-1d09-4faf-9d0b-3dd67acf0b51
+      E41: 36239492-3909-4d36-a9bf-d5ecc063c89d
+      E53: a7a3b79b-67cb-4816-b1e1-343a3c77d48d
+  '294241':
+    E93:
+      uuid: 08e4014e-adfb-48a3-982c-a72a65dbae60
+      E41: 3fec9640-e734-4eba-9b5f-cc6b20a4d0e7
+      E53: 495d8296-073f-4043-8bda-4eecf03423cf
+  '294363':
+    E93:
+      uuid: 2a126ba5-8951-4896-92b1-c6ebe15b6e04
+      E41: cc82d8bd-5bc6-4a7d-83b6-1cccfb9ef0f5
+      E53: 007654fd-ba4b-4781-8576-3dfa4567f999
+  '294055':
+    E93:
+      uuid: 95238019-9193-4d3d-8045-4a1bd93c10e7
+      E41: 30d9526a-8a2b-400c-af1d-9dda2f935a88
+      E53: fd42863a-71ba-43cb-b053-c85059370118
+  '294367':
+    E93:
+      uuid: ba0e3c89-e7e0-43e6-8a56-7a92aa9edae5
+      E41: dbdabd93-e1e4-4234-bb1f-b0f61ebed321
+      E53: f052a3af-4786-438a-adbc-bd7685ecd427
+  '294339':
+    E93:
+      uuid: 37aa6af5-133c-4364-a1ba-be21be01b7d8
+      E41: 21ff82ac-9d2a-49ec-8ccc-c934ebedceb2
+      E53: 7460dffa-cd8d-4cac-94db-b6e2ad05df64
+  '294341':
+    E93:
+      uuid: 73f1a4dc-8004-47fc-b5c4-4f340045ab47
+      E41: 740f82f0-aa0c-4809-90e0-9456a51a10da
+      E53: d7886ef9-0175-4e21-8163-68000d8df349
+  '294057':
+    E93:
+      uuid: 966178d3-ad14-47c2-a81c-4a86e023e532
+      E41: 0b875f19-df31-4fcc-a6ac-f623beb9f79a
+      E53: c8849936-e5bf-4bf0-bcc1-0e0d29d707ad
+  '294357':
+    E93:
+      uuid: cd1e7627-5398-4694-ad49-6de1b7265469
+      E41: 68ae6186-1901-42ce-9bcd-e92c53f1fc95
+      E53: e485b4c5-bdd4-4228-8ffa-d51c202a26c6
+  '294129':
+    E93:
+      uuid: 4aa05161-13b7-4e6d-9c91-b41f208dc0a8
+      E41: c97387cf-05ac-4214-9b1e-4e9b1db7b1e8
+      E53: 73e157f1-f076-4b5c-b80d-b1af649bb2ce
+  '294117':
+    E93:
+      uuid: 987c1706-dcd0-4faa-8b83-120888d13678
+      E41: 83dcd838-f869-4798-ba54-756e80ad603c
+      E53: df872a21-c84e-42f0-a32f-7000fdce11a4
+  '294121':
+    E93:
+      uuid: 8bfe2418-49af-4a60-9e38-334c682d99e1
+      E41: 62741c9b-0a5d-43b9-9f52-8435f146e0ef
+      E53: d3243833-713e-4b96-a5fa-3515cfe6435a
+  '294143':
+    E93:
+      uuid: ce2381b2-1d3c-45bf-8c8d-fec622a5f82e
+      E41: 4dcf9afc-9e83-4653-944e-9d201c506aba
+      E53: c3aa2021-7bba-45e5-9fb5-6f5ac358c8b2
+  '294213':
+    E93:
+      uuid: 513a50ca-0406-4c2b-a36b-b1bd16a9f6b1
+      E41: 21a2fe00-ffeb-4d63-b01b-4dfd10051a50
+      E53: 07f7d38e-2d72-4895-932d-5ec10a69f615
+  '294151':
+    E93:
+      uuid: 04eee572-0b57-4974-a153-8bd12aa2bbb0
+      E41: 120caa9b-dea8-4d82-8de2-c0915db0ca5c
+      E53: 3d0ed853-d901-489e-99ff-0bbd47041a33
+  '294125':
+    E93:
+      uuid: 4b22531a-30d3-4e10-a02f-a29169729633
+      E41: 50f6180a-c5fe-412b-bc76-9f5c03428653
+      E13: 1897fb88-2c74-4839-a7ec-619dc6f7bacb
+      E13_notes:
+        43ce8f022e51bce6cb82ee7b3e31a86ad79f3aeb: 13f24d83-daa2-4824-b420-a6362f8b7bd7
+      E53: afced1b8-47d8-47a4-8884-80e506655961
+  '294155':
+    E93:
+      uuid: 53e0c9f8-9802-4e31-9346-d75d8ea63e1d
+      E41: 14a831b7-e280-4d7e-bf52-5703116a80fe
+      E53: 8c351736-c90b-44df-a34a-1c2cd69df20f
+  '294369':
+    E93:
+      uuid: 25c2062e-4aea-4505-beb4-d97dc63ac5e4
+      E41: 41066286-3793-4b2e-b637-ac59bef84d58
+      E53: 50067782-e817-402f-9f7e-43cb8d829264
+  '294139':
+    E93:
+      uuid: 3ecb5037-0a25-4223-9c5a-5941e09a5024
+      E41: 9beb5aef-3493-442c-aae4-5fabb8154920
+      E53: e11d015d-15d3-4366-b25f-3fcc924984db
+  '294333':
+    E93:
+      uuid: bfe2347b-3630-4d16-8ce7-7ae86015138b
+      E41: a7a547df-2bae-4501-80a0-60ef5b2c2ecd
+      E53: 725def10-3f23-4079-99ad-5403f472c827
+  '294175':
+    E93:
+      uuid: f6afc824-4f11-41b6-b0ce-33d7f9101e30
+      E41: 3768135c-b730-4793-b657-3a9c1acbb90c
+      E53: 38e3be98-466c-4a5f-9318-8dbf00643599
+  '294079':
+    E93:
+      uuid: 6cd7c9d6-5676-47a5-9f78-817934a86fb4
+      E41: 26db2900-bcdc-498c-a087-222970c7794f
+      E53: 9cc6308a-8e82-469d-832a-5c0e86fe4448
+  '294089':
+    E93:
+      uuid: 40a62d61-e6e6-49fc-8346-0caad344284e
+      E41: d58f3880-671b-4e0d-a072-7ae455415f7a
+      E53: cdf2782b-07f7-472e-a517-ea4512078166
+  '294203':
+    E93:
+      uuid: d869c6c5-28b3-4756-a509-89a58017da2f
+      E41: 20186ebe-d36f-4464-8fdd-03ae2f648eaf
+      E53: 7980b711-325b-49e5-b26a-43d57b81eb01
+  '294201':
+    E93:
+      uuid: 76e9e1c6-8c47-4429-bdbf-535842953cad
+      E41: 053f3103-56a5-4281-bb66-d7055fbd10d0
+      E13: f70b3cc5-bd49-4212-b6ff-d1167a8e55de
+      E13_notes:
+        ce605389732bc1a6a7d0d1050e2ecf26711f0452: eace74b6-ade5-48f0-8909-0b852e2a693b
+      E53: 9465569c-31f3-429c-8660-83bdeb5a382c
+  '294081':
+    E93:
+      uuid: 1ec4fc20-ae7b-4a15-9817-884d9568c94d
+      E41: ee953778-91e8-4e39-8b74-e5bc3a783bf9
+      E53: 760b7780-ee58-4d88-9bf9-7aa63e4bb5b0
+  '294083':
+    E93:
+      uuid: a6a94ea7-0e7c-489d-b382-487b2c40cc54
+      E41: 91e83de7-9566-439c-a4aa-5186bb4a1b64
+      E13: d0dc883c-c55e-4289-985b-4cb462885ee1
+      E13_notes:
+        519094c6beb8f65331275b9707c31bdf3eb1e971: dc9627a6-ec8c-41f8-9f04-7e2367378898
+      E53: 07a8e2c5-a8b4-4810-bc64-6d7475e9b3ae
+  '294199':
+    E93:
+      uuid: f7453d75-df68-4a59-8200-0df9ed0c9c61
+      E41: ce7c8f6a-a322-477a-bd91-c062d57e1156
+      E53: 3869dab1-77e6-408e-83b4-4131f80d65bd
+  '294265':
+    E93:
+      uuid: 73e0bd9b-c71d-4d37-9a68-0f80503b43a0
+      E41: 098d7c15-5f1f-4f4a-995f-76fa92249b34
+      E53: 12df4c96-b095-48ce-aeef-86749038d3eb
+  '294267':
+    E93:
+      uuid: 11c0b71f-13cd-43c5-bc62-888a7c8dfd97
+      E41: 57302251-5c3d-4b17-9f6c-c2e5b07a9c02
+      E53: 752316d1-60f6-497c-b993-2677c2478bf0
+  '294195':
+    E93:
+      uuid: b760ae63-314b-4339-a1f7-308ec0cd5cac
+      E41: c64dbb1b-f553-4427-ace8-a479e9660530
+      E53: ed7f56ac-31bd-4ea0-b3e3-e8c0a8465404
+  '294193':
+    E93:
+      uuid: 88ce7e2a-39b4-4f30-b755-37d2cabc8fa3
+      E41: 0c4c2794-6ace-4921-b0fe-7424a07e226b
+      E53: 8fab3bbe-90ec-4ec6-8baa-b6968cf8371b
+  '294205':
+    E93:
+      uuid: 7ba70fe4-9521-4e34-99a6-03249bf251b6
+      E41: 3b287293-61b3-44ff-af46-2d99c7a3a89c
+      E53: 09e76335-6547-47ce-9852-2863e90a0ce4
+  '294091':
+    E93:
+      uuid: b5619912-0efc-463a-b885-6356fc737aae
+      E41: 526de546-cd41-4887-aaad-a92134f0ac7e
+      E41_alt:
+        LIBREVAL: 22abe8f6-5eed-4a12-8d19-a0227fa843e2
+      E53: 70d7a98e-2d7f-47cb-8014-c9de63a1366c
+  '294165':
+    E93:
+      uuid: a8f63c76-4bb7-49cb-9383-0df978b00430
+      E41: 02cb906c-f3a7-460e-8928-1af7b6e2e5d7
+      E13: a192a7ed-111e-46fe-9b0f-4b664209c92d
+      E13_notes:
+        b6204bd27fef83433af432610cc84ebfe77a494b: 9d5020ec-bc0d-401c-9750-198ae8237465
+      E53: 58b3a071-afc6-4910-82a8-bb6baab30f63
+  '294173':
+    E93:
+      uuid: 5cebeaf5-ec3b-4d88-9790-f62d9be95c45
+      E41: 93c3f578-897e-4a87-ab9b-d2e0772f9636
+      E41_alt:
+        TOURLAVILLE: 8534e862-ded9-42d7-abf7-ad5db0b0a517
+      E13: c9dfa822-5cb8-4e38-b180-5bc93c0fd5ff
+      E13_notes:
+        e72bc68fa47dd933d8374085d57e4730e209b7ca: d09f46d8-1ffb-495b-8e01-531c2cc3db8a
+      E53: b7eae66a-da16-405c-ba44-0dc227f5185b
+  '294169':
+    E93:
+      uuid: 90d37eb7-759e-4d57-8a3f-47bd239b6e7b
+      E41: e5388d06-2846-4bc6-a72c-94adafac2778
+      E41_alt:
+        KERKEVILLE: 6f3cd841-94dd-4e4a-9f67-d20696d4177f
+      E13: 7e271c36-4afe-4f38-b0bb-f3b85d45c7d3
+      E13_notes:
+        c8b3123f8e4b39e35231aaa4ce3a7afd6647d34d: b5362d99-9d10-4565-aa0d-8d81c8e14c52
+      E53: 6655c1a1-28a1-408d-a260-752ee59b88ce
+  '294171':
+    E93:
+      uuid: 12e0bdaf-3b06-4c83-aac4-da8319c7d88a
+      E41: eebc76f8-8eaa-4b14-9f0c-362706af21fa
+      E41_alt:
+        HENNEVILLE: 75db35dc-b7ce-438f-a6ad-b0c74ff248d6
+        HAINEVILLE: 4cba7c98-130e-424d-aaa3-e8c014931747
+      E13: dc0a3e58-4707-48d3-ba04-ce2ef1fb42ac
+      E13_notes:
+        dcc1dc1a3573a173383a624832a100dcecb5fe59: 52a71cc5-893c-4499-9351-466b88c8caee
+      E53: 44e02219-05a3-4002-9102-611fa5a4e643
+  '294179':
+    E93:
+      uuid: 38c0d1f1-1ad3-4dbc-9993-f4dcec3a08af
+      E41: c84313fe-c91f-43b5-aa9f-5a3d6cf80432
+      E41_alt:
+        ÉQUEURDREVILLE: 26e3ca36-3027-4b7b-a5be-1ce74a3f8da2
+      E13: f77f3c4e-52e9-4e80-9a3b-21542b2428ad
+      E13_notes:
+        dcc1dc1a3573a173383a624832a100dcecb5fe59: 0c0be009-521c-40be-a69d-86e769dc8a3c
+      E53: e5e153cf-ff28-4881-bbb1-c10e900d6925
+  '294209':
+    E93:
+      uuid: a1aa4dd8-0e47-4be0-92f2-4a26f9bdeca3
+      E41: 19ee482c-6532-415f-ab06-317b819953ab
+      E41_alt:
+        SAINT-SULPICE, abbaye bénédictine Notre-Dame (femmes): 82bf9246-d804-4778-8bc7-e6ba8b130560
+        SAINT-SULPICE-DES-BOIS, abbaye bénédictine Notre-Dame (femmes): f623ea00-05dc-4011-b609-e790b5c0b48c
+        SAINT-SULPICE-LA-FORÊT, abbaye bénédictine Notre-Dame (femmes): 64fb9e3d-63b7-4152-b9eb-27ee15a6559e
+      E13: 591e13ba-ccd8-4dfb-b107-9059f9060c6c
+      E13_notes:
+        ab3ee0a656a3fbd160c1030ccf507f246e924705: b6e364ec-b399-4201-9fa7-3053af16037a
+      E53: a8ca5904-7acc-427d-a1b8-3c72add196fe
+  '294105':
+    E93:
+      uuid: 1ce9be66-b3a7-4cfc-8c40-70553a275134
+      E41: 0dbe03c0-6fb9-4719-b501-608b1141b13f
+      E53: dcd85f06-a032-45c5-bc87-ab7f9811f39d
+  '294217':
+    E93:
+      uuid: 38b78cd4-66ab-4763-aa87-da53a1626991
+      E41: 6545ef39-13cf-45b3-a4ce-586eeda532c5
+      E41_alt:
+        Port Liberté: bf57f7fc-51e3-45b0-88b4-b7976b212afb
+        Port-de-l'égalité: ef850ca5-48a9-4ebf-a94b-bbd12475efab
+      E13: 78d2c48c-1a7b-4260-95c9-2ac3928ae6c3
+      E13_notes:
+        9e03c6d524a8fd7d6a261f4540efdeca4c03cb32: 136e6aab-b160-4d4b-97c6-288b6284b695
+      E53: 7c0bf5e8-7bb0-4b31-b0a7-a264dc395bd9
+  '294315':
+    E93:
+      uuid: 71f3cb94-d1fa-4420-adb3-7a99966076d5
+      E41: 0c075cea-afae-4da8-b31b-bc66f408fd76
+      E53: 76be90a7-ba4c-40fc-8672-be9a579fe4c1
+  '294211':
+    E93:
+      uuid: b54985a4-f325-4b87-af4d-1b795eeb1499
+      E41: 1b90fe0f-0261-40e4-988f-0b033d6e3139
+      E53: 6dc5d138-5cd8-4cb7-97b4-35e71cefd979
+  '294229':
+    E93:
+      uuid: 4b1a626f-0b92-40ff-bac4-379d5c2ffcaa
+      E41: 577de26c-b785-4e7d-93ee-f6fd1968adff
+      E53: c9707d36-9ec4-4f80-9edd-709f8e63350d
+  '294231':
+    E93:
+      uuid: 9dcf0b35-af89-45a2-8821-a80efc3790da
+      E41: 1be1474c-770a-4c72-8ab6-90259f7e07fe
+      E53: 4ba22664-df2f-4421-98c5-6483f37b486e
+  '294107':
+    E93:
+      uuid: f4ffbfe1-a728-463c-87ae-c5f51a743ea0
+      E41: 7c9578d0-c339-4ae6-9867-ee3d8b769189
+      E53: 9974b0bf-e917-48c2-b705-4febe6010b03
+  '294351':
+    E93:
+      uuid: 5f395a6e-e0a9-435c-9eca-e31d54eabc83
+      E41: afea8e78-bb88-46ea-a1cc-c1393d594f76
+      E13: 53799b31-cce3-45ff-b11c-82d8e088a458
+      E13_notes:
+        b0988bbc76cf7cf54fbb5c34a6cc1726c0555959: d7d0a240-d85f-4a94-9f35-233e23d0c33c
+      E53: 023c8c37-0ffa-431b-989a-944f08ec0374
+  '294359':
+    E93:
+      uuid: a845f40b-d4c3-44da-896d-29816a5de306
+      E41: b08d7b51-4437-4992-a713-f555148888c2
+      E53: 099aeec4-113e-4ae0-be92-c697670deb5f
+  '294313':
+    E93:
+      uuid: 2d4f0b09-0797-47b3-af12-2862e20327ca
+      E41: 8dc2a3d8-9973-4249-91a0-67414bfc1346
+      E41_alt:
+        PARIS, Chapelle Saint-Luc: f928a23d-8e1f-4e99-a35e-352516f052fb
+      E13: 1e268e29-773e-461b-9c19-b207366d81b4
+      E13_notes:
+        b947e49be9cf10a883b9e4d7b725470856c12769: 2b781383-537c-4fcb-abc4-81875f0c9d08
+      E53: f62621b8-f92c-4a3c-be4e-b55b65212f94
+  '294191':
+    E93:
+      uuid: dc38de01-c005-4cce-b37a-fc207475043f
+      E41: f21fdee6-1613-40ef-8f99-5f2ed87cfb1a
+      E53: 22ebaf14-9623-4aff-8484-76260ea06c3e
+  '294075':
+    E93:
+      uuid: 3a9f0a29-8a39-47b3-9372-d91525c9369a
+      E41: b96d13fe-9c06-47b7-807c-c695837da5a3
+      E53: d0e97fca-fdb5-4d7b-b8a1-6d12cc22af93
+  '294237':
+    E93:
+      uuid: 058fba36-6ce4-47f1-82ff-07c183c84979
+      E41: 49ceabf8-0380-4f14-990f-1cb71562b5ae
+      E53: 0a301d59-89e7-4472-9ad4-71467e003865
+  '294345':
+    E93:
+      uuid: 57d2da25-e6da-4d7f-a8eb-defc370eac21
+      E41: 4a406555-ad6f-4384-b94d-2f3b54f1b3a9
+      E13: 22027821-0de2-4945-9d7d-36ea9756078c
+      E13_notes:
+        da39a3ee5e6b4b0d3255bfef95601890afd80709: 791f8f36-4fa6-4e93-afb7-0d263cb55a4b
+      E53: dc9966f3-5b0a-4ada-a6dd-57c5a8acd1d0
+  '294355':
+    E93:
+      uuid: 0df1e8fc-c9e3-4f1a-b3de-e47412b68581
+      E41: 8345615a-dc57-49aa-bb8c-bd7e2f35e3fd
+      E41_alt:
+        MARNES, Château de l’Estang: b5e03304-0e16-41a8-a64b-296acd529474
+      E13: 1de4a690-34bc-4748-af92-4773b5580347
+      E13_notes:
+        4e15aa916017be230ae2fc8ff1b1de25e903cdd4: 7d372372-2a89-416c-a0e5-a488625903a2
+      E53: a4ed8889-4a5c-4f0a-922c-2b7f0b820a42
+  '294349':
+    E93:
+      uuid: b732deaa-94a5-4d92-b71d-892eae87fd77
+      E41: 2959bfca-3621-42a8-aff6-faf347baf7b5
+      E53: 8999e64e-b704-4f45-86c0-61e93357f16a
+  '294239':
+    E93:
+      uuid: b25911e2-ff0b-4ea2-9fab-687089197854
+      E41: dbabd8c9-3381-41de-a2dc-ffeead8b6e26
+      E53: 35d9279c-664e-4775-be97-def2148b460e
+  '294261':
+    E93:
+      uuid: 2a7923e2-3f5c-4786-9a98-2638929bed1f
+      E41: f7ce0038-e2d8-4085-8b21-573fac5e47c5
+      E53: 84f917c8-a139-4bc1-8ac0-94ecb15d138a
+  '294233':
+    E93:
+      uuid: d27f40c7-ec08-4f7b-b276-a3d58b21df87
+      E41: bde53eb8-d884-4bc0-96f5-f29f2b50aab2
+      E41_alt:
+        SAINTE-HOU, Abbaye cistercienne (femmes): 0888f83c-eaac-499e-a4e4-8ea106b3b790
+      E13: 9fa68755-8bf9-4a8f-94d9-66c2e1cab8d3
+      E13_notes:
+        2147becfea6a68c36c9c3ffba8d31be6c7cfccd1: d930c5cd-3c41-48cf-89bf-64c4a6fbc4d5
+      E53: d942ab94-5714-45f2-bacf-13aa4c73c5ae
+  '294197':
+    E93:
+      uuid: 25eaa9be-4ab1-4912-8377-9e999b034095
+      E41: ffbd1c17-f6c8-43ae-aa13-bb4d6b106943
+      E53: 0814d358-bd11-4e4e-a40c-727131b1bf75
+  '294373':
+    E93:
+      uuid: 2f9800c4-269d-4b63-bb52-e9bd55ea5a63
+      E41: 277d0d12-4f2f-4c03-a31d-8f63f15e8387
+      E41_alt:
+        VENISE, Église Spirito Santo: 40d26b04-186b-416c-a14f-bf866b6c9ba1
+      E53: 0840e86e-2e2c-4adf-9ea1-680af7687e4f

@@ -241,6 +241,40 @@
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293991&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294027&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294029&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294087&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294093&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294095&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294109&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294111&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294113&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294145&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294147&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294185&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294187&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294227&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294249&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294251&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294253&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294255&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294257&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294269&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294271&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294273&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294275&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294277&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294279&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294281&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294285&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294297&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294299&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294301&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294303&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294305&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294309&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294311&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294317&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294353&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294361&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=academicien_chimiste_de_l_academie_royale_des_sciences&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=academicien_geometre_de_l_academie_royale_des_sciences&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=academie&amp;idt=173"/>
@@ -328,7 +362,7 @@
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=apprenti_apothicaire&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=archer_du_guet_de_paris&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=archers&amp;idt=173"/>
-	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=architecte_charles1_hesse-cassel&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=architecte_de_la_province_du_languedoc&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=architecte_des_batiments_du_roi&amp;idt=173"/>
@@ -1355,7 +1389,7 @@
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=guidon_de_gendarmerie&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=guidon_des_gendarmes_anglais&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=guidon_des_gendarmes_ecossais&amp;idt=173"/>
-	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=guindre&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=haras&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=harengere&amp;idt=173"/>
@@ -1531,7 +1565,7 @@
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenant_general_honoraire_du_bailliage_du_palais&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenant_particulier_des_marechaux_de_france&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenants_des_marechaux_de_france&amp;idt=173"/>
-	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=limoges&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=limonadier&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lingere&amp;idt=173"/>
@@ -1928,7 +1962,6 @@
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_blancs_de_grasse&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_blancs_de_saint-maximin-la-sainte-baume&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_bleus_d_arles&amp;idt=173"/>
-	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_bleus_de_sarlat-la-caneda&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_bleus_de_toulouse&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_de_montpellier&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_du_havre&amp;idt=173"/>
@@ -2203,7 +2236,7 @@
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=syndics_de_morlaix&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=syndics_de_vitre&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi&amp;idt=173"/>
-	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_&amp;idt=173"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_ &amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=table_de_marbre_amiraute&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=table_de_marbre_de_rouen&amp;idt=173"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=table_de_marbre_du_palais&amp;idt=173"/>
@@ -4190,7 +4223,7 @@
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=chambre_criminelle&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Chambre criminelle</skos:prefLabel>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenant_de_police_au_chatelet_(chambre_criminelle)&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenant_de_police_au_chatelet_(chambre criminelle)&amp;idt=173"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chatelet_de_paris&amp;idt=173"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
 	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
@@ -5265,17 +5298,17 @@
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=marechaussee&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Maréchaussée</skos:prefLabel>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=commissaire_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=controleur_a_faire_les_montres_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=exempt_du_prevot_general_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=garde_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=greffier_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=huissier_de_la_connetablie_et_marechaussee_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenant_particulier_des_marechaux_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenants_des_marechaux_de_france&amp;idt=173"/>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=marechal_de_france&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=marechaussee_de_blois&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=marechaussee_de_la_ferte-bernard&amp;idt=173"/>
@@ -5297,7 +5330,7 @@
 	<dcterms:description>institution##intendance_et_generalite##marechaussee</dcterms:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173">
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=archers_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Archers du prévôt général du connétable et maréchaux de France</skos:prefLabel>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=marechaussee&amp;idt=173"/>
@@ -5389,7 +5422,7 @@
 	<dcterms:description>institution##intendance_et_generalite##marechaussee##greffier_de_la_connetablie_et_marechaussee_de_france</dcterms:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173">
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=guidon_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Guidon du prévôt général du connétable et maréchaux de France</skos:prefLabel>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=marechaussee&amp;idt=173"/>
@@ -5441,7 +5474,7 @@
 	<dcterms:description>institution##intendance_et_generalite##marechaussee##lieutenants_des_marechaux_de_france</dcterms:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france&amp;idt=173">
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=lieutenants_du_prevot_general_du_connetable_et_marechaux_de_france &amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Lieutenants du prévôt général du connétable et maréchaux de France</skos:prefLabel>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=marechaussee&amp;idt=173"/>
@@ -6671,6 +6704,10 @@
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=cour_de_pologne&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Cour de Pologne</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294249&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294251&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294253&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294257&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=grand_aumonier_du_roi_de_pologne&amp;idt=173"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=cours_des_familles_regnantes&amp;idt=173"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
@@ -6938,6 +6975,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Chambre des comptes</skos:prefLabel>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=277861&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294185&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chambre_des_comptes_de_bretagne&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chambre_des_comptes_de_dijon&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chambre_des_comptes_de_dole&amp;idt=173"/>
@@ -7946,11 +7984,11 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Confrérie de pénitents</skos:prefLabel>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293965&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294299&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_blancs_d_avignon&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_blancs_de_grasse&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_blancs_de_saint-maximin-la-sainte-baume&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_bleus_d_arles&amp;idt=173"/>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_bleus_de_sarlat-la-caneda&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_bleus_de_toulouse&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_de_montpellier&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=penitents_du_havre&amp;idt=173"/>
@@ -8016,18 +8054,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-29</dcterms:modified>
 	<dcterms:identifier>penitents_bleus_d_arles</dcterms:identifier>
 	<dcterms:description>institution##confrerie##confrerie_de_penitents##penitents_bleus_d_arles</dcterms:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=penitents_bleus_de_sarlat-la-caneda&amp;idt=173">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:prefLabel xml:lang="fr">Pénitents bleus de Sarlat-la-Canéda</skos:prefLabel>
-	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=confrerie_de_penitents&amp;idt=173"/>
-	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
-	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
-	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-29</dcterms:created>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-29</dcterms:modified>
-	<dcterms:identifier>penitents_bleus_de_sarlat-la-caneda</dcterms:identifier>
-	<dcterms:description>institution##confrerie##confrerie_de_penitents##penitents_bleus_de_sarlat-la-caneda</dcterms:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=penitents_bleus_de_toulouse&amp;idt=173">
@@ -12985,7 +13011,7 @@
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=logements_de_la_cour_et_suite&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=prevote_de_l_hotel&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=secretaire_d_etat_de_la_maison_du_roi&amp;idt=173"/>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_ &amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=venerie_du_roi&amp;idt=173"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=departement_de_la_maison_du_roi&amp;idt=173"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
@@ -15016,7 +15042,7 @@
 	<dcterms:description>institution##departement_de_la_maison_du_roi##maison_du_roi##prevote_de_l_hotel##grand_prevot_de_france</dcterms:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_&amp;idt=173">
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=syndics_generaux_des_marchands_privilegies_de_la_maison_du_roi_ &amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Syndics généraux des marchands privilégiés de la Maison du roi</skos:prefLabel>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=maison_du_roi&amp;idt=173"/>
@@ -17368,6 +17394,7 @@
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=election&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Élection</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294145&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=election_de_bernay&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=election_de_bordeaux&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=election_de_chartres&amp;idt=173"/>
@@ -18850,6 +18877,9 @@
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=278005&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=278011&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=278012&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294087&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294095&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294303&amp;idt=173"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=institution&amp;idt=173"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
 	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
@@ -20547,6 +20577,7 @@
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=corps_de_ville_de_lyon&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Corps de ville de Lyon</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294147&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=echevin_de_lyon&amp;idt=173"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=lyon&amp;idt=173"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
@@ -24539,6 +24570,8 @@
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=276440&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=278008&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293713&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294269&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294361&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassade_etrangere&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=angleterre&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=comte_de_nice&amp;idt=173"/>
@@ -24556,23 +24589,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-29</dcterms:modified>
 	<dcterms:identifier>institutions_etrangeres</dcterms:identifier>
 	<dcterms:description>institution##institutions_etrangeres</dcterms:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=ambassade_etrangere&amp;idt=173">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:prefLabel xml:lang="fr">Ambassade étrangères</skos:prefLabel>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassadeur_d_espagne_a_paris&amp;idt=173"/>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassadeurs_de_hollande&amp;idt=173"/>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassadeurs_de_moscovie&amp;idt=173"/>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassadeurs_de_siam&amp;idt=173"/>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassadeurs_de_tripoli&amp;idt=173"/>
-	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=institutions_etrangeres&amp;idt=173"/>
-	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
-	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
-	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-29</dcterms:created>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-29</dcterms:modified>
-	<dcterms:identifier>ambassade_etrangere</dcterms:identifier>
-	<dcterms:description>institution##institutions_etrangeres##ambassade_etrangere</dcterms:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=ambassadeur_d_espagne_a_paris&amp;idt=173">
@@ -25343,6 +25359,7 @@
 	<skos:altLabel xml:lang="fr">Grand Prieuré de France</skos:altLabel>
 	<skos:altLabel xml:lang="fr">Ordre de Notre-Dame-du-Mont-Carmel</skos:altLabel>
 	<skos:altLabel xml:lang="fr">Ordre de Saint-Lazare</skos:altLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294285&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chancelier_de_l_ordre_royal_de_notre-dame_du_mont-carmel&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=commandeur_de_l_ordre_de_saint-jean-de-jerusalem&amp;idt=173"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=genealogiste_de_l_ordre_royal_de_notre-dame_du_mont-carmel&amp;idt=173"/>
@@ -30967,7 +30984,7 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-31</dcterms:modified>
 	<dcterms:identifier>277883</dcterms:identifier>
 	<dcterms:description>institution##277882##277883</dcterms:description>
-	<skos:historyNote xml:lang="fr">Un article du Mercure galant de juillet 1704 indique que cette compagnie, sous le commandement du vicomte et lieutenant de police de Caudebec, M. Colleau, a pris part aux festivités organisées à l’abbaye de Saint-Wandrille pour la naissance du duc de Bretagne. &#xD; Cette compagnie était calquée sur le modèle de la Compagnie de la Cinquantaine de Rouen : « On appelle à Rouen la cinquantaine, une compagnie d’arbalétriers composée de cinquante hommes de cheval, et obligés de faire le guet pendant la nuit pour empêcher les désordres qui pourroient arriver. Il y a à Caudebec une compagnie appelée la cinquantaine, comme à Rouen » (Dictionnaire universel françois et latin, vulgairement appelé dictionnaire de Trévoux, Paris, 1771, t. 2). La compagnie était dotée de lettres patentes (voir Charles de Beaurepaire, Notice sur la compagnie des arbalétriers, autrement dite la  Cinquantaine  de Rouen, Rouen, 1885). Composée de cinquante arbalétriers, elle exerçait des fonctions policières et militaires défensives à l’instar des milices bourgeoises. Le même dictionnaire définit une Cinquantaine comme « une compagnie bourgeoise de cinquante hommes ». L’article du Mercure galant, décrivant les rafraîchissements servis aux participants après le défilé, précise qu’ils étaient «  pour la Compagnie de la Cinquantaine&amp;amp; pour d’autres Bourgeois sous les armes » (cf. MG-1704-07b_292).</skos:historyNote>
+	<skos:historyNote xml:lang="fr">Un article du Mercure galant de juillet 1704 indique que cette compagnie, sous le commandement du vicomte et lieutenant de police de Caudebec, M. Colleau, a pris part aux festivités organisées à l’abbaye de Saint-Wandrille pour la naissance du duc de Bretagne. &#xD; Cette compagnie était calquée sur le modèle de la Compagnie de la Cinquantaine de Rouen : « On appelle à Rouen la cinquantaine, une compagnie d’arbalétriers composée de cinquante hommes de cheval, et obligés de faire le guet pendant la nuit pour empêcher les désordres qui pourroient arriver. Il y a à Caudebec une compagnie appelée la cinquantaine, comme à Rouen » (Dictionnaire universel françois et latin, vulgairement appelé dictionnaire de Trévoux, Paris, 1771, t. 2). La compagnie était dotée de lettres patentes (voir Charles de Beaurepaire, Notice sur la compagnie des arbalétriers, autrement dite la  Cinquantaine  de Rouen, Rouen, 1885). Composée de cinquante arbalétriers, elle exerçait des fonctions policières et militaires défensives à l’instar des milices bourgeoises. Le même dictionnaire définit une Cinquantaine comme « une compagnie bourgeoise de cinquante hommes ». L’article du Mercure galant, décrivant les rafraîchissements servis aux participants après le défilé, précise qu’ils étaient «  pour la Compagnie de la Cinquantaine &amp;amp; pour d’autres Bourgeois sous les armes » (cf. MG-1704-07b_292).</skos:historyNote>
 	<skos:note xml:lang="fr">##id##MG-1704-07b_292##</skos:note>
 </rdf:Description>
 
@@ -32662,6 +32679,19 @@
 	<dcterms:description>institution##maison##maison_des_princes_etrangers##278143##293148</dcterms:description>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294285&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chevalier de l'ordre royal de Notre-Dame du Mont-Carmel et de Saint-Lazare-de-Jérusalem</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ordre_royal_de_notre-dame_du_mont_carmel&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-08</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-08</dcterms:modified>
+	<dcterms:identifier>294285</dcterms:identifier>
+	<dcterms:description>institution##ordre_militaire_et_de_chevalerie##ordres_royaux##ordre_royal_de_notre-dame_du_mont_carmel##294285</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1705-12_306##</skos:scopeNote>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293737&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Maître des cérémonies</skos:prefLabel>
@@ -32675,6 +32705,60 @@
 	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1701-05B_087##</skos:scopeNote>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294301&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Martinique</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293855&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293857&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293877&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293799&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+	<dcterms:identifier>294301</dcterms:identifier>
+	<dcterms:description>institution##293799##294301</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294317&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Corps de ville de Ligny</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294303&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-11</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-11</dcterms:modified>
+	<dcterms:identifier>294317</dcterms:identifier>
+	<dcterms:description>institution##municipalite##294303##294317</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294303&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Ligny</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294317&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=municipalite&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+	<dcterms:identifier>294303</dcterms:identifier>
+	<dcterms:description>institution##municipalite##294303</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1701-12_225##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294361&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Duché de Mantoue</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294353&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=institutions_etrangeres&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-15</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-15</dcterms:modified>
+	<dcterms:identifier>294361</dcterms:identifier>
+	<dcterms:description>institution##institutions_etrangeres##294361</dcterms:description>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293959&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Confrérie des Arts et Métiers de Ligny</skos:prefLabel>
@@ -32686,6 +32770,19 @@
 	<dcterms:identifier>293959</dcterms:identifier>
 	<dcterms:description>institution##confrerie##293959</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##id##MG-1701-12_225##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294249&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Sénateurs des Palatinats de Pologne</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=cour_de_pologne&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-04</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-04</dcterms:modified>
+	<dcterms:identifier>294249</dcterms:identifier>
+	<dcterms:description>institution##cours_des_familles_regnantes##cour_de_pologne##294249</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1705-12_16##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293712&amp;idt=173">
@@ -32702,6 +32799,45 @@
 	<skos:note xml:lang="fr">##MG-1701-10_152##</skos:note>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294251&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Nonces des Palatinats de Pologne</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=cour_de_pologne&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-04</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-04</dcterms:modified>
+	<dcterms:identifier>294251</dcterms:identifier>
+	<dcterms:description>institution##cours_des_familles_regnantes##cour_de_pologne##294251</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1705-12_16##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294269&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">États italiens</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294305&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=institutions_etrangeres&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:modified>
+	<dcterms:identifier>294269</dcterms:identifier>
+	<dcterms:description>institution##institutions_etrangeres##294269</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294305&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Grand-Duché de Toscane</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294307&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294269&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+	<dcterms:identifier>294305</dcterms:identifier>
+	<dcterms:description>institution##institutions_etrangeres##294269##294305</dcterms:description>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293961&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Conseil des Indes</skos:prefLabel>
@@ -32714,6 +32850,19 @@
 	<dcterms:description>institution##institutions_etrangeres##royaume_d_espagne##293961</dcterms:description>
 	<skos:historyNote xml:lang="fr">“Le Conseil des Indes était l'institution chargée d'administrer les colonies des « Indes », c'est-à-dire l'Amérique espagnole et les Philippines (appelées officiellement les Indes orientales), durant les XVIe – XVIIe siècles. Il représentait et conseillait le roi d'Espagne dans toutes les affaires de justice, de gouvernement, de guerre et de religion. Il se situait à Madrid dans l'Alcazar real.” (https://fr.wikipedia.org/wiki/Conseil_des_Indes consulté le 10 Janvier 2021). &lt;br&gt;</skos:historyNote>
 	<skos:scopeNote xml:lang="fr">##id##MG-1701-06_192##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294093&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Corps de ville de Toulon</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294113&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294087&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-23</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-23</dcterms:modified>
+	<dcterms:identifier>294093</dcterms:identifier>
+	<dcterms:description>institution##municipalite##294087##294093</dcterms:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293713&amp;idt=173">
@@ -32768,6 +32917,77 @@
 	<skos:scopeNote xml:lang="fr">##id##MG-1701-05A_277##</skos:scopeNote>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294095&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Saint-Antonin</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294109&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294111&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=municipalite&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-23</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-23</dcterms:modified>
+	<dcterms:identifier>294095</dcterms:identifier>
+	<dcterms:description>institution##municipalite##294095</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294109&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Magistrats de Saint-Antonin</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294095&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-25</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-25</dcterms:modified>
+	<dcterms:identifier>294109</dcterms:identifier>
+	<dcterms:description>institution##municipalite##294095##294109</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1704-08_307##&lt;/p&gt;</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294253&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Députés de Pologne</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=cour_de_pologne&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-04</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-04</dcterms:modified>
+	<dcterms:identifier>294253</dcterms:identifier>
+	<dcterms:description>institution##cours_des_familles_regnantes##cour_de_pologne##294253</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1705-12_16##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=ambassade_etrangere&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Ambassades étrangères</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294255&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassadeur_d_espagne_a_paris&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassadeurs_de_hollande&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassadeurs_de_moscovie&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassadeurs_de_siam&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassadeurs_de_tripoli&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=institutions_etrangeres&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-29</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:modified>
+	<dcterms:identifier>ambassade_etrangere</dcterms:identifier>
+	<dcterms:description>institution##institutions_etrangeres##ambassade_etrangere</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294307&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Florence</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294311&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294305&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+	<dcterms:identifier>294307</dcterms:identifier>
+	<dcterms:description>institution##institutions_etrangeres##294269##294305##294307</dcterms:description>
+	<skos:note xml:lang="fr"></skos:note>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293965&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Pénitents noirs de Pésenas</skos:prefLabel>
@@ -32781,25 +33001,255 @@
 	<skos:scopeNote xml:lang="fr">##id##MG-1701-12_092##</skos:scopeNote>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294111&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Corps de ville de Saint-Antonin</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294187&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294095&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-25</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-25</dcterms:modified>
+	<dcterms:identifier>294111</dcterms:identifier>
+	<dcterms:description>institution##municipalite##294095##294111</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294255&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Ambassadeurs de Suède en Pologne</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ambassade_etrangere&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-04</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-04</dcterms:modified>
+	<dcterms:identifier>294255</dcterms:identifier>
+	<dcterms:description>institution##institutions_etrangeres##ambassade_etrangere##294255</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1705-12_16##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294271&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Castellan de Siradie</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">Castellan de Sieradz</skos:altLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294257&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-08</dcterms:modified>
+	<dcterms:identifier>294271</dcterms:identifier>
+	<dcterms:description>institution##cours_des_familles_regnantes##cour_de_pologne##294257##294271</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1705-12_16## &lt;br&gt;</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294309&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Municipalité de Florence</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+	<dcterms:identifier>294309</dcterms:identifier>
+	<dcterms:description>294309</dcterms:description>
+	<skos:note xml:lang="fr">A classer sous Florence</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294113&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Consuls de Toulon</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294093&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-25</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-25</dcterms:modified>
+	<dcterms:identifier>294113</dcterms:identifier>
+	<dcterms:description>institution##municipalite##294087##294093##294113</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1704-08_270##&lt;/p&gt;</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294257&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Castellans</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294271&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294273&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294275&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294277&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294279&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294281&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=cour_de_pologne&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-04</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:modified>
+	<dcterms:identifier>294257</dcterms:identifier>
+	<dcterms:description>institution##cours_des_familles_regnantes##cour_de_pologne##294257</dcterms:description>
+	<skos:historyNote xml:lang="fr">« Sénateur administrant une Province sous les ordres d'un Palatin, gouverneur de Province » (cf. https://www.cnrtl.fr/definition/castellan#:~:text=masc.-,CASTELLAN%2C%20subst.,un%20Palatin%2C%20gouverneur%20de%20Province., consulté le 4 mars 2021).</skos:historyNote>
+	<skos:scopeNote xml:lang="fr">##id##MG-1705-12_16##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294273&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Castellan de Radziec</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">Castellan de Radziejowice</skos:altLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294257&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-08</dcterms:modified>
+	<dcterms:identifier>294273</dcterms:identifier>
+	<dcterms:description>institution##cours_des_familles_regnantes##cour_de_pologne##294257##294273</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1705-12_16## &lt;br&gt;</skos:scopeNote>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293967&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:prefLabel xml:lang="fr">Prévôté du bailliage de Ligny</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Prévôté de Ligny</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294297&amp;idt=173"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=275735&amp;idt=173"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
 	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-18</dcterms:created>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-18</dcterms:modified>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
 	<dcterms:identifier>293967</dcterms:identifier>
 	<dcterms:description>institution##prevote##275735##293967</dcterms:description>
 	<skos:note xml:lang="fr">##id##MG-1701-12_225##</skos:note>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294311&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Magistrats de Florence</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294307&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+	<dcterms:identifier>294311</dcterms:identifier>
+	<dcterms:description>institution##institutions_etrangeres##294269##294305##294307##294311</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id###MG-1704-09_107##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294297&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Corps de justice de la prévôté de Ligny</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293967&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-09</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-09</dcterms:modified>
+	<dcterms:identifier>294297</dcterms:identifier>
+	<dcterms:description>institution##prevote##275735##293967##294297</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1701-12_225##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294087&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Toulon</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294093&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=municipalite&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-22</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-22</dcterms:modified>
+	<dcterms:identifier>294087</dcterms:identifier>
+	<dcterms:description>institution##municipalite##294087</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294275&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Castellan de Juny</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294257&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:modified>
+	<dcterms:identifier>294275</dcterms:identifier>
+	<dcterms:description>institution##cours_des_familles_regnantes##cour_de_pologne##294257##294275</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1705-12_16## &lt;br&gt;</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294299&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Pénitents bleus de Sarlat</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=confrerie_de_penitents&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-09</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-09</dcterms:modified>
+	<dcterms:identifier>294299</dcterms:identifier>
+	<dcterms:description>institution##confrerie##confrerie_de_penitents##294299</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1705-08_79##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294145&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Élection de Lyon</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=election&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-26</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-26</dcterms:modified>
+	<dcterms:identifier>294145</dcterms:identifier>
+	<dcterms:description>institution##election##294145</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p&gt;##id##MG-1704-08_369##&lt;/p&gt;</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294277&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Castellan de Wladislaw</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">Castellan de Władysławowo</skos:altLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294257&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-08</dcterms:modified>
+	<dcterms:identifier>294277</dcterms:identifier>
+	<dcterms:description>institution##cours_des_familles_regnantes##cour_de_pologne##294257##294277</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1705-12_16## &lt;br&gt;</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294147&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Consul de Lyon</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=corps_de_ville_de_lyon&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-26</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-26</dcterms:modified>
+	<dcterms:identifier>294147</dcterms:identifier>
+	<dcterms:description>institution##municipalite##lyon##corps_de_ville_de_lyon##294147</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1704-08_369## &lt;br&gt;</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294185&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chambre des comptes de Bar-le-Duc</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294227&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chambre_des_comptes&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-01</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-01</dcterms:modified>
+	<dcterms:identifier>294185</dcterms:identifier>
+	<dcterms:description>institution##cours_souveraines_ou_superieures##chambre_des_comptes##294185</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294279&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Castellan de Leure</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294257&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-05</dcterms:modified>
+	<dcterms:identifier>294279</dcterms:identifier>
+	<dcterms:description>institution##cours_des_familles_regnantes##cour_de_pologne##294257##294279</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;&amp;amp;nbsp;##id##MG-1705-12_16##</skos:scopeNote>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293799&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Colonies</skos:prefLabel>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293855&amp;idt=173"/>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293857&amp;idt=173"/>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293877&amp;idt=173"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294301&amp;idt=173"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=institution&amp;idt=173"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
 	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
@@ -32808,6 +33258,32 @@
 	<dcterms:identifier>293799</dcterms:identifier>
 	<dcterms:description>institution##293799</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##id##MG-1702-02a_190##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294187&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Consuls de Saint-Antonin</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294111&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-01</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-01</dcterms:modified>
+	<dcterms:identifier>294187</dcterms:identifier>
+	<dcterms:description>institution##municipalite##294095##294111##294187</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1704-08_307##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294353&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Envoyé de Mantoue à Paris (fl. 1706)</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294361&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-12</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-12</dcterms:modified>
+	<dcterms:identifier>294353</dcterms:identifier>
+	<dcterms:description>institution##institutions_etrangeres##294361##294353</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1706-02_288##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293987&amp;idt=173">
@@ -33015,19 +33491,6 @@
 	<skos:scopeNote xml:lang="fr">##id##MG-1702-03_278##</skos:scopeNote>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293855&amp;idt=173">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:prefLabel xml:lang="fr">Intendant des Îles-du-Vent de l’Amérique et de la Martinique</skos:prefLabel>
-	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293799&amp;idt=173"/>
-	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
-	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
-	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dcterms:created>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dcterms:modified>
-	<dcterms:identifier>293855</dcterms:identifier>
-	<dcterms:description>institution##293799##293855</dcterms:description>
-	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1702-02a_190## &lt;p class= ql-align-justify &gt;&amp;amp;nbsp; &lt;br&gt;</skos:scopeNote>
-</rdf:Description>
-
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=capitaine_au_regiment_de_vendome&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Capitaine au régiment de Vendosme</skos:prefLabel>
@@ -33038,6 +33501,19 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-18</dcterms:modified>
 	<dcterms:identifier>capitaine_au_regiment_de_vendome</dcterms:identifier>
 	<dcterms:description>institution##departement_de_la_guerre##guerre_(armees)##regiment##regiment_de_vendome##capitaine_au_regiment_de_vendome</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293855&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Intendant des Îles-du-Vent de l’Amérique et de la Martinique</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294301&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+	<dcterms:identifier>293855</dcterms:identifier>
+	<dcterms:description>institution##293799##294301##293855</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1702-02a_190## &lt;p class= ql-align-justify &gt;&amp;amp;nbsp; &lt;br&gt;</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293817&amp;idt=173">
@@ -33053,19 +33529,6 @@
 	<dcterms:description>institution##cours_des_familles_regnantes##293817</dcterms:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293857&amp;idt=173">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:prefLabel xml:lang="fr">Général de la Martinique</skos:prefLabel>
-	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293799&amp;idt=173"/>
-	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
-	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
-	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dcterms:created>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dcterms:modified>
-	<dcterms:identifier>293857</dcterms:identifier>
-	<dcterms:description>institution##293799##293857</dcterms:description>
-	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1702-02a_190## &lt;p class= ql-align-justify &gt;&amp;amp;nbsp; &lt;br&gt;</skos:scopeNote>
-</rdf:Description>
-
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=consuls_de_pezenas&amp;idt=173">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Consuls de Pésenas</skos:prefLabel>
@@ -33076,6 +33539,32 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-18</dcterms:modified>
 	<dcterms:identifier>consuls_de_pezenas</dcterms:identifier>
 	<dcterms:description>institution##municipalite##pezenas##corps_de_ville_de_pezenas##consuls_de_pezenas</dcterms:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294227&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Officiers de la Chambre des comptes de Bar-le-Duc</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294185&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-02</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-03</dcterms:modified>
+	<dcterms:identifier>294227</dcterms:identifier>
+	<dcterms:description>institution##cours_souveraines_ou_superieures##chambre_des_comptes##294185##294227</dcterms:description>
+	<skos:historyNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1705-10_52## &lt;br&gt;</skos:historyNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293857&amp;idt=173">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Général de la Martinique</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294301&amp;idt=173"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
+	<dcterms:identifier>293857</dcterms:identifier>
+	<dcterms:description>institution##293799##294301##293857</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1702-02a_190## &lt;p class= ql-align-justify &gt;&amp;amp;nbsp; &lt;br&gt;</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293819&amp;idt=173">
@@ -33101,7 +33590,7 @@
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dcterms:created>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dcterms:modified>
 	<dcterms:identifier>293859</dcterms:identifier>
-	<dcterms:description>institution##293799##293877##293859</dcterms:description>
+	<dcterms:description>institution##293799##294301##293877##293859</dcterms:description>
 	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1702-02a_190## &lt;p class= ql-align-justify &gt;&amp;amp;nbsp; &lt;br&gt;</skos:scopeNote>
 </rdf:Description>
 
@@ -33170,13 +33659,13 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">État-Major de la Martinique</skos:prefLabel>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293859&amp;idt=173"/>
-	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293799&amp;idt=173"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294301&amp;idt=173"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/173"/>
 	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=INSTITUTIONS&amp;idt=173"/>
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dcterms:created>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dcterms:modified>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-10</dcterms:modified>
 	<dcterms:identifier>293877</dcterms:identifier>
-	<dcterms:description>institution##293799##293877</dcterms:description>
+	<dcterms:description>institution##293799##294301##293877</dcterms:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294027&amp;idt=173">

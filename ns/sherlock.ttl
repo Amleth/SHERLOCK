@@ -62,5 +62,11 @@ sherlock:sheP_a_pour_entité_de_plus_haut_niveau
     rdfs:subPropertyOf crm:P71_lists ;
     rdfs:domain crm:E32_Authority_Document ;
     rdfs:range crm:E1_CRM_Entity ;
-    crm:P1_is_identified_by "A pour entité de plus haut niveau"@fr ;
+    rdfs:label "A pour entité de plus haut niveau"@fr ;
+    .
+
+sherlock:sheP_subscribe
+    a owl:ObjectProperty ;
+    rdfs:domain crm:E21_Person ;
+    rdfs:range owl:Thing ;
     .

@@ -100,11 +100,11 @@ def census_label_uuid(label, uuid):
 
 
 def explore(id, depth):
-    # print("    " * depth, prefLabel, id)
+    # print("    " * depth, id)
 
     # E93 Presence
     identifier = ro(id, DCTERMS.identifier)
-    if identifier and identifier != "https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43":
+    if identifier and identifier != "https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43" and identifier != "https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43":
         E93_uuid = cache_lieux.get_uuid(["lieu", identifier, "E93", "uuid"], True)
         E93_uri = she(E93_uuid)
         t(E93_uri, a, crm("E93_Presence"))
@@ -226,19 +226,17 @@ def explore(id, depth):
     narrowers = ro_list(id, SKOS.narrower)
 
     for narrower in narrowers:
+        # P10 falls within
+        identifier_n = ro(narrower, DCTERMS.identifier)
+        narrower_uuid = she(cache_lieux.get_uuid(["lieu", identifier_n, "E93", "uuid"], True))
+        t(narrower_uuid, crm("P10_falls_within"), E93_uri)
 
-        if identifier != "https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43":
-
-            # P10 falls within
-            identifier_n = ro(narrower, DCTERMS.identifier)
-            narrower_uuid = she(cache_lieux.get_uuid(["lieu", identifier_n, "E93", "uuid"], True))
-            t(narrower_uuid, crm("P10_falls_within"), E93_uri)
         explore(narrower, depth + 1)
-
 
 ####################################################################################
 # DONNÉES STATIQUES
 ####################################################################################
+
 
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
 indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
@@ -265,7 +263,7 @@ t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
 t(E32_grand_siecle_uri, crm("P1_is_identified_by"), Literal("Grand Siècle"))
 t(E32_lieux_uri, crm("P71_lists"), E32_grand_siecle_uri)
 
-explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&amp;idt=43"), 0)
+explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 
 
 ####################################################################################

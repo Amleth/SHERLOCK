@@ -1,0 +1,13 @@
+{
+  "@context":"http://iiif.io/api/presentation/2/context.json",
+  "@id":"http://data-iremus.huma-num.fr/iiif/organologie/manifest",
+  "@type":"sc:Manifest",
+  "label":"organologie",
+  "sequences":[
+    {
+      "@id":"http://data-iremus.huma-num.fr/iiif/organologie/sequence/normal",
+      "@type":"sc:Sequence",
+      "canvases":[]
+    }
+  ]
+}
