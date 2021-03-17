@@ -53,4 +53,6 @@ def print_children(concept, depth=0):
         print_children(row[0], depth + 1)
 
 
-print_children("https://opentheso3.mom.fr/opentheso3/?idc=chanoines_reguliers&idt=166")
+print_children("https://opentheso3.mom.fr/opentheso3/?idc=clerge_regulier&idt=166")
+print_children("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166")
+print_children("https://opentheso3.mom.fr/opentheso3/?idc=papaute&idt=166")
