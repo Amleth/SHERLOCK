@@ -1,4 +1,4 @@
-congrégations religieuses:
+congrÃ©gations religieuses:
   clerge_regulier:
     uuid: ef9f5f61-b6da-4baa-bc42-1b8e0b27a51f
     E41: 296c657b-7bdc-4325-95cf-08c95efbb264
@@ -119,7 +119,7 @@ congrégations religieuses:
   chanoines_reguliers_de_sainte-genevieve:
     uuid: c1d7b543-5f1e-4f8e-81e1-0a41cc826067
     E41: 1f3bdabc-75b2-4272-a40b-4ec6f40f7a7f
-  chanoines_reguliers_de_sainte-genevieve_de_l’abbaye_saint-jacques_a_provins:
+  chanoines_reguliers_de_sainte-genevieve_de_lâ€™abbaye_saint-jacques_a_provins:
     uuid: 77d8c604-5b7a-4469-975d-287fae82ce6f
     E41: 00f363d9-874a-4cba-a5c3-b7d4015ce84d
   '294097':
@@ -455,7 +455,7 @@ congrégations religieuses:
   mauristes_de_l_abbaye_de_saint-germain-des-pres:
     uuid: eb23a01d-afaa-473a-96ba-f79887a0e4d1
     E41: 9834e472-f99a-4b7d-b0e0-1f2ae71cb647
-  mauristes_de_l’abbaye_de_la_trinite_de_fecamp:
+  mauristes_de_lâ€™abbaye_de_la_trinite_de_fecamp:
     uuid: c5a991fa-8133-4017-91f7-e0f02904ff7d
     E41: 00b7b799-c72e-4c08-966b-ed0164e256e7
   Mauristes_du_monastere_des_Blancs-Manteaux_a_Paris:
@@ -566,7 +566,7 @@ congrégations religieuses:
   '294103':
     uuid: bc77480b-3ee6-4671-9525-15584d6886b3
     E41: 13ff0ddf-3a8e-418f-bdd4-7fd278950e93
-  grands_carmes_de_sainte-anne-d’auray:
+  grands_carmes_de_sainte-anne-dâ€™auray:
     uuid: 1481eab9-5ce2-488c-9c58-d52e112e0383
     E41: e003bdd4-57e1-4f02-b1ad-6c3204636fe5
   grands_carmes_de_toulouse:
@@ -944,3 +944,1444 @@ congrégations religieuses:
   peres_de_la_mission_d_alencon:
     uuid: d39e7069-c42d-420e-9b94-359698692810
     E41: 996c74cb-eab9-4d18-8cb0-417beff601b7
+congrégations religieuses:
+  clerge_regulier:
+    uuid: 9c3bfdbb-7543-4490-9280-b2a915495cd4
+    E41: cc4a0ec4-7c03-4d42-982f-d84cb66f638d
+  chanoines_reguliers:
+    uuid: a1121001-d640-4069-abc3-0da78c4291bc
+    E41: c400877f-edec-45f1-9cea-83829c194405
+  chanoines_reguliers_de_saint_augustin:
+    uuid: a66e899b-1ee1-4849-be60-884cdfcd14bb
+    E41: c19e2cdd-9ecb-4c4a-90a1-3aecdea7b652
+  augustines:
+    uuid: b4665a79-5017-4b3a-b555-64a8e73242c5
+    E41: 4f0e2538-336c-4f96-b039-9fb6d4ca27da
+  augustines_hospitalieres:
+    uuid: 4d49c9d1-b6df-4cdf-adc4-1f47830228b5
+    E41: 442cb0cf-f955-4c01-961d-4b0fef6f6066
+  augustines_hospitalieres_de_beaulieu-les-loches:
+    uuid: 2daba0d5-24c6-4ab1-b304-f64efb74f9cd
+    E41: ed5a5e33-23f8-4a75-b444-43f1df521ca6
+  augustines_hospitalieres_de_la_place_royale_de_paris:
+    uuid: 413dbbbe-facd-4dfb-9289-38264accd31d
+    E41: db5c4507-d953-4fed-a66a-9c5ed4e4a82c
+  augustines_hospitalieres_de_la_roquette_de_paris:
+    uuid: 40c1acf7-b80a-4cc8-96b4-560884c36fdb
+    E41: f32c6e82-a3af-4589-a001-545f69152197
+  chanoinesses_de_saint-augustin:
+    uuid: bc62eb3c-82f9-47f1-b4b2-2b2e420fdd1e
+    E41: 9b6544f0-0e97-4b9d-b37f-9d9310d0ad89
+  chanoinesses_regulieres_anglaises_de_paris:
+    uuid: 5dc20b47-058c-424c-a731-d8eb2dd3362e
+    E41: 63326689-a133-4d32-b4d7-89e71ed058d6
+  chanoinesses_augustines_de_l_abbaye_saint-pantaleon_de_toulouse:
+    uuid: 9dbb99fe-d126-4cb4-a231-9b51c5e5f431
+    E41: 520c2c4f-6951-40c9-9a1c-6224a893d79f
+  chanoinesses_regulieres_de_l_abbaye_de_belem_a_belian_augustines_hospitalieres:
+    uuid: aed100c5-ff48-4c55-97c3-72bfe3736e02
+    E41: 5f7e6802-a1e7-401a-b57b-5e12469be7a7
+  '293809':
+    uuid: b7949a54-64bb-4fd4-bcab-bc2fd339dad8
+    E41: 01d466fa-1552-4c0d-8b88-b1fd4c230b79
+  '293789':
+    uuid: 9368f0e4-7f9e-4d6e-a5c2-ba6e716a577d
+    E41: 38c722c6-ed55-4e3d-9037-7c9d1064c58a
+  '293887':
+    uuid: 629b0d7f-2263-4934-9f84-d3e2d735bcf7
+    E41: cd90859f-7f5c-4486-a2a4-178af71af375
+  haudriettes:
+    uuid: cc7ef125-e4e4-4308-bcc5-97ecee8c295a
+    E41: 247b4bb1-1dcc-46b9-91f0-19ecaa241a7a
+  haudriettes_du_couvent_de_notre-dame_de_l_assomption_de_paris:
+    uuid: 693c66c2-ca04-498b-bd53-aa65aff79bfc
+    E41: 8d5e7678-9737-4afa-9f31-2d638bb1d737
+  augustins:
+    uuid: 7f0450eb-70f1-42b5-ab41-7dcac10b488d
+    E41: bf46a100-d597-4810-ae6f-980e3542bd7d
+  augustins_dechausses:
+    uuid: 91e916a0-f260-44c6-ab4c-e10904ad41d0
+    E41: 0fc8133b-5c89-48af-ac57-43a43254f610
+  augustins_dechausses_de_marseille:
+    uuid: d8267ea0-387e-493a-9f79-36ed33fdc45f
+    E41: d1c3b1d1-41ae-48c5-859a-4d1fe5f437b9
+  augustins_dechausses_de_notre-dame-des-victoires_de_paris:
+    uuid: 9a12e8a1-1f2d-41da-8f53-703d513eca8b
+    E41: 9e052fd0-6cfe-4e8b-aede-2fc2c813d115
+  augustins_dechausses_des_loges_a_saint-germain-en-laye:
+    uuid: 56354b3c-33bd-4991-bfe8-96812b052800
+    E41: 2ad5af48-42fe-4d5f-b7d6-721bce204b36
+  augustins_dechausses_du_faubourg_saint-germain_a_paris:
+    uuid: 08173805-e22d-4c70-9e90-e3d71e8fa1f8
+    E41: f98e7457-3b1e-4f9b-bcd6-1b9c7be2c39e
+  grand_augustin:
+    uuid: 1489834c-7eca-4185-9a03-3ece16a2357d
+    E41: dc756308-2d4e-493a-a7c0-baadd766d039
+  grands_augustins_de_bordeaux:
+    uuid: 09128df2-2b55-4457-9655-7538c61c382a
+    E41: bdf88b2a-3e68-4eee-9371-d302512f1052
+  grands_augustins_de_marseille:
+    uuid: ba14e8e8-a3f4-4607-af94-02189221674d
+    E41: af72932a-62b0-449d-8f48-3c7a9a53b6bc
+  grands_augustins_de_nancy:
+    uuid: b2c349b7-e805-42f5-b216-cd8af85711c2
+    E41: e1e2f9ad-e55d-4b5e-b07e-2e02799d4574
+  grands_augustins_de_paris:
+    uuid: c4188b3b-d3b5-420c-b37e-81d32e5bc6d7
+    E41: 4f39c218-efc0-4ebc-b015-24645a4bae5f
+  grands_augustins_de_poitiers:
+    uuid: 88050784-ba7d-48a9-a855-ce3f56cbcbcd
+    E41: 2bfff77e-eb6c-40e3-9d47-fd0200e32374
+  chanoines_reguliers_de_premontre:
+    uuid: 68eb207a-2838-427b-95d8-6558ca400941
+    E41: 3ca23757-1032-4642-b93b-051fa175c707
+  '293827':
+    uuid: 55261877-51b7-47e2-8662-fe4b0b9da72b
+    E41: beeb51e9-daa6-46ac-99c0-60038b92fba4
+  Chanoines_reguliers_de_Premontre_de_Notre-Dame_et_Saint-Jean-Baptiste_a_Coucy-le-Chateau:
+    uuid: 2219d515-7268-40e9-bfdc-e59c6e6e7c0b
+    E41: 6ddfc962-1073-479f-bcfc-ff7200b9c913
+  chanoines_reguliers_de_premontre_de_saint-joseph_a_nancy:
+    uuid: 2cfc3cf7-40f2-46d4-af37-87f368d6a678
+    E41: c1fdb2b5-a43b-425d-a2bb-12e404a61bee
+  chanoines_reguliers_de_saint-martin_de_plaimpied:
+    uuid: a52087c5-715f-44c3-a4fc-e2097d774d73
+    E41: e8b36106-5ef5-44fe-9c54-5246bea476e2
+  abbe_de_plaimpied:
+    uuid: f7bba865-95fc-438c-a07c-50182cfd155f
+    E41: e8776903-b5a0-4baa-bcb3-ee5d29bd25fa
+  chanoines_reguliers_de_saint-ruf:
+    uuid: e21aeb20-58a8-4ba0-bea4-7d60266c0468
+    E41: cfed1146-da15-4265-91ae-6bc27465d053
+  chanoines_reguliers_de_saint-ruf_de_la_cote-saint-andre:
+    uuid: 8be8872a-011e-4fcb-a297-0f15a19d1e6f
+    E41: cbbcfdfc-de65-4e10-9645-521bf427be77
+  chanoines_reguliers_de_saint-etienne_de_dijon:
+    uuid: 2892c2f1-2307-4f1b-aae7-229fb2b1cdb2
+    E41: 05484788-7547-4613-a86a-6413a0bf7124
+  abbe_de_l_eglise_abbatiale_de_saint-etienne_de_dijon:
+    uuid: 0cec99ec-d381-4b55-a137-b939a9e528d8
+    E41: 798f46a7-7ea0-4219-9bbf-555012dc9473
+  chanoines_reguliers_de_sainte-genevieve:
+    uuid: 52e4aa80-20bc-4408-b3a8-dbd2624668fe
+    E41: 50505ccc-937b-4378-9f1e-8de946d08bf2
+  chanoines_reguliers_de_sainte-genevieve_de_l’abbaye_saint-jacques_a_provins:
+    uuid: c3dc2431-c767-4daf-ae26-2f3c2e7fbfd4
+    E41: 264d9965-c1f8-459c-85dd-b347405f935b
+  '294097':
+    uuid: 04291b7b-436b-477b-ad2b-4352675ad869
+    E41: 9aa92c54-7162-4b09-b595-16eb1359f537
+  Chanoines_reguliers_de_Sainte-Genevieve_du_prieure_Sainte-Catherine_de_la_Couture:
+    uuid: 53cbd7da-d88b-410f-99dd-e565feeaad5d
+    E41: a8c969ae-6b4a-485f-a8da-4d7d995d1b73
+  Genovefains_de_labbaye_royale_de_Sainte-Genevieve_de_Paris:
+    uuid: 0c7ccbaf-a977-4e4f-99dc-ad6abca087a4
+    E41: 6ce16b7b-dab0-4be2-903e-0ff4962c320e
+  chanoines_reguliers_de_l_abbaye_royale_de_saint-victor_de_paris:
+    uuid: af0fcd41-0538-483a-ad46-789e9af9aa50
+    E41: 80c82802-11ab-441d-996e-642d5d4939f8
+  chanoines_reguliers_de_l_ordre_de_saint-augustin_congregation_de_notre-sauveur:
+    uuid: 1f474dc2-ee2a-483a-a407-ec8f5648be2a
+    E41: 00e42a56-1770-4aaa-a71b-d3710444e8ea
+  chanoines_reguliers_de_la_maison_royale_de_sainte-croix-de-la-bretonnerie:
+    uuid: ca30f095-712d-4969-878e-4e795317755f
+    E41: c0a09939-410f-4ba5-beaf-7a2f05fa8fd9
+  chanoine_regulier_de_la_maison_royale_de_sainte-croix-de-la-bretonnerie_de_paris:
+    uuid: b824a13c-b874-420d-baf0-fb8239ab2b5c
+    E41: cab6a18f-4901-47a5-ad4b-b62dd409bb83
+  congregations_de_clercs_reguliers:
+    uuid: 8ebe7901-e063-47c4-9be9-3c9578f1d38f
+    E41: ae9b0f69-4d70-4472-a27a-9eacbb6409be
+  barnabite:
+    uuid: e86aac69-c955-440c-97e0-4e0549464c32
+    E41: 54cfddb3-4c15-4a28-808e-f81d2f03b11c
+  barnabite_de_montargis:
+    uuid: 2fdb52aa-4628-4260-8f1e-88c23c5f0f04
+    E41: 394dab25-b1bb-4611-be0c-6b6e1840cbc0
+  doctrinaire:
+    uuid: 9c645fc0-559c-4278-8f88-2449bf41cf6d
+    E41: 509c01d6-f587-421f-bdec-d4eba2bf451c
+  '278026':
+    uuid: 96d844d8-9a4b-44b2-9d97-c3ac51c49af7
+    E41: bddcb017-3d35-437b-ac59-347240fc9587
+  jesuite:
+    uuid: 4e2957b6-5d78-4274-a90f-18f87559fe93
+    E41: 150f895d-e96c-4482-9592-d443981dc714
+  jesuites_de_saint-omer:
+    uuid: d50602fd-632e-42d3-ba36-b44d58924c91
+    E41: b0f124db-3e59-4c71-81b6-6e1cdb439cbe
+  jesuites_d_alep:
+    uuid: 6bab0487-226c-49a4-887b-222e441855f6
+    E41: c4e4600e-0cd1-45f6-a0b0-82d75ed1b2ff
+  jesuites_d_avignon:
+    uuid: 0c27c8f2-18af-4b9c-8ff8-fea4f32ad195
+    E41: 35b672c2-4fb4-4589-a381-03e2f0526268
+  jesuites_d_eu:
+    uuid: b604b0cd-22d3-406a-9881-0b15580fb333
+    E41: f3b29e56-0187-4417-b5d8-7de58ebfc1e6
+  jesuites_de_brest:
+    uuid: 73613dbf-6151-42d9-8434-30d965aca16f
+    E41: f2e33569-a916-466d-bcca-2a8293866e49
+  '277990':
+    uuid: 02b8600b-54be-483e-941b-a0938deb15fb
+    E41: a75caa7f-c03b-41e5-b902-1baa0f65c430
+  jesuites_de_chalons-en-champagne:
+    uuid: b60f0dd7-6b8b-47ee-9c91-d6d62dc3d84e
+    E41: b2baa17f-f839-46ba-b95e-83e3142c4881
+  '276460':
+    uuid: dfdd750a-f09d-4b21-9efe-9a8571122b1b
+    E41: 413f1890-3144-4fed-a020-0052def5b5d2
+  jesuites_de_douai:
+    uuid: 08d28307-4334-4e43-8ff5-d42a72f90985
+    E41: 5d4ce7cc-8892-4701-9629-2da18f4b84f0
+  '293747':
+    uuid: 7d7206a5-f83e-4aae-b9c2-3b042590bbda
+    E41: 692c149f-66bf-429f-a0cc-44b2f376a53a
+  jesuites_de_grenoble:
+    uuid: 4affb06e-3554-4867-823b-2aaffd5bba82
+    E41: 6dcbcd5e-1229-4875-8205-e95c3fe8b144
+  jesuites_de_la_fleche:
+    uuid: 0ea0a225-0b8f-4bc8-b5ee-89adacbcbe4f
+    E41: 0262e613-ce5d-4bd9-bbfa-3782e76090be
+  jesuites_de_luxembourg:
+    uuid: 7bf33af2-a2e6-45f2-8341-2111002a8851
+    E41: aab34d84-e978-4e23-ba59-75716a9ba762
+  jesuites_de_lyon:
+    uuid: 5e063fbb-3910-4d35-a48b-9b825f8508b5
+    E41: 7e7fbc52-489e-4e13-b565-35cfa06147ec
+  '293797':
+    uuid: d0d4e86c-6cbf-4958-a536-9d43d3144b04
+    E41: 1f118068-6f19-4977-97c7-0a2c95f71e4a
+  '278072':
+    uuid: 317d5a63-6558-467c-b61a-5523ee82eeae
+    E41: 23252fdf-65ec-47ae-8e7d-09f8599cb5d9
+  jesuites_de_paris:
+    uuid: 70c52f22-44ef-44f0-9b8b-d3be7f8c4669
+    E41: a0c9c068-3320-4f98-8aad-e0cb98a68351
+  jesuites_de_poitiers:
+    uuid: 0ff77a1f-0c2c-47be-8cd4-64d6f7566276
+    E41: 3f52ebb0-4659-42a7-9f73-01e8add2e480
+  jesuites_de_perigueux:
+    uuid: 785d964d-dbe6-49f3-9d97-16421bca4d2c
+    E41: 283322f5-d2f5-4fbd-a20e-c68687d7c321
+  jesuites_de_quimper:
+    uuid: f7690ac3-8799-4ecd-91fc-498bffdccf41
+    E41: a5e7fc2c-b10c-4765-aaff-dcae94ff18f1
+  jesuites_de_rennes:
+    uuid: 0901255c-0d5f-4579-baf1-a3e74fa1efc0
+    E41: 18a13ba4-836f-4319-9bdc-32d882c8916d
+  jesuites_de_rome:
+    uuid: e5cfb63d-5b91-4421-8a44-9623fff9b6fd
+    E41: 1b47a81f-d0ed-495e-80fd-5d3692c105bc
+  jesuites_de_rouen:
+    uuid: 976bbc29-c4c1-45b8-8b0f-de44986a7b0d
+    E41: a5d74e70-1803-4af4-a10d-55fa50fe80bd
+  jesuites_de_toulouse:
+    uuid: 5d310571-d482-45a9-afe7-a128e8447c14
+    E41: 8f60ae13-1bc4-4b59-9bfa-85fccbe927f8
+  jesuites_de_vienne:
+    uuid: bfe686bf-4aa5-4c8d-9d89-c0baae48d9eb
+    E41: 2f3cc3b0-6a41-4772-99c2-3377df86961f
+  theatin:
+    uuid: bc889c39-f0a1-44ff-9b76-a36bf0fdfaf4
+    E41: f3b92f24-8588-47cf-871a-5242ea164193
+  theatins_de_munich:
+    uuid: 2643e8e9-c7ba-4e6f-b63f-cfa0e006a64b
+    E41: bf02f839-14f6-4394-971e-0306f3b57d15
+  theatins_de_paris:
+    uuid: cddd1359-efb6-4012-8d88-626dc7210d6f
+    E41: 784f3614-5db4-4545-8644-f87a7944b867
+  congregations_feminines:
+    uuid: ed5ddef5-38dd-4daf-aaa2-e52f64dc3196
+    E41: 21cb225c-769a-43d4-8667-a6ca677cfe37
+  calvairiennes:
+    uuid: 809d5d05-6931-47e1-9b75-bd250f7c78ba
+    E41: 76673bb3-65b8-4183-ba5a-2f639edab377
+  compagnie_de_marie_notre-dame:
+    uuid: 0ec70bbd-3bbf-47ed-8f55-22e085c6463a
+    E41: 7118447e-2e29-4ff8-a2b7-5ca3d5fba07f
+  compagnie_de_marie_notre-dame_de_richelieu:
+    uuid: 0eb8288e-6db0-4cf7-beaf-5e70a49a4e2d
+    E41: fd5748fb-a42f-4eaa-9d04-23c37c627671
+  '293833':
+    uuid: 1800ebbb-6817-4286-89a9-0ff3f9dc6efe
+    E41: 84069af9-70ab-4220-b5e6-fc5f4be49848
+  ursulines:
+    uuid: 20b610b2-4383-472c-aa30-1a17f490dd9e
+    E41: af53db88-be05-414b-a69a-35d1b1ac1683
+  ursulines_de_chatillon-sur-seine:
+    uuid: bc742250-927e-4710-b430-de573f103fa5
+    E41: 4b8b3441-8206-40ad-9d2b-9e4b400d18ce
+  '293835':
+    uuid: 44448a2c-cd89-4ae6-b84e-9f7f57b4990d
+    E41: bc8e9ab0-aef6-4643-8e04-1096ee918a3e
+  ursulines_de_rennes:
+    uuid: 6b405ac3-eddb-42f4-96fd-a0067613c828
+    E41: f0aa2f8d-59a0-429f-8de1-38d1844f8799
+  ursulines_du_havre:
+    uuid: 2c80e623-ec50-4591-95fa-0e6a60cd33b7
+    E41: 1e6cadb7-0f86-4d47-97e9-b37880db3508
+  visitandines:
+    uuid: 0ce5c130-bfef-457d-ac27-c445d80785ff
+    E41: 0ddb95be-a0df-4d54-bfd9-193c647fdc04
+  visitandines_d_aix-en-provence:
+    uuid: 1681e811-c028-4ac0-a9b2-14da9bb9bfa5
+    E41: 8b2bec60-cb79-4c87-9b7e-977d4cd71ab1
+  visitandines_d_albi:
+    uuid: 904f4fb5-a982-4b8a-9601-27804aa7729c
+    E41: 5846014c-5c18-4297-a1a5-8b4fad142239
+  visitandines_de_compiegne:
+    uuid: afa12f6d-fb87-482f-923e-2bae47bbab52
+    E41: 881fb0e6-7f15-4b73-a2d7-0d2bdfd057f7
+  visitandines_de_la_rue_du_bac_a_paris:
+    uuid: e50ff5f1-7d69-4ffb-85a2-b29dbb0f10c3
+    E41: 6b03c8a1-0f01-408d-9d60-d8c62f92ef0f
+  divers:
+    uuid: f574c2ad-98c1-4a6a-9a52-1b41ed25b173
+    E41: 7b597d7e-d594-4914-9660-65540b6039fd
+  chartreux:
+    uuid: a46c7358-5211-42d5-af9b-32ea62a9898a
+    E41: 31d1c26d-37ac-4e9e-a86f-28b994b8ad2d
+  '278071':
+    uuid: de113712-4cc7-4213-89dc-e1ab7dd67175
+    E41: c6bb1eb7-af57-4045-92de-952c6bfbe308
+  '278132':
+    uuid: 526e1d93-0f33-402a-a718-5808d37c491d
+    E41: 1ea0db64-5077-48b3-9766-a9f33413b5e6
+  celestins:
+    uuid: e41b5ddc-aa75-4a55-8cbb-6a4acd51b730
+    E41: a1cdab9e-8e6c-41be-be32-a09fa479c26c
+  celestins_d_avignon:
+    uuid: 671140c7-dc56-4931-aebb-77c703630018
+    E41: fbb68221-388f-493f-a8e4-85003d72c88c
+  celestins_de_lyon:
+    uuid: 4233c75b-ab15-48d8-af94-cdf744a3d90a
+    E41: 9a76cd2f-303a-4237-98fb-c7c4fbd3ff5c
+  fontevristes:
+    uuid: 8c8e1d5d-9a3e-4b31-af23-aadb72b3cba0
+    E41: 0c27ceaa-1e66-4cf8-96d6-08cd5333d25c
+  fontevristes_du_prieure_de_notre-dame-du-relay:
+    uuid: 70a3e365-54fc-4f1e-8ee2-d946353c5139
+    E41: 5354f7db-abdf-4b55-a0ea-4a70b4f020f3
+  moines:
+    uuid: 86168ef3-1cd5-4f35-8f35-4ec4f2304a89
+    E41: 6f4d385e-a066-4bfe-8242-69ed7486bbaa
+  cisterciens_ordre:
+    uuid: dd0838e0-9ea4-4a99-8775-4a9c6fc478aa
+    E41: eaf6481e-46fb-467a-9274-6c553bf42f56
+  cisterciennes_(bernardines):
+    uuid: e0aca66e-f2a6-44b0-b9ca-fc3fce34c663
+    E41: 306c83ea-e598-414e-b3a9-42d6f1da64c1
+  cisterciennes_de_l_abbaye_de_la_virginite_des_roches-l_eveque:
+    uuid: 28be7f64-fec8-4622-925f-b3a76b904962
+    E41: 5841f80e-ccce-47bb-a2df-b840baf91c02
+  '278123':
+    uuid: 0c00cef4-115c-4007-9117-c16fe2076d58
+    E41: aa7db3df-51c9-4bdc-904e-7cc8c7fffe81
+  '278124':
+    uuid: f9db8cd9-0093-44ee-bb01-d7e1b5729b81
+    E41: 71a6c413-3986-4c46-a145-f6defe1bdd34
+  '294085':
+    uuid: 1cb9f2b6-2518-45f3-8225-227158cfdea5
+    E41: 3d7f8a2e-7d07-478a-9f09-fc7f499ca626
+  '294221':
+    uuid: 2e75d69b-65ca-48be-83fa-33b5242e4a64
+    E41: c8edf94f-1b4b-4235-b03b-38c3f938f201
+  cisterciens_(bernardins):
+    uuid: 95f4d3e6-907b-46cf-96d9-2c52974bb883
+    E41: 82e5414c-269a-4c86-88f7-4ef29b451acc
+  cisterciens_de_l_abbaye_notre-dame-de-vauluisant:
+    uuid: 7ad70cf6-8886-4298-b587-a06aeaca3a00
+    E41: 4275982b-40e2-456d-8cb9-761d2a647dd4
+  cisterciens_de_l_abbaye_saint-mesmin_de_saint-pryve-saint-mesmin:
+    uuid: b163f8f8-17fb-429b-8e7b-ee855016190f
+    E41: 92f9fcbb-342d-4c54-9d0d-0078a733b8ec
+  cisterciens_de_l_abbaye_de_clairvaux:
+    uuid: 16234a63-594e-43a9-9920-afdbca55d607
+    E41: ad3469e5-e39b-4445-b4df-7f2b225a1e97
+  feuillants:
+    uuid: f09abafb-a136-4854-a18b-bb0dad204a10
+    E41: d9f3ab69-7708-48c0-8f8f-036ce87e8541
+  '277991':
+    uuid: 4648203d-e09b-467c-a938-9aacb61b9fef
+    E41: e443c777-b357-41eb-9cb8-f63437f88bac
+  feuillants_du_monastere_de_chatillon-sur-seine:
+    uuid: fbb2bb6e-8e88-4048-be9a-57e05853586b
+    E41: 16f95fcf-d28a-49ac-b925-fb0348602f56
+  feuillants_du_monastere_de_paris:
+    uuid: fffb49ac-df3e-46c2-9e3a-c7c811c0a021
+    E41: 45e58e8b-be14-4d87-bf0a-ff8acfde7d43
+  feuillants_du_monastere_de_versailles:
+    uuid: 6b4e7cbd-a9d9-46ae-8490-3ab39621e2af
+    E41: 27553dd4-6b7f-49f2-8ac6-ee570c193112
+  benedictins_ordre:
+    uuid: 79742134-5757-4171-9fd9-b1c53c492668
+    E41: 4d27c328-91ee-47db-8002-896236ff116b
+  benedictines:
+    uuid: dc54253d-a282-444c-9045-85c6837df5f9
+    E41: ebd04bc6-96b3-45e3-9a10-54a43370ccd3
+  benedictines_de_l_abbaye_notre-dame_de_chelles:
+    uuid: 3e84a1b4-0054-4e58-af7e-c131a6554915
+    E41: 8f25626b-b347-42a0-9b49-28eadb453f71
+  benedictines_de_l_abbaye_saint-pierre_de_lyon:
+    uuid: a9298832-8c8d-4b43-99f1-f587f23cfdec
+    E41: 68fd15d7-5180-4774-9065-aecba13ce896
+  benedictines_de_l_abbaye_sainte-croix_de_poitiers:
+    uuid: 9198a2a4-e296-4ea4-9627-52803da26ff7
+    E41: f2c5ae22-08af-4c55-90ab-3fd7f3be1b81
+  '276445':
+    uuid: aeaf35fc-3001-4c03-ad32-4c547c6120a5
+    E41: e82ce7f7-5ad9-48b8-addb-df9eda4c41cb
+  benedictines_de_l_abbaye_royale_du_val-de-grace_a_paris:
+    uuid: f2590683-1c57-42b5-95f9-0daa31cf9fa6
+    E41: 2ab97129-5872-4a67-81f6-6be7e92ce4ca
+  '294287':
+    uuid: 9c23a2ed-16e5-49e5-93a3-bcfacf7259ba
+    E41: db9507dd-74f4-4f81-ace3-2256f4efcf47
+  '293739':
+    uuid: fd31433a-0892-41d8-9e19-fc5ba2c65b54
+    E41: 051fd145-c067-4eba-aa15-b9e5faea0983
+  benedictines_du_monastere_de_montdenis-de-la-creche:
+    uuid: 7b8f342f-7e19-406c-b651-5b1661584671
+    E41: e536f52b-a392-46cf-9048-c13367127e74
+  benedictins:
+    uuid: 7caa7d82-3236-4770-a629-26fd10183287
+    E41: 5bfb9566-9045-46cf-8315-9dfd63c1cd29
+  benedictins_de_la_reole:
+    uuid: cd7d3ad3-f3fe-4b61-8e08-5f5d50ef4fd0
+    E41: 6bc9faf2-a407-4df5-b624-8d87adaa045d
+  benedictins_de_nancy:
+    uuid: b2e3868b-93ea-4280-bbf4-5d69056e9972
+    E41: 5a1492f7-0576-49dc-a8d7-a52450590409
+  benedictins_de_bernay:
+    uuid: dbf91e02-fe5e-4f0c-9120-680abcd6c79a
+    E41: 950bdb4d-4cd6-429a-82e0-327b931c2e8f
+  benedictins_de_l_abbaye_saint-pierre-saint-paul_d_hautmont:
+    uuid: 2d4e7037-1acc-49d1-82ae-6b3a1bdedd99
+    E41: 6795fa33-ee5b-4594-9c35-56842124ab3a
+  benedictins_de_l_abbaye_de_saint-denis:
+    uuid: 7d155de4-dc7c-4c70-aae5-0d45a847441b
+    E41: 6db0c1b6-8925-4724-b635-c1064ffbfdf8
+  benedictins_de_l_abbaye_de_saint-sever:
+    uuid: 7f9fadb7-fdca-457b-902e-d8fbd98adace
+    E41: b601e667-031d-4815-8bd9-2d3ae085fb7c
+  abbe_de_saint-sever:
+    uuid: 87f24145-0a8a-4aeb-84fc-6ef2d1dd4f36
+    E41: ac5012b2-23d2-45a2-b807-b4c21965a124
+  benedictins_de_vendome:
+    uuid: d044c29a-323d-4889-83e7-49a1ef91b39f
+    E41: 0f22f4d8-124f-4930-ac82-d0131b446afb
+  benedictins_du_monastere_des_blancs-manteaux:
+    uuid: a8bcfe7d-01eb-493d-aab2-0215ecb8e1c4
+    E41: f75109bb-b016-4f8f-906c-8516ba515711
+  mauristes:
+    uuid: 9529ec0a-e47e-453a-a94c-808ce15f100a
+    E41: 8b64228c-b6ff-4612-995e-134a75eb0c87
+  Mauristes_de_labbaye_Saint-Corneille_de_Compiegne:
+    uuid: 2ffe8fca-3c3a-4638-adbc-293db93a487b
+    E41: 094a01da-5b1e-4d71-9e7a-e960d2585f2d
+  '276459':
+    uuid: d0767e86-4a48-4233-86c7-4594eeb15095
+    E41: 61274cd2-f277-4d8e-a626-de3d086a96c7
+  '277988':
+    uuid: 2f8ef0ae-2bac-428e-8a02-e9a9c9738c61
+    E41: c41e31bd-b3ca-4dc8-91f4-cb995a160c85
+  Mauristes_de_labbaye_Saint-Laumer_de_Blois:
+    uuid: 9bc5b55b-0474-4cf0-b196-9ed20e31beda
+    E41: 9cd104d7-4a02-488a-95a3-62a4d3c6a41c
+  mauristes_de_l_abbaye_saint-pierre_de_la_couture:
+    uuid: d8032698-336e-4ec4-bd08-502365b822c0
+    E41: e6e79985-3787-48aa-ae3c-75e5fe7f11c5
+  abbe_de_saint-pierre_la_couture:
+    uuid: 8aef9f3c-bfca-490e-a1d9-a9a1a2f54528
+    E41: e1ff7692-b1cc-4d6b-9837-2610a52562aa
+  '277874':
+    uuid: 7b8bdf5b-8f51-4210-a9f2-b8778bb261d4
+    E41: b0b52d25-8441-49d0-9c73-daed889f4aa0
+  mauristes_de_l_abbaye_de_saint-germain-des-pres:
+    uuid: 1f013c01-b58c-4c80-9cb6-19ec0900ef63
+    E41: 8bc0842a-06d6-4037-90cb-8c8123ce7392
+  mauristes_de_l’abbaye_de_la_trinite_de_fecamp:
+    uuid: d6c4e773-47c2-491c-9167-93b06ff0b483
+    E41: 8143fe19-5008-49f9-961c-6102cbe4994b
+  Mauristes_du_monastere_des_Blancs-Manteaux_a_Paris:
+    uuid: 8a741e5a-f8e3-4a94-b663-57b462e567ea
+    E41: 5a0e3508-7d21-41f2-bb6d-465fa57146c7
+  ordres_chevaleresques:
+    uuid: 669b94cb-80e5-458e-861b-3250f2fa28ed
+    E41: 89441fd3-39b6-44f7-9c93-e7ea6ae605d1
+  '277993':
+    uuid: 1a84b38e-de6f-4f82-a979-7470e67a4c16
+    E41: 424553fd-a04c-470f-abf0-2a715e88d74a
+  ordre_de_malte:
+    uuid: 60b2e8b5-0170-41a9-b4e0-20b1915422c7
+    E41: 683f2367-42e4-4148-8112-2139de70d2a8
+  '276458':
+    uuid: 67ec616d-bca0-4d17-956e-377bb52bf0e1
+    E41: 5bf8eab4-6708-48ee-a016-78e433f00875
+  '277992':
+    uuid: 94da3e2f-04df-43ae-bd40-19842089bdb3
+    E41: 13554652-9167-4a63-b0d5-44a3a6aed58f
+  ordres_hospitaliers:
+    uuid: a906362b-5694-44a3-9ba7-c88abfb138ed
+    E41: a26559cb-f403-4cdc-b91b-d01744c74128
+  freres_de_la_charite_(ordre):
+    uuid: 31c5d0b5-443b-4153-8ceb-1c525f323df9
+    E41: 61d6298e-d181-43ba-b97d-c2d2f320260e
+  freres_de_la_charite_d_evreux:
+    uuid: deec13d1-db0a-45d4-be1a-192c5a6151c9
+    E41: 2cf39b3f-910d-4436-8f66-148d97e3813d
+  '294077':
+    uuid: 2726fffb-2544-41df-946e-8b3552839c21
+    E41: 61163012-dbd0-4865-b29a-e410ec71ccd9
+  freres_de_la_charite_de_grenoble:
+    uuid: e3adc231-dbc0-4900-b961-d525738f367a
+    E41: 053f39d4-22d7-43d2-bf27-3404b29d06d6
+  freres_de_la_charite_de_niort:
+    uuid: ee3191b4-2d60-441e-9cdd-e0e868b463db
+    E41: f0a70556-1172-4e5c-b5df-e0fddca3fa99
+  '293795':
+    uuid: 1432ddb1-542a-4b6c-a25f-267b317e7d7c
+    E41: 4c0910f3-83d1-4c72-9e53-2b6d02d78608
+  hospitalieres_de_saint-jean-de-jerusalem_(ordre):
+    uuid: 7b8364f5-b09f-49ff-80b9-a68ef75a224e
+    E41: 4eff20ec-89eb-44e5-9495-bdb776fda9bc
+  hospitalieres_de_saint-jean-de-jerusalem_de_toulouse:
+    uuid: 7f318d23-4b7c-4450-8d04-09bc027ac01e
+    E41: c2f52b18-5918-4f42-ae0a-74b53628d8ea
+  ordres_mendiants:
+    uuid: 0fc85722-f419-48ec-8af8-05fd4da5acd8
+    E41: b4e74786-550c-4427-a078-3c15bbb2812e
+  annonciades_(ordre):
+    uuid: 2c49be07-a440-4c20-9f5c-04993f52e548
+    E41: adf43432-dc53-487a-bcd7-8955a5ce8c55
+  annonciades_de_bourges:
+    uuid: 53ca8e73-f777-44a7-a9d4-0eea2b529ee3
+    E41: 8db727aa-8b8e-4089-aefb-3812b43a7aba
+  carmes_(ordre):
+    uuid: a1c6a0f6-2aef-437f-8093-0763fb3055bd
+    E41: fb28cf95-3883-4797-a521-42bc1d3391a2
+  carmes_dechausses:
+    uuid: b3f353ef-162c-44b8-b5dd-4ccbfa66be0a
+    E41: 23df987d-316f-4979-8e1e-709ac27c80c3
+  carmes_dechausses_de_lille:
+    uuid: a416d6c0-390f-4b48-9507-e4f373edeb82
+    E41: 66e1879b-fbfa-4bfa-88b9-346df30d5b18
+  carmes_dechausses_de_madrid:
+    uuid: 12622fbf-59f4-464f-ac54-54012af89e10
+    E41: b714dcb5-1570-4036-ad0c-8386010958cc
+  carmes_dechausses_de_riom:
+    uuid: a82416bb-4e41-457c-9641-2339eda59712
+    E41: 21554fda-a9a5-48a7-8ccb-ebcf6fced8f3
+  carmelites:
+    uuid: 89fe13f5-c728-4d8e-9bad-70e4a76e971e
+    E41: 225f1fe7-56b0-4314-b948-ebe7a1b7bc2a
+  '276461':
+    uuid: ffed7566-242a-4958-91e8-bbb7b8a3af7d
+    E41: 0a292d64-1b59-4ead-8948-60c485a28185
+  carmelites_de_lyon:
+    uuid: 2396fa9b-e1e8-4057-afb3-86670cf75add
+    E41: 692e95d7-0951-418a-a571-29fcf6ef6555
+  carmelites_du_monastere_de_la_rue_du_bouloir_a_paris:
+    uuid: d18149a6-fddf-4b32-9e91-7a94bc7aba14
+    E41: dcb10f52-1d48-4a7a-9c2a-bc76e12964ab
+  grands_carmes:
+    uuid: b01d25d4-6ca8-4689-89dc-cca891f3de6c
+    E41: 23fa09b8-49fb-480f-8e79-3a12275483f0
+  grands_carmes_de_besancon:
+    uuid: 4b3a050b-8e85-4ba4-80a9-62e3a9c1a8e5
+    E41: bcd088cb-f493-4a6e-8653-9ad4c979239e
+  grands_carmes_de_la_fleche:
+    uuid: 35235d04-2cf4-4bf2-9c30-394ba3c81b54
+    E41: 6927593c-5f61-4ae6-bf77-3c315688d589
+  grands_carmes_de_lille:
+    uuid: 2a82b637-3276-4158-8934-86e8b7e98388
+    E41: d257fdbd-b766-4a3f-83bf-1b483855f5c1
+  grands_carmes_de_madrid:
+    uuid: 0857b777-0439-422d-b9c0-9318fa356b93
+    E41: e93e74db-cbd2-4538-a550-3f9c645b0e5e
+  grands_carmes_de_poitiers:
+    uuid: a6a528de-e1de-40cf-9a12-fb4998f9b0bb
+    E41: a5ae71be-3dcd-48ff-bea0-975d746f71bd
+  grands_carmes_de_pont-audemer:
+    uuid: bd055865-2463-493c-b9e2-deda53eb0646
+    E41: 5308cf09-5822-4ce7-9bcd-cba29f4c9291
+  grands_carmes_de_rome:
+    uuid: f3875202-71b4-4922-838c-be67a13ff643
+    E41: 8b16583b-6f51-49d6-99cf-3deca30c23f9
+  '294103':
+    uuid: de772108-7686-4f35-8324-a5b2d3c26b2e
+    E41: 6c8e22de-b5ae-4269-889a-88bafcae5304
+  grands_carmes_de_sainte-anne-d’auray:
+    uuid: afcfdbc4-d313-430c-8f5c-ac275a8ebe1e
+    E41: 28f4e3a3-9041-414b-b25e-26ed8088faa6
+  grands_carmes_de_toulouse:
+    uuid: 04aa667d-615d-4121-b6e7-3e037ded53a6
+    E41: fe45067d-63f7-48d9-92aa-ec43583219d3
+  grands_carmes_de_valenciennes:
+    uuid: 9d64d5d2-e208-4684-852d-19b12c456c58
+    E41: 2911a452-1bbd-4210-8d54-2123adec61c4
+  grands_carmes_de_la_grande_observance:
+    uuid: 8a9f2e6e-e34a-48cd-8e3a-066ac45c880e
+    E41: ae76e94a-e1b4-4b56-ae24-9c25a2afdb9d
+  grands_carmes_des_basses-loges:
+    uuid: 546a84e6-d69e-4d5b-906d-8d83e415ebb8
+    E41: ea019b2f-7b56-4e54-b84c-2e4a79035c4e
+  grands_carmes_du_couvent_de_saint-martin_de_rome:
+    uuid: 1b0b6d24-bc71-49ca-bd33-64f3a6378e3a
+    E41: 30c3a831-becc-4f90-b809-ef5e520d67f6
+  grands_carmes_du_couvent_des_billettes_a_paris:
+    uuid: a1908e34-07da-4106-bc2e-11d95b910763
+    E41: 038a0a69-aa06-4ed4-9a80-5e783f2eb930
+  grands_carmes_du_grand_couvent_de_paris:
+    uuid: 1d14db02-c850-4df4-9b11-8a410f798193
+    E41: a3312356-8d19-4452-911b-818a27f42eef
+  dominicains_(ordre):
+    uuid: 9c032eff-9f38-4a56-ac3c-a0f112376570
+    E41: 6b43b4ca-0aa1-4699-bec3-cf79fefa0f29
+  dominicains_d_evreux:
+    uuid: 55274b75-ae03-4b36-9e96-b5ea5ddec7f1
+    E41: 4dd80e47-17d2-43b3-9725-47544a7067f7
+  '276447':
+    uuid: 840bb3b2-99e6-4c72-a82e-ef4d3ce053c6
+    E41: 793926aa-de72-40fc-b1a9-dd7b86088f08
+  dominicains_de_bordeaux:
+    uuid: 4ae0e8a9-e99d-4aec-a2ff-7bfc1c1c8734
+    E41: 81927409-951e-43c5-a066-20118f4e8a64
+  dominicains_de_caen:
+    uuid: 7177758c-66af-417a-baba-8176805fba21
+    E41: 384307c5-5684-4ddb-b690-45b89cd4d344
+  dominicains_de_compiegne:
+    uuid: 86cbda8b-82b3-46ba-b105-f9d46b031116
+    E41: f819e461-c49b-4335-a899-eb8dccddd997
+  dominicains_de_madrid:
+    uuid: 06897c4a-6b90-4b8e-bab7-a9a3f218260f
+    E41: 9f4449e2-ff92-490d-80e5-66d12fba97a0
+  dominicains_de_nancy:
+    uuid: e6111a15-d311-4d44-9d4d-17a643795af8
+    E41: a1d34527-f9d9-42c4-b6dc-ef5005f600e9
+  dominicains_de_paris:
+    uuid: 148c70a9-abf3-4550-9e90-9d2fdd819895
+    E41: c19674f0-a88e-4ef1-abe8-3e4d3008a218
+  dominicains_de_poitiers:
+    uuid: 7e3e40fa-2300-426a-944c-83c37d5363b1
+    E41: 7d55bfb8-9bb7-442c-8dc4-578e5378a53a
+  dominicains_de_toulouse:
+    uuid: 612f5d98-7ae3-4914-ae25-ce6886cabbda
+    E41: 9ddf34a4-84d3-4a25-9581-2162ead78a2d
+  dominicains_de_la_rue_saint-honore_a_paris:
+    uuid: 526fe6e8-498c-4361-b586-09d19bee78ae
+    E41: 2eb2c20a-8c3d-49fc-8728-70e81d827a13
+  dominicains_du_grand_couvent_de_paris:
+    uuid: 8fefaa23-9e39-441c-9cf2-8053b27e70f3
+    E41: eb3836f2-4c5a-40e1-a913-b4cfb36ec00d
+  franciscains_(ordre):
+    uuid: 8715c1e0-71fa-4e49-b706-eb2ec3bfd4bb
+    E41: 071636c3-e22d-49a4-95e8-6748963d1079
+  capucines:
+    uuid: ffa84acd-0ec4-40a8-ad16-33cee4874c12
+    E41: ed499419-fb1b-4ee6-806d-d660684bfabb
+  capucines_du_couvent_de_la_rue_saint-honore_a_paris:
+    uuid: cb80fda8-4a4a-4c17-ae06-6ceeb6c8fcfd
+    E41: 21fc4f32-3f5d-4e61-a2ec-07e959475445
+  capucins:
+    uuid: 88893046-d244-4868-b517-1a53677350d1
+    E41: e1b68889-1246-494b-b0be-3bc27202c54a
+  capucins_d_alencon:
+    uuid: ccfb82c9-8c96-471a-ae64-986c560b56fa
+    E41: f74f701d-510f-48ad-9370-af5400463909
+  capucins_d_amiens:
+    uuid: b865f8fd-8711-41d0-bf07-e4a0afda76ec
+    E41: 6aa50755-1dc8-4254-92e3-60ac74cfa0f8
+  capucins_d_angers:
+    uuid: 0caa4abc-6d99-40b3-b06e-91cf946df637
+    E41: ae87507c-f342-4873-9547-52a5052adb2e
+  capucins_d_eu:
+    uuid: 50431958-1213-44e1-8b30-67a12d6d2c80
+    E41: f859c827-db4a-4f7e-a521-74e6b468f347
+  capucins_d_etain:
+    uuid: e184863c-4c8d-4df8-b944-743caa646404
+    E41: 7038ca55-6e02-448b-96bb-8f0c126de53b
+  capucins_d_evreux:
+    uuid: 495e4944-e681-47a9-873c-9ed9cc615b22
+    E41: bcc55ef4-3dfb-4de1-b247-782ab1ad66cb
+  '276448':
+    uuid: 4f62d4c6-7b0c-43d9-925a-f8521474a4d2
+    E41: 86b8b623-f6d9-4845-acd5-e0e5713026e7
+  capucins_de_compiegne:
+    uuid: f3f59354-23c2-480e-b6e7-69ad45a92181
+    E41: 93e2798d-dbbe-40d2-9f0b-627776c4ae82
+  capucins_de_constantinople:
+    uuid: 391bf6fd-b89e-44df-b8e1-d25f85c5d20d
+    E41: 426fed1f-8707-4a87-9ee9-4fa00017570d
+  '293787':
+    uuid: 84da0194-12f8-4372-b228-3fe55561de9f
+    E41: a8927da6-1f66-437c-b8dd-cd34cefb84b3
+  capucins_de_fecamp:
+    uuid: b6e562eb-d1ca-4887-a548-d133396a2abd
+    E41: 5189474a-21ad-4242-bb87-170e209266c9
+  '294289':
+    uuid: 7474f17e-c980-426d-8c51-93f687052b45
+    E41: 2e0b08a8-9bcb-4ac7-a149-8540926447ef
+  capucins_de_grasse:
+    uuid: afed2508-8719-44b9-8809-2fd9807c82f9
+    E41: bee0ee87-07b2-4b0c-9dd1-685af47945a3
+  '293823':
+    uuid: b35dd873-ba39-40fd-9882-986ee13a08f4
+    E41: 033be031-ba09-4d54-940c-a17d2463bba6
+  capucins_de_loches:
+    uuid: 12555b78-a6e9-4123-9d36-a844f0425ae4
+    E41: e06e0515-14f0-49ad-be77-e9fe70f4f9dc
+  '293763':
+    uuid: 56b24e14-cacd-4329-8077-56f5bb650cbd
+    E41: c1c74610-953b-4e34-a6f0-ec86dc79c669
+  '278127':
+    uuid: 6cd23c63-b7b4-45db-8dfd-46dc4bac2b5c
+    E41: ebd895fd-2e2d-49a1-807e-0362b90267b2
+  capucins_de_mayenne:
+    uuid: 8c22740e-cd0f-4ce2-a50d-61a1d94d4712
+    E41: 9276bf14-6e16-4127-bb57-2333c71158f8
+  capucins_de_melun:
+    uuid: fe8e427b-204c-4155-98ab-94371b192f7a
+    E41: a32508ed-ec94-4818-a86d-8118f1bd968e
+  capucins_de_montelimar:
+    uuid: fe2bb4e9-8cc5-4e44-b27d-af6f78e92cfd
+    E41: 4b46b82f-222b-4870-a6fa-8f7a8058f648
+  capucins_de_nancy:
+    uuid: c75555e3-2b0f-4b49-a5bf-dee0f8a7981f
+    E41: 60f440ab-20e8-4bc1-9554-64e1dead4fee
+  capucins_de_niort:
+    uuid: 0551d2de-e8f4-4ae1-bcdd-2e7c1aebf058
+    E41: 4be25015-6da6-467a-a097-dfacf9c97830
+  capucins_de_nogent-sur-seine:
+    uuid: e876b383-3daa-4192-a92e-5e00f0427854
+    E41: 02cbee2c-5ac4-4189-871e-90678a7a40b5
+  '276454':
+    uuid: 13ad64c8-3c45-47bc-a5e8-949fa8cc12fc
+    E41: 5081f5af-e74e-4cc7-82aa-7e0654a0b3d9
+  '294101':
+    uuid: 0e340985-b9ba-4c48-8d48-64d3e13a727a
+    E41: 3c60feef-6068-4532-b78f-56d171602216
+  capucins_de_saint-maximin-la-sainte-baume:
+    uuid: cbc69ca1-5981-4609-974d-3c87e92e0bc1
+    E41: 4c7ca809-0e49-4bc0-b99a-905d92a35a31
+  '276446':
+    uuid: 8ef899f3-bf00-40a4-8a3b-22aec8d3bd01
+    E41: 9cf3b1c8-e9d9-42a8-9e46-4a1a670e21f0
+  capucins_de_vernon:
+    uuid: 294bf064-b825-4ba4-a1bd-8703462c2561
+    E41: 9689d973-d166-405f-af34-e880b9f5dd13
+  '276455':
+    uuid: a90fa1cd-f74c-44cc-a218-f58cd976e225
+    E41: 52f4331c-c27d-4096-b598-6a54f559f611
+  capucins_du_havre:
+    uuid: aff1ee38-f371-4334-9474-0e5918b70c10
+    E41: 53de7d57-30f5-4bf6-81b9-b0f1bc76075b
+  capucins_du_faubourg_saint-jacques_de_paris:
+    uuid: a62bb88f-bd43-462c-936b-f2ea44ce5b7b
+    E41: 037b0674-69ed-4e94-b599-5461bafcb8c5
+  clarisses:
+    uuid: e61ee420-c9c2-4a2d-98b4-7d290093ad8c
+    E41: 48249cc8-cdf5-45aa-a51c-c9ea0a24d43d
+  cordeliers:
+    uuid: 70ae4f20-a265-445d-9ac7-0a52d19e5534
+    E41: 6c9ebd75-bcd8-476a-82d9-6d739878ec76
+  cordeliers_d_evreux:
+    uuid: 6044de8b-b74e-4a9b-a802-4dae2d78f3b7
+    E41: 893c1246-3166-499c-bb56-0cabd399b514
+  '278133':
+    uuid: 7dc40b5c-9f00-403e-a380-9101eebadd1d
+    E41: 73b4ab86-81b1-4d9c-aa14-fb00bd935e95
+  cordeliers_de_chateauroux:
+    uuid: e64d3f12-a6fa-4f06-b533-7912afdafc0e
+    E41: 7d91f1a5-4555-44d8-99e8-c5e4f828a2a2
+  '276463':
+    uuid: 0e1def75-096c-4549-ab4e-6ad4390431e9
+    E41: 661ea93d-4e9f-4bc4-9be8-3161cbbf7817
+  '294293':
+    uuid: 0a739dc6-4288-4685-a546-0602e6dc150f
+    E41: 4c2be505-669a-42fc-93b6-7ba9120060fb
+  cordeliers_de_libourne:
+    uuid: ec5423c0-1a95-49e7-bf78-eddc1e7b9893
+    E41: 162ceccb-597f-4497-afd2-eac17f123aa3
+  '293831':
+    uuid: 433eefb2-d054-4375-9a02-3730f584ed34
+    E41: fd3108a8-8693-41df-854a-ba0d7bfe7c7a
+  cordeliers_de_loches:
+    uuid: e94afa47-cf28-4fea-a1e5-556de841c5bd
+    E41: 7d3aad06-7d5d-4fc2-a547-5d88cbb1be5e
+  '293793':
+    uuid: 6d0b834b-00aa-4c74-9dd8-f844a9f54ac6
+    E41: 0080af93-9a61-4608-a1bb-518275295338
+  '278054':
+    uuid: 88b83662-f819-448b-adbc-3e731e0542f4
+    E41: ec37ed68-a924-4626-ad88-49c8e76073d8
+  cordeliers_de_montelimar:
+    uuid: 444f32be-4249-4f28-ae58-888bf7ae7952
+    E41: c2b4b84a-e802-4296-92af-4c6457c3e1eb
+  cordeliers_de_nancy:
+    uuid: 1816223c-20c6-4180-a6cd-fae2c6a0101d
+    E41: 5eee5032-77ef-4734-a8a3-815f635d7714
+  '293949':
+    uuid: fec784e0-e95d-4fd4-b981-9a9f9820d32f
+    E41: 177345e0-6d59-4c8a-9dee-59bf48ee17f2
+  cordeliers_de_niort:
+    uuid: af5d8a38-69e4-4d82-90a7-c3fc64b406c0
+    E41: 21daccca-f03d-4942-bc8e-5c56c0015a4e
+  cordeliers_de_paris:
+    uuid: 5599e58d-82c1-451b-bc86-43b74fb17c0a
+    E41: 9f8ad5d7-8c18-497d-bfdf-10669b3df213
+  cordeliers_de_poitiers:
+    uuid: c63df88f-49f4-4bf2-8916-1b017c37b701
+    E41: 151c78f2-c557-419e-9f02-b9674e12a779
+  cordeliers_de_pontoise:
+    uuid: ce646396-6500-444a-96f9-f24a9f0c477a
+    E41: 20f78e2b-1747-4d86-8f4e-0149908e45ea
+  cordeliers_de_reims:
+    uuid: 9011c3e4-32c2-4c55-8ba1-7aa9356ba821
+    E41: 90a3c415-309e-4b4b-9e8c-c0388ac9cf8b
+  '278027':
+    uuid: 79ab9452-3124-4a7d-976f-861a898f4efb
+    E41: 7a0e6ac6-7e34-44c9-bda7-d6fd9dcfd384
+  '293745':
+    uuid: d94204c6-a517-4132-a591-65ace89a7941
+    E41: bfdbbd50-5f58-412f-9c53-f0cc41fae4bc
+  '294099':
+    uuid: 72f81448-fd4c-412f-8de4-0395848dfce8
+    E41: 9baa4e83-48c4-465d-b7dd-da7a164946d5
+  '294021':
+    uuid: 84a1730a-ee54-40ff-babf-ec37be63e98d
+    E41: 947bb671-7347-4e35-a153-767522a3e899
+  peres_de_terre-sainte_d_alep:
+    uuid: e545719a-c46d-43aa-9757-8f48d4db2205
+    E41: 52483e82-5052-420b-8c79-b0a7427e5ceb
+  '294025':
+    uuid: b2bfa60f-e549-456b-b64c-d86f2ed2d04d
+    E41: fe5d59a5-155f-4d1f-855d-ec71d0bb4356
+  recollets:
+    uuid: 32d46dbd-1d31-4e5e-a01a-8e1f3a56c276
+    E41: 58a1c351-ef89-4c52-96f3-ba3f23960abd
+  recollets_de_chaumont-en-vexin:
+    uuid: cebd22fa-6e98-4276-ab25-f42ff401be00
+    E41: ef146f6c-a6d7-4cf7-818e-64408067c5ef
+  recollets_de_clamecy:
+    uuid: fae9623a-59b2-4767-9f71-1a32e0c23e89
+    E41: ef80dd59-0f52-4b24-8c69-270ebeb93435
+  recollets_de_guyenne:
+    uuid: 8191684a-5c43-4b9a-af30-ca09c8e26a44
+    E41: 5bf943c3-7024-475b-817f-f18dfe1d5279
+  recollets_de_jarnac:
+    uuid: dc20c445-db2a-4013-bf47-3b04c7def6f0
+    E41: 42719706-63f9-4e8a-b6f4-0d1c733567b8
+  recollets_de_la_cote-saint-andre:
+    uuid: 5c0ce3ed-bc1a-418e-a0bd-af270875ded1
+    E41: 73e8f93b-2afe-4e9b-88bb-c44ba70c6ca0
+  recollets_de_luxembourg:
+    uuid: 57c4e131-95d5-4f8d-8e64-87ea73703085
+    E41: 3deb07c4-d160-4cc6-a58c-1e3f25882b34
+  recollets_de_montelimar:
+    uuid: 1a8945a2-6d89-4871-b89d-9fb90627a99d
+    E41: 2a6c902f-eef8-4805-99f8-0dfe20e92b39
+  recollets_de_paris:
+    uuid: 0d0dcc84-9c3f-4384-a709-add3de50912f
+    E41: d83e8b40-04bf-4257-99c1-30a887bbc829
+  '293889':
+    uuid: 1fcdc7d1-231d-44ce-99eb-480a999ba5c8
+    E41: 028118ec-3b1d-47e1-9164-454616528921
+  recollets_de_saint-denis:
+    uuid: 7a7c256b-1d53-4fd9-b789-97d4abe9a52b
+    E41: 0eb526e6-107c-4f5e-83fc-446b449f8916
+  recollets_de_saint-germain-en-laye:
+    uuid: 8c66fa77-a4d2-4ef0-abac-2dfcca76d7e0
+    E41: 51f09fa7-8d83-4c06-a555-773ab0688fbc
+  '294019':
+    uuid: d1c5b1f6-eeac-4b65-b956-588d53def6a2
+    E41: 0cd6776e-d9ca-423c-af63-53e57958d071
+  recollets_de_versailles:
+    uuid: c74b27c5-9c19-4246-be9b-af03cff1b827
+    E41: 8563fc80-c748-4e12-a4c8-f57d20bda2e9
+  tiercelins:
+    uuid: b9fb3d79-069a-4d8b-a0ec-169718f97d03
+    E41: 58a7768f-e529-4d0d-bcfb-955ff80cd072
+  tiercelins_de_nancy:
+    uuid: fe7a1a12-254f-4f81-a257-29c314fb2911
+    E41: 57832b32-6211-4904-aff7-721fe9cdf0c2
+  '294023':
+    uuid: 385350ce-ee40-409a-b006-29926613b6b1
+    E41: 4357f9f8-1ac2-4edf-b31b-06fa62987857
+  mercedaires_(ordre):
+    uuid: 70ac42a9-8f5c-411a-afb6-35a0e2418492
+    E41: 8225af29-acc0-4912-be22-0ecb6fbfa460
+  minimes_(ordre):
+    uuid: e4475738-111c-4382-abfa-001585a0a282
+    E41: 25b9c579-cd4f-49fd-8310-07ca197c69ff
+  minimes_de_bordeaux:
+    uuid: 8be1452b-2ae9-4abb-b41a-70e495ce9090
+    E41: 6c5f4950-bde3-4231-b551-8afecf7f9778
+  '276462':
+    uuid: 7d055b1c-25dc-44c0-88bc-75a7aa3aa1a2
+    E41: 3c086c71-78c3-44c9-b737-cea17c63d0a6
+  '294295':
+    uuid: 95ebe33e-52cc-44cb-b44a-99586577edac
+    E41: 9631b3f8-f5e0-4863-9476-4d126a8b84c4
+  minimes_de_nancy:
+    uuid: a7e30086-c6ac-4d6c-a689-6293eb6b0293
+    E41: f74dd9cc-3ee6-4a83-a5d9-b4ba446218e8
+  minimes_de_peronne:
+    uuid: d781c9d9-fe2d-4c08-8cef-7618f8d6b3f1
+    E41: 64f38a52-7b96-4a0a-a465-d07fcb6d2661
+  servites_(ordre):
+    uuid: 7169c638-4b58-4c70-a00b-dd481e4f43d2
+    E41: 19818862-7324-4db3-9f60-ac198b863bdf
+  trinitaires_(ordre):
+    uuid: 05c790e8-58ed-4914-810b-df8af531a54c
+    E41: 9a322388-9c87-4ea1-be59-688a0d2251e7
+  trinitaires_de_limoux:
+    uuid: f1b8a3df-45a8-4344-9eb3-c31d497daced
+    E41: a4dcebfe-686e-4669-9211-2eb4fe8e92a7
+  societes_de_pretres_et_de_freres:
+    uuid: fb233384-dcfa-4758-8c1c-d6059f69d40f
+    E41: abb7b661-69c0-40b1-a3bb-6ff6f7fea894
+  oratorien:
+    uuid: 7b978bb8-7fe8-4253-8211-b62b963eb755
+    E41: ef70fa6f-4c2b-4d6b-a45e-678b52624ff3
+  oratoriens_d_angers:
+    uuid: b482347b-fc6d-4e46-a4b7-8d9466d3d7ef
+    E41: a9720fe9-dd4a-4486-a7d1-5e6f72f9e1e3
+  '278126':
+    uuid: 6e8ca198-1e41-4ae2-a7fa-e2bd19231b7e
+    E41: 695a925b-490c-405b-9f5d-c0bab8910cd7
+  '278073':
+    uuid: 8c79e684-6936-4afc-9b52-dda514e68695
+    E41: f0429d00-f8fa-45de-a8cc-d20d70ceccbe
+  oratoriens_de_paris:
+    uuid: 5e79c67a-f937-40e5-9f11-a59690b1786e
+    E41: 863519d3-0e55-4566-a552-f4aa12626243
+  oratoriens_de_pezenas:
+    uuid: 19dd1dc1-8acf-46c3-a9d7-92294d278c9f
+    E41: 0af41b1f-e956-4b94-a94d-4bf1d69fc19e
+  '276465':
+    uuid: 1ccbb930-b828-49c9-8e9f-eb5cadc94979
+    E41: 2dd31555-e394-42c2-9afe-38ae7bf5aa11
+  oratoriens_de_toulouse:
+    uuid: c4bc6773-e174-4820-beaf-bbdb8ac64675
+    E41: c9c7a647-97a5-4730-b2ae-7370b68a2819
+  Oratoriens_de_Vendome:
+    uuid: 4accfbbb-d9f6-4bd8-b9ca-772973862222
+    E41: 5517085f-8170-4a79-b2aa-ad0b0eaf0b74
+  '278125':
+    uuid: bcbd9443-4f53-467c-a0cc-8dd207a32d22
+    E41: 4deef28c-ea3a-42ac-ab2b-719f106035bc
+  pretres_de_la_mission:
+    uuid: d2dab99b-8e2a-4c8e-a869-1a8c180f9e2d
+    E41: 354022c8-c0bc-41bf-b9c8-0dde86a7e621
+  pretes_de_la_mission_de_versailles:
+    uuid: 8fc664d7-5dbf-4ae2-8e7a-8918b4553b3f
+    E41: deff3808-9ea7-4cc6-898b-e8224c439b3e
+  pretes_de_la_mission_de_marseille:
+    uuid: 7a1bd9aa-931f-4a1b-a928-29110985b6a3
+    E41: 60d623fb-cd3c-4837-8563-cff48b18b62e
+  '276456':
+    uuid: 3ebb50ec-8310-402f-8b33-f1bee5fdcac3
+    E41: caf13c6f-ae06-46fe-91f1-074118887b8a
+  pretes_de_la_mission_de_troyes:
+    uuid: ea6c668a-9545-490d-b95b-cb91f97708d5
+    E41: 2737ba5f-96ad-42f5-840a-789ee43e0493
+  peres_de_la_mission_d_alencon:
+    uuid: 4f217683-d364-4c32-b2fe-1f26de09b999
+    E41: bc6e6069-13e3-4c63-8732-9b38f69147f1
+  clerge_seculier:
+    uuid: 03fbc62e-ecc4-493d-9ce5-da2f80d76ab2
+    E41: c5c5ad6d-fe89-431d-8893-fa94bd00303b
+  archeveches:
+    uuid: 355d198d-5a97-4c57-b236-e836b6a788f2
+    E41: a29d2d67-3d78-4d13-a5c0-16eb76c3a158
+  archeveque_d_aix:
+    uuid: f73c948a-2ba2-4031-94c1-dcba889f2392
+    E41: ff5d872b-4777-4636-aeed-e921815ddd6f
+  archeveque_d_albi:
+    uuid: aa8841e1-6e35-4478-80fe-2edb5c57e46a
+    E41: 6b50aa22-e1f3-46bc-af58-5e75c8e2a5c6
+  archeveque_d_arles:
+    uuid: 4ef78674-3fc8-4d84-809c-7237b444b496
+    E41: 8a7694f5-dbf0-47fe-9fb3-458370b7caa4
+  archeveque_de_besancon:
+    uuid: 7b0dfb20-1382-4238-a84f-093f5b1ad42a
+    E41: 35fcae70-015f-4c0c-8a16-d70d2caa2981
+  archeveque_de_bourges:
+    uuid: 357474e6-c597-4a68-aeb1-ad2973540c57
+    E41: 35d96c5f-0b94-4c1c-a4ae-a245d171a3a3
+  archeveque_de_lyon:
+    uuid: 7513f629-3bc5-4370-90f8-80e3dff991aa
+    E41: 414e0642-a10a-4670-8855-884fed19b6b4
+  archeveque_de_malines:
+    uuid: 5aa88e4e-fd4a-430c-9ead-1e01f6088751
+    E41: 1df7d179-b0ca-49e1-b53e-8373d993af6d
+  archeveque_de_narbonne:
+    uuid: 0db86525-7a89-4595-8d8f-b6300d222791
+    E41: 73d8d8ac-7ad7-425b-a1fd-cf326b9524c0
+  archeveque_de_paris:
+    uuid: 8f489fb6-8ba9-41e6-bde0-81e169f14b75
+    E41: 44a3b34e-a995-41a0-b836-534b81987d94
+  archeveque_de_reims:
+    uuid: 6e36cd48-f7c9-4e58-be95-5a1b3a8117bc
+    E41: 6f2cb2ee-70d1-4370-aaf6-d4e68bb38c34
+  archeveque_de_rouen:
+    uuid: d97a3164-6eff-4e9d-98be-d3321b225709
+    E41: 1244da4b-0fa1-4702-8942-5eb8ced607b9
+  archeveque_de_sens:
+    uuid: 3094cb52-c34b-471b-ac7b-40b8ed038246
+    E41: 0b02d973-335d-4920-b8f5-6cfea93d8980
+  archeveque_de_toulouse:
+    uuid: 55585cd0-a518-4681-a248-154ce62b8f19
+    E41: 272c8173-b309-4039-83a6-18a382fdacff
+  archeveque_de_tours:
+    uuid: b94c9ac0-ccfc-4df6-a451-5723d503a3af
+    E41: 5b238cd7-fe2a-4399-9ef3-fd1aa627b1e3
+  archeveque_de_vienne:
+    uuid: dfbba4a7-7cfa-4114-9145-6a65870e9f66
+    E41: 2637db81-bf28-46d7-a498-305a585db3ca
+  '278070':
+    uuid: 08fe5578-bc4d-4cc2-ab55-1138039d0958
+    E41: 412450f6-ebc2-4069-80aa-9d329bb2c1cd
+  chanoinesses_nobles:
+    uuid: da59c322-a730-48ea-bbc6-672dae692a48
+    E41: db0df7a8-401c-4b3a-8cd3-301ee3cac4b1
+  chanoinesses_nobles_de_l_abbaye_benedictine_de_maubeuge:
+    uuid: d57781f0-757b-4fc9-915a-7316f4676a68
+    E41: 2b7fbdcb-84e9-4cc7-bc3c-86157854ec04
+  chapitres_cathedraux:
+    uuid: 3fb573f7-438b-4dbd-af0d-3e04a267d9d6
+    E41: 3aebc04c-9c28-4bc0-9530-932460d18145
+  '293807':
+    uuid: d5f5e46a-2d53-408a-9ca6-325945f3f9ea
+    E41: 600b3908-2f3c-4fef-883a-84546dc326d3
+  '293811':
+    uuid: d7c7b7e2-f083-46c4-a739-a3b25e37152e
+    E41: c1901bec-6ed8-42e7-8324-08fe3b0be24b
+  chapitre_de_la_cathedrale_notre-dame_de_burgos:
+    uuid: fa37c4c7-c5b4-4158-b016-ccfe6c32e3ee
+    E41: 36ecd567-495d-4345-ba1f-aa4abb98704b
+  chapitre_de_la_cathedrale_notre-dame_de_grenoble:
+    uuid: 480e3c9c-d5c9-429d-8ad4-11aff5dc6625
+    E41: 27bef51b-4d1e-4f93-be52-ef35b4fd923d
+  chapitre_de_la_cathedrale_notre-dame_de_paris:
+    uuid: 80af6968-3b64-47eb-9575-b1ca46f7235f
+    E41: b96ff7ec-d0a8-4edf-907b-d8ebae7cb555
+  chapitre_de_la_cathedrale_notre-dame_de_rouen:
+    uuid: 412ab9fe-40e1-43c2-8db2-81c8aa7840e2
+    E41: e414d5aa-7362-4965-b77f-5263d45fff2a
+  '278129':
+    uuid: 7ed6fdd8-2427-4a94-a97c-c8c90573b1f4
+    E41: d33e0be6-44d7-42fa-8041-191b76cde00d
+  chapitre_de_la_cathedrale_notre-dame_de_strasbourg:
+    uuid: 2506662e-e531-4e56-ae6c-1618d40ec012
+    E41: 7d7ac27b-5a70-4f4d-9f57-0d0f597c916f
+  chapitre_de_la_cathedrale_notre-dame_de_tournai:
+    uuid: 45165172-dd2c-4138-a2b0-52b401ca03d3
+    E41: f51cf837-4546-4709-adf7-6bbdfa9fd4c3
+  chapitre_de_la_cathedrale_notre-dame-des-doms_d_avignon:
+    uuid: 3cd1d266-7742-4b12-88d9-81c5df96dd5e
+    E41: b8f29343-dc93-4f1a-9e06-fdd980505dc6
+  chapitre_de_la_cathedrale_notre-dame-et-saint-lambert_de_liege:
+    uuid: 228dbebf-c54c-48e1-a277-17dd4895e7c6
+    E41: 4cced0a5-bfac-4314-a2be-11d2c005c83d
+  chapitre_de_la_cathedrale_saint-andre_de_bordeaux:
+    uuid: 7a0e4a28-baa0-41f4-b1db-cba73798777e
+    E41: 701dd370-0190-4f37-98b8-c8319387df9b
+  chapitre_de_la_cathedrale_saint-antonin_de_pamiers:
+    uuid: 29b225d3-4530-485c-b177-58be222dacae
+    E41: accdee31-6e2a-432a-9ef3-f2eb407af8bd
+  chapitre_de_la_cathedrale_saint-cyr-et-sainte-julitte_de_nevers:
+    uuid: b938ff7c-84df-4db1-a4dd-2ac10074ba2e
+    E41: 471038a7-da05-45e1-9e26-7875b0e32f2d
+  '293791':
+    uuid: 33c3acba-81c0-4030-9625-4571950183f4
+    E41: 88545e25-09af-4679-b375-4aec2caa7995
+  chapitre_de_la_cathedrale_saint-louis_de_la_rochelle:
+    uuid: f0fa4ea9-086e-4ada-b916-44cce16fe7e2
+    E41: f5838043-3bd0-4ab8-9eeb-aea885e2af0e
+  chapitre_de_la_cathedrale_saint-paul_de_munster:
+    uuid: 6a1a4ebe-7e35-402f-87d6-97b469dbaeda
+    E41: f3692d03-2621-4de4-a173-28b707681e27
+  chapitre_de_la_cathedrale_saint-pierre_de_beauvais:
+    uuid: 606ff735-31df-4a69-9eb0-4e5748c36d4b
+    E41: 8de1bc03-abc9-4770-89f2-bbc09955388c
+  '278074':
+    uuid: e34fedcb-4d6b-4a47-a4f3-2e0ae1bcbf9d
+    E41: c4280eb9-962b-4857-be83-1899168d40ac
+  '294223':
+    uuid: 084bda06-f72b-4b86-a614-bf4c94f8278b
+    E41: eebe11b7-8580-42c3-bf11-52f3fca1a966
+  chapitre_de_la_cathedrale_saint-pierre_et_saint-paul_de_troyes:
+    uuid: 27d74b17-6985-45be-a8f5-3d6ce98d1c6f
+    E41: a18b7895-9b60-4431-9784-85bbbe45f673
+  chapitre_de_la_cathedrale_saint-sauveur_d_aix-en-provence:
+    uuid: d39fc0e5-c89f-4129-abb0-701ae68566d5
+    E41: c48fb695-8314-4af8-808f-7ef21bcfcd64
+  chapitre_de_la_cathedrale_saint-theodorit_d_uzes:
+    uuid: aac0a794-c89b-4216-9e58-e5a01455b848
+    E41: 7777c96f-0702-47d5-8930-8f89fc9b3fb8
+  chapitre_de_la_cathedrale_saint-trophime_d_arles:
+    uuid: 7e4312c9-09cb-4189-8e08-752d1ebf1096
+    E41: e6aeebb1-919d-48fc-bad5-2478744427a0
+  '277855':
+    uuid: 0843ded6-f0ac-4a9f-bef9-fccdc0be1544
+    E41: baa39976-4fe0-4405-9586-3f5749c5b33b
+  chapitre_de_la_cathedrale_saint-etienne_de_chalons-en-champagne:
+    uuid: 21611bff-52e3-4dc9-9823-f813d5ff8d79
+    E41: bee6d033-9da8-4799-ac3e-50507d078400
+  chapitre_de_la_cathedrale_saint-etienne_de_toulouse:
+    uuid: eaeb1bfe-8fc1-4b73-b09f-f9af31b36ef5
+    E41: 2881dc26-6263-4cb0-8eea-c12210a58b52
+  chapitre_de_la_cathedrale_sainte-cecile_d_albi:
+    uuid: 281da5b0-4bb0-4dc2-a638-8864057f5d29
+    E41: 9651f5c7-8904-4bbb-aea6-6713012f1270
+  chapitre_de_la_cathedrale_de_tours:
+    uuid: f9a3d364-2b84-4bb3-af8a-cec655a13778
+    E41: eaac35d3-1b61-4a34-bb2b-80a994ac9169
+  chapitre_de_la_cathedrale_de_westminster:
+    uuid: ef307fd1-b163-424b-82e0-965990e1c990
+    E41: c9f1d327-ddd3-49c3-9c95-2207f1e91e4d
+  '278131':
+    uuid: 01f9c7e6-9293-4142-ac4a-b7e9e124a791
+    E41: 86bb4394-1b13-450b-ad56-b9557ebdde25
+  clerge_de_la_cathedrale_notre-dame-du-puy_de_grasse:
+    uuid: 53eafe4f-02d3-43b5-ae4a-71280ee2d232
+    E41: 430832d5-1360-403c-be43-9745299e4772
+  '278122':
+    uuid: 3989e6ef-269e-4e76-8361-1ae68b45ef2c
+    E41: ee0e4576-26e0-4b5e-bc48-9d8b89a3ad8b
+  clerge_de_la_cathedrale_saint-jean_de_la_valette:
+    uuid: 4a1686b3-13e5-487b-82a0-97809d6ffe48
+    E41: 07d6db1e-832a-48a5-abb4-b56e66fa5845
+  clerge_de_la_cathedrale_saint-jean_de_lyon:
+    uuid: 9e79980c-ebc2-457b-98ce-e72373e11fea
+    E41: 1649eac0-11d0-4670-beaa-d2941c479a28
+  clerge_de_la_cathedrale_saint-louis_de_la_rochelle:
+    uuid: 1dd9df3f-a737-4424-baa4-7c04bfa051b8
+    E41: 95dc6848-4227-404b-97de-cf7c258cf65f
+  chapitres_collegiaux:
+    uuid: 716dd89d-811a-4165-85b2-e24449bfeed5
+    E41: 2089437d-f424-4bc9-a09c-0651e45b325e
+  '293829':
+    uuid: f72884e1-4816-470f-ab93-3c2c652214e0
+    E41: b9c7a05d-9b22-4321-a300-d4d1da6fd0b7
+  '293871':
+    uuid: fc780dbe-a024-41ef-b400-a222ecdd663f
+    E41: 87e4de03-6991-47f9-80cd-a71499e30bef
+  '294283':
+    uuid: 2d38e4e4-9354-4a45-9c72-21a666ecd6b5
+    E41: 06f6853c-860a-4287-84c7-49fea07c7338
+  chapitre_de_la_collegiale_notre-dame-du-mur_de_morlaix:
+    uuid: e5ba9e33-6e75-4476-b022-df57ab69225e
+    E41: 21e0c868-7f59-491a-b4cc-f6bd5106b7ad
+  chapitre_de_la_collegiale_notre-dame-et-saint-martin_de_chateauroux:
+    uuid: 4f92d957-6623-4be7-97dd-a673c1b106b2
+    E41: 2a3bc4d3-15a6-44e1-adfb-97775d23d2bc
+  chapitre_de_la_collegiale_saint-agricol_d_avignon:
+    uuid: 266d7caa-cf3e-42db-b726-5cd1319849c8
+    E41: 311e4db3-7a59-491e-b216-f8202f9a0d9f
+  chapitre_de_la_collegiale_saint-fursy_de_peronne:
+    uuid: 15925001-33c2-493f-83aa-69052ca08f7e
+    E41: f2e54074-a900-4962-aece-f2ff18d2138a
+  chapitre_de_la_collegiale_saint-hilaire-le-grand_de_poitiers:
+    uuid: 0c3f05f6-f077-4224-b731-c12cf33cb59e
+    E41: c5c6dc4c-a9dc-4ff9-96dc-9b23bd43d8e7
+  chapitre_de_la_collegiale_saint-malo_de_valogne:
+    uuid: 62ac9ebb-d357-4a27-9f85-72f11909fcd3
+    E41: c7790f23-3a48-4860-a377-d0ee4069c810
+  chapitre_de_la_collegiale_saint-marcel_de_paris:
+    uuid: fed68c65-066b-4c74-98bc-5936e6f7a43c
+    E41: 748958b5-8b22-49ff-a280-cb69fb7e9b26
+  chapitre_de_la_collegiale_saint-martin_de_clamecy:
+    uuid: 58a6ded5-5612-4c54-a236-000a3fbf62df
+    E41: a6e4f421-fa38-441e-ae29-234290259ae1
+  chapitre_de_la_collegiale_saint-martin_de_tours:
+    uuid: d41e3f8f-b474-4bcb-a66d-301d38c287ce
+    E41: 886a4d84-fd25-4bf5-9e77-ab870c92e82d
+  '277854':
+    uuid: 41a7ff5d-294a-4c9e-8f34-b27c580d5dc2
+    E41: 1e3f335a-86bb-41d3-8ff8-65372ccefb01
+  chapitre_de_la_collegiale_saint-quentin_de_saint-quentin:
+    uuid: d59c5549-b454-458f-8d9c-9388b1b76aa5
+    E41: 66d712f2-fe4e-4631-a80b-47f4b342922a
+  chapitre_de_la_collegiale_saint-sernin_de_toulouse:
+    uuid: 96e24427-2e5c-4c39-9e59-cdaa50ea74ab
+    E41: b2759f3b-eb56-4e78-b698-990cab2c7ec0
+  chapitre_de_la_collegiale_saint-urbain_de_troyes:
+    uuid: f0a26966-4202-495a-802d-6a4f1159ef99
+    E41: bde70e65-22e2-4cb6-9da5-a327bb3e811d
+  '294291':
+    uuid: ab138178-b79b-4d16-9622-92bcd24a60ad
+    E41: 60600acd-3d93-4f6d-ad0c-cabea959e4fa
+  chapitre_de_la_collegiale_saint-etienne_de_troyes:
+    uuid: 96683b0a-5754-4e85-ad0a-97b0226df468
+    E41: de5393b3-4c9f-4d6c-9c08-7b13354dd407
+  chapitre_de_la_collegiale_sainte-croix_de_montelimar:
+    uuid: 9d4a024d-d7c1-4719-9313-b271477a5c3d
+    E41: 01cdcb54-6c69-4aa4-899f-c80872185885
+  chapitre_de_la_collegiale_toussaint_de_mortagne-au-perche:
+    uuid: be889e59-461c-496e-9327-ad6abf4f3be0
+    E41: 9f71966a-9885-430b-9bd9-711704207b68
+  chapitres_de_saintes_chapelles:
+    uuid: 2bae3982-6e64-45d8-9c03-997de360082d
+    E41: 7e81ba27-7544-404c-9231-327ccdebb76b
+  '294163':
+    uuid: d25d0540-1968-4400-a2bb-748b87b5f779
+    E41: a8f89de2-a7e0-4c23-9276-b17b6262558a
+  '294149':
+    uuid: bfd2e12a-249f-475a-a5ad-18436a5531f6
+    E41: 2b4c7bde-3f93-4845-8df8-8832dafe644c
+  '277896':
+    uuid: 233db1cd-f2c2-4ab6-9a1d-c7a6ceaab4f3
+    E41: 9ca7b7ed-179f-42b4-80b1-e50043170c28
+  chapitre_de_la_sainte-chapelle_du_chateau_du_vivier_de_chaumes-en-brie:
+    uuid: bee5ec89-fc8f-4e63-80ae-2dbb8fa1643c
+    E41: ee5d5a3f-7a37-464d-ab47-945341be7c0e
+  clerge_paroissial:
+    uuid: 3e079e4a-bea0-4d2c-9cf6-92edd084780a
+    E41: 31e0ce59-d008-45fa-a3e1-d25c2225e2cf
+  clerge_de_belley:
+    uuid: 83231b4d-84f8-4dc4-a3bb-3f49e70a2507
+    E41: 58c11b5d-aa03-469a-8562-b4d9c5adf1c4
+  clerge_de_luxembourg:
+    uuid: d03749fa-4ab7-4db9-aa75-bd2b8647b7d4
+    E41: 55bb41f1-29e9-447b-97c3-3c7ae6cc0320
+  clerge_de_niort:
+    uuid: 59e1169f-8e6b-42db-ab25-c1595773e56d
+    E41: 89aa8328-2542-40ca-a362-68f3b3cc1366
+  '278128':
+    uuid: 5bab9826-42e1-4070-9c24-dc03c34713d1
+    E41: a9723e65-b580-4fe6-8ea9-d777118cac96
+  clerge_de_l_eglise_paroissiale_notre-dame_de_niort:
+    uuid: fce983c1-c8e5-420b-801e-3e661a9865e6
+    E41: 2bcd0a77-f9c2-45ce-a4ec-a490b7233136
+  clerge_de_l_eglise_paroissiale_saint-hippolyte_de_paris:
+    uuid: 7319b015-4ac7-4a74-9fb4-303cd69f429d
+    E41: 6d912a3b-568f-48f7-8d78-1bfaa60d7bcb
+  '277987':
+    uuid: b0bbd48c-09b6-48fa-a9f3-92f793b42a95
+    E41: d64a9935-573e-4a67-a193-9b77033af2ba
+  '278055':
+    uuid: f58524c2-f6a3-4a9d-a7bd-907e95f14ff8
+    E41: 5c621583-c47f-46f0-a694-99a5c84d395f
+  eveche:
+    uuid: 485cb4a3-1932-4f42-97e3-7b4a72bac860
+    E41: 0df0db65-efb1-4572-bdcb-61ec55d4405a
+  prince-eveque_de_metz:
+    uuid: fca795cf-272e-4f52-9c67-6cba7d98eb49
+    E41: 06618e5a-2759-4a55-a333-7f57da8fba00
+  prince-eveque_de_strasbourg:
+    uuid: 09aa5c21-18df-453f-a6d4-6f4a70f8afc8
+    E41: 25230624-10b4-49f5-a61a-20dcf1dbb830
+  '277989':
+    uuid: 565ef98a-a3c5-4d03-bccc-5e2c51409cec
+    E41: 08ecac29-ed94-4f7e-83d1-2a26f6d0322d
+  eveque_d_agde:
+    uuid: dcb3c4be-9501-4125-859c-f69ed34a9fb6
+    E41: c2b8bb09-21cc-4b2e-8455-5864aa2a3e93
+  eveque_d_aire:
+    uuid: ec458e01-0171-4a07-9fcd-986d8a86a3d8
+    E41: ae792995-415b-4e3a-9a09-7801f846510c
+  eveque_d_alet:
+    uuid: a1feffa7-a1f9-46e8-81bc-713cfa05a78a
+    E41: f5a876f5-5fec-4c0c-8eb6-b3ab7883ef13
+  eveque_d_amiens:
+    uuid: c0d909d8-1f3f-434c-a5f5-146bf700c33a
+    E41: 51c3545b-8f99-49b5-8327-020f3f7b9e19
+  eveque_d_angouleme:
+    uuid: c08b6c87-f8d2-4ed3-92e1-230a6eabfce3
+    E41: 7f196e03-e881-4e28-93db-61d01deaeb9e
+  eveque_d_autun:
+    uuid: a367209d-c9e1-4d08-9231-a7a2b690492b
+    E41: 96d21197-53c8-45d9-8d84-0e6060ebb3ca
+  eveque_d_auxerre:
+    uuid: ebbf3b6f-1ced-447b-a81d-7f8e5104fa39
+    E41: 43d723d9-ab96-4a20-b4a4-e874c6a692bc
+  eveque_d_avranches:
+    uuid: 13387d4c-43ad-4edb-910f-6c9cfbe6abc8
+    E41: 8846a826-97fe-4747-a129-26c90d1f6391
+  eveque_d_hierapolis:
+    uuid: fcd7967f-62aa-4b2b-b494-11ba2d57de27
+    E41: 590a588c-b1f9-4626-8573-ce22a621c427
+  eveque_d_orange:
+    uuid: f59e0430-1a5b-468e-bf2f-579b0fe8b66c
+    E41: 3abc98cf-c848-4f97-8933-53bc782538ae
+  eveque_d_orleans:
+    uuid: cf718c40-7646-4612-8115-613b21be82c9
+    E41: 891e4de0-d54a-4973-9208-296add554256
+  eveque_de_bayeux:
+    uuid: 7c206ee8-2329-4b46-afe0-72a7a215cb0e
+    E41: e3bd6889-d782-4c2b-be40-723b5ae516b3
+  eveque_de_bayonne:
+    uuid: 42c6a4e0-b930-4611-a424-86508912f3a3
+    E41: fa7645f2-4a2f-4f3a-9966-66bbe954f41f
+  eveque_de_bazas:
+    uuid: 5b1d07d0-9f12-4c83-8c47-78f6bc30881e
+    E41: 2f660a85-c360-4775-a7f3-a2e29fe8297e
+  eveque_de_beauvais:
+    uuid: 587e19e0-3e36-4573-b92f-cce315725cca
+    E41: c6077e95-0e9a-406e-9880-d3b634c5f036
+  eveque_de_blois:
+    uuid: af6d31e2-e255-4981-9442-3e2dba424ce1
+    E41: 27dd1b5f-00e6-43b8-ac3c-3626331f21d0
+  eveque_de_cahors:
+    uuid: 54b5ebb9-0bce-4e35-b46e-94eed015e6cd
+    E41: 725ac0dd-f8f3-476d-90b5-8e65f48bb0f8
+  eveque_de_carcassonne:
+    uuid: 8aa79df3-3325-4813-8031-a1c966d3dd9f
+    E41: 528a8f23-cece-43aa-92d8-c92260bc1c3e
+  eveque_de_chartres:
+    uuid: 14a42375-4d8c-4d1f-a5ac-6ad1196b5493
+    E41: cc5e4115-5596-4270-9ff4-1d2463ee9643
+  eveque_de_chalons:
+    uuid: f54df9cd-1010-4050-8524-63c17eb9cff8
+    E41: b72fffcf-5a56-46cb-96b9-45874449f555
+  eveque_de_chalons-sur-marne:
+    uuid: 0585e877-2fbb-483a-b1fb-7653acff6b05
+    E41: 21dea0a3-bea0-4791-a48b-19c7cdf685eb
+  eveque_de_clermont:
+    uuid: 76098f5e-a0ea-47d5-abe3-9bad3ff41eef
+    E41: b40b81f8-3eeb-40a1-ba50-f375023d7f8e
+  eveque_de_condom:
+    uuid: fd736881-90ff-444a-87a7-45fdcffb4a58
+    E41: e9f03ce2-d136-40a8-97dd-74e5e8bcc7ac
+  eveque_de_die:
+    uuid: 223a381c-5fcd-4842-a350-a35f3fb34b94
+    E41: 7b0e7a90-7c3c-4934-aba2-5dce91b57a86
+  eveque_de_digne:
+    uuid: 68d6b385-8e20-44f6-8e4f-20325f8f4b0f
+    E41: 658849e2-5d4f-4c47-be69-964618020bad
+  eveque_de_dol:
+    uuid: 84edbe0f-b768-4bde-9063-0e551084b98e
+    E41: 530d2dd6-53a4-4830-b5f0-96bd41c6c5b5
+  eveque_de_frejus:
+    uuid: b065d482-6f50-41e7-9492-7aa567245db9
+    E41: d1289832-3c42-43d8-8a45-a3efb69831e9
+  eveque_de_grenoble:
+    uuid: e25b9a34-f07a-42f0-a511-9a3e0a5579a3
+    E41: e9267727-09ad-4b61-8d1d-c199d1ba1ece
+  eveque_de_la_rochelle:
+    uuid: 394eb286-7984-40b9-8d1d-b986bd37f6d3
+    E41: 61276375-f5fe-45f9-bd79-af32d6d9d5d0
+  eveque_de_langres:
+    uuid: 93cee731-5cba-401a-8303-8cefeb350395
+    E41: 439d6581-2dc4-4897-b2c1-0a4219e6bf7e
+  eveque_de_laon:
+    uuid: 25f46a31-33de-4507-bb6b-51659c4cb286
+    E41: 1170dfc6-5ab0-4d05-a8fd-8be483c716c6
+  eveque_de_lavaur:
+    uuid: 152dd062-1c03-457f-9d7f-69da68bbe8a8
+    E41: f648456c-4bc1-4fde-a27a-a787c73d31a7
+  eveque_de_lectour:
+    uuid: 9d0eea49-944f-46ad-92c3-e0dfc7de1347
+    E41: 6f2f1d98-a7b2-47df-be6e-b9ba33c3f655
+  eveque_de_lisieux:
+    uuid: e08315d5-da12-4a0f-9998-134bac6c9722
+    E41: 9670b698-f8a5-4f46-beb0-216e5327119b
+  eveque_de_lodeve:
+    uuid: 06f48e67-373e-4318-bf6e-cf9fca90ac8f
+    E41: 24049834-b59a-4d49-b8a3-5a950a0f6292
+  eveque_de_lombez:
+    uuid: d1acf97c-cdf7-493a-99f0-4fef5c924dac
+    E41: f3926118-6451-4ad0-b014-c8d78f95b23b
+  eveque_de_lucon:
+    uuid: 10e9feeb-29ee-48eb-80bb-c06e174f3604
+    E41: 97c71ac3-933d-4438-ae17-b396d1ed0214
+  eveque_de_marseille:
+    uuid: 9afd6d5a-7ebf-49fb-bf58-79ec74bafdf5
+    E41: 455921f8-bda7-409a-becf-ca2ce7d2145f
+  eveque_de_meaux:
+    uuid: 8dd12ed9-b0eb-457d-a28c-b24d5681fd56
+    E41: bf6398d4-47c6-4c37-9d15-a229c63427d8
+  eveque_de_mende:
+    uuid: fc7d5644-a19c-4a56-b049-388971ba1bdd
+    E41: aee2caf9-b8b9-4601-82a1-a3367b8ac6d5
+  eveque_de_metz:
+    uuid: eeb73252-5158-44e9-b012-ec7e697e7988
+    E41: 44ea9d59-0aaa-4e28-a8f6-d38d8c3354ec
+  eveque_de_mirepoix:
+    uuid: 487e680a-6985-4219-9819-bee73260740e
+    E41: 890aa0fc-d0d8-43e8-b27e-f815b0b44356
+  eveque_de_montauban:
+    uuid: d67bba3c-2603-4bf5-9e1a-830f907bd4cc
+    E41: 36302481-e3d8-46cb-a076-b2ac3522649c
+  eveque_de_montpellier:
+    uuid: bfd6d8d2-b035-45dc-9155-ce921d618da7
+    E41: 58850915-3867-4292-9060-8b00ecc77841
+  '278130':
+    uuid: 282d9b94-a6e7-468f-a36e-e7c6cc8de23a
+    E41: 13d591b2-f6a3-41c7-9bdc-2cd14aaa0467
+  eveque_de_paris:
+    uuid: 08da6d09-8e38-489c-9808-5934451a0dc0
+    E41: 0c73d036-240f-47a0-b8e0-5abc91c5084b
+  eveque_de_poitiers:
+    uuid: d0f90cb5-01f6-4410-bf5d-a9767c6d5e8a
+    E41: 20efb48b-752f-4d17-bb78-6b008cf4cff6
+  eveque_de_quebec:
+    uuid: 73d34676-6f11-49b0-aa82-68acce0aac53
+    E41: ac8d73cd-99d8-4bad-bb17-f613c6ad5fa2
+  eveque_de_rennes:
+    uuid: 4ccd11ba-fa30-4e54-922d-0bffce7f2fa4
+    E41: 8c4d24a0-4e3b-4131-bc33-5882df202b01
+  eveque_de_riez:
+    uuid: e6e0fc15-4026-4e40-93b8-2aa9ab711985
+    E41: 0385e484-6b56-4538-b16e-31c654351d30
+  eveque_de_rodez:
+    uuid: 9319241b-bbb7-4b0b-80a3-f12ad288f85d
+    E41: f516d984-164f-4fe9-8193-caf04fc83e12
+  eveque_de_saint-omer:
+    uuid: d1ad6600-a392-44ee-acbe-e58cf2c534dc
+    E41: d41a2005-f341-4106-82cd-bc69acdd751e
+  eveque_de_saint-papoul:
+    uuid: 1571408d-0860-41f3-8314-48805865b1fc
+    E41: 50b4acb1-f516-41f2-be45-f4e9215a405a
+  eveque_de_saintes:
+    uuid: a425bee5-1fb4-46bf-8ee9-9382c4be194e
+    E41: 03a64a6a-52c5-4cc2-832e-10e36fe931a0
+  eveque_de_sarlat:
+    uuid: 1b1d13af-612e-4074-afe0-3ebc39edcead
+    E41: 8e111894-451b-47d2-9a96-44b038fb0284
+  eveque_de_seez:
+    uuid: b7e8c4c6-e908-41b0-b585-bd00e18358c5
+    E41: 09fe37bf-ac39-487e-8ab1-1449a0dbdd4e
+  eveque_de_senlis:
+    uuid: f2b29e9d-dd82-4402-8843-cabf1c56329d
+    E41: 3d66f754-b8a5-4db0-a07e-c8662347f33e
+  eveque_de_soissons:
+    uuid: 3fd127ec-5e38-4343-94c5-4c5520182603
+    E41: 26f00194-3fa1-4643-8395-fc50f4a58dda
+  eveque_de_tarbes:
+    uuid: 31397230-5a33-4e64-91fe-2171f094d998
+    E41: be591ccc-b102-436c-b4b8-91ab5e617f9c
+  eveque_de_toul:
+    uuid: b6e93194-99fb-4d33-b84b-4844f654c793
+    E41: d3797ed0-7b28-4054-b968-1e977e2bd728
+  eveque_de_toulon:
+    uuid: 3a093930-fea4-4a3a-99d3-b932d036b352
+    E41: 8471fa63-957d-4df2-9728-2133aec4b40e
+  eveque_de_tournai:
+    uuid: e870aeac-fa69-4efc-afbb-aece1969b383
+    E41: bef1cc1d-6174-4491-9ce0-f6558ff83653
+  eveque_de_treguier:
+    uuid: a374452c-adad-498b-aba4-1c8bbd835282
+    E41: d9874cc2-d650-4d73-a7ae-b992445f963b
+  eveque_de_troyes:
+    uuid: 6ac32c50-a3b4-42ee-9d8b-e4d397bd5c16
+    E41: 2dd74bf9-32f2-4779-9b60-570cfe3dcbf9
+  eveque_de_tulle:
+    uuid: c059efd7-3af1-4a2b-b7e5-474af6326a8d
+    E41: 96e0096c-8d28-4eed-aef6-aa7ad676d9dd
+  eveque_de_valence:
+    uuid: 53c48dc0-2ce4-490f-8b66-0e0a687dd480
+    E41: 0e675f0f-c430-4631-8c91-d5a785e75770
+  eveque_de_verdun:
+    uuid: 1f7d3979-9351-4ded-9367-df001830c58e
+    E41: d7049265-beef-4f17-8bc9-4d4c60bf9568
+  eveque_du_mans:
+    uuid: e29b87aa-feaf-40a8-884a-6479d66143ee
+    E41: 20ef37ac-0b5f-4396-ab25-1a74113084e6
+  eveque_du_puy:
+    uuid: 4b4128fd-aa69-4bef-b10e-7aa43bfb08d3
+    E41: 81dc9763-6a7c-40bf-8f67-df09b8221467

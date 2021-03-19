@@ -120,9 +120,9 @@ def print_children(concept, depth):
 
 print_children(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_regulier&idt=166"), 0)
 
-print_children("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166", 0)
+print_children(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166"), 0)
 
-print_children("https://opentheso3.mom.fr/opentheso3/?idc=papaute&idt=166", 0)
+print_children(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166"), 0)
 
 
 output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
