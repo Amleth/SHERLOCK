@@ -83,8 +83,7 @@ def count_concepts():
 
 #print(f"{count_concepts()} concepts à traiter")
 
-
-#NE PAS OUBLIER CONGREGATIONS RELIGIEUSES
+# NE PAS OUBLIER E32 THESAURUS
 
 def print_children(concept, depth):
     concept_id = ro(concept, DCTERMS.identifier)
@@ -107,7 +106,6 @@ def print_children(concept, depth):
     """)
 
     for row in input_graph.query(q, initBindings={'concept': concept}):
-        #print("    " * depth, row[2])
 
         E74_narrower_uri = she(cache_congregations.get_uuid(["congrégations religieuses", row[2], "uuid"], True))
         t(E74_uri, crm("P107_has_current_or_former_member"), E74_narrower_uri)
@@ -122,11 +120,10 @@ def print_children(concept, depth):
 
 print_children(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_regulier&idt=166"), 0)
 
-"""
+print_children("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166", 0)
 
-print_children("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166")
-print_children("https://opentheso3.mom.fr/opentheso3/?idc=papaute&idt=166")
-"""
+print_children("https://opentheso3.mom.fr/opentheso3/?idc=papaute&idt=166", 0)
+
 
 output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
 cache_corpus.bye()
