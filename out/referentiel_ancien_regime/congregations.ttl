@@ -1,0 +1,1893 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<ef9f5f61-b6da-4baa-bc42-1b8e0b27a51f> crm:P107_has_current_or_former_member <08ebae5c-956d-464f-81dd-0ebbf1493b98>,
+        <635f6e00-bc50-45bd-93ac-16e80e3e5163>,
+        <87b5dfd2-1a03-4524-b5c8-ea685e8828e1>,
+        <8f65afb6-dc09-45dc-a7a8-938757eaefe4>,
+        <98cb6ce2-39ae-47b2-b646-e459f6624130>,
+        <a050a459-9714-4536-afe8-8fa83bceb8af>,
+        <bd1f3459-31a8-4738-8669-b3907e575004>,
+        <e9703568-02a9-4f6f-945a-44ee9b3a25a1>,
+        <f36eb786-72b0-46a1-9be4-d9b01f826114> ;
+    crm:P1_is_identified_by <296c657b-7bdc-4325-95cf-08c95efbb264> .
+
+<000237b4-c105-4aca-8fcb-9ead07157c64> a crm:E41_Appellation ;
+    rdfs:label "Cisterciens de l'abbaye Notre-Dame-de-Vauluisant"@fr .
+
+<001c8b20-cf60-43f7-8c32-703b12047389> crm:P1_is_identified_by <1209c782-24e0-4929-89ce-78fc22e840f7> .
+
+<008b6276-6ed9-4e3f-a6c4-24f511899143> crm:P107_has_current_or_former_member <f85305fc-d603-44de-9657-e8cdb62d9c64> ;
+    crm:P1_is_identified_by <edc01cb1-4827-4cda-9247-fd57d901b97f> .
+
+<00b7b799-c72e-4c08-966b-ed0164e256e7> a crm:E41_Appellation ;
+    rdfs:label "Mauristes de l’abbaye de la Trinité de Fécamp"@fr .
+
+<00f363d9-874a-4cba-a5c3-b7d4015ce84d> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève de l’abbaye Saint-Jacques à Provins"@fr .
+
+<0153bd94-e6aa-45ee-8915-bf33421dac06> crm:P1_is_identified_by <b4e022b4-c63a-4b8e-baa3-0218b1f48a01> .
+
+<02ba22f9-43a3-4186-9d1e-5a70dd2a5c78> crm:P1_is_identified_by <27c31652-7fa7-49ca-9699-77ca00c8b999> .
+
+<035a810b-ad20-4ea1-9090-d6c3ff61c55d> crm:P1_is_identified_by <328721fd-1bb2-4c9f-8cc3-2ad52c8a583a> .
+
+<04bbf2b6-9534-42c0-b497-1bb4a0233d9e> crm:P1_is_identified_by <3910207b-4d0a-4ac1-8d3d-d98340f6feef> .
+
+<051cd52b-978b-4d46-966e-f2f0c3352dff> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Romans"@fr .
+
+<057533d4-71bf-45ba-9f12-4b5741e60ace> crm:P1_is_identified_by <98c668f7-8d69-470a-a155-ba0a9b004fdb> .
+
+<06206e53-2b6f-41d9-9781-cd1871877536> a crm:E41_Appellation ;
+    rdfs:label "Jésuites"@fr .
+
+<067891e8-c3f3-4e4d-a04f-e5ef3fac87ea> a crm:E41_Appellation ;
+    rdfs:label "Célestins d'Avignon [Comtat vénaissin]"@fr .
+
+<06848028-d90d-47f3-83bc-36a7ab45458a> crm:P1_is_identified_by <28d9c8c1-2008-4f62-85cb-590f4fcc7f32> .
+
+<06b54933-2df3-4c57-8020-5f8313166e19> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Saint-Étienne de Dijon"@fr .
+
+<06eeff95-7d9d-43d7-9bd4-9dfc230435b6> crm:P1_is_identified_by <3f66ad0b-8a1f-40eb-aeaf-efc0fe99c5ba> .
+
+<0775def6-deec-4ad2-b415-559b2fb62e73> a crm:E41_Appellation ;
+    rdfs:label "Capucins du Havre"@fr .
+
+<0810883d-f3a6-4a41-9347-d22a7b70986d> crm:P1_is_identified_by <eb2b8d62-c729-4330-bce4-7b4ca631f0ec> .
+
+<08304b2d-f1ba-4fe2-b5c0-edcd88d8efaa> crm:P1_is_identified_by <1812187c-fdff-40af-a4f6-423abb976da5> .
+
+<085ce485-c71c-47ad-ba8e-d9736bc4aa7d> a crm:E41_Appellation ;
+    rdfs:label "Capucins d'Étain"@fr .
+
+<085dfe4a-053e-4f90-81bb-50b27f8de6d0> a crm:E41_Appellation ;
+    rdfs:label "Cisterciens"@fr .
+
+<086f26e7-331b-4df3-b779-72710f9eba36> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Loches"@fr .
+
+<08959b0e-5e2c-48fd-93cd-3b41f1787183> crm:P1_is_identified_by <e01ab65d-1540-442b-8821-62dd37d21217> .
+
+<08ebae5c-956d-464f-81dd-0ebbf1493b98> crm:P107_has_current_or_former_member <466c95c1-df2d-414b-88d9-5c420e337e6b>,
+        <894d56de-7a76-45ae-a0d4-ac465811a33e>,
+        <a41d2444-8d93-45fe-9475-178bb3c32c13>,
+        <ea2f1125-7be3-446d-bcdf-1c53eb9eeb40> ;
+    crm:P1_is_identified_by <cf30954f-7f75-4740-aa48-2fdf1f6f84a3> .
+
+<093d39b0-acc3-4142-85cd-dc3bf1f0df65> crm:P1_is_identified_by <a758aecd-6df1-4001-bb67-9b3b1f4d906a> .
+
+<09542fbd-52f3-43c1-b6ca-36b1ba5c51f6> crm:P1_is_identified_by <7d03a3ed-510c-498b-bc51-79eb0a3d81c4> .
+
+<0981b79f-0e30-4988-9ce0-a9ab3e6d39c8> crm:P107_has_current_or_former_member <6f3b89c0-83a0-4fdf-8266-2bf70c67df82> ;
+    crm:P1_is_identified_by <9c43b9ee-94f3-4ce8-831c-ebcc7b9d93a1> .
+
+<0b032894-aea0-4401-9707-018460fd35a0> crm:P1_is_identified_by <36ebcdbb-7bda-4bfa-9b3e-167591b01e76> .
+
+<0b4f8cac-27f4-4f19-81c9-ac78414fc06d> crm:P1_is_identified_by <b332cf7a-a656-4d12-ac50-0ecd4ae15675> .
+
+<0b9989d4-3b93-4dd7-a936-09f2f7b231d5> a crm:E41_Appellation ;
+    rdfs:label "Ordres mendiants"@fr .
+
+<0c17ea9b-b1d4-4fc7-8797-145eb3269af8> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Fort-Royal de la Martinique"@fr .
+
+<0c64be1f-9bd7-48af-8af5-974fb5f67e1e> crm:P1_is_identified_by <7ec69016-669e-4781-8d79-5c4257e25443> .
+
+<0c943b90-47f6-4a4a-8ddd-ec207e9f0acc> crm:P107_has_current_or_former_member <bfd96602-5316-41ba-93a9-ad862ca5e39a>,
+        <ded18e1c-4fc3-43ce-977f-b5175aa0f6fe> ;
+    crm:P1_is_identified_by <788256b2-4b5f-416b-be47-bb4bc89a5cf1> .
+
+<0ce93ae3-ed87-4b7a-9038-7ad6c6c2e9df> a crm:E41_Appellation ;
+    rdfs:label "Cisterciennes de l’Abbaye Port-Royal de Paris"@fr .
+
+<0d19fa86-7700-4b20-b52c-b06c65c746b9> a crm:E41_Appellation ;
+    rdfs:label "Bénédictins du monastère des Blancs-Manteaux"@fr .
+
+<0dab5e28-7468-47d0-9c92-57b6d5ee1a1f> crm:P1_is_identified_by <621b2fe5-4bb2-4125-b4ac-2c4cd021b45e> .
+
+<0dc09644-6403-4847-9dd3-dc7323a5fb26> crm:P1_is_identified_by <9adf71c2-2561-46d7-81c9-4a9c61d76b16> .
+
+<0e4fd944-69a0-4160-993e-3b8f088c73a6> a crm:E41_Appellation ;
+    rdfs:label "Fontevristes du prieuré de Notre-Dame-du-Relay"@fr .
+
+<0f198056-052c-48fe-83ab-637c53b11760> a crm:E41_Appellation ;
+    rdfs:label "Dominicains de la rue Saint-Honoré à Paris"@fr .
+
+<0f49989b-4332-46eb-af8b-77d05fe7d2f2> crm:P1_is_identified_by <0775def6-deec-4ad2-b415-559b2fb62e73> .
+
+<0f4a61e3-1016-40e0-bddd-7fde411b1dc7> a crm:E41_Appellation ;
+    rdfs:label "Dominicains de Paris"@fr .
+
+<0fb193ed-b547-4e9f-962b-251a438e36ae> a crm:E41_Appellation ;
+    rdfs:label "Carmes (ordre)"@fr .
+
+<0ffd604d-7daa-4a2d-879e-e414ab8ec26c> a crm:E41_Appellation ;
+    rdfs:label "Jésuites d'Avignon [Comtat vénaissin]"@fr .
+
+<100da86a-d286-4a06-a6a4-e4e97107f14e> a crm:E41_Appellation ;
+    rdfs:label "Oratoriens"@fr .
+
+<1035012f-c490-4bb2-99f0-19630f7d2b86> crm:P1_is_identified_by <bb8b89c3-4540-405a-beeb-a3a33d2a8892> .
+
+<107ce3bc-4499-4b46-b859-da325ff4e5cc> a crm:E41_Appellation ;
+    rdfs:label "Capucins de la rue Saint-Honoré de Paris"@fr .
+
+<113f84b5-d3d8-4af3-89be-31bd1459aee0> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Compiègne"@fr .
+
+<11a34650-b735-4626-a0b3-9e92894abf1c> crm:P107_has_current_or_former_member <2eacc653-cf33-44e5-b86d-ac3fa6c1268e>,
+        <a75b4d6d-e231-4c05-962a-99fd478c0d69> ;
+    crm:P1_is_identified_by <b6b859e0-6e59-46b4-bda4-384c7291e5ba> .
+
+<11bac566-3ed8-4ff3-acdb-521e18f9eb6e> a crm:E41_Appellation ;
+    rdfs:label "Mauristes de l'abbaye Saint-Pierre de la Couture"@fr .
+
+<11c7ea19-e348-449e-805c-0ea0a93d82eb> crm:P1_is_identified_by <34634dd7-3e9e-49f6-b132-46eab6f5d88c> .
+
+<1209c782-24e0-4929-89ce-78fc22e840f7> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Prémontré de Notre-Dame et Saint-Jean-Baptiste à Coucy-le-Châtel"@fr .
+
+<124815be-760e-4985-aabf-38cfe20ffb5f> a crm:E41_Appellation ;
+    rdfs:label "Capucins"@fr .
+
+<129df22a-8ca8-4d3c-bce4-9ad4a7f586b5> crm:P1_is_identified_by <e66b3df6-09d0-4b5a-92b0-95a21f1b0d54> .
+
+<13051886-ed8b-4b67-97df-3dbcb72fc5d2> a crm:E41_Appellation ;
+    rdfs:label "Chanoinesses régulières de l’abbaye de Penthemont à Paris"@fr .
+
+<131d8c4a-e544-4f03-b639-c403f9f647d5> crm:P1_is_identified_by <e3771a57-7fb7-40e8-ba9f-79219fc0a77a> .
+
+<138a1619-b6ac-456a-8a53-26cf9210e315> crm:P1_is_identified_by <6e18e679-3222-46a5-b061-5a76a7f33f31> .
+
+<138b6fbd-729a-49c8-ac6c-5d5e18de9470> a crm:E41_Appellation ;
+    rdfs:label "Frères de la Charité de Poitiers"@fr .
+
+<13b1e148-7bb3-45d0-8434-1f5aecab983d> crm:P1_is_identified_by <5578b432-9bcd-471c-840d-70f09a9f8009> .
+
+<13e5e3e0-dba4-41d9-ad57-591f39820e95> crm:P1_is_identified_by <f9f91ff4-ae2a-474b-8263-640bbfb9c7d1> .
+
+<13ff0ddf-3a8e-418f-bdd4-7fd278950e93> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de Saint-Antonin"@fr .
+
+<141f6802-e0cb-4298-9904-bf893571dd3a> a crm:E41_Appellation ;
+    rdfs:label "Carmes déchaussés"@fr .
+
+<1481eab9-5ce2-488c-9c58-d52e112e0383> crm:P1_is_identified_by <e003bdd4-57e1-4f02-b1ad-6c3204636fe5> .
+
+<17008907-b947-4fc3-b25c-e02c212913bf> a crm:E41_Appellation ;
+    rdfs:label "Augustines hospitalières"@fr .
+
+<1781f3db-a812-4051-a9c5-70d40cbb8147> crm:P1_is_identified_by <d0ce51de-c177-4467-9e2f-7d18c7af479c> .
+
+<1812187c-fdff-40af-a4f6-423abb976da5> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Jarnac"@fr .
+
+<1849129e-c68b-47ad-b991-773ad383ec97> a crm:E41_Appellation ;
+    rdfs:label "Visitandines de Compiègne"@fr .
+
+<1881a479-4c7d-4a58-ba22-a85a54889c03> a crm:E41_Appellation ;
+    rdfs:label "Carmélites de Compiègne"@fr .
+
+<1905c9c8-7ddf-44a6-9312-a568cd543c22> a crm:E41_Appellation ;
+    rdfs:label "Augustines"@fr .
+
+<193a0359-c642-4d22-a36c-8d0e1d129a86> a crm:E41_Appellation ;
+    rdfs:label "Abbé de Saint-Pierre la Couture"@fr .
+
+<199df027-9b72-47e7-ac9f-f899f43d46c5> crm:P1_is_identified_by <78eeec5a-40d2-4921-a60e-fe762cae5df7> .
+
+<1a38cba5-2cd6-4e9a-9682-5f3def3b77e1> crm:P1_is_identified_by <6f489a36-f4ab-4147-b54a-ac0b620c1772> .
+
+<1a4da143-65fb-4539-a7aa-c6aa9ea8c95a> a crm:E41_Appellation ;
+    rdfs:label "Ordre de Malte"@fr .
+
+<1ae7caf3-bc44-43b7-b73e-93772f905cee> crm:P107_has_current_or_former_member <0981b79f-0e30-4988-9ce0-a9ab3e6d39c8>,
+        <11a34650-b735-4626-a0b3-9e92894abf1c>,
+        <3098be08-b061-4fff-8991-22cf114db414>,
+        <4d1838cc-a932-48e8-8d94-c8e6657d7100>,
+        <55f0eb69-f616-4fe4-b706-d329794b7015>,
+        <5c7a6566-ecb3-46c5-b1e6-3d1e468a3ea8>,
+        <75789756-0ed7-4f17-8375-555de932db5e>,
+        <b485381e-c40e-4ce7-8247-df9d7c872e0c>,
+        <c1d7b543-5f1e-4f8e-81e1-0a41cc826067>,
+        <f6a14a5a-b4ff-4fbe-889d-351a3c3d4122> ;
+    crm:P1_is_identified_by <dc51dbc5-0f05-4e96-a756-76312b702d38> .
+
+<1b88786e-c5bd-407e-bec7-9f1213a0f86b> crm:P1_is_identified_by <9e59e68e-bac6-4e91-8210-7607eb0be428> .
+
+<1b8c2a57-7d35-4e51-9660-7ddac779d57b> a crm:E41_Appellation ;
+    rdfs:label "Ordres chevaleresques"@fr .
+
+<1ba33467-c0d7-4ce8-b02a-31cb90616e8c> crm:P1_is_identified_by <35801f2c-c190-4a9f-9e36-55b0ef271257> .
+
+<1bcd0d7b-e4f8-446a-90fa-8067c2048564> crm:P1_is_identified_by <e5c572d4-adee-497b-a980-bab2db1e0dbe> .
+
+<1c8aa959-0ad5-4443-a58f-c10a2090d29c> crm:P1_is_identified_by <764189cd-b854-4c0e-9566-ea17aeba92bf> .
+
+<1d01ec01-90ed-467e-a08f-f26e72ec9f65> crm:P1_is_identified_by <b44b0092-8ec4-4433-b1b8-db5c113cb09d> .
+
+<1d0b66d3-c167-44d1-9d54-dfcc2d7821b4> crm:P1_is_identified_by <7879915c-fa6b-4732-879e-4fc11208780e> .
+
+<1e097231-a472-4dfa-9514-fa05a6d21220> a crm:E41_Appellation ;
+    rdfs:label "Augustins déchaussés de Notre-Dame-des-Victoires de Paris"@fr .
+
+<1e1b054b-baa3-4c02-a5ce-7feb655fc3a1> a crm:E41_Appellation ;
+    rdfs:label "Jésuites d'Alep"@fr .
+
+<1e850caf-8ed2-4e13-8a57-c8c7d39355a6> a crm:E41_Appellation ;
+    rdfs:label "Visitandines de la rue du Bac à Paris"@fr .
+
+<1eda8d52-d84b-4768-9020-2bd6cae09c26> a crm:E41_Appellation ;
+    rdfs:label "Carmélites"@fr .
+
+<1efd3697-16d1-4849-86c0-a1711353baf1> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers"@fr .
+
+<1f2ae3c0-867a-43aa-a2c5-00e622622d9a> crm:P1_is_identified_by <5595a762-7803-44b2-9016-492d61b8761b> .
+
+<1f3bdabc-75b2-4272-a40b-4ec6f40f7a7f> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève"@fr .
+
+<1f8e6940-cc36-44c5-b1a0-5e1df0336f45> a crm:E41_Appellation ;
+    rdfs:label "Oratoriens de Vendosme"@fr .
+
+<1fb8fefa-9324-4091-a244-71b71afbd57f> crm:P1_is_identified_by <2bd60c27-3a99-42ba-94be-92e3f78a077b> .
+
+<20a96d8d-9e69-4c37-aa86-bf28868eac3b> crm:P1_is_identified_by <beddfb60-bdd5-4345-945c-f5189cafa71d> .
+
+<212a3d85-b1e6-4a27-a353-6fabf8ef7086> crm:P1_is_identified_by <1881a479-4c7d-4a58-ba22-a85a54889c03> .
+
+<213d7c12-c49c-46a0-a8aa-2ef8a0991aaa> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Reims"@fr .
+
+<231afb72-7896-47b7-861a-6a473e2c44f4> crm:P1_is_identified_by <4f258d09-6ff5-4ee0-8484-688275a6ef5d> .
+
+<23b40b26-57a8-4ae6-b196-0c65c660b7a9> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Douai"@fr .
+
+<247971d8-329d-4466-b2d9-8c2ebd1d39f3> a crm:E41_Appellation ;
+    rdfs:label "Grands Augustins de Marseille"@fr .
+
+<24e6f318-fc3f-4af8-9250-ffcd1e7c7c98> crm:P107_has_current_or_former_member <1bcd0d7b-e4f8-446a-90fa-8067c2048564>,
+        <20a96d8d-9e69-4c37-aa86-bf28868eac3b>,
+        <316d7d63-6d8c-4b59-8088-364a750b08b6>,
+        <4e6f8d66-51dc-4e48-ba0d-fa4d2e6784fb>,
+        <61a64eb8-4b78-4042-81a8-19c9863ade1b>,
+        <a9f5f328-5beb-4f50-9f39-c9ebd51180fc>,
+        <d2d7c0fe-890b-4b3a-bfdd-a0de3a7598e7>,
+        <d34075c7-c11f-4a55-a8d0-edf119f4db5b> ;
+    crm:P1_is_identified_by <27f3092d-f0fc-4f0e-9f64-366df5b3cdb0> .
+
+<257d9e6e-c7ba-4e52-97ce-863e81dc1623> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Périgueux"@fr .
+
+<25ef87c3-a280-4996-80d0-0f1eb5e2d9e6> crm:P107_has_current_or_former_member <06eeff95-7d9d-43d7-9bd4-9dfc230435b6>,
+        <0f49989b-4332-46eb-af8b-77d05fe7d2f2>,
+        <13b1e148-7bb3-45d0-8434-1f5aecab983d>,
+        <13e5e3e0-dba4-41d9-ad57-591f39820e95>,
+        <1f2ae3c0-867a-43aa-a2c5-00e622622d9a>,
+        <231afb72-7896-47b7-861a-6a473e2c44f4>,
+        <26f34760-0197-4923-86f4-beb6a3b59a72>,
+        <2be74f71-09ea-461f-a613-491f1aaf6099>,
+        <3822803f-c506-40c0-b989-6c5592917fdd>,
+        <452b4b22-d798-42d4-ad08-eef9fb881263>,
+        <46cf4048-8168-4a4c-843d-32f700ac0666>,
+        <47966c34-a435-4aec-aaee-2e53df3b2003>,
+        <55856cd6-ada5-4c5c-9ebb-dcd6b848417d>,
+        <63a4bd58-91b6-4824-89da-57cada40e32b>,
+        <757d8dee-4520-41ba-87d8-0e6f9637f498>,
+        <80c5d314-d62f-44b4-b330-1a920c32fb6d>,
+        <86ade0d8-d30e-4e90-a373-ffbb5226e4bd>,
+        <8963487f-89bb-417d-8ed2-23db34032a01>,
+        <90257a75-5ec4-41b6-aa97-0336dc6026dc>,
+        <9767ed9b-7037-4ed5-98a1-1fe0cbf235be>,
+        <aad61e51-f9ce-4f0c-aabe-d59403248c24>,
+        <b332c71c-bfa0-4379-90d5-0feb0d01c814>,
+        <baa02add-03cd-4798-97dd-e61cc62222d0>,
+        <c3b5b954-d25c-4740-9a47-6e1aa399a4f3>,
+        <c808f56c-cdc6-4b9e-abcb-672302c9852f>,
+        <e542da4f-af35-4da3-86dd-6c942ab8778b>,
+        <e6f66c13-6174-49b8-81cd-c2f3b9700643>,
+        <f0ada26e-572f-457c-a758-bd7ce778db68>,
+        <f38623b5-8ae5-4bc9-9353-c71e2242b22c>,
+        <f7025364-7b49-4525-843e-4a5ded6bdcf2>,
+        <fa610660-9a90-4363-ab8c-f2065c567d4e> ;
+    crm:P1_is_identified_by <124815be-760e-4985-aabf-38cfe20ffb5f> .
+
+<26e4d20c-e0c8-49fb-948a-bd9e242fd94d> crm:P1_is_identified_by <c00b07b4-5404-458f-a24c-2a13d3398c56> .
+
+<26f34760-0197-4923-86f4-beb6a3b59a72> crm:P1_is_identified_by <3b232f6a-f3b3-4834-b6e1-ac6f0c18d0ff> .
+
+<2700d834-f18f-41fb-87dc-32c32ddfa5f9> crm:P1_is_identified_by <d7275ecf-9571-425a-a738-560eb01258ba> .
+
+<2723967b-b916-49ef-8299-d3a3af73c52d> a crm:E41_Appellation ;
+    rdfs:label "Ursulines de Châtillon-sur-Seine"@fr .
+
+<273f03bd-2ddf-462c-8039-04abb17a70f8> a crm:E41_Appellation ;
+    rdfs:label "Augustines hospitalières de Beaulieu-les-Loches"@fr .
+
+<2783f060-173a-4a9a-8538-4a31be119cef> a crm:E41_Appellation ;
+    rdfs:label "Mauristes de l'abbaye Saint-Corneille de Compiègne"@fr .
+
+<27c31652-7fa7-49ca-9699-77ca00c8b999> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de Lille"@fr .
+
+<27c6704e-5052-49da-baa0-574c35d7eab7> a crm:E41_Appellation ;
+    rdfs:label "Frères de la Charité d'Évreux"@fr .
+
+<27d4a05d-7a94-4783-be5f-ad53b91a12b8> crm:P107_has_current_or_former_member <5ef730c9-a3ff-40a3-88e1-348b02c3d2b1> ;
+    crm:P1_is_identified_by <ff65e929-5129-431c-9018-91eac0bf19e2> .
+
+<27f3092d-f0fc-4f0e-9f64-366df5b3cdb0> a crm:E41_Appellation ;
+    rdfs:label "Bénédictines"@fr .
+
+<280f3a4a-4681-4396-a122-dc3de2c6e202> a crm:E41_Appellation ;
+    rdfs:label "Feuillants du monastère de Versailles"@fr .
+
+<2829bdbe-39db-40ce-a627-c6f1c491ed6c> a crm:E41_Appellation ;
+    rdfs:label "Ordre de Santiago"@fr .
+
+<28d9c8c1-2008-4f62-85cb-590f4fcc7f32> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Prémontré de Jovilliers"@fr .
+
+<29087de9-c450-4178-ab44-6ae24ed5d416> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de La Flèche"@fr .
+
+<2926d5e8-8333-4eb1-b1ed-760856fc7a50> crm:P1_is_identified_by <0f4a61e3-1016-40e0-bddd-7fde411b1dc7> .
+
+<295db06c-d2bc-4742-8ecf-f6a421aa5de0> a crm:E41_Appellation ;
+    rdfs:label "Trinitaires (ordre)"@fr .
+
+<296c657b-7bdc-4325-95cf-08c95efbb264> a crm:E41_Appellation ;
+    rdfs:label "Clergé régulier"@fr .
+
+<29a5cca3-5ca9-49b8-bc20-f73736751f42> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Rome"@fr .
+
+<2a581565-4a2f-4694-918a-ee7b95cc4f4c> crm:P1_is_identified_by <2829bdbe-39db-40ce-a627-c6f1c491ed6c> .
+
+<2a5c5dc5-57b0-414b-8b95-5c95e3e9365b> a crm:E41_Appellation ;
+    rdfs:label "Capucins d'Amiens"@fr .
+
+<2b427748-1878-4dbb-89a1-aa39e2a58f6e> a crm:E41_Appellation ;
+    rdfs:label "Père prieur de l'abbaye Saint-Corneille de Compiègne"@fr .
+
+<2bd60c27-3a99-42ba-94be-92e3f78a077b> a crm:E41_Appellation ;
+    rdfs:label "Doctrinaires du collège de Lesquille"@fr .
+
+<2be74f71-09ea-461f-a613-491f1aaf6099> crm:P1_is_identified_by <f2958893-dec9-44a5-92ba-01a45fe32434> .
+
+<2c0bb5f2-e9b0-4a29-91de-85cfd859b948> a crm:E41_Appellation ;
+    rdfs:label "Oratoriens de Montpellier"@fr .
+
+<2c0f3fcc-24b5-477f-af2c-9dd41a87044c> crm:P1_is_identified_by <97e98fa8-83e6-4dd7-adb7-21bb144576e0> .
+
+<2c44aad4-a9a1-465e-8b1b-b8d7be84133a> crm:P1_is_identified_by <1e850caf-8ed2-4e13-8a57-c8c7d39355a6> .
+
+<2c503150-cfb2-498b-b6d4-262812bd3523> a crm:E41_Appellation ;
+    rdfs:label "Cisterciennes de l'Abbaye de La Virginité des Roches-l'Évêque"@fr .
+
+<2d17757e-e310-4d04-aa7a-be3ab80ef185> crm:P1_is_identified_by <feaf6c85-68da-4649-b33f-286e43c7c284> .
+
+<2d2e864e-91c0-4d89-9335-e404c6bd748e> a crm:E41_Appellation ;
+    rdfs:label "Compagnie de Marie Notre-Dame"@fr .
+
+<2ded92dd-76e3-4cf6-b824-03262d7a6852> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Saint-Maximin-la-Sainte-Baume"@fr .
+
+<2e05ef65-821b-455b-811c-466d0b2e6919> crm:P1_is_identified_by <257d9e6e-c7ba-4e52-97ce-863e81dc1623> .
+
+<2e1a2539-4f3a-4bb8-b8ec-7a3987575600> crm:P1_is_identified_by <64b3622e-5474-4660-ac3f-921554799572> .
+
+<2eacc653-cf33-44e5-b86d-ac3fa6c1268e> crm:P107_has_current_or_former_member <52f706ea-190a-468a-929b-dfc43c2f7638>,
+        <57601dd4-6c4f-4699-85ae-f46cc18f5398>,
+        <5b1241db-79ce-40e7-a963-0e87d44b504d>,
+        <6f34b435-03b7-4b0f-9f65-486b9c8fdcb0>,
+        <e86c0bd3-c103-48b0-9969-9bff823f7cb9> ;
+    crm:P1_is_identified_by <7df16fc1-0adb-48c7-a840-c20009c0afa5> .
+
+<2f386d9f-8627-4bed-b895-600cf6736f6b> a crm:E41_Appellation ;
+    rdfs:label "Ursulines de Rennes"@fr .
+
+<2f8708c2-0eac-401f-a5e8-3ef36c7674a0> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de l'ordre de Saint-Augustin, congrégation de Notre-Sauveur"@fr .
+
+<2f93ceef-5515-487e-91b2-19455c5a6934> a crm:E41_Appellation ;
+    rdfs:label "Visitandines d'Albi"@fr .
+
+<2fd90193-a6e8-4a77-a517-61b4135ae00d> a crm:E41_Appellation ;
+    rdfs:label "Augustins déchaussés de Marseille"@fr .
+
+<30466a67-7460-4701-836c-5e5685e13264> crm:P1_is_identified_by <13051886-ed8b-4b67-97df-3dbcb72fc5d2> .
+
+<3082b064-3c2b-437e-9758-2435670533e0> crm:P107_has_current_or_former_member <0b4f8cac-27f4-4f19-81c9-ac78414fc06d>,
+        <0dab5e28-7468-47d0-9c92-57b6d5ee1a1f>,
+        <2e1a2539-4f3a-4bb8-b8ec-7a3987575600>,
+        <33ada4c8-b9b3-446c-bb6d-c4bc7070e33f>,
+        <60f4e510-928d-4890-97b8-08e0521c1320>,
+        <76a874b6-a91d-4b20-9b4e-5585bdaf12c7>,
+        <7f85fe57-cd49-418f-99cf-481e989c95e9>,
+        <980c2aad-e7e9-4fec-9701-c8c11c11447e>,
+        <b9540b45-5ea3-48cd-938d-7359053434ba> ;
+    crm:P1_is_identified_by <100da86a-d286-4a06-a6a4-e4e97107f14e> .
+
+<3098be08-b061-4fff-8991-22cf114db414> crm:P1_is_identified_by <dc25e8a8-91e1-4366-ab66-ec64f71667b9> .
+
+<30b55b68-6c09-4d8d-8bd8-d005c5c0ef25> a crm:E41_Appellation ;
+    rdfs:label "Capucines du couvent de la rue Saint-Honoré à Paris"@fr .
+
+<30ba09ba-09e8-4fce-9811-ff7d03eea408> crm:P1_is_identified_by <bc9cc424-e4b8-43db-9af0-e3a5a4c907ff> .
+
+<316d7d63-6d8c-4b59-8088-364a750b08b6> crm:P1_is_identified_by <4eca5b0b-e45f-434a-b5c2-808cb6767481> .
+
+<32587dae-8f64-4c20-9b7b-57a8d40f10c2> a crm:E41_Appellation ;
+    rdfs:label "Bénédictins de l'abbaye Notre-Dame-de-la-Couture à Bernay"@fr .
+
+<328721fd-1bb2-4c9f-8cc3-2ad52c8a583a> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève de l’Église paroissiale de Saint-Antonin"@fr .
+
+<3320cb76-6326-4478-9a3d-ed1ebbac0cd2> a crm:E41_Appellation ;
+    rdfs:label "Récollets de La Côte-Saint-André"@fr .
+
+<3359ed3a-6d6d-4891-ac72-2920c5684914> a crm:E41_Appellation ;
+    rdfs:label "Carmes déchaussés de Lille"@fr .
+
+<339a5ba4-1783-44d6-94cf-e008d129a583> crm:P1_is_identified_by <273f03bd-2ddf-462c-8039-04abb17a70f8> .
+
+<33ada4c8-b9b3-446c-bb6d-c4bc7070e33f> crm:P1_is_identified_by <7e915a22-ba9a-4869-a2fe-92a0151f2b97> .
+
+<3447d42d-16c8-4817-8baf-9ca815a14d0f> a crm:E41_Appellation ;
+    rdfs:label "Récollets"@fr .
+
+<34634dd7-3e9e-49f6-b132-46eab6f5d88c> a crm:E41_Appellation ;
+    rdfs:label "Frères de la Charité de Grenoble"@fr .
+
+<34851a37-d5b5-405c-8227-359b09eff4f6> a crm:E41_Appellation ;
+    rdfs:label "Dominicains du grand couvent de Paris"@fr .
+
+<34e1d869-abc4-43b6-b1f7-b9ffef9963e5> crm:P1_is_identified_by <9986bc5d-99dd-4bae-8f49-cc67de058562> .
+
+<35236a7e-901c-485e-9f43-ae90c20d4d07> crm:P1_is_identified_by <f1117ebc-65e4-4341-9452-0523e5b351ee> .
+
+<3534a8f9-9715-43a0-b316-1b35a17a60a9> crm:P1_is_identified_by <2fd90193-a6e8-4a77-a517-61b4135ae00d> .
+
+<35801f2c-c190-4a9f-9e36-55b0ef271257> a crm:E41_Appellation ;
+    rdfs:label "Minimes de Péronne"@fr .
+
+<360505f3-65ec-4564-aa01-c2ca9576acd5> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Nogent-sur-Seine"@fr .
+
+<36ebcdbb-7bda-4bfa-9b3e-167591b01e76> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Saint-Antonin"@fr .
+
+<370b525e-ea06-45d2-8fe5-d86bc2cf0b24> a crm:E41_Appellation ;
+    rdfs:label "Capucines"@fr .
+
+<37360986-1ff1-409f-8774-df48ffb6bfbf> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Blois"@fr .
+
+<3752418c-3ac6-4a2e-be37-b38418e383b0> a crm:E41_Appellation ;
+    rdfs:label "Minimes de Nancy"@fr .
+
+<38007e69-0a2f-4317-8df8-71eb1b6b3b91> crm:P1_is_identified_by <b705ff8c-1d31-4642-87e8-ff1020d481b6> .
+
+<381511b0-7d1c-46e3-9549-27a4ebd62ea8> crm:P1_is_identified_by <bf2845a2-ef46-433b-9820-12a1f49c6816> .
+
+<3822803f-c506-40c0-b989-6c5592917fdd> crm:P1_is_identified_by <82a99d48-aef4-4d28-9fe4-770f757a830b> .
+
+<383a314a-eec1-4283-8736-d202bbe8a616> a crm:E41_Appellation ;
+    rdfs:label "Capucins d'Alençon"@fr .
+
+<3910207b-4d0a-4ac1-8d3d-d98340f6feef> a crm:E41_Appellation ;
+    rdfs:label "Mauristes de l'abbaye Saint-Jean d’Angély"@fr .
+
+<39502c8f-7197-4d85-bec8-0ee28a5a6d18> crm:P107_has_current_or_former_member <24e6f318-fc3f-4af8-9250-ffcd1e7c7c98>,
+        <7cf92e8d-6113-4b0a-8daf-12147bbf2b12>,
+        <b1981690-06f4-4bf4-89d8-0111db9a9b14> ;
+    crm:P1_is_identified_by <7326f78b-5ed6-4185-a4d8-e5e6ab2c2fbc> .
+
+<398d96d4-9460-4ec9-9073-860f92383cf0> a crm:E41_Appellation ;
+    rdfs:label "Servites (ordre)"@fr .
+
+<39ae722a-9d58-4f4e-a58e-908262475643> crm:P107_has_current_or_former_member <b2bb311e-0666-4db0-878b-0da26f8c6e25> ;
+    crm:P1_is_identified_by <370b525e-ea06-45d2-8fe5-d86bc2cf0b24> .
+
+<39b54814-04b6-4bb2-9134-38bf880ce091> a crm:E41_Appellation ;
+    rdfs:label "Cisterciennes de l’abbaye Notre-Dame de Gomerfontaine"@fr .
+
+<39fd7765-4648-4f9f-a187-04cb64173bb6> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Saint-André"@fr .
+
+<3a40875c-4333-4129-a8f7-47b0fd8b361e> a crm:E41_Appellation ;
+    rdfs:label "Oratoriens d'Angers"@fr .
+
+<3a6a1bac-be71-4a26-aa80-5a232e94ef3a> crm:P1_is_identified_by <f5a69f49-4410-497b-80b5-8b394f41e29c> .
+
+<3b073889-64ca-4067-93f7-dde20ae339ef> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Saint-Denis"@fr .
+
+<3b232f6a-f3b3-4834-b6e1-ac6f0c18d0ff> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Nancy"@fr .
+
+<3b3de471-6728-4bcd-b186-d06d6bd7eefd> crm:P107_has_current_or_former_member <1d0b66d3-c167-44d1-9d54-dfcc2d7821b4>,
+        <7f167df1-ea86-4552-8f79-62a7add1f064>,
+        <cef14681-5e94-4b6a-9f81-8bf17c75933d> ;
+    crm:P1_is_identified_by <085dfe4a-053e-4f90-81bb-50b27f8de6d0> .
+
+<3be11ba5-418b-4554-a718-672dc081ef7c> a crm:E41_Appellation ;
+    rdfs:label "Frères de la Charité (ordre)"@fr .
+
+<3c910902-8f90-47a9-b753-4a99065d39a8> crm:P107_has_current_or_former_member <b736996b-1659-4841-a017-b1bacb8f7564>,
+        <b7b00c5f-c936-4ddb-9059-2dd52c114bff>,
+        <f59becb4-371e-4efc-af14-12c22d8ec71f> ;
+    crm:P1_is_identified_by <141f6802-e0cb-4298-9904-bf893571dd3a> .
+
+<3cd842bc-5427-4774-985e-1422899b7b27> crm:P1_is_identified_by <499edb7a-07ff-4e05-9553-fc2b2dc81423> .
+
+<3d52de15-d53f-474d-ab2a-dbd6a39de80e> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Libourne"@fr .
+
+<3d7a46e8-1816-4b8e-be46-42df80e0a5b4> a crm:E41_Appellation ;
+    rdfs:label "Célestins de Lyon"@fr .
+
+<3d7f670c-1fef-4c86-a069-02f0fccc73b3> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes du couvent de Saint-Martin de Rome"@fr .
+
+<3e96114d-d53c-4113-ac15-1a981c99f5d0> crm:P1_is_identified_by <e3450820-b8c2-46e0-8e56-c1e3df3ba360> .
+
+<3f3c509a-6261-4f5a-9646-456ffd638fd3> crm:P107_has_current_or_former_member <26e4d20c-e0c8-49fb-948a-bd9e242fd94d>,
+        <2926d5e8-8333-4eb1-b1ed-760856fc7a50>,
+        <6e3b4aee-18a1-4a51-a8a5-a936108c0751>,
+        <83007a23-21a8-4cc5-bab1-3155c3aa5493>,
+        <89d407ee-30b4-4148-a805-0c7a830ca1df>,
+        <8d2d0299-82d6-438d-98a2-3cc6c9bf06cc>,
+        <8d53be9b-e32d-461b-8358-963cbd70977e>,
+        <90e81af9-89e8-48f1-bfd9-0186cbfabd04>,
+        <a3aa2868-e12a-4d8f-a412-b83657eddd17>,
+        <a4182096-a99f-4a68-961f-7d1f57363699>,
+        <e64615c0-6ae9-43d4-ad57-19bc1a77f6c4>,
+        <e88c002a-964b-4594-938f-bccc0ac48452> ;
+    crm:P1_is_identified_by <d4dadefc-3006-42cb-9647-2a43543d3369> .
+
+<3f66ad0b-8a1f-40eb-aeaf-efc0fe99c5ba> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Madrid"@fr .
+
+<3f715ab4-7f99-47cd-ad71-89a53d4e9302> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de la maison royale de Sainte-Croix-de-la-Bretonnerie"@fr .
+
+<40134331-602e-4fee-9eed-a5d31b646020> a crm:E41_Appellation ;
+    rdfs:label "Chanoinesses régulières anglaises de Paris"@fr .
+
+<4189704c-3a13-408b-91b5-1c7983322ecc> a crm:E41_Appellation ;
+    rdfs:label "Dominicains d'Évreux"@fr .
+
+<418e6c52-6317-4a7e-b332-2bcc341fac3d> a crm:E41_Appellation ;
+    rdfs:label "Abbé de l'église abbatiale de Saint-Étienne de Dijon"@fr .
+
+<41906ef0-d5f6-4dd3-92f8-b5ab79c091df> crm:P1_is_identified_by <fbb34452-d308-42a6-be03-b5e98c745fc9> .
+
+<426ff844-ff8e-4acb-bb7c-d50515db9a62> a crm:E41_Appellation ;
+    rdfs:label "Fontevristes"@fr .
+
+<42e02cd1-2de1-4260-900b-ada73b707ac0> crm:P1_is_identified_by <cbb17cc6-d025-44d9-9e06-79009b67575b> .
+
+<430b7019-ba68-48fc-872b-d38affd8b9ef> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de la Grande Observance"@fr .
+
+<44463a08-dfaf-43db-a281-cf55ab4848aa> crm:P1_is_identified_by <a3ab541e-8e8f-45e8-9dd9-b2e0229c3080> .
+
+<44540fb0-c842-4641-9a14-a7f42f0f50f2> a crm:E41_Appellation ;
+    rdfs:label "Théatins de Paris"@fr .
+
+<44568e73-7fe2-40ff-9eb9-71b320ec09af> crm:P1_is_identified_by <3d52de15-d53f-474d-ab2a-dbd6a39de80e> .
+
+<44675f3d-36de-42b9-a380-6f22bd5b24d2> crm:P1_is_identified_by <7d66b2d4-46d6-45ee-89c2-39d02a6b450d> .
+
+<44f279fc-80a2-4f55-844c-2749d44974fe> a crm:E41_Appellation ;
+    rdfs:label "Théatins de Munich"@fr .
+
+<45220e38-3a86-4a8f-8d97-665eaf81f681> a crm:E41_Appellation ;
+    rdfs:label "Carmes déchaussés de Madrid"@fr .
+
+<452b4b22-d798-42d4-ad08-eef9fb881263> crm:P1_is_identified_by <7605ec33-cf78-4bee-a3c5-f3a1c50e26ba> .
+
+<452e9950-8f6c-4d9a-8695-0b4fda0eabea> crm:P1_is_identified_by <a5202007-88b4-471e-9995-17126fcc52ff> .
+
+<466c95c1-df2d-414b-88d9-5c420e337e6b> crm:P107_has_current_or_former_member <1fb8fefa-9324-4091-a244-71b71afbd57f> ;
+    crm:P1_is_identified_by <ba6328f9-83b4-4fc2-aa9a-527702aa1130> .
+
+<46817257-bcdb-49a5-a62b-53274c072c2b> crm:P107_has_current_or_former_member <1b88786e-c5bd-407e-bec7-9f1213a0f86b>,
+        <3e96114d-d53c-4113-ac15-1a981c99f5d0>,
+        <5116d40e-84b2-4dd3-bece-6135714bae67>,
+        <d39e7069-c42d-420e-9b94-359698692810>,
+        <d42dc414-136d-4ef1-91e1-629b51f9bb36> ;
+    crm:P1_is_identified_by <c4a9e2a8-81d4-41f8-9132-b02438534a84> .
+
+<46cf4048-8168-4a4c-843d-32f700ac0666> crm:P1_is_identified_by <113f84b5-d3d8-4af3-89be-31bd1459aee0> .
+
+<46f94bd8-f49e-4593-b68b-2e01d8e23bd7> a crm:E41_Appellation ;
+    rdfs:label "Barnabites"@fr .
+
+<477a8cda-d6d6-4f77-b65e-9c2a06465365> a crm:E41_Appellation ;
+    rdfs:label "Théatins"@fr .
+
+<47966c34-a435-4aec-aaee-2e53df3b2003> crm:P1_is_identified_by <360505f3-65ec-4564-aa01-c2ca9576acd5> .
+
+<4820bc90-ebd4-452d-a5ce-d22d8a8f6c66> crm:P107_has_current_or_former_member <0153bd94-e6aa-45ee-8915-bf33421dac06>,
+        <212a3d85-b1e6-4a27-a353-6fabf8ef7086>,
+        <837724eb-4168-4e5b-a5d9-6ba566bb223c> ;
+    crm:P1_is_identified_by <1eda8d52-d84b-4768-9020-2bd6cae09c26> .
+
+<4924c400-dc54-4860-8359-d39b2120b94c> crm:P1_is_identified_by <1849129e-c68b-47ad-b991-773ad383ec97> .
+
+<49827363-ed5a-46c6-a6c8-ce12dd4b1b14> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Chaumont-en-Vexin"@fr .
+
+<499edb7a-07ff-4e05-9553-fc2b2dc81423> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de Madrid"@fr .
+
+<4b04be91-91fb-488f-a07e-f25cdae9074a> crm:P1_is_identified_by <44f279fc-80a2-4f55-844c-2749d44974fe> .
+
+<4b0f621f-ef0e-4baa-86c0-22a518b26883> crm:P1_is_identified_by <92dec88f-9e96-44c6-adb1-8550981f67f4> .
+
+<4bd3e0ae-1555-45cd-b51c-427afdb356a8> a crm:E41_Appellation ;
+    rdfs:label "Augustines hospitalières de la Place royale de Paris"@fr .
+
+<4c48a27a-e7cd-42bd-9b05-38713383e082> crm:P1_is_identified_by <ae092e8e-06bb-4346-ad2f-af8241643f94> .
+
+<4cfbb131-83b7-4b82-a42d-eed24f91a3ce> crm:P1_is_identified_by <086f26e7-331b-4df3-b779-72710f9eba36> .
+
+<4d1838cc-a932-48e8-8d94-c8e6657d7100> crm:P1_is_identified_by <2f8708c2-0eac-401f-a5e8-3ef36c7674a0> .
+
+<4d841e14-b885-4ed5-8f2e-de851e709468> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Luxembourg"@fr .
+
+<4e416766-eff9-443c-bd7f-cfb368009bad> crm:P1_is_identified_by <b048709d-63db-4123-8dc6-2d9fc6b160d4> .
+
+<4e5068e9-79a5-4a49-a0c4-60da46c45230> crm:P1_is_identified_by <2f93ceef-5515-487e-91b2-19455c5a6934> .
+
+<4e6f8d66-51dc-4e48-ba0d-fa4d2e6784fb> crm:P1_is_identified_by <c11a55e9-4a71-41c0-977e-3209c6cd389e> .
+
+<4eca5b0b-e45f-434a-b5c2-808cb6767481> a crm:E41_Appellation ;
+    rdfs:label "Bénédictines de l'abbaye Notre-Dame de Chelles"@fr .
+
+<4f258d09-6ff5-4ee0-8484-688275a6ef5d> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Melun"@fr .
+
+<4f52722b-e2f4-40e2-a8f4-c4f25f465f1d> a crm:E41_Appellation ;
+    rdfs:label "Célestins"@fr .
+
+<4f9cf4f2-b6dd-41ea-8c1b-db74d87541f0> crm:P1_is_identified_by <0ce93ae3-ed87-4b7a-9038-7ad6c6c2e9df> .
+
+<4ffedda6-3c38-405e-af03-fb2d6371b190> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes du grand couvent de Paris"@fr .
+
+<50087d14-6169-4b20-a019-7173fcd1a43b> a crm:E41_Appellation ;
+    rdfs:label "Cisterciens de l'abbaye Saint-Mesmin de Saint-Pryvé-Saint-Mesmin"@fr .
+
+<506f4e81-4943-4873-91c6-659707d2a202> crm:P1_is_identified_by <193a0359-c642-4d22-a36c-8d0e1d129a86> .
+
+<5091bc5b-ecdd-4976-b234-e53702cf72e3> a crm:E41_Appellation ;
+    rdfs:label "Frères de la Charité de Niort"@fr .
+
+<5116d40e-84b2-4dd3-bece-6135714bae67> crm:P1_is_identified_by <77c3dd69-e7f9-436e-b139-a88310d035c4> .
+
+<5186e918-ffdc-4cb7-a25f-92bb77d613cd> crm:P1_is_identified_by <5091bc5b-ecdd-4976-b234-e53702cf72e3> .
+
+<51b12bab-ed5f-42e9-966b-83139e22df81> crm:P107_has_current_or_former_member <506f4e81-4943-4873-91c6-659707d2a202> ;
+    crm:P1_is_identified_by <11bac566-3ed8-4ff3-acdb-521e18f9eb6e> .
+
+<51fb9c7a-34a9-4d1e-b83d-185683291833> a crm:E41_Appellation ;
+    rdfs:label "Oratoriens d’Aix-en-Provence"@fr .
+
+<525b20db-c533-4580-ad06-2760f7955f03> crm:P1_is_identified_by <40134331-602e-4fee-9eed-a5d31b646020> .
+
+<52f706ea-190a-468a-929b-dfc43c2f7638> crm:P1_is_identified_by <c0f420a5-e780-417a-8e9c-9e7a035712e3> .
+
+<53e0cda4-daa7-4313-bb95-7764fbdabf2d> crm:P1_is_identified_by <0ffd604d-7daa-4a2d-879e-e414ab8ec26c> .
+
+<541aa549-17e5-4aee-a919-c11b9f991b2d> a crm:E41_Appellation ;
+    rdfs:label "Tiercelins de Nancy"@fr .
+
+<546ff26d-49ba-4207-81c4-98e298911b82> crm:P107_has_current_or_former_member <11c7ea19-e348-449e-805c-0ea0a93d82eb>,
+        <5186e918-ffdc-4cb7-a25f-92bb77d613cd>,
+        <f56bf8b0-0169-4b80-b3cf-0790852094fd>,
+        <fb87b9d9-f10c-4184-bfef-a08490740c17>,
+        <fccfb625-cc45-40fb-ab0d-d382b55babe2> ;
+    crm:P1_is_identified_by <3be11ba5-418b-4554-a718-672dc081ef7c> .
+
+<54f39605-ee57-4e57-9a3a-502873a7fb9c> a crm:E41_Appellation ;
+    rdfs:label "Hospitalières de Saint-Jean-de-Jérusalem (ordre)"@fr .
+
+<5570d7eb-3864-4d6a-99fe-e675d178b712> crm:P1_is_identified_by <7ebc19e4-e0f3-46ca-9f35-9ad58a60a6b5> .
+
+<5578b432-9bcd-471c-840d-70f09a9f8009> a crm:E41_Appellation ;
+    rdfs:label "Capucins d'Angers"@fr .
+
+<55856cd6-ada5-4c5c-9ebb-dcd6b848417d> crm:P1_is_identified_by <a0081be4-4330-40e6-bec1-2ecb9f1e6cad> .
+
+<5595a762-7803-44b2-9016-492d61b8761b> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Montélimart"@fr .
+
+<55f0eb69-f616-4fe4-b706-d329794b7015> crm:P107_has_current_or_former_member <ba847f9c-341b-4e3c-a644-49fab71a422b> ;
+    crm:P1_is_identified_by <3f715ab4-7f99-47cd-ad71-89a53d4e9302> .
+
+<5675d789-2df6-495a-9836-d81f0ffe4af9> crm:P1_is_identified_by <9ea3fd4b-5e79-4210-8b10-499f53a4b278> .
+
+<56b6f950-a6dc-4f36-ab51-a8aa99d9d4b9> a crm:E41_Appellation ;
+    rdfs:label "Bénédictines du Prieuré Notre-Dame-des-Anges de Moret"@fr .
+
+<572e4913-ea29-4622-b0a4-255ed9f621d7> a crm:E41_Appellation ;
+    rdfs:label "Barnabites de Montargis"@fr .
+
+<57601dd4-6c4f-4699-85ae-f46cc18f5398> crm:P1_is_identified_by <247971d8-329d-4466-b2d9-8c2ebd1d39f3> .
+
+<57c5bed3-17d0-49c1-8c7d-986d7ae29869> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Loches"@fr .
+
+<5830d3db-c5e8-453c-b91f-6ba2c0b70e53> a crm:E41_Appellation ;
+    rdfs:label "Minimes de Bordeaux"@fr .
+
+<58b7b6be-136b-4ac3-8c05-4d4e37001aa8> crm:P107_has_current_or_former_member <f2762f1d-5b99-483d-9475-c1bd17ed88bf> ;
+    crm:P1_is_identified_by <8c84cd0e-18cc-4d66-a0c9-8f9ef42d0bc3> .
+
+<597c7cec-0409-437d-a1d1-c67596d36549> a crm:E41_Appellation ;
+    rdfs:label "Augustins déchaussés"@fr .
+
+<5a01aa81-d8be-41b5-be26-7a4f054036d1> a crm:E41_Appellation ;
+    rdfs:label "Mauristes de l'abbaye Saint-Pierre-et-Saint-Paul de Saint-Wandrille"@fr .
+
+<5ab65f4b-0883-4a10-accc-f84d55444fce> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Prémontré"@fr .
+
+<5b1241db-79ce-40e7-a963-0e87d44b504d> crm:P1_is_identified_by <bfad3146-fc33-4be1-90b6-d20c513497ee> .
+
+<5b3674a3-5fa2-4194-94c6-73bfc4153d59> crm:P1_is_identified_by <70b6165b-67a4-4025-b554-bc101b107546> .
+
+<5b5ae2ca-5db3-4e41-bebe-c5d614f2cffd> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Saint-Germain-en-Laye"@fr .
+
+<5ba919ce-fb74-460d-9166-0b8c87bb3812> a crm:E41_Appellation ;
+    rdfs:label "Visitandines"@fr .
+
+<5c45044a-3fbd-46ee-a550-82c7ed5ecc3f> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Fort Saint-Pierre de la Martinique"@fr .
+
+<5c7a6566-ecb3-46c5-b1e6-3d1e468a3ea8> crm:P107_has_current_or_former_member <001c8b20-cf60-43f7-8c32-703b12047389>,
+        <06848028-d90d-47f3-83bc-36a7ab45458a>,
+        <0dc09644-6403-4847-9dd3-dc7323a5fb26> ;
+    crm:P1_is_identified_by <5ab65f4b-0883-4a10-accc-f84d55444fce> .
+
+<5db6a90d-34cb-486c-a556-78b703ad0626> a crm:E41_Appellation ;
+    rdfs:label "Jésuites d'Eu"@fr .
+
+<5e4c1478-c149-48a4-8a75-d59ff704aa3c> a crm:E41_Appellation ;
+    rdfs:label "Carmes déchaussés de Riom"@fr .
+
+<5ea4d51d-ef71-4b6a-b1c5-de8cbde6c116> crm:P1_is_identified_by <4ffedda6-3c38-405e-af03-fb2d6371b190> .
+
+<5ed1a55f-533f-4e0b-8f2f-ea88539659be> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Niort"@fr .
+
+<5ef730c9-a3ff-40a3-88e1-348b02c3d2b1> crm:P1_is_identified_by <b14806bd-1b45-4e95-bda1-f4aba65fcaa2> .
+
+<60e335cf-6fba-4ce3-84a3-b87ba127c79e> crm:P107_has_current_or_former_member <27d4a05d-7a94-4783-be5f-ad53b91a12b8> ;
+    crm:P1_is_identified_by <79cbfb4b-9310-409f-9099-b58c863b6cdb> .
+
+<60f4e510-928d-4890-97b8-08e0521c1320> crm:P1_is_identified_by <1f8e6940-cc36-44c5-b1a0-5e1df0336f45> .
+
+<61314e09-8ae4-4679-b260-d7c49fcd5952> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Lyon"@fr .
+
+<61a64eb8-4b78-4042-81a8-19c9863ade1b> crm:P1_is_identified_by <a0d5b0d2-8689-4f13-b7ab-c4a4a309e067> .
+
+<621b2fe5-4bb2-4125-b4ac-2c4cd021b45e> a crm:E41_Appellation ;
+    rdfs:label "Oratoriens de Saumur"@fr .
+
+<623b78f9-0022-444a-9b15-34f205a55b8f> crm:P1_is_identified_by <d2e21bc7-1f02-42e8-8a79-fb6da92b4a13> .
+
+<62a2baef-982b-4887-b6c1-5946e5c016e6> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de la maison royale de Sainte-Croix-de-la-Bretonnerie de Paris"@fr .
+
+<63221b5b-830c-41d8-afbc-d68d14d8b73d> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Vernon"@fr .
+
+<635f6e00-bc50-45bd-93ac-16e80e3e5163> crm:P107_has_current_or_former_member <39502c8f-7197-4d85-bec8-0ee28a5a6d18>,
+        <71cb20fb-9752-4f02-8850-6ecba4d1e043>,
+        <8eb7b060-d71d-4c52-a76e-6a070824ee36> ;
+    crm:P1_is_identified_by <6525bdb5-b370-4a61-9d78-f37a06398de0> .
+
+<63a4bd58-91b6-4824-89da-57cada40e32b> crm:P1_is_identified_by <c7aa5b39-dac3-487b-affc-1d5498911ab7> .
+
+<63bd0c5d-cdcf-4988-9762-9579fb591c89> a crm:E41_Appellation ;
+    rdfs:label "Mauristes du monastère des Blancs-Manteaux à Paris"@fr .
+
+<640c6a87-7077-4c10-83f1-6d63500b082c> a crm:E41_Appellation ;
+    rdfs:label "Feuillants de l’Abbaye de Saint-Mesmin-de-Micy"@fr .
+
+<64b3622e-5474-4660-ac3f-921554799572> a crm:E41_Appellation ;
+    rdfs:label "Oratoriens de Marseille"@fr .
+
+<6525bdb5-b370-4a61-9d78-f37a06398de0> a crm:E41_Appellation ;
+    rdfs:label "Moines ou moniales"@fr .
+
+<65ae6fce-00bc-45d2-92bc-d6b3231ee0b0> crm:P1_is_identified_by <1e1b054b-baa3-4c02-a5ce-7feb655fc3a1> .
+
+<65e56098-c0d2-48f9-8491-e88117024393> a crm:E41_Appellation ;
+    rdfs:label "Dominicains de Compiègne"@fr .
+
+<6640def3-4995-49fd-af7b-54117ae7b06c> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes du couvent des Billettes à Paris"@fr .
+
+<6675129d-c365-41ae-907a-ca01ca8b0a15> crm:P1_is_identified_by <3320cb76-6326-4478-9a3d-ed1ebbac0cd2> .
+
+<66b29774-f280-4c30-b121-50d75aff59fe> crm:P107_has_current_or_former_member <4c48a27a-e7cd-42bd-9b05-38713383e082> ;
+    crm:P1_is_identified_by <295db06c-d2bc-4742-8ecf-f6a421aa5de0> .
+
+<685b974b-3a15-4f97-8f6b-07fda8c782f1> a crm:E41_Appellation ;
+    rdfs:label "Bénédictins"@fr .
+
+<6936e783-218e-4952-a941-75bf01104251> crm:P1_is_identified_by <5b5ae2ca-5db3-4e41-bebe-c5d614f2cffd> .
+
+<69458666-e279-43d0-a88d-75700370c2b1> crm:P1_is_identified_by <61314e09-8ae4-4679-b260-d7c49fcd5952> .
+
+<69533c84-9899-43c9-b091-c1db6a4a4dff> a crm:E41_Appellation ;
+    rdfs:label "Prêtres de la Mission de Marseille"@fr .
+
+<6b4daa7b-5605-4945-9f38-60eb09ec3158> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de Toulouse"@fr .
+
+<6c1634d5-d7e1-4a1a-9001-0e47a6ab38f0> crm:P1_is_identified_by <44540fb0-c842-4641-9a14-a7f42f0f50f2> .
+
+<6cc49b47-1f7c-41ae-8340-e06b1ed25f75> crm:P1_is_identified_by <ad5cf215-bd90-428a-90f5-a9a6954eeeed> .
+
+<6d603b42-fdaf-4d95-ad19-e8c68f37838e> a crm:E41_Appellation ;
+    rdfs:label "Haudriettes du couvent de Notre-Dame de l'Assomption de Paris"@fr .
+
+<6ddf99b3-4f9a-4d6e-8c0d-74bc619dfaa2> crm:P107_has_current_or_former_member <d229b626-1d52-4296-9aa0-b0015a6c8d45>,
+        <e637e67c-3dc5-4561-a1e3-dc8a55b1588e> ;
+    crm:P1_is_identified_by <4f52722b-e2f4-40e2-a8f4-c4f25f465f1d> .
+
+<6e0fc43a-f055-437f-ae7d-3bb05a19279c> a crm:E41_Appellation ;
+    rdfs:label "Visitandines d'Aix-en-Provence"@fr .
+
+<6e18e679-3222-46a5-b061-5a76a7f33f31> a crm:E41_Appellation ;
+    rdfs:label "Bénédictins de Nancy"@fr .
+
+<6e3b4aee-18a1-4a51-a8a5-a936108c0751> crm:P1_is_identified_by <34851a37-d5b5-405c-8227-359b09eff4f6> .
+
+<6e76eae5-947e-45de-a501-5942ac13a7ae> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Carcassonne"@fr .
+
+<6e81bdb7-a2b2-4725-8021-b4c4182a78f5> crm:P1_is_identified_by <2f386d9f-8627-4bed-b895-600cf6736f6b> .
+
+<6f34b435-03b7-4b0f-9f65-486b9c8fdcb0> crm:P1_is_identified_by <d243307e-e918-4a86-b749-c1c334ca11ec> .
+
+<6f3b89c0-83a0-4fdf-8266-2bf70c67df82> crm:P1_is_identified_by <c8c9eee7-179f-44c9-8d65-53b89d87232b> .
+
+<6f489a36-f4ab-4147-b54a-ac0b620c1772> a crm:E41_Appellation ;
+    rdfs:label "Compagnie de Marie Notre-Dame de Richelieu"@fr .
+
+<6f9071da-c3c6-47a2-8323-ad07702d8330> a crm:E41_Appellation ;
+    rdfs:label "Haudriettes"@fr .
+
+<7037e5ce-e4e9-4fec-8e38-63778834ccd3> crm:P1_is_identified_by <77b009de-5392-4e6f-8421-8637c09bc864> .
+
+<70b6165b-67a4-4025-b554-bc101b107546> a crm:E41_Appellation ;
+    rdfs:label "Abbé de Plaimpied"@fr .
+
+<71cb20fb-9752-4f02-8850-6ecba4d1e043> crm:P107_has_current_or_former_member <9d925851-f9ff-4b34-85a5-58b0c15eccb7>,
+        <ce1c53cc-1c29-4cdc-bfc7-c849c2cc2f8f>,
+        <ce7f720d-cbb8-48c2-921e-009b94ced0b8>,
+        <dcc8758c-73cb-4852-b1db-fbf15e6dfe1d> ;
+    crm:P1_is_identified_by <c6310c54-0464-4826-80ed-b250a0fd8280> .
+
+<72b2864c-9a7a-4642-84d3-68b712e8d355> crm:P1_is_identified_by <84f3f91d-a383-4d1f-8fc7-b8178cd97afd> .
+
+<7326f78b-5ed6-4185-a4d8-e5e6ab2c2fbc> a crm:E41_Appellation ;
+    rdfs:label "Ordre des bénédictins"@fr .
+
+<7398427a-0411-466a-a89d-cc1a016c0df2> crm:P1_is_identified_by <7c3166fc-083c-40f3-b4be-e9f901d75b89> .
+
+<75789756-0ed7-4f17-8375-555de932db5e> crm:P107_has_current_or_former_member <84a23c11-b2d2-426c-91a1-bb72f360c90f>,
+        <8dc1c5ff-9c11-464d-b697-0ab1993f629c>,
+        <e0401b0f-4584-4201-bbd5-34a76c851d71> ;
+    crm:P1_is_identified_by <1905c9c8-7ddf-44a6-9312-a568cd543c22> .
+
+<757d8dee-4520-41ba-87d8-0e6f9637f498> crm:P1_is_identified_by <0c17ea9b-b1d4-4fc7-8797-145eb3269af8> .
+
+<7605ec33-cf78-4bee-a3c5-f3a1c50e26ba> a crm:E41_Appellation ;
+    rdfs:label "Capucins du faubourg Saint-Jacques de Paris"@fr .
+
+<7622a0c7-f065-4178-9e2d-319702c468de> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Saint-Martin de Plaimpied"@fr .
+
+<764189cd-b854-4c0e-9566-ea17aeba92bf> a crm:E41_Appellation ;
+    rdfs:label "Ordre Notre-Dame-de-Charité"@fr .
+
+<7683cc1d-33e8-4182-8c3b-2a16e1b28e26> crm:P1_is_identified_by <6e76eae5-947e-45de-a501-5942ac13a7ae> .
+
+<76884096-628e-4c1e-a269-50ad15ddebd3> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Montpellier"@fr .
+
+<76a874b6-a91d-4b20-9b4e-5585bdaf12c7> crm:P1_is_identified_by <2c0bb5f2-e9b0-4a29-91de-85cfd859b948> .
+
+<779d783a-ed2a-413e-8a8d-9cdfc421ca6f> a crm:E41_Appellation ;
+    rdfs:label "Capucins d'Eu"@fr .
+
+<77b009de-5392-4e6f-8421-8637c09bc864> a crm:E41_Appellation ;
+    rdfs:label "Jésuites anglais de Saint-Omer"@fr .
+
+<77c3dd69-e7f9-436e-b139-a88310d035c4> a crm:E41_Appellation ;
+    rdfs:label "Prêtres de la Mission de Troyes"@fr .
+
+<77d8c604-5b7a-4469-975d-287fae82ce6f> crm:P1_is_identified_by <00f363d9-874a-4cba-a5c3-b7d4015ce84d> .
+
+<7879915c-fa6b-4732-879e-4fc11208780e> a crm:E41_Appellation ;
+    rdfs:label "Cisterciens de l'abbaye de Clairvaux"@fr .
+
+<788256b2-4b5f-416b-be47-bb4bc89a5cf1> a crm:E41_Appellation ;
+    rdfs:label "Tiercelins"@fr .
+
+<78ac900d-dcaa-46ba-bf4b-637574419668> crm:P1_is_identified_by <ec064402-aa59-4361-b262-4ef56e9d855a> .
+
+<78eeec5a-40d2-4921-a60e-fe762cae5df7> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers d'Évreux"@fr .
+
+<79b966c5-9512-41ff-a49d-9734eebe59cf> crm:P1_is_identified_by <3b073889-64ca-4067-93f7-dde20ae339ef> .
+
+<79cbfb4b-9310-409f-9099-b58c863b6cdb> a crm:E41_Appellation ;
+    rdfs:label "Chartreux"@fr .
+
+<7a3ce4cb-c816-4ae1-8baf-aa58dc6b12f3> crm:P107_has_current_or_former_member <4f9cf4f2-b6dd-41ea-8c1b-db74d87541f0>,
+        <7398427a-0411-466a-a89d-cc1a016c0df2>,
+        <c2c2236b-27b8-4619-b7b4-d07eddc56e7a>,
+        <d76abcdc-b2da-44a8-88a4-0ab6b478d58b>,
+        <dd5e68ee-fcd9-49ac-b082-b064a07d1d60> ;
+    crm:P1_is_identified_by <df7c765e-c99a-4671-8251-387d2433e2ea> .
+
+<7c3166fc-083c-40f3-b4be-e9f901d75b89> a crm:E41_Appellation ;
+    rdfs:label "Cisterciennes de l’Abbaye Saint-Antoine-des-Champs de Paris"@fr .
+
+<7cf92e8d-6113-4b0a-8daf-12147bbf2b12> crm:P107_has_current_or_former_member <04bbf2b6-9534-42c0-b497-1bb4a0233d9e>,
+        <51b12bab-ed5f-42e9-966b-83139e22df81>,
+        <8781d58f-70c8-4fe4-b3f1-251a7b6d921e>,
+        <c0e6f3e3-041a-444f-8722-d98074744c43>,
+        <c5a991fa-8133-4017-91f7-e0f02904ff7d>,
+        <d5281d1e-7269-4abc-9c4f-c93bd7dbbc62>,
+        <eb23a01d-afaa-473a-96ba-f79887a0e4d1>,
+        <f6f9ebb8-6a03-453e-92ee-205a15702605> ;
+    crm:P1_is_identified_by <d1f4d062-7090-467c-b7ab-95ff7e6a128d> .
+
+<7d03a3ed-510c-498b-bc51-79eb0a3d81c4> a crm:E41_Appellation ;
+    rdfs:label "Pères de Terre-Sainte d'Alep"@fr .
+
+<7d66b2d4-46d6-45ee-89c2-39d02a6b450d> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Poitiers"@fr .
+
+<7df16fc1-0adb-48c7-a840-c20009c0afa5> a crm:E41_Appellation ;
+    rdfs:label "Grands Augustins"@fr .
+
+<7df2ff80-82bc-47e1-995b-6f7cf1c4dbec> crm:P1_is_identified_by <0e4fd944-69a0-4160-993e-3b8f088c73a6> .
+
+<7e4f3c02-e855-49fd-a62f-d9f50c809db8> crm:P107_has_current_or_former_member <38007e69-0a2f-4317-8df8-71eb1b6b3b91>,
+        <623b78f9-0022-444a-9b15-34f205a55b8f>,
+        <6e81bdb7-a2b2-4725-8021-b4c4182a78f5>,
+        <a72e75d8-9f77-410b-bda1-aae7fc7def50> ;
+    crm:P1_is_identified_by <c147722d-ab96-4d48-aaac-068e26286959> .
+
+<7e915a22-ba9a-4869-a2fe-92a0151f2b97> a crm:E41_Appellation ;
+    rdfs:label "Oratoriens de Paris"@fr .
+
+<7ebc19e4-e0f3-46ca-9f35-9ad58a60a6b5> a crm:E41_Appellation ;
+    rdfs:label "Augustins déchaussés du faubourg Saint-Germain à Paris"@fr .
+
+<7ec69016-669e-4781-8d79-5c4257e25443> a crm:E41_Appellation ;
+    rdfs:label "Religieux pénitents du tiers-ordre de Saint-François"@fr .
+
+<7f167df1-ea86-4552-8f79-62a7add1f064> crm:P1_is_identified_by <000237b4-c105-4aca-8fcb-9ead07157c64> .
+
+<7f85fe57-cd49-418f-99cf-481e989c95e9> crm:P1_is_identified_by <3a40875c-4333-4129-a8f7-47b0fd8b361e> .
+
+<7f9b1e1b-1dfc-4d2c-a7e0-786d0e4933bd> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Rochefort"@fr .
+
+<801dfa0a-2885-44d6-9f08-a1b0b17aa410> a crm:E41_Appellation ;
+    rdfs:label "Feuillants du monastère de Paris"@fr .
+
+<8059ed78-1275-4612-8425-7a5f15dd4a57> a crm:E41_Appellation ;
+    rdfs:label "Carmélites du monastère de la rue du Bouloir à Paris"@fr .
+
+<80bcc3a3-1e7c-40f6-96ad-3a855a83715d> a crm:E41_Appellation ;
+    rdfs:label "Feuillants du monastère de Châtillon-sur-Seine"@fr .
+
+<80c5d314-d62f-44b4-b330-1a920c32fb6d> crm:P1_is_identified_by <779d783a-ed2a-413e-8a8d-9cdfc421ca6f> .
+
+<816ea6da-5a1f-49c1-8fa3-8e3f3ec46782> crm:P1_is_identified_by <e69e2ea3-9d4e-40d4-8b0e-6cec3bccfa20> .
+
+<8181fd47-276e-4b57-8504-8bac0d818549> crm:P1_is_identified_by <a2517938-4a34-4446-a6df-5b33022e014d> .
+
+<81cf0b93-f399-4caa-9144-fec38310f20f> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Montpellier"@fr .
+
+<81f7a1e3-3ceb-4373-b683-cfd7f58113ea> a crm:E41_Appellation ;
+    rdfs:label "Minimes (ordre)"@fr .
+
+<82a99d48-aef4-4d28-9fe4-770f757a830b> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Gien"@fr .
+
+<82e73cb5-6082-4ed8-95ac-18c4b7618ff4> crm:P1_is_identified_by <213d7c12-c49c-46a0-a8aa-2ef8a0991aaa> .
+
+<83007a23-21a8-4cc5-bab1-3155c3aa5493> crm:P1_is_identified_by <65e56098-c0d2-48f9-8491-e88117024393> .
+
+<837724eb-4168-4e5b-a5d9-6ba566bb223c> crm:P1_is_identified_by <8059ed78-1275-4612-8425-7a5f15dd4a57> .
+
+<83a66900-fd11-4594-a97f-210e6e8896f3> crm:P1_is_identified_by <76884096-628e-4c1e-a269-50ad15ddebd3> .
+
+<83c97e6b-97b8-4b08-88b6-19d48b6ecdea> crm:P1_is_identified_by <81cf0b93-f399-4caa-9144-fec38310f20f> .
+
+<8487b78a-691b-48e9-b346-4a47c8b5cd68> a crm:E41_Appellation ;
+    rdfs:label "Chanoinesses régulières de l'abbaye Saint-Pantaléon de Toulouse"@fr .
+
+<84a23c11-b2d2-426c-91a1-bb72f360c90f> crm:P107_has_current_or_former_member <339a5ba4-1783-44d6-94cf-e008d129a583>,
+        <8d428df3-15f3-4f20-93d8-e5eca793f087>,
+        <bd8427df-cf4b-4fc9-80f7-6862696f927a> ;
+    crm:P1_is_identified_by <17008907-b947-4fc3-b25c-e02c212913bf> .
+
+<84c366f9-46d8-441e-a265-bd8ba4f56a53> a crm:E41_Appellation ;
+    rdfs:label "Bénédictines du monastère de Montdenis-de-la-Crèche"@fr .
+
+<84f3f91d-a383-4d1f-8fc7-b8178cd97afd> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Paris"@fr .
+
+<86403cfc-8ccc-4473-945b-85253063fad6> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Ligny"@fr .
+
+<864cb746-e394-43a8-8130-0c27e8bf7ac9> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Toulouse"@fr .
+
+<86ade0d8-d30e-4e90-a373-ffbb5226e4bd> crm:P1_is_identified_by <2a5c5dc5-57b0-414b-8b95-5c95e3e9365b> .
+
+<874b0847-215f-4251-b8bc-447c9968df08> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Rouen"@fr .
+
+<8781d58f-70c8-4fe4-b3f1-251a7b6d921e> crm:P107_has_current_or_former_member <ca0271c3-703d-4a12-9aa0-c1e07a425b85> ;
+    crm:P1_is_identified_by <2783f060-173a-4a9a-8538-4a31be119cef> .
+
+<8795e7ee-66ca-496e-a240-81849b24a9af> crm:P1_is_identified_by <49827363-ed5a-46c6-a6c8-ce12dd4b1b14> .
+
+<87b5dfd2-1a03-4524-b5c8-ea685e8828e1> crm:P107_has_current_or_former_member <1c8aa959-0ad5-4443-a58f-c10a2090d29c>,
+        <7e4f3c02-e855-49fd-a62f-d9f50c809db8>,
+        <e1d3d578-b831-44e4-bf9f-e7048f7faaa6>,
+        <edeb6545-5198-47fc-8567-e019a6aeb95c>,
+        <f10e9237-3366-4c52-9524-15a08dc214f5> ;
+    crm:P1_is_identified_by <93e6967f-0f16-403c-8466-501efaeb63fe> .
+
+<88bc9344-7ef7-4854-8a29-d024231ba08e> a crm:E41_Appellation ;
+    rdfs:label "Dominicains de Caen"@fr .
+
+<88d166ff-d60e-467b-847b-cc03cb05e739> crm:P1_is_identified_by <b44c0650-8d9f-4823-8c1a-5131181f65a1> .
+
+<894d56de-7a76-45ae-a0d4-ac465811a33e> crm:P107_has_current_or_former_member <0810883d-f3a6-4a41-9347-d22a7b70986d>,
+        <1035012f-c490-4bb2-99f0-19630f7d2b86>,
+        <131d8c4a-e544-4f03-b639-c403f9f647d5>,
+        <2e05ef65-821b-455b-811c-466d0b2e6919>,
+        <381511b0-7d1c-46e3-9549-27a4ebd62ea8>,
+        <3a6a1bac-be71-4a26-aa80-5a232e94ef3a>,
+        <42e02cd1-2de1-4260-900b-ada73b707ac0>,
+        <4b0f621f-ef0e-4baa-86c0-22a518b26883>,
+        <53e0cda4-daa7-4313-bb95-7764fbdabf2d>,
+        <65ae6fce-00bc-45d2-92bc-d6b3231ee0b0>,
+        <69458666-e279-43d0-a88d-75700370c2b1>,
+        <7037e5ce-e4e9-4fec-8e38-63778834ccd3>,
+        <83a66900-fd11-4594-a97f-210e6e8896f3>,
+        <958ebd50-102b-4055-8657-e00cf7ab23de>,
+        <9ffb8394-2bc4-465d-a4cf-e777225c58af>,
+        <ad6f7b7f-529b-4ffd-bc4e-e8cbe16db75e>,
+        <b1b7baca-edd7-40b3-84ec-8297e0bb14b2>,
+        <b37b5213-9f7a-4c41-bbd9-790dd9ffc11d>,
+        <bb9af77d-37b3-4b7f-9845-c963f344dc8d>,
+        <cd7a0bfb-3513-4516-ab77-39a317446d8e>,
+        <cf616c94-c9df-4d3d-b7c4-936766ebad3c>,
+        <d16203a9-1952-44fb-88c1-f6759d012063>,
+        <e1095a95-d73f-4206-b64f-1d92da572253>,
+        <e1defd3a-3b7f-49bd-8c36-ada42997e3a9>,
+        <fc8c8c54-825d-4717-9188-681b5f8df3df> ;
+    crm:P1_is_identified_by <06206e53-2b6f-41d9-9781-cd1871877536> .
+
+<8963487f-89bb-417d-8ed2-23db34032a01> crm:P1_is_identified_by <383a314a-eec1-4283-8736-d202bbe8a616> .
+
+<89d407ee-30b4-4148-a805-0c7a830ca1df> crm:P1_is_identified_by <88bc9344-7ef7-4854-8a29-d024231ba08e> .
+
+<8ac082b2-d4e1-47e0-b5b7-1e74ebfae8b2> crm:P1_is_identified_by <cac6035e-845c-4b83-8c41-b8e60b47c24d> .
+
+<8c06b117-66fa-4e25-945c-bfba0befedd2> a crm:E41_Appellation ;
+    rdfs:label "Minimes de Compiègne"@fr .
+
+<8c84cd0e-18cc-4d66-a0c9-8f9ef42d0bc3> a crm:E41_Appellation ;
+    rdfs:label "Bénédictins de l'abbaye de Saint-Sever"@fr .
+
+<8cfb2d5d-81f6-4706-bebf-1234d9ab88dd> crm:P1_is_identified_by <430b7019-ba68-48fc-872b-d38affd8b9ef> .
+
+<8d2d0299-82d6-438d-98a2-3cc6c9bf06cc> crm:P1_is_identified_by <a1a7e4d0-f2c8-4794-81f6-ac4646254ccd> .
+
+<8d428df3-15f3-4f20-93d8-e5eca793f087> crm:P1_is_identified_by <d375d805-0976-4298-acd1-73314487265f> .
+
+<8d53be9b-e32d-461b-8358-963cbd70977e> crm:P1_is_identified_by <f9347264-6d53-4cf5-9eb7-f3f2637f3d09> .
+
+<8dc1c5ff-9c11-464d-b697-0ab1993f629c> crm:P107_has_current_or_former_member <129df22a-8ca8-4d3c-bce4-9ad4a7f586b5>,
+        <30466a67-7460-4701-836c-5e5685e13264>,
+        <525b20db-c533-4580-ad06-2760f7955f03>,
+        <b3393d3c-d828-4cf5-9191-e5642d1288b8>,
+        <c5cce372-21ad-407a-b999-e38e6b4b8f9b>,
+        <e58604c5-5aa6-4a91-83a2-55007cc48173> ;
+    crm:P1_is_identified_by <909eec3e-9744-4f20-a66e-64d5e2f5269a> .
+
+<8eb7b060-d71d-4c52-a76e-6a070824ee36> crm:P107_has_current_or_former_member <3b3de471-6728-4bcd-b186-d06d6bd7eefd>,
+        <7a3ce4cb-c816-4ae1-8baf-aa58dc6b12f3> ;
+    crm:P1_is_identified_by <926f7982-45b3-4eb8-a7d2-63072ae6973c> .
+
+<8f65afb6-dc09-45dc-a7a8-938757eaefe4> crm:P107_has_current_or_former_member <3082b064-3c2b-437e-9758-2435670533e0>,
+        <46817257-bcdb-49a5-a62b-53274c072c2b> ;
+    crm:P1_is_identified_by <c327b5a7-50a2-45a3-a609-0837c06150cd> .
+
+<90257a75-5ec4-41b6-aa97-0336dc6026dc> crm:P1_is_identified_by <953efc20-c507-47b8-9f18-1b010f249d81> .
+
+<903bbe49-ea54-4cc6-889f-970cf09d8d87> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Terre-Sainte"@fr .
+
+<909eec3e-9744-4f20-a66e-64d5e2f5269a> a crm:E41_Appellation ;
+    rdfs:label "Chanoinesses régulières de saint Augustin"@fr .
+
+<90e81af9-89e8-48f1-bfd9-0186cbfabd04> crm:P1_is_identified_by <c9ddd6e1-757f-4e84-9d82-f1cc5dac8303> .
+
+<913a7299-8a00-4533-bf93-d2aef2622e50> crm:P1_is_identified_by <6d603b42-fdaf-4d95-ad19-e8c68f37838e> .
+
+<9174df1c-cf45-4fbb-bd11-b3f0a146c4be> crm:P1_is_identified_by <c75feeb1-e5cb-4e00-8ee3-c50748b5e2e7> .
+
+<926f7982-45b3-4eb8-a7d2-63072ae6973c> a crm:E41_Appellation ;
+    rdfs:label "Cisterciens (ordre)"@fr .
+
+<92dec88f-9e96-44c6-adb1-8550981f67f4> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Paris"@fr .
+
+<9346546f-6e95-4f12-bd3b-eb969b41d17f> a crm:E41_Appellation ;
+    rdfs:label "Clarisses"@fr .
+
+<93e6967f-0f16-403c-8466-501efaeb63fe> a crm:E41_Appellation ;
+    rdfs:label "Congrégations féminines"@fr .
+
+<949a9af5-4d98-413b-97bc-54c22fd71640> crm:P1_is_identified_by <5830d3db-c5e8-453c-b91f-6ba2c0b70e53> .
+
+<94d2eb12-b6db-4de5-9221-e75c6c5ecc0a> crm:P1_is_identified_by <3d7f670c-1fef-4c86-a069-02f0fccc73b3> .
+
+<953efc20-c507-47b8-9f18-1b010f249d81> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Grasse"@fr .
+
+<958ebd50-102b-4055-8657-e00cf7ab23de> crm:P1_is_identified_by <5db6a90d-34cb-486c-a556-78b703ad0626> .
+
+<966aeb63-c0d4-4554-902c-0ba0f14fce9b> crm:P1_is_identified_by <86403cfc-8ccc-4473-945b-85253063fad6> .
+
+<969c9105-d165-455f-8f09-66fa3e837ca3> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de La Flèche"@fr .
+
+<975f1dc9-c57b-4a2e-97e5-63510bec0ec7> a crm:E41_Appellation ;
+    rdfs:label "Dominicains de Nancy"@fr .
+
+<9767ed9b-7037-4ed5-98a1-1fe0cbf235be> crm:P1_is_identified_by <37360986-1ff1-409f-8774-df48ffb6bfbf> .
+
+<97e98fa8-83e6-4dd7-adb7-21bb144576e0> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de Poitiers"@fr .
+
+<980c2aad-e7e9-4fec-9701-c8c11c11447e> crm:P1_is_identified_by <ab296226-6876-4d2d-8f10-04f0e809071b> .
+
+<9834e472-f99a-4b7d-b0e0-1f2ae71cb647> a crm:E41_Appellation ;
+    rdfs:label "Mauristes de l'abbaye de Saint-Germain-des-Prés"@fr .
+
+<98c668f7-8d69-470a-a155-ba0a9b004fdb> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Paris"@fr .
+
+<98cb6ce2-39ae-47b2-b646-e459f6624130> crm:P107_has_current_or_former_member <1ae7caf3-bc44-43b7-b73e-93772f905cee> ;
+    crm:P1_is_identified_by <ef2d0c5c-f7b9-4e9f-a053-7d2c65259247> .
+
+<996c74cb-eab9-4d18-8cb0-417beff601b7> a crm:E41_Appellation ;
+    rdfs:label "Pètres de la Mission d'Alençon"@fr .
+
+<9986bc5d-99dd-4bae-8f49-cc67de058562> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Châteauroux"@fr .
+
+<9adf71c2-2561-46d7-81c9-4a9c61d76b16> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Prémontré de Saint-Joseph à Nancy"@fr .
+
+<9c43b9ee-94f3-4ce8-831c-ebcc7b9d93a1> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Saint-Ruf"@fr .
+
+<9d925851-f9ff-4b34-85a5-58b0c15eccb7> crm:P1_is_identified_by <640c6a87-7077-4c10-83f1-6d63500b082c> .
+
+<9e59e68e-bac6-4e91-8210-7607eb0be428> a crm:E41_Appellation ;
+    rdfs:label "Prêtres de la Mission de Rochefort"@fr .
+
+<9e611592-67a3-4e9d-8d80-e5352218cd16> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Pontoise"@fr .
+
+<9e7f5dc7-dfe6-42c6-9095-c15adcca5387> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Versailles"@fr .
+
+<9ea3fd4b-5e79-4210-8b10-499f53a4b278> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de Valenciennes"@fr .
+
+<9ffb8394-2bc4-465d-a4cf-e777225c58af> crm:P1_is_identified_by <5c45044a-3fbd-46ee-a550-82c7ed5ecc3f> .
+
+<a0081be4-4330-40e6-bec1-2ecb9f1e6cad> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Mayenne"@fr .
+
+<a050a459-9714-4536-afe8-8fa83bceb8af> crm:P107_has_current_or_former_member <008b6276-6ed9-4e3f-a6c4-24f511899143>,
+        <3f3c509a-6261-4f5a-9646-456ffd638fd3>,
+        <66b29774-f280-4c30-b121-50d75aff59fe>,
+        <9174df1c-cf45-4fbb-bd11-b3f0a146c4be>,
+        <aa32b507-5c27-43dc-80e1-ac5538cbd7ea>,
+        <ab2543d7-37d1-452f-8e0a-14ee5d9a1f62>,
+        <e15e6bd3-1fad-45b4-b354-f778d6f9bf9e>,
+        <e4880bdf-2a1a-471c-b34a-739a1ba32129> ;
+    crm:P1_is_identified_by <0b9989d4-3b93-4dd7-a936-09f2f7b231d5> .
+
+<a0d5b0d2-8689-4f13-b7ab-c4a4a309e067> a crm:E41_Appellation ;
+    rdfs:label "Bénédictines de l’abbaye Notre-Dame-du-Nid-au-Merle"@fr .
+
+<a1a7e4d0-f2c8-4794-81f6-ac4646254ccd> a crm:E41_Appellation ;
+    rdfs:label "Dominicains de Bordeaux"@fr .
+
+<a1bb8b6a-4c22-4f2c-aa08-740d8521593c> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Châlons-en-Champagne"@fr .
+
+<a2517938-4a34-4446-a6df-5b33022e014d> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Compiègne"@fr .
+
+<a3209b40-e4f3-4db5-ab6d-f6525ac6a2d9> crm:P1_is_identified_by <6640def3-4995-49fd-af7b-54117ae7b06c> .
+
+<a3aa2868-e12a-4d8f-a412-b83657eddd17> crm:P1_is_identified_by <0f198056-052c-48fe-83ab-637c53b11760> .
+
+<a3ab541e-8e8f-45e8-9dd9-b2e0229c3080> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré Sainte-Catherine de la Couture"@fr .
+
+<a4182096-a99f-4a68-961f-7d1f57363699> crm:P1_is_identified_by <975f1dc9-c57b-4a2e-97e5-63510bec0ec7> .
+
+<a41d2444-8d93-45fe-9475-178bb3c32c13> crm:P107_has_current_or_former_member <4b04be91-91fb-488f-a07e-f25cdae9074a>,
+        <6c1634d5-d7e1-4a1a-9001-0e47a6ab38f0> ;
+    crm:P1_is_identified_by <477a8cda-d6d6-4f77-b65e-9c2a06465365> .
+
+<a42b54a7-1b8b-41b7-a64a-6052c7359632> crm:P107_has_current_or_former_member <08959b0e-5e2c-48fd-93cd-3b41f1787183>,
+        <0b032894-aea0-4401-9707-018460fd35a0>,
+        <199df027-9b72-47e7-ac9f-f899f43d46c5>,
+        <2700d834-f18f-41fb-87dc-32c32ddfa5f9>,
+        <34e1d869-abc4-43b6-b1f7-b9ffef9963e5>,
+        <41906ef0-d5f6-4dd3-92f8-b5ab79c091df>,
+        <44568e73-7fe2-40ff-9eb9-71b320ec09af>,
+        <44675f3d-36de-42b9-a380-6f22bd5b24d2>,
+        <4cfbb131-83b7-4b82-a42d-eed24f91a3ce>,
+        <72b2864c-9a7a-4642-84d3-68b712e8d355>,
+        <7683cc1d-33e8-4182-8c3b-2a16e1b28e26>,
+        <8181fd47-276e-4b57-8504-8bac0d818549>,
+        <82e73cb5-6082-4ed8-95ac-18c4b7618ff4>,
+        <83c97e6b-97b8-4b08-88b6-19d48b6ecdea>,
+        <88d166ff-d60e-467b-847b-cc03cb05e739>,
+        <966aeb63-c0d4-4554-902c-0ba0f14fce9b>,
+        <bb597ab4-0da8-4e9d-88df-c6352f0e9d1e>,
+        <c835c171-fb42-4be1-851d-033025562af0>,
+        <d7c9862e-cc59-4ef5-843f-6d2112d9b7a6>,
+        <dd50f30f-53cd-448b-9e03-0ca725df7e23>,
+        <dd9abfd6-5601-4a31-bb3c-a4c3961c5a61>,
+        <f3d0ed3b-a03a-4b33-97a6-753e5320ec9e> ;
+    crm:P1_is_identified_by <1efd3697-16d1-4849-86c0-a1711353baf1> .
+
+<a460beda-1a18-4f68-aca7-b76956e60798> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Carpentras"@fr .
+
+<a5202007-88b4-471e-9995-17126fcc52ff> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Montélimart"@fr .
+
+<a5d3f5ea-0d45-4713-8a18-e49c34ac4c4a> crm:P107_has_current_or_former_member <057533d4-71bf-45ba-9f12-4b5741e60ace>,
+        <08304b2d-f1ba-4fe2-b5c0-edcd88d8efaa>,
+        <1781f3db-a812-4051-a9c5-70d40cbb8147>,
+        <1d01ec01-90ed-467e-a08f-f26e72ec9f65>,
+        <452e9950-8f6c-4d9a-8695-0b4fda0eabea>,
+        <6675129d-c365-41ae-907a-ca01ca8b0a15>,
+        <6936e783-218e-4952-a941-75bf01104251>,
+        <79b966c5-9512-41ff-a49d-9734eebe59cf>,
+        <8795e7ee-66ca-496e-a240-81849b24a9af>,
+        <c0438801-5f8f-44f8-95ca-ab0f891cb95d>,
+        <d97195b1-14cb-4ef0-811e-660fe518f3b6>,
+        <e50966d5-f474-4ac9-a1de-bf0715097d34>,
+        <e8bf83b5-b66e-418c-b2cd-67cec5a14092> ;
+    crm:P1_is_identified_by <3447d42d-16c8-4817-8baf-9ca815a14d0f> .
+
+<a671d05a-1152-4fea-ad3e-92b13f174763> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Compiègne"@fr .
+
+<a7227920-86bd-4d40-929b-607aad5fbe1a> a crm:E41_Appellation ;
+    rdfs:label "Bénédictins de l'abbaye de Saint-Denis"@fr .
+
+<a72e75d8-9f77-410b-bda1-aae7fc7def50> crm:P1_is_identified_by <2723967b-b916-49ef-8299-d3a3af73c52d> .
+
+<a758aecd-6df1-4001-bb67-9b3b1f4d906a> a crm:E41_Appellation ;
+    rdfs:label "Bénédictins de La Réole"@fr .
+
+<a75b4d6d-e231-4c05-962a-99fd478c0d69> crm:P107_has_current_or_former_member <3534a8f9-9715-43a0-b316-1b35a17a60a9>,
+        <5570d7eb-3864-4d6a-99fe-e675d178b712>,
+        <8ac082b2-d4e1-47e0-b5b7-1e74ebfae8b2>,
+        <e8e1965a-5b4a-475d-bb47-9cd5b9dab2f2> ;
+    crm:P1_is_identified_by <597c7cec-0409-437d-a1d1-c67596d36549> .
+
+<a7c02036-9ec2-40e4-bbcd-5bb53c9d5809> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Luxembourg"@fr .
+
+<a9cb5a86-cd12-487a-bf2e-8883440d8972> crm:P1_is_identified_by <0d19fa86-7700-4b20-b52c-b06c65c746b9> .
+
+<a9f5f328-5beb-4f50-9f39-c9ebd51180fc> crm:P1_is_identified_by <f992661f-e18b-4b69-b49d-65de67180e6b> .
+
+<aa32b507-5c27-43dc-80e1-ac5538cbd7ea> crm:P107_has_current_or_former_member <3c910902-8f90-47a9-b753-4a99065d39a8>,
+        <4820bc90-ebd4-452d-a5ce-d22d8a8f6c66>,
+        <e61fc478-e4b9-4a61-b0d6-f80d09ffbc0d> ;
+    crm:P1_is_identified_by <0fb193ed-b547-4e9f-962b-251a438e36ae> .
+
+<aad61e51-f9ce-4f0c-aabe-d59403248c24> crm:P1_is_identified_by <f8edceb5-1091-4e7a-bef7-733b1b26c274> .
+
+<ab2543d7-37d1-452f-8e0a-14ee5d9a1f62> crm:P107_has_current_or_former_member <1ba33467-c0d7-4ce8-b02a-31cb90616e8c>,
+        <4e416766-eff9-443c-bd7f-cfb368009bad>,
+        <949a9af5-4d98-413b-97bc-54c22fd71640>,
+        <d85ebcc4-f34e-4d8a-b8c9-a1a3b77a228e>,
+        <eb139d71-74bd-4677-869a-e5b17f148b55> ;
+    crm:P1_is_identified_by <81f7a1e3-3ceb-4373-b683-cfd7f58113ea> .
+
+<ab296226-6876-4d2d-8f10-04f0e809071b> a crm:E41_Appellation ;
+    rdfs:label "Oratoriens de Pésenas"@fr .
+
+<ad5cf215-bd90-428a-90f5-a9a6954eeeed> a crm:E41_Appellation ;
+    rdfs:label "Bénédictins de l'abbaye de la Trinité à Vendosme"@fr .
+
+<ad6f7b7f-529b-4ffd-bc4e-e8cbe16db75e> crm:P1_is_identified_by <f029b028-898d-4175-89cf-8364faf8de57> .
+
+<ae092e8e-06bb-4346-ad2f-af8241643f94> a crm:E41_Appellation ;
+    rdfs:label "Trinitaires de Limoux"@fr .
+
+<ae4e5674-fc09-4709-ab55-37c2e7e9ce33> crm:P107_has_current_or_former_member <816ea6da-5a1f-49c1-8fa3-8e3f3ec46782> ;
+    crm:P1_is_identified_by <1a4da143-65fb-4539-a7aa-c6aa9ea8c95a> .
+
+<af60e681-6bf4-4d86-bef9-814ca3246e57> crm:P1_is_identified_by <418e6c52-6317-4a7e-b332-2bcc341fac3d> .
+
+<b01d7ae3-cefd-404a-bc6a-8c3454692ef5> crm:P107_has_current_or_former_member <2d17757e-e310-4d04-aa7a-be3ab80ef185> ;
+    crm:P1_is_identified_by <54f39605-ee57-4e57-9a3a-502873a7fb9c> .
+
+<b048709d-63db-4123-8dc6-2d9fc6b160d4> a crm:E41_Appellation ;
+    rdfs:label "Minimes de Gien"@fr .
+
+<b14806bd-1b45-4e95-bda1-f4aba65fcaa2> a crm:E41_Appellation ;
+    rdfs:label "Père prieur des Chartreux de Toulouse"@fr .
+
+<b1981690-06f4-4bf4-89d8-0111db9a9b14> crm:P107_has_current_or_former_member <093d39b0-acc3-4142-85cd-dc3bf1f0df65>,
+        <138a1619-b6ac-456a-8a53-26cf9210e315>,
+        <58b7b6be-136b-4ac3-8c05-4d4e37001aa8>,
+        <6cc49b47-1f7c-41ae-8340-e06b1ed25f75>,
+        <78ac900d-dcaa-46ba-bf4b-637574419668>,
+        <a9cb5a86-cd12-487a-bf2e-8883440d8972>,
+        <c5267976-bbe4-4fa7-8f05-3c1ab58470e6>,
+        <ec505083-17f6-40c3-8d1b-ba277ebdf7a7> ;
+    crm:P1_is_identified_by <685b974b-3a15-4f97-8f6b-07fda8c782f1> .
+
+<b1b7baca-edd7-40b3-84ec-8297e0bb14b2> crm:P1_is_identified_by <cfcab7c9-8dfc-44d9-9cd7-ca852dfc71c9> .
+
+<b26482be-b0e7-4836-b51c-c9f2e2ab5d38> a crm:E41_Appellation ;
+    rdfs:label "Frères de la Charité de Fort-Royal"@fr .
+
+<b2bb311e-0666-4db0-878b-0da26f8c6e25> crm:P1_is_identified_by <30b55b68-6c09-4d8d-8bd8-d005c5c0ef25> .
+
+<b31e3d0c-37f0-491d-b9c7-eac3b4fc6d96> a crm:E41_Appellation ;
+    rdfs:label "Grands Augustins de Nancy"@fr .
+
+<b332c71c-bfa0-4379-90d5-0feb0d01c814> crm:P1_is_identified_by <57c5bed3-17d0-49c1-8c7d-986d7ae29869> .
+
+<b332cf7a-a656-4d12-ac50-0ecd4ae15675> a crm:E41_Appellation ;
+    rdfs:label "Oratoriens de Toulouse"@fr .
+
+<b3393d3c-d828-4cf5-9191-e5642d1288b8> crm:P1_is_identified_by <f835de1c-b1ec-4d9a-949d-539b88c0083f> .
+
+<b37b5213-9f7a-4c41-bbd9-790dd9ffc11d> crm:P1_is_identified_by <a671d05a-1152-4fea-ad3e-92b13f174763> .
+
+<b44b0092-8ec4-4433-b1b8-db5c113cb09d> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Guyenne"@fr .
+
+<b44c0650-8d9f-4823-8c1a-5131181f65a1> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Naples"@fr .
+
+<b485381e-c40e-4ce7-8247-df9d7c872e0c> crm:P107_has_current_or_former_member <5b3674a3-5fa2-4194-94c6-73bfc4153d59> ;
+    crm:P1_is_identified_by <7622a0c7-f065-4178-9e2d-319702c468de> .
+
+<b4e022b4-c63a-4b8e-baa3-0218b1f48a01> a crm:E41_Appellation ;
+    rdfs:label "Carmélites de Lyon"@fr .
+
+<b56fc195-167d-420d-9bd9-2e04111c4f07> a crm:E41_Appellation ;
+    rdfs:label "Franciscains (ordre)"@fr .
+
+<b5813b53-7b9e-4c40-aade-1c967ff463b7> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes"@fr .
+
+<b6b859e0-6e59-46b4-bda4-384c7291e5ba> a crm:E41_Appellation ;
+    rdfs:label "Augustins"@fr .
+
+<b705ff8c-1d31-4642-87e8-ff1020d481b6> a crm:E41_Appellation ;
+    rdfs:label "Ursulines de Ligny"@fr .
+
+<b736996b-1659-4841-a017-b1bacb8f7564> crm:P1_is_identified_by <45220e38-3a86-4a8f-8d97-665eaf81f681> .
+
+<b7b00c5f-c936-4ddb-9059-2dd52c114bff> crm:P1_is_identified_by <3359ed3a-6d6d-4891-ac72-2920c5684914> .
+
+<b9540b45-5ea3-48cd-938d-7359053434ba> crm:P1_is_identified_by <51fb9c7a-34a9-4d1e-b83d-185683291833> .
+
+<ba2f95c2-ffff-4796-b61a-a0910a5852be> a crm:E41_Appellation ;
+    rdfs:label "Chanoinesses régulières du couvent Saint-Sauveur de Perpignan"@fr .
+
+<ba6328f9-83b4-4fc2-aa9a-527702aa1130> a crm:E41_Appellation ;
+    rdfs:label "Doctrinaires"@fr .
+
+<ba847f9c-341b-4e3c-a644-49fab71a422b> crm:P1_is_identified_by <62a2baef-982b-4887-b6c1-5946e5c016e6> .
+
+<baa02add-03cd-4798-97dd-e61cc62222d0> crm:P1_is_identified_by <caa596ed-b361-4dea-9fc6-7edaa6bffedd> .
+
+<bb597ab4-0da8-4e9d-88df-c6352f0e9d1e> crm:P1_is_identified_by <29a5cca3-5ca9-49b8-bc20-f73736751f42> .
+
+<bb8b89c3-4540-405a-beeb-a3a33d2a8892> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Madrid"@fr .
+
+<bb9af77d-37b3-4b7f-9845-c963f344dc8d> crm:P1_is_identified_by <a1bb8b6a-4c22-4f2c-aa08-740d8521593c> .
+
+<bc77480b-3ee6-4671-9525-15584d6886b3> crm:P1_is_identified_by <13ff0ddf-3a8e-418f-bdd4-7fd278950e93> .
+
+<bc9cc424-e4b8-43db-9af0-e3a5a4c907ff> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de Rome"@fr .
+
+<bd0b3d00-96e4-47d4-a9ba-7b3c5238d042> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Gien"@fr .
+
+<bd1f3459-31a8-4738-8669-b3907e575004> crm:P107_has_current_or_former_member <546ff26d-49ba-4207-81c4-98e298911b82>,
+        <b01d7ae3-cefd-404a-bc6a-8c3454692ef5> ;
+    crm:P1_is_identified_by <ed50ab69-0c8a-4239-860d-532a19be0e73> .
+
+<bd8427df-cf4b-4fc9-80f7-6862696f927a> crm:P1_is_identified_by <4bd3e0ae-1555-45cd-b51c-427afdb356a8> .
+
+<beddfb60-bdd5-4345-945c-f5189cafa71d> a crm:E41_Appellation ;
+    rdfs:label "Bénédictines de l'abbaye royale du Val-de-Grâce à Paris"@fr .
+
+<bf2845a2-ef46-433b-9820-12a1f49c6816> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Rennes"@fr .
+
+<bf536af2-a1f2-481d-b3ee-a755fc7fbac4> a crm:E41_Appellation ;
+    rdfs:label "Cisterciennes de l’abbaye de Sainte-Hoïlde"@fr .
+
+<bfad3146-fc33-4be1-90b6-d20c513497ee> a crm:E41_Appellation ;
+    rdfs:label "Grands Augustins de Poitiers"@fr .
+
+<bfd96602-5316-41ba-93a9-ad862ca5e39a> crm:P1_is_identified_by <541aa549-17e5-4aee-a919-c11b9f991b2d> .
+
+<c00b07b4-5404-458f-a24c-2a13d3398c56> a crm:E41_Appellation ;
+    rdfs:label "Dominicains de Poitiers"@fr .
+
+<c0438801-5f8f-44f8-95ca-ab0f891cb95d> crm:P1_is_identified_by <39fd7765-4648-4f9f-a187-04cb64173bb6> .
+
+<c0e6f3e3-041a-444f-8722-d98074744c43> crm:P1_is_identified_by <e0a80c11-57d3-4000-b235-f34014497351> .
+
+<c0f420a5-e780-417a-8e9c-9e7a035712e3> a crm:E41_Appellation ;
+    rdfs:label "Grands Augustins de Paris"@fr .
+
+<c11a55e9-4a71-41c0-977e-3209c6cd389e> a crm:E41_Appellation ;
+    rdfs:label "Bénédictines de l'abbaye de Notre-Dame de Soissons"@fr .
+
+<c147722d-ab96-4d48-aaac-068e26286959> a crm:E41_Appellation ;
+    rdfs:label "Ursulines"@fr .
+
+<c1d7b543-5f1e-4f8e-81e1-0a41cc826067> crm:P107_has_current_or_former_member <035a810b-ad20-4ea1-9090-d6c3ff61c55d>,
+        <44463a08-dfaf-43db-a281-cf55ab4848aa>,
+        <77d8c604-5b7a-4469-975d-287fae82ce6f>,
+        <d831afdd-acc5-4c3c-8b58-f79c6fe404a4> ;
+    crm:P1_is_identified_by <1f3bdabc-75b2-4272-a40b-4ec6f40f7a7f> .
+
+<c2c2236b-27b8-4619-b7b4-d07eddc56e7a> crm:P1_is_identified_by <39b54814-04b6-4bb2-9134-38bf880ce091> .
+
+<c327b5a7-50a2-45a3-a609-0837c06150cd> a crm:E41_Appellation ;
+    rdfs:label "Sociétés de prêtres et de frères"@fr .
+
+<c3b5b954-d25c-4740-9a47-6e1aa399a4f3> crm:P1_is_identified_by <63221b5b-830c-41d8-afbc-d68d14d8b73d> .
+
+<c4a9e2a8-81d4-41f8-9132-b02438534a84> a crm:E41_Appellation ;
+    rdfs:label "Prêtres de la Mission"@fr .
+
+<c4b89609-732d-474b-99ab-8dc781bc9d4b> crm:P1_is_identified_by <969c9105-d165-455f-8f09-66fa3e837ca3> .
+
+<c4ff7b35-b7f7-49b9-919c-8545f9684f67> a crm:E41_Appellation ;
+    rdfs:label "Annonciades de Bourges"@fr .
+
+<c5267976-bbe4-4fa7-8f05-3c1ab58470e6> crm:P1_is_identified_by <a7227920-86bd-4d40-929b-607aad5fbe1a> .
+
+<c5a991fa-8133-4017-91f7-e0f02904ff7d> crm:P1_is_identified_by <00b7b799-c72e-4c08-966b-ed0164e256e7> .
+
+<c5cce372-21ad-407a-b999-e38e6b4b8f9b> crm:P1_is_identified_by <8487b78a-691b-48e9-b346-4a47c8b5cd68> .
+
+<c6310c54-0464-4826-80ed-b250a0fd8280> a crm:E41_Appellation ;
+    rdfs:label "Feuillants"@fr .
+
+<c75feeb1-e5cb-4e00-8ee3-c50748b5e2e7> a crm:E41_Appellation ;
+    rdfs:label "Mercédaires (ordre)"@fr .
+
+<c7aa5b39-dac3-487b-affc-1d5498911ab7> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Niort"@fr .
+
+<c808f56c-cdc6-4b9e-abcb-672302c9852f> crm:P1_is_identified_by <2ded92dd-76e3-4cf6-b824-03262d7a6852> .
+
+<c835c171-fb42-4be1-851d-033025562af0> crm:P1_is_identified_by <9e611592-67a3-4e9d-8d80-e5352218cd16> .
+
+<c8c9eee7-179f-44c9-8d65-53b89d87232b> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Saint-Ruf de La Côte-Saint-André"@fr .
+
+<c9ddd6e1-757f-4e84-9d82-f1cc5dac8303> a crm:E41_Appellation ;
+    rdfs:label "Dominicains de Madrid"@fr .
+
+<ca0271c3-703d-4a12-9aa0-c1e07a425b85> crm:P1_is_identified_by <2b427748-1878-4dbb-89a1-aa39e2a58f6e> .
+
+<caa596ed-b361-4dea-9fc6-7edaa6bffedd> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Ligny"@fr .
+
+<cac53b76-afca-476f-bc1f-141bc230b05c> a crm:E41_Appellation ;
+    rdfs:label "Dominicains de Toulouse"@fr .
+
+<cac6035e-845c-4b83-8c41-b8e60b47c24d> a crm:E41_Appellation ;
+    rdfs:label "Augustins déchaussés des Loges à Saint-Germain-en-Laye"@fr .
+
+<caccb582-8b30-48e6-9375-60a3dc6cea62> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Saint-Antonin"@fr .
+
+<cb54c7a6-4720-4fbf-94b5-4f38f0fd5eb3> crm:P1_is_identified_by <9346546f-6e95-4f12-bd3b-eb969b41d17f> .
+
+<cbb17cc6-d025-44d9-9e06-79009b67575b> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Brest"@fr .
+
+<cd7a0bfb-3513-4516-ab77-39a317446d8e> crm:P1_is_identified_by <874b0847-215f-4251-b8bc-447c9968df08> .
+
+<ce1c53cc-1c29-4cdc-bfc7-c849c2cc2f8f> crm:P1_is_identified_by <280f3a4a-4681-4396-a122-dc3de2c6e202> .
+
+<ce7f720d-cbb8-48c2-921e-009b94ced0b8> crm:P1_is_identified_by <80bcc3a3-1e7c-40f6-96ad-3a855a83715d> .
+
+<cef14681-5e94-4b6a-9f81-8bf17c75933d> crm:P1_is_identified_by <50087d14-6169-4b20-a019-7173fcd1a43b> .
+
+<cf30954f-7f75-4740-aa48-2fdf1f6f84a3> a crm:E41_Appellation ;
+    rdfs:label "Congrégations de clercs réguliers"@fr .
+
+<cf616c94-c9df-4d3d-b7c4-936766ebad3c> crm:P1_is_identified_by <29087de9-c450-4178-ab44-6ae24ed5d416> .
+
+<cfcab7c9-8dfc-44d9-9cd7-ca852dfc71c9> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Grenoble"@fr .
+
+<d0ce51de-c177-4467-9e2f-7d18c7af479c> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Terre-Sainte"@fr .
+
+<d16203a9-1952-44fb-88c1-f6759d012063> crm:P1_is_identified_by <a7c02036-9ec2-40e4-bbcd-5bb53c9d5809> .
+
+<d1f4d062-7090-467c-b7ab-95ff7e6a128d> a crm:E41_Appellation ;
+    rdfs:label "Mauristes"@fr .
+
+<d229b626-1d52-4296-9aa0-b0015a6c8d45> crm:P1_is_identified_by <3d7a46e8-1816-4b8e-be46-42df80e0a5b4> .
+
+<d243307e-e918-4a86-b749-c1c334ca11ec> a crm:E41_Appellation ;
+    rdfs:label "Grands Augustins de Bordeaux"@fr .
+
+<d26182da-a202-4fc4-bc28-c2fcfc36e543> a crm:E41_Appellation ;
+    rdfs:label "Abbé de Saint-Sever"@fr .
+
+<d27e5354-58b1-4296-96fd-8a78ad849791> crm:P107_has_current_or_former_member <7df2ff80-82bc-47e1-995b-6f7cf1c4dbec> ;
+    crm:P1_is_identified_by <426ff844-ff8e-4acb-bb7c-d50515db9a62> .
+
+<d2d7c0fe-890b-4b3a-bfdd-a0de3a7598e7> crm:P1_is_identified_by <56b6f950-a6dc-4f36-ab51-a8aa99d9d4b9> .
+
+<d2e21bc7-1f02-42e8-8a79-fb6da92b4a13> a crm:E41_Appellation ;
+    rdfs:label "Ursulines du Hâvre-de-Grâce"@fr .
+
+<d34075c7-c11f-4a55-a8d0-edf119f4db5b> crm:P1_is_identified_by <84c366f9-46d8-441e-a265-bd8ba4f56a53> .
+
+<d375d805-0976-4298-acd1-73314487265f> a crm:E41_Appellation ;
+    rdfs:label "Augustines hospitalières de la roquette de Paris"@fr .
+
+<d39e7069-c42d-420e-9b94-359698692810> crm:P1_is_identified_by <996c74cb-eab9-4d18-8cb0-417beff601b7> .
+
+<d42dc414-136d-4ef1-91e1-629b51f9bb36> crm:P1_is_identified_by <69533c84-9899-43c9-b091-c1db6a4a4dff> .
+
+<d4dadefc-3006-42cb-9647-2a43543d3369> a crm:E41_Appellation ;
+    rdfs:label "Dominicains (ordre)"@fr .
+
+<d5281d1e-7269-4abc-9c4f-c93bd7dbbc62> crm:P1_is_identified_by <5a01aa81-d8be-41b5-be26-7a4f054036d1> .
+
+<d5c600bd-7c51-4423-a330-673129aad6c7> crm:P1_is_identified_by <df5ff823-a169-4531-98ca-0b5b779e4535> .
+
+<d7275ecf-9571-425a-a738-560eb01258ba> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Montélimart"@fr .
+
+<d76abcdc-b2da-44a8-88a4-0ab6b478d58b> crm:P1_is_identified_by <bf536af2-a1f2-481d-b3ee-a755fc7fbac4> .
+
+<d7c9862e-cc59-4ef5-843f-6d2112d9b7a6> crm:P1_is_identified_by <bd0b3d00-96e4-47d4-a9ba-7b3c5238d042> .
+
+<d831afdd-acc5-4c3c-8b58-f79c6fe404a4> crm:P1_is_identified_by <f11c6273-510b-4483-9995-3c975bc7a5cc> .
+
+<d85ebcc4-f34e-4d8a-b8c9-a1a3b77a228e> crm:P1_is_identified_by <3752418c-3ac6-4a2e-be37-b38418e383b0> .
+
+<d97195b1-14cb-4ef0-811e-660fe518f3b6> crm:P1_is_identified_by <4d841e14-b885-4ed5-8f2e-de851e709468> .
+
+<d9b0ed42-934d-4ec1-944e-b24f05f90d09> a crm:E41_Appellation ;
+    rdfs:label "Divers"@fr .
+
+<dc25e8a8-91e1-4366-ab66-ec64f71667b9> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de l'abbaye royale de Saint-Victor de Paris"@fr .
+
+<dc51dbc5-0f05-4e96-a756-76312b702d38> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de saint Augustin"@fr .
+
+<dcc8758c-73cb-4852-b1db-fbf15e6dfe1d> crm:P1_is_identified_by <801dfa0a-2885-44d6-9f08-a1b0b17aa410> .
+
+<dcd47c5f-50a1-4969-9e84-233c815fd10c> a crm:E41_Appellation ;
+    rdfs:label "Ordre de Calatrava"@fr .
+
+<dd50f30f-53cd-448b-9e03-0ca725df7e23> crm:P1_is_identified_by <051cd52b-978b-4d46-966e-f2f0c3352dff> .
+
+<dd5e68ee-fcd9-49ac-b082-b064a07d1d60> crm:P1_is_identified_by <2c503150-cfb2-498b-b6d4-262812bd3523> .
+
+<dd9abfd6-5601-4a31-bb3c-a4c3961c5a61> crm:P1_is_identified_by <5ed1a55f-533f-4e0b-8f2f-ea88539659be> .
+
+<ded18e1c-4fc3-43ce-977f-b5175aa0f6fe> crm:P1_is_identified_by <ff089869-345a-429a-b2b3-26f2c0872864> .
+
+<df5ff823-a169-4531-98ca-0b5b779e4535> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de Pont-Audemer"@fr .
+
+<df7c765e-c99a-4671-8251-387d2433e2ea> a crm:E41_Appellation ;
+    rdfs:label "Cisterciennes"@fr .
+
+<e003bdd4-57e1-4f02-b1ad-6c3204636fe5> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de Sainte-Anne-d’Auray"@fr .
+
+<e01ab65d-1540-442b-8821-62dd37d21217> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Nancy"@fr .
+
+<e0401b0f-4584-4201-bbd5-34a76c851d71> crm:P107_has_current_or_former_member <913a7299-8a00-4533-bf93-d2aef2622e50> ;
+    crm:P1_is_identified_by <6f9071da-c3c6-47a2-8323-ad07702d8330> .
+
+<e0a80c11-57d3-4000-b235-f34014497351> a crm:E41_Appellation ;
+    rdfs:label "Mauristes de l'abbaye Saint-Laumer de Blois"@fr .
+
+<e1095a95-d73f-4206-b64f-1d92da572253> crm:P1_is_identified_by <a460beda-1a18-4f68-aca7-b76956e60798> .
+
+<e15e6bd3-1fad-45b4-b354-f778d6f9bf9e> crm:P1_is_identified_by <398d96d4-9460-4ec9-9073-860f92383cf0> .
+
+<e1d3d578-b831-44e4-bf9f-e7048f7faaa6> crm:P107_has_current_or_former_member <1a38cba5-2cd6-4e9a-9682-5f3def3b77e1> ;
+    crm:P1_is_identified_by <2d2e864e-91c0-4d89-9335-e404c6bd748e> .
+
+<e1defd3a-3b7f-49bd-8c36-ada42997e3a9> crm:P1_is_identified_by <864cb746-e394-43a8-8130-0c27e8bf7ac9> .
+
+<e3450820-b8c2-46e0-8e56-c1e3df3ba360> a crm:E41_Appellation ;
+    rdfs:label "Prêtre de la Mission de Versailles"@fr .
+
+<e3771a57-7fb7-40e8-ba9f-79219fc0a77a> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Quimper"@fr .
+
+<e4395f86-708e-450a-a018-75c7785d1dba> crm:P1_is_identified_by <6e0fc43a-f055-437f-ae7d-3bb05a19279c> .
+
+<e4880bdf-2a1a-471c-b34a-739a1ba32129> crm:P107_has_current_or_former_member <09542fbd-52f3-43c1-b6ca-36b1ba5c51f6>,
+        <0c64be1f-9bd7-48af-8af5-974fb5f67e1e>,
+        <0c943b90-47f6-4a4a-8ddd-ec207e9f0acc>,
+        <25ef87c3-a280-4996-80d0-0f1eb5e2d9e6>,
+        <39ae722a-9d58-4f4e-a58e-908262475643>,
+        <a42b54a7-1b8b-41b7-a64a-6052c7359632>,
+        <a5d3f5ea-0d45-4713-8a18-e49c34ac4c4a>,
+        <cb54c7a6-4720-4fbf-94b5-4f38f0fd5eb3> ;
+    crm:P1_is_identified_by <b56fc195-167d-420d-9bd9-2e04111c4f07> .
+
+<e4e5495c-56dc-428b-89b7-4d0413d71e16> crm:P1_is_identified_by <dcd47c5f-50a1-4969-9e84-233c815fd10c> .
+
+<e50966d5-f474-4ac9-a1de-bf0715097d34> crm:P1_is_identified_by <9e7f5dc7-dfe6-42c6-9095-c15adcca5387> .
+
+<e542da4f-af35-4da3-86dd-6c942ab8778b> crm:P1_is_identified_by <e624a95d-2d67-4bca-a54f-c0abf2046ad9> .
+
+<e58604c5-5aa6-4a91-83a2-55007cc48173> crm:P1_is_identified_by <ba2f95c2-ffff-4796-b61a-a0910a5852be> .
+
+<e5c572d4-adee-497b-a980-bab2db1e0dbe> a crm:E41_Appellation ;
+    rdfs:label "Bénédictines de l'abbaye Saint-Pierre de Lyon"@fr .
+
+<e61fc478-e4b9-4a61-b0d6-f80d09ffbc0d> crm:P107_has_current_or_former_member <02ba22f9-43a3-4186-9d1e-5a70dd2a5c78>,
+        <1481eab9-5ce2-488c-9c58-d52e112e0383>,
+        <2c0f3fcc-24b5-477f-af2c-9dd41a87044c>,
+        <30ba09ba-09e8-4fce-9811-ff7d03eea408>,
+        <35236a7e-901c-485e-9f43-ae90c20d4d07>,
+        <3cd842bc-5427-4774-985e-1422899b7b27>,
+        <5675d789-2df6-495a-9836-d81f0ffe4af9>,
+        <5ea4d51d-ef71-4b6a-b1c5-de8cbde6c116>,
+        <8cfb2d5d-81f6-4706-bebf-1234d9ab88dd>,
+        <94d2eb12-b6db-4de5-9221-e75c6c5ecc0a>,
+        <a3209b40-e4f3-4db5-ab6d-f6525ac6a2d9>,
+        <bc77480b-3ee6-4671-9525-15584d6886b3>,
+        <c4b89609-732d-474b-99ab-8dc781bc9d4b>,
+        <d5c600bd-7c51-4423-a330-673129aad6c7>,
+        <f676d9fd-1db2-4b54-84e2-bc5d61e3c927>,
+        <f8f9922b-9891-4edb-9285-c4f5046f5f65> ;
+    crm:P1_is_identified_by <b5813b53-7b9e-4c40-aade-1c967ff463b7> .
+
+<e624a95d-2d67-4bca-a54f-c0abf2046ad9> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Fécamp"@fr .
+
+<e637e67c-3dc5-4561-a1e3-dc8a55b1588e> crm:P1_is_identified_by <067891e8-c3f3-4e4d-a04f-e5ef3fac87ea> .
+
+<e64615c0-6ae9-43d4-ad57-19bc1a77f6c4> crm:P1_is_identified_by <4189704c-3a13-408b-91b5-1c7983322ecc> .
+
+<e66b3df6-09d0-4b5a-92b0-95a21f1b0d54> a crm:E41_Appellation ;
+    rdfs:label "Chanoinesses régulières du prieuré Saint-Michel de Crespy"@fr .
+
+<e66b56dd-9504-49e9-a4b1-56ddd361b970> a crm:E41_Appellation ;
+    rdfs:label "Récollets de Clamecy"@fr .
+
+<e69e2ea3-9d4e-40d4-8b0e-6cec3bccfa20> a crm:E41_Appellation ;
+    rdfs:label "Grand maître de l'ordre de Malte"@fr .
+
+<e6f66c13-6174-49b8-81cd-c2f3b9700643> crm:P1_is_identified_by <085ce485-c71c-47ad-ba8e-d9736bc4aa7d> .
+
+<e86c0bd3-c103-48b0-9969-9bff823f7cb9> crm:P1_is_identified_by <b31e3d0c-37f0-491d-b9c7-eac3b4fc6d96> .
+
+<e88c002a-964b-4594-938f-bccc0ac48452> crm:P1_is_identified_by <cac53b76-afca-476f-bc1f-141bc230b05c> .
+
+<e8bf83b5-b66e-418c-b2cd-67cec5a14092> crm:P1_is_identified_by <e66b56dd-9504-49e9-a4b1-56ddd361b970> .
+
+<e8e1965a-5b4a-475d-bb47-9cd5b9dab2f2> crm:P1_is_identified_by <1e097231-a472-4dfa-9514-fa05a6d21220> .
+
+<e9703568-02a9-4f6f-945a-44ee9b3a25a1> crm:P107_has_current_or_former_member <60e335cf-6fba-4ce3-84a3-b87ba127c79e>,
+        <6ddf99b3-4f9a-4d6e-8c0d-74bc619dfaa2>,
+        <d27e5354-58b1-4296-96fd-8a78ad849791> ;
+    crm:P1_is_identified_by <d9b0ed42-934d-4ec1-944e-b24f05f90d09> .
+
+<ea2f1125-7be3-446d-bcdf-1c53eb9eeb40> crm:P107_has_current_or_former_member <fce9b926-2317-4d45-aacb-2a93c26ac8df> ;
+    crm:P1_is_identified_by <46f94bd8-f49e-4593-b68b-2e01d8e23bd7> .
+
+<eb139d71-74bd-4677-869a-e5b17f148b55> crm:P1_is_identified_by <8c06b117-66fa-4e25-945c-bfba0befedd2> .
+
+<eb23a01d-afaa-473a-96ba-f79887a0e4d1> crm:P1_is_identified_by <9834e472-f99a-4b7d-b0e0-1f2ae71cb647> .
+
+<eb2b8d62-c729-4330-bce4-7b4ca631f0ec> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Vienne [Viennois]"@fr .
+
+<ec064402-aa59-4361-b262-4ef56e9d855a> a crm:E41_Appellation ;
+    rdfs:label "Bénédictins de l'abbaye Saint-Pierre-Saint-Paul d'Hautmont"@fr .
+
+<ec505083-17f6-40c3-8d1b-ba277ebdf7a7> crm:P1_is_identified_by <32587dae-8f64-4c20-9b7b-57a8d40f10c2> .
+
+<ed50ab69-0c8a-4239-860d-532a19be0e73> a crm:E41_Appellation ;
+    rdfs:label "Ordres hospitaliers"@fr .
+
+<edc01cb1-4827-4cda-9247-fd57d901b97f> a crm:E41_Appellation ;
+    rdfs:label "Annonciades (ordre)"@fr .
+
+<edeb6545-5198-47fc-8567-e019a6aeb95c> crm:P1_is_identified_by <fb20ea81-64ea-4bd0-9de3-68b2e69965cc> .
+
+<ef2d0c5c-f7b9-4e9f-a053-7d2c65259247> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers"@fr .
+
+<f029b028-898d-4175-89cf-8364faf8de57> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Poitiers"@fr .
+
+<f0ada26e-572f-457c-a758-bd7ce778db68> crm:P1_is_identified_by <7f9b1e1b-1dfc-4d2c-a7e0-786d0e4933bd> .
+
+<f10e9237-3366-4c52-9524-15a08dc214f5> crm:P107_has_current_or_former_member <2c44aad4-a9a1-465e-8b1b-b8d7be84133a>,
+        <4924c400-dc54-4860-8359-d39b2120b94c>,
+        <4e5068e9-79a5-4a49-a0c4-60da46c45230>,
+        <e4395f86-708e-450a-a018-75c7785d1dba> ;
+    crm:P1_is_identified_by <5ba919ce-fb74-460d-9166-0b8c87bb3812> .
+
+<f1117ebc-65e4-4341-9452-0523e5b351ee> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes des Basses-Loges"@fr .
+
+<f11c6273-510b-4483-9995-3c975bc7a5cc> a crm:E41_Appellation ;
+    rdfs:label "Génovéfains de l'abbaye royale de Sainte-Geneviève de Paris"@fr .
+
+<f2762f1d-5b99-483d-9475-c1bd17ed88bf> crm:P1_is_identified_by <d26182da-a202-4fc4-bc28-c2fcfc36e543> .
+
+<f2958893-dec9-44a5-92ba-01a45fe32434> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Constantinople"@fr .
+
+<f36eb786-72b0-46a1-9be4-d9b01f826114> crm:P107_has_current_or_former_member <2a581565-4a2f-4694-918a-ee7b95cc4f4c>,
+        <ae4e5674-fc09-4709-ab55-37c2e7e9ce33>,
+        <e4e5495c-56dc-428b-89b7-4d0413d71e16> ;
+    crm:P1_is_identified_by <1b8c2a57-7d35-4e51-9660-7ddac779d57b> .
+
+<f38623b5-8ae5-4bc9-9353-c71e2242b22c> crm:P1_is_identified_by <caccb582-8b30-48e6-9375-60a3dc6cea62> .
+
+<f3d0ed3b-a03a-4b33-97a6-753e5320ec9e> crm:P1_is_identified_by <903bbe49-ea54-4cc6-889f-970cf09d8d87> .
+
+<f56bf8b0-0169-4b80-b3cf-0790852094fd> crm:P1_is_identified_by <27c6704e-5052-49da-baa0-574c35d7eab7> .
+
+<f59becb4-371e-4efc-af14-12c22d8ec71f> crm:P1_is_identified_by <5e4c1478-c149-48a4-8a75-d59ff704aa3c> .
+
+<f5a69f49-4410-497b-80b5-8b394f41e29c> a crm:E41_Appellation ;
+    rdfs:label "Jésuites de Rome"@fr .
+
+<f676d9fd-1db2-4b54-84e2-bc5d61e3c927> crm:P1_is_identified_by <6b4daa7b-5605-4945-9f38-60eb09ec3158> .
+
+<f6a14a5a-b4ff-4fbe-889d-351a3c3d4122> crm:P107_has_current_or_former_member <af60e681-6bf4-4d86-bef9-814ca3246e57> ;
+    crm:P1_is_identified_by <06b54933-2df3-4c57-8020-5f8313166e19> .
+
+<f6f9ebb8-6a03-453e-92ee-205a15702605> crm:P1_is_identified_by <63bd0c5d-cdcf-4988-9762-9579fb591c89> .
+
+<f7025364-7b49-4525-843e-4a5ded6bdcf2> crm:P1_is_identified_by <107ce3bc-4499-4b46-b859-da325ff4e5cc> .
+
+<f7d6a258-8bb7-417a-9637-1eaa3463774a> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Marseille"@fr .
+
+<f835de1c-b1ec-4d9a-949d-539b88c0083f> a crm:E41_Appellation ;
+    rdfs:label "Chanoinesses régulières de l'abbaye de Bélem à Bélian"@fr .
+
+<f85305fc-d603-44de-9657-e8cdb62d9c64> crm:P1_is_identified_by <c4ff7b35-b7f7-49b9-919c-8545f9684f67> .
+
+<f8edceb5-1091-4e7a-bef7-733b1b26c274> a crm:E41_Appellation ;
+    rdfs:label "Capucins d'Évreux"@fr .
+
+<f8f9922b-9891-4edb-9285-c4f5046f5f65> crm:P1_is_identified_by <fe52f996-37ea-41e7-99f0-cf6fd9da9172> .
+
+<f9347264-6d53-4cf5-9eb7-f3f2637f3d09> a crm:E41_Appellation ;
+    rdfs:label "Dominicains de Beauvais"@fr .
+
+<f992661f-e18b-4b69-b49d-65de67180e6b> a crm:E41_Appellation ;
+    rdfs:label "Bénédictines de l'abbaye Sainte-Croix de Poitiers"@fr .
+
+<f9f91ff4-ae2a-474b-8263-640bbfb9c7d1> a crm:E41_Appellation ;
+    rdfs:label "Capucins de Tours"@fr .
+
+<fa610660-9a90-4363-ab8c-f2065c567d4e> crm:P1_is_identified_by <f7d6a258-8bb7-417a-9637-1eaa3463774a> .
+
+<fb20ea81-64ea-4bd0-9de3-68b2e69965cc> a crm:E41_Appellation ;
+    rdfs:label "Calvairiennes"@fr .
+
+<fb87b9d9-f10c-4184-bfef-a08490740c17> crm:P1_is_identified_by <138b6fbd-729a-49c8-ac6c-5d5e18de9470> .
+
+<fbb34452-d308-42a6-be03-b5e98c745fc9> a crm:E41_Appellation ;
+    rdfs:label "Cordeliers de Madrid"@fr .
+
+<fc8c8c54-825d-4717-9188-681b5f8df3df> crm:P1_is_identified_by <23b40b26-57a8-4ae6-b196-0c65c660b7a9> .
+
+<fccfb625-cc45-40fb-ab0d-d382b55babe2> crm:P1_is_identified_by <b26482be-b0e7-4836-b51c-c9f2e2ab5d38> .
+
+<fce9b926-2317-4d45-aacb-2a93c26ac8df> crm:P1_is_identified_by <572e4913-ea29-4622-b0a4-255ed9f621d7> .
+
+<fe52f996-37ea-41e7-99f0-cf6fd9da9172> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de Besançon"@fr .
+
+<feaf6c85-68da-4649-b33f-286e43c7c284> a crm:E41_Appellation ;
+    rdfs:label "Hospitalières de Saint-Jean-de-Jérusalem de Toulouse"@fr .
+
+<ff089869-345a-429a-b2b3-26f2c0872864> a crm:E41_Appellation ;
+    rdfs:label "Tiercelins de Terre-Sainte"@fr .
+
+<ff65e929-5129-431c-9018-91eac0bf19e2> a crm:E41_Appellation ;
+    rdfs:label "Chartreux de Toulouse"@fr .
+
