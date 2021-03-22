@@ -80,17 +80,16 @@ def count_concepts():
         """)
     return int(list(q)[0][0])
 
-
 #print(f"{count_concepts()} concepts à traiter")
 
-# NE PAS OUBLIER E32 THESAURUS
-
-def print_children(concept, depth):
+def explore(concept, depth):
     concept_id = ro(concept, DCTERMS.identifier)
-    E74_uri = she(cache_congregations.get_uuid(["congrégations religieuses", concept_id, "uuid"], True))
+    E74_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "uuid"], True))
+    t(E32_ancien_regime_uri, crm("P71_lists"), E74_uri)
+    t(E32_congregations_uri, crm("P71_lists"), E74_uri)
 
     #Appellation
-    E41_uri = she(cache_congregations.get_uuid(["congrégations religieuses", concept_id, "E41"], True))
+    E41_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E41"], True))
     t(E74_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
     t(E41_uri, RDFS.label, ro(concept, SKOS.prefLabel))
@@ -107,23 +106,34 @@ def print_children(concept, depth):
 
     for row in input_graph.query(q, initBindings={'concept': concept}):
 
-        E74_narrower_uri = she(cache_congregations.get_uuid(["congrégations religieuses", row[2], "uuid"], True))
+        E74_narrower_uri = she(cache_congregations.get_uuid(["congregations", row[2], "uuid"], True))
         t(E74_uri, crm("P107_has_current_or_former_member"), E74_narrower_uri)
 
-        print_children(row[0], depth + 1)
-
-      # SOUCI DE CACHE A GERER
+        explore(row[0], depth + 1)
 
 ####################################################################################
-# DONNEES
+# GENERATION DU TURTLE
 ####################################################################################
 
-print_children(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_regulier&idt=166"), 0)
+E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
+E32_congregations_uri = URIRef(iremus_ns["a5145217-5642-4f08-8566-1c1bbe9c0b4e"])
+t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
+t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
+t(E32_ancien_regime_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"), E32_congregations_uri)
+t(E32_congregations_uri, a, crm("E32_Authority_Document"))
+t(E32_congregations_uri, crm("P1_is_identified_by"), Literal("Congrégations religieuses"))
 
-print_children(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166"), 0)
+explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_regulier&idt=166"), 0)
+t(E32_congregations_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"),
+  she(cache_congregations.get_uuid(["congregations", "clerge_regulier", "uuid"], True)))
 
-print_children(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166"), 0)
+explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166"), 0)
+t(E32_congregations_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"),
+  she(cache_congregations.get_uuid(["congregations", "clerge_seculier", "uuid"], True)))
 
+explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=papaute&idt=166"), 0)
+t(E32_congregations_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"),
+  she(cache_congregations.get_uuid(["congregations", "papaute", "uuid"], True)))
 
 output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
 cache_corpus.bye()
