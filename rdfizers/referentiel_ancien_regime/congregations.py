@@ -5,12 +5,16 @@ import xlsxwriter
 import uuid
 import yaml
 from sherlockcachemanagement import Cache
+import re
+import hashlib
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input_rdf")
 parser.add_argument("--output_ttl")
 parser.add_argument("--cache_congregations")
 parser.add_argument("--cache_corpus")
+parser.add_argument("--cache_lieux_uuid")
+parser.add_argument("--situation_geo")
 args = parser.parse_args()
 
 # CACHE
@@ -39,6 +43,11 @@ output_graph.bind("sdt", sdt_ns)
 output_graph.bind("skos", SKOS)
 
 a = RDF.type
+
+
+##################################################################################
+## FONCTIONS
+##################################################################################
 
 def crm(x):
     return URIRef(crm_ns[x])
@@ -83,16 +92,138 @@ def count_concepts():
 #print(f"{count_concepts()} concepts à traiter")
 
 def explore(concept, depth):
+
     concept_id = ro(concept, DCTERMS.identifier)
     E74_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "uuid"], True))
     t(E32_ancien_regime_uri, crm("P71_lists"), E74_uri)
     t(E32_congregations_uri, crm("P71_lists"), E74_uri)
 
-    #Appellation
+
+    # APPELLATION
+
     E41_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E41"], True))
     t(E74_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
-    t(E41_uri, RDFS.label, ro(concept, SKOS.prefLabel))
+    for prefLabel in ro_list(concept, SKOS.prefLabel):
+        t(E41_uri, RDFS.label, prefLabel)
+
+    altLabels = ro_list(concept, SKOS.altLabel)
+    if len(altLabels) > 0:
+        for altLabel in altLabels:
+            E41_alt_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E41_alt", altLabel], True))
+            t(E41_alt_uri, a, crm("E41_Appellation"))
+            t(E41_alt_uri, RDFS.label, altLabel)
+            t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
+
+
+    #ALIGNEMENT AU REFERENTIEL DES LIEUX - SOUCI D'ENCODAGE?
+
+    """
+    with open(args.situation_geo, "r") as txt:
+        texte = txt.read()
+        recherche_id = re.search(f"{concept_id}\s", texte)
+        if recherche_id :
+            for prefLabel in ro_list(concept, SKOS.prefLabel):
+                label = prefLabel.lower()
+                with open(args.cache_lieux_uuid, "r") as file:
+                    input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
+                    for cle in input_yaml_parse.keys():
+                        try:
+                            recherche_lieu = re.search(f"{cle}\s", label)
+                            if recherche_lieu:
+                                print("SUCCES", cle, "   ", label)
+                                # t(lieu_uuid, she("sheP_situation_géohistorique"), E74_uri)
+
+                            #A REPRENDRE
+                            #else:
+                             #   print(label, " --> lieu introuvable")
+
+
+                        except:
+                            print("ERREUR", cle)
+    """
+
+
+    # E13 INDEXATION
+
+    def process_note(p):
+        indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
+        indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
+        values = ro_list(concept, p)
+        for v in values:
+            if "##id##" in v:
+                v = v.split("##id##")
+                for v in v:
+                    if v:
+                        m = re.search(indexation_regexp, v)
+                        m_livraison = re.search(indexation_regexp_livraison, v)
+                        if m:
+                            clef_mercure_livraison = m_livraison.group()
+                            clef_mercure_article = m.group()
+                            try:
+                                F2_article_uri = she(cache_corpus.get_uuid(
+                                    ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
+                                     clef_mercure_article, "F2"]))
+                                E13_index_uri = she(
+                                    cache_congregations.get_uuid(["congregations", concept_id, "E13_indexation"], True))
+                                t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, DCTERMS.created, ro(concept, DCTERMS.created))
+                                t(E13_index_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
+                                t(E13_index_uri, crm("P14_carried_out_by"), she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
+                                t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
+                                t(E13_index_uri, crm("P141_assigned"), E74_uri)
+                                t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
+
+                            except:
+                                # print(identifier, clef_mercure_article)
+                                pass
+
+            elif "##" in v:
+                v = v.split("##")
+                for v in v:
+                    if v:
+                        m = re.search(indexation_regexp, v)
+                        m_livraison = re.search(indexation_regexp_livraison, v)
+                        if m:
+                            clef_mercure_livraison = m_livraison.group()
+                            clef_mercure_article = m.group()
+                            try:
+                                F2_article_uri = she(cache_corpus.get_uuid(
+                                    ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
+                                     clef_mercure_article, "F2"]))
+                                E13_index_uri = she(
+                                    cache_congregations.get_uuid(["congregations", concept_id, "E13_indexation"], True))
+                                t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
+                                t(E13_index_uri, DCTERMS.created, ro(concept, DCTERMS.created))
+                                t(E13_index_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
+                                t(E13_index_uri, crm("P14_carried_out_by"), she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
+                                t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
+                                t(E13_index_uri, crm("P141_assigned"), E74_uri)
+                                t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
+
+                            except:
+                                # print(identifier, clef_mercure_article)
+                                pass
+
+            else:
+                note_sha1_object = hashlib.sha1(v.encode())
+                note_sha1 = note_sha1_object.hexdigest()
+                E13_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E13_indexation"], True))
+                t(E13_uri, a, crm("E13_Attribute_Assignement"))
+                t(E13_uri, DCTERMS.created, ro(concept, DCTERMS.created))
+                t(E13_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
+                t(E13_uri, crm("P14_carried_out_by"), she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
+                t(E13_uri, crm("P140_assigned_attribute_to"), E74_uri)
+                E13_notes_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E13_notes", note_sha1], True))
+                t(E13_notes_uri, RDFS.label, Literal(v))
+                t(E13_uri, crm("P141_assigned"), E13_notes_uri)
+                t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
+
+    for note in [SKOS.note, SKOS.historyNote]:
+        process_note(note)
+
+
+    # NARROWERS
 
     q = sparql.prepareQuery("""
     SELECT ?narrower ?narrower_prefLabel ?narrower_id
