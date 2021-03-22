@@ -92,7 +92,7 @@ E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"]
 E32_personnes_uri = URIRef(iremus_ns["947a38f0-34ac-4c54-aeb7-69c5f29e77c0"])
 t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
 t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
-t(E32_ancien_regime_uri, crm("P71_lists"), E32_personnes_uri)
+t(E32_ancien_regime_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"), E32_personnes_uri)
 t(E32_personnes_uri, a, crm("E32_Authority_Document"))
 t(E32_personnes_uri, crm("P1_is_identified_by"), Literal("Noms de personnes"))
 

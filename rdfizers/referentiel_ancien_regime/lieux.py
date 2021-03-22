@@ -247,7 +247,7 @@ E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"]
 E32_lieux_uri = URIRef(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
 t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
 t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
-t(E32_ancien_regime_uri, crm("P71_lists"), E32_lieux_uri)
+t(E32_ancien_regime_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"), E32_lieux_uri)
 t(E32_lieux_uri, a, crm("E32_Authority_Document"))
 t(E32_lieux_uri, crm("P1_is_identified_by"), Literal("Noms de lieux"))
 
@@ -261,7 +261,7 @@ t(E32_lieux_uri, crm("P1_is_identified_by"), Literal("Noms de lieux"))
 E32_grand_siecle_uri = URIRef(iremus_ns["78061430-df57-4874-8334-44ed215a112e"])
 t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
 t(E32_grand_siecle_uri, crm("P1_is_identified_by"), Literal("Grand Siècle"))
-t(E32_lieux_uri, crm("P71_lists"), E32_grand_siecle_uri)
+t(E32_lieux_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"), E32_grand_siecle_uri)
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 
@@ -275,7 +275,7 @@ explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 E32_mon_cont_uri = URIRef(iremus_ns["41dd59e3-2f0c-4ef3-b08c-9606f33a4a48"])
 t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
 t(E32_mon_cont_uri, crm("P1_is_identified_by"), Literal("Monde contemporain"))
-t(E32_lieux_uri, crm("P71_lists"), E32_mon_cont_uri)
+t(E32_lieux_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"), E32_mon_cont_uri)
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
 
