@@ -137,7 +137,6 @@
         <30ad1acf-9779-461f-a14d-cf2b484960d2>,
         <31ab0b9b-393c-4a59-a655-c772e78d3459>,
         <31f997f2-efb9-4104-ad3c-dc85a152fcc0>,
-        <32112dbc-16ad-42e1-bb81-95496d5838b2>,
         <32cb09bf-f524-4c05-876e-403ab51592c7>,
         <338332ba-5ddb-401d-a0ef-bf3b92add108>,
         <343bc795-5de7-4cbc-ab8f-61342dff9a0d>,
@@ -198,6 +197,7 @@
         <4f50f2d7-3961-4f8d-bf29-7f123acf4c9e>,
         <4f996de9-ad66-450b-8c81-b03bf9d28de2>,
         <4fd27f5b-981a-4a15-b448-68bd2eb69b27>,
+        <50513456-66c5-4200-8e41-69f5506e7f83>,
         <50fa0787-3d3f-4b38-90ce-7add74176caa>,
         <51d71d22-0901-4bdd-873d-42d5d582e67f>,
         <52c3455f-488a-490f-964c-8c9beacaa2fa>,
@@ -211,7 +211,6 @@
         <57e4aa7e-886d-43d8-9b35-1a5e899e631d>,
         <58d879d9-40ae-4a99-b07a-83f47788d2f2>,
         <5970d5c3-4f48-4d1b-aebf-84b64239b648>,
-        <597bee35-4b0a-4a55-b1b8-41671d5ecd1c>,
         <59e40154-68f8-4ef3-9c44-8ffa8a23b543>,
         <5a1c0b74-3a5d-4138-9339-5baac860996b>,
         <5a423841-64cf-4e98-9e3f-5c28d18a91f6>,
@@ -275,6 +274,7 @@
         <74d145e2-0ea3-4443-8d47-a71ebec62b67>,
         <75f0f413-1470-42eb-b45b-5ca9125c66df>,
         <7676bac3-62d7-4071-8bc7-b5a4f470c089>,
+        <7699d6d3-5e1e-45c7-9af1-03d3082ca6ad>,
         <76b9ec1e-b0a4-4ac8-8472-59082b56ce38>,
         <77137587-cca9-4d0d-9f4d-8eaa70de118f>,
         <78ecccc0-1261-43a3-b859-ccac48dd04f7>,
@@ -318,6 +318,7 @@
         <8c35c65d-d6f2-4c4d-bf34-70cced959eb8>,
         <8c61d091-4699-45b6-a744-6cd4359ca7d4>,
         <8d5cf58f-dbd5-45b3-b5cc-fb924a307ff9>,
+        <8ddca2a7-ccfd-48d0-8ba3-6f3a3bc1492a>,
         <8df4ee9b-b50f-458c-9569-5bec3b814b3b>,
         <8e0cbafa-18fb-447c-9288-b4823d405c9f>,
         <8e40e5b1-eb38-4d51-9d17-2df7b232664d>,
@@ -412,7 +413,6 @@
         <be266cc5-1b35-4d0f-97fa-6d9c0fbae215>,
         <befc298c-742f-4ef3-b67f-541e6078c7d5>,
         <bfd72c8d-3d03-49a1-96d8-8d5e4240f6de>,
-        <c09aad4c-904a-4f39-a588-425b7a00158e>,
         <c13b78c9-b555-42b3-8252-a61bbbe44d72>,
         <c1a0fda1-cb14-4339-867b-9ff1147cddb3>,
         <c249f14d-4a4a-4ee2-99a2-d5c0bdd2de1e>,
@@ -558,8 +558,8 @@
 
 <0044cbd8-8dcf-4cba-908d-18431451bd9d> a crm:E41_Appellation ;
     rdfs:label "Doctrinaires"@fr ;
-    crm:P139_has_alternative_form <81a94543-07e5-4df4-8b13-615f319074e5>,
-        <d5da9f16-8c00-43b8-ae74-6c27aaa37be7> .
+    crm:P139_has_alternative_form <8f74385f-2153-4ad8-994f-3e02fdf92c19>,
+        <ceec4afe-2e3c-4c2b-9d9a-3087cc775a97> .
 
 <005d6c78-f295-4252-b1f2-9981a5bab176> a crm:E41_Appellation ;
     rdfs:label "Feuillants"@fr ;
@@ -579,6 +579,9 @@
 
 <03010f53-0537-4ffe-8860-f25676310aaa> a crm:E41_Appellation ;
     rdfs:label "Évêque de Valence"@fr .
+
+<031fc6e7-4d27-4b21-be8c-c1d3fe04d19b> a crm:E41_Appellation ;
+    rdfs:label "Pères de l'Oratoire"@fr .
 
 <036a81bc-6a67-4842-8fbe-00b22eb261fe> a crm:E41_Appellation ;
     rdfs:label "Évêque d'Angoulême"@fr .
@@ -601,15 +604,21 @@
 <062656ca-b88a-4811-81ad-4f42c7368207> a crm:E41_Appellation ;
     rdfs:label "Carmélites du monastère de la rue du Bouloir à Paris"@fr .
 
+<0658f216-2139-48dc-858e-1f2a3a097a2d> a crm:E41_Appellation ;
+    rdfs:label "Augustins réformés de la rue des Petits-Augustins à Paris"@fr .
+
 <08116df2-6d7d-4085-82f7-5209e368707c> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Vienne [Viennois]"@fr .
+
+<0a834d17-c0a7-45d6-bfd5-1f70e20cd203> a crm:E41_Appellation ;
+    rdfs:label "Tertiaires réguliers de Saint-François"@fr .
 
 <0a89b9f8-d6e7-42e5-beaa-8b4f87b311d6> a crm:E41_Appellation ;
     rdfs:label "Dominicains de Paris"@fr .
 
 <0a91634f-1f1f-42e8-a948-9b958f8c422e> a crm:E41_Appellation ;
     rdfs:label "Cisterciennes de l’Abbaye Saint-Antoine-des-Champs de Paris"@fr ;
-    crm:P139_has_alternative_form <1e425ad2-3653-489d-bcda-e8b1400f1834> .
+    crm:P139_has_alternative_form <d3260cc9-2718-4640-9c51-f1e289dafc6e> .
 
 <0b8c9423-57db-4821-a508-65fe2a9d5421> a crm:E41_Appellation ;
     rdfs:label "Oratoriens de Paris"@fr .
@@ -631,18 +640,21 @@
 
 <0c9fe403-5bee-4dee-9342-4be28e66faa3> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de Prémontré"@fr ;
-    crm:P139_has_alternative_form <4f96112e-1c53-489f-8279-6494214312e4>,
+    crm:P139_has_alternative_form <264437fa-a961-4934-878b-f317e96f0eba>,
         <5e967418-ad15-4eee-b22a-e3502473cbe7>,
-        <87626222-31b0-4c5b-889c-0d17482ef1fe> .
+        <a0caffbb-9d6f-431c-8e93-0a2a723a06cb> .
+
+<0ca76b44-d514-4056-8a85-728a5a127322> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré Saint-Louis-Sainte-Catherine"@fr .
 
 <0cb94875-742a-49b4-b7e0-67d10cf771e7> a crm:E41_Appellation ;
     rdfs:label "Congrégations féminines"@fr .
 
 <0dc4ca2c-3f1f-4510-9f29-6196a6f0554a> a crm:E41_Appellation ;
     rdfs:label "Augustins déchaussés du faubourg Saint-Germain à Paris"@fr ;
-    crm:P139_has_alternative_form <357c044d-40ee-4918-8779-93d05bab03a4>,
-        <59b08c68-57da-4349-931f-6c310f87acc6>,
-        <7115ac4b-b7f9-44dc-b587-f652abf7241d> .
+    crm:P139_has_alternative_form <0658f216-2139-48dc-858e-1f2a3a097a2d>,
+        <309a6018-9b6f-4573-94ab-5cb592b61d37>,
+        <dd726ad0-2680-4a88-b3ff-084679535725> .
 
 <0e0c9ae0-71ad-4656-b524-f2b0f086bb63> a crm:E41_Appellation ;
     rdfs:label "Oratoriens d'Angers"@fr .
@@ -652,6 +664,9 @@
 
 <0eeeddc5-837a-4590-95d5-78502d99c5fe> a crm:E41_Appellation ;
     rdfs:label "Oratoriens de Saumur"@fr .
+
+<0f2966e1-5940-41aa-9e4d-aee2a347ef93> a crm:E41_Appellation ;
+    rdfs:label "Génovéfains"@fr .
 
 <1066b064-293b-40e4-9f40-e024168893df> a crm:E41_Appellation ;
     rdfs:label "Frères de la Charité d'Évreux"@fr .
@@ -665,8 +680,8 @@
 <11775068-3a79-4bb6-bf8e-d10d78058462> a crm:E41_Appellation ;
     rdfs:label "Évêque de Châlons-sur-Marne"@fr .
 
-<11c4d834-da3e-4c09-91a6-683c3c754eee> a crm:E41_Appellation ;
-    rdfs:label "Congrégation de Saint-Maur"@fr .
+<119e0059-d4d0-4251-ae38-47561804b9c2> a crm:E41_Appellation ;
+    rdfs:label "Sœurs de l'Assomption"@fr .
 
 <11c636a7-4d5f-4e50-a87d-25f3c4fba376> a crm:E41_Appellation ;
     rdfs:label "Clergé séculier"@fr .
@@ -682,6 +697,9 @@
 
 <149c2728-e701-4456-b305-5ec2be5b44ba> a crm:E41_Appellation ;
     rdfs:label "Évêque de Laon"@fr .
+
+<157137f0-c6fa-4849-a95f-1a53e85a2f11> a crm:E41_Appellation ;
+    rdfs:label "Ordre hospitalier des frères de Saint Jean de Dieu"@fr .
 
 <163e2ae9-2fe3-4bc1-b48b-0e6966728daf> a crm:E41_Appellation ;
     rdfs:label "Oratoriens de Montpellier"@fr .
@@ -704,15 +722,18 @@
 <1a272b40-a6c4-4fdd-a083-0a83a3c1464c> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Toulouse"@fr .
 
+<1a3b02e0-1cfd-4c80-89f0-de7dd303614e> a crm:E41_Appellation ;
+    rdfs:label "Pères de la Merci"@fr .
+
 <1a919f01-d237-4450-a3e2-6fdbdecdb280> a crm:E41_Appellation ;
     rdfs:label "Bénédictins de l'abbaye de Saint-Sever"@fr .
 
-<1ab0d9a7-86e8-4654-98c2-9b5eb5afacc8> a crm:E41_Appellation ;
-    rdfs:label "Congrégation de la Mission"@fr .
+<1afbdbda-e70d-40d3-b3db-40b5721ad8e3> a crm:E41_Appellation ;
+    rdfs:label "Pères Barnabites"@fr .
 
 <1b1a08c0-6d5f-4733-a614-5e124d4bfd3f> a crm:E41_Appellation ;
     rdfs:label "Calvairiennes"@fr ;
-    crm:P139_has_alternative_form <21dc5707-a07d-45c5-8932-13188be02d2d> .
+    crm:P139_has_alternative_form <b8536109-ec1b-4942-b230-16ea03ade9af> .
 
 <1c72c2ea-b4f5-48fc-8f41-41e7a956b5aa> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la Sainte-Chapelle du château de Vincennes"@fr .
@@ -723,9 +744,6 @@
 <1d3e2daf-0a06-44a5-9133-2032952739d1> a crm:E41_Appellation ;
     rdfs:label "Doctrinaires du collège de Lesquille"@fr .
 
-<1e425ad2-3653-489d-bcda-e8b1400f1834> a crm:E41_Appellation ;
-    rdfs:label "Bernardines de l’Abbaye Saint-Antoine-des-Champs de Paris"@fr .
-
 <1e6171ea-438c-48f4-b1f6-09465def8768> a crm:E41_Appellation ;
     rdfs:label "Compagnie de Marie Notre-Dame"@fr ;
     crm:P139_has_alternative_form <e5598faa-57ca-4c4b-a03a-db4958d532be> .
@@ -733,21 +751,21 @@
 <1ecce46c-962c-40fd-bf2d-5d115b169878> a crm:E41_Appellation ;
     rdfs:label "Jésuites anglais de Saint-Omer"@fr .
 
+<1f1c4579-aa12-4a21-ae1f-a542c9dc65a6> a crm:E41_Appellation ;
+    rdfs:label "Congrégation de Saint-Maur"@fr .
+
 <1f324193-5017-43b0-8bae-c8165c4a67fa> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de la maison royale de Sainte-Croix-de-la-Bretonnerie"@fr ;
-    crm:P139_has_alternative_form <afc08812-0d7c-478b-98b7-bbd2c3564950>,
+    crm:P139_has_alternative_form <6337c9c2-196e-4a74-8708-8f12affb8cdc>,
         <cc5489e4-c4f2-45eb-972d-74f46530ce99> .
 
 <1f8e88e7-337f-4044-9b43-d1df72e728a5> a crm:E41_Appellation ;
     rdfs:label "Dominicains (ordre)"@fr ;
-    crm:P139_has_alternative_form <1ff61da7-90cd-4431-9b8c-86a4e801a024>,
-        <f0233ad8-ca39-4cc8-a7ea-7b15672b0632> .
+    crm:P139_has_alternative_form <f0233ad8-ca39-4cc8-a7ea-7b15672b0632>,
+        <f796a5a0-47a4-45d3-9a4d-2badda7f2d44> .
 
 <1f986119-b325-4a35-b347-0ec3c0f172d7> a crm:E41_Appellation ;
     rdfs:label "Grands Augustins de Marseille"@fr .
-
-<1ff61da7-90cd-4431-9b8c-86a4e801a024> a crm:E41_Appellation ;
-    rdfs:label "Frères prêcheurs"@fr .
 
 <2037b472-31cb-4fe8-a437-6076e1d0fb16> a crm:E41_Appellation ;
     rdfs:label "Bénédictins du monastère des Blancs-Manteaux"@fr .
@@ -758,14 +776,8 @@
 <20a6e56f-a829-4060-964e-f22f79b90726> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Saint-Vincent de Mâcon"@fr .
 
-<21dc5707-a07d-45c5-8932-13188be02d2d> a crm:E41_Appellation ;
-    rdfs:label "Ordre de Saint-Benoît de la Congrégation Notre-Dame du Calvaire"@fr .
-
 <220fce83-0600-4fba-887b-399acfd7af39> a crm:E41_Appellation ;
     rdfs:label "Custode"@fr .
-
-<227f87fd-8f56-4113-a84c-77acbed747fd> a crm:E41_Appellation ;
-    rdfs:label "Carmes déchaux"@fr .
 
 <22bf2d84-96cb-4fca-a1d1-e908b9b3907e> a crm:E41_Appellation ;
     rdfs:label "Grands Augustins de Nancy"@fr .
@@ -776,11 +788,17 @@
 <24dcbe0b-d544-4c39-bf64-398f4086f91c> a crm:E41_Appellation ;
     rdfs:label "Évêché de Dax"@fr .
 
+<250762f8-2c92-4aff-b02e-c68334fc2905> a crm:E41_Appellation ;
+    rdfs:label "Frères mineurs de l'étroite observance"@fr .
+
 <251d79d3-a9b9-4f9c-8de4-9d9d07f9fa56> a crm:E41_Appellation ;
     rdfs:label "Bénédictins de Nancy"@fr .
 
 <2632e287-d58e-4dde-ac23-9af445fa8d08> a crm:E41_Appellation ;
     rdfs:label "Mauristes du monastère des Blancs-Manteaux à Paris"@fr .
+
+<264437fa-a961-4934-878b-f317e96f0eba> a crm:E41_Appellation ;
+    rdfs:label "Prémontrés"@fr .
 
 <26849c49-3d3d-416d-b2c4-262a07591841> a crm:E41_Appellation ;
     rdfs:label "Carmes déchaussés de Lille"@fr .
@@ -805,15 +823,21 @@
 <29e92f4e-5ecf-41dc-8e62-1a7e5c26f30d> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la collégiale Sainte-Croix de Montélimar"@fr .
 
+<2ab4ad49-be2e-415c-bda8-bb5a82873196> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré Sainte-Catherine du Val-des-Écoliers"@fr .
+
 <2aeec962-d13d-42a9-9750-94e916bb1cef> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Saint-Étienne de Châlons-en-Champagne"@fr .
 
 <2bb13299-eb6d-4fb5-a613-6ab1c547cd10> a crm:E41_Appellation ;
     rdfs:label "Évêque d'Amiens"@fr .
 
+<2c69844e-a01c-45e3-92af-babaa2087c63> a crm:E41_Appellation ;
+    rdfs:label "Ordre de la Sainte Trinité et de la Rédemption des Captifs"@fr .
+
 <2cbe67ce-2849-4d07-8fc7-5303615890d0> a crm:E41_Appellation ;
     rdfs:label "Cisterciens (ordre)"@fr ;
-    crm:P139_has_alternative_form <c36127bb-06c5-4526-9e56-aacb468400bd> .
+    crm:P139_has_alternative_form <471a82a0-8334-439f-9214-dc1938f2d7c8> .
 
 <2d516105-ac44-4201-95ef-dc5e8e01477a> a crm:E41_Appellation ;
     rdfs:label "Congrégations de clercs réguliers"@fr .
@@ -838,8 +862,8 @@
 
 <2f074e77-5843-402c-8256-7f3e0e519a27> a crm:E41_Appellation ;
     rdfs:label "Augustins déchaussés"@fr ;
-    crm:P139_has_alternative_form <86508637-b06f-4f33-b644-0685145759f9>,
-        <8e0781f1-1fe7-4856-a166-9424ece082e3> .
+    crm:P139_has_alternative_form <6fcbb25d-1120-4338-b8f8-4bc996fa622b>,
+        <e94f18af-2d69-4c22-913e-822deefc7b5e> .
 
 <2f5303e9-653b-4244-95f7-7e4c812fd284> a crm:E41_Appellation ;
     rdfs:label "Clarisses"@fr .
@@ -855,6 +879,9 @@
 
 <3099b3eb-db04-4e6a-9da9-9d05f20d51ad> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Rennes"@fr .
+
+<309a6018-9b6f-4573-94ab-5cb592b61d37> a crm:E41_Appellation ;
+    rdfs:label "Augustins déchaussés de la rue des Petits-Augustins à Paris"@fr .
 
 <3278e53b-da50-4644-be98-cff330f845fd> a crm:E41_Appellation ;
     rdfs:label "Archevêque d'Aix"@fr .
@@ -881,7 +908,7 @@
 
 <3450f33c-49df-4f05-9375-59d4255b794b> a crm:E41_Appellation ;
     rdfs:label "Jésuites"@fr ;
-    crm:P139_has_alternative_form <f3e34d72-fd4b-46ca-91ee-2cc627ad42d4> .
+    crm:P139_has_alternative_form <a7012610-89c9-4f37-a2a4-b388ba10db2d> .
 
 <35178fe6-2f02-4360-a401-138e509cf437> a crm:E41_Appellation ;
     rdfs:label "Récollets de Saint-André"@fr .
@@ -892,19 +919,13 @@
 <3575033f-36fe-4ae0-a753-5521397ae4f9> a crm:E41_Appellation ;
     rdfs:label "Cordeliers de Compiègne"@fr .
 
-<357c044d-40ee-4918-8779-93d05bab03a4> a crm:E41_Appellation ;
-    rdfs:label "Augustins déchaussés de la rue des Petits-Augustins à Paris"@fr .
-
 <35f035b4-50eb-4187-ac26-4fec0d5db7b0> a crm:E41_Appellation ;
     rdfs:label "Évêque de Chartres"@fr .
 
 <3674689d-a16a-4f61-ad31-54ae8efd4b1b> a crm:E41_Appellation ;
     rdfs:label "Frères de la Charité (ordre)"@fr ;
-    crm:P139_has_alternative_form <da34de0f-8f6f-49a3-baaf-998d7bebca7d>,
-        <f8401b42-9719-4afe-a5c9-bc9ad967c1b7> .
-
-<367c7648-2572-458d-8681-e46182f12f19> a crm:E41_Appellation ;
-    rdfs:label "Mauristes de l’abbaye de la Trinité de Fécamp"@fr .
+    crm:P139_has_alternative_form <157137f0-c6fa-4849-a95f-1a53e85a2f11>,
+        <da34de0f-8f6f-49a3-baaf-998d7bebca7d> .
 
 <36f71a0b-59ac-4257-bc82-a84376e1b254> a crm:E41_Appellation ;
     rdfs:label "Cordeliers de Poitiers"@fr .
@@ -921,14 +942,17 @@
 <398e6d4f-bd1f-454c-81e2-f3b30bf10cc6> a crm:E41_Appellation ;
     rdfs:label "Évêque de Pampelune"@fr .
 
-<39c3f128-dab6-4c35-a6d3-aabaf3dcf7f3> a crm:E41_Appellation ;
-    rdfs:label "Tiers ordre régulier de Saint-François"@fr .
+<39b66ee0-87f7-4d75-a802-bc227554617c> a crm:E41_Appellation ;
+    rdfs:label "Bénédictin de la Congrégation de Saint-Maur"@fr .
 
 <3a05888f-133a-4196-95ba-86edd98df91d> a crm:E41_Appellation ;
     rdfs:label "Bénédictins de La Réole"@fr .
 
 <3a29c81a-4e2c-4e5d-855b-4e2b487a9bcc> a crm:E41_Appellation ;
     rdfs:label "Jésuites de La Flèche"@fr .
+
+<3bec3d29-f832-4fe6-9d31-5928d023d082> a crm:E41_Appellation ;
+    rdfs:label "Ordre de la Rédemption des captifs"@fr .
 
 <3d2e4cb1-9492-4c50-84c4-1259b182ac99> a crm:E41_Appellation ;
     rdfs:label "Ursulines de Rennes"@fr .
@@ -948,11 +972,17 @@
 <40159923-1172-47b9-bfb9-f3f391664628> a crm:E41_Appellation ;
     rdfs:label "Évêque de Beauvais"@fr .
 
-<4094070d-8a0c-47f8-8793-69ecbf3b0ea8> a crm:E41_Appellation ;
-    rdfs:label "Congrégation Notre-Dame"@fr .
+<40482e71-24e9-47f3-9d7e-52de6703acb8> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de l’ordre de saint Augustin de la Congrégation de France"@fr .
+
+<4071949f-cf06-433c-b3db-943d7c76295b> a crm:E41_Appellation ;
+    rdfs:label "Pères de Saint-Lazare"@fr .
 
 <4098ff4d-4267-41a5-889c-4e2f821c513e> a crm:E41_Appellation ;
     rdfs:label "Musique de la Chapelle du Pape"@fr .
+
+<40bf4bf6-b79f-4ffa-a00a-5c5b27eaf1bf> a crm:E41_Appellation ;
+    rdfs:label "Ordre de Saint-Jacques de l'Épée"@fr .
 
 <40c60c3d-b0be-44d1-b027-a3c75597febd> a crm:E41_Appellation ;
     rdfs:label "Cordeliers de Loches"@fr .
@@ -967,6 +997,9 @@
 
 <41ca2e5c-b09c-40f4-9f07-ab425521cba9> a crm:E41_Appellation ;
     rdfs:label "Capucins de Nancy"@fr .
+
+<42f1b30b-e43d-448e-85f8-91f5c508eb94> a crm:E41_Appellation ;
+    rdfs:label "Chanoinesse de Saint-Pantaléon"@fr .
 
 <430d5ee6-3600-4962-994a-8e243b55ab27> rdfs:label "Sur l’implantation des Jésuites aux Antilles et plus précisément en Martinique , voir l’article de Philippe Peyronnin, P. (2000). Contours d’une pastorale ultramarine : les missionnairesjésuites dans les sociétés d’habitation des Antilles et Guyane françaisesaux xviie et xviiie siècles. Bulletin de la Société d'Histoire de la Guadeloupe,(126), p. 25–28, <a href= https://www.erudit.org/fr/revues/bshg/2000-n126-bshg03401/1043185ar.pdf  rel= noopener noreferrer  target= _blank >https://www.erudit.org/fr/revues/bshg/2000-n126-bshg03401/1043185ar.pdf</a>"@fr .
 
@@ -1003,6 +1036,9 @@
 <470b2b43-e074-4ce8-bfca-c509b0bae4ef> a crm:E41_Appellation ;
     rdfs:label "Lazaristes"@fr .
 
+<471a82a0-8334-439f-9214-dc1938f2d7c8> a crm:E41_Appellation ;
+    rdfs:label "Ordre de Cîteaux"@fr .
+
 <4778def7-19d9-472f-bb9a-8c31e94df48d> a crm:E41_Appellation ;
     rdfs:label "Sociétés de prêtres et de frères"@fr .
 
@@ -1027,9 +1063,12 @@
 <4bba59ce-8710-425c-8116-bf679620f96e> a crm:E41_Appellation ;
     rdfs:label "Cisterciennes de l’abbaye de Sainte-Hoïlde"@fr .
 
+<4bcba289-a214-42b8-9eba-2f6a6aac96bf> a crm:E41_Appellation ;
+    rdfs:label "Congrégation Notre-Dame"@fr .
+
 <4bd01696-1303-436d-8d67-5843c706408f> a crm:E41_Appellation ;
     rdfs:label "Bénédictins de l'abbaye Notre-Dame-de-la-Couture à Bernay"@fr ;
-    crm:P139_has_alternative_form <c6c3ce1d-45f3-4216-ad4f-fd58d0b39d42> .
+    crm:P139_has_alternative_form <a78d2ae1-8edb-47e7-8095-ad334122282f> .
 
 <4bdcdf6a-37cb-4e9e-bdf1-deaeeac51d89> a crm:E41_Appellation ;
     rdfs:label "Archevêque de Bourges"@fr .
@@ -1067,14 +1106,11 @@
 <4f237445-4592-4fe1-9580-4a9d6ebb32ec> a crm:E41_Appellation ;
     rdfs:label "Évêque de Blois"@fr .
 
-<4f96112e-1c53-489f-8279-6494214312e4> a crm:E41_Appellation ;
-    rdfs:label "Ordre des Chanoines Réguliers de saint Augustin de Prémontré"@fr .
-
-<5028c606-8577-4614-bb42-e4279254df29> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré du Val-des-Écoliers"@fr .
-
 <516e0f14-013d-46f0-9958-6e1ead149b57> a crm:E41_Appellation ;
     rdfs:label "Filles de la Bienheureuse Vierge Marie"@fr .
+
+<51db7729-f8ac-481e-b988-170d0166edec> a crm:E41_Appellation ;
+    rdfs:label "Frères mineurs"@fr .
 
 <52b04870-da71-4ad8-b250-f6e158f9b9cb> a crm:E41_Appellation ;
     rdfs:label "Archevêque d’Auch"@fr .
@@ -1084,8 +1120,8 @@
 
 <5370a08c-ec83-4602-aac0-69011041c426> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de l'ordre de Saint-Augustin, congrégation de Notre-Sauveur"@fr ;
-    crm:P139_has_alternative_form <733f8d4e-3636-401a-a73f-57f49a45a06d>,
-        <a90a51a6-4964-4685-97b4-1f9186acbd96> .
+    crm:P139_has_alternative_form <a90a51a6-4964-4685-97b4-1f9186acbd96>,
+        <c0894ad6-d01b-475b-bf41-96c9901e0a5b> .
 
 <54f33c1f-e6ac-4a9e-bbcc-ce1d6ab12221> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Carpentras"@fr .
@@ -1100,13 +1136,10 @@
 <56324772-94a3-49ec-8d20-689fc6e60c46> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Saint-Jean-Baptiste de Perpignan"@fr .
 
-<567b7e93-b3ae-4e94-ac19-29a80358f6d9> a crm:E41_Appellation ;
-    rdfs:label "Frères mineurs de l’Observance"@fr .
-
 <56a62c34-e2a3-4059-b451-d69fd51490c9> a crm:E41_Appellation ;
     rdfs:label "Cordeliers"@fr ;
-    crm:P139_has_alternative_form <567b7e93-b3ae-4e94-ac19-29a80358f6d9>,
-        <b76800a9-97c1-4ee1-94af-e2ff563f17b5> .
+    crm:P139_has_alternative_form <51db7729-f8ac-481e-b988-170d0166edec>,
+        <92df6754-13f3-4b4c-ae46-d85e19fcaa28> .
 
 <56f1fce7-f108-48a4-a9fd-6b1e9d4a945d> a crm:E41_Appellation ;
     rdfs:label "Fontevristes"@fr .
@@ -1131,9 +1164,9 @@
 
 <58a81e65-a91b-4269-841e-c606b5834044> a crm:E41_Appellation ;
     rdfs:label "Ordre de Santiago"@fr ;
-    crm:P139_has_alternative_form <45c8f799-0f6e-46f8-90b6-e5abbdc53711>,
-        <7049ef45-272f-4c44-96de-55ade5690bcc>,
-        <7e967151-b358-4913-8762-861bd828a3a0> .
+    crm:P139_has_alternative_form <40bf4bf6-b79f-4ffa-a00a-5c5b27eaf1bf>,
+        <45c8f799-0f6e-46f8-90b6-e5abbdc53711>,
+        <7049ef45-272f-4c44-96de-55ade5690bcc> .
 
 <595068cb-c6ec-4311-8122-f915c59af6c5> a crm:E41_Appellation ;
     rdfs:label "Cordeliers de Montélimart"@fr .
@@ -1141,14 +1174,11 @@
 <59593370-9042-4814-b2e3-1560f4f967db> a crm:E41_Appellation ;
     rdfs:label "Minimes de Nancy"@fr .
 
-<59b08c68-57da-4349-931f-6c310f87acc6> a crm:E41_Appellation ;
-    rdfs:label "Augustins réformés de la rue des Petits-Augustins à Paris"@fr .
-
 <59b67be6-cdb8-47fa-88fe-53e2b6ea395d> a crm:E41_Appellation ;
     rdfs:label "Bénédictins de l'abbaye de Saint-Denis"@fr .
 
-<5af926d5-b929-472c-8712-865d87287a1c> a crm:E41_Appellation ;
-    rdfs:label "Pères de Picpus"@fr .
+<59f19712-5ae1-4d26-a175-91e1fab9a236> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève de l’abbaye Saint-Jacques à Provins"@fr .
 
 <5b08d631-0e2d-4bca-bf24-639b7d82c54f> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la collégiale Saint-Sernin de Toulouse"@fr .
@@ -1161,7 +1191,7 @@
 
 <5b620f0f-3a4b-4f42-a544-cbc631dc0b49> a crm:E41_Appellation ;
     rdfs:label "Récollets"@fr ;
-    crm:P139_has_alternative_form <76f8cef7-b210-4b6e-ba61-d49be409afc6> .
+    crm:P139_has_alternative_form <250762f8-2c92-4aff-b02e-c68334fc2905> .
 
 <5bb7727c-e532-4000-b354-33ac6a216924> a crm:E41_Appellation ;
     rdfs:label "Prêtres de la Mission de Marseille"@fr .
@@ -1174,8 +1204,8 @@
 
 <5d64e3da-fb33-4cbb-9ea4-6184158f3cb1> a crm:E41_Appellation ;
     rdfs:label "Barnabites"@fr ;
-    crm:P139_has_alternative_form <72931f73-1a29-47ea-b722-f60befee50b2>,
-        <b349e4da-3893-4ef0-95c8-08da8b6c09ab> .
+    crm:P139_has_alternative_form <1afbdbda-e70d-40d3-b3db-40b5721ad8e3>,
+        <7b6e2898-e01b-4f3f-85bf-037d10efb0a9> .
 
 <5da4db65-bc30-4d32-9730-09d6fee864aa> a crm:E41_Appellation ;
     rdfs:label "Chanoinesses nobles"@fr .
@@ -1188,15 +1218,12 @@
 
 <5ef9cb93-6bef-4233-b143-98250ce75f3a> a crm:E41_Appellation ;
     rdfs:label "Mercédaires (ordre)"@fr ;
-    crm:P139_has_alternative_form <33851bde-d050-4333-b624-b0323f35cde0>,
-        <655122e3-fc7c-423e-806c-262db30ba7ab>,
-        <68888fa4-00e6-4814-9c5f-6886e215a726> .
+    crm:P139_has_alternative_form <1a3b02e0-1cfd-4c80-89f0-de7dd303614e>,
+        <33851bde-d050-4333-b624-b0323f35cde0>,
+        <3bec3d29-f832-4fe6-9d31-5928d023d082> .
 
 <5f34d986-04cb-4b43-8cfb-da5fedda1f2a> a crm:E41_Appellation ;
     rdfs:label "Visitandines d'Aix-en-Provence"@fr .
-
-<5f54d778-da3a-4f49-9d3e-a2c20170224b> a crm:E41_Appellation ;
-    rdfs:label "Pères de l'Oratoire"@fr .
 
 <5ffdd309-b87f-4012-a4b6-0954d322b65a> a crm:E41_Appellation ;
     rdfs:label "Cordeliers de Madrid"@fr .
@@ -1206,7 +1233,7 @@
 
 <617a19bc-a4db-4ce0-af62-f0e7d7fd57f2> a crm:E41_Appellation ;
     rdfs:label "Chanoinesses régulières de saint Augustin"@fr ;
-    crm:P139_has_alternative_form <4094070d-8a0c-47f8-8793-69ecbf3b0ea8>,
+    crm:P139_has_alternative_form <4bcba289-a214-42b8-9eba-2f6a6aac96bf>,
         <516e0f14-013d-46f0-9958-6e1ead149b57>,
         <e96da935-b434-4a6f-84a1-49eb829d0d40> .
 
@@ -1222,6 +1249,9 @@
 <62e3f426-bab1-414a-a5dc-6d11fc0b7198> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers"@fr .
 
+<6337c9c2-196e-4a74-8708-8f12affb8cdc> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de la Sainte-Croix"@fr .
+
 <639df60c-8fd6-462b-99d4-c53b8e856d33> a crm:E41_Appellation ;
     rdfs:label "Capucins de Grasse"@fr .
 
@@ -1234,14 +1264,14 @@
 <65003ddc-693a-4638-bf74-97f6385d9916> a crm:E41_Appellation ;
     rdfs:label "Cordeliers de Libourne"@fr .
 
-<655122e3-fc7c-423e-806c-262db30ba7ab> a crm:E41_Appellation ;
-    rdfs:label "Pères de la Merci"@fr .
-
 <65522e7b-3c06-4a92-ad8d-f0232e0bf9ac> a crm:E41_Appellation ;
     rdfs:label "Ordres chevaleresques"@fr .
 
 <65a70fd4-b447-453c-a3cf-70682dd78e17> a crm:E41_Appellation ;
     rdfs:label "Évêque d'Alet"@fr .
+
+<65abc6e6-4fdf-4a7d-999c-12d442d3efa0> a crm:E41_Appellation ;
+    rdfs:label "Carmes déchaux"@fr .
 
 <66d18aa0-37f6-4f36-9702-5c0080bfb717> a crm:E41_Appellation ;
     rdfs:label "Mauristes de l'abbaye Saint-Laumer de Blois"@fr .
@@ -1257,9 +1287,6 @@
 
 <67d9cdfa-17e2-492f-80d3-359e50ba1ed9> a crm:E41_Appellation ;
     rdfs:label "Mauristes de l'abbaye de Saint-Germain-des-Prés"@fr .
-
-<68888fa4-00e6-4814-9c5f-6886e215a726> a crm:E41_Appellation ;
-    rdfs:label "Ordre de la Rédemption des captifs"@fr .
 
 <68892b05-66ee-43ae-9c57-8e7ae9a0f043> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la collégiale Notre-Dame-de-l'Assomption de Naples"@fr .
@@ -1311,9 +1338,9 @@
 
 <6ea6e9d7-447d-4a5b-89b4-31e7eb27c206> a crm:E41_Appellation ;
     rdfs:label "Tiercelins"@fr ;
-    crm:P139_has_alternative_form <39c3f128-dab6-4c35-a6d3-aabaf3dcf7f3>,
-        <5af926d5-b929-472c-8712-865d87287a1c>,
-        <78cdd391-efaf-47a2-9371-803ad8c25ee3> .
+    crm:P139_has_alternative_form <0a834d17-c0a7-45d6-bfd5-1f70e20cd203>,
+        <90c832a6-f471-4ed3-9a18-8a213012aee2>,
+        <f4418070-77c4-4412-8752-8ad7a0cfe8d2> .
 
 <6f12fe0b-5f44-4f47-9a21-ca8d6fc8e7d8> a crm:E41_Appellation ;
     rdfs:label "Visitandines"@fr ;
@@ -1322,15 +1349,15 @@
 <6f6d220a-4d4b-409f-b8d5-94eac942f0c1> a crm:E41_Appellation ;
     rdfs:label "Archevêque de Vienne [Viennois]"@fr .
 
-<6f8dec11-529f-4a5f-9933-ed775b5b4278> a crm:E41_Appellation ;
-    rdfs:label "Bénédictin de Vendosme"@fr .
+<6fcbb25d-1120-4338-b8f8-4bc996fa622b> a crm:E41_Appellation ;
+    rdfs:label "Augustins déchaux"@fr .
 
 <6fdab3d6-3bd2-42b3-8d52-31610325488d> a crm:E41_Appellation ;
     rdfs:label "Prêtres de la Mission"@fr ;
     crm:P139_has_alternative_form <0c4ce39f-490e-41be-8f28-22c3264c02bc>,
-        <1ab0d9a7-86e8-4654-98c2-9b5eb5afacc8>,
+        <4071949f-cf06-433c-b3db-943d7c76295b>,
         <470b2b43-e074-4ce8-bfca-c509b0bae4ef>,
-        <f1f143dc-3896-472a-bb24-2a138ad15bf9> .
+        <9d287acf-5766-4448-9144-db0de586d6c0> .
 
 <7049ef45-272f-4c44-96de-55ade5690bcc> a crm:E41_Appellation ;
     rdfs:label "Orden de Santiago"@fr .
@@ -1344,9 +1371,6 @@
 <7101f943-e0e2-42af-8758-70a46f1944d2> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Notre-Dame-et-Saint-Lambert de Liège"@fr .
 
-<7115ac4b-b7f9-44dc-b587-f652abf7241d> a crm:E41_Appellation ;
-    rdfs:label "Augustins réformés du faubourg Saint-Germain à Paris"@fr .
-
 <717c9c67-bf1a-4fd0-8ba4-2661ba33e794> a crm:E41_Appellation ;
     rdfs:label "Dominicains de la rue Saint-Honoré à Paris"@fr .
 
@@ -1356,9 +1380,6 @@
 <72383033-4b33-4dd2-bda6-3f803d693c33> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Périgueux"@fr .
 
-<72931f73-1a29-47ea-b722-f60befee50b2> a crm:E41_Appellation ;
-    rdfs:label "Pères Barnabites"@fr .
-
 <72f3964b-555d-466b-9aac-5d1e156931e9> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la collégiale Toussaint de Mortagne-au-Perche"@fr .
 
@@ -1367,9 +1388,6 @@
 
 <7318b203-9b03-4d12-b455-1597638664b1> a crm:E41_Appellation ;
     rdfs:label "Évêque de Mirepoix"@fr .
-
-<733f8d4e-3636-401a-a73f-57f49a45a06d> a crm:E41_Appellation ;
-    rdfs:label "Congrégation de Saint-Victor"@fr .
 
 <7376e309-0116-45e9-bfa1-993afa673b0a> a crm:E41_Appellation ;
     rdfs:label "Hospitalières de Saint-Jean-de-Jérusalem (ordre)"@fr ;
@@ -1389,9 +1407,9 @@
 
 <75862c48-15c3-4569-8b44-96268e67af89> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré Sainte-Catherine de la Couture"@fr ;
-    crm:P139_has_alternative_form <5028c606-8577-4614-bb42-e4279254df29>,
-        <d7acc95e-8692-4c4c-bc7d-f5546595925d>,
-        <ea47dc3a-9532-40a7-b546-0282f1869a8a> .
+    crm:P139_has_alternative_form <0ca76b44-d514-4056-8a85-728a5a127322>,
+        <2ab4ad49-be2e-415c-bda8-bb5a82873196>,
+        <f12cc7fa-bf68-4c91-b327-1e9990f9aba0> .
 
 <75916e3c-6cf3-47b7-8b2b-5ea1d1b0e525> a crm:E41_Appellation ;
     rdfs:label "Capucins d'Eu"@fr .
@@ -1401,9 +1419,6 @@
 
 <76117a84-95c5-47ce-86af-b1ac11b00d78> a crm:E41_Appellation ;
     rdfs:label "Capucins"@fr .
-
-<76f8cef7-b210-4b6e-ba61-d49be409afc6> a crm:E41_Appellation ;
-    rdfs:label "Frères mineurs de l'étroite observance"@fr .
 
 <76fbd0e5-eaaa-453a-b348-5e24f3b525b0> a crm:E41_Appellation ;
     rdfs:label "Capucins d'Angers"@fr .
@@ -1417,9 +1432,6 @@
 <788d7cbe-e22c-4192-a5c1-d9064cfe4fcc> a crm:E41_Appellation ;
     rdfs:label "Minimes de Péronne"@fr .
 
-<78cdd391-efaf-47a2-9371-803ad8c25ee3> a crm:E41_Appellation ;
-    rdfs:label "Tertiaires réguliers de Saint-François"@fr .
-
 <794b6a44-4a05-4418-81eb-5f4544c4cc43> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Saint-Antonin de Pamiers"@fr .
 
@@ -1428,6 +1440,9 @@
 
 <7a862b2e-1b66-4f0e-acc4-bac4b9214820> a crm:E41_Appellation ;
     rdfs:label "Évêque de Luçon"@fr .
+
+<7b6e2898-e01b-4f3f-85bf-037d10efb0a9> a crm:E41_Appellation ;
+    rdfs:label "Clercs réguliers de Saint-Paul"@fr .
 
 <7bc8f87c-f3f9-4830-9e07-5fc71c83953f> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de Prémontré de Jovilliers"@fr .
@@ -1438,9 +1453,6 @@
 <7c7e6268-3608-4334-a4ee-963137a8853c> a crm:E41_Appellation ;
     rdfs:label "Évêque d'Agde"@fr .
 
-<7d0634f8-5372-4d5d-96d8-58ebe850747f> a crm:E41_Appellation ;
-    rdfs:label "Bernardines de l'Abbaye de La Virginité des Roches-l'Évêque"@fr .
-
 <7d850a43-7c2c-46cd-8900-b43cb536355c> a crm:E41_Appellation ;
     rdfs:label "Abbé de Saint-Sever"@fr .
 
@@ -1449,9 +1461,6 @@
 
 <7e83bce1-e751-4108-b675-cd7153712df2> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Rome"@fr .
-
-<7e967151-b358-4913-8762-861bd828a3a0> a crm:E41_Appellation ;
-    rdfs:label "Ordre de Saint-Jacques de l'Épée"@fr .
 
 <7ebe4470-da2e-4502-87f3-d7a2503eddde> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Lyon"@fr .
@@ -1479,16 +1488,10 @@
 
 <81899b74-7596-47fe-90da-8ff51443fbe4> a crm:E41_Appellation ;
     rdfs:label "Carmes déchaussés"@fr ;
-    crm:P139_has_alternative_form <227f87fd-8f56-4113-a84c-77acbed747fd> .
+    crm:P139_has_alternative_form <65abc6e6-4fdf-4a7d-999c-12d442d3efa0> .
 
 <81964769-8983-4a43-88ae-511a8334cbb4> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Madrid"@fr .
-
-<81a94543-07e5-4df4-8b13-615f319074e5> a crm:E41_Appellation ;
-    rdfs:label "Congrégation de la Doctrine chrétienne"@fr .
-
-<81b68e62-1dfb-42e7-a767-e4150de00ad9> a crm:E41_Appellation ;
-    rdfs:label "Congrégation de Paris"@fr .
 
 <821e72ed-4461-49a1-b10c-64d96c681594> a crm:E41_Appellation ;
     rdfs:label "Évêque de La Rochelle"@fr .
@@ -1499,14 +1502,8 @@
 <8316d61a-8401-48e4-bc4f-0ba11562c6c2> a crm:E41_Appellation ;
     rdfs:label "Carmélites de Lyon"@fr .
 
-<83355318-3a54-40d9-8472-1e2b1c321aeb> a crm:E41_Appellation ;
-    rdfs:label "Messieurs de Sainte-Geneviève"@fr .
-
 <8491157b-9cdc-45c0-85de-7715e9938e27> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la collégiale Saint-Marcel de Paris"@fr .
-
-<85445f24-1580-458d-9fcd-c597044be6a0> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de Sainte-Anne-d’Auray"@fr .
 
 <857d3ca6-e6b9-484e-8feb-2748b5033408> a crm:E41_Appellation ;
     rdfs:label "Feuillants du monastère de Châtillon-sur-Seine"@fr .
@@ -1514,17 +1511,11 @@
 <8637ae48-367a-4078-8076-0df6acd18469> a crm:E41_Appellation ;
     rdfs:label "Évêque de Clermont [Auvergne]"@fr .
 
-<86508637-b06f-4f33-b644-0685145759f9> a crm:E41_Appellation ;
-    rdfs:label "Petits Pères"@fr .
-
 <8658ac40-b442-47e9-91e3-b66a64b2d74c> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Notre-Dame de Tournai"@fr .
 
 <86b02578-7ccf-4d9a-be99-849d3b201859> a crm:E41_Appellation ;
     rdfs:label "Évêque de Saint-Omer"@fr .
-
-<87626222-31b0-4c5b-889c-0d17482ef1fe> a crm:E41_Appellation ;
-    rdfs:label "Prémontrés"@fr .
 
 <87eb86ca-1453-43a8-bcf7-f79a057be5b2> a crm:E41_Appellation ;
     rdfs:label "Abbé de l'église abbatiale de Saint-Étienne de Dijon"@fr .
@@ -1553,12 +1544,9 @@
 <8de52ba4-7cf8-4a8e-a270-beacf8cd67a8> a crm:E41_Appellation ;
     rdfs:label "Cordeliers d'Évreux"@fr .
 
-<8e0781f1-1fe7-4856-a166-9424ece082e3> a crm:E41_Appellation ;
-    rdfs:label "Augustins déchaux"@fr .
-
 <8e9873d9-1084-42f4-8154-ed92c8458eac> a crm:E41_Appellation ;
     rdfs:label "Haudriettes"@fr ;
-    crm:P139_has_alternative_form <f5a96e42-7256-4e98-b769-d851b2e949d7> .
+    crm:P139_has_alternative_form <119e0059-d4d0-4251-ae38-47561804b9c2> .
 
 <8edec4ac-5b4b-43c3-9cb8-077994c6d83f> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la collégiale Notre-Dame-et-Saint-Martin de Châteauroux"@fr .
@@ -1566,8 +1554,14 @@
 <8eeb8112-2a74-41f7-92d4-8e688f186c9e> a crm:E41_Appellation ;
     rdfs:label "Évêque de Lodève"@fr .
 
+<8f74385f-2153-4ad8-994f-3e02fdf92c19> a crm:E41_Appellation ;
+    rdfs:label "Congrégation de la Doctrine chrétienne"@fr .
+
 <8fc2729c-2d51-403c-9b54-9e5c9148e38d> a crm:E41_Appellation ;
     rdfs:label "Divers"@fr .
+
+<90c832a6-f471-4ed3-9a18-8a213012aee2> a crm:E41_Appellation ;
+    rdfs:label "Tiers ordre régulier de Saint-François"@fr .
 
 <91854bf9-e6e6-41e1-8ec1-1f46ae9b0081> a crm:E41_Appellation ;
     rdfs:label "Bénédictins"@fr .
@@ -1590,16 +1584,22 @@
 <929cba22-c867-43b4-a878-26a57aca1657> a crm:E41_Appellation ;
     rdfs:label "Prêtre de la Mission de Versailles"@fr .
 
+<92df6754-13f3-4b4c-ae46-d85e19fcaa28> a crm:E41_Appellation ;
+    rdfs:label "Frères mineurs de l’Observance"@fr .
+
 <9313c8d3-5283-492a-b096-b30541635ecd> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale d’Auch"@fr .
+
+<94580aa6-0330-469d-8f3e-d5227607e523> a crm:E41_Appellation ;
+    rdfs:label "Grands carmes de Sainte-Anne-d’Auray"@fr .
 
 <94732daf-b6b2-4a0d-81bb-58dcb1bd733d> a crm:E41_Appellation ;
     rdfs:label "Cordeliers de Montpellier"@fr .
 
 <962179b2-736c-4c08-9152-019aa61ad6b9> a crm:E41_Appellation ;
     rdfs:label "Trinitaires (ordre)"@fr ;
-    crm:P139_has_alternative_form <96dacfa5-09ec-4f12-98f1-ec4d467f3ad2>,
-        <bbdec6e3-b7ee-4cae-999d-3ed5cf12040a> .
+    crm:P139_has_alternative_form <2c69844e-a01c-45e3-92af-babaa2087c63>,
+        <96dacfa5-09ec-4f12-98f1-ec4d467f3ad2> .
 
 <96805563-6152-48ad-8ed4-752487cd7a09> a crm:E41_Appellation ;
     rdfs:label "Évêque de Condom"@fr .
@@ -1621,9 +1621,6 @@
 <9908efeb-825a-4c91-90eb-e6f7b03f710e> a crm:E41_Appellation ;
     rdfs:label "Cisterciennes"@fr ;
     crm:P139_has_alternative_form <612a2f64-df75-4c72-b88e-f0c8549273cf> .
-
-<9915f60b-8887-41bb-a837-54ddf23f5ee7> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de l’ordre de saint Augustin de la Congrégation de France"@fr .
 
 <994e42e4-5c36-4ff7-a62f-0214dfe816a8> a crm:E41_Appellation ;
     rdfs:label "Capucins du Havre"@fr .
@@ -1655,6 +1652,9 @@
 <9cf848c4-bd89-4a0d-a284-d26510885fa0> a crm:E41_Appellation ;
     rdfs:label "Bénédictines de l'abbaye Saint-Pierre de Lyon"@fr .
 
+<9d287acf-5766-4448-9144-db0de586d6c0> a crm:E41_Appellation ;
+    rdfs:label "Congrégation de la Mission"@fr .
+
 <9d9891c5-86c9-419d-9a7d-373e8369d8d9> a crm:E41_Appellation ;
     rdfs:label "Capucins de Saint-Maximin-la-Sainte-Baume"@fr .
 
@@ -1679,6 +1679,9 @@
 <a0b88f6c-1466-4a86-a5e2-98db27de4c71> a crm:E41_Appellation ;
     rdfs:label "Évêque d'Auxerre"@fr .
 
+<a0caffbb-9d6f-431c-8e93-0a2a723a06cb> a crm:E41_Appellation ;
+    rdfs:label "Ordre des Chanoines Réguliers de saint Augustin de Prémontré"@fr .
+
 <a104cf29-8689-46ba-a358-82912a0d2cee> a crm:E41_Appellation ;
     rdfs:label "Mauristes de l'abbaye Saint-Jean d’Angély"@fr .
 
@@ -1690,6 +1693,9 @@
 
 <a17319b5-1a74-428f-bda9-66658ddb9d36> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Saint-Pierre de Vannes"@fr .
+
+<a26ec63d-58d1-4610-9e9a-41cf12d4f0e4> a crm:E41_Appellation ;
+    rdfs:label "Bernardines de l'Abbaye de La Virginité des Roches-l'Évêque"@fr .
 
 <a395faa7-e099-472c-aba9-ec2c793ce781> a crm:E41_Appellation ;
     rdfs:label "Prêtres de la Mission de Rochefort"@fr .
@@ -1802,7 +1808,6 @@
         <30ad1acf-9779-461f-a14d-cf2b484960d2>,
         <31ab0b9b-393c-4a59-a655-c772e78d3459>,
         <31f997f2-efb9-4104-ad3c-dc85a152fcc0>,
-        <32112dbc-16ad-42e1-bb81-95496d5838b2>,
         <32cb09bf-f524-4c05-876e-403ab51592c7>,
         <338332ba-5ddb-401d-a0ef-bf3b92add108>,
         <343bc795-5de7-4cbc-ab8f-61342dff9a0d>,
@@ -1863,6 +1868,7 @@
         <4f50f2d7-3961-4f8d-bf29-7f123acf4c9e>,
         <4f996de9-ad66-450b-8c81-b03bf9d28de2>,
         <4fd27f5b-981a-4a15-b448-68bd2eb69b27>,
+        <50513456-66c5-4200-8e41-69f5506e7f83>,
         <50fa0787-3d3f-4b38-90ce-7add74176caa>,
         <51d71d22-0901-4bdd-873d-42d5d582e67f>,
         <52c3455f-488a-490f-964c-8c9beacaa2fa>,
@@ -1876,7 +1882,6 @@
         <57e4aa7e-886d-43d8-9b35-1a5e899e631d>,
         <58d879d9-40ae-4a99-b07a-83f47788d2f2>,
         <5970d5c3-4f48-4d1b-aebf-84b64239b648>,
-        <597bee35-4b0a-4a55-b1b8-41671d5ecd1c>,
         <59e40154-68f8-4ef3-9c44-8ffa8a23b543>,
         <5a1c0b74-3a5d-4138-9339-5baac860996b>,
         <5a423841-64cf-4e98-9e3f-5c28d18a91f6>,
@@ -1940,6 +1945,7 @@
         <74d145e2-0ea3-4443-8d47-a71ebec62b67>,
         <75f0f413-1470-42eb-b45b-5ca9125c66df>,
         <7676bac3-62d7-4071-8bc7-b5a4f470c089>,
+        <7699d6d3-5e1e-45c7-9af1-03d3082ca6ad>,
         <76b9ec1e-b0a4-4ac8-8472-59082b56ce38>,
         <77137587-cca9-4d0d-9f4d-8eaa70de118f>,
         <78ecccc0-1261-43a3-b859-ccac48dd04f7>,
@@ -1983,6 +1989,7 @@
         <8c35c65d-d6f2-4c4d-bf34-70cced959eb8>,
         <8c61d091-4699-45b6-a744-6cd4359ca7d4>,
         <8d5cf58f-dbd5-45b3-b5cc-fb924a307ff9>,
+        <8ddca2a7-ccfd-48d0-8ba3-6f3a3bc1492a>,
         <8df4ee9b-b50f-458c-9569-5bec3b814b3b>,
         <8e0cbafa-18fb-447c-9288-b4823d405c9f>,
         <8e40e5b1-eb38-4d51-9d17-2df7b232664d>,
@@ -2077,7 +2084,6 @@
         <be266cc5-1b35-4d0f-97fa-6d9c0fbae215>,
         <befc298c-742f-4ef3-b67f-541e6078c7d5>,
         <bfd72c8d-3d03-49a1-96d8-8d5e4240f6de>,
-        <c09aad4c-904a-4f39-a588-425b7a00158e>,
         <c13b78c9-b555-42b3-8252-a61bbbe44d72>,
         <c1a0fda1-cb14-4339-867b-9ff1147cddb3>,
         <c249f14d-4a4a-4ee2-99a2-d5c0bdd2de1e>,
@@ -2218,8 +2224,14 @@
 <a6b0a094-0640-4b2c-8781-cb655e67907c> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Compiègne"@fr .
 
+<a7012610-89c9-4f37-a2a4-b388ba10db2d> a crm:E41_Appellation ;
+    rdfs:label "Compagnie de Jésus"@fr .
+
 <a78be4bc-8e2b-4cb4-a12f-90ca1f7d9678> a crm:E41_Appellation ;
     rdfs:label "Cordeliers de Naples"@fr .
+
+<a78d2ae1-8edb-47e7-8095-ad334122282f> a crm:E41_Appellation ;
+    rdfs:label "Bénédictins de Bernay"@fr .
 
 <a7a2f4fa-cba0-4005-9606-ae774e6e210f> a crm:E41_Appellation ;
     rdfs:label "Archevêque de Besançon"@fr .
@@ -2242,21 +2254,21 @@
 <aa365c7e-c736-455e-842a-f4d816a463fd> a crm:E41_Appellation ;
     rdfs:label "Évêque de Sarlat"@fr .
 
-<ab7a1d2a-3b83-48ce-851d-586461b74eea> a crm:E41_Appellation ;
-    rdfs:label "Chanoinesse de Saint-Pantaléon"@fr .
+<ab7778cb-7c51-4606-85cd-f0007308a080> a crm:E41_Appellation ;
+    rdfs:label "Messieurs de Sainte-Geneviève"@fr .
 
 <ab7e607a-f04b-4226-baee-5011fe7653f2> a crm:E41_Appellation ;
     rdfs:label "Cisterciens"@fr ;
     crm:P139_has_alternative_form <3f7b7aea-477f-48dd-acbd-41af4a6866ce> .
-
-<ac53a92b-e9cf-451c-b03e-6f7fae4d9b81> a crm:E41_Appellation ;
-    rdfs:label "Génovéfains"@fr .
 
 <ac87e998-935e-411b-aec5-b403017dd1a5> a crm:E41_Appellation ;
     rdfs:label "Frères de la Charité de Grenoble"@fr .
 
 <ad9b9abd-8e14-4796-8e9e-b4d933f09988> a crm:E41_Appellation ;
     rdfs:label "Évêque de Marseille"@fr .
+
+<ae55a880-cabd-4ef6-a3e9-e19e80b614ea> a crm:E41_Appellation ;
+    rdfs:label "Bernardines de l’Abbaye Port-Royal de Paris"@fr .
 
 <ae58acff-fc62-43cd-9f43-0c1f1f4916aa> a crm:E41_Appellation ;
     rdfs:label "Augustins déchaussés de Marseille"@fr .
@@ -2269,9 +2281,6 @@
 
 <af8b7f7e-23ac-4e66-bd3a-4947a08f275d> a crm:E41_Appellation ;
     rdfs:label "Capucins de Fécamp"@fr .
-
-<afc08812-0d7c-478b-98b7-bbd2c3564950> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de la Sainte-Croix"@fr .
 
 <b0b2757b-1f6b-48e5-aa85-517f8f63ec2a> a crm:E41_Appellation ;
     rdfs:label "Récollets de Guyenne"@fr .
@@ -2294,15 +2303,12 @@
 <b33d34da-a633-41a0-80f6-fc500f0ce7b7> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de Saint-Ruf"@fr .
 
-<b349e4da-3893-4ef0-95c8-08da8b6c09ab> a crm:E41_Appellation ;
-    rdfs:label "Clercs réguliers de Saint-Paul"@fr .
-
 <b4120a0d-7b44-424c-9746-9e273bb2c0c0> a crm:E41_Appellation ;
     rdfs:label "Grands carmes du grand couvent de Paris"@fr .
 
 <b467feeb-5e3f-4628-8bd4-954c2d2fe4db> a crm:E41_Appellation ;
     rdfs:label "Cisterciennes de l’Abbaye Port-Royal de Paris"@fr ;
-    crm:P139_has_alternative_form <ef93d073-aab7-41e9-9a61-2f673c50a1b1> .
+    crm:P139_has_alternative_form <ae55a880-cabd-4ef6-a3e9-e19e80b614ea> .
 
 <b4cd4316-d287-41e4-a2ae-65b3c5f20a69> a crm:E41_Appellation ;
     rdfs:label "Évêque de Lisieux"@fr .
@@ -2326,17 +2332,11 @@
 <b706159e-55e0-4b87-8f88-a10dded71eac> a crm:E41_Appellation ;
     rdfs:label "Évêque de Saint-Papoul"@fr .
 
-<b7246eab-4197-4fca-853a-c20f22a274dc> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Sainte-Geneviève de l’abbaye Saint-Jacques à Provins"@fr .
-
 <b7388563-1da1-4d72-b05d-edae34d1fa63> a crm:E41_Appellation ;
     rdfs:label "Capucins de Constantinople"@fr .
 
 <b7650f5e-2fbe-49a5-9168-851df1be1baa> a crm:E41_Appellation ;
     rdfs:label "Évêque de Tarbes"@fr .
-
-<b76800a9-97c1-4ee1-94af-e2ff563f17b5> a crm:E41_Appellation ;
-    rdfs:label "Frères mineurs"@fr .
 
 <b7754101-9fc5-43c8-9db9-f4be11a702d8> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de la maison royale de Sainte-Croix-de-la-Bretonnerie de Paris"@fr .
@@ -2349,6 +2349,9 @@
 
 <b7acf018-48ca-4de1-a393-f1ac1527ba4e> a crm:E41_Appellation ;
     rdfs:label "Récollets de Jarnac"@fr .
+
+<b8536109-ec1b-4942-b230-16ea03ade9af> a crm:E41_Appellation ;
+    rdfs:label "Ordre de Saint-Benoît de la Congrégation Notre-Dame du Calvaire"@fr .
 
 <b8d1dbb5-7045-4780-883d-39b4001e5d6a> a crm:E41_Appellation ;
     rdfs:label "Custodie"@fr .
@@ -2365,11 +2368,11 @@
 <babf8af2-affb-47c2-9805-315ce0776200> a crm:E41_Appellation ;
     rdfs:label "Carmélites de Compiègne"@fr .
 
+<bb2bcfc4-1651-471a-acb9-72c4c22eccf1> a crm:E41_Appellation ;
+    rdfs:label "Congrégation de Paris"@fr .
+
 <bb4a0575-759d-4cfd-a019-ba68094fd21a> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Montpellier"@fr .
-
-<bbdec6e3-b7ee-4cae-999d-3ed5cf12040a> a crm:E41_Appellation ;
-    rdfs:label "Ordre de la Sainte Trinité et de la Rédemption des Captifs"@fr .
 
 <bc7e828f-f6e3-48d1-98a5-793c46a16601> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Rouen"@fr .
@@ -2410,6 +2413,9 @@
 <c06a8ed3-f622-468a-85c6-6100f5ebce30> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Sainte-Cécile d'Albi"@fr .
 
+<c0894ad6-d01b-475b-bf41-96c9901e0a5b> a crm:E41_Appellation ;
+    rdfs:label "Congrégation de Saint-Victor"@fr .
+
 <c1158a09-c5d4-4fd9-a7e3-74637b47c863> a crm:E41_Appellation ;
     rdfs:label "Jésuites de Fort Saint-Pierre de la Martinique"@fr .
 
@@ -2421,9 +2427,6 @@
 
 <c2153948-ae19-4270-8801-3db69ba832de> a crm:E41_Appellation ;
     rdfs:label "Dames maltaises"@fr .
-
-<c36127bb-06c5-4526-9e56-aacb468400bd> a crm:E41_Appellation ;
-    rdfs:label "Ordre de Cîteaux"@fr .
 
 <c3684997-32f2-49da-aea1-b288abc827a2> a crm:E41_Appellation ;
     rdfs:label "Oratoriens de Pésenas"@fr .
@@ -2449,9 +2452,6 @@
 <c64ff323-6707-4c03-82c8-91c87926bf63> a crm:E41_Appellation ;
     rdfs:label "Dominicains de Beauvais"@fr ;
     crm:P139_has_alternative_form <32b8ed56-6b47-4d15-9e2b-b78d392f9def> .
-
-<c6c3ce1d-45f3-4216-ad4f-fd58d0b39d42> a crm:E41_Appellation ;
-    rdfs:label "Bénédictins de Bernay"@fr .
 
 <c750a7b9-d11d-4102-bf35-bb7d8826bd6a> a crm:E41_Appellation ;
     rdfs:label "Bénédictines de l'abbaye Notre-Dame de Chelles"@fr .
@@ -2500,6 +2500,12 @@
 <cebe703b-8844-4c5c-a4a7-9a62f9243916> a crm:E41_Appellation ;
     rdfs:label "Pètres de la Mission d'Alençon"@fr .
 
+<ceec4afe-2e3c-4c2b-9d9a-3087cc775a97> a crm:E41_Appellation ;
+    rdfs:label "Pères de la Doctrine Chrétienne"@fr .
+
+<cf13a485-46cc-41b2-9d90-00a520db5fee> a crm:E41_Appellation ;
+    rdfs:label "Mauristes de l’abbaye de la Trinité de Fécamp"@fr .
+
 <cf7a8cfd-62e8-454c-ac43-d633ed561a65> a crm:E41_Appellation ;
     rdfs:label "Évêque de Saintes"@fr .
 
@@ -2529,19 +2535,19 @@
 
 <d25f74b1-1161-4f50-b421-163836512a48> a crm:E41_Appellation ;
     rdfs:label "Cisterciennes de l'Abbaye de La Virginité des Roches-l'Évêque"@fr ;
-    crm:P139_has_alternative_form <7d0634f8-5372-4d5d-96d8-58ebe850747f> .
+    crm:P139_has_alternative_form <a26ec63d-58d1-4610-9e9a-41cf12d4f0e4> .
 
 <d2a1afea-ca52-47d2-8329-3978e662dc01> a crm:E41_Appellation ;
     rdfs:label "Évêque de Montauban"@fr .
+
+<d3260cc9-2718-4640-9c51-f1e289dafc6e> a crm:E41_Appellation ;
+    rdfs:label "Bernardines de l’Abbaye Saint-Antoine-des-Champs de Paris"@fr .
 
 <d32631d7-97ef-44ee-ac1f-fca0bf7428ae> a crm:E41_Appellation ;
     rdfs:label "Fontevristes du prieuré de Notre-Dame-du-Relay"@fr .
 
 <d58b8530-16fc-4009-bb40-53155a0aaaae> a crm:E41_Appellation ;
     rdfs:label "Évêque de Riez"@fr .
-
-<d5da9f16-8c00-43b8-ae74-6c27aaa37be7> a crm:E41_Appellation ;
-    rdfs:label "Pères de la Doctrine Chrétienne"@fr .
 
 <d6f4eafb-6867-4ccd-90f4-b18457c93e5d> a crm:E41_Appellation ;
     rdfs:label "Bénédictins de l'abbaye Saint-Pierre-Saint-Paul d'Hautmont"@fr .
@@ -2557,9 +2563,6 @@
 
 <d748e686-482b-4d72-b965-c2970cbe0179> a crm:E41_Appellation ;
     rdfs:label "Minimes (ordre)"@fr .
-
-<d7acc95e-8692-4c4c-bc7d-f5546595925d> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré Saint-Louis-Sainte-Catherine"@fr .
 
 <d7f6858c-4f23-4938-ba1e-5bb3fdc5f4be> a crm:E41_Appellation ;
     rdfs:label "Grand maître de l'ordre de Malte"@fr .
@@ -2581,6 +2584,9 @@
 
 <dba7bfa7-447b-4fbb-a951-90f472ae0ca5> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Notre-Dame de Strasbourg"@fr .
+
+<dd726ad0-2680-4a88-b3ff-084679535725> a crm:E41_Appellation ;
+    rdfs:label "Augustins réformés du faubourg Saint-Germain à Paris"@fr .
 
 <dee9ba6e-e1df-4b42-918d-b8609ab4c581> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Saint-Pierre de Beauvais"@fr .
@@ -2606,16 +2612,13 @@
 <e2b6a5ab-ecec-408a-a954-f0bbcfefaa38> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de Sainte-Geneviève de l’Église paroissiale de Saint-Antonin"@fr .
 
-<e2b7ce3d-83f9-42bd-9059-27da6a7e5caa> a crm:E41_Appellation ;
-    rdfs:label "Bénédictin de la Congrégation de Saint-Maur"@fr .
-
 <e3d085a3-4a9f-415b-ab55-6ed7756fd768> a crm:E41_Appellation ;
     rdfs:label "Grands carmes de Saint-Antonin"@fr .
 
 <e41b8aa2-44ef-416a-b2ee-016be778a7a0> a crm:E41_Appellation ;
     rdfs:label "Mauristes"@fr ;
-    crm:P139_has_alternative_form <11c4d834-da3e-4c09-91a6-683c3c754eee>,
-        <e2b7ce3d-83f9-42bd-9059-27da6a7e5caa> .
+    crm:P139_has_alternative_form <1f1c4579-aa12-4a21-ae1f-a542c9dc65a6>,
+        <39b66ee0-87f7-4d75-a802-bc227554617c> .
 
 <e46317fa-0678-4172-81be-5c47fa55d3bc> a crm:E41_Appellation ;
     rdfs:label "Récollets de Clamecy"@fr .
@@ -2634,7 +2637,7 @@
 
 <e60aa8b5-bd8b-4b31-880c-9234a9b8ac6b> a crm:E41_Appellation ;
     rdfs:label "Oratoriens"@fr ;
-    crm:P139_has_alternative_form <5f54d778-da3a-4f49-9d3e-a2c20170224b> .
+    crm:P139_has_alternative_form <031fc6e7-4d27-4b21-be8c-c1d3fe04d19b> .
 
 <e71d3ff4-d01f-4bd6-899f-5eaadbdb609d> a crm:E41_Appellation ;
     rdfs:label "Bénédictines de l'abbaye royale du Val-de-Grâce à Paris"@fr .
@@ -2654,14 +2657,14 @@
 <e93b1ec4-6dee-47c4-ace0-cdd6acb5975c> a crm:E41_Appellation ;
     rdfs:label "Dominicains de Compiègne"@fr .
 
+<e94f18af-2d69-4c22-913e-822deefc7b5e> a crm:E41_Appellation ;
+    rdfs:label "Petits Pères"@fr .
+
 <e96da935-b434-4a6f-84a1-49eb829d0d40> a crm:E41_Appellation ;
     rdfs:label "Chanoinesses de saint Augustin"@fr .
 
 <e9fd00ce-d912-4d8d-88d7-95fdcedba99a> a crm:E41_Appellation ;
     rdfs:label "Grands carmes de Madrid"@fr .
-
-<ea47dc3a-9532-40a7-b546-0282f1869a8a> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré Sainte-Catherine du Val-des-Écoliers"@fr .
 
 <eb4517f2-c4aa-416c-986b-6918399cf5b3> a crm:E41_Appellation ;
     rdfs:label "Bénédictines de l'abbaye de Notre-Dame de Soissons"@fr .
@@ -2690,8 +2693,8 @@
 <eeccca0f-08ad-4f24-a7f7-e7a3882ae5a0> a crm:E41_Appellation ;
     rdfs:label "Capucins de Melun"@fr .
 
-<ef93d073-aab7-41e9-9a61-2f673c50a1b1> a crm:E41_Appellation ;
-    rdfs:label "Bernardines de l’Abbaye Port-Royal de Paris"@fr .
+<eed19760-0519-4130-ac64-324308f8b1d6> a crm:E41_Appellation ;
+    rdfs:label "Bénédictin de Vendosme"@fr .
 
 <f0233ad8-ca39-4cc8-a7ea-7b15672b0632> a crm:E41_Appellation ;
     rdfs:label "Jacobins"@fr .
@@ -2705,6 +2708,9 @@
 <f0d649ba-721b-45bd-ad4b-1055218bdc81> a crm:E41_Appellation ;
     rdfs:label "Visitandines d'Albi"@fr .
 
+<f12cc7fa-bf68-4c91-b327-1e9990f9aba0> a crm:E41_Appellation ;
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré du Val-des-Écoliers"@fr .
+
 <f1330543-57b6-4434-9073-ae37df0d2167> a crm:E41_Appellation ;
     rdfs:label "Trinitaires de Limoux"@fr .
 
@@ -2716,9 +2722,6 @@
 
 <f1e7a9dc-59d4-4399-8642-416c12d8bf70> a crm:E41_Appellation ;
     rdfs:label "Évêque de Lavaur"@fr .
-
-<f1f143dc-3896-472a-bb24-2a138ad15bf9> a crm:E41_Appellation ;
-    rdfs:label "Pères de Saint-Lazare"@fr .
 
 <f2155ace-26bf-475c-8bab-f549a9f3ad02> a crm:E41_Appellation ;
     rdfs:label "Augustines hospitalières de la Place royale de Paris"@fr .
@@ -2740,10 +2743,10 @@
 
 <f35ef78f-4e16-4bd5-ab15-e16216c6f884> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de Sainte-Geneviève"@fr ;
-    crm:P139_has_alternative_form <81b68e62-1dfb-42e7-a767-e4150de00ad9>,
-        <83355318-3a54-40d9-8472-1e2b1c321aeb>,
-        <9915f60b-8887-41bb-a837-54ddf23f5ee7>,
-        <ac53a92b-e9cf-451c-b03e-6f7fae4d9b81> .
+    crm:P139_has_alternative_form <0f2966e1-5940-41aa-9e4d-aee2a347ef93>,
+        <40482e71-24e9-47f3-9d7e-52de6703acb8>,
+        <ab7778cb-7c51-4606-85cd-f0007308a080>,
+        <bb2bcfc4-1651-471a-acb9-72c4c22eccf1> .
 
 <f361a9c9-01c1-4ae9-90a7-8c84fb7af232> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la Cathédrale Saint-Sauveur de Saragosse"@fr .
@@ -2751,10 +2754,7 @@
 <f3aaded4-1e1f-43a6-9cb3-42c59ffb710c> a crm:E41_Appellation ;
     rdfs:label "Chanoinesses régulières de l'abbaye Saint-Pantaléon de Toulouse"@fr ;
     crm:P139_has_alternative_form <2f9ad8a6-c19f-4a71-aa47-1242a327f83e>,
-        <ab7a1d2a-3b83-48ce-851d-586461b74eea> .
-
-<f3e34d72-fd4b-46ca-91ee-2cc627ad42d4> a crm:E41_Appellation ;
-    rdfs:label "Compagnie de Jésus"@fr .
+        <42f1b30b-e43d-448e-85f8-91f5c508eb94> .
 
 <f3f27a8f-840d-4a42-9e57-d58bdcd31ef3> a crm:E41_Appellation ;
     rdfs:label "Moines ou moniales"@fr .
@@ -2762,22 +2762,25 @@
 <f43093eb-bdd5-469d-aa84-ce2746219094> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Notre-Dame de Senlis"@fr .
 
+<f4418070-77c4-4412-8752-8ad7a0cfe8d2> a crm:E41_Appellation ;
+    rdfs:label "Pères de Picpus"@fr .
+
 <f4c171d5-43fa-4441-9f68-fa03f39b8913> a crm:E41_Appellation ;
     rdfs:label "Bénédictines du Prieuré Notre-Dame-des-Anges de Moret"@fr .
 
 <f589f105-5d3d-43a2-961b-b50074a832eb> a crm:E41_Appellation ;
     rdfs:label "Bénédictins de l'abbaye de la Trinité à Vendosme"@fr ;
-    crm:P139_has_alternative_form <6f8dec11-529f-4a5f-9933-ed775b5b4278> .
+    crm:P139_has_alternative_form <eed19760-0519-4130-ac64-324308f8b1d6> .
 
 <f59200f3-6b36-4042-9873-55cc9bb8c189> a crm:E41_Appellation ;
     rdfs:label "Frères de la Charité de Fort-Royal"@fr .
 
-<f5a96e42-7256-4e98-b769-d851b2e949d7> a crm:E41_Appellation ;
-    rdfs:label "Sœurs de l'Assomption"@fr .
-
 <f65564ef-1a85-4b6b-b93c-dd3577d435bf> a crm:E41_Appellation ;
     rdfs:label "Augustins"@fr ;
     crm:P139_has_alternative_form <2d9c3de2-4e9d-47e4-a361-2353e99a4a9d> .
+
+<f796a5a0-47a4-45d3-9a4d-2badda7f2d44> a crm:E41_Appellation ;
+    rdfs:label "Frères prêcheurs"@fr .
 
 <f7b1104f-95a5-4d3d-ba0f-0fdd7173b309> a crm:E41_Appellation ;
     rdfs:label "Feuillants de l’Abbaye de Saint-Mesmin-de-Micy"@fr .
@@ -2790,9 +2793,6 @@
 
 <f83dbb3e-0cc6-43fb-9a03-1507dc42c49e> a crm:E41_Appellation ;
     rdfs:label "Pères de Terre-Sainte d'Alep"@fr .
-
-<f8401b42-9719-4afe-a5c9-bc9ad967c1b7> a crm:E41_Appellation ;
-    rdfs:label "Ordre hospitalier des frères de Saint Jean de Dieu"@fr .
 
 <f896b901-ac09-41b3-a125-cbbc911f28a0> a crm:E41_Appellation ;
     rdfs:label "Chapitre de la cathédrale Notre-Dame-des-Doms d'Avignon"@fr .
@@ -2840,7 +2840,8 @@
 <fdf83e8b-5e97-4f18-9ce3-a81f924c30c1> a crm:E41_Appellation ;
     rdfs:label "Feuillantins"@fr .
 
-<010437b9-7f99-4965-a2f4-7835d1e13893> crm:P107_has_current_or_former_member <5a517e4a-1527-4dfc-b38d-1bd92550787a>,
+<010437b9-7f99-4965-a2f4-7835d1e13893> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <5a517e4a-1527-4dfc-b38d-1bd92550787a>,
         <796eaeba-2691-4d29-8745-eb496a255c99>,
         <7c3959c4-ba01-451c-96a5-6a41746753c2>,
         <93063565-9667-405f-b17a-5e3bf4fba1e1>,
@@ -2850,45 +2851,61 @@
         <fbf53967-1a32-4939-999f-11852d2d0702> ;
     crm:P1_is_identified_by <f255e94a-9e03-416d-b705-6264ead921e7> .
 
-<013fd2f8-0ff9-4362-aae8-856a1477e2c0> crm:P1_is_identified_by <4cb300ad-94e1-4119-8b2a-5d862d2cbc58> .
+<013fd2f8-0ff9-4362-aae8-856a1477e2c0> a crm:E74_Group ;
+    crm:P1_is_identified_by <4cb300ad-94e1-4119-8b2a-5d862d2cbc58> .
 
-<0154cd1b-8fad-4b12-a886-2a5a2a8df11d> crm:P1_is_identified_by <eeccca0f-08ad-4f24-a7f7-e7a3882ae5a0> .
+<0154cd1b-8fad-4b12-a886-2a5a2a8df11d> a crm:E74_Group ;
+    crm:P1_is_identified_by <eeccca0f-08ad-4f24-a7f7-e7a3882ae5a0> .
 
-<025ef228-baf3-4a3e-9d26-c0b01481eee5> crm:P1_is_identified_by <2632e287-d58e-4dde-ac23-9af445fa8d08> .
+<025ef228-baf3-4a3e-9d26-c0b01481eee5> a crm:E74_Group ;
+    crm:P1_is_identified_by <2632e287-d58e-4dde-ac23-9af445fa8d08> .
 
-<02d39b18-01c7-42b3-aa0b-91d853229dd2> crm:P107_has_current_or_former_member <1ca18bc4-3969-4246-8934-ea742cc3fab7>,
+<02d39b18-01c7-42b3-aa0b-91d853229dd2> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <1ca18bc4-3969-4246-8934-ea742cc3fab7>,
         <850dbbd3-bf84-4030-8bdd-0a1d8c0b24d0>,
         <b2e8a1a4-3ca4-4bde-9a7a-82ebc18065db>,
         <b9034cc0-6a20-4cba-bc25-3fbde580a3af>,
         <c51684a2-2f8a-4394-9bb7-443ce06686d3> ;
     crm:P1_is_identified_by <d748e686-482b-4d72-b965-c2970cbe0179> .
 
-<03a0c3bb-ac3f-477f-8965-83791fd3912d> crm:P1_is_identified_by <a6b0a094-0640-4b2c-8781-cb655e67907c> .
+<03a0c3bb-ac3f-477f-8965-83791fd3912d> a crm:E74_Group ;
+    crm:P1_is_identified_by <a6b0a094-0640-4b2c-8781-cb655e67907c> .
 
-<03a7d88f-7550-4e65-a7b2-ecedee68e323> crm:P107_has_current_or_former_member <77137587-cca9-4d0d-9f4d-8eaa70de118f>,
+<03a7d88f-7550-4e65-a7b2-ecedee68e323> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <77137587-cca9-4d0d-9f4d-8eaa70de118f>,
         <ba4c3332-94cc-4f14-be44-c4fd49fce410>,
         <f920975f-194b-4c17-840d-96e78ca8bcbb> ;
     crm:P1_is_identified_by <a7e7704c-4a45-4e8e-a538-d70571751643> .
 
-<043b6342-e421-40ae-92be-fc77652ae7f4> crm:P1_is_identified_by <f9874832-3757-4174-81b3-0ed764fb226a> .
+<043b6342-e421-40ae-92be-fc77652ae7f4> a crm:E74_Group ;
+    crm:P1_is_identified_by <f9874832-3757-4174-81b3-0ed764fb226a> .
 
-<0468a672-9d51-4c80-902e-6bf52b6c6de3> crm:P1_is_identified_by <aecd11bd-6955-4f8e-a793-740e7ae89bb0> .
+<0468a672-9d51-4c80-902e-6bf52b6c6de3> a crm:E74_Group ;
+    crm:P1_is_identified_by <aecd11bd-6955-4f8e-a793-740e7ae89bb0> .
 
-<04bb0569-00fb-48f1-af34-4dbbc9481713> crm:P1_is_identified_by <c3684997-32f2-49da-aea1-b288abc827a2> .
+<04bb0569-00fb-48f1-af34-4dbbc9481713> a crm:E74_Group ;
+    crm:P1_is_identified_by <c3684997-32f2-49da-aea1-b288abc827a2> .
 
-<04c33516-2ded-47c2-9f19-071c2257d33c> crm:P1_is_identified_by <7ebe4470-da2e-4502-87f3-d7a2503eddde> .
+<04c33516-2ded-47c2-9f19-071c2257d33c> a crm:E74_Group ;
+    crm:P1_is_identified_by <7ebe4470-da2e-4502-87f3-d7a2503eddde> .
 
-<071e9ccc-7d3d-4f10-8569-73c4be80cd99> crm:P1_is_identified_by <bc7e828f-f6e3-48d1-98a5-793c46a16601> .
+<071e9ccc-7d3d-4f10-8569-73c4be80cd99> a crm:E74_Group ;
+    crm:P1_is_identified_by <bc7e828f-f6e3-48d1-98a5-793c46a16601> .
 
-<078b7c93-eec4-4a84-add1-23556db6bb38> crm:P1_is_identified_by <d704ee95-7261-4641-8e25-4960dd5835bc> .
+<078b7c93-eec4-4a84-add1-23556db6bb38> a crm:E74_Group ;
+    crm:P1_is_identified_by <d704ee95-7261-4641-8e25-4960dd5835bc> .
 
-<078eb5e3-da46-48b5-8a95-ca325ef780e4> crm:P1_is_identified_by <7069d3fb-cb42-4ed4-8527-c279a1fd15b0> .
+<078eb5e3-da46-48b5-8a95-ca325ef780e4> a crm:E74_Group ;
+    crm:P1_is_identified_by <7069d3fb-cb42-4ed4-8527-c279a1fd15b0> .
 
-<08574a0a-086c-4f7a-aa4a-c8c18f7a6bf5> crm:P1_is_identified_by <d6ff33e4-0788-4cec-bc2c-63fdc3011bb7> .
+<08574a0a-086c-4f7a-aa4a-c8c18f7a6bf5> a crm:E74_Group ;
+    crm:P1_is_identified_by <d6ff33e4-0788-4cec-bc2c-63fdc3011bb7> .
 
-<08fe5637-be9c-460c-a723-aa56d5bba60c> crm:P1_is_identified_by <68892b05-66ee-43ae-9c57-8e7ae9a0f043> .
+<08fe5637-be9c-460c-a723-aa56d5bba60c> a crm:E74_Group ;
+    crm:P1_is_identified_by <68892b05-66ee-43ae-9c57-8e7ae9a0f043> .
 
-<0979dbea-398e-4624-ba6e-82af43cfa032> crm:P107_has_current_or_former_member <0154cd1b-8fad-4b12-a886-2a5a2a8df11d>,
+<0979dbea-398e-4624-ba6e-82af43cfa032> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <0154cd1b-8fad-4b12-a886-2a5a2a8df11d>,
         <101afe79-9f3c-4263-8472-7a215eaf3635>,
         <177dc49b-2ffe-422b-b569-d8b491d2e335>,
         <188920bc-ae4c-4c1e-86a1-bbb2e8db1fec>,
@@ -2921,16 +2938,21 @@
         <f64edbd0-b550-4fb0-a6a3-f4e825b06de2> ;
     crm:P1_is_identified_by <76117a84-95c5-47ce-86af-b1ac11b00d78> .
 
-<09c490d5-75ec-4376-a999-fdbee95e80ac> crm:P1_is_identified_by <f7d6b47d-06a3-4a77-9f63-56f722ae2d39> .
+<09c490d5-75ec-4376-a999-fdbee95e80ac> a crm:E74_Group ;
+    crm:P1_is_identified_by <f7d6b47d-06a3-4a77-9f63-56f722ae2d39> .
 
-<0a819074-2ab8-45ae-ac35-8a51d4518bf3> crm:P1_is_identified_by <f1e7a9dc-59d4-4399-8642-416c12d8bf70> .
+<0a819074-2ab8-45ae-ac35-8a51d4518bf3> a crm:E74_Group ;
+    crm:P1_is_identified_by <f1e7a9dc-59d4-4399-8642-416c12d8bf70> .
 
-<0b5f227a-3c8a-4ccc-ad67-8e84c529b8d2> crm:P1_is_identified_by <595068cb-c6ec-4311-8122-f915c59af6c5> .
+<0b5f227a-3c8a-4ccc-ad67-8e84c529b8d2> a crm:E74_Group ;
+    crm:P1_is_identified_by <595068cb-c6ec-4311-8122-f915c59af6c5> .
 
-<0cb16612-23ef-49d0-9764-106386a6e5b7> crm:P107_has_current_or_former_member <a2c52be1-4a66-41e4-a8e7-334f4f1bf2f6> ;
+<0cb16612-23ef-49d0-9764-106386a6e5b7> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <a2c52be1-4a66-41e4-a8e7-334f4f1bf2f6> ;
     crm:P1_is_identified_by <1a919f01-d237-4450-a3e2-6fdbdecdb280> .
 
-<0d958e29-24bb-4331-920b-211375a67a6a> crm:P107_has_current_or_former_member <0cb16612-23ef-49d0-9764-106386a6e5b7>,
+<0d958e29-24bb-4331-920b-211375a67a6a> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <0cb16612-23ef-49d0-9764-106386a6e5b7>,
         <8286280a-4637-4ce5-891e-5f0d35dfcd23>,
         <944ebb25-ace2-44d7-b90a-27b88e6032ba>,
         <a240be63-9498-4209-a2cd-0057a41bbaba>,
@@ -2940,34 +2962,47 @@
         <dbb9c4eb-07ed-42d7-a926-7fdca34bc316> ;
     crm:P1_is_identified_by <91854bf9-e6e6-41e1-8ec1-1f46ae9b0081> .
 
-<0f06dece-bc0a-4bb3-9d90-cb23f1b7e72d> crm:P1_is_identified_by <d0358068-5c68-4273-8196-39e76e090739> .
+<0f06dece-bc0a-4bb3-9d90-cb23f1b7e72d> a crm:E74_Group ;
+    crm:P1_is_identified_by <d0358068-5c68-4273-8196-39e76e090739> .
 
-<101afe79-9f3c-4263-8472-7a215eaf3635> crm:P1_is_identified_by <9fcec620-d35c-47c2-a570-cc49888a0fd7> .
+<101afe79-9f3c-4263-8472-7a215eaf3635> a crm:E74_Group ;
+    crm:P1_is_identified_by <9fcec620-d35c-47c2-a570-cc49888a0fd7> .
 
-<10226bd8-f646-4edb-b728-d7973f852d2a> crm:P1_is_identified_by <811a51f1-0ddf-40c5-9a6b-73e9b51664bc> .
+<10226bd8-f646-4edb-b728-d7973f852d2a> a crm:E74_Group ;
+    crm:P1_is_identified_by <811a51f1-0ddf-40c5-9a6b-73e9b51664bc> .
 
-<121f5810-d2c9-4bd1-bdcb-7b22853bcdfa> crm:P1_is_identified_by <9275a486-6f7d-4421-8f35-2cc8a021725a> .
+<121f5810-d2c9-4bd1-bdcb-7b22853bcdfa> a crm:E74_Group ;
+    crm:P1_is_identified_by <9275a486-6f7d-4421-8f35-2cc8a021725a> .
 
-<12a08ca0-5b6b-4a61-801e-3aea23689ece> crm:P1_is_identified_by <edde779b-ab7b-443d-b18e-03de8599eaa4> .
+<12a08ca0-5b6b-4a61-801e-3aea23689ece> a crm:E74_Group ;
+    crm:P1_is_identified_by <edde779b-ab7b-443d-b18e-03de8599eaa4> .
 
-<1386c670-c302-4c35-ab61-53aa2e698f3a> crm:P1_is_identified_by <ce5b455e-1589-4866-b2c3-9371e61187bc> .
+<1386c670-c302-4c35-ab61-53aa2e698f3a> a crm:E74_Group ;
+    crm:P1_is_identified_by <ce5b455e-1589-4866-b2c3-9371e61187bc> .
 
-<13bcca96-93bb-4e69-8de8-572986cbf42c> crm:P1_is_identified_by <7f6b23b9-7ac0-4029-b14e-3cde7d98fdcc> .
+<13bcca96-93bb-4e69-8de8-572986cbf42c> a crm:E74_Group ;
+    crm:P1_is_identified_by <7f6b23b9-7ac0-4029-b14e-3cde7d98fdcc> .
 
-<1486e671-6e2d-404e-bbca-78a1e9a86374> crm:P1_is_identified_by <c133a447-d1a6-4947-9412-ebc860286523> .
+<1486e671-6e2d-404e-bbca-78a1e9a86374> a crm:E74_Group ;
+    crm:P1_is_identified_by <c133a447-d1a6-4947-9412-ebc860286523> .
 
-<15e330aa-cbf7-4ebb-a7e3-6962e2174e2f> crm:P1_is_identified_by <a4647fc9-9ceb-43f9-ab1c-84a6b2a24849> .
+<15e330aa-cbf7-4ebb-a7e3-6962e2174e2f> a crm:E74_Group ;
+    crm:P1_is_identified_by <a4647fc9-9ceb-43f9-ab1c-84a6b2a24849> .
 
-<16300887-654c-4f4f-8abc-cbc7d87e9649> crm:P107_has_current_or_former_member <58d879d9-40ae-4a99-b07a-83f47788d2f2>,
+<16300887-654c-4f4f-8abc-cbc7d87e9649> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <58d879d9-40ae-4a99-b07a-83f47788d2f2>,
         <5de031f4-8f4d-4f86-b5c5-d25fab707837> ;
     crm:P1_is_identified_by <e5f76d49-3ea0-415f-866f-fe8f310026a0> .
 
-<16a821c2-479c-485b-ac05-7347b38353e8> crm:P1_is_identified_by <fd95ce17-e726-4efe-99a9-d9fd3a91d16f> .
+<16a821c2-479c-485b-ac05-7347b38353e8> a crm:E74_Group ;
+    crm:P1_is_identified_by <fd95ce17-e726-4efe-99a9-d9fd3a91d16f> .
 
-<16e7dea3-fbc8-4004-881c-84c56c8ad5ff> crm:P107_has_current_or_former_member <013fd2f8-0ff9-4362-aae8-856a1477e2c0> ;
+<16e7dea3-fbc8-4004-881c-84c56c8ad5ff> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <013fd2f8-0ff9-4362-aae8-856a1477e2c0> ;
     crm:P1_is_identified_by <1e6171ea-438c-48f4-b1f6-09465def8768> .
 
-<1770541e-5d83-4e35-addb-86e02e371b40> crm:P107_has_current_or_former_member <2cf76129-98aa-49ef-969a-72542497d16a>,
+<1770541e-5d83-4e35-addb-86e02e371b40> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <2cf76129-98aa-49ef-969a-72542497d16a>,
         <3062e900-40c3-4f42-9aa2-42759ea79f74>,
         <937d359c-7794-44c0-b1d6-4df91546ff5b>,
         <af3697ba-9ab3-4874-b9e4-924914b1032b>,
@@ -2977,22 +3012,30 @@
         <e085cf80-0195-47ce-9558-cd7fe54ae75d> ;
     crm:P1_is_identified_by <0c9abe5a-7879-49a0-a634-143e1a78023c> .
 
-<177dc49b-2ffe-422b-b569-d8b491d2e335> crm:P1_is_identified_by <bf384378-7790-4f1b-99a2-038e8456abc2> .
+<177dc49b-2ffe-422b-b569-d8b491d2e335> a crm:E74_Group ;
+    crm:P1_is_identified_by <bf384378-7790-4f1b-99a2-038e8456abc2> .
 
-<17d0d240-a4f1-47d4-b65b-b1e9df3a4b95> crm:P1_is_identified_by <3278e53b-da50-4644-be98-cff330f845fd> .
+<17d0d240-a4f1-47d4-b65b-b1e9df3a4b95> a crm:E74_Group ;
+    crm:P1_is_identified_by <3278e53b-da50-4644-be98-cff330f845fd> .
 
-<17e7f389-e319-4752-971b-f89435b45b25> crm:P1_is_identified_by <73bb7e31-cbba-4d42-8bc7-8d7db0f649ae> .
+<17e7f389-e319-4752-971b-f89435b45b25> a crm:E74_Group ;
+    crm:P1_is_identified_by <73bb7e31-cbba-4d42-8bc7-8d7db0f649ae> .
 
-<188920bc-ae4c-4c1e-86a1-bbb2e8db1fec> crm:P1_is_identified_by <0e1af6f9-ac11-43e2-9180-1887e723bb1c> .
+<188920bc-ae4c-4c1e-86a1-bbb2e8db1fec> a crm:E74_Group ;
+    crm:P1_is_identified_by <0e1af6f9-ac11-43e2-9180-1887e723bb1c> .
 
-<18b19f56-9915-4217-a689-048fb49d3406> crm:P1_is_identified_by <d196ce61-9363-43dc-ba33-c3ca869d41cf> .
+<18b19f56-9915-4217-a689-048fb49d3406> a crm:E74_Group ;
+    crm:P1_is_identified_by <d196ce61-9363-43dc-ba33-c3ca869d41cf> .
 
-<19372f63-2cd4-432b-b386-f449892c1ab0> crm:P1_is_identified_by <329d5a27-3502-4fd7-a2d4-a38585947c1a> .
+<19372f63-2cd4-432b-b386-f449892c1ab0> a crm:E74_Group ;
+    crm:P1_is_identified_by <329d5a27-3502-4fd7-a2d4-a38585947c1a> .
 
-<1a10481a-36ce-4bc6-b01d-bdbfda282a6d> crm:P107_has_current_or_former_member <1a34835f-22b6-41e4-86c7-05cd4d1724d2> ;
+<1a10481a-36ce-4bc6-b01d-bdbfda282a6d> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <1a34835f-22b6-41e4-86c7-05cd4d1724d2> ;
     crm:P1_is_identified_by <62e3f426-bab1-414a-a5dc-6d11fc0b7198> .
 
-<1a34835f-22b6-41e4-86c7-05cd4d1724d2> crm:P107_has_current_or_former_member <25808d56-72b8-41da-bda6-92c5a4ac34b2>,
+<1a34835f-22b6-41e4-86c7-05cd4d1724d2> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <25808d56-72b8-41da-bda6-92c5a4ac34b2>,
         <2949d407-f1d5-4b05-a2b6-3427ee8aa1d4>,
         <301708f6-b4b0-48bd-80be-783abdbfae56>,
         <5970d5c3-4f48-4d1b-aebf-84b64239b648>,
@@ -3004,148 +3047,208 @@
         <ffb1c352-ebd7-4aa1-96e6-bde0efbb8802> ;
     crm:P1_is_identified_by <5519c854-c2e6-4ae4-a330-38f86b665d78> .
 
-<1b51ea8a-d700-4842-8d89-f285ab819317> crm:P1_is_identified_by <a78be4bc-8e2b-4cb4-a12f-90ca1f7d9678> .
+<1b51ea8a-d700-4842-8d89-f285ab819317> a crm:E74_Group ;
+    crm:P1_is_identified_by <a78be4bc-8e2b-4cb4-a12f-90ca1f7d9678> .
 
-<1b7e8349-a40a-4825-b2ce-91d32db77c7a> crm:P107_has_current_or_former_member <205bd93b-d15d-4daa-98a7-712d3d175933>,
+<1b7e8349-a40a-4825-b2ce-91d32db77c7a> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <205bd93b-d15d-4daa-98a7-712d3d175933>,
         <9fe25f7c-3f9a-4320-aecd-eb6fa7d98624>,
         <e7cc272a-529f-4aff-bbdd-fc2a1599702a> ;
     crm:P1_is_identified_by <a6429985-3ae4-4243-81bc-5f51575b2a3f> .
 
-<1c34a1ce-4ed0-46e4-a75b-162b35473791> crm:P1_is_identified_by <8a6bb2fd-3d62-4075-8676-4cddabdf1796> .
+<1c34a1ce-4ed0-46e4-a75b-162b35473791> a crm:E74_Group ;
+    crm:P1_is_identified_by <8a6bb2fd-3d62-4075-8676-4cddabdf1796> .
 
-<1ca18bc4-3969-4246-8934-ea742cc3fab7> crm:P1_is_identified_by <788d7cbe-e22c-4192-a5c1-d9064cfe4fcc> .
+<1ca18bc4-3969-4246-8934-ea742cc3fab7> a crm:E74_Group ;
+    crm:P1_is_identified_by <788d7cbe-e22c-4192-a5c1-d9064cfe4fcc> .
 
-<1d8c5f59-4c97-47c9-950c-22c1cf69a565> crm:P107_has_current_or_former_member <2ff11001-8667-4d58-8a52-27840a0d9aa7>,
+<1d8c5f59-4c97-47c9-950c-22c1cf69a565> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <2ff11001-8667-4d58-8a52-27840a0d9aa7>,
         <4607a5e1-bfe9-46a0-8e53-6bad4de738ce>,
         <5a423841-64cf-4e98-9e3f-5c28d18a91f6>,
         <84ad4653-49f3-4d5c-b0be-b8e714168357>,
         <8ee0484e-b723-4771-9640-bca86acaa562> ;
     crm:P1_is_identified_by <3674689d-a16a-4f61-ad31-54ae8efd4b1b> .
 
-<1e400499-9037-487f-b5f3-d66ec67cca38> crm:P1_is_identified_by <f83dbb3e-0cc6-43fb-9a03-1507dc42c49e> .
+<1e400499-9037-487f-b5f3-d66ec67cca38> a crm:E74_Group ;
+    crm:P1_is_identified_by <f83dbb3e-0cc6-43fb-9a03-1507dc42c49e> .
 
-<1ef33305-3dc8-45ea-9350-3427fffbbfb8> crm:P1_is_identified_by <7c7e6268-3608-4334-a4ee-963137a8853c> .
+<1ef33305-3dc8-45ea-9350-3427fffbbfb8> a crm:E74_Group ;
+    crm:P1_is_identified_by <7c7e6268-3608-4334-a4ee-963137a8853c> .
 
-<1eff12c1-649e-41d0-8ce2-a34e0ecb5a96> crm:P1_is_identified_by <68c26899-7744-4d2e-8144-894f539d53a5> .
+<1eff12c1-649e-41d0-8ce2-a34e0ecb5a96> a crm:E74_Group ;
+    crm:P1_is_identified_by <68c26899-7744-4d2e-8144-894f539d53a5> .
 
-<205725be-4a25-4128-bdc8-d8ee790026c6> crm:P1_is_identified_by <6be7ea05-8a39-4e63-8eca-0f988febcfa4> .
+<205725be-4a25-4128-bdc8-d8ee790026c6> a crm:E74_Group ;
+    crm:P1_is_identified_by <6be7ea05-8a39-4e63-8eca-0f988febcfa4> .
 
-<205bd93b-d15d-4daa-98a7-712d3d175933> crm:P1_is_identified_by <b105e07f-1757-4f25-b387-2a2911106df9> .
+<205bd93b-d15d-4daa-98a7-712d3d175933> a crm:E74_Group ;
+    crm:P1_is_identified_by <b105e07f-1757-4f25-b387-2a2911106df9> .
 
-<2106d89f-1ce5-4b2e-bf25-3e841593b648> crm:P1_is_identified_by <fc3f6cbc-13ce-4033-b4b8-0f35abeb0de9> .
+<2106d89f-1ce5-4b2e-bf25-3e841593b648> a crm:E74_Group ;
+    crm:P1_is_identified_by <fc3f6cbc-13ce-4033-b4b8-0f35abeb0de9> .
 
-<22179807-8f5f-4b96-9630-eea644cfc603> crm:P1_is_identified_by <2df0e133-3828-4804-a456-fe8f25497eed> .
+<22179807-8f5f-4b96-9630-eea644cfc603> a crm:E74_Group ;
+    crm:P1_is_identified_by <2df0e133-3828-4804-a456-fe8f25497eed> .
 
-<2230e8fd-13da-46d9-97e3-cee0ab5a2104> crm:P1_is_identified_by <f896b901-ac09-41b3-a125-cbbc911f28a0> .
+<2230e8fd-13da-46d9-97e3-cee0ab5a2104> a crm:E74_Group ;
+    crm:P1_is_identified_by <f896b901-ac09-41b3-a125-cbbc911f28a0> .
 
-<22554f2d-1319-4792-9ee8-51f85f51dc7f> crm:P1_is_identified_by <65a70fd4-b447-453c-a3cf-70682dd78e17> .
+<22554f2d-1319-4792-9ee8-51f85f51dc7f> a crm:E74_Group ;
+    crm:P1_is_identified_by <65a70fd4-b447-453c-a3cf-70682dd78e17> .
 
-<22701aac-12db-46e9-a378-e9c84618b301> crm:P1_is_identified_by <b0b2757b-1f6b-48e5-aa85-517f8f63ec2a> .
+<22701aac-12db-46e9-a378-e9c84618b301> a crm:E74_Group ;
+    crm:P1_is_identified_by <b0b2757b-1f6b-48e5-aa85-517f8f63ec2a> .
 
-<22f1b6e4-8aae-4127-8ad2-72eaf911d903> crm:P1_is_identified_by <9cf848c4-bd89-4a0d-a284-d26510885fa0> .
+<22f1b6e4-8aae-4127-8ad2-72eaf911d903> a crm:E74_Group ;
+    crm:P1_is_identified_by <9cf848c4-bd89-4a0d-a284-d26510885fa0> .
 
-<2347621a-8f3a-4ee5-9329-018bcd2195cc> crm:P1_is_identified_by <d25f74b1-1161-4f50-b421-163836512a48> .
+<2347621a-8f3a-4ee5-9329-018bcd2195cc> a crm:E74_Group ;
+    crm:P1_is_identified_by <d25f74b1-1161-4f50-b421-163836512a48> .
 
-<23ad65e4-df67-4754-be84-81ac6334203c> crm:P1_is_identified_by <143bf932-cdb9-446e-9888-6348ded5f9fd> .
+<23ad65e4-df67-4754-be84-81ac6334203c> a crm:E74_Group ;
+    crm:P1_is_identified_by <143bf932-cdb9-446e-9888-6348ded5f9fd> .
 
-<2554e0d1-33f4-4b24-b9e3-31ce8c3b0278> crm:P1_is_identified_by <af8b7f7e-23ac-4e66-bd3a-4947a08f275d> .
+<2554e0d1-33f4-4b24-b9e3-31ce8c3b0278> a crm:E74_Group ;
+    crm:P1_is_identified_by <af8b7f7e-23ac-4e66-bd3a-4947a08f275d> .
 
-<256f3694-6e85-40cb-bb33-70e3710cbe4b> crm:P1_is_identified_by <857d3ca6-e6b9-484e-8feb-2748b5033408> .
+<256f3694-6e85-40cb-bb33-70e3710cbe4b> a crm:E74_Group ;
+    crm:P1_is_identified_by <857d3ca6-e6b9-484e-8feb-2748b5033408> .
 
-<25808d56-72b8-41da-bda6-92c5a4ac34b2> crm:P1_is_identified_by <5370a08c-ec83-4602-aac0-69011041c426> .
+<25808d56-72b8-41da-bda6-92c5a4ac34b2> a crm:E74_Group ;
+    crm:P1_is_identified_by <5370a08c-ec83-4602-aac0-69011041c426> .
 
-<25a30bac-ee15-4f33-a8e2-fdac3f5ac1ce> crm:P107_has_current_or_former_member <e97cab34-267e-4d92-9b1f-a760b0629d53> ;
+<25a30bac-ee15-4f33-a8e2-fdac3f5ac1ce> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <e97cab34-267e-4d92-9b1f-a760b0629d53> ;
     crm:P1_is_identified_by <0044cbd8-8dcf-4cba-908d-18431451bd9d> .
 
-<25e817da-f140-43a8-8410-88fd14080b40> crm:P1_is_identified_by <c64ff323-6707-4c03-82c8-91c87926bf63> .
+<25e817da-f140-43a8-8410-88fd14080b40> a crm:E74_Group ;
+    crm:P1_is_identified_by <c64ff323-6707-4c03-82c8-91c87926bf63> .
 
-<25f0267c-2ad6-45e1-b190-5d46365f25d8> crm:P1_is_identified_by <66d7035e-7049-48a4-9ff7-0d563ed5005c> .
+<25f0267c-2ad6-45e1-b190-5d46365f25d8> a crm:E74_Group ;
+    crm:P1_is_identified_by <66d7035e-7049-48a4-9ff7-0d563ed5005c> .
 
-<2865faa8-eb2f-488a-9368-681d52e994c4> crm:P107_has_current_or_former_member <b65620ca-35dc-4e90-acbf-ea6f87d56cf2> ;
+<2865faa8-eb2f-488a-9368-681d52e994c4> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <b65620ca-35dc-4e90-acbf-ea6f87d56cf2> ;
     crm:P1_is_identified_by <cfcbef56-97b4-47de-acc1-eba2fa2e4d59> .
 
-<288f2311-8ce6-45b2-afb4-ed9ac6b6f2bc> crm:P1_is_identified_by <0c7c98dc-de36-454b-be00-60648cd2aee5> .
+<288f2311-8ce6-45b2-afb4-ed9ac6b6f2bc> a crm:E74_Group ;
+    crm:P1_is_identified_by <0c7c98dc-de36-454b-be00-60648cd2aee5> .
 
-<28cb3e13-f37f-4c2a-90d1-81c7491f0ad8> crm:P1_is_identified_by <d2030ae5-9836-446a-a29c-a2b8de450cc4> .
+<28cb3e13-f37f-4c2a-90d1-81c7491f0ad8> a crm:E74_Group ;
+    crm:P1_is_identified_by <d2030ae5-9836-446a-a29c-a2b8de450cc4> .
 
-<29142f4e-dd9c-409d-8e82-5a5091dab121> crm:P1_is_identified_by <54f33c1f-e6ac-4a9e-bbcc-ce1d6ab12221> .
+<29142f4e-dd9c-409d-8e82-5a5091dab121> a crm:E74_Group ;
+    crm:P1_is_identified_by <54f33c1f-e6ac-4a9e-bbcc-ce1d6ab12221> .
 
-<2949d407-f1d5-4b05-a2b6-3427ee8aa1d4> crm:P1_is_identified_by <d9de8131-a8a1-49ad-8c46-093c878ee4d5> .
+<2949d407-f1d5-4b05-a2b6-3427ee8aa1d4> a crm:E74_Group ;
+    crm:P1_is_identified_by <d9de8131-a8a1-49ad-8c46-093c878ee4d5> .
 
-<2a7b89a5-f5fa-4ad0-aaa2-b71bf6a59afb> crm:P1_is_identified_by <b79b1d1d-fffd-4665-8a54-00821b133a9c> .
+<2a7b89a5-f5fa-4ad0-aaa2-b71bf6a59afb> a crm:E74_Group ;
+    crm:P1_is_identified_by <b79b1d1d-fffd-4665-8a54-00821b133a9c> .
 
-<2a7c5d6c-77b2-4e59-b374-1f546b5ad3be> crm:P1_is_identified_by <639df60c-8fd6-462b-99d4-c53b8e856d33> .
+<2a7c5d6c-77b2-4e59-b374-1f546b5ad3be> a crm:E74_Group ;
+    crm:P1_is_identified_by <639df60c-8fd6-462b-99d4-c53b8e856d33> .
 
-<2aae6c3a-e0c8-48b8-a2cc-2533185539d6> crm:P1_is_identified_by <41ca2e5c-b09c-40f4-9f07-ab425521cba9> .
+<2aae6c3a-e0c8-48b8-a2cc-2533185539d6> a crm:E74_Group ;
+    crm:P1_is_identified_by <41ca2e5c-b09c-40f4-9f07-ab425521cba9> .
 
-<2b84d786-ad36-4a7c-b604-246d189fc0f4> crm:P1_is_identified_by <0b8c9423-57db-4821-a508-65fe2a9d5421> .
+<2b84d786-ad36-4a7c-b604-246d189fc0f4> a crm:E74_Group ;
+    crm:P1_is_identified_by <0b8c9423-57db-4821-a508-65fe2a9d5421> .
 
-<2cb6ee49-54a5-461b-af88-d4612807cc26> crm:P1_is_identified_by <2f5303e9-653b-4244-95f7-7e4c812fd284> .
+<2cb6ee49-54a5-461b-af88-d4612807cc26> a crm:E74_Group ;
+    crm:P1_is_identified_by <2f5303e9-653b-4244-95f7-7e4c812fd284> .
 
-<2cf76129-98aa-49ef-969a-72542497d16a> crm:P1_is_identified_by <643a9eea-470d-41a4-95ed-8574a8b071fb> .
+<2cf76129-98aa-49ef-969a-72542497d16a> a crm:E74_Group ;
+    crm:P1_is_identified_by <643a9eea-470d-41a4-95ed-8574a8b071fb> .
 
-<2d80170e-7940-4845-b905-90e74a12831b> crm:P1_is_identified_by <17f3e739-747d-40b1-accd-dec076661d33> .
+<2d80170e-7940-4845-b905-90e74a12831b> a crm:E74_Group ;
+    crm:P1_is_identified_by <17f3e739-747d-40b1-accd-dec076661d33> .
 
-<2e487ef3-173c-4c89-b779-51a1847fc78b> crm:P1_is_identified_by <6c0d108e-1170-4d51-bb3c-2f70e5fc240c> .
+<2e487ef3-173c-4c89-b779-51a1847fc78b> a crm:E74_Group ;
+    crm:P1_is_identified_by <6c0d108e-1170-4d51-bb3c-2f70e5fc240c> .
 
-<2e583cc2-730a-45fb-ba43-fd8075482f5a> crm:P1_is_identified_by <9872760f-6fc2-42b0-85c8-7578a8a48422> .
+<2e583cc2-730a-45fb-ba43-fd8075482f5a> a crm:E74_Group ;
+    crm:P1_is_identified_by <9872760f-6fc2-42b0-85c8-7578a8a48422> .
 
-<2eb84b9c-563e-4a27-bb28-1ad17b0e67e1> crm:P1_is_identified_by <a17319b5-1a74-428f-bda9-66658ddb9d36> .
+<2eb84b9c-563e-4a27-bb28-1ad17b0e67e1> a crm:E74_Group ;
+    crm:P1_is_identified_by <a17319b5-1a74-428f-bda9-66658ddb9d36> .
 
-<2ef1dbcf-baf3-4f9b-ba27-43759f5765b5> crm:P1_is_identified_by <821e72ed-4461-49a1-b10c-64d96c681594> .
+<2ef1dbcf-baf3-4f9b-ba27-43759f5765b5> a crm:E74_Group ;
+    crm:P1_is_identified_by <821e72ed-4461-49a1-b10c-64d96c681594> .
 
-<2f87dd00-edc0-4a56-aca1-b44331178b3f> crm:P1_is_identified_by <1ecce46c-962c-40fd-bf2d-5d115b169878> .
+<2f87dd00-edc0-4a56-aca1-b44331178b3f> a crm:E74_Group ;
+    crm:P1_is_identified_by <1ecce46c-962c-40fd-bf2d-5d115b169878> .
 
-<2f941ec1-44d4-4585-8898-0c5022e07a3a> crm:P1_is_identified_by <794b6a44-4a05-4418-81eb-5f4544c4cc43> .
+<2f941ec1-44d4-4585-8898-0c5022e07a3a> a crm:E74_Group ;
+    crm:P1_is_identified_by <794b6a44-4a05-4418-81eb-5f4544c4cc43> .
 
-<2f9f1bc1-a224-40e5-b19c-e275068bfdb6> crm:P1_is_identified_by <053397b0-69e9-41a9-929b-1cee457f08d9> .
+<2f9f1bc1-a224-40e5-b19c-e275068bfdb6> a crm:E74_Group ;
+    crm:P1_is_identified_by <053397b0-69e9-41a9-929b-1cee457f08d9> .
 
-<2fcfffbd-5ea4-4a64-beb3-126f133a1d28> crm:P1_is_identified_by <8edec4ac-5b4b-43c3-9cb8-077994c6d83f> .
+<2fcfffbd-5ea4-4a64-beb3-126f133a1d28> a crm:E74_Group ;
+    crm:P1_is_identified_by <8edec4ac-5b4b-43c3-9cb8-077994c6d83f> .
 
-<2ff11001-8667-4d58-8a52-27840a0d9aa7> crm:P1_is_identified_by <1066b064-293b-40e4-9f40-e024168893df> .
+<2ff11001-8667-4d58-8a52-27840a0d9aa7> a crm:E74_Group ;
+    crm:P1_is_identified_by <1066b064-293b-40e4-9f40-e024168893df> .
 
-<301708f6-b4b0-48bd-80be-783abdbfae56> crm:P107_has_current_or_former_member <7ab64d65-f019-444f-9ee4-b6314721a229>,
+<301708f6-b4b0-48bd-80be-783abdbfae56> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <7ab64d65-f019-444f-9ee4-b6314721a229>,
         <db26cf8e-8bbf-4a0c-a927-dfc677988a54>,
         <f9e07caf-6593-484d-a788-d59d4e6284e9> ;
     crm:P1_is_identified_by <0c9fe403-5bee-4dee-9342-4be28e66faa3> .
 
-<305ea86b-1835-45c1-81a5-549586aefdc7> crm:P1_is_identified_by <32bf12c8-ce17-4557-b766-caffe2d71a1b> .
+<305ea86b-1835-45c1-81a5-549586aefdc7> a crm:E74_Group ;
+    crm:P1_is_identified_by <32bf12c8-ce17-4557-b766-caffe2d71a1b> .
 
-<3062e900-40c3-4f42-9aa2-42759ea79f74> crm:P1_is_identified_by <cb22c996-2803-432b-ae19-39d0f2c32506> .
+<3062e900-40c3-4f42-9aa2-42759ea79f74> a crm:E74_Group ;
+    crm:P1_is_identified_by <cb22c996-2803-432b-ae19-39d0f2c32506> .
 
-<30859d94-70a9-4025-94bb-1a9912316645> crm:P1_is_identified_by <1f986119-b325-4a35-b347-0ec3c0f172d7> .
+<30859d94-70a9-4025-94bb-1a9912316645> a crm:E74_Group ;
+    crm:P1_is_identified_by <1f986119-b325-4a35-b347-0ec3c0f172d7> .
 
-<30ad1acf-9779-461f-a14d-cf2b484960d2> crm:P1_is_identified_by <b158eac1-ca07-4cc7-837d-ebcea0d7ae9f> .
+<30ad1acf-9779-461f-a14d-cf2b484960d2> a crm:E74_Group ;
+    crm:P1_is_identified_by <b158eac1-ca07-4cc7-837d-ebcea0d7ae9f> .
 
-<31ab0b9b-393c-4a59-a655-c772e78d3459> crm:P1_is_identified_by <35f035b4-50eb-4187-ac26-4fec0d5db7b0> .
+<31ab0b9b-393c-4a59-a655-c772e78d3459> a crm:E74_Group ;
+    crm:P1_is_identified_by <35f035b4-50eb-4187-ac26-4fec0d5db7b0> .
 
-<31f997f2-efb9-4104-ad3c-dc85a152fcc0> crm:P1_is_identified_by <c77bacb8-b739-434a-a5d2-88559f388f39> .
+<31f997f2-efb9-4104-ad3c-dc85a152fcc0> a crm:E74_Group ;
+    crm:P1_is_identified_by <c77bacb8-b739-434a-a5d2-88559f388f39> .
 
-<32112dbc-16ad-42e1-bb81-95496d5838b2> crm:P1_is_identified_by <85445f24-1580-458d-9fcd-c597044be6a0> .
+<32cb09bf-f524-4c05-876e-403ab51592c7> a crm:E74_Group ;
+    crm:P1_is_identified_by <0a89b9f8-d6e7-42e5-beaa-8b4f87b311d6> .
 
-<32cb09bf-f524-4c05-876e-403ab51592c7> crm:P1_is_identified_by <0a89b9f8-d6e7-42e5-beaa-8b4f87b311d6> .
+<338332ba-5ddb-401d-a0ef-bf3b92add108> a crm:E74_Group ;
+    crm:P1_is_identified_by <7318b203-9b03-4d12-b455-1597638664b1> .
 
-<338332ba-5ddb-401d-a0ef-bf3b92add108> crm:P1_is_identified_by <7318b203-9b03-4d12-b455-1597638664b1> .
+<343bc795-5de7-4cbc-ab8f-61342dff9a0d> a crm:E74_Group ;
+    crm:P1_is_identified_by <eb4517f2-c4aa-416c-986b-6918399cf5b3> .
 
-<343bc795-5de7-4cbc-ab8f-61342dff9a0d> crm:P1_is_identified_by <eb4517f2-c4aa-416c-986b-6918399cf5b3> .
-
-<349651ef-2bf6-4584-83f9-6c073bd75123> crm:P107_has_current_or_former_member <0d958e29-24bb-4331-920b-211375a67a6a>,
+<349651ef-2bf6-4584-83f9-6c073bd75123> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <0d958e29-24bb-4331-920b-211375a67a6a>,
         <4f50f2d7-3961-4f8d-bf29-7f123acf4c9e>,
         <8a33bc92-b31b-434d-a120-0fff8a0babc0> ;
     crm:P1_is_identified_by <776bbaec-133e-4507-8974-a33085ad2cd9> .
 
-<34dc3adf-204b-497b-85ec-4d016e0a3ca0> crm:P1_is_identified_by <9ac31baa-4833-4e8d-a856-172c4ab2fac3> .
+<34dc3adf-204b-497b-85ec-4d016e0a3ca0> a crm:E74_Group ;
+    crm:P1_is_identified_by <9ac31baa-4833-4e8d-a856-172c4ab2fac3> .
 
-<3511c051-3c5d-4696-8707-0fac8f2dcc61> crm:P1_is_identified_by <7e83bce1-e751-4108-b675-cd7153712df2> .
+<3511c051-3c5d-4696-8707-0fac8f2dcc61> a crm:E74_Group ;
+    crm:P1_is_identified_by <7e83bce1-e751-4108-b675-cd7153712df2> .
 
-<35342865-1319-472e-9661-18820e372eaf> crm:P1_is_identified_by <b7acf018-48ca-4de1-a393-f1ac1527ba4e> .
+<35342865-1319-472e-9661-18820e372eaf> a crm:E74_Group ;
+    crm:P1_is_identified_by <b7acf018-48ca-4de1-a393-f1ac1527ba4e> .
 
-<354d5b97-3ee3-46b9-8f1d-95f52e5fbec8> crm:P107_has_current_or_former_member <4f996de9-ad66-450b-8c81-b03bf9d28de2> ;
+<354d5b97-3ee3-46b9-8f1d-95f52e5fbec8> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <4f996de9-ad66-450b-8c81-b03bf9d28de2> ;
     crm:P1_is_identified_by <ce97b7c3-a08e-414c-9ddd-332ee34a4b2d> .
 
-<3658ba3a-cec2-4f48-a2ae-a23e32e7c08e> crm:P1_is_identified_by <cc1d2218-abf4-4399-b2de-73d0a37bf03b> .
+<3658ba3a-cec2-4f48-a2ae-a23e32e7c08e> a crm:E74_Group ;
+    crm:P1_is_identified_by <cc1d2218-abf4-4399-b2de-73d0a37bf03b> .
 
-<369cebef-7966-4b8a-bd48-460f7eee51df> crm:P107_has_current_or_former_member <04bb0569-00fb-48f1-af34-4dbbc9481713>,
+<369cebef-7966-4b8a-bd48-460f7eee51df> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <04bb0569-00fb-48f1-af34-4dbbc9481713>,
         <2b84d786-ad36-4a7c-b604-246d189fc0f4>,
         <39996432-dca7-49fc-9d4e-03ba2f7761c6>,
         <8c61d091-4699-45b6-a744-6cd4359ca7d4>,
@@ -3156,32 +3259,44 @@
         <d453e9ab-8b35-4769-895c-c74f4ef43aac> ;
     crm:P1_is_identified_by <e60aa8b5-bd8b-4b31-880c-9234a9b8ac6b> .
 
-<39996432-dca7-49fc-9d4e-03ba2f7761c6> crm:P1_is_identified_by <f2aea76f-aaf8-4c0a-8a04-1ce8dc9b08c7> .
+<39996432-dca7-49fc-9d4e-03ba2f7761c6> a crm:E74_Group ;
+    crm:P1_is_identified_by <f2aea76f-aaf8-4c0a-8a04-1ce8dc9b08c7> .
 
-<3ae175e5-8932-4207-8e5e-30674d5ab5ef> crm:P1_is_identified_by <ebc885ad-c338-4a63-bfe5-717a300a675e> .
+<3ae175e5-8932-4207-8e5e-30674d5ab5ef> a crm:E74_Group ;
+    crm:P1_is_identified_by <ebc885ad-c338-4a63-bfe5-717a300a675e> .
 
-<3b93b387-6eb0-485d-aa4a-0bc850b6690b> crm:P1_is_identified_by <56324772-94a3-49ec-8d20-689fc6e60c46> .
+<3b93b387-6eb0-485d-aa4a-0bc850b6690b> a crm:E74_Group ;
+    crm:P1_is_identified_by <56324772-94a3-49ec-8d20-689fc6e60c46> .
 
-<3cee3066-7d68-450c-8b7b-765068d1a896> crm:P107_has_current_or_former_member <7cbee653-06db-4a0a-8681-086606afff0c>,
+<3cee3066-7d68-450c-8b7b-765068d1a896> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <7cbee653-06db-4a0a-8681-086606afff0c>,
         <b2cc8890-432d-4ba9-a7aa-89bd2b3b49da>,
         <ee69d983-aa43-4e23-b773-2f4a066aade7> ;
     crm:P1_is_identified_by <81899b74-7596-47fe-90da-8ff51443fbe4> .
 
-<3d18a01a-7438-45c2-8b90-39ab0098210e> crm:P1_is_identified_by <40c60c3d-b0be-44d1-b027-a3c75597febd> .
+<3d18a01a-7438-45c2-8b90-39ab0098210e> a crm:E74_Group ;
+    crm:P1_is_identified_by <40c60c3d-b0be-44d1-b027-a3c75597febd> .
 
-<3d2194e1-d3e8-4312-9e59-89076682465e> crm:P1_is_identified_by <7a862b2e-1b66-4f0e-acc4-bac4b9214820> .
+<3d2194e1-d3e8-4312-9e59-89076682465e> a crm:E74_Group ;
+    crm:P1_is_identified_by <7a862b2e-1b66-4f0e-acc4-bac4b9214820> .
 
-<3d8ac52a-0547-40d2-ba2a-3135f5fd1333> crm:P1_is_identified_by <00ae2a53-8a31-4236-85f7-625d837b9ab0> .
+<3d8ac52a-0547-40d2-ba2a-3135f5fd1333> a crm:E74_Group ;
+    crm:P1_is_identified_by <00ae2a53-8a31-4236-85f7-625d837b9ab0> .
 
-<3dc7a292-9922-4799-b626-af1af43e73ce> crm:P1_is_identified_by <58a81e65-a91b-4269-841e-c606b5834044> .
+<3dc7a292-9922-4799-b626-af1af43e73ce> a crm:E74_Group ;
+    crm:P1_is_identified_by <58a81e65-a91b-4269-841e-c606b5834044> .
 
-<3e949222-e6ea-4880-8ca7-0e91e87815f1> crm:P1_is_identified_by <f361a9c9-01c1-4ae9-90a7-8c84fb7af232> .
+<3e949222-e6ea-4880-8ca7-0e91e87815f1> a crm:E74_Group ;
+    crm:P1_is_identified_by <f361a9c9-01c1-4ae9-90a7-8c84fb7af232> .
 
-<3f01bf5f-226d-4e67-95bd-d154d72fd699> crm:P1_is_identified_by <ec324a15-3cc8-40ca-a2fe-4136f4566d98> .
+<3f01bf5f-226d-4e67-95bd-d154d72fd699> a crm:E74_Group ;
+    crm:P1_is_identified_by <ec324a15-3cc8-40ca-a2fe-4136f4566d98> .
 
-<4043506f-6dc9-4124-bb6a-e7528bf4ce5f> crm:P1_is_identified_by <2854182f-74d2-43eb-b413-6a744b9f7bd9> .
+<4043506f-6dc9-4124-bb6a-e7528bf4ce5f> a crm:E74_Group ;
+    crm:P1_is_identified_by <2854182f-74d2-43eb-b413-6a744b9f7bd9> .
 
-<404e6de0-b345-42a0-8c01-ac26f206af6a> crm:P107_has_current_or_former_member <22701aac-12db-46e9-a378-e9c84618b301>,
+<404e6de0-b345-42a0-8c01-ac26f206af6a> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <22701aac-12db-46e9-a378-e9c84618b301>,
         <35342865-1319-472e-9661-18820e372eaf>,
         <5d289a05-a38c-41bf-b276-03b73e6a7db1>,
         <632c49df-a9b3-4ebc-97b6-d142e8e173ef>,
@@ -3196,42 +3311,60 @@
         <f61ee1db-5894-48c0-aed5-32307b12f202> ;
     crm:P1_is_identified_by <5b620f0f-3a4b-4f42-a544-cbc631dc0b49> .
 
-<40abd76b-feed-48c7-98e0-9958f090141d> crm:P1_is_identified_by <e1226d7b-03f4-47fe-b88f-3bdb61cd4c24> .
+<40abd76b-feed-48c7-98e0-9958f090141d> a crm:E74_Group ;
+    crm:P1_is_identified_by <e1226d7b-03f4-47fe-b88f-3bdb61cd4c24> .
 
-<40b4b26d-a132-45ed-878c-34707b62194d> crm:P107_has_current_or_former_member <6c35c477-37af-48b6-be4e-46452c2b6dea> ;
+<40b4b26d-a132-45ed-878c-34707b62194d> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <6c35c477-37af-48b6-be4e-46452c2b6dea> ;
     crm:P1_is_identified_by <962179b2-736c-4c08-9152-019aa61ad6b9> .
 
-<40c0bf1f-f1de-4dbe-b92c-92e46ae25715> crm:P1_is_identified_by <fdc4f3a0-4a86-4d7d-a620-531c5b9de5d7> .
+<40c0bf1f-f1de-4dbe-b92c-92e46ae25715> a crm:E74_Group ;
+    crm:P1_is_identified_by <fdc4f3a0-4a86-4d7d-a620-531c5b9de5d7> .
 
-<42080931-d6be-4bca-9eae-3d22d67f88ba> crm:P1_is_identified_by <b467feeb-5e3f-4628-8bd4-954c2d2fe4db> .
+<42080931-d6be-4bca-9eae-3d22d67f88ba> a crm:E74_Group ;
+    crm:P1_is_identified_by <b467feeb-5e3f-4628-8bd4-954c2d2fe4db> .
 
-<42a73683-60f4-4cb4-8dc3-864933200a2c> crm:P1_is_identified_by <1c81cc0b-7d89-494d-b3e6-f1334a01b627> .
+<42a73683-60f4-4cb4-8dc3-864933200a2c> a crm:E74_Group ;
+    crm:P1_is_identified_by <1c81cc0b-7d89-494d-b3e6-f1334a01b627> .
 
-<42bcc85f-75bd-40ba-981d-fec1f743c10f> crm:P1_is_identified_by <61cbc704-fee8-464e-8c12-9bd0456976b1> .
+<42bcc85f-75bd-40ba-981d-fec1f743c10f> a crm:E74_Group ;
+    crm:P1_is_identified_by <61cbc704-fee8-464e-8c12-9bd0456976b1> .
 
-<42c5a9b6-d711-4479-a4c4-1b72fe6af9f8> crm:P1_is_identified_by <a5e416a5-178e-44ff-9664-f2bb7c53197f> .
+<42c5a9b6-d711-4479-a4c4-1b72fe6af9f8> a crm:E74_Group ;
+    crm:P1_is_identified_by <a5e416a5-178e-44ff-9664-f2bb7c53197f> .
 
-<42d5b2a4-0a05-4529-b796-8cd40b27f969> crm:P1_is_identified_by <5b08d631-0e2d-4bca-bf24-639b7d82c54f> .
+<42d5b2a4-0a05-4529-b796-8cd40b27f969> a crm:E74_Group ;
+    crm:P1_is_identified_by <5b08d631-0e2d-4bca-bf24-639b7d82c54f> .
 
-<42f629c8-86c9-4300-94ba-fbaf799183b3> crm:P1_is_identified_by <040336af-27b7-44bf-9449-1bf12c40ffee> .
+<42f629c8-86c9-4300-94ba-fbaf799183b3> a crm:E74_Group ;
+    crm:P1_is_identified_by <040336af-27b7-44bf-9449-1bf12c40ffee> .
 
-<4373bc7c-1d01-4f0c-bb9b-6261f908efa5> crm:P1_is_identified_by <36f71a0b-59ac-4257-bc82-a84376e1b254> .
+<4373bc7c-1d01-4f0c-bb9b-6261f908efa5> a crm:E74_Group ;
+    crm:P1_is_identified_by <36f71a0b-59ac-4257-bc82-a84376e1b254> .
 
-<44a414d4-9146-4141-9309-29910a312146> crm:P1_is_identified_by <e4e26126-5532-4705-aab5-369e8082ecc4> .
+<44a414d4-9146-4141-9309-29910a312146> a crm:E74_Group ;
+    crm:P1_is_identified_by <e4e26126-5532-4705-aab5-369e8082ecc4> .
 
-<44e01535-9873-4eaf-97d7-56475297cae2> crm:P1_is_identified_by <20a6e56f-a829-4060-964e-f22f79b90726> .
+<44e01535-9873-4eaf-97d7-56475297cae2> a crm:E74_Group ;
+    crm:P1_is_identified_by <20a6e56f-a829-4060-964e-f22f79b90726> .
 
-<45515072-9d33-4657-af0f-cc86cc84403a> crm:P1_is_identified_by <74c50884-4021-4e86-987a-f5dc51a26810> .
+<45515072-9d33-4657-af0f-cc86cc84403a> a crm:E74_Group ;
+    crm:P1_is_identified_by <74c50884-4021-4e86-987a-f5dc51a26810> .
 
-<4607a5e1-bfe9-46a0-8e53-6bad4de738ce> crm:P1_is_identified_by <9daba66d-2aa7-4cc6-ac1b-6588703fee57> .
+<4607a5e1-bfe9-46a0-8e53-6bad4de738ce> a crm:E74_Group ;
+    crm:P1_is_identified_by <9daba66d-2aa7-4cc6-ac1b-6588703fee57> .
 
-<4714bf41-4118-460f-b041-95f1aac0be1f> crm:P1_is_identified_by <ecc2e8fe-65ed-42e5-a5a9-02026deb7d02> .
+<4714bf41-4118-460f-b041-95f1aac0be1f> a crm:E74_Group ;
+    crm:P1_is_identified_by <ecc2e8fe-65ed-42e5-a5a9-02026deb7d02> .
 
-<478370cf-bf3d-4c5d-aa10-f96794303adc> crm:P1_is_identified_by <db248a6e-0d2a-4ea9-a81a-0143f8a72a68> .
+<478370cf-bf3d-4c5d-aa10-f96794303adc> a crm:E74_Group ;
+    crm:P1_is_identified_by <db248a6e-0d2a-4ea9-a81a-0143f8a72a68> .
 
-<481ba2ed-db17-47d5-8004-8f4fedb5b311> crm:P1_is_identified_by <0283c80e-0cad-4553-815d-96d4659a3558> .
+<481ba2ed-db17-47d5-8004-8f4fedb5b311> a crm:E74_Group ;
+    crm:P1_is_identified_by <0283c80e-0cad-4553-815d-96d4659a3558> .
 
-<4826d0cb-2f36-4b59-80be-d8d45d5373cf> crm:P107_has_current_or_former_member <17d0d240-a4f1-47d4-b65b-b1e9df3a4b95>,
+<4826d0cb-2f36-4b59-80be-d8d45d5373cf> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <17d0d240-a4f1-47d4-b65b-b1e9df3a4b95>,
         <30ad1acf-9779-461f-a14d-cf2b484960d2>,
         <3ae175e5-8932-4207-8e5e-30674d5ab5ef>,
         <42a73683-60f4-4cb4-8dc3-864933200a2c>,
@@ -3249,13 +3382,17 @@
         <ea1ed946-8ab9-419d-84b1-b8ebdb4abfc0> ;
     crm:P1_is_identified_by <f3135939-e70d-4d28-9496-b729967e37dc> .
 
-<48fc6737-4179-4842-8c37-9d4e11e0df72> crm:P1_is_identified_by <df25245e-db17-4a2b-9f53-6f2ea73cf402> .
+<48fc6737-4179-4842-8c37-9d4e11e0df72> a crm:E74_Group ;
+    crm:P1_is_identified_by <df25245e-db17-4a2b-9f53-6f2ea73cf402> .
 
-<4914b63a-cbca-4981-9edd-9f7c572df12f> crm:P1_is_identified_by <f0d649ba-721b-45bd-ad4b-1055218bdc81> .
+<4914b63a-cbca-4981-9edd-9f7c572df12f> a crm:E74_Group ;
+    crm:P1_is_identified_by <f0d649ba-721b-45bd-ad4b-1055218bdc81> .
 
-<494531cd-eb11-4794-b3ba-59ed04457edf> crm:P1_is_identified_by <108c0b21-88ad-49c6-8c6f-a77da24814b7> .
+<494531cd-eb11-4794-b3ba-59ed04457edf> a crm:E74_Group ;
+    crm:P1_is_identified_by <108c0b21-88ad-49c6-8c6f-a77da24814b7> .
 
-<499c4cb9-71da-471a-93ed-e549158ab0fb> crm:P107_has_current_or_former_member <078eb5e3-da46-48b5-8a95-ca325ef780e4>,
+<499c4cb9-71da-471a-93ed-e549158ab0fb> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <078eb5e3-da46-48b5-8a95-ca325ef780e4>,
         <09c490d5-75ec-4376-a999-fdbee95e80ac>,
         <12a08ca0-5b6b-4a61-801e-3aea23689ece>,
         <2230e8fd-13da-46d9-97e3-cee0ab5a2104>,
@@ -3293,51 +3430,73 @@
         <f08b67cd-9990-4ef4-bc22-7012bd49df2b> ;
     crm:P1_is_identified_by <ee7824e6-a6a9-412b-adeb-10ad334990ad> .
 
-<49b508bd-9547-4e37-9795-a17aeb8efc36> crm:P1_is_identified_by <d72ae9b7-eb02-45cf-afc2-6d724fd760ba> .
+<49b508bd-9547-4e37-9795-a17aeb8efc36> a crm:E74_Group ;
+    crm:P1_is_identified_by <d72ae9b7-eb02-45cf-afc2-6d724fd760ba> .
 
-<49e878e5-24c8-426d-9e74-92fc9633c893> crm:P1_is_identified_by <d32631d7-97ef-44ee-ac1f-fca0bf7428ae> .
+<49e878e5-24c8-426d-9e74-92fc9633c893> a crm:E74_Group ;
+    crm:P1_is_identified_by <d32631d7-97ef-44ee-ac1f-fca0bf7428ae> .
 
-<4b035b59-7abc-4f9c-b35f-58dec7da855f> crm:P1_is_identified_by <7e60f925-dac6-4e32-9c97-21cbd751671b> .
+<4b035b59-7abc-4f9c-b35f-58dec7da855f> a crm:E74_Group ;
+    crm:P1_is_identified_by <7e60f925-dac6-4e32-9c97-21cbd751671b> .
 
-<4c2c20f1-e0cd-49c9-83bb-141a582b6a16> crm:P1_is_identified_by <2bb13299-eb6d-4fb5-a613-6ab1c547cd10> .
+<4c2c20f1-e0cd-49c9-83bb-141a582b6a16> a crm:E74_Group ;
+    crm:P1_is_identified_by <2bb13299-eb6d-4fb5-a613-6ab1c547cd10> .
 
-<4cc76e19-e365-4dee-943c-1095402a5b64> crm:P1_is_identified_by <76fbd0e5-eaaa-453a-b348-5e24f3b525b0> .
+<4cc76e19-e365-4dee-943c-1095402a5b64> a crm:E74_Group ;
+    crm:P1_is_identified_by <76fbd0e5-eaaa-453a-b348-5e24f3b525b0> .
 
-<4ce0944b-76b0-4937-815d-c6836216b1f2> crm:P1_is_identified_by <a91de517-b101-42ea-8037-dce41a8e71ff> .
+<4ce0944b-76b0-4937-815d-c6836216b1f2> a crm:E74_Group ;
+    crm:P1_is_identified_by <a91de517-b101-42ea-8037-dce41a8e71ff> .
 
-<4da6e45a-d05e-435a-b01a-f47d434f2840> crm:P1_is_identified_by <dfb90ce8-b250-4ad9-9054-f64f38c8d923> .
+<4da6e45a-d05e-435a-b01a-f47d434f2840> a crm:E74_Group ;
+    crm:P1_is_identified_by <dfb90ce8-b250-4ad9-9054-f64f38c8d923> .
 
-<4dd55250-5794-433c-88f0-0e03cf361953> crm:P1_is_identified_by <5ef9cb93-6bef-4233-b143-98250ce75f3a> .
+<4dd55250-5794-433c-88f0-0e03cf361953> a crm:E74_Group ;
+    crm:P1_is_identified_by <5ef9cb93-6bef-4233-b143-98250ce75f3a> .
 
-<4e5b384b-37da-47c6-a599-be9845ca3eeb> crm:P1_is_identified_by <f3aaded4-1e1f-43a6-9cb3-42c59ffb710c> .
+<4e5b384b-37da-47c6-a599-be9845ca3eeb> a crm:E74_Group ;
+    crm:P1_is_identified_by <f3aaded4-1e1f-43a6-9cb3-42c59ffb710c> .
 
-<4ecdfc3f-0280-4f5b-b81b-0afc9119c5fc> crm:P1_is_identified_by <48bfb520-78b5-4541-be68-a886ad2d95d5> .
+<4ecdfc3f-0280-4f5b-b81b-0afc9119c5fc> a crm:E74_Group ;
+    crm:P1_is_identified_by <48bfb520-78b5-4541-be68-a886ad2d95d5> .
 
-<4f254331-09a1-40d3-8bc1-09a48e57fe77> crm:P1_is_identified_by <8274a930-ff02-48db-8abb-46ad7755776f> .
+<4f254331-09a1-40d3-8bc1-09a48e57fe77> a crm:E74_Group ;
+    crm:P1_is_identified_by <8274a930-ff02-48db-8abb-46ad7755776f> .
 
-<4f50f2d7-3961-4f8d-bf29-7f123acf4c9e> crm:P107_has_current_or_former_member <025ef228-baf3-4a3e-9d26-c0b01481eee5>,
+<4f50f2d7-3961-4f8d-bf29-7f123acf4c9e> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <025ef228-baf3-4a3e-9d26-c0b01481eee5>,
         <2865faa8-eb2f-488a-9368-681d52e994c4>,
+        <50513456-66c5-4200-8e41-69f5506e7f83>,
         <78ecccc0-1261-43a3-b859-ccac48dd04f7>,
         <8c35c65d-d6f2-4c4d-bf34-70cced959eb8>,
         <9330c54f-f539-4564-b97a-11139a72d27f>,
         <b1809b83-73e4-4779-bbbf-7845330d1dc9>,
-        <c09aad4c-904a-4f39-a588-425b7a00158e>,
         <fe58c1af-5df3-4c91-bd27-04203914c8fa> ;
     crm:P1_is_identified_by <e41b8aa2-44ef-416a-b2ee-016be778a7a0> .
 
-<4f996de9-ad66-450b-8c81-b03bf9d28de2> crm:P1_is_identified_by <9b785332-be6c-4603-a3c8-dadf4a7fbc19> .
+<4f996de9-ad66-450b-8c81-b03bf9d28de2> a crm:E74_Group ;
+    crm:P1_is_identified_by <9b785332-be6c-4603-a3c8-dadf4a7fbc19> .
 
-<4fd27f5b-981a-4a15-b448-68bd2eb69b27> crm:P1_is_identified_by <8eeb8112-2a74-41f7-92d4-8e688f186c9e> .
+<4fd27f5b-981a-4a15-b448-68bd2eb69b27> a crm:E74_Group ;
+    crm:P1_is_identified_by <8eeb8112-2a74-41f7-92d4-8e688f186c9e> .
 
-<50fa0787-3d3f-4b38-90ce-7add74176caa> crm:P1_is_identified_by <b4120a0d-7b44-424c-9746-9e273bb2c0c0> .
+<50513456-66c5-4200-8e41-69f5506e7f83> a crm:E74_Group ;
+    crm:P1_is_identified_by <cf13a485-46cc-41b2-9d90-00a520db5fee> .
 
-<51d71d22-0901-4bdd-873d-42d5d582e67f> crm:P1_is_identified_by <2ecf7fc6-bfce-4d60-9f26-38be77115a40> .
+<50fa0787-3d3f-4b38-90ce-7add74176caa> a crm:E74_Group ;
+    crm:P1_is_identified_by <b4120a0d-7b44-424c-9746-9e273bb2c0c0> .
 
-<52c3455f-488a-490f-964c-8c9beacaa2fa> crm:P1_is_identified_by <ed387ee6-6fae-46d7-9365-0819c55dffd4> .
+<51d71d22-0901-4bdd-873d-42d5d582e67f> a crm:E74_Group ;
+    crm:P1_is_identified_by <2ecf7fc6-bfce-4d60-9f26-38be77115a40> .
 
-<536d3e66-29ae-4afa-9dd9-a45006b8fb8f> crm:P1_is_identified_by <72383033-4b33-4dd2-bda6-3f803d693c33> .
+<52c3455f-488a-490f-964c-8c9beacaa2fa> a crm:E74_Group ;
+    crm:P1_is_identified_by <ed387ee6-6fae-46d7-9365-0819c55dffd4> .
 
-<53837d5e-7dd1-4112-acf2-fda0be55fe39> crm:P107_has_current_or_former_member <03a7d88f-7550-4e65-a7b2-ecedee68e323>,
+<536d3e66-29ae-4afa-9dd9-a45006b8fb8f> a crm:E74_Group ;
+    crm:P1_is_identified_by <72383033-4b33-4dd2-bda6-3f803d693c33> .
+
+<53837d5e-7dd1-4112-acf2-fda0be55fe39> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <03a7d88f-7550-4e65-a7b2-ecedee68e323>,
         <1770541e-5d83-4e35-addb-86e02e371b40>,
         <4826d0cb-2f36-4b59-80be-d8d45d5373cf>,
         <499c4cb9-71da-471a-93ed-e549158ab0fb>,
@@ -3346,66 +3505,92 @@
         <a1cc5c5b-c847-4cec-8d36-3c2f91ceb1f0> ;
     crm:P1_is_identified_by <11c636a7-4d5f-4e50-a87d-25f3c4fba376> .
 
-<542118f6-8c22-4734-9893-b4bf240cba7b> crm:P1_is_identified_by <52ca0b1e-b52d-4a5b-87df-6249134611dc> .
+<542118f6-8c22-4734-9893-b4bf240cba7b> a crm:E74_Group ;
+    crm:P1_is_identified_by <52ca0b1e-b52d-4a5b-87df-6249134611dc> .
 
-<54691d54-ebab-487b-826c-74cdd29b41e2> crm:P1_is_identified_by <be08f976-c378-4e1e-bd16-bf1f4ad282b5> .
+<54691d54-ebab-487b-826c-74cdd29b41e2> a crm:E74_Group ;
+    crm:P1_is_identified_by <be08f976-c378-4e1e-bd16-bf1f4ad282b5> .
 
-<54a3cbd3-4369-46c7-88d7-fd049394c95c> crm:P1_is_identified_by <94732daf-b6b2-4a0d-81bb-58dcb1bd733d> .
+<54a3cbd3-4369-46c7-88d7-fd049394c95c> a crm:E74_Group ;
+    crm:P1_is_identified_by <94732daf-b6b2-4a0d-81bb-58dcb1bd733d> .
 
-<54c7b4bd-a513-4f11-9651-d569259fc364> crm:P1_is_identified_by <91cd6a64-77c6-43f3-935d-302d4d2a5379> .
+<54c7b4bd-a513-4f11-9651-d569259fc364> a crm:E74_Group ;
+    crm:P1_is_identified_by <91cd6a64-77c6-43f3-935d-302d4d2a5379> .
 
-<57970bf8-96c6-425e-9a95-f2d26c96b3e7> crm:P1_is_identified_by <5ffdd309-b87f-4012-a4b6-0954d322b65a> .
+<57970bf8-96c6-425e-9a95-f2d26c96b3e7> a crm:E74_Group ;
+    crm:P1_is_identified_by <5ffdd309-b87f-4012-a4b6-0954d322b65a> .
 
-<57e4aa7e-886d-43d8-9b35-1a5e899e631d> crm:P1_is_identified_by <22bf2d84-96cb-4fca-a1d1-e908b9b3907e> .
+<57e4aa7e-886d-43d8-9b35-1a5e899e631d> a crm:E74_Group ;
+    crm:P1_is_identified_by <22bf2d84-96cb-4fca-a1d1-e908b9b3907e> .
 
-<58d879d9-40ae-4a99-b07a-83f47788d2f2> crm:P1_is_identified_by <aecd8107-2c23-4130-a7e0-3084366d29a3> .
+<58d879d9-40ae-4a99-b07a-83f47788d2f2> a crm:E74_Group ;
+    crm:P1_is_identified_by <aecd8107-2c23-4130-a7e0-3084366d29a3> .
 
-<5970d5c3-4f48-4d1b-aebf-84b64239b648> crm:P107_has_current_or_former_member <1b7e8349-a40a-4825-b2ce-91d32db77c7a>,
+<5970d5c3-4f48-4d1b-aebf-84b64239b648> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <1b7e8349-a40a-4825-b2ce-91d32db77c7a>,
         <6c17361e-e385-47a5-8f62-69f14e22f37c>,
         <d4a4ee3c-cc60-4ec0-b825-f9543d66798c> ;
     crm:P1_is_identified_by <6a4e70b2-b22b-4478-9739-b09344efeaec> .
 
-<597bee35-4b0a-4a55-b1b8-41671d5ecd1c> crm:P1_is_identified_by <b7246eab-4197-4fca-853a-c20f22a274dc> .
+<59e40154-68f8-4ef3-9c44-8ffa8a23b543> a crm:E74_Group ;
+    crm:P1_is_identified_by <beca4360-dacb-45f9-806f-b9a897e88891> .
 
-<59e40154-68f8-4ef3-9c44-8ffa8a23b543> crm:P1_is_identified_by <beca4360-dacb-45f9-806f-b9a897e88891> .
+<5a1c0b74-3a5d-4138-9339-5baac860996b> a crm:E74_Group ;
+    crm:P1_is_identified_by <a8ae1326-463b-4bad-b73a-20110ca2663d> .
 
-<5a1c0b74-3a5d-4138-9339-5baac860996b> crm:P1_is_identified_by <a8ae1326-463b-4bad-b73a-20110ca2663d> .
+<5a423841-64cf-4e98-9e3f-5c28d18a91f6> a crm:E74_Group ;
+    crm:P1_is_identified_by <f59200f3-6b36-4042-9873-55cc9bb8c189> .
 
-<5a423841-64cf-4e98-9e3f-5c28d18a91f6> crm:P1_is_identified_by <f59200f3-6b36-4042-9873-55cc9bb8c189> .
+<5a517e4a-1527-4dfc-b38d-1bd92550787a> a crm:E74_Group ;
+    crm:P1_is_identified_by <922e86e1-fe07-45a6-b448-7ae388219fcb> .
 
-<5a517e4a-1527-4dfc-b38d-1bd92550787a> crm:P1_is_identified_by <922e86e1-fe07-45a6-b448-7ae388219fcb> .
+<5b1b9dc0-53f5-49d9-a4e2-174dd0e13355> a crm:E74_Group ;
+    crm:P1_is_identified_by <8316d61a-8401-48e4-bc4f-0ba11562c6c2> .
 
-<5b1b9dc0-53f5-49d9-a4e2-174dd0e13355> crm:P1_is_identified_by <8316d61a-8401-48e4-bc4f-0ba11562c6c2> .
+<5bd0715c-51c1-4bec-b41b-428d5d40eca3> a crm:E74_Group ;
+    crm:P1_is_identified_by <db32d24d-d4e7-4acc-b0f3-21576309fcfb> .
 
-<5bd0715c-51c1-4bec-b41b-428d5d40eca3> crm:P1_is_identified_by <db32d24d-d4e7-4acc-b0f3-21576309fcfb> .
+<5c1868ef-6bb7-44ef-9885-054127db4277> a crm:E74_Group ;
+    crm:P1_is_identified_by <89e7f8a2-0d0b-4fc5-8731-bacc19c4b5f9> .
 
-<5c1868ef-6bb7-44ef-9885-054127db4277> crm:P1_is_identified_by <89e7f8a2-0d0b-4fc5-8731-bacc19c4b5f9> .
+<5c550bfd-fb7c-4142-86d0-b983c7fcd678> a crm:E74_Group ;
+    crm:P1_is_identified_by <bf265dc1-215e-449b-93de-7d5e56607386> .
 
-<5c550bfd-fb7c-4142-86d0-b983c7fcd678> crm:P1_is_identified_by <bf265dc1-215e-449b-93de-7d5e56607386> .
+<5d289a05-a38c-41bf-b276-03b73e6a7db1> a crm:E74_Group ;
+    crm:P1_is_identified_by <e46317fa-0678-4172-81be-5c47fa55d3bc> .
 
-<5d289a05-a38c-41bf-b276-03b73e6a7db1> crm:P1_is_identified_by <e46317fa-0678-4172-81be-5c47fa55d3bc> .
+<5d67733c-7fcc-4511-b059-1aa479e05bf7> a crm:E74_Group ;
+    crm:P1_is_identified_by <4d245e20-5cb3-4e1b-86f9-2f57d3a22064> .
 
-<5d67733c-7fcc-4511-b059-1aa479e05bf7> crm:P1_is_identified_by <4d245e20-5cb3-4e1b-86f9-2f57d3a22064> .
+<5d721caf-2564-4d4a-9175-7f0ab779973f> a crm:E74_Group ;
+    crm:P1_is_identified_by <c48c3cd7-0810-4c45-b8b7-efd9b358e202> .
 
-<5d721caf-2564-4d4a-9175-7f0ab779973f> crm:P1_is_identified_by <c48c3cd7-0810-4c45-b8b7-efd9b358e202> .
+<5dca229a-d9b5-40b1-b22e-3db41f3ba8fb> a crm:E74_Group ;
+    crm:P1_is_identified_by <b7754101-9fc5-43c8-9db9-f4be11a702d8> .
 
-<5dca229a-d9b5-40b1-b22e-3db41f3ba8fb> crm:P1_is_identified_by <b7754101-9fc5-43c8-9db9-f4be11a702d8> .
+<5dd85db4-e3a7-4d90-9fee-7064e193a169> a crm:E74_Group ;
+    crm:P1_is_identified_by <ad9b9abd-8e14-4796-8e9e-b4d933f09988> .
 
-<5dd85db4-e3a7-4d90-9fee-7064e193a169> crm:P1_is_identified_by <ad9b9abd-8e14-4796-8e9e-b4d933f09988> .
+<5de031f4-8f4d-4f86-b5c5-d25fab707837> a crm:E74_Group ;
+    crm:P1_is_identified_by <a7c2c478-7761-4c4a-907a-cbac26c92ac8> .
 
-<5de031f4-8f4d-4f86-b5c5-d25fab707837> crm:P1_is_identified_by <a7c2c478-7761-4c4a-907a-cbac26c92ac8> .
+<5ee19c44-c76d-4627-8203-30642e5ba98b> a crm:E74_Group ;
+    crm:P1_is_identified_by <d7f6858c-4f23-4938-ba1e-5bb3fdc5f4be> .
 
-<5ee19c44-c76d-4627-8203-30642e5ba98b> crm:P1_is_identified_by <d7f6858c-4f23-4938-ba1e-5bb3fdc5f4be> .
+<5f470a34-26fc-4278-a008-1df449f9ab24> a crm:E74_Group ;
+    crm:P1_is_identified_by <fa791971-97e3-491a-b579-262f6b404d1a> .
 
-<5f470a34-26fc-4278-a008-1df449f9ab24> crm:P1_is_identified_by <fa791971-97e3-491a-b579-262f6b404d1a> .
+<5f677a36-921e-47a1-9805-f67663291212> a crm:E74_Group ;
+    crm:P1_is_identified_by <f7b1104f-95a5-4d3d-ba0f-0fdd7173b309> .
 
-<5f677a36-921e-47a1-9805-f67663291212> crm:P1_is_identified_by <f7b1104f-95a5-4d3d-ba0f-0fdd7173b309> .
+<5f8dd2b6-df76-4b4d-9b65-547273ea7235> a crm:E74_Group ;
+    crm:P1_is_identified_by <86b02578-7ccf-4d9a-be99-849d3b201859> .
 
-<5f8dd2b6-df76-4b4d-9b65-547273ea7235> crm:P1_is_identified_by <86b02578-7ccf-4d9a-be99-849d3b201859> .
+<6040b5f8-9366-43f0-821a-ab1c16566445> a crm:E74_Group ;
+    crm:P1_is_identified_by <e93b1ec4-6dee-47c4-ace0-cdd6acb5975c> .
 
-<6040b5f8-9366-43f0-821a-ab1c16566445> crm:P1_is_identified_by <e93b1ec4-6dee-47c4-ace0-cdd6acb5975c> .
-
-<60e6e907-8289-4078-8ab6-a95d5c182624> crm:P107_has_current_or_former_member <03a0c3bb-ac3f-477f-8965-83791fd3912d>,
+<60e6e907-8289-4078-8ab6-a95d5c182624> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <03a0c3bb-ac3f-477f-8965-83791fd3912d>,
         <04c33516-2ded-47c2-9f19-071c2257d33c>,
         <071e9ccc-7d3d-4f10-8569-73c4be80cd99>,
         <25f0267c-2ad6-45e1-b190-5d46365f25d8>,
@@ -3432,34 +3617,48 @@
         <e7b3b6cb-7e34-46ab-8998-6cea09470d77> ;
     crm:P1_is_identified_by <3450f33c-49df-4f05-9375-59d4255b794b> .
 
-<610abfd4-ef1c-49ea-ac03-2e9cfe0ea7ef> crm:P1_is_identified_by <c5630cd1-7084-43ba-b1b7-fa20fe79c0c0> .
+<610abfd4-ef1c-49ea-ac03-2e9cfe0ea7ef> a crm:E74_Group ;
+    crm:P1_is_identified_by <c5630cd1-7084-43ba-b1b7-fa20fe79c0c0> .
 
-<6138e2cb-110b-4a0f-91a3-a888c91aaff2> crm:P1_is_identified_by <3dbba147-3ff6-4332-82e3-b71a9d1bbc33> .
+<6138e2cb-110b-4a0f-91a3-a888c91aaff2> a crm:E74_Group ;
+    crm:P1_is_identified_by <3dbba147-3ff6-4332-82e3-b71a9d1bbc33> .
 
-<61484f18-6041-4e32-bd00-75b0447538f1> crm:P1_is_identified_by <8ab8b568-6206-4238-bf48-c0fd295b8309> .
+<61484f18-6041-4e32-bd00-75b0447538f1> a crm:E74_Group ;
+    crm:P1_is_identified_by <8ab8b568-6206-4238-bf48-c0fd295b8309> .
 
-<616f70db-aef2-477d-8f16-a81b4a60c5d8> crm:P1_is_identified_by <3750a251-8e93-4aa8-8b65-901487e66f17> .
+<616f70db-aef2-477d-8f16-a81b4a60c5d8> a crm:E74_Group ;
+    crm:P1_is_identified_by <3750a251-8e93-4aa8-8b65-901487e66f17> .
 
-<61e0d6cc-f6f4-4c86-af41-71360830357f> crm:P1_is_identified_by <68e91e5c-5d11-4aa7-a42a-959767a8575d> .
+<61e0d6cc-f6f4-4c86-af41-71360830357f> a crm:E74_Group ;
+    crm:P1_is_identified_by <68e91e5c-5d11-4aa7-a42a-959767a8575d> .
 
-<62b8167f-8977-477c-8137-43aaf44ce2f1> crm:P1_is_identified_by <398e6d4f-bd1f-454c-81e2-f3b30bf10cc6> .
+<62b8167f-8977-477c-8137-43aaf44ce2f1> a crm:E74_Group ;
+    crm:P1_is_identified_by <398e6d4f-bd1f-454c-81e2-f3b30bf10cc6> .
 
-<62b8c2a3-b939-4130-bf56-31957b4eaa69> crm:P1_is_identified_by <4de72012-121a-4f88-9c9b-d792e8462a28> .
+<62b8c2a3-b939-4130-bf56-31957b4eaa69> a crm:E74_Group ;
+    crm:P1_is_identified_by <4de72012-121a-4f88-9c9b-d792e8462a28> .
 
-<62f74026-f74c-4147-9ddb-9088ba54dcdd> crm:P1_is_identified_by <b9317179-2bf6-4e8b-b1ac-7d3a7662f40b> .
+<62f74026-f74c-4147-9ddb-9088ba54dcdd> a crm:E74_Group ;
+    crm:P1_is_identified_by <b9317179-2bf6-4e8b-b1ac-7d3a7662f40b> .
 
-<632c49df-a9b3-4ebc-97b6-d142e8e173ef> crm:P1_is_identified_by <bf8558af-fe71-4690-bbda-f9e202c47923> .
+<632c49df-a9b3-4ebc-97b6-d142e8e173ef> a crm:E74_Group ;
+    crm:P1_is_identified_by <bf8558af-fe71-4690-bbda-f9e202c47923> .
 
-<63660440-8f08-4e06-af48-23f2a6277232> crm:P107_has_current_or_former_member <354d5b97-3ee3-46b9-8f1d-95f52e5fbec8> ;
+<63660440-8f08-4e06-af48-23f2a6277232> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <354d5b97-3ee3-46b9-8f1d-95f52e5fbec8> ;
     crm:P1_is_identified_by <81084ea4-ca11-44b0-9ed9-df750f532700> .
 
-<652f9f09-fe1c-40ee-ac5a-a7f099d6d210> crm:P1_is_identified_by <c8a34f7e-b41e-4eb9-9e23-b3e0a8b7b287> .
+<652f9f09-fe1c-40ee-ac5a-a7f099d6d210> a crm:E74_Group ;
+    crm:P1_is_identified_by <c8a34f7e-b41e-4eb9-9e23-b3e0a8b7b287> .
 
-<67e24f7a-5a7c-49ec-806a-1ffc6bfe87a0> crm:P1_is_identified_by <52b04870-da71-4ad8-b250-f6e158f9b9cb> .
+<67e24f7a-5a7c-49ec-806a-1ffc6bfe87a0> a crm:E74_Group ;
+    crm:P1_is_identified_by <52b04870-da71-4ad8-b250-f6e158f9b9cb> .
 
-<68486e41-551a-4d61-b3ae-681bdf945a6c> crm:P1_is_identified_by <9cbf5565-365b-47e2-a5bd-d8bf7732fc1f> .
+<68486e41-551a-4d61-b3ae-681bdf945a6c> a crm:E74_Group ;
+    crm:P1_is_identified_by <9cbf5565-365b-47e2-a5bd-d8bf7732fc1f> .
 
-<68868653-8667-4c84-b31a-5901e3e9ff3d> crm:P107_has_current_or_former_member <0468a672-9d51-4c80-902e-6bf52b6c6de3>,
+<68868653-8667-4c84-b31a-5901e3e9ff3d> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <0468a672-9d51-4c80-902e-6bf52b6c6de3>,
         <0a819074-2ab8-45ae-ac35-8a51d4518bf3>,
         <15e330aa-cbf7-4ebb-a7e3-6962e2174e2f>,
         <1ef33305-3dc8-45ea-9350-3427fffbbfb8>,
@@ -3533,16 +3732,20 @@
         <fbf9ed9e-5fae-4ee1-a73d-1cb64583ddda> ;
     crm:P1_is_identified_by <46a340ad-7b86-45c6-a4cc-3d6058e179d9> .
 
-<6a1e5eda-1ba5-4df9-a0ea-c87dab72b060> crm:P1_is_identified_by <29e92f4e-5ecf-41dc-8e62-1a7e5c26f30d> .
+<6a1e5eda-1ba5-4df9-a0ea-c87dab72b060> a crm:E74_Group ;
+    crm:P1_is_identified_by <29e92f4e-5ecf-41dc-8e62-1a7e5c26f30d> .
 
-<6a8b054b-ea20-4567-bd64-c9164cc3cde2> crm:P1_is_identified_by <1a1b5f6a-edbf-43c2-af2b-bea1c2c0fc9f> .
+<6a8b054b-ea20-4567-bd64-c9164cc3cde2> a crm:E74_Group ;
+    crm:P1_is_identified_by <1a1b5f6a-edbf-43c2-af2b-bea1c2c0fc9f> .
 
-<6bafb21e-660d-486c-8e4f-cc755c12eea7> crm:P107_has_current_or_former_member <349651ef-2bf6-4584-83f9-6c073bd75123>,
+<6bafb21e-660d-486c-8e4f-cc755c12eea7> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <349651ef-2bf6-4584-83f9-6c073bd75123>,
         <806bee7e-89a5-46b7-8e31-4f5b5509d044>,
         <d5acea13-de31-422b-9025-5f9861df4463> ;
     crm:P1_is_identified_by <f3f27a8f-840d-4a42-9e57-d58bdcd31ef3> .
 
-<6c17361e-e385-47a5-8f62-69f14e22f37c> crm:P107_has_current_or_former_member <40abd76b-feed-48c7-98e0-9958f090141d>,
+<6c17361e-e385-47a5-8f62-69f14e22f37c> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <40abd76b-feed-48c7-98e0-9958f090141d>,
         <4e5b384b-37da-47c6-a599-be9845ca3eeb>,
         <4ecdfc3f-0280-4f5b-b81b-0afc9119c5fc>,
         <62f74026-f74c-4147-9ddb-9088ba54dcdd>,
@@ -3550,32 +3753,44 @@
         <d707a21f-84fe-4d3b-80d3-4c8c5268180c> ;
     crm:P1_is_identified_by <617a19bc-a4db-4ce0-af62-f0e7d7fd57f2> .
 
-<6c35c477-37af-48b6-be4e-46452c2b6dea> crm:P1_is_identified_by <f1330543-57b6-4434-9073-ae37df0d2167> .
+<6c35c477-37af-48b6-be4e-46452c2b6dea> a crm:E74_Group ;
+    crm:P1_is_identified_by <f1330543-57b6-4434-9073-ae37df0d2167> .
 
-<6c3f6714-d38b-4ce0-be6d-fe2eaee028c7> crm:P1_is_identified_by <74e64f45-eb79-460e-bd21-44e5b2e0c286> .
+<6c3f6714-d38b-4ce0-be6d-fe2eaee028c7> a crm:E74_Group ;
+    crm:P1_is_identified_by <74e64f45-eb79-460e-bd21-44e5b2e0c286> .
 
-<6c65c162-c860-4040-b673-20d3172efe7c> crm:P1_is_identified_by <bdc7d154-99d7-4bc5-9742-6187cdebbe5d> .
+<6c65c162-c860-4040-b673-20d3172efe7c> a crm:E74_Group ;
+    crm:P1_is_identified_by <bdc7d154-99d7-4bc5-9742-6187cdebbe5d> .
 
-<6ca7ad1e-556e-493a-b985-4824083c2f6d> crm:P1_is_identified_by <cebe703b-8844-4c5c-a4a7-9a62f9243916> .
+<6ca7ad1e-556e-493a-b985-4824083c2f6d> a crm:E74_Group ;
+    crm:P1_is_identified_by <cebe703b-8844-4c5c-a4a7-9a62f9243916> .
 
-<6cc09512-475a-453e-9f25-08af007f68b3> crm:P1_is_identified_by <11775068-3a79-4bb6-bf8e-d10d78058462> .
+<6cc09512-475a-453e-9f25-08af007f68b3> a crm:E74_Group ;
+    crm:P1_is_identified_by <11775068-3a79-4bb6-bf8e-d10d78058462> .
 
-<6d38d55c-c740-4e27-ab0c-a99542c47d82> crm:P1_is_identified_by <4c630ecb-dd4c-4074-b46f-eb88af04bfdf> .
+<6d38d55c-c740-4e27-ab0c-a99542c47d82> a crm:E74_Group ;
+    crm:P1_is_identified_by <4c630ecb-dd4c-4074-b46f-eb88af04bfdf> .
 
-<6d867111-3dcf-4d75-822b-9e3be32364c6> crm:P1_is_identified_by <72f3964b-555d-466b-9aac-5d1e156931e9> .
+<6d867111-3dcf-4d75-822b-9e3be32364c6> a crm:E74_Group ;
+    crm:P1_is_identified_by <72f3964b-555d-466b-9aac-5d1e156931e9> .
 
-<6dd2cf46-c4bc-46d5-8f34-ae7042b907ab> crm:P107_has_current_or_former_member <5dca229a-d9b5-40b1-b22e-3db41f3ba8fb> ;
+<6dd2cf46-c4bc-46d5-8f34-ae7042b907ab> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <5dca229a-d9b5-40b1-b22e-3db41f3ba8fb> ;
     crm:P1_is_identified_by <1f324193-5017-43b0-8bae-c8165c4a67fa> .
 
-<6fde00a9-29e9-4eaf-b527-d8469f4e641b> crm:P1_is_identified_by <994e42e4-5c36-4ff7-a62f-0214dfe816a8> .
+<6fde00a9-29e9-4eaf-b527-d8469f4e641b> a crm:E74_Group ;
+    crm:P1_is_identified_by <994e42e4-5c36-4ff7-a62f-0214dfe816a8> .
 
-<6fe93a0c-059d-440b-97b4-ff0d2c756a3a> crm:P1_is_identified_by <3d2e4cb1-9492-4c50-84c4-1259b182ac99> .
+<6fe93a0c-059d-440b-97b4-ff0d2c756a3a> a crm:E74_Group ;
+    crm:P1_is_identified_by <3d2e4cb1-9492-4c50-84c4-1259b182ac99> .
 
-<702e319c-d69c-4222-93a2-12d87b840a29> crm:P107_has_current_or_former_member <1386c670-c302-4c35-ab61-53aa2e698f3a>,
+<702e319c-d69c-4222-93a2-12d87b840a29> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <1386c670-c302-4c35-ab61-53aa2e698f3a>,
         <49b508bd-9547-4e37-9795-a17aeb8efc36> ;
     crm:P1_is_identified_by <3723bffa-eea7-49e6-9104-0432323bb1c2> .
 
-<709119d3-cd8c-483a-af0e-7a3731e87d3b> crm:P107_has_current_or_former_member <121f5810-d2c9-4bd1-bdcb-7b22853bcdfa>,
+<709119d3-cd8c-483a-af0e-7a3731e87d3b> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <121f5810-d2c9-4bd1-bdcb-7b22853bcdfa>,
         <19372f63-2cd4-432b-b386-f449892c1ab0>,
         <25e817da-f140-43a8-8410-88fd14080b40>,
         <32cb09bf-f524-4c05-876e-403ab51592c7>,
@@ -3589,117 +3804,169 @@
         <e8730252-7a73-443c-b2bf-a4bf6d29ad0a> ;
     crm:P1_is_identified_by <1f8e88e7-337f-4044-9b43-d1df72e728a5> .
 
-<70c56908-89a7-4ed4-b395-6a3302744060> crm:P1_is_identified_by <a7a2f4fa-cba0-4005-9606-ae774e6e210f> .
+<70c56908-89a7-4ed4-b395-6a3302744060> a crm:E74_Group ;
+    crm:P1_is_identified_by <a7a2f4fa-cba0-4005-9606-ae774e6e210f> .
 
-<70f80408-a35e-4d4b-8a1e-b619c081076c> crm:P107_has_current_or_former_member <2d80170e-7940-4845-b905-90e74a12831b>,
+<70f80408-a35e-4d4b-8a1e-b619c081076c> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <2d80170e-7940-4845-b905-90e74a12831b>,
         <652f9f09-fe1c-40ee-ac5a-a7f099d6d210>,
         <c4ce5805-e534-419c-b37e-cf6d0bbeecc5> ;
     crm:P1_is_identified_by <ab7e607a-f04b-4226-baee-5011fe7653f2> .
 
-<71c27d58-c017-4540-8056-cad5a1ba0f15> crm:P1_is_identified_by <3575033f-36fe-4ae0-a753-5521397ae4f9> .
+<71c27d58-c017-4540-8056-cad5a1ba0f15> a crm:E74_Group ;
+    crm:P1_is_identified_by <3575033f-36fe-4ae0-a753-5521397ae4f9> .
 
-<729c9870-fa42-40b2-b297-d62eebe20ff5> crm:P1_is_identified_by <0c5bbda8-bb64-4794-a9b1-fbb3ae84f4a8> .
+<729c9870-fa42-40b2-b297-d62eebe20ff5> a crm:E74_Group ;
+    crm:P1_is_identified_by <0c5bbda8-bb64-4794-a9b1-fbb3ae84f4a8> .
 
-<736190ea-d163-4464-a523-e68fc34d5b37> crm:P1_is_identified_by <26b554af-f0e6-471b-b193-7b3e56aeb72e> .
+<736190ea-d163-4464-a523-e68fc34d5b37> a crm:E74_Group ;
+    crm:P1_is_identified_by <26b554af-f0e6-471b-b193-7b3e56aeb72e> .
 
-<741be881-91fc-44f1-9bb8-dd901cc61457> crm:P1_is_identified_by <4d0c26a4-04c0-4280-bcdd-24eebb345f80> .
+<741be881-91fc-44f1-9bb8-dd901cc61457> a crm:E74_Group ;
+    crm:P1_is_identified_by <4d0c26a4-04c0-4280-bcdd-24eebb345f80> .
 
-<743ffd6c-f06e-4a3f-b731-36dcffb7dcb7> crm:P1_is_identified_by <f824bcba-af6d-48c5-a073-b0b1d67e1fae> .
+<743ffd6c-f06e-4a3f-b731-36dcffb7dcb7> a crm:E74_Group ;
+    crm:P1_is_identified_by <f824bcba-af6d-48c5-a073-b0b1d67e1fae> .
 
-<74660cb0-acf4-4a5f-8ce4-f11d76e14fd2> crm:P1_is_identified_by <146bb338-b85e-4a28-a03a-61d1331a4f34> .
+<74660cb0-acf4-4a5f-8ce4-f11d76e14fd2> a crm:E74_Group ;
+    crm:P1_is_identified_by <146bb338-b85e-4a28-a03a-61d1331a4f34> .
 
-<7480258f-bf00-4bdb-a45e-6827dc321eca> crm:P1_is_identified_by <c5002909-015a-414a-9347-c6b393424981> .
+<7480258f-bf00-4bdb-a45e-6827dc321eca> a crm:E74_Group ;
+    crm:P1_is_identified_by <c5002909-015a-414a-9347-c6b393424981> .
 
-<74d145e2-0ea3-4443-8d47-a71ebec62b67> crm:P1_is_identified_by <4bdcdf6a-37cb-4e9e-bdf1-deaeeac51d89> .
+<74d145e2-0ea3-4443-8d47-a71ebec62b67> a crm:E74_Group ;
+    crm:P1_is_identified_by <4bdcdf6a-37cb-4e9e-bdf1-deaeeac51d89> .
 
-<75f0f413-1470-42eb-b45b-5ca9125c66df> crm:P1_is_identified_by <62a16e72-1e2b-4c31-a43c-98328e4df916> .
+<75f0f413-1470-42eb-b45b-5ca9125c66df> a crm:E74_Group ;
+    crm:P1_is_identified_by <62a16e72-1e2b-4c31-a43c-98328e4df916> .
 
-<7676bac3-62d7-4071-8bc7-b5a4f470c089> crm:P1_is_identified_by <9abd701a-9dd1-4742-ab75-a0f24b8032dc> .
+<7676bac3-62d7-4071-8bc7-b5a4f470c089> a crm:E74_Group ;
+    crm:P1_is_identified_by <9abd701a-9dd1-4742-ab75-a0f24b8032dc> .
 
-<76b9ec1e-b0a4-4ac8-8472-59082b56ce38> crm:P1_is_identified_by <df4dede1-b466-4317-af76-e5122eec85b3> .
+<7699d6d3-5e1e-45c7-9af1-03d3082ca6ad> a crm:E74_Group ;
+    crm:P1_is_identified_by <59f19712-5ae1-4d26-a175-91e1fab9a236> .
 
-<77137587-cca9-4d0d-9f4d-8eaa70de118f> crm:P1_is_identified_by <1c72c2ea-b4f5-48fc-8f41-41e7a956b5aa> .
+<76b9ec1e-b0a4-4ac8-8472-59082b56ce38> a crm:E74_Group ;
+    crm:P1_is_identified_by <df4dede1-b466-4317-af76-e5122eec85b3> .
 
-<78ecccc0-1261-43a3-b859-ccac48dd04f7> crm:P1_is_identified_by <a104cf29-8689-46ba-a358-82912a0d2cee> .
+<77137587-cca9-4d0d-9f4d-8eaa70de118f> a crm:E74_Group ;
+    crm:P1_is_identified_by <1c72c2ea-b4f5-48fc-8f41-41e7a956b5aa> .
 
-<796eaeba-2691-4d29-8745-eb496a255c99> crm:P1_is_identified_by <4098ff4d-4267-41a5-889c-4e2f821c513e> .
+<78ecccc0-1261-43a3-b859-ccac48dd04f7> a crm:E74_Group ;
+    crm:P1_is_identified_by <a104cf29-8689-46ba-a358-82912a0d2cee> .
 
-<79da796a-aee5-4398-aa47-e370cdd69687> crm:P1_is_identified_by <8491157b-9cdc-45c0-85de-7715e9938e27> .
+<796eaeba-2691-4d29-8745-eb496a255c99> a crm:E74_Group ;
+    crm:P1_is_identified_by <4098ff4d-4267-41a5-889c-4e2f821c513e> .
 
-<7a1489e8-12e7-4127-b7c4-ef3edcd22819> crm:P1_is_identified_by <e71d3ff4-d01f-4bd6-899f-5eaadbdb609d> .
+<79da796a-aee5-4398-aa47-e370cdd69687> a crm:E74_Group ;
+    crm:P1_is_identified_by <8491157b-9cdc-45c0-85de-7715e9938e27> .
 
-<7a32346d-8828-4e09-bffd-3933f63cf5ed> crm:P1_is_identified_by <f4c171d5-43fa-4441-9f68-fa03f39b8913> .
+<7a1489e8-12e7-4127-b7c4-ef3edcd22819> a crm:E74_Group ;
+    crm:P1_is_identified_by <e71d3ff4-d01f-4bd6-899f-5eaadbdb609d> .
 
-<7a6e3a06-3ff4-4547-a668-67a87fb54c57> crm:P1_is_identified_by <f333f32d-1d10-4c14-b6b3-f58fe8ad6759> .
+<7a32346d-8828-4e09-bffd-3933f63cf5ed> a crm:E74_Group ;
+    crm:P1_is_identified_by <f4c171d5-43fa-4441-9f68-fa03f39b8913> .
 
-<7ab64d65-f019-444f-9ee4-b6314721a229> crm:P1_is_identified_by <7bc8f87c-f3f9-4830-9e07-5fc71c83953f> .
+<7a6e3a06-3ff4-4547-a668-67a87fb54c57> a crm:E74_Group ;
+    crm:P1_is_identified_by <f333f32d-1d10-4c14-b6b3-f58fe8ad6759> .
 
-<7aeaeb56-3a1d-4df3-adf5-b1791c499019> crm:P1_is_identified_by <135fd217-5f76-4f12-9ab4-5d2e002736ff> .
+<7ab64d65-f019-444f-9ee4-b6314721a229> a crm:E74_Group ;
+    crm:P1_is_identified_by <7bc8f87c-f3f9-4830-9e07-5fc71c83953f> .
 
-<7bdc55ad-b541-44c5-a141-4173bcbd9653> crm:P1_is_identified_by <dee9ba6e-e1df-4b42-918d-b8609ab4c581> .
+<7aeaeb56-3a1d-4df3-adf5-b1791c499019> a crm:E74_Group ;
+    crm:P1_is_identified_by <135fd217-5f76-4f12-9ab4-5d2e002736ff> .
 
-<7c82ea03-d2d8-4b35-918d-4cc6d37a7656> crm:P1_is_identified_by <d58b8530-16fc-4009-bb40-53155a0aaaae> .
+<7bdc55ad-b541-44c5-a141-4173bcbd9653> a crm:E74_Group ;
+    crm:P1_is_identified_by <dee9ba6e-e1df-4b42-918d-b8609ab4c581> .
 
-<7cbee653-06db-4a0a-8681-086606afff0c> crm:P1_is_identified_by <26849c49-3d3d-416d-b2c4-262a07591841> .
+<7c82ea03-d2d8-4b35-918d-4cc6d37a7656> a crm:E74_Group ;
+    crm:P1_is_identified_by <d58b8530-16fc-4009-bb40-53155a0aaaae> .
 
-<7dae5a48-7f79-4274-83b8-a2bb61a0a0ec> crm:P1_is_identified_by <20394941-877d-42dc-88ee-1fdfe2482340> .
+<7cbee653-06db-4a0a-8681-086606afff0c> a crm:E74_Group ;
+    crm:P1_is_identified_by <26849c49-3d3d-416d-b2c4-262a07591841> .
 
-<7e2eb7d3-0be8-4c35-9603-5151a7e7f42f> crm:P1_is_identified_by <8637ae48-367a-4078-8076-0df6acd18469> .
+<7dae5a48-7f79-4274-83b8-a2bb61a0a0ec> a crm:E74_Group ;
+    crm:P1_is_identified_by <20394941-877d-42dc-88ee-1fdfe2482340> .
 
-<7e9219d9-c480-4d65-9507-4875512d8d80> crm:P1_is_identified_by <8658ac40-b442-47e9-91e3-b66a64b2d74c> .
+<7e2eb7d3-0be8-4c35-9603-5151a7e7f42f> a crm:E74_Group ;
+    crm:P1_is_identified_by <8637ae48-367a-4078-8076-0df6acd18469> .
 
-<7ea65cd6-d18c-454d-a8ab-f60ba467cb93> crm:P1_is_identified_by <8cb27ba3-b50b-4e6a-960a-b94503a1b509> .
+<7e9219d9-c480-4d65-9507-4875512d8d80> a crm:E74_Group ;
+    crm:P1_is_identified_by <8658ac40-b442-47e9-91e3-b66a64b2d74c> .
 
-<7f2615c0-9ce6-4999-80e7-a59b4e7e61e2> crm:P1_is_identified_by <b7388563-1da1-4d72-b05d-edae34d1fa63> .
+<7ea65cd6-d18c-454d-a8ab-f60ba467cb93> a crm:E74_Group ;
+    crm:P1_is_identified_by <8cb27ba3-b50b-4e6a-960a-b94503a1b509> .
 
-<7f9f753f-58c4-4360-bfe6-dde9e8b465cb> crm:P107_has_current_or_former_member <feead883-6b86-441d-9565-0d0b1a7438d3> ;
+<7f2615c0-9ce6-4999-80e7-a59b4e7e61e2> a crm:E74_Group ;
+    crm:P1_is_identified_by <b7388563-1da1-4d72-b05d-edae34d1fa63> .
+
+<7f9f753f-58c4-4360-bfe6-dde9e8b465cb> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <feead883-6b86-441d-9565-0d0b1a7438d3> ;
     crm:P1_is_identified_by <5da4db65-bc30-4d32-9730-09d6fee864aa> .
 
-<7fd774ab-7249-4d03-8c28-876799fda4f4> crm:P1_is_identified_by <5f34d986-04cb-4b43-8cfb-da5fedda1f2a> .
+<7fd774ab-7249-4d03-8c28-876799fda4f4> a crm:E74_Group ;
+    crm:P1_is_identified_by <5f34d986-04cb-4b43-8cfb-da5fedda1f2a> .
 
-<805e7878-bc7b-473b-af27-4f6aba27fea7> crm:P1_is_identified_by <7a6bff52-57de-4921-b29f-9b0b4241f512> .
+<805e7878-bc7b-473b-af27-4f6aba27fea7> a crm:E74_Group ;
+    crm:P1_is_identified_by <7a6bff52-57de-4921-b29f-9b0b4241f512> .
 
-<806bee7e-89a5-46b7-8e31-4f5b5509d044> crm:P107_has_current_or_former_member <10226bd8-f646-4edb-b728-d7973f852d2a>,
+<806bee7e-89a5-46b7-8e31-4f5b5509d044> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <10226bd8-f646-4edb-b728-d7973f852d2a>,
         <256f3694-6e85-40cb-bb33-70e3710cbe4b>,
         <5f677a36-921e-47a1-9805-f67663291212>,
         <eef9fa86-bc07-4f29-906a-b85ab309839e> ;
     crm:P1_is_identified_by <005d6c78-f295-4252-b1f2-9981a5bab176> .
 
-<80790b2b-f146-4f32-8db7-d72682576a4b> crm:P1_is_identified_by <4f237445-4592-4fe1-9580-4a9d6ebb32ec> .
+<80790b2b-f146-4f32-8db7-d72682576a4b> a crm:E74_Group ;
+    crm:P1_is_identified_by <4f237445-4592-4fe1-9580-4a9d6ebb32ec> .
 
-<8286280a-4637-4ce5-891e-5f0d35dfcd23> crm:P1_is_identified_by <2037b472-31cb-4fe8-a437-6076e1d0fb16> .
+<8286280a-4637-4ce5-891e-5f0d35dfcd23> a crm:E74_Group ;
+    crm:P1_is_identified_by <2037b472-31cb-4fe8-a437-6076e1d0fb16> .
 
-<837a0737-144c-4c51-8b9a-19bde44092ed> crm:P1_is_identified_by <149c2728-e701-4456-b305-5ec2be5b44ba> .
+<837a0737-144c-4c51-8b9a-19bde44092ed> a crm:E74_Group ;
+    crm:P1_is_identified_by <149c2728-e701-4456-b305-5ec2be5b44ba> .
 
-<84ad4653-49f3-4d5c-b0be-b8e714168357> crm:P1_is_identified_by <6dd22285-b934-4b5a-873e-bcb0bfe09f78> .
+<84ad4653-49f3-4d5c-b0be-b8e714168357> a crm:E74_Group ;
+    crm:P1_is_identified_by <6dd22285-b934-4b5a-873e-bcb0bfe09f78> .
 
-<84b363b2-d772-4a9b-a12c-87556e85c82c> crm:P1_is_identified_by <4a32e76c-40d6-4628-b7dd-7a394669000d> .
+<84b363b2-d772-4a9b-a12c-87556e85c82c> a crm:E74_Group ;
+    crm:P1_is_identified_by <4a32e76c-40d6-4628-b7dd-7a394669000d> .
 
-<850dbbd3-bf84-4030-8bdd-0a1d8c0b24d0> crm:P1_is_identified_by <f92dfccc-ee58-4afb-9867-2d513174bbb1> .
+<850dbbd3-bf84-4030-8bdd-0a1d8c0b24d0> a crm:E74_Group ;
+    crm:P1_is_identified_by <f92dfccc-ee58-4afb-9867-2d513174bbb1> .
 
-<8546c715-700d-4ccc-b813-3a9e44db90d8> crm:P107_has_current_or_former_member <91849a27-00cc-43ba-931b-95696b98793c>,
+<8546c715-700d-4ccc-b813-3a9e44db90d8> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <91849a27-00cc-43ba-931b-95696b98793c>,
         <a5c3e479-c928-44c1-b7a8-8df1619e06c1> ;
     crm:P1_is_identified_by <f65564ef-1a85-4b6b-b93c-dd3577d435bf> .
 
-<855a29b3-31a0-4038-b7d3-f513274d3320> crm:P1_is_identified_by <96805563-6152-48ad-8ed4-752487cd7a09> .
+<855a29b3-31a0-4038-b7d3-f513274d3320> a crm:E74_Group ;
+    crm:P1_is_identified_by <96805563-6152-48ad-8ed4-752487cd7a09> .
 
-<87355805-d129-48d4-bad3-9099439ca5d1> crm:P1_is_identified_by <d87370d2-f470-42bf-89fb-f95ef61f2d96> .
+<87355805-d129-48d4-bad3-9099439ca5d1> a crm:E74_Group ;
+    crm:P1_is_identified_by <d87370d2-f470-42bf-89fb-f95ef61f2d96> .
 
-<879342ea-ada4-4fc3-a477-7c6c4d2ae011> crm:P1_is_identified_by <35178fe6-2f02-4360-a401-138e509cf437> .
+<879342ea-ada4-4fc3-a477-7c6c4d2ae011> a crm:E74_Group ;
+    crm:P1_is_identified_by <35178fe6-2f02-4360-a401-138e509cf437> .
 
-<88472433-7b47-4347-9122-d4398ca342e1> crm:P1_is_identified_by <3701300f-bd60-49fd-aabf-b503761e622d> .
+<88472433-7b47-4347-9122-d4398ca342e1> a crm:E74_Group ;
+    crm:P1_is_identified_by <3701300f-bd60-49fd-aabf-b503761e622d> .
 
-<88bce0ba-d966-4af1-b0e4-0a9b640f6b0f> crm:P1_is_identified_by <d18e1e71-c68b-4633-b08e-28df20a80e3d> .
+<88bce0ba-d966-4af1-b0e4-0a9b640f6b0f> a crm:E74_Group ;
+    crm:P1_is_identified_by <d18e1e71-c68b-4633-b08e-28df20a80e3d> .
 
-<89723952-206e-4950-92cf-032c4ff5b850> crm:P1_is_identified_by <2708378a-c057-4abe-9126-6872766db323> .
+<89723952-206e-4950-92cf-032c4ff5b850> a crm:E74_Group ;
+    crm:P1_is_identified_by <2708378a-c057-4abe-9126-6872766db323> .
 
-<89cf8745-4277-44bb-a69f-b497e0d0300e> crm:P107_has_current_or_former_member <6fe93a0c-059d-440b-97b4-ff0d2c756a3a>,
+<89cf8745-4277-44bb-a69f-b497e0d0300e> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <6fe93a0c-059d-440b-97b4-ff0d2c756a3a>,
         <87355805-d129-48d4-bad3-9099439ca5d1>,
         <aaad3454-aad9-4c77-aab0-531dede7092d>,
         <f0be9483-c6c6-4886-b00e-285a79b407b3> ;
     crm:P1_is_identified_by <c18f96dd-9782-4c88-adab-c02a5dc183f5> .
 
-<8a33bc92-b31b-434d-a120-0fff8a0babc0> crm:P107_has_current_or_former_member <16a821c2-479c-485b-ac05-7347b38353e8>,
+<8a33bc92-b31b-434d-a120-0fff8a0babc0> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <16a821c2-479c-485b-ac05-7347b38353e8>,
         <22f1b6e4-8aae-4127-8ad2-72eaf911d903>,
         <343bc795-5de7-4cbc-ab8f-61342dff9a0d>,
         <4714bf41-4118-460f-b041-95f1aac0be1f>,
@@ -3709,7 +3976,8 @@
         <fc907018-c091-489d-8267-fb818ad926be> ;
     crm:P1_is_identified_by <e29ac8b8-fe67-4677-9c5a-029c119bfca6> .
 
-<8a361628-e37c-4221-be6d-a901bcd9cf31> crm:P107_has_current_or_former_member <02d39b18-01c7-42b3-aa0b-91d853229dd2>,
+<8a361628-e37c-4221-be6d-a901bcd9cf31> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <02d39b18-01c7-42b3-aa0b-91d853229dd2>,
         <40b4b26d-a132-45ed-878c-34707b62194d>,
         <4dd55250-5794-433c-88f0-0e03cf361953>,
         <709119d3-cd8c-483a-af0e-7a3731e87d3b>,
@@ -3719,56 +3987,82 @@
         <c70c69ee-04ae-4d3d-8aab-685e0f4c4189> ;
     crm:P1_is_identified_by <a625d059-f0d2-4b36-8c80-23c0c25a5acf> .
 
-<8a387bf8-ea6b-4465-a2a6-e60911d6251d> crm:P1_is_identified_by <b279ef8b-62a3-4ed2-9f6a-a1ca58e4827c> .
+<8a387bf8-ea6b-4465-a2a6-e60911d6251d> a crm:E74_Group ;
+    crm:P1_is_identified_by <b279ef8b-62a3-4ed2-9f6a-a1ca58e4827c> .
 
-<8c35c65d-d6f2-4c4d-bf34-70cced959eb8> crm:P1_is_identified_by <330468b8-0a7e-485c-84fa-8e39e8232dd0> .
+<8c35c65d-d6f2-4c4d-bf34-70cced959eb8> a crm:E74_Group ;
+    crm:P1_is_identified_by <330468b8-0a7e-485c-84fa-8e39e8232dd0> .
 
-<8c61d091-4699-45b6-a744-6cd4359ca7d4> crm:P1_is_identified_by <0eeeddc5-837a-4590-95d5-78502d99c5fe> .
+<8c61d091-4699-45b6-a744-6cd4359ca7d4> a crm:E74_Group ;
+    crm:P1_is_identified_by <0eeeddc5-837a-4590-95d5-78502d99c5fe> .
 
-<8d5cf58f-dbd5-45b3-b5cc-fb924a307ff9> crm:P1_is_identified_by <26eb1691-a086-4938-8f58-45fee6204d5c> .
+<8d5cf58f-dbd5-45b3-b5cc-fb924a307ff9> a crm:E74_Group ;
+    crm:P1_is_identified_by <26eb1691-a086-4938-8f58-45fee6204d5c> .
 
-<8df4ee9b-b50f-458c-9569-5bec3b814b3b> crm:P1_is_identified_by <692a1be6-d488-4585-ab77-c3f79c6fc18e> .
+<8ddca2a7-ccfd-48d0-8ba3-6f3a3bc1492a> a crm:E74_Group ;
+    crm:P1_is_identified_by <94580aa6-0330-469d-8f3e-d5227607e523> .
 
-<8e0cbafa-18fb-447c-9288-b4823d405c9f> crm:P1_is_identified_by <5bb7727c-e532-4000-b354-33ac6a216924> .
+<8df4ee9b-b50f-458c-9569-5bec3b814b3b> a crm:E74_Group ;
+    crm:P1_is_identified_by <692a1be6-d488-4585-ab77-c3f79c6fc18e> .
 
-<8e40e5b1-eb38-4d51-9d17-2df7b232664d> crm:P1_is_identified_by <ca2a00c1-f6a9-4ce6-ac08-b2958afc7462> .
+<8e0cbafa-18fb-447c-9288-b4823d405c9f> a crm:E74_Group ;
+    crm:P1_is_identified_by <5bb7727c-e532-4000-b354-33ac6a216924> .
 
-<8ee0484e-b723-4771-9640-bca86acaa562> crm:P1_is_identified_by <ac87e998-935e-411b-aec5-b403017dd1a5> .
+<8e40e5b1-eb38-4d51-9d17-2df7b232664d> a crm:E74_Group ;
+    crm:P1_is_identified_by <ca2a00c1-f6a9-4ce6-ac08-b2958afc7462> .
 
-<8f2781f2-48f5-4d43-827e-ff1b9195fcb1> crm:P1_is_identified_by <a5cb459e-2cce-484a-a692-4a61d7d686d2> .
+<8ee0484e-b723-4771-9640-bca86acaa562> a crm:E74_Group ;
+    crm:P1_is_identified_by <ac87e998-935e-411b-aec5-b403017dd1a5> .
 
-<8fb2f705-7d32-4190-a0c6-074928486f71> crm:P1_is_identified_by <80ea3bb4-352e-4940-a01d-1d217b354feb> .
+<8f2781f2-48f5-4d43-827e-ff1b9195fcb1> a crm:E74_Group ;
+    crm:P1_is_identified_by <a5cb459e-2cce-484a-a692-4a61d7d686d2> .
 
-<8ff1c200-ed72-4368-a892-d73c2f93a029> crm:P1_is_identified_by <dba7bfa7-447b-4fbb-a951-90f472ae0ca5> .
+<8fb2f705-7d32-4190-a0c6-074928486f71> a crm:E74_Group ;
+    crm:P1_is_identified_by <80ea3bb4-352e-4940-a01d-1d217b354feb> .
 
-<9148c675-bc2f-4760-96ae-0a4412a8c5a5> crm:P1_is_identified_by <6715a327-8283-4b9f-8939-5a23d4492c9c> .
+<8ff1c200-ed72-4368-a892-d73c2f93a029> a crm:E74_Group ;
+    crm:P1_is_identified_by <dba7bfa7-447b-4fbb-a951-90f472ae0ca5> .
 
-<9168ec2b-6ba3-4240-8c3e-e4da7b173a07> crm:P1_is_identified_by <69bd1b95-b95b-40ac-87cd-c75a3966b85d> .
+<9148c675-bc2f-4760-96ae-0a4412a8c5a5> a crm:E74_Group ;
+    crm:P1_is_identified_by <6715a327-8283-4b9f-8939-5a23d4492c9c> .
 
-<917d3512-d6e1-4302-ac43-46ecef0e6b2a> crm:P1_is_identified_by <0a91634f-1f1f-42e8-a948-9b958f8c422e> .
+<9168ec2b-6ba3-4240-8c3e-e4da7b173a07> a crm:E74_Group ;
+    crm:P1_is_identified_by <69bd1b95-b95b-40ac-87cd-c75a3966b85d> .
 
-<91849a27-00cc-43ba-931b-95696b98793c> crm:P107_has_current_or_former_member <30859d94-70a9-4025-94bb-1a9912316645>,
+<917d3512-d6e1-4302-ac43-46ecef0e6b2a> a crm:E74_Group ;
+    crm:P1_is_identified_by <0a91634f-1f1f-42e8-a948-9b958f8c422e> .
+
+<91849a27-00cc-43ba-931b-95696b98793c> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <30859d94-70a9-4025-94bb-1a9912316645>,
         <57e4aa7e-886d-43d8-9b35-1a5e899e631d>,
         <68486e41-551a-4d61-b3ae-681bdf945a6c>,
         <743ffd6c-f06e-4a3f-b731-36dcffb7dcb7>,
         <dfa615ea-14f2-4f90-8ea7-258cdd8d9d6d> ;
     crm:P1_is_identified_by <46a1ea25-6554-4f27-8c16-798b53baf159> .
 
-<92be81b6-5b1f-40ee-9cc4-05a275d48ee6> crm:P1_is_identified_by <e9304f85-2391-41ea-8503-1cda48e94ce3> .
+<92be81b6-5b1f-40ee-9cc4-05a275d48ee6> a crm:E74_Group ;
+    crm:P1_is_identified_by <e9304f85-2391-41ea-8503-1cda48e94ce3> .
 
-<92ceb616-5399-47de-8069-ba62ef3bf8ae> crm:P1_is_identified_by <4bba59ce-8710-425c-8116-bf679620f96e> .
+<92ceb616-5399-47de-8069-ba62ef3bf8ae> a crm:E74_Group ;
+    crm:P1_is_identified_by <4bba59ce-8710-425c-8116-bf679620f96e> .
 
-<93063565-9667-405f-b17a-5e3bf4fba1e1> crm:P1_is_identified_by <926a19a7-7e07-4fe5-9495-bbebe5092268> .
+<93063565-9667-405f-b17a-5e3bf4fba1e1> a crm:E74_Group ;
+    crm:P1_is_identified_by <926a19a7-7e07-4fe5-9495-bbebe5092268> .
 
-<9330c54f-f539-4564-b97a-11139a72d27f> crm:P1_is_identified_by <67d9cdfa-17e2-492f-80d3-359e50ba1ed9> .
+<9330c54f-f539-4564-b97a-11139a72d27f> a crm:E74_Group ;
+    crm:P1_is_identified_by <67d9cdfa-17e2-492f-80d3-359e50ba1ed9> .
 
-<937d359c-7794-44c0-b1d6-4df91546ff5b> crm:P1_is_identified_by <5eb39c05-abcf-4d1c-82a9-f557d46aed67> .
+<937d359c-7794-44c0-b1d6-4df91546ff5b> a crm:E74_Group ;
+    crm:P1_is_identified_by <5eb39c05-abcf-4d1c-82a9-f557d46aed67> .
 
-<944ebb25-ace2-44d7-b90a-27b88e6032ba> crm:P1_is_identified_by <f589f105-5d3d-43a2-961b-b50074a832eb> .
+<944ebb25-ace2-44d7-b90a-27b88e6032ba> a crm:E74_Group ;
+    crm:P1_is_identified_by <f589f105-5d3d-43a2-961b-b50074a832eb> .
 
-<94de1e53-e2e3-49ef-967f-d3e6cdf00a94> crm:P1_is_identified_by <3a29c81a-4e2c-4e5d-855b-4e2b487a9bcc> .
+<94de1e53-e2e3-49ef-967f-d3e6cdf00a94> a crm:E74_Group ;
+    crm:P1_is_identified_by <3a29c81a-4e2c-4e5d-855b-4e2b487a9bcc> .
 
-<95c17352-2061-4725-b6fb-4294be89032f> crm:P107_has_current_or_former_member <0b5f227a-3c8a-4ccc-ad67-8e84c529b8d2>,
+<95c17352-2061-4725-b6fb-4294be89032f> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <0b5f227a-3c8a-4ccc-ad67-8e84c529b8d2>,
         <1b51ea8a-d700-4842-8d89-f285ab819317>,
         <1eff12c1-649e-41d0-8ce2-a34e0ecb5a96>,
         <288f2311-8ce6-45b2-afb4-ed9ac6b6f2bc>,
@@ -3792,35 +4086,47 @@
         <faf194d5-cc16-4e9c-b460-4f42bf4f48aa> ;
     crm:P1_is_identified_by <56a62c34-e2a3-4059-b451-d69fd51490c9> .
 
-<98c313c3-ff0b-48e9-8895-75321a64a952> crm:P1_is_identified_by <24dcbe0b-d544-4c39-bf64-398f4086f91c> .
+<98c313c3-ff0b-48e9-8895-75321a64a952> a crm:E74_Group ;
+    crm:P1_is_identified_by <24dcbe0b-d544-4c39-bf64-398f4086f91c> .
 
-<9a759da0-13f9-433a-9df7-3796190ec9a2> crm:P1_is_identified_by <620bcadd-40e1-4488-b4fb-db299440ddec> .
+<9a759da0-13f9-433a-9df7-3796190ec9a2> a crm:E74_Group ;
+    crm:P1_is_identified_by <620bcadd-40e1-4488-b4fb-db299440ddec> .
 
-<9aac9efb-2a7c-4106-acb9-b25c24e3c97c> crm:P107_has_current_or_former_member <2347621a-8f3a-4ee5-9329-018bcd2195cc>,
+<9aac9efb-2a7c-4106-acb9-b25c24e3c97c> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <2347621a-8f3a-4ee5-9329-018bcd2195cc>,
         <42080931-d6be-4bca-9eae-3d22d67f88ba>,
         <74660cb0-acf4-4a5f-8ce4-f11d76e14fd2>,
         <917d3512-d6e1-4302-ac43-46ecef0e6b2a>,
         <92ceb616-5399-47de-8069-ba62ef3bf8ae> ;
     crm:P1_is_identified_by <9908efeb-825a-4c91-90eb-e6f7b03f710e> .
 
-<9bf4eefc-33ee-44b3-8b62-5f33dff87ca7> crm:P1_is_identified_by <58829332-8d0a-4fe5-a217-7c8a61330422> .
+<9bf4eefc-33ee-44b3-8b62-5f33dff87ca7> a crm:E74_Group ;
+    crm:P1_is_identified_by <58829332-8d0a-4fe5-a217-7c8a61330422> .
 
-<9cf058bd-b5db-41f4-bfcf-f9ac2b14395e> crm:P1_is_identified_by <5c5b7399-09ec-4c5e-be26-02fde2167c55> .
+<9cf058bd-b5db-41f4-bfcf-f9ac2b14395e> a crm:E74_Group ;
+    crm:P1_is_identified_by <5c5b7399-09ec-4c5e-be26-02fde2167c55> .
 
-<9d09d40c-58df-42d4-904a-eb4963d0e644> crm:P1_is_identified_by <717c9c67-bf1a-4fd0-8ba4-2661ba33e794> .
+<9d09d40c-58df-42d4-904a-eb4963d0e644> a crm:E74_Group ;
+    crm:P1_is_identified_by <717c9c67-bf1a-4fd0-8ba4-2661ba33e794> .
 
-<9ec37ee3-ff83-4b37-8f9f-2c592a8dacf8> crm:P1_is_identified_by <68b1e3a3-481a-47bd-bf4f-a9dd21c91848> .
+<9ec37ee3-ff83-4b37-8f9f-2c592a8dacf8> a crm:E74_Group ;
+    crm:P1_is_identified_by <68b1e3a3-481a-47bd-bf4f-a9dd21c91848> .
 
-<9ecb6867-3065-4a33-8fd9-2475e8f8430c> crm:P107_has_current_or_former_member <d26c5d3f-587b-45f2-9714-26fbfdb7a575> ;
+<9ecb6867-3065-4a33-8fd9-2475e8f8430c> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <d26c5d3f-587b-45f2-9714-26fbfdb7a575> ;
     crm:P1_is_identified_by <2e39c05a-162a-4d34-ba22-f568e9cafb15> .
 
-<9fe25f7c-3f9a-4320-aecd-eb6fa7d98624> crm:P1_is_identified_by <f2155ace-26bf-475c-8bab-f549a9f3ad02> .
+<9fe25f7c-3f9a-4320-aecd-eb6fa7d98624> a crm:E74_Group ;
+    crm:P1_is_identified_by <f2155ace-26bf-475c-8bab-f549a9f3ad02> .
 
-<9ff1a2c5-033f-4c05-8ef8-54153f44fb9e> crm:P1_is_identified_by <75916e3c-6cf3-47b7-8b2b-5ea1d1b0e525> .
+<9ff1a2c5-033f-4c05-8ef8-54153f44fb9e> a crm:E74_Group ;
+    crm:P1_is_identified_by <75916e3c-6cf3-47b7-8b2b-5ea1d1b0e525> .
 
-<a05a432a-0494-468d-86a5-59d6ee9d7170> crm:P1_is_identified_by <6963ed42-9dbb-4860-9b7f-408d8a3fbfae> .
+<a05a432a-0494-468d-86a5-59d6ee9d7170> a crm:E74_Group ;
+    crm:P1_is_identified_by <6963ed42-9dbb-4860-9b7f-408d8a3fbfae> .
 
-<a1cc5c5b-c847-4cec-8d36-3c2f91ceb1f0> crm:P107_has_current_or_former_member <08fe5637-be9c-460c-a723-aa56d5bba60c>,
+<a1cc5c5b-c847-4cec-8d36-3c2f91ceb1f0> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <08fe5637-be9c-460c-a723-aa56d5bba60c>,
         <13bcca96-93bb-4e69-8de8-572986cbf42c>,
         <2106d89f-1ce5-4b2e-bf25-3e841593b648>,
         <2fcfffbd-5ea4-4a64-beb3-126f133a1d28>,
@@ -3842,128 +4148,179 @@
         <f482cc92-6836-4f91-90d2-c1f9eb31ab79> ;
     crm:P1_is_identified_by <e922cf76-8139-4566-9b14-c4ff152472a6> .
 
-<a1e1f427-1e91-49df-b4ac-a227f6bee3df> crm:P1_is_identified_by <5b15c48d-60be-41ae-b05d-6cd3b9b623d4> .
+<a1e1f427-1e91-49df-b4ac-a227f6bee3df> a crm:E74_Group ;
+    crm:P1_is_identified_by <5b15c48d-60be-41ae-b05d-6cd3b9b623d4> .
 
-<a240be63-9498-4209-a2cd-0057a41bbaba> crm:P1_is_identified_by <59b67be6-cdb8-47fa-88fe-53e2b6ea395d> .
+<a240be63-9498-4209-a2cd-0057a41bbaba> a crm:E74_Group ;
+    crm:P1_is_identified_by <59b67be6-cdb8-47fa-88fe-53e2b6ea395d> .
 
-<a2425f23-933c-48cb-adca-4b4adca2b47a> crm:P1_is_identified_by <9aadf3e5-e0fa-428c-8f03-2f7c63cfb815> .
+<a2425f23-933c-48cb-adca-4b4adca2b47a> a crm:E74_Group ;
+    crm:P1_is_identified_by <9aadf3e5-e0fa-428c-8f03-2f7c63cfb815> .
 
-<a2c52be1-4a66-41e4-a8e7-334f4f1bf2f6> crm:P1_is_identified_by <7d850a43-7c2c-46cd-8900-b43cb536355c> .
+<a2c52be1-4a66-41e4-a8e7-334f4f1bf2f6> a crm:E74_Group ;
+    crm:P1_is_identified_by <7d850a43-7c2c-46cd-8900-b43cb536355c> .
 
-<a3355df4-0d41-45f1-9801-def9b6062600> crm:P1_is_identified_by <f43093eb-bdd5-469d-aa84-ce2746219094> .
+<a3355df4-0d41-45f1-9801-def9b6062600> a crm:E74_Group ;
+    crm:P1_is_identified_by <f43093eb-bdd5-469d-aa84-ce2746219094> .
 
-<a3416224-4f72-4b92-a7cd-3d3f396c75f3> crm:P1_is_identified_by <9f563270-9162-454e-ac4f-667585d36801> .
+<a3416224-4f72-4b92-a7cd-3d3f396c75f3> a crm:E74_Group ;
+    crm:P1_is_identified_by <9f563270-9162-454e-ac4f-667585d36801> .
 
-<a34d3349-f8d0-44d4-8f41-0d03193cff00> crm:P1_is_identified_by <8d4ad4ac-c9e1-4a1a-89be-fccfac3bb10d> .
+<a34d3349-f8d0-44d4-8f41-0d03193cff00> a crm:E74_Group ;
+    crm:P1_is_identified_by <8d4ad4ac-c9e1-4a1a-89be-fccfac3bb10d> .
 
-<a3521fbf-e6cf-4ed0-95c3-a7495d86d513> crm:P1_is_identified_by <438c2b39-3e8c-4fe7-bf56-100055f1337e> .
+<a3521fbf-e6cf-4ed0-95c3-a7495d86d513> a crm:E74_Group ;
+    crm:P1_is_identified_by <438c2b39-3e8c-4fe7-bf56-100055f1337e> .
 
-<a370fa1c-9a65-46ba-8775-bca7166655e4> crm:P1_is_identified_by <c39cd6d8-1203-47d1-8bfe-09dca73623fa> .
+<a370fa1c-9a65-46ba-8775-bca7166655e4> a crm:E74_Group ;
+    crm:P1_is_identified_by <c39cd6d8-1203-47d1-8bfe-09dca73623fa> .
 
-<a3ab31a3-2ec7-4741-abe0-1faac72a6cfa> crm:P1_is_identified_by <6b56d5b5-b1ca-4263-8731-0b57e688d816> .
+<a3ab31a3-2ec7-4741-abe0-1faac72a6cfa> a crm:E74_Group ;
+    crm:P1_is_identified_by <6b56d5b5-b1ca-4263-8731-0b57e688d816> .
 
-<a4c1bd87-7982-4848-b339-1eec2e188186> crm:P1_is_identified_by <8de52ba4-7cf8-4a8e-a270-beacf8cd67a8> .
+<a4c1bd87-7982-4848-b339-1eec2e188186> a crm:E74_Group ;
+    crm:P1_is_identified_by <8de52ba4-7cf8-4a8e-a270-beacf8cd67a8> .
 
-<a5a0797f-a1b1-495c-b406-5e86d9fe80ae> crm:P1_is_identified_by <7c4dfd19-048e-4f05-8e75-36bc768212f0> .
+<a5a0797f-a1b1-495c-b406-5e86d9fe80ae> a crm:E74_Group ;
+    crm:P1_is_identified_by <7c4dfd19-048e-4f05-8e75-36bc768212f0> .
 
-<a5c3e479-c928-44c1-b7a8-8df1619e06c1> crm:P107_has_current_or_former_member <76b9ec1e-b0a4-4ac8-8472-59082b56ce38>,
+<a5c3e479-c928-44c1-b7a8-8df1619e06c1> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <76b9ec1e-b0a4-4ac8-8472-59082b56ce38>,
         <af663e11-d8a9-4203-870b-57ee13db88fe>,
         <f5eb6cd5-304c-489d-bc70-e4bff4389805>,
         <f9a24962-0612-444f-8f60-6fec1c5cfa15> ;
     crm:P1_is_identified_by <2f074e77-5843-402c-8256-7f3e0e519a27> .
 
-<a6df0c3c-90df-44aa-b2b4-018064e59d12> crm:P1_is_identified_by <57c211a6-754b-4aa1-b191-53814e0686f9> .
+<a6df0c3c-90df-44aa-b2b4-018064e59d12> a crm:E74_Group ;
+    crm:P1_is_identified_by <57c211a6-754b-4aa1-b191-53814e0686f9> .
 
-<a7692a9c-f7d2-4164-8e46-3b5cd28e3a36> crm:P1_is_identified_by <059a686a-9f32-478f-8d6b-6de9ec0f5db2> .
+<a7692a9c-f7d2-4164-8e46-3b5cd28e3a36> a crm:E74_Group ;
+    crm:P1_is_identified_by <059a686a-9f32-478f-8d6b-6de9ec0f5db2> .
 
-<a8066c55-0dda-427e-8934-cd9526fef5de> crm:P1_is_identified_by <ebbc9ccf-7025-45b2-8bda-ad134fc76e54> .
+<a8066c55-0dda-427e-8934-cd9526fef5de> a crm:E74_Group ;
+    crm:P1_is_identified_by <ebbc9ccf-7025-45b2-8bda-ad134fc76e54> .
 
-<a8edb9e3-25de-4e91-95c6-704f36405d87> crm:P1_is_identified_by <d6f4eafb-6867-4ccd-90f4-b18457c93e5d> .
+<a8edb9e3-25de-4e91-95c6-704f36405d87> a crm:E74_Group ;
+    crm:P1_is_identified_by <d6f4eafb-6867-4ccd-90f4-b18457c93e5d> .
 
-<a8f1f8bd-e9fc-4d0e-bccd-750620524c68> crm:P1_is_identified_by <b5f5b0b6-e4d8-4da5-95fd-022f7ad9aaa2> .
+<a8f1f8bd-e9fc-4d0e-bccd-750620524c68> a crm:E74_Group ;
+    crm:P1_is_identified_by <b5f5b0b6-e4d8-4da5-95fd-022f7ad9aaa2> .
 
-<a9baf539-ec5d-425a-a5e8-760f15ff0514> crm:P107_has_current_or_former_member <16e7dea3-fbc8-4004-881c-84c56c8ad5ff>,
+<a9baf539-ec5d-425a-a5e8-760f15ff0514> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <16e7dea3-fbc8-4004-881c-84c56c8ad5ff>,
         <461cf51a-81b3-4663-9c47-0cc4fc42ae46>,
         <89cf8745-4277-44bb-a69f-b497e0d0300e>,
         <ca1ad6a8-7cc1-4720-a9d3-0394c8d854a3>,
         <daa92091-6232-4b05-a02b-60cf5a6bd6b6> ;
     crm:P1_is_identified_by <0cb94875-742a-49b4-b7e0-67d10cf771e7> .
 
-<a9f466fc-73a0-48d9-9f50-be12db1a2215> crm:P107_has_current_or_former_member <369cebef-7966-4b8a-bd48-460f7eee51df>,
+<a9f466fc-73a0-48d9-9f50-be12db1a2215> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <369cebef-7966-4b8a-bd48-460f7eee51df>,
         <e63d83eb-de15-4645-a69d-703e281f4b8e> ;
     crm:P1_is_identified_by <4778def7-19d9-472f-bb9a-8c31e94df48d> .
 
-<aa58a444-8fe6-4ecf-9adc-4239a5aab0ef> crm:P1_is_identified_by <893f1e81-6ca9-4a03-9f77-96e0cd0bf9a9> .
+<aa58a444-8fe6-4ecf-9adc-4239a5aab0ef> a crm:E74_Group ;
+    crm:P1_is_identified_by <893f1e81-6ca9-4a03-9f77-96e0cd0bf9a9> .
 
-<aaad3454-aad9-4c77-aab0-531dede7092d> crm:P1_is_identified_by <fb004c2c-4f81-4416-b7bf-a34d86aaf9af> .
+<aaad3454-aad9-4c77-aab0-531dede7092d> a crm:E74_Group ;
+    crm:P1_is_identified_by <fb004c2c-4f81-4416-b7bf-a34d86aaf9af> .
 
-<aade6d07-7425-4620-8c33-78c8962a5813> crm:P1_is_identified_by <3052c923-f1de-4729-ae52-065480c03462> .
+<aade6d07-7425-4620-8c33-78c8962a5813> a crm:E74_Group ;
+    crm:P1_is_identified_by <3052c923-f1de-4729-ae52-065480c03462> .
 
-<acc3b253-224b-4385-a6a9-bdf3ea2f2b95> crm:P1_is_identified_by <786254d4-eb60-4ebc-9604-af40b9f78c8b> .
+<acc3b253-224b-4385-a6a9-bdf3ea2f2b95> a crm:E74_Group ;
+    crm:P1_is_identified_by <786254d4-eb60-4ebc-9604-af40b9f78c8b> .
 
-<ad92e27e-43d0-4f7b-bf1a-42bd65334c74> crm:P1_is_identified_by <29a7f448-39a6-44d5-827f-0d0bb9b96da4> .
+<ad92e27e-43d0-4f7b-bf1a-42bd65334c74> a crm:E74_Group ;
+    crm:P1_is_identified_by <29a7f448-39a6-44d5-827f-0d0bb9b96da4> .
 
-<add63bb2-63c6-4296-abd4-3fdbbd165569> crm:P1_is_identified_by <32902667-01c0-4a6b-8af1-1f00aed1af3f> .
+<add63bb2-63c6-4296-abd4-3fdbbd165569> a crm:E74_Group ;
+    crm:P1_is_identified_by <32902667-01c0-4a6b-8af1-1f00aed1af3f> .
 
-<ae569b5a-4711-4fd7-8109-0dbf2e96e95e> crm:P1_is_identified_by <57a06142-1ac3-4c14-84c0-bc29ea4a7473> .
+<ae569b5a-4711-4fd7-8109-0dbf2e96e95e> a crm:E74_Group ;
+    crm:P1_is_identified_by <57a06142-1ac3-4c14-84c0-bc29ea4a7473> .
 
-<aeafc634-e552-43d3-bae5-120b65492298> crm:P1_is_identified_by <17d10b68-a34a-477a-84f9-acdda4ce1843> .
+<aeafc634-e552-43d3-bae5-120b65492298> a crm:E74_Group ;
+    crm:P1_is_identified_by <17d10b68-a34a-477a-84f9-acdda4ce1843> .
 
-<aec916f6-15f1-4a5e-adaf-33adf5e261db> crm:P1_is_identified_by <0445f83f-ad5f-47c1-a26b-84acf354a7e2> .
+<aec916f6-15f1-4a5e-adaf-33adf5e261db> a crm:E74_Group ;
+    crm:P1_is_identified_by <0445f83f-ad5f-47c1-a26b-84acf354a7e2> .
 
-<af3697ba-9ab3-4874-b9e4-924914b1032b> crm:P1_is_identified_by <e237c805-b118-438c-8fb0-d8eae6260af1> .
+<af3697ba-9ab3-4874-b9e4-924914b1032b> a crm:E74_Group ;
+    crm:P1_is_identified_by <e237c805-b118-438c-8fb0-d8eae6260af1> .
 
-<af5fcfe3-c890-4ec6-864e-f4b7100436d5> crm:P1_is_identified_by <7fd825b9-5a9f-488b-a106-79145d209505> .
+<af5fcfe3-c890-4ec6-864e-f4b7100436d5> a crm:E74_Group ;
+    crm:P1_is_identified_by <7fd825b9-5a9f-488b-a106-79145d209505> .
 
-<af663e11-d8a9-4203-870b-57ee13db88fe> crm:P1_is_identified_by <ae58acff-fc62-43cd-9f43-0c1f1f4916aa> .
+<af663e11-d8a9-4203-870b-57ee13db88fe> a crm:E74_Group ;
+    crm:P1_is_identified_by <ae58acff-fc62-43cd-9f43-0c1f1f4916aa> .
 
-<b0ddc2b5-e0fe-4412-98e5-62a92ee91c19> crm:P1_is_identified_by <251d79d3-a9b9-4f9c-8de4-9d9d07f9fa56> .
+<b0ddc2b5-e0fe-4412-98e5-62a92ee91c19> a crm:E74_Group ;
+    crm:P1_is_identified_by <251d79d3-a9b9-4f9c-8de4-9d9d07f9fa56> .
 
-<b1081aff-5880-41e4-a293-2f33f0232244> crm:P1_is_identified_by <5b0e32d0-d92b-484f-b26f-9ced2eeb39a0> .
+<b1081aff-5880-41e4-a293-2f33f0232244> a crm:E74_Group ;
+    crm:P1_is_identified_by <5b0e32d0-d92b-484f-b26f-9ced2eeb39a0> .
 
-<b13ef541-1445-49d1-ad44-5d81c67a2210> crm:P1_is_identified_by <cbc4219a-edc4-4d3e-bccb-8b92ebd08eb0> .
+<b13ef541-1445-49d1-ad44-5d81c67a2210> a crm:E74_Group ;
+    crm:P1_is_identified_by <cbc4219a-edc4-4d3e-bccb-8b92ebd08eb0> .
 
-<b1809b83-73e4-4779-bbbf-7845330d1dc9> crm:P107_has_current_or_former_member <18b19f56-9915-4217-a689-048fb49d3406> ;
+<b1809b83-73e4-4779-bbbf-7845330d1dc9> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <18b19f56-9915-4217-a689-048fb49d3406> ;
     crm:P1_is_identified_by <fcb4dfff-9ef1-4d6c-a8f6-0062ec9208b5> .
 
-<b240b4c1-4708-47c7-8e37-e156831198d2> crm:P1_is_identified_by <bff5e437-4edc-4a93-a3d8-242b3066699c> .
+<b240b4c1-4708-47c7-8e37-e156831198d2> a crm:E74_Group ;
+    crm:P1_is_identified_by <bff5e437-4edc-4a93-a3d8-242b3066699c> .
 
-<b273cc26-9026-48c3-8705-22660c271bdf> crm:P1_is_identified_by <bfd943e5-d371-4246-a636-b15df19bc2ef> .
+<b273cc26-9026-48c3-8705-22660c271bdf> a crm:E74_Group ;
+    crm:P1_is_identified_by <bfd943e5-d371-4246-a636-b15df19bc2ef> .
 
-<b2cc8890-432d-4ba9-a7aa-89bd2b3b49da> crm:P1_is_identified_by <d0ce3d17-1193-422b-91bf-82a539e7fc99> .
+<b2cc8890-432d-4ba9-a7aa-89bd2b3b49da> a crm:E74_Group ;
+    crm:P1_is_identified_by <d0ce3d17-1193-422b-91bf-82a539e7fc99> .
 
-<b2e8a1a4-3ca4-4bde-9a7a-82ebc18065db> crm:P1_is_identified_by <4e698bf9-1882-425b-8364-264e42ceb00a> .
+<b2e8a1a4-3ca4-4bde-9a7a-82ebc18065db> a crm:E74_Group ;
+    crm:P1_is_identified_by <4e698bf9-1882-425b-8364-264e42ceb00a> .
 
-<b4b2d7aa-e8d9-4608-af62-181972ed8afe> crm:P1_is_identified_by <65003ddc-693a-4638-bf74-97f6385d9916> .
+<b4b2d7aa-e8d9-4608-af62-181972ed8afe> a crm:E74_Group ;
+    crm:P1_is_identified_by <65003ddc-693a-4638-bf74-97f6385d9916> .
 
-<b5303492-3afc-40e5-8881-8a7209b2ec01> crm:P107_has_current_or_former_member <49e878e5-24c8-426d-9e74-92fc9633c893> ;
+<b5303492-3afc-40e5-8881-8a7209b2ec01> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <49e878e5-24c8-426d-9e74-92fc9633c893> ;
     crm:P1_is_identified_by <56f1fce7-f108-48a4-a9fd-6b1e9d4a945d> .
 
-<b57449e8-a890-4b55-a558-59f9fa90d6d2> crm:P1_is_identified_by <c4d725b7-65f1-4d35-9036-7e8080323fd7> .
+<b57449e8-a890-4b55-a558-59f9fa90d6d2> a crm:E74_Group ;
+    crm:P1_is_identified_by <c4d725b7-65f1-4d35-9036-7e8080323fd7> .
 
-<b58de748-37be-497c-bd57-904486ba0f66> crm:P1_is_identified_by <87eb86ca-1453-43a8-bcf7-f79a057be5b2> .
+<b58de748-37be-497c-bd57-904486ba0f66> a crm:E74_Group ;
+    crm:P1_is_identified_by <87eb86ca-1453-43a8-bcf7-f79a057be5b2> .
 
-<b65620ca-35dc-4e90-acbf-ea6f87d56cf2> crm:P1_is_identified_by <00c85265-495d-428e-89b2-ce92c3fa70ff> .
+<b65620ca-35dc-4e90-acbf-ea6f87d56cf2> a crm:E74_Group ;
+    crm:P1_is_identified_by <00c85265-495d-428e-89b2-ce92c3fa70ff> .
 
-<b81036e5-3972-470f-9b69-fa4bde681496> crm:P1_is_identified_by <a58ec43c-ca97-4d27-855b-760066ad2949> .
+<b81036e5-3972-470f-9b69-fa4bde681496> a crm:E74_Group ;
+    crm:P1_is_identified_by <a58ec43c-ca97-4d27-855b-760066ad2949> .
 
-<b8c6f43f-be1f-4d83-a310-105d80b29fe7> crm:P1_is_identified_by <0e0c9ae0-71ad-4656-b524-f2b0f086bb63> .
+<b8c6f43f-be1f-4d83-a310-105d80b29fe7> a crm:E74_Group ;
+    crm:P1_is_identified_by <0e0c9ae0-71ad-4656-b524-f2b0f086bb63> .
 
-<b8fa0340-e7cd-412a-96dd-265d97f9c049> crm:P1_is_identified_by <163e2ae9-2fe3-4bc1-b48b-0e6966728daf> .
+<b8fa0340-e7cd-412a-96dd-265d97f9c049> a crm:E74_Group ;
+    crm:P1_is_identified_by <163e2ae9-2fe3-4bc1-b48b-0e6966728daf> .
 
-<b9034cc0-6a20-4cba-bc25-3fbde580a3af> crm:P1_is_identified_by <59593370-9042-4814-b2e3-1560f4f967db> .
+<b9034cc0-6a20-4cba-bc25-3fbde580a3af> a crm:E74_Group ;
+    crm:P1_is_identified_by <59593370-9042-4814-b2e3-1560f4f967db> .
 
-<b90e5ebc-fcba-4163-8e55-148ad6912813> crm:P1_is_identified_by <b4ed121b-9a7f-4127-aa41-471b436287c8> .
+<b90e5ebc-fcba-4163-8e55-148ad6912813> a crm:E74_Group ;
+    crm:P1_is_identified_by <b4ed121b-9a7f-4127-aa41-471b436287c8> .
 
-<b9c1a040-af12-4470-9b56-08f9e064a21d> crm:P107_has_current_or_former_member <043b6342-e421-40ae-92be-fc77652ae7f4>,
+<b9c1a040-af12-4470-9b56-08f9e064a21d> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <043b6342-e421-40ae-92be-fc77652ae7f4>,
         <08574a0a-086c-4f7a-aa4a-c8c18f7a6bf5>,
         <0f06dece-bc0a-4bb3-9d90-cb23f1b7e72d>,
         <17e7f389-e319-4752-971b-f89435b45b25>,
         <1c34a1ce-4ed0-46e4-a75b-162b35473791>,
         <2f9f1bc1-a224-40e5-b19c-e275068bfdb6>,
-        <32112dbc-16ad-42e1-bb81-95496d5838b2>,
         <50fa0787-3d3f-4b38-90ce-7add74176caa>,
         <62b8c2a3-b939-4130-bf56-31957b4eaa69>,
+        <8ddca2a7-ccfd-48d0-8ba3-6f3a3bc1492a>,
         <a3ab31a3-2ec7-4741-abe0-1faac72a6cfa>,
         <add63bb2-63c6-4296-abd4-3fdbbd165569>,
         <ba1fca42-c7eb-4ae9-8e9d-427dded934c8>,
@@ -3973,54 +4330,70 @@
         <fe412498-405a-4850-8183-ab1e7d69ce23> ;
     crm:P1_is_identified_by <f05e99dd-71d9-4b91-9588-d4cef7fb3418> .
 
-<b9c37535-fefb-4abe-ac1a-05f766f7cc55> crm:P107_has_current_or_former_member <3cee3066-7d68-450c-8b7b-765068d1a896>,
+<b9c37535-fefb-4abe-ac1a-05f766f7cc55> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <3cee3066-7d68-450c-8b7b-765068d1a896>,
         <b9c1a040-af12-4470-9b56-08f9e064a21d>,
         <c645b4a3-5a24-43a9-a354-1dca9af99005> ;
     crm:P1_is_identified_by <74d67a7d-0dfa-496b-b372-0e26af4701a3> .
 
-<ba0efdf1-1647-4058-85fa-4c5af9819d31> crm:P1_is_identified_by <57a0690f-f9a8-48d5-bdaf-6adf724d6f85> .
+<ba0efdf1-1647-4058-85fa-4c5af9819d31> a crm:E74_Group ;
+    crm:P1_is_identified_by <57a0690f-f9a8-48d5-bdaf-6adf724d6f85> .
 
-<ba1fca42-c7eb-4ae9-8e9d-427dded934c8> crm:P1_is_identified_by <66e2d7ad-0dd1-4464-b802-1b4fb57a6e67> .
+<ba1fca42-c7eb-4ae9-8e9d-427dded934c8> a crm:E74_Group ;
+    crm:P1_is_identified_by <66e2d7ad-0dd1-4464-b802-1b4fb57a6e67> .
 
-<ba4c3332-94cc-4f14-be44-c4fd49fce410> crm:P107_has_current_or_former_member <2b879891-6ac4-4e50-bc47-697d4f365846> ;
+<ba4c3332-94cc-4f14-be44-c4fd49fce410> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <2b879891-6ac4-4e50-bc47-697d4f365846> ;
     crm:P1_is_identified_by <4ee208d8-c9a0-457e-a535-5c8ba9abd83a> .
 
-<baa99e05-5380-438c-96e4-d9fc6c899067> crm:P1_is_identified_by <b2ed64f0-913b-45ab-b413-32a7367b42c5> .
+<baa99e05-5380-438c-96e4-d9fc6c899067> a crm:E74_Group ;
+    crm:P1_is_identified_by <b2ed64f0-913b-45ab-b413-32a7367b42c5> .
 
-<bae028b7-8f67-4e51-b01d-0f78b2ffda6f> crm:P1_is_identified_by <9d9891c5-86c9-419d-9a7d-373e8369d8d9> .
+<bae028b7-8f67-4e51-b01d-0f78b2ffda6f> a crm:E74_Group ;
+    crm:P1_is_identified_by <9d9891c5-86c9-419d-9a7d-373e8369d8d9> .
 
-<bb1a36a5-7067-42ec-a1d3-b58615f53c09> crm:P1_is_identified_by <49273cc5-9b4a-4c14-9e70-ef993abf8db1> .
+<bb1a36a5-7067-42ec-a1d3-b58615f53c09> a crm:E74_Group ;
+    crm:P1_is_identified_by <49273cc5-9b4a-4c14-9e70-ef993abf8db1> .
 
-<bd16e6ab-10e2-4703-8dfb-62dd712a6671> crm:P1_is_identified_by <fab6e8d7-f1c3-43ad-8d48-b03b9f1948d0> .
+<bd16e6ab-10e2-4703-8dfb-62dd712a6671> a crm:E74_Group ;
+    crm:P1_is_identified_by <fab6e8d7-f1c3-43ad-8d48-b03b9f1948d0> .
 
-<bd4d2a44-ee60-4a9f-935a-122bb583c50e> crm:P1_is_identified_by <a3f032e8-4b5d-4962-8acf-e83879d0c8a4> .
+<bd4d2a44-ee60-4a9f-935a-122bb583c50e> a crm:E74_Group ;
+    crm:P1_is_identified_by <a3f032e8-4b5d-4962-8acf-e83879d0c8a4> .
 
-<be266cc5-1b35-4d0f-97fa-6d9c0fbae215> crm:P1_is_identified_by <9b3d860e-c981-4340-bd4a-0a81a33d1cec> .
+<be266cc5-1b35-4d0f-97fa-6d9c0fbae215> a crm:E74_Group ;
+    crm:P1_is_identified_by <9b3d860e-c981-4340-bd4a-0a81a33d1cec> .
 
-<befc298c-742f-4ef3-b67f-541e6078c7d5> crm:P107_has_current_or_former_member <597bee35-4b0a-4a55-b1b8-41671d5ecd1c>,
+<befc298c-742f-4ef3-b67f-541e6078c7d5> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <7699d6d3-5e1e-45c7-9af1-03d3082ca6ad>,
         <aec916f6-15f1-4a5e-adaf-33adf5e261db>,
         <c13b78c9-b555-42b3-8252-a61bbbe44d72>,
         <f360dba2-4d4a-43a7-a58d-96be58ac7380> ;
     crm:P1_is_identified_by <f35ef78f-4e16-4bd5-ab15-e16216c6f884> .
 
-<bfd72c8d-3d03-49a1-96d8-8d5e4240f6de> crm:P107_has_current_or_former_member <3dc7a292-9922-4799-b626-af1af43e73ce>,
+<bfd72c8d-3d03-49a1-96d8-8d5e4240f6de> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <3dc7a292-9922-4799-b626-af1af43e73ce>,
         <ad92e27e-43d0-4f7b-bf1a-42bd65334c74>,
         <dec3588b-d5dc-422c-b5ca-11de5072bbdd> ;
     crm:P1_is_identified_by <65522e7b-3c06-4a92-ad8d-f0232e0bf9ac> .
 
-<c09aad4c-904a-4f39-a588-425b7a00158e> crm:P1_is_identified_by <367c7648-2572-458d-8681-e46182f12f19> .
+<c13b78c9-b555-42b3-8252-a61bbbe44d72> a crm:E74_Group ;
+    crm:P1_is_identified_by <75862c48-15c3-4569-8b44-96268e67af89> .
 
-<c13b78c9-b555-42b3-8252-a61bbbe44d72> crm:P1_is_identified_by <75862c48-15c3-4569-8b44-96268e67af89> .
+<c1a0fda1-cb14-4339-867b-9ff1147cddb3> a crm:E74_Group ;
+    crm:P1_is_identified_by <2aeec962-d13d-42a9-9750-94e916bb1cef> .
 
-<c1a0fda1-cb14-4339-867b-9ff1147cddb3> crm:P1_is_identified_by <2aeec962-d13d-42a9-9750-94e916bb1cef> .
+<c249f14d-4a4a-4ee2-99a2-d5c0bdd2de1e> a crm:E74_Group ;
+    crm:P1_is_identified_by <4bd01696-1303-436d-8d67-5843c706408f> .
 
-<c249f14d-4a4a-4ee2-99a2-d5c0bdd2de1e> crm:P1_is_identified_by <4bd01696-1303-436d-8d67-5843c706408f> .
+<c27540a0-b836-4146-85fc-a0d0c36794d9> a crm:E74_Group ;
+    crm:P1_is_identified_by <e7bf13c1-e0eb-4c24-9d6a-cbe9e9f3d706> .
 
-<c27540a0-b836-4146-85fc-a0d0c36794d9> crm:P1_is_identified_by <e7bf13c1-e0eb-4c24-9d6a-cbe9e9f3d706> .
+<c37de413-d011-47c8-a53d-2af9deeef667> a crm:E74_Group ;
+    crm:P1_is_identified_by <b99de970-2719-4d0e-bbc3-4fca852d38c9> .
 
-<c37de413-d011-47c8-a53d-2af9deeef667> crm:P1_is_identified_by <b99de970-2719-4d0e-bbc3-4fca852d38c9> .
-
-<c3e2211a-357e-41fa-8e5a-588f67761d65> crm:P107_has_current_or_former_member <0979dbea-398e-4624-ba6e-82af43cfa032>,
+<c3e2211a-357e-41fa-8e5a-588f67761d65> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <0979dbea-398e-4624-ba6e-82af43cfa032>,
         <1e400499-9037-487f-b5f3-d66ec67cca38>,
         <2cb6ee49-54a5-461b-af88-d4612807cc26>,
         <404e6de0-b345-42a0-8c01-ac26f206af6a>,
@@ -4030,89 +4403,124 @@
         <db79a61f-411e-4753-b1b5-5f0e7ab30466> ;
     crm:P1_is_identified_by <3569fdfe-604b-4054-bf25-a7aaff282e7d> .
 
-<c3ff05e9-4dd6-40ff-be98-8f05805c0f85> crm:P1_is_identified_by <036a81bc-6a67-4842-8fbe-00b22eb261fe> .
+<c3ff05e9-4dd6-40ff-be98-8f05805c0f85> a crm:E74_Group ;
+    crm:P1_is_identified_by <036a81bc-6a67-4842-8fbe-00b22eb261fe> .
 
-<c422aed1-3bc1-4436-94ec-72b3261faa42> crm:P1_is_identified_by <b7a57edc-a60a-4991-9887-81db5e59ef72> .
+<c422aed1-3bc1-4436-94ec-72b3261faa42> a crm:E74_Group ;
+    crm:P1_is_identified_by <b7a57edc-a60a-4991-9887-81db5e59ef72> .
 
-<c4ce5805-e534-419c-b37e-cf6d0bbeecc5> crm:P1_is_identified_by <04262c3d-7b22-4232-b5b6-04c8fa323401> .
+<c4ce5805-e534-419c-b37e-cf6d0bbeecc5> a crm:E74_Group ;
+    crm:P1_is_identified_by <04262c3d-7b22-4232-b5b6-04c8fa323401> .
 
-<c51684a2-2f8a-4394-9bb7-443ce06686d3> crm:P1_is_identified_by <c92883db-5f0d-4601-8187-661e3deecaa1> .
+<c51684a2-2f8a-4394-9bb7-443ce06686d3> a crm:E74_Group ;
+    crm:P1_is_identified_by <c92883db-5f0d-4601-8187-661e3deecaa1> .
 
-<c645b4a3-5a24-43a9-a354-1dca9af99005> crm:P107_has_current_or_former_member <5b1b9dc0-53f5-49d9-a4e2-174dd0e13355>,
+<c645b4a3-5a24-43a9-a354-1dca9af99005> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <5b1b9dc0-53f5-49d9-a4e2-174dd0e13355>,
         <cbff91f8-848e-4136-b95d-2144eca3bb25>,
         <e32e1238-7c67-4553-bfe6-4e763e8ecead> ;
     crm:P1_is_identified_by <7fb4d644-be73-4c9a-9962-6d9fdb9447ea> .
 
-<c67d6dd2-6275-40b8-9c48-8bfa5c78d947> crm:P1_is_identified_by <929cba22-c867-43b4-a878-26a57aca1657> .
+<c67d6dd2-6275-40b8-9c48-8bfa5c78d947> a crm:E74_Group ;
+    crm:P1_is_identified_by <929cba22-c867-43b4-a878-26a57aca1657> .
 
-<c67f2a6f-912c-4120-878c-bd9fccde71c9> crm:P1_is_identified_by <b706159e-55e0-4b87-8f88-a10dded71eac> .
+<c67f2a6f-912c-4120-878c-bd9fccde71c9> a crm:E74_Group ;
+    crm:P1_is_identified_by <b706159e-55e0-4b87-8f88-a10dded71eac> .
 
-<c6f7b4d8-08de-4959-99e0-2b1e7c6b63ad> crm:P1_is_identified_by <46b7271d-1ad5-4e82-837e-c512e6a3867f> .
+<c6f7b4d8-08de-4959-99e0-2b1e7c6b63ad> a crm:E74_Group ;
+    crm:P1_is_identified_by <46b7271d-1ad5-4e82-837e-c512e6a3867f> .
 
-<c70c69ee-04ae-4d3d-8aab-685e0f4c4189> crm:P107_has_current_or_former_member <f6b7de90-0605-41d5-a996-69c85c194851> ;
+<c70c69ee-04ae-4d3d-8aab-685e0f4c4189> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <f6b7de90-0605-41d5-a996-69c85c194851> ;
     crm:P1_is_identified_by <b8f35dbc-f360-4877-ab19-f8d73277e56f> .
 
-<c7a6522c-dfd3-41bc-849a-dfc416d33983> crm:P1_is_identified_by <a0b88f6c-1466-4a86-a5e2-98db27de4c71> .
+<c7a6522c-dfd3-41bc-849a-dfc416d33983> a crm:E74_Group ;
+    crm:P1_is_identified_by <a0b88f6c-1466-4a86-a5e2-98db27de4c71> .
 
-<c7d1b27c-9b3d-4a8f-a442-9f8d3286c43d> crm:P1_is_identified_by <108eaa4c-75c5-4ad2-8a01-48b9d3ff40ed> .
+<c7d1b27c-9b3d-4a8f-a442-9f8d3286c43d> a crm:E74_Group ;
+    crm:P1_is_identified_by <108eaa4c-75c5-4ad2-8a01-48b9d3ff40ed> .
 
-<c89bceb8-a2d6-4421-a23e-337173db1561> crm:P1_is_identified_by <e3d085a3-4a9f-415b-ab55-6ed7756fd768> .
+<c89bceb8-a2d6-4421-a23e-337173db1561> a crm:E74_Group ;
+    crm:P1_is_identified_by <e3d085a3-4a9f-415b-ab55-6ed7756fd768> .
 
-<c9491b2e-72f6-4144-8668-51a6900ad05a> crm:P107_has_current_or_former_member <1486e671-6e2d-404e-bbca-78a1e9a86374> ;
+<c9491b2e-72f6-4144-8668-51a6900ad05a> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <1486e671-6e2d-404e-bbca-78a1e9a86374> ;
     crm:P1_is_identified_by <5d64e3da-fb33-4cbb-9ea4-6184158f3cb1> .
 
-<c98b4580-977a-49be-abf2-93969e9f8c0f> crm:P1_is_identified_by <d0e79004-2db8-47dc-a302-5b9fb8a98acd> .
+<c98b4580-977a-49be-abf2-93969e9f8c0f> a crm:E74_Group ;
+    crm:P1_is_identified_by <d0e79004-2db8-47dc-a302-5b9fb8a98acd> .
 
-<c9ab4c7a-6a57-4bc6-89ae-7c123b79b9cf> crm:P1_is_identified_by <1a272b40-a6c4-4fdd-a083-0a83a3c1464c> .
+<c9ab4c7a-6a57-4bc6-89ae-7c123b79b9cf> a crm:E74_Group ;
+    crm:P1_is_identified_by <1a272b40-a6c4-4fdd-a083-0a83a3c1464c> .
 
-<ca1ad6a8-7cc1-4720-a9d3-0394c8d854a3> crm:P107_has_current_or_former_member <4914b63a-cbca-4981-9edd-9f7c572df12f>,
+<ca1ad6a8-7cc1-4720-a9d3-0394c8d854a3> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <4914b63a-cbca-4981-9edd-9f7c572df12f>,
         <51d71d22-0901-4bdd-873d-42d5d582e67f>,
         <7fd774ab-7249-4d03-8c28-876799fda4f4>,
         <c6f7b4d8-08de-4959-99e0-2b1e7c6b63ad> ;
     crm:P1_is_identified_by <6f12fe0b-5f44-4f47-9a21-ca8d6fc8e7d8> .
 
-<ca729d50-9e27-40a7-b853-69e16e60085d> crm:P1_is_identified_by <9bccafa8-e505-4507-a5b7-7182aa4bcd70> .
+<ca729d50-9e27-40a7-b853-69e16e60085d> a crm:E74_Group ;
+    crm:P1_is_identified_by <9bccafa8-e505-4507-a5b7-7182aa4bcd70> .
 
-<cb22774f-846a-4c72-bbed-87bf6520b5c9> crm:P1_is_identified_by <fa21c408-926e-43f4-8a06-fa2b37a07247> .
+<cb22774f-846a-4c72-bbed-87bf6520b5c9> a crm:E74_Group ;
+    crm:P1_is_identified_by <fa21c408-926e-43f4-8a06-fa2b37a07247> .
 
-<cbff91f8-848e-4136-b95d-2144eca3bb25> crm:P1_is_identified_by <babf8af2-affb-47c2-9805-315ce0776200> .
+<cbff91f8-848e-4136-b95d-2144eca3bb25> a crm:E74_Group ;
+    crm:P1_is_identified_by <babf8af2-affb-47c2-9805-315ce0776200> .
 
-<cc69b5f4-fcca-4fe7-b836-da57d349a654> crm:P1_is_identified_by <c9ed917b-b26d-4e68-81fd-c4216c7b94bb> .
+<cc69b5f4-fcca-4fe7-b836-da57d349a654> a crm:E74_Group ;
+    crm:P1_is_identified_by <c9ed917b-b26d-4e68-81fd-c4216c7b94bb> .
 
-<cc99bf15-58d6-44e1-8650-bc5c82618f7c> crm:P1_is_identified_by <bd3623ab-6a29-4c66-bafb-d2ca0e3b5375> .
+<cc99bf15-58d6-44e1-8650-bc5c82618f7c> a crm:E74_Group ;
+    crm:P1_is_identified_by <bd3623ab-6a29-4c66-bafb-d2ca0e3b5375> .
 
-<cd6178ba-87f2-4dc5-9cf6-7d25d944a633> crm:P1_is_identified_by <b4cd4316-d287-41e4-a2ae-65b3c5f20a69> .
+<cd6178ba-87f2-4dc5-9cf6-7d25d944a633> a crm:E74_Group ;
+    crm:P1_is_identified_by <b4cd4316-d287-41e4-a2ae-65b3c5f20a69> .
 
-<ceb11315-d3aa-4756-b946-f06c034afb2a> crm:P1_is_identified_by <b7650f5e-2fbe-49a5-9168-851df1be1baa> .
+<ceb11315-d3aa-4756-b946-f06c034afb2a> a crm:E74_Group ;
+    crm:P1_is_identified_by <b7650f5e-2fbe-49a5-9168-851df1be1baa> .
 
-<cf20125d-28ed-4f02-9ca9-ad8240bc2c85> crm:P1_is_identified_by <0bc71ed4-eac5-45aa-8ebd-0c3649bd8e1c> .
+<cf20125d-28ed-4f02-9ca9-ad8240bc2c85> a crm:E74_Group ;
+    crm:P1_is_identified_by <0bc71ed4-eac5-45aa-8ebd-0c3649bd8e1c> .
 
-<cf4c6fef-7008-4d2d-9c9b-26a94d20da4c> crm:P107_has_current_or_former_member <16300887-654c-4f4f-8abc-cbc7d87e9649>,
+<cf4c6fef-7008-4d2d-9c9b-26a94d20da4c> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <16300887-654c-4f4f-8abc-cbc7d87e9649>,
         <25a30bac-ee15-4f33-a8e2-fdac3f5ac1ce>,
         <60e6e907-8289-4078-8ab6-a95d5c182624>,
         <c9491b2e-72f6-4144-8668-51a6900ad05a> ;
     crm:P1_is_identified_by <2d516105-ac44-4201-95ef-dc5e8e01477a> .
 
-<d04a84b0-1ee1-4693-9885-6ca0db03e5e9> crm:P1_is_identified_by <9313c8d3-5283-492a-b096-b30541635ecd> .
+<d04a84b0-1ee1-4693-9885-6ca0db03e5e9> a crm:E74_Group ;
+    crm:P1_is_identified_by <9313c8d3-5283-492a-b096-b30541635ecd> .
 
-<d10c5ab1-05a6-441d-93e9-08f345b100c8> crm:P107_has_current_or_former_member <52c3455f-488a-490f-964c-8c9beacaa2fa> ;
+<d10c5ab1-05a6-441d-93e9-08f345b100c8> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <52c3455f-488a-490f-964c-8c9beacaa2fa> ;
     crm:P1_is_identified_by <b33d34da-a633-41a0-80f6-fc500f0ce7b7> .
 
-<d26c5d3f-587b-45f2-9714-26fbfdb7a575> crm:P1_is_identified_by <7090353a-f85c-4ecc-833b-44658493eefd> .
+<d26c5d3f-587b-45f2-9714-26fbfdb7a575> a crm:E74_Group ;
+    crm:P1_is_identified_by <7090353a-f85c-4ecc-833b-44658493eefd> .
 
-<d28b39e7-8160-4846-895d-34a3c0b91a34> crm:P1_is_identified_by <43334e88-4b14-42b9-a3bd-8e28c1c1a98c> .
+<d28b39e7-8160-4846-895d-34a3c0b91a34> a crm:E74_Group ;
+    crm:P1_is_identified_by <43334e88-4b14-42b9-a3bd-8e28c1c1a98c> .
 
-<d292aff6-9e56-4f35-a2b2-2ab40395e3f8> crm:P1_is_identified_by <730f1488-e4a7-40c2-b3eb-906a404c8fa5> .
+<d292aff6-9e56-4f35-a2b2-2ab40395e3f8> a crm:E74_Group ;
+    crm:P1_is_identified_by <730f1488-e4a7-40c2-b3eb-906a404c8fa5> .
 
-<d29addb6-4adc-435f-8843-3091fa828dd0> crm:P1_is_identified_by <40159923-1172-47b9-bfb9-f3f391664628> .
+<d29addb6-4adc-435f-8843-3091fa828dd0> a crm:E74_Group ;
+    crm:P1_is_identified_by <40159923-1172-47b9-bfb9-f3f391664628> .
 
-<d2f28b0d-6e85-4340-ab6b-2f87242e47a7> crm:P1_is_identified_by <55ad4982-9f18-43ae-b032-dc88df9efab1> .
+<d2f28b0d-6e85-4340-ab6b-2f87242e47a7> a crm:E74_Group ;
+    crm:P1_is_identified_by <55ad4982-9f18-43ae-b032-dc88df9efab1> .
 
-<d2fcd272-792b-468e-b969-144060318488> crm:P1_is_identified_by <3099b3eb-db04-4e6a-9da9-9d05f20d51ad> .
+<d2fcd272-792b-468e-b969-144060318488> a crm:E74_Group ;
+    crm:P1_is_identified_by <3099b3eb-db04-4e6a-9da9-9d05f20d51ad> .
 
-<d3b86738-719b-4b4f-a3f0-96a582f00dac> crm:P1_is_identified_by <cf7a8cfd-62e8-454c-ac43-d633ed561a65> .
+<d3b86738-719b-4b4f-a3f0-96a582f00dac> a crm:E74_Group ;
+    crm:P1_is_identified_by <cf7a8cfd-62e8-454c-ac43-d633ed561a65> .
 
-<d3f6e1ff-ec47-439a-9a63-fd5ea0520c74> crm:P107_has_current_or_former_member <1a10481a-36ce-4bc6-b01d-bdbfda282a6d>,
+<d3f6e1ff-ec47-439a-9a63-fd5ea0520c74> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <1a10481a-36ce-4bc6-b01d-bdbfda282a6d>,
         <6bafb21e-660d-486c-8e4f-cc755c12eea7>,
         <8a361628-e37c-4221-be6d-a901bcd9cf31>,
         <a9baf539-ec5d-425a-a5e8-760f15ff0514>,
@@ -4123,190 +4531,273 @@
         <f73644ee-114f-4fe8-9ccf-8c3a4dab3f2a> ;
     crm:P1_is_identified_by <f2724d31-9b05-41aa-8bd8-a76a68f0b000> .
 
-<d4273e6d-f7c0-4766-9a8c-a56d9d2c4a5c> crm:P107_has_current_or_former_member <205725be-4a25-4128-bdc8-d8ee790026c6> ;
+<d4273e6d-f7c0-4766-9a8c-a56d9d2c4a5c> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <205725be-4a25-4128-bdc8-d8ee790026c6> ;
     crm:P1_is_identified_by <4e83fdbc-559a-49cc-8de5-99fb7d0228e3> .
 
-<d453e9ab-8b35-4769-895c-c74f4ef43aac> crm:P1_is_identified_by <3ddb8ebf-55fe-43ca-97d7-b7d7301fecac> .
+<d453e9ab-8b35-4769-895c-c74f4ef43aac> a crm:E74_Group ;
+    crm:P1_is_identified_by <3ddb8ebf-55fe-43ca-97d7-b7d7301fecac> .
 
-<d4a4ee3c-cc60-4ec0-b825-f9543d66798c> crm:P107_has_current_or_former_member <cf20125d-28ed-4f02-9ca9-ad8240bc2c85> ;
+<d4a4ee3c-cc60-4ec0-b825-f9543d66798c> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <cf20125d-28ed-4f02-9ca9-ad8240bc2c85> ;
     crm:P1_is_identified_by <8e9873d9-1084-42f4-8154-ed92c8458eac> .
 
-<d5acea13-de31-422b-9025-5f9861df4463> crm:P107_has_current_or_former_member <70f80408-a35e-4d4b-8a1e-b619c081076c>,
+<d5acea13-de31-422b-9025-5f9861df4463> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <70f80408-a35e-4d4b-8a1e-b619c081076c>,
         <9aac9efb-2a7c-4106-acb9-b25c24e3c97c> ;
     crm:P1_is_identified_by <2cbe67ce-2849-4d07-8fc7-5303615890d0> .
 
-<d707a21f-84fe-4d3b-80d3-4c8c5268180c> crm:P1_is_identified_by <91cce201-bb7b-4466-8b8d-15e7b796c516> .
+<d707a21f-84fe-4d3b-80d3-4c8c5268180c> a crm:E74_Group ;
+    crm:P1_is_identified_by <91cce201-bb7b-4466-8b8d-15e7b796c516> .
 
-<d7a66bc7-cbd6-4390-9a29-86942dc3dc37> crm:P1_is_identified_by <722157e7-6ecd-4845-a172-06dbbde6f1f9> .
+<d7a66bc7-cbd6-4390-9a29-86942dc3dc37> a crm:E74_Group ;
+    crm:P1_is_identified_by <722157e7-6ecd-4845-a172-06dbbde6f1f9> .
 
-<d891e2ec-784a-443c-99b9-034fd767ff9b> crm:P107_has_current_or_former_member <4b035b59-7abc-4f9c-b35f-58dec7da855f> ;
+<d891e2ec-784a-443c-99b9-034fd767ff9b> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <4b035b59-7abc-4f9c-b35f-58dec7da855f> ;
     crm:P1_is_identified_by <7376e309-0116-45e9-bfa1-993afa673b0a> .
 
-<d898b4e3-8b7c-41bc-ae0a-a6074d643008> crm:P1_is_identified_by <c06a8ed3-f622-468a-85c6-6100f5ebce30> .
+<d898b4e3-8b7c-41bc-ae0a-a6074d643008> a crm:E74_Group ;
+    crm:P1_is_identified_by <c06a8ed3-f622-468a-85c6-6100f5ebce30> .
 
-<d8be4e08-57cf-4c4c-af47-55184c3e4237> crm:P1_is_identified_by <3fb68066-7575-4dab-beaa-180260f8dfd0> .
+<d8be4e08-57cf-4c4c-af47-55184c3e4237> a crm:E74_Group ;
+    crm:P1_is_identified_by <3fb68066-7575-4dab-beaa-180260f8dfd0> .
 
-<d9dda824-3927-45c5-9aa7-be73d5d7ff38> crm:P1_is_identified_by <697849cc-eaa6-4b15-b0a4-1cfa01a67f88> .
+<d9dda824-3927-45c5-9aa7-be73d5d7ff38> a crm:E74_Group ;
+    crm:P1_is_identified_by <697849cc-eaa6-4b15-b0a4-1cfa01a67f88> .
 
-<daa92091-6232-4b05-a02b-60cf5a6bd6b6> crm:P1_is_identified_by <1b1a08c0-6d5f-4733-a614-5e124d4bfd3f> .
+<daa92091-6232-4b05-a02b-60cf5a6bd6b6> a crm:E74_Group ;
+    crm:P1_is_identified_by <1b1a08c0-6d5f-4733-a614-5e124d4bfd3f> .
 
-<db26cf8e-8bbf-4a0c-a927-dfc677988a54> crm:P1_is_identified_by <96f7e473-4ae8-4bfd-b6e5-790b0bfaafe6> .
+<db26cf8e-8bbf-4a0c-a927-dfc677988a54> a crm:E74_Group ;
+    crm:P1_is_identified_by <96f7e473-4ae8-4bfd-b6e5-790b0bfaafe6> .
 
-<db79a61f-411e-4753-b1b5-5f0e7ab30466> crm:P107_has_current_or_former_member <494531cd-eb11-4794-b3ba-59ed04457edf>,
+<db79a61f-411e-4753-b1b5-5f0e7ab30466> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <494531cd-eb11-4794-b3ba-59ed04457edf>,
         <aeafc634-e552-43d3-bae5-120b65492298> ;
     crm:P1_is_identified_by <6ea6e9d7-447d-4a5b-89b4-31e7eb27c206> .
 
-<dbb9c4eb-07ed-42d7-a926-7fdca34bc316> crm:P1_is_identified_by <3a05888f-133a-4196-95ba-86edd98df91d> .
+<dbb9c4eb-07ed-42d7-a926-7fdca34bc316> a crm:E74_Group ;
+    crm:P1_is_identified_by <3a05888f-133a-4196-95ba-86edd98df91d> .
 
-<dbdf29c1-6113-4811-9292-2d0897c91276> crm:P1_is_identified_by <4eda0a1d-2164-4057-b158-dd16d3c4c50e> .
+<dbdf29c1-6113-4811-9292-2d0897c91276> a crm:E74_Group ;
+    crm:P1_is_identified_by <4eda0a1d-2164-4057-b158-dd16d3c4c50e> .
 
-<dc4f9e85-e9c9-46a7-af27-d65b610595de> crm:P1_is_identified_by <452b4814-7174-425a-8084-1955c7ddb6a1> .
+<dc4f9e85-e9c9-46a7-af27-d65b610595de> a crm:E74_Group ;
+    crm:P1_is_identified_by <452b4814-7174-425a-8084-1955c7ddb6a1> .
 
-<dec3588b-d5dc-422c-b5ca-11de5072bbdd> crm:P107_has_current_or_former_member <5ee19c44-c76d-4627-8203-30642e5ba98b> ;
+<dec3588b-d5dc-422c-b5ca-11de5072bbdd> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <5ee19c44-c76d-4627-8203-30642e5ba98b> ;
     crm:P1_is_identified_by <9da73153-65fd-4ac8-a9ff-3be7fc2a0b98> .
 
-<dfa615ea-14f2-4f90-8ea7-258cdd8d9d6d> crm:P1_is_identified_by <a11b9995-3ddf-4d6b-bc9d-d8d6cee3c491> .
+<dfa615ea-14f2-4f90-8ea7-258cdd8d9d6d> a crm:E74_Group ;
+    crm:P1_is_identified_by <a11b9995-3ddf-4d6b-bc9d-d8d6cee3c491> .
 
-<e0231d49-43f7-4920-85e0-8cab6cd5d3d2> crm:P1_is_identified_by <2414f5aa-df78-4116-8ead-a89087a89d20> .
+<e0231d49-43f7-4920-85e0-8cab6cd5d3d2> a crm:E74_Group ;
+    crm:P1_is_identified_by <2414f5aa-df78-4116-8ead-a89087a89d20> .
 
-<e085cf80-0195-47ce-9558-cd7fe54ae75d> crm:P1_is_identified_by <4365eefd-2f07-4657-bfcc-7a83f49b1cd9> .
+<e085cf80-0195-47ce-9558-cd7fe54ae75d> a crm:E74_Group ;
+    crm:P1_is_identified_by <4365eefd-2f07-4657-bfcc-7a83f49b1cd9> .
 
-<e194a95c-15d2-47fa-8b00-32578569258b> crm:P1_is_identified_by <81964769-8983-4a43-88ae-511a8334cbb4> .
+<e194a95c-15d2-47fa-8b00-32578569258b> a crm:E74_Group ;
+    crm:P1_is_identified_by <81964769-8983-4a43-88ae-511a8334cbb4> .
 
-<e32e1238-7c67-4553-bfe6-4e763e8ecead> crm:P1_is_identified_by <062656ca-b88a-4811-81ad-4f42c7368207> .
+<e32e1238-7c67-4553-bfe6-4e763e8ecead> a crm:E74_Group ;
+    crm:P1_is_identified_by <062656ca-b88a-4811-81ad-4f42c7368207> .
 
-<e39c9bbf-93e4-44cb-8bab-b215e9b1cfc8> crm:P1_is_identified_by <6418c190-22dc-44f3-ad1e-7d2bf916629b> .
+<e39c9bbf-93e4-44cb-8bab-b215e9b1cfc8> a crm:E74_Group ;
+    crm:P1_is_identified_by <6418c190-22dc-44f3-ad1e-7d2bf916629b> .
 
-<e3dbde33-43e0-48c0-b54c-c1a95e62c8fe> crm:P1_is_identified_by <b524a72b-e8e2-410d-8cf2-d74431a2be00> .
+<e3dbde33-43e0-48c0-b54c-c1a95e62c8fe> a crm:E74_Group ;
+    crm:P1_is_identified_by <b524a72b-e8e2-410d-8cf2-d74431a2be00> .
 
-<e3f89154-8884-430d-a71f-188a2efaf3c2> crm:P1_is_identified_by <589ffc04-0fbc-4d69-89b3-a9dc77a5a354> .
+<e3f89154-8884-430d-a71f-188a2efaf3c2> a crm:E74_Group ;
+    crm:P1_is_identified_by <589ffc04-0fbc-4d69-89b3-a9dc77a5a354> .
 
-<e4511b00-5db6-4dbe-8487-8e793f934f3a> crm:P1_is_identified_by <6abfb27a-952a-4b60-9cbc-d08298cc8cff> .
+<e4511b00-5db6-4dbe-8487-8e793f934f3a> a crm:E74_Group ;
+    crm:P1_is_identified_by <6abfb27a-952a-4b60-9cbc-d08298cc8cff> .
 
-<e4606c66-b8d5-4f8c-8671-8733caa9d029> crm:P1_is_identified_by <2eafde01-cab1-4a2a-b636-803f2d928775> .
+<e4606c66-b8d5-4f8c-8671-8733caa9d029> a crm:E74_Group ;
+    crm:P1_is_identified_by <2eafde01-cab1-4a2a-b636-803f2d928775> .
 
-<e58d8f8c-c096-4cc0-b208-83e99d1fd9af> crm:P1_is_identified_by <bb4a0575-759d-4cfd-a019-ba68094fd21a> .
+<e58d8f8c-c096-4cc0-b208-83e99d1fd9af> a crm:E74_Group ;
+    crm:P1_is_identified_by <bb4a0575-759d-4cfd-a019-ba68094fd21a> .
 
-<e5c0d130-5f91-4752-898e-f7f709c5dcd3> crm:P1_is_identified_by <6f6d220a-4d4b-409f-b8d5-94eac942f0c1> .
+<e5c0d130-5f91-4752-898e-f7f709c5dcd3> a crm:E74_Group ;
+    crm:P1_is_identified_by <6f6d220a-4d4b-409f-b8d5-94eac942f0c1> .
 
-<e63d83eb-de15-4645-a69d-703e281f4b8e> crm:P107_has_current_or_former_member <00b1671a-04ee-4d73-9422-51555e636488>,
+<e63d83eb-de15-4645-a69d-703e281f4b8e> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <00b1671a-04ee-4d73-9422-51555e636488>,
         <6ca7ad1e-556e-493a-b985-4824083c2f6d>,
         <8e0cbafa-18fb-447c-9288-b4823d405c9f>,
         <b57449e8-a890-4b55-a558-59f9fa90d6d2>,
         <c67d6dd2-6275-40b8-9c48-8bfa5c78d947> ;
     crm:P1_is_identified_by <6fdab3d6-3bd2-42b3-8d52-31610325488d> .
 
-<e6c4fab2-9d4a-4be4-9636-3387da4a88bd> crm:P1_is_identified_by <e9fd00ce-d912-4d8d-88d7-95fdcedba99a> .
+<e6c4fab2-9d4a-4be4-9636-3387da4a88bd> a crm:E74_Group ;
+    crm:P1_is_identified_by <e9fd00ce-d912-4d8d-88d7-95fdcedba99a> .
 
-<e71f9486-68ba-4e24-a387-fd145b4f0d68> crm:P107_has_current_or_former_member <63660440-8f08-4e06-af48-23f2a6277232>,
+<e71f9486-68ba-4e24-a387-fd145b4f0d68> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <63660440-8f08-4e06-af48-23f2a6277232>,
         <702e319c-d69c-4222-93a2-12d87b840a29>,
         <b5303492-3afc-40e5-8881-8a7209b2ec01> ;
     crm:P1_is_identified_by <8fc2729c-2d51-403c-9b54-9e5c9148e38d> .
 
-<e7b3b6cb-7e34-46ab-8998-6cea09470d77> crm:P1_is_identified_by <08116df2-6d7d-4085-82f7-5209e368707c> .
+<e7b3b6cb-7e34-46ab-8998-6cea09470d77> a crm:E74_Group ;
+    crm:P1_is_identified_by <08116df2-6d7d-4085-82f7-5209e368707c> .
 
-<e7cc272a-529f-4aff-bbdd-fc2a1599702a> crm:P1_is_identified_by <8908150f-cd6b-4271-a917-65f68a57d5cd> .
+<e7cc272a-529f-4aff-bbdd-fc2a1599702a> a crm:E74_Group ;
+    crm:P1_is_identified_by <8908150f-cd6b-4271-a917-65f68a57d5cd> .
 
-<e82ee1b8-8877-4288-9d71-e8c9723da0e1> crm:P1_is_identified_by <b5c0e8cc-5757-4257-8b73-b53f997630fe> .
+<e82ee1b8-8877-4288-9d71-e8c9723da0e1> a crm:E74_Group ;
+    crm:P1_is_identified_by <b5c0e8cc-5757-4257-8b73-b53f997630fe> .
 
-<e8730252-7a73-443c-b2bf-a4bf6d29ad0a> crm:P1_is_identified_by <7fd06516-cafe-4a8b-b4f3-0dd301c2760d> .
+<e8730252-7a73-443c-b2bf-a4bf6d29ad0a> a crm:E74_Group ;
+    crm:P1_is_identified_by <7fd06516-cafe-4a8b-b4f3-0dd301c2760d> .
 
-<e8af717b-4664-4097-ba8a-cae3ea437676> crm:P1_is_identified_by <4f0ff478-66f3-4d7c-a945-65368029d441> .
+<e8af717b-4664-4097-ba8a-cae3ea437676> a crm:E74_Group ;
+    crm:P1_is_identified_by <4f0ff478-66f3-4d7c-a945-65368029d441> .
 
-<e973b4db-db34-4f04-b186-5ec773758a05> crm:P1_is_identified_by <c82b3b6d-fd52-4db3-9fa3-9e2a8a7809e1> .
+<e973b4db-db34-4f04-b186-5ec773758a05> a crm:E74_Group ;
+    crm:P1_is_identified_by <c82b3b6d-fd52-4db3-9fa3-9e2a8a7809e1> .
 
-<e97cab34-267e-4d92-9b1f-a760b0629d53> crm:P1_is_identified_by <1d3e2daf-0a06-44a5-9133-2032952739d1> .
+<e97cab34-267e-4d92-9b1f-a760b0629d53> a crm:E74_Group ;
+    crm:P1_is_identified_by <1d3e2daf-0a06-44a5-9133-2032952739d1> .
 
-<e9defca1-e937-4398-b58c-34bc65cc6c4e> crm:P1_is_identified_by <7101f943-e0e2-42af-8758-70a46f1944d2> .
+<e9defca1-e937-4398-b58c-34bc65cc6c4e> a crm:E74_Group ;
+    crm:P1_is_identified_by <7101f943-e0e2-42af-8758-70a46f1944d2> .
 
-<ea1ed946-8ab9-419d-84b1-b8ebdb4abfc0> crm:P1_is_identified_by <4b5f21e1-965e-4f65-9450-b6cbb7700ade> .
+<ea1ed946-8ab9-419d-84b1-b8ebdb4abfc0> a crm:E74_Group ;
+    crm:P1_is_identified_by <4b5f21e1-965e-4f65-9450-b6cbb7700ade> .
 
-<eb882147-3fc8-494f-ad0b-58041ef43d09> crm:P1_is_identified_by <6ac7e1fc-5902-4be1-81fc-3e4d348c6816> .
+<eb882147-3fc8-494f-ad0b-58041ef43d09> a crm:E74_Group ;
+    crm:P1_is_identified_by <6ac7e1fc-5902-4be1-81fc-3e4d348c6816> .
 
-<ebb7754c-a256-42e0-b497-e9b14bc9d563> crm:P1_is_identified_by <4153dad9-0f91-47c2-88bb-f1c329399757> .
+<ebb7754c-a256-42e0-b497-e9b14bc9d563> a crm:E74_Group ;
+    crm:P1_is_identified_by <4153dad9-0f91-47c2-88bb-f1c329399757> .
 
-<ec63475b-d727-450a-b62f-47a34acbb361> crm:P1_is_identified_by <493d7e49-201a-40dc-8be6-0b7d69b3d62e> .
+<ec63475b-d727-450a-b62f-47a34acbb361> a crm:E74_Group ;
+    crm:P1_is_identified_by <493d7e49-201a-40dc-8be6-0b7d69b3d62e> .
 
-<ecd51512-e7c8-4472-a57e-069fdd22ca84> crm:P1_is_identified_by <f170d9f7-8347-41bc-8f61-cdcc59667b67> .
+<ecd51512-e7c8-4472-a57e-069fdd22ca84> a crm:E74_Group ;
+    crm:P1_is_identified_by <f170d9f7-8347-41bc-8f61-cdcc59667b67> .
 
-<ee69d983-aa43-4e23-b773-2f4a066aade7> crm:P1_is_identified_by <a66d3f71-5d4d-46d0-bfc4-5d9c4aa292ee> .
+<ee69d983-aa43-4e23-b773-2f4a066aade7> a crm:E74_Group ;
+    crm:P1_is_identified_by <a66d3f71-5d4d-46d0-bfc4-5d9c4aa292ee> .
 
-<eeddbf1f-3a21-49af-b704-52d9fad51a01> crm:P1_is_identified_by <a15f6213-17d1-4abc-b0fe-5029a13bf40b> .
+<eeddbf1f-3a21-49af-b704-52d9fad51a01> a crm:E74_Group ;
+    crm:P1_is_identified_by <a15f6213-17d1-4abc-b0fe-5029a13bf40b> .
 
-<eef9fa86-bc07-4f29-906a-b85ab309839e> crm:P1_is_identified_by <18528f50-dd29-4a45-86e1-f8f18fabe26d> .
+<eef9fa86-bc07-4f29-906a-b85ab309839e> a crm:E74_Group ;
+    crm:P1_is_identified_by <18528f50-dd29-4a45-86e1-f8f18fabe26d> .
 
-<ef76dd62-beb5-49e8-9934-26443cfccb09> crm:P1_is_identified_by <aa365c7e-c736-455e-842a-f4d816a463fd> .
+<ef76dd62-beb5-49e8-9934-26443cfccb09> a crm:E74_Group ;
+    crm:P1_is_identified_by <aa365c7e-c736-455e-842a-f4d816a463fd> .
 
-<f08b67cd-9990-4ef4-bc22-7012bd49df2b> crm:P1_is_identified_by <9df45026-ef3b-45dc-9f6d-fae443850ca7> .
+<f08b67cd-9990-4ef4-bc22-7012bd49df2b> a crm:E74_Group ;
+    crm:P1_is_identified_by <9df45026-ef3b-45dc-9f6d-fae443850ca7> .
 
-<f099f065-6ce6-4546-a2ed-5a8f218eb7fc> crm:P1_is_identified_by <d2a1afea-ca52-47d2-8329-3978e662dc01> .
+<f099f065-6ce6-4546-a2ed-5a8f218eb7fc> a crm:E74_Group ;
+    crm:P1_is_identified_by <d2a1afea-ca52-47d2-8329-3978e662dc01> .
 
-<f0be9483-c6c6-4886-b00e-285a79b407b3> crm:P1_is_identified_by <9fc710ab-cb98-4705-bb0e-44dcf4658cf9> .
+<f0be9483-c6c6-4886-b00e-285a79b407b3> a crm:E74_Group ;
+    crm:P1_is_identified_by <9fc710ab-cb98-4705-bb0e-44dcf4658cf9> .
 
-<f360dba2-4d4a-43a7-a58d-96be58ac7380> crm:P1_is_identified_by <e2b6a5ab-ecec-408a-a954-f0bbcfefaa38> .
+<f360dba2-4d4a-43a7-a58d-96be58ac7380> a crm:E74_Group ;
+    crm:P1_is_identified_by <e2b6a5ab-ecec-408a-a954-f0bbcfefaa38> .
 
-<f3efff15-0a41-4441-900e-86bafc404e8b> crm:P1_is_identified_by <b4d79ae4-c4b5-46cf-99cb-1c400b53c934> .
+<f3efff15-0a41-4441-900e-86bafc404e8b> a crm:E74_Group ;
+    crm:P1_is_identified_by <b4d79ae4-c4b5-46cf-99cb-1c400b53c934> .
 
-<f4214c31-f703-4c01-a19c-d27f30b4b82f> crm:P1_is_identified_by <96b3c59a-f1f9-4f4f-9108-25fbe8cd92b7> .
+<f4214c31-f703-4c01-a19c-d27f30b4b82f> a crm:E74_Group ;
+    crm:P1_is_identified_by <96b3c59a-f1f9-4f4f-9108-25fbe8cd92b7> .
 
-<f44eb71b-55ca-4354-8ad7-6573989f9a89> crm:P1_is_identified_by <175b5d75-9388-4cd0-8dd2-a4d754e86060> .
+<f44eb71b-55ca-4354-8ad7-6573989f9a89> a crm:E74_Group ;
+    crm:P1_is_identified_by <175b5d75-9388-4cd0-8dd2-a4d754e86060> .
 
-<f46f37d8-ab3e-4bc2-95c4-7bea52f0589c> crm:P1_is_identified_by <cb64256e-96ae-4836-ade2-cc6c746b3471> .
+<f46f37d8-ab3e-4bc2-95c4-7bea52f0589c> a crm:E74_Group ;
+    crm:P1_is_identified_by <cb64256e-96ae-4836-ade2-cc6c746b3471> .
 
-<f482cc92-6836-4f91-90d2-c1f9eb31ab79> crm:P1_is_identified_by <4b850063-d188-458c-9525-059127b33add> .
+<f482cc92-6836-4f91-90d2-c1f9eb31ab79> a crm:E74_Group ;
+    crm:P1_is_identified_by <4b850063-d188-458c-9525-059127b33add> .
 
-<f54b0fff-d2c9-47ff-8de0-44e3d9d9e16d> crm:P1_is_identified_by <6e5f8317-af0a-4162-bb7d-a464f5660142> .
+<f54b0fff-d2c9-47ff-8de0-44e3d9d9e16d> a crm:E74_Group ;
+    crm:P1_is_identified_by <6e5f8317-af0a-4162-bb7d-a464f5660142> .
 
-<f5eb6cd5-304c-489d-bc70-e4bff4389805> crm:P1_is_identified_by <0dc4ca2c-3f1f-4510-9f29-6196a6f0554a> .
+<f5eb6cd5-304c-489d-bc70-e4bff4389805> a crm:E74_Group ;
+    crm:P1_is_identified_by <0dc4ca2c-3f1f-4510-9f29-6196a6f0554a> .
 
-<f61ee1db-5894-48c0-aed5-32307b12f202> crm:P1_is_identified_by <fa3f2893-bb80-4046-91a2-b1982444e1c5> .
+<f61ee1db-5894-48c0-aed5-32307b12f202> a crm:E74_Group ;
+    crm:P1_is_identified_by <fa3f2893-bb80-4046-91a2-b1982444e1c5> .
 
-<f64edbd0-b550-4fb0-a6a3-f4e825b06de2> crm:P1_is_identified_by <300c5556-2efb-4cc1-a56a-636544bef74a> .
+<f64edbd0-b550-4fb0-a6a3-f4e825b06de2> a crm:E74_Group ;
+    crm:P1_is_identified_by <300c5556-2efb-4cc1-a56a-636544bef74a> .
 
-<f6b7de90-0605-41d5-a996-69c85c194851> crm:P1_is_identified_by <fc5ec309-b04b-49ed-807c-a1f4f47a6f4f> .
+<f6b7de90-0605-41d5-a996-69c85c194851> a crm:E74_Group ;
+    crm:P1_is_identified_by <fc5ec309-b04b-49ed-807c-a1f4f47a6f4f> .
 
-<f73644ee-114f-4fe8-9ccf-8c3a4dab3f2a> crm:P107_has_current_or_former_member <1d8c5f59-4c97-47c9-950c-22c1cf69a565>,
+<f73644ee-114f-4fe8-9ccf-8c3a4dab3f2a> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <1d8c5f59-4c97-47c9-950c-22c1cf69a565>,
         <d891e2ec-784a-443c-99b9-034fd767ff9b> ;
     crm:P1_is_identified_by <5c0c5211-c1db-440f-89e3-0e345571a3e2> .
 
-<f89290e1-8659-4390-b516-8393be17e396> crm:P1_is_identified_by <2f02a03c-0e22-4834-b8bd-94483cbab7a3> .
+<f89290e1-8659-4390-b516-8393be17e396> a crm:E74_Group ;
+    crm:P1_is_identified_by <2f02a03c-0e22-4834-b8bd-94483cbab7a3> .
 
-<f920975f-194b-4c17-840d-96e78ca8bcbb> crm:P1_is_identified_by <9b18c088-4337-4c3b-a011-4658058d8b91> .
+<f920975f-194b-4c17-840d-96e78ca8bcbb> a crm:E74_Group ;
+    crm:P1_is_identified_by <9b18c088-4337-4c3b-a011-4658058d8b91> .
 
-<f9a24962-0612-444f-8f60-6fec1c5cfa15> crm:P1_is_identified_by <e78ac531-7d53-4e88-84a6-a44225a552fe> .
+<f9a24962-0612-444f-8f60-6fec1c5cfa15> a crm:E74_Group ;
+    crm:P1_is_identified_by <e78ac531-7d53-4e88-84a6-a44225a552fe> .
 
-<f9e07caf-6593-484d-a788-d59d4e6284e9> crm:P1_is_identified_by <be15c9ac-bc0e-4027-9224-7ce5b6245905> .
+<f9e07caf-6593-484d-a788-d59d4e6284e9> a crm:E74_Group ;
+    crm:P1_is_identified_by <be15c9ac-bc0e-4027-9224-7ce5b6245905> .
 
-<faf194d5-cc16-4e9c-b460-4f42bf4f48aa> crm:P1_is_identified_by <0280a508-8590-4892-bf5e-2a1c3bdf4850> .
+<faf194d5-cc16-4e9c-b460-4f42bf4f48aa> a crm:E74_Group ;
+    crm:P1_is_identified_by <0280a508-8590-4892-bf5e-2a1c3bdf4850> .
 
-<fbf53967-1a32-4939-999f-11852d2d0702> crm:P107_has_current_or_former_member <078b7c93-eec4-4a84-add1-23556db6bb38> ;
+<fbf53967-1a32-4939-999f-11852d2d0702> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <078b7c93-eec4-4a84-add1-23556db6bb38> ;
     crm:P1_is_identified_by <d0abdb0f-1e3e-4b8a-b641-97db06cabd97> .
 
-<fbf9ed9e-5fae-4ee1-a73d-1cb64583ddda> crm:P1_is_identified_by <03010f53-0537-4ffe-8860-f25676310aaa> .
+<fbf9ed9e-5fae-4ee1-a73d-1cb64583ddda> a crm:E74_Group ;
+    crm:P1_is_identified_by <03010f53-0537-4ffe-8860-f25676310aaa> .
 
-<fc907018-c091-489d-8267-fb818ad926be> crm:P1_is_identified_by <c750a7b9-d11d-4102-bf35-bb7d8826bd6a> .
+<fc907018-c091-489d-8267-fb818ad926be> a crm:E74_Group ;
+    crm:P1_is_identified_by <c750a7b9-d11d-4102-bf35-bb7d8826bd6a> .
 
-<fe412498-405a-4850-8183-ab1e7d69ce23> crm:P1_is_identified_by <57e63cb0-ccfe-4941-87ee-562d5e305ae2> .
+<fe412498-405a-4850-8183-ab1e7d69ce23> a crm:E74_Group ;
+    crm:P1_is_identified_by <57e63cb0-ccfe-4941-87ee-562d5e305ae2> .
 
-<fe58c1af-5df3-4c91-bd27-04203914c8fa> crm:P1_is_identified_by <66d18aa0-37f6-4f36-9702-5c0080bfb717> .
+<fe58c1af-5df3-4c91-bd27-04203914c8fa> a crm:E74_Group ;
+    crm:P1_is_identified_by <66d18aa0-37f6-4f36-9702-5c0080bfb717> .
 
-<feead883-6b86-441d-9565-0d0b1a7438d3> crm:P1_is_identified_by <46d84f68-94ca-457b-b923-c1f5ce96001a> .
+<feead883-6b86-441d-9565-0d0b1a7438d3> a crm:E74_Group ;
+    crm:P1_is_identified_by <46d84f68-94ca-457b-b923-c1f5ce96001a> .
 
-<ffb1c352-ebd7-4aa1-96e6-bde0efbb8802> crm:P107_has_current_or_former_member <b58de748-37be-497c-bd57-904486ba0f66> ;
+<ffb1c352-ebd7-4aa1-96e6-bde0efbb8802> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <b58de748-37be-497c-bd57-904486ba0f66> ;
     crm:P1_is_identified_by <b30c960a-2c29-438c-9801-032f7451d3a7> .
 
-<00b1671a-04ee-4d73-9422-51555e636488> crm:P1_is_identified_by <a395faa7-e099-472c-aba9-ec2c793ce781> .
+<00b1671a-04ee-4d73-9422-51555e636488> a crm:E74_Group ;
+    crm:P1_is_identified_by <a395faa7-e099-472c-aba9-ec2c793ce781> .
 
-<2b879891-6ac4-4e50-bc47-697d4f365846> crm:P1_is_identified_by <41b20978-0174-4344-8431-aed92453ab10> .
+<2b879891-6ac4-4e50-bc47-697d4f365846> a crm:E74_Group ;
+    crm:P1_is_identified_by <41b20978-0174-4344-8431-aed92453ab10> .
 
-<37cda042-8157-43a0-ae81-da1575a7cf07> crm:P1_is_identified_by <220fce83-0600-4fba-887b-399acfd7af39> .
+<37cda042-8157-43a0-ae81-da1575a7cf07> a crm:E74_Group ;
+    crm:P1_is_identified_by <220fce83-0600-4fba-887b-399acfd7af39> .
 
-<461cf51a-81b3-4663-9c47-0cc4fc42ae46> crm:P1_is_identified_by <75c4a6f9-499e-4442-85b4-dd273570e7ce> .
+<461cf51a-81b3-4663-9c47-0cc4fc42ae46> a crm:E74_Group ;
+    crm:P1_is_identified_by <75c4a6f9-499e-4442-85b4-dd273570e7ce> .
 
-<73dd60f0-f60e-4730-b6a6-17986a17fa33> crm:P1_is_identified_by <f076a71b-029d-4b74-8c0e-afbd943252ea> .
+<73dd60f0-f60e-4730-b6a6-17986a17fa33> a crm:E74_Group ;
+    crm:P1_is_identified_by <f076a71b-029d-4b74-8c0e-afbd943252ea> .
 
-<7c3959c4-ba01-451c-96a5-6a41746753c2> crm:P107_has_current_or_former_member <37cda042-8157-43a0-ae81-da1575a7cf07> ;
+<7c3959c4-ba01-451c-96a5-6a41746753c2> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <37cda042-8157-43a0-ae81-da1575a7cf07> ;
     crm:P1_is_identified_by <b8d1dbb5-7045-4780-883d-39b4001e5d6a> .
 
-<d0e07396-786f-4bf5-85c4-819c3e25404d> crm:P1_is_identified_by <c1158a09-c5d4-4fd9-a7e3-74637b47c863> .
+<d0e07396-786f-4bf5-85c4-819c3e25404d> a crm:E74_Group ;
+    crm:P1_is_identified_by <c1158a09-c5d4-4fd9-a7e3-74637b47c863> .
 

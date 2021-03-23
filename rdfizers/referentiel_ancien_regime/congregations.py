@@ -98,6 +98,7 @@ def explore(concept, depth):
     E74_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "uuid"], True))
     t(E32_ancien_regime_uri, crm("P71_lists"), E74_uri)
     t(E32_congregations_uri, crm("P71_lists"), E74_uri)
+    t(E74_uri, a, crm("E74_Group"))
 
 
     # APPELLATION
@@ -128,13 +129,13 @@ def explore(concept, depth):
                     input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
                     for cle in input_yaml_parse.keys():
                         #print(cle)
-                        if cle in prefLabel.lower():
                         #if re.search(rf"{cle}$", prefLabel, re.IGNORECASE):
+                        if cle in prefLabel.lower():
                             lieu_uuid = input_yaml_parse[cle][0]
                             print(cle, "  -  ", lieu_uuid, "  -  ", prefLabel)
                             #t(she(lieu_uuid), she("sheP_situation_géohistorique"), E74_uri)
 
-                            
+
 
                             # IMPRIMER LES LABELS SANS CLE : VOIR SI SHEP_SITUATION_GEO. SI PAS DE SHEP,
                             #IMPRIMER L'ID.
