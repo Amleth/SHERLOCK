@@ -2,12 +2,13 @@ from pathlib import Path
 import uuid
 import yaml
 
+
 class Cache:
     def __init__(self, path):
         self.path = path
         cache_file = Path(self.path)
         if cache_file.is_file():
-            with open(self.path) as f:
+            with open(self.path, encoding='utf-8') as f:
                 _ = yaml.load(f, Loader=yaml.FullLoader)
                 if _:
                     self.cache = _
@@ -22,7 +23,7 @@ class Cache:
             for i in range(len(key_parts)):
                 k = key_parts[i]
                 if k not in value:
-                    raise Exception(f"La clef demandée {str(key_parts)} n'existe pas dans le cache.")
+                    raise Exception(f"La clef demandée {str(key_parts)} n'existe pas dans le cache {self.path}.")
                 else:
                     if i == len(key_parts) - 1:
                         return value[k]
