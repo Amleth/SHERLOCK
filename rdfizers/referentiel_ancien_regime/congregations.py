@@ -7,6 +7,7 @@ import yaml
 from sherlockcachemanagement import Cache
 import re
 import hashlib
+import io
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input_rdf")
@@ -116,32 +117,27 @@ def explore(concept, depth):
             t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
 
 
-    #ALIGNEMENT AU REFERENTIEL DES LIEUX - SOUCI D'ENCODAGE?
+    #ALIGNEMENT AU REFERENTIEL DES LIEUX - SOUCI D'ENCODAGE
 
-    """
-    with open(args.situation_geo, "r") as txt:
+    with open(args.situation_geo, "r", encoding="utf-8") as txt:
         texte = txt.read()
-        recherche_id = re.search(f"{concept_id}\s", texte)
-        if recherche_id :
+        if re.search(f"\n{concept_id}\s", texte):
+            #print(concept_id)
             for prefLabel in ro_list(concept, SKOS.prefLabel):
-                label = prefLabel.lower()
                 with open(args.cache_lieux_uuid, "r") as file:
                     input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
                     for cle in input_yaml_parse.keys():
-                        try:
-                            recherche_lieu = re.search(f"{cle}\s", label)
-                            if recherche_lieu:
-                                print("SUCCES", cle, "   ", label)
-                                # t(lieu_uuid, she("sheP_situation_géohistorique"), E74_uri)
+                        #print(cle)
+                        if cle in prefLabel.lower():
+                        #if re.search(rf"{cle}$", prefLabel, re.IGNORECASE):
+                            lieu_uuid = input_yaml_parse[cle][0]
+                            print(cle, "  -  ", lieu_uuid, "  -  ", prefLabel)
+                            #t(she(lieu_uuid), she("sheP_situation_géohistorique"), E74_uri)
 
-                            #A REPRENDRE
-                            #else:
-                             #   print(label, " --> lieu introuvable")
+                            
 
-
-                        except:
-                            print("ERREUR", cle)
-    """
+                            # IMPRIMER LES LABELS SANS CLE : VOIR SI SHEP_SITUATION_GEO. SI PAS DE SHEP,
+                            #IMPRIMER L'ID.
 
 
     # E13 INDEXATION
