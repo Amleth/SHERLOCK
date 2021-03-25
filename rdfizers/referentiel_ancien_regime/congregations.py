@@ -126,20 +126,15 @@ def explore(concept, depth):
         texte = txt.read()
         if re.search(f"\n{concept_id}\s", texte):
             for prefLabel in ro_list(concept, SKOS.prefLabel):
-                print(prefLabel)
-                """
                 with open(args.cache_lieux_uuid, "r", encoding="utf-8") as file:
                     input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
                     for cle in input_yaml_parse.keys():
-                        print(cle)
-
-                        
-                        #if re.search(rf"{cle}$", prefLabel, re.IGNORECASE):
-                        if cle in prefLabel.lower():
+                        lieu = cle.capitalize()
+                        #if re.search(rf"{lieu}$", prefLabel):
+                        if lieu in prefLabel:
                             lieu_uuid = input_yaml_parse[cle][0]
-                            print(cle, "  -  ", lieu_uuid, "  -  ", prefLabel)
+                            print(lieu, "  -  ", lieu_uuid, "  -  ", prefLabel)
                             #t(she(lieu_uuid), she("sheP_situation_géohistorique"), E74_uri)
-                """
 
 
                             # IMPRIMER LES LABELS SANS CLE : VOIR SI SHEP_SITUATION_GEO. SI PAS DE SHEP,
