@@ -36,12 +36,14 @@ crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
+she_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 
 output_graph.bind("crm", crm_ns)
 output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("lrmoo", lrmoo_ns)
 output_graph.bind("sdt", sdt_ns)
 output_graph.bind("skos", SKOS)
+output_graph.bind("she", she_ns)
 
 a = RDF.type
 
@@ -81,7 +83,7 @@ def ro_list(s, p):
 
 
 def count_concepts():
-    q = g.query(
+    q = input_graph.query(
         """
         SELECT (COUNT(?concept) AS ?n)
         WHERE {
@@ -123,23 +125,25 @@ def explore(concept, depth):
     with open(args.situation_geo, "r", encoding="utf-8") as txt:
         texte = txt.read()
         if re.search(f"\n{concept_id}\s", texte):
-            #print(concept_id)
             for prefLabel in ro_list(concept, SKOS.prefLabel):
-                with open(args.cache_lieux_uuid, "r") as file:
+                print(prefLabel)
+                """
+                with open(args.cache_lieux_uuid, "r", encoding="utf-8") as file:
                     input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
                     for cle in input_yaml_parse.keys():
-                        #print(cle)
+                        print(cle)
+
+                        
                         #if re.search(rf"{cle}$", prefLabel, re.IGNORECASE):
                         if cle in prefLabel.lower():
                             lieu_uuid = input_yaml_parse[cle][0]
                             print(cle, "  -  ", lieu_uuid, "  -  ", prefLabel)
                             #t(she(lieu_uuid), she("sheP_situation_géohistorique"), E74_uri)
-
+                """
 
 
                             # IMPRIMER LES LABELS SANS CLE : VOIR SI SHEP_SITUATION_GEO. SI PAS DE SHEP,
                             #IMPRIMER L'ID.
-
 
     # E13 INDEXATION
 
