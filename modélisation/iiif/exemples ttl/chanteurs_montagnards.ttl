@@ -1,0 +1,112 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdt: <http://data-iremus.huma-num.fr/datatypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+######################################################################
+## La collection
+######################################################################
+
+<62874dab-dd9f-4a24-bfe2-805a1dcccdae>
+    a crm:D1_Digital_Object ;
+    crm:p1_is_identified_by "Les 40 chanteurs montagnards" ;
+    crm:P2_has_type "Collection numérique" ;
+    crm:P104_is_subject_to <40d82bbc-bf79-4ff5-8d2f-4f8fbc726316> ; # E30 ; serait l'équivalent du champ "licence" dans iiif
+    crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ; # E39 (IReMus), serait l'équivalent du champ "attribution" dans iiif
+    .
+
+# Licence
+<40d82bbc-bf79-4ff5-8d2f-4f8fbc726316>
+    a crm:E30_Right ;
+    .
+
+
+#######################################################################
+## Le livre
+#######################################################################
+
+<f75a9c94-1a70-4909-a8aa-7ae6e891b605>
+    a lrmoo:F1_Work ;
+    crm:P1_is_identified_by "Les 40 chanteurs montagnards" ;
+    lrmoo:R3_is_realised_in <bf57e9e8-f2d2-408b-9719-3b9c728dbcd0> ;
+    .
+
+<9d43f169-e8ff-4db8-b0c2-62871a11e407>
+    a lrmoo:F27_Work_Conception ;
+    crm:P14_carried_out_by <0a507b73-a61a-49fb-a33b-f0ec708747ae> ; # Auteur
+    crm:R16_initiated <f75a9c94-1a70-4909-a8aa-7ae6e891b605> ;
+    .
+
+<bf57e9e8-f2d2-408b-9719-3b9c728dbcd0>
+    a lrmoo:F2_Expression ;
+    lrmoo:R15_has_fragment <3c357723-ab22-4acf-8401-07b6485f7a39> ; # Une page
+    . 
+
+<655de767-d992-4cb9-ac11-2d5de20558d8>
+    a lrmoo:F3_Manifestation ;
+    lrmoo:R4_embodies <bf57e9e8-f2d2-408b-9719-3b9c728dbcd0> ;
+    .
+
+<a64190b8-cfc0-4656-9af2-d4de037557f3>
+    a lrmoo:F5_Item ;
+    lrmoo:R7_is_materialization_of <655de767-d992-4cb9-ac11-2d5de20558d8> ;
+    crm:P128_carries <3c357723-ab22-4acf-8401-07b6485f7a39> ; # Une page
+    .
+
+# Publication
+<f6bfcb4d-a2bf-409b-816d-dc4d0251414c>
+    a lrmoo:F32_Carrier_Production_Event ;
+    lrmoo:R27_materialized <655de767-d992-4cb9-ac11-2d5de20558d8> ;
+    lrmoo:R28_produced <a64190b8-cfc0-4656-9af2-d4de037557f3> ;
+    crm:P4_has_time-span <72623f34-bed4-4ba6-8b15-cdc534ede1e1> ;
+    .
+
+<05fd9f89-ca10-40b7-be9f-8a3fc1da565b>
+    a crm:E52_Time-Span ;
+    # Quelle propriété utiliser?
+    .
+
+
+#######################################################################
+## Numérisation du livre
+#######################################################################
+
+<c2f94153-16b3-4e54-9bae-c38e4279f0e2>
+    a crmdig:D2_Digitization_Process ;
+    crmdig:L1_digitized <a64190b8-cfc0-4656-9af2-d4de037557f3> ;
+    crmdig:L11_had_output <a62ca84f-73f3-4ddb-a9e9-c51e29554295> ; # Une page numérisée
+    .
+
+#######################################################################
+## La page numérisée
+#######################################################################
+
+<a62ca84f-73f3-4ddb-a9e9-c51e29554295>
+    a crm:D1_Digital_Object ;
+    a crm:E73_Information_Carrier ;
+    # Est-ce qu'une image numérisée est un E36? Il ne s'agit pourtant pas d'une "image reconnaissable" de type logo ou symbole.
+    # E90 ou E36
+    crm:P106_is_composed_of <> ; # La page originale
+    # ou crm:P138_represents E90 si on utilise un E36
+
+# Intégration de la page numérisée à la collection
+<0c3c4dcc-81f1-489e-a234-c3e27d2e1d15>
+    a crm:E13_Attribute_Assignement ;
+    crm:P14_carried_out_by <b3892e6d-a0f4-4673-90fd-72c52a4585fe> ; # Nicolas Dufétel
+    crm:P140_assigned_attribute_to <62874dab-dd9f-4a24-bfe2-805a1dcccdae> ;
+    crm:P141_assigned <a62ca84f-73f3-4ddb-a9e9-c51e29554295> ;
+    crm:P177_assigned_property_type crm:P106_is_composed_of ;
+    dcterms:created "202-03-24T14:16:06+0000"^^xsd:dateTime ;
+    .
+
+#######################################################################
+## Transcription
+#######################################################################
+
+#Lecture de la page et création d'une F2 Transcription + édition critique
