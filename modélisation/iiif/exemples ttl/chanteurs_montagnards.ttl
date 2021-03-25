@@ -91,7 +91,7 @@
     a crm:D1_Digital_Object ;
     a crm:E73_Information_Carrier ;
     # Est-ce qu'une image numérisée est un E36? Il ne s'agit pourtant pas d'une "image reconnaissable" de type logo ou symbole.
-    # E90 ou E36
+    # E73 ou E36?
     crm:P106_is_composed_of <> ; # La page originale
     # ou crm:P138_represents E90 si on utilise un E36
 
