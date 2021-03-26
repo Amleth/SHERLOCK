@@ -31,6 +31,7 @@ input_graph = Graph()
 input_graph.load(args.input_rdf)
 
 output_graph = Graph()
+output_graph.load(args.output_ttl)
 
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
@@ -120,7 +121,7 @@ def explore(concept, depth):
             t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
 
 
-    #ALIGNEMENT AU REFERENTIEL DES LIEUX - SOUCI D'ENCODAGE
+    #ALIGNEMENT AU REFERENTIEL DES LIEUX
 
     with open(args.situation_geo, "r", encoding="utf-8") as txt:
         texte = txt.read()
@@ -129,16 +130,12 @@ def explore(concept, depth):
                 with open(args.cache_lieux_uuid, "r", encoding="utf-8") as file:
                     input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
                     for cle in input_yaml_parse.keys():
-                        lieu = cle.capitalize()
-                        #if re.search(rf"{lieu}$", prefLabel):
-                        if lieu in prefLabel:
+                        lieu = re.sub(r"(\s\[.*)|(\s\(.*)", " ", cle)
+                        if re.search(rf"('|de |^|la |le ){lieu}$|('|de |^|la |le ){lieu}$", prefLabel, re.IGNORECASE):
                             lieu_uuid = input_yaml_parse[cle][0]
-                            print(lieu, "  -  ", lieu_uuid, "  -  ", prefLabel)
-                            #t(she(lieu_uuid), she("sheP_situation_géohistorique"), E74_uri)
-
-
-                            # IMPRIMER LES LABELS SANS CLE : VOIR SI SHEP_SITUATION_GEO. SI PAS DE SHEP,
-                            #IMPRIMER L'ID.
+                            #print(lieu, "  -  ", lieu_uuid, "  -  ", prefLabel)
+                            t(E74_uri, she("sheP_situation_géohistorique"), she(lieu_uuid))
+                            
 
     # E13 INDEXATION
 
@@ -262,7 +259,7 @@ explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=papaute&idt=166"), 0)
 t(E32_congregations_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"),
   she(cache_congregations.get_uuid(["congregations", "papaute", "uuid"], True)))
 
-output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
-cache_corpus.bye()
-cache_congregations.bye()
+#output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+#cache_corpus.bye()
+#cache_congregations.bye()
 
