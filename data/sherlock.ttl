@@ -57,6 +57,7 @@
     crm:P71_lists <f4262bac-f72c-40e2-aa51-ae352da5a35c> ;
     crm:P71_lists <01de41ec-850f-473b-bd7f-268a18afc6a3> ;
     crm:P71_lists <b486f08e-4d50-4363-97b4-d4ea100818e5> ;
+    crm:P71_lists <466bb717-b90f-4104-8f4e-5a13fdde3bc3> ;
     .
 <09c7ee4e-619d-4fb0-8905-7c8f1128657e>
     a crm:E65_Creation ;
@@ -89,6 +90,12 @@
     a crm:E55_Type ;
     crm:P1_is_identified_by "SHA1" ;
     .
+
+<466bb717-b90f-4104-8f4e-5a13fdde3bc3>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Numéro de page" ;
+    .
+
 
 # Twitter
 

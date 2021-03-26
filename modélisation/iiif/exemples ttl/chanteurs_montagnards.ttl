@@ -19,6 +19,13 @@
     crm:P2_has_type "Collection numérique" ;
     crm:P104_is_subject_to <40d82bbc-bf79-4ff5-8d2f-4f8fbc726316> ; # E30 ; serait l'équivalent du champ "licence" dans iiif
     crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ; # E39 (IReMus), serait l'équivalent du champ "attribution" dans iiif
+    crm:P106_is_composed_of <a62ca84f-73f3-4ddb-a9e9-c51e29554295> ;
+    .
+
+<0fd7eb57-8154-4893-bf2f-f779eda1f029>
+    a crm:65_Creation ;
+    crm:P94_has_created <62874dab-dd9f-4a24-bfe2-805a1dcccdae> ;
+    crm:P14_carried_out_by <7ebda3f2-cdfb-4f9c-9b86-0fb559bbfee5> ;
     .
 
 # Licence
@@ -42,11 +49,27 @@
     crm:P14_carried_out_by <0a507b73-a61a-49fb-a33b-f0ec708747ae> ; # Auteur
     crm:R16_initiated <f75a9c94-1a70-4909-a8aa-7ae6e891b605> ;
     .
+    # Date de réunion préparatoire du voyage
 
 <bf57e9e8-f2d2-408b-9719-3b9c728dbcd0>
     a lrmoo:F2_Expression ;
     lrmoo:R15_has_fragment <3c357723-ab22-4acf-8401-07b6485f7a39> ; # Une page
     . 
+
+<3c357723-ab22-4acf-8401-07b6485f7a39>
+    a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <1cf456e9-6c17-4893-8cd4-1504899865c0> ;
+    .
+
+<1cf456e9-6c17-4893-8cd4-1504899865c0>
+    a crm:E42_Identifier ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> ;
+    rdfs:label 1 ;
+    .
+
+
+    # Rajouter un F28 - Questionner Nicolas Dufétel
+    # Date de réalisation de l'ouvrage
 
 <655de767-d992-4cb9-ac11-2d5de20558d8>
     a lrmoo:F3_Manifestation ;
@@ -56,8 +79,15 @@
 <a64190b8-cfc0-4656-9af2-d4de037557f3>
     a lrmoo:F5_Item ;
     lrmoo:R7_is_materialization_of <655de767-d992-4cb9-ac11-2d5de20558d8> ;
-    crm:P128_carries <3c357723-ab22-4acf-8401-07b6485f7a39> ; # Une page
+    crm:P46_is_composed_of <098b07ce-6452-4544-b5bf-fc0fa0268f6b> ; # E18
     .
+
+# Le support physique de la page 
+<098b07ce-6452-4544-b5bf-fc0fa0268f6b>
+    a crm:E18_Physical_Thing ;
+    crm:P128_carries <3c357723-ab22-4acf-8401-07b6485f7a39> ;
+    .
+
 
 # Publication
 <f6bfcb4d-a2bf-409b-816d-dc4d0251414c>
@@ -73,11 +103,12 @@
     .
 
 
+
 #######################################################################
-## Numérisation du livre
+## Numérisation de la page
 #######################################################################
 
-<c2f94153-16b3-4e54-9bae-c38e4279f0e2>
+<098b07ce-6452-4544-b5bf-fc0fa0268f6b>
     a crmdig:D2_Digitization_Process ;
     crmdig:L1_digitized <a64190b8-cfc0-4656-9af2-d4de037557f3> ;
     crmdig:L11_had_output <a62ca84f-73f3-4ddb-a9e9-c51e29554295> ; # Une page numérisée
@@ -89,20 +120,7 @@
 
 <a62ca84f-73f3-4ddb-a9e9-c51e29554295>
     a crm:D1_Digital_Object ;
-    a crm:E73_Information_Carrier ;
-    # Est-ce qu'une image numérisée est un E36? Il ne s'agit pourtant pas d'une "image reconnaissable" de type logo ou symbole.
-    # E73 ou E36?
-    crm:P106_is_composed_of <> ; # La page originale
-    # ou crm:P138_represents E90 si on utilise un E36
-
-# Intégration de la page numérisée à la collection
-<0c3c4dcc-81f1-489e-a234-c3e27d2e1d15>
-    a crm:E13_Attribute_Assignement ;
-    crm:P14_carried_out_by <b3892e6d-a0f4-4673-90fd-72c52a4585fe> ; # Nicolas Dufétel
-    crm:P140_assigned_attribute_to <62874dab-dd9f-4a24-bfe2-805a1dcccdae> ;
-    crm:P141_assigned <a62ca84f-73f3-4ddb-a9e9-c51e29554295> ;
-    crm:P177_assigned_property_type crm:P106_is_composed_of ;
-    dcterms:created "202-03-24T14:16:06+0000"^^xsd:dateTime ;
+    crm:P130_shows_features_of <3c357723-ab22-4acf-8401-07b6485f7a39> ; 
     .
 
 #######################################################################
