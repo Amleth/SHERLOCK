@@ -20,6 +20,7 @@
       <62b49ca2-ec73-4d72-aaf3-045da6869a15>,
       <7d7fc017-61ba-4f80-88e1-744f1d00dd60>,
       <e73699b0-9638-4a9a-bfdd-ed1715416f02>,
+      <14926d58-83e7-4414-90a8-1a3f5ca8fec1>,
       ;
     .
 <fb96f7c5-7b26-49ab-8d71-ed6ca7bd3aa2>
@@ -44,6 +45,11 @@
 <7d7fc017-61ba-4f80-88e1-744f1d00dd60>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Édition physique" ;
+  .
+
+<14926d58-83e7-4414-90a8-1a3f5ca8fec1>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Collection numérique" ;
   .
 
 # Types d'identifiants techniques

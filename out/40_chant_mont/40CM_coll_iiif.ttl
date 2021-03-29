@@ -1,0 +1,10 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<1715604a-a847-4f9a-8e31-adf5711781bf> a crm:D1_Digital_Object ;
+    crm:P1_is_identified_by <0fe405a6-ec82-4228-b291-ef4a793e8a95> ;
+    crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
+
+<0fe405a6-ec82-4228-b291-ef4a793e8a95> rdfs:label "Les 40 chanteurs montagnards" .
+

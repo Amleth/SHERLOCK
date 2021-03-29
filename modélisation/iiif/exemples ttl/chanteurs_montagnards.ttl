@@ -16,7 +16,7 @@
 <62874dab-dd9f-4a24-bfe2-805a1dcccdae>
     a crm:D1_Digital_Object ;
     crm:p1_is_identified_by "Les 40 chanteurs montagnards" ;
-    crm:P2_has_type "Collection numérique" ;
+    crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ;
     crm:P104_is_subject_to <40d82bbc-bf79-4ff5-8d2f-4f8fbc726316> ; # E30 ; serait l'équivalent du champ "licence" dans iiif
     crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ; # E39 (IReMus), serait l'équivalent du champ "attribution" dans iiif
     crm:P106_is_composed_of <a62ca84f-73f3-4ddb-a9e9-c51e29554295> ;
