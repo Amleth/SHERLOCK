@@ -1,10 +1,59 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lrm: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<1715604a-a847-4f9a-8e31-adf5711781bf> a crm:D1_Digital_Object ;
-    crm:P1_is_identified_by <0fe405a6-ec82-4228-b291-ef4a793e8a95> ;
+<18d7189d-0a28-43b9-bc9e-ad66a5b44e00> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <eaa4ba05-13f3-48e9-8c6a-e461a3f6ba3e> .
+
+<341cebb5-4712-463f-aa96-5a76eacfed30> a crm:E65_Creation ;
+    crm:P14_carried_out_by "Nicolas Dufétel" ;
+    crm:P94_has_created <6bddd934-25da-4b7f-a31a-342ad075c299> .
+
+<35b8ad2c-c513-4010-ac9e-d3525b3331b2> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <93575ed9-a4e6-4922-928f-4e019ecc68bf> .
+
+<6b23943d-8b32-4f13-a56a-7f9e404d5c3b> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <bff613e7-21d8-4320-a8de-a27f797ce3be> .
+
+<abfbf02d-9bb5-4086-8d16-52e9f7a7b255> a lrm:F28_Expression_Creation ;
+    dcterms:date "date inconnue" ;
+    lrm:P14_carried_out_by "auteur inconnu" ;
+    lrm:R17_created <679558c4-0fb7-4385-b35f-4152a4343768> .
+
+<d27044b5-ddfa-4520-9f3d-efadff2c95b4> a lrm:F27_Work_Conception ;
+    dcterms:date "0000-0000" ;
+    crm:P14_carried_out_by "créateur inconnu" ;
+    lrm:R16_initiated <15bfcd54-d327-463e-a374-03377a164d0c> .
+
+<15bfcd54-d327-463e-a374-03377a164d0c> a lrm:F1_Work ;
+    rdfs:label "Les 40 chanteurs montagnards" ;
+    crm:P1_is_identified_by <d1152734-aa0c-4008-804e-88a114dd6cd4> ;
+    lrm:R3_is_realised_in <679558c4-0fb7-4385-b35f-4152a4343768> .
+
+<5962cd39-afcf-4201-a9c6-40e0c22f3d74> a crm:E30_Right ;
+    rdfs:label "https://creativecommons.org/publicdomain/zero/1.0/" .
+
+<6bddd934-25da-4b7f-a31a-342ad075c299> a crmdig:D1_Digital_Object ;
+    crm:P104_is_subject_to <5962cd39-afcf-4201-a9c6-40e0c22f3d74> ;
+    crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
+    crm:P1_is_identified_by <85997316-5d31-440a-8e84-8eb7bd99d47f> ;
     crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
 
-<0fe405a6-ec82-4228-b291-ef4a793e8a95> rdfs:label "Les 40 chanteurs montagnards" .
+<85997316-5d31-440a-8e84-8eb7bd99d47f> a crm:E41_Appellation ;
+    rdfs:label "Les 40 chanteurs montagnards" .
+
+<93575ed9-a4e6-4922-928f-4e019ecc68bf> rdfs:label 1.0 ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+
+<bff613e7-21d8-4320-a8de-a27f797ce3be> rdfs:label 3.0 ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+
+<eaa4ba05-13f3-48e9-8c6a-e461a3f6ba3e> rdfs:label 2.0 ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+
+<679558c4-0fb7-4385-b35f-4152a4343768> a lrm:F2_Expression .
 

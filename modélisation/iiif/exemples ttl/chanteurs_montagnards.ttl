@@ -42,6 +42,7 @@
     a lrmoo:F1_Work ;
     crm:P1_is_identified_by "Les 40 chanteurs montagnards" ;
     lrmoo:R3_is_realised_in <bf57e9e8-f2d2-408b-9719-3b9c728dbcd0> ;
+    lrmoo:R3_is_realised_in <7a3825d4-0da1-43b0-8091-3d6feb9dc921> ;
     .
 
 <9d43f169-e8ff-4db8-b0c2-62871a11e407>
@@ -127,4 +128,19 @@
 ## Transcription
 #######################################################################
 
-#Lecture de la page et création d'une F2 Transcription + édition critique
+<159f6918-9d5c-470c-87ba-b7e569837300>
+    a lrmoo:F28_Expression_Creation ;
+    lrmoo:R17_created <7a3825d4-0da1-43b0-8091-3d6feb9dc921> ;
+    crm:P16_used_specific_object <a62ca84f-73f3-4ddb-a9e9-c51e29554295> ;
+    crm:P14_carried_out_by <7ebda3f2-cdfb-4f9c-9b86-0fb559bbfee5> ; 
+    .
+
+<7a3825d4-0da1-43b0-8091-3d6feb9dc921>
+    a lrmoo:F2_Expression ;
+    .
+
+#######################################################################
+## Edition critique
+#######################################################################
+
+#TO DO
