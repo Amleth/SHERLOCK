@@ -6,54 +6,95 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<18d7189d-0a28-43b9-bc9e-ad66a5b44e00> a crm:E90_Symbolic_Object ;
-    crm:P1_is_identified_by <eaa4ba05-13f3-48e9-8c6a-e461a3f6ba3e> .
+<3719c3a7-0110-4828-bbad-ad167ced285d> a crmdig:D2_Digitization_Process ;
+    crmdig:L11_had_output <5a539908-376d-4267-8580-8f5b7579f01e>,
+        <d47528d2-ab9b-4a28-a504-538b5635f543>,
+        <e732ef7c-8c41-4515-ba36-b89d51ab8fdf> ;
+    crmdig:L1_digitized <a29b461e-b888-4fa7-a6a9-8a03378dfbb2>,
+        <a896b125-6e7e-43d9-95dc-550e3b102d3f>,
+        <dae060eb-526b-4c8e-a25c-2dd0b4f82532> .
 
-<341cebb5-4712-463f-aa96-5a76eacfed30> a crm:E65_Creation ;
-    crm:P14_carried_out_by "Nicolas Dufétel" ;
-    crm:P94_has_created <6bddd934-25da-4b7f-a31a-342ad075c299> .
-
-<35b8ad2c-c513-4010-ac9e-d3525b3331b2> a crm:E90_Symbolic_Object ;
-    crm:P1_is_identified_by <93575ed9-a4e6-4922-928f-4e019ecc68bf> .
-
-<6b23943d-8b32-4f13-a56a-7f9e404d5c3b> a crm:E90_Symbolic_Object ;
-    crm:P1_is_identified_by <bff613e7-21d8-4320-a8de-a27f797ce3be> .
-
-<abfbf02d-9bb5-4086-8d16-52e9f7a7b255> a lrm:F28_Expression_Creation ;
-    dcterms:date "date inconnue" ;
-    lrm:P14_carried_out_by "auteur inconnu" ;
-    lrm:R17_created <679558c4-0fb7-4385-b35f-4152a4343768> .
-
-<d27044b5-ddfa-4520-9f3d-efadff2c95b4> a lrm:F27_Work_Conception ;
-    dcterms:date "0000-0000" ;
+<3c803908-0eb0-46f1-a05f-6ad4deb5a598> a lrm:F27_Work_Conception ;
+    dcterms:date "0000-0000"^^xsd:date ;
     crm:P14_carried_out_by "créateur inconnu" ;
-    lrm:R16_initiated <15bfcd54-d327-463e-a374-03377a164d0c> .
+    lrm:R16_initiated <8dc650ec-89d1-48ab-9866-3905f1fb8728> .
 
-<15bfcd54-d327-463e-a374-03377a164d0c> a lrm:F1_Work ;
-    rdfs:label "Les 40 chanteurs montagnards" ;
-    crm:P1_is_identified_by <d1152734-aa0c-4008-804e-88a114dd6cd4> ;
-    lrm:R3_is_realised_in <679558c4-0fb7-4385-b35f-4152a4343768> .
+<7b1c3994-8d96-4290-a120-fd8e6535c682> a lrm:F28_Expression_Creation ;
+    dcterms:date "date inconnue"^^xsd:date ;
+    crm:P14_carried_out_by "auteur inconnu" ;
+    lrm:R17_created <2b1aa9fc-8489-406b-8830-2e14d1cee604> .
 
-<5962cd39-afcf-4201-a9c6-40e0c22f3d74> a crm:E30_Right ;
+<c42866a3-77a4-41f2-9922-2e9646bd060e> a lrm:F5_Item ;
+    crm:P46_is_composed_of <a29b461e-b888-4fa7-a6a9-8a03378dfbb2>,
+        <a896b125-6e7e-43d9-95dc-550e3b102d3f>,
+        <dae060eb-526b-4c8e-a25c-2dd0b4f82532> ;
+    lrm:R7_is_materialization_of <449dbd05-ce20-4b44-adee-d9da1a960f37> .
+
+<c862d65b-9164-4dec-a129-3673bfa70d92> a crm:E65_Creation ;
+    crm:P14_carried_out_by "Nicolas Dufétel" ;
+    crm:P94_has_created <9bb924b2-fb04-4def-af33-6af7addf73fb> .
+
+<006525f1-f3ad-428e-a7e7-94ca6416c2ab> rdfs:label 1.0 ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+
+<0dc4ea28-5ddb-4f52-8675-0537dd47a49e> rdfs:label 3.0 ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+
+<0fa201c8-5122-4452-84b2-d8b939b06d9e> rdfs:label 2.0 ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+
+<1a112509-8d4f-4a93-90a3-5bb60aa71eba> a crm:E30_Right ;
     rdfs:label "https://creativecommons.org/publicdomain/zero/1.0/" .
 
-<6bddd934-25da-4b7f-a31a-342ad075c299> a crmdig:D1_Digital_Object ;
-    crm:P104_is_subject_to <5962cd39-afcf-4201-a9c6-40e0c22f3d74> ;
-    crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
-    crm:P1_is_identified_by <85997316-5d31-440a-8e84-8eb7bd99d47f> ;
-    crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
-
-<85997316-5d31-440a-8e84-8eb7bd99d47f> a crm:E41_Appellation ;
+<39d25939-dda0-4458-a4ca-046868a5d984> a crm:E41_Appellation ;
     rdfs:label "Les 40 chanteurs montagnards" .
 
-<93575ed9-a4e6-4922-928f-4e019ecc68bf> rdfs:label 1.0 ;
-    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+<449dbd05-ce20-4b44-adee-d9da1a960f37> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <2b1aa9fc-8489-406b-8830-2e14d1cee604> .
 
-<bff613e7-21d8-4320-a8de-a27f797ce3be> rdfs:label 3.0 ;
-    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+<8dc650ec-89d1-48ab-9866-3905f1fb8728> a lrm:F1_Work ;
+    rdfs:label "Les 40 chanteurs montagnards" ;
+    crm:P1_is_identified_by <45bd2af2-c9ec-42d6-9885-c49cdb592bf9> ;
+    lrm:R3_is_realised_in <2b1aa9fc-8489-406b-8830-2e14d1cee604> .
 
-<eaa4ba05-13f3-48e9-8c6a-e461a3f6ba3e> rdfs:label 2.0 ;
-    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+<9bb924b2-fb04-4def-af33-6af7addf73fb> a crmdig:D1_Digital_Object ;
+    crm:P104_is_subject_to <1a112509-8d4f-4a93-90a3-5bb60aa71eba> ;
+    crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
+    crm:P106_is_composed_of <5a539908-376d-4267-8580-8f5b7579f01e>,
+        <d47528d2-ab9b-4a28-a504-538b5635f543>,
+        <e732ef7c-8c41-4515-ba36-b89d51ab8fdf> ;
+    crm:P1_is_identified_by <39d25939-dda0-4458-a4ca-046868a5d984> ;
+    crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
 
-<679558c4-0fb7-4385-b35f-4152a4343768> a lrm:F2_Expression .
+<5a539908-376d-4267-8580-8f5b7579f01e> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <5ced8319-3e47-4319-8d25-ab919159367f> .
+
+<a29b461e-b888-4fa7-a6a9-8a03378dfbb2> a crm:E18_Physical_Object ;
+    crm:P128_carries <ac8900a6-2573-4bd8-b13b-7c43a9f922a3> .
+
+<a896b125-6e7e-43d9-95dc-550e3b102d3f> a crm:E18_Physical_Object ;
+    crm:P128_carries <1e4eb798-943f-4776-8b2d-beb77c0f1afc> .
+
+<d47528d2-ab9b-4a28-a504-538b5635f543> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <1e4eb798-943f-4776-8b2d-beb77c0f1afc> .
+
+<dae060eb-526b-4c8e-a25c-2dd0b4f82532> a crm:E18_Physical_Object ;
+    crm:P128_carries <5ced8319-3e47-4319-8d25-ab919159367f> .
+
+<e732ef7c-8c41-4515-ba36-b89d51ab8fdf> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <ac8900a6-2573-4bd8-b13b-7c43a9f922a3> .
+
+<1e4eb798-943f-4776-8b2d-beb77c0f1afc> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <0fa201c8-5122-4452-84b2-d8b939b06d9e> .
+
+<2b1aa9fc-8489-406b-8830-2e14d1cee604> a lrm:F2_Expression ;
+    lrm:R15_has_fragment <1e4eb798-943f-4776-8b2d-beb77c0f1afc>,
+        <5ced8319-3e47-4319-8d25-ab919159367f>,
+        <ac8900a6-2573-4bd8-b13b-7c43a9f922a3> .
+
+<5ced8319-3e47-4319-8d25-ab919159367f> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <0dc4ea28-5ddb-4f52-8675-0537dd47a49e> .
+
+<ac8900a6-2573-4bd8-b13b-7c43a9f922a3> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <006525f1-f3ad-428e-a7e7-94ca6416c2ab> .
 

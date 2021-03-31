@@ -123,6 +123,7 @@ def explore(concept, depth):
 
     #ALIGNEMENT AU REFERENTIEL DES LIEUX
 
+
     with open(args.situation_geo, "r", encoding="utf-8") as txt:
         texte = txt.read()
         if re.search(f"\n{concept_id}\s", texte):
@@ -135,7 +136,6 @@ def explore(concept, depth):
                             lieu_uuid = input_yaml_parse[cle][0]
                             #print(lieu, "  -  ", lieu_uuid, "  -  ", prefLabel)
                             t(E74_uri, she("sheP_situation_géohistorique"), she(lieu_uuid))
-                            
 
     # E13 INDEXATION
 
@@ -259,7 +259,12 @@ explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=papaute&idt=166"), 0)
 t(E32_congregations_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"),
   she(cache_congregations.get_uuid(["congregations", "papaute", "uuid"], True)))
 
-#output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
-#cache_corpus.bye()
-#cache_congregations.bye()
+output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+cache_corpus.bye()
+cache_congregations.bye()
+
+
+
+
+
 

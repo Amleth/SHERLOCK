@@ -49,8 +49,10 @@
     a lrmoo:F27_Work_Conception ;
     crm:P14_carried_out_by <0a507b73-a61a-49fb-a33b-f0ec708747ae> ; # Auteur
     crm:R16_initiated <f75a9c94-1a70-4909-a8aa-7ae6e891b605> ;
-    .
     # Date de réunion préparatoire du voyage
+    dcterms:date "date inconnue"^^xsd:date ;
+    .
+    
 
 <bf57e9e8-f2d2-408b-9719-3b9c728dbcd0>
     a lrmoo:F2_Expression ;
@@ -68,9 +70,7 @@
     rdfs:label 1 ;
     .
 
-
-    # Rajouter un F28 - Questionner Nicolas Dufétel
-    # Date de réalisation de l'ouvrage
+    # Rajouter un F28_Expression_Creation? - Questionner Nicolas Dufétel
 
 <655de767-d992-4cb9-ac11-2d5de20558d8>
     a lrmoo:F3_Manifestation ;
@@ -90,20 +90,13 @@
     .
 
 
-# Publication
+# Création de l'exemplaire - A SUPPRIMER? (REDONDANT AVEC F28)
 <f6bfcb4d-a2bf-409b-816d-dc4d0251414c>
     a lrmoo:F32_Carrier_Production_Event ;
     lrmoo:R27_materialized <655de767-d992-4cb9-ac11-2d5de20558d8> ;
     lrmoo:R28_produced <a64190b8-cfc0-4656-9af2-d4de037557f3> ;
-    crm:P4_has_time-span <72623f34-bed4-4ba6-8b15-cdc534ede1e1> ;
+    dcterms:date "date inconnue"^^xsd:date ;
     .
-
-<05fd9f89-ca10-40b7-be9f-8a3fc1da565b>
-    a crm:E52_Time-Span ;
-    # Quelle propriété utiliser?
-    .
-
-
 
 #######################################################################
 ## Numérisation de la page
@@ -111,7 +104,7 @@
 
 <098b07ce-6452-4544-b5bf-fc0fa0268f6b>
     a crmdig:D2_Digitization_Process ;
-    crmdig:L1_digitized <a64190b8-cfc0-4656-9af2-d4de037557f3> ;
+    crmdig:L1_digitized <098b07ce-6452-4544-b5bf-fc0fa0268f6b> ;
     crmdig:L11_had_output <a62ca84f-73f3-4ddb-a9e9-c51e29554295> ; # Une page numérisée
     .
 

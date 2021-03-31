@@ -94,7 +94,7 @@ with xlrd.open_workbook(args.iiif_excel) as wb:
 
 
     #####################################################################
-    ## LA PUBLICATION
+    ## 1. UNE PUBLICATION NUMERISEE
     #####################################################################
 
     if sheet_coll.cell_value(4, 3) == "Livre":
@@ -116,7 +116,7 @@ with xlrd.open_workbook(args.iiif_excel) as wb:
                 #livre_E52 = she(cache_40CM.get_uuid(["collection", "livre", "E52"], True))
                 #t(livre_F27, crm("P4_has_time-span"), livre_E52)
                 #t(livre_E52, DCTERMS.date, Literal(sheet_coll.cell_value(4, 9)))
-                t(livre_F27, DCTERMS.date, Literal(sheet_coll.cell_value(4, 9)))
+                t(livre_F27, DCTERMS.date, Literal(sheet_coll.cell_value(4, 9), datatype=XSD.date))
 
         ### Expression
         livre_F2 = she(cache_40CM.get_uuid(["collection", "livre", "F2"], True))
@@ -128,37 +128,72 @@ with xlrd.open_workbook(args.iiif_excel) as wb:
             t(livre_F28, a, lrm("F28_Expression_Creation"))
             t(livre_F28, lrm("R17_created"), livre_F2)
             if sheet_coll.cell_value(4, 8) != None:
-                t(livre_F28, lrm("P14_carried_out_by"), Literal(sheet_coll.cell_value(4, 8)))
+                t(livre_F28, crm("P14_carried_out_by"), Literal(sheet_coll.cell_value(4, 8)))
             if sheet_coll.cell_value(4, 10) != None:
-                t(livre_F28, DCTERMS.date, Literal(sheet_coll.cell_value(4, 10)))
+                t(livre_F28, DCTERMS.date, Literal(sheet_coll.cell_value(4, 10), datatype=XSD.date))
+
+        ### Manifestation
+        livre_F3 = she(cache_40CM.get_uuid(["collection", "livre", "F3"], True))
+        t(livre_F3, a, lrm("F3_Manifestation"))
+        t(livre_F3, lrm("R4_embodies"), livre_F2)
+        ### Item
+        livre_F5 = she(cache_40CM.get_uuid(["collection", "livre", "F5"], True))
+        t(livre_F5, a, lrm("F5_Item"))
+        t(livre_F5, lrm("R7_is_materialization_of"), livre_F3)
+        #### AJOUT D'UN F32 OU REDONDANT AVEC LE F28?
+
+        #####################################################################
+        ## LES PAGES DE LA PUBLICATION
+        #####################################################################
+
+        sheet_page = wb.sheet_by_index(0)
+
+        def id_page(row, column):
+            id = sheet_page.cell_value(row, column)
+            try:
+                ### La page comme support physique
+                page_E18 = she(cache_40CM.get_uuid(["collection", "livre", id, "E18"], True))
+                t(page_E18, a, crm("E18_Physical_Object"))
+                t(livre_F5, crm("P46_is_composed_of"), page_E18)
+
+                ### La page comme support sémantique
+                page_E90 = she(cache_40CM.get_uuid(["collection", "livre", id, "E90"], True))
+                t(page_E90, a, crm("E90_Symbolic_Object"))
+                t(livre_F2, lrm("R15_has_fragment"), page_E90)
+                t(page_E18, crm("P128_carries"), page_E90)
+
+                ### Identifiant
+                page_E42 = she(cache_40CM.get_uuid(["collection", "livre", id, "E42"], True))
+                t(page_E42, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
+                t(page_E90, crm("P1_is_identified_by"), page_E42)
+                t(page_E42, RDFS.label, Literal(sheet_page.cell_value(row, column), datatype=XSD.integer))
+
+                ### Numérisation de la page
+                page_D2 = she(cache_40CM.get_uuid(["collection", "livre", "D2"], True))
+                t(page_D2, a, crmdig("D2_Digitization_Process"))
+                t(page_D2, crmdig("L1_digitized"), page_E18)
+                page_D1 = she(cache_40CM.get_uuid(["collection", "livre", id, "D1"], True))
+                t((page_D1), a, crmdig("D1_Digital_Object"))
+                t(page_D2, crmdig("L11_had_output"), page_D1)
+                t(page_D1, crm("130_shows_features_of"), page_E90)
+                t(collection, crm("P106_is_composed_of"), page_D1)
+
+                ### Transcription de la page TO DO
+
+                id_page(row + 1, column)
+            except:
+                pass
+
+        id_page(4, 2)
+
 
     #####################################################################
-    ## LES IMAGES DE LA COLLECTION
+    ## 2. UNE COLLECTION D'IMAGES INDIVIDUELLES
     #####################################################################
 
-    sheet_img = wb.sheet_by_index(0)
-
-    def id_img(row, column):
-        id = sheet_img.cell_value(row, column)
-        try:
-            img_E90 = she(cache_40CM.get_uuid(["collection", "livre", id, "E90"], True))
-            t(img_E90, a, crm("E90_Symbolic_Object"))
-            img_E42 = she(cache_40CM.get_uuid(["collection", "livre", id, "E42"], True))
-            t(img_E42, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
-            t(img_E90, crm("P1_is_identified_by"), img_E42)
-            t(img_E42, RDFS.label, Literal(sheet_img.cell_value(row, column), datatype=XSD.integer))
-            id_img(row + 1, column)
-        except:
-            pass
-
-    id_img(4, 2)
-
+    #if sheet_coll.cell_value(4, 3) == "Images":
 
     # Ajouter une condition pour les différents types d'images (page de livre, peinture, gravure) et en faire des E22
-
-    #t(livre_F2, lrm("R15_has_fragment")) une page
-
-    #t(collection, crm("P106_is_composed_of"), UUID DU D1)
 
 output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
 cache_40CM.bye()
