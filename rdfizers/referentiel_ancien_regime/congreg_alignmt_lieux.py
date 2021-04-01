@@ -1,4 +1,4 @@
-from rdflib import Graph
+from rdflib import Graph, Literal
 from rdflib.plugins import sparql
 
 ############################################################################################
@@ -6,23 +6,26 @@ from rdflib.plugins import sparql
 ############################################################################################
 
 output_graph = Graph()
-output_graph.load("./out/referentiel_ancien_regime/referentiel_congregations.ttl")
+output_graph.load("./out/referentiel_ancien_regime/referentiel_congregations.ttl", format="turtle")
 
-with open("./sources/referentiel_ancien_regime/congregations_sheP_situation_géohistorique.txt") as txt:
-	texte = txt.read()
-	for concept_id in texte:
-		print(concept_id)
+file = open("./sources/referentiel_ancien_regime/congregations_sheP_situation_géohistorique.txt", "r", encoding="utf-8")
 
+list = file.readlines()
+for id in list:
+	concept_id = Literal(id.rstrip())
 
-		"""
-		q = sparql.prepareQuery("""
-		# SELECT ?concept ?lieu
-		# WHERE {
-		#   ?concept <http://data-iremus.huma-num.fr/ns/sherlock#sheP_situation_géohistorique> ?lieu .
-		# }
+	q = sparql.prepareQuery("""
+		SELECT ?concept_id
+		WHERE {
+		?concept <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> ?identifier .
+		?identifier <http://www.w3.org/2000/01/rdf-schema#label> ?concept_id .
+		FILTER NOT EXISTS {
+		?concept <http://data-iremus.huma-num.fr/id/sheP_situation_géohistorique> ?lieu .
+		}
+		}
 		""")
 
-		for row in input_graph.query(q, initBindings={'concept': concept_id}):
-			print(row[0])
+	for row in output_graph.query(q, initBindings={'concept_id': concept_id}):
+		print(row[0])
 
-		"""
+

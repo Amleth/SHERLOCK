@@ -31,7 +31,7 @@ input_graph = Graph()
 input_graph.load(args.input_rdf)
 
 output_graph = Graph()
-output_graph.load(args.output_ttl)
+output_graph.load(args.output_ttl, format="turtle")
 
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
@@ -103,9 +103,13 @@ def explore(concept, depth):
     t(E32_congregations_uri, crm("P71_lists"), E74_uri)
     t(E74_uri, a, crm("E74_Group"))
 
+    # IDENTIFIER OPENTHESO
+    E42_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E42_opentheso"], True))
+    t(E42_uri, a, crm("E42_Identifier"))
+    t(E74_uri, crm("P1_is_identified_by"), E42_uri)
+    t(E42_uri, RDFS.label, Literal(concept_id))
 
     # APPELLATION
-
     E41_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E41"], True))
     t(E74_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
@@ -122,23 +126,21 @@ def explore(concept, depth):
 
 
     #ALIGNEMENT AU REFERENTIEL DES LIEUX
+    liste = open(args.situation_geo, "r", encoding="utf-8").read()
 
+    if concept_id in liste:
+        for prefLabel in ro_list(concept, SKOS.prefLabel):
+            with open(args.cache_lieux_uuid, "r", encoding="utf-8") as file:
+                input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
+                for cle in input_yaml_parse.keys():
+                    lieu = re.sub(r"(\s\[.*)|(\s\(.*)", " ", cle)
+                    print(lieu)
+                    if re.search(rf"('| de | la | le | a ){lieu}$", prefLabel, re.IGNORECASE):
+                        lieu_uuid = input_yaml_parse[cle][0]
+                        t(E74_uri, she("sheP_situation_géohistorique"), she(lieu_uuid))
 
-    with open(args.situation_geo, "r", encoding="utf-8") as txt:
-        texte = txt.read()
-        if re.search(f"\n{concept_id}\s", texte):
-            for prefLabel in ro_list(concept, SKOS.prefLabel):
-                with open(args.cache_lieux_uuid, "r", encoding="utf-8") as file:
-                    input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
-                    for cle in input_yaml_parse.keys():
-                        lieu = re.sub(r"(\s\[.*)|(\s\(.*)", " ", cle)
-                        if re.search(rf"('|de |^|la |le ){lieu}$|('|de |^|la |le ){lieu}$", prefLabel, re.IGNORECASE):
-                            lieu_uuid = input_yaml_parse[cle][0]
-                            #print(lieu, "  -  ", lieu_uuid, "  -  ", prefLabel)
-                            t(E74_uri, she("sheP_situation_géohistorique"), she(lieu_uuid))
 
     # E13 INDEXATION
-
     def process_note(p):
         indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
         indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
@@ -217,7 +219,6 @@ def explore(concept, depth):
 
 
     # NARROWERS
-
     q = sparql.prepareQuery("""
     SELECT ?narrower ?narrower_prefLabel ?narrower_id
     WHERE {

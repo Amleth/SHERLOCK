@@ -6,95 +6,95 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<3719c3a7-0110-4828-bbad-ad167ced285d> a crmdig:D2_Digitization_Process ;
-    crmdig:L11_had_output <5a539908-376d-4267-8580-8f5b7579f01e>,
-        <d47528d2-ab9b-4a28-a504-538b5635f543>,
-        <e732ef7c-8c41-4515-ba36-b89d51ab8fdf> ;
-    crmdig:L1_digitized <a29b461e-b888-4fa7-a6a9-8a03378dfbb2>,
-        <a896b125-6e7e-43d9-95dc-550e3b102d3f>,
-        <dae060eb-526b-4c8e-a25c-2dd0b4f82532> .
+<00921e61-e7cb-427e-b720-395e50f16245> a crmdig:D2_Digitization_Process ;
+    crmdig:L11_had_output <285c7e11-4940-4b4b-9ba5-2124a4ab8a24>,
+        <38d04192-53d8-4160-a26d-b83245adb7f8>,
+        <e41f6d92-331b-4159-b492-81f89f812431> ;
+    crmdig:L1_digitized <6e5a377f-7b19-4dc7-a00e-ea9636bc9dcb>,
+        <8e6b5bb1-48ef-4650-b929-cff57ce68a6b>,
+        <e313f496-e322-4279-bc89-f33810002ead> .
 
-<3c803908-0eb0-46f1-a05f-6ad4deb5a598> a lrm:F27_Work_Conception ;
-    dcterms:date "0000-0000"^^xsd:date ;
+<4007f934-f72c-40cc-a9fa-b66d8acac321> a crm:E65_Creation ;
+    crm:P14_carried_out_by "Nicolas Dufétel" ;
+    crm:P94_has_created <59492068-f909-4e7e-b46e-d8c51bb4156a> .
+
+<4e648c4b-7e22-4b9f-900e-f718b7f4b64b> a lrm:F27_Work_Conception ;
+    dcterms:date "date inconnue"^^xsd:date ;
     crm:P14_carried_out_by "créateur inconnu" ;
-    lrm:R16_initiated <8dc650ec-89d1-48ab-9866-3905f1fb8728> .
+    lrm:R16_initiated <45497be8-31d7-43d1-99ae-63b0c26ee2ac> .
 
-<7b1c3994-8d96-4290-a120-fd8e6535c682> a lrm:F28_Expression_Creation ;
+<919d5019-e566-4409-b495-440ecadb4794> a lrm:F5_Item ;
+    crm:P46_is_composed_of <6e5a377f-7b19-4dc7-a00e-ea9636bc9dcb>,
+        <8e6b5bb1-48ef-4650-b929-cff57ce68a6b>,
+        <e313f496-e322-4279-bc89-f33810002ead> ;
+    lrm:R7_is_materialization_of <950eeb2c-0be6-4898-a403-bfbe3e5ce9dc> .
+
+<d53a345c-fd82-46d7-a12b-12f9b90dbe47> a lrm:F28_Expression_Creation ;
     dcterms:date "date inconnue"^^xsd:date ;
     crm:P14_carried_out_by "auteur inconnu" ;
-    lrm:R17_created <2b1aa9fc-8489-406b-8830-2e14d1cee604> .
+    lrm:R17_created <c2a236e6-ebaa-432f-bea0-cd8a9a352b7b> .
 
-<c42866a3-77a4-41f2-9922-2e9646bd060e> a lrm:F5_Item ;
-    crm:P46_is_composed_of <a29b461e-b888-4fa7-a6a9-8a03378dfbb2>,
-        <a896b125-6e7e-43d9-95dc-550e3b102d3f>,
-        <dae060eb-526b-4c8e-a25c-2dd0b4f82532> ;
-    lrm:R7_is_materialization_of <449dbd05-ce20-4b44-adee-d9da1a960f37> .
-
-<c862d65b-9164-4dec-a129-3673bfa70d92> a crm:E65_Creation ;
-    crm:P14_carried_out_by "Nicolas Dufétel" ;
-    crm:P94_has_created <9bb924b2-fb04-4def-af33-6af7addf73fb> .
-
-<006525f1-f3ad-428e-a7e7-94ca6416c2ab> rdfs:label 1.0 ;
+<05601547-6a92-47ac-8658-4af6e8498bf6> rdfs:label 2.0 ;
     crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
 
-<0dc4ea28-5ddb-4f52-8675-0537dd47a49e> rdfs:label 3.0 ;
+<16a4e1d4-4ff7-491a-8b99-efa295f00915> rdfs:label 1.0 ;
     crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
 
-<0fa201c8-5122-4452-84b2-d8b939b06d9e> rdfs:label 2.0 ;
-    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
-
-<1a112509-8d4f-4a93-90a3-5bb60aa71eba> a crm:E30_Right ;
-    rdfs:label "https://creativecommons.org/publicdomain/zero/1.0/" .
-
-<39d25939-dda0-4458-a4ca-046868a5d984> a crm:E41_Appellation ;
-    rdfs:label "Les 40 chanteurs montagnards" .
-
-<449dbd05-ce20-4b44-adee-d9da1a960f37> a lrm:F3_Manifestation ;
-    lrm:R4_embodies <2b1aa9fc-8489-406b-8830-2e14d1cee604> .
-
-<8dc650ec-89d1-48ab-9866-3905f1fb8728> a lrm:F1_Work ;
+<45497be8-31d7-43d1-99ae-63b0c26ee2ac> a lrm:F1_Work ;
     rdfs:label "Les 40 chanteurs montagnards" ;
-    crm:P1_is_identified_by <45bd2af2-c9ec-42d6-9885-c49cdb592bf9> ;
-    lrm:R3_is_realised_in <2b1aa9fc-8489-406b-8830-2e14d1cee604> .
+    crm:P1_is_identified_by <63b85080-53de-4935-ab95-a7f22e26e834> ;
+    lrm:R3_is_realised_in <c2a236e6-ebaa-432f-bea0-cd8a9a352b7b> .
 
-<9bb924b2-fb04-4def-af33-6af7addf73fb> a crmdig:D1_Digital_Object ;
-    crm:P104_is_subject_to <1a112509-8d4f-4a93-90a3-5bb60aa71eba> ;
+<59492068-f909-4e7e-b46e-d8c51bb4156a> a crmdig:D1_Digital_Object ;
+    crm:P104_is_subject_to <c407436e-d7cb-48f4-b065-00a0cdd996bc> ;
     crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
-    crm:P106_is_composed_of <5a539908-376d-4267-8580-8f5b7579f01e>,
-        <d47528d2-ab9b-4a28-a504-538b5635f543>,
-        <e732ef7c-8c41-4515-ba36-b89d51ab8fdf> ;
-    crm:P1_is_identified_by <39d25939-dda0-4458-a4ca-046868a5d984> ;
+    crm:P106_is_composed_of <285c7e11-4940-4b4b-9ba5-2124a4ab8a24>,
+        <38d04192-53d8-4160-a26d-b83245adb7f8>,
+        <e41f6d92-331b-4159-b492-81f89f812431> ;
+    crm:P1_is_identified_by <f0063d75-a957-41b9-b4a9-c1c7432c4e4b> ;
     crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
 
-<5a539908-376d-4267-8580-8f5b7579f01e> a crmdig:D1_Digital_Object ;
-    crm:130_shows_features_of <5ced8319-3e47-4319-8d25-ab919159367f> .
+<950eeb2c-0be6-4898-a403-bfbe3e5ce9dc> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <c2a236e6-ebaa-432f-bea0-cd8a9a352b7b> .
 
-<a29b461e-b888-4fa7-a6a9-8a03378dfbb2> a crm:E18_Physical_Object ;
-    crm:P128_carries <ac8900a6-2573-4bd8-b13b-7c43a9f922a3> .
+<c407436e-d7cb-48f4-b065-00a0cdd996bc> a crm:E30_Right ;
+    rdfs:label "https://creativecommons.org/publicdomain/zero/1.0/" .
 
-<a896b125-6e7e-43d9-95dc-550e3b102d3f> a crm:E18_Physical_Object ;
-    crm:P128_carries <1e4eb798-943f-4776-8b2d-beb77c0f1afc> .
+<cf0e10e9-c963-4b7e-9039-aa68029dc3ba> rdfs:label 3.0 ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
 
-<d47528d2-ab9b-4a28-a504-538b5635f543> a crmdig:D1_Digital_Object ;
-    crm:130_shows_features_of <1e4eb798-943f-4776-8b2d-beb77c0f1afc> .
+<f0063d75-a957-41b9-b4a9-c1c7432c4e4b> a crm:E41_Appellation ;
+    rdfs:label "Les 40 chanteurs montagnards" .
 
-<dae060eb-526b-4c8e-a25c-2dd0b4f82532> a crm:E18_Physical_Object ;
-    crm:P128_carries <5ced8319-3e47-4319-8d25-ab919159367f> .
+<285c7e11-4940-4b4b-9ba5-2124a4ab8a24> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <d580165b-27ef-4b43-b916-e90f2e91f38b> .
 
-<e732ef7c-8c41-4515-ba36-b89d51ab8fdf> a crmdig:D1_Digital_Object ;
-    crm:130_shows_features_of <ac8900a6-2573-4bd8-b13b-7c43a9f922a3> .
+<38d04192-53d8-4160-a26d-b83245adb7f8> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <c9ca21cc-5e3d-4ea3-bf59-ac1897772992> .
 
-<1e4eb798-943f-4776-8b2d-beb77c0f1afc> a crm:E90_Symbolic_Object ;
-    crm:P1_is_identified_by <0fa201c8-5122-4452-84b2-d8b939b06d9e> .
+<6e5a377f-7b19-4dc7-a00e-ea9636bc9dcb> a crm:E18_Physical_Object ;
+    crm:P128_carries <c9ca21cc-5e3d-4ea3-bf59-ac1897772992> .
 
-<2b1aa9fc-8489-406b-8830-2e14d1cee604> a lrm:F2_Expression ;
-    lrm:R15_has_fragment <1e4eb798-943f-4776-8b2d-beb77c0f1afc>,
-        <5ced8319-3e47-4319-8d25-ab919159367f>,
-        <ac8900a6-2573-4bd8-b13b-7c43a9f922a3> .
+<8e6b5bb1-48ef-4650-b929-cff57ce68a6b> a crm:E18_Physical_Object ;
+    crm:P128_carries <1e2d72dd-5877-47f6-b7b7-3b0cc001cd35> .
 
-<5ced8319-3e47-4319-8d25-ab919159367f> a crm:E90_Symbolic_Object ;
-    crm:P1_is_identified_by <0dc4ea28-5ddb-4f52-8675-0537dd47a49e> .
+<e313f496-e322-4279-bc89-f33810002ead> a crm:E18_Physical_Object ;
+    crm:P128_carries <d580165b-27ef-4b43-b916-e90f2e91f38b> .
 
-<ac8900a6-2573-4bd8-b13b-7c43a9f922a3> a crm:E90_Symbolic_Object ;
-    crm:P1_is_identified_by <006525f1-f3ad-428e-a7e7-94ca6416c2ab> .
+<e41f6d92-331b-4159-b492-81f89f812431> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <1e2d72dd-5877-47f6-b7b7-3b0cc001cd35> .
+
+<1e2d72dd-5877-47f6-b7b7-3b0cc001cd35> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <05601547-6a92-47ac-8658-4af6e8498bf6> .
+
+<c2a236e6-ebaa-432f-bea0-cd8a9a352b7b> a lrm:F2_Expression ;
+    lrm:R15_has_fragment <1e2d72dd-5877-47f6-b7b7-3b0cc001cd35>,
+        <c9ca21cc-5e3d-4ea3-bf59-ac1897772992>,
+        <d580165b-27ef-4b43-b916-e90f2e91f38b> .
+
+<c9ca21cc-5e3d-4ea3-bf59-ac1897772992> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <16a4e1d4-4ff7-491a-8b99-efa295f00915> .
+
+<d580165b-27ef-4b43-b916-e90f2e91f38b> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <cf0e10e9-c963-4b7e-9039-aa68029dc3ba> .
 
