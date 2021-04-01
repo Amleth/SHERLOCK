@@ -11,6 +11,7 @@ from sherlockcachemanagement import Cache
 
 # Arguments
 parser = argparse.ArgumentParser()
+parser.add_argument("--collection_id")
 parser.add_argument("--iiif_excel_coll")
 parser.add_argument("--iiif_excel_index")
 parser.add_argument("--output_ttl")
@@ -71,35 +72,39 @@ index = wb_index.active
 wb_img = load_workbook(args.iiif_excel_coll)
 img = wb_img.active
 
-sys.exit()
-
 #####################################################################
 # LA COLLECTION
 #####################################################################
 
-collection_id = img.cell_value(4, 0)
+for row in index:
+    if row[0].value == args.collection_id:
+        collection = she(cache_40CM.get_uuid(["collection", "uuid"], True))
+        t(collection, a, crmdig("D1_Digital_Object"))
+        # Appellation
+        collection_E41 = she(cache_40CM.get_uuid(["collection", "E41"], True))
+        t(collection_E41, a, crm("E41_Appellation"))
+        t(collection, crm("P1_is_identified_by"), collection_E41)
+        t(collection_E41, RDFS.label, Literal(row[1].value))
+        t(collection, crm("P2_has_type"), she("14926d58-83e7-4414-90a8-1a3f5ca8fec1"))
+        # Creation
+        collection_E65 = she(cache_40CM.get_uuid(["collection", "E65"], True))
+        t(collection_E65, a, crm("E65_Creation"))
+        t(collection_E65, crm("P94_has_created"), collection)
+        t(collection_E65, crm("P14_carried_out_by"), Literal(row[2].value))  # Aller chercher l'uuid du-de la responsable
+        # Licence
+        collection_E30 = she(cache_40CM.get_uuid(["collection", "E30"], True))
+        t(collection_E30, a, crm("E30_Right"))
+        t(collection, crm("P104_is_subject_to"), collection_E30)
+        t(collection_E30, RDFS.label, Literal(row[5].value))
+        # Attribution
+        t(collection, crm("P105_right_held_by"), she("48a8e9ad-4264-4b0b-a76d-953bc9a34498"))
 
-collection = she(cache_40CM.get_uuid(["collection", "uuid"], True))
-t(collection, a, crmdig("D1_Digital_Object"))
-# Appellation
-collection_E41 = she(cache_40CM.get_uuid(["collection", "E41"], True))
-t(collection_E41, a, crm("E41_Appellation"))
-t(collection, crm("P1_is_identified_by"), collection_E41)
-t(collection_E41, RDFS.label, Literal(index.cell_value(4, 1)))
-t(collection, crm("P2_has_type"), she("14926d58-83e7-4414-90a8-1a3f5ca8fec1"))
-# Creation
-collection_E65 = she(cache_40CM.get_uuid(["collection", "E65"], True))
-t(collection_E65, a, crm("E65_Creation"))
-t(collection_E65, crm("P94_has_created"), collection)
-t(collection_E65, crm("P14_carried_out_by"), Literal(index.cell_value(4, 2)))  # Aller chercher l'uuid du-de la responsable
-# Licence
-collection_E30 = she(cache_40CM.get_uuid(["collection", "E30"], True))
-t(collection_E30, a, crm("E30_Right"))
-t(collection, crm("P104_is_subject_to"), collection_E30)
-t(collection_E30, RDFS.label, Literal(index.cell_value(4, 5)))
-# Attribution
-t(collection, crm("P105_right_held_by"), she("48a8e9ad-4264-4b0b-a76d-953bc9a34498"))
+        break
 
+output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+cache_40CM.bye()
+
+sys.exit()
 
 #####################################################################
 # 1. UNE PUBLICATION NUMERISEE
@@ -156,49 +161,52 @@ if index["D5"].value == "Livre":
     #####################################################################
 
     def id_page(coord):
-        id = index[coord].value
-        try:
-            # La page comme support physique
-            page_E18 = she(cache_40CM.get_uuid(["collection", "livre", id, "E18"], True))
-            t(page_E18, a, crm("E18_Physical_Object"))
-            t(livre_F5, crm("P46_is_composed_of"), page_E18)
+        pass
+        # id = img[coord].value
+        # try:
+        #     # La page comme support physique
+        #     page_E18 = she(cache_40CM.get_uuid(["collection", "livre", id, "E18"], True))
+        #     t(page_E18, a, crm("E18_Physical_Object"))
+        #     t(livre_F5, crm("P46_is_composed_of"), page_E18)
 
-            # La page comme support sémiotique
-            page_E90 = she(cache_40CM.get_uuid(["collection", "livre", id, "E90"], True))
-            t(page_E90, a, crm("E90_Symbolic_Object"))
-            t(livre_F2, lrm("R15_has_fragment"), page_E90)
-            t(page_E18, crm("P128_carries"), page_E90)
+        #     # La page comme support sémiotique
+        #     page_E90 = she(cache_40CM.get_uuid(["collection", "livre", id, "E90"], True))
+        #     t(page_E90, a, crm("E90_Symbolic_Object"))
+        #     t(livre_F2, lrm("R15_has_fragment"), page_E90)
+        #     t(page_E18, crm("P128_carries"), page_E90)
 
-            # Identifiant
-            page_E42 = she(cache_40CM.get_uuid(["collection", "livre", id, "E42"], True))
-            t(page_E42, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
-            t(page_E90, crm("P1_is_identified_by"), page_E42)
-            t(page_E42, RDFS.label, Literal(img.cell_value(coord), datatype=XSD.integer))
+        #     # Identifiant
+        #     page_E42 = she(cache_40CM.get_uuid(["collection", "livre", id, "E42"], True))
+        #     t(page_E42, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
+        #     t(page_E90, crm("P1_is_identified_by"), page_E42)
+        #     t(page_E42, RDFS.label, Literal(img[""].value, datatype=XSD.integer))
 
-            # Numérisation de la page
-            page_D2 = she(cache_40CM.get_uuid(["collection", "livre", "D2"], True))
-            t(page_D2, a, crmdig("D2_Digitization_Process"))
-            t(page_D2, crmdig("L1_digitized"), page_E18)
-            page_D1 = she(cache_40CM.get_uuid(["collection", "livre", id, "D1"], True))
-            t((page_D1), a, crmdig("D1_Digital_Object"))
-            t(page_D2, crmdig("L11_had_output"), page_D1)
-            t(page_D1, crm("130_shows_features_of"), page_E90)
-            t(collection, crm("P106_is_composed_of"), page_D1)
+        #     # Numérisation de la page
+        #     page_D2 = she(cache_40CM.get_uuid(["collection", "livre", "D2"], True))
+        #     t(page_D2, a, crmdig("D2_Digitization_Process"))
+        #     t(page_D2, crmdig("L1_digitized"), page_E18)
+        #     page_D1 = she(cache_40CM.get_uuid(["collection", "livre", id, "D1"], True))
+        #     t((page_D1), a, crmdig("D1_Digital_Object"))
+        #     t(page_D2, crmdig("L11_had_output"), page_D1)
+        #     t(page_D1, crm("130_shows_features_of"), page_E90)
+        #     t(collection, crm("P106_is_composed_of"), page_D1)
 
-            # Transcription de la page TO DO
+        #     # Transcription de la page TO DO
 
-            id_page(row + 1, column)
-        except:
-            pass
+        #     id_page(row + 1, column)
+        # except:
+        #     pass
 
     id_page("A5")
+
+sys.exit()
 
 
 #####################################################################
 # 2. DES IMAGES INDIVIDUELLES
 #####################################################################
 
-if index.cell_value(4, 3) == "Images":
+if index["TODO"].value == "Images":
 
     def id_img(coord):
         sheet_img = wb_index.sheet_by_index(0)

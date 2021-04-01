@@ -1,0 +1,21 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<98834b73-5aff-40fe-ac9d-198cfe1d1f65> a crm:E65_Creation ;
+    crm:P14_carried_out_by "Nicolas Dufétel" ;
+    crm:P94_has_created <3d951c4d-f1e5-47f8-bd64-5f2391a21d46> .
+
+<3d951c4d-f1e5-47f8-bd64-5f2391a21d46> a crmdig:D1_Digital_Object ;
+    crm:P104_is_subject_to <3e5518de-aca0-45f9-9d01-11b12acebdf1> ;
+    crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
+    crm:P1_is_identified_by <4844f313-66fc-428d-822d-d56203955bc7> ;
+    crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
+
+<3e5518de-aca0-45f9-9d01-11b12acebdf1> a crm:E30_Right ;
+    rdfs:label "https://creativecommons.org/publicdomain/zero/1.0/" .
+
+<4844f313-66fc-428d-822d-d56203955bc7> a crm:E41_Appellation ;
+    rdfs:label "Les 40 chanteurs montagnards" .
+

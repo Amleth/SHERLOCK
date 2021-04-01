@@ -1,1 +1,3 @@
-python3 ./rdfizers/iiif/40CM_coll_iiif.py --iiif_excel_coll "./iiif/40CM_coll_iiif.xlsx" --iiif_excel_index "./iiif/index_coll_iiif.xlsx" --output_ttl "./out/40_chant_mont/40CM_coll_iiif.ttl" --cache_40CM "./caches/40_chant_mont/cache_40CM.yaml"
+mkdir -p ./out/iiif
+mkdir -p ./caches/iiif
+python3 ./rdfizers/iiif/40CM_coll_iiif.py --collection_id "40CM" --iiif_excel_coll "./sources/iiif/40CM/40CM.xlsx" --iiif_excel_index "./sources/iiif/collections.xlsx" --output_ttl "./out/iiif/40CM.ttl" --cache_40CM "./caches/iiif/40CM.yaml"
