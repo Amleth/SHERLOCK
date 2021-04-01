@@ -101,7 +101,9 @@ for row in index:
 
         break
 
-output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
+with open(args.output_ttl, "wb") as f:
+    f.write(serialization)
 cache_40CM.bye()
 
 sys.exit()
@@ -226,5 +228,7 @@ if index["TODO"].value == "Images":
 
     id_img(4, 2)
 
-output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
+with open(args.output_ttl, "wb") as f:
+    f.write(serialization)
 cache_40CM.bye()
