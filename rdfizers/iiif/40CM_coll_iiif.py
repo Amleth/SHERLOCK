@@ -65,10 +65,10 @@ def t(s, p, o):
 
 
 # Fichiers Excel
-# Index des collections
+## Index des collections
 wb_index = load_workbook(args.iiif_excel_index)
 index = wb_index.active
-# Images de la collection
+## Images de la collection
 wb_img = load_workbook(args.iiif_excel_coll)
 img = wb_img.active
 
