@@ -1,0 +1,68 @@
+DELETE {
+    GRAPH ?g {
+    	?s ?p ?o .
+    	?o ?p2 ?o2 .
+    }
+}
+INSERT {
+    GRAPH ?g {
+    	?s ?p ?nouvelleUri .
+    	?nouvelleUri ?p2 ?o2 .
+    }
+}
+WHERE {
+    GRAPH ?g {
+        ?s ?p ?o .
+        ?o ?p2 ?o2 .
+        # seulement les cas où l'objet est un noeud anonyme
+        FILTER(isBlank(?o))
+    }
+        
+    BIND(IRI(
+            CONCAT("http://data-iremus.huma-num.fr/id/", STRUUID())
+        ) 
+        AS ?nouvelleUri
+    )
+}
+
+SELECT *
+WHERE {
+  GRAPH <http://data-iremus.huma-num.fr/graph/polymir> {
+    <http://data-iremus.huma-num.fr/id/1269f40f-a960-4c94-aa8d-bff42414ad89> ?p ?o .
+  }
+}
+
+DELETE WHERE {
+  GRAPH <http://data-iremus.huma-num.fr/graph/polymir> {
+    ?s ?P ?o
+  }
+}
+
+{ "head": {
+    "vars": [ "p" , "o" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "p": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "o": { "type": "uri" , "value": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object" }
+      } ,
+      { 
+        "p": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "o": { "type": "uri" , "value": "http://www.cidoc-crm.org/cidoc-crm/E31_Document" }
+      } ,
+      { 
+        "p": { "type": "uri" , "value": "http://purl.org/dc/terms/format" } ,
+        "o": { "type": "literal" , "value": "application/vnd.mei+xml" }
+      } ,
+      { 
+        "p": { "type": "uri" , "value": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type" } ,
+        "o": { "type": "uri" , "value": "http://data-iremus.huma-num.fr/id/bf9dce29-8123-4e8e-b24d-0c7f134bbc8e" }
+      } ,
+      { 
+        "p": { "type": "uri" , "value": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by" } ,
+        "o": { "type": "bnode" , "value": "b0" }
+      }
+    ]
+  }
+}

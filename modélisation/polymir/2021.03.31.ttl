@@ -1,0 +1,35 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mo: <http://purl.org/ontology/chord/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix meipp: <http://data-iremus.huma-num.fr/ns/meiplusplus#>
+@prefix mt: <http://data-iremus.huma-num.fr/ns/modality-tonality#>
+
+<2cbda4e9-2fe8-4583-b67d-ee04362d0cb7> a meipp:VerticalPitch .
+
+<8fde9fe7-76d2-429d-8296-dcdc977a5cf8> a crm:E1_Entity .
+
+<6ea95145-3b2a-4d4d-b1f1-ed7d81e1b01f>
+    a crm:E13_Attribute_Assignment ;
+    a mt:AnalyzedPitch ;
+    dcterms:created "2019-10-13T13:00:00Z"^^xsd:dateTime ;
+    crm:P14_carried_out_by <8fde9fe7-76d2-429d-8296-dcdc977a5cf8> ;
+
+    crm:P140_assigned_attribute_to <2cbda4e9-2fe8-4583-b67d-ee04362d0cb7> ; # ancre de l'annotation
+
+    #TODO Problème de modélisation : le E13 reproduit une structure de réification SPO, or, nous avons besoin de plusieurs PO
+    
+    crm:P177_assigned_property_type mt:dissonanceType ;
+    crm:P141_assigned "CN" ;
+
+    crm:P177_assigned_property_type mt:dissonanceTypeProbability ;
+    crm:P141_assigned "0.89" ;
+
+    .

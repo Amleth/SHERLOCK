@@ -1,0 +1,3 @@
+[submodule "modal-tonal-ontology"]
+	path = modal-tonal-ontology
+	url = https://github.com/guillotel-nothmann/modal-tonal-ontology.git

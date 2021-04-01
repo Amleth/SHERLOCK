@@ -22,7 +22,7 @@
   crm:P1_is_identified_by [
     a crm:E42_Identifier ;
     crm:P2_has_type <219fd53d-cdf2-4174-8d71-6d12bdd24016> ;
-    rdfs:label <http://data-iremus.huma-num.fr/files/787.mei>
+    rdfs:label <http://data-iremus.huma-num.fr/files/mei/787.mei>
   ] ;
   crm:P1_is_identified_by [
     a crm:E42_Identifier ;
@@ -58,29 +58,22 @@
   crmdig:L10_had_input <04dd4963-8dc3-44ce-a9bc-b38f7d9a02ac> ;
   crmdig:L10_had_input <7fbdd0aa-0c17-451c-884b-f79efdfd8381> ;
   crmdig:L11_had_output <de48731c-b714-464e-a7ae-bb93ce9bfba7> ;
-  crmdig:L13_used_parameters <d0992488-ccaa-4af3-bb91-ee388772584a> ;
-  crmdig:L23_used_software <a3e99813-d460-4c04-a56c-dc9c11323e92> ;
   crmdig:L23_used_software_or_firmware <a3e99813-d460-4c04-a56c-dc9c11323e92> ;
-  crmdig:L24_created_logfile <4531dfca-0490-4433-9854-684030d53bcf> ;
   crmdig:L29_has_responsible_organization <7b38dab1-3f9f-431b-83e5-4bc98ccfd497> ;
   crmdig:L30_has_operator <fccdf69c-4d6b-482e-869c-785551482dc2> ;
   crmdig:L31_has_starting_date-time "2019-10-13T12:59:46Z"^^xsd:dateTime ;
   crmdig:L31_has_ending_date-time "2019-10-13T13:00:00Z"^^xsd:dateTime ;
   .
 
-# un paramétrage de l'algorithme PolyMIR
-<d0992488-ccaa-4af3-bb91-ee388772584a>
-  a crmdig:D1_Digital_Object ;
-  .
-
-# un fichier de log résultant d'une éxécution de l'algorithme PolyMIR
-<4531dfca-0490-4433-9854-684030d53bcf>
-  a crmdig:D1_Digital_Object ;
-  .
-
 # un jeu de données produit par une éxécution de l'algorithme PolyMIR
 <de48731c-b714-464e-a7ae-bb93ce9bfba7>
   a crmdig:D1_Digital_Object ;
+  crm:P1_is_identified_by [
+    a crm:E42_Identifier ;
+    crm:P2_has_type <219fd53d-cdf2-4174-8d71-6d12bdd24016> ;
+    rdfs:label <http://data-iremus.huma-num.fr/files/polymir/787.xml>
+  ] ;
+  crm:P106_is_composed_of <ae5a57db-734f-42b1-acc5-42bd88884eff> ;
   .
 
 ################################################################################
@@ -90,26 +83,20 @@
 # Une annotation effectuée par le programme
 <ae5a57db-734f-42b1-acc5-42bd88884eff>
   a crm:E13_Attribute_Assignment ;
+  a crmdig:D1_Digital_Object ; # Ce n'est peut-être pas une bonne idée, mais c'est pour éviter de devoir créer un sous-objet supplémentaire pointé par P141. À voir si la structure des annotations algorothmiques « tient » dans le P141…
+  dcterms:created "2019-10-13T13:00:00Z"^^xsd:dateTime ;
+  crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> ;
   crm:P140_assigned_attribute_to <549120f5-fbe8-496b-8578-90fd54de202b> ;
   crm:P141_assigned <0bbe0556-1ac9-4ef8-b449-23e834dcc2b2> ;
   crm:P177_assigned_property_type <169ab089-c0a8-43ab-aec4-5a1a6e1b52c1> ;
-  crm:P14_carried_out_by <de48731c-b714-464e-a7ae-bb93ce9bfba7> ;
-  dcterms:created "2019-10-13T13:00:00Z"^^xsd:dateTime ;
   .
 
 # Une annotation effectuée par Christophe
 <7cf03491-0cc3-4623-80b8-078d77965800>
   a crm:E13_Attribute_Assignment ;
+  dcterms:created "2020-01-24T09:01:00Z"^^xsd:dateTime ;
+  crm:P14_carried_out_by <fccdf69c-4d6b-482e-869c-785551482dc2> ;
   crm:P140_assigned_attribute_to <549120f5-fbe8-496b-8578-90fd54de202b> ;
   crm:P141_assigned <905674f2-40ed-4bf0-8d13-df113ed84513> ;
   crm:P177_assigned_property_type <169ab089-c0a8-43ab-aec4-5a1a6e1b52c1> ;
-  crm:P14_carried_out_by <fccdf69c-4d6b-482e-869c-785551482dc2> ;
-  crm:P4_has_time-span [
-    a crm:E52_Time-Span ;
-    a time:Interval ;
-    time:hasEnd [
-      a time:Instant ;
-      time:inXSDDateTimeStamp "2020-01-24T09:01:00Z"^^xsd:dateTime
-    ];
-  ] ;
   .

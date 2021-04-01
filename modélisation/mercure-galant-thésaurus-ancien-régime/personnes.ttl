@@ -18,7 +18,7 @@
 ################################################################################
 
 # Avec l'instanciation de P144 pour exprimer P144.1 :
-# E21 <---P143--- E85 <---instance de P144 (a pour rôle machin)---> E74
+# E21 <--- P143 --- E85 <--- [instance de P144 (a pour rôle machin)] ---> E74
 
 # Les données de base
 

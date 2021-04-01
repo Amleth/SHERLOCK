@@ -1,0 +1,88 @@
+# https://stackoverflow.com/questions/47513866/blank-node-skolemization-in-sparql-without-iteration
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+####################
+# Rewrite subjects #
+####################
+
+DELETE {
+  GRAPH ?g {
+    ?bnode ?p ?o .
+  }
+}
+INSERT {
+  GRAPH ?g {
+    ?iri ?p ?o .
+  }
+  GRAPH <http://data-iremus.huma-num.fr/graph/aliases> {
+    ?bnode owl:sameAs ?iri .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    {
+      SELECT ?bnode (IRI(CONCAT("http://data-iremus.huma-num.fr/id/", STRUUID())) AS ?iri)
+      WHERE {
+        GRAPH ?g {
+          {
+            SELECT DISTINCT ?bnode
+            WHERE {
+              ?bnode ?p [] .
+              FILTER isBlank(?bnode)
+            }
+          }
+        }
+      }
+    }
+    ?bnode ?p ?o .
+  }
+}
+;
+
+###################
+# Rewrite objects #
+###################
+
+DELETE {
+  GRAPH ?g {
+    ?s ?p ?bnode .
+  }
+}
+INSERT {
+  GRAPH ?g {
+    ?s ?p ?iri .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    {
+      SELECT ?bnode ?iri
+      WHERE {
+        GRAPH ?g {
+          {
+            SELECT DISTINCT ?bnode
+            WHERE {
+              [] ?p ?bnode .
+              FILTER isBlank(?bnode)
+            }
+          }
+        }
+        OPTIONAL {
+          GRAPH <http://data-iremus.huma-num.fr/graph/aliases> {
+            ?bnode owl:sameAs ?_iri .
+          }
+        }
+        BIND (coalesce(?_iri, IRI(CONCAT("http://data-iremus.huma-num.fr/id/", STRUUID()))) AS ?iri)
+      }
+    }
+    ?s ?p ?bnode .
+  }
+}
+;
+
+############################
+# Clear blank node aliases #
+############################
+
+CLEAR GRAPH <http://data-iremus.huma-num.fr/graph/aliases>

@@ -125,7 +125,7 @@ def explore(concept, depth):
         if re.search(f"\n{concept_id}\s", texte):
             #print(concept_id)
             for prefLabel in ro_list(concept, SKOS.prefLabel):
-                with open(args.cache_lieux_uuid, "r") as file:
+                with open(args.cache_lieux_uuid, "r", encoding="utf-8") as file:
                     input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
                     for cle in input_yaml_parse.keys():
                         #print(cle)
