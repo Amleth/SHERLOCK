@@ -173,7 +173,7 @@ if index["D5"].value == "Livre":
             page_E42 = she(cache_40CM.get_uuid(["collection", "livre", id, "E42"], True))
             t(page_E42, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
             t(page_E90, crm("P1_is_identified_by"), page_E42)
-            t(page_E42, RDFS.label, Literal(img.cell_value(row, column), datatype=XSD.integer))
+            t(page_E42, RDFS.label, Literal(img.cell_value(coord), datatype=XSD.integer))
 
             # Numérisation de la page
             page_D2 = she(cache_40CM.get_uuid(["collection", "livre", "D2"], True))
@@ -200,9 +200,9 @@ if index["D5"].value == "Livre":
 
 if index.cell_value(4, 3) == "Images":
 
-    def id_img(row, column):
+    def id_img(coord):
         sheet_img = wb_index.sheet_by_index(0)
-        id = sheet_img.cell_value(row, column)
+        id = sheet_img.cell_value(coord)
         try:
             # L'image comme support physique
             image_E22 = she(cache_40CM.get_uuid(["collection", id, "E22"], True))
