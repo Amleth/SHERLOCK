@@ -126,6 +126,7 @@
     lrmoo:R17_created <7a3825d4-0da1-43b0-8091-3d6feb9dc921> ;
     crm:P16_used_specific_object <a62ca84f-73f3-4ddb-a9e9-c51e29554295> ;
     crm:P14_carried_out_by <7ebda3f2-cdfb-4f9c-9b86-0fb559bbfee5> ; 
+    # typer P2
     .
 
 <7a3825d4-0da1-43b0-8091-3d6feb9dc921>

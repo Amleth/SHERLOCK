@@ -280,7 +280,9 @@ explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=papaute&idt=166"), 0)
 t(E32_congregations_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"),
   she(cache_congregations.get_uuid(["congregations", "papaute", "uuid"], True)))
 
-output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
+with open(args.output_ttl, "wb") as f:
+    f.write(serialization)
 cache_corpus.bye()
 cache_congregations.bye()
 

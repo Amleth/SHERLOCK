@@ -12,7 +12,7 @@ from sherlockcachemanagement import Cache
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--tei")  # Je m'attends à trouver tel argument
-parser.add_argument("--ttl")  # Je m'attends à trouver tel argument
+parser.add_argument("--output_ttl")  # Je m'attends à trouver tel argument
 parser.add_argument("--corpus_cache")
 args = parser.parse_args()  # Où sont stockés tous les paramètres passés en ligne de commande
 
@@ -105,7 +105,7 @@ for file in os.listdir(args.tei):
     # Facsimile de l'expression originale
     # Manifestation
     livraison_F3_uri = she(corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F3"], True))
-    g.add((livraison_F3_uri, RDF.type, URIRef(crm_ns["F3_Manifestation"])))
+    g.add((livraison_F3_uri, RDF.type, URIRef(lrmoo_ns["F3_Manifestation"])))
     g.add((livraison_F3_uri, URIRef(lrmoo_ns["R4_embodies"]), livraison_F2_originale_uri))
     # Item
     livraison_F5_uri = she(corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F5"], True))
@@ -209,5 +209,8 @@ for file in os.listdir(args.tei):
                URIRef(iremus_ns["92c258a0-1e34-437f-9686-e24322b95305"])))
         g.add((article_F2_tei_E42_id_uri, RDFS.label, Literal(article_id)))
 
-g.serialize(destination=args.ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
+with open(args.output_ttl, "wb") as f:
+    f.write(serialization)
 corpus_cache.bye()
+
