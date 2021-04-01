@@ -31,17 +31,20 @@ input_graph = Graph()
 input_graph.load(args.input_rdf)
 
 output_graph = Graph()
+output_graph.load(args.output_ttl, format="turtle")
 
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
+she_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 
 output_graph.bind("crm", crm_ns)
 output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("lrmoo", lrmoo_ns)
 output_graph.bind("sdt", sdt_ns)
 output_graph.bind("skos", SKOS)
+output_graph.bind("she", she_ns)
 
 a = RDF.type
 
@@ -81,7 +84,7 @@ def ro_list(s, p):
 
 
 def count_concepts():
-    q = g.query(
+    q = input_graph.query(
         """
         SELECT (COUNT(?concept) AS ?n)
         WHERE {
@@ -100,9 +103,13 @@ def explore(concept, depth):
     t(E32_congregations_uri, crm("P71_lists"), E74_uri)
     t(E74_uri, a, crm("E74_Group"))
 
+    # IDENTIFIER OPENTHESO
+    E42_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E42_opentheso"], True))
+    t(E42_uri, a, crm("E42_Identifier"))
+    t(E74_uri, crm("P1_is_identified_by"), E42_uri)
+    t(E42_uri, RDFS.label, Literal(concept_id))
 
     # APPELLATION
-
     E41_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E41"], True))
     t(E74_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
@@ -118,6 +125,7 @@ def explore(concept, depth):
             t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
 
 
+<<<<<<< HEAD
     #ALIGNEMENT AU REFERENTIEL DES LIEUX - SOUCI D'ENCODAGE
 
     with open(args.situation_geo, "r", encoding="utf-8") as txt:
@@ -135,14 +143,24 @@ def explore(concept, depth):
                             print(cle, "  -  ", lieu_uuid, "  -  ", prefLabel)
                             #t(she(lieu_uuid), she("sheP_situation_géohistorique"), E74_uri)
 
+=======
+    #ALIGNEMENT AU REFERENTIEL DES LIEUX
+    liste = open(args.situation_geo, "r", encoding="utf-8").read()
+>>>>>>> 9269b31eee997797d334de49df87e3112218bd58
 
-
-                            # IMPRIMER LES LABELS SANS CLE : VOIR SI SHEP_SITUATION_GEO. SI PAS DE SHEP,
-                            #IMPRIMER L'ID.
+    if concept_id in liste:
+        for prefLabel in ro_list(concept, SKOS.prefLabel):
+            with open(args.cache_lieux_uuid, "r", encoding="utf-8") as file:
+                input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
+                for cle in input_yaml_parse.keys():
+                    lieu = re.sub(r"(\s\[.*)|(\s\(.*)", " ", cle)
+                    print(lieu)
+                    if re.search(rf"('| de | la | le | a ){lieu}$", prefLabel, re.IGNORECASE):
+                        lieu_uuid = input_yaml_parse[cle][0]
+                        t(E74_uri, she("sheP_situation_géohistorique"), she(lieu_uuid))
 
 
     # E13 INDEXATION
-
     def process_note(p):
         indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
         indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
@@ -221,7 +239,6 @@ def explore(concept, depth):
 
 
     # NARROWERS
-
     q = sparql.prepareQuery("""
     SELECT ?narrower ?narrower_prefLabel ?narrower_id
     WHERE {
@@ -266,4 +283,9 @@ t(E32_congregations_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"),
 output_graph.serialize(destination=args.output_ttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
 cache_corpus.bye()
 cache_congregations.bye()
+
+
+
+
+
 

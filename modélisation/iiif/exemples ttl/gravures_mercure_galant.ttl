@@ -1,0 +1,85 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdt: <http://data-iremus.huma-num.fr/datatypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+# La collection d'images numérisées
+<374d161b-0be8-44e1-8072-8cbec118e35f>
+    a crm:D1_Digital_Object ;
+    crm:p1_is_identified_by "Gravures du Mercure Galant" ;
+    crm:P2_has_type "Collection numérique" ;
+    crm:P104_is_subject_to <40d82bbc-bf79-4ff5-8d2f-4f8fbc726316> ; # E30 ; serait l'équivalent du champ "licence" dans iiif
+    crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ; # E39 (IReMus), serait l'équivalent du champ "attribution" dans iiif
+    crm:P106_is_composed_of <58b34a23-f3dc-4ef9-abb4-36f0a23f6d7a> ;
+    .
+
+<f8ce485f-6b2a-4f71-a026-a0d4b9ddd353>
+    a crm:65_Creation ;
+    crm:P94_has_created <374d161b-0be8-44e1-8072-8cbec118e35f> ;
+    crm:P14_carried_out_by <ea287800-4345-4649-af12-7253aa185f3f> ;
+    .
+
+# Licence
+<40d82bbc-bf79-4ff5-8d2f-4f8fbc726316>
+    a crm:E30_Right ;
+    .
+
+# La gravure matérielle
+<f4c37ba7-f1d9-43f9-90f2-63bab3cb49df>
+    a crm:E22_Human-Made_Object ;
+    crm:P65_shows_visual_item <bc28304d-8c6c-448f-bb70-85d525b2971c> ;
+    .
+
+# Le contenu sémiotique de la gravure
+<bc28304d-8c6c-448f-bb70-85d525b2971c>
+    a crm:E36_Visual_Item ;
+    crm:P102_has_title <08461321-573d-4cfe-a181-6711d6c61d50> ;
+    crm:P138_represents <ad777a4f-55b6-4ff1-be2c-290e04a6bf36> ; # N'importe quelle E1_Entity : ex. "Arles (E93)"
+    crm:P129_is_about <864db43b-fef1-447a-a265-efebd653c0cd> ; # N'importe quelle E1_Entity : ex. "Enigme (E89)"
+    .
+
+<08461321-573d-4cfe-a181-6711d6c61d50>
+    a crm:E35_Title ; 
+    rdfs:label "L'Empire de la Poésie";
+    crm:P2_has_type "Titre normalisé" ;
+    .
+
+# Création de la gravure
+<fd915ef3-f45c-46c7-aba1-d8ae3957d726>
+    a crm:E65_Creation ;
+    .
+
+<4d57ac14-247f-4b0e-90ca-0397b6051b8b>
+    a crm:E7_Activity ;
+    crm:P2_has_type "invenit" ; # Conception de la gravure
+    crm:P14_carried_out_by <96aeb67c-bc7a-4db7-9d3c-bed5476799f7> ; # E21
+    crm:P20_had_specific_purpose <fd915ef3-f45c-46c7-aba1-d8ae3957d726> ;
+    .
+
+<4d57ac14-247f-4b0e-90ca-0397b6051b8b>
+    a crm:E7_Activity ;
+    crm:P2_has_type "sculpsit" ; # Gravure de la gravure
+    crm:P14_carried_out_by <96aeb67c-bc7a-4db7-9d3c-bed5476799f7> ; # E21
+    crm:P20_had_specific_purpose <fd915ef3-f45c-46c7-aba1-d8ae3957d726> ;
+    .
+
+# Numérisation de la gravure
+<2b5684a9-3705-4353-ae59-4b7399dd6df8>
+    a crmdig:D2_Digitization_Process ;
+    crmdig:L1_digitized <bc28304d-8c6c-448f-bb70-85d525b2971c> ;
+    crmdig:L11_had_output <58b34a23-f3dc-4ef9-abb4-36f0a23f6d7a> ;
+    .
+
+# Image numérisée de la gravure
+<58b34a23-f3dc-4ef9-abb4-36f0a23f6d7a>
+    a crm:D1_Digital_Object ;
+    crm:P130_shows_features_of <bc28304d-8c6c-448f-bb70-85d525b2971c> ; 
+    .
+
