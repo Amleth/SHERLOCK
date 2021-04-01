@@ -105,41 +105,41 @@ t(collection, crm("P105_right_held_by"), she("48a8e9ad-4264-4b0b-a76d-953bc9a344
 # 1. UNE PUBLICATION NUMERISEE
 #####################################################################
 
-if index.cell_value(4, 3) == "Livre":
+if index["D5"].value == "Livre":
 
     # Work
     livre_F1 = she(cache_40CM.get_uuid(["collection", "livre", "F1"], True))
     t(livre_F1, a, lrm("F1_Work"))
     livre_E41 = she(cache_40CM.get_uuid(["collection", "livre", "E41"], True))
     t(livre_F1, crm("P1_is_identified_by"), livre_E41)
-    t(livre_F1, RDFS.label, Literal(index.cell_value(4, 6)))
+    t(livre_F1, RDFS.label, Literal(index["B5"].value))
     # Work Conception
-    if index.cell_value(4, 7) or index.cell_value(4, 9) != None:
+    if index["H5"].value or index["J5"].value != None:
         livre_F27 = she(cache_40CM.get_uuid(["collection", "livre", "F27"], True))
         t(livre_F27, a, lrm("F27_Work_Conception"))
         t(livre_F27, lrm("R16_initiated"), livre_F1)
-        if index.cell_value(4, 7) != None:
-            t(livre_F27, crm("P14_carried_out_by"), Literal(index.cell_value(4, 7)))
-        if index.cell_value(4, 9) != None:
+        if index["H5"].value != None:
+            t(livre_F27, crm("P14_carried_out_by"), Literal(index["C5"].value))
+        if index["J5"].value != None:
             # E52 OU DCTERMS:DATE?
             # livre_E52 = she(cache_40CM.get_uuid(["collection", "livre", "E52"], True))
             # t(livre_F27, crm("P4_has_time-span"), livre_E52)
             # t(livre_E52, DCTERMS.date, Literal(index.cell_value(4, 9)))
-            t(livre_F27, DCTERMS.date, Literal(index.cell_value(4, 9), datatype=XSD.date))
+            t(livre_F27, DCTERMS.date, Literal(index["J5"].value, datatype=XSD.date))
 
     # Expression
     livre_F2 = she(cache_40CM.get_uuid(["collection", "livre", "F2"], True))
     t(livre_F1, lrm("R3_is_realised_in"), livre_F2)
     t(livre_F2, a, lrm("F2_Expression"))
     # Expression Creation
-    if index.cell_value(4, 8) or index.cell_value(4, 10) != None:
+    if index["I5"].value or index["K5"].value != None:
         livre_F28 = she(cache_40CM.get_uuid(["collection", "livre", "F28"], True))
         t(livre_F28, a, lrm("F28_Expression_Creation"))
         t(livre_F28, lrm("R17_created"), livre_F2)
-        if index.cell_value(4, 8) != None:
-            t(livre_F28, crm("P14_carried_out_by"), Literal(index.cell_value(4, 8)))
-        if index.cell_value(4, 10) != None:
-            t(livre_F28, DCTERMS.date, Literal(index.cell_value(4, 10), datatype=XSD.date))
+        if index["I5"].value != None:
+            t(livre_F28, crm("P14_carried_out_by"), Literal(index["I5"].value))
+        if index["K5"].value != None:
+            t(livre_F28, DCTERMS.date, Literal(index["K5"].value, datatype=XSD.date))
 
     # Manifestation
     livre_F3 = she(cache_40CM.get_uuid(["collection", "livre", "F3"], True))
@@ -155,8 +155,8 @@ if index.cell_value(4, 3) == "Livre":
     # LES PAGES DE LA PUBLICATION
     #####################################################################
 
-    def id_page(row, column):
-        id = img.cell_value(row, column)
+    def id_page(coord):
+        id = index[coord].value
         try:
             # La page comme support physique
             page_E18 = she(cache_40CM.get_uuid(["collection", "livre", id, "E18"], True))
@@ -191,7 +191,7 @@ if index.cell_value(4, 3) == "Livre":
         except:
             pass
 
-    id_page(4, 2)
+    id_page("A5")
 
 
 #####################################################################
