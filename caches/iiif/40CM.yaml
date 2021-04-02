@@ -1,14 +1,37 @@
 collection:
-  uuid: 3d951c4d-f1e5-47f8-bd64-5f2391a21d46
-  E41: 4844f313-66fc-428d-822d-d56203955bc7
-  E65: 98834b73-5aff-40fe-ac9d-198cfe1d1f65
-  E30: 3e5518de-aca0-45f9-9d01-11b12acebdf1
+  uuid: 3875a9d4-36a0-4783-a2e8-cb2ff97c0413
+  E41: 23040a3b-5f3c-4203-b8f6-f2e5f63bf3c5
+  E65: 26ac02c8-6cb9-4229-8952-465dd66f7ea1
+  E30: 64d69c29-4759-4a48-a242-f5c0ea26ec8a
   livre:
-    F1: 8f8cb09a-a864-46ba-8ca1-faa7888acbe6
-    E41: 84bc1bbd-d58e-45e2-ab24-1484daf2c4f6
-    F27: ae024b70-9573-4698-a644-d4639d247c2d
-    E52: fe21d459-a2e2-4353-b01b-7715c226ad5c
-    F2: bafc64f2-bf83-4e6c-a808-2ff1600491c4
-    F28: 3348f562-c99b-4bb0-a82c-feaf15de41e3
-    F3: bee0abc1-5c45-4e55-bec4-2c8f5db7f649
-    F5: e156cc69-6ef7-41b0-bcbb-35020f4756f2
+    F1: 7d338df0-44af-47c7-9af0-b97da5f461a0
+    E41: 4765e717-0f7e-46dd-ab9c-e961fdac3585
+    F27: bfa45218-0297-47a3-a9f9-596ad27db4b8
+    F27_E52: 08487816-0c2d-48db-bd57-05483602e3ff
+    F2: b0b09fb4-968d-4faa-8b0a-d2e733fcdff8
+    F28: fc739327-a126-4b91-9756-f7d36476b23e
+    F28_E52: 7538fe25-e943-4aae-8ae5-c94157724369
+    F3: c7b2aaa9-f94c-4a48-abdb-93b885570de3
+    F30: 4557e1d2-cc00-4ebf-be80-c01566438da5
+    F30_E52: 096f66c1-0bdc-473e-8378-88bee5818d95
+    F5: 12375cda-dc3f-415d-bc69-85b92e049695
+    pages:
+      40CM_1:
+        E18: 543f4c16-aea1-4190-a146-e210afb86032
+        E90: dbff650d-0cf2-424d-a420-dd5c969419f5
+        E42: 6bf5b130-a36b-423a-8403-fb68e8b061b8
+        E42_numéro: e28c273a-a05c-4037-96a0-bcd4494763a4
+        D1: 15186bea-7d86-4eae-9379-94cb5dede793
+      D2: d8d4dc3d-5146-48d6-b46a-f07315ecc8f2
+      40CM_2:
+        E18: 09db4131-1a58-4788-883e-f1fe2a4c009d
+        E90: 9a67fe44-5ad7-44cd-a3ad-a708351dc253
+        E42: 1b817423-bef0-4091-aa90-ea475f10b224
+        E42_numéro: 180baecb-b00c-45c2-8543-5f790c4fc0f0
+        D1: f3d55380-5fea-4927-a793-7dfe44f2c978
+      40CM_3:
+        E18: dd91cbe6-12da-4b88-bb96-0b629e6191f2
+        E90: e54609ad-40ef-4d45-bf67-24b3db6c8893
+        E42: 861f3de9-4ebf-4060-8609-63ec147b72fc
+        E42_numéro: d2345628-5bb3-4dc9-9a5a-8d9aab939221
+        D1: a2c81c61-8582-41c7-8a33-3463302020b1

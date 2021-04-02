@@ -11,6 +11,8 @@ Corpus:
         F2_E52: 8ad827ba-4a93-4864-9d10-30edd8d7e120
         F3: 0e1e4312-0aef-4509-bd8c-b21c8c1c28c0
         F5: fd60e88b-888a-40f7-a0eb-86d491ae7329
+        F3_F30: 68404561-81d1-4864-8fe7-cac33af38a40
+        F3_E52: 2cf24a1e-40b1-498b-a97e-7e85bce28bdf
       Facsimile:
         D2: 39ee90b7-8489-4d0c-9ccf-9ef7e102640e
         D1: 88071d86-1c2a-42f8-8f62-632afaef4897
@@ -244,6 +246,8 @@ Corpus:
         F2_E52: c4b1bf16-0eda-4fa6-bd19-1d6fb3132cab
         F3: 92aacf98-bd37-40c1-b670-28efe72812a6
         F5: 291bbcdf-5d4e-450f-ae29-4b27c45f99f1
+        F3_F30: bba5c4bc-1fc7-47a7-a81d-c71367edaf89
+        F3_E52: 0fc3d2b3-bca2-40c5-b887-fd885b9fc3c0
       Facsimile:
         D2: fa6baf97-c586-41d7-ba4b-d035a3a5a864
         D1: 0e11a7bb-38cd-4f72-ae8f-17693bbfa9b2
@@ -387,6 +391,8 @@ Corpus:
         F2_E52: f2fac6d1-85dd-46bd-8c8e-bdaa68e80465
         F3: 4120c949-6b66-4d4b-86e7-a9a36c3d1fab
         F5: 97a1de8c-86c3-4163-bb61-2a7220791117
+        F3_F30: ee04eff2-fccb-4d2e-b691-76e5cd3778d7
+        F3_E52: 9df3193a-3501-42dc-8c02-7a0cb319d4da
       Facsimile:
         D2: c4d1ff5b-d6e0-4a8a-8b8a-b63717b20690
         D1: 61cc8c02-beed-42ad-957c-70321c0d6c1a
@@ -482,6 +488,8 @@ Corpus:
         F2_E52: e2ee323f-830c-4f83-bda8-cd218f51db83
         F3: ed691825-7a83-4757-902e-27b75084c886
         F5: f41c0188-1700-4065-aa8c-1d78c79a1fc2
+        F3_F30: c44f6593-ee72-4394-bbbe-b024f8afb033
+        F3_E52: 720bef59-ab0a-45c9-88f9-f9cce925d998
       Facsimile:
         D2: 75406d45-d5f7-4cc3-adac-4afec2805129
         D1: 06596183-7019-4666-b2e2-8243adea19a8
@@ -583,6 +591,8 @@ Corpus:
         F2_E52: e2b0955d-7f84-4743-8f92-a462d88669d9
         F3: fb3655cb-5a9d-4df0-b07b-9688be633efe
         F5: 29dc7153-8975-483f-92e5-2cd2fac76bfc
+        F3_F30: 1569a3de-56a8-4a3d-b5e6-50d9c9e0f719
+        F3_E52: 7e264510-f5fb-4392-a31e-ae907ebae42b
       Facsimile:
         D2: 9b8cabf1-b43d-40a3-93d9-7fa430423755
         D1: 6e91e27d-25b3-446b-8768-9a00a25394b4
@@ -648,6 +658,8 @@ Corpus:
         F2_E52: e8310977-0cc8-429c-af2b-dbebaa20fa2a
         F3: ccab7d65-e9ed-40d0-a197-bec9195728d1
         F5: 8143b225-4982-4dfa-88e2-41e8a6f2a2d9
+        F3_F30: ebbc4cb1-2916-456a-9eb6-26b20820d40a
+        F3_E52: d5f05fc6-d930-4a42-8948-44d938284955
       Facsimile:
         D2: c70acdbb-0f8e-44c5-9b67-d77bd2ac26a2
         D1: aed12a34-c0df-4aff-ba72-5f40cc6192b5
@@ -875,6 +887,8 @@ Corpus:
         F2_E52: 2648180b-296e-476f-9a76-625eb4a16c79
         F3: 78ed1375-25a8-4e3e-8988-65fd0b938799
         F5: 4ff60d23-3196-401b-a9b3-4eeb542930b8
+        F3_F30: 4c8b1b81-45a4-4a48-8e31-0120a7ef67fc
+        F3_E52: fdbfc1ec-947c-4380-b7c7-7efcc0177aef
       Facsimile:
         D2: 27650679-0a5a-4805-bef0-24eabf87c3f3
         D1: d7758108-11b4-4e16-bde2-51852e381d7d
@@ -988,6 +1002,8 @@ Corpus:
         F2_E52: f8bfc6d0-f39e-457a-8581-02caca99a702
         F3: 49f024f6-424e-4e36-b958-19f31ad7ec77
         F5: 11b1e892-2cfd-4863-8684-c109989de35c
+        F3_F30: f0283bfb-4065-4262-a70b-52e9d573991b
+        F3_E52: f12db9bd-923e-447d-ac6c-180e224175f3
       Facsimile:
         D2: d71c71c4-2783-4acc-94b0-1c1fe514309a
         D1: c6dd811c-e0d6-4a8f-8919-9433b3fbe716
@@ -1125,6 +1141,8 @@ Corpus:
         F2_E52: ec32edb9-e6b1-4d38-b986-e28925046207
         F3: 98b51f0c-7986-46f3-a004-b2d2f774268f
         F5: 3bd164f9-0fac-425b-9fe6-ea72b356d712
+        F3_F30: cf5c7f28-aa68-49db-bcca-d0923d462fcf
+        F3_E52: 8f38a9d0-38fc-4600-a62d-ab8478e3d796
       Facsimile:
         D2: b8c7c2da-df1b-411d-83a7-f151a49148c8
         D1: eb60a37a-e6ce-4af6-907f-c2d8c70ff73d
@@ -1208,6 +1226,8 @@ Corpus:
         F2_E52: 669902b6-ddb3-45b9-84d9-907b1ecb623a
         F3: a294fda3-cf09-4ccf-89d2-a56e9b6d4578
         F5: 1d231435-87da-44f4-a7b7-247219e88ae1
+        F3_F30: 56d785d2-2311-4c9a-b95b-515f4f2d9f91
+        F3_E52: d9b4dc84-801d-44d2-b6ec-1d7bda21ef5c
       Facsimile:
         D2: 539cddf5-c43b-4773-80f7-cba005c67cba
         D1: 26620216-08b2-47a9-b1e8-778c8970a4a6
@@ -1321,6 +1341,8 @@ Corpus:
         F2_E52: d70bcd7a-e897-45e3-bd5a-94d20f45ba04
         F3: f7d2c3bb-4052-45ce-97e1-6b2bfa6f4391
         F5: 8b3c7d86-d328-448a-a065-0dd8888fc558
+        F3_F30: 683d9569-2396-4024-81d0-06873f8b0030
+        F3_E52: 26744ada-eb85-4eb4-9d96-2e3ad7e19bb6
       Facsimile:
         D2: 376c1c1e-2c11-49f0-9b6f-b0320411de46
         D1: 60dae83e-111a-4866-a133-4a2a7ba8c006
@@ -1506,6 +1528,8 @@ Corpus:
         F2_E52: 5ebdf663-95b2-46b7-8a78-ed994703f3fc
         F3: 692aaefe-3138-48f3-97a9-398f45a302d5
         F5: 6ba27c40-dcec-4a19-8eba-b8b77c2344e8
+        F3_F30: b7d867c1-a2ad-4b3a-a1b4-70499699a9e1
+        F3_E52: b6f71f17-3129-4b51-b1b4-31ee635861b0
       Facsimile:
         D2: 5beab7cd-e2c2-4ccc-a7b5-1c18a2bbb107
         D1: d60c1ada-4bc0-4cb1-8b2a-664c7953ab43
@@ -1685,6 +1709,8 @@ Corpus:
         F2_E52: 224acfaa-379f-4345-8a15-e48d6965f829
         F3: b31ede31-2489-4e08-a236-4fed9b00bd7e
         F5: 92ef86a8-4c36-4ada-93b5-a29af1ded0f5
+        F3_F30: 1f2b5549-f2bb-4615-9a72-ae42ee2a0142
+        F3_E52: 7b173ac5-40c6-4cc6-a147-2413f667dfa9
       Facsimile:
         D2: 6b68210e-b6bc-42ff-9dc9-3ddb980f62d8
         D1: df948a2e-96ce-4ee8-bfcc-b80d8baac0ed
@@ -1846,6 +1872,8 @@ Corpus:
         F2_E52: 51cb46f1-ae0f-475a-93af-d336e7ff776f
         F3: 59af0b3c-5e64-4332-8985-0caba5aa54eb
         F5: a505a6eb-7257-4cf9-9f71-fab0a4e2a2ce
+        F3_F30: cc232f5a-031c-45c0-85e0-4031a8f60dbb
+        F3_E52: f013a70d-f821-4183-8252-be2c4f8c3dbb
       Facsimile:
         D2: b4aaf5a5-b9e3-4dbd-9c32-a9f591fff75f
         D1: 93e6ac95-3161-4c3f-b4d4-6f4259ca4f9b
@@ -2037,6 +2065,8 @@ Corpus:
         F2_E52: 44564ca7-9279-41e0-89e2-669884ea76f2
         F3: a63e8b16-8fad-420d-9673-217fa2ec3282
         F5: 45599a0a-06c5-497c-ac54-e8d6684af507
+        F3_F30: f6608a12-da6b-4a32-b3df-4fb844c31703
+        F3_E52: a4f2caf6-5598-404c-8275-39d2ad6b87a9
       Facsimile:
         D2: b0a47f20-1ac4-42a8-86ee-37903cf7b5e7
         D1: b70f98bf-695d-4767-bf02-64c81b222298
@@ -2168,6 +2198,8 @@ Corpus:
         F2_E52: eabddb3c-4043-4775-a974-ee823334f12a
         F3: c21b78bb-ce70-47f3-bef9-d20fe5ce9fc4
         F5: 8b8f6238-18b7-4a3b-9f22-d7e9ff302f40
+        F3_F30: c586877a-c1ed-4b1f-9101-dbc2404b4b51
+        F3_E52: 4a17de20-7684-4f8f-bbfa-3ad4cda83ec3
       Facsimile:
         D2: f71ae727-576f-44d9-ad9e-794602bde879
         D1: f4f93b52-16db-40b5-a9f0-4f8df56d9a7e
@@ -2371,6 +2403,8 @@ Corpus:
         F2_E52: e35fc91e-db3e-49e6-9c83-6871ca413070
         F3: 35a97c8b-b71e-438c-95a2-828a0331543c
         F5: ce0972a0-7c92-41ed-a185-0f74ccfe54c2
+        F3_F30: 0b4b6897-2436-4925-ae9f-64aa7ea809eb
+        F3_E52: d2dcf968-33ab-4127-982b-e90ca76fc9bc
       Facsimile:
         D2: f2c5b501-3631-47ed-9959-e010d3acdfe3
         D1: 86a0d4c1-2ad3-4dba-9bd9-b0585b748697
@@ -2628,6 +2662,8 @@ Corpus:
         F2_E52: 40016794-12c2-4804-b824-658fe8e4b270
         F3: 6c20492d-5f50-4bf9-a32a-6649d4564d5d
         F5: 7ce24bcd-9db1-4999-8d11-fe62e6b4132a
+        F3_F30: d3de1774-63aa-4e18-b9e8-b814afb65692
+        F3_E52: c51ad4cd-29ac-4504-bdfb-f4f08038fa4a
       Facsimile:
         D2: 2376ac39-0b9c-4af9-8d68-872960f28fc1
         D1: 69c53a50-919a-44dd-836f-ee557f7a18d3
@@ -2867,6 +2903,8 @@ Corpus:
         F2_E52: f762b252-ea0a-43b0-a386-87a8e01052e0
         F3: 0e213004-a19d-4d4f-a506-b04fe04bce63
         F5: f20a00b4-34ab-4949-bba6-854e1449cde1
+        F3_F30: 4d32931e-77ed-404f-8558-9026f4c2178c
+        F3_E52: 5a6583e5-ccf8-46c7-8ded-dfcf7d5d78f5
       Facsimile:
         D2: b9922614-98e5-4ef6-bcc6-70cc61e7144e
         D1: fe79805e-23fe-48a3-b172-8a8654c5a733
@@ -3088,6 +3126,8 @@ Corpus:
         F2_E52: 0250e860-2a9d-40bb-b6ae-929d36af928f
         F3: 6c3b6443-631f-408d-aa74-67376121c828
         F5: f21489a7-907d-4d6d-810f-e3e411e060a7
+        F3_F30: 4487f441-c6d1-4b5f-8ae7-d887c68cda43
+        F3_E52: deb2522c-066c-4c0f-b029-b70a42bc9ed8
       Facsimile:
         D2: e1b17623-fd75-48da-8958-aaa041807046
         D1: cc8079cc-4061-4c58-b70b-f38e57c68fcd
@@ -3627,6 +3667,8 @@ Corpus:
         F2_E52: 83faf15d-c48a-4294-94f2-3e049af02a4d
         F3: b91c94df-b949-4c54-9748-dfd979dc5ff6
         F5: 1871e9af-1943-434c-ac2c-37b8674d97fe
+        F3_F30: 396cfdab-1383-4744-abff-277d8ef57603
+        F3_E52: 9482ea95-d742-4904-b2bc-ee1d1f4b14ac
       Facsimile:
         D2: 946b68b7-f799-472b-a940-ebab2fc79404
         D1: f56eed14-3b0e-40be-a9b5-b6d9309ff3e5
@@ -3944,6 +3986,8 @@ Corpus:
         F2_E52: 28e89875-bd87-4e09-8af2-832bbfaedec8
         F3: 4d7a2200-88f4-46f0-8d77-5db5eda03a88
         F5: 6abbeb57-ffdd-4313-85ff-6b20d94a3c99
+        F3_F30: 21ce5b76-97ac-4e5d-b35b-c60286c18a22
+        F3_E52: 97b10800-5732-408f-b4f2-710c86dfb8b4
       Facsimile:
         D2: 74b7d7fe-dbaa-44f0-a98d-b02a57357d2b
         D1: 51e45717-85d8-4344-8455-600d45f72b27
@@ -4261,6 +4305,8 @@ Corpus:
         F2_E52: a34ed15b-acd5-4190-9200-606786e04077
         F3: 3611fd1a-f1b3-489b-b65f-9d97f412448c
         F5: 1fcfe23d-b38e-4052-bcf5-4fb140d581da
+        F3_F30: e12e68e5-931a-4e59-8098-569c5d161885
+        F3_E52: 4fdf13af-f7a0-4a84-86be-0f857ae510c8
       Facsimile:
         D2: 342d6eed-489f-4180-9e77-16b15155af94
         D1: f878f75f-c264-4279-b89a-1170b9758911
@@ -4530,6 +4576,8 @@ Corpus:
         F2_E52: 0f67e61f-2105-4c82-a52b-128e7575af80
         F3: 470a58a3-de80-4803-9117-de59a98579f5
         F5: 458c5301-d0b1-4153-817f-8a71eb13b999
+        F3_F30: 788267a9-a51d-49a5-8466-5e6090b6b2b7
+        F3_E52: e288c25a-6e89-4108-8f8a-abd26b25ee91
       Facsimile:
         D2: 449e5b3e-e75f-4672-b1e4-0db962b3ee98
         D1: 3c3f1513-2557-43ad-944c-4fbf6eb90394
@@ -4865,6 +4913,8 @@ Corpus:
         F2_E52: 47bdebdf-7ce3-4af2-8347-c7adf441b003
         F3: e13eb405-bed9-437a-acf9-07e8a900983f
         F5: e466b75d-7e77-4797-ae01-299c980fa118
+        F3_F30: 2588e276-141d-4a88-9c6b-3bb5e8216d54
+        F3_E52: de5fd0f8-da8a-4688-9878-8ad514ebd2ad
       Facsimile:
         D2: 99585645-4b3d-48d7-b499-57961b79b031
         D1: 191f6ebc-dfd1-463a-a595-4ddf85ce9de0
@@ -5080,6 +5130,8 @@ Corpus:
         F2_E52: 794c9e74-01b0-4c85-b75c-a8b576386195
         F3: 2bdab98d-bdd0-4970-843a-c957acd73b34
         F5: 2bbaeaec-a8a3-4c91-9867-aa38757e6341
+        F3_F30: 28bbe4a0-92c5-452e-a226-b4fe07a00e07
+        F3_E52: 138487fe-cd00-4952-b1be-d8014b07ccea
       Facsimile:
         D2: 9dab40d1-0ca1-4cb0-8bf7-d14422487782
         D1: 6023345d-a9aa-4809-b9a6-4c9e8e134889
@@ -5307,6 +5359,8 @@ Corpus:
         F2_E52: 40dd1a6d-3b64-4aab-9b91-f91aae6fa021
         F3: 68843102-9a68-468d-b16d-5cce4f1ed6c1
         F5: e654d24a-d784-414b-90f0-ffa82aa794ee
+        F3_F30: 2a2418b1-2e28-4d27-b500-18073fc19e62
+        F3_E52: 381a9046-0d60-4fed-862a-df302bc0f02a
       Facsimile:
         D2: 8f10489e-a741-43a6-a0ce-08cde85c9b8b
         D1: bab17583-d0db-4f56-ba1a-6589b304bf00
@@ -5510,6 +5564,8 @@ Corpus:
         F2_E52: c10b0680-d8a6-4415-a9ed-ca16114dc272
         F3: 99aca8bb-1d42-477b-9de6-a26c692388e6
         F5: 7f0124c8-8914-44e4-8494-c0bfa4b28ed4
+        F3_F30: 978165f9-85e1-4ee6-9583-23a9e67951b2
+        F3_E52: affe4690-2d15-4acf-bbc0-92f7c94b423c
       Facsimile:
         D2: cbd9ec38-7b52-4b67-a1cc-b6096072071e
         D1: 941fd031-730f-4d7b-9ddc-8f924798b498
@@ -5959,6 +6015,8 @@ Corpus:
         F2_E52: 33661495-021d-4a10-8d67-93247be8c131
         F3: d6010fa4-db43-421a-979f-a2e340b406ef
         F5: 827404ce-a2cb-4ffe-8b5f-bc744aa7a2e0
+        F3_F30: 83d994fc-55cf-4023-ab79-7114b5674fc1
+        F3_E52: 073fde72-32c4-4899-9a81-40adb4c08a4d
       Facsimile:
         D2: 37ad28a2-88e8-44d1-b20e-2f63e6b61f86
         D1: 2be03dd8-c5b4-455a-9c28-1fcf9c173c13
@@ -6180,6 +6238,8 @@ Corpus:
         F2_E52: 88bbea04-99dc-4d43-941d-02785dc19194
         F3: ee333823-45f0-4aa9-86f5-71cf68866c25
         F5: f18b5583-342f-40a9-92ab-2014115e7159
+        F3_F30: 277259d2-8c00-46e0-9255-d892f42a9464
+        F3_E52: 2dde3d24-143e-4d93-9ecf-de6864403403
       Facsimile:
         D2: c283c5bb-e9e0-4a1c-a8b9-59ccd2eb99b8
         D1: bb4e18f4-2663-40c3-9549-97985ae2b563
@@ -6353,6 +6413,8 @@ Corpus:
         F2_E52: ce2d2466-b2a1-4ade-9945-fc835c2dc6bb
         F3: fe07228a-16e2-402a-b9a2-ced62f46e801
         F5: 8c8e38c7-9163-4658-a89b-c1ee26ebce92
+        F3_F30: eaa0d638-0b41-4c5a-b9bc-333cf0f9753d
+        F3_E52: 9397adbb-bc11-45b6-8596-9abde35615bf
       Facsimile:
         D2: df0c9973-032d-4e44-ba4c-3b0eb29acdcb
         D1: 8572548f-1423-4b0e-8dee-a8cd2373c3ab
@@ -6622,6 +6684,8 @@ Corpus:
         F2_E52: a5d11671-9073-413d-897f-30dc8d82e746
         F3: 420fc096-fbac-42fa-bd99-ecd38219f8b2
         F5: f28bdd0a-686e-451b-8b57-9e18d28abf73
+        F3_F30: faa467f7-9327-411b-92f1-6d04693bccb9
+        F3_E52: f1da823c-ea92-4ae1-837a-656822bbded4
       Facsimile:
         D2: 5c8b1063-bd84-4f9a-8344-1ae7dfdc112c
         D1: e202943c-a095-492e-ab68-76d43c432386
@@ -6855,6 +6919,8 @@ Corpus:
         F2_E52: 3a560c36-c626-4dbb-bb28-b75906340fc8
         F3: 4a450228-f2bf-4001-98c7-c79180239c6e
         F5: bebc840d-6cfe-466b-9e84-e42125c9c60c
+        F3_F30: c011c0d8-3a2c-4b31-9713-ea0a6f3eda69
+        F3_E52: 8cca48e1-9809-464d-9648-98a8c8a2c6ba
       Facsimile:
         D2: 51b38ff3-aaef-450f-a65f-d6e4251e3b44
         D1: 97a75697-ad81-4b5e-ac14-2365c2330e6a
@@ -7112,6 +7178,8 @@ Corpus:
         F2_E52: e16b9e57-4af6-4cd2-bba5-265369647464
         F3: 4af80f35-507c-425f-b3c1-67b8fe6cad6e
         F5: 2005bae5-2385-4b54-bc44-c2bef8067225
+        F3_F30: 33742814-8275-4e39-beb3-457b5d85dd25
+        F3_E52: fcb60d49-396c-4b87-8443-3223adbb9566
       Facsimile:
         D2: d44bdc16-5eea-49ad-a618-322b4f7d018c
         D1: 4ad60196-7d78-4638-9618-fecd5597361c
@@ -7303,6 +7371,8 @@ Corpus:
         F2_E52: f4d51e87-b611-40aa-89e2-99fc75eea65e
         F3: 9ea211e6-df48-4609-8c5d-25e1a1656f59
         F5: 7f83199c-5cc2-48dc-bb54-c5fd1bb01921
+        F3_F30: 0725101c-61aa-455a-8154-f9361a548818
+        F3_E52: 66df3dde-d4ce-4ea3-a8eb-a296bde79b73
       Facsimile:
         D2: 270faa47-96ac-4250-a8c5-25c7e6555ce5
         D1: 0314931a-44f0-4bce-b2e2-9fb7b9518878
@@ -7524,6 +7594,8 @@ Corpus:
         F2_E52: eb130b48-a493-45c7-b561-12cdec69de0d
         F3: 58891425-97a6-4a30-ac66-9a267100ce3b
         F5: d4f47761-1aad-4453-b017-c34a5a38d655
+        F3_F30: 82389c51-c8e8-47f3-a539-aca7e57c34bd
+        F3_E52: 4562f944-3909-45ca-b4fe-c9591696dc62
       Facsimile:
         D2: eacd00c3-92e4-4fbc-bc32-1bb1a8ecf511
         D1: 36e75e74-66e9-4db6-b4d2-99d8f3c962ee
@@ -7553,6 +7625,8 @@ Corpus:
         F2_E52: a6ad2710-4b94-4e6f-81e9-3a3e46bfefa6
         F3: cd344a99-d028-47dd-8645-cb90f155ddfd
         F5: e12e16b2-ec9b-4061-ba2f-04690826c358
+        F3_F30: 758e2bd9-e7d5-4983-ae0a-0d4883ec17a3
+        F3_E52: 5b69ad05-12ff-47bb-bfb9-5be90686fe8f
       Facsimile:
         D2: 56cbf028-67ce-49ee-a86a-4171e94532f9
         D1: 87edb364-8799-4ea6-bb04-707b332f6bc6
@@ -7708,6 +7782,8 @@ Corpus:
         F2_E52: 18ca8b94-13f2-4578-99bd-fb808d927ae5
         F3: 911c15bd-1c95-4d68-9027-eff0c8933a87
         F5: 7d79cec5-81eb-46b2-9eec-cd38c73e2131
+        F3_F30: 00ce25ab-49f1-4d6c-bac2-cdb8e758f699
+        F3_E52: 573c02c9-4bf9-4cc2-8a22-eab25ed6a8c3
       Facsimile:
         D2: 66bff711-b899-4930-bdca-77e16e55bd15
         D1: 69ba50a7-7955-4065-8f13-3fdb74c4c431
@@ -7929,6 +8005,8 @@ Corpus:
         F2_E52: 85eaab14-1b8a-431c-b27c-7a723db30391
         F3: 4343aea5-9c0a-441e-8519-aaefd3baed9e
         F5: 4e61bfa1-6724-4a26-967b-99fadc74aa2f
+        F3_F30: dacd52a9-9f42-475a-a9dc-8d2dbe25242c
+        F3_E52: 8ccfd896-8c97-4b48-b670-63a17dd4e45b
       Facsimile:
         D2: 03adadfe-398c-40d3-b0b3-9b5f79315373
         D1: dd57a7e7-fce8-49be-b225-d0d8d71c2ab9
@@ -8144,6 +8222,8 @@ Corpus:
         F2_E52: 291fdcc4-b982-41b9-a595-4e7df77f7c0a
         F3: 0d684ce9-5b5e-41a5-ab9c-7d8e06ecb551
         F5: cc4930c0-521f-45c6-9081-866c24b362fc
+        F3_F30: 03e54088-ab69-4d65-a64b-336154e7ac96
+        F3_E52: 65c566c4-9427-4f25-9568-a8b32a282d16
       Facsimile:
         D2: 8a68ee60-fd23-4c5a-b54b-9c0e85dc3c45
         D1: 80ea3ded-dc32-4fab-aa51-bac475f8fd7b
@@ -8173,6 +8253,8 @@ Corpus:
         F2_E52: 608dc872-972c-4173-ad2d-5ecc6d8ddc57
         F3: e9366098-87ec-460e-a748-ca6b1f8bbd26
         F5: 0d1908e0-ed52-4217-b944-54b414b50942
+        F3_F30: beace687-1ec4-41e9-a42d-674a2062ede6
+        F3_E52: 22f66b90-5643-48dd-8a8a-3f75d421976e
       Facsimile:
         D2: 583f5828-0230-4a2d-ae76-2774f9adec9d
         D1: df19b258-cfe4-4898-ac88-d42cd576c68c
@@ -8394,6 +8476,8 @@ Corpus:
         F2_E52: 9ad6474b-309d-4596-86da-6597aa2c0342
         F3: 66acb5c8-3eb4-4321-979e-59d7c9707f00
         F5: 1195a997-f76f-4175-9dbe-c150e9ae762d
+        F3_F30: cc5f70de-cbbb-4cf8-82ff-e761d50fbfb3
+        F3_E52: 81958481-d623-4032-9a85-70174015779b
       Facsimile:
         D2: 4da01d82-1736-4e32-87c0-fa7b03677963
         D1: 27195544-e2ca-4c42-b0b9-8e06364214dd
@@ -8591,6 +8675,8 @@ Corpus:
         F2_E52: fc4bf9ff-0290-43f7-9c35-56da72fdc560
         F3: 9fc3d293-44c8-44ef-a854-5c50ef7d8d41
         F5: 010e0ed7-6322-4330-a6e6-ddd6c8c5bd1b
+        F3_F30: 27427df8-a860-4db9-8447-875180e4e684
+        F3_E52: aeff2c2e-47a3-45a6-b94e-d850e99f0900
       Facsimile:
         D2: b69878a0-c5a7-46cc-a1ce-dc9846f4ac59
         D1: 87415960-ef4f-4dfe-bf52-da0f8779bef7
@@ -8734,6 +8820,8 @@ Corpus:
         F2_E52: 918d9227-b5e0-434d-8448-35239c65c618
         F3: 64dc9b22-567f-42b8-8bd8-013f08807504
         F5: 08a8357a-42c3-4edb-9b40-3d4c1bf5c6d1
+        F3_F30: 02f47b75-7b4b-49d3-bdb7-731ee3914d24
+        F3_E52: 223a2383-ca45-428e-aad4-f2ddea999694
       Facsimile:
         D2: 5e99bc29-67d9-4a32-ae20-681b2b4fcbdd
         D1: 2ac5e6eb-8b37-4891-a715-7e89db1fd98a
@@ -8763,6 +8851,8 @@ Corpus:
         F2_E52: c908468d-a73a-42dc-97cd-08a3a1886b46
         F3: 3424898f-c5ac-4686-bdc0-7c8e44b551bf
         F5: 6fbf6c7c-fda7-493b-bb7b-0a9c239055cf
+        F3_F30: 3fdd8c89-6f60-443b-9bb1-58f7a535cdb7
+        F3_E52: d25db806-0573-408f-9f2b-b2844c15767b
       Facsimile:
         D2: 4b795c8b-74cc-4c0b-946d-2feff6bf3e77
         D1: 85ccdf58-b9f1-4bd3-9bcb-4ad3b94e85f9
@@ -8924,6 +9014,8 @@ Corpus:
         F2_E52: 02474e3f-608d-4211-9af2-a4fe4282bb7c
         F3: a208600c-136c-4762-8e8e-d44fb2297a05
         F5: 5348f48e-3953-4ec3-a859-1aa93c568440
+        F3_F30: bf28a7b8-2c07-4b92-b40b-17a350513972
+        F3_E52: 462ab032-e6b7-44f4-a87e-9c113b40431c
       Facsimile:
         D2: e1f1feac-1faa-4416-9347-23871ca10399
         D1: 0b09acf6-504a-4614-a9f3-dfbf5cccc8cb
@@ -8947,6 +9039,8 @@ Corpus:
         F2_E52: 800bfeeb-b72d-40f4-8384-4f8b334d1f32
         F3: 778c9402-b9b0-4706-b843-27bd14a0b773
         F5: 9111a1ca-5493-4362-86a9-ec88ede29a5e
+        F3_F30: 589f2a53-909c-4778-844d-a1aa5497282c
+        F3_E52: c67b7dd3-e476-49cb-8ef3-2c20f60079c8
       Facsimile:
         D2: 9783bee7-d98f-4016-a7f3-1ffbeff71152
         D1: ed56acc5-3f5f-466a-b6b5-95ed14644107
@@ -9150,6 +9244,8 @@ Corpus:
         F2_E52: 0621e658-0151-488b-bf57-809952d9bade
         F3: 13961da8-f719-44e8-8015-9cdaea47074a
         F5: 781e396f-1c1e-4987-bfc5-a046bf83e021
+        F3_F30: e4298492-81c6-4a39-a7b6-8e12c075d99f
+        F3_E52: f331e3a5-7fa6-42fd-8392-c9656fa809d2
       Facsimile:
         D2: 2a0d1c0c-6c90-41bb-a7ca-0b0ba54d89c1
         D1: 5ba6e4b7-a512-4d9e-a8ae-7225120d1ffa
@@ -9209,6 +9305,8 @@ Corpus:
         F2_E52: 1b31cbb4-9799-49ca-9651-7eda6ae60654
         F3: f34811fe-aedd-4d39-9fea-1d5123b84773
         F5: 145c7dcd-6d17-4825-bc01-6245684dede4
+        F3_F30: e8df8914-6b7c-4967-b234-dd1b04747fda
+        F3_E52: 8eb97e56-c40d-4a21-ac5f-bd771e5b03e5
       Facsimile:
         D2: ab91d67e-3360-45c9-b0dc-71377e165b85
         D1: c8e7479a-d410-4827-9bae-51252bbc4a36
@@ -9232,6 +9330,8 @@ Corpus:
         F2_E52: 9aac5e07-c8ba-4cf6-bf62-60d5744d494f
         F3: 8e0bd033-f766-4118-b884-264546c41041
         F5: a081a1ab-ff05-4131-8c97-acba82eb197e
+        F3_F30: 3614b29c-c8b8-4d3a-8257-4f3e9aeb449b
+        F3_E52: c0ff3579-38dd-4d79-86ae-277645bca5d0
       Facsimile:
         D2: 59a9efb0-cd06-478f-9174-375f1b032927
         D1: 39c78b74-19a7-434a-8479-1b6ec028a8cc
@@ -9303,6 +9403,8 @@ Corpus:
         F2_E52: 652a573d-8a2b-4e92-9ad4-10e66031be7d
         F3: 8ada54ae-5f9d-4e9e-b11a-174151c0e336
         F5: c5570a18-1270-4d35-be81-a45d8c9967cf
+        F3_F30: 2e87f171-33e6-4a74-b190-69a9a42ad4d0
+        F3_E52: 38d65309-6164-4abb-9693-c40625017d95
       Facsimile:
         D2: b393506b-9a28-4bbc-bce1-9499a5b70d3a
         D1: 6e3c679f-d606-4d53-82cd-c61b7b3a4105
@@ -9332,6 +9434,8 @@ Corpus:
         F2_E52: 71a9fe9a-cbf2-45a5-be53-8f7a0905ce2a
         F3: 851c3f1d-6c9d-47bc-9a24-0acc6ccb1932
         F5: 23717e25-f740-4334-8edc-0ce8a841a1fd
+        F3_F30: a25ae606-e9f8-4420-a49a-e8a472757fbe
+        F3_E52: e6fa622f-5e20-4933-a275-b729ba416e67
       Facsimile:
         D2: 61a2eafd-528a-42c9-adee-4e7a751b7178
         D1: e2731f07-c784-4015-989a-9822278530ab
@@ -9415,6 +9519,8 @@ Corpus:
         F2_E52: ad5d7521-06b9-4082-86e5-7eb762889f83
         F3: 492ad7b7-1796-4375-9acd-eae9b13a9a84
         F5: 346543b7-4171-4014-a155-dc967942e31f
+        F3_F30: a42996f8-6569-4e28-9788-2cb8f1d628bb
+        F3_E52: e067080d-f60b-477f-8e4d-3558a4ba0512
       Facsimile:
         D2: e0c998f1-0a73-4944-9b66-d8eb43fac489
         D1: 67b6d127-3137-4b6f-a007-76f06fa6218d
@@ -9492,6 +9598,8 @@ Corpus:
         F2_E52: 74be9396-f255-4e80-8886-050a4340afd7
         F3: cc97aa4d-2180-4b9e-8920-f425f6aabda7
         F5: 998435d0-b887-49b9-b20b-2addd2fb3e2c
+        F3_F30: 11342901-757e-4fd6-baf7-780d7ada8571
+        F3_E52: 966057a8-f5be-4834-90c8-6b48b81d7218
       Facsimile:
         D2: 8b9b2f13-548d-42a5-bb1f-3011651aba42
         D1: 5c4530e2-64e4-451e-97df-06e10a98e00a
@@ -9527,6 +9635,8 @@ Corpus:
         F2_E52: 2c5c723a-a5bb-41c2-9de1-7e7957f976bf
         F3: 75abee19-86cb-4e13-8214-b7ecfafd79c4
         F5: c289e119-f44f-456b-933e-db11e948d13a
+        F3_F30: 18cb2eec-492a-42de-9c31-9a68d0e47a1c
+        F3_E52: bdc566f5-1a33-4ded-b7cd-85cfab3f730e
       Facsimile:
         D2: 632c1a31-e474-41da-ae36-7cf11a6dd85f
         D1: c2d89a0f-426f-41f9-81f5-93f81b4547b0
@@ -9598,6 +9708,8 @@ Corpus:
         F2_E52: 2dea70b8-16d3-4580-8351-648ae71fa7e6
         F3: 7b54b4d7-487d-47e9-a37f-5d6ec6491eaa
         F5: 1aaf029c-aa04-48dd-b4b8-af63f69d132e
+        F3_F30: c2064676-3242-47f5-a8f6-fa4732162637
+        F3_E52: 4e214a60-ff51-43e8-99ab-7ae6594d852e
       Facsimile:
         D2: 9aa8d0b2-4e72-4e60-9f0f-d48fbe50b033
         D1: 95ea29cb-f8b4-4920-9e9c-11b5a430e151
@@ -9669,6 +9781,8 @@ Corpus:
         F2_E52: d08842de-fd8b-4439-926d-c7fed879b280
         F3: 8bbeddb4-acea-448d-9f7d-92a6638d6d39
         F5: 63ccc893-afb5-4895-a665-d476d304e651
+        F3_F30: d9ab6d4d-71e4-48a6-9eb1-fd201b60f129
+        F3_E52: f8d23a9f-e083-472d-b6a8-0cf7de2c5e28
       Facsimile:
         D2: c07c1321-3728-4db8-b1d8-63900b1ec5e0
         D1: c6033192-b59d-4c3e-b9cb-7748556b34c9
@@ -9728,6 +9842,8 @@ Corpus:
         F2_E52: e7ba1db3-dbf3-4059-80a1-f05915bcb7ab
         F3: d2c61721-6b91-48ae-9307-65f09bfa1eda
         F5: 40b344d3-3d3f-4303-8cba-74bd18ab4609
+        F3_F30: 0553a6d2-c94b-4372-8ae7-9b5cc80f71d7
+        F3_E52: 1e4eecae-748e-4d1a-9605-94216cd4163b
       Facsimile:
         D2: 1bfcad49-508c-41db-a822-26fb7e692e72
         D1: f14af6da-b2cc-4e58-9d86-33ce2936e534
@@ -9763,6 +9879,8 @@ Corpus:
         F2_E52: 77424086-f569-4da4-838d-6eb669351344
         F3: a3afcd1a-b909-4f9f-829d-8a5177545cb6
         F5: 747a0816-38ca-4631-ac59-8f92d834a893
+        F3_F30: d07bfa44-b2fc-4868-bcf3-5a5d08597250
+        F3_E52: 828c47e2-3f7c-48c4-89e6-9399ff0917b4
       Facsimile:
         D2: 2f9b43dd-f6e9-4d3f-934e-de7847581273
         D1: b2427930-eb74-41f3-8677-705ccc849605
@@ -9834,6 +9952,8 @@ Corpus:
         F2_E52: 5d9ce765-32f7-42b8-bd0e-f6de3d8a6b24
         F3: 6845ad13-e192-4b1a-bf1b-b074851cb57b
         F5: 9b99adb1-c7e9-4569-a42b-12c25ea1eac8
+        F3_F30: ddc1e543-2573-4c55-a1f2-0d4ab2a5ab11
+        F3_E52: adc5654a-c0e4-4ce1-a1dd-fd898215fbde
       Facsimile:
         D2: f7f42bf4-e3bb-4f03-accd-922ee8b983e3
         D1: eb858cdb-6a7b-494e-911c-25725247fb65
@@ -9923,6 +10043,8 @@ Corpus:
         F2_E52: 77524cc0-2154-4cfd-a710-0dd68c73b37f
         F3: 190bf659-6ebf-49d1-a8cd-2ed320f5b423
         F5: ec45a4a2-9aa3-420b-916c-5920837c089e
+        F3_F30: a96ddf79-df6a-4659-88f3-b13e891d4fb9
+        F3_E52: 2372ad43-e459-4421-a9d4-0387be8f1131
       Facsimile:
         D2: fc4efd66-5f31-47af-a232-760a10fbe223
         D1: 0e65576f-88e1-45a7-a043-9fe4f0b1cfa5
@@ -10024,6 +10146,8 @@ Corpus:
         F2_E52: 6fd182f7-2a17-4cbb-9a4d-aaa80a815c78
         F3: 45c52e2c-3c38-4bff-8164-750c26db8579
         F5: f7e60e4c-b25d-4665-a4c5-d7682c2acd0b
+        F3_F30: b2bfbe2a-ad65-4e0f-894b-09289932f014
+        F3_E52: 553da787-f9cb-4798-877a-b225daf9a6ab
       Facsimile:
         D2: 124ff49a-f49a-4ec3-b667-7fa2fb51166d
         D1: 06e1b1b0-4d6f-4075-a70e-91bdd58c69a5
@@ -10059,6 +10183,8 @@ Corpus:
         F2_E52: 94ceae22-ce2c-4396-ac33-0cbd0905ab4c
         F3: bee3c314-da60-434a-825e-30fb63492881
         F5: 79d128f5-23c7-4f44-8add-8d27b4f7807d
+        F3_F30: 30189d45-48e1-4747-8c64-17c6d5098929
+        F3_E52: 457e3951-656b-498e-b276-3daf96eb7976
       Facsimile:
         D2: 7b2eb3f0-88f7-440d-bcfc-b3c56aa70dc6
         D1: 36fd3f82-4f2c-4a1b-84af-172fa0ab06ee
@@ -10094,6 +10220,8 @@ Corpus:
         F2_E52: eb3972ab-e0db-4f8e-befd-df2dd0ad78ef
         F3: e22a8706-05d0-490a-bc46-5e347fc6b6f7
         F5: a3303ab5-8a8c-4725-9a82-693be4e2c7ad
+        F3_F30: 722182b4-dd65-4434-965b-47490b433a3a
+        F3_E52: 0ce8ae47-994f-4e60-9ba2-652fb3f5243b
       Facsimile:
         D2: e04723c1-85f4-4e03-a7fb-468add35ce7d
         D1: 30757aee-f357-4edf-879e-b5dda6f391f8
@@ -10153,6 +10281,8 @@ Corpus:
         F2_E52: 1dc4256a-f3e6-442f-8c2f-f5ebecc408de
         F3: a24d3e36-52b0-43b7-8af4-18f287397965
         F5: d3d61941-b08e-4150-8b21-d6f61e463721
+        F3_F30: 7c6bf950-da5d-4658-a72f-9c905b96e317
+        F3_E52: 0360bc35-f742-4ba6-a4f7-62d5472955dd
       Facsimile:
         D2: 1490a51f-c163-4924-aacf-28ce691016bf
         D1: fe2266f2-e21d-41a1-8012-e7ba711df04d
@@ -10224,6 +10354,8 @@ Corpus:
         F2_E52: 381d4ee5-41c8-484f-9f49-5baca890154f
         F3: 7032f79c-69d9-4f68-9da9-5a3ec5dd4d73
         F5: adaedd5f-a300-4aea-8bfe-b7dcd7b2b8d1
+        F3_F30: 3c2aa5ba-8094-46d6-9c5e-3dc2ea022faa
+        F3_E52: a780b865-6599-4013-950b-a1dbaa06ab10
       Facsimile:
         D2: 22e4acb4-c7bc-4331-8da1-99d4e54d0fff
         D1: a8fdc068-8546-42bd-a11b-0855792328fc
@@ -10277,6 +10409,8 @@ Corpus:
         F2_E52: 15429f3b-4591-433c-81af-8cfa0193debd
         F3: 8fd20e08-921e-4252-979f-7f05a1999576
         F5: 8669c534-f7d3-4a94-ad27-d026f3a1701d
+        F3_F30: 4a2d9a43-4975-4427-b75c-0b37e84f77ac
+        F3_E52: b4af8dcc-b598-4ecb-ba8e-4795291554b3
       Facsimile:
         D2: b1aa74c7-d070-468e-85e3-c4add003c739
         D1: dd473717-c3ef-4cfc-9064-0bab2ad1a33f
@@ -10306,6 +10440,8 @@ Corpus:
         F2_E52: ce1f4efa-9341-4026-9661-faf6bd3e300a
         F3: de33ad24-356a-418b-8b8c-cc0614cf58b1
         F5: 13fb0ab0-8ed1-40ac-9a27-6fd9fef2bfa4
+        F3_F30: d605e668-b8fa-4ca3-a401-6a584f96e027
+        F3_E52: 4bb6a967-88b0-4c66-9c2e-266497da2eeb
       Facsimile:
         D2: 39968d5b-a293-4d6f-aa67-7c0a7316538d
         D1: f9e383dc-c0a9-46fc-879b-a0e4858157b0
@@ -10545,6 +10681,8 @@ Corpus:
         F2_E52: ab633192-9cd1-4daa-a520-6910360b23dd
         F3: 282788ca-3e55-408d-a3ef-66ecae1bce55
         F5: 8097be5f-e9e8-41a7-9c93-2b7816adede1
+        F3_F30: 7a9f98c1-f545-46f2-9f69-2b120aa059f0
+        F3_E52: 1265f5e6-3640-404d-be58-6e6003f8a40a
       Facsimile:
         D2: 7ac93fca-ad30-447c-bedc-cfa8c62854d4
         D1: 932cc53c-734d-421d-9c6d-5c5ddf913b6f
@@ -10736,6 +10874,8 @@ Corpus:
         F2_E52: 7f3f7bc3-062f-4512-8a43-56650273a38b
         F3: 9f3f45d0-5441-4c2d-99eb-f12bdf9a4a46
         F5: 76a2d454-dd7f-458f-a4bb-cefa7a618008
+        F3_F30: 78cf69a9-7639-4400-bc72-7510735e5918
+        F3_E52: ef9ad2d4-44cc-44b5-81d7-714a0ed7d3cb
       Facsimile:
         D2: 4f3c96ce-d660-4de7-b5fd-6f3e0167e1a5
         D1: 728373a0-1cf9-443e-8b7a-2bdffecb1d97
@@ -10921,6 +11061,8 @@ Corpus:
         F2_E52: f5aa9178-a74e-4740-97f0-53cbf3d46d21
         F3: c86a9bf6-e75f-4437-a6c4-ec20cc99a1eb
         F5: 0776cfce-3173-4465-be0e-f33e13eeb274
+        F3_F30: 563d4cc0-b295-445a-b02f-0a0264944edc
+        F3_E52: 368a76f8-c8b5-4cf6-8509-fc3167e5efc4
       Facsimile:
         D2: 538b7b75-5309-4a96-8cec-fe4e818363be
         D1: 8da3fe6a-07e3-4652-833c-35844c203509
@@ -11064,6 +11206,8 @@ Corpus:
         F2_E52: df47e554-6a2a-4ad1-9d0b-f1f1c9091896
         F3: df6279b5-86b2-4e5f-aa0c-c26fa4f5bcbb
         F5: 8aca66ed-8435-4eb0-9213-fdb7f8529478
+        F3_F30: b763f71e-7741-4fd2-b587-d350168f0b21
+        F3_E52: 76a74fe4-ec11-46ee-bbb1-e47c402c3ff2
       Facsimile:
         D2: b69559f6-4a64-422b-9d21-08e719d47b1e
         D1: 5614ea42-a71b-4840-9928-6b12daad8b32
@@ -11255,6 +11399,8 @@ Corpus:
         F2_E52: 35b2dda7-5721-49d5-90e4-913f3f72c138
         F3: ad1fed25-a99f-4ea3-b5f6-67b65bc16332
         F5: 09891b0f-c62e-4b67-b30e-4ef17afeab7d
+        F3_F30: 31a75608-947e-459f-92d6-fa0373b98e59
+        F3_E52: c617b357-e672-497e-929e-4954c3d906b7
       Facsimile:
         D2: 9956b88e-2853-4686-894c-d5802a755d6e
         D1: 4e6414b3-b25c-4334-9019-1b7156146962
@@ -11404,6 +11550,8 @@ Corpus:
         F2_E52: fbcb7053-d7c8-4ef8-8732-153649853393
         F3: 7b4e7260-d753-45a9-b37a-3fc011461112
         F5: bbf1ca44-804f-4623-bb4b-d935d6eb1879
+        F3_F30: 6c710bac-022d-4613-856d-cf830706ad86
+        F3_E52: d49de0b2-2de1-4cdd-add0-aab33440d778
       Facsimile:
         D2: 9a2553f0-ef10-4dea-b851-86c7c6f2bc2d
         D1: c7515420-eb45-4f7a-a1f3-0e3c1a7e2df8
@@ -11583,6 +11731,8 @@ Corpus:
         F2_E52: 4a57996d-ba07-448e-9f57-f0fecdbd5799
         F3: e005ee16-1709-4e46-9932-0c9a75c3995c
         F5: 31afe1de-7ce4-4eec-abe5-8a01c3867f7d
+        F3_F30: 904f687c-b89d-46b5-83ef-1fdf0d9d5058
+        F3_E52: 9f3b51c3-0213-42e6-9c9a-689efd7ef472
       Facsimile:
         D2: ddda93d5-7471-4912-9ef1-5b1443fbe8bd
         D1: 98b206d1-3435-4f30-9e7a-71db1a9c910b
@@ -11720,6 +11870,8 @@ Corpus:
         F2_E52: b9e7d654-7715-47d2-8086-2e48bf448fb8
         F3: fc494be2-12c6-44a5-a225-8b8e911bbf3a
         F5: dd6348b7-fb2c-4377-b100-d47b2f9c85da
+        F3_F30: b68d76df-f316-4b11-af84-bc8c68a9cfe5
+        F3_E52: 76b64090-3f97-415a-b787-dfd6d3c58580
       Facsimile:
         D2: ec4137e9-e0cb-44eb-b66c-6f57a78d0d47
         D1: 027d8c6a-4f41-4150-bb1b-22ea847080a8
@@ -11899,6 +12051,8 @@ Corpus:
         F2_E52: 7506b587-37ea-4acc-a3c1-ffca203b8067
         F3: 856976b6-047f-4470-8164-91b910908260
         F5: ed54b38d-409b-411f-a6e3-5f1f1e574ef5
+        F3_F30: 8bd84593-6dc4-4e01-9f58-5c9f52166bf5
+        F3_E52: c15ecacb-2a38-44de-8452-3d0d450e0593
       Facsimile:
         D2: a31af0d9-f81d-457f-9793-d2b5829a0522
         D1: 35b87f5d-2aa0-4549-850c-a82946dae7a7
@@ -12072,6 +12226,8 @@ Corpus:
         F2_E52: 289fe29f-b4a4-41e8-94a0-991da0eca117
         F3: 6173271b-49db-44eb-836c-743956080e5b
         F5: 186faf51-eeee-4d5d-be52-aefc753273bc
+        F3_F30: 52ae71ab-db6d-4ae8-8f79-d264c16622df
+        F3_E52: 4ec8c2a0-ccef-4716-b9e3-23df6e58145a
       Facsimile:
         D2: df068483-d7bb-4164-a6ae-44f3a0ea29de
         D1: 4a8ff057-538b-4bfa-9842-187e6c847e28
@@ -12197,6 +12353,8 @@ Corpus:
         F2_E52: f782fc9e-793d-4db2-aa4c-84ebc2828222
         F3: d55b8d1c-8ed1-416a-ba3f-f654b68516d6
         F5: e2f0fe80-4159-4f44-95d6-c85c49407450
+        F3_F30: 4b6e58d5-e933-4409-bed4-d667c69e1701
+        F3_E52: f0855772-c6f1-4fc2-9940-c75e5105f93e
       Facsimile:
         D2: 5bf8f7f9-62f2-4d42-a774-63e85425deb6
         D1: 3e9a9038-c2b6-4c24-9b3e-9853f59288e3
@@ -12364,6 +12522,8 @@ Corpus:
         F2_E52: 8de452de-a6bd-49a8-a924-c59148398169
         F3: 07f49a1a-4659-4781-9680-af640513bbe0
         F5: fa854d07-e3c5-48e1-9c82-6b139403ee83
+        F3_F30: 027602a9-9a3b-4f0c-8081-b6d970d36469
+        F3_E52: e5fb87a8-046d-4279-ae9f-deb23f5af116
       Facsimile:
         D2: 29d4b19e-17fc-43ff-9347-90fc053b2d8d
         D1: 13e2306e-c660-4ec9-8821-128473c9aed1
@@ -12513,6 +12673,8 @@ Corpus:
         F2_E52: a0c42ad4-5d55-42ea-a379-2fe39b4e70c3
         F3: 3a1b59e0-e497-4d1a-937d-8fc05885e58e
         F5: 8a4953c2-2b34-4a8e-b0e7-e3a6b58f119b
+        F3_F30: cd3c3a45-a507-402f-ae8f-69c2eec47fb3
+        F3_E52: 5931e53a-c1aa-4133-8f61-a203a3883c06
       Facsimile:
         D2: 47aa1100-dfc9-4a25-9b49-d135b326dfd3
         D1: aa0b896e-9e8c-4d6e-b943-915c94538f46
@@ -12704,6 +12866,8 @@ Corpus:
         F2_E52: c966c937-7448-4a04-847e-1f2b9a1e70f0
         F3: 895d8d96-18a2-4362-9062-1cdf66ba0de1
         F5: 8ef79414-ff39-4f4a-87e8-210d71030328
+        F3_F30: a484b294-174c-4816-860a-88af2a219f4a
+        F3_E52: 6317ba6a-4f9a-49f1-af5c-cc68f8205974
       Facsimile:
         D2: 8f4f95c4-3870-46dd-b5d9-f0d2adc360e1
         D1: 6bc75d6b-4e39-4b74-86bc-1eb5f3eed929
@@ -12805,6 +12969,8 @@ Corpus:
         F2_E52: ff25642e-0436-4ab7-b52b-14bbcb577798
         F3: d9c1423b-737c-4e5f-86cb-9a2cb79a3e47
         F5: bbb11a0b-7c22-4adb-8404-c7ed6ef529a6
+        F3_F30: 2f7c26e8-3bd2-4900-9c6f-65c432042073
+        F3_E52: 1660e903-7231-4e53-9691-dd1e3dee0e34
       Facsimile:
         D2: 119d9226-3737-417f-8edf-e674c7503b22
         D1: 3b220c39-3e8b-45f7-bc2a-f2ff0896e6ad
@@ -12936,6 +13102,8 @@ Corpus:
         F2_E52: 5bc528ce-6dfd-4954-8aa0-4f59c04f9129
         F3: 63630b34-6ed5-4d0e-84af-8f206de4d6a8
         F5: 823f1aeb-0bac-4361-ba10-e61b35c08041
+        F3_F30: db975e2e-6609-40ac-a0dd-d880662a731c
+        F3_E52: 873f8e3d-e365-4488-a6b0-cd2e9f9298d0
       Facsimile:
         D2: d12c0aec-4add-4bb1-8aff-720cd5bf7f5d
         D1: 032c0363-ef0f-4317-b84f-87ebd0ee6cd1
@@ -13025,6 +13193,8 @@ Corpus:
         F2_E52: 9b6ba681-af77-448a-b1ec-e3d26075bf2f
         F3: 1372cf5e-d2a4-4836-8b2f-1ed6c6fe435e
         F5: d49d07a9-8b80-40c8-8b69-0ffde2802e47
+        F3_F30: a6196974-2257-40eb-accd-c67074ddc2ba
+        F3_E52: 60cefe14-b809-4b6d-8b05-7102bd065af9
       Facsimile:
         D2: 2dcae542-4f6d-4d2d-952b-44001980fba3
         D1: 2e1ecfb1-fbad-4b64-8b54-b085e5f3bb67
@@ -13126,6 +13296,8 @@ Corpus:
         F2_E52: dac86780-d87b-4684-a10c-d9a0e478e298
         F3: 817b8797-0662-42a8-b5f4-a45a96faee89
         F5: 51e1ff40-9874-4b51-9a0b-ad89df329239
+        F3_F30: a2a2ada3-e4ac-46de-88c8-70e8a9b9b1a9
+        F3_E52: 59bf3ff2-4061-47b4-bd0b-f11e87cb5a70
       Facsimile:
         D2: 081c0b55-8f79-4bec-a8f1-24c544c50068
         D1: 6543de1d-13ed-4817-a906-748fa6c55cf5
@@ -13203,6 +13375,8 @@ Corpus:
         F2_E52: d4491a1d-ee18-45fc-9205-ff6ce5d2f545
         F3: 062abe50-e071-4b98-8842-d052089ae517
         F5: dbe9dd9a-ec10-4e6c-8638-6d39b3b5eef7
+        F3_F30: d30fbf9a-e9d5-4ed1-8773-ae6d5644941b
+        F3_E52: bd377645-9089-4865-a586-68a3ec17b86d
       Facsimile:
         D2: c7861841-4ad7-4172-b3f8-0f5663ef24f2
         D1: f5f6c5d9-8ede-49b7-9a3b-418de772e94f
@@ -13286,6 +13460,8 @@ Corpus:
         F2_E52: 41acf974-a340-4d7b-bc24-ee5faf3362d3
         F3: e21d62f3-f6e7-46a6-806e-49750922a51d
         F5: 796fb475-2953-4ad2-8499-0bd2dc94edfc
+        F3_F30: d8312097-0682-44a1-9e4f-f2f47894a141
+        F3_E52: bf920400-cb0b-420d-9ea9-f735bff79642
       Facsimile:
         D2: c63ab4d2-b021-4303-976d-79e06d0e9a05
         D1: 13a34eae-bdd8-492c-9075-1b4e70789311
@@ -13387,6 +13563,8 @@ Corpus:
         F2_E52: 22372f52-61ef-4150-8c88-48b05081b6f1
         F3: 380c60f4-6a22-4ce3-a411-7b0dfc2bc356
         F5: f45f8cdd-b3eb-4a86-ac05-be67aa7ee0d3
+        F3_F30: e8b858c3-1b30-4521-8432-ea9889e61ff7
+        F3_E52: 244c07ff-a96e-4340-9bc3-91c0b6889f22
       Facsimile:
         D2: a35ba932-acd9-4ff1-b234-fd4ee436358c
         D1: 93bc0296-c1ab-47cc-86b3-14a4dd1cdeaf
@@ -13470,6 +13648,8 @@ Corpus:
         F2_E52: cfaf4201-1494-46ed-a050-ecacaa84b719
         F3: 90491077-6456-4378-879d-a065210c7732
         F5: bef3cb84-3619-474c-978f-19a6606918ae
+        F3_F30: 9f371c49-dcf2-4ed9-8359-90c205328d4d
+        F3_E52: 6f390c81-038f-43d2-8cb2-b97c0aa183d0
       Facsimile:
         D2: 9df5a9ab-f65f-4a3f-b3e3-6ba2596e638c
         D1: 21a14168-87fd-4670-bd38-2da28e43b225
@@ -13619,6 +13799,8 @@ Corpus:
         F2_E52: 10d38da9-c605-47bd-aee6-8cf41bd2092a
         F3: ecd4c8c6-95a6-4462-adb7-8672940f8de6
         F5: 7112054f-5c8a-4506-988c-415e73d2079b
+        F3_F30: b5869c40-b47f-4e7e-84a9-8f52ba2ea5ee
+        F3_E52: fc5790d6-bade-4856-84b3-7cd45f9868fb
       Facsimile:
         D2: 87db11d1-8072-4984-878e-32353a0b1fd7
         D1: 174bb1dd-8e0b-421c-9080-b13172d62859
@@ -13666,6 +13848,8 @@ Corpus:
         F2_E52: 777aa3e0-144a-412a-9ed0-91f0122a46f0
         F3: 75117a96-5a61-4d20-98ec-0956a94b958a
         F5: 590f8735-356d-4c2c-92e2-f0e947a21476
+        F3_F30: 87a00db6-90c7-417e-a7eb-618ce6fa7db8
+        F3_E52: c6d7b23e-1f1b-4c11-8ce4-a69d841d2b93
       Facsimile:
         D2: 41f1f1b1-1e3b-48e9-a7dc-9fdc8a6ba2ca
         D1: 497874e9-280e-42c2-9602-b5f571ea66b9
@@ -13803,6 +13987,8 @@ Corpus:
         F2_E52: 4386ec49-b928-469b-a5ad-1d26f5979292
         F3: 22476738-ede3-4ac2-9dee-16cb37954846
         F5: 56f57196-be88-4de8-b7cc-3195bc52b624
+        F3_F30: f228eade-3e2b-4921-b492-0f3fdfaae6e7
+        F3_E52: 03fd01ee-f9d7-4c11-93bc-5f069407bcd5
       Facsimile:
         D2: 89fe8aad-7962-49cd-854f-4d5443534e22
         D1: 3c2963c8-fbff-4aed-9a4f-1f0a97763109
@@ -13988,6 +14174,8 @@ Corpus:
         F2_E52: 390786ca-f713-476f-892c-e191913b84b3
         F3: 8c7bb82c-beca-4c86-8557-e0c65e91f030
         F5: 810a82f6-09a2-488c-bf60-2031d55a7788
+        F3_F30: bf92748e-08f7-4e61-bf91-bc7e0840b713
+        F3_E52: 2633c74b-9b6e-4217-9cf9-074ce90d90b0
       Facsimile:
         D2: 5873192f-c6e3-429b-8743-0705d720bc2e
         D1: 05730098-36ea-4157-8560-66b00ff0dfd6
@@ -14065,6 +14253,8 @@ Corpus:
         F2_E52: af818935-cbac-4a9b-a015-30f4a74b98b3
         F3: 97d724e9-1977-4b85-b66d-48cbd8cf5729
         F5: c0f800dc-8ea3-4c8a-93ef-ff8c5b58410d
+        F3_F30: 6426be25-8056-4fb8-a593-112519bc6445
+        F3_E52: e8463d56-79aa-4776-a8d8-b71c268ce49a
       Facsimile:
         D2: 404d857e-2274-47c7-bcbc-ba3e7b5ab239
         D1: 2ba88f1f-00df-4c94-8acb-dbf5ef618320
@@ -14280,6 +14470,8 @@ Corpus:
         F2_E52: 8f2ca4ff-abfc-4be8-a4ed-8b64eb376d16
         F3: cbc639a7-d5e7-4439-bd3f-0159aad2bed2
         F5: 221096da-bfcd-4be7-8f9d-53c8addb7d10
+        F3_F30: 1f3ab5b8-de0b-491b-83a5-dc96e7ef664a
+        F3_E52: 4447907e-d2e7-4c97-99e1-dd00197e1161
       Facsimile:
         D2: 310d9156-ee7c-4423-98f8-295974bebbd6
         D1: d4b4150c-871a-4a0a-ad96-50f618d3b126
@@ -14381,6 +14573,8 @@ Corpus:
         F2_E52: b39866af-6797-40cd-b7ee-2fef3795e09d
         F3: 262dd8d1-5579-4261-8114-e937a297dca4
         F5: 0eb07a44-d94b-4cd9-acb2-6aee88deac7d
+        F3_F30: 989ecabd-5d36-450c-b92a-b44cc00792c9
+        F3_E52: 03738f28-6899-44b6-9a10-2882bc89de19
       Facsimile:
         D2: aeca2ca6-67ae-4fec-a10f-880be8394143
         D1: 5b544ae9-73c1-49a3-b65c-e248aca500db
@@ -14494,6 +14688,8 @@ Corpus:
         F2_E52: 91f07a16-0910-41bc-a57a-19e6d61aeeaf
         F3: 58eb85ec-e116-4cd4-a180-254efc915ca0
         F5: 0d28c229-36c8-4506-affc-c86166a5fb75
+        F3_F30: df8ba3ad-1d5a-4eb7-ba08-7d2f9f1e89a0
+        F3_E52: 4fe2adc1-33ca-4cf9-8b6b-4be45f168be0
       Facsimile:
         D2: 8e67e08e-add7-41e8-ad07-b855bc2fe8f1
         D1: 3f893ad6-8adb-4d58-a197-265b15262544
@@ -14559,6 +14755,8 @@ Corpus:
         F2_E52: c14399b2-8c5b-48a2-980f-d746997d97cc
         F3: d6ccda6e-3fc2-41eb-ad0f-d2cc76d0f1a1
         F5: b510caa4-e9c3-4477-b5c2-2d1e4e0a6575
+        F3_F30: b8248f0b-eae6-46de-bb20-a6a37ef33bac
+        F3_E52: 4913cc57-73d7-488b-8ff9-faa005c4b44e
       Facsimile:
         D2: b3c6cf50-82ac-41bb-a1c0-91ebf4b68652
         D1: 5a4670f0-8546-45ef-81b7-081331928ff5
@@ -14666,6 +14864,8 @@ Corpus:
         F2_E52: d392bc7a-971d-40cd-93be-7ab2ebba5e96
         F3: 31bcda40-aa4d-4b1b-9dc7-8cd96aa1e79e
         F5: 9941732a-af7e-46ca-b8d2-c7506847da84
+        F3_F30: eced6b93-c5f7-432f-a413-5d8c8fc15eaf
+        F3_E52: 7447fbed-bae5-4776-9ecd-803da670a9e9
       Facsimile:
         D2: f895d438-9507-469e-bccc-704ed5741b25
         D1: 733df576-0068-4eea-977d-f65b90cdc6f4
@@ -14761,6 +14961,8 @@ Corpus:
         F2_E52: 1a008cf9-11d9-4b8a-b85a-b20b4cf58c05
         F3: c8a27061-04e4-49df-9a39-b6cfa0393e55
         F5: b1b0fb9e-3a73-4ec0-8cfe-833ee396d4d2
+        F3_F30: 0c7d703b-3ccc-4eb8-9db9-54395c4cc116
+        F3_E52: 1cc5edfe-77cd-4e9a-b2a7-f7671ecb56f0
       Facsimile:
         D2: 5294bb59-8ed9-4bf3-a36c-b3afc78a6e80
         D1: dfad4567-fab5-4d2d-958b-435e3147a4c7
@@ -14880,6 +15082,8 @@ Corpus:
         F2_E52: d456611c-ce35-4442-ae6d-b2e657b2b913
         F3: 1e0bf755-b8f5-40fd-b2d8-26fd5969e687
         F5: e8e54c70-fbd4-4b58-b132-3fcf563666d1
+        F3_F30: e4e058b7-eb2f-4960-940f-d0e8c4fe98b0
+        F3_E52: e9fc1a18-42fb-44d9-a75e-971ec5a8b82e
       Facsimile:
         D2: c500ceb5-b701-4b6a-b634-d36a97df2884
         D1: 6b168146-e5e2-46b6-8b4f-584705c6fece
@@ -14969,6 +15173,8 @@ Corpus:
         F2_E52: 3fcb4902-a894-4cc8-98d7-f9156f1c7bff
         F3: 68c1ffe3-f522-41fb-ae33-29abe9ea728d
         F5: 6ece79ed-19d0-4c4e-a111-2063965add85
+        F3_F30: 026c1478-853a-4ff4-9637-9031c614499c
+        F3_E52: 9097fc39-b120-4277-aef4-9c8bddd8acd0
       Facsimile:
         D2: 389844d0-2dac-481e-a35a-0f8964fafc93
         D1: 5bf03189-17a7-4d23-9812-97164cef65ca
@@ -15046,6 +15252,8 @@ Corpus:
         F2_E52: 28534911-2b72-43f0-8b43-58775dafe62a
         F3: bfd1dd2f-c750-4e2f-979e-0a5a42c2c96e
         F5: ceef7c29-70d7-42bc-aa4c-83b2bf7c82fc
+        F3_F30: 9dc29ef4-e5e1-4cf0-b44f-ae40ab4bf715
+        F3_E52: e51b35b8-5905-41eb-958b-1c7a310d7b2f
       Facsimile:
         D2: 705c8ec5-0516-4640-b4e2-c13d3d74d252
         D1: 7909cc05-5247-49f4-985e-632cd380f0f0
@@ -15141,6 +15349,8 @@ Corpus:
         F2_E52: 719cfa44-03cf-40df-be52-95d416c53ead
         F3: e02b2654-de36-4dbf-bf59-7afbbeaecf34
         F5: b7035a9b-644c-4e8d-b2f5-cfc039322e40
+        F3_F30: e7ea4c9d-4125-41b3-92b6-7ec2f96ee348
+        F3_E52: f4ac84cd-f071-4e82-82a8-c0ee9a6df615
       Facsimile:
         D2: ac30b8ed-b492-465d-8348-a46707f5dc99
         D1: 0fbe002c-4473-4d39-a9d3-0f08a8d6d428
@@ -15284,6 +15494,8 @@ Corpus:
         F2_E52: e845b5a7-bcf5-49ca-85eb-cb1ff62fcb42
         F3: d98c8473-9af9-4130-8cac-cf13417a5f9a
         F5: 157f42a1-b6fa-40c3-b987-58eedfbeca86
+        F3_F30: 90cef1b0-ecd1-4af5-893e-317d9523eb47
+        F3_E52: 609fed03-7a50-4b34-8479-cfd596198825
       Facsimile:
         D2: e0f130c6-93aa-41b8-8c0d-95c330b5c6f4
         D1: 3d21927b-3a70-403f-b7ca-65b91c3f8ef2
@@ -15451,6 +15663,8 @@ Corpus:
         F2_E52: 44456f1c-e2ea-4e1f-ac54-a7852db4390b
         F3: 64914dcc-cf68-47ab-ab61-0b8ec8466ece
         F5: 6158ed8f-3969-4d3f-abf8-d3c01f5ee399
+        F3_F30: 195f0f7f-aebe-4d9c-9c69-072484c4ea86
+        F3_E52: b2338d0c-565f-4a8d-a9c8-1f7624179b8f
       Facsimile:
         D2: 2e654247-3a9f-4a2e-83ac-2e88854f5cae
         D1: 995859cd-80bc-4e3e-af57-611c0e8c226a
@@ -15594,6 +15808,8 @@ Corpus:
         F2_E52: f81cff42-6a93-4cd8-aabb-35982a752fa5
         F3: e5a796ea-a4b2-4e96-af39-054309acd6ba
         F5: 0b6752eb-fcb2-4337-90bb-68f95bcb7556
+        F3_F30: efb7da7d-c388-4523-8496-06ff29cf73cd
+        F3_E52: 0c14c19e-65cf-4c01-ac93-2b535deb62d3
       Facsimile:
         D2: 85924aaa-00e6-49e8-a49e-6c8cf56a825d
         D1: 7276fbc0-8924-4731-a892-86ef28a24b9f
@@ -15677,6 +15893,8 @@ Corpus:
         F2_E52: baac8845-7acb-4b61-8170-2d3a2196f27b
         F3: c8e69cc2-45a9-4824-8e91-2cfd11ffd912
         F5: 292cee94-38cc-4de7-8f37-01cd6989fef8
+        F3_F30: 06219c46-0dc9-49ec-8ad7-6f8bf8e32e3d
+        F3_E52: f00dc312-d50d-4c40-a8de-33afb38e6c96
       Facsimile:
         D2: c7a0c51b-a56f-4ac0-9a4d-864d6fd7b653
         D1: 63cc6577-d228-40b9-af65-f7acbb0ebe87
@@ -15718,6 +15936,8 @@ Corpus:
         F2_E52: 6798911a-b16e-4bad-b6d3-de7f203e21b4
         F3: 4f77f160-ccc2-4369-8715-aacdf0bf5e4f
         F5: 28c4d236-dc3c-414b-907b-5c211c063591
+        F3_F30: c3f20cf2-3190-4593-b4c2-7d781cc48f26
+        F3_E52: c8dae3b4-6fbd-4ea9-8d8a-c40a2ed81128
       Facsimile:
         D2: 60679fc8-d028-4676-b632-08f786cf6644
         D1: 35e37f23-d21c-4dab-a08f-be1947df2c42
@@ -15879,6 +16099,8 @@ Corpus:
         F2_E52: 4d9ce174-bfa7-4947-acbf-5a475d35c561
         F3: 1e532b63-503e-490a-b5ea-0dbd7ae2bc28
         F5: 361e2de4-5807-4e63-a6eb-65573fce3957
+        F3_F30: e989512a-16dd-47af-ba5f-f1193779dd24
+        F3_E52: f1eb2f2a-e216-4739-8546-a1a57fb84245
       Facsimile:
         D2: e52b1dc9-2795-4702-be36-c9b2b48ba4cc
         D1: f4aa8ee7-c18b-485d-a0e1-03ed921cb515
@@ -16022,6 +16244,8 @@ Corpus:
         F2_E52: f525fa4e-808e-4497-b687-0aab5e4f625d
         F3: 109edc1b-945d-4f0b-9dc0-05e113aff1b1
         F5: 825b3c2f-53fb-45ab-b33e-b3a1e7cf36fc
+        F3_F30: 8aaf37f9-6525-4494-8808-aa100a44ef3b
+        F3_E52: 77ed4f44-9b3f-40cd-aab8-1592c0a275aa
       Facsimile:
         D2: 91591d49-7c95-4736-9da9-73c4326529c3
         D1: 548289a9-b1f8-46a6-b882-7fde3b1b294a
@@ -16135,6 +16359,8 @@ Corpus:
         F2_E52: 3a9506bd-9db3-432b-aeed-8b229a74963d
         F3: d1b81d46-8462-4866-b16c-8be6d8838e10
         F5: 22bc9685-f569-4c59-9f6a-36700f361f78
+        F3_F30: fd2044e4-61da-4433-ba8e-17caa16795d4
+        F3_E52: 2eb20ddc-276c-4fd6-95e2-07e41556d0bb
       Facsimile:
         D2: cf330fa6-be52-4fb8-bf6b-e5fb78ca87b1
         D1: f34fb02b-04b4-4549-923b-dd7447e1d077
@@ -16260,6 +16486,8 @@ Corpus:
         F2_E52: 36ef40bf-ffd8-4ff8-a74c-a90200c74563
         F3: 439ca6f3-5ef6-42b8-9be6-da780f94557c
         F5: d56dd630-27bc-452b-8ad8-26dce47f4212
+        F3_F30: 53c1a675-e129-4ef5-8e29-305fe9ae0efb
+        F3_E52: 4cfa2023-f8cd-4131-9a7c-e09c9c7ce8ca
       Facsimile:
         D2: 4297c5f4-c1ca-4d80-80b2-ebd310ea083e
         D1: 5920c19a-cadd-49bd-a879-277682a3bdba
@@ -16319,6 +16547,8 @@ Corpus:
         F2_E52: 637d2de3-8db8-41f7-934a-d25a2675f1cf
         F3: 23902e12-0eeb-4d80-92d8-2ae719b7bc49
         F5: 8e7c39d8-11f0-428f-9a96-b8080cc4cb4f
+        F3_F30: 16946a33-325d-49ac-99e8-69ba3f603a23
+        F3_E52: 89d608ec-cc33-49ef-bb35-63ddbfa24e0a
       Facsimile:
         D2: ac5efa64-f901-42e7-8fa5-7893332ceaeb
         D1: 81dcdb32-0054-4c66-937d-ad946c2a379b
@@ -16408,6 +16638,8 @@ Corpus:
         F2_E52: 0d723d8e-82d7-4e16-895d-05952f9b0a43
         F3: 256d5ccc-715e-4e79-b871-16ed26f1b31e
         F5: 5f02db1c-8ce3-49bc-b1ac-36ccec6b790c
+        F3_F30: 1c98ac08-4802-4e1f-aae3-08b29618c061
+        F3_E52: 833e4b5d-5cba-4306-b03c-64ac55b5a8ad
       Facsimile:
         D2: 595eef87-781c-4ecf-91de-a4c56c09ecff
         D1: e5326456-3f14-48a8-8ff0-ccf7c1a8cdee
@@ -16509,6 +16741,8 @@ Corpus:
         F2_E52: c2ba9be5-fca3-4522-a223-7022eae176dd
         F3: 412544eb-0372-45bc-9dc3-54bf4aadb5e4
         F5: 0f433493-35f0-4a5c-8f15-7794e8ac69e0
+        F3_F30: a610bd5c-fb6a-449a-94cd-2f3df40f4ba6
+        F3_E52: 0acfce9c-df15-4edf-b485-f1345d466ada
       Facsimile:
         D2: 21002f9e-1605-494d-9e07-b63e90ee5677
         D1: 72f1bb49-2129-4cf2-99d6-ed28f7449328
@@ -16670,6 +16904,8 @@ Corpus:
         F2_E52: 6df2cbf3-dcfc-402d-95fa-db7097671a3a
         F3: fef456f8-2e7e-4196-84a5-ddae4c3910f0
         F5: 8e9330cf-cfde-4e8d-bf85-6220b5a8a139
+        F3_F30: 3d2ff7aa-45dc-468d-aedb-e94c9ef76c7c
+        F3_E52: cb66ab43-688f-42e6-9eb4-fd7c9931e0c6
       Facsimile:
         D2: 07e9f621-9123-4b3d-a582-77103aaf07fe
         D1: 38a2b7c3-a67a-4bf8-9273-0397a03a879a
@@ -16807,6 +17043,8 @@ Corpus:
         F2_E52: 266ecc1e-a594-43e9-9620-da93732ca8ea
         F3: f5582764-f593-4fc6-922a-c635f45ee40d
         F5: 792ca7d0-ffc2-463a-82af-fd41ababe78c
+        F3_F30: 2cc3f91f-95e6-42a9-8550-aa0abe9debb4
+        F3_E52: 2c181a53-0fb7-4655-94c0-3120ce57027b
       Facsimile:
         D2: bb5d49f2-2296-49e9-b67f-404addb7e588
         D1: b57424c1-3d79-49a8-9877-711e638ba8df
@@ -16884,6 +17122,8 @@ Corpus:
         F2_E52: 08ff320b-6b17-47d8-b7ba-99da6a8af8ca
         F3: 11cfcf08-c356-4b86-9bf8-966984631b25
         F5: db155d68-fd62-48ce-8c28-9e131ea3ecce
+        F3_F30: 24e7c302-e86e-4304-889d-0953459bb676
+        F3_E52: b255818d-7791-4db0-aa18-f25f5e545319
       Facsimile:
         D2: 8995a47e-41e9-4ae5-bea8-7ec008768601
         D1: f26c91d2-e1fc-4f5a-a186-9d1d3c84a1c7
@@ -16973,6 +17213,8 @@ Corpus:
         F2_E52: 7491e1f0-9a81-4063-8ee5-cfc7adbb5e11
         F3: 2b1bd2d6-c71e-4255-8d0f-e5a440ed482b
         F5: d4198c41-d350-4f35-b71d-ed2151f860ad
+        F3_F30: dd0dde71-cf67-4c07-b650-00ab9c5f2a9c
+        F3_E52: 4ecb9470-d663-49c3-bae5-cd50c575bdc5
       Facsimile:
         D2: d5aad022-e85d-4c67-988e-5485d2702e2e
         D1: fe7aef74-a1da-425d-aa01-b0f5e650971c
@@ -17134,6 +17376,8 @@ Corpus:
         F2_E52: 976e2190-b1a0-4c3b-b21e-760e334377fa
         F3: 5c81a475-fd08-4c2f-bec7-f7eadb018e74
         F5: 34692249-c03e-4408-963d-7df3f2df5de2
+        F3_F30: 23c26957-8430-409f-bd81-12ec1a527000
+        F3_E52: 442e8ff6-85d6-4f64-950f-bbe890e72f74
       Facsimile:
         D2: fafe1042-756a-4cbd-8ad5-c0e8fc28187d
         D1: 9f1acc32-bcaa-45ad-8c69-3432d1a56fce
@@ -17223,6 +17467,8 @@ Corpus:
         F2_E52: 9c58841f-5b6e-4e50-9bf1-744ff5908385
         F3: 6db166f5-17d8-47df-a3d7-437897ea0b39
         F5: ae49ed01-c52b-4533-98e4-de6d8a65bc64
+        F3_F30: 3453b6cd-eb0a-40b3-a56e-73dd5559aa4f
+        F3_E52: cca7e39f-add0-42cc-aae7-ed60062d55b6
       Facsimile:
         D2: d7019f9b-7ee3-41da-85b1-7ca0c6a9c667
         D1: 86393b2d-f6c1-4a29-ab2f-50c60db6c79f
@@ -17288,6 +17534,8 @@ Corpus:
         F2_E52: 409f6c8f-dac9-432c-8d00-544f0674743a
         F3: 7c9f1ee2-2889-4e69-b267-7e28bb3364f0
         F5: 18446c06-2b3a-446e-9194-2912aab95a40
+        F3_F30: 99dc86ba-c604-4615-8d2c-819b98fd420e
+        F3_E52: aec3f50f-d5d4-4479-b892-564b5be8117f
       Facsimile:
         D2: eeb38eda-e3e2-4244-88d4-f1d2ff32fe05
         D1: a5e05803-e3fe-450b-acd8-e0ffbf8d97ff
@@ -17413,6 +17661,8 @@ Corpus:
         F2_E52: b4c7b05f-ebe3-41d5-afcf-33675f8d9e98
         F3: ba316f88-0b0d-4e64-ae0f-67c83b7ed4fd
         F5: 9df1b598-d724-4d14-8ef8-79ae8ccb06fc
+        F3_F30: 9d64083f-27e1-43d2-8c9a-26500f5329ab
+        F3_E52: bcd8d5d0-5242-4204-a8a6-15a374e53a63
       Facsimile:
         D2: 7e1af8f8-f20f-4271-9376-96872d88f76b
         D1: d5efa55b-9b55-4f0a-9ee0-a18c7b000a8a
@@ -17826,6 +18076,8 @@ Corpus:
         F2_E52: 7928c194-1dd4-4b5b-b113-ef30d289b2d4
         F3: 310ad555-7cba-40b7-b625-1e4f85cf665d
         F5: 549b13d6-0905-4d9e-a9a5-bbb16f86e2ec
+        F3_F30: d63ca9d2-0ac3-4ae9-b31c-c591299a12f2
+        F3_E52: a4af8eda-8ef0-49d2-a4d6-09e11727f9ef
       Facsimile:
         D2: ea2a9a00-3197-4cb2-b546-f012e545027f
         D1: 8ee27178-df9f-472f-9424-2ea58ecd32ef
@@ -17915,6 +18167,8 @@ Corpus:
         F2_E52: 90a6080b-eef8-4077-b427-4aefb589e32e
         F3: 3523052a-ae80-4328-9c42-2ecf2794d5d3
         F5: a9b32e52-72c2-47f1-b394-09baf0b17820
+        F3_F30: c2c5dbb2-d266-4c84-a615-48d84356529d
+        F3_E52: 50adafe9-5e26-4c5f-99b1-f0f43ff78cf1
       Facsimile:
         D2: db691715-59b7-4348-b779-0228b715842f
         D1: fb5b69e0-b0e2-40eb-ae34-778be423eab1
@@ -18022,6 +18276,8 @@ Corpus:
         F2_E52: 405fec48-e9c0-4667-8793-ddcac523a74a
         F3: 19b89458-6ba8-4bef-b06c-9979accd7725
         F5: ef47893c-9c42-42db-8348-67476e21eecb
+        F3_F30: 76a17df0-5687-43f8-a620-7d98578f9b47
+        F3_E52: 5b399b6a-a724-4035-997e-2054454e32f0
       Facsimile:
         D2: aeafcf04-9baa-42f7-a7ee-23d8622cfe6b
         D1: bb51b60a-8624-4670-88b2-04233967a4ec
@@ -18123,6 +18379,8 @@ Corpus:
         F2_E52: 1ce8b3a5-489a-4066-8011-1078419cfbc7
         F3: 8015e1f4-0ef4-47a0-a7c9-79a482a03efc
         F5: a25691e9-28d4-4d89-92ac-dba6304d85fd
+        F3_F30: 794df1d7-284d-46d1-ad08-423e56b76159
+        F3_E52: dffa2ead-136f-4a57-8689-c02a30688563
       Facsimile:
         D2: 188abfc0-6746-47de-8e0b-2d2efd16d30e
         D1: 8935b847-41c6-44b8-acc2-b18bfb1ead1e
@@ -18230,6 +18488,8 @@ Corpus:
         F2_E52: c29cd79f-39e2-4f43-92b1-69260d5b5d06
         F3: 34289d0f-1fc7-4afc-840d-fb9cda04e192
         F5: b48a6ed1-dfad-41f5-9f25-5a5bd73cd719
+        F3_F30: 90a5ebf1-6a13-4d58-8b92-a70e6f7bdd90
+        F3_E52: 6df01662-df43-4ec3-8f2c-aeb214b4b228
       Facsimile:
         D2: 32cb8468-d17b-48db-9aa2-88836c304493
         D1: e68c0efa-ca53-4b45-bc1a-209ad6982089
@@ -18337,6 +18597,8 @@ Corpus:
         F2_E52: 8d4f9223-8149-4ada-b751-79fa413a877d
         F3: 10d8b2ed-5b8b-4e70-97bb-6b9b1c1ceaa5
         F5: f67b4c5c-c25f-459d-8c85-28cdba84eff8
+        F3_F30: e21f09d9-8970-458d-8386-20fc6368563c
+        F3_E52: 44af341e-2964-490e-81a1-c3f6e52f32c0
       Facsimile:
         D2: f0b3d1c0-5dc4-4a71-800e-c91f26604b45
         D1: 032f4763-1e59-4577-8656-5d0475ea3bcd
@@ -18462,6 +18724,8 @@ Corpus:
         F2_E52: a364f67f-8c9e-4468-a2e6-82c251bbdbb0
         F3: 3b57fbaf-7ab5-463b-b08b-21957cbaee67
         F5: 8856452b-44af-4dfd-85c6-77c04be4d422
+        F3_F30: 658847e8-fec7-4a14-a0de-28b4b0d1ed74
+        F3_E52: e7281ec8-a170-4c79-afd1-452aacaf787a
       Facsimile:
         D2: a3dcd07e-381d-4cb1-8488-5bb3ad9922d6
         D1: 5916ce29-9964-459d-9118-c4e069bdb9eb
@@ -18539,6 +18803,8 @@ Corpus:
         F2_E52: c6689357-ab4e-4654-a021-2d34504d7126
         F3: a5b6f6ef-92f6-41da-9b64-acf13cf75022
         F5: 9ec43c4f-4953-4672-abd7-e4bb0eb0e279
+        F3_F30: 26d2b739-855c-44f8-9397-c87d35c9810b
+        F3_E52: fe40036c-a109-4072-8da6-e5d4a0fdeb36
       Facsimile:
         D2: 238f6e78-7f4e-418e-879e-d9c31154d3ae
         D1: 3c017055-78e4-460e-9d18-82a88ea3da8b
@@ -18622,6 +18888,8 @@ Corpus:
         F2_E52: 0b3c6c1b-c29e-4765-a802-3184a4ecb912
         F3: 8f93b907-33c8-46f4-9853-e2edf818c6c8
         F5: c34ab318-e17e-49b4-9d08-5fdb70177b74
+        F3_F30: 8717770e-01ad-4547-ba7b-600770a4eeef
+        F3_E52: 8cf9d4df-1494-4aa2-b1df-5f7c8d1aae6b
       Facsimile:
         D2: 74d98fb4-fa58-4e46-b490-955ee6e013fd
         D1: 3b8c4365-92ff-43d5-82e0-ee1a350d7635
@@ -18711,6 +18979,8 @@ Corpus:
         F2_E52: 0be6862c-11f5-4e66-aa7d-2767e5c7aa54
         F3: ee02882e-ed66-4c6d-84b6-490f67b22df6
         F5: 75149cde-124f-4d67-8515-0d8a94ef41ea
+        F3_F30: 153c7948-40b0-4dc4-91ff-077bc4c4b4c7
+        F3_E52: ad945aef-7553-4437-a229-9ae319c0f911
       Facsimile:
         D2: 85562054-0e36-4283-8fb2-873f0c41c1d2
         D1: 262bf914-1cbe-4eb0-9bb6-488048c3cdc6
@@ -18842,6 +19112,8 @@ Corpus:
         F2_E52: 79fc1b71-525b-4cdf-b3ef-572154b49c8b
         F3: 0151cc65-bb25-4c45-9cc8-54d96730d36a
         F5: eae5faa7-a76d-42f9-bc8c-6c5dea7814ea
+        F3_F30: 883bed0d-cca0-47bc-922b-c0e239d49d81
+        F3_E52: 460fd94a-8970-4c23-a947-cc54d9983e1a
       Facsimile:
         D2: e6d18430-fd32-4921-adc6-c54ab1cddaf9
         D1: 2f79d346-4c55-442c-87bb-a6cb7869d226
@@ -18979,6 +19251,8 @@ Corpus:
         F2_E52: ca9237c5-594b-438d-984b-6040839bf076
         F3: c18ae115-ba4c-41e0-954c-34fa391b4a27
         F5: c0cc79b3-35c5-4643-b972-3d5de4ca91d3
+        F3_F30: b9e54c0b-5201-45ab-b2b6-5784b34d4c7a
+        F3_E52: 77d1e7cf-82f0-4460-a9a7-a87f9cf150cb
       Facsimile:
         D2: e912f924-7d06-4b8b-b525-9d10fa5dabd2
         D1: d4f15c4b-f394-433b-a5cb-84e670b835de
@@ -19140,6 +19414,8 @@ Corpus:
         F2_E52: 3c9524f7-0bcf-49ec-9e82-53b24718468a
         F3: 24411d07-0cdf-4945-a14c-1a7513c842c1
         F5: 142535f2-de74-4c11-97e6-03d314083ac3
+        F3_F30: 445b4a8f-fff0-4762-9206-9bf525a8ea1c
+        F3_E52: 13249968-1b02-450b-8c25-f424d9ebfa0a
       Facsimile:
         D2: 0b01429a-95af-41cb-9288-c9da8f54a4fa
         D1: 54009ce7-d2dd-4493-9c9f-d559fdec971f
@@ -19277,6 +19553,8 @@ Corpus:
         F2_E52: 87edb57d-2d0b-4dbe-b4f8-7def0f969058
         F3: 775cd8c1-f330-42da-a13e-3f5968092be6
         F5: 3b045e40-5198-4874-9929-55219fa99079
+        F3_F30: 8be81b03-91a7-4950-9723-a533d1506dfd
+        F3_E52: c27e3404-5927-421d-853d-43ac21e2608b
       Facsimile:
         D2: 275a74b5-49ea-4a6a-a264-5fb0be3b77ee
         D1: c4748694-8547-4966-8b9b-87a835122b26
@@ -19336,6 +19614,8 @@ Corpus:
         F2_E52: 5140ac9c-4934-4722-ad98-2809dc447ab2
         F3: 4ad6e7fd-3ba5-48a9-ace4-9b617dc6a543
         F5: 199837d4-16d2-4955-a3bb-1b396f177fc3
+        F3_F30: 3c5a610e-810b-4d74-af63-810a830cef49
+        F3_E52: 7aaf961a-df1b-4ebc-af2f-c51ed989a8d9
       Facsimile:
         D2: 0ea3e0a1-694e-406c-92e1-aa178cd87b75
         D1: d0fb9873-8a1d-49b2-9f36-85d7a230d564
@@ -19383,6 +19663,8 @@ Corpus:
         F2_E52: ac577800-775e-4984-9fdc-bd56931eb03a
         F3: ef4cc632-69be-4ac1-ba33-91378399504b
         F5: 4d47289b-f72a-4e57-bb98-eda70a0ced42
+        F3_F30: a433372c-fa45-4964-9a81-887ed85ac01c
+        F3_E52: b602f322-bd56-4cc9-a1d1-ece0d30461e7
       Facsimile:
         D2: 7a257e7e-0d2f-480c-924a-04695fbbce08
         D1: 15e52ce0-5975-4d64-975e-9d87c4aa1445
@@ -19430,6 +19712,8 @@ Corpus:
         F2_E52: 94613ff0-50d7-446e-90bb-124cd73ddf7d
         F3: 43559c63-5886-4002-9bc3-171464df7dee
         F5: e407bf97-9705-40a7-a401-3581a51e7428
+        F3_F30: b00af50d-e3fe-4371-8cc4-7a5fac2d8322
+        F3_E52: a71c204e-0c4e-4234-ab32-27e1ce9f5ead
       Facsimile:
         D2: 9880361f-7ed1-4bd6-aca4-60a019dbbba0
         D1: ffad876e-d64b-4354-94b5-a4c0b35ec829
@@ -19543,6 +19827,8 @@ Corpus:
         F2_E52: 3660a8ad-8c07-42f3-b964-19600e234703
         F3: 0dda7f8b-2cdf-42dd-b9a8-5eb54985b921
         F5: d87847ba-d563-40af-8751-8ad830c18039
+        F3_F30: c92f5880-5acf-4084-b89a-99859ed6afc7
+        F3_E52: 8d20216a-b28e-4e62-b9c7-9ca87b798662
       Facsimile:
         D2: ae033f5e-f578-4c69-a7fd-683c734ef4ad
         D1: 78d2b58d-69d9-4694-bd36-c28e60f87786
@@ -19596,6 +19882,8 @@ Corpus:
         F2_E52: 2b748d23-d906-4a71-a144-b9f16df89de2
         F3: 9b3b768b-bd18-46b9-a817-cb2728538bd0
         F5: 4dd8e56e-4aed-496b-81aa-0fa9d80a8ec7
+        F3_F30: 726065dc-d3e9-4dc3-88e1-9a34d7b6dcc9
+        F3_E52: c377b535-4820-435b-b70c-b9b8a7ceeaa9
       Facsimile:
         D2: 0861e837-f375-4016-9de7-013594bea85d
         D1: d27e314b-ee32-4744-ba8d-601cce10ba52
@@ -19805,6 +20093,8 @@ Corpus:
         F2_E52: dcbf51ba-5343-4648-84b3-7805316eb43f
         F3: 2e807e9c-07a9-4325-9f5f-a43985d4f663
         F5: 9273e5b5-b891-4f71-a481-356dbab0e367
+        F3_F30: 39920673-06fe-41f7-a78c-7ad885012cf2
+        F3_E52: 09959b23-86b9-404a-824e-09661497de35
       Facsimile:
         D2: 7766884b-d340-4b5d-84b9-a784f9e8f84d
         D1: 5210e548-6aef-4c9e-94f7-d8cdb98c2681
@@ -20050,6 +20340,8 @@ Corpus:
         F2_E52: 6ab2fe06-f720-4874-83a9-4aa71263da12
         F3: 31072799-b88c-42dc-8bdf-5c7fec347575
         F5: 6e07feda-f462-48f1-9a2e-db45e0d26123
+        F3_F30: 572d3255-2584-4d9e-8729-76297843f212
+        F3_E52: 45e2f081-d626-42b6-a407-0e113a913d5f
       Facsimile:
         D2: ff6db43a-31da-4777-a480-c728e3084e1c
         D1: 95a1db8b-19fe-4946-96ea-8d20df225b23
@@ -20139,6 +20431,8 @@ Corpus:
         F2_E52: 5510b774-c059-47a3-9792-26834c15dabf
         F3: 1040f91a-0e4e-4d74-8d93-0139f361a35c
         F5: a3a7f4ed-f49e-4a0c-9d98-22abd6460db8
+        F3_F30: 4ba0242d-749b-49e4-97a1-144b8700bc34
+        F3_E52: 9f1b26a4-0772-4668-af63-b94591c959dd
       Facsimile:
         D2: 1975d8ed-df1b-49ea-8d5e-cee41d9781b9
         D1: f4e8645c-d3bf-4e4e-99f7-1c760cd06e96
@@ -20348,6 +20642,8 @@ Corpus:
         F2_E52: ca12971e-7185-47b3-815f-7d17930e719c
         F3: 0ecb967d-add4-4760-979a-2b6561cddc42
         F5: b7604efc-2b23-4ccd-aa9d-4474eac360f3
+        F3_F30: 793471fb-2b2f-4fab-9e02-5dcd6b389e95
+        F3_E52: 1bf1bafd-ea04-4e69-9bbb-e2ba33f328b6
       Facsimile:
         D2: 7f2236a3-98bc-47b6-81ac-4a76694ec6c1
         D1: 17b81328-e8a7-4313-9302-f7cc02b009e7
@@ -20593,6 +20889,8 @@ Corpus:
         F2_E52: 54a6eb29-f470-46a1-bcf8-5278b6006980
         F3: f2758090-2293-4e7d-bb5e-79edc647eea7
         F5: bfc9deea-1109-4a78-b82f-4901a8a9adc0
+        F3_F30: 34974364-cfa8-460f-8945-cede49187418
+        F3_E52: 8a892c8d-d343-45a4-8ff1-f49e82a6e533
       Facsimile:
         D2: a064510b-376a-4180-9698-7370c9a1cba1
         D1: 3b874e1a-b0df-4bae-b24d-11806e67638a
@@ -20832,6 +21130,8 @@ Corpus:
         F2_E52: 9d1edd95-e461-4be8-a925-7612ef9ee6a3
         F3: dddbc3cb-a902-4429-91f7-dd76a3dcbd52
         F5: b90cd5c5-c68a-4bd2-961f-f3a6c47b699a
+        F3_F30: f69bd250-8318-43b5-867c-b7888204d7eb
+        F3_E52: 2090b0f6-25ff-4aaa-b25d-72c47909b6e6
       Facsimile:
         D2: fdaab6de-19b3-4263-8b0e-22582c89824a
         D1: 5f0c1c8e-90d5-461c-a05e-f560f9017d1f
@@ -21071,6 +21371,8 @@ Corpus:
         F2_E52: 05cb2895-ce65-4425-8f64-9621aa36afe2
         F3: 2869081a-ccf7-43c1-a894-3176faad647e
         F5: 83d3dccf-63b2-409e-974f-3c51b8a148eb
+        F3_F30: bb59f693-b88e-48cb-97f6-94a8e517f287
+        F3_E52: 7aa2c97b-e394-4ad9-a568-e4080899abdc
       Facsimile:
         D2: 6b543126-28f4-4a54-9846-6bdfc42b7940
         D1: 963ec69f-2ed8-4f1e-a753-3938816a5231
@@ -21160,6 +21462,8 @@ Corpus:
         F2_E52: 7efb39fb-60c9-467c-825c-1331a999d7bb
         F3: 71c7b59e-aa24-4e75-a5bb-c02f2fafab33
         F5: 65766f3d-b4f5-4a7d-8b34-03044c3d0b9a
+        F3_F30: 79c2312a-1d2a-4b57-af00-68410d43640d
+        F3_E52: c15d096c-f53f-457d-b9a0-eec1a5119cea
       Facsimile:
         D2: dff9a563-46c5-49e8-a186-77ae8d085aa4
         D1: fe2d7e49-ac80-4f6f-89e0-ecdf685d998e
@@ -21399,6 +21703,8 @@ Corpus:
         F2_E52: 77a5c9be-4615-42e5-9e8f-2ea3cd13710b
         F3: b40fa043-13f5-4453-8b4e-479bb6f0c6e8
         F5: 7145b2c4-28d1-4fe1-9b21-a750b63a9670
+        F3_F30: 121301b7-e292-4077-8bef-28b62dab470d
+        F3_E52: df9f5bc1-ffbd-4371-b913-d8daee7a6dd1
       Facsimile:
         D2: 9796c70f-b942-476c-a503-6cc28d591a60
         D1: bc2a3993-caf2-4b44-a7a2-6a7bcbe8a3d7
@@ -21824,6 +22130,8 @@ Corpus:
         F2_E52: ef7713d5-c853-4152-8074-8d99f57ece6f
         F3: b148d833-2cbc-45a7-bfcd-c52ff0cb6024
         F5: 298826bc-45a3-49fa-8998-feada8066ad3
+        F3_F30: 6ff486e5-f344-4f4e-b18d-ca831f873400
+        F3_E52: 357dc768-90d2-4da7-9e50-a009caff6f12
       Facsimile:
         D2: ade0e7d6-fdd9-40b9-8870-720f76373e26
         D1: 39cec37e-5bdb-409a-81ef-33c4d5241e3b
@@ -22087,6 +22395,8 @@ Corpus:
         F2_E52: a617c8b0-f9c7-4d0a-be7d-a646d5d8abbf
         F3: 213ffdf2-78ce-48bb-900e-3f7f7242796f
         F5: 0ca7663a-b286-4524-afec-eb6558de387f
+        F3_F30: 08bc55cc-0d70-4d4d-a81b-c1c589e7ad6e
+        F3_E52: 638c6d18-be96-40d4-98d3-6be096e7028f
       Facsimile:
         D2: fe03d360-778f-427b-b40e-5ee286d15e5e
         D1: 6d2e5824-09ca-4b4c-ac44-27b0dd3d9c6a
@@ -22224,6 +22534,8 @@ Corpus:
         F2_E52: 02f2e8dc-b78f-4d3c-9cef-780c91cb7ae7
         F3: 6426e3e8-be9e-4bd1-83c8-a509f5f89921
         F5: ceb820a1-7cf8-407a-a4db-8afe6ada44b1
+        F3_F30: 2f762671-973c-47cf-bbcd-487dfd1e0ae5
+        F3_E52: 8e2ad0a2-20b1-489e-afe5-c90063f75663
       Facsimile:
         D2: c61c2c20-e27c-4b1e-bdeb-6d865c1634d0
         D1: 3c49c8a3-e28f-48b9-848b-befd174ca8d5
@@ -22319,6 +22631,8 @@ Corpus:
         F2_E52: 56ecfb14-84b6-4eec-b752-aa30a803cef1
         F3: 4654c406-492b-4c5f-91f3-e4bbf40d70ba
         F5: 7ed379f2-6561-40ef-baf5-7be0a366dcbd
+        F3_F30: 861f469a-5808-4d3f-acab-6183209afb98
+        F3_E52: c6996c98-4cbc-4262-8e14-9e9065d91506
       Facsimile:
         D2: 5797f118-0d0a-4682-838f-9c0eab8f6e71
         D1: 6f27d4b7-71ee-40a2-b30f-24b79182c337
@@ -22510,6 +22824,8 @@ Corpus:
         F2_E52: 77d62d89-865a-423e-b5c6-e99ca5c7a7fb
         F3: 40800e9b-0b1b-4c86-9738-feabc2c3d66f
         F5: db30074d-a4a3-4d65-b1e2-c1ec23088008
+        F3_F30: 88514980-d288-43de-aa9e-ba2b736c9782
+        F3_E52: 03bc9a10-b5e8-47eb-8b99-7fbaa4fb5982
       Facsimile:
         D2: 50864cd1-cb69-420d-b0c7-553bf3664c8d
         D1: 412eaa40-bcdd-41d4-b2a0-1d35b3de2894
@@ -22659,6 +22975,8 @@ Corpus:
         F2_E52: e13713fb-fd57-4f87-bd56-0343b1863c47
         F3: 04d3970c-fc8a-47ff-9b4a-ad42cbeacd0c
         F5: 2e0e21ec-595f-4e32-85b5-44d7b43a7ddb
+        F3_F30: 5f58e1e7-ae37-4af8-9bfe-6f413fdd21d3
+        F3_E52: 27688a88-a361-4ee5-acc9-1a028cf42439
       Facsimile:
         D2: 11f082d3-2b38-4e13-9316-b406570a20b3
         D1: 1624bac4-4c15-4250-93ae-d072a302da94
@@ -22862,6 +23180,8 @@ Corpus:
         F2_E52: ef21617e-0c5d-4add-9e29-ef1a7bc06188
         F3: 0af29535-6dc2-4901-8314-bae1c62ea7e3
         F5: 3e2e9c69-fcaf-4f8e-8bf2-bc03739d6be9
+        F3_F30: b703a60c-2954-4a98-a1f0-3fcc93342181
+        F3_E52: f6adeb7a-187f-4685-8282-2536d6ea91a8
       Facsimile:
         D2: 9c6f20a3-96b3-4200-89b8-71004136ed17
         D1: ccc02ba8-6a59-46f4-8aba-84fede13272e
@@ -22933,6 +23253,8 @@ Corpus:
         F2_E52: 3db0857c-7439-4587-8e49-1b7615b0e986
         F3: 9c7d0294-a7fe-48cc-9aab-16e2369c97c8
         F5: ac113a24-e27d-42fa-a21e-5345d13a30b7
+        F3_F30: 9c25258d-ddc8-4c9a-9b96-9d53f27a9d91
+        F3_E52: ee66ba9f-88a5-40df-a47e-7d84b2e81e18
       Facsimile:
         D2: ff73f788-7ba2-43d9-8893-816f5899b082
         D1: 4ecbef34-34af-4dd6-ac8b-901b2e67a1b7
@@ -23088,6 +23410,8 @@ Corpus:
         F2_E52: 1514b0f5-00c2-4c29-851c-379e9fd579d5
         F3: 7546cd67-f9c5-492c-bd91-ef21d458a8b2
         F5: 5ce30068-d346-4928-a1c5-9fa5253f18d9
+        F3_F30: 5445c816-3896-40b9-a48d-048e1e132d57
+        F3_E52: 9dc79046-c179-43a3-83ce-9983e1f1c387
       Facsimile:
         D2: cf96034a-5d3d-4981-ac80-0eab9db20479
         D1: dae09a72-a182-41fe-b3ad-bdd21ab6cf60
@@ -23255,6 +23579,8 @@ Corpus:
         F2_E52: 422160ee-1aec-4f5c-a1fe-ee3d3b444b92
         F3: 7adc07b1-6e14-4ac8-8d6c-4a9c25871538
         F5: c90d6be4-878a-4e1d-b7cd-e46008677928
+        F3_F30: 6e9ed01c-dc04-4785-8549-c7a5315db755
+        F3_E52: dd4b43b4-7cde-4efd-8863-4cb3a737c1f3
       Facsimile:
         D2: 2277629c-9c7a-468f-8001-c01ff6da894f
         D1: 63c6382b-ca71-4894-a031-c2f1e53c00dd
@@ -23392,6 +23718,8 @@ Corpus:
         F2_E52: 5405b5e9-71f4-4472-b6da-e0af1a665f3d
         F3: 3edbf9ed-7953-4eee-9af6-5b4ad0e35fde
         F5: 43279644-cfe4-4ce1-a822-7f328e186acf
+        F3_F30: 849ac5e6-bd96-48bb-84d5-78eabea2cf96
+        F3_E52: 152bf032-aeed-47b6-9813-a4173a538d12
       Facsimile:
         D2: 15834434-5eb9-459c-89e8-2f042184f1de
         D1: 8f9e3ba0-4752-453b-8893-a05fe7b1b3c5
@@ -23433,6 +23761,8 @@ Corpus:
         F2_E52: ea263f48-80a8-486e-8902-0375cd9a1130
         F3: 8f1ce678-5e3c-4ef5-ab69-fd962716614d
         F5: 9a43e2d9-6ccd-4a67-8bc7-8dca6263fbea
+        F3_F30: 7a92481e-c23e-4822-bc06-85b1cdd9eac9
+        F3_E52: 5d3d197a-88cb-4a8d-b6db-dae6ac992488
       Facsimile:
         D2: d5edd5c8-1ed5-43cb-944f-97d6e3df3c15
         D1: 3189719b-a9c5-47b3-be7d-9981ed29350d
@@ -23570,6 +23900,8 @@ Corpus:
         F2_E52: af88cc02-c71e-411c-aa68-a6d08f97945e
         F3: 4c7330e6-3ebd-415d-997c-e8b8afc43fa0
         F5: 54d91b79-e020-48f7-8cd0-acc8f6c7d569
+        F3_F30: 3294ede3-ca5e-4df5-935c-2c870c85266a
+        F3_E52: 4fa74407-3054-4a5c-9873-c7ad8c4f6b46
       Facsimile:
         D2: 886bd7b6-3ff7-4b98-a5f8-ac62569f0b85
         D1: 1e9ab2a5-a8aa-4f2e-a14f-9f48c721f02f
@@ -23665,6 +23997,8 @@ Corpus:
         F2_E52: 927a9dc7-0443-48fc-8b5c-ce31e412e245
         F3: 9c52ba50-d75b-4f0e-9768-c2a2cbdb3d16
         F5: 856d0af7-b031-406d-9cc9-e857d1706b36
+        F3_F30: abc9579e-1539-4d1b-b16a-e6c5017f4f39
+        F3_E52: 3159aeb5-66c9-45c1-84ab-8433c255c1f0
       Facsimile:
         D2: 66ea510b-56f3-48b3-b887-70e975ff2780
         D1: e465ace9-75b9-48d2-bb5d-ac09a1b039fc
@@ -23826,6 +24160,8 @@ Corpus:
         F2_E52: 5ad0c53a-c9a8-41d0-ab28-741ca976d0b0
         F3: 1cfd6a56-4413-41cd-b34d-acb1c169a76b
         F5: a383a2bd-43fb-47e0-a19d-4cfcfce4c200
+        F3_F30: c096126b-b743-4360-83b8-d644cca0aebb
+        F3_E52: 882315c9-59ed-4424-a5b8-028c903241ef
       Facsimile:
         D2: 170614cb-5521-46ad-93a2-8b977a97135d
         D1: e2e40767-ce23-46de-89c9-7ec754565040
@@ -23915,6 +24251,8 @@ Corpus:
         F2_E52: 2b71b853-1022-4e43-a3ac-d373cec9428c
         F3: 6261b23f-5b26-4b95-b9e1-c0eb8952c28a
         F5: cc45d8c3-c2ea-4510-a894-124b1e384d05
+        F3_F30: 93fe9a90-0098-46cd-9058-92c7830c66dc
+        F3_E52: 1bd32a1b-26a2-49aa-8231-cdb1b7d981ec
       Facsimile:
         D2: d23821e9-dc08-40af-a081-6e255078fef8
         D1: e75ae99c-6209-4f2b-aca3-d50274633a82
@@ -24034,6 +24372,8 @@ Corpus:
         F2_E52: 7ae13941-ca82-4b93-922e-50eacedaf8c1
         F3: 02902b2c-ede0-4875-8a61-1ede9a9edc93
         F5: 5500bc7b-c644-488e-96f8-ccc1a0f0d86d
+        F3_F30: f4be9bf3-2325-4002-9976-250e6e066055
+        F3_E52: 394baa86-e11b-4333-9d08-6d22c7c4d718
       Facsimile:
         D2: cc7ff831-e305-41a1-b057-76831cb219af
         D1: 4c94c06c-b495-4966-a69f-2696dec6ff9c
@@ -24111,6 +24451,8 @@ Corpus:
         F2_E52: bc3c4703-90d2-47de-b10c-da164f8d6bcc
         F3: ebb3ec59-e9b5-4c03-ac94-5d993588d118
         F5: 285c60c1-b31d-4ff1-be42-6acc93b1a0f2
+        F3_F30: 722d6b65-266f-452b-bc29-d486cca6bd4a
+        F3_E52: 9bead47f-0805-4ee1-b6d3-0d8326e275ee
       Facsimile:
         D2: 7b7227af-127a-4115-8eea-5b9148970795
         D1: 2d389c1e-03bf-4922-93cb-5119d0c5b2ac
@@ -24254,6 +24596,8 @@ Corpus:
         F2_E52: f5507dc3-68a9-4fcb-9b6e-2fef009a2476
         F3: 067b8fbd-f89f-4f27-b1fb-fa328ad41ed6
         F5: 89675cf6-c505-424d-b273-d39710ce05ec
+        F3_F30: f2069ac9-1271-4cd5-8ade-0de15de6cddc
+        F3_E52: 52454bf3-c313-4c86-bb03-308e6f79cc62
       Facsimile:
         D2: 52304fa4-23c5-466e-9279-59fd3680db64
         D1: 3ec4ac40-6463-4b97-b797-bbede4018e85
@@ -24427,6 +24771,8 @@ Corpus:
         F2_E52: ad9484a5-3743-43e8-bdd4-f0ac47a8cf0a
         F3: cc4f631f-c739-4536-9927-9e3871cdf85f
         F5: eccb64dc-18c8-485b-b018-b09683481935
+        F3_F30: 47afe4bc-a121-4cf6-a82e-a58e6528ab34
+        F3_E52: a9bfe9b3-dd6c-4f01-929d-b31b6324e4f5
       Facsimile:
         D2: ae415de2-6c8c-4720-85ce-1a5ce548b2ce
         D1: b481a726-18ce-4ad7-a878-7be7936b9c0b
@@ -24498,6 +24844,8 @@ Corpus:
         F2_E52: 708779a7-f2dd-4f2a-92ba-a25f26432244
         F3: 4d8277f2-7e9a-4743-9849-6aa1319647ec
         F5: 8e8f817f-7864-456a-8506-95c37926ffd1
+        F3_F30: 336084de-9b63-45f4-8cb4-55dcf77a40ed
+        F3_E52: d03bf51a-9acd-475e-af22-93e0cc4c4368
       Facsimile:
         D2: b8bee6a3-e72d-4645-9568-41df4849f75a
         D1: b75bc459-16fa-44dd-8eb7-e56fc1ae0293
@@ -24677,6 +25025,8 @@ Corpus:
         F2_E52: 6a6ba7e8-a2b9-4330-8ef2-57dca7cf57b3
         F3: 5b1b1fbd-0874-417d-9424-2d00ce41950b
         F5: 4d9b732a-4738-4b69-b4be-bda0b5aa15b9
+        F3_F30: c1fbe5b6-c42d-4457-a370-f6aa03082d94
+        F3_E52: aa13089c-cbe1-4003-8039-b569588a561f
       Facsimile:
         D2: 3a01dd8e-8896-49ed-9358-231263654b84
         D1: 4da91a7b-82ba-4042-8e16-a524d1eb0ed2
@@ -24880,6 +25230,8 @@ Corpus:
         F2_E52: 5590b936-3401-4b87-b806-f7cc1a7987ad
         F3: 7506fddb-ac28-460f-81b8-d3b08fa0e740
         F5: 18c93c36-9379-4d4f-97ef-0536c44f7eda
+        F3_F30: ae6dd5c6-eae8-4e37-ae2c-94ccbf5d24df
+        F3_E52: 1e9e2399-44a0-4701-8ec0-74f40e005297
       Facsimile:
         D2: 92753d56-1f6a-4a7c-902c-eb0576c2061c
         D1: 9bc2a0a3-6389-4082-b0dd-a3f80a2aac79
@@ -25053,6 +25405,8 @@ Corpus:
         F2_E52: 02732936-6a6b-4440-b3db-cb64e0dc10a3
         F3: e160fb62-70bf-4db4-b1ef-84d090c95aff
         F5: 6a25b154-c92e-416b-9213-0ed57b48338d
+        F3_F30: f6f43ec2-be72-4923-8e28-d70b4b55c50b
+        F3_E52: 31d8535d-3632-4d30-ab27-0eb905de6e9c
       Facsimile:
         D2: 35689779-6b02-4e73-ae10-5adc7a9fc717
         D1: 6962d98f-d08b-4e29-bfee-9bab341c8dc3
@@ -25172,6 +25526,8 @@ Corpus:
         F2_E52: 5250c6de-33be-4b24-9b4d-dc884ddd9e09
         F3: 15c5dfd2-0997-474f-bfb2-97c8a3ac0ff3
         F5: dd4adcd1-ff90-4c17-b6bc-62beb03b38cd
+        F3_F30: 9a4062fe-08cf-4977-a6a4-7b38e8616f24
+        F3_E52: 053297ac-9df8-4f2a-a860-31fd84ceb8a9
       Facsimile:
         D2: 90490443-55ae-423a-bb6d-01b7dbfefbf7
         D1: fab09af7-fc51-4f78-8729-e603c44cf368
@@ -25309,6 +25665,8 @@ Corpus:
         F2_E52: 46c4b31f-1aba-4e0f-8283-bae23fa7eef1
         F3: 3ddf9d17-b0ed-48f7-a115-44257e67287a
         F5: 81aae461-d4f5-4866-b6e0-18ca31d788d2
+        F3_F30: aca2130e-9c0a-4587-a926-28359671a4f5
+        F3_E52: 47ac607c-2cc5-43da-b56e-b1334cc7df57
       Facsimile:
         D2: 8e87d4a5-60d0-4319-9304-abbb9d0888f9
         D1: 8dd412c6-fe43-4031-97a3-777b2eedeb07
@@ -25332,6 +25690,8 @@ Corpus:
         F2_E52: 9ecb5473-d3be-4ae8-9b96-8780c3df1841
         F3: 2ae53600-1339-4143-b59a-1d4f49d9722c
         F5: dfbdf1ca-a2de-4a23-bb94-a831c386cf3b
+        F3_F30: 199d97d5-cc8d-4e40-80cb-9ca07a581a2a
+        F3_E52: 88d6f408-3ce2-4cf3-b5d0-a6fbf6bbce0a
       Facsimile:
         D2: 96f4b970-f202-494d-9fff-f5512907afe8
         D1: 7a0f3607-bac8-43b4-b0f8-86bde0008b8a
@@ -25415,6 +25775,8 @@ Corpus:
         F2_E52: f87edcd4-8cac-462c-a905-597443ad19fb
         F3: f15671a8-5fbb-4cd3-8c83-89cd7db2056d
         F5: 8e8133e3-3bb3-4ad8-a51f-0442ec4b7904
+        F3_F30: 02b688bc-28e2-46d8-a334-fc69c43ca2ab
+        F3_E52: ca4681f0-69b0-49cc-bca3-7c999cef296d
       Facsimile:
         D2: 1111e586-7f91-4c83-8c29-3a3592e4b4b0
         D1: 5a968173-c29c-459a-9ea9-372a92e6f898
@@ -25582,6 +25944,8 @@ Corpus:
         F2_E52: cb5d92eb-a92c-4f55-8e18-6439e309195c
         F3: b85a74cd-3a3a-4df7-9938-155f2bc2f8e7
         F5: 9335f8e7-73ce-445f-bf56-46049d2d6126
+        F3_F30: ef5b76cc-e632-4403-be62-d4058677eacb
+        F3_E52: 85983519-8c81-42b3-a928-55c650997278
       Facsimile:
         D2: 8c561b18-6481-4ea6-a51c-9545733618c7
         D1: 65f924ef-f6dd-4d67-aa87-eb4750536b4a
@@ -25725,6 +26089,8 @@ Corpus:
         F2_E52: de6fe7e0-4dae-4eff-8438-94814f5b801a
         F3: 6dc9f9c5-6901-4733-90a1-38a71d02acfa
         F5: 94c74ea2-17e9-4b1d-87b3-a763c7233d10
+        F3_F30: d03b0f64-7f21-42fc-b5c6-0216cfce7162
+        F3_E52: 9d65987b-3eef-4513-bfbe-d1c24fefe6cb
       Facsimile:
         D2: 48e5424d-8bac-4d7a-be16-77a928617bfe
         D1: 9ba01163-5ea8-4bbf-8851-ef78aca01cf1
@@ -25826,6 +26192,8 @@ Corpus:
         F2_E52: a6ab02e1-9161-45ca-b8e1-cdffc777a44f
         F3: bcbd6bf4-e065-4891-a3bd-82d86cd2c133
         F5: 67fc57b0-34ab-4c99-93d1-ea420f5cf82e
+        F3_F30: 2807930e-7fb9-4f9d-a003-731ff53de0e9
+        F3_E52: d1a679b6-0d1e-4ac8-83e2-e5a951d4bc69
       Facsimile:
         D2: 7e0a71aa-4d08-467a-915c-7604098c0a0c
         D1: bc030865-b875-4a8c-9146-7cbd1dc2e631
@@ -26011,6 +26379,8 @@ Corpus:
         F2_E52: 1fdc7b3d-5454-49e1-9b55-b4c7098cfc21
         F3: 5819c682-2cee-40ef-9293-f57798fcf7a9
         F5: cb2c5617-7876-46d9-a90e-f8204246f403
+        F3_F30: 3146b3c9-0508-48fc-b995-073f78d936b8
+        F3_E52: 0e06168f-68a7-4ffd-9c70-a155384b9009
       Facsimile:
         D2: 26f1caf9-ed4e-4fbf-b28a-c450ed35f3a7
         D1: 3fb90042-39c5-42aa-a5c0-d7851c3bd264
@@ -26148,6 +26518,8 @@ Corpus:
         F2_E52: 6e39a3c8-1231-4f7b-bd15-4e91d39ff371
         F3: a1a77527-0b3f-4e74-93d7-6e950ea2da09
         F5: e7283f9f-976c-47aa-a1bf-e2ba916793b2
+        F3_F30: abf70570-8d2a-453b-9629-b072020db8e5
+        F3_E52: 0674ab0f-073d-498b-98d3-b5114bd81cf3
       Facsimile:
         D2: 8819003d-68dd-49f8-b42f-202ac6561b53
         D1: 58fcb30c-1a23-4754-8b74-22aebc382c83
@@ -26291,6 +26663,8 @@ Corpus:
         F2_E52: 44fd7531-3eef-494d-bf8f-eb7d27264aac
         F3: 3c227a93-4e05-4a0d-9356-ae5aa8a70863
         F5: c8f4472a-b3ec-41a5-9dc4-0a88e6a3862a
+        F3_F30: 129a5313-d887-4637-8c0b-d3c9b03efd88
+        F3_E52: 0f1fac90-4994-403b-b08c-9c87901508a6
       Facsimile:
         D2: 57c3dbfa-b542-4ac5-a915-f83332f6733d
         D1: ecffb75f-8646-47be-84c5-ec365801c382
@@ -26458,6 +26832,8 @@ Corpus:
         F2_E52: b0e12518-cafc-4e12-a1ae-a1d7a9cdb460
         F3: 062253ce-1b2a-4a95-b427-6d7c7a2afe36
         F5: fe487dce-dc28-4ab0-8caa-8e5741f4d78b
+        F3_F30: f3774271-30da-4974-bb8b-1b460531221d
+        F3_E52: 5d2e3ec7-aa0d-46d0-a655-429b9ff62979
       Facsimile:
         D2: a0e32aa0-afd7-4942-94ce-1f3aad7f2f82
         D1: 4dd01efc-5061-4aa5-b306-854b8861e792
@@ -26643,6 +27019,8 @@ Corpus:
         F2_E52: 2a4ac08b-eb8d-4049-82df-cc164f5480d2
         F3: cce61c69-84d1-4fca-8cda-bde305b06770
         F5: f9d39954-3e83-410f-b25e-10cffdbbada0
+        F3_F30: 590f237d-f553-4fb3-9f65-2e67401e2856
+        F3_E52: c3174a4c-b33d-47d0-8c9b-fd5dc70b7b73
       Facsimile:
         D2: 1672d612-9c0e-4c61-9f99-2caddde4578c
         D1: 55cb390c-cfa8-40dc-927c-97c95c7bdd30
@@ -26804,6 +27182,8 @@ Corpus:
         F2_E52: 52478e0e-927c-4998-ba59-48b586e93def
         F3: d947a5cf-a79f-4665-b6a4-a66fe701bd49
         F5: a7730ec6-6d5c-4686-8a8e-aac69c7d94e4
+        F3_F30: acdf89e6-9552-465a-8c09-43c167b2e5a0
+        F3_E52: f11eaa3b-7e80-48c1-a9f4-d18d185f7d34
       Facsimile:
         D2: f45fc536-d85e-4aac-b703-2f0ee13f162b
         D1: f00198ed-bbed-407d-9141-4fc18c122cbf
@@ -26947,6 +27327,8 @@ Corpus:
         F2_E52: 4f3e995a-ab72-4a82-8dbb-7a5912f1bc96
         F3: ee13b905-6704-4b03-932f-7f66348b6953
         F5: f0361f90-ca0e-423f-a208-7963a8934e3e
+        F3_F30: a87da923-438a-4ac0-b42b-255a10c426bf
+        F3_E52: 0ef1da7a-805e-4874-928b-72d7d3194b7c
       Facsimile:
         D2: 4e4f64ab-9d92-4005-a06d-840a0ea8430d
         D1: a564312f-da3d-4b47-92c3-70f41c8aec3d
@@ -27024,6 +27406,8 @@ Corpus:
         F2_E52: 4794c0eb-ebb7-4429-b169-58f3d9e1e0f9
         F3: 278ade9b-c3d1-45a0-bc72-7e80454cf7a7
         F5: 451b4dc1-04a0-4cc2-a74c-9b0166a537a4
+        F3_F30: e298aea6-2344-44d8-89c4-f2c56fa8af38
+        F3_E52: 295c4a51-aee7-44f5-8785-4e9643b26e85
       Facsimile:
         D2: 1bbce08c-43b1-49b1-b3d4-16ea2478c5ca
         D1: e1d87283-37c0-426b-be7c-ec02cf6fd854
@@ -27083,6 +27467,8 @@ Corpus:
         F2_E52: 542cae2a-4984-46b5-974e-5c5db8280518
         F3: 526edc33-5d4b-4a6d-b605-ad30a9fb8cf7
         F5: 6ecc45f2-b3d9-46f5-bb69-520dfcf8ea97
+        F3_F30: 360004e0-9ec6-48d6-b089-fbbd20b26622
+        F3_E52: 43d86e18-8f40-4880-9402-cb76b83a8e2c
       Facsimile:
         D2: bed983cd-49a4-4419-a57a-341ecc9d1901
         D1: 8f2d0402-9a04-4b10-9484-6b06de90f858
@@ -27184,6 +27570,8 @@ Corpus:
         F2_E52: d7b6f918-2a77-4f13-a3e4-4a88bda43818
         F3: 48d8c60f-a0b6-4357-98b1-f4f3906ee570
         F5: 9de012fa-88ab-4cde-a324-73ed99f638a8
+        F3_F30: 86f53ea6-e3f8-4330-b862-3a68390bcaec
+        F3_E52: d1878841-3b4b-41db-8762-f35fd37ea3f7
       Facsimile:
         D2: afc64345-2970-4c4f-88de-355e6236533b
         D1: b096dc05-04c8-4277-a894-8f0456661781
@@ -27303,6 +27691,8 @@ Corpus:
         F2_E52: 4a26cc5e-326a-40a1-8cf7-f4962b89a363
         F3: 82e967e4-cd1c-4880-b30e-822340d2cb72
         F5: 9096f43e-0a6c-4bbe-b48f-2260e0942d65
+        F3_F30: 7cfdf7fe-4f10-4376-8d91-6f64399dc645
+        F3_E52: e03240f7-4815-4308-8751-690c4c270723
       Facsimile:
         D2: ebc33b23-c73c-44e4-bc8c-038b25d2a27a
         D1: fe9bfe94-17fb-4fe8-9019-d3f4a88dddc3
@@ -27392,6 +27782,8 @@ Corpus:
         F2_E52: a9f38236-f348-48dc-a817-61e477e49bf9
         F3: 669be94f-1384-4eba-9e2b-44c7989d7d5a
         F5: 83778bc6-f41f-4ad0-90e1-172918a62a26
+        F3_F30: 61c3f625-d18c-4dd4-93a1-9d1f101bea8c
+        F3_E52: 88ee51e8-3711-408a-9f89-b3b84cef2f3f
       Facsimile:
         D2: f3617f74-8f7f-4afe-80bd-c7888762cf3c
         D1: 4f66bed6-39dd-432a-aff8-bdff729d2d8b
@@ -27553,6 +27945,8 @@ Corpus:
         F2_E52: 3576f305-4717-4417-9f01-9068e1df75ea
         F3: 44d59ec6-8585-40a3-a5a4-3f420a36e14f
         F5: 10b822ae-a986-448a-a8ae-118b10e6b5c6
+        F3_F30: 4c136a54-7abb-4e4d-a535-4060080ef24d
+        F3_E52: 6f944499-f156-420f-9c21-8960d6316d2f
       Facsimile:
         D2: a5e13b10-ec2b-4105-a1b6-c437d8cd4b30
         D1: d182aecd-ba30-4061-8f59-86a96887015c
@@ -27666,6 +28060,8 @@ Corpus:
         F2_E52: 83414ccb-0fa9-48d3-8705-564af0bcf2db
         F3: 9e38a548-34eb-4e84-8572-47ee0b845b87
         F5: 3aa1b965-99af-473b-818d-8d3c1469724f
+        F3_F30: 3ce18819-5d63-4e2d-90f3-eb46502c0744
+        F3_E52: 9ab13109-5efa-4947-8e79-3e39e7aa0f44
       Facsimile:
         D2: 6ceb3d77-caef-43b0-b4db-4b3841ccbb66
         D1: 98877a12-ceb9-4612-93c2-e06e038e9877
@@ -27767,6 +28163,8 @@ Corpus:
         F2_E52: 9a51e330-603e-4795-a139-1ef70ac23282
         F3: 023a8c08-3c35-4157-bf2e-304d67be3618
         F5: 3cb91509-e515-41ae-b74f-924dab28b65d
+        F3_F30: a1034fc5-82ab-4def-998c-85c3e46f2b38
+        F3_E52: 091c530b-4cfc-4465-945f-9a241960a9f1
       Facsimile:
         D2: df8b1bbf-5c80-46c1-850c-6d9ce22bb0c3
         D1: 5c8765e6-07d2-493a-8085-c3a43dcb517b
@@ -27928,6 +28326,8 @@ Corpus:
         F2_E52: b126846f-0162-443a-8903-0dcac0249132
         F3: 2b93ce6f-8bb7-4eec-86de-4823ae65ffac
         F5: 4e03c1ae-b0a3-4d41-82ca-97f4d0ab9ef9
+        F3_F30: 8b7f6510-8409-4018-80eb-7b5199d56b40
+        F3_E52: 0be37510-1bd5-4887-8407-9adf1ac5b326
       Facsimile:
         D2: 8eaa74b9-c7c8-436a-9f9c-3d60fd0b7b89
         D1: d02be77c-12ab-418b-9d6e-52a6a2026bad
@@ -28131,6 +28531,8 @@ Corpus:
         F2_E52: 1ee97e6f-570c-4df0-8213-696cf7ff09e9
         F3: 78c720bd-7d07-4d5a-9a65-8b69cf9e603b
         F5: dcf15519-f1ef-407f-9390-2b6a24153b21
+        F3_F30: 68ccdfdf-ee26-4742-a99c-bf21fcf1cb57
+        F3_E52: 8860fffb-fe87-4402-80bb-d02644c76540
       Facsimile:
         D2: a2737831-cb07-4448-9abc-b61f91bd1671
         D1: 3faec72b-c735-4b58-9ca7-71e3f0e75183
@@ -28268,6 +28670,8 @@ Corpus:
         F2_E52: 364f1adb-e687-4249-89da-4e754ecfe27f
         F3: d3a3a41c-09b3-41b9-a1e4-0f6ed9631874
         F5: 6eff3f35-add1-4a2f-98e9-31fa01b34999
+        F3_F30: 08dcd330-15f9-40c5-9c8a-c52decc61198
+        F3_E52: a06ee6be-f975-40ba-962b-00a6e7d09307
       Facsimile:
         D2: 8ac11a78-441f-43b8-b409-7f741a8a3b70
         D1: 9d05e049-b31d-40e5-b64d-eb607adec74e
@@ -28387,6 +28791,8 @@ Corpus:
         F2_E52: 0bfc9774-2432-4a18-a12d-24d4ee4d3979
         F3: a5066ca2-92be-415f-b19f-6367b9b3b712
         F5: 14151977-12d1-4c74-837a-35645a9e47ff
+        F3_F30: ce0ea99a-d207-44fd-97ac-09963880df02
+        F3_E52: 59613edc-1c2d-4b80-a5a6-dbbe252528f2
       Facsimile:
         D2: 7390daf6-3f8a-435f-8d1d-990e4097418a
         D1: b7bfaf92-da9b-4dda-9493-e79859f6aa4c
@@ -28470,6 +28876,8 @@ Corpus:
         F2_E52: 5de1905c-9a55-4e47-ab7f-17d804fe025a
         F3: 0ce793ea-eb3d-4cc1-b985-444f3ed8a68a
         F5: 797319b0-9d61-4a6b-be98-1b237050b8fd
+        F3_F30: f7e27f6f-0ec4-4184-a972-362708ce50fd
+        F3_E52: 16c3aa08-6cf0-4d74-80e4-a22b6eb69347
       Facsimile:
         D2: 94730011-3884-419a-be19-be154ca2502a
         D1: dc9a98c5-aebd-4f52-bf59-018d6ab09a60
@@ -28529,6 +28937,8 @@ Corpus:
         F2_E52: 6f6b92a8-9d12-4f05-b9fa-b45598a2cf9b
         F3: 43958c10-1016-45b0-8d88-94313820d717
         F5: 2f7fdad8-274b-45c0-bd13-5e15339a6031
+        F3_F30: 85f318ab-6a28-493e-af03-1a010f8dc434
+        F3_E52: e1faefc6-227c-4819-afb9-cae9bf52671c
       Facsimile:
         D2: 2cb47973-7583-4197-aec8-039b4a658481
         D1: 7781800e-5c61-4eba-8d97-ab0f63dcb60d
@@ -28684,6 +29094,8 @@ Corpus:
         F2_E52: cf889cdb-bb87-4156-8d0d-7b5c58c52a31
         F3: 154a1ea2-a74f-41e7-bdc5-8383c379e861
         F5: 883bd766-40dc-4545-9d4f-539a510f475c
+        F3_F30: bb9400ac-c706-44b7-9cbb-dc8aa43e7afa
+        F3_E52: 76427b4b-d3c6-4e40-9ef5-54a28a494b10
       Facsimile:
         D2: 0ce840c3-c2af-42d8-b5bb-a7816c6b212a
         D1: b93a2602-3696-429a-a06a-72c4d1c59e4b
@@ -28797,6 +29209,8 @@ Corpus:
         F2_E52: b4e78dd1-8a61-428b-8b01-f39d6c3d8876
         F3: 977952ba-2f37-494f-a9a8-4e94e203fa30
         F5: 6ea4996e-4c2c-45d0-8fdb-634939f04b4f
+        F3_F30: b74d38ce-10d1-41a7-9a07-b17a389285eb
+        F3_E52: 1f1a713e-bb17-4e48-8684-c5ea4025eb94
       Facsimile:
         D2: 8f954db6-64af-4faa-920f-86b3ccd42660
         D1: 54f5e523-624f-407c-af35-67ca948dc617
@@ -28886,6 +29300,8 @@ Corpus:
         F2_E52: 5fd8a003-df29-43bb-b40b-880c3fbdc9b3
         F3: 22b1c31c-b25a-4d84-a370-7ae5434296d7
         F5: 6c5ed216-eb2a-440f-8dc8-3779b34077f3
+        F3_F30: a3bee3c8-dca0-4a6a-85a4-3af5d90b0ccd
+        F3_E52: 90d6a7cd-617b-4233-8fcd-17f10bcce684
       Facsimile:
         D2: d3eb7693-b4d5-49a3-8645-fdc1960599f6
         D1: c4cced2a-627b-4059-b9ed-08335f776164
@@ -29011,6 +29427,8 @@ Corpus:
         F2_E52: 8720f3d2-3b6e-474a-97d2-76d811479112
         F3: c96300aa-d6de-4d35-8a0e-683384b351a3
         F5: 21300411-8857-4596-9dc7-18181943b64b
+        F3_F30: fc32e24a-08d7-437b-831e-8bcd670ca5bb
+        F3_E52: 6328f01e-2ef2-401a-95da-06c1a848f401
       Facsimile:
         D2: 030888b8-5b82-4724-8283-3f4b9a62a207
         D1: 3fb07ceb-fd5e-4f76-8b30-1e670ff186f1
@@ -29142,6 +29560,8 @@ Corpus:
         F2_E52: e93a0785-01ce-422e-ba18-41655236f618
         F3: d4f47251-9393-4796-8ad7-461ee4551b2c
         F5: 708d433e-976e-456b-96b5-2eaa751e4628
+        F3_F30: b33c0448-4436-4a2c-8e90-bd30baf65ebf
+        F3_E52: 34f652d6-0b91-4e23-b5cf-7c6b4ecf8cfb
       Facsimile:
         D2: 59076588-6502-41d2-876a-bcb408921320
         D1: 8e690c8d-c33c-45f8-924a-d21095e2eeaf
@@ -29183,6 +29603,8 @@ Corpus:
         F2_E52: 2790e877-87de-424c-a7cb-18ae04e6e500
         F3: b6fbfcdd-0b36-404d-a18e-4593fd56c3a0
         F5: e8173d5e-32eb-4650-b3ea-2dc7d2675cd0
+        F3_F30: a3c34159-23f4-423a-aed9-fc51002cf9be
+        F3_E52: 4f56e58a-fe48-4b19-954c-5179d65aea7f
       Facsimile:
         D2: 1d727302-c766-4146-9695-5422e89dd0cb
         D1: c6c5d9fe-12bd-4781-9ff2-c034345cee57
@@ -29326,6 +29748,8 @@ Corpus:
         F2_E52: 921535d5-5fac-48a7-85bb-2441fdfb3fa9
         F3: 95e610a9-e64f-40ec-a0ee-72af7ed068c7
         F5: 0005c21f-c7f7-4e37-886e-c17a4144281d
+        F3_F30: 81f7b8ba-91a6-4379-850f-252a84015736
+        F3_E52: 847e799a-6d06-4cc0-af9d-b9f40fb920aa
       Facsimile:
         D2: 4b9e5707-2bbe-4c6a-8120-06878c1e15bd
         D1: 41ed19de-ba7e-4de4-b729-2f6eab5e23bd
@@ -29367,6 +29791,8 @@ Corpus:
         F2_E52: 3baa59f2-2291-4810-9de0-0b137962d791
         F3: dd15ec74-c167-452e-913f-18909dbfc766
         F5: c62f5f1d-be4f-488c-b21d-d960620dac87
+        F3_F30: 62eb3e40-6477-4724-b2b9-874b18d20b05
+        F3_E52: 775922f0-241e-4048-96e3-1f92b4c21f2d
       Facsimile:
         D2: a893aa56-c0d9-4d16-9c42-53db2b5bbd1c
         D1: cb38bc71-d03d-4dd4-bf27-cb1f66cb0f30
@@ -29480,6 +29906,8 @@ Corpus:
         F2_E52: 16a41295-42d4-4006-9e03-550384dbac1c
         F3: eb9c941b-b7ce-46bc-9486-d6519b747ef2
         F5: 46c31719-941b-40a8-b737-1f0063e06b9a
+        F3_F30: a9ea07d5-3eae-44f3-803a-506c35947e2e
+        F3_E52: 199314db-618d-449a-a016-7a52ebf61663
       Facsimile:
         D2: b381816d-6f33-4bcc-b67e-fc7d1c81fb92
         D1: 74ed4167-6cd3-4497-af54-9b62ebd32e76
@@ -29605,6 +30033,8 @@ Corpus:
         F2_E52: 122ae7cc-7b8e-43d8-bbae-e4d65583e3be
         F3: 10799fe0-2d4b-44c8-a87a-6d7d4784af7f
         F5: 0f62a8c7-c36c-4ae7-94e5-3509556bac18
+        F3_F30: 632d63ec-eb60-4e95-b775-555176c64cf6
+        F3_E52: b0395afb-bf90-4ac1-ae07-7e360d145d5e
       Facsimile:
         D2: 842634b5-bc41-47a9-a91c-999b83efc4a9
         D1: 848c6e1c-5083-4701-bcd5-c220791ac5ca
@@ -29748,6 +30178,8 @@ Corpus:
         F2_E52: 046a97cc-ec6b-48db-8511-7e43cfb08f36
         F3: 30d9962f-d497-4df2-aa46-5ce24acc253f
         F5: d606e180-63b0-4740-b7cd-2c3ade87e0a9
+        F3_F30: 618c1194-49ed-4778-8aaa-de8ba15b10cf
+        F3_E52: a8902aa0-fd7c-449d-899c-84f9c73c5bb7
       Facsimile:
         D2: 209c6bde-a45d-4ebb-ba3b-bf5bc9d7e8c0
         D1: 7c73a016-1fb3-4424-be31-1c34ba807b07
@@ -29957,6 +30389,8 @@ Corpus:
         F2_E52: d44769a0-9cac-4f49-9525-3bf71931260d
         F3: 4f2f7e85-9102-432b-a643-69ce93870635
         F5: 7d8c5d0e-646c-41fb-b77b-f4ccfea64cb8
+        F3_F30: 57b0641f-e223-4ab7-8fed-cd76c1b372d5
+        F3_E52: fbf71b96-95fd-4726-9c1c-1b60fe2af42d
       Facsimile:
         D2: dcba6a62-08fa-4b48-b5fe-2a79da0b85e6
         D1: 8adcffd5-abac-4b4a-82b8-133729bea9ec
@@ -30556,6 +30990,8 @@ Corpus:
         F2_E52: 41860a88-0234-401a-94f7-4c117a410ff6
         F3: d576f86c-a966-47da-a184-b06d66eac067
         F5: 2cb29acf-f28f-42fe-9cae-eaf0a77833ee
+        F3_F30: e1190f9d-bd0f-4f6c-82eb-947d28ced1b7
+        F3_E52: 6d4ce998-8048-4ce7-8941-1e74ada547fd
       Facsimile:
         D2: fb9ad536-a21b-4b85-ba83-1af934a34961
         D1: e76302ff-332d-458d-b23d-d070cb764a7e
@@ -30657,6 +31093,8 @@ Corpus:
         F2_E52: 80fa15ab-5dc3-4377-b1ab-0fb4ff966bf4
         F3: ef2182a7-086d-4aef-86df-8eddd1bcaf70
         F5: a4517b50-28e3-4fb5-b3c2-73e9867f5835
+        F3_F30: 9c03234f-6c15-478f-b62f-85ec4d7dbadf
+        F3_E52: fb8cc459-2bb7-4526-829c-6cf58f02b171
       Facsimile:
         D2: 39ff179a-84e0-4f62-9b65-26cef5637272
         D1: 5980080b-d3fe-4fe6-852e-5c43c0e058eb
@@ -30830,6 +31268,8 @@ Corpus:
         F2_E52: 2a1e1d47-f058-4bd3-b971-fcff6d4bf0bd
         F3: b5f60f87-8892-4075-bf53-4dcedaf640b9
         F5: 5ec29108-ec04-461b-9c5e-e5836b266b6c
+        F3_F30: 49ed34bd-ed79-4dd4-8d37-f1b1dc4d6d31
+        F3_E52: b3219a74-f6c8-4b5b-a8ba-de300f3b3ea4
       Facsimile:
         D2: 2728d702-1234-45db-b5eb-cc8781f6193f
         D1: d7b7866c-ea69-4dea-9221-6e89b620037a
@@ -30991,6 +31431,8 @@ Corpus:
         F2_E52: 8935b1f3-1b4f-4625-ab84-3720198ff5b5
         F3: f76fbc4b-6b2e-4223-a78e-b72ffbae377c
         F5: fae8f05d-0f7a-490d-a4ac-987ab45b6908
+        F3_F30: 87725a81-387f-482a-b397-a76b861e492d
+        F3_E52: 7ca21c7b-f92c-4072-843f-388dd06a737c
       Facsimile:
         D2: 02663f8f-4f68-43dd-b3f6-a12c8ac77924
         D1: b12abfec-8aeb-46af-8483-c7c7a7229956
@@ -31104,6 +31546,8 @@ Corpus:
         F2_E52: 341db507-c4b2-4ad5-95e8-8a04812a83de
         F3: 263367b9-bb72-4bc6-b7db-38de6310b170
         F5: 5160f165-4891-47c0-aa0b-077f72e5c8b0
+        F3_F30: 20331f9e-b914-4f91-b8bc-e11df387d35b
+        F3_E52: f569052c-3ae4-48a6-a80a-abb54bce839c
       Facsimile:
         D2: 1c447985-c25c-4f02-8400-f53df9b12c3c
         D1: 0552b68e-bff3-4424-b4d9-f73efc3fb213
@@ -31247,6 +31691,8 @@ Corpus:
         F2_E52: 5e90260f-68b9-40bb-b1e8-6fb2a518cfde
         F3: 2cdac0e4-ec26-4e2c-bff4-31830357aeb5
         F5: 178dd907-62ae-4561-872e-e99ec79318e7
+        F3_F30: 7ab066c5-4708-43e0-a782-4047f1cc0ed6
+        F3_E52: 1c0a20b3-8f37-4fa7-bad5-d415f0226f69
       Facsimile:
         D2: 2e8a2ac8-0240-42f2-9c82-b1868ef637ca
         D1: 10e9cac3-a2f9-42d8-b381-6799343aed1f
@@ -31390,6 +31836,8 @@ Corpus:
         F2_E52: 4505dc40-024d-4ef3-8e1c-91b4567fd11f
         F3: 837c50d6-7c19-4cbe-9bbf-9a2f4d9aaf64
         F5: 0ec57aca-904d-4e6d-8361-4cb7b6ad852f
+        F3_F30: 1e75ac7f-fdea-420e-88c6-eada04249204
+        F3_E52: cdd9a06f-85b1-4f30-bc7d-895746a4a73a
       Facsimile:
         D2: c5be0fa8-8d69-4687-b2a4-ace699846836
         D1: 5b6c10b4-b35b-4b80-a672-7fff635f2d6e
@@ -31455,6 +31903,8 @@ Corpus:
         F2_E52: b34c3faf-5a72-4f9f-a0cd-a14a25c12149
         F3: 79f31b49-c5af-4d19-a560-13c5c5e94804
         F5: 7fb611ec-5833-4d86-8a82-ce22188705be
+        F3_F30: 0c29af16-f60a-4f4a-a5aa-ccf3191fbf8d
+        F3_E52: f12d63f0-4f9d-4fc4-9e59-bc01050d689d
       Facsimile:
         D2: 7df589a4-dc80-4086-9ce8-4baac58cca81
         D1: f3a092b4-2737-4574-b18a-6f696e03ab52
@@ -31562,6 +32012,8 @@ Corpus:
         F2_E52: 53c3df10-853c-45d6-b7b7-15f08b9df170
         F3: 06039072-87d2-4261-9de1-84b53c70a851
         F5: d91bc646-1bef-4366-a42b-d20e9282a2c8
+        F3_F30: 963c7919-952f-4e91-b75a-00d2c9a105ec
+        F3_E52: 70af25a1-e57b-49b7-8ec0-c7d5dd47a209
       Facsimile:
         D2: d3118db4-497c-4772-9738-fc14aaa5bb44
         D1: 1c64b449-71fe-470f-be4a-3685a138d36a
@@ -31585,6 +32037,8 @@ Corpus:
         F2_E52: a21056e0-f3cb-4b18-bb35-f5a3538edad9
         F3: a675cfc9-bde9-4d84-a360-5ff464881ac1
         F5: 93627c32-7b09-4a5e-ae51-9226f472578b
+        F3_F30: 7aa47c12-ca97-4f4e-b1e4-7d10f19dd45e
+        F3_E52: 7209297b-a4aa-4aa8-a802-36c8052267ad
       Facsimile:
         D2: 2b7a66d2-30c9-439c-a5ca-d3eb8dc5a264
         D1: 99cfc444-8ac7-496a-bb04-40c6b7655617
@@ -31680,6 +32134,8 @@ Corpus:
         F2_E52: 162969f3-1d54-4cfb-a548-d9129b8aaf4c
         F3: a59cd3da-6077-45b4-a7c5-938986bcd593
         F5: c1f98a1c-bde3-44c8-930c-f9818f239b2d
+        F3_F30: 4692e2dc-8c8a-4b67-80ff-bf7a20479e2e
+        F3_E52: a439c171-c8dd-472c-a8e3-6000d20d3e6a
       Facsimile:
         D2: ea003061-9650-4d1e-9f21-63a01e5528b9
         D1: fde754ce-f686-4dff-b110-87a0ae81c384
@@ -31823,6 +32279,8 @@ Corpus:
         F2_E52: 367c6140-ea9c-4638-9166-2f3defd42c88
         F3: c3a77bf0-8381-4720-97af-0e9066b8a52a
         F5: 6bdf0f91-f75d-44e8-a8df-591699c9719e
+        F3_F30: ec236734-ac46-47bd-9d43-bdbf4a836bcf
+        F3_E52: 7568375c-cc06-423a-aab4-b280da5f116d
       Facsimile:
         D2: 606e8a7f-1b0f-442c-81e1-7e5eeaa69dd0
         D1: d699cec4-8ecd-4935-a9b5-07493c964594
@@ -31918,6 +32376,8 @@ Corpus:
         F2_E52: da8a4400-db05-4db2-ba1e-c390d37e6bfc
         F3: 6bec56ce-6ca5-4186-a71c-8a80ab5af53e
         F5: 2309887d-8e80-4a97-9672-80cc8768579e
+        F3_F30: 2bcacf5c-4df3-4ccf-8673-5e1dc16b95ca
+        F3_E52: 793fbaab-0431-4c93-9561-3f5d5891b90e
       Facsimile:
         D2: 0adac228-defc-40a4-8bee-ac8faa3b6646
         D1: f1bd3feb-04b4-4b06-9f4e-c4256f187712
@@ -32073,6 +32533,8 @@ Corpus:
         F2_E52: 77e0a340-5135-4d50-bfb3-1c881a3846ed
         F3: c8dabbda-2978-46ae-83d8-16e22715c422
         F5: e7419e93-06ce-47c2-a5f1-726542fb2fb3
+        F3_F30: 5e428bee-e734-4734-801a-fea9e047b874
+        F3_E52: 5af1193d-bf9d-43bc-a989-292544ffa8e3
       Facsimile:
         D2: e5da0017-cf3d-4c8e-8aac-5b5418ba28b1
         D1: 82960add-e16f-432e-bbb8-641d96984e69
@@ -32180,6 +32642,8 @@ Corpus:
         F2_E52: 0284409c-e595-4845-8b16-922b9e7ca937
         F3: 8f3c1a0e-8f76-4ab3-a9cf-6e7fb42b50d7
         F5: 5a0dc5b2-7691-4c15-acab-270ed4bf987e
+        F3_F30: 51d7c3cb-914d-4d3a-b02a-9c5d5a68c9e7
+        F3_E52: cfc55a5f-dd4c-4220-ae3d-72e742030a93
       Facsimile:
         D2: f88f5f0a-22da-4d09-96e8-1da9da20813d
         D1: 0c02e634-c9c7-4bf0-b503-3950b0e9b9cb
@@ -32293,6 +32757,8 @@ Corpus:
         F2_E52: 6fd9347b-9f06-4ffa-9b3b-eb618cc796bf
         F3: 722f3447-22b3-47e7-91de-49a1209ff3e7
         F5: 0dd81d04-c913-45c8-b55b-97d72678415d
+        F3_F30: 9a354a4d-4615-4a7f-8d0c-ff822f257775
+        F3_E52: cad169e5-1423-4b6d-914d-0d014afd567d
       Facsimile:
         D2: d8b22ed5-c3d2-43ec-bf78-5af14a73d614
         D1: 1198796e-cc95-40a7-9ab2-7d4d55acf24d
@@ -32322,6 +32788,8 @@ Corpus:
         F2_E52: eb3f6c96-abd9-4e1b-8f2b-0324990046c2
         F3: c73fcfa0-2e98-4f72-8b36-de816c8fa950
         F5: ac0f5685-cde1-4819-ac8c-5c49ae98ca41
+        F3_F30: d4ff50c8-d213-4ed8-a986-71073ec9bbfe
+        F3_E52: d9a28d2f-96f3-4a33-870a-9c914208343b
       Facsimile:
         D2: 95de6e15-a372-496d-8d32-bc5abc2a7d91
         D1: e68bf7c4-5f66-490f-8973-df6d743f4c06
@@ -32429,6 +32897,8 @@ Corpus:
         F2_E52: 51d2ee6f-1b11-4df5-91e4-2d84bb76eef7
         F3: 97ef9f2a-dc64-4359-b4f3-b13764cb3622
         F5: 494af134-6da3-4d18-9dbe-e6a570ada0bb
+        F3_F30: 7817e1e6-669d-42e1-9580-e5c7a921f547
+        F3_E52: bde375e2-578e-4d89-9bbb-9ede4afc2847
       Facsimile:
         D2: 45a8d9c1-bb40-4680-8e72-d675ac5e1e5e
         D1: 2f69bfdf-711f-43c6-b927-b463b1f3c623
@@ -32482,6 +32952,8 @@ Corpus:
         F2_E52: 9e0f208e-2c12-44a0-81a1-494ab86cb0d3
         F3: 79e4dd75-c2d0-48d6-8fc1-0f5ae5ef0185
         F5: 41ff3962-dd80-4cef-a0a1-4677d05f85ed
+        F3_F30: 865eb9fb-0f7a-4597-9720-b2739250b95f
+        F3_E52: 0d78f5ca-17b4-421b-a157-94e712469744
       Facsimile:
         D2: f2b30e97-174a-4466-9201-c2db3cc1dc04
         D1: 5b736ebf-732b-479b-a362-4c7da1db697b
@@ -32589,6 +33061,8 @@ Corpus:
         F2_E52: 66924a85-d8d4-4308-8743-286c8afa5e91
         F3: 1bb77bdd-2755-4356-aea6-ec71128c3a6e
         F5: b4044d1d-4855-4655-8952-084ca1d9a2f4
+        F3_F30: 0b00a76e-e22e-4d31-a12c-9fa3c683fbd6
+        F3_E52: a68bf75b-6e44-4a4f-9910-9e5d33a5d56c
       Facsimile:
         D2: e4b8a4ab-2a75-49ab-aa23-f4d9a806f41c
         D1: 538ef2c3-3484-4d58-ac7f-da6468c09c46
@@ -32708,6 +33182,8 @@ Corpus:
         F2_E52: 4f76aa57-c6a2-4c73-93be-a012355e43ec
         F3: af7d774b-a0d9-4ef3-ba9d-6a14fef37bf6
         F5: 0593a0ba-2ff7-4b8b-bdf1-0fe1dad2e226
+        F3_F30: 0aef9654-c3f2-4de8-a67b-767da62076ef
+        F3_E52: 7ea15733-94cc-4fd4-991b-691f65f7d0c2
       Facsimile:
         D2: b3baad34-ea5c-48b5-b503-68118ced33d4
         D1: 872c50eb-7f18-4ca1-a071-b698131b03b5
@@ -32851,6 +33327,8 @@ Corpus:
         F2_E52: 416f33b1-98db-418a-b7a0-f92a92cc020e
         F3: ba24e57c-4eff-4ea5-93bf-ec63b2011493
         F5: 5fde0369-7fa8-41bc-a583-e3fde09a6885
+        F3_F30: 7f218cd1-0c32-4dbd-8142-c3b5eda8684a
+        F3_E52: 918909b9-7af7-4e8e-a582-2a60620b9136
       Facsimile:
         D2: 4389f23c-0c6e-4f16-9bda-c32400b656f2
         D1: e0644c30-35a5-4cc5-a4f7-cfbd911418be
@@ -32874,6 +33352,8 @@ Corpus:
         F2_E52: f7826a24-4d21-4c15-97f8-442a343ba74c
         F3: 014eb26a-4b6a-43ce-b350-7fb58cd02673
         F5: b20dce23-1d45-4c1c-8ab0-29313677c23e
+        F3_F30: 8a81b2c5-ac79-4cdd-9d60-d7a5415e342a
+        F3_E52: da76bbf6-fa82-4746-bef8-64e8414f8ed6
       Facsimile:
         D2: 125ef834-7607-474b-80f0-ae474271a7c7
         D1: 727cf27a-4dd9-4e2c-a0a7-0f583300c9ab
@@ -32981,6 +33461,8 @@ Corpus:
         F2_E52: b3c2b94b-fb8a-413f-8aed-40cdfebc960d
         F3: 57623174-8363-4b84-a6e9-9091f287d5e4
         F5: 17fb37c9-550a-4150-8db8-f5abc85d737f
+        F3_F30: d218ef54-f157-496f-bfc4-e556a4ade47f
+        F3_E52: 894b60ca-3464-47fe-b150-fdc444347f07
       Facsimile:
         D2: f18fed96-68da-4748-83d9-fa5f0342e261
         D1: 03f25dd9-5a80-4459-a7df-c12d7bcbc645
@@ -33016,6 +33498,8 @@ Corpus:
         F2_E52: 6324b5e2-bb91-4b95-b8b0-e4baca51a719
         F3: d44dd37f-61f9-4ac3-826d-4eb5c4a0b743
         F5: 56d60cbf-b887-4a01-a7f0-6287cb930f14
+        F3_F30: f23a450f-73ff-4526-b4c2-9251b0fecbbf
+        F3_E52: 4388fea2-e3f5-4226-88b7-f634a7e174df
       Facsimile:
         D2: 772f3f0e-b8b4-4132-b96f-fb965cdf1593
         D1: 52be8b48-2973-4c7a-bd87-29c958b7113b
@@ -33105,6 +33589,8 @@ Corpus:
         F2_E52: 8e11db23-e96a-4180-84a4-b12a820f90f8
         F3: 9392639b-1da2-46c7-ba9c-f19f94952c05
         F5: 0c13331c-8b52-4eb3-bf7e-aba8873cb389
+        F3_F30: 8c11568d-0a57-4b0a-af83-d1193f478a00
+        F3_E52: fc7946ae-2b52-4311-9620-c6c7f66aa540
       Facsimile:
         D2: 522afbd9-a75c-441e-85ea-755e0b026ecf
         D1: ffb293c3-0523-487f-b2fc-40d20b424458
@@ -33134,6 +33620,8 @@ Corpus:
         F2_E52: 7b0150fc-1872-4a72-b302-089c40d2f2d3
         F3: d3187b1a-d499-4e29-83b5-756f632d9f1b
         F5: 030a78c5-6969-4f7a-b2ec-1c3250fc3e34
+        F3_F30: 0af9b855-8db7-4210-ab49-dc82eca1c665
+        F3_E52: 022376f6-1952-41ae-bdc8-4c34d38fde11
       Facsimile:
         D2: 0c917dd0-e630-4621-960c-1ac578b40542
         D1: 24019e22-cf26-4d74-a37f-8abd38436a83
@@ -33229,6 +33717,8 @@ Corpus:
         F2_E52: 8ed906f5-f9c0-4df1-89ad-14335739de4a
         F3: bdb02243-a414-4fdf-8e49-771afb536b02
         F5: 0ca9ded6-5fd7-4895-ba99-71fabd073327
+        F3_F30: 031d315d-0099-40fd-b0f0-89aed6561296
+        F3_E52: f6a1a8b7-ec02-436e-91dc-82c48d977b39
       Facsimile:
         D2: 452bf950-f33d-41b1-b9b0-ee251fd515ee
         D1: 7939a721-ff28-4bed-b32b-11dacb864586
@@ -33324,6 +33814,8 @@ Corpus:
         F2_E52: 7e139790-c5c4-4f46-b33f-8efd95de446c
         F3: 5f637322-32bb-444a-83c9-d7a85aa22a2c
         F5: 4e4a3073-875a-40e7-9ed3-5a2b104efc70
+        F3_F30: c368efef-2891-4ee1-8d06-05df0290cabf
+        F3_E52: 755ad6ac-55a7-4e7b-a94e-3b61eeef3462
       Facsimile:
         D2: 04e90c8e-5fe2-4553-bb55-a56b7169e69a
         D1: c4b8818a-467d-4986-98bd-ec85efe3eec4
@@ -33353,6 +33845,8 @@ Corpus:
         F2_E52: 497e8b99-07c2-4c3d-bb31-cfd9279053ae
         F3: 96972e68-06ee-419f-b022-f0f878642eab
         F5: 6a597f80-fd3e-40a1-9d38-db2959b68a02
+        F3_F30: 171e9959-b3e6-43f1-963d-8ed315fd7e4e
+        F3_E52: 4ce0854c-2cc1-4efa-b14e-d7dc016e2272
       Facsimile:
         D2: b458a0b3-e149-44a6-af14-69b19e641d3d
         D1: 07e338c4-71b3-4deb-a748-4351e2818f2c
@@ -33472,6 +33966,8 @@ Corpus:
         F2_E52: a97ab55e-d53c-4ba9-bebc-d8dc9ef0b353
         F3: ce6cdb81-9d82-467f-8a08-838fbae24c16
         F5: ecce0e4e-9703-49dd-956a-342ffd43bf9c
+        F3_F30: 987f4081-3110-4876-b623-51c145a86a50
+        F3_E52: b27ebf03-02d2-4967-b2b6-c0ae3b806c10
       Facsimile:
         D2: 73c23f55-0340-4856-a92d-3cd2f1e425aa
         D1: ae597368-731c-48a5-ad98-8df3ef215e46
@@ -33501,6 +33997,8 @@ Corpus:
         F2_E52: 5b7f470a-38b1-4398-a299-53ccc07f073f
         F3: 42be6747-2256-441d-a611-228ffd36512a
         F5: 2f3a5ff7-83d9-4e72-b516-2dfe1519f206
+        F3_F30: d616b675-834c-4682-a3ed-d0ce8fde3320
+        F3_E52: 35fb7ab3-6cb3-4215-9b89-13295c8099e6
       Facsimile:
         D2: 6925ec94-3f96-453a-bc39-198437fbef2e
         D1: c59e04ff-5e6a-4cd0-8251-43aede931ef7
@@ -33626,6 +34124,8 @@ Corpus:
         F2_E52: ff1a741c-3a23-4561-8515-9f79b7299889
         F3: 54f2760d-087c-4c7c-aeb4-261f40ddc4d1
         F5: ca775226-d163-45e4-9bbc-b08f5d9e5a4c
+        F3_F30: 38447c7c-976a-407c-bc2f-a225b666119b
+        F3_E52: c13da148-06c3-4880-8150-6b57c89ee16e
       Facsimile:
         D2: 5a21e69e-ac31-4984-bcc7-b9aa1ff9578f
         D1: c4e3b028-c363-4bae-a40f-3a204a3bc53d
@@ -33697,6 +34197,8 @@ Corpus:
         F2_E52: 862f52a4-2983-46d9-a408-92b945c72928
         F3: 5e5c1be4-8f8c-48c6-a0cc-ef2be1a63bcd
         F5: 09b99510-e024-49a7-956e-ef64215065d5
+        F3_F30: b1f3d278-50b2-4405-8d7d-73bb587aa12d
+        F3_E52: 974290c7-4273-4c1a-925f-6848acd1389c
       Facsimile:
         D2: 0d3d37ba-8dc8-47f0-8d90-d6ced20fde21
         D1: 4b74c1bf-f933-4867-b628-4ef3bb4ebac8
@@ -33744,6 +34246,8 @@ Corpus:
         F2_E52: d05a575a-4ffa-404a-aa81-8e59e6183a6e
         F3: 211b5904-87ee-4af8-b57e-d03576ccf913
         F5: 3820dc7b-0c73-4586-b7f7-210695febed5
+        F3_F30: d3e46d1a-4fc2-41c7-81b4-b95c295b838c
+        F3_E52: c1f3364c-4131-4ef2-be9b-191e6c57f6c4
       Facsimile:
         D2: 14a15fe2-1244-48cb-8596-0b075181e2d7
         D1: 8c03d9a5-4748-41fc-91c6-aef3a6445054
@@ -33863,6 +34367,8 @@ Corpus:
         F2_E52: b531f38d-641e-41f8-ae71-f29f652877c3
         F3: feb0b985-9e63-4568-92de-57431fb0fced
         F5: 09e64b03-d24e-4000-a0ce-6431002079f5
+        F3_F30: b06ec907-10f1-4340-a569-fb03cdc1fa7d
+        F3_E52: f5f1d852-b999-4325-a5a6-57b96cae5dba
       Facsimile:
         D2: cb085b27-f8c4-4da0-a7fa-a1b986c6dada
         D1: 80b480be-c9ef-460b-9fe1-224feda3ce01
@@ -33970,6 +34476,8 @@ Corpus:
         F2_E52: e03b86eb-6fdd-4d19-b39a-dea10e19fc79
         F3: a19d6302-9aae-4571-ac46-85e2eca9b467
         F5: 7fd8fa5f-adf5-4698-8054-cb702566f64c
+        F3_F30: 1143eef8-383d-4a89-9204-e92e16456b68
+        F3_E52: be7696c6-2069-4cc1-a2f2-a832bddd04d6
       Facsimile:
         D2: d4fa2e86-ca72-4d50-9f2a-d6d3727feb77
         D1: 0fbfd4d1-524c-4486-94f2-710d93a160be
@@ -34059,6 +34567,8 @@ Corpus:
         F2_E52: 53fab9b3-1ce2-4c9c-aa8f-b5090fd6beaa
         F3: 957f9d23-8e4e-4fa9-bc2d-56f5f48cafd6
         F5: 24bfe00e-0efd-44d6-9194-4cdca5fe7d57
+        F3_F30: 381c5585-8f32-4033-b7ca-726537e5011b
+        F3_E52: 410fa4e2-efac-47fb-ba01-8ca164409a14
       Facsimile:
         D2: 338d80b5-ae4f-4a79-85ff-65b4fa3a812a
         D1: f0f9e88e-525a-4be5-92f8-27eed0f9a98e
@@ -34166,6 +34676,8 @@ Corpus:
         F2_E52: 1753b162-ab90-422f-b3d8-34919b97a706
         F3: 18d5835b-9e8e-43da-9ee7-b78e9a47e42d
         F5: 595bf008-4f5c-4057-8c11-383f239ae050
+        F3_F30: 69ad4c29-ce80-48b4-9988-c3bde54e59ff
+        F3_E52: 8acabd64-604c-4463-aa86-5a7daea25d6f
       Facsimile:
         D2: 06cfde7e-8199-4cc7-8503-325a54bbb177
         D1: ebb88f9f-a4e8-4494-91df-b789f03b5e75
@@ -34237,6 +34749,8 @@ Corpus:
         F2_E52: bf476516-9ec2-4f20-8a89-45a4d7ea76d7
         F3: c3fdda5b-dc30-497a-bd35-8ad5591c3b9e
         F5: 0143dbd0-1438-409c-9f2b-627b235be940
+        F3_F30: 98557ff7-1d35-4478-80f3-797715397a5e
+        F3_E52: 7feab512-5c9a-4e59-9f85-a7c83b1c5a9b
       Facsimile:
         D2: 374e0e9a-1c5e-4782-919e-2b6f24931e16
         D1: af3004ad-b64a-41d6-90ca-93137a1e8f0b
@@ -34338,6 +34852,8 @@ Corpus:
         F2_E52: 023257cc-0edd-47f0-998b-d076af455d03
         F3: a6307e92-59a9-437a-9996-c00e08999306
         F5: d2dab47f-17f7-4643-8068-7412e33d2488
+        F3_F30: 70b062f4-7d5d-4f7a-8c8b-c491655837fb
+        F3_E52: 8bbfbdc5-dde5-4f21-8e8c-8722ea64c940
       Facsimile:
         D2: f707a485-5473-4680-90d5-590d4c234f8e
         D1: 818faedc-d8a0-4d71-b01e-7f816d60e00d
@@ -34481,6 +34997,8 @@ Corpus:
         F2_E52: 02f816f4-9653-4f94-ba0d-c29c91761db9
         F3: 0b45fa09-7326-4d16-82d0-7a91e36357ab
         F5: b7da6a88-174e-448f-b137-f11e69f6430c
+        F3_F30: adc8e7f1-5908-407c-af22-e589f0371541
+        F3_E52: 20614cbb-661a-4573-abbf-45ba6d0df843
       Facsimile:
         D2: 28dc877d-ed9e-4915-9b16-ea13e2be9931
         D1: a9db25f8-b9fd-47c6-a7a3-d0fa16eca897
@@ -34570,6 +35088,8 @@ Corpus:
         F2_E52: 3f06a944-4f88-4409-b291-8ad7dcc83762
         F3: 8121bbfc-9702-47ae-b057-5cc3e74f2864
         F5: 6160760d-23c0-4fbc-ab7d-f4da7f6709f1
+        F3_F30: 945d6ef4-e217-41d2-9743-6bbb10be9741
+        F3_E52: c16f0cc3-5ec4-4be7-a00c-d1db02bbaae4
       Facsimile:
         D2: 5ca35701-ebf7-4563-b893-7644dd0bae55
         D1: 754c7426-0b8b-4a80-9abd-bb982b4d7c3d
@@ -34653,6 +35173,8 @@ Corpus:
         F2_E52: 5074eec2-c524-481e-98ab-872cd2ea9193
         F3: eec6defc-5803-44fa-a05f-e155eda0ef09
         F5: f7a20a15-bd34-4514-8ed3-353c7a8960f4
+        F3_F30: 4a06114d-10c3-48bd-ac30-f50a3aee646e
+        F3_E52: dabe9ee2-305c-4abf-9087-078c9d9d78aa
       Facsimile:
         D2: 4a544385-b355-48f9-9cee-fdbc92df2a6a
         D1: 6768fb05-e70b-4068-bca8-fda9e75cf058
@@ -34760,6 +35282,8 @@ Corpus:
         F2_E52: 0f928295-cb3a-4b3d-889b-99821c7f7662
         F3: e2296824-4ea5-46c8-8929-5cdb21f634bf
         F5: c1f3bf84-0cab-407c-bf62-f128dd50d09d
+        F3_F30: 37bfe3b2-98f9-4230-acfd-97146a6c7362
+        F3_E52: fea3d7c6-2ef6-412f-b5e1-e616bd3ef8f5
       Facsimile:
         D2: 49e23703-9494-48c5-b3a9-d915d1afdcd2
         D1: 517e83ef-d07b-4e9e-af5a-93c998d76b2a
@@ -34855,6 +35379,8 @@ Corpus:
         F2_E52: 2b443a8e-f17b-46f9-bbf1-7c3e07e62b87
         F3: af17e01a-0381-45b2-935f-efe97e804501
         F5: c7af4c69-1b24-44b0-89fd-dd23d6db1c58
+        F3_F30: 9f00023d-e595-4c47-a976-ffe17e393464
+        F3_E52: f815cb77-68a1-44fd-b52d-7dbd90aead25
       Facsimile:
         D2: b7f3e340-1f2b-4356-9748-639e6bbe6810
         D1: 98da4675-db7b-426c-a415-0bade07378ee
@@ -34980,6 +35506,8 @@ Corpus:
         F2_E52: cf5e2333-3305-464b-9da1-95b3954370e3
         F3: 6fab1c7b-7d4a-4746-97aa-2df9c5200131
         F5: 883eb65f-c427-4958-83ec-6507c99d3326
+        F3_F30: d3bb657b-5c9a-48dc-ab0d-0562630b821d
+        F3_E52: 9793cf18-3fb8-4868-86a7-10a23f9964ae
       Facsimile:
         D2: 328cf548-fc70-4566-997e-8d5465889612
         D1: 888df267-b54a-42a5-b550-9050c22a14e9
@@ -35003,6 +35531,8 @@ Corpus:
         F2_E52: 3a4b7671-31be-45aa-b884-17ff47e9198a
         F3: 21cdd32c-03ec-46b9-8cff-7c291399e10d
         F5: 5eb42b81-fa49-422b-b668-949f715aec77
+        F3_F30: a97f7127-1d4e-4b57-912c-8958997bd5bf
+        F3_E52: 3bcd4c14-da70-4892-b533-58e700f12056
       Facsimile:
         D2: 3cfcad84-4c49-41a4-bfdd-63d24e7d2343
         D1: 0dc966d4-e656-4428-ad1d-b58d45725e4b
@@ -35122,6 +35652,8 @@ Corpus:
         F2_E52: c33ad583-c4ff-4c72-a8f3-8be27e2a0e5d
         F3: 2f5b0ec4-3cf2-431c-992e-049b8ef0e409
         F5: 9d9ffabe-9bb8-4680-aee5-3ee1644a8862
+        F3_F30: 6b66530f-e1fc-43c5-b70b-411c51113cdf
+        F3_E52: 500654b1-fdab-4246-812b-ab106d15b221
       Facsimile:
         D2: 2dcbbbb8-bb60-4ada-b6c5-8765043a1cd4
         D1: 114c08bf-f091-4e8e-935c-99cefceaa86b
@@ -35277,6 +35809,8 @@ Corpus:
         F2_E52: dbbe1d4c-d4e2-46e9-afcb-8f2414fdf59b
         F3: d36a690f-ec0a-490a-aa6e-6ed807b5cbff
         F5: 7fe3002d-0073-4191-ac22-315b86c4d026
+        F3_F30: 92803e99-9911-4915-a7e2-539247be9038
+        F3_E52: 7373b5ef-3205-4784-bc23-56977908ba27
       Facsimile:
         D2: 9dbb3b77-d9df-487a-9294-2f5b62d856db
         D1: 87d751bf-3dff-44e3-8d5f-c394b4103bb6
@@ -35408,6 +35942,8 @@ Corpus:
         F2_E52: 850894d2-98a3-4534-a87e-2ffa29c28351
         F3: fdfc504c-fb34-4ee9-aad8-f49d46f762b4
         F5: bd7ae635-f5e9-4658-aeaa-50963f9203cf
+        F3_F30: fcad487b-b76c-43fd-87b4-4478c0e85d0f
+        F3_E52: 589f1d6e-dc08-4a7d-a4d0-2e58659a0f89
       Facsimile:
         D2: 04dcef9b-3be6-4fca-8e1a-80bc1b8c9817
         D1: eb17d5d9-9641-42ec-aaab-fb02781dcec7
@@ -35521,6 +36057,8 @@ Corpus:
         F2_E52: 37749f66-6cff-4f7d-a705-f39989e47d7c
         F3: b8531bf5-c4e4-48b6-90e7-be7696aac7ea
         F5: a655700b-758d-4932-abc9-c42e5ff335a7
+        F3_F30: 679ce59c-90ef-44c4-a3a1-c8bb265d2093
+        F3_E52: 504e5c0b-a580-467e-829b-6db54ebb9947
       Facsimile:
         D2: ddad6bee-0b06-43ce-81ec-6ddf20f27ffd
         D1: 433d6a08-9907-4c0f-844b-263342674ef5
@@ -35616,6 +36154,8 @@ Corpus:
         F2_E52: 803c769f-bcf2-4c19-8bbc-b50bf5eb00fe
         F3: 56ea0f5a-7278-495b-9120-2ac6195c2d13
         F5: 5677d1d1-1896-4eea-8752-ec41761f5c51
+        F3_F30: f1e1036e-fe59-41fa-a3ce-bacd9d247c48
+        F3_E52: 6eb0830f-6dbb-4ed9-a1e1-7243bafe8d67
       Facsimile:
         D2: fa7b1446-70ce-48dd-81b1-d8e990b6122a
         D1: 1c02df35-cee7-4079-a7b2-553ad1534390
@@ -35729,6 +36269,8 @@ Corpus:
         F2_E52: c48247dc-2062-40b0-a16e-a46eeb9a4c39
         F3: 1005389d-2f86-4784-8b64-85e089691713
         F5: 92fae55f-6b51-4ba7-a5b1-b50910481dad
+        F3_F30: efad81e3-6c4a-4cd8-b80e-5569a1df5b28
+        F3_E52: 6c6fee85-2b22-4c47-8570-d38df2f73e1d
       Facsimile:
         D2: 0031a51a-1b28-4adc-b193-1f432132a774
         D1: 9ff64d8d-93c2-4633-9361-db2391fd505d
@@ -35830,6 +36372,8 @@ Corpus:
         F2_E52: d3bea89f-1561-4663-acd0-0d44d23609a3
         F3: 99a0f0e2-ceae-4f71-b105-de44d326548a
         F5: da7aeb9d-43e2-40d2-ba52-f6a3c7a17c25
+        F3_F30: e98405fb-171e-4013-aa9c-eca37ded5e71
+        F3_E52: 8050a92e-01eb-4597-9ea6-5c3611ec4dbb
       Facsimile:
         D2: bb11bfa6-8c84-49c6-80e5-c57c01de4fd7
         D1: 7eef5a2f-71c5-46d8-b775-84c0c8cb6797
@@ -35991,6 +36535,8 @@ Corpus:
         F2_E52: 93295ee7-def5-420a-8be4-8e61b540ae6b
         F3: 12ddaf09-db6e-4e69-904b-5a9997b13c6c
         F5: 74496316-c8ab-4f6b-be49-f3754e2a54ff
+        F3_F30: a3f9f4b7-0cf0-4f8d-be81-589923fe14ae
+        F3_E52: eab1ec9d-1621-41b9-86c1-3d8033ba3763
       Facsimile:
         D2: f0bd8f85-2a50-426c-acc0-41698d7a9643
         D1: b2ae7ffe-4301-49d6-9cdf-11817525ecf0
@@ -36110,6 +36656,8 @@ Corpus:
         F2_E52: 5b2264eb-2a1f-4c95-bef5-f266d4516991
         F3: 369cd8c7-b586-4073-ad1b-23ebea0368fc
         F5: c921d800-636b-432c-85e7-d9f5075f0b5e
+        F3_F30: cda85f56-46cd-457f-818e-81033de02486
+        F3_E52: a0aeaea5-ef1e-49a1-9998-c212c7a0cec1
       Facsimile:
         D2: 9f8051a6-9845-46de-828d-7d8578c96d47
         D1: 23146346-94d6-4610-96dc-73124bdd3d1b
@@ -36247,6 +36795,8 @@ Corpus:
         F2_E52: 2f762e94-6380-4cc1-bded-63223b8007a2
         F3: 2a564125-f4b1-45da-af33-dc7477e3dc39
         F5: fea936c5-99d1-442b-8682-b2ccf2a21916
+        F3_F30: 2f0c3303-3713-40b1-b712-3993ad58d111
+        F3_E52: 9aa23201-ce29-48c9-85c3-ff3b9a9b4e7d
       Facsimile:
         D2: 0fbc4cb7-9b42-4d51-9ba2-24689103ea8b
         D1: 7d89add2-acf3-4c4e-8c1f-8a38c0be3675
@@ -36372,6 +36922,8 @@ Corpus:
         F2_E52: 1446a740-1f4c-4a39-a1a1-22ef9b77700c
         F3: fba55080-c454-40a9-9e32-f20ba37a828c
         F5: 941bb80b-b636-4858-bac2-2f69be761b59
+        F3_F30: a6317933-00e6-4bde-9c83-3cb4cec04f2c
+        F3_E52: d48844d5-900a-418e-872d-226ffa3fe33a
       Facsimile:
         D2: 4dc61bb7-b600-41f2-b897-8520f380c636
         D1: e913be59-e708-4009-a9aa-a427f1a93626
@@ -36443,6 +36995,8 @@ Corpus:
         F2_E52: f6569227-7025-4ed3-a3a9-90ba29449fd9
         F3: 9b2c8d3f-7897-483c-a2c1-14c554a2add1
         F5: 7cdd7c42-c6af-4ec1-b2c6-4ee275ff7166
+        F3_F30: e6fd3740-94f4-4f75-b9ca-8d57783ae692
+        F3_E52: c13ce925-b21a-45f1-a948-fdb60475bc8f
       Facsimile:
         D2: 6100e2bb-82f4-46ba-b504-9a643c8afea6
         D1: f7efea35-73b8-460a-8878-b4494c4e50c9
@@ -36538,6 +37092,8 @@ Corpus:
         F2_E52: f0837a24-1358-4996-8484-8b7aad52a331
         F3: 104603c5-1c1c-4510-a373-dcdce0e3cb4e
         F5: e0be3d7e-da5f-452e-8d6e-ecb619fc23ee
+        F3_F30: 6e95fcc0-058c-4c8f-b853-e49fc3b6bac4
+        F3_E52: 9553bb24-3b9d-4a0c-8836-e507469418be
       Facsimile:
         D2: e45aa888-7c09-4457-908d-fb8ad716f2b5
         D1: 1e03c008-0058-4cf6-994c-9e3cbde29c9c
@@ -36657,6 +37213,8 @@ Corpus:
         F2_E52: b0714794-6284-4967-a0d1-19fe23188b06
         F3: 777d877f-d67c-425d-9c80-fb4676543c15
         F5: 262940f7-9d59-4af5-99f8-fa6711344544
+        F3_F30: af1ed971-5046-41e1-8d20-650e7587043f
+        F3_E52: 82145b56-dd3c-43db-9314-7ea3935fdd20
       Facsimile:
         D2: a6869191-600d-448e-a013-bb2b9234fe09
         D1: 67d5ef49-597b-425a-9070-8bf6897c2204
@@ -36746,6 +37304,8 @@ Corpus:
         F2_E52: d71759d3-0c1a-4634-a5bd-c12a5d8c2560
         F3: e10b8ecc-c6c1-4d26-9e16-2d6fcec6c79f
         F5: ad94d676-67e3-4200-8771-9132c003709c
+        F3_F30: 82532853-107f-4020-86f6-139eb8720d79
+        F3_E52: 43cb0030-3839-43df-b777-020217238625
       Facsimile:
         D2: f7732efe-de15-4222-93a5-db2513d10ec1
         D1: 808d50c5-29dc-4d20-9d0b-8457a4aa38ab
@@ -36847,6 +37407,8 @@ Corpus:
         F2_E52: ea35053a-754e-49a4-a3e1-cbea1ef85319
         F3: c2685902-558e-4cfd-9f1f-e0d80953876e
         F5: 736fb400-2552-4c15-85e6-4d85cfe7ae11
+        F3_F30: e9a5a428-89cd-438b-b59d-66dd9eb51321
+        F3_E52: b9833c5d-84ba-4e7a-bd8f-d48666d8924d
       Facsimile:
         D2: b41328af-c439-49c1-9e7e-a7f637c8deab
         D1: 12355627-ea45-4ea8-bc81-cfdfc59cb3fb
@@ -36942,6 +37504,8 @@ Corpus:
         F2_E52: 4257ea76-30a2-4315-9cdc-b61e30899f4b
         F3: b1a91c8a-735e-46ef-a405-d1769947cc8f
         F5: c076e087-4bf2-4691-976c-225c9fcb6670
+        F3_F30: a9b77d4a-4321-4a93-8997-2e1694aae831
+        F3_E52: d295d30d-b898-48df-9b50-564a7ed8bed1
       Facsimile:
         D2: dd455201-ffb2-4644-bb1f-99652593e622
         D1: c6a15167-f20a-426c-a7bc-b68a497a3f14
@@ -37043,6 +37607,8 @@ Corpus:
         F2_E52: a6b52a1e-66fa-4e93-9c60-cd3c3f152e19
         F3: b8f321b4-fa2c-4ceb-9f03-b409a916d0e1
         F5: a264d3e9-9567-41a1-9a73-3e58e097a7b8
+        F3_F30: e96fe3eb-39fc-4056-b46b-d70d720abd17
+        F3_E52: f2bbe315-b084-4643-8ce0-d3c5e3c32b46
       Facsimile:
         D2: 2ffa616a-a728-41e5-ba8b-6900ce2ac701
         D1: 41d9b8ca-4e56-48cb-94ab-b471bb531262
@@ -37072,6 +37638,8 @@ Corpus:
         F2_E52: 58073505-222a-4efc-8264-16048ff000f5
         F3: f367f68b-a24e-466b-99a5-ffcf87f008d9
         F5: 0c360578-df8d-439f-a243-8abed55b1dd5
+        F3_F30: 6d400f0c-1f97-452a-a936-5113921f4c1d
+        F3_E52: a1904f47-247c-4852-9432-186382b5f816
       Facsimile:
         D2: aad9cdef-95e9-4574-b6dc-a66dd0b4de4c
         D1: 57e9f569-4406-448b-8d3d-932c1fb4f1d2
@@ -37203,6 +37771,8 @@ Corpus:
         F2_E52: 79ebfb87-dff8-4764-9f8c-af2c12603ed1
         F3: 76551d28-d5f0-47d3-b11f-2e18c405a6fb
         F5: 71015fb9-fb4e-4e0a-b0b6-456c5580068c
+        F3_F30: 7c103578-1675-4a1d-8ed7-7aff74df0c01
+        F3_E52: 1254acd9-d056-4171-a524-c0d4edda8382
       Facsimile:
         D2: d6f0a6e1-719c-4307-aa21-aab0175491d1
         D1: fa266be0-403b-484d-b6ce-7f2ab9b475ac
@@ -37292,6 +37862,8 @@ Corpus:
         F2_E52: d0884618-b4fa-4b07-9daa-8f92671d6b06
         F3: 87775080-3a59-4e13-b016-d49bdaeaedbf
         F5: ecbe25bb-31e8-4818-851e-b6a027f328ce
+        F3_F30: 7bfd1867-33cf-4c1d-8736-192a402aad66
+        F3_E52: 8f41b44d-ad8e-41fd-97bf-169cb9f50091
       Facsimile:
         D2: 6cb89b4a-d087-4d00-86f7-1c7930044e0e
         D1: bb3fa253-cfd1-4028-828f-8ead2588893f
@@ -37375,6 +37947,8 @@ Corpus:
         F2_E52: 917277ac-6516-44c7-b4ea-42f9ad6e3aa3
         F3: bb93bdd7-68be-48dc-b291-df3771c01752
         F5: cc1e05ef-0d59-42b2-ab59-eb96220eb0a1
+        F3_F30: 275eb29d-15f5-41a3-8abc-33c4c795c340
+        F3_E52: 62c63531-7a13-4642-823a-87a35328044b
       Facsimile:
         D2: 9a183a15-e214-4074-9e95-99427da62c86
         D1: d8f5dbfb-d4d7-4d75-938a-02b697ac0125
@@ -37434,6 +38008,8 @@ Corpus:
         F2_E52: b31199e5-ff8e-4bb0-a187-af80dd34049d
         F3: efa7cf27-1b8b-433e-8d8f-361afe45733c
         F5: 98ed3ff6-5a36-4e78-b7e9-edb974616c09
+        F3_F30: 4794ee41-6cb6-4f88-91e4-1d0016ec5658
+        F3_E52: d92fb28c-c995-4a93-8ae4-f01a256f338f
       Facsimile:
         D2: 21a458b0-ec2a-421d-98e8-90f8ea44ecb1
         D1: e922a4bb-b3b0-4537-a730-116c77905e0c
@@ -37511,6 +38087,8 @@ Corpus:
         F2_E52: ab0d2f43-5638-407c-a4b5-1db3cdf8637e
         F3: 7b748f6e-c744-4aaa-a74f-0a2e89b4ea8b
         F5: b4e086f6-3aec-4e2b-a2f6-c65bab59921f
+        F3_F30: ade473f0-1621-4d45-a1db-449a62fc1ae1
+        F3_E52: e1559ccf-a330-4b4c-b72c-5635983b4a38
       Facsimile:
         D2: 68922138-4a42-46d3-b415-5810b3ede689
         D1: 8503823c-c848-4d77-b41e-18cba960a03a
@@ -37630,6 +38208,8 @@ Corpus:
         F2_E52: ec347ff5-6f55-412a-96ba-3ce7bc30df62
         F3: 97af1c5b-30c9-41c7-83bd-3c5d4bd79270
         F5: c20a2620-7934-453b-93bd-0ab673a0d111
+        F3_F30: b08a7620-db0d-40cb-93c6-49b9b2e8f4e5
+        F3_E52: 2c96bb9f-5d3b-4310-a58f-73d0539d6d9d
       Facsimile:
         D2: 00d962ed-5d28-4532-b117-21ed45209b2d
         D1: 8f88f124-e1f1-4a1d-8a33-19b12096aa2f
@@ -37707,6 +38287,8 @@ Corpus:
         F2_E52: 3e4058b7-0c42-40ab-9a53-fb1a0e5a9280
         F3: 255d8429-e771-42a5-9e13-331a1a6fc61e
         F5: 5439f316-1588-4174-8885-216f82ed6239
+        F3_F30: 069c664b-b9ae-4360-b049-21ef92033654
+        F3_E52: 7cacebf3-b93f-4bdd-b0db-37a7203271a4
       Facsimile:
         D2: 68f44299-6a1c-4a3c-adf4-eef4e94f590d
         D1: 68e5364e-fe1a-410f-8142-0790f392e2cb
@@ -37784,6 +38366,8 @@ Corpus:
         F2_E52: 4a094097-8da7-4351-826e-2680da8da342
         F3: 1bcb7ee6-ca64-4aaf-b0be-e5be116c8f8b
         F5: af39746d-6d1b-4e87-9787-0c1985149107
+        F3_F30: bbbf06fb-bc33-4e70-acbf-5a639c7a1583
+        F3_E52: a1ad5c6f-f3cb-4283-bf92-cfc0c4bf4ab0
       Facsimile:
         D2: 1ff3a897-a79d-4e68-90ee-b86ea87f8b67
         D1: fb228a5d-69e2-4676-8d4c-9260d26c9fcd
@@ -37909,6 +38493,8 @@ Corpus:
         F2_E52: 191cc32b-97b9-408a-8553-f921b1fe0de9
         F3: 72bd63da-5d1d-4d42-aab5-63dfa4ed0126
         F5: 30565beb-2740-4c56-ab1b-ead6e3b0c629
+        F3_F30: bfdeab3b-5863-42ca-8992-dfaa96f29a6f
+        F3_E52: 33e09855-083c-4c64-9119-ab1976e6121b
       Facsimile:
         D2: 45bab0d0-85f8-4a4f-9d9c-080c609802d1
         D1: 303e4022-d5f7-46db-8f40-f561ff1bc857
@@ -37968,6 +38554,8 @@ Corpus:
         F2_E52: ed4dfac2-2fef-4550-aae4-570a4856b5f2
         F3: 9f0ba426-1fdd-4e3f-97a6-55c023ab74f1
         F5: aa360bc7-72b1-4a70-9210-e4c2333a81fb
+        F3_F30: 31a7bad7-d971-4521-a87c-870a97aadfd3
+        F3_E52: 42d2f180-6e71-47ab-b15e-dd18fbcc6fdd
       Facsimile:
         D2: a49f367b-46e8-460a-ac4f-1c8026328b08
         D1: f5b102fc-4a2a-4c07-aae0-55483c083620
@@ -38099,6 +38687,8 @@ Corpus:
         F2_E52: 4ef99717-58de-4e2e-af00-3d1f9e433774
         F3: 9b15b0e4-3a94-4e42-ab1a-13b7c27d27c6
         F5: a505265c-c7b9-4952-86ee-c6bdc8c84f30
+        F3_F30: b74b8213-26d4-40fb-af45-1cd11976b2bd
+        F3_E52: 83aa46cb-12e3-4197-85d6-7d4b1866218f
       Facsimile:
         D2: 8a9a7830-2edc-4834-89a5-f968a7fb2b3a
         D1: 159ecb1f-1705-47ea-9d40-2791af186243
@@ -38212,6 +38802,8 @@ Corpus:
         F2_E52: a6df1a50-464a-43de-8d04-a71b35a4bea5
         F3: be6b5d07-76e1-46cf-a8de-bf38de67fb48
         F5: ed82b5ad-82aa-40db-89d6-2341e9858028
+        F3_F30: 7d4f2033-faa5-4223-8472-48fc6f290991
+        F3_E52: 3bccf57b-c700-4e57-9251-c86c33733788
       Facsimile:
         D2: 8290d2bb-2ab4-4c93-ae77-fadf4bc14a53
         D1: 834f1415-1aba-491a-b089-17dc6fe53f85
@@ -38277,6 +38869,8 @@ Corpus:
         F2_E52: 72882a52-8fed-4e40-ac86-9ec444983f11
         F3: a40ff12c-6981-4c1b-bba3-de7e03342f13
         F5: e91e2fdc-8eb9-47d7-89db-20b95a868016
+        F3_F30: 4cc92e75-5280-4326-908f-77f58fbc63a8
+        F3_E52: 15fabdcc-d653-4c92-a5df-dff95da33ad0
       Facsimile:
         D2: 2dc2ac3a-da43-45cd-9f65-a6b5039b117a
         D1: 7e7d9c68-c03b-48c7-9c29-2b6925782e87
@@ -38348,6 +38942,8 @@ Corpus:
         F2_E52: c5639c37-2853-472d-b819-b4758bce910e
         F3: b3a15d11-2185-4cd6-8d57-ce42704365d9
         F5: 6ab12cfd-3e2f-4988-a028-c525cbec7a6c
+        F3_F30: d61b198f-80e5-476a-9bbc-ed76cdb9e532
+        F3_E52: 9832f07c-862c-4987-bd75-c2f9ee212820
       Facsimile:
         D2: a97047ce-f1f6-4e1f-b8ab-7676a70857cc
         D1: 39085279-0af8-435b-8abe-e202ecf305c9
@@ -38497,6 +39093,8 @@ Corpus:
         F2_E52: 4c3f936b-ffa4-4a99-bab7-2ee67e5f56cf
         F3: f5028940-ad8d-4833-bcd6-108741b4c833
         F5: 73af6b5f-d9ee-4833-94f1-bd80343b11c0
+        F3_F30: ca3f1e73-bb33-410a-bbf5-a6129139a3aa
+        F3_E52: 59b2979d-5728-4c78-a0aa-392bb3e4b968
       Facsimile:
         D2: ac87c880-b39e-4b7d-8ed2-c2f800d2cef2
         D1: f6581b90-4e00-438e-845c-0672cd407dc5
@@ -38550,6 +39148,8 @@ Corpus:
         F2_E52: 68a4c65b-e0a0-4b8d-a77f-136f8014fb3d
         F3: b9864d47-a1d3-462e-a9f0-28e84d1da22b
         F5: a794b7ab-ec9e-4ab7-b51a-a785c3d966c7
+        F3_F30: 606ca6c8-a78d-4baf-afa9-f9c2d7ff51eb
+        F3_E52: fdc171a2-60ea-4cf5-a3fb-84ec760a6264
       Facsimile:
         D2: fa0193a9-bba6-4521-a072-033a1cb8251d
         D1: b29cf3ca-7378-4f94-96c4-2a286eb568d4
@@ -38609,6 +39209,8 @@ Corpus:
         F2_E52: f99c33d6-188f-4d6d-9cf1-70e2af473656
         F3: fce48dd7-d16d-4161-8e05-350f941e662c
         F5: 438b490b-21cd-48f9-8a63-8c1eacec4241
+        F3_F30: 48d2fffd-7eac-41fc-8cab-2899a67a6a24
+        F3_E52: dc715b59-d8ba-4b43-9621-5a671a135fb0
       Facsimile:
         D2: 2dc66f77-2fea-489d-85ce-2b45498084dc
         D1: 87b5100c-8728-4772-948a-f822afb1a9d7
@@ -38662,6 +39264,8 @@ Corpus:
         F2_E52: 471fe729-d2ba-4d19-a748-579ada045093
         F3: 60dfce57-fcb0-4010-8713-0deb8c4b8fa8
         F5: 0a685b9f-4314-4560-b876-4f80385f0caa
+        F3_F30: a3a542cf-f4d6-4232-93d6-81ff191acde8
+        F3_E52: 6dc614b4-116a-43c2-b2df-4a3570c04238
       Facsimile:
         D2: 4dcd73e3-e155-4b5d-8a42-f4b24f1b6cdc
         D1: c7dea21d-797e-40da-a759-90fca2ef18a9
@@ -38793,6 +39397,8 @@ Corpus:
         F2_E52: f326200a-c624-4c5f-af02-fec52fc12f88
         F3: 2b9bf56a-bf19-4604-9734-c5ac6ba97b24
         F5: 6a4e3a74-a587-4745-885f-d98967a9b7a6
+        F3_F30: bb853d37-7414-4ca4-b621-d35fdccbdb66
+        F3_E52: 8fef598a-cdd5-4708-ab04-7705ce9e1784
       Facsimile:
         D2: 9b7706da-ce9c-432d-8cd1-a87010af8149
         D1: 9aaf94e3-1e90-4da6-88f9-b9807e7d5545
@@ -38882,6 +39488,8 @@ Corpus:
         F2_E52: 64f2581b-6839-4a3a-a20a-d98899d3c23e
         F3: 7997f341-7995-4986-b5f3-29dcbbb086f7
         F5: 9d24ee59-fc06-462b-9380-d677f2b5ccce
+        F3_F30: e398d5b7-0d3f-400f-a5b6-5a66526cd634
+        F3_E52: 5c98b6a7-f98c-4581-add7-9799a1d6bfe0
       Facsimile:
         D2: a04a0807-2dda-4394-b528-57a3cfae63f3
         D1: 6edd6f13-a83b-4827-bcf4-a2a702bad5fd
@@ -38989,6 +39597,8 @@ Corpus:
         F2_E52: 30bdd7b8-a4bc-48ad-a6c7-48b6b677d1cb
         F3: 09ae1c73-47fa-4ee8-9cb0-520cab966dc7
         F5: 1cc9877d-3065-41dd-b185-29b1935aefe5
+        F3_F30: 621360b4-6ce5-43f0-bd79-a8ce6546614f
+        F3_E52: 2244f63f-996c-45b7-bf44-4ed6cbc8ec1b
       Facsimile:
         D2: 3b7db7e5-701a-4c8b-9368-39a2530cfe34
         D1: 35d8b2f2-13ab-427d-8aee-2394ed4b7958
@@ -39072,6 +39682,8 @@ Corpus:
         F2_E52: 96a2e40e-d5c5-4acc-b0b0-f6b595b9840c
         F3: b88cef56-1700-4d8a-8737-6de19e30ae85
         F5: dd71af0d-b6d4-4874-95a0-fcf7804f6873
+        F3_F30: 208dc305-0b3a-4ae1-8bb6-d81319cc0aec
+        F3_E52: b035968b-6174-462d-90d4-6709cd7b0a37
       Facsimile:
         D2: b55e7bd5-9e10-4d68-9cb9-487e3b74d47e
         D1: 5f0f9b1d-b98a-410c-bd02-eba5ead49bd3
@@ -39185,6 +39797,8 @@ Corpus:
         F2_E52: 2448706b-3708-4f4a-bab0-2f6650a94e48
         F3: 2ef7345a-dd2e-4609-988b-01b4039184e0
         F5: 908c4838-d0ed-4554-b9db-255baded626c
+        F3_F30: 61c76a10-78fa-4e4e-9be1-57219cd24431
+        F3_E52: 1486d826-f890-4497-b3e8-3079d60cedd4
       Facsimile:
         D2: 80621d1a-f6aa-4863-a31e-cd2a179fd8cc
         D1: e11334f5-4858-4f21-8b8f-e8c2a3aa26a4
@@ -39316,6 +39930,8 @@ Corpus:
         F2_E52: 8afe8a26-23a2-4541-93b5-bade8f9b8241
         F3: 6c2f7875-293c-4d06-8f12-33aba2f037af
         F5: c64c965e-aa02-4e14-ae8f-d73837f7707d
+        F3_F30: c096a474-99ff-4dd7-bda6-9d9099e46caf
+        F3_E52: 73bcabaf-1ff6-41a4-a4c9-cfaac6684a9c
       Facsimile:
         D2: 18752de2-8d57-4fc2-b872-30cb1a6621a8
         D1: c3e4155e-f895-4200-8106-9e5c07a53295
@@ -39441,6 +40057,8 @@ Corpus:
         F2_E52: 789f6aee-4933-48df-aff0-6b12ef8c6d95
         F3: 604bddea-e5a3-480b-a005-b3b85bbc2d26
         F5: 69695748-85e9-48b9-9fbb-7111c5424906
+        F3_F30: 8270e385-163b-49ac-9dad-f7b086953b99
+        F3_E52: 80caac8a-3242-4b16-bbda-6ff58ad10ed5
       Facsimile:
         D2: 71c3adac-1863-4d21-851e-16c4eebd0aad
         D1: 07183ea2-4ec4-4a3b-bfb0-90a3c769686f
@@ -39578,6 +40196,8 @@ Corpus:
         F2_E52: 9f672be3-aaaa-4c9c-8b82-b7b1c53d1a26
         F3: df400115-1fd4-44ee-b398-a9b1198f2962
         F5: 92b6e1ec-d144-4e5e-83db-f95d100a6a27
+        F3_F30: 7289309e-3b41-46e4-8571-ce8cec543ce1
+        F3_E52: 240aa061-7bc3-4e14-91ba-af04de6af7c5
       Facsimile:
         D2: 30a7b750-f39b-4b50-b83a-67fba9b47457
         D1: 19505378-f319-42cd-a046-d78c73ea5c3b
@@ -39691,6 +40311,8 @@ Corpus:
         F2_E52: 7a9d75f6-d410-44ce-b504-b8558484ffae
         F3: dbd0b213-71be-46f6-9dd6-ca11232d7405
         F5: b54fc776-4eba-41e1-9bcb-32d62ec91343
+        F3_F30: 3991b199-2e8c-460d-bb6f-e9823ee09696
+        F3_E52: eaec1924-ac42-4cdb-a60e-e0b480c2b732
       Facsimile:
         D2: f3b09a17-a7cc-40cc-b012-2f2e83e7e4ec
         D1: 57e0f395-d8f2-409d-bf3f-9e1f5e9ec05e
@@ -39786,6 +40408,8 @@ Corpus:
         F2_E52: ef77dfae-9fb5-4142-95e5-d4023f5fa9f8
         F3: c651deea-c259-4dc8-96d8-cf14e1e8f549
         F5: 6f9710b5-076a-4ea8-b5dc-3fadd0895326
+        F3_F30: 49291ff8-c71b-405c-b603-e4865f481497
+        F3_E52: fcf41890-cb71-4cd1-afe9-4867eb611cb3
       Facsimile:
         D2: 12c1ae98-4b3e-47ad-beb3-4b27b5ab9473
         D1: 73cf10d1-3862-47c2-8b8a-79ebfe230497
@@ -39875,6 +40499,8 @@ Corpus:
         F2_E52: 6a510336-7e26-46db-81d8-34a83c233194
         F3: 57be9eae-6c37-4bb9-9c1b-5e747d01b22a
         F5: a9476f54-6b75-470b-a3a5-f24f88343d15
+        F3_F30: 0dc0061b-66bc-41e8-9df5-c91fad8d964a
+        F3_E52: 792de1d2-2f09-4af8-b2ce-a31cce958853
       Facsimile:
         D2: 973b4de9-c631-45d7-bb3a-b2d70f64db33
         D1: 3e43ba56-2ce2-42e5-84d3-e88cc74a97ad
@@ -39940,6 +40566,8 @@ Corpus:
         F2_E52: 814e541f-907d-4f32-af9d-c603ed4790df
         F3: d778fcc4-bf92-4db8-a186-5d23cfc1dfdd
         F5: 98f205d4-37c9-4f70-9535-a21423f6b069
+        F3_F30: 122f6eef-b6bc-45c7-baa9-ee57ab458504
+        F3_E52: 20fa9775-6b87-4501-b63e-7f2c1f9d93db
       Facsimile:
         D2: e5f95b2c-a955-45a8-83fc-44e1bed85646
         D1: a4b6934e-6918-4703-a41a-abaf8ec54fad
@@ -40011,6 +40639,8 @@ Corpus:
         F2_E52: e2982e1e-a216-4682-af88-86197386991a
         F3: 2d38dfdd-2d48-4c44-a9cd-05d9066173cc
         F5: ddebf454-af3e-4afb-bba4-20f040d34762
+        F3_F30: 3a159fbf-448e-4328-b18e-13366298b61e
+        F3_E52: 25d16340-f27d-4554-a465-881567eba5fd
       Facsimile:
         D2: 56f57873-c4cf-43e4-a241-e992bcfc4488
         D1: 0a31a968-540b-49f4-ac04-3e42810d3f56
@@ -40076,6 +40706,8 @@ Corpus:
         F2_E52: b6ed3993-d41a-425d-b071-52161d5588d2
         F3: 21a4d786-fccf-4da7-9ca0-2cfa177f9c15
         F5: bd0b3f8e-7a84-4427-93e8-3915273380b9
+        F3_F30: e58961bd-47db-450f-974c-3c92714714a5
+        F3_E52: 51bfaddb-6883-437a-a6e9-97c1f4c1147f
       Facsimile:
         D2: 6f1eade2-8ebc-415e-844e-271d6ad70fbc
         D1: 0e86ad56-be7f-4bd4-9160-5f62ea33afb6
@@ -40153,6 +40785,8 @@ Corpus:
         F2_E52: 25be60eb-eef4-4c36-9307-02d6b81053d8
         F3: f30fe87f-f146-49bd-9f6e-3e6020615096
         F5: 6ebe700d-21b2-4d8e-95f2-8bd1496ab3bf
+        F3_F30: 877eb360-62ea-48e0-a003-f314529eaf19
+        F3_E52: 28081025-07a1-46d4-b545-3d169cfe1a57
       Facsimile:
         D2: 4671fc43-d984-4664-8d3e-16af1146efc3
         D1: 76616d53-a324-4c50-9fc7-fa6897b5c193
@@ -40248,6 +40882,8 @@ Corpus:
         F2_E52: 90f9d392-14ce-474f-9620-e2dfa13970e8
         F3: bed65062-18fd-4c61-aa09-234467afe493
         F5: 962c03d3-ea11-4f45-8a89-b840ab9e2271
+        F3_F30: 6d790d48-0961-414c-b382-4b9ec1e0a4c8
+        F3_E52: 880af426-7b0d-45a9-9646-7b2142e3d8a4
       Facsimile:
         D2: d6822b9f-722a-496f-973e-688ef9063b56
         D1: a31dc5b5-9e58-4e57-a19b-2cd7295a9243
@@ -40337,6 +40973,8 @@ Corpus:
         F2_E52: 5ba40746-25e2-4b81-96b7-74b696a6c111
         F3: b0cc5932-6746-45e2-85ce-cdd2f59e1654
         F5: e343497e-03b2-47cb-8e6a-1584a41427df
+        F3_F30: 61381157-fb95-49aa-9cb0-ef3f2cc86114
+        F3_E52: 622832fc-3ea8-4430-be0f-db2b8621bbdb
       Facsimile:
         D2: e3aa8622-e537-4c32-b32e-140aa6ae59eb
         D1: d8717702-287d-48a0-bfc5-c9782ef11165
@@ -40432,6 +41070,8 @@ Corpus:
         F2_E52: f53b0320-aaf1-4729-8cae-37382616a845
         F3: 708f5fb1-6507-4df6-96ff-3309c05b2804
         F5: de1ced4c-5e39-4660-9f5e-7714bc3d7b3a
+        F3_F30: 2164753e-c82b-4d77-9a37-becc3303e17e
+        F3_E52: 68fb5dfd-fff1-4383-81d0-26614087b563
       Facsimile:
         D2: e3d9a816-692d-43d6-8d55-5efa9df27dc6
         D1: 29f581dd-6fec-44c4-8b42-774acf626543
@@ -40497,6 +41137,8 @@ Corpus:
         F2_E52: ffb698be-78cc-4bbb-b3cc-62e9f0bf7add
         F3: 278732bc-5763-445a-a3b8-cff7e8d52407
         F5: 4f395398-79a1-4c04-b33d-48023bcbfc8b
+        F3_F30: 0f2a4f17-41a6-4016-914c-a78901f82e9c
+        F3_E52: 85675a27-eb38-498b-89c5-c8547b0c04c6
       Facsimile:
         D2: 87847184-20ac-45a1-8099-30db370378d6
         D1: aa5faa2c-a9c3-4b01-a380-53e7038142ec
@@ -40550,6 +41192,8 @@ Corpus:
         F2_E52: 4e116bcb-1242-496d-a3c4-918174103786
         F3: 4cd3bc10-3047-4c1f-bd90-1a8042582d55
         F5: 84cee079-195a-43fd-9b4a-27868f61eb53
+        F3_F30: 2a470b2b-4bf9-4d4d-abda-90448f2a0a86
+        F3_E52: a4328102-0873-4302-a705-fabad87ab8bd
       Facsimile:
         D2: 17d23360-fd17-46ce-ad41-7ff9071f43e8
         D1: f48e91b4-6021-4f8f-8fc4-ec98d35afa0e
@@ -40627,6 +41271,8 @@ Corpus:
         F2_E52: b5cbbb4d-f387-488b-b1f6-6feb2663da61
         F3: 4483495f-5eb7-4b47-8e2c-871d3cfc50cf
         F5: d251451e-1244-459d-b6f8-db0081a954d0
+        F3_F30: 40a9dd04-88df-4a56-8b70-a23dafadae56
+        F3_E52: 33001dd1-461f-44fd-8c05-bed0b73012d1
       Facsimile:
         D2: dc7c8310-adf2-41d1-a791-876847965683
         D1: 28f1820d-e302-4129-a629-a50371af1c3d
@@ -40686,6 +41332,8 @@ Corpus:
         F2_E52: 58409355-b95a-481a-af42-8937887ff076
         F3: be6ae9ae-6513-46f5-8e5c-57656574ed68
         F5: c0e5277d-ff76-46ed-aff9-ae1de31d3a38
+        F3_F30: 9249772c-9ea7-4d45-ab70-267fb454eb1e
+        F3_E52: bd83d3b1-b4fd-491d-bce8-221572c1f509
       Facsimile:
         D2: 98c8539b-1eea-4c01-84cb-df08e8ba5228
         D1: 8d39bdba-55da-4ef6-826b-67413d05fde1
@@ -40763,6 +41411,8 @@ Corpus:
         F2_E52: 4a5c5daf-8c6b-4d4c-8f6a-6e0b719cb4de
         F3: 48626f4c-ed47-42fe-bbdf-271657a84bf7
         F5: 910c3431-671f-4ba9-b3a1-fcf22e796096
+        F3_F30: 255a5b91-c1c0-44ed-a5fd-b96d280cb628
+        F3_E52: 52f077a7-94d2-4311-9ebe-e5c3f8d711c6
       Facsimile:
         D2: ad0f867c-bce9-4c2a-892e-02315787f272
         D1: bb5fb097-316a-4918-b677-61f55032dc93
@@ -40852,6 +41502,8 @@ Corpus:
         F2_E52: 4627c107-6319-4448-86e9-3ea407e44bc0
         F3: d13e9d4c-7339-4cdd-9bf2-1fc97e336260
         F5: bef3c09a-ccfe-4504-b819-c1feb391f25a
+        F3_F30: ebdcb5c4-7e29-4142-8429-96ec5473e9b4
+        F3_E52: ba631662-ca25-4e78-be63-bb0f7d78a900
       Facsimile:
         D2: c58a0e12-6d71-4614-9539-74d74c60f545
         D1: 73239b63-1c5f-4f31-9f13-e20bfe6424ef
@@ -40965,6 +41617,8 @@ Corpus:
         F2_E52: aea134db-f515-4ddc-a25f-5b04c9a1c66e
         F3: 736c9f81-9d59-4aab-9a4e-b453a8e9ab71
         F5: 1b4b82be-43e0-4241-afd8-49e6d35fb3e6
+        F3_F30: f6017294-5de8-4ca3-b1e0-bae626f49659
+        F3_E52: 5c9f5245-a7ed-4569-8a95-f05701b9dd95
       Facsimile:
         D2: 524240a6-eee1-4f7e-bb47-11d1743ff695
         D1: 856b0110-d1f5-40de-b5f7-8c9eeafd0baa
@@ -41072,6 +41726,8 @@ Corpus:
         F2_E52: f047cdaa-e0a6-48c3-bb91-bad2c2a526c2
         F3: daed6e0b-3d22-4f24-a507-2392acdd7fa9
         F5: 5ab3367e-fa58-41a4-80a2-92de9d4bb2b3
+        F3_F30: 424fd54f-5ff9-41bf-b0e8-955bff564b55
+        F3_E52: cb416405-9b35-4924-b51d-44f55d9d90a7
       Facsimile:
         D2: c61afa82-1711-4a98-bc56-50a0bae8fe41
         D1: 7d6bd0da-8215-4608-91ea-385b2d794805
@@ -41173,6 +41829,8 @@ Corpus:
         F2_E52: 24910317-7b5e-4164-bf0c-5790c258618d
         F3: cd8443b4-250a-4326-b8c2-e9b5ae1044bb
         F5: 0516c79b-bc48-4e12-aad2-b645bdc14e66
+        F3_F30: a2866dd9-85a6-4853-9ca5-71fc1ec8f6c1
+        F3_E52: 22b66ac8-0828-4066-b561-4c0ad5649d0b
       Facsimile:
         D2: 5e74b58b-666d-482e-b091-e082a180424a
         D1: 6c14c67c-a783-4298-be2e-70c684a43ce6
@@ -41226,6 +41884,8 @@ Corpus:
         F2_E52: ee41673b-df39-4f9c-93c0-9fbc3921e810
         F3: f68aa3c8-d8fe-498b-b06e-9ea5049b4f7d
         F5: b98342df-07ff-4932-9b92-049e8b7a8d8a
+        F3_F30: 47045ab4-208f-40f1-ab0d-47927b499fca
+        F3_E52: 5edbb1a4-8579-4820-a6e4-822596a01c1a
       Facsimile:
         D2: 6abacaa9-df14-46eb-98f6-b94704a1a253
         D1: 170e706b-f1fe-4d3f-8fb8-b1b686784e05
@@ -41285,6 +41945,8 @@ Corpus:
         F2_E52: 63b30257-2473-4d83-81ea-f0d478c2b645
         F3: 984df3fc-483f-4024-80b5-33a9104512af
         F5: 1433330c-e87b-4919-a157-c5666b0adc8b
+        F3_F30: 2492f759-5b05-4413-a222-425aa2c123d9
+        F3_E52: 6e79f5b4-dd82-4836-9a4b-915958ef2433
       Facsimile:
         D2: 1da82690-f437-4109-a78d-3b236320ab81
         D1: 879c1140-0abf-46a6-87fc-59a69b7aedee
@@ -41416,6 +42078,8 @@ Corpus:
         F2_E52: 2e25587a-c112-492c-b458-5e42c0f94c82
         F3: 9de01a99-a7c4-435f-af62-2080438ad5e3
         F5: 4467cd9b-5e6e-4f4f-ad45-58f710949877
+        F3_F30: 1b45127f-e45b-4d68-9b5e-06c720f98327
+        F3_E52: 631d3139-8dbd-4ddb-9f96-1209a914d285
       Facsimile:
         D2: 2c879d0d-ef56-46b8-9043-9e11980be76c
         D1: 8e83cc5c-6a19-4de8-914b-81b2ac649976
@@ -41499,6 +42163,8 @@ Corpus:
         F2_E52: 12193186-5658-44c3-8b0a-69558526985f
         F3: c7f90202-1909-43e8-acc6-ae1c9ff34ee1
         F5: c2ed36df-6e66-41a7-ae34-05054fc92b0f
+        F3_F30: a2b8ab5b-9632-4513-ba2e-5b6950d702d8
+        F3_E52: ac8c56c0-0b07-429f-9c62-f7a445729ff0
       Facsimile:
         D2: 3e137912-4d9b-48c1-b406-c55a0d55313c
         D1: f55a2f11-4113-49db-9162-5caae3fd7633
@@ -41612,6 +42278,8 @@ Corpus:
         F2_E52: 1f5b70dc-279d-4f7b-bd08-45fb846fd4b5
         F3: f5be85c8-0f0e-42a0-a7d0-3a87281ea9ab
         F5: 4f888b67-9ee2-43ae-9bcb-ac3adaeab3c7
+        F3_F30: 7d915bba-c6e8-489b-ad73-173ecbb9a6b9
+        F3_E52: 1df4093d-8178-4686-b317-7dd68bf6231e
       Facsimile:
         D2: de6cfb62-45d0-48c5-9ed1-fe65ca246698
         D1: 8f21135f-0e29-47ec-977c-5cabbf6ad6ed
@@ -41707,6 +42375,8 @@ Corpus:
         F2_E52: db0c9f29-1ad2-4d6a-9be3-d088998be215
         F3: 934413ae-6b4d-451c-8c21-7cefb3da81b9
         F5: 95bb3e7d-7a13-464f-9038-18cd63be7295
+        F3_F30: d54f4106-9d16-4747-bc1e-97bb5d0d6645
+        F3_E52: b3eb9414-5404-4f53-adb6-8f25cdc5771f
       Facsimile:
         D2: 79627b60-c470-4ae6-828b-93080508f702
         D1: c01a33d5-59ab-445f-a08b-8a98968553ed
@@ -41760,6 +42430,8 @@ Corpus:
         F2_E52: f636363e-3d2f-489c-a231-02c4c44cc3df
         F3: 67fbeed9-ca33-4b95-b6ad-dd087458dbad
         F5: fef4caba-d8da-4710-ae5c-f938ba2d9628
+        F3_F30: 8818d6b8-acbc-4eb5-a5fa-55113ae1e5c3
+        F3_E52: 35c5b3fb-c4f8-4e94-b0c9-ad23c2e64631
       Facsimile:
         D2: 10d76b00-7a3e-4ecf-b14e-2f145eec3ee5
         D1: a28b352f-8bde-4148-b39d-1555a16873f6
@@ -41831,6 +42503,8 @@ Corpus:
         F2_E52: bb0c8837-01b0-4628-bb8d-3dd6f3741403
         F3: 69e7f612-4816-438f-9622-117b0f15f45f
         F5: 6efb57ee-284c-4051-a303-a27a76535be4
+        F3_F30: ed6b2487-1dcb-4d37-b82e-f4a852147908
+        F3_E52: 015f8140-b948-4d0b-bc53-de40aa3248ee
       Facsimile:
         D2: 81412b11-c11f-439a-b9a9-0020e1f78046
         D1: b99a6810-3a89-43f2-9137-e06bc8b5ceac
@@ -41872,6 +42546,8 @@ Corpus:
         F2_E52: 8b9b19a7-d976-4c86-b7c6-366ac7a02f42
         F3: b23e98a8-bf6a-4738-92f8-4e8b776f123e
         F5: b530b8a0-3f29-4f7d-9f5b-95eb91ef8037
+        F3_F30: 1b795f49-e2d7-4a3b-a098-e75496cd7a4c
+        F3_E52: 40709ef9-6476-4d3d-9704-9f757d1e5517
       Facsimile:
         D2: b82ebafd-8eb4-413e-86f1-a30f56c787f8
         D1: d73e6994-d7b5-4f1d-b950-d442c99c7edb
@@ -41967,6 +42643,8 @@ Corpus:
         F2_E52: 321b3157-8632-40c3-9484-b1b2d34d5741
         F3: c7b7c900-8de3-49a6-bbd4-13025a92a4fc
         F5: 7eb16a42-3c77-4d67-91b1-1465a0e375d8
+        F3_F30: a6b57007-027b-4e06-8a10-919b0614b597
+        F3_E52: d0659bc8-b32b-403f-89eb-0d8c622c21ba
       Facsimile:
         D2: cebfd924-6e01-450d-b8fd-ab4a7c846294
         D1: e0fe11d3-5065-4ec9-9325-70425f73cf04
@@ -42056,6 +42734,8 @@ Corpus:
         F2_E52: ec8387d7-7094-4632-addb-9ba638756e80
         F3: 2cab86c9-95e7-4111-992d-b40841ab51ec
         F5: 17e4f71b-f4ee-43c3-87e6-8fdbd73ba9eb
+        F3_F30: 09f94472-eaec-45d7-af1a-cb8c678c6cfd
+        F3_E52: fe5a493b-2068-45a1-9613-c8940f6a3493
       Facsimile:
         D2: 6c0faf10-053c-409a-881f-a9cfdf8461cf
         D1: 276ce6fd-8f8c-4136-b022-f78652a2c2c8
@@ -42151,6 +42831,8 @@ Corpus:
         F2_E52: de5dde3f-ebbe-4e18-9c17-18916cbf2282
         F3: f2783fc9-dd77-438c-906e-54d23c714ef2
         F5: 61238af5-c1bf-4dd0-a835-963aa88e9f3b
+        F3_F30: 705902be-9133-4c34-806f-3a48c68dba88
+        F3_E52: 5d59b262-59e6-4318-84cd-dff49a1dd0d9
       Facsimile:
         D2: 5e587f12-d6b8-4c6e-b321-77b9dde14d38
         D1: 42cbee41-b916-4e04-82aa-37cbc679b449
@@ -42252,6 +42934,8 @@ Corpus:
         F2_E52: 8f70eb33-8907-44df-84a7-e389114328ea
         F3: 7747e242-30e3-40f8-b367-76ed4b09fe66
         F5: 1920920e-2b60-40b3-b29e-e977ac1980b8
+        F3_F30: 20a14d11-d3ef-4af0-b631-e35c238531ba
+        F3_E52: 7daf020e-7bb3-4152-a640-4194be408f03
       Facsimile:
         D2: e58cf432-2452-4b5c-b44f-ff6229e66f87
         D1: 6853e5c5-b3b3-4d03-8a39-757c8b95bb0d
@@ -42347,6 +43031,8 @@ Corpus:
         F2_E52: 546f4675-633b-423b-82fc-149954e85112
         F3: 1f10081e-1bd7-464f-b36a-5c8372b4ad0a
         F5: d3e828b7-ac38-4705-a99f-3ab3ff52c86e
+        F3_F30: 56ab0d50-4f83-448e-be66-0314abd2fb24
+        F3_E52: 802d4a97-315b-4269-9e3e-67e460fb73e4
       Facsimile:
         D2: faac4c49-e61e-4eb4-bb46-652ef6c95d25
         D1: 8e3263ef-7b7f-486b-b653-e59cd951867e
@@ -42454,6 +43140,8 @@ Corpus:
         F2_E52: 3759e4f8-b717-4ccc-b297-df08f57b8f36
         F3: efda1321-f94c-4d1e-bcba-273e3b111e64
         F5: 533aec14-df06-4f4d-8097-fa01e4955ee8
+        F3_F30: 02ca2595-6482-46b9-b721-62acd762110f
+        F3_E52: 438061c1-6fd6-4510-9eb9-4bb37503443b
       Facsimile:
         D2: 76d35831-2044-401d-915e-7a99add4fd40
         D1: 7fe0375f-c1c1-421a-8b92-33e4dbf09b1d
@@ -42561,6 +43249,8 @@ Corpus:
         F2_E52: bbbf61a6-8ba5-45d6-b454-ea78e7ea64ba
         F3: be82372a-3508-442a-b2af-127b0300ca7a
         F5: 435c0c60-bc51-40a3-aa6c-82782847954f
+        F3_F30: df112b6a-01af-411c-b4be-bd8909c3ecbd
+        F3_E52: d5b06741-19e4-4a1b-8b38-6b1d685feed9
       Facsimile:
         D2: e083476d-fdf2-452a-81e2-78ccb912cae2
         D1: 712c6119-e15d-4ae7-b816-883fbe6502a3
@@ -42674,6 +43364,8 @@ Corpus:
         F2_E52: a7f2aafb-e406-469c-a29c-9f4fa9ca9216
         F3: 362fad3b-1b8d-487c-9613-917014828188
         F5: f1603f39-bf86-47b2-b087-824fd3064dbd
+        F3_F30: 90aae094-c62d-417f-9095-e33fa19a24e1
+        F3_E52: 86e6e1c1-5d80-4b0d-8239-644a4159ebe5
       Facsimile:
         D2: e405a00e-8dff-4c25-bc6a-8e8b8d76fbeb
         D1: 4f0af705-b17e-4e02-a87f-ba54ab47efe5
@@ -42775,6 +43467,8 @@ Corpus:
         F2_E52: 2509a55d-de57-4d1d-97c1-68de70aba733
         F3: 706f2f05-67c4-4906-bb0b-4f5ecbf89778
         F5: 8467c45e-8bea-42aa-882a-9659416ae9a7
+        F3_F30: 1b92688f-4ffb-4a14-9d10-b269cfe4e0c5
+        F3_E52: 3d454173-94bf-47ab-8356-147d838741bf
       Facsimile:
         D2: ac1b398e-08c6-477b-92f9-fc5909f008b6
         D1: af6a50ea-704d-40c5-9073-99f25924950b
@@ -42870,6 +43564,8 @@ Corpus:
         F2_E52: 899522b8-3940-4b0b-96cb-8356af302ea0
         F3: 892efc84-d45a-4665-88b2-c4227649da0c
         F5: 6877de5e-2bd1-497c-a060-287f299d9192
+        F3_F30: c81a6d0a-a8d7-4809-8add-033f3f1ef5f1
+        F3_E52: 6c6a642e-1350-41ea-90e4-f8cc9751894d
       Facsimile:
         D2: 64c6f629-d431-4eb8-a22c-7a1bfc90fc4b
         D1: d074bbc5-ae84-4492-ae89-8b7388ccf682
@@ -42965,6 +43661,8 @@ Corpus:
         F2_E52: 61358c44-295d-490d-bdf6-f78b4d3c9694
         F3: fc9b897d-4ffc-4dd8-a4a1-05f8319cc09d
         F5: 229e2a21-9205-4736-93da-0ccf0011888f
+        F3_F30: 4b31aa29-82c6-4917-9394-ffec359e9432
+        F3_E52: 44abd4f1-c2cd-42aa-894a-6a97c5a5afc7
       Facsimile:
         D2: 984c6df5-fbea-46ee-b5f2-ae733d27926f
         D1: 93f2a4a6-a8bc-4efe-a564-01f33589ad38
@@ -43096,6 +43794,8 @@ Corpus:
         F2_E52: 3bc8f8b8-2c8b-4254-a629-355a90bdd027
         F3: 360b953b-f2d8-4fba-a8a4-52ac1e23b431
         F5: 23e06a47-2089-456b-864f-ffe0c7abaa58
+        F3_F30: 35ff83d7-f42f-47aa-9c14-6cf164ef061b
+        F3_E52: c66fa5a6-482a-43fe-b3fc-6e51b0ddd46b
       Facsimile:
         D2: 2687c258-adfc-40ee-b1f7-9e99f2a3ad17
         D1: 6285853c-cc55-4c33-8274-0f0ef61f4180
@@ -43179,6 +43879,8 @@ Corpus:
         F2_E52: 8b1f4c69-8717-4fc4-b181-ffcb12dfab52
         F3: 5e85d4a9-f5eb-4604-b5b5-c3b3d6f4841a
         F5: bb2bc501-d062-41c7-9290-3222c5a3cd5c
+        F3_F30: 6bf43d8d-470e-4a5d-a4a6-845cf858106a
+        F3_E52: c28f14dc-da7c-43c7-8d7e-1f4af34ccd33
       Facsimile:
         D2: d9475d2d-a81d-437e-97ca-5ded4a3f34fd
         D1: 04e1191d-10a2-4434-af13-cf08b0cee184
@@ -43262,6 +43964,8 @@ Corpus:
         F2_E52: efbf64ea-c2b6-4ebd-9d7b-f132fb156799
         F3: c528bb7b-a450-40e2-b390-e83c5616d6d7
         F5: 2def5783-cfb2-49a3-bd87-5b59f6b0e217
+        F3_F30: 3adbc1f4-54b6-4a9e-bd93-4512f88faa73
+        F3_E52: 1e8fb456-1b24-4e65-982f-4af9e2534a30
       Facsimile:
         D2: a0878aa4-fa38-492a-868d-5f56cdd10433
         D1: 6d3929ad-193f-4f5d-af85-24ba2ad11684
@@ -43339,6 +44043,8 @@ Corpus:
         F2_E52: 8512cdb3-36f7-4408-959d-95af6a4e3bd7
         F3: 73538a62-ce4d-4390-966b-e2c7924d65eb
         F5: 50e3eb07-e16d-4ce1-8bfc-a60f50f0e28c
+        F3_F30: 5579681b-948a-44e8-888d-f0c0fb50be3a
+        F3_E52: c60fe7ea-05d6-494e-8748-3d980430b8eb
       Facsimile:
         D2: 67a70d55-9eec-47ce-9630-fca8323369cf
         D1: 049b333e-ce5a-4a2f-b3a8-65c7faa07177
@@ -43428,6 +44134,8 @@ Corpus:
         F2_E52: 4a03fb0c-1c48-4c94-9f85-37bb3b639eb9
         F3: 6359d58e-0a1c-48c6-87cf-57612c5292bf
         F5: 88505715-346a-4561-8db6-f39bf006f57e
+        F3_F30: 7bb69ebb-db7d-4f88-bcda-703154851e68
+        F3_E52: a263b2dc-63ec-41c5-b9ea-53e720e40fd9
       Facsimile:
         D2: 71ab4ec3-d34d-42fa-9d26-c42263e22a16
         D1: 0b97757e-316a-4978-a6e3-863704b83975
@@ -43499,6 +44207,8 @@ Corpus:
         F2_E52: af00e358-5254-4bb3-8dae-8fb0a71a1050
         F3: 090ec22c-af77-442f-be53-50a5c649ea97
         F5: 500a28c4-793a-466f-bb21-0c439e1524fe
+        F3_F30: 14280f5b-a850-442f-be0d-5aa1cee16bad
+        F3_E52: fb8ca234-59e5-46cb-a862-ba6f00552e03
       Facsimile:
         D2: a45c16c0-7dc4-49db-a544-a2372dbdee09
         D1: d3bbd98c-2e4c-4237-851a-fefb1499ccb5
@@ -43564,6 +44274,8 @@ Corpus:
         F2_E52: a541b5de-0eaa-405c-95c4-cad25d35c9d7
         F3: a494c94c-87df-4477-9ac1-6c34e04b3c5e
         F5: 79f2b41c-d17d-47fb-af46-d5ceeeb1a25d
+        F3_F30: 9ba6e732-a84a-470f-8354-52439c0a8aa1
+        F3_E52: d7c8c90d-0919-479e-ae04-90ea202e14cb
       Facsimile:
         D2: 4afcda43-8f99-4f93-80ba-5165595dd89f
         D1: 79e26a30-4751-49fe-95bc-6c2dfa849384
@@ -43653,6 +44365,8 @@ Corpus:
         F2_E52: 5edd73bd-f7f5-4675-98eb-fb6d688c8427
         F3: 433b9ca0-6710-4f87-ab63-4b12370987ff
         F5: 80d76e62-a29e-43ea-9b9b-31fba6b19656
+        F3_F30: e026f4d2-1765-4622-9f44-925193d958de
+        F3_E52: 5577cbb6-5cd7-4ad0-ae74-652ba1d1dcb3
       Facsimile:
         D2: 6d69791b-2cf4-4340-8f89-36890e607e41
         D1: f79cc473-776f-48a8-8a23-74a6cb6380b0
@@ -43718,6 +44432,8 @@ Corpus:
         F2_E52: a212e669-35b6-4df1-a825-22198094a602
         F3: 2f030c1c-697b-4e72-8794-da565b260391
         F5: 6441a22d-029a-48f4-b7e5-c0b64b85389f
+        F3_F30: 46afb959-a84a-4b74-b333-700092fded72
+        F3_E52: 1a329894-f8aa-4457-b5ca-fa62d5f7ca84
       Facsimile:
         D2: c4bf7409-b6d8-4fe6-9fe0-d5b7b4e90905
         D1: 953c5e3d-21cc-4a0c-af7d-cfe5f336721c
@@ -43855,6 +44571,8 @@ Corpus:
         F2_E52: 7c8eb75c-7ab3-439c-a61e-e0075e3fc5a6
         F3: 3c6c7db5-dbc5-4d9f-8d50-ed40f40e03f3
         F5: 561a052d-9c65-4c1d-95e4-8a7a1ee00bbf
+        F3_F30: 59d9fecc-0b1c-4864-820c-07e26ed2579e
+        F3_E52: fbcdf6d4-a6d2-4ae4-a390-d66f2c66c904
       Facsimile:
         D2: f35faa5f-50d3-4092-8050-be66d5d4f7e8
         D1: 583846b5-9ad1-4f0d-9c8d-e09769cd3920
@@ -43926,6 +44644,8 @@ Corpus:
         F2_E52: e34d9e3b-6e6c-46b2-945e-c2ebea2d0674
         F3: c1b20558-cd79-48e3-a1b8-ac0906c42b83
         F5: b9fc4d38-0a54-4650-b48a-45931330af9a
+        F3_F30: 562eeb5e-3a1a-4d27-9a29-8655b1408934
+        F3_E52: f76a9e81-05ba-47cb-be39-9f54e75dc0e5
       Facsimile:
         D2: 7d8faa2b-c464-4a24-9a06-a4c3d94a0f7a
         D1: 5ed89e85-792f-4c2f-85f7-0bdffcc25fdb
@@ -44039,6 +44759,8 @@ Corpus:
         F2_E52: 465a4784-9271-4e73-92fe-6fc60cb7aa59
         F3: f3015f8e-e8d9-46a4-acf8-7926bfa5564e
         F5: 71a1fffe-448f-4b9c-9e16-ec6adddb4318
+        F3_F30: 5e16ec56-ce9b-4888-a189-f76f7be8adc9
+        F3_E52: c5378239-9143-4f44-885b-3620d24f68b2
       Facsimile:
         D2: 0d4f3a44-51c1-4fa0-af27-bf3e43ae848e
         D1: 5ecbfe2b-b4c6-4b3f-af29-0168a1030e00
@@ -44164,6 +44886,8 @@ Corpus:
         F2_E52: b2f8597f-6ecb-4d31-a7f2-46ed39eecbfd
         F3: 84512659-37e0-4b1f-8fd1-1630416b6fd0
         F5: df0c1f4c-4a1a-494b-a4be-96655af4a46f
+        F3_F30: ae25c230-d1cd-4211-af45-20f808b1e6ea
+        F3_E52: cb79b129-4926-410a-8cea-3930a385fa7b
       Facsimile:
         D2: 240880ac-c5d3-4719-be95-ac427bce837c
         D1: b5e17d79-ceac-4d3a-8d28-61b2026364d4
@@ -44277,6 +45001,8 @@ Corpus:
         F2_E52: 29874fd0-7cad-4d16-b803-33c819e053a8
         F3: 22d70352-311d-4b6a-8f41-3a31e7e349ad
         F5: 28f602cf-9253-438a-ab34-21ac0526739a
+        F3_F30: de71f75c-57e8-42d9-925a-01449b8d10a7
+        F3_E52: 5249953c-c102-449a-b680-6308751774af
       Facsimile:
         D2: f4b71863-2494-4d7c-a804-50000d83b591
         D1: 231fd005-2cd5-4054-ba86-f805a83fdde5
@@ -44390,6 +45116,8 @@ Corpus:
         F2_E52: a1659754-c9ae-49d0-bb82-c0cef9ab5372
         F3: 05c0ec00-fb31-41d8-9f7e-98b733ff6830
         F5: 11124d16-e68f-4306-9bd4-4c51bf4384d9
+        F3_F30: be76c09e-040e-4dac-b6f5-1b6841f3ad77
+        F3_E52: 22e0c851-ac3b-48c4-aaf9-0124d030d424
       Facsimile:
         D2: 4ecdf4ac-450e-4222-a3ec-135aab0dc223
         D1: b6d08c4e-e93d-41ad-9915-00773f9c1859
@@ -44485,6 +45213,8 @@ Corpus:
         F2_E52: c1716496-ab39-4bd8-bfd2-b783b6d79815
         F3: 51a280ff-75f6-4002-8e02-7abeded6b267
         F5: 82f9a1a3-23cb-42c5-b6cd-35f2b7be7889
+        F3_F30: 50a576e2-436f-4e26-a266-259b05f8bd1b
+        F3_E52: 13d2752c-5bce-4c27-b606-844010770173
       Facsimile:
         D2: 349ddf2e-1301-4d9c-8348-a0fd889d9214
         D1: 6a19cd6e-5594-4b8b-9ee9-6c42dc228752
@@ -44640,6 +45370,8 @@ Corpus:
         F2_E52: 6f29a8a7-5ab0-446f-98b2-96e327fe212d
         F3: 352f91cc-1596-47de-b644-dd23b1b83be3
         F5: 70ffab92-ef13-4ae4-a5c2-f2df361c5a15
+        F3_F30: 1f4daf65-cb34-4f9f-b38a-9d14073878d5
+        F3_E52: ea54dc1d-018d-4e14-a658-5c48fa86925d
       Facsimile:
         D2: 2a3f70cf-42b8-4c72-afd6-e6902242ac1d
         D1: 0d60b610-11bb-4301-a606-60e5f884c216
@@ -44717,6 +45449,8 @@ Corpus:
         F2_E52: c98299c7-14f0-4f24-9325-4ddfba033c9a
         F3: 60e3718e-d5ff-47e4-b9bf-1e302553d4f4
         F5: 7b9092f2-6a5f-4007-99ce-45b7ff8e68ee
+        F3_F30: c5541a33-89e3-4c42-925a-fb132832d5c2
+        F3_E52: e3758e23-3060-47db-8da3-68dfd7e2c055
       Facsimile:
         D2: b8f5639e-0a53-4f14-8d34-1736197ded4c
         D1: 9a9e4a35-4e55-480a-8f7a-20dab6de2854
@@ -44806,6 +45540,8 @@ Corpus:
         F2_E52: 23732c68-4ee2-4e9b-8e2d-6f45a41c7088
         F3: be53ffc1-4abd-4ac3-976c-e29b6cfe8371
         F5: 69bf3356-61b2-4c7c-97c9-87a6a6fd68f8
+        F3_F30: d02395c3-c091-4d4c-a858-1a4ccaa26900
+        F3_E52: 9ff19b24-cee1-462b-9089-bd54b9c3b2dd
       Facsimile:
         D2: 48f63876-8998-4216-8cb8-f46ad0b2d1f6
         D1: 6a49e192-33fe-492d-83e3-aa2c473f6c07
@@ -44943,6 +45679,8 @@ Corpus:
         F2_E52: 28f67ea5-3938-469c-b0f1-779638e85a8a
         F3: 656ee06e-cd5c-4ef4-a3f2-020f2e6d0dcf
         F5: e0268b2d-e6ac-4d4f-bfa7-63e314f6ea09
+        F3_F30: 4c136a1d-0ef5-48dc-8369-5a20be71313e
+        F3_E52: c6bf878c-f874-4b7a-941b-2a9d05a0fead
       Facsimile:
         D2: 5f56af96-7a4c-4011-97d6-147b61ac40cb
         D1: 24f82d94-0a11-4adf-a74f-a36d29595c2b
@@ -45062,6 +45800,8 @@ Corpus:
         F2_E52: 2e7ac82f-22e0-4722-8532-92010ffd7cae
         F3: 85f5c973-321b-42d3-a32a-2eff12b329c2
         F5: 747b8caf-2ab6-4066-bfff-32eff23538b8
+        F3_F30: 2d222ac3-eeb8-4b1e-bce3-39da7b91202a
+        F3_E52: 48a14792-a45a-465e-82a7-f77223edf514
       Facsimile:
         D2: 362fa605-8fe7-4137-8f98-c52a370b75df
         D1: 97b1eb41-a3de-4677-bf87-bde32a36a1fd
@@ -45193,6 +45933,8 @@ Corpus:
         F2_E52: 9abf32d8-b628-4b24-80d1-dc0371596c80
         F3: e62bceac-5475-4e3c-bb55-6843959344be
         F5: 9c4cef02-6bf0-4803-9400-cb78da0c61d4
+        F3_F30: 9e7f8398-de9e-4846-aa65-6855176385a3
+        F3_E52: c4808372-b1d5-49d1-b10f-2a8d259ba773
       Facsimile:
         D2: cbeb380c-24e4-48d9-862a-ba8800e5eee4
         D1: 2e1b5029-996d-4578-b740-70841dba2b63
@@ -45342,6 +46084,8 @@ Corpus:
         F2_E52: 24763f0f-2d0e-4e62-8aa2-30fdc6f968fc
         F3: 20b756c0-661d-4a37-be9f-6976981d95fb
         F5: 28baa426-861f-4bb3-a231-0b32acfafa6e
+        F3_F30: ce5a5606-b5a6-4749-b933-87cfddf4e9a5
+        F3_E52: e559b34b-d0e6-4c0f-baae-d80110d5fb0e
       Facsimile:
         D2: e34e1d70-c2ed-488a-9e4b-812801b11b62
         D1: c014a047-ec3f-4106-837c-94ebf5137789
@@ -45485,6 +46229,8 @@ Corpus:
         F2_E52: d0e4d741-2452-46a5-af6f-cd14dfc8febf
         F3: 810f925b-ff43-401f-b5c9-3fee0e7d1862
         F5: fdd633d7-fc1d-4c46-ac8f-61cdc0c85a07
+        F3_F30: 99605795-3b0c-444b-bc38-e66b81da78ed
+        F3_E52: 880eea06-7003-4908-b36e-979b0005fd85
       Facsimile:
         D2: c35aaef6-067f-4351-a80d-ddbd3e092f36
         D1: 19a73543-51be-47ba-9ec1-2ef02335777c
@@ -45562,6 +46308,8 @@ Corpus:
         F2_E52: cd896bd8-1a7f-4bc0-9416-4477d279deab
         F3: 0b3e3d13-91dd-40d1-83b3-fb9dca504c41
         F5: 3049c3d4-a3bb-4829-9408-895f0e6f170b
+        F3_F30: 44b67dc9-2b9c-405b-b681-cc32055dca69
+        F3_E52: 5abc762c-4b8c-4733-aac8-738a13b74842
       Facsimile:
         D2: cbcbc683-e6e0-4ce7-a8f3-3b3e5ca996ba
         D1: b2bc8905-57a5-423c-bd5a-966a52039d40
@@ -45657,6 +46405,8 @@ Corpus:
         F2_E52: 99240d45-f092-46a0-adf9-35dcd174d230
         F3: 7a5a465c-94b6-4592-ac06-0da83ae31bec
         F5: 51badc75-220f-42a9-a1c3-ae4798b88abe
+        F3_F30: 499358c1-87dc-4133-8a4a-4f579b0b02a3
+        F3_E52: bc12e187-9670-4c02-9b81-0c1ecc744800
       Facsimile:
         D2: 515a0014-0395-442f-934b-e299533b9d05
         D1: 8099f40b-4796-439e-8d93-1746a66c6b83
@@ -45770,6 +46520,8 @@ Corpus:
         F2_E52: e8e9a906-8cb7-415f-b947-b14a7252da70
         F3: 919e800e-a55a-4f9e-97b1-0a494778a42d
         F5: cddd844a-538a-4bd0-933a-025f63f88dc8
+        F3_F30: 3755c214-dee7-4698-aaad-fc3ce2b76055
+        F3_E52: 5513e00d-9144-425e-bfd1-dd6cc82fc486
       Facsimile:
         D2: 9735be9f-14ca-4024-be4b-d22e01000c99
         D1: cc8bb10d-c9f1-4d4a-ba50-f765941075bf
@@ -45871,6 +46623,8 @@ Corpus:
         F2_E52: ac08ee0c-62ef-4e69-8883-e2074d2b90d5
         F3: fbb4eeb8-b9af-44bf-a903-5c5804e87270
         F5: 5daa72f3-f240-4482-bef3-df06fc46ab37
+        F3_F30: 7b60c986-a4fc-46ad-b945-d63367f047d0
+        F3_E52: 7e97b9fb-40db-4532-8d11-3544c6a916f9
       Facsimile:
         D2: c2868291-e431-4219-a0a3-56233ce54ed0
         D1: cb4c13f0-1405-4ac9-8732-39638d7bc586
@@ -46044,6 +46798,8 @@ Corpus:
         F2_E52: f1ef2647-cc10-4452-82b6-4a605b4dea75
         F3: 916b342f-0322-44c4-ac60-12b93f0fa6b2
         F5: 0223f229-e1c2-4819-81f7-81a4f841d4ea
+        F3_F30: 19b96914-956b-4852-89a2-3bee330f4dde
+        F3_E52: febdbca6-4e8b-4940-8949-1d95871a3ad9
       Facsimile:
         D2: 7957bbdb-f052-4620-b5bc-03e2cf9674fc
         D1: eb57588b-b25e-43c0-aac7-29736035e0d4
@@ -46211,6 +46967,8 @@ Corpus:
         F2_E52: 52de4c6b-4939-436c-ad68-b0a1f69840ce
         F3: 40c90bcd-f290-43ba-baab-6cd48983ad29
         F5: 4bc1e9ad-af2a-40c8-a6a9-863e64566573
+        F3_F30: 8334ef27-a993-46dd-bf77-6f2069bb4e01
+        F3_E52: 56070407-e2c4-4da5-aa3a-8b4c1199fe50
       Facsimile:
         D2: aba73b81-94a6-4db6-ab75-0965ed2b4ee9
         D1: 8e6ac555-c11c-4741-a6bf-19d2a5e2b12e
@@ -46336,6 +47094,8 @@ Corpus:
         F2_E52: e435ba3d-5856-498c-acea-2937076ebeeb
         F3: d909c54d-9e07-4b14-9507-df7ae308cdc0
         F5: 47764667-ba62-4c28-88a5-01dd6d213a1a
+        F3_F30: 4adb762e-1571-4d0d-95e7-9300fe3cf29a
+        F3_E52: a19ef8eb-4edb-4733-b431-8f9f7667b5a9
       Facsimile:
         D2: 197b2201-8226-47ce-858f-c7e1c5c70291
         D1: b787113f-e92e-4ea1-8aaa-da13846bc589
@@ -46389,6 +47149,8 @@ Corpus:
         F2_E52: 050b766f-c9fd-4180-af86-5548229b831e
         F3: b8394ef4-4e25-407e-bc0c-6232fee75699
         F5: 98d4f116-fe64-472d-9d63-cd036eaabfb8
+        F3_F30: 34a2dd64-e231-4f0f-a1c5-518f167300c2
+        F3_E52: 9e63d67c-bc59-45a1-9370-44c26b77e873
       Facsimile:
         D2: 3e920245-73bd-40d5-bb65-5883a98c9a5e
         D1: ac9259cb-fc29-4357-a1ae-06960ab9262b
@@ -46568,6 +47330,8 @@ Corpus:
         F2_E52: c59d4a6d-a179-4d37-b43e-a52cb8d00ca1
         F3: debe596d-8740-435d-a445-f61186e00f8c
         F5: 613b10d6-7beb-443f-ac24-454e490be070
+        F3_F30: 0ada7468-5ef7-4dfd-b1c3-a9a224e58267
+        F3_E52: 921161d7-5686-4569-b944-c1ea10c8b21d
       Facsimile:
         D2: 32b81662-9cea-4768-ba6f-71d62fb11eb7
         D1: 704a91aa-24ec-435a-92e4-b43ff82f8476
@@ -46681,6 +47445,8 @@ Corpus:
         F2_E52: 270c4dba-f4f1-4a58-9973-dec88f3ca40f
         F3: 145a1969-3ad0-4d88-889f-8afbb0fe51b6
         F5: dadc0ce0-1214-463a-8fb0-d2b39a1ac880
+        F3_F30: fcf3af4a-36c6-4fa1-85af-200200f2b21b
+        F3_E52: 2b11d792-a552-4f13-9314-593feda4c602
       Facsimile:
         D2: 963c733e-717c-4b45-870c-3ddcc0d2cc16
         D1: 35658724-ac28-42c1-b234-18cfec430193
@@ -46842,6 +47608,8 @@ Corpus:
         F2_E52: 18a609ad-a93d-4c6c-80df-40459e769c2b
         F3: c85033b6-4021-45ee-bd21-5964d89231e5
         F5: 2db371cd-f0b1-47cb-87fb-2822a2689aa9
+        F3_F30: 50c99dc8-f6f6-4314-97b9-3e5341be82ed
+        F3_E52: cc6e00fd-5cd8-4b8b-86f6-54f0be86d2e0
       Facsimile:
         D2: 6bbc1ce9-f9a3-4f69-a5a8-271221875808
         D1: d39eff53-2888-47b1-aaec-a2e764a5d13b
@@ -46955,6 +47723,8 @@ Corpus:
         F2_E52: 7cbdeed9-d534-47f4-8752-b4257f84ccd1
         F3: 784fe16a-8da5-40a8-8c5c-448da465b6c5
         F5: 7ab4f091-e0d0-450d-89fb-42a486f3a5cf
+        F3_F30: 86065d00-f840-4343-b57f-df99f092f61a
+        F3_E52: 1ccd685f-f2c4-4aa5-9bf5-1b302bd0c068
       Facsimile:
         D2: 76cacc68-4164-4cd0-bd83-cd432e8864f3
         D1: 428ed44b-f939-4c7b-8040-ae0ac4c42131
@@ -47056,6 +47826,8 @@ Corpus:
         F2_E52: 74b2cf0c-b12e-4a09-a29d-44698db5fe27
         F3: 39c52945-3494-46cb-8a25-2be433d1a416
         F5: 5a492aa3-a061-4ffc-86fd-a01c293d49fd
+        F3_F30: 6e544695-6b5a-49f1-bda4-6f3dbfbea5be
+        F3_E52: d86a8d26-31dd-44cf-84cf-8f6f240320bf
       Facsimile:
         D2: f46ba9ae-535d-4f4e-b336-6cb4e363283f
         D1: 3b7befc3-6809-4245-8b3d-0fc3f94a8e53
@@ -47139,6 +47911,8 @@ Corpus:
         F2_E52: 31df9fa0-7fc4-4673-921c-fc20bf6a9b40
         F3: 68a0a23f-d55c-46c6-97eb-8497e85112dd
         F5: 9eb96750-fbc1-4663-a015-2f386dec7bcd
+        F3_F30: bb9be01a-4514-4e11-977d-9ac6a5f65fdc
+        F3_E52: ca455b75-7181-43d7-bdbc-60986278d5ea
       Facsimile:
         D2: 05594738-907b-4f6f-ac61-449e9d36689b
         D1: d31ff86c-f2d3-48ac-b549-0c411dc42dc4
@@ -47258,6 +48032,8 @@ Corpus:
         F2_E52: 81485d12-11e0-4d9e-ae7a-ac366f262ee1
         F3: 490fc410-46df-4235-8a8b-2763fa8dd5ec
         F5: 8c9f845e-ea12-4637-b1f7-ca24f994eb0b
+        F3_F30: 4387a57f-ffaa-437c-90ae-456f1f76e9f2
+        F3_E52: 0bdb5d10-86d9-4fce-812a-7ad49f3601a7
       Facsimile:
         D2: 487825ed-1983-4dbc-946e-3723a2a4901e
         D1: c71e9804-d891-40de-a10c-b7ae7e0781ba
@@ -47383,6 +48159,8 @@ Corpus:
         F2_E52: 34b4a632-dc0d-467f-bf98-be132b09f2de
         F3: 7cc2f647-3002-4378-943c-916112914bad
         F5: fd344bd6-5284-4d44-851c-0e2872c81312
+        F3_F30: b270940e-8911-4c7c-ba2b-512759b097d9
+        F3_E52: 9ced496a-0aeb-42df-96c0-5a4672442162
       Facsimile:
         D2: 819e022e-b0e7-4fa4-b05b-626c2b5bdd78
         D1: ef7bc2f3-cd1a-41c2-bd1b-d464545f6949
@@ -47580,6 +48358,8 @@ Corpus:
         F2_E52: 658fa776-3391-4b47-afe6-6202113d84e8
         F3: 17282bb0-5bae-4020-807c-237c6b097fd7
         F5: e57a793d-7df5-46fb-ac1a-45f9ad28f532
+        F3_F30: 0e1cd6aa-d43d-4874-9f94-9d0c75f6be41
+        F3_E52: 4901e448-306d-411f-af49-85a092af4ecf
       Facsimile:
         D2: bde86e65-4768-4c4c-8b64-a5f1fb8419a8
         D1: 9ca045a6-d193-4a1e-926b-a18686936e0b
@@ -47711,6 +48491,8 @@ Corpus:
         F2_E52: 10dde5cd-fa7d-4420-bb94-ca4290651aef
         F3: ba249fc0-563e-4b2a-90e9-4a74915cd547
         F5: b70ab2e6-9b86-4481-b757-026ff39f3f5f
+        F3_F30: 24d87544-c13a-42a2-9676-65b3c275730b
+        F3_E52: 4477db23-699e-4b0c-93bb-9987e06ccaf0
       Facsimile:
         D2: cd6d4ebf-43d3-4086-aeac-1d664df9dd95
         D1: a43fb647-bd81-4024-aef3-c1c668afcd7e
@@ -47830,6 +48612,8 @@ Corpus:
         F2_E52: 4b87ec4c-c7b3-40f0-8a20-9034d7704951
         F3: cc84f4bc-ea07-4c22-8a30-189277ca6ce5
         F5: c74ca491-f6b4-49aa-968c-2740447ee7de
+        F3_F30: f0d3be59-aadd-4f92-ba50-8697e3eca321
+        F3_E52: aae3a1f5-ff38-4699-8e44-05e6601137dd
       Facsimile:
         D2: ac0b053f-887f-4234-bbc8-4f349761fb87
         D1: 2a7c5ef2-c622-4967-a487-d844de23c3f7
@@ -47949,6 +48733,8 @@ Corpus:
         F2_E52: a19b7c4e-e4aa-4d0b-a69b-51735af47c68
         F3: a689a9c9-68e5-4a8e-9423-f91ff87e2302
         F5: 25c48235-c35f-4a48-89cd-b896ee38cead
+        F3_F30: c4a6d695-4828-4e08-aa5d-5e40ee518c2f
+        F3_E52: 7e6e162b-90dd-47a2-8c4f-2e85b3d9caf9
       Facsimile:
         D2: 13542aa6-7b3b-4871-a268-af70edc74184
         D1: 33bcf3a0-df88-4270-8c40-851ad9fa7929
@@ -47990,6 +48776,8 @@ Corpus:
         F2_E52: fe3d5e24-3dc9-4fe9-81b5-5769d57485e4
         F3: 295abda7-2112-405c-8659-8c4e5615bc11
         F5: 17ec02ed-e019-4328-9a49-022eadbf8e99
+        F3_F30: e3b81310-b2e2-4bc9-a184-f73211adb14e
+        F3_E52: 08fb4f29-7f56-4125-a1bd-2986a3567cf7
       Facsimile:
         D2: bb46a7ce-0091-4879-a77a-f4481a3bda9f
         D1: 09dcfa38-5619-4234-a490-c575ae2487fb
@@ -48127,6 +48915,8 @@ Corpus:
         F2_E52: d7781a50-7c06-42e2-a075-20a9780ebc7c
         F3: 882affd2-6dd4-448b-abb3-83a9afac5c7b
         F5: d6f2513a-ffd7-4f05-9b69-37e5fa9ee3c7
+        F3_F30: 0bcdc9b2-1d07-42e8-89c9-bc9137b65b89
+        F3_E52: a1faca84-37f7-4a68-ab78-d11093624b4a
       Facsimile:
         D2: d5c3b6dd-1a5d-453f-a9b9-a8262ce3a319
         D1: 67a72a8f-45e7-40df-94c6-5d21d4416501
@@ -48168,6 +48958,8 @@ Corpus:
         F2_E52: 7147d52f-6569-49bc-9142-37f1280ab7ce
         F3: adb90a1c-84fb-4045-a690-cc3bf0b79a0b
         F5: 7aff6940-aaa5-497c-b72b-4f2a6af08794
+        F3_F30: b3e690f8-3ffe-4a9e-a2e3-0c26bc3cf4e4
+        F3_E52: 8b4fad61-2732-4fcf-8bf5-61449bf7043c
       Facsimile:
         D2: dfb00119-b289-4739-96cf-452adf51978d
         D1: 2a287cd5-354f-405d-8ca7-5f4dfe34a713
@@ -48305,6 +49097,8 @@ Corpus:
         F2_E52: c9989e57-310c-4476-83e3-06be608a25b7
         F3: 20abd4f7-4ba7-4621-85ff-7e78e24e3585
         F5: 8807ebfe-5a5d-4c7a-b280-94e40de44cd3
+        F3_F30: ff45ed3c-f3e5-4da8-b708-0453f6673d42
+        F3_E52: 8c0d1875-1729-44d6-aa4b-e4d2ef48a8d9
       Facsimile:
         D2: 7469db62-1bdc-4823-a520-5a1624ae9da2
         D1: 47f0d078-5753-4c9b-896e-3be24889fb00
@@ -48472,6 +49266,8 @@ Corpus:
         F2_E52: af83a193-b4fb-4eb8-9508-1678efad3ef4
         F3: ac1862f6-0834-41e1-9b18-5921442c452b
         F5: 9df38ef9-d1c9-445c-bc86-bc893202ca42
+        F3_F30: 981a2e99-75ce-4b42-8787-7615be242b9f
+        F3_E52: f3e9eb49-32bc-439b-af49-38e138cae164
       Facsimile:
         D2: 67f6fdd3-a3c2-42b1-986c-a88b242881fa
         D1: 659f5017-4988-40f4-9082-8fa0ea8d8e10
@@ -48591,6 +49387,8 @@ Corpus:
         F2_E52: 43b52126-7e37-4d9d-b592-4e724b424839
         F3: 4a5dd3ee-ae96-45ff-9f71-c96c41a70353
         F5: 5fb4ff82-749a-4806-a74e-8d3fae095c64
+        F3_F30: 3f393f41-809c-4e28-a16b-402483a626be
+        F3_E52: acce651e-3e0c-432b-bbea-a16edcaad5df
       Facsimile:
         D2: c0c68c59-fcdc-4d38-bf0c-2019ad0ea25a
         D1: 590be39b-62bb-4387-85a5-1d0e7179a1cb
@@ -48614,6 +49412,8 @@ Corpus:
         F2_E52: 6dce927f-0624-4e2d-8379-d35e1d2fb054
         F3: abb01c3c-866b-4605-b2de-8f00bc1d3c47
         F5: a930924d-2ee3-4725-bbb9-80327065e9d6
+        F3_F30: e433b7a0-d1f5-4033-ace8-b769595becbc
+        F3_E52: 2cde54ff-c5e9-455c-9288-21420724ce66
       Facsimile:
         D2: cee3d2cd-d669-4c36-b5d6-cb2b88af7632
         D1: b40ad279-3f13-4f2f-8c46-a6b0637bc37f
@@ -48709,6 +49509,8 @@ Corpus:
         F2_E52: 4c22617d-3716-4878-81e0-f34cedb982a2
         F3: 56ea82a6-c867-4c7a-80d7-df41feba5b7e
         F5: 1aaa5538-534a-4bc8-9e7f-1cf43f82c1ff
+        F3_F30: f196c1c7-ae8c-447c-8722-cc1d430fc0b9
+        F3_E52: 7857e5ec-678b-4471-91d9-e77583882cad
       Facsimile:
         D2: 73efc075-51ce-41cb-a519-3a91dcec9d81
         D1: bffc11f8-da3a-42a7-b27d-fa8e16925f3f
@@ -48798,6 +49600,8 @@ Corpus:
         F2_E52: a423dc9c-5732-48c8-a49d-11f59c602039
         F3: 461c2990-f121-4402-ba84-201b17652a1a
         F5: 8c898fd1-7e46-4052-bb33-d451ef5d65fa
+        F3_F30: ff9ec87a-9cce-4565-ad95-a28ff92033b2
+        F3_E52: 0dd72e82-11f3-43b0-b905-a27b25824843
       Facsimile:
         D2: 8db849e3-ff3a-480c-bf44-2323daa13aae
         D1: a20f8274-d02c-45f1-a83d-3588d3c55294
@@ -48863,6 +49667,8 @@ Corpus:
         F2_E52: 4372abed-4377-4630-bb54-c12e9a1a00c0
         F3: 5ea68568-77ce-4f93-8028-c1aed5f0b4f8
         F5: 503c9b97-316b-4998-b49d-7cb304032d7d
+        F3_F30: ff695caa-4743-4946-afcb-ab0b23f7254a
+        F3_E52: b9a56363-b37e-4b06-834f-2fa3857b9955
       Facsimile:
         D2: 86f5a986-5574-4924-8625-72d8f1f27044
         D1: ffb8dd58-7ee9-462a-95ba-5c2aef877b18
@@ -48976,6 +49782,8 @@ Corpus:
         F2_E52: ab373bae-1007-49da-9bfc-0cde458625f7
         F3: 14bb122e-0cea-404d-924d-16d1b520572a
         F5: 48a099bf-e679-4bbd-9b74-5582ab39ca88
+        F3_F30: 15b0bada-ce4a-486b-8934-25a4ba50b417
+        F3_E52: b23935c5-1431-43e4-921c-a006431d3043
       Facsimile:
         D2: 3fa94194-5da0-4f14-b16a-7181c7dfd9bb
         D1: 25cd4afd-1043-4501-b455-0bf7a5c439b1
@@ -49041,6 +49849,8 @@ Corpus:
         F2_E52: 93539250-276d-4279-ad42-7741d055f0be
         F3: f975ac3a-9024-448a-a97b-edb55427af84
         F5: bac909f4-be53-4f47-acfc-bfa66f6e3178
+        F3_F30: cf9009ff-6d49-42a6-8bcc-49937d8f2da3
+        F3_E52: c9e0a5ba-f08d-4d74-bd32-f61dd5963fed
       Facsimile:
         D2: f6648e66-e5d7-4132-b5b7-430fecef39d2
         D1: 9c86f6ba-fc65-4071-966e-72975d36248c
@@ -49118,6 +49928,8 @@ Corpus:
         F2_E52: 95cbd079-2de3-43d2-818c-9c102c4fe2d8
         F3: 353886e3-065a-4bfd-95b4-baad2aed5580
         F5: ffe33ba1-5bee-423a-9825-120023ca32e5
+        F3_F30: af253038-bc74-4298-baf2-0ab893ba679f
+        F3_E52: 9881cf57-4bdb-4d34-81f1-4e9861efbc32
       Facsimile:
         D2: 15a58374-76d9-4de5-a601-cbb85595556b
         D1: 935a49ca-f1aa-482c-afd3-7df5ab162b0f
@@ -49207,6 +50019,8 @@ Corpus:
         F2_E52: 27aceb25-c4d0-41cd-ade2-f2872ac96c04
         F3: 657022ed-e12f-4702-96e1-d909f27850ea
         F5: c4423674-a5de-4548-ba40-13813a40374e
+        F3_F30: 1c64f0b7-d4f8-47d6-bf90-028cfc280629
+        F3_E52: 64ffe4a6-0d5a-42ef-8dcd-09b3e6ec46b6
       Facsimile:
         D2: 74e4fa65-1b7b-4f96-8dde-e2587daaa435
         D1: 85aa3b1b-a8e2-4937-884b-4f397a291e63
@@ -49326,6 +50140,8 @@ Corpus:
         F2_E52: 8c8471e4-8e55-4471-8584-80e56f34c90e
         F3: aaa47d36-0365-4985-8e8b-aeb895f06af8
         F5: a32b50c0-3da7-4612-ad81-3e41fd8db197
+        F3_F30: 6929f402-5cfe-44eb-9400-262051f51b15
+        F3_E52: b94c1c29-7ff7-4a2e-b073-604aa2d964ae
       Facsimile:
         D2: ec5b4da2-d1ca-4b41-8d9f-723bdc3b94bd
         D1: 71db1adf-edcb-4da8-a552-6bfe8eedf134
@@ -49457,6 +50273,8 @@ Corpus:
         F2_E52: 66712e23-8d71-4020-b54e-66aeb11e2012
         F3: 10a13dc2-8e19-40b7-b908-bf71a43d635f
         F5: 22a106b1-f191-40f0-b59e-8f1421a9d05d
+        F3_F30: 69a6471a-3c30-4987-8200-32aa8edee489
+        F3_E52: e56322ac-9469-424f-9e86-2a04da5d899d
       Facsimile:
         D2: aad87d0c-c48b-488d-b191-ae07ace85b31
         D1: d4c7e5bd-1fbb-4a1d-8fec-09e0511489a8
@@ -49486,6 +50304,8 @@ Corpus:
         F2_E52: 8d041353-05ed-4656-a1a0-3d96be610454
         F3: 3c622056-521e-42e7-a8c1-17eb825a5666
         F5: e97d2cd3-7533-466a-97e2-cbd77679836b
+        F3_F30: c6e765c3-7671-48ba-a4c5-e574e6eee7d0
+        F3_E52: 8551a205-cd32-4eff-80e3-53a795835d04
       Facsimile:
         D2: 7d298411-cd67-41fc-aca4-38b191590b1d
         D1: 107fa9df-3607-4d31-9ba8-1892cb4bcdd0
@@ -49557,6 +50377,8 @@ Corpus:
         F2_E52: a074a24e-ae8f-4e7d-a7ad-a50fe88ea1ee
         F3: a513abdd-08ab-405f-b63a-b4b567e0ab65
         F5: 0249e505-0d86-44a2-94ab-6837d623b86f
+        F3_F30: cf4937f6-edc9-4e34-b9ab-a55861024c04
+        F3_E52: ab6b97fd-ccc2-42dc-bf5f-45c04dee9d11
       Facsimile:
         D2: da4feb2b-f289-4919-ad6e-b116a806bde5
         D1: 15456ef6-3340-42b0-b07e-be664f2859f1
@@ -49640,6 +50462,8 @@ Corpus:
         F2_E52: 4b44330c-943a-46c3-a105-27aa7386c6f7
         F3: a7184458-f11f-4b46-a6fb-1e03510241ab
         F5: 5dbecfab-4bec-4648-b090-960c1f9b7929
+        F3_F30: c29a5e57-7e74-4358-afae-a60c426b1a9b
+        F3_E52: 42f4bd6b-5ceb-4147-a871-3f4017fad883
       Facsimile:
         D2: a9e8ecd3-85a5-44b9-b769-dc47ccf613d7
         D1: 38015b13-ddf2-4e28-b8c4-59bb161bd722
@@ -49735,6 +50559,8 @@ Corpus:
         F2_E52: 351ec964-50bf-481d-8353-9b09365e8239
         F3: edfe5669-5e3e-44c9-9466-ce953ad8b613
         F5: 8d03b8dd-e24f-4631-9158-9d4f93bc0e9f
+        F3_F30: 2860f519-dba6-42ae-8b41-d6a541fe827d
+        F3_E52: 9e6f9a8f-81c5-44ae-9e1d-bf9d1abccd89
       Facsimile:
         D2: 6010ee40-7419-4873-86d0-e17f8c6938a3
         D1: 29dce273-7dae-46d4-ab21-cdca542ec67e
@@ -50160,6 +50986,8 @@ Corpus:
         F2_E52: 96531eba-eb46-4b42-92e5-e2b690af7f94
         F3: d32f78bb-c7bb-4f29-ad15-9915a6d14555
         F5: 536367c7-7acf-4d53-9921-0aa48f299bdb
+        F3_F30: f8a348ce-4367-459b-9cb2-e60da6610d15
+        F3_E52: e5e8f546-cf0f-41a1-9d0b-79c06a9d650e
       Facsimile:
         D2: 799c7e0a-6751-4269-9177-1e9138422e6b
         D1: 9a19e03b-94e6-4429-a646-5464244fc640
@@ -50291,6 +51119,8 @@ Corpus:
         F2_E52: 296f2379-481c-47ee-8a39-0d38b4202d25
         F3: b84b71e2-dae7-4564-91d4-e45c1177e961
         F5: 93885339-6432-4e7a-9a8b-45c034f1d054
+        F3_F30: cd0f44bc-5c37-4f5c-9b61-c51854ac656b
+        F3_E52: 51b07a24-72d4-41b4-9487-3b61eb172ad7
       Facsimile:
         D2: a8e9e051-aa2f-4ea8-93ca-369c22688d84
         D1: 6d4fddd9-4be0-430f-9391-76ca27e61855
@@ -50404,6 +51234,8 @@ Corpus:
         F2_E52: 7a55225a-7f58-4ba7-a9d4-1ce5eaedb010
         F3: 007d3ad4-232b-487b-93e1-dbfaab2273f3
         F5: 7bb2aed6-627f-478b-a25a-86c58e269c34
+        F3_F30: 18e6f1d9-9815-4ed8-a6e4-484728f682f3
+        F3_E52: 0dd1f7d4-dd72-4391-a298-9b62f56a322c
       Facsimile:
         D2: 347be1a2-6dfd-44dc-98f0-07bcf88d4cdf
         D1: 2f1a4f31-f61f-4f50-b17a-d266095da260
@@ -50469,6 +51301,8 @@ Corpus:
         F2_E52: e2750b54-6081-4eff-acf9-6867537f723a
         F3: 6a06183c-1c53-4b9a-b785-129db8c136b0
         F5: 821a9987-d6d8-4f8a-b425-bb52a05b7086
+        F3_F30: d0055605-ac66-4db2-a369-3800a157f84c
+        F3_E52: 15139636-93b6-434d-8e13-acbd640cdd95
       Facsimile:
         D2: f0232f70-c19b-42e4-8548-6ec88097d107
         D1: d5a09859-d631-468e-894b-647ec3409ec3
@@ -50558,6 +51392,8 @@ Corpus:
         F2_E52: 5e851fcb-a994-4f6c-9aff-55b5c7de3bd3
         F3: 0ee35a16-15f5-4852-8395-9b6dc274cbe4
         F5: 97d886ac-69d1-4bc6-b291-e9c2651b0bd1
+        F3_F30: 6b967f73-1f79-4d06-99f4-ff71352c2223
+        F3_E52: ad29ce8c-8ea3-4351-b16a-210e0a093051
       Facsimile:
         D2: 78f08f73-4492-4443-be1f-08fa6e46d5c6
         D1: e1bace35-b3f0-4550-938f-2addcacc452a
@@ -50671,6 +51507,8 @@ Corpus:
         F2_E52: bdeeab19-bef2-4395-b41a-1df7324c6b8e
         F3: fea3fc79-a74d-429b-90dc-3b55ef103c22
         F5: d5bc8c61-1639-47e5-848a-c357bdbfb3d8
+        F3_F30: cda89ee3-ecfb-4fa0-95ce-6f57319d7610
+        F3_E52: c9484d99-f4e4-49a1-b269-bffc5ec3cfc9
       Facsimile:
         D2: 81c2970c-6b17-4c3c-8270-e5f9173c995b
         D1: da91b188-c6f7-4ffc-91a4-4ff1f2d17797
@@ -50748,6 +51586,8 @@ Corpus:
         F2_E52: d97bd268-422e-4afd-9b54-349316d93966
         F3: 73c25ebd-e767-4adf-a424-d047348090d8
         F5: f1bf620e-7800-4116-814e-7882cfd638af
+        F3_F30: a15127cf-f204-4bed-b541-da5e6e508778
+        F3_E52: a26e7012-6c98-4ffa-863b-a8cab20ededc
       Facsimile:
         D2: 0707e5e1-0bfc-41f9-b15f-16b94ec4a6ea
         D1: ba90bd11-4540-464b-838c-a70539354a77
@@ -50855,6 +51695,8 @@ Corpus:
         F2_E52: 5bdab9e2-3b52-4264-876d-92e5d4898dbd
         F3: 8002700e-e626-422b-92fb-ef66a7d4665e
         F5: 105a8507-d565-4b17-a430-5ec132c4b708
+        F3_F30: fb8b5475-445c-4794-be8a-8d77f7b2a428
+        F3_E52: 304fcbdb-0439-4fd8-8eb0-3004f8f035c8
       Facsimile:
         D2: 182bf0bd-6c15-486d-81b2-ce26e6573431
         D1: a589ac68-87f8-405a-8a2d-b25ee5c52cb9
@@ -50938,6 +51780,8 @@ Corpus:
         F2_E52: e23d4e65-7fa5-4007-b5fb-80b91c96fe34
         F3: 860aa2a6-6204-4232-b3dc-bf863a870e29
         F5: faa2b755-9b0c-4983-be1d-1674e82c7f68
+        F3_F30: fe2b1f28-586a-4488-811d-2455fd8cb96f
+        F3_E52: f8486142-db44-4f03-aa40-98aeb2fd7fe5
       Facsimile:
         D2: 92992fb1-08eb-4659-b6f1-8f3026538452
         D1: ac70179a-047f-4120-9ac5-060001708ad4
@@ -50997,6 +51841,8 @@ Corpus:
         F2_E52: 1d29bc47-3e97-4f1c-bee1-089fa4ce9f4f
         F3: 536c4d4d-cc4e-4054-902c-37a26eda7fa9
         F5: 33ed8ee7-ef50-47ec-a473-a3ff2eb6370a
+        F3_F30: bf29cccd-e151-408d-9088-2b784391d6de
+        F3_E52: 687f90e5-7ce3-4342-82db-7e612add2f94
       Facsimile:
         D2: b298a69a-21a2-43f3-8436-7186dcea132b
         D1: 08167d8b-5cf6-4ad6-b378-bfd8b7f50805
@@ -51092,6 +51938,8 @@ Corpus:
         F2_E52: ee1064aa-27ea-4223-9199-caa2f8596768
         F3: de9cce60-effb-4fc0-905f-14baa6bb1271
         F5: 1357f7a9-e731-4f5d-8eae-92295cdfda95
+        F3_F30: fa604de3-f8e8-44ca-a293-32d2a1118ec0
+        F3_E52: 273f6b26-dd9f-4e26-8490-613bd68bf2cc
       Facsimile:
         D2: da871e59-34b0-4b26-9d19-f80c987d7646
         D1: 24d481a3-8df6-4e14-827d-7f86642d1720
@@ -51211,6 +52059,8 @@ Corpus:
         F2_E52: 910170ad-ce52-4aba-8646-4c8d3470b676
         F3: f13f61dc-ce59-4933-9f45-024bda92a185
         F5: 1bc7fabc-0e40-4000-8ab8-cc6f1a765ef1
+        F3_F30: 1eab395f-c51b-411f-a643-611b5ba335a8
+        F3_E52: 58158a95-44fb-4c94-83f3-e2296f786a3f
       Facsimile:
         D2: 57e5ae68-a7d8-45ec-bf3f-75801fd9c1d7
         D1: 124faf25-1c28-44ad-a1ab-6dc798294b2a
@@ -51294,6 +52144,8 @@ Corpus:
         F2_E52: 74bdac22-1b5c-4575-83f6-9833ddfb49e9
         F3: 39819cd8-6e95-4214-ac81-87a0bf083fe4
         F5: b60a74e4-2aac-4c86-8ec1-d2cf8c56df13
+        F3_F30: 9b99741e-33a8-457a-851a-9456af0c3e7f
+        F3_E52: 2603af91-36f9-4394-b3dc-ad204cf095c3
       Facsimile:
         D2: 00a20f79-b0d7-4b80-a553-a9eabf01e130
         D1: 98f910d2-f7ab-46c4-bece-802aec5d07ce
@@ -51353,6 +52205,8 @@ Corpus:
         F2_E52: d0720fd8-a9c6-46b7-a481-a083f2519d98
         F3: a36c0f0d-3f63-425f-99f3-93ca03c36509
         F5: 6d78bd3b-524d-440a-8439-babc551a46b1
+        F3_F30: 77eb9095-9279-4d25-abf6-4ad219eeb8be
+        F3_E52: 49095309-08d5-4024-b704-a4c4ea8ea371
       Facsimile:
         D2: 2f1304a7-e6be-4b76-bcbf-18db840a97d7
         D1: f3611fb5-567d-4f9f-a52a-5eecd24cb612
@@ -51418,6 +52272,8 @@ Corpus:
         F2_E52: e7cc6f55-f847-405f-9309-f5b2aa8e5a1c
         F3: 9127a6ec-49b2-45b8-ae4f-dcbfe947760b
         F5: 54ce15b0-a8ec-40c4-8018-f057b1d528f0
+        F3_F30: d7bb3505-f2f8-42f2-86da-1666a5c4808b
+        F3_E52: c7f2ad8b-09b6-46e0-bbc1-248c73491295
       Facsimile:
         D2: b50ca696-0117-40cd-a5fd-ed759781a4d8
         D1: 42251c6e-e699-4785-8771-7eff3522d27b
@@ -51531,6 +52387,8 @@ Corpus:
         F2_E52: 8d4fd2b8-d3b1-40d6-be9c-734b9175bfa8
         F3: 147c7cb9-a9c9-45fe-9ea2-6aa5ffc5a425
         F5: 9eb0c3e5-8d58-4f69-bdbe-b95e059898d3
+        F3_F30: d36f6df1-e956-4eb0-b6fd-16a887a644ce
+        F3_E52: a3cf7758-9e92-4c26-a94a-1f5f32f41c0f
       Facsimile:
         D2: a2366461-5275-4c91-a137-5bc0578559fe
         D1: f48c2b2e-5365-4dbb-8a2e-465c04a28b4c
@@ -51626,6 +52484,8 @@ Corpus:
         F2_E52: 5b024c27-220e-47d0-a04d-b1b0f4ccfc66
         F3: 88df721f-0cb6-4fe1-a44d-09b3b2214b9b
         F5: 68c705a6-f86a-4ed8-83c3-a0432f37c598
+        F3_F30: ba0f2bb8-86a0-4d64-acaf-4654f259ad56
+        F3_E52: 7134bd92-39da-424f-8a00-67573a750acf
       Facsimile:
         D2: 5bce5e99-95de-4286-a936-d7ab7a7cbe21
         D1: 42887302-9cff-4839-aa68-06403718ba2f
@@ -51727,6 +52587,8 @@ Corpus:
         F2_E52: 587056e5-3f8a-4859-b5c6-6d987d37e302
         F3: df5e7942-aac8-4f25-ada6-d9ca4d3d55dc
         F5: ff7d3530-fd0e-493a-907a-c701d7b93319
+        F3_F30: 991d8d98-0bd4-49dc-ab3b-9b4b83780ca4
+        F3_E52: 7abd82d3-a12a-4e52-a0da-fed3d4952b78
       Facsimile:
         D2: dc7dd6f8-67b7-4768-97ea-be8aa17b3c8b
         D1: a8f34ec4-1938-4814-992d-42a0952d884e
@@ -51792,6 +52654,8 @@ Corpus:
         F2_E52: cd951582-628d-42b9-a43a-a396a315bb0d
         F3: 535647d9-6174-4555-a116-05923b69ed02
         F5: 94cc50bb-f3ce-4666-a5f9-b3d0d8a97231
+        F3_F30: f115bb78-c1a1-4a24-809c-cffa95366079
+        F3_E52: 5374a7b1-e421-43ff-bccb-0857e390aa46
       Facsimile:
         D2: 9cfcfdd6-1fe1-4ba7-8b8c-a604737d2b31
         D1: 61bde960-925a-4433-8a98-5a311c01fc8f
@@ -51857,6 +52721,8 @@ Corpus:
         F2_E52: e1528d9e-fd0e-4b07-b8b5-438e60f5528f
         F3: 393601ad-dd44-4a5b-9916-d580e26bdb97
         F5: a4ad6aec-f395-4605-8b92-95f5388d0bd0
+        F3_F30: 7757360f-ef94-4b4b-97c8-0446d0680411
+        F3_E52: 38bdfd34-d10f-4966-b46e-d3f2d66dab96
       Facsimile:
         D2: 1a1cc5d4-ecfb-4369-99a3-d9740f3f9528
         D1: 49ddad12-2592-4a43-86c1-a33bc67fe905
@@ -51928,6 +52794,8 @@ Corpus:
         F2_E52: 8207d30d-05ac-4684-9f97-c8b2adeeb06f
         F3: 0e01c0ec-f227-437b-969f-bcc021f156c5
         F5: d17105f9-ac7e-4cf6-88a9-398131564509
+        F3_F30: 154fa5f7-ce17-4394-9e70-781d0f3a9cec
+        F3_E52: 8a1067d8-9251-4eb4-afe2-88d77afb9973
       Facsimile:
         D2: 9f01dea7-ca8c-4e7c-8b60-ab687082583a
         D1: d5253454-7120-402e-8a8d-eea9e49e92dd
@@ -52029,6 +52897,8 @@ Corpus:
         F2_E52: b87c3fe0-12dd-4228-9fd7-226d6bedd617
         F3: aa1005b2-6c4b-4151-b0be-ff9a3b73d9a2
         F5: 0613467c-c357-4c12-910b-c380c51401e8
+        F3_F30: d846d53d-1791-4479-9027-083cf0f48bed
+        F3_E52: 674fd2ea-c5f3-4ae4-8e4d-e185ca42049c
       Facsimile:
         D2: d0a06410-7af0-444c-88c7-73877c418ae8
         D1: b0c0e632-1778-4ed4-981b-917a852fad8a
@@ -52142,6 +53012,8 @@ Corpus:
         F2_E52: 08e3427f-8ebf-47fb-a41c-076517ced888
         F3: 879d0c60-011d-48e3-899d-9338ea8abf94
         F5: 5401cbda-b081-40ff-8284-86e0570bcc5a
+        F3_F30: 7cee330b-5599-4865-b651-68f8c9d34fb4
+        F3_E52: c772558d-86ec-4f4a-8540-83a5c586929a
       Facsimile:
         D2: d5e3e3fd-5b36-4608-80b4-d40b9f754855
         D1: 7efc5f86-1a5e-4c41-ba63-ac199bf2a8c1
@@ -52249,6 +53121,8 @@ Corpus:
         F2_E52: 90c1cffc-68b7-4eb3-8f92-d07c7b2bade2
         F3: 280ec18a-1e74-4952-84f8-4f4c6e46c4bd
         F5: 812f0fb5-2c4e-4ecb-bc1f-aa4553ebc18c
+        F3_F30: 6891991a-6be8-46da-ba88-607de4cf96f0
+        F3_E52: 2fc506a7-fb72-41a1-80ad-2c99a56d40d1
       Facsimile:
         D2: 0990945a-8091-4a84-b0e9-73bf3c670c11
         D1: f96f9429-50d8-4053-b64a-a8f92e001354
@@ -52326,6 +53200,8 @@ Corpus:
         F2_E52: c9f19b54-0994-4f50-be4a-5ad952021216
         F3: 312b3416-93d6-4d2e-b9b2-2d3474f7124b
         F5: b5321304-dd40-476d-9a7e-5052514fa2c1
+        F3_F30: d31a8656-04ce-4c93-b94b-125fc6555127
+        F3_E52: 0a23ffa3-95f6-412c-8e76-cafe8b655c8b
       Facsimile:
         D2: 11881051-2f72-4663-a975-10887a552b14
         D1: 430d2e7c-f608-4778-96ea-4d3d6a998fd0
@@ -52415,6 +53291,8 @@ Corpus:
         F2_E52: 9d1e21d2-701e-4b80-a814-a8d613041b9f
         F3: a547e664-a7ad-41a2-ade4-4566af31ffe5
         F5: 2e6a0442-8dc0-4d01-90d8-178300c87d41
+        F3_F30: 899d25fe-6ec5-4d41-bc20-36be1031c4d0
+        F3_E52: 0ba7d84a-893e-43c3-89a7-5d082e907532
       Facsimile:
         D2: c6591907-d833-480f-aebe-9dfa6f487521
         D1: e2ff2d13-4b25-47a9-b8ef-a9c403e6eb9f
@@ -52504,6 +53382,8 @@ Corpus:
         F2_E52: 26f35029-eead-4343-ac1d-fef0055f13a2
         F3: 837a7c14-604d-42e3-8af0-e7503b0f503a
         F5: b17996cb-e351-42cd-b4af-1f93888b6420
+        F3_F30: 009ff3d5-d975-49c7-ac75-eef667c1b395
+        F3_E52: b4fcc21e-7c3f-4f51-bb3d-0d19ac11d79d
       Facsimile:
         D2: 7a18cb07-b9a7-4a36-8ee2-170e02b46e73
         D1: ff70b5ba-ddfd-4313-a30d-a311fe622125
@@ -52593,6 +53473,8 @@ Corpus:
         F2_E52: 5e3eed35-3e00-47e3-860f-b1554fb18e43
         F3: d5744356-574e-4bf2-92ff-b8cbbb2370ba
         F5: 2dcaeefd-1abc-470d-9e62-2867b32941b3
+        F3_F30: 6c9ee330-a227-4970-a8f6-831ba03c5aab
+        F3_E52: 62127488-8e19-4cbe-b210-1a981b0f23ef
       Facsimile:
         D2: 12e3e957-e390-41f8-9305-c331fdf0bd10
         D1: f6d23646-51b9-437e-be5b-435c00d4e5a8
@@ -52700,6 +53582,8 @@ Corpus:
         F2_E52: 75edfdd7-0988-4e53-bb96-592f451a45b6
         F3: fa42b484-6921-4610-8797-533b3a0b5277
         F5: a5e6b1aa-a0d7-416b-86aa-7377bb164b55
+        F3_F30: 6962df26-62ab-4dc2-b8b8-fc292196d613
+        F3_E52: 5a841555-20e8-48ba-b96f-beac050b10dc
       Facsimile:
         D2: 389a138d-231f-4406-a43c-fbb44fe0e1a4
         D1: c5d5aa65-a7e0-464c-8677-ca677df3e568
@@ -52855,6 +53739,8 @@ Corpus:
         F2_E52: 5b20ee4f-3165-41aa-be6a-e36ac78f5862
         F3: b9d3a4e2-4431-4dda-92fe-2073b2b04237
         F5: 2b2928c9-e43a-408d-8642-cfaf051c9b01
+        F3_F30: 3d5e638e-faea-415e-b886-0235c7d4acd4
+        F3_E52: 62cf6406-5d1a-4d03-9196-438b2efc39e3
       Facsimile:
         D2: 549b9809-73f5-42b4-aa09-3b0eb817369c
         D1: 9d8e9011-ff8e-4c91-abdc-aca3374f8d6a
@@ -52986,6 +53872,8 @@ Corpus:
         F2_E52: 420886fd-1aef-48ee-9078-749cd915314d
         F3: a3cbf9ed-ff23-4a37-b254-5ad21f065f50
         F5: d06ce518-2351-433d-9d34-7f79a08e60a3
+        F3_F30: 6237a6be-cb3c-4a94-8281-d2a61140ac47
+        F3_E52: fe23aed8-ee31-40d9-bfde-674b101585d9
       Facsimile:
         D2: 8e65a988-f28b-40ed-b503-caaacc697599
         D1: 70808442-3e4c-462a-8866-8a8ba160c4df
@@ -53009,6 +53897,8 @@ Corpus:
         F2_E52: bdb1de5b-a322-4710-9b7c-a8e8823f68f1
         F3: 5f16e57e-3a96-4bde-83ed-5a3fe5c9cb58
         F5: 810854ef-70a6-4092-8a75-3466e1e39ee2
+        F3_F30: 4b5cc915-f7c8-419e-93b8-e304ead50bfd
+        F3_E52: a975d05c-1f81-42dd-b8bc-aa776ccc9f07
       Facsimile:
         D2: bede777d-7689-4639-a255-1e0b49a371d9
         D1: a48e2104-d855-4e88-90d9-c1f4b71d0a20
@@ -53110,6 +54000,8 @@ Corpus:
         F2_E52: a7b2d0fc-9144-42b0-b5fa-823e8eb6d35b
         F3: fd244129-16ad-4bfa-8416-b7394367cb40
         F5: 9775b20a-cf87-495f-87fe-1750816301f3
+        F3_F30: 3e0c5a01-e295-4041-907a-93e098db9333
+        F3_E52: 44296a7e-fc2a-404e-8262-655b727b4153
       Facsimile:
         D2: bbbd0fad-278e-434d-9677-889ebae76c28
         D1: bab73330-aadc-46e1-996a-d917589bb7dc
@@ -53241,6 +54133,8 @@ Corpus:
         F2_E52: af3b5ea0-d88a-404b-857b-968d329df806
         F3: 6dae184e-6568-437d-978f-f94ad0e1ff3e
         F5: 133b6398-2832-4dd9-ba3c-4b9378b9deea
+        F3_F30: 833e4318-d816-46e3-9b03-593b7a4710aa
+        F3_E52: 744b30b1-9fdb-4c1a-87b1-8a1d32294792
       Facsimile:
         D2: 5c977ae0-bee7-4398-8ea9-ba9b6c1d7b2e
         D1: 9b370c9f-eee4-4431-a100-a2d3345eab3b
@@ -53360,6 +54254,8 @@ Corpus:
         F2_E52: c0e47f6a-db70-4bf7-a16f-3f8e634b7ebd
         F3: 402b7487-c6a1-4e4b-a3d3-cf92536613ce
         F5: 71170b74-faea-48ea-9257-7a520d72453c
+        F3_F30: 5d81aca6-cf97-493f-8f5e-2f5ffb87bf8f
+        F3_E52: 0832aec1-e479-4cdf-a8ec-c584489a84b2
       Facsimile:
         D2: 5eed54a5-49ae-4f02-a6ad-bdd7649e3a2b
         D1: 0c81d711-d61c-497b-97e6-6e99c15a182c
@@ -53437,6 +54333,8 @@ Corpus:
         F2_E52: d3a6dcf5-e394-4a24-8946-718966a042ae
         F3: f078d07e-34ec-49ee-9df9-b821f7898601
         F5: 7e29e518-0d01-4251-9b93-97fc37fb29e4
+        F3_F30: 73e8f48c-d317-419c-afcd-4cb86de43a4d
+        F3_E52: 947d8963-32b0-4142-9d8b-d54758e056bd
       Facsimile:
         D2: 2b3f8649-03f4-4af5-8243-fcabf3f0bed5
         D1: 893c69b0-b1bb-4dba-b887-f1e82adbef3e
@@ -53532,6 +54430,8 @@ Corpus:
         F2_E52: e813b6a4-d39b-4b7c-a790-723a2d38090b
         F3: 970dd6b6-96ac-47c6-ab20-cfd8bfc05201
         F5: 556888e6-36b6-4a7d-9b54-9f9bc6bd7b84
+        F3_F30: 3ee85c84-3f93-4d6a-a620-d2e26b3a0af1
+        F3_E52: 37416f93-2546-4ea3-83bf-2d32f402f4dd
       Facsimile:
         D2: dea53be9-7e46-4f92-b704-ee753622542b
         D1: 537bd020-3add-49fa-8478-9b4f409cca43
@@ -53603,6 +54503,8 @@ Corpus:
         F2_E52: 7c04e531-a112-4a99-bc31-5696c9c8cb51
         F3: cb8c516d-604d-495e-b2d0-4dab0948bc36
         F5: 913cae9a-b51a-4da9-a880-5ff72baef9bc
+        F3_F30: 6955836d-dc98-40d6-bc44-cadf884fdb7f
+        F3_E52: 29d5897e-3579-47b8-b2a4-0053440f688d
       Facsimile:
         D2: 0028db10-53d8-449f-8736-15c8a66d1499
         D1: 86028f17-5888-45dd-9f19-7f3ea9dd27f5
@@ -53710,6 +54612,8 @@ Corpus:
         F2_E52: 72ebb251-323e-44fe-a3ed-a57b95e602d0
         F3: 3b8762d7-7aea-4981-b67e-f8ac958b2473
         F5: c55094de-38fd-4d71-bbf7-4cc9aa3ac04f
+        F3_F30: c189dae5-13ea-467f-8892-2ea3159cf1ba
+        F3_E52: 0a5a3561-5e7f-443d-99e5-ffbaec722139
       Facsimile:
         D2: 6e348e51-0758-48fd-9d9c-186d7c870e46
         D1: a99f4b54-d49b-463c-a381-615a1fbc792b
@@ -53817,6 +54721,8 @@ Corpus:
         F2_E52: cbd1bc61-0eee-4c79-955c-1531be174edb
         F3: 76f68450-a7a2-4fb0-8df3-82394e4ff51d
         F5: 3eb5b58f-aa53-4c38-981f-d8fba0647ecf
+        F3_F30: 7891c89d-0071-4ff8-a585-98f347a0ffbc
+        F3_E52: dee93fc3-17be-4a82-a87f-093cf7e748c6
       Facsimile:
         D2: 3b5372fe-c844-4097-a22c-5c7330d4128b
         D1: de11272a-3fbf-4290-85b0-b8d667f343e1
@@ -53888,6 +54794,8 @@ Corpus:
         F2_E52: cfab6bdb-8333-408d-8ff2-ab9cbca68abd
         F3: 9b6da791-d96b-4db0-b3c5-a56f66a19ad8
         F5: 45ca0080-9d48-45cb-9c0c-ee69290f1de7
+        F3_F30: e4d88760-831a-411c-bbb3-a02664fa5808
+        F3_E52: 298e3a04-c619-4e78-b50b-4e6c3d23b3a5
       Facsimile:
         D2: dae4a3d3-152b-4a32-b321-2276b28b3405
         D1: 3f60fafe-da1f-4915-b3b1-085d4ac182b0
@@ -53965,6 +54873,8 @@ Corpus:
         F2_E52: 82f6218c-e406-4df1-99fc-3aa84d2b32d0
         F3: 03be4220-274b-455c-91d8-d067ad5bfe9e
         F5: 9404c112-e579-4ce1-b538-ebe7dbffa737
+        F3_F30: 4bffdf67-3391-46ae-b2a2-4253c9626ae4
+        F3_E52: 46c1ae4e-2463-496f-a1ea-5cea10023aee
       Facsimile:
         D2: d2c17892-49ca-4caf-8857-03899d0f6060
         D1: f2b254db-fca0-4477-988f-022512b15482
@@ -54060,6 +54970,8 @@ Corpus:
         F2_E52: 2f83a73c-24a7-4b16-9549-a2a4bd3511f6
         F3: c77ee090-60bb-4e10-b0f7-6a875599c368
         F5: d6587d7e-1495-4bd4-b795-9eab023f2d23
+        F3_F30: 2a10a039-b7e8-40bb-97ba-79e430514fd3
+        F3_E52: caff825e-3ca5-448d-af2f-55c0b976be86
       Facsimile:
         D2: 25e4ac2a-d44e-4f4c-8a47-319d027e7993
         D1: 6a4daa45-346d-470c-a473-308a66ac7762
@@ -54137,6 +55049,8 @@ Corpus:
         F2_E52: 33628874-864b-424f-8054-2736003f3618
         F3: 8eea52e3-b4ae-4829-afd2-173f04fac4c3
         F5: a949a7d1-aeea-4dfc-903a-0f49b93ef89d
+        F3_F30: c9447122-7ee0-4fe3-b1fe-5e3296090dfb
+        F3_E52: 63bcaba8-4d64-419b-af99-7aed60cc4fdd
       Facsimile:
         D2: c520c5c4-412a-4080-891c-041bdcd3422d
         D1: 126a0aef-1e95-4d7a-8bee-14cd9b613640
@@ -54190,6 +55104,8 @@ Corpus:
         F2_E52: 56193698-2935-44ab-a21b-37183373114d
         F3: b07d6e1d-ac61-4adb-a5b6-0316bd601b01
         F5: 251e1d1f-4443-439e-90ff-7d9f71262918
+        F3_F30: 85113e23-c85b-4070-9538-384df3e7e649
+        F3_E52: 199f5a00-025e-468e-9752-0f4748014c4f
       Facsimile:
         D2: 621876fa-4fb2-4619-89b6-ef3277eb6a33
         D1: f9e7618c-e97f-4b9c-a35b-b4bafc80b2ad
@@ -54273,6 +55189,8 @@ Corpus:
         F2_E52: 60362d39-49f5-4545-8511-03b500205178
         F3: e7dedccb-784d-47ad-8930-7e0c9dc0b3ef
         F5: 1d2fd1b0-14f0-40d9-9b03-bb88512b3f9f
+        F3_F30: 046a895e-3bd3-447a-87e1-b63400060fa6
+        F3_E52: 3c5593ec-3e12-4250-8c05-96dfc4272c98
       Facsimile:
         D2: 36c46e0a-fa04-4b4c-98d0-bcdc98d4e52b
         D1: 173b0043-6ad5-45c5-8811-39372a2c50a1
@@ -54338,6 +55256,8 @@ Corpus:
         F2_E52: f8472100-a962-4489-bf30-5f2b5fdd1aea
         F3: 7d8c51db-8280-4eb5-b095-b9b6538f18c6
         F5: 2f77e27d-7571-401e-b44d-d0fa3ab6ee9e
+        F3_F30: 400e7523-1b41-4ae9-a8bf-ccdf104d2ed3
+        F3_E52: 7fb83921-63fc-47d8-9eed-3d0317c70daf
       Facsimile:
         D2: bc22bf11-868e-40dc-bb97-1cf281460b64
         D1: 015ffbb4-bcee-49f9-9308-ac67fe3a172c
@@ -54409,6 +55329,8 @@ Corpus:
         F2_E52: f0be8b39-b0b1-431f-b9c2-3bcf7111803c
         F3: f5b4f23e-f6a5-413a-b65b-2570a080f90a
         F5: 89e2664c-617a-48e7-8c3e-25bcbfc69252
+        F3_F30: a0e60811-9d77-40b4-961b-b707ef0690d2
+        F3_E52: e1fe4982-3640-465e-b6f0-0658cd096a51
       Facsimile:
         D2: bb0e3c61-b204-464a-a830-18d07c9852d7
         D1: 87a94449-2c20-4baf-8633-03f7aaa08733
@@ -54486,6 +55408,8 @@ Corpus:
         F2_E52: 6e585739-d85a-46b2-ada5-6042e3a20b70
         F3: c2d506ea-25e0-4737-a511-29fbe84243ce
         F5: c7ed956f-f0c8-4400-9643-35e035164104
+        F3_F30: 0ace2ff0-bf8a-4930-90c0-8ddf46375cad
+        F3_E52: 138256da-abd0-4937-996c-2cadb35cf92e
       Facsimile:
         D2: a7d8177d-6430-4041-a92b-98f1536681dc
         D1: 756047bd-550c-4052-ad92-d23435b0014a
@@ -54557,6 +55481,8 @@ Corpus:
         F2_E52: d2b842d4-c6f4-4270-819e-d0200809dfe2
         F3: ccb786dc-5f6c-44aa-b775-64c69d325ace
         F5: 20fd74cf-72d2-44fc-ae7c-c0cfd98105ef
+        F3_F30: c6402e25-6adb-41fe-b3d9-22081540a309
+        F3_E52: b0a6e440-c196-4da8-b489-ed75b33240dd
       Facsimile:
         D2: b7ca2816-11d3-46ae-ba4b-dd067008cbf6
         D1: 3389a253-1c73-4783-acc1-c96afef7eb19
@@ -54616,6 +55542,8 @@ Corpus:
         F2_E52: 2bad2dbb-b1b0-4476-a87c-5544499bdea5
         F3: a477f0bc-d20e-4bcc-87a5-c8db3a649617
         F5: 47cf1c64-9dd1-45f5-b92d-4ed930b449ff
+        F3_F30: 8a0a2c91-3ced-4128-a6dd-b6c1fe115396
+        F3_E52: 6bcd7fbc-b732-461d-9a71-f1768d3fc051
       Facsimile:
         D2: b10b1986-762d-44cc-b4c6-36f89a67d52e
         D1: f657becd-9643-4f5c-a746-09146a0156b1
@@ -54675,6 +55603,8 @@ Corpus:
         F2_E52: e772e485-6fce-477a-9473-5032ad640230
         F3: df4d52a9-79cb-48ba-bef3-a68f8cf26275
         F5: df54c2c9-f103-4e36-b5e8-7f2b6d891c5a
+        F3_F30: e2ccbccb-0410-48b3-bebe-5aec5af37a78
+        F3_E52: e9468d33-f25d-48f1-a93a-1a769bd1d87b
       Facsimile:
         D2: 1590c52c-3d41-4fc4-ae6c-731d24174a97
         D1: 2f2f4ec6-3380-4715-b761-eada3dd61031
@@ -54734,6 +55664,8 @@ Corpus:
         F2_E52: fdecb412-dc56-42db-bdea-c972a5b5bd7f
         F3: e9b76a3f-8a51-40bf-8c30-795726324ee5
         F5: 711c84ed-a8d2-4ee6-91e5-dea1f66711a4
+        F3_F30: 97eabe5b-5492-44a4-9c4a-51e995022846
+        F3_E52: 9b173cb6-2535-43f2-995c-ec132a0a80f9
       Facsimile:
         D2: 6b0b7864-bd27-4824-b02f-99fa7c728a35
         D1: c78d076c-275f-4d2a-8c84-49dae35fb900
@@ -54805,6 +55737,8 @@ Corpus:
         F2_E52: a834ba89-666e-4963-953c-af06091be91f
         F3: b2c9a94e-ba91-4f66-b551-ba90f7d57d9b
         F5: cf4b6d22-5de0-4ebc-9341-b995b17f6bce
+        F3_F30: ee88eaaf-bcca-4796-a4ae-52848a0c8ff5
+        F3_E52: f2cc9f7e-214c-415c-af1b-a7a4cc8702b8
       Facsimile:
         D2: 807af30f-076d-4205-bab9-321b28ed83b8
         D1: 6dc01a93-2142-49eb-b797-e0202122ab59
@@ -54870,6 +55804,8 @@ Corpus:
         F2_E52: f8cf4f07-b6ca-4da2-81f3-35f3875b7269
         F3: 2e4a849b-f56c-4eb0-8b2d-7e819610e375
         F5: 1c1f6e99-4064-4a8e-99ee-8c175bc514a6
+        F3_F30: 1da0436c-d7c6-418b-859a-e2d07dfc6f87
+        F3_E52: 9b8ad43a-b5dd-4ea0-876e-099d079faeaa
       Facsimile:
         D2: 38e49249-3293-4a81-915c-500a96a3e2b2
         D1: 69751602-0396-4d12-8eb5-d7d810a48bab
@@ -54941,6 +55877,8 @@ Corpus:
         F2_E52: c168f088-8419-4ac5-9341-9ccb5e7394f4
         F3: 5f0e3081-c169-4b27-a578-dd530f873926
         F5: 7f280bd7-c44b-4426-b67b-0ac2ef088a1d
+        F3_F30: 092de9e8-8b3a-470f-80a8-8fab205ce446
+        F3_E52: 26b31be3-9336-41ea-bdf4-2e201fe7b889
       Facsimile:
         D2: 1e681cdb-b5fe-4f42-85f4-183ef5cfc484
         D1: 741fef2f-a937-48c4-9069-d0c6e3cf9f12
@@ -54982,6 +55920,8 @@ Corpus:
         F2_E52: 68d5ff65-e210-4556-bd88-9dc034c1cf86
         F3: 67617758-9798-47ce-a10d-c2380fcf12a0
         F5: 50706e47-a00c-4f3a-a89d-84551a41f92d
+        F3_F30: 7fd8b6da-30fe-4c0c-ac82-e81a80f45a98
+        F3_E52: bedffb4c-bd18-42b2-ba01-a8ef87e95c48
       Facsimile:
         D2: 238b0f6e-dbbf-46a9-95fd-1d1a19efef40
         D1: 6d611007-d35e-410d-bcc1-d194fe0da55b
@@ -55089,6 +56029,8 @@ Corpus:
         F2_E52: a471b19a-5eb0-4caf-aaa2-be28a8d5bb14
         F3: 1b44fdc4-0df6-48d4-81a2-f9eb9e50bd31
         F5: 97744d36-68df-4ad7-83a8-c72e2a5c947b
+        F3_F30: 47b21518-8d34-4c0b-87c2-af4b7689ab85
+        F3_E52: 6d78aed3-a801-458f-8c93-0a68690588c5
       Facsimile:
         D2: 478747e8-6f79-4e9d-9bb0-7cdb2c54610e
         D1: 14c2d3ed-0037-4364-93d6-7d1ff23df52b
@@ -55172,6 +56114,8 @@ Corpus:
         F2_E52: 94927663-dcf4-4788-a442-9394e1b94261
         F3: 2067ad74-2b96-4e0b-8710-8315f5827b0b
         F5: 1c834288-9655-43a0-b35e-efb951480453
+        F3_F30: 8554cdba-cc83-4f53-84c4-158cd0e572d2
+        F3_E52: 2f773cef-f73e-49fb-a763-49f31b9949a3
       Facsimile:
         D2: 247ec957-34fc-4fd5-851e-15fc426ae349
         D1: 8b92fb93-1201-455d-a99f-33c7f29638f3
