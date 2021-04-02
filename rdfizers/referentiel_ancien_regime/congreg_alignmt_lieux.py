@@ -1,5 +1,6 @@
 from rdflib import Graph, Literal
 from rdflib.plugins import sparql
+import re
 
 ############################################################################################
 # RECHERCHE DES CONGREGATIONS DONT L'ALIGNEMENT AU REFERENTIEL DES LIEUX N'A PAS FONCTIONNE
@@ -28,4 +29,11 @@ for id in list:
 	for row in output_graph.query(q, initBindings={'concept_id': concept_id}):
 		print(row[0])
 
+
+	# lieux = ["vienne [Viennois]", "toul", "toulouse", "ris", "paris"]
+	# congregations = ["evque de vienne", "truc de toul", "truc de toulouse", "truc à ris", "bidule au truc de Paris"]
+	# for lieu in lieux:
+	# 	for congreg in congregations:
+	# 		if re.search(rf"('| de | la | le | a | du )({lieu} )|( {lieu}$)", congreg, re.IGNORECASE):
+	# 			print(lieu, "  -  ", congreg)
 

@@ -12,7 +12,7 @@ from sherlockcachemanagement import Cache
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--inputrdf")
-parser.add_argument("--outputttl")
+parser.add_argument("--output_ttl")
 parser.add_argument("--cache_lieux")
 parser.add_argument("--cache_corpus")
 parser.add_argument("--label_uuid")
@@ -95,7 +95,7 @@ def census_label_uuid(label, uuid):
 
     if label in label_uuid:
         if uuid not in label_uuid[label]:
-            print("HOMONYMIE :", label, uuid, label_uuid[label])
+            #print("HOMONYMIE :", label, uuid, label_uuid[label])
             label_uuid[label].append(uuid)
     else:
         label_uuid[label] = [uuid]
@@ -286,7 +286,9 @@ explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
 # ECRITURE DU CACHE ET DES TRIPLETS
 ####################################################################################
 
-output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
+with open(args.output_ttl, "wb") as f:
+    f.write(serialization)
 cache_corpus.bye()
 cache_lieux.bye()
 

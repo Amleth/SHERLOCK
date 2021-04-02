@@ -215,6 +215,8 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
             continue
         t(E74_uri, SKOS.exactMatch, exactMatch)
 
-output_graph.serialize(destination=args.outputttl, format="turtle", base="http://data-iremus.huma-num.fr/id/")
+serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
+with open(args.outputtttl, "wb") as f:
+    f.write(serialization)
 cache_corpus.bye()
 cache_institutions.bye()
