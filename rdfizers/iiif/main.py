@@ -123,106 +123,112 @@ if collection_row[3].value == "Livre":
     t(livre_F27, lrm("R16_initiated"), livre_F1)
     t(livre_F27, crm("P14_carried_out_by"), Literal(collection_row[7].value))
     if collection_row[8].value != None:
-        livre_E52 = she(cache_40CM.get_uuid(["collection", "livre", "E52"], True))
-        t(livre_F27, crm("P4_has_time-span"), livre_E52)
-        t(livre_E52, crm("P80_end_is_qualified_by"), Literal(collection_row[8].value))
+        livre_F27_E52 = she(cache_40CM.get_uuid(["collection", "livre", "F27_E52"], True))
+        t(livre_F27, crm("P4_has_time-span"), livre_F27_E52)
+        t(livre_F27_E52, crm("P80_end_is_qualified_by"), Literal(collection_row[8].value))
 
     # Expression
     livre_F2 = she(cache_40CM.get_uuid(["collection", "livre", "F2"], True))
     t(livre_F1, lrm("R3_is_realised_in"), livre_F2)
     t(livre_F2, a, lrm("F2_Expression"))
     # Expression Creation
-    if index["I5"].value or index["K5"].value != None:
-        livre_F28 = she(cache_40CM.get_uuid(["collection", "livre", "F28"], True))
-        t(livre_F28, a, lrm("F28_Expression_Creation"))
-        t(livre_F28, lrm("R17_created"), livre_F2)
-        if index["I5"].value != None:
-            t(livre_F28, crm("P14_carried_out_by"), Literal(index["I5"].value))
-        if index["K5"].value != None:
-            t(livre_F28, DCTERMS.date, Literal(index["K5"].value, datatype=XSD.date))
+    livre_F28 = she(cache_40CM.get_uuid(["collection", "livre", "F28"], True))
+    t(livre_F28, a, lrm("F28_Expression_Creation"))
+    t(livre_F28, lrm("R17_created"), livre_F2)
+    t(livre_F28, crm("P14_carried_out_by"), Literal(collection_row[7].value))
+    if collection_row[9].value != None:
+        livre_F28_E52 = she(cache_40CM.get_uuid(["collection", "livre", "F28_E52"], True))
+        t(livre_F28, crm("P4_has_time-span"), livre_F28_E52)
+        t(livre_F28_E52, crm("P80_end_is_qualified_by"), Literal(collection_row[9].value))
 
     # Manifestation
     livre_F3 = she(cache_40CM.get_uuid(["collection", "livre", "F3"], True))
     t(livre_F3, a, lrm("F3_Manifestation"))
     t(livre_F3, lrm("R4_embodies"), livre_F2)
+    ## Manifestation Creation
+    livre_F30 = she(cache_40CM.get_uuid(["collection", "livre", "F30"], True))
+    t(livre_F30, a, lrm("F30_Manifestation_Creation"))
+    t(livre_F30, lrm("R24_created"), livre_F3)
+    t(livre_F30, crm("P92_brought_into_existence"), livre_F2)
+    if collection_row[10].value != None:
+        livre_F30_E52 = she(cache_40CM.get_uuid(["collection", "livre", "F30_E52"], True))
+        t(livre_F30, crm("P4_has_time-span"), livre_F30_E52)
+        t(livre_F30_E52, crm("P80_end_is_qualified_by"), Literal(collection_row[10].value))
     # Item
     livre_F5 = she(cache_40CM.get_uuid(["collection", "livre", "F5"], True))
     t(livre_F5, a, lrm("F5_Item"))
     t(livre_F5, lrm("R7_is_materialization_of"), livre_F3)
-    # AJOUT D'UN F32 OU REDONDANT AVEC LE F28?
-
-    serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-    with open(args.output_ttl, "wb") as f:
-        f.write(serialization)
-    cache_40CM.bye()
-
-    sys.exit()
 
     #####################################################################
     # LES PAGES DE LA PUBLICATION
     #####################################################################
 
-    # def id_page(coord):
-    #     pass
-    #     # id = img[coord].value
-    #     # try:
-    #     #     # La page comme support physique
-    #     #     page_E18 = she(cache_40CM.get_uuid(["collection", "livre", id, "E18"], True))
-    #     #     t(page_E18, a, crm("E18_Physical_Object"))
-    #     #     t(livre_F5, crm("P46_is_composed_of"), page_E18)
+    img_row = None
 
-    #     #     # La page comme support sémiotique
-    #     #     page_E90 = she(cache_40CM.get_uuid(["collection", "livre", id, "E90"], True))
-    #     #     t(page_E90, a, crm("E90_Symbolic_Object"))
-    #     #     t(livre_F2, lrm("R15_has_fragment"), page_E90)
-    #     #     t(page_E18, crm("P128_carries"), page_E90)
+    for row in img:
+        if row[1].value == args.collection_id:
+            img_row = row
+            id = img_row[0].value
 
-    #     #     # Identifiant
-    #     #     page_E42 = she(cache_40CM.get_uuid(["collection", "livre", id, "E42"], True))
-    #     #     t(page_E42, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
-    #     #     t(page_E90, crm("P1_is_identified_by"), page_E42)
-    #     #     t(page_E42, RDFS.label, Literal(img[""].value, datatype=XSD.integer))
+            #La page comme support physique
+            page_E18 = she(cache_40CM.get_uuid(["collection", "livre", "pages", id, "E18"], True))
+            t(page_E18, a, crm("E18_Physical_Object"))
+            t(livre_F5, crm("P46_is_composed_of"), page_E18)
 
-    #     #     # Numérisation de la page
-    #     #     page_D2 = she(cache_40CM.get_uuid(["collection", "livre", "D2"], True))
-    #     #     t(page_D2, a, crmdig("D2_Digitization_Process"))
-    #     #     t(page_D2, crmdig("L1_digitized"), page_E18)
-    #     #     page_D1 = she(cache_40CM.get_uuid(["collection", "livre", id, "D1"], True))
-    #     #     t((page_D1), a, crmdig("D1_Digital_Object"))
-    #     #     t(page_D2, crmdig("L11_had_output"), page_D1)
-    #     #     t(page_D1, crm("130_shows_features_of"), page_E90)
-    #     #     t(collection, crm("P106_is_composed_of"), page_D1)
+            # La page comme support sémiotique
+            page_E90 = she(cache_40CM.get_uuid(["collection", "livre", "pages", id, "E90"], True))
+            t(page_E90, a, crm("E90_Symbolic_Object"))
+            t(livre_F2, lrm("R15_has_fragment"), page_E90)
+            t(page_E18, crm("P128_carries"), page_E90)
 
-    #     #     # Transcription de la page TO DO
+            # Identifiant
+            page_E42 = she(cache_40CM.get_uuid(["collection", "livre", "pages", id, "E42"], True))
+            t(page_E90, crm("P1_is_identified_by"), page_E42)
+            t(page_E42, RDFS.label, Literal(id))
 
-    #     #     id_page(row + 1, column)
-    #     # except:
-    #     #     pass
+            #Numéro de la page
+            page_E42_numero = she(cache_40CM.get_uuid(["collection", "livre", "pages", id, "E42_numéro"], True))
+            t(page_E42_numero, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
+            t(page_E90, crm("P1_is_identified_by"), page_E42_numero)
+            t(page_E42_numero, RDFS.label, Literal(img_row[3].value))
 
-    # id_page("A5")
+            # Numérisation de la page
+            page_D2 = she(cache_40CM.get_uuid(["collection", "livre", "pages", "D2"], True))
+            t(page_D2, a, crmdig("D2_Digitization_Process"))
+            t(page_D2, crmdig("L1_digitized"), page_E18)
+            page_D1 = she(cache_40CM.get_uuid(["collection", "livre", "pages", id, "D1"], True))
+            t((page_D1), a, crmdig("D1_Digital_Object"))
+            t(page_D2, crmdig("L11_had_output"), page_D1)
+            t(page_D1, crm("130_shows_features_of"), page_E90)
+            t(collection, crm("P106_is_composed_of"), page_D1)
+
+            # Transcription de la page TO DO
 
 #####################################################################
-# 2. DES IMAGES INDIVIDUELLES
+# 2. UNE COLLECTION D'IMAGES INDIVIDUELLES
 #####################################################################
 
-# if index["TODO"].value == "Images":
+if collection_row[3].value == "Images":
 
-#     def id_img(coord):
-#         sheet_img = wb_index.sheet_by_index(0)
-#         id = sheet_img.cell_value(coord)
-#         try:
-#             # L'image comme support physique
-#             image_E22 = she(cache_40CM.get_uuid(["collection", id, "E22"], True))
-#             t(image_E22, a, crm("E22_Human-Made_Object"))
+    img_row = None
 
-#             # L'image comme support sémiotique
-#             image_E36 = she(cache_40CM.get_uuid(["collection", id, "E36"], True))
-#             t(image_E22, crm("P65_shows_visual_item"), )
+    for row in img:
+        if row[1].value == args.collection_id:
+            img_row = row
+            id = img_row[0].value
 
-#             id_img(row + 1, column)
-#         except:
-#             pass
+            # L'image comme support physique
+            image_E22 = she(cache_40CM.get_uuid(["collection", id, "E22"], True))
+            t(image_E22, a, crm("E22_Human-Made_Object"))
 
-#     id_img(4, 2)
+            # L'image comme support sémiotique
+            image_E36 = she(cache_40CM.get_uuid(["collection", id, "E36"], True))
+            t(image_E22, crm("P65_shows_visual_item"), image_E36)
 
+            # TODO A TERMINER AVEC EXEMPLE DES GRAVURES DU MERCURE GALANT
+
+serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
+with open(args.output_ttl, "wb") as f:
+    f.write(serialization)
+cache_40CM.bye()
 
