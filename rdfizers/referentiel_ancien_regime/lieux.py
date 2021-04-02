@@ -95,7 +95,7 @@ def census_label_uuid(label, uuid):
 
     if label in label_uuid:
         if uuid not in label_uuid[label]:
-            print("HOMONYMIE :", label, uuid, label_uuid[label])
+            #print("HOMONYMIE :", label, uuid, label_uuid[label])
             label_uuid[label].append(uuid)
     else:
         label_uuid[label] = [uuid]

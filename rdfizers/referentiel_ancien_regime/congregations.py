@@ -31,7 +31,6 @@ input_graph = Graph()
 input_graph.load(args.input_rdf)
 
 output_graph = Graph()
-output_graph.load(args.output_ttl, format="turtle")
 
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
@@ -124,29 +123,8 @@ def explore(concept, depth):
             t(E41_alt_uri, RDFS.label, altLabel)
             t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
 
-
-<<<<<<< HEAD
-    #ALIGNEMENT AU REFERENTIEL DES LIEUX - SOUCI D'ENCODAGE
-
-    with open(args.situation_geo, "r", encoding="utf-8") as txt:
-        texte = txt.read()
-        if re.search(f"\n{concept_id}\s", texte):
-            #print(concept_id)
-            for prefLabel in ro_list(concept, SKOS.prefLabel):
-                with open(args.cache_lieux_uuid, "r", encoding="utf-8") as file:
-                    input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
-                    for cle in input_yaml_parse.keys():
-                        #print(cle)
-                        #if re.search(rf"{cle}$", prefLabel, re.IGNORECASE):
-                        if cle in prefLabel.lower():
-                            lieu_uuid = input_yaml_parse[cle][0]
-                            print(cle, "  -  ", lieu_uuid, "  -  ", prefLabel)
-                            #t(she(lieu_uuid), she("sheP_situation_géohistorique"), E74_uri)
-
-=======
     #ALIGNEMENT AU REFERENTIEL DES LIEUX
     liste = open(args.situation_geo, "r", encoding="utf-8").read()
->>>>>>> 9269b31eee997797d334de49df87e3112218bd58
 
     if concept_id in liste:
         for prefLabel in ro_list(concept, SKOS.prefLabel):
@@ -154,7 +132,6 @@ def explore(concept, depth):
                 input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
                 for cle in input_yaml_parse.keys():
                     lieu = re.sub(r"(\s\[.*)|(\s\(.*)", " ", cle)
-                    print(lieu)
                     if re.search(rf"('| de | la | le | a ){lieu}$", prefLabel, re.IGNORECASE):
                         lieu_uuid = input_yaml_parse[cle][0]
                         t(E74_uri, she("sheP_situation_géohistorique"), she(lieu_uuid))
