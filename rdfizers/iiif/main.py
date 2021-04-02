@@ -108,7 +108,7 @@ t(collection, crm("P105_right_held_by"), she("48a8e9ad-4264-4b0b-a76d-953bc9a344
 # 1. UNE PUBLICATION NUMERISEE
 #####################################################################
 
-if collection_row[3] == "Livre":
+if collection_row[3].value == "Livre":
 
     # Work
     livre_F1 = she(cache_40CM.get_uuid(["collection", "livre", "F1"], True))
@@ -122,12 +122,10 @@ if collection_row[3] == "Livre":
     t(livre_F27, a, lrm("F27_Work_Conception"))
     t(livre_F27, lrm("R16_initiated"), livre_F1)
     t(livre_F27, crm("P14_carried_out_by"), Literal(collection_row[7].value))
-    if index["J5"].value != None:
-        # E52 OU DCTERMS:DATE?
-        # livre_E52 = she(cache_40CM.get_uuid(["collection", "livre", "E52"], True))
-        # t(livre_F27, crm("P4_has_time-span"), livre_E52)
-        # t(livre_E52, DCTERMS.date, Literal(index.cell_value(4, 9)))
-        t(livre_F27, DCTERMS.date, Literal(index["J5"].value, datatype=XSD.date))
+    if collection_row[8].value != None:
+        livre_E52 = she(cache_40CM.get_uuid(["collection", "livre", "E52"], True))
+        t(livre_F27, crm("P4_has_time-span"), livre_E52)
+        t(livre_E52, crm("P80_end_is_qualified_by"), Literal(collection_row[8].value))
 
     # Expression
     livre_F2 = she(cache_40CM.get_uuid(["collection", "livre", "F2"], True))
@@ -152,6 +150,11 @@ if collection_row[3] == "Livre":
     t(livre_F5, a, lrm("F5_Item"))
     t(livre_F5, lrm("R7_is_materialization_of"), livre_F3)
     # AJOUT D'UN F32 OU REDONDANT AVEC LE F28?
+
+    serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
+    with open(args.output_ttl, "wb") as f:
+        f.write(serialization)
+    cache_40CM.bye()
 
     sys.exit()
 
@@ -222,7 +225,4 @@ if collection_row[3] == "Livre":
 
 #     id_img(4, 2)
 
-serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.output_ttl, "wb") as f:
-    f.write(serialization)
-cache_40CM.bye()
+

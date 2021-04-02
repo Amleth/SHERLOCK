@@ -132,8 +132,8 @@ def explore(concept, depth):
                 input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
                 for cle in input_yaml_parse.keys():
                     lieu = re.sub(r"(\s\[.*)|(\s\(.*)", " ", cle)
-                    if re.search(rf"('| de | la | le | a ){lieu}$", prefLabel, re.IGNORECASE):
-                        lieu_uuid = input_yaml_parse[cle][0]
+                    if re.search(rf"('| de | la | le | a | du )({lieu} )|( {lieu}$)", prefLabel, re.IGNORECASE):
+                        lieu_uuid = input_yaml_parse[lieu][0]
                         t(E74_uri, she("sheP_situation_géohistorique"), she(lieu_uuid))
 
 
