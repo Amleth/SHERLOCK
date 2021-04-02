@@ -4,5 +4,6 @@
   "python.formatting.autopep8Args": [
     "--max-line-length=180"
   ],
-  "python.pythonPath": "/usr/local/bin/python3"
+  "python.pythonPath": "/usr/local/bin/python3",
+  "cSpell.enabled": false
 }

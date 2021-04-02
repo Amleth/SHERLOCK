@@ -112,6 +112,9 @@ t(P1_file_url_uri, a, crm("E42_Identifier"))
 t(P1_file_url_uri, crm("P2_has_type"), u("219fd53d-cdf2-4174-8d71-6d12bdd24016"))
 t(P1_file_url_uri, RDFS.label, l("http://data-iremus.huma-num.fr/files/mei/" + args.sha1 + ".mei"))
 
+t(file_uuid, RDFS.seeAlso, u("http://data-iremus.huma-num.fr/files/mei/" + args.sha1 + ".pdf"))
+t(file_uuid, RDFS.seeAlso, u("http://data-iremus.huma-num.fr/files/mei/" + args.sha1 + ".sib"))
+
 # P1 SHA1
 P1_file_sha1_uri = u(cache.get_uuid([args.sha1, "P1_file_sha1_uuid"], True))
 t(file_uuid, crm("P1_is_identified_by"), P1_file_sha1_uri)
