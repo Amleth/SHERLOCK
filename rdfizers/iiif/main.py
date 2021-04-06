@@ -213,6 +213,7 @@ if collection_row[3].value == "Images":
     img_row = None
 
     for row in img:
+        # TODO Ajouter dans le tableau d'Anne une colonne "collection" à l'index [1]
         if row[1].value == args.collection_id:
             img_row = row
             id = img_row[0].value
@@ -220,12 +221,24 @@ if collection_row[3].value == "Images":
             # L'image comme support physique
             image_E22 = she(cache_40CM.get_uuid(["collection", id, "E22"], True))
             t(image_E22, a, crm("E22_Human-Made_Object"))
+            ## Création de l'image
+            image_E22_E65 = she(cache_40CM.get_uuid(["collection", id, "E22_E65"], True))
+            t(image_E22_E65, a, crm("E65_Creation"))
 
             # L'image comme support sémiotique
             image_E36 = she(cache_40CM.get_uuid(["collection", id, "E36"], True))
             t(image_E22, crm("P65_shows_visual_item"), image_E36)
+            t(image_E36, a, crm("P1_has_identifier"), img_row[0])
+            ## Titre sur l'image
+            image_E36_E35 = she(cache_40CM.get_uuid(["collection", id, "E36_E35"], True))
+            t(image_E36, crm("P102_has_title"), image_E36_E35)
+            t(image_E36_E35, RDFS.label, img_row[2])
+            t(image_E36_E35, crm("P2_has_type"), she("01a07474-f2b9-4afd-bb05-80842ecfb527"))
+            # TODO Ajouter les autres types de titres
 
-            # TODO A TERMINER AVEC EXEMPLE DES GRAVURES DU MERCURE GALANT
+            # TODO Ajouter les E13 d'indexation
+
+
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.output_ttl, "wb") as f:

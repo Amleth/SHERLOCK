@@ -42,6 +42,25 @@
   crm:P1_is_identified_by "Identifiant Mercure"
   .
 
+####################################################################
+## Gravures du Mercure Galant
+####################################################################
+
+<01a07474-f2b9-4afd-bb05-80842ecfb527>
+  a crm:E55_Type ;
+    crm:P1_is_identified_by "Titre sur l'image"
+    .
+
+<ded9ea93-b400-4550-9aa8-e5aac1d627a0>
+  a crm:E55_Type ;
+    crm:P1_is_identified_by "Titre dans le péritexte"
+    .
+
+<58fb99dd-1ffb-4e00-a16f-ef6898902301>
+  a crm:E55_Type ;
+    crm:P1_is_identified_by "Titre descriptif (forgé)"
+    .
+
 
 ####################################################################
 ## E32 Authority Document
