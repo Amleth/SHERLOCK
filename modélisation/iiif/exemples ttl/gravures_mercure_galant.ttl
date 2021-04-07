@@ -41,15 +41,25 @@
 <bc28304d-8c6c-448f-bb70-85d525b2971c>
     a crm:E36_Visual_Item ;
     crm:P102_has_title <08461321-573d-4cfe-a181-6711d6c61d50> ;
-    crm:P138_represents <ad777a4f-55b6-4ff1-be2c-290e04a6bf36> ; # N'importe quelle E1_Entity : ex. "Arles (E93)"
-    crm:P129_is_about <864db43b-fef1-447a-a265-efebd653c0cd> ; # N'importe quelle E1_Entity : ex. "Enigme (E89)"
+    crm:P138_represents <ad777a4f-55b6-4ff1-be2c-290e04a6bf36> ; # Colonne "Objets"
+    crm:P129_is_about <864db43b-fef1-447a-a265-efebd653c0cd> ; # Colonne "Thématique" et colonne "lieux" (TODO: aligner au ref. lieux)
+    # Si l'objet représenté est une médaille et qu'elle comporte une inscription:
+    crm:P190_has_symbolic_content <5516d558-0e18-4db9-9c7b-d0d2457aac6c> ; 
+    .
+
+<5516d558-0e18-4db9-9c7b-d0d2457aac6c>
+    a crm:E62_String ;
+    crm:P2_has_type  #"Légende" ou "Exergue" ;
     .
 
 <08461321-573d-4cfe-a181-6711d6c61d50>
     a crm:E35_Title ; 
-    rdfs:label "L'Empire de la Poésie";
+    rdfs:label "L'Empire de la Poésie"; # Colonne "Titre sur l'image"
     crm:P2_has_type "Titre normalisé" ;
     .
+
+    # "Titre dans le péritexte" = appellation
+    # "Titre forgé" = alternative appellation
 
 # Création de la gravure
 <fd915ef3-f45c-46c7-aba1-d8ae3957d726>
@@ -58,17 +68,21 @@
 
 <4d57ac14-247f-4b0e-90ca-0397b6051b8b>
     a crm:E7_Activity ;
-    crm:P2_has_type "invenit" ; # Conception de la gravure
+    crm:P2_has_type "invenit" ; # Conception de la gravure - TODO: aligner au réf. personnes
     crm:P14_carried_out_by <96aeb67c-bc7a-4db7-9d3c-bed5476799f7> ; # E21
     crm:P20_had_specific_purpose <fd915ef3-f45c-46c7-aba1-d8ae3957d726> ;
+    crm:P32_used_specific_technique crm:E29_Design_or_Procedure ; # "Dessins d'architecte et d'ingénieur"
     .
 
 <4d57ac14-247f-4b0e-90ca-0397b6051b8b>
     a crm:E7_Activity ;
-    crm:P2_has_type "sculpsit" ; # Gravure de la gravure
+    crm:P2_has_type "sculpsit" ; # Gravure de la gravure - TODO: aligner au réf. personnes
     crm:P14_carried_out_by <96aeb67c-bc7a-4db7-9d3c-bed5476799f7> ; # E21
     crm:P20_had_specific_purpose <fd915ef3-f45c-46c7-aba1-d8ae3957d726> ;
+    crm:P32_used_general_technique crm:E55_Type ; # "Eau-forte"
     .
+
+    # Revoir colonne "Provenance"
 
 # Numérisation de la gravure
 <2b5684a9-3705-4353-ae59-4b7399dd6df8>
@@ -81,5 +95,20 @@
 <58b34a23-f3dc-4ef9-abb4-36f0a23f6d7a>
     a crm:D1_Digital_Object ;
     crm:P130_shows_features_of <bc28304d-8c6c-448f-bb70-85d525b2971c> ; 
+    crm:P1_has_identifier <b5e54c39-b240-47e2-b594-6a0c6bfeabef> ;
     .
 
+<b5e54c39-b240-47e2-b594-6a0c6bfeabef>
+    a crm:E42_Identifier ;
+    rdfs:label "1678-01_000" ;
+    .
+
+# Ajouter un identifiant BnF ? (Colonne "provenance cliché") Ou créer un P14 rattachant l'activité de numérisation à
+# la BnF
+
+# Bibliographie relative à la gravure
+<9c878c5b-6fce-4fc7-929a-264bd7a72049>
+    a crm:E31_Document ;
+    crm:P70_documents <f4c37ba7-f1d9-43f9-90f2-63bab3cb49df> ;
+    crm:p1_is_identified_by "Mathis R. ...";
+    .

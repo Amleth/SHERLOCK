@@ -108,7 +108,7 @@ t(collection, crm("P105_right_held_by"), she("48a8e9ad-4264-4b0b-a76d-953bc9a344
 # 1. UNE PUBLICATION NUMERISEE
 #####################################################################
 
-if collection_row[3].value == "Livre":
+if collection_row[3].value == "Edition":
 
     # Work
     livre_F1 = she(cache_40CM.get_uuid(["collection", "livre", "F1"], True))

@@ -1,3 +1,3 @@
-python3 ./iiif/manifeste.py \
+python3 ./rdfizers/iiif/manifeste_exemple.py \
   --output "./out/iiif" \
-  --images "./iiif/images"
+  --images "./sources/iiif/images"
