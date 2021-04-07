@@ -130,6 +130,7 @@ def explore(id, depth):
                 t(E41_alt_uri, a, crm("E41_Appellation"))
                 t(E41_alt_uri, RDFS.label, altLabel)
                 t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
+                census_label_uuid(altLabel, E93_uuid)
 
         # E13 Indexation
         def process_note(p):

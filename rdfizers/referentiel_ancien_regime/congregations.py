@@ -8,6 +8,13 @@ from sherlockcachemanagement import Cache
 import re
 import hashlib
 import io
+import sys
+from pprint import pprint
+
+
+def norm_label(l):
+    return re.sub(r"(\s\[.*)|(\s\(.*)", " ", l).strip().lower()
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input_rdf")
@@ -23,8 +30,21 @@ args = parser.parse_args()
 cache_corpus = Cache(args.cache_corpus)
 cache_congregations = Cache(args.cache_congregations)
 
+cache_lieux_uuid_yaml = None
+with open(args.cache_lieux_uuid, "r", encoding="utf-8") as file:
+    cache_lieux_uuid_yaml = yaml.load(file, Loader=yaml.FullLoader)
+
+cache_lieux_uuid_yaml_normalisé = {}
+for cle in cache_lieux_uuid_yaml.keys():
+    lieu = norm_label(cle)
+    cache_lieux_uuid_yaml_normalisé[lieu] = cache_lieux_uuid_yaml[cle]
+
+id_congrégations_à_aligner = []
+with open(args.situation_geo, "r", encoding="utf-8") as f:
+    id_congrégations_à_aligner = f.read()
+
 ##################################################################################
-## INITIALISATION DES GRAPHES
+# INITIALISATION DES GRAPHES
 ##################################################################################
 
 input_graph = Graph()
@@ -47,10 +67,38 @@ output_graph.bind("she", she_ns)
 
 a = RDF.type
 
+##################################################################################
+#
+##################################################################################
+
+# Normalisation des labels de congrégations pour préparer l'alignement
+noms_de_congrégations_normalisés = {}
+prefLabels = input_graph.query('''
+SELECT ?id ?prefLabel ?altLabel
+WHERE {
+    ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+    OPTIONAL { ?s <http://www.w3.org/2004/02/skos/core#prefLabel> ?prefLabel } .
+    OPTIONAL { ?s <http://www.w3.org/2004/02/skos/core#altLabel> ?altLabel } .
+    OPTIONAL { ?s <http://purl.org/dc/terms/identifier> ?id }
+}
+''')
+
+
+for t in prefLabels:
+    t = (norm_label(str(t[0])) if t[0] else None, norm_label(str(t[1])) if t[1] else None, norm_label(str(t[2])) if t[2] else None)
+    if t[0] not in noms_de_congrégations_normalisés:
+        noms_de_congrégations_normalisés[t[0]] = []
+    if t[1]:
+        if t[1] not in noms_de_congrégations_normalisés[t[0]]:
+            noms_de_congrégations_normalisés[t[0]].append(t[1])
+    if t[2]:
+        if t[2] not in noms_de_congrégations_normalisés[t[0]]:
+            noms_de_congrégations_normalisés[t[0]].append(t[2])
 
 ##################################################################################
-## FONCTIONS
+# FONCTIONS
 ##################################################################################
+
 
 def crm(x):
     return URIRef(crm_ns[x])
@@ -94,6 +142,7 @@ def count_concepts():
 
 #print(f"{count_concepts()} concepts à traiter")
 
+
 def explore(concept, depth):
 
     concept_id = ro(concept, DCTERMS.identifier)
@@ -123,21 +172,16 @@ def explore(concept, depth):
             t(E41_alt_uri, RDFS.label, altLabel)
             t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
 
-    #ALIGNEMENT AU REFERENTIEL DES LIEUX
-    liste = open(args.situation_geo, "r", encoding="utf-8").read()
-
-    if concept_id in liste:
-        for prefLabel in ro_list(concept, SKOS.prefLabel):
-            with open(args.cache_lieux_uuid, "r", encoding="utf-8") as file:
-                input_yaml_parse = yaml.load(file, Loader=yaml.FullLoader)
-                for cle in input_yaml_parse.keys():
-                    lieu = re.sub(r"(\s\[.*)|(\s\(.*)", " ", cle)
-                    if re.search(rf"('| de | la | le | a | du )({lieu} )|( {lieu}$)", prefLabel, re.IGNORECASE):
-                        lieu_uuid = input_yaml_parse[lieu][0]
-                        t(E74_uri, she("sheP_situation_géohistorique"), she(lieu_uuid))
-
+    # ALIGNEMENT AU REFERENTIEL DES LIEUX
+    if concept_id in id_congrégations_à_aligner:
+        for label in noms_de_congrégations_normalisés[str(concept_id).lower()]:
+            for lieu in cache_lieux_uuid_yaml_normalisé.keys():
+                if label.endswith(" " + lieu) or label.endswith("'"+lieu) or label.endswith(" de "+lieu) or label.endswith(" a "+lieu) or label.endswith(" du "+lieu) or label.endswith(" le "+lieu) or label.endswith(" la "+lieu) or label.endswith(" à "+lieu):
+                    lieu_uuid = cache_lieux_uuid_yaml_normalisé[lieu][0]
+                    t(E74_uri, she("sheP_situation_géohistorique"), she(lieu_uuid))
 
     # E13 INDEXATION
+
     def process_note(p):
         indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
         indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
@@ -214,7 +258,6 @@ def explore(concept, depth):
     for note in [SKOS.note, SKOS.historyNote]:
         process_note(note)
 
-
     # NARROWERS
     q = sparql.prepareQuery("""
     SELECT ?narrower ?narrower_prefLabel ?narrower_id
@@ -236,6 +279,7 @@ def explore(concept, depth):
 ####################################################################################
 # GENERATION DU TURTLE
 ####################################################################################
+
 
 E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
 E32_congregations_uri = URIRef(iremus_ns["a5145217-5642-4f08-8566-1c1bbe9c0b4e"])
@@ -262,9 +306,3 @@ with open(args.output_ttl, "wb") as f:
     f.write(serialization)
 cache_corpus.bye()
 cache_congregations.bye()
-
-
-
-
-
-
