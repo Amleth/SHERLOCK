@@ -3,7 +3,6 @@
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix lrm: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <12375cda-dc3f-415d-bc69-85b92e049695> a lrm:F5_Item ;
     crm:P46_is_composed_of <09db4131-1a58-4788-883e-f1fe2a4c009d>,
@@ -42,7 +41,8 @@
 
 <096f66c1-0bdc-473e-8378-88bee5818d95> crm:P80_end_is_qualified_by "date inconnue" .
 
-<180baecb-b00c-45c2-8543-5f790c4fc0f0> rdfs:label 2 ;
+<180baecb-b00c-45c2-8543-5f790c4fc0f0> a crm:E41_Appellation ;
+    rdfs:label "Page 2" ;
     crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
 
 <1b817423-bef0-4091-aa90-ea475f10b224> a crm:E42_Identifier ;
@@ -76,10 +76,12 @@
 <861f3de9-4ebf-4060-8609-63ec147b72fc> a crm:E42_Identifier ;
     rdfs:label "40CM_3" .
 
-<d2345628-5bb3-4dc9-9a5a-8d9aab939221> rdfs:label 3 ;
+<d2345628-5bb3-4dc9-9a5a-8d9aab939221> a crm:E41_Appellation ;
+    rdfs:label "Page 3" ;
     crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
 
-<e28c273a-a05c-4037-96a0-bcd4494763a4> rdfs:label 1 ;
+<e28c273a-a05c-4037-96a0-bcd4494763a4> a crm:E41_Appellation ;
+    rdfs:label "Page 1" ;
     crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
 
 <09db4131-1a58-4788-883e-f1fe2a4c009d> a crm:E18_Physical_Object ;

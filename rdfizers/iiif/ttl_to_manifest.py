@@ -24,20 +24,24 @@ output_graph.load(args.input_ttl, format="turtle")
 #################################################################################
 
 q = output_graph.query("""
-		SELECT DISTINCT ?collection ?label ?page ?page_id ?image ?image_id
+		SELECT ?collection ?coll_label ?page_id ?page_no ?image_id
 		
 		WHERE {
 		
 		?collection <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://data-iremus.huma-num.fr/id/14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
-		?collection <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> ?E41 .
-		?collection_E41 <http://www.w3.org/2000/01/rdf-schema#label> ?label .
+		?collection <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> ?coll_E41 .
+		?coll_E41 <http://www.w3.org/2000/01/rdf-schema#label> ?coll_label .
 		
 		OPTIONAL {
 		?page a <http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object> .
 		?page <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> ?page_E42 . 
 		?page_E42 a <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 		?page_E42 <http://www.w3.org/2000/01/rdf-schema#label> ?page_id .
+		?page <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> ?page_E41 . 
+		?page_E41 a <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
+		?page_E41 <http://www.w3.org/2000/01/rdf-schema#label> ?page_no .
 		}
+		
 		OPTIONAL {
 		?image a <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
 		?image_numerisee a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> ;
@@ -48,6 +52,7 @@ q = output_graph.query("""
 		}
 		
 		}""")
+
 
 nom_collection = list(q)[0][1]
 
@@ -69,15 +74,14 @@ lst = {
 pages = {}
 
 for resultat in list(q):
-	id = str(resultat[3])
-	page = str(resultat[2])
-	if id != None and page not in pages:
-		pages.setdefault(id, [])
-		if page not in pages[id]:
-			pages[id].append(page)
+	page_id = str(resultat[2])
+	page_no = str(resultat[3])
+	if page_id != None and page_id not in pages:
+		pages.setdefault(page_id, page_no)
+
+			#TODO AJOUTER DIMENSIONS DES IMAGES
 
 for page in sorted(pages):
-	print(page)
 	lst["sequences"][0]["canvases"].append(
 		{
 			"@id": f"http://data-iremus.huma-num.fr/iiif/{args.collection_id}/canvas/{page}",
@@ -105,48 +109,15 @@ for page in sorted(pages):
 ## DUMP DES DONNEES DANS UN FICHIER JSON
 #################################################################################
 
-with open(args.output_json, "w+") as output:
+with open(args.output_json, "r+") as output:
 	manifeste = json.dumps(lst, separators=(",", ":"), indent=2, ensure_ascii=False)
 	output.write(manifeste)
 
-sys.exit()
+#################################################################################
+## VALIDATION DU MANIFESTE IIIF
+#################################################################################
 
-# Données spécifiques de chaque image
-for image in os.listdir(f"{args.images}/{project}"):
-	im = Image.open(f"{args.images}/{project}/{image}")
-	width, height = im.size
-
-	lst["sequences"][0]["canvases"].append(
-		{
-			"@id": f"http://data-iremus.huma-num.fr/iiif/{project}/canvas/{image[0:-4]}",
-			"@type": "sc:Canvas",
-			"label": f"{image}",
-			"height": height,
-			"width": width,
-			"images":[{
-				"@context": "http://iiif.io/api/presentation/2/context.json",
-				"@id": f"http://data-iremus.huma-num.fr/iiif/{project}/annotation/image",
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"resource": {
-					"@id": f"http://data-iremus.huma-num.fr/iiif/{project}/{image}",
-					"@type": "dctypes:Image",
-					"format": "image/jpeg",
-					"height": height,
-					"width": width
-					},
-				"on": f"http://data-iremus.huma-num.fr/iiif/{project}/canvas/{image[0:-4]}"
-		}]
-	})
-
-
-# Dump des données dans un fichier json
-with open(f"{path}/manifeste.json", "w+") as output:
-	manifeste = json.dumps(lst, separators=(",", ":"), indent=2, ensure_ascii=False)
-	output.write(manifeste)
-
-# Validation du json
-with open(f"{path}/manifeste.json", "r") as manifeste_test:
+with open(args.output_json, "r") as manifeste_test:
 	validator = IIIFValidator()
 	validator.validate(json.load(manifeste_test))
 	validator.print_errors()

@@ -185,10 +185,11 @@ if collection_row[3].value == "Edition":
             t(page_E42, RDFS.label, Literal(id))
 
             #Numéro de la page
-            page_E42_numero = she(cache_40CM.get_uuid(["collection", "livre", "pages", id, "E42_numéro"], True))
-            t(page_E42_numero, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
-            t(page_E90, crm("P1_is_identified_by"), page_E42_numero)
-            t(page_E42_numero, RDFS.label, Literal(img_row[3].value))
+            page_E41 = she(cache_40CM.get_uuid(["collection", "livre", "pages", id, "E42_numéro"], True))
+            t(page_E41, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
+            t(page_E90, crm("P1_is_identified_by"), page_E41)
+            t(page_E41, a, crm("E41_Appellation"))
+            t(page_E41, RDFS.label, Literal(f"Page {img_row[3].value}"))
 
             # Numérisation de la page
             page_D2 = she(cache_40CM.get_uuid(["collection", "livre", "pages", "D2"], True))

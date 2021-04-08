@@ -2,7 +2,7 @@
   "@context":"http://iiif.io/api/presentation/2/context.json",
   "@id":"http://data-iremus.huma-num.fr/iiif/40CM/manifest",
   "@type":"sc:Manifest",
-  "label":"https://creativecommons.org/publicdomain/zero/1.0/",
+  "label":"Les 40 chanteurs montagnards",
   "sequences":[
     {
       "@id":"http://data-iremus.huma-num.fr/iiif/40CM/sequence/normal",
@@ -11,7 +11,7 @@
         {
           "@id":"http://data-iremus.huma-num.fr/iiif/40CM/canvas/40CM_1",
           "@type":"sc:Canvas",
-          "label":"['http://data-iremus.huma-num.fr/id/dbff650d-0cf2-424d-a420-dd5c969419f5']",
+          "label":"Page 1",
           "height":0,
           "width":0,
           "images":[
@@ -34,7 +34,7 @@
         {
           "@id":"http://data-iremus.huma-num.fr/iiif/40CM/canvas/40CM_2",
           "@type":"sc:Canvas",
-          "label":"['http://data-iremus.huma-num.fr/id/9a67fe44-5ad7-44cd-a3ad-a708351dc253']",
+          "label":"Page 2",
           "height":0,
           "width":0,
           "images":[
@@ -57,7 +57,7 @@
         {
           "@id":"http://data-iremus.huma-num.fr/iiif/40CM/canvas/40CM_3",
           "@type":"sc:Canvas",
-          "label":"['http://data-iremus.huma-num.fr/id/e54609ad-40ef-4d45-bf67-24b3db6c8893']",
+          "label":"Page 3",
           "height":0,
           "width":0,
           "images":[
