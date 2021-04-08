@@ -1,7 +1,4 @@
-# TO DO?
-# - Aller chercher les uuid des responsables de collection
-# - Créer un cache d'uuid pour les auteurs d'ouvrages et les lier à des E21
-# - Dater un F27 : time-span + propriété cidoc ou dcterms:date ?
+# TODO Transformer les auteurs d'ouvrages en E21?
 
 import argparse
 from openpyxl import load_workbook
@@ -95,7 +92,7 @@ t(collection, crm("P2_has_type"), she("14926d58-83e7-4414-90a8-1a3f5ca8fec1"))
 collection_E65 = she(cache_40CM.get_uuid(["collection", "E65"], True))
 t(collection_E65, a, crm("E65_Creation"))
 t(collection_E65, crm("P94_has_created"), collection)
-t(collection_E65, crm("P14_carried_out_by"), Literal(collection_row[2].value))  # Aller chercher l'uuid du-de la responsable
+t(collection_E65, crm("P14_carried_out_by"), she(collection_row[2].value))
 # Licence
 collection_E30 = she(cache_40CM.get_uuid(["collection", "E30"], True))
 t(collection_E30, a, crm("E30_Right"))
@@ -184,6 +181,7 @@ if collection_row[3].value == "Edition":
             # Identifiant
             page_E42 = she(cache_40CM.get_uuid(["collection", "livre", "pages", id, "E42"], True))
             t(page_E90, crm("P1_is_identified_by"), page_E42)
+            t(page_E42, a, crm("E42_Identifier"))
             t(page_E42, RDFS.label, Literal(id))
 
             #Numéro de la page

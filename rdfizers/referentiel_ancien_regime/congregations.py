@@ -13,7 +13,7 @@ from pprint import pprint
 
 
 def norm_label(l):
-    return re.sub(r"(\s\[.*)|(\s\(.*)", " ", l).strip().lower()
+    return re.sub(r"(\s\[.*)|(\s\(.*)", " ", l).strip().lower().replace("é", "e").replace("è", "e").replace("â", "a")
 
 
 parser = argparse.ArgumentParser()
@@ -39,8 +39,8 @@ for cle in cache_lieux_uuid_yaml.keys():
     lieu = norm_label(cle)
     cache_lieux_uuid_yaml_normalisé[lieu] = cache_lieux_uuid_yaml[cle]
 
-id_congrégations_à_aligner = []
-with open(args.situation_geo, "r", encoding="utf-8") as f:
+id_congrégations_à_aligner= []
+with open(args.situation_geo, "r+", encoding="utf-8") as f:
     id_congrégations_à_aligner = f.read()
 
 ##################################################################################
@@ -94,6 +94,7 @@ for t in prefLabels:
     if t[2]:
         if t[2] not in noms_de_congrégations_normalisés[t[0]]:
             noms_de_congrégations_normalisés[t[0]].append(t[2])
+
 
 ##################################################################################
 # FONCTIONS

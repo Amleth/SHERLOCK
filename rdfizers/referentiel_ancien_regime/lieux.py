@@ -9,6 +9,7 @@ import sys
 import uuid
 import yaml
 from sherlockcachemanagement import Cache
+import unidecode
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--inputrdf")
@@ -88,7 +89,7 @@ def ro_list(s, p):
 def census_label_uuid(label, uuid):
     global label_uuid
 
-    label = str(label).lower().replace('\n', '')
+    label = str(label).lower().replace('\n', '').replace('é', 'e',).replace('è', 'e',).replace('le ', '').replace('la ', '')
     while "  " in label:
         label = label.replace("  ", " ")
     uuid = str(uuid)
