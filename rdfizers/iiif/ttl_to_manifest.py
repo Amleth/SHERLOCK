@@ -56,7 +56,7 @@ q = output_graph.query("""
 
 nom_collection = list(q)[0][1]
 
-lst = {
+manifeste_json = {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@id": f"http://data-iremus.huma-num.fr/iiif/{args.collection_id}/manifest",
 	"@type": "sc:Manifest", "label": f"{nom_collection}",
@@ -82,7 +82,7 @@ for resultat in list(q):
 			#TODO AJOUTER DIMENSIONS DES IMAGES
 
 for page in sorted(pages):
-	lst["sequences"][0]["canvases"].append(
+	manifeste_json["sequences"][0]["canvases"].append(
 		{
 			"@id": f"http://data-iremus.huma-num.fr/iiif/{args.collection_id}/canvas/{page}",
 			"@type": "sc:Canvas",
@@ -110,14 +110,14 @@ for page in sorted(pages):
 #################################################################################
 
 with open(args.output_json, "r+") as output:
-	manifeste = json.dumps(lst, separators=(",", ":"), indent=2, ensure_ascii=False)
-	output.write(manifeste)
+	manifeste_json = json.dumps(manifeste_json, separators=(",", ":"), indent=2, ensure_ascii=False)
+	output.write(manifeste_json)
 
 #################################################################################
 ## VALIDATION DU MANIFESTE IIIF
 #################################################################################
 
-with open(args.output_json, "r") as manifeste_test:
+with open(args.output_json, "r") as manifeste:
 	validator = IIIFValidator()
-	validator.validate(json.load(manifeste_test))
+	validator.validate(json.load(manifeste))
 	validator.print_errors()
