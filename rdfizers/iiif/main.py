@@ -110,9 +110,10 @@ if collection_row[3].value == "Edition":
     # Work
     livre_F1 = she(cache_40CM.get_uuid(["collection", "livre", "F1"], True))
     t(livre_F1, a, lrm("F1_Work"))
-    livre_E41 = she(cache_40CM.get_uuid(["collection", "livre", "E41"], True))
-    t(livre_F1, crm("P1_is_identified_by"), livre_E41)
-    t(livre_F1, RDFS.label, Literal(collection_row[1].value))
+    livre_E35 = she(cache_40CM.get_uuid(["collection", "livre", "E41"], True))
+    t(livre_F1, crm("P102_has_title"), livre_E35)
+    t(livre_E35, a, crm("E35_Title"))
+    t(livre_E35, RDFS.label, Literal(collection_row[1].value))
 
     # Work Conception
     livre_F27 = she(cache_40CM.get_uuid(["collection", "livre", "F27"], True))

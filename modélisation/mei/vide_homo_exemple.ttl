@@ -1,0 +1,55 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrm: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+# L'encodage MEI de la partition
+<9c7a9e61-d9e0-4033-aead-df9924a2b6a9>
+    a crm:E31_Document ;
+    a crmdig:D1_Digital_Object ;
+    dcterms:format "application/vnd.mei+xml" ;
+    crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> ;
+    crm:130_shows_features_of <52815242-1a15-4805-a028-23a74fc4fd4c> ;
+    crm:P102_has_title <7a50ba3a-ee9e-453c-afe0-715445544571> ;
+.
+
+<7a50ba3a-ee9e-453c-afe0-715445544571>
+    a crm:E35_Title ; # fileDesc/titleStmt
+    crm:P2_has_type <---> ; # Ajouter un type "Titre de partition MEI"? 
+    crm:P106_is_composed_of "Vide Homo" ; # fileDesc/titleStmt/title
+    crm:P106_is_composed_of "Orlando di Lasso (1532-1594)" ; # fileDesc/titleStmt/composer
+    crm:P106_is_composed_of "Luigi Tansillo (1510-1568)" ; # fileDesc/titleStmt/lyricist
+    crm:P106_is_composed_of "m-18" ; # fileDesc/titleStmt/respStmt/persName
+.
+
+# Ajouter droits : à quoi correspondent availability et userRestrict? 
+
+# Activité d'encodage de la partition
+
+
+# La partition comme support matériel
+<52815242-1a15-4805-a028-23a74fc4fd4c>
+    a crm:E18_Physical_Object ;
+    crm:P128_carries <d2fe0b34-9568-42fb-91ff-0edb013ff01e> ;
+.
+
+
+# La partition comme expression d'une oeuvre musicale
+<d2fe0b34-9568-42fb-91ff-0edb013ff01e>
+    a lrmoo:F2_Expression ;
+.
+
+
+# L'oeuvre musicale 
+<f699bcd8-eb61-4faa-a179-ec4f15e34490>
+    a lrmoo:F1_Work ;
+    crm:P102_has_title <3e8c9d61-3dcb-4a08-aa25-129038e4adf1> ;
+.
+
+
+<3e8c9d61-3dcb-4a08-aa25-129038e4adf1>
+    a crm:E35_Title ;
+    rdfs:label "Vide Homo" ; # workDesc/titleStmt/title
+.

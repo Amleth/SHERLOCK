@@ -49,7 +49,7 @@
 
 <5516d558-0e18-4db9-9c7b-d0d2457aac6c>
     a crm:E62_String ;
-    crm:P2_has_type  #"Légende" ou "Exergue" ;
+    crm:P2_has_type <---> ; #"Légende" ou "Exergue"
     .
 
 <08461321-573d-4cfe-a181-6711d6c61d50>

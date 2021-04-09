@@ -60,6 +60,9 @@
     crm:P1_is_identified_by <23040a3b-5f3c-4203-b8f6-f2e5f63bf3c5> ;
     crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
 
+<4765e717-0f7e-46dd-ab9c-e961fdac3585> a crm:E35_Title ;
+    rdfs:label "Les 40 chanteurs montagnards" .
+
 <64d69c29-4759-4a48-a242-f5c0ea26ec8a> a crm:E30_Right ;
     rdfs:label "https://creativecommons.org/publicdomain/zero/1.0/" .
 
@@ -69,8 +72,7 @@
 <7538fe25-e943-4aae-8ae5-c94157724369> crm:P80_end_is_qualified_by "date inconnue" .
 
 <7d338df0-44af-47c7-9af0-b97da5f461a0> a lrm:F1_Work ;
-    rdfs:label "Les 40 chanteurs montagnards" ;
-    crm:P1_is_identified_by <4765e717-0f7e-46dd-ab9c-e961fdac3585> ;
+    crm:P102_has_title <4765e717-0f7e-46dd-ab9c-e961fdac3585> ;
     lrm:R3_is_realised_in <b0b09fb4-968d-4faa-8b0a-d2e733fcdff8> .
 
 <861f3de9-4ebf-4060-8609-63ec147b72fc> a crm:E42_Identifier ;
