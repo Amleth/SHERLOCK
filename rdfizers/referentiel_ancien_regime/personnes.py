@@ -137,9 +137,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
-                                  she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
-                                t(E13_index_uri, crm("P14_carried_out_by"),
-                                  she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
+                                  she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E21_uri)
                                 t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
@@ -165,9 +163,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
-                                  she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
-                                t(E13_index_uri, crm("P14_carried_out_by"),
-                                  she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
+                                  she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E21_uri)
                                 t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
@@ -181,9 +177,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                 E13_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E13"], True))
                 t(E13_uri, a, crm("E13_Attribute_Assignement"))
                 t(E13_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
-                t(E13_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
-                t(E13_uri, crm("P14_carried_out_by"),
-                  she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
+                t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                 t(E13_uri, crm("P140_assigned_attribute_to"), E21_uri)
                 E13_notes_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E13_notes", note_sha1], True))
                 t(E13_notes_uri, RDFS.label, Literal(v))

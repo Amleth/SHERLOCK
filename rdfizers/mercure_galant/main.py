@@ -160,7 +160,7 @@ for file in os.listdir(args.tei):
 	g.add((livraison_F2_tei_E65, RDF.type, URIRef(crm_ns["E65_Creation"])))
 	g.add((livraison_F2_tei_E65, URIRef(crm_ns["P94_has_created"]), livraison_F2_tei))
 	g.add((livraison_F2_tei_E65, URIRef(crm_ns["P14_carried_out_by"]),
-	       URIRef(iremus_ns["899e29f6-43d7-4a98-8c39-229bb20d23b2"])))  # A MODIFIER?
+	       URIRef(iremus_ns["684b4c1a-be76-474c-810e-0f5984b47921"])))
 
 	################################################################################
 	# ARTICLES
