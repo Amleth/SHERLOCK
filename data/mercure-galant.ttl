@@ -58,7 +58,7 @@
 
 <58fb99dd-1ffb-4e00-a16f-ef6898902301>
   a crm:E55_Type ;
-    crm:P1_is_identified_by "Titre descriptif (forgé)"
+    crm:P1_is_identified_by "Titre descriptif forgé"
     .
 
 
