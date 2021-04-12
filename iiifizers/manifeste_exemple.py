@@ -17,7 +17,7 @@ for project in os.listdir(args.images):
 		os.makedirs(path)
 
 	# Données statiques du json
-	lst = {
+	manifeste_json = {
 		"@context": "http://iiif.io/api/presentation/2/context.json",
 		"@id": f"http://data-iremus.huma-num.fr/iiif/{project}/manifest",
 		"@type": "sc:Manifest", "label": f"{project}",
@@ -33,7 +33,7 @@ for project in os.listdir(args.images):
 		im = Image.open(f"{args.images}/{project}/{image}")
 		width, height = im.size
 
-		lst["sequences"][0]["canvases"].append(
+		manifeste_json["sequences"][0]["canvases"].append(
 			{
 				"@id": f"http://data-iremus.huma-num.fr/iiif/{project}/canvas/{image[0:-4]}",
 				"@type": "sc:Canvas",
@@ -59,7 +59,7 @@ for project in os.listdir(args.images):
 
 	# Dump des données dans un fichier json
 	with open(f"{path}/manifeste.json", "w+") as output:
-		manifeste = json.dumps(lst, separators=(",", ":"), indent=2, ensure_ascii=False)
+		manifeste = json.dumps(manifeste_json, separators=(",", ":"), indent=2, ensure_ascii=False)
 		output.write(manifeste)
 
 	# Validation du json

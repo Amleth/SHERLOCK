@@ -79,16 +79,19 @@ for resultat in list(q):
 	if page_id != None and page_id not in pages:
 		pages.setdefault(page_id, page_no)
 
-			#TODO AJOUTER DIMENSIONS DES IMAGES
-
+	#TODO AJOUTER DIMENSIONS DES IMAGES
+	for image in os.listdir(args.images):
+		if image == f"{page_id}.jpg":
+			im = Image.open(f"{args.images}/{image}")
+			width, height = im.size
 for page in sorted(pages):
 	manifeste_json["sequences"][0]["canvases"].append(
 		{
 			"@id": f"http://data-iremus.huma-num.fr/iiif/{args.collection_id}/canvas/{page}",
 			"@type": "sc:Canvas",
 			"label": f"{pages[page]}",
-			"height": 0,
-			"width": 0,
+			"height": height,
+			"width": width,
 			"images": [{
 				"@context": "http://iiif.io/api/presentation/2/context.json",
 				"@id": f"http://data-iremus.huma-num.fr/iiif/{args.collection_id}/annotation/image",
@@ -98,8 +101,8 @@ for page in sorted(pages):
 					"@id": f"http://data-iremus.huma-num.fr/iiif/{args.collection_id}/{page}",
 					"@type": "dctypes:Image",
 					"format": "image/jpeg",
-					"height": 0,
-					"width": 0
+					"height": height,
+					"width": width
 				},
 				"on": f"http://data-iremus.huma-num.fr/iiif/{args.collection_id}/canvas/{page}"
 			}]

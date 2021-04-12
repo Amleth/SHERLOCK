@@ -83,6 +83,15 @@
     ] ;
     .
 
+# Equipe Mercure Galant
+<684b4c1a-be76-474c-810e-0f5984b47921>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Equipe Mercure Galant"
+    ] ;
+    .
+
 # Anne Piéjus
 <ea287800-4345-4649-af12-7253aa185f3f>
     a crm:E21_Person ;

@@ -1,15 +1,21 @@
 from rdflib import Graph, Literal
 from rdflib.plugins import sparql
 import re
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--input_ttl")
+parser.add_argument("--input_txt")
+args = parser.parse_args()
 
 ############################################################################################
 # RECHERCHE DES CONGREGATIONS DONT L'ALIGNEMENT AU REFERENTIEL DES LIEUX N'A PAS FONCTIONNE
 ############################################################################################
 
-output_graph = Graph()
-output_graph.load("./out/referentiel_ancien_regime/referentiel_congregations.ttl", format="turtle")
+input_graph = Graph()
+input_graph.load(args.input_ttl, format="turtle")
 
-file = open("./sources/referentiel_ancien_regime/congregations_sheP_situation_géohistorique.txt", "r", encoding="utf-8")
+file = open(args.input_txt, "r", encoding="utf-8")
 
 list = file.readlines()
 for id in list:
@@ -26,7 +32,7 @@ for id in list:
 		}
 		""")
 
-	for row in output_graph.query(q, initBindings={'concept_id': concept_id}):
+	for row in input_graph.query(q, initBindings={'concept_id': concept_id}):
 		print(row[0])
 
 

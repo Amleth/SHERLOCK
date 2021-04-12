@@ -5,9 +5,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <12375cda-dc3f-415d-bc69-85b92e049695> a lrm:F5_Item ;
-    crm:P46_is_composed_of <09db4131-1a58-4788-883e-f1fe2a4c009d>,
-        <543f4c16-aea1-4190-a146-e210afb86032>,
-        <dd91cbe6-12da-4b88-bb96-0b629e6191f2> ;
+    crm:P46_is_composed_of <070facee-7236-4200-a791-0a89e6f98fd3>,
+        <3514bdfc-b655-40d7-8903-f9ce85a3ae2c>,
+        <92680155-3785-4b36-b258-d41cba4ac13c> ;
     lrm:R7_is_materialization_of <c7b2aaa9-f94c-4a48-abdb-93b885570de3> .
 
 <26ac02c8-6cb9-4229-8952-465dd66f7ea1> a crm:E65_Creation ;
@@ -25,12 +25,12 @@
     lrm:R16_initiated <7d338df0-44af-47c7-9af0-b97da5f461a0> .
 
 <d8d4dc3d-5146-48d6-b46a-f07315ecc8f2> a crmdig:D2_Digitization_Process ;
-    crmdig:L11_had_output <15186bea-7d86-4eae-9379-94cb5dede793>,
-        <a2c81c61-8582-41c7-8a33-3463302020b1>,
-        <f3d55380-5fea-4927-a793-7dfe44f2c978> ;
-    crmdig:L1_digitized <09db4131-1a58-4788-883e-f1fe2a4c009d>,
-        <543f4c16-aea1-4190-a146-e210afb86032>,
-        <dd91cbe6-12da-4b88-bb96-0b629e6191f2> .
+    crmdig:L11_had_output <2fbacd55-5152-4066-8a76-eb4be637bfe2>,
+        <8d9f2af0-b964-4357-9d2a-4892012c018c>,
+        <9a8e4a3b-6dea-46b2-9d1f-6805fb1f807b> ;
+    crmdig:L1_digitized <070facee-7236-4200-a791-0a89e6f98fd3>,
+        <3514bdfc-b655-40d7-8903-f9ce85a3ae2c>,
+        <92680155-3785-4b36-b258-d41cba4ac13c> .
 
 <fc739327-a126-4b91-9756-f7d36476b23e> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by "créateur inconnu" ;
@@ -41,22 +41,15 @@
 
 <096f66c1-0bdc-473e-8378-88bee5818d95> crm:P80_end_is_qualified_by "date inconnue" .
 
-<180baecb-b00c-45c2-8543-5f790c4fc0f0> a crm:E41_Appellation ;
-    rdfs:label "Page 2" ;
-    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
-
-<1b817423-bef0-4091-aa90-ea475f10b224> a crm:E42_Identifier ;
-    rdfs:label "40CM_2" .
-
 <23040a3b-5f3c-4203-b8f6-f2e5f63bf3c5> a crm:E41_Appellation ;
     rdfs:label "Les 40 chanteurs montagnards" .
 
 <3875a9d4-36a0-4783-a2e8-cb2ff97c0413> a crmdig:D1_Digital_Object ;
     crm:P104_is_subject_to <64d69c29-4759-4a48-a242-f5c0ea26ec8a> ;
     crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
-    crm:P106_is_composed_of <15186bea-7d86-4eae-9379-94cb5dede793>,
-        <a2c81c61-8582-41c7-8a33-3463302020b1>,
-        <f3d55380-5fea-4927-a793-7dfe44f2c978> ;
+    crm:P106_is_composed_of <2fbacd55-5152-4066-8a76-eb4be637bfe2>,
+        <8d9f2af0-b964-4357-9d2a-4892012c018c>,
+        <9a8e4a3b-6dea-46b2-9d1f-6805fb1f807b> ;
     crm:P1_is_identified_by <23040a3b-5f3c-4203-b8f6-f2e5f63bf3c5> ;
     crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
 
@@ -66,8 +59,9 @@
 <64d69c29-4759-4a48-a242-f5c0ea26ec8a> a crm:E30_Right ;
     rdfs:label "https://creativecommons.org/publicdomain/zero/1.0/" .
 
-<6bf5b130-a36b-423a-8403-fb68e8b061b8> a crm:E42_Identifier ;
-    rdfs:label "40CM_1" .
+<73ed15c2-a4df-4be3-bdcd-26a8fd62301f> a crm:E41_Appellation ;
+    rdfs:label "Page 1" ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
 
 <7538fe25-e943-4aae-8ae5-c94157724369> crm:P80_end_is_qualified_by "date inconnue" .
 
@@ -75,52 +69,58 @@
     crm:P102_has_title <4765e717-0f7e-46dd-ab9c-e961fdac3585> ;
     lrm:R3_is_realised_in <b0b09fb4-968d-4faa-8b0a-d2e733fcdff8> .
 
-<861f3de9-4ebf-4060-8609-63ec147b72fc> a crm:E42_Identifier ;
-    rdfs:label "40CM_3" .
+<907c4b6e-094f-41c6-a6b8-542335975245> a crm:E41_Appellation ;
+    rdfs:label "Page 2" ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
 
-<d2345628-5bb3-4dc9-9a5a-8d9aab939221> a crm:E41_Appellation ;
+<98a88376-421e-4376-a02c-235009dbd648> a crm:E42_Identifier ;
+    rdfs:label "40CM_00001" .
+
+<9c8f51d5-c385-4fb9-a591-5ced5629b64d> a crm:E42_Identifier ;
+    rdfs:label "40CM_00003" .
+
+<b92e4c13-3fc5-43ff-ba08-d843e9765186> a crm:E41_Appellation ;
     rdfs:label "Page 3" ;
     crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
 
-<e28c273a-a05c-4037-96a0-bcd4494763a4> a crm:E41_Appellation ;
-    rdfs:label "Page 1" ;
-    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+<df6a599f-4b46-4168-a3fc-4ab0bd47fec5> a crm:E42_Identifier ;
+    rdfs:label "40CM_00002" .
 
-<09db4131-1a58-4788-883e-f1fe2a4c009d> a crm:E18_Physical_Object ;
-    crm:P128_carries <9a67fe44-5ad7-44cd-a3ad-a708351dc253> .
+<070facee-7236-4200-a791-0a89e6f98fd3> a crm:E18_Physical_Object ;
+    crm:P128_carries <81478409-51d2-405c-8ea0-a5848188f0f0> .
 
-<15186bea-7d86-4eae-9379-94cb5dede793> a crmdig:D1_Digital_Object ;
-    crm:130_shows_features_of <dbff650d-0cf2-424d-a420-dd5c969419f5> .
+<2fbacd55-5152-4066-8a76-eb4be637bfe2> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <2f41a3ea-e909-45e1-b525-93f71e18a048> .
 
-<543f4c16-aea1-4190-a146-e210afb86032> a crm:E18_Physical_Object ;
-    crm:P128_carries <dbff650d-0cf2-424d-a420-dd5c969419f5> .
+<3514bdfc-b655-40d7-8903-f9ce85a3ae2c> a crm:E18_Physical_Object ;
+    crm:P128_carries <2f41a3ea-e909-45e1-b525-93f71e18a048> .
 
-<a2c81c61-8582-41c7-8a33-3463302020b1> a crmdig:D1_Digital_Object ;
-    crm:130_shows_features_of <e54609ad-40ef-4d45-bf67-24b3db6c8893> .
+<8d9f2af0-b964-4357-9d2a-4892012c018c> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <cf4607ad-7c51-4cb7-b41b-efbcb376edb2> .
+
+<92680155-3785-4b36-b258-d41cba4ac13c> a crm:E18_Physical_Object ;
+    crm:P128_carries <cf4607ad-7c51-4cb7-b41b-efbcb376edb2> .
+
+<9a8e4a3b-6dea-46b2-9d1f-6805fb1f807b> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <81478409-51d2-405c-8ea0-a5848188f0f0> .
 
 <c7b2aaa9-f94c-4a48-abdb-93b885570de3> a lrm:F3_Manifestation ;
     lrm:R4_embodies <b0b09fb4-968d-4faa-8b0a-d2e733fcdff8> .
 
-<dd91cbe6-12da-4b88-bb96-0b629e6191f2> a crm:E18_Physical_Object ;
-    crm:P128_carries <e54609ad-40ef-4d45-bf67-24b3db6c8893> .
+<2f41a3ea-e909-45e1-b525-93f71e18a048> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <9c8f51d5-c385-4fb9-a591-5ced5629b64d>,
+        <b92e4c13-3fc5-43ff-ba08-d843e9765186> .
 
-<f3d55380-5fea-4927-a793-7dfe44f2c978> a crmdig:D1_Digital_Object ;
-    crm:130_shows_features_of <9a67fe44-5ad7-44cd-a3ad-a708351dc253> .
+<81478409-51d2-405c-8ea0-a5848188f0f0> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <73ed15c2-a4df-4be3-bdcd-26a8fd62301f>,
+        <98a88376-421e-4376-a02c-235009dbd648> .
 
-<9a67fe44-5ad7-44cd-a3ad-a708351dc253> a crm:E90_Symbolic_Object ;
-    crm:P1_is_identified_by <180baecb-b00c-45c2-8543-5f790c4fc0f0>,
-        <1b817423-bef0-4091-aa90-ea475f10b224> .
-
-<dbff650d-0cf2-424d-a420-dd5c969419f5> a crm:E90_Symbolic_Object ;
-    crm:P1_is_identified_by <6bf5b130-a36b-423a-8403-fb68e8b061b8>,
-        <e28c273a-a05c-4037-96a0-bcd4494763a4> .
-
-<e54609ad-40ef-4d45-bf67-24b3db6c8893> a crm:E90_Symbolic_Object ;
-    crm:P1_is_identified_by <861f3de9-4ebf-4060-8609-63ec147b72fc>,
-        <d2345628-5bb3-4dc9-9a5a-8d9aab939221> .
+<cf4607ad-7c51-4cb7-b41b-efbcb376edb2> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <907c4b6e-094f-41c6-a6b8-542335975245>,
+        <df6a599f-4b46-4168-a3fc-4ab0bd47fec5> .
 
 <b0b09fb4-968d-4faa-8b0a-d2e733fcdff8> a lrm:F2_Expression ;
-    lrm:R15_has_fragment <9a67fe44-5ad7-44cd-a3ad-a708351dc253>,
-        <dbff650d-0cf2-424d-a420-dd5c969419f5>,
-        <e54609ad-40ef-4d45-bf67-24b3db6c8893> .
+    lrm:R15_has_fragment <2f41a3ea-e909-45e1-b525-93f71e18a048>,
+        <81478409-51d2-405c-8ea0-a5848188f0f0>,
+        <cf4607ad-7c51-4cb7-b41b-efbcb376edb2> .
 

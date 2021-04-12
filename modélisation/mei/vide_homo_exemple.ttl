@@ -9,9 +9,10 @@
 <9c7a9e61-d9e0-4033-aead-df9924a2b6a9>
     a crm:E31_Document ;
     a crmdig:D1_Digital_Object ;
+    a crm:F2_Expression ; 
     dcterms:format "application/vnd.mei+xml" ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> ;
-    crm:130_shows_features_of <52815242-1a15-4805-a028-23a74fc4fd4c> ;
+    #R3 <d2fe0b34-9568-42fb-91ff-0edb013ff01e> ;
     crm:P102_has_title <7a50ba3a-ee9e-453c-afe0-715445544571> ;
 .
 
