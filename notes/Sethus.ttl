@@ -193,10 +193,9 @@ mt:has_tonus
     .
 
 ################################################################################
-# Sources (non music)
+# Scholarly papers
 ################################################################################
 
-# Scholarly Works
 # TODO http://www.sparontologies.net/ontologies/fabio
 
 <a507ba27-c233-46de-b747-f84a4d6d916e>
