@@ -2,15 +2,18 @@
 
 @base <http://data-iremus.huma-num.fr/id/> .
 
+@prefix cito: <http://purl.org/spar/cito/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix crminf: <http://www.cidoc-crm.org/cidoc-crm/CRMinf/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix fabio: <http://purl.org/spar/fabio/> .
-@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix doremus: <http://data.doremus.org/ontology#> .
 @prefix doremusvoc: <http://data.doremus.org/vocabulary/function/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix hico: <http://purl.org/emmedi/hico/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -236,6 +239,7 @@ mt:has_tonus
 # Powers' statement as reported by Ceulemans
 <66b77d2c-dfdd-4bdc-9380-2898ad7584df>
     a crminf:I9_Provenanced_Comprehension ;
+    crm:P67i_is_referred_to_by <87805aa2-a149-4a6f-b6ad-a4ad92a3ec81> ;
     crminf:J8_understands <dae592e5-09e9-4ad0-8da4-60359ae3a331> ;
     crminf:J10_reads_as <68f44c68-ca33-4422-8d88-ab94afdd76cf> ;
     .
@@ -248,7 +252,7 @@ mt:has_tonus
     a crminf:I1_Argumentation ;
     crm:P2_has_type ip:relativization ;
     crm:P14_carried_out_by <9b27278d-5971-43d5-9cea-cf4d1d1facd5> ;
-    crm:P67i_is_referred_to_by <bfdf4431-c7cd-4926-9cb4-6d1f65d7d607> ; # TODO how to express the fact that thisargumentation takes place in this research paper: [F1: <bfdf4431-c7cd-4926-9cb4-6d1f65d7d607> / F2: <87805aa2-a149-4a6f-b6ad-a4ad92a3ec81>] ?] ;
+    crm:P67i_is_referred_to_by <87805aa2-a149-4a6f-b6ad-a4ad92a3ec81> ;
     crminf:J2_concluded_that [
         # The claim that Vide Homo has tonus "tonus peregrinus"
         # A relativization of this claim
@@ -260,7 +264,7 @@ mt:has_tonus
             crm:P177_assigned_property_type mt:has_tonus ;
             crm:P141_assigned mt:tonus_peregrinus ;
         ] ;
-        crminf:J5_holds_to_be "not entirely true and should be relativized"
+        crminf:J5_holds_to_be "not entirely true and should be relativized" ;
         crm:P3_has_note "Certains chercheurs ont proposé de rattacher cette œuvre au ton pérégrin. Cette attribution se base néanmoins sur un critère purement externe, la finale, et ne dit rien de l'organisation interne du motet." ;
     ] ;
     .
@@ -269,6 +273,12 @@ mt:has_tonus
 # Intellectual Primitives
 ################################################################################
 
-ip:relativization
-    a crm:E55_Type ;
-    .
+ip:bibliography a crm:E55_Type .
+ip:relativization a crm:E55_Type .
+ip:scholarly-reading a crm:E55_Type .
+
+################################################################################
+# TODO
+################################################################################
+
+# How to express the fact that an argumentation occurs in a research paper? crm:P67i_is_referred_to_by? hico:isExtractedFrom?
