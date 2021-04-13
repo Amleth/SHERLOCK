@@ -213,7 +213,6 @@ if collection_row[3].value == "Images":
     img_row = None
 
     for row in img:
-        # TODO Ajouter dans le tableau d'Anne une colonne "collection" à l'index [1]
         if row[1].value == args.collection_id:
             img_row = row
             id = img_row[0].value
@@ -221,22 +220,78 @@ if collection_row[3].value == "Images":
             # L'image comme support physique
             image_E22 = she(cache_40CM.get_uuid(["collection", id, "E22"], True))
             t(image_E22, a, crm("E22_Human-Made_Object"))
-            ## Création de l'image
-            image_E22_E65 = she(cache_40CM.get_uuid(["collection", id, "E22_E65"], True))
-            t(image_E22_E65, a, crm("E65_Creation"))
+            ## Création de la gravure
+            image_E22_E12 = she(cache_40CM.get_uuid(["collection", id, "E22_E12"], True))
+            t(image_E22_E12, a, crm("E12_Production"))
+            t(image_E22_E12, crm("P108_has_produced"), image_E22)
+
+            # TODO AJOUTER SCULPSIT INVENIT
+            # TODO AJOUTER F2 livraison - R5 has component - F2 gravure
 
             # L'image comme support sémiotique
             image_E36 = she(cache_40CM.get_uuid(["collection", id, "E36"], True))
             t(image_E22, crm("P65_shows_visual_item"), image_E36)
-            t(image_E36, a, crm("P1_has_identifier"), img_row[0])
-            ## Titre sur l'image
-            image_E36_E35 = she(cache_40CM.get_uuid(["collection", id, "E36_E35"], True))
-            t(image_E36, crm("P102_has_title"), image_E36_E35)
-            t(image_E36_E35, RDFS.label, img_row[2])
-            t(image_E36_E35, crm("P2_has_type"), she("01a07474-f2b9-4afd-bb05-80842ecfb527"))
-            # TODO Ajouter les autres types de titres
+            t(image_E36, a, crm("E36_Visual_Item"))
+            t(image_E36, a, lrm("F2_Expression"))
+            t(image_E36, crm("P1_has_identifier"), Literal(id))
 
-            # TODO Ajouter les E13 d'indexation
+            ## Titre sur l'image (E13)
+            if img_row[4].value != None:
+                image_E36_titre1 = she(cache_40CM.get_uuid(["collection", id, "E36_E35_titre1"], True))
+                t(image_E36_titre1, a, crm("E35_Title"))
+                t(image_E36_titre1, RDFS.label, Literal(img_row[4].value))
+                image_E36_titre1_E13 = she(cache_40CM.get_uuid(["collection", id, "E36_E35_titre1_E13"], True))
+                t(image_E36_titre1_E13, a, crm("E13_Attribute_Assignement"))
+                t(image_E36_titre1_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
+                t(image_E36_titre1_E13, crm("P140_assigned_attribute_to"), image_E36)
+                t(image_E36_titre1_E13, crm("P141_assigned"), image_E36_titre1)
+                t(image_E36_titre1_E13, crm("P177_assigned_property_type"), she("01a07474-f2b9-4afd-bb05-80842ecfb527"))
+
+            ## Titre descriptif/forgé (E13)
+            if img_row[5].value != None:
+                image_E36_titre2 = she(cache_40CM.get_uuid(["collection", id, "E36_E35_titre2"], True))
+                t(image_E36_titre2, a, crm("E35_Title"))
+                t(image_E36_titre2, RDFS.label, Literal(img_row[5].value))
+                image_E36_titre2_E13 = she(cache_40CM.get_uuid(["collection", id, "E36_E35_titre2_E13"], True))
+                t(image_E36_titre2_E13, a, crm("E13_Attribute_Assignement"))
+                t(image_E36_titre2_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
+                t(image_E36_titre2_E13, crm("P140_assigned_attribute_to"), image_E36)
+                t(image_E36_titre2_E13, crm("P141_assigned"), image_E36_titre2)
+                t(image_E36_titre2_E13, crm("P177_assigned_property_type"), she("58fb99dd-1ffb-4e00-a16f-ef6898902301"))
+
+            ## Titre dans le péritexte (E13)
+            if img_row[6].value != None:
+                image_E36_titre3 = she(cache_40CM.get_uuid(["collection", id, "E36_E35_titre3"], True))
+                t(image_E36_titre3, a, crm("E35_Title"))
+                t(image_E36_titre3, RDFS.label, Literal(img_row[6].value))
+                image_E36_titre3_E13 = she(cache_40CM.get_uuid(["collection", id, "E36_E35_titre3_E13"], True))
+                t(image_E36_titre3_E13, a, crm("E13_Attribute_Assignement"))
+                t(image_E36_titre3_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
+                t(image_E36_titre3_E13, crm("P140_assigned_attribute_to"), image_E36)
+                t(image_E36_titre3_E13, crm("P141_assigned"), image_E36_titre3)
+                t(image_E36_titre3_E13, crm("P177_assigned_property_type"), she("ded9ea93-b400-4550-9aa8-e5aac1d627a0"))
+
+            ## Objet ou lieu représenté (E13)
+            if img_row[8].value != None:
+
+                # TODO ALIGNER SUR LES E55 QUAND ON AURA TRANSFORME LE VOCABULAIRE D'INDEXATION EN TTL
+                # TODO ALIGNER SUR LE REFERENTIEL DES PERSONNES
+
+                image_objets_E13 = she(cache_40CM.get_uuid(["collection", id, "E36_objets_E13"], True))
+                t(image_objets_E13, a, crm("E13_Attribute_Assignement"))
+                t(image_objets_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
+                t(image_objets_E13, crm("P140_assigned_attribute_to"), image_E36)
+                t(image_objets_E13, crm("P141_assigned"), Literal(img_row[8].value))
+                t(image_objets_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
+
+            ### Si l'objet représenté est une médaille
+                if "médaille" in img_row[8].value:
+                    image_objets_médaille = she(cache_40CM.get_uuid(["collection", id, "E36_objets_médaille"], True))
+                    t(image_objets_médaille, a, crm("E36_Visual_Item"))
+                    t(image_E36, crm("P106_is_composed_of"), image_objets_médaille)
+                    t(image_objets_médaille, crm("P2_has_type"), she("4b51d9dc-3623-47f4-ab45-239604e18930"))
+            #### Si la médaille comporte une inscription
+
 
 
 

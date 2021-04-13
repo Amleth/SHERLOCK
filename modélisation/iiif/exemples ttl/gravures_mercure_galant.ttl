@@ -37,11 +37,13 @@
     crm:P65_shows_visual_item <bc28304d-8c6c-448f-bb70-85d525b2971c> ;
     .
 
-# Ajouter un "F2 livraison - P106 is composed of - E36 Visuel Item" + faire la même chose avec le F2 article si c'est possible.
+# Ajouter un "F2 livraison - R5 has component - F2 gravure " + faire la même chose avec le F2 article si c'est possible.
 
 # Le contenu sémiotique de la gravure
 <bc28304d-8c6c-448f-bb70-85d525b2971c>
     a crm:E36_Visual_Item ;
+    a lrmoo:F2_Expression ;
+    # Ajouter le type "partition" s'il s'agit d'une partition
     crm:P102_has_title <08461321-573d-4cfe-a181-6711d6c61d50> ;
     crm:P138_represents <ad777a4f-55b6-4ff1-be2c-290e04a6bf36> ; # Colonne "Objets" et colonne "lieux" (TODO: aligner au ref. lieux)
     # E13 : P177 - <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> ; # Colonne "Thématique" 

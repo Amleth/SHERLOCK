@@ -42,6 +42,8 @@
     a lrmoo:F2_Expression ;
 .
 
+# Ajouter le type "partition"
+
 
 # L'oeuvre musicale 
 <f699bcd8-eb61-4faa-a179-ec4f15e34490>
