@@ -49,7 +49,7 @@
 
 <14926d58-83e7-4414-90a8-1a3f5ca8fec1>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Collection numérique" ;
+  crm:P1_is_identified_by "Collection d'images numériques" ;
   .
 
 # Types d'identifiants techniques

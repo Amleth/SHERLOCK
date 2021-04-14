@@ -1,0 +1,29 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<78d5de6e-084c-444a-a9cf-18fa946cbb76>
+    a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Opérations iconographiques" ;
+    crm:P71_lists <f2d9b792-2cfd-4265-a2c5-e0a69ce01536>,
+        <4d57ac14-247f-4b0e-90ca-0397b6051b8b>,
+        <f39eb497-5559-486c-b5ce-6a607f615773> ;
+    .
+
+<f2d9b792-2cfd-4265-a2c5-e0a69ce01536>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Thématique" ;
+  dcterms:created <fc278da3-1822-45f6-9985-78ad3718a70f> ;
+  .
+
+<4d57ac14-247f-4b0e-90ca-0397b6051b8b>
+  a crm:E55_Type ;
+    crm:P1_is_identified_by "Invenit" ;
+    dcterms:created <40006d1f-c77e-4514-be9f-4b8f6757cf47> ;
+    .
+
+<f39eb497-5559-486c-b5ce-6a607f615773>
+  a crm:E55_Type ;
+    crm:P1_is_identified_by "Sculpsit" ;
+    dcterms:created <7d4d40a4-9b4a-4098-99a9-c5d6de91217e> ;
+    .
