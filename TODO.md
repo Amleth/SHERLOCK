@@ -1,16 +1,19 @@
 # TODO
 
-## Technique
+## Corpus MG
 
-
-
-## Fichier Excel
-
-- Créer une colonne par contribution avec rôle + nom (UUID) (rôle renvoie à un vocabulaire contrôlé des domaines d'expertise/fonctions => sherlock/data)
+- Les D1 (les trucs chez Gallica) doivent être rattachés aux F2 des F5 dont ils sont la numérisation via `crm:P130`
+- Lier les F2 articles de la TEI à leurs F2 livraison via R5 (je crois que ces liens existent pour l'édition originale).
+- Dire à Antoine de faire les index uniquement sur les liens entre F2
+- Je crois que des F2 articles TEI sont imbriqués dans des F2 livraisons physique
 
 ## Corpora iconographiques
 
 - dcterms:creator (= personne), pas created (= date)
+
+### Fichier Excel
+
+- Créer une colonne par contribution avec rôle + nom (UUID) (rôle renvoie à un vocabulaire contrôlé des domaines d'expertise/fonctions => sherlock/data)
 
 ### Collection
 
