@@ -268,12 +268,13 @@ if collection_row[3].value == "Images":
                 image_E36_titre1 = she(cache_40CM.get_uuid(["collection", id, "E36_E35_titre1"], True))
                 t(image_E36_titre1, a, crm("E35_Title"))
                 t(image_E36_titre1, RDFS.label, Literal(img_row[4].value))
-                image_E36_titre1_E13 = she(cache_40CM.get_uuid(["collection", id, "E36_E35_titre1_E13"], True))
+                image_E36_titre1_E13 = she(cache_40CM.get_uuid(["collection", id, "E36", "E35", "titre1", "E13"], True))
                 t(image_E36_titre1_E13, a, crm("E13_Attribute_Assignement"))
                 t(image_E36_titre1_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
                 t(image_E36_titre1_E13, crm("P140_assigned_attribute_to"), image_E36)
                 t(image_E36_titre1_E13, crm("P141_assigned"), image_E36_titre1)
                 t(image_E36_titre1_E13, crm("P177_assigned_property_type"), she("01a07474-f2b9-4afd-bb05-80842ecfb527"))
+
 
             ## Titre descriptif/forgé (E13)
             if img_row[5].value != None:
