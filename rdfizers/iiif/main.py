@@ -13,10 +13,12 @@ parser.add_argument("--iiif_excel_coll")
 parser.add_argument("--iiif_excel_index")
 parser.add_argument("--output_ttl")
 parser.add_argument("--cache_40CM")
+parser.add_argument("--cache_corpus")
 args = parser.parse_args()
 
-# Cache
+# Caches
 cache_40CM = Cache(args.cache_40CM)
+cache_corpus = Cache(args.cache_corpus)
 
 # Initialisation du graphe
 output_graph = Graph()
@@ -216,6 +218,7 @@ if collection_row[3].value == "Images":
         if row[1].value == args.collection_id:
             img_row = row
             id = img_row[0].value
+            id_livraison = "MG-" + id[0:-4]
 
             # L'image comme support physique
             image_E22 = she(cache_40CM.get_uuid(["collection", id, "E22"], True))
@@ -226,7 +229,23 @@ if collection_row[3].value == "Images":
             t(image_E22_E12, crm("P108_has_produced"), image_E22)
 
             # TODO AJOUTER SCULPSIT INVENIT
-            # TODO AJOUTER F2 livraison - R5 has component - F2 gravure
+            ### Invenit
+            if img_row[12].value != None:
+                image_E22_E12_invenit = she(cache_40CM.get_uuid(["collection", id, "E22_E12_invenit"], True))
+                t(image_E22_E12_invenit, a, crm("E12_Production"))
+                t(image_E22_E12_invenit, crm("P2_has_type"), she("4d57ac14-247f-4b0e-90ca-0397b6051b8b"))
+                t(image_E22_E12, crm("P9_consists_of"), image_E22_E12_invenit)
+                #### E13 Attribute Assignement
+
+
+            ### Sculpsit
+            if img_row[13].value != None:
+                image_E22_E12_sculpsit = she(cache_40CM.get_uuid(["collection", id, "E22_E12_sculpsit"], True))
+                t(image_E22_E12_sculpsit, a, crm("E12_Production"))
+                t(image_E22_E12_sculpsit, crm("P2_has_type"), she("f39eb497-5559-486c-b5ce-6a607f615773"))
+                t(image_E22_E12, crm("P9_consists_of"), image_E22_E12_sculpsit)
+                #### E13 Attribute Assignement
+
 
             # L'image comme support sémiotique
             image_E36 = she(cache_40CM.get_uuid(["collection", id, "E36"], True))
@@ -234,6 +253,15 @@ if collection_row[3].value == "Images":
             t(image_E36, a, crm("E36_Visual_Item"))
             t(image_E36, a, lrm("F2_Expression"))
             t(image_E36, crm("P1_has_identifier"), Literal(id))
+
+            ## Lien avec la livraison
+            try:
+                livraison_F2 = she(cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
+                t(livraison_F2, lrm("R5_has_component"), image_E36)
+            except:
+                pass
+
+            ## TODO AJOUTER LIEN AVEC L'ARTICLE QUAND C'EST POSSIBLE
 
             ## Titre sur l'image (E13)
             if img_row[4].value != None:
@@ -284,19 +312,60 @@ if collection_row[3].value == "Images":
                 t(image_objets_E13, crm("P141_assigned"), Literal(img_row[8].value))
                 t(image_objets_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
 
-            ### Si l'objet représenté est une médaille
+                ### Si l'objet représenté est une médaille (E13)
                 if "médaille" in img_row[8].value:
                     image_objets_médaille = she(cache_40CM.get_uuid(["collection", id, "E36_objets_médaille"], True))
                     t(image_objets_médaille, a, crm("E36_Visual_Item"))
-                    t(image_E36, crm("P106_is_composed_of"), image_objets_médaille)
                     t(image_objets_médaille, crm("P2_has_type"), she("4b51d9dc-3623-47f4-ab45-239604e18930"))
-            #### Si la médaille comporte une inscription
+                    t(image_objets_médaille, RDFS.label, Literal("Médaille"))
+                    #### E13 Attribute Assignement
+                    image_objets_médaille_E13 = she(cache_40CM.get_uuid(["collection", id, "E36_objets_médaille_E13"], True))
+                    t(image_objets_médaille_E13, a, crm("E13_Attribute_Assignement"))
+                    t(image_objets_médaille_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
+                    t(image_objets_médaille_E13, crm("P140_assigned_attribute_to"), image_E36)
+                    t(image_objets_médaille_E13, crm("P141_assigned"), image_objets_médaille)
+                    t(image_objets_médaille_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
 
+                    #### Si la médaille comporte une inscription en légende (E13)
+                    if img_row[14].value != None:
+                        image_objets_médaille_E33_legende = she(cache_40CM.get_uuid(["collection", id, "E36_objets_médaille_E33_légende"], True))
+                        t(image_objets_médaille_E33_legende, a, crm("E33_Linguistic_Object"))
+                        t(image_objets_médaille_E33_legende, crm("P2_has_type"), she("4dfd795d-c828-4f38-99fd-001b7f7823af"))
+                        t(image_objets_médaille_E33_legende, RDFS.label, Literal(img_row[14].value))
+                        ##### E13 Attribute Assignement
+                        image_objets_médaille_E33_legende_E13 = she(cache_40CM.get_uuid(["collection", id, "E36_objets_médaille_E33_légende_E13"], True))
+                        t(image_objets_médaille_E33_legende_E13, a, crm("E13_Attribute_Assignement"))
+                        t(image_objets_médaille_E33_legende_E13, crm("P14_carried_out_by"),
+                          she("ea287800-4345-4649-af12-7253aa185f3f"))
+                        t(image_objets_médaille_E33_legende_E13, crm("P140_assigned_attribute_to"), image_objets_médaille)
+                        t(image_objets_médaille_E33_legende_E13, crm("P141_assigned"), image_objets_médaille_E33_legende)
+                        t(image_objets_médaille_E33_legende_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
 
+                    #### Si la médaille comporte une inscription en exergue (E13)
+                    if img_row[15].value != None:
+                        image_objets_médaille_E33_exergue = she(
+                            cache_40CM.get_uuid(["collection", id, "E36_objets_médaille_E33_exergue"], True))
+                        t(image_objets_médaille_E33_exergue, a, crm("E33_Linguistic_Object"))
+                        t(image_objets_médaille_E33_exergue, crm("P2_has_type"),
+                          she("48e41407-e591-41f5-ade7-845e5687d273"))
+                        t(image_objets_médaille_E33_exergue, RDFS.label, Literal(img_row[15].value))
+                        ##### E13 Attribute Assignement
+                        image_objets_médaille_E33_exergue_E13 = she(
+                            cache_40CM.get_uuid(["collection", id, "E36_objets_médaille_E33_exergue_E13"], True))
+                        t(image_objets_médaille_E33_exergue_E13, a, crm("E13_Attribute_Assignement"))
+                        t(image_objets_médaille_E33_exergue_E13, crm("P14_carried_out_by"),
+                          she("ea287800-4345-4649-af12-7253aa185f3f"))
+                        t(image_objets_médaille_E33_exergue_E13, crm("P140_assigned_attribute_to"),
+                          image_objets_médaille)
+                        t(image_objets_médaille_E33_exergue_E13, crm("P141_assigned"),
+                          image_objets_médaille_E33_exergue)
+                        t(image_objets_médaille_E33_exergue_E13, crm("P177_assigned_property_type"),
+                          crm("P106_is_composed_of"))
 
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.output_ttl, "wb") as f:
     f.write(serialization)
 cache_40CM.bye()
+cache_corpus.bye()
 

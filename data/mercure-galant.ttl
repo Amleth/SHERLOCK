@@ -70,31 +70,31 @@
 <357a459f-4f27-4d46-b5ac-709a410bce04>
   a crm:E55_Type ;
     crm:P1_is_identified_by "Inscription en exergue" ;
-    dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
+    dcterms:created <48e41407-e591-41f5-ade7-845e5687d273> ;
     .
 
 <fc229531-0999-4499-ab0b-b45e18e8196f>
   a crm:E55_Type ;
     crm:P1_is_identified_by "Inscription en légende" ;
-    dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
+    dcterms:created <4dfd795d-c828-4f38-99fd-001b7f7823af> ;
     .
 
 <f2d9b792-2cfd-4265-a2c5-e0a69ce01536>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Type/Thématique" ;
-  dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
+  dcterms:created <fc278da3-1822-45f6-9985-78ad3718a70f> ;
   .
 
 <4d57ac14-247f-4b0e-90ca-0397b6051b8b>
   a crm:E55_Type ;
     crm:P1_is_identified_by "Invenit" ;
-    dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
+    dcterms:created <40006d1f-c77e-4514-be9f-4b8f6757cf47> ;
     .
 
 <f39eb497-5559-486c-b5ce-6a607f615773>
   a crm:E55_Type ;
     crm:P1_is_identified_by "Sculpsit" ;
-    dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
+    dcterms:created <7d4d40a4-9b4a-4098-99a9-c5d6de91217e> ;
     .
 
 ####################################################################

@@ -24,6 +24,7 @@ collection:
     E36_E35_titre2: adb0323c-f56d-4bd3-bb39-8e9e9659336a
     E36_E35_titre2_E13: c473851f-4d52-4317-bcad-40469d468903
     E36_objets_E13: 760a2082-69a4-4ed8-9c65-534bd9895d0e
+    E22_E12_sculpsit: ae45855a-27de-4941-9872-0fe18920f493
   1678-01_038:
     E22: eaed8fc5-4e95-4318-89f1-c78b15c32680
     E22_E12: c24dcb61-fa5f-4077-9f9d-43d0eb58ab68
@@ -59,6 +60,7 @@ collection:
     E36_E35_titre2_E13: b96ac052-9765-4161-b4ad-851958204e53
     E36_E35_titre3: ae891f02-1397-4a63-9f1e-c0739e1d3240
     E36_E35_titre3_E13: 77a3495e-db06-4022-95cc-2651b9df256f
+    E22_E12_sculpsit: 9a1f42f9-234c-4d41-9aa5-cbe27955c2c9
   1678-02_081:
     E22: ad6847ca-4a4f-4e9a-89f6-2b498c387ffd
     E22_E12: e8b5fcd1-2c2d-4e8b-8cc5-fe0a637d8232
@@ -195,6 +197,7 @@ collection:
     E36_E35_titre3: 17709c02-95b0-456d-971d-dfd2294b52ef
     E36_E35_titre3_E13: 395fec6c-128b-4194-b3ef-05f283cd7a93
     E36_objets_E13: 2a511428-b507-41cd-9727-9733cf34fd7f
+    E22_E12_sculpsit: 4cd8b670-7918-406d-9903-32153634eb02
   1678-04_044:
     E22: fb08dcd8-edda-408a-a1b0-16d84ccae70e
     E22_E12: 22c21abc-642e-4fa9-b456-71016bbc892f
@@ -561,6 +564,7 @@ collection:
     E36_E35_titre2_E13: 902b4617-88b1-4cf7-a2fb-20d9ada7e27b
     E36_E35_titre3: bc8050dd-3e0d-4f74-a250-600fb5ae8ee9
     E36_E35_titre3_E13: 261266b0-30bc-444b-aa4d-41070c4c4579
+    E22_E12_sculpsit: 05c71edb-397b-4a28-98ca-b127b87fd8ff
   1678-09e_393:
     E22: fdb106d8-d6a3-4f61-a448-955d4393f130
     E22_E12: 0dae29f6-6a96-4d27-8bb8-b0c606593d8a
@@ -594,6 +598,9 @@ collection:
     E36_E35_titre3: 15962d31-27ba-4763-aec3-009e73e0242a
     E36_E35_titre3_E13: 1e372a4d-e8dc-455b-88e9-707833e96c51
     E36_objets_E13: a880d03e-46e7-43e8-8206-eb9f4090178f
+    E36_objets_médaille: 0b35d01c-2ada-488a-a43b-b92c79e5b72f
+    E36_objets_médaille_E13: 38c19ba3-f1de-4089-b2bb-cffb57f959dc
+    E22_E12_invenit: 008f6efb-5e6a-42e9-b40d-e6812981bb9d
   1678-10_355:
     E22: d0fc4532-bf64-4c2b-8e30-4d47b2ef975d
     E22_E12: c2f19e68-7cab-4368-a987-9c4cabb15237
@@ -636,6 +643,12 @@ collection:
     E36_E35_titre3: 51527e63-8b18-4117-933f-360e9dddf208
     E36_E35_titre3_E13: b41e8967-ae29-44fb-86c3-d3751cc7bfb1
     E36_objets_E13: 6b3874e3-353f-48e3-8eb2-f10e9bd62f31
+    E36_objets_médaille: c57e2f41-2668-4d80-8be0-84a5ae7ff0b8
+    E36_objets_médaille_E13: df16d648-4b7a-4900-9550-fc51cdea5428
+    E36_objets_médaille_E33_légende: 5402a687-cf37-4bcc-ab78-3569564e019c
+    E36_objets_médaille_E33_légende_E13: de41b0e2-af67-4302-96a8-608b487d9305
+    E36_objets_médaille_E33_exergue: 01f18fbd-b5bd-4ae8-8f6b-70070e2df975
+    E36_objets_médaille_E33_exergue_E13: a234ae40-3fa5-47fb-8aa2-24748dff30ad
   1678-11_276:
     E22: 3dd33d52-733a-4c49-bf47-a4303d0d96b1
     E22_E12: 7dfc0722-982e-484c-865a-7a96717ac83a
@@ -713,6 +726,7 @@ collection:
     E36_E35_titre3: eba9f7ac-8bf0-4313-bcf3-4fc8a7d14a46
     E36_E35_titre3_E13: ccfaa0f3-1bed-414b-ba18-fd307602c171
     E36_objets_E13: ade37dfe-400e-42b8-9a40-6c920b68396d
+    E22_E12_sculpsit: 89add7a2-b05f-4111-af79-00035a9b7e13
   1678-12e_349:
     E22: 7948c555-f2f2-438d-ad88-27f87db3ef9a
     E22_E12: 9c25116c-a8da-4c30-8e4e-945d0f748e35
@@ -726,6 +740,9 @@ collection:
     E36_E35_titre3: b62bb233-6077-44b3-bb4b-a27bed71446d
     E36_E35_titre3_E13: 44d56c10-cf7d-4948-9d57-71b91c5a7c2b
     E36_objets_E13: 32cd0c87-646c-4bb7-ae99-f562b265600b
+    E36_objets_médaille: bece74b0-6a6e-41c4-b6e9-a6cf84bc8a0b
+    E36_objets_médaille_E13: 6f4868ca-29db-42fb-8f2f-bda731b488b9
+    E22_E12_sculpsit: c9f935f1-ba9d-4656-b182-99b4ab5cbae9
   1679-01_016:
     E22: 07bacda8-f621-43aa-88ac-3f546a272c43
     E22_E12: 3656d149-c327-459e-a1c6-b5d354e40413
@@ -762,6 +779,8 @@ collection:
     E36_E35_titre3: 1531c0ab-b5bd-4a5e-9322-acb9ff944e83
     E36_E35_titre3_E13: b526b8b4-42c5-4f6a-8ba9-c33093eedc3a
     E36_objets_E13: 17aa0c66-79af-476f-b151-9e287851cbf6
+    E36_objets_médaille: 96e99f66-d6d9-46fd-a2e9-cc164f5ecc3f
+    E36_objets_médaille_E13: a8c70278-9d8a-4858-8ce8-2d00602f45cb
   1679-02_225:
     E22: 799407af-86ac-4e85-9793-52fa31235145
     E22_E12: 3d17990f-43e6-410e-ad6b-c068a0e5c386
@@ -806,6 +825,8 @@ collection:
     E36_E35_titre3: d5eb5fdb-14da-4055-ab11-be25ccebc639
     E36_E35_titre3_E13: c21083a1-c412-40b1-ac85-71b5d99895c3
     E36_objets_E13: 04ba0425-ec60-46d3-96f9-1cdacf6bcd9f
+    E36_objets_médaille: f8bbaadb-a22a-4f6b-a494-14bf3e24413f
+    E36_objets_médaille_E13: 42b3bfb1-7c18-4e89-9946-e58cc6c096cb
   1679-03_349:
     E22: 937c78dc-20f2-49ef-a859-6e299d9e70db
     E22_E12: 3a4338d6-1dc8-4fe4-b8b9-e1461235d4cb
@@ -828,6 +849,7 @@ collection:
     E36_E35_titre3: 73852d8f-13a6-45e3-8596-64a2574f5dd3
     E36_E35_titre3_E13: 1b28132e-2bbe-45d9-b87a-d81e5484b678
     E36_objets_E13: 879ed963-f1c4-4e05-a783-2a624050d70b
+    E22_E12_sculpsit: d52e44fc-4aae-4c10-9037-da95ef47c819
   1679-03e_172:
     E22: e64ddd87-a117-4de5-94cd-26582f82c991
     E22_E12: e8424911-e861-4b75-807d-91c751b73970
@@ -867,6 +889,8 @@ collection:
     E36_E35_titre3: fe3aecd9-8cd7-4ec9-9400-2062d3bce4c9
     E36_E35_titre3_E13: a26006ca-84c1-49ec-8551-b8d0842cf56e
     E36_objets_E13: 047ff26e-b743-403f-9f0d-a2f0e990dad7
+    E36_objets_médaille: 8700ddec-dda0-4cd8-9058-95d9b9c8bdfb
+    E36_objets_médaille_E13: b084acf4-e6f6-42ee-a673-7e8d9c0eba65
   1679-04_259:
     E22: 2051f029-2b3e-41b0-9172-255d51b16048
     E22_E12: 3eaf9b59-a6c1-40ad-bd12-9462f01edd5e
@@ -907,6 +931,8 @@ collection:
     E36_E35_titre3: a886bc19-09ee-491e-aa4c-cd64a057f138
     E36_E35_titre3_E13: 510af121-da90-47f8-bedb-1d64ec710f85
     E36_objets_E13: 2a14050f-40ae-40e3-8db4-bdd2ee7d78d2
+    E36_objets_médaille: e1726e83-1886-4e04-b3d7-b3d23c6bf91a
+    E36_objets_médaille_E13: 46d7da4d-4ca6-49a5-b281-d6b430e58b8d
   1679-05_344:
     E22: 000dcb53-0bdb-495e-b280-2f559be2b497
     E22_E12: f5918d11-0f10-4ae4-b74a-4e5367bb19e7
@@ -927,6 +953,8 @@ collection:
     E36_E35_titre3: e7c45e39-3ba1-410c-beeb-4e12ef37a5fa
     E36_E35_titre3_E13: 71eda3a1-6253-429d-a7f2-cd3d0cda09d3
     E36_objets_E13: 66d7acdc-082f-4bec-bd84-aeeaf2dcc5a3
+    E36_objets_médaille: 07d2eecd-bcd2-45ed-81aa-9de057be3eb6
+    E36_objets_médaille_E13: 5ddc59d2-017b-4ae5-bcc5-5dfa41f9adbf
   1679-06_294:
     E22: 2fdc08e9-af9e-4078-a714-db8d2b65bed3
     E22_E12: 77c01058-0655-49d2-8a02-8f0d167b118a
@@ -969,6 +997,8 @@ collection:
     E36_E35_titre3: efe3cf3d-d19f-4b3a-97a0-767810a7d70d
     E36_E35_titre3_E13: 4a24cc97-38dd-42af-bb1c-9e842e790c8e
     E36_objets_E13: cdf267ca-e55e-4ae6-81fa-9138cfbcecca
+    E36_objets_médaille: a8f6d0c8-00f3-49d0-90e1-480c3f23f273
+    E36_objets_médaille_E13: 09841ab1-ba1c-47ed-99ab-b78bd1763ec9
   1679-07_167:
     E22: d776c403-809c-4d8c-b19b-a2edd881eccf
     E22_E12: d1b1c767-35b1-49b7-b583-1f0a090cb9a0
@@ -987,6 +1017,8 @@ collection:
     E36_E35_titre3: 1fd7a818-6ec4-4e5d-95e3-a2b5ed85641c
     E36_E35_titre3_E13: 80112a8d-824d-4474-a5cc-12ee9ecbdcb6
     E36_objets_E13: 9d9b70b5-34d0-4070-a9eb-70acd57ba3fb
+    E36_objets_médaille: db38c058-ad3d-44f7-8d37-740da3fb8d01
+    E36_objets_médaille_E13: d8db789a-6c2f-480f-9a68-b1675bed1fb6
   1679-07_365:
     E22: 3b9acde7-6c79-4127-a838-9c4e2ecb1fd6
     E22_E12: 13fe5acf-3751-4051-b302-b55461149b0e
@@ -1036,6 +1068,7 @@ collection:
     E36_E35_titre3: e9afbab9-42d9-45e5-a39f-2bff318b05a6
     E36_E35_titre3_E13: bc96a5a7-629a-4ac5-bfb4-0fd558a46aac
     E36_objets_E13: a0f9cfca-79c1-49db-a27d-ee5c186a5c40
+    E22_E12_sculpsit: c61ac58f-e3be-4b57-85cf-af35cbb2332f
   1679-09_359:
     E22: 170f950c-ac0b-44ed-b880-bd9b6f423f67
     E22_E12: 2436d2bd-3437-4b19-919a-b499dec330fd
@@ -1043,6 +1076,8 @@ collection:
     E36_E35_titre3: b1717eea-b1ba-46ab-908b-d248c56a2b3e
     E36_E35_titre3_E13: f9621759-8b46-41bc-ae1e-435d47443a3e
     E36_objets_E13: 65fd8954-5321-488d-80bc-85fc289f5954
+    E36_objets_médaille: 5f87e9ed-f485-441e-9fc1-e747de87c1ba
+    E36_objets_médaille_E13: 2e7e9fcd-6eb8-4006-a96b-a52cad9f1ebe
   1679-09_365:
     E22: cac24c6c-71b8-4fbf-be9c-069b4bc5344b
     E22_E12: b07eb6bc-dbbb-451f-9a71-c89e51335314
@@ -1065,6 +1100,8 @@ collection:
     E36_E35_titre3: b35537fd-051e-461f-a5ba-3833629c7507
     E36_E35_titre3_E13: 9b0384eb-df0b-4288-9c2e-acadd8e37898
     E36_objets_E13: cd0668c5-7176-4555-a410-2f27a571ee10
+    E36_objets_médaille: 2ba463f4-8679-4634-98f8-4b998f7fcfe5
+    E36_objets_médaille_E13: b4361c69-9fa9-427d-ac5c-28e857c8779e
   1679-09e_324:
     E22: 9894952e-fe40-44af-a16f-aa19163274ae
     E22_E12: a83404d1-eab6-4f5b-93e5-51ab009682de
@@ -1089,6 +1126,8 @@ collection:
     E36_E35_titre3: 80e219f4-00fe-49c0-abb8-ac19404e4a5d
     E36_E35_titre3_E13: 7ea3f2a2-8b73-4f43-abef-9c597015067c
     E36_objets_E13: e6e24dc4-c611-461f-9101-5f703fb558a2
+    E36_objets_médaille: b6d44802-0057-4734-9b48-4e4c978606a5
+    E36_objets_médaille_E13: 5c019adf-1a5e-4a60-994e-6232f2f311bf
   1679-10a_348:
     E22: 9ef252ce-a408-479e-9c57-06ad3cb0f7af
     E22_E12: 9e7bc087-ff2a-44d4-88e0-72997335c93e
@@ -1109,6 +1148,8 @@ collection:
     E36_E35_titre3: 48cc1eee-01f1-4c08-adb2-00a1dd4c0632
     E36_E35_titre3_E13: eeb03f9a-8859-40c8-bdd0-57e34a39aeff
     E36_objets_E13: 7f5e3f08-5721-4933-9fe3-024427c82f19
+    E22_E12_invenit: 71841755-eaa3-47b5-8168-0a0e172fc6e7
+    E22_E12_sculpsit: 72c97487-c1c9-4874-94ca-3da59567ebf3
   1679-10b_176:
     E22: f29abd72-a9d3-41fe-8db5-1db7aa47435b
     E22_E12: b4c2994a-2583-4af0-bcaf-130cbb2befc0
@@ -1163,6 +1204,7 @@ collection:
     E36_E35_titre3: 0fbef2cb-6079-49ba-9019-10a3ab908ea3
     E36_E35_titre3_E13: b6349cad-4157-4134-bd7b-5c49af1bfd75
     E36_objets_E13: f0aac63f-e61b-45a1-9b90-58f0fc835791
+    E22_E12_sculpsit: 781686b1-638b-470f-9058-e5089d084a9e
   '1679-12_328 ':
     E22: bc4cf7a7-c047-45fa-8dca-84e840861df4
     E22_E12: aa7a198c-f4f2-4709-8c04-0c282f85e3af
@@ -1174,6 +1216,8 @@ collection:
     E36_E35_titre3: ae2ebab7-7d33-4f33-bade-21f5d6d92430
     E36_E35_titre3_E13: c2b147c4-7124-424e-84bc-1ff6a5c2eb1d
     E36_objets_E13: 6ae3b90b-3a9a-46cd-bb4b-e953c0750d6c
+    E36_objets_médaille: 3925675c-cc96-473d-852c-83be9e6c337a
+    E36_objets_médaille_E13: b33c0d0d-f575-4b1c-b3e2-25b68a9cfdf2
   1679-12_352:
     E22: 24f4914a-155f-4e36-8d75-6520a37cde78
     E22_E12: 9b85fa6d-f018-4560-bf01-2320c50c90c7
@@ -1205,6 +1249,12 @@ collection:
     E36_E35_titre3: a6e11019-c56e-4bb3-ad5f-0d7ae21852ed
     E36_E35_titre3_E13: 2b8fd3c4-6625-456b-8fef-c3756af4376a
     E36_objets_E13: 40e94ca0-a51f-4b7d-9767-ab18b86fced0
+    E36_objets_médaille: 82d4117d-7c71-469c-b6ed-5fa4523e3535
+    E36_objets_médaille_E13: d2a6d7bc-5af8-44ac-9d91-5d5569af9a75
+    E36_objets_médaille_E33_légende: bfece42d-4917-4192-ad86-f66f8916e040
+    E36_objets_médaille_E33_légende_E13: 2af24363-2c7d-4958-9458-3f437f762995
+    E36_objets_médaille_E33_exergue: 0ec8146a-af47-4705-9a11-fe2a00e1cb24
+    E36_objets_médaille_E33_exergue_E13: 0ba5492d-94ef-436d-a496-39a843dff35c
   1680-01a_022:
     E22: 9db74128-f2d9-4b3d-a400-4dda7c7e55bc
     E22_E12: 492f592e-9fea-468c-9207-f747e9166e9b
@@ -1216,6 +1266,8 @@ collection:
     E36_E35_titre3: acb367f3-f85c-41f3-8852-34bfc39b958b
     E36_E35_titre3_E13: 77c9e4a6-df1e-4245-9e09-f7aa74592c76
     E36_objets_E13: 9d23931b-d623-494f-bf4c-3fa35e2ac357
+    E36_objets_médaille: 89dc36d0-bc9e-4ad9-a809-a988fed40517
+    E36_objets_médaille_E13: 9b7967f1-9365-433e-b36f-8ea4b3cf2184
   1680-01a_246:
     E22: 7d913253-4669-4143-a23c-fdeb81c5f5b4
     E22_E12: d2315985-cce2-424c-a6c2-fa67bbf82d95
@@ -1227,6 +1279,7 @@ collection:
     E36_E35_titre3: f2c468d8-0040-41c6-a6af-ad91edf91e1f
     E36_E35_titre3_E13: 8c3096be-d1f5-40aa-9e69-1d521c0c63bc
     E36_objets_E13: a78087fc-06d4-4b7d-ab19-50724f4996a1
+    E22_E12_sculpsit: 9cf08799-c2c4-47d7-8365-63aaad05fa89
   1680-01a_296:
     E22: e310041c-0eae-4f1f-9eba-448c09137376
     E22_E12: ade80836-9a5e-4500-92f8-f8c1a851e88d
@@ -1289,6 +1342,7 @@ collection:
     E36_E35_titre3: 12ca031b-65aa-444b-b4bf-127be3b6153b
     E36_E35_titre3_E13: 5962f578-2237-4148-92ab-1842be80a34a
     E36_objets_E13: ce848919-a41c-47b6-8637-021130980b77
+    E22_E12_sculpsit: c0acbbd7-075b-42b1-9d9a-167244c6d54f
   '1680-03a_157 ':
     E22: b44232df-fb71-45a5-ab90-f2114dfb5569
     E22_E12: 5fad8727-5423-497a-b5ef-3d280342b589
@@ -1354,6 +1408,7 @@ collection:
     E36_E35_titre3: ae8d815a-154c-44c9-ba57-0532fb12e090
     E36_E35_titre3_E13: c1d981ad-4807-40b2-9ea7-7a0b45b48b52
     E36_objets_E13: d035f2de-10ea-4417-ad96-83fc2a69604e
+    E22_E12_invenit: f21a0176-9de6-4058-b397-b68af82fe9c0
   1680-03e_171:
     E22: 3f5600a0-6f3e-4041-bf39-4d074cd7d4ac
     E22_E12: e2b0151c-8ffd-4799-a15c-8bcaf2f6384a
@@ -1394,6 +1449,9 @@ collection:
     E36_E35_titre3: 22bb14e8-5618-4030-b4dc-3bf1e2ef2342
     E36_E35_titre3_E13: b6f044f1-274d-4044-9a56-292164000b25
     E36_objets_E13: 055a8a43-c609-450a-baa0-ec98d7e17fb4
+    E36_objets_médaille: d9d1c213-ea39-4bd2-ad80-033f524ffdd2
+    E36_objets_médaille_E13: bfe5e116-f91f-4788-81c4-ad750e79639e
+    E22_E12_sculpsit: a16ef4a8-154d-44b6-89c8-4e522ffdb1a9
   1680-04_322:
     E22: 40b62fbc-b818-493f-9e8e-371a587882da
     E22_E12: e6251339-4ee9-43a6-ba4b-bae1927de5c0
@@ -1498,6 +1556,8 @@ collection:
     E36_E35_titre3: 8af52033-9919-4bee-ab8c-c54598437862
     E36_E35_titre3_E13: c27a35bd-7090-4cb7-9c65-29c9d92672c3
     E36_objets_E13: e3006efb-f483-444e-988d-0b19c87b975c
+    E36_objets_médaille: 91d9649d-b132-4a4f-8a5a-04ae74576c5c
+    E36_objets_médaille_E13: 2905a608-891a-4bbf-9a25-4650ea107d7d
   1680-07_250:
     E22: 1e453c21-7464-4329-b3b9-148716717316
     E22_E12: 93595e44-d0ee-48d7-adf5-1761d100a584
@@ -1564,6 +1624,8 @@ collection:
     E36_E35_titre3: ffa3528b-04f2-4ef8-b1b0-6b285b553e67
     E36_E35_titre3_E13: 7084432d-ce67-4090-990f-2110833b7a5d
     E36_objets_E13: 1251df80-a193-40bd-ae34-38cd96e7d7ec
+    E36_objets_médaille: 3f35bdeb-b598-456c-b2df-4e9a490f5753
+    E36_objets_médaille_E13: 55bdedff-f8d2-4e6b-875a-5721ea7d11ab
   1680-09a_316:
     E22: aa7e4c4b-26b3-4098-9784-415ec40d9621
     E22_E12: e6670031-b193-464e-82cd-761c5c190c5a
@@ -1620,6 +1682,8 @@ collection:
     E36_E35_titre3: 7e31f99a-8997-4653-910e-b9ec80b8d887
     E36_E35_titre3_E13: cb277e41-bc69-448f-94c0-8a742d348a00
     E36_objets_E13: 48e1e5d7-94c4-4d57-8f53-eeb7af04555c
+    E36_objets_médaille: ea18cd28-6582-4dca-88d5-73880f565d37
+    E36_objets_médaille_E13: e758ab02-9ecb-40a5-9bde-9084a3fdaa58
   1680-10_263:
     E22: dda5fa97-550e-4209-9d13-67a9b37c02a3
     E22_E12: 4f8682f8-0db3-49cc-86ca-4aef0ffd2934
@@ -1686,6 +1750,12 @@ collection:
     E36_E35_titre3: a18bffaa-0819-4a23-b937-880aea14fca8
     E36_E35_titre3_E13: dfc1fd4d-f747-4b41-ac33-27c73453dcf1
     E36_objets_E13: eaa50294-7866-4758-b692-03da52684ae5
+    E36_objets_médaille: 65becde2-f962-41e4-9457-b595b431d306
+    E36_objets_médaille_E13: c4c124f1-7a28-4e27-b36c-b67fa65ad463
+    E36_objets_médaille_E33_légende: 887efaeb-0ca9-435f-b3c8-6be46d84f3c8
+    E36_objets_médaille_E33_légende_E13: 4c4aa4d0-5302-4de9-9b73-148b4e690152
+    E36_objets_médaille_E33_exergue: 9401e186-0508-4db4-8a12-73763fb2619d
+    E36_objets_médaille_E33_exergue_E13: 0169d0db-db86-4534-b7f1-b398748837d5
   1680-11_274:
     E22: 6623e44c-077f-48d8-a139-7804c9fd2767
     E22_E12: 2b6a943c-9d9d-4428-8cf9-a7095a2aaf33
@@ -1719,6 +1789,8 @@ collection:
     E36_E35_titre3: a940463c-0a46-4c95-bb02-dab11b9e0f40
     E36_E35_titre3_E13: 3d826742-68e6-49f7-8be2-adc2283d78de
     E36_objets_E13: 7126635c-7b63-4a82-9389-c9efbd2614cc
+    E36_objets_médaille: c81dfb69-5a88-4836-9c5a-f61ee278ad56
+    E36_objets_médaille_E13: 522ae0db-def0-4602-a673-f56520297bf9
   1680-12_173:
     E22: efac15ee-3a7b-4beb-a0c2-b07d5e09c08d
     E22_E12: da9dbb83-9be7-43fb-b407-611a90ed54b1
@@ -1726,6 +1798,8 @@ collection:
     E36_E35_titre3: 3705c198-6048-4ade-b758-2ab58f6c095a
     E36_E35_titre3_E13: 7c3c2049-7514-4737-af57-e0a1af3a10a2
     E36_objets_E13: 7ecae7f8-d7e0-4ee7-bf9a-ba31c9e0976f
+    E36_objets_médaille: 81c92f3b-1504-48bd-bc30-5ea6a64efdf7
+    E36_objets_médaille_E13: f29d2995-bf0e-4f56-9128-537dd7f2d24c
   1680-12_304:
     E22: df146c18-0703-45a2-9978-31a0bdd9fb9b
     E22_E12: 88d2d977-d8d8-4eaa-bda4-13cabc0e3fdf
@@ -1746,6 +1820,8 @@ collection:
     E36_E35_titre3: 70998aa0-5c08-4baf-b676-2ee9fd643827
     E36_E35_titre3_E13: c39ab156-748d-47d6-8b55-f57744ff6ddd
     E36_objets_E13: b024e4cf-a86c-4735-8e8f-d922311bde7b
+    E36_objets_médaille: 264835c7-37b8-442d-badd-0113aa2aba95
+    E36_objets_médaille_E13: e35a0b32-7ec5-4f53-bb8e-2647efee4e83
   1681-01_271:
     E22: 2aa234a1-cb73-440c-b447-43f23f3d8b67
     E22_E12: d365f605-fa13-4739-a6ee-a10df8ee0e82
@@ -1950,6 +2026,12 @@ collection:
     E36_E35_titre3: 2bfd9418-4c25-4958-855e-15e8da0b56b3
     E36_E35_titre3_E13: ab22fa07-1db9-4248-8a25-c6728389b445
     E36_objets_E13: 37fc69f0-ec7c-4e8b-800a-5bc19365b874
+    E36_objets_médaille: 2b92e678-daa1-4467-a922-d20349f302f8
+    E36_objets_médaille_E13: 7c866e08-d22c-4674-945f-184d8b900f4c
+    E36_objets_médaille_E33_légende: 145367c8-a878-452f-b958-2ff2e6662668
+    E36_objets_médaille_E33_légende_E13: 3573de8f-0b0a-4a72-86e5-70779a44d971
+    E36_objets_médaille_E33_exergue: 2ba021a5-a7ed-48e8-89d0-55c13ae227b7
+    E36_objets_médaille_E33_exergue_E13: 3b4c4ae1-21e6-43ff-b4ce-bbdee3c611f1
   1681-09_058:
     E22: c951c15f-154a-485b-8c80-031983f90252
     E22_E12: ec07dd41-bc1f-4a6a-82fd-629e6761f28c
@@ -1957,6 +2039,8 @@ collection:
     E36_E35_titre3: 0b046919-5a40-4584-ab1a-7bb530db1225
     E36_E35_titre3_E13: c2e40664-00bb-423e-b7d8-01e7cf068864
     E36_objets_E13: 78d7d846-5f6e-4696-8a6a-c3ab961347ca
+    E36_objets_médaille: 33359b1d-dc3c-49e7-9be6-94bc080066a8
+    E36_objets_médaille_E13: d46de862-be55-4058-adca-182d8e94dc0c
   '1681-09_311 ':
     E22: 428a21a7-d773-4fe3-b180-23fe55ed27d1
     E22_E12: 373242df-d3c0-4706-b12d-e48586ea7e7d
@@ -1968,6 +2052,8 @@ collection:
     E36_E35_titre3: c6b83618-7678-432c-919d-5b0ba2d0c16c
     E36_E35_titre3_E13: caaf11b0-e019-467a-a003-e37060af23d0
     E36_objets_E13: ecaed17f-c003-42ec-b974-f8c3781a8d02
+    E36_objets_médaille: ef0a2ff1-2c18-4865-9742-b0bcde97cca0
+    E36_objets_médaille_E13: ce4ee6be-bc7d-48c8-bd4c-f5c3811f4088
   1681-09e_214:
     E22: 1d10bad4-a8c6-4346-a123-9e3ee8fbc937
     E22_E12: de1d3fe4-3ab7-46b4-b60a-d515b240d685
@@ -2058,6 +2144,7 @@ collection:
     E36_E35_titre3: 31aac04d-ec35-4ab9-8f61-540644a1785b
     E36_E35_titre3_E13: b7caf46e-6494-4d13-9317-535f83b2b684
     E36_objets_E13: 087aae54-6ee5-4f1d-a0e7-e966e8fc0d94
+    E22_E12_sculpsit: b02b5b5a-79b4-4d21-9154-fea94d3a56a3
   1681-12e_155:
     E22: 108bf3d0-a7e1-4d5b-b5d8-014433415d9f
     E22_E12: e4bc3cdf-0add-489f-bab4-5abc53230a03
@@ -2111,6 +2198,8 @@ collection:
     E36_E35_titre3: 9161406d-2f7e-49eb-afc5-88a12ea5a4fb
     E36_E35_titre3_E13: e4e1e1bc-bb25-4fa7-8685-a27208188c2f
     E36_objets_E13: 6386ca43-6ad4-4f0e-af2e-69df6faab25d
+    E36_objets_médaille: 9c858c90-3bde-4d4a-8661-119e8551c529
+    E36_objets_médaille_E13: 99248b30-fe98-4a64-93db-ca31bafe8612
   1682-02_323:
     E22: 6f14c475-f93b-409d-8c90-7a47b6da2193
     E22_E12: b80b6ffa-e602-443d-bd7b-e7d8c72e2d94
@@ -2127,6 +2216,8 @@ collection:
     E36_E35_titre3: 93bf9b81-3f2b-4822-9590-a5c0047a4235
     E36_E35_titre3_E13: 810a0f0d-587b-4970-8029-5cec95d10b5b
     E36_objets_E13: 7ae9b222-a44e-48d9-afdd-64f0f132b9ea
+    E36_objets_médaille: 946bf717-70ca-4d52-ad58-b7c4bb9d8a7c
+    E36_objets_médaille_E13: c86222ce-1558-4ec2-8a94-99fb42ebc401
   1682-03_266:
     E22: 73698704-463a-42ce-879f-a2849e966b8f
     E22_E12: 51db9c26-7dd1-4c5a-9a59-42a9b9c49d75
@@ -2159,6 +2250,7 @@ collection:
     E36_E35_titre3: c67b0dfa-1efb-42a6-8626-db7c059ee1a2
     E36_E35_titre3_E13: df56637a-a72f-4e5b-82cd-94f00cae1769
     E36_objets_E13: 502faf57-f704-496c-ab1a-e84a7d6a5d98
+    E22_E12_invenit: 38832f3d-8e95-4b30-ac77-15ef00ae1dbd
   1682-05_016:
     E22: 0b19edd5-e98a-4908-bc85-2501d4efec27
     E22_E12: df353479-135a-43f2-b296-775a725e49d2
@@ -2228,6 +2320,8 @@ collection:
     E36_E35_titre3: ec268e02-01b8-45bf-9622-f862ef58f0af
     E36_E35_titre3_E13: 46e464c5-a2fe-4376-a34b-daa925886eb8
     E36_objets_E13: 7410f806-d0d8-4a34-982b-513c5db60dc9
+    E36_objets_médaille: 377a8c7e-cb5c-411d-834a-3f01a432e64c
+    E36_objets_médaille_E13: 915956d2-4ee9-4a55-ad66-59f6df444ed4
   1682-07_361:
     E22: db0cb684-67e3-46fa-8073-6728fd6c55bb
     E22_E12: ba89f108-b350-40a6-8bd4-049e5f2ecd46
@@ -2246,6 +2340,7 @@ collection:
     E36_E35_titre3: 803d0fb4-1556-423a-b0a1-978b5f88f1ec
     E36_E35_titre3_E13: 64ee6db1-2be1-4818-9ce8-6f0d96ab08d7
     E36_objets_E13: de494232-042a-4433-857d-22369987b1e9
+    E22_E12_invenit: 09d8103b-52ab-4dd7-b107-b5174a8bee20
   1682-08_137:
     E22: af94e7eb-35c4-42be-95e0-74faca8d3605
     E22_E12: 4a10df7d-5aad-4b7e-bf1b-a64f29c1522a
@@ -2339,6 +2434,7 @@ collection:
     E36_E35_titre3: f1f046aa-b315-44b2-8a21-1e90fa678359
     E36_E35_titre3_E13: 05d4d066-fa60-4233-9eae-0ada642ff14c
     E36_objets_E13: c0ddfc6e-a49d-4856-a054-54158cbfe4d4
+    E22_E12_invenit: 21aa7960-9165-4a3f-8d09-536ea640549f
   1682-11_140:
     E22: d9b742a0-79d6-420b-9b83-db6fa25b9e2a
     E22_E12: 81de9b96-551f-4424-8898-844a7f9c6567
@@ -2409,6 +2505,7 @@ collection:
     E36_E35_titre3: 240d6eb1-3b9e-462c-93ed-1322beec57f4
     E36_E35_titre3_E13: f9df9b15-18c1-4ad2-8848-d5c0d60e16cb
     E36_objets_E13: c9aac6cc-ca23-4045-a0e6-e485a2277a18
+    E22_E12_sculpsit: 7fc7b35d-59ae-4b37-bd5c-f49b4e861c6d
   1683-02_227:
     E22: 04c17486-1fcf-48c3-95a6-d33aec0a3025
     E22_E12: 4a0e571d-6205-44d4-ad88-0fd962259960
@@ -2436,6 +2533,7 @@ collection:
     E36_E35_titre3: 36e8d8dc-393c-4ce2-a451-299cc86ca172
     E36_E35_titre3_E13: 6174f7fa-f9f8-425c-8d3a-07f56c6105d1
     E36_objets_E13: 635933c2-e8af-45c3-b1b3-00fb5b0bbc05
+    E22_E12_sculpsit: 304f7fb6-5a7e-4fb5-bc25-ea5b5aedd051
   1683-03e_121:
     E22: f7d0b85a-9c12-4cb5-9c16-43fd6e6a4bc1
     E22_E12: 8d6c3f2d-5611-4068-ab30-574c4b1c75b6
@@ -2470,6 +2568,8 @@ collection:
     E36_E35_titre3: 1ebf6d86-576e-4fc3-a814-396d68c4992d
     E36_E35_titre3_E13: bd097ce6-ff5c-4b77-92a7-0eb04087ffdc
     E36_objets_E13: a291f172-0d5f-470a-8359-01c9f066f88a
+    E22_E12_invenit: 3f656315-5b0b-4488-b42c-c41d12ed4bd1
+    E22_E12_sculpsit: b4e427af-f6e0-4e3c-9aee-2614d6398e8c
   1683-05_044:
     E22: 96e71161-d4a7-4678-865b-541092367475
     E22_E12: fb9b9cde-370d-434b-b6cc-4fb04d816e08
@@ -2481,6 +2581,7 @@ collection:
     E36_E35_titre3: e3534689-2960-40de-81c0-47621a722065
     E36_E35_titre3_E13: 49f33b98-674b-461a-aea9-4552d8b67619
     E36_objets_E13: 3e147d0c-ccb1-47b3-97f4-5f52b498ad46
+    E22_E12_sculpsit: 7026c61d-e92d-48c0-8751-33d83cacd535
   1683-05_181:
     E22: dd031f92-90cc-4aa9-a550-c3b186351323
     E22_E12: bdb21dce-a10f-4a80-9bb1-f7c63694d938
@@ -2551,6 +2652,7 @@ collection:
     E36_E35_titre3: f6c8154b-a574-48ed-957c-d7494a830551
     E36_E35_titre3_E13: a29cc477-9939-4864-a7c8-a726a995ea52
     E36_objets_E13: 368bf605-49ac-4658-ac4b-aded8761f4e4
+    E22_E12_sculpsit: 0f576669-abcd-4113-9ca4-15c4f77f9509
   1683-09_198:
     E22: 4ac054a0-cd67-4dde-86e1-59dea3745c88
     E22_E12: ca0b735f-3d56-4039-84af-689073b7074f
@@ -2599,6 +2701,7 @@ collection:
     E36_E35_titre3: 75d24731-8cd3-4c9d-b337-20566ab64d80
     E36_E35_titre3_E13: 810ac8b0-bfe9-4051-a3b6-6edb5f395ec7
     E36_objets_E13: e5e52db0-25b8-4666-971f-2f4f6c06e45a
+    E22_E12_sculpsit: 6b30c3b3-a5e5-4ec4-b125-ff4f5cbc5330
   1683-10b_324:
     E22: 644b1a8f-bd73-4f81-833f-1937a9774302
     E22_E12: bc93ee0f-4b4c-40a8-8a2f-223258977d3a
@@ -2621,6 +2724,7 @@ collection:
     E36_E35_titre3: a2020f28-6577-4521-8354-f22ccb757280
     E36_E35_titre3_E13: 82fa13ec-2f13-4af4-a47e-405d0c25f004
     E36_objets_E13: 15dfe17e-40dc-4de8-a31f-15067297f2e8
+    E22_E12_sculpsit: 44d1cb81-b911-4a54-98ef-eec392235efa
   1683-11_227:
     E22: a5e1cc8b-3f56-4738-a38d-6b7a0d4e4e36
     E22_E12: 9922f6f8-ae19-4211-8929-078297a09bc6
@@ -2669,6 +2773,12 @@ collection:
     E36_E35_titre3: 32d94966-87ed-4b87-8ae0-74402961d1b8
     E36_E35_titre3_E13: bb2c05b5-bc91-40fa-a88b-0ccd7a8b48db
     E36_objets_E13: f989f30c-2fa2-4521-91ec-d765e90901b0
+    E36_objets_médaille: f78ea52f-6b8f-440b-a878-6243dbd4a88b
+    E36_objets_médaille_E13: 6461b39e-610a-42ae-a21f-d41a192e6e23
+    E36_objets_médaille_E33_légende: e3b6315e-6629-4d0d-8b3d-f649a6fb6b26
+    E36_objets_médaille_E33_légende_E13: d5866142-cfbd-442d-888c-188ff6271164
+    E36_objets_médaille_E33_exergue: c5b84c51-42ee-4aa7-ba65-a9bedccbf08d
+    E36_objets_médaille_E33_exergue_E13: b26e23cd-e9c5-4ef0-bb8e-614f19a0dcf1
   1684-01_312:
     E22: d050fd9a-37ba-43fe-a7bd-0e570dadb9c7
     E22_E12: 3ffe5924-6c02-4216-a5ca-f5034b7084a2
@@ -2831,6 +2941,7 @@ collection:
     E36_E35_titre3: 4b35384a-6c68-4a29-a8e3-7c503b5d6241
     E36_E35_titre3_E13: e7265f8d-f7ed-4a3b-b234-56a558b9505d
     E36_objets_E13: f23464b1-afa2-4957-85ca-92f2507c6048
+    E22_E12_sculpsit: 832ebea1-9155-4a80-8914-5119c2cbf05d
   1684-09_197:
     E22: 438add98-94a3-4bcd-956c-8523047cbd45
     E22_E12: 90668717-93f5-49bb-8570-b403fb043322
@@ -2908,6 +3019,8 @@ collection:
     E36_E35_titre3: 2178794a-f31d-4a59-8d6f-f5f6ec74291d
     E36_E35_titre3_E13: 45d4a129-4377-463f-9eb8-af977a868f59
     E36_objets_E13: 78350b8c-5ec4-4e6c-8a83-e992e25868f4
+    E36_objets_médaille: e4400068-6476-4585-a902-6a8c16e81f03
+    E36_objets_médaille_E13: 0b872c03-e7dc-440d-bc37-f647b6e08848
   1685-03_128:
     E22: aaf05cec-9124-4f55-9138-3ba84e8300d1
     E22_E12: 6213b847-2fee-47cf-b560-71df0bcc75d6
@@ -2946,6 +3059,7 @@ collection:
     E36_E35_titre3: c013689f-7e24-4c7f-aa47-961a13207b3d
     E36_E35_titre3_E13: 6733abc8-6b2b-4653-813c-e13b24eeebac
     E36_objets_E13: ad023f6f-eb15-4ab6-9073-98e77b18c923
+    E22_E12_sculpsit: c52c8fe7-df94-4855-9118-290eeceb8367
   1685-06_254:
     E22: 8b77da27-14f6-41de-adb9-1eef3cf9ba3c
     E22_E12: 27e5b755-2ecb-4808-8aca-ea15ef8404fa
@@ -2955,6 +3069,8 @@ collection:
     E36_E35_titre3: b0db758b-bb63-4b11-8c06-21fee0ecd020
     E36_E35_titre3_E13: 8a0e467c-2466-4939-840b-939b24b1897a
     E36_objets_E13: fe3d0107-b9b5-40b2-9d68-73e6afde44a0
+    E36_objets_médaille: 4dcbbf89-1197-4570-9c96-4ebd347687a1
+    E36_objets_médaille_E13: b725fd99-1eaa-4b54-a443-d82ef9ffb054
   1685-06e_180:
     E22: 07a55bf4-4f71-4d92-a00a-d31658cdc68e
     E22_E12: 30e0f33f-7bae-4bae-b30b-4ce26ae351e2
@@ -3026,6 +3142,8 @@ collection:
     E36_E35_titre3: 002f36f5-06df-4478-a1b1-d828b128b85c
     E36_E35_titre3_E13: 4526f2ba-9790-498e-9e55-95cc49cd478b
     E36_objets_E13: 31bf432b-661a-4d10-a393-3b5acd9332f0
+    E36_objets_médaille: d8981d81-715e-4b91-873c-b5a570564d09
+    E36_objets_médaille_E13: 36a492b4-d424-4436-89f6-706c482351b0
   1685-11_089:
     E22: 9de88259-02e7-436d-ad33-85aad2337fd6
     E22_E12: 7ad5d343-a823-45b9-876f-43ed391a753a
@@ -3079,6 +3197,7 @@ collection:
     E36_E35_titre3: e4046f7f-b1c7-4db6-9dad-9f081bba642c
     E36_E35_titre3_E13: 69291bad-3abd-4cf0-8271-443b3877904b
     E36_objets_E13: 1ec407df-1b6d-420b-82fb-3071cde97774
+    E22_E12_sculpsit: e0453795-3905-42ef-bf39-671f01c4dc59
   1686-03_201:
     E22: d7e3c204-2539-4df2-bb4e-b046baac7758
     E22_E12: 4672890c-4eee-40f3-bf27-5082fdb83c9d
@@ -3086,6 +3205,8 @@ collection:
     E36_E35_titre2: 481b9523-2c81-432b-a262-e1abc16df311
     E36_E35_titre2_E13: b61bc821-29b2-499b-a410-a3bb148252b2
     E36_objets_E13: 38840708-062b-46b2-bbfd-6d1a9f7f3956
+    E36_objets_médaille: abfe0d5e-e5c4-4926-abdf-118b54779ae9
+    E36_objets_médaille_E13: b55f6ca3-812f-4df9-97cd-ec8b73e05611
   1686-04_259:
     E22: ec1f9e07-03b5-45b2-bc66-eade787933c7
     E22_E12: 29d1af8b-2f28-4622-9071-c965f0877f3a
@@ -3095,6 +3216,8 @@ collection:
     E36_E35_titre3: a6dfc457-bbe0-4da4-870b-3619118b545f
     E36_E35_titre3_E13: 1eb50e0d-b161-4d21-8a23-229dec4fa585
     E36_objets_E13: 628a3729-1ffa-4a4d-8f78-66d48c83cab3
+    E36_objets_médaille: 2d8a9d46-9558-4793-a781-498f364b6af5
+    E36_objets_médaille_E13: eb28c3e1-6552-4ce2-8053-e9e71c0101b0
   1686-05_242:
     E22: bc2ed9e4-67c1-4258-89b6-272c651fb963
     E22_E12: 841a7841-bafa-4441-8496-7f903bce60db
@@ -3104,6 +3227,8 @@ collection:
     E36_E35_titre3: 13c7e972-3aac-49c1-9949-a1ab90cdab77
     E36_E35_titre3_E13: 510a0090-81f9-4772-a899-f0e8b58d674b
     E36_objets_E13: c8564198-2b95-4ff9-bb0a-646a816b8c96
+    E36_objets_médaille: 41b0f893-617f-495d-b491-502348204453
+    E36_objets_médaille_E13: 093e6de0-cd59-43fc-8b06-d3390bea96bf
   1686-06_078:
     E22: 48aa3a63-45db-43d4-8bbc-e45d3559683b
     E22_E12: 4e5e6022-449f-4a39-b681-721aded9bbce
@@ -3175,6 +3300,7 @@ collection:
     E36_E35_titre3: deee22ef-6f05-4d49-a2fb-0291c86e37d3
     E36_E35_titre3_E13: 1a9bf56c-4682-4619-9227-d1ff4bb67943
     E36_objets_E13: 1cc35dcd-272b-498a-a1cf-9e83cbeb5e00
+    E22_E12_sculpsit: c54ebdfc-2e99-4eb6-9518-44177edcf300
   1686-12_XXX:
     E22: 4fcffc19-09ce-4bd8-9200-aa715d2f059e
     E22_E12: 45372078-ef64-4e00-a83e-103e72587b24
@@ -3182,6 +3308,7 @@ collection:
     E36_E35_titre2: 66de06a0-7c68-46e3-a9fd-cf100b48bc6f
     E36_E35_titre2_E13: 5db873e1-274d-4713-9f90-d4f257ef527f
     E36_objets_E13: 1fe4c793-74d0-4030-89b8-dd85c7e53c74
+    E22_E12_sculpsit: 07a2aa35-f124-4451-8321-dae76088119c
   1686-12a_211:
     E22: 99b80364-0549-4e1d-bd95-ecb3a5d0e661
     E22_E12: e7f313e7-687c-4b35-bee7-d343da06fee6
@@ -3191,6 +3318,11 @@ collection:
     E36_E35_titre3: 3742a04d-5b6f-48f4-a344-537fa41256c0
     E36_E35_titre3_E13: cd3aa0a0-ccac-4c0e-bda4-a686877a00ab
     E36_objets_E13: c9b581d3-d060-461f-9964-3b8179bd2e96
+    E36_objets_médaille: cef394f5-188a-4b5f-b2f9-5c8bd605fbf1
+    E36_objets_médaille_E13: e7ab675b-3525-47a0-b400-346ed2ee9760
+    E36_objets_médaille_E33_légende: d991ac69-d0ba-450a-8bf9-ebf68b93c4f4
+    E36_objets_médaille_E33_légende_E13: 4e962efa-3edb-4757-bd56-f2fb4d504a1b
+    E22_E12_sculpsit: 4b9dde55-5f3f-45d3-82dc-6b5399b76703
   1686-12b_225:
     E22: 0c7e0983-5520-4b18-ad09-650751337e4b
     E22_E12: 10258aba-f221-42f7-a45e-48a82c89cdbd
@@ -3206,6 +3338,8 @@ collection:
     E36_E35_titre3: eab98215-dadc-4052-b921-fbb43dbbd737
     E36_E35_titre3_E13: 5ea599a8-c8a1-423c-9051-d3a7d2cf3dae
     E36_objets_E13: a8f4a138-3da4-4aef-af88-ba049484af05
+    E36_objets_médaille: 7407f878-a4e1-4e8f-8204-e7b54bd80118
+    E36_objets_médaille_E13: abbb8c53-72b9-4ad4-9214-43b6c218f9da
   1687-02_053:
     E22: dc316713-d9c6-4841-9e8a-8e16e337feed
     E22_E12: 9b605482-900a-4541-bc04-8406cca22f83
@@ -3259,6 +3393,9 @@ collection:
     E36_E35_titre2: 9197ba05-df9c-4f41-85b7-6b4201c84ff2
     E36_E35_titre2_E13: 630d0a32-e782-4edb-8855-f93f5be81298
     E36_objets_E13: a3fd0296-3018-4971-a119-df4fa1878940
+    E36_objets_médaille: 6daa7668-0840-4c5b-802e-1206827beeaa
+    E36_objets_médaille_E13: f36e5dd7-167a-423c-bdbd-1c0a3c5f2722
+    E22_E12_sculpsit: c70be7ed-462e-481d-86eb-98d649872624
   1687-07_159:
     E22: 53a8c4e5-1ab6-4f0d-a3bd-3bdcea601b2b
     E22_E12: 08a4a8fd-e3b5-4a48-b1cb-1664548a6c41
@@ -3275,6 +3412,9 @@ collection:
     E36_E35_titre3: 17c4df18-e06f-4cb0-b6a1-115818dd02df
     E36_E35_titre3_E13: 58262f19-dad5-4792-a2d8-288d57ccf3b3
     E36_objets_E13: b18881c4-ab8e-4ef3-8933-914c3147f0a1
+    E36_objets_médaille: 3c1aa4fa-c7c9-42ce-9d69-dbb542c99118
+    E36_objets_médaille_E13: ca2ea745-9555-40c6-bc71-06bc568acbbe
+    E22_E12_sculpsit: 1a59d87b-3e26-4b8c-b147-d6a33ef2393b
   1687-09_269:
     E22: d44834f8-a40d-41a3-8ef6-34204aa5922d
     E22_E12: 06585f6e-101a-47b8-b6d1-db0c3f9f4474
@@ -3284,6 +3424,14 @@ collection:
     E36_E35_titre3: 767eabf0-9bce-47f6-aa89-263bb774d462
     E36_E35_titre3_E13: dedd573d-da58-4a3d-8f7d-0e1720e10e1a
     E36_objets_E13: 6515e2ac-e466-4ef3-bf67-6e8077557348
+    E36_objets_médaille: 83248d4c-440a-4197-8293-d876e8c064be
+    E36_objets_médaille_E13: 399d7a88-e86d-459b-80f7-28025fd2ddfd
+    E36_objets_médaille_E33_légende: a029b08b-fedd-40b9-a660-28744df66f32
+    E36_objets_médaille_E33_légende_E13: 6680801b-1a46-4b1f-a79b-d0c4c9861fd0
+    E36_objets_médaille_E33_exergue: 28795a28-854e-422b-a005-e3a1416b400e
+    E36_objets_médaille_E33_exergue_E13: b0e59881-c1d5-43a6-b31c-9e3db9ed12f8
+    E22_E12_invenit: 258b19af-b073-402e-9d60-17de8ea2d1df
+    E22_E12_sculpsit: 82f890be-2789-4f13-8e24-7966a0ad7e7f
   1687-10_216:
     E22: a6e62344-0b98-46c0-b0a2-7c686700d3a9
     E22_E12: d235aec1-690a-4dec-aaf8-3f5309ba0d01
@@ -3291,6 +3439,8 @@ collection:
     E36_E35_titre2: 66e7f1f1-6f82-47b7-bffc-f43de3a96e39
     E36_E35_titre2_E13: 219c9b9e-4539-4cee-9f9e-b73d10e14e3a
     E36_objets_E13: c5eb4e40-3279-4732-9361-18ee1ebc14ec
+    E36_objets_médaille: ef96316e-86ab-48af-8535-c65165ce748a
+    E36_objets_médaille_E13: 0b5bf6a1-9ba6-4383-b514-7765aa315035
   1687-11_144:
     E22: 1357ac76-4676-4b1e-bebb-5dc8f964b74f
     E22_E12: d649ef25-bcd8-4829-b1c4-c36a9707ef7e
@@ -3320,6 +3470,8 @@ collection:
     E36_E35_titre3: cf8b52af-09cd-470e-91ea-6082cdaaba87
     E36_E35_titre3_E13: 72bd74ec-2622-489d-aa73-ce5c294a3740
     E36_objets_E13: 6a325ff0-6224-4197-ad43-639cc3fe955a
+    E36_objets_médaille: 7af1ff8a-ed13-4d24-bd34-26ba1cd765ee
+    E36_objets_médaille_E13: 816acf3f-d70a-4a02-9ecc-912a6354a820
   1688-02_146:
     E22: d2b4997f-bced-4c7d-9fb0-57559e9b7016
     E22_E12: 1c3fb9a6-895e-4ef3-9306-537a8c2fc9d6
@@ -3340,6 +3492,8 @@ collection:
     E36_E35_titre3: aa78345a-f95b-4224-9b84-8c44b1936bc6
     E36_E35_titre3_E13: 5dbed18b-6d7d-4bfd-af2c-e960e5e50ea7
     E36_objets_E13: d40492e8-ad64-4d43-b0f1-04160c1a3660
+    E36_objets_médaille: dea5c0e8-29fe-4efe-9e12-43ece911634c
+    E36_objets_médaille_E13: 07f852d2-ce2a-4577-be3b-2f071e79559f
   1688-04a_170:
     E22: 488676c1-ead3-43e8-8e07-840714486972
     E22_E12: 5ec2a599-f533-4f22-a879-06cfb6e657d0
@@ -3378,6 +3532,9 @@ collection:
     E36_E35_titre3: c333238d-b2a2-42ac-955b-60c43c15e244
     E36_E35_titre3_E13: 13c74d13-76e2-445d-b125-9e01c93e9e26
     E36_objets_E13: 5d6ba33f-9ee2-458d-b598-d6e11213799f
+    E36_objets_médaille: 38272bf7-48d4-4ced-9fe8-7dc45a7884eb
+    E36_objets_médaille_E13: 6f582b87-bc83-4dc4-96e7-6b0e2ddadbc0
+    E22_E12_sculpsit: e1f2bfc7-1144-4bf4-a588-0acb79fa62c9
   1688-07_316:
     E22: 8cb59220-db75-4aa4-a0f7-e074516902ef
     E22_E12: d63cec24-ac0c-4baa-8297-cf4f4b366883
@@ -3405,6 +3562,8 @@ collection:
     E36_E35_titre3: a70dc8a5-6da3-472f-9c66-a5e9b51b2490
     E36_E35_titre3_E13: bb6465b9-1daf-4a71-b6a0-6ed2e58a08b0
     E36_objets_E13: b24a5dd0-fc9e-4ec5-b2f7-18c052d63433
+    E36_objets_médaille: f80361a9-441e-4168-bb45-413345a785d8
+    E36_objets_médaille_E13: 84063ed3-98a2-44c1-bc5c-63111238e937
   1688-10a_221:
     E22: a0a9fb7a-49cd-4069-903e-9f95d76ba347
     E22_E12: 2d5db320-0eb0-4dde-a00b-26be5d0a2855
@@ -3414,6 +3573,9 @@ collection:
     E36_E35_titre3: 9df83e2c-47f2-45d3-b651-99bd49c73295
     E36_E35_titre3_E13: 39ffa310-fe93-4e2e-a00f-7b2019de5890
     E36_objets_E13: 9006da2d-3145-4916-8aac-0b621e0469eb
+    E36_objets_médaille: e65af2e7-69ad-47b7-b151-c7729e1a34dd
+    E36_objets_médaille_E13: c9c414f3-4640-42c8-9ebb-3573efd3bc3e
+    E22_E12_sculpsit: 51a13114-f52b-4acc-a89e-f6d82bffa3c4
   1688-11a_283:
     E22: 7e296041-2334-4e7d-b7f7-7318a2f26ecd
     E22_E12: b05077a5-3b22-4fa0-9ba7-72aa63819ea8
@@ -3423,6 +3585,9 @@ collection:
     E36_E35_titre3: 35ef7b00-729d-46eb-a237-2c3a256a3b85
     E36_E35_titre3_E13: d3608c3f-5f0d-431c-bf8c-31de24ad19a8
     E36_objets_E13: bae1a868-8241-4011-b009-5f89635339ec
+    E36_objets_médaille: 034e9216-1008-4be4-9f87-9826423e4524
+    E36_objets_médaille_E13: a42a4013-5aa6-4ac1-8ca8-9bdebabe0ef6
+    E22_E12_sculpsit: 9b3cac3d-6b9f-4bfe-9214-9539d20aead6
   1688-12a_229:
     E22: 6cb600d2-e41e-45f6-8447-d9211bfb1e84
     E22_E12: 7dc92151-4c6b-4243-b43c-b6dc0fbd849b
@@ -3443,6 +3608,9 @@ collection:
     E36_E35_titre3: 69c403d7-80ab-4f93-9148-f41ac21bc4b5
     E36_E35_titre3_E13: d21488c6-3f55-4328-9128-a06d283cc129
     E36_objets_E13: 25405e69-94bd-4d5f-b0d8-2243b8476aee
+    E36_objets_médaille: 119585fb-fb47-4b07-be47-e740f1778123
+    E36_objets_médaille_E13: 766735b2-025a-426c-98bc-8e8cb0465a5b
+    E22_E12_sculpsit: e65c204c-ebd2-446d-870a-60f6c0162136
   1689-02a_125:
     E22: 95e2d59a-ae3a-427a-af12-0e855372e6b9
     E22_E12: cdd91e4a-295b-4ebe-866c-75dbd3864000
@@ -3456,6 +3624,7 @@ collection:
     E36_E35_titre3: 2fd18c3e-0ebb-4fe8-81df-0320ef734aaa
     E36_E35_titre3_E13: bc78af35-c217-44a4-bfe1-d17123550c05
     E36_objets_E13: f42d67db-280f-4179-93bb-1e2d1ae96bb7
+    E22_E12_sculpsit: c0d22770-9e54-41a5-95eb-fb84a85f8792
   1689-03_190:
     E22: cc60364e-74b5-43a2-a253-ec5a5f6c53a3
     E22_E12: 6053f668-343a-445d-a4bc-266527fa7797
@@ -3465,6 +3634,7 @@ collection:
     E36_E35_titre3: 5c43c11e-1a01-4ada-aa7e-dbf4dc09c293
     E36_E35_titre3_E13: c6779d56-65c9-40a5-b9a9-5e30f1dbe159
     E36_objets_E13: 0d76f406-986b-4dde-88b3-dda356970273
+    E22_E12_sculpsit: 98a0b0ee-729b-4cdf-81d9-7b71923ea5d3
   1689-04_236:
     E22: 5e50b42e-0a95-4e2c-ac62-294da399789c
     E22_E12: 868f7cdd-5fbc-4cbe-8d14-8a862b93f76b
@@ -3474,6 +3644,7 @@ collection:
     E36_E35_titre3: 2e71faaa-9924-42f5-9349-bde1eebb8dbe
     E36_E35_titre3_E13: 3b49adb2-7e81-433e-9a65-5f830da7469a
     E36_objets_E13: 737756c5-cf90-4685-96d9-95d901c84888
+    E22_E12_sculpsit: aeb5924e-3ca5-4e46-903c-50df0b9d922e
   1689-05a_254:
     E22: 7615fb3a-50dd-494f-a300-30338c5702ee
     E22_E12: 4f7afeae-e386-4267-be6e-939e02cb878f
@@ -3491,6 +3662,8 @@ collection:
     E36_E35_titre3: c41b9f57-6fdc-483d-99f6-e91b8e1a2daf
     E36_E35_titre3_E13: bdb4cf70-44dd-4a7c-89e1-0cd5ba1a059c
     E36_objets_E13: bfec9cd7-1cbc-4d42-aa63-f364de379884
+    E36_objets_médaille: 94f72494-4692-459a-82af-328f58e11ca5
+    E36_objets_médaille_E13: e4eb6c13-89e4-4bf1-b4cc-3a1f7af9c508
   1689-07_195:
     E22: d4c74998-a3cb-4575-b01b-9b9a83fd5ab1
     E22_E12: f74bcd9a-9bf6-466c-8c54-7d00e1e0f064
@@ -3498,6 +3671,7 @@ collection:
     E36_E35_titre2: 91f63460-9ea2-4c10-817d-b26e4f680756
     E36_E35_titre2_E13: 2adf5130-3915-47fb-a321-8a5f3c742e18
     E36_objets_E13: abed147c-fb35-450e-b673-6922033474e7
+    E22_E12_sculpsit: 0d0d694d-c0b9-43a6-9c8b-b8e52ccbcb36
   1689-08_356:
     E22: 841c064c-7784-4b94-8702-c188d4cb93f6
     E22_E12: d9ba8def-7e10-4f99-a132-bd7ea114548d
@@ -3507,6 +3681,7 @@ collection:
     E36_E35_titre3: e7910f1b-75f6-4612-a977-d07fe5ff223f
     E36_E35_titre3_E13: 52ec846e-af36-49cd-9609-bfa06c4f0fd6
     E36_objets_E13: c8e07834-7c16-4dab-9766-70236474f286
+    E22_E12_sculpsit: 692ccaac-c89c-4831-9e4b-4a305248c994
   1689-09_239:
     E22: de83ed79-2752-4e20-88c6-0a838fdfef7f
     E22_E12: 2395b0b7-897c-4cb9-a776-24dec450bc5b
@@ -3516,6 +3691,9 @@ collection:
     E36_E35_titre3: a1ced13b-d750-486a-90d1-460af4fba997
     E36_E35_titre3_E13: 2db804be-831b-45c9-bc9d-04f62fb85e7a
     E36_objets_E13: ecc4a159-9308-40ee-8e0e-be830faf4d22
+    E36_objets_médaille: 6ea61d59-d0da-415b-b921-80e72a149d60
+    E36_objets_médaille_E13: 371585e4-10c9-4615-82af-11d7c6764c03
+    E22_E12_sculpsit: f67f476c-395f-4ab8-83f8-59b0190620e7
   1689-10_242:
     E22: 9a504258-18a5-4104-9a03-c7218c501659
     E22_E12: f515f169-a89c-4232-8584-6ac69fc1a884
@@ -3525,6 +3703,9 @@ collection:
     E36_E35_titre3: b589e8cb-ff52-45a3-b998-adfd576d7390
     E36_E35_titre3_E13: d1fec089-c8a2-4f3f-ba4f-e6a177e73360
     E36_objets_E13: 8e25143d-d926-4ab8-b838-b0b368a2c1ab
+    E36_objets_médaille: 4e901bde-defa-47d6-8c34-591504afeb51
+    E36_objets_médaille_E13: 89f0bbb5-935b-45bc-83aa-d2b51cad140c
+    E22_E12_sculpsit: 92e032fb-cd24-4d3d-96ca-fc27a68a0b2e
   1689-11_317:
     E22: 968d439f-75a2-4cbd-a587-22ccf9060dbf
     E22_E12: 7fe95185-7eca-4ff4-a93b-deee7c26bb83
@@ -3534,6 +3715,9 @@ collection:
     E36_E35_titre3: db3b7c0f-1324-4c23-8357-2a943813ffcf
     E36_E35_titre3_E13: f5fa10bd-0384-4ba9-a2dc-056c63ef50f4
     E36_objets_E13: f83d3935-7de9-4e48-818c-dda21ca015b7
+    E36_objets_médaille: 962a2b8b-1666-4a62-b843-df586bb45398
+    E36_objets_médaille_E13: e381b88e-f6d8-477d-8c65-8eebc4732d3d
+    E22_E12_sculpsit: 564cdf9d-acdd-4a99-bee1-c3200da8d8c1
   1689-12_227:
     E22: 8adcbf96-dee3-4823-b3f2-9f62845d2af2
     E22_E12: 1c297af4-4e41-4b90-8489-fb2eff8865e4
@@ -3543,6 +3727,9 @@ collection:
     E36_E35_titre3: 79117822-0568-4872-8f7c-f64f7cba4b7a
     E36_E35_titre3_E13: 07f50265-5b08-4e7a-b7aa-061d3e515e75
     E36_objets_E13: 5299bcf1-9176-4f2d-a3c4-da965c40970c
+    E36_objets_médaille: d2489cb8-48a3-4073-a07f-fcd234f75b2b
+    E36_objets_médaille_E13: 41cfa794-e985-49af-ac5f-d602404dcb32
+    E22_E12_sculpsit: f90cf512-733e-465e-a378-3dfae044c769
   1690-01_154:
     E22: d5d4de43-0596-4f4a-87f4-a3cacbd795f4
     E22_E12: cf75bffa-5d26-4c97-9367-6c8af43395ef
@@ -3552,6 +3739,8 @@ collection:
     E36_E35_titre3: da507219-0d35-441e-b206-085046239a3a
     E36_E35_titre3_E13: 863f4fba-d0ae-475d-aa7c-22c14b3b32f6
     E36_objets_E13: 9f74b0d1-c1cb-4703-9926-1d0d83fe7427
+    E36_objets_médaille: 9283de31-107c-427f-9498-e392170af420
+    E36_objets_médaille_E13: 55846b69-5f79-4c30-aa8a-47c1cd925e01
   1690-02_151:
     E22: 05d845b6-34df-4bf0-8d84-28184662e555
     E22_E12: 82a75b18-d9cd-4d19-8fa2-92d01eed8c00
@@ -3565,6 +3754,7 @@ collection:
     E36_E35_titre3: 9bc26d84-e0e4-4c1a-8a1e-2de46e5b1c01
     E36_E35_titre3_E13: 92bce81d-d273-40ec-91ea-8dcdcba89a7f
     E36_objets_E13: 5f07d5ed-88e7-4655-a900-76d7129dd39e
+    E22_E12_sculpsit: 33f0f054-fa0e-4d60-9dd2-2f8293c1fb46
   1690-03_212:
     E22: 523b2943-ccd1-4444-9140-a70d00bf24f8
     E22_E12: 7ee624d3-d073-4363-9bd8-0ede7cf748e4
@@ -3574,6 +3764,9 @@ collection:
     E36_E35_titre3: eb65aaf2-5145-4aba-a60d-b0380e3fe9c0
     E36_E35_titre3_E13: 25a98ee4-485a-42e4-ba86-84f027fac698
     E36_objets_E13: 7ede41da-bc86-40af-9158-8b5f687e5212
+    E36_objets_médaille: 71c1d6a4-9379-4537-a51e-abf681b34219
+    E36_objets_médaille_E13: 11085910-7074-4d5a-91f0-f278393f3e79
+    E22_E12_sculpsit: 9dee9ddc-8857-408a-8814-4b130285986d
   1690-04_211:
     E22: bd00ac47-135f-43c2-b3fe-7964b47070af
     E22_E12: 501168fe-d2f3-46fd-96e6-e4ecc8e61a80
@@ -3613,6 +3806,11 @@ collection:
     E36_E35_titre3: 34840dc0-38a9-4e6d-9d7f-0581e9d25b90
     E36_E35_titre3_E13: 14783c1f-905f-4a6d-a310-6ca917343fd4
     E36_objets_E13: f687ec14-c454-441f-874e-078e968f0b68
+    E36_objets_médaille: 80f1f5d2-1975-4520-8d52-65396fec5904
+    E36_objets_médaille_E13: b20f166f-2e8f-4a6a-9901-25ce9076e4a6
+    E36_objets_médaille_E33_légende: ac6a6d02-6b1c-4237-a34c-b508f91291f9
+    E36_objets_médaille_E33_légende_E13: 7b065395-db7f-47ec-a095-00ab83e911bf
+    E22_E12_sculpsit: b21a4a15-f238-4b74-8575-acc9f209cce1
   1690-09_184:
     E22: 0420514c-3ade-410b-97c0-cb52e82274dd
     E22_E12: 7f142cd4-c2cd-47f6-9974-524e7520d63b
@@ -3622,6 +3820,11 @@ collection:
     E36_E35_titre3: 96b477c0-c4de-4dde-a541-533433931ac8
     E36_E35_titre3_E13: 3b859aad-5252-4af8-8f1a-4e18fd5c5827
     E36_objets_E13: a6ef5a2d-e9a7-4280-a898-41fedad65b64
+    E36_objets_médaille: 5d852bd8-c510-4b69-8f7d-628bb36bc5d6
+    E36_objets_médaille_E13: 5d43a34a-f547-406e-be2e-be709b94a09a
+    E36_objets_médaille_E33_légende: 16a3862f-dcae-4151-8c85-678219088027
+    E36_objets_médaille_E33_légende_E13: bcb442c3-2e67-462f-9f14-20cc9a348376
+    E22_E12_sculpsit: f8bb06db-1e05-42f0-b850-43d464e5b9b4
   1690-11_157:
     E22: 4b53aa9c-b4f3-4718-b167-69373e581778
     E22_E12: 75f86cb2-60d8-4f21-86db-3a0062903bb5
@@ -3635,6 +3838,8 @@ collection:
     E36_E35_titre3: 99c695a2-1458-4388-b7d0-2fafc5a3ed12
     E36_E35_titre3_E13: ae36afc8-a083-454d-8b51-494041faca20
     E36_objets_E13: 93f38c60-12fd-4bfb-8634-283534fb2f5a
+    E36_objets_médaille: c8067e79-8595-4eac-9b0b-69c22d2054fd
+    E36_objets_médaille_E13: 760d3b0a-5d84-4adf-8559-ca5b0fc089d1
   1690-12_271:
     E22: 034da492-4a81-4df6-a5f8-cf11a7e8ffc2
     E22_E12: b65d09d9-e068-4750-b7d7-4227b278b6ce
@@ -3644,6 +3849,9 @@ collection:
     E36_E35_titre3: 2b592cce-91fc-4814-8f2d-8357849ccbdf
     E36_E35_titre3_E13: 7be9b97c-d568-4485-970f-aaf4a013418c
     E36_objets_E13: 674a8375-dc5c-4b6c-8903-951a0ef1b684
+    E36_objets_médaille: 252ad304-1360-4f1b-a0a1-7dc2b0b20bda
+    E36_objets_médaille_E13: cfddaa3d-48f5-417a-96c5-d0349af5e709
+    E22_E12_sculpsit: 31d9882f-cdab-4bb4-9dae-692a18a35b17
   1691-01_227:
     E22: 9b3e873b-74c4-44f6-a10c-1002dd0a3bc0
     E22_E12: f337854b-88fc-4015-ab89-93ae0e303445
@@ -3657,6 +3865,8 @@ collection:
     E36_E35_titre3: e25c9c0f-f26c-4b6e-9e7b-4b81a1306c41
     E36_E35_titre3_E13: 2a808eea-95b3-4015-9c7c-7441f48e4932
     E36_objets_E13: 2319bfe9-e700-418b-9f4a-45732cb62c83
+    E36_objets_médaille: f5c8d442-c855-43c6-bf8b-29e9acddfd37
+    E36_objets_médaille_E13: a93d5735-b85e-40f2-8a95-51ed972b2d0b
   1691-02_177:
     E22: e401fa82-9f03-4664-adaf-84505afdc74b
     E22_E12: 65a160c5-c63a-4902-9f73-f04e26064275
@@ -3666,6 +3876,11 @@ collection:
     E36_E35_titre3: e9eaeb62-9ddf-4ce9-a1b5-f575f840761d
     E36_E35_titre3_E13: 8027fb2a-1ca1-42e5-bda7-d44ad2200856
     E36_objets_E13: b400c509-0e72-4ec2-bf8c-016de15b3dff
+    E36_objets_médaille: 751fa975-8f38-4b63-80a7-03dae5696b62
+    E36_objets_médaille_E13: c4b27fbe-f052-4077-91ae-11023c17583e
+    E36_objets_médaille_E33_légende: 65b25ffa-c88f-4ade-8224-317040a2ee30
+    E36_objets_médaille_E33_légende_E13: 33156b78-f90f-4c41-803c-54572ba9fd58
+    E22_E12_sculpsit: 69d31153-6794-4dc7-b3b9-b054b40ab1dc
   1691-03_131:
     E22: 44ee59bb-9661-4221-bfc2-46c54ee2f8fc
     E22_E12: 77f7c605-bed4-4325-9985-3b8e6900a600
@@ -3677,6 +3892,7 @@ collection:
     E36_E35_titre3: ca490ae2-4c04-4ce9-88b5-a1b30d48c83a
     E36_E35_titre3_E13: 40273743-1814-40dc-980e-07f408e45c7e
     E36_objets_E13: 3bd2cc03-a470-4b76-909b-381c1df49754
+    E22_E12_sculpsit: 08da3386-34d2-42ee-b846-0a340791882c
   1691-04_162:
     E22: 1d944ece-ccf7-43b5-8330-933059f3cc53
     E22_E12: 1a31b6e7-e1c6-4f00-93d0-a242ab95e384
@@ -3686,6 +3902,8 @@ collection:
     E36_E35_titre3: ba6388b0-a063-4a69-8588-09f660f51b22
     E36_E35_titre3_E13: d4a4be36-3fa0-4201-a2de-b4271d97d133
     E36_objets_E13: e86db44d-3f2b-44a6-aa15-9b91d535fa6c
+    E36_objets_médaille: a97a021b-5852-472b-b7b1-8100313c9210
+    E36_objets_médaille_E13: 0b020c02-2207-4410-b1cf-a5db1d795aa9
   1691-05_149:
     E22: a419c413-951d-4d0a-8a3b-b600c89b15df
     E22_E12: 0b5a6b04-9f99-42d9-ba33-9e4ec156bfa7
@@ -3702,6 +3920,8 @@ collection:
     E36_E35_titre3: 87cbedbe-e5ce-4a08-9029-2b6f87e28f7b
     E36_E35_titre3_E13: 68011b57-ad48-4dd1-a2c8-30455899b83f
     E36_objets_E13: e2e38029-baf1-4449-b998-78e3151189a0
+    E36_objets_médaille: db69cbba-e868-4fa2-8817-3172a3e69a6c
+    E36_objets_médaille_E13: bcadb046-50b2-4ea1-9df0-0548cb62edc1
   1691-07_181:
     E22: e3602d64-c3b3-408c-ad0f-716d4e02b301
     E22_E12: bcb25ba6-8e63-44a4-97c5-e8ac16d099e9
@@ -3711,6 +3931,9 @@ collection:
     E36_E35_titre3: 24691866-9f96-43a9-a13c-305b4e694262
     E36_E35_titre3_E13: 507492fc-fe08-4199-a125-07964b1e4306
     E36_objets_E13: 41210a7e-6294-4741-ab59-ee244c767491
+    E36_objets_médaille: 4bc18935-ffea-44c9-b575-883acd2710cd
+    E36_objets_médaille_E13: fa4ff331-7ac4-44d6-92e3-d4d6494500a4
+    E22_E12_sculpsit: 8a9907b8-46bd-4d89-9c3c-c5ea5414fb56
   1691-08_161:
     E22: 3aebacab-f232-4861-95c3-80bcab74351f
     E22_E12: 923a0bd5-cfdc-4e9d-aeee-e58ae855e2eb
@@ -3720,6 +3943,11 @@ collection:
     E36_E35_titre3: 217f36c2-09e4-4636-ae65-033e2b7fe546
     E36_E35_titre3_E13: bdd7ce9d-1994-44a1-9bba-51af66ad3e27
     E36_objets_E13: 0d41a09e-936c-473c-aa3d-9acae21c22d7
+    E36_objets_médaille: 6926a667-d897-49cf-9b52-e4b80d7f16d5
+    E36_objets_médaille_E13: 277644bd-4aed-40b9-8207-80ee2013013e
+    E36_objets_médaille_E33_légende: 6108c657-245a-4cda-8e99-b24a33b4510b
+    E36_objets_médaille_E33_légende_E13: ef317d79-a79d-4d79-9055-cce284a4d59a
+    E22_E12_sculpsit: d8e058bc-1d18-4093-b93a-11ce1dbe2029
   1691-09_155:
     E22: 3dc05582-4a3c-4c6d-9b15-82ebd7916d8a
     E22_E12: 60f7d63a-47c9-475e-8676-7edd8c01c7f3
@@ -3733,6 +3961,8 @@ collection:
     E36_E35_titre3: c130358c-2f24-47ef-b99e-5523feb01551
     E36_E35_titre3_E13: 2aca15d5-1c52-47b7-a520-24f4d56c45ca
     E36_objets_E13: 054ae1a9-e940-419f-a789-f9fdca8e425b
+    E36_objets_médaille: 134063e5-1bad-4aa2-8a55-991ec75b54e7
+    E36_objets_médaille_E13: 63d11c3f-252c-4c60-b44b-4772003c1b75
   1691-10_161:
     E22: 3498f894-e33d-4365-9d05-ee75e066215a
     E22_E12: a21859ed-b14e-490b-bf02-6846718105c3
@@ -3746,6 +3976,8 @@ collection:
     E36_E35_titre3: 2bb9df1e-20fc-45b6-b223-9c7ffaf656a9
     E36_E35_titre3_E13: 2b89cc20-4166-430b-a041-b20856284213
     E36_objets_E13: 91835b1f-89b9-4d92-9345-4682c6165f44
+    E36_objets_médaille: 6f20c37a-e844-4e80-a171-058c4098a278
+    E36_objets_médaille_E13: 88522348-08a0-4c0e-86a4-0a2dab62ab6c
   1691-11_156:
     E22: 6b1b41f0-d981-4ce1-8403-f9343b6c44d4
     E22_E12: 73cd1bb5-73a7-4333-a134-38db258f6715
@@ -3759,6 +3991,8 @@ collection:
     E36_E35_titre3: b8be2342-9c94-4a0f-ae75-c051289ee195
     E36_E35_titre3_E13: a9c493ae-396f-43e6-9b63-e73515bb2259
     E36_objets_E13: 2f16ccda-9145-417a-b3ab-5e8c8876aa4b
+    E36_objets_médaille: 3caab35a-6242-426c-ad18-c3121c45a031
+    E36_objets_médaille_E13: ba236a8d-dcc4-4b6c-92a4-407eaa69a3b3
   1691-12_242:
     E22: 220f5367-8ec7-47a0-8a0d-10dd693017ab
     E22_E12: 1de44a5e-2933-4705-ad7c-0ef8e165c03a
@@ -3768,6 +4002,11 @@ collection:
     E36_E35_titre3: 6fd9ac96-cb6a-4a26-845e-65b191de03db
     E36_E35_titre3_E13: c5a15083-bdde-4d07-90a9-0ce7478cd49c
     E36_objets_E13: d379b037-2de7-4846-8a73-155ffa40bf73
+    E36_objets_médaille: ba44bb09-3595-42a0-822c-7250230a9c44
+    E36_objets_médaille_E13: c0a9dee2-6f79-4826-840b-a64d27be5af8
+    E36_objets_médaille_E33_légende: 62138ba9-69a5-4f3c-8439-be371900c8e7
+    E36_objets_médaille_E33_légende_E13: c5ecc22f-b1b8-483e-888f-d1fe25a6eb15
+    E22_E12_sculpsit: 17cb3399-2a85-4d13-b0ef-48941a236426
   1692-01_288:
     E22: 4c3458cd-41a7-4fb6-a223-5f6bbf001d3b
     E22_E12: cbd41bbc-e98e-45cb-9a54-1e27c4e746ea
@@ -3777,6 +4016,9 @@ collection:
     E36_E35_titre3: 113fc787-0955-4b16-a9e7-f6c5cdd1dc10
     E36_E35_titre3_E13: aebb95b2-7655-4ffd-948e-db1c7e2308d1
     E36_objets_E13: 18428002-85ee-41d1-95f5-31f5f3ae81ee
+    E36_objets_médaille: 04859db3-69e0-490b-a384-494345323bbd
+    E36_objets_médaille_E13: 150db3ef-fd97-49f4-82b6-42131f34c0c8
+    E22_E12_sculpsit: f25340aa-2061-4881-8a83-1eefca4bd7db
   1692-02_324:
     E22: a8b5cb6e-7524-4e31-97b7-7adc4b7e8d5b
     E22_E12: e7bdf456-5b73-4ed9-8ed9-c1b0c090286a
@@ -3812,6 +4054,8 @@ collection:
     E36_E35_titre3: 7609db90-548c-4b41-a6f8-f13069e5ea32
     E36_E35_titre3_E13: 7bc7a4f7-e7fc-4930-b97d-bfc7814c7546
     E36_objets_E13: 57dad0a1-6f1a-4805-aa93-25916bf32aee
+    E36_objets_médaille: 8322972d-507a-4a30-b901-b4b7506e9f44
+    E36_objets_médaille_E13: 092f43ba-6209-4365-a1b9-5e22f32cdad3
   1692-04_181:
     E22: 65aec2ca-5789-4007-9962-5937bc920e91
     E22_E12: c6777376-aaf4-4770-80d2-17a2f3070184
@@ -3825,6 +4069,8 @@ collection:
     E36_E35_titre3: 5299f19d-9c3e-4248-9fdf-d8af31ff4193
     E36_E35_titre3_E13: 070b00fc-d2ce-4aa4-b475-262d2c03acc8
     E36_objets_E13: cad53b47-6686-44d8-b9b6-b0fd09a18664
+    E36_objets_médaille: 8782c9d7-2379-4923-8b27-2ea196541706
+    E36_objets_médaille_E13: e09ec459-5cbe-4a3c-b571-248411a624b5
   1692-05_218:
     E22: 0c839a35-6ca5-4f36-b1bb-41ba436e653a
     E22_E12: 2ee403ef-2ec5-4c18-983a-8890de0ffba4
@@ -3834,6 +4080,9 @@ collection:
     E36_E35_titre3: 393a526f-55b4-4a8c-ab97-df8edbd5d1ea
     E36_E35_titre3_E13: aeea4947-2a22-4b07-ae90-450132c88a62
     E36_objets_E13: a7232a40-2b77-4ba7-bb99-f6dd1ac0049e
+    E36_objets_médaille: bb1ffa7e-be79-46cb-836d-00e4881c457a
+    E36_objets_médaille_E13: bd4c0791-7b3c-4b30-98d5-9d7af85c6f33
+    E22_E12_sculpsit: 3ad8cd3d-a32c-469e-9a3d-9d81cbe0ea07
   1692-06_239:
     E22: a9c53a47-949d-4727-b4dd-e0efc7b92b0f
     E22_E12: a8851e2b-04f5-45da-89ad-1dc08e8055e3
@@ -3856,6 +4105,7 @@ collection:
     E36_E35_titre3: e9d7dc1c-11fb-4207-9603-80ee22ab03eb
     E36_E35_titre3_E13: b51af101-f657-4e85-b3cc-6f5e115966d6
     E36_objets_E13: 71bdb072-2bb4-420b-b5be-370b28961ca4
+    E22_E12_sculpsit: ddd2e20f-da7b-452e-bb6c-20e562bdbb3c
   1692-08a_181:
     E22: 0d4a311f-872d-4402-8d36-5ed20f9ea322
     E22_E12: 6d3ad72e-56b8-4e12-aeb2-6a48fea33f48
@@ -3869,6 +4119,8 @@ collection:
     E36_E35_titre3: b7fb16df-08a8-45af-ace7-0be7550957b5
     E36_E35_titre3_E13: 3442f50b-c114-43b7-80b1-59099f0d5347
     E36_objets_E13: 6e9b433e-d7e1-4ff8-8907-7c67da948dc2
+    E36_objets_médaille: 41ca6194-b7f0-4cb0-9198-ea512b5da41c
+    E36_objets_médaille_E13: 887595b7-ce53-402f-8c57-b18d7820323b
   1692-10_104:
     E22: 7364f529-165d-4627-95d5-a74350333f46
     E22_E12: e6aff23e-cf12-4a75-a262-d61e73b6f6d3
@@ -3878,6 +4130,9 @@ collection:
     E36_E35_titre3: 3f0610c1-112c-4640-b816-77cb6557efdd
     E36_E35_titre3_E13: 6ba00b64-1040-4897-bf6b-02edfe13d7ef
     E36_objets_E13: 7cb12cc0-fe01-490e-9838-27a0f9489e7b
+    E36_objets_médaille: f71c2b9a-baae-464b-bfe6-89029142f5f1
+    E36_objets_médaille_E13: 3a230a86-f8f1-4f42-bbca-248ed8527ca0
+    E22_E12_sculpsit: 826bac86-eb99-461d-9f70-5472f2df31b1
   1692-11_175:
     E22: fee908f0-cb3c-4295-9766-9dd03f77a9d9
     E22_E12: 064c4b73-8a8c-4942-ae2b-5c7f7753d6ae
@@ -3887,6 +4142,11 @@ collection:
     E36_E35_titre3: 4f29c60f-d798-4964-8b6c-009576fd4674
     E36_E35_titre3_E13: f56f2a4e-06f4-4431-9b2d-be70c6919d0d
     E36_objets_E13: 78ddcc2f-7190-42ff-8c50-4a073d9d76eb
+    E36_objets_médaille: 79d84e32-76ec-4a06-8917-5c456ca7c0da
+    E36_objets_médaille_E13: defa04dd-d882-4fdc-89ad-73b91b0eb7c5
+    E36_objets_médaille_E33_légende: fd1c8261-7b3e-4fff-87eb-7d2adce2b261
+    E36_objets_médaille_E33_légende_E13: 33b74a9c-60aa-4abb-b60c-8bfc3aa73e61
+    E22_E12_sculpsit: 40ffe411-8370-4214-9de2-c1b6cf4a96a7
   1692-12_182:
     E22: 11e9d78e-2455-48c0-859e-cade2b143ab1
     E22_E12: ade9a454-109d-42b3-9f01-b19b86df2a2b
@@ -3907,6 +4167,8 @@ collection:
     E36_E35_titre3: ef69cfb7-bdc6-492a-8916-df084c13cdfe
     E36_E35_titre3_E13: bf366b92-9918-4658-a6d7-9300bb4a7497
     E36_objets_E13: 1bf3c2da-8e63-46e4-abe1-134326f51fed
+    E36_objets_médaille: f42fbbb4-7652-47d8-ba72-89404f98ee00
+    E36_objets_médaille_E13: 6ab2111f-d6ea-4f57-9c5f-210c9c977d93
   1693-02_201:
     E22: 83db103b-95aa-4f06-aab6-1eb0ccceaf92
     E22_E12: 04e92b9d-284b-4172-bb92-72c8bc1ac460
@@ -3916,6 +4178,14 @@ collection:
     E36_E35_titre3: 61666f49-c18c-4a39-ae6c-1080c0efa252
     E36_E35_titre3_E13: 2b51d291-ff63-4810-b915-9947b8ad219a
     E36_objets_E13: 19674249-1fa4-406c-b6d6-93c0a7bb3c6e
+    E36_objets_médaille: ed11b71e-a4d0-4718-981f-85b500fa72ab
+    E36_objets_médaille_E13: 5ece0740-6be3-47f8-b980-5e7b339ecf8f
+    E36_objets_médaille_E33_légende: 31ea28e1-61b6-459c-8812-7c192212176f
+    E36_objets_médaille_E33_légende_E13: ee6be792-9fa1-4c42-8195-7fad3490201b
+    E36_objets_médaille_E33_exergue: 91fff127-76dc-4442-9ce3-14e898d898d1
+    E36_objets_médaille_E33_exergue_E13: 31ba97f7-ae4e-4c00-9d66-60985110b96c
+    E22_E12_invenit: eae5a07d-50c5-43ea-9a44-47306a6996dd
+    E22_E12_sculpsit: 01977884-b5c4-4fd2-95f4-947e0aac96ba
   1693-03_191:
     E22: 00f051cb-5d0a-43e1-a7c5-40f13e7a7ff8
     E22_E12: 305148ed-e901-494b-b6bf-66bebdf12320
@@ -3925,6 +4195,8 @@ collection:
     E36_E35_titre3: a6398efd-bfc9-405d-84a0-df3d707c9251
     E36_E35_titre3_E13: e06d7dff-1c63-4253-844d-a42727a5da1a
     E36_objets_E13: f099a217-7e54-4365-be95-121b18f8d1cc
+    E36_objets_médaille: f377910f-5b65-4513-994c-1090344ec22d
+    E36_objets_médaille_E13: 1c09fef9-b3e8-4cbf-9530-f04eda4628dc
   1693-04_189:
     E22: d1970e5b-273f-4e65-9053-e9dbf291e81f
     E22_E12: 1b6840d1-9d3f-4c98-b08a-4cf0757ddda9
@@ -3945,6 +4217,9 @@ collection:
     E36_E35_titre3: b57f3598-c679-4c79-989c-f3211973c117
     E36_E35_titre3_E13: 964313cb-4f31-465a-b7a5-c268e0ef7443
     E36_objets_E13: c2209397-f297-4077-8e64-e8f0ba9532bd
+    E36_objets_médaille: f3d2b156-d86f-4ae1-aef8-a12e9e7818b3
+    E36_objets_médaille_E13: 99d3e3ae-f792-4844-9f76-9cfb1467fa54
+    E22_E12_sculpsit: 331ea156-2a81-4560-ab55-4c61199a265e
   1693-06_064:
     E22: 8bd68fe9-725f-4526-82c9-92b483ef1b77
     E22_E12: d16ff9f1-00f3-498f-a0be-ca6fb886b97b
@@ -3984,6 +4259,8 @@ collection:
     E36_E35_titre3: 995a77e7-a335-4948-abb0-963e8ee6eeba
     E36_E35_titre3_E13: b5a9bc4d-2005-4019-acf5-01641041d497
     E36_objets_E13: ebf42c76-32df-4b8c-8ddf-c482a734e4dc
+    E36_objets_médaille: 67fc742f-7703-4db1-b1a5-479d68bda75f
+    E36_objets_médaille_E13: 5ab363f8-7700-431c-909c-adef964ab672
   1693-09_266:
     E22: 7150f6d9-d2fc-4531-926f-f2372f72cc19
     E22_E12: dd87a24a-3097-423d-898d-a80b1e925075
@@ -3993,6 +4270,11 @@ collection:
     E36_E35_titre3: 9d287965-446b-47ee-992f-26a7077f8789
     E36_E35_titre3_E13: b49bf2b5-d366-410f-bcf6-e7b4b4e6ac49
     E36_objets_E13: b176c3cf-498f-4bc9-af49-c98ea86391a8
+    E36_objets_médaille: 4f37b0b6-ac72-4808-b363-2273499c91a5
+    E36_objets_médaille_E13: 72f83cdd-1827-42cb-ad39-e9731da02a43
+    E36_objets_médaille_E33_légende: 3e7281b6-a6a3-4366-b9d1-acdab5df515a
+    E36_objets_médaille_E33_légende_E13: c335f5e1-b6e7-4151-ac60-17ab7804286d
+    E22_E12_sculpsit: aa9b9f8d-251b-425a-ab69-6001ef2c2d74
   1693-10_327:
     E22: aceaa7a9-1b53-4e82-bee0-9b8409d48d90
     E22_E12: 46da54d9-d83e-48a7-b97a-cb02f000828c
@@ -4002,6 +4284,11 @@ collection:
     E36_E35_titre3: 2d5b5789-737e-44e1-8b46-f0a34d3f60ee
     E36_E35_titre3_E13: 214aaa1e-54aa-4768-b5bb-18f8af73924e
     E36_objets_E13: 9eaf60fe-4197-41cc-b900-33d4ef5607b4
+    E36_objets_médaille: 37ec126c-dd3e-4728-819a-b2843677fd8b
+    E36_objets_médaille_E13: 3b7bc8ba-bd84-4f14-95c6-41a4d3068060
+    E36_objets_médaille_E33_légende: 2530d356-cb92-4889-adad-bab7b4fd8058
+    E36_objets_médaille_E33_légende_E13: c9197901-4384-4b8c-897d-afde4a925e9d
+    E22_E12_sculpsit: 482fb4ef-c8a1-464a-a5b6-194999a509d2
   1693-12_008:
     E22: 01d5c5da-59f3-4ee0-a17b-b6e0885e8273
     E22_E12: 7da97d87-d87f-4e50-99cf-89a2babe647a
@@ -4011,6 +4298,11 @@ collection:
     E36_E35_titre3: 1c8c17fd-0f7a-4e56-a74e-4cb1c95464d0
     E36_E35_titre3_E13: 3af31422-18b1-4242-880b-df31553851b6
     E36_objets_E13: bf8d7411-bf7d-4b79-a1c8-de745cdb9a75
+    E36_objets_médaille: 5a1894da-e01c-45c5-9ae1-d5c83071aa82
+    E36_objets_médaille_E13: 474988ab-0123-4b91-b460-ddbb676b3239
+    E36_objets_médaille_E33_légende: a50caec1-63ed-400a-a380-1adeff31b5aa
+    E36_objets_médaille_E33_légende_E13: 424321e5-ea1e-4074-acca-c8b2ffcbf1d0
+    E22_E12_sculpsit: 9fef221f-9df0-4484-87c5-4a4ab9d9b3ee
   1694-01_204:
     E22: 7837b35a-997a-4c32-bedb-4d8e3bec186f
     E22_E12: d3ee1398-3493-498c-9272-47054d061485
@@ -4020,6 +4312,9 @@ collection:
     E36_E35_titre3: 62b55604-536a-4ed1-8a59-33540bfd8662
     E36_E35_titre3_E13: d39c6858-57b8-4c8a-a0e0-4c80078bef75
     E36_objets_E13: 92454a22-70f9-47d8-b21b-c1e62474571c
+    E36_objets_médaille: 6a4d757d-5793-4082-bdbb-159bbf3f63ef
+    E36_objets_médaille_E13: e94a262f-1a86-456d-accf-66683f70a9ac
+    E22_E12_sculpsit: fea25eb7-a824-400c-8119-093fea3c4ef1
   1694-02_303:
     E22: deb233a0-88dd-415b-9e34-25060ecebd00
     E22_E12: 7a198dea-6d8d-4625-b75f-3496a16f072c
@@ -4039,6 +4334,7 @@ collection:
     E36_E35_titre3: e9425a63-30f9-4045-8aa0-7aebdc0cab22
     E36_E35_titre3_E13: ceacb66b-2880-492f-acd5-bad89e2e7aef
     E36_objets_E13: 6b176cee-1f5b-4fd7-88b4-a0a4ab49342f
+    E22_E12_sculpsit: 2ff15995-2952-4997-8a2a-80820a2b9f57
   1694-04_114:
     E22: d28ee1ec-65f9-4fd8-95d5-76b2046e06f3
     E22_E12: 9df5a816-30fa-4494-91bb-b7b73f2d12ac
@@ -4048,6 +4344,8 @@ collection:
     E36_E35_titre3: 633ded0e-99f0-4a1a-9e4f-ddc82df8dd33
     E36_E35_titre3_E13: 8113077e-fe5c-4906-a1b2-5c8e98dbcf0c
     E36_objets_E13: 58a5d5a0-eacd-4494-a20f-066b9b48a5c4
+    E36_objets_médaille: 4a73cd9f-0324-4685-b415-2d58f7511619
+    E36_objets_médaille_E13: dd98fe5e-90cd-4adb-9046-b61d276e3d2a
   1694-05_265:
     E22: bdd240b4-574e-4a1f-8fde-d79a007b54aa
     E22_E12: 6125d73d-652f-4cda-beea-952aede2341f
@@ -4057,6 +4355,9 @@ collection:
     E36_E35_titre3: f09481c6-10fa-4f44-a6ff-5e4289721176
     E36_E35_titre3_E13: 043a80cd-cd57-4e75-81b3-3eea4104f479
     E36_objets_E13: 7e0e18f9-4a70-405f-b5a0-f5dba3d27b4d
+    E36_objets_médaille: ebd80468-af7c-45e5-9d19-4b58d7016b8d
+    E36_objets_médaille_E13: 588b060b-7024-4ecf-a0c1-bfbc128c32f7
+    E22_E12_sculpsit: 03457a2e-47b8-4b42-92f0-2a0df4d867ac
   1694-06_297:
     E22: c119df6f-af19-4781-82ba-8e4dc8a419cf
     E22_E12: cd2c18ae-c821-46f2-9f82-e985f9c5def0
@@ -4070,6 +4371,7 @@ collection:
     E36_E35_titre3: 15f2d61f-b166-4adb-8323-6f553ed93bb2
     E36_E35_titre3_E13: b2c37739-35a3-4ddc-9db3-ef8ed16c334a
     E36_objets_E13: eaa45227-e85a-40d2-acb6-c638fb77a02e
+    E22_E12_sculpsit: b7e47361-2bce-4a05-a39b-1ccce04e8b61
   1694-07_081:
     E22: 6d4a39af-812c-40d0-90ef-4612c0f42034
     E22_E12: 519bb85d-0f7e-426c-b39f-82bb22ef7123
@@ -4083,6 +4385,7 @@ collection:
     E36_E35_titre3: ac23f5ba-5f0b-4fe3-9195-3b3ba88dc2b1
     E36_E35_titre3_E13: 79424043-af60-4343-924e-632255754325
     E36_objets_E13: 1c1c813e-66a1-466b-aeea-f91f6ebcb036
+    E22_E12_sculpsit: c29bc27c-d947-4b5a-8ae1-36ca375b5abd
   1694-07_259:
     E22: fcc87bc5-10b2-44c6-851e-99e22507f4cb
     E22_E12: ed7926c5-22f1-4431-af74-7721d663911e
@@ -4094,6 +4397,7 @@ collection:
     E36_E35_titre3: dd12c8aa-962a-4ae2-83ee-4cdf6b34c91a
     E36_E35_titre3_E13: b18ecfea-fb87-4f60-baef-6eeeaf7e5d23
     E36_objets_E13: a90e004b-92db-4cf1-baf2-657eb94ade78
+    E22_E12_sculpsit: 64508d9e-fd82-47ba-ad80-8048544fc1a7
   1694-08_229:
     E22: c76cf835-994a-426c-afed-8de9d386ed62
     E22_E12: 976a313c-c60e-4130-b42b-54a1f4adcef8
@@ -4103,6 +4407,7 @@ collection:
     E36_E35_titre3: 62f7c9e3-3c62-44c7-a0cd-840702270fc3
     E36_E35_titre3_E13: 817a356c-85b2-434f-b919-a1395a795e04
     E36_objets_E13: 7d0f5a21-0385-47b8-b963-e99aa43688f8
+    E22_E12_sculpsit: 4b2d6373-1237-4b55-91c9-d86ceafecbb9
   1694-09_126:
     E22: dbba04f1-3a6b-4a5c-bcc5-b345f84d61b6
     E22_E12: bb501431-a537-4e13-930e-d1b49026e0f8
@@ -4112,6 +4417,9 @@ collection:
     E36_E35_titre3: ce15b756-99d9-4b9f-ac2c-df115dd99bba
     E36_E35_titre3_E13: 24c116bf-b4ca-4faa-b435-fd1a661aa84e
     E36_objets_E13: dfa729bb-56e3-48a1-8b10-74864fac9722
+    E36_objets_médaille: 28a11447-8585-4b1a-81ec-303fce11c0cf
+    E36_objets_médaille_E13: 82200672-b7cc-4a5b-9677-4a139c8ef98b
+    E22_E12_sculpsit: 040152a3-4a88-4f17-9303-de25e88c6f39
   1694-10_161:
     E22: 912374e6-2f3e-486c-a6da-4d07beed48c3
     E22_E12: 61da2ab6-4fab-40bb-908c-102762a98523
@@ -4151,6 +4459,9 @@ collection:
     E36_E35_titre3: 58b71d58-d9aa-47a8-a4c4-861dcb3ecadc
     E36_E35_titre3_E13: c9011ad2-fe8e-488d-90c3-fef5aff4ce3e
     E36_objets_E13: fa494789-217e-4ff2-ab39-b8297267d92d
+    E36_objets_médaille: a7da6006-e3f8-48db-b1b8-96511b5f8469
+    E36_objets_médaille_E13: be62091d-cd92-46e4-97fa-6781577dafc9
+    E22_E12_sculpsit: a59eadf7-63e8-4897-a2e0-02ffd1e9c6ed
   1695-01_185:
     E22: ee93a853-d46b-41fa-b3a6-39848a75069b
     E22_E12: 482de719-096c-4514-8cb8-6d7af1e070b5
@@ -4160,6 +4471,9 @@ collection:
     E36_E35_titre3: b248bec0-e355-4a04-aac8-e75c55da9533
     E36_E35_titre3_E13: fc37dde0-3e85-4b2f-b56d-7004117fcc30
     E36_objets_E13: 36d24b5e-c6ff-4a19-b0d5-a930492f090f
+    E36_objets_médaille: 7bd0a295-c260-466b-9699-253395f6a971
+    E36_objets_médaille_E13: 1a7f6514-8698-47e2-8bbd-4a7c853bfa47
+    E22_E12_sculpsit: 73a8802d-db35-4b7d-855a-d054551bed74
   1695-02_108:
     E22: 98517033-9d90-44a6-94a6-e01bd49046f1
     E22_E12: cfb501b7-8952-4622-85cb-b49cbd25e9e9
@@ -4169,6 +4483,9 @@ collection:
     E36_E35_titre3: d50b3a1d-76fb-46b6-83b6-d53bddc35490
     E36_E35_titre3_E13: 2123c230-e084-492d-b047-4e72db65c1ed
     E36_objets_E13: 55dd602b-af83-4f8e-a4cc-fce1d1301086
+    E36_objets_médaille: 95014c31-1370-444d-b6ae-2840788560b2
+    E36_objets_médaille_E13: 41dfa598-2dd5-430d-aad9-eb6134b6d751
+    E22_E12_sculpsit: 95e27a24-0bda-4187-9bf2-a9da11050e84
   1695-03_052:
     E22: f491206f-4fda-4cb8-972e-df0f1dff65e0
     E22_E12: 17fb1404-dcc4-42d7-abe6-0f6b9e8068b8
@@ -4178,6 +4495,9 @@ collection:
     E36_E35_titre3: 63d16be7-4278-4ff0-8219-e1739d8f53b2
     E36_E35_titre3_E13: 46e06ab0-9a06-4854-b045-626d4636d0bd
     E36_objets_E13: 74b70d05-df2d-4584-a5a5-42faf4a8322a
+    E36_objets_médaille: f7f06208-4917-4a2b-a98e-e8b0b14ad37c
+    E36_objets_médaille_E13: d3ffcf99-6f3e-4936-a4b8-c9f133100adc
+    E22_E12_sculpsit: 3c3af164-85dc-489c-bba4-f2b789b26acb
   1695-04_158:
     E22: bea47c86-8e4e-4793-9952-2c46e2f0f727
     E22_E12: 0463f7d2-167f-4fae-86ab-6d2cc7dda4a1
@@ -4233,6 +4553,7 @@ collection:
     E36_E35_titre3: e4896ffb-d454-42ad-b7f5-4dda53732cb2
     E36_E35_titre3_E13: 164bf3f1-3be2-4e68-9b18-b074965c2f2c
     E36_objets_E13: 78c2f184-5668-45a6-ae44-9a9ec4781ae4
+    E22_E12_sculpsit: a544d3ed-1e34-4a3d-995c-dfa9ab9d6b2b
   1695-09_193:
     E22: da295d1d-2da1-4c75-99ee-b39ed323fce2
     E22_E12: ff46568e-186b-4219-8da5-0a2f280c2409
@@ -4242,6 +4563,7 @@ collection:
     E36_E35_titre3: 674386b1-f813-40df-b0e8-f0aeadffbc71
     E36_E35_titre3_E13: 7230294d-a078-401a-a1a7-865cb1e7f15b
     E36_objets_E13: f5e30a24-221e-4e46-ad63-01f9311f27ca
+    E22_E12_sculpsit: d2def0e2-3417-4daa-a7d9-987b4928d6e6
   1695-10_064:
     E22: f6c2bc06-fb0b-4f31-87ee-cc7401edbb25
     E22_E12: 4854845b-cc47-44a2-84e5-ff218dddf9a0
@@ -4276,6 +4598,9 @@ collection:
     E36_E35_titre3: 218f0f42-f94d-4b6c-9f4b-a91148deb7bb
     E36_E35_titre3_E13: 6d150c04-6ff9-4436-b233-a316cf4ec5ee
     E36_objets_E13: 47be0c66-7bdd-4a8c-9da9-780a1db46099
+    E36_objets_médaille: e6eac848-7bb6-414d-949f-08b5092ecaf5
+    E36_objets_médaille_E13: 14585eca-2f3d-40e7-a1cf-50c7ebccfb72
+    E22_E12_sculpsit: 2cfdb924-c654-4acc-884d-85c123748803
   1696-03_153:
     E22: c1a1d103-7a5a-40c8-9af6-e2b0a6d5c49e
     E22_E12: 1e4f18fe-d4fb-4432-82a6-e2c761527ced
@@ -4334,6 +4659,7 @@ collection:
     E36_E35_titre2: 46102ecf-df8d-49ad-b26f-1703af76759e
     E36_E35_titre2_E13: 1c85d04c-28eb-433b-9eb2-7ba5fc05088e
     E36_objets_E13: 75509e88-d662-4f75-acf0-7f6c992f7f46
+    E22_E12_sculpsit: 97b580f4-3701-450d-a1a4-0805d6f0590f
   1696-11_279:
     E22: 7054f04d-2f15-437d-8bb9-a8cc615f31e8
     E22_E12: 31a0cc3a-6f13-47d6-b4b8-1e25de32c8ca
@@ -4343,6 +4669,9 @@ collection:
     E36_E35_titre3: b8227215-329f-4bdd-9368-aaa0eb1a6668
     E36_E35_titre3_E13: 5e9bb897-5e7a-4931-a87c-2c71dbbe590f
     E36_objets_E13: 5223036d-49f6-438a-b0d9-ba1750b17b40
+    E36_objets_médaille: 0042a926-b6e4-4d5f-846b-522b8f35a34e
+    E36_objets_médaille_E13: c469e66c-3ca5-4e01-b490-d185204fd3d6
+    E22_E12_sculpsit: df0131b4-8b40-47d3-b975-030f1c8bd5a0
   1696-12_272:
     E22: a513867b-c063-41c6-8227-14232c452ff2
     E22_E12: 9f83ebb5-50f6-4e0d-bc03-a9bf7492e035
@@ -4377,6 +4706,8 @@ collection:
     E36_E35_titre2: eba16b64-1ed1-4a48-8052-168c6cfe6a6d
     E36_E35_titre2_E13: 0116ff21-eda4-41c3-bbd5-da0211f8b2ae
     E36_objets_E13: 7ba6169b-14d3-4039-b100-a45f352e990f
+    E22_E12_invenit: 8fd9e1c7-cc64-4016-bb88-c1095aa2791e
+    E22_E12_sculpsit: 586a9da7-6713-4363-8284-239277307fad
   1697-05_163:
     E22: 6b4f1c23-2141-4de3-a845-8883858e40b9
     E22_E12: 06ce232f-e05f-4076-b671-20633f842035
@@ -4419,6 +4750,7 @@ collection:
     E36_E35_titre3: 0174df68-6d63-4b83-ba67-db2d4987ccce
     E36_E35_titre3_E13: dd1cbe34-f455-438d-9a14-7ebe60936f5d
     E36_objets_E13: 1ee18539-48ae-4aae-8005-1a54c84ff260
+    E22_E12_sculpsit: 57b4838e-d65a-488b-9d1c-cb2b1072a961
   1697-09_271:
     E22: 45ca1816-60bb-4758-9201-d1ce130c74e2
     E22_E12: 9d69c1e4-f5ed-49f2-b145-a3bc39df0e1b
@@ -4428,6 +4760,7 @@ collection:
     E36_E35_titre3: 4db6de74-ef58-4885-b746-7c2685c481a6
     E36_E35_titre3_E13: 9f806a2a-ff95-495e-b4d0-c16f136b625c
     E36_objets_E13: 404fddb1-4cd3-4412-b8f9-83bbbb6618f0
+    E22_E12_sculpsit: 7cae5877-4ad9-470a-b0e6-76e7e9e115f5
   1697-10_208:
     E22: 2ea03fc9-3ccb-401a-a2b4-e0cb5d1a7bf5
     E22_E12: 0ad00b9d-ff08-4c3f-9bdc-9266086922d8
@@ -4472,6 +4805,7 @@ collection:
     E36_E35_titre3: b21f7dea-dbba-48b5-8cfa-44d8579d6cb0
     E36_E35_titre3_E13: dbddbc9f-3b99-4ba6-bb1f-441e8f17cbad
     E36_objets_E13: cc5f237a-dc43-47dc-8b96-522d4e94552d
+    E22_E12_sculpsit: f418ffda-ff30-4423-9999-1ce159d8e109
   1699-10_215:
     E22: e1dc3440-ada3-494b-b4a0-a45a77e852f1
     E22_E12: fa851de5-57ce-4ec2-91f1-e217764de334
@@ -4492,6 +4826,7 @@ collection:
     E36_E35_titre3: bc4b7c10-c380-4daa-9feb-74cd4ca37207
     E36_E35_titre3_E13: e03feb7e-1d38-458a-9d39-d59d1201c570
     E36_objets_E13: 52efaa08-2c7c-4f97-b6a7-ee6a072a02d3
+    E22_E12_sculpsit: 1fb60807-940e-462c-b351-9433ab2583ac
   1700-02_076:
     E22: 5f3e1abe-0121-4b77-8f4a-b9b76c3e2a5c
     E22_E12: c4c16a24-d83c-4a3d-997a-5d998465492e
@@ -4501,6 +4836,8 @@ collection:
     E36_E35_titre3: 1b8038e6-da42-4688-ae8f-a6519079c960
     E36_E35_titre3_E13: 5c3db450-8602-4927-980f-ec96fd9bcdcf
     E36_objets_E13: 42d5decc-c26d-4942-8d11-1f21a5843ffd
+    E36_objets_médaille: 08f7e58d-f1b5-4a1a-9e76-7c805066cbd1
+    E36_objets_médaille_E13: 3b344cf0-8f5d-4250-b172-caa5611b8483
   1700-03_178:
     E22: 6927d34b-b61f-4c38-8093-bb4fc1595257
     E22_E12: 6bbdb19a-fede-49c9-9a65-f4a6cdbd00e3
@@ -4508,6 +4845,8 @@ collection:
     E36_E35_titre2: 38f767ab-d907-430d-a7d2-d27c7f765433
     E36_E35_titre2_E13: 5f184fbf-0b5b-42fc-a170-cb96289b94ec
     E36_objets_E13: 4a981b9b-289e-4fa2-913d-8195310f8c8e
+    E36_objets_médaille: f1ce4d6a-e0f5-4148-a8eb-fb8307b55245
+    E36_objets_médaille_E13: fb31d382-57a7-436a-8639-3d26fa18967f
   1700-10_144:
     E22: fd194dfa-0590-498b-9b1e-f983022d4ecc
     E22_E12: 9ff266d0-cb3b-4917-93f0-b01b745397df
@@ -4531,6 +4870,9 @@ collection:
     E36_E35_titre3: 4e5d3783-6b2a-4752-ae91-96a5223acb3f
     E36_E35_titre3_E13: a066fe88-9ebf-438d-b590-75bbad1a1a72
     E36_objets_E13: 4c1d057e-73f0-466b-9601-1b36e85cf813
+    E36_objets_médaille: ee0edb55-01d4-47b6-8c75-06fbb6880373
+    E36_objets_médaille_E13: fc759db2-1d02-414d-acbc-5a069a4a806f
+    E22_E12_sculpsit: 4a9cf868-39a2-424b-8296-816443b6f1b3
   1701-07_316:
     E22: 36e46721-515d-4777-9b3b-43383ea6c0dd
     E22_E12: 090f1ba3-2208-421e-8522-1db8c8f65f9e
@@ -4538,6 +4880,8 @@ collection:
     E36_E35_titre2: 7d19f057-80b7-4d56-a369-568a14eae46f
     E36_E35_titre2_E13: b378d919-a104-4b5e-ab56-3acf04ab3d05
     E36_objets_E13: a23da0af-28c6-4090-9bab-6f3013afc376
+    E22_E12_invenit: 1c8723dc-a53d-4b30-b74d-f9c3a454b510
+    E22_E12_sculpsit: 87cf8977-1e9e-4329-890d-dd804e1c6844
   1702-01_290:
     E22: b2339678-caa6-4406-b0a5-0654e9f2b27a
     E22_E12: 7292e099-a59c-425a-aef4-0d58d1e0819d
@@ -4545,6 +4889,7 @@ collection:
     E36_E35_titre3: 57d6284a-c4bd-4958-a789-699b7b2f55a7
     E36_E35_titre3_E13: acef003b-66d8-4384-b012-d3892587bd61
     E36_objets_E13: 094ed36b-a4cb-4ddb-ac3b-30181b91b070
+    E22_E12_sculpsit: 847548d2-eb5d-4a73-89db-b14acdbe0136
   1702-06b_385:
     E22: 34095336-e7a6-48b5-86f0-546a59c054f4
     E22_E12: 958f539f-fb37-492d-934d-5604cd289d68
@@ -4558,6 +4903,8 @@ collection:
     E36_E35_titre3: 63529058-e77b-4ad4-a787-04ccf5c3ed17
     E36_E35_titre3_E13: 648874b0-facd-4406-9722-78630c1fa0f2
     E36_objets_E13: 9d5e6694-70cd-4976-8852-8bccb62befee
+    E36_objets_médaille: 2eba7af3-6b80-4207-b2a6-2ac9f1969e52
+    E36_objets_médaille_E13: 4b8cfe9c-1ec0-4274-9a4b-5e4abbc0ddd7
   1703-01_141:
     E22: 13c63087-4782-4db9-8892-a55fff448495
     E22_E12: a3bcb354-9db9-4551-bb3f-3de97be2ed16
@@ -4585,6 +4932,7 @@ collection:
     E36_E35_titre3: a8abbe7f-97ae-4deb-a414-24e3f382a23c
     E36_E35_titre3_E13: 17440eba-5e47-4205-9992-90bbe8c82a09
     E36_objets_E13: e3625a65-0534-4c50-bfc5-914972a2911d
+    E22_E12_sculpsit: a2174b5d-a14a-4253-96c3-7f173b42d3f4
   1704-06_177:
     E22: fc5a95d5-396c-416f-a998-c9958944a3b9
     E22_E12: cb736668-2391-4472-9dc1-55af44c2ee52
@@ -4616,6 +4964,7 @@ collection:
     E36_E35_titre3: 8a0436b6-1b1a-4cd2-9b79-d24cfe2eee08
     E36_E35_titre3_E13: f3f3643d-1a9a-4ac3-876a-5578dcf05b70
     E36_objets_E13: 78093dc1-7df3-4b57-b84e-cbc1edce7cc2
+    E22_E12_invenit: a4726027-ffbb-45f9-9c90-8ec46de6e1ea
   1705-03_306:
     E22: e23d9fc8-ea8d-4327-b9cf-24514ed539ba
     E22_E12: bacffa26-3284-41d3-aefe-1ee2fa78004c
@@ -4634,6 +4983,7 @@ collection:
     E36_E35_titre3: 0af0e956-77c3-4220-890e-beff95c95d2c
     E36_E35_titre3_E13: bcf06bb4-d885-4224-b8b4-2769fec1fe28
     E36_objets_E13: 53997368-77b9-44fa-b4f4-05c6005f7719
+    E22_E12_sculpsit: 2837f8fd-da59-454f-ae68-cce76964739e
   1705-12_XXX [probable erreur de cote]:
     E22: 6ab0aba3-2203-4b88-8718-5fdfae54f9e5
     E22_E12: d893d25e-360e-4370-8801-faaacccc58e4
@@ -4641,6 +4991,7 @@ collection:
     E36_E35_titre3: 8ebd0c98-b465-4939-9029-b45abdf506a7
     E36_E35_titre3_E13: e59dadbd-da09-4001-aaef-00967014bdca
     E36_objets_E13: 3b6517a9-e51d-4c0b-ab99-a0667e267038
+    E22_E12_sculpsit: 28bc1d35-2e0b-49ec-a916-63301f9af28f
   1706-01_313:
     E22: 33151cd7-4b3b-47c9-8275-8f374be286b9
     E22_E12: ffe7c2a2-4492-4073-a306-b6cdfcc0aece
@@ -4655,6 +5006,8 @@ collection:
     E36_E35_titre3: c673139f-f841-4774-ab81-b868fec3d383
     E36_E35_titre3_E13: b831edbf-2de4-47cd-9e73-13e2146b1504
     E36_objets_E13: 516284ca-dd2e-40c0-8757-1eeac19aaa44
+    E36_objets_médaille: 3f424dcc-faed-4fd6-b54e-8c48745d8732
+    E36_objets_médaille_E13: 40a682ad-fc6d-4177-8e36-ccbc1e3a25d5
   1706-11_032:
     E22: a6a08f77-222b-44a3-802a-32eb4d85cf11
     E22_E12: 3676f4a9-046f-49c4-b757-a1ecf0cce12a
@@ -4662,6 +5015,8 @@ collection:
     E36_E35_titre3: 641a9974-6dc9-47cf-8f2f-09deca146494
     E36_E35_titre3_E13: a9f050c5-1a9a-4d0b-ac28-fe30537055d7
     E36_objets_E13: 94d0d6de-1011-43a3-bab2-2e34e24e9933
+    E36_objets_médaille: f3f37c4c-f985-4922-a503-cd02a3ed3a99
+    E36_objets_médaille_E13: dda37a00-9c80-4f7c-b7c3-3c2c375818f0
   1707-01_162:
     E22: 6b27c71f-9451-4123-9e13-49cb12675bb5
     E22_E12: 6ebb72e0-2864-4953-9859-9cd54eb6eb17
@@ -4680,6 +5035,7 @@ collection:
     E36_E35_titre3: 59871af8-6191-4048-9baf-5d9f78b4e582
     E36_E35_titre3_E13: 112c2eb1-dfed-4421-9d19-f1065fd3eb00
     E36_objets_E13: 7747f62e-8e2f-4f1d-8c01-2e41e0c046d9
+    E22_E12_sculpsit: 30a1a251-2983-4b06-a389-30a72f46ee0d
   1709-01_326:
     E22: 2fc4ccfd-2076-43c4-92df-2be6a0b2dc80
     E22_E12: 33c762aa-7607-4fd7-8510-9738a1349ea4
@@ -4707,3 +5063,4 @@ collection:
     E36_E35_titre3: 9ffca385-fd02-485e-b6df-197f6f553437
     E36_E35_titre3_E13: 33066b42-c2d2-4341-9d6c-1ce7b469b698
     E36_objets_E13: b3f29965-da3e-41aa-8b7d-ef88d8fb603e
+    E22_E12_sculpsit: b900ca07-7a11-4151-850a-b85557fb1f91

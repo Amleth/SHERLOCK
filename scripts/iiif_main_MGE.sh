@@ -5,4 +5,5 @@ python3 ./rdfizers/iiif/main.py \
  --iiif_excel_coll "./sources/iiif/MGE/MGE.xlsx" \
  --iiif_excel_index "./sources/iiif/collections.xlsx" \
  --output_ttl "./out/iiif/MGE.ttl" \
- --cache_40CM "./caches/iiif/MGE.yaml"
+ --cache_40CM "./caches/iiif/MGE.yaml" \
+ --cache_corpus "./caches/mercure_galant/cache_corpus.yaml"
