@@ -1,6 +1,8 @@
 [submodule "modal-tonal-ontology"]
 	path = modal-tonal-ontology
 	url = https://github.com/guillotel-nothmann/modal-tonal-ontology.git
+	branch = main
 [submodule "mercure-galant"]
 	path = mercure-galant
 	url = git@github.com:OBVIL/mercure-galant.git
+	branch = gh-pages
