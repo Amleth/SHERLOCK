@@ -2,7 +2,7 @@
     
 - Gestion des ressources
     - hébergement des images IIIF pour remplacer les `"attributes": { "url": "images/1678-01_224.JPG" }`
-    - Où sont les fichiers MEI ? Si nous ne sommes pas en mesure de distinguer dans la source TEI les images de partition des autres images, alors cette distinction pourrait apparaître dans le nom des images. AP propose "E" pour estampes. Un "M" pour musique serait-il possible ? Il faudrait alors modifier les fichiers TEI en conséquence (à voir avec Nathalie).
+    - Où sont les fichiers MEI ?
 - Données sémantiques
     - graph livraisons (LRMoo)
     - graph gravures (LRMoo + CRM)
