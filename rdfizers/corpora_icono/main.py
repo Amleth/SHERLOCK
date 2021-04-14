@@ -9,8 +9,8 @@ from sherlockcachemanagement import Cache
 # Arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--collection_id")
-parser.add_argument("--iiif_excel_coll")
-parser.add_argument("--iiif_excel_index")
+parser.add_argument("--excel_coll")
+parser.add_argument("--excel_index")
 parser.add_argument("--output_ttl")
 parser.add_argument("--cache_40CM")
 parser.add_argument("--cache_corpus")
@@ -65,10 +65,10 @@ def t(s, p, o):
 
 # Fichiers Excel
 # Index des collections
-wb_index = load_workbook(args.iiif_excel_index)
+wb_index = load_workbook(args.excel_index)
 index = wb_index.active
 # Images de la collection
-wb_img = load_workbook(args.iiif_excel_coll)
+wb_img = load_workbook(args.excel_coll)
 img = wb_img.active
 
 #####################################################################
