@@ -7,11 +7,11 @@
 - Dire à Antoine de faire les index uniquement sur les liens entre F2
 - Je crois que des F2 articles TEI sont imbriqués dans des F2 livraisons physique
 
-## Corpora iconographiques
+## Corpora iconographiques ✔
 
 - dcterms:creator (= personne), pas created (= date)
 
-### Fichier Excel
+### Fichier Excel **à voir ensemble**
 
 - Créer une colonne par contribution avec rôle + nom (UUID) (rôle renvoie à un vocabulaire contrôlé des domaines d'expertise/fonctions => sherlock/data)
 
@@ -23,7 +23,7 @@
 - P104 et P105 ne sont définis que sur la collection "mère" (les "filles" en héritent)
 - Comment dire que plusieurs personnes participent à la création d'une entité chacune avec un rôle spécifique ? E7 -> P9 -> E7 spécifique
 
-### Image
+### Image ✔
 
 - Supprimer F2 sur les E36. Relier les E36 aux livraisons via P148 (OK car E36=>E73=>E89 et F2=>E73=>E89)
 - E36
