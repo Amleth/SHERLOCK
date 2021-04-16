@@ -1,0 +1,4194 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/> .
+
+<005304ea-39ae-42ee-9b00-ab6a7922f8d6> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd3fc290-8dc3-420c-bf0e-c3e140b99c2b> ;
+    crm:P1_is_identified_by "musique" .
+
+<0089ecc1-1d51-4509-a434-648dd8089682> a crm:E55_Type ;
+    crm:P127_has_broader_term <8e1ed7a3-7be7-4aa2-8923-6d9c6349cd0b> ;
+    crm:P1_is_identified_by "cabinet d'orgues" .
+
+<00bcaed9-61c8-4f64-bd3f-e98d1f626cb6> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "prédication" .
+
+<010ad229-7f26-45ab-a685-97325bae23d1> a crm:E55_Type ;
+    crm:P127_has_broader_term <c4e42faf-8c59-40bb-a909-f85c85d98675> ;
+    crm:P1_is_identified_by "décès" .
+
+<0148ff9d-176e-4ff0-a52b-d773cb79170b> a crm:E55_Type ;
+    crm:P127_has_broader_term <a9fdf9ba-f5dd-4e97-a185-ed941f8ad644> ;
+    crm:P1_is_identified_by "carrière d'une oeuvre musicale" .
+
+<016fe4f7-dade-471f-836c-2420a544ad94> a crm:E55_Type ;
+    crm:P127_has_broader_term <33113ae6-f696-4eaf-b375-55ec699e487f> ;
+    crm:P1_is_identified_by "tons de la musique" .
+
+<01b163ce-02b8-4a21-bd36-6f5145c99e07> a crm:E55_Type ;
+    crm:P127_has_broader_term <0633d386-dbb9-4607-9858-2d46c17790ce> ;
+    crm:P1_is_identified_by "panégyrique du roi" .
+
+<01b44ed9-ee32-4034-b1df-729bdc0e750c> a crm:E55_Type ;
+    crm:P127_has_broader_term <6f4734b9-6eb1-4562-9572-ad3858c73fce> ;
+    crm:P1_is_identified_by "siège de Namur" .
+
+<01d3e936-33de-43d0-a2ff-0267e3eeb5a5> a crm:E55_Type ;
+    crm:P127_has_broader_term <920892de-05ac-4e95-a036-a785e6af87c9> ;
+    crm:P1_is_identified_by "caractère des nations" .
+
+<0203c631-3374-42bf-8812-54ea8adfb079> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "interprètes amateurs" .
+
+<029a4d35-8bf3-418c-9df1-edc86ad51e4e> a crm:E55_Type ;
+    crm:P127_has_broader_term <924f1b40-f4ba-4678-9a89-6ab9620828c9>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique de plein air" .
+
+<02a2f2e9-9962-4117-b0f7-a720abddc49d> a crm:E55_Type ;
+    crm:P127_has_broader_term <82a9556d-e0df-497c-b868-d56dd3caf905> ;
+    crm:P1_is_identified_by "établissement d'une école de mathématiques" .
+
+<02bb2f8c-9dd7-41b0-8068-981815f84cda> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "écho" .
+
+<02e4d427-4a12-4377-8e43-24a683eb7095> a crm:E55_Type ;
+    crm:P127_has_broader_term <46ae6127-976e-42b2-8509-ab38767aa6e2> ;
+    crm:P1_is_identified_by "Avent" .
+
+<0333aa9c-2443-478a-9b4e-e9d3a935334f> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de Saint-Hubert" .
+
+<036ec56d-78a4-4f73-9dcc-706949ca633a> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "ménétrier" .
+
+<037cfac8-9105-4a17-8a92-6efc404b02c7> a crm:E55_Type ;
+    crm:P127_has_broader_term <82a9556d-e0df-497c-b868-d56dd3caf905> ;
+    crm:P1_is_identified_by "établissement d'un théâtre" .
+
+<03a5b6de-f335-43e0-93d9-1a26b37a0556> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "carrousel" .
+
+<03bce0cc-d470-4704-aa3a-e23208aa9e33> crm:P1_is_identified_by "NA 8 septembre" .
+
+<0412f65a-8d76-4ae7-a33d-c48c64f77592> a crm:E55_Type ;
+    crm:P127_has_broader_term <59f3ed4e-8813-4d1b-8ecf-095d12ac1ee8> ;
+    crm:P1_is_identified_by "lettre en prose" .
+
+<05873d55-de4e-449d-8879-acc62bca8407> a crm:E55_Type ;
+    crm:P127_has_broader_term <dc57b12f-a40e-4c2f-851f-813fb556fea0> ;
+    crm:P1_is_identified_by "encensement" .
+
+<05a4da0d-85d2-4b9b-8e0f-b1a2d550d27c> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "complies" .
+
+<05aff5d3-a793-48f9-b56e-050faaca4301> a crm:E55_Type ;
+    crm:P127_has_broader_term <3e82610c-db42-4b64-8081-bd17dfe2e4da> ;
+    crm:P1_is_identified_by "jeu de la bassette" .
+
+<05daa33e-0c1b-4cec-92b1-94630b269861> a crm:E55_Type ;
+    crm:P127_has_broader_term <33113ae6-f696-4eaf-b375-55ec699e487f> ;
+    crm:P1_is_identified_by "gamme musicale" .
+
+<0621a9a0-166e-43e1-a2c5-1a9e9f09ffef> a crm:E55_Type ;
+    crm:P127_has_broader_term <82a9556d-e0df-497c-b868-d56dd3caf905> ;
+    crm:P1_is_identified_by "établissement d'une académie royale de musique" .
+
+<065acc9a-a001-4947-b765-9f730b57bc34> a crm:E55_Type ;
+    crm:P127_has_broader_term <679aa7e7-5d40-4a7a-87a7-30b74a1eb0d1> ;
+    crm:P1_is_identified_by "répétition d'oeuvre" .
+
+<066bc9c4-ada4-45fd-8369-7403cf83e25f> a crm:E55_Type ;
+    crm:P127_has_broader_term <d32d3cd0-53ca-4d22-8190-4b3c14dccb1d>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique du Siam" .
+
+<06899d80-eddb-41e2-b510-7589acb2261b> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "acteur" .
+
+<06df414f-4d51-4fe4-bdc6-541128e4d757> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "basson" .
+
+<06e177b2-6d77-4d0a-af46-b32ad7e7689c> a crm:E55_Type ;
+    crm:P127_has_broader_term <dc57b12f-a40e-4c2f-851f-813fb556fea0> ;
+    crm:P1_is_identified_by "offertoire" .
+
+<06e22d4b-52cf-4aff-8de5-071d5a9209bc> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "jeu littéraire [énigmes et réponses, origines, métamorphoses, questions galantes…]" .
+
+<06f35fc4-0d17-47ff-9620-3765b3f9cb24> a crm:E55_Type ;
+    crm:P127_has_broader_term <9be8c9e5-6220-4b24-9fb2-5c28013d3429> ;
+    crm:P1_is_identified_by "histoire (avertissement à fournir)" .
+
+<07377781-82a2-4428-91e9-960216969f6b> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "basse de violon" .
+
+<074cc9e5-52e9-4b30-85ee-1367559a5bdc> a crm:E55_Type ;
+    crm:P127_has_broader_term <5e68816a-b3a4-4724-a3cb-8bb0b6170ead> ;
+    crm:P1_is_identified_by "psaume en musique" .
+
+<0750d1ec-730c-4da0-a07e-52c00e3a5558> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d463629-bb8b-484a-892a-e31b5d00be5b> ;
+    crm:P1_is_identified_by "matraque" .
+
+<07542ea5-6da2-4deb-bd13-92e919710d6a> a crm:E55_Type ;
+    crm:P127_has_broader_term <2688ec36-d5c6-4340-a457-6ee5f04f0d03> ;
+    crm:P1_is_identified_by "remaniement d'oeuvre musicale" .
+
+<08747602-fb15-4525-a8cd-956e651f10ea> a crm:E55_Type ;
+    crm:P127_has_broader_term <46ae6127-976e-42b2-8509-ab38767aa6e2> ;
+    crm:P1_is_identified_by "Semaine Sainte" .
+
+<08de705c-b431-49d1-8538-25e2e0721c3a> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air de cour" .
+
+<08de8f89-ba92-4997-9d71-0f85b43354fe> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie-ballet" .
+
+<0961492c-0596-43e8-b1ea-c4b66e3133c6> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Iste confessor" .
+
+<09812663-fd4b-4114-8bbf-97d96cb18829> a crm:E55_Type ;
+    crm:P127_has_broader_term <bfd4e1db-1966-4637-8953-7f453db8df61> ;
+    crm:P1_is_identified_by "costume de théâtre" .
+
+<09dbdcdf-02b7-4ba6-9a3a-89481867836d> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "boina" .
+
+<09e465b3-877e-4861-ad50-5aa5c9d0e323> a crm:E55_Type ;
+    crm:P127_has_broader_term <d1f802c2-c071-4b3b-bf2e-90ad65509b5d> ;
+    crm:P1_is_identified_by "vêpres en musique" .
+
+<0a00d15d-55d5-41aa-854a-b6486c160feb> a crm:E55_Type ;
+    crm:P127_has_broader_term <4120d869-85f7-4ada-8848-2f88c76ef432>,
+        <4cff6757-9c6e-4517-ae1e-7d5df6bd1e62> ;
+    crm:P1_is_identified_by "conversation" .
+
+<0a2d3ce0-1eb0-44ef-9767-185d71074491> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête du Saint-Sépulcre" .
+
+<0a41cd79-a653-45ba-8ae8-25224b2b5a41> a crm:E55_Type ;
+    crm:P127_has_broader_term <e94f3978-741a-4b6a-9808-e87a3bccfd8e> ;
+    crm:P1_is_identified_by "bénédiction d'une citadelle" .
+
+<0a693675-c7f7-459b-8125-ec4f3e25b364> a crm:E55_Type ;
+    crm:P127_has_broader_term <4cefbdc5-1f06-4fa5-89c1-eb25f7818921> ;
+    crm:P1_is_identified_by "cloche du Siam" .
+
+<0a8a8bfd-55e7-44e5-a396-7bbb468af3d6> a crm:E55_Type ;
+    crm:P127_has_broader_term <9e79ff42-61d9-400a-af9a-51b43ba05e48> ;
+    crm:P1_is_identified_by "nomination d'un évêque" .
+
+<0abaf712-557e-4e89-9559-565abf279ab3> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "réception d'un chevalier" .
+
+<0aea83fc-9e39-4aae-b611-5a86575de32d> a crm:E55_Type ;
+    crm:P127_has_broader_term <a38a049c-6677-47eb-8e08-a60aed2e46ae> ;
+    crm:P1_is_identified_by "rivalité des théâtres" .
+
+<0b4b29e3-01e6-4f57-a1e4-53b3c3b513d3> a crm:E55_Type ;
+    crm:P127_has_broader_term <b67f1a90-256b-4ad3-8b3a-830d1362e48f> ;
+    crm:P1_is_identified_by "médianoche" .
+
+<0d202609-b05e-4928-9afa-9bee329252ed> crm:P1_is_identified_by "EP air de danse" .
+
+<0d96f0d3-64c4-4fbd-b3e1-231958ef2d8b> a crm:E55_Type ;
+    crm:P127_has_broader_term <c278f1e8-48cf-4948-9b7d-58d42e0c34a4> ;
+    crm:P1_is_identified_by "entrée dansée" .
+
+<0dce31b7-a2bf-4aa7-bb1b-fd404d9436e7> a crm:E55_Type ;
+    crm:P127_has_broader_term <21a1c205-dfd1-4987-86e4-e57fe185824f> ;
+    crm:P1_is_identified_by "traité de musique" .
+
+<0e7bddf3-78db-4a88-a024-5bf1435e9be0> a crm:E55_Type ;
+    crm:P127_has_broader_term <32f45ef2-ee26-4f4e-8775-c9a8f1e27b29> ;
+    crm:P1_is_identified_by "jeu d'orgue" .
+
+<0e89859b-e5bb-49b8-87d5-a620f1da50c2> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d463629-bb8b-484a-892a-e31b5d00be5b> ;
+    crm:P1_is_identified_by "bal à l'Impériale" .
+
+<0ed6ec06-457f-4892-8368-ae22dd3bd669> a crm:E55_Type ;
+    crm:P127_has_broader_term <e5bd3430-3de4-4a0b-b2c8-f87cf65e9c0a> ;
+    crm:P1_is_identified_by "Veni creator spiritus mentes en musique" .
+
+<0ef021fc-41c4-41f4-a565-3e42a99a8477> a crm:E55_Type ;
+    crm:P127_has_broader_term <e3fa1e5a-e07b-4f82-b128-c05afc41a8c6> ;
+    crm:P1_is_identified_by "effets de la danse" .
+
+<0f202dab-cf60-4ba9-bf36-000e051c6949> a crm:E55_Type ;
+    crm:P127_has_broader_term <d32d3cd0-53ca-4d22-8190-4b3c14dccb1d>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique moscovite" .
+
+<0f47e5be-6fcd-4ec5-8791-7c215f71f540> a crm:E55_Type ;
+    crm:P127_has_broader_term <903996a0-a333-445f-9036-1190ec745e82> ;
+    crm:P1_is_identified_by "coût d'une fête" .
+
+<0fa092fd-c899-4931-8680-08ad3f77317c> a crm:E55_Type ;
+    crm:P127_has_broader_term <e0f362e4-5ad9-4054-939b-4a1b7c2fc23b> ;
+    crm:P1_is_identified_by "célébration du retour de la santé de la reine" .
+
+<0fbcf52e-2554-4aea-b1a0-a30e1a51e72a> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d2e1da5-ddf7-4449-89ea-faad316d78a2> ;
+    crm:P1_is_identified_by "jeu de l'oiseau" .
+
+<0feb0d7c-0c23-4764-adaf-65cc08e935b8> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Laudate" .
+
+<1002b45c-d7c9-45e2-805e-9f380a05c745> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "De profundis clamavi" .
+
+<10afd97f-1641-4df2-99e1-4ca20e26597f> a crm:E55_Type ;
+    crm:P127_has_broader_term <771daf55-40f0-4f8c-85b9-142eb79647f2> ;
+    crm:P1_is_identified_by "actualité musicale" .
+
+<10ff1784-0b90-426d-a366-419d7f34f71e> a crm:E55_Type ;
+    crm:P127_has_broader_term <96b84bdf-fe15-486b-99f0-e7cbe95ca5fa> ;
+    crm:P1_is_identified_by "nouvel an" .
+
+<121e4adc-da20-4a6c-8397-1e7595c24abc> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "sonnet" .
+
+<128d9b3e-7155-4b3d-bc68-500d369f9c8e> a crm:E55_Type ;
+    crm:P127_has_broader_term <6f4734b9-6eb1-4562-9572-ad3858c73fce> ;
+    crm:P1_is_identified_by "siège de Mons" .
+
+<129ccf32-efdc-4e4b-8867-bf59d6da521d> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "publication intégrale du livret" .
+
+<12ff4d71-534a-46ef-9119-513cf9380b96> a crm:E55_Type ;
+    crm:P127_has_broader_term <dc57b12f-a40e-4c2f-851f-813fb556fea0> ;
+    crm:P1_is_identified_by "communion" .
+
+<13d784b5-4c7d-4958-83ca-1d19b0141017> a crm:E55_Type ;
+    crm:P127_has_broader_term <0633d386-dbb9-4607-9858-2d46c17790ce> ;
+    crm:P1_is_identified_by "panégyrique d'un saint" .
+
+<13de516b-058f-4f3c-9d3a-bd4619daf8c9> crm:P1_is_identified_by "EM flûte douce" .
+
+<14057319-1d98-4f6a-8cff-fc813fd0170a> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de Sainte-Anne" .
+
+<140a365b-79bc-4864-9e07-bef316860e04> a crm:E55_Type ;
+    crm:P127_has_broader_term <e0f362e4-5ad9-4054-939b-4a1b7c2fc23b> ;
+    crm:P1_is_identified_by "célébration d'une naissance princière" .
+
+<142aad48-aeb2-49a4-8270-0b9ede19b67c> a crm:E55_Type ;
+    crm:P127_has_broader_term <f8b6116d-ab78-4558-ab2f-01f63f9f989b> ;
+    crm:P1_is_identified_by "tambour du Siam" .
+
+<146c748f-a66b-401f-84e6-6f8b3f078ae7> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "trompe" .
+
+<14c6931f-4151-427f-a699-8d83ca5d8bca> a crm:E55_Type ;
+    crm:P127_has_broader_term <b84fd425-80b5-4ec3-b7fa-029634cb919b> ;
+    crm:P1_is_identified_by "disposition intellectuelle" .
+
+<1523fca3-ac91-4342-8c9b-c9e74fc83c51> a crm:E55_Type ;
+    crm:P127_has_broader_term <6f4734b9-6eb1-4562-9572-ad3858c73fce> ;
+    crm:P1_is_identified_by "siège de Charleroi" .
+
+<15397efb-beee-4458-9e4d-b987585dc4a0> a crm:E55_Type ;
+    crm:P127_has_broader_term <313d6352-8bd2-4e82-b156-e5d4311de0ba> ;
+    crm:P1_is_identified_by "Antiquité romaine" .
+
+<1550c0e2-d142-4310-946c-d7f8cd1cf024> a crm:E55_Type ;
+    crm:P127_has_broader_term <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique de cérémonie civile" .
+
+<165f0021-e609-44ac-a3d9-54f3d2d84f81> a crm:E55_Type ;
+    crm:P127_has_broader_term <a4955ea2-c070-40af-8f96-e8f7abd02a4f> ;
+    crm:P1_is_identified_by "débat, discussion, dispute, querelle" .
+
+<16635e6a-b1fa-4e84-b0a0-8cdafc83157a> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "réception d'une princesse" .
+
+<166389ff-460d-411b-87df-26a560502df4> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "réception du grand-maître d'un ordre" .
+
+<16b17fb8-d331-49fb-978b-2a54ae50cd9b> a crm:E55_Type ;
+    crm:P127_has_broader_term <ea0cef8f-101e-443c-897e-1ca6247ead48> ;
+    crm:P1_is_identified_by "mythologie originelle" .
+
+<16c8bce7-063b-4403-8ca5-f0b387e2ce3f> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f311ea7-4fb5-40ee-aa48-24c8f1911a12> ;
+    crm:P1_is_identified_by "catholicisme" .
+
+<16efb98f-27ca-4211-952b-b786a4ce86c2> a crm:E55_Type ;
+    crm:P127_has_broader_term <d32d3cd0-53ca-4d22-8190-4b3c14dccb1d>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique espagnole" .
+
+<17838dff-28be-4bf6-a094-6f09e143da3e> a crm:E55_Type ;
+    crm:P127_has_broader_term <13a54ff0-e1cf-4705-8f09-5c6058320d4a> ;
+    crm:P1_is_identified_by "musique à deux choeurs" .
+
+<17d7f6f1-583a-4069-885b-2c78d6e54250> a crm:E55_Type ;
+    crm:P127_has_broader_term <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique de cérémonie militaire" .
+
+<18e972ea-f425-4735-a580-9091cdcf50d1> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "réception d'une statue du roi" .
+
+<18fee6b9-2f84-4855-90dd-05893a756eec> a crm:E55_Type ;
+    crm:P127_has_broader_term <cf206b03-8a90-4818-aa29-f10a89c76181> ;
+    crm:P1_is_identified_by "ensemble de luths" .
+
+<191700f3-80cf-4825-a519-ebd4bacec0f5> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "pantomime" .
+
+<192462fe-e5f0-4572-8f4e-41f3aeb3a106> crm:P1_is_identified_by "EP festin" .
+
+<1951c977-0496-4a8f-bbcf-0daa942c9672> a crm:E55_Type ;
+    crm:P127_has_broader_term <679aa7e7-5d40-4a7a-87a7-30b74a1eb0d1> ;
+    crm:P1_is_identified_by "reprise d'oeuvre" .
+
+<19a560b0-38af-4702-976c-7c30973c8df1> a crm:E55_Type ;
+    crm:P127_has_broader_term <9252ef15-e77a-4809-a364-b20277d9ced3> ;
+    crm:P1_is_identified_by "burlesque" .
+
+<19c0d55a-2541-4bb3-b45b-cd0cafcc0ffb> a crm:E55_Type ;
+    crm:P127_has_broader_term <696019ca-af56-4780-9a1d-d6648471a04d> ;
+    crm:P1_is_identified_by "argument d’une œuvre" .
+
+<19dc3089-6f5c-44a2-b8e5-ccfc90994895> a crm:E55_Type ;
+    crm:P127_has_broader_term <b67f1a90-256b-4ad3-8b3a-830d1362e48f> ;
+    crm:P1_is_identified_by "banquet" .
+
+<1a19beb3-7c51-4e90-b44b-bbc27a5429d3> a crm:E55_Type ;
+    crm:P127_has_broader_term <a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176> ;
+    crm:P1_is_identified_by "prologue" .
+
+<1a4f316a-db3d-4d5d-9d7c-178e2dbd13d5> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de Saint-Rémi" .
+
+<1b12bf2f-f9b1-417d-90f8-cc077693c046> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "privilège ecclésiastique" .
+
+<1b4f422e-93b9-47e8-afd4-b6bae72bc0f4> a crm:E55_Type ;
+    crm:P127_has_broader_term <33113ae6-f696-4eaf-b375-55ec699e487f> ;
+    crm:P1_is_identified_by "consonance" .
+
+<1b9355bc-8f30-45f8-b78b-ed27ca28a110> a crm:E55_Type ;
+    crm:P127_has_broader_term <efc0f26f-5276-4ec3-971b-22b52ac371d8> ;
+    crm:P1_is_identified_by "ouvrage de musique" .
+
+<1c3d46fa-7e25-431e-928a-485ba3a6e3a0> a crm:E55_Type ;
+    crm:P127_has_broader_term <adc1cefa-0717-49b4-940b-1971e1f7311a> ;
+    crm:P1_is_identified_by "prière publique" .
+
+<1c962d9b-72f3-49e5-96fc-bb47e00be410> a crm:E55_Type ;
+    crm:P127_has_broader_term <74603aab-65d0-4753-97ff-b1eba21af86e> ;
+    crm:P1_is_identified_by "paraphrase" .
+
+<1ce27936-a8b5-42ed-9d3e-963a29002ab9> a crm:E55_Type ;
+    crm:P127_has_broader_term <98d091fb-6a88-48d7-8c8c-28e1c271885b> ;
+    crm:P1_is_identified_by "prélude" .
+
+<1cfcad8a-a6cf-494d-9e8e-55e6e2d00cef> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d463629-bb8b-484a-892a-e31b5d00be5b> ;
+    crm:P1_is_identified_by "bal à la française" .
+
+<1d9bdb05-e565-407a-a1bb-260e93ee6043> a crm:E55_Type ;
+    crm:P127_has_broader_term <b67f1a90-256b-4ad3-8b3a-830d1362e48f> ;
+    crm:P1_is_identified_by "dîner" .
+
+<1da450d0-f9ba-4e5d-8e1f-d357f40af249> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "noviciat" .
+
+<1df500d9-d2c9-43c4-95f5-9b8553b83245> a crm:E55_Type ;
+    crm:P127_has_broader_term <627dc9b2-f093-4935-9340-03d1a832222d> ;
+    crm:P1_is_identified_by "versification libre" .
+
+<1e04dff4-9886-461c-930c-d1ac9056a9de> crm:P1_is_identified_by "EP actualité littéraire" .
+
+<1e4107e9-7bf1-4722-8ec1-f242f4612601> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "service solennel" .
+
+<1e8cca1e-46c4-49b6-be09-ae773f21c313> a crm:E55_Type ;
+    crm:P127_has_broader_term <9674e19a-b68d-4f78-a1d5-58f61034463d> ;
+    crm:P1_is_identified_by "établissement de chancellerie" .
+
+<1f36f077-5d64-4a0a-b574-f61e6692d20c> a crm:E55_Type ;
+    crm:P127_has_broader_term <6f4734b9-6eb1-4562-9572-ad3858c73fce> ;
+    crm:P1_is_identified_by "siège de Landau" .
+
+<1f89d571-d6c6-4320-b022-bdd6411ba665> a crm:E55_Type ;
+    crm:P127_has_broader_term <0cf6494f-a66a-44f3-8be0-5dbdf93cd5ce> ;
+    crm:P1_is_identified_by "circonstances de composition supprimer et remplacer par 1 des entrées sous composition d’oeuvre     TS circonstances de création" .
+
+<1f89ec07-2e15-4b8f-adf4-4b513a28d59f> a crm:E55_Type ;
+    crm:P127_has_broader_term <cbf4c2f9-8556-4565-879e-c09749f6ad69> ;
+    crm:P1_is_identified_by "cornet du Siam" .
+
+<203d7aaf-ff20-46df-9eae-6701d771f59f> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Benedictus" .
+
+<205e0924-44c5-4cba-af64-0959d71fc9bc> a crm:E55_Type ;
+    crm:P127_has_broader_term <231fb18d-0120-41bf-bce8-78ece84a5459> ;
+    crm:P1_is_identified_by "prise de Palamos" .
+
+<214fcc90-fa55-49d4-bf18-02f4d9942bde> a crm:E55_Type ;
+    crm:P127_has_broader_term <2933c92d-c9d6-45f1-a59a-7e47a78ceacd> ;
+    crm:P1_is_identified_by "tragédie biblique" .
+
+<21ac690e-e78c-42e7-8b42-0778df6decc6> a crm:E55_Type ;
+    crm:P127_has_broader_term <3e82610c-db42-4b64-8081-bd17dfe2e4da> ;
+    crm:P1_is_identified_by "jeu de l'hombre" .
+
+<21af12a5-09ac-4afd-9969-24a718ad2660> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "catalogue éditorial" .
+
+<21b32076-4796-49b8-bbb8-2547b494e07c> a crm:E55_Type ;
+    crm:P127_has_broader_term <d32d3cd0-53ca-4d22-8190-4b3c14dccb1d>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique syrienne" .
+
+<21b3e1fa-7587-4199-908c-d51d3131d3ed> a crm:E55_Type ;
+    crm:P127_has_broader_term <3ef35315-c917-49c4-b299-ec1c70b2cac3> ;
+    crm:P1_is_identified_by "danse populaire allemande" .
+
+<22202f68-bf13-46ed-8105-7a4ac507d806> a crm:E55_Type ;
+    crm:P127_has_broader_term <9be8c9e5-6220-4b24-9fb2-5c28013d3429> ;
+    crm:P1_is_identified_by "récits" .
+
+<22523d1d-df6f-4746-961b-c974b25b3a5e> a crm:E55_Type ;
+    crm:P127_has_broader_term <adc1cefa-0717-49b4-940b-1971e1f7311a> ;
+    crm:P1_is_identified_by "action de grâce" .
+
+<228a3dfa-f6fd-4ce8-a2d4-401d6a0240db> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Subvenite" .
+
+<22a4be14-94d3-43d2-b6f7-bc56ecb00aff> a crm:E55_Type ;
+    crm:P127_has_broader_term <ce87c53b-36ad-4a9e-87c9-f345bacc4c01> ;
+    crm:P1_is_identified_by "spirituel" .
+
+<22bc5116-5308-4225-9d42-c4db3ea52d39> a crm:E55_Type ;
+    crm:P127_has_broader_term <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique de cérémonie religieuse" .
+
+<22f135c2-bc33-4480-b633-85aa085d1832> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "assemblée synodale" .
+
+<22f908fc-cd70-4fb9-9025-84a1429979a6> a crm:E55_Type ;
+    crm:P127_has_broader_term <13a54ff0-e1cf-4705-8f09-5c6058320d4a> ;
+    crm:P1_is_identified_by "musique à quatre choeurs" .
+
+<2301c755-d0da-4944-b045-2f2cb4d0f4db> a crm:E55_Type ;
+    crm:P127_has_broader_term <713d45a0-3b33-47c8-acd3-be3296b91dc6> ;
+    crm:P1_is_identified_by "devise" .
+
+<2343d45f-66bc-4d11-b724-8b25f7426dcd> a crm:E55_Type ;
+    crm:P127_has_broader_term <8bda71d8-03cb-4f2b-9380-4ed5c54a1a22> ;
+    crm:P1_is_identified_by "ballet de cour" .
+
+<235c73b6-38a5-4b0c-8839-bd12431a9c5a> a crm:E55_Type ;
+    crm:P127_has_broader_term <920892de-05ac-4e95-a036-a785e6af87c9> ;
+    crm:P1_is_identified_by "goût français" .
+
+<2440cfb9-1e87-4247-bcf8-88ecc316b55c> a crm:E55_Type ;
+    crm:P127_has_broader_term <4cff6757-9c6e-4517-ae1e-7d5df6bd1e62> ;
+    crm:P1_is_identified_by "sociabilité musicale" .
+
+<24538d7a-ddf3-4b94-9d35-ec1e5daed0c5> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "pipeau" .
+
+<2500aaac-6ff7-4486-a0cb-dd769fa11240> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "cavalcade" .
+
+<2501b15c-e608-459d-9a50-8940ecff5746> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Pâques" .
+
+<252efcfe-ba79-4358-85fd-7ffae33d5c53> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "dédicace d'une église" .
+
+<25a6fd5b-bba4-43b8-9d3b-6ab44b67925b> a crm:E55_Type ;
+    crm:P127_has_broader_term <96b84bdf-fe15-486b-99f0-e7cbe95ca5fa> ;
+    crm:P1_is_identified_by "fête de Saint-Lazare-de-Jérusalem" .
+
+<25a93219-930a-4063-b33d-de5f252f1b2a> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie à intermèdes" .
+
+<274f914d-4e3f-4b42-b172-1491ccc70acb> a crm:E55_Type ;
+    crm:P127_has_broader_term <efc0f26f-5276-4ec3-971b-22b52ac371d8> ;
+    crm:P1_is_identified_by "dissertation" .
+
+<278d10d4-404b-4243-aa90-dac91e12a59a> a crm:E55_Type ;
+    crm:P127_has_broader_term <b2eae0e3-b8d3-467a-b354-128e5c4a4e9a> ;
+    crm:P1_is_identified_by "maladie" .
+
+<27ac760a-83e5-4d8d-be0e-617ac47a7d52> a crm:E55_Type ;
+    crm:P127_has_broader_term <adc1cefa-0717-49b4-940b-1971e1f7311a> ;
+    crm:P1_is_identified_by "prière pour la paix" .
+
+<27c33b54-ddbe-4ef7-a4fe-7b54a94946d9> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "madrigal" .
+
+<27e2eaae-3b91-4b73-bed5-da36c432f518> a crm:E55_Type ;
+    crm:P127_has_broader_term <59f3ed4e-8813-4d1b-8ecf-095d12ac1ee8> ;
+    crm:P1_is_identified_by "lettre au lecteur" .
+
+<2856de9c-4692-47b8-92f9-8dbe6741cf53> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "harpiste" .
+
+<28aab6f8-0512-4fe2-b982-aec15064d82a> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d463629-bb8b-484a-892a-e31b5d00be5b> ;
+    crm:P1_is_identified_by "bal à la torche" .
+
+<2915a7db-aadb-43fa-a1ae-898a510e5511> a crm:E55_Type ;
+    crm:P127_has_broader_term <33113ae6-f696-4eaf-b375-55ec699e487f> ;
+    crm:P1_is_identified_by "modalité" .
+
+<29b3e2ae-d3fd-4c7b-9cec-336c4382610f> a crm:E55_Type ;
+    crm:P127_has_broader_term <9fa066dc-d22b-499f-b7cc-81382ebf0ccd> ;
+    crm:P1_is_identified_by "apprentissage instrumental" .
+
+<2a328490-fcfe-4aaa-817c-9019aa6dee14> a crm:E55_Type ;
+    crm:P127_has_broader_term <bfd4e1db-1966-4637-8953-7f453db8df61> ;
+    crm:P1_is_identified_by "costume de carnaval" .
+
+<2a6054a1-7a57-48d7-9c47-a9f6646fe11f> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "oraison en musique" .
+
+<2b0bd527-fc3f-495b-ad07-e43de991b709> a crm:E55_Type ;
+    crm:P127_has_broader_term <4cff6757-9c6e-4517-ae1e-7d5df6bd1e62> ;
+    crm:P1_is_identified_by "lecture d'oeuvre dramatique" .
+
+<2b496591-7a73-4e5e-8650-531b47e21d62> a crm:E55_Type ;
+    crm:P127_has_broader_term <d1fb2748-3aaa-4527-98ee-e4e281577bed> ;
+    crm:P1_is_identified_by "nomination d'un maître de musique" .
+
+<2c3a51a9-e44e-41b2-b2fe-0fca420ea17c> a crm:E55_Type ;
+    crm:P127_has_broader_term <a522940c-9bf5-437c-9049-6c59fffc2dab> ;
+    crm:P1_is_identified_by "bamboche" .
+
+<2c9cd3fe-d8ff-4d2f-8604-e4dc21e74bd0> a crm:E55_Type ;
+    crm:P127_has_broader_term <e20afe35-3d13-4df9-be6c-bc487625835c> ;
+    crm:P1_is_identified_by "cérémonie civile" .
+
+<2cb3414e-7c40-4be2-a141-f5c17bd63fce> a crm:E55_Type ;
+    crm:P127_has_broader_term <dc57b12f-a40e-4c2f-851f-813fb556fea0> ;
+    crm:P1_is_identified_by "élévation" .
+
+<2d6ca381-a89d-47a9-8ba1-39b659c23c08> a crm:E55_Type ;
+    crm:P127_has_broader_term <48bbb298-0ba3-4aa7-836f-e2f8562ae85f> ;
+    crm:P1_is_identified_by "défaite militaire" .
+
+<2e56acf5-e6eb-4515-885a-5fe9ff799f11> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "sifflet" .
+
+<2e6d86a7-b677-49d9-9ff9-6f9be84a0f6c> a crm:E55_Type ;
+    crm:P127_has_broader_term <17f202eb-d194-4520-bb9c-4c577d749f6f> ;
+    crm:P1_is_identified_by "diction" .
+
+<2f1e95a2-eca2-4ec5-a885-a1a465f7cbc4> a crm:E55_Type ;
+    crm:P127_has_broader_term <26b648fd-2cc9-415d-aca1-2fce81d3578f> ;
+    crm:P1_is_identified_by "plein air" .
+
+<2f9d3acc-9733-42c4-a2e6-c7e7fd8feda1> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "sarabande" .
+
+<2fbc7f1d-26bf-481b-b75f-5a6182b322bd> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Trinité" .
+
+<31064310-ca45-4f86-8417-c2c5209029f3> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air spirituel" .
+
+<3117f4c3-3eba-4386-9337-fe1d446e42df> a crm:E55_Type ;
+    crm:P127_has_broader_term <9be8c9e5-6220-4b24-9fb2-5c28013d3429> ;
+    crm:P1_is_identified_by "roman" .
+
+<3200be13-67e6-4dc8-bee0-32653d0062fb> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Libera me" .
+
+<32125c4f-8171-438d-a6d8-c40ea9420359> a crm:E55_Type ;
+    crm:P127_has_broader_term <e20afe35-3d13-4df9-be6c-bc487625835c> ;
+    crm:P1_is_identified_by "cérémonie chinoise" .
+
+<32139688-5e5e-4035-ba2c-0f1c4c04c4bd> a crm:E55_Type ;
+    crm:P127_has_broader_term <0fb993b4-2acd-4297-8672-1630560692d8> ;
+    crm:P1_is_identified_by "procession du Saint-Sacrement" .
+
+<32b3c730-8ee6-4ec5-9ed0-3802aa164bab> a crm:E55_Type ;
+    crm:P127_has_broader_term <231fb18d-0120-41bf-bce8-78ece84a5459> ;
+    crm:P1_is_identified_by "prise de Heidelberg" .
+
+<3317d917-585c-4fce-bbcc-ce0ac35f23e5> a crm:E55_Type ;
+    crm:P127_has_broader_term <b8aacbb3-7e80-49de-843f-8bb688993b91> ;
+    crm:P1_is_identified_by "passion en musique" .
+
+<333ccd14-b360-421f-a2cf-e6d2256a4b80> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "office de Ténèbres" .
+
+<341898a7-6603-4fc1-8b84-c6f3f5733768> a crm:E55_Type ;
+    crm:P127_has_broader_term <02853a65-c3e6-42da-b5df-c285dd4599eb> ;
+    crm:P1_is_identified_by "évolution du goût" .
+
+<3429cd2e-46b4-4ccc-a56d-66bb296430a8> a crm:E55_Type ;
+    crm:P127_has_broader_term <81395c30-2eef-4640-81ce-5fa54dfe532c> ;
+    crm:P1_is_identified_by "audience publique" .
+
+<3446bfb7-3978-4130-a86a-9affdf7a2251> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f311ea7-4fb5-40ee-aa48-24c8f1911a12> ;
+    crm:P1_is_identified_by "inquisition" .
+
+<34c8b44a-5b7b-4644-8a65-123501eedf8f> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "épitre en vers" .
+
+<36100216-07ba-4966-b1e3-17d198482f1c> a crm:E55_Type ;
+    crm:P127_has_broader_term <a2c70925-d51e-489c-ae5c-e8bbab1a060b> ;
+    crm:P1_is_identified_by "origine du plain-chant" .
+
+<3758a8cb-0e57-4460-b4d4-7dea8bac715d> a crm:E55_Type ;
+    crm:P127_has_broader_term <bfbd77de-fd6a-4757-bd3a-bee4344b9b25> ;
+    crm:P1_is_identified_by "collaboration librettiste-compositeur" .
+
+<377f7780-7c80-4531-bb9a-bebe40ccbeb5> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Miserere mei Deus" .
+
+<37c0e2d8-a811-471c-b781-549fe6feb6e1> a crm:E55_Type ;
+    crm:P127_has_broader_term <02853a65-c3e6-42da-b5df-c285dd4599eb> ;
+    crm:P1_is_identified_by "goût musical" .
+
+<37ef3ada-c3e3-4a3f-b379-c6f91bca4a6c> crm:P1_is_identified_by "EP Wirtschafft" .
+
+<37ff2a4f-01ca-4ae9-bbf9-b007d1185dda> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air tendre" .
+
+<383c7bbf-53aa-4618-a0b7-80cdf74bbf72> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air    attention ; supprimer air nouveau" .
+
+<38540eb8-ab8f-45cc-8945-e8b232cf6e3b> a crm:E55_Type ;
+    crm:P127_has_broader_term <bfd4e1db-1966-4637-8953-7f453db8df61> ;
+    crm:P1_is_identified_by "costume de bal" .
+
+<387e584f-3b8f-4aa1-94ba-d51869743640> a crm:E55_Type ;
+    crm:P127_has_broader_term <ce87c53b-36ad-4a9e-87c9-f345bacc4c01> ;
+    crm:P1_is_identified_by "mythologique" .
+
+<38bcb126-02c2-4cec-be75-30ba477b8248> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "sexte" .
+
+<395c752f-c45b-4c2d-95eb-2697e64090de> a crm:E55_Type ;
+    crm:P127_has_broader_term <02853a65-c3e6-42da-b5df-c285dd4599eb> ;
+    crm:P1_is_identified_by "goût pour la danse" .
+
+<39631372-d1a4-4e1a-b261-fca4f532adfe> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "épigramme" .
+
+<3b0d4552-1397-4172-9f7a-c1cd258047a1> a crm:E55_Type ;
+    crm:P127_has_broader_term <408bcdcb-351d-41b9-8191-e3193eef6134> ;
+    crm:P1_is_identified_by "foire de Saint-Germain" .
+
+<3b4fcc9d-a564-4c27-88f5-5c5f061043ee> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "baptême d'une cloche" .
+
+<3bcd1e66-932f-4bb1-bc73-0c0a26d9e673> a crm:E55_Type ;
+    crm:P127_has_broader_term <33113ae6-f696-4eaf-b375-55ec699e487f> ;
+    crm:P1_is_identified_by "accord des instruments" .
+
+<3bd4e4bc-6c6e-4693-8fac-5d1ffd114201> a crm:E55_Type ;
+    crm:P127_has_broader_term <5b7d78e8-6faa-4b18-88c0-8f44ddd874a6> ;
+    crm:P1_is_identified_by "public de l'opéra" .
+
+<3bfeba90-2ef3-46e5-a5de-1530859ffb11> a crm:E55_Type ;
+    crm:P127_has_broader_term <61a38f83-967c-4910-8b0a-9c7c779d6bef> ;
+    crm:P1_is_identified_by "interprétation instrumentale" .
+
+<3c12e5be-347a-4898-b749-95da5ae70e54> a crm:E55_Type ;
+    crm:P127_has_broader_term <e94f3978-741a-4b6a-9808-e87a3bccfd8e> ;
+    crm:P1_is_identified_by "bénédiction du Saint-Sacrement" .
+
+<3c320ebe-1dc2-4f5b-9404-7c31399d74e9> a crm:E55_Type ;
+    crm:P127_has_broader_term <d1f802c2-c071-4b3b-bf2e-90ad65509b5d> ;
+    crm:P1_is_identified_by "vêpres des morts" .
+
+<3cae3c19-cfbb-4333-a48a-c159d7e2df41> a crm:E55_Type ;
+    crm:P127_has_broader_term <cf72bdee-55de-4ab8-8d17-a525ce5fdf2c> ;
+    crm:P1_is_identified_by "orchestre d'opéra italien" .
+
+<3ce88536-0fb9-41a4-902b-1ac96b50a736> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "flageolet" .
+
+<3d3cb379-c8fa-41b5-bc38-400719847f5b> a crm:E55_Type ;
+    crm:P127_has_broader_term <231fb18d-0120-41bf-bce8-78ece84a5459> ;
+    crm:P1_is_identified_by "prise de Barcelone" .
+
+<3da3d732-81a7-4622-92be-9780cce6797b> a crm:E55_Type ;
+    crm:P127_has_broader_term <0c086fef-f35e-4ee6-97a5-019ce9356e20> ;
+    crm:P1_is_identified_by "récitatif italien" .
+
+<3e1bf802-75d1-4acc-9615-962b43b7bfac> a crm:E55_Type ;
+    crm:P127_has_broader_term <74603aab-65d0-4753-97ff-b1eba21af86e> ;
+    crm:P1_is_identified_by "paroles adaptées à un air" .
+
+<3f1b53e0-b56a-471a-80bc-10e9a9a37bfe> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de Notre-Dame-du-Mont-Carmel" .
+
+<3f40c1e5-b19b-4500-85c6-4197cad1f77f> a crm:E55_Type ;
+    crm:P127_has_broader_term <e94f3978-741a-4b6a-9808-e87a3bccfd8e> ;
+    crm:P1_is_identified_by "bénédiction d'une abbesse" .
+
+<3f7c4a76-ce37-4a4a-8bd4-78adf2913784> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Ecce crucem Domini" .
+
+<3f9d3a97-6ccb-41ae-8f65-26be34e0952d> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "luth" .
+
+<3ffac2cf-b2f1-44b0-90ad-4826220af120> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "pochette" .
+
+<40680912-1e78-4f60-a534-d9eeb0b288d9> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de Saint-Maur" .
+
+<40b8dac2-ec34-4434-92b1-0266c262e91c> a crm:E55_Type ;
+    crm:P127_has_broader_term <231fb18d-0120-41bf-bce8-78ece84a5459> ;
+    crm:P1_is_identified_by "prise de Nice" .
+
+<40c01033-3cd9-4810-b62a-27556da21dcf> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de Saint-Martin" .
+
+<40d4afe3-c032-49a3-8633-1928b19749ae> a crm:E55_Type ;
+    crm:P127_has_broader_term <8e1ed7a3-7be7-4aa2-8923-6d9c6349cd0b> ;
+    crm:P1_is_identified_by "soufflet d'orgue" .
+
+<40da7510-f690-417b-bcef-314132738f08> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "guitare" .
+
+<4145e822-f63e-4a28-882c-97ddcd4e762e> a crm:E55_Type ;
+    crm:P127_has_broader_term <e94f3978-741a-4b6a-9808-e87a3bccfd8e> ;
+    crm:P1_is_identified_by "bénédiction du pain" .
+
+<4167c793-584c-45ec-9f00-3ece0fe881b6> a crm:E55_Type ;
+    crm:P127_has_broader_term <02853a65-c3e6-42da-b5df-c285dd4599eb> ;
+    crm:P1_is_identified_by "goût royal" .
+
+<41fdbde4-5c40-4df3-be39-a1fef53e4e98> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "jubilé" .
+
+<421d0259-594d-4ec4-aa57-947b589280c8> a crm:E55_Type ;
+    crm:P127_has_broader_term <519414b1-592b-4cfe-8f41-a70556f2f747> ;
+    crm:P1_is_identified_by "éloge d'un auteur" .
+
+<42599de1-cb18-4e1c-8618-949a9271c04e> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd68fcb1-ac4a-442d-9c97-f979619f62bf> ;
+    crm:P1_is_identified_by "langue naturelle" .
+
+<427efe26-5d5f-490e-a50e-981b0ea34999> a crm:E55_Type ;
+    crm:P127_has_broader_term <2cc53ff4-ebe5-4360-bac3-212b913d8102> ;
+    crm:P1_is_identified_by "enseignement du théâtre" .
+
+<433f32d8-434c-4c1f-b394-6cec36103c1f> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Rameaux" .
+
+<435b14d1-628a-452f-a5e7-6136a85ca5ae> a crm:E55_Type ;
+    crm:P127_has_broader_term <82a9556d-e0df-497c-b868-d56dd3caf905> ;
+    crm:P1_is_identified_by "monopole de l'opéra" .
+
+<435de232-bcd3-4317-8911-fa3724300d0d> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "tierce" .
+
+<437ca7ed-5e83-4e63-a925-54d725aa3da0> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "régate" .
+
+<439d4b65-1eba-4865-89cf-1bf96ca90dba> a crm:E55_Type ;
+    crm:P127_has_broader_term <408bcdcb-351d-41b9-8191-e3193eef6134> ;
+    crm:P1_is_identified_by "foire de Vaugirard" .
+
+<43e7fe01-4f77-416e-b5d6-02c15bc148b7> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air champêtre" .
+
+<4436af43-d28b-4fd0-8cd4-126f964c21e9> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "antienne" .
+
+<44428704-2966-4f92-8d7e-5762f7acba52> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "protocole de rédaction" .
+
+<444acc9f-9509-4f6f-b982-bfef13267ca7> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "bacchanale" .
+
+<444b9530-a52b-45d9-bc74-26b0552f6c23> crm:P1_is_identified_by "NA danseuses turques (1687.08)" .
+
+<449fdba1-699c-4e37-b715-539c9607caff> a crm:E55_Type ;
+    crm:P127_has_broader_term <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique de cérémonie funèbre" .
+
+<44c722a9-88ff-47bc-83d6-4365af47de58> a crm:E55_Type ;
+    crm:P127_has_broader_term <18138bf7-becf-4d12-8a24-850dd27fd9be> ;
+    crm:P1_is_identified_by "coutume musicale" .
+
+<451b4701-4837-489b-bb07-b5742585c116> a crm:E55_Type ;
+    crm:P127_has_broader_term <e3fa1e5a-e07b-4f82-b128-c05afc41a8c6> ;
+    crm:P1_is_identified_by "effets de la poésie" .
+
+<45575e1a-7001-454b-b418-dbaa141d6d52> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "prestation de serment" .
+
+<459e6376-e9fb-4e07-af40-df84212cb987> a crm:E55_Type ;
+    crm:P127_has_broader_term <82a9556d-e0df-497c-b868-d56dd3caf905> ;
+    crm:P1_is_identified_by "élection d'un académicien" .
+
+<4625d228-1793-424a-8666-f7ef2e95262e> a crm:E55_Type ;
+    crm:P127_has_broader_term <c4e42faf-8c59-40bb-a909-f85c85d98675> ;
+    crm:P1_is_identified_by "testament" .
+
+<46a84a17-2848-4c1c-9c87-68053b16e80d> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd68fcb1-ac4a-442d-9c97-f979619f62bf> ;
+    crm:P1_is_identified_by "langue italienne" .
+
+<46d45163-1def-4346-879f-88d3f3690c80> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "ouverture du Parlement" .
+
+<46e8c9c0-3d9a-459f-82c1-627a7e7d173c> a crm:E55_Type ;
+    crm:P127_has_broader_term <6425e7e7-5f36-4898-9254-61e54f490156> ;
+    crm:P1_is_identified_by "sentiment" .
+
+<46f73725-226e-46c4-9927-be5d67537ac0> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f311ea7-4fb5-40ee-aa48-24c8f1911a12> ;
+    crm:P1_is_identified_by "nouveaux convertis" .
+
+<471252ba-9ca7-4326-97ea-bb36858d207d> a crm:E55_Type ;
+    crm:P127_has_broader_term <597b95cd-09dd-4352-8928-b8e3069b2b1e>,
+        <713d45a0-3b33-47c8-acd3-be3296b91dc6> ;
+    crm:P1_is_identified_by "emblème" .
+
+<476cbf80-d827-43b4-9720-24e1748052b2> a crm:E55_Type ;
+    crm:P127_has_broader_term <96b84bdf-fe15-486b-99f0-e7cbe95ca5fa> ;
+    crm:P1_is_identified_by "fête de Sainte-Cécile" .
+
+<47911023-2727-4bb1-b783-4766510c3a26> a crm:E55_Type ;
+    crm:P127_has_broader_term <13a54ff0-e1cf-4705-8f09-5c6058320d4a> ;
+    crm:P1_is_identified_by "musique à trois choeurs" .
+
+<47a9b4f4-3c82-4b33-9b59-f0160d9cb0d0> crm:P1_is_identified_by "EP viole" .
+
+<47abed4f-5bc4-42d9-a41e-91bc012d8e0a> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "consécration d'une église" .
+
+<4820cb72-ea38-448f-b86a-9a0a1eac0459> a crm:E55_Type ;
+    crm:P127_has_broader_term <2933c92d-c9d6-45f1-a59a-7e47a78ceacd> ;
+    crm:P1_is_identified_by "tragédie de collège" .
+
+<48822e5a-c4b0-4fa6-93e8-4333c822cb84> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de Saint-Louis" .
+
+<48d47d5f-e94a-4ef0-bb4b-80fd09bf6d77> a crm:E55_Type ;
+    crm:P127_has_broader_term <b06b7bf4-fe8b-4435-b5a8-18c17a46ddd5> ;
+    crm:P1_is_identified_by "fanfare" .
+
+<491fa8b2-925f-4d0f-9881-c331dc2b954a> a crm:E55_Type ;
+    crm:P127_has_broader_term <9252ef15-e77a-4809-a364-b20277d9ced3> ;
+    crm:P1_is_identified_by "parodique" .
+
+<495e17e3-c2d3-49fb-8244-636a0793549e> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "établissement d'une communauté religieuse" .
+
+<496ac974-4c12-4966-b7b3-01b51b461b46> a crm:E55_Type ;
+    crm:P127_has_broader_term <fba47594-86fb-48bf-8d5a-51ef30bb7cfc> ;
+    crm:P1_is_identified_by "trompette du Siam" .
+
+<49fa45df-af82-465f-b2d4-d40d675e0a36> a crm:E55_Type ;
+    crm:P127_has_broader_term <2b502ab7-46ac-441a-82e4-9c5868e63a07> ;
+    crm:P1_is_identified_by "trève de Vasvar" .
+
+<4a4b34da-f213-4ec8-8352-568f6ecddd2d> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de Saint-Pierre et Saint-Paul" .
+
+<4a5f13d5-9809-483e-999b-5974f21d8079> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "chasse" .
+
+<4a71a0a2-f3ed-42ba-8a3e-96672b0b08ad> a crm:E55_Type ;
+    crm:P127_has_broader_term <9fa066dc-d22b-499f-b7cc-81382ebf0ccd> ;
+    crm:P1_is_identified_by "relation maître/élève" .
+
+<4b629867-8942-4a91-864f-8e6eb4b04978> a crm:E55_Type ;
+    crm:P127_has_broader_term <9674e19a-b68d-4f78-a1d5-58f61034463d> ;
+    crm:P1_is_identified_by "établissement d'une institution" .
+
+<4b8fa17f-9e9d-4ac2-8faa-550379f00642> a crm:E55_Type ;
+    crm:P127_has_broader_term <6875978b-552b-4edb-a0b7-d36c3859a71d> ;
+    crm:P1_is_identified_by "qualité vocale" .
+
+<4bd867a3-5282-4324-b6ed-1119bcba3b06> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "prise d'habit" .
+
+<4c2f289e-ba2d-4a8e-bc7f-f03507af77dd> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd3fc290-8dc3-420c-bf0e-c3e140b99c2b> ;
+    crm:P1_is_identified_by "sculpture" .
+
+<4c44fb3a-0282-42f6-bf95-15b237af6d51> crm:P1_is_identified_by "EP ballet de tragédie en musique" .
+
+<4c75777f-08c1-4f4b-bef9-93ec51050e5f> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "clairon" .
+
+<4c85d581-9314-42a5-8fff-feb9fbfff90e> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Domine in virtute tua" .
+
+<4cec5810-e9e7-4c0b-b8ec-f180bc4418ab> a crm:E55_Type ;
+    crm:P127_has_broader_term <24a36382-5b37-46b8-8a89-fbf1cbd4a939> ;
+    crm:P1_is_identified_by "clavecin" .
+
+<4d6cd5c2-8abb-405e-9678-caf0c95b79f0> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "théorbe" .
+
+<4d8c3ef7-cc39-48f0-9b89-a69c91a59f2c> a crm:E55_Type ;
+    crm:P127_has_broader_term <bfd4e1db-1966-4637-8953-7f453db8df61> ;
+    crm:P1_is_identified_by "costume de cérémonie" .
+
+<4deee484-fb08-4d2b-836d-6166beb8f3cb> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "timbalier" .
+
+<4dfae9a1-7a40-432f-97b0-1c6977f4e2cd> a crm:E55_Type ;
+    crm:P127_has_broader_term <74603aab-65d0-4753-97ff-b1eba21af86e> ;
+    crm:P1_is_identified_by "fiction" .
+
+<4e2e0a52-cae6-4256-8c12-9648d7032365> a crm:E55_Type ;
+    crm:P127_has_broader_term <59f3ed4e-8813-4d1b-8ecf-095d12ac1ee8> ;
+    crm:P1_is_identified_by "lettre en vers et prose" .
+
+<5057b0d9-221d-4182-b7c8-01fef73aaba2> a crm:E55_Type ;
+    crm:P127_has_broader_term <9e79ff42-61d9-400a-af9a-51b43ba05e48> ;
+    crm:P1_is_identified_by "nomination d'un archevêque" .
+
+<50aa9d0f-6a50-4241-9161-607328fb6fd2> a crm:E55_Type ;
+    crm:P127_has_broader_term <92295043-c46a-411d-8a2a-91c10b910f2e> ;
+    crm:P1_is_identified_by "poésie allégorique" .
+
+<51034ab7-296c-46ff-a457-4674b90bcca2> a crm:E55_Type ;
+    crm:P127_has_broader_term <23363e7e-d189-47b4-bc33-97fd064e39dd> ;
+    crm:P1_is_identified_by "ouverture d’opéra" .
+
+<519842ac-1b14-4885-8d42-44faef7a4bb4> a crm:E55_Type ;
+    crm:P127_has_broader_term <0fb993b4-2acd-4297-8672-1630560692d8> ;
+    crm:P1_is_identified_by "procession pour obtenir de la pluie" .
+
+<520d5501-53c3-4adc-8e27-0e48213f67bd> a crm:E55_Type ;
+    crm:P127_has_broader_term <b0a3f789-8509-453a-a6d7-2a93a3b323fb> ;
+    crm:P1_is_identified_by "entrée solennelle" .
+
+<521d46ba-ce5d-43c6-a7cf-25e7e447e2c5> a crm:E55_Type ;
+    crm:P127_has_broader_term <f8b6116d-ab78-4558-ab2f-01f63f9f989b> ;
+    crm:P1_is_identified_by "tambour de guerre" .
+
+<5254d79e-544a-4964-9fc5-a89b777abbc0> a crm:E55_Type ;
+    crm:P127_has_broader_term <a9d61246-7bc8-42e5-a138-2317e8922853> ;
+    crm:P1_is_identified_by "mascarade allemande" .
+
+<5280a6c8-ca08-41d8-a408-ceaf1c0fcc51> a crm:E55_Type ;
+    crm:P127_has_broader_term <53048581-b7b4-4ffe-8dc8-2dbc0cbda46a> ;
+    crm:P1_is_identified_by "sonnettes" .
+
+<528dc96d-48b5-4f47-87f0-8e9df94e7404> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f311ea7-4fb5-40ee-aa48-24c8f1911a12> ;
+    crm:P1_is_identified_by "approbation religieuse" .
+
+<52d8ab9c-094a-4c67-bb74-a783bb064907> a crm:E55_Type ;
+    crm:P127_has_broader_term <8083bad1-096d-4adb-b0df-f3781e0afa9e> ;
+    crm:P1_is_identified_by "réforme de la comédie" .
+
+<53caad7a-6b9b-47ea-b4af-229fbf8f1208> a crm:E55_Type ;
+    crm:P127_has_broader_term <2cc53ff4-ebe5-4360-bac3-212b913d8102> ;
+    crm:P1_is_identified_by "enseignement de la danse" .
+
+<5438fc3b-e6a9-42a0-a169-197099678fd5> crm:P1_is_identified_by "NA D'après le Littré (1872-1877) : 1. Présent considérable, donné sous la forme d'un autre qui l'est beaucoup moins. 2. Fête en usage parmi les Espagnols (5 décembre) ; consiste à faire à ses amis des présents, sans qu'ils sachent d'où ils leur viennent." .
+
+<56947655-0620-45ee-b211-b0272bde9bd8> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "tournoi" .
+
+<5788423e-35b8-4b2d-95d1-9f004d950ced> a crm:E55_Type ;
+    crm:P127_has_broader_term <3523525e-a46c-47c3-8235-066aa38ab501> ;
+    crm:P1_is_identified_by "cantique funèbre" .
+
+<57897cf3-fff0-4c40-8b28-164fdc3ef249> a crm:E55_Type ;
+    crm:P127_has_broader_term <b68588c3-5459-487d-ad93-2599721f62bb> ;
+    crm:P1_is_identified_by "vraisemblance" .
+
+<57efa828-e15f-4e13-ac96-9dfeaa22d6bb> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f311ea7-4fb5-40ee-aa48-24c8f1911a12> ;
+    crm:P1_is_identified_by "dogme protestant" .
+
+<581209a2-88a1-4d86-b4cb-9fd3ec4bb152> a crm:E55_Type ;
+    crm:P127_has_broader_term <adc1cefa-0717-49b4-940b-1971e1f7311a> ;
+    crm:P1_is_identified_by "prière chantée" .
+
+<587635b9-efcb-4497-a317-1447e3c6ae77> a crm:E55_Type ;
+    crm:P127_has_broader_term <519414b1-592b-4cfe-8f41-a70556f2f747> ;
+    crm:P1_is_identified_by "éloge d'une princesse" .
+
+<58ca3437-6e51-45b4-b1ac-2cc47c3b7d59> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air galant" .
+
+<58fb8888-153d-46d6-a1bf-ab73ce3ca14f> a crm:E55_Type ;
+    crm:P127_has_broader_term <0f249d4c-e43d-4fac-970b-8b536fb508c2> ;
+    crm:P1_is_identified_by "réjouissances publiques" .
+
+<59145b35-0bbc-44ee-a7f0-9af9d8fa6fa2> a crm:E55_Type ;
+    crm:P127_has_broader_term <8bda71d8-03cb-4f2b-9380-4ed5c54a1a22> ;
+    crm:P1_is_identified_by "ballet champêtre" .
+
+<591927e6-24fa-4244-9926-b61527ec1b73> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "forlane" .
+
+<593997b9-7818-4f73-934d-c3455fe2c5f1> a crm:E55_Type ;
+    crm:P127_has_broader_term <696019ca-af56-4780-9a1d-d6648471a04d> ;
+    crm:P1_is_identified_by "commentaire dramatique" .
+
+<59722ea2-b22d-4ef7-a914-0f618edae05a> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse basque" .
+
+<59b531fc-862c-4870-9296-be4e3ff474f7> a crm:E55_Type ;
+    crm:P127_has_broader_term <5b7d78e8-6faa-4b18-88c0-8f44ddd874a6> ;
+    crm:P1_is_identified_by "public de la comédie" .
+
+<5a6967bd-b91c-4dc6-b188-e9fc0b71664c> a crm:E55_Type ;
+    crm:P127_has_broader_term <b06b7bf4-fe8b-4435-b5a8-18c17a46ddd5> ;
+    crm:P1_is_identified_by "chamade" .
+
+<5aa5a4ef-e93f-4a77-86a0-638331c7c5b6> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "canaries" .
+
+<5aabd7c8-b8a7-427e-a895-83e25eb758f9> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse de Bohème" .
+
+<5ac33d65-c854-450c-8643-96a9cd111f37> a crm:E55_Type ;
+    crm:P127_has_broader_term <903996a0-a333-445f-9036-1190ec745e82> ;
+    crm:P1_is_identified_by "économie des théâtres" .
+
+<5add76f4-5f6c-46ff-b9b7-bb6c98d96c72> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "élégie" .
+
+<5b0d757e-d1de-48a4-bfd5-b64a4ffa4585> crm:P1_is_identified_by "EP flûte d'Allemagne" .
+
+<5bae013b-e778-46d6-87e7-f3d874350991> a crm:E55_Type ;
+    crm:P127_has_broader_term <a44f9171-28ce-4921-8806-71261a87015d> ;
+    crm:P1_is_identified_by "carrière civile" .
+
+<5bb5e6e5-c84a-4bf1-b830-a8e8fb97e509> a crm:E55_Type ;
+    crm:P127_has_broader_term <6425e7e7-5f36-4898-9254-61e54f490156> ;
+    crm:P1_is_identified_by "querelle" .
+
+<5c3080be-b4e4-4ce9-a43f-69c0f6b8d569> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "none" .
+
+<5c914a8c-fb8d-4a77-a09f-3b0fb9d80a95> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "timbre" .
+
+<5cb9fdf9-483b-4fc9-8c6c-8fef063308b6> a crm:E55_Type ;
+    crm:P127_has_broader_term <9e79ff42-61d9-400a-af9a-51b43ba05e48> ;
+    crm:P1_is_identified_by "nomination du grand maître de l'ordre de Malte" .
+
+<5cdfaf7e-546a-4993-a5d6-bd4c53e5d3f2> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "bouts rimés" .
+
+<5ce4e031-a3b1-4564-951e-17fe3a0e1ee3> a crm:E55_Type ;
+    crm:P127_has_broader_term <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique guerrière" .
+
+<5d29ff57-a42c-4093-a871-15ec8d5b60b7> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "basse de viole" .
+
+<5d868ace-cade-424c-ac2d-152259260c5f> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "vaudeville" .
+
+<5db854ec-7558-4d9e-bfd3-a6fb4ab1f1b7> a crm:E55_Type ;
+    crm:P127_has_broader_term <51eb8595-c339-47f1-9263-b382a3223e93> ;
+    crm:P1_is_identified_by "origine de la danse" .
+
+<5dbe6f19-ca2e-4078-a91c-2497d9264797> crm:P1_is_identified_by "EP opéra français" .
+
+<5e39dd39-98ce-40a5-83dd-dd380d50e7e7> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f311ea7-4fb5-40ee-aa48-24c8f1911a12> ;
+    crm:P1_is_identified_by "mission" .
+
+<5e796165-ba0d-44c8-8015-ffdf0e35471d> a crm:E55_Type ;
+    crm:P127_has_broader_term <b62cf290-cfbf-47cd-bb09-60775262484c> ;
+    crm:P1_is_identified_by "Nativité de la Vierge" .
+
+<5e85d33c-b5df-4f59-ace0-1075960e8075> a crm:E55_Type ;
+    crm:P127_has_broader_term <46ae6127-976e-42b2-8509-ab38767aa6e2> ;
+    crm:P1_is_identified_by "carême" .
+
+<5e9b38cd-345b-495b-ae93-7bd085e4315b> crm:P1_is_identified_by "EP Anciens" .
+
+<5ebab3ad-92ce-4399-af68-b86eb605ad71> a crm:E55_Type ;
+    crm:P127_has_broader_term <5e68816a-b3a4-4724-a3cb-8bb0b6170ead> ;
+    crm:P1_is_identified_by "psaume de pénitence" .
+
+<5f025fcc-d067-4f38-bbc0-63e106db673d> a crm:E55_Type ;
+    crm:P127_has_broader_term <32f45ef2-ee26-4f4e-8775-c9a8f1e27b29> ;
+    crm:P1_is_identified_by "touche de clavier" .
+
+<5f82a888-e956-4782-8723-0d23eaf6e6bb> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse champêtre" .
+
+<5fe69904-4919-40c7-b543-1a46ace2ae99> a crm:E55_Type ;
+    crm:P127_has_broader_term <6425e7e7-5f36-4898-9254-61e54f490156> ;
+    crm:P1_is_identified_by "dispute" .
+
+<602b3d6d-6b64-4af7-9dfc-59b2365f0813> a crm:E55_Type ;
+    crm:P127_has_broader_term <aae2d73a-14d8-4dd4-b19e-53445412ab59> ;
+    crm:P1_is_identified_by "voyage officiel" .
+
+<603ab7ff-1759-4dc5-a547-31d3b0bed165> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f311ea7-4fb5-40ee-aa48-24c8f1911a12> ;
+    crm:P1_is_identified_by "protestantisme" .
+
+<6084a952-5a70-4969-a913-b2644ba2f0fb> a crm:E55_Type ;
+    crm:P127_has_broader_term <9be8c9e5-6220-4b24-9fb2-5c28013d3429> ;
+    crm:P1_is_identified_by "fiction (y compris métamorphose)" .
+
+<60983791-2288-4590-9284-529a68cbe69f> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd3fc290-8dc3-420c-bf0e-c3e140b99c2b> ;
+    crm:P1_is_identified_by "mécanique" .
+
+<60f4857f-6355-4552-a908-a52758473abe> a crm:E55_Type ;
+    crm:P127_has_broader_term <992c0d15-3b7b-4761-8208-4612f45558ae> ;
+    crm:P1_is_identified_by "salut en musique" .
+
+<61b668aa-3bbd-48f9-aa39-f8b8a43ddd50> a crm:E55_Type ;
+    crm:P127_has_broader_term <adc1cefa-0717-49b4-940b-1971e1f7311a> ;
+    crm:P1_is_identified_by "adoration du Saint-Sacrement" .
+
+<61d2a1dd-e140-4ff7-84a2-b137956e2f4d> a crm:E55_Type ;
+    crm:P127_has_broader_term <24a36382-5b37-46b8-8a89-fbf1cbd4a939> ;
+    crm:P1_is_identified_by "épinette" .
+
+<61dfe05e-1b00-42f2-b2b5-d2dd73dd8620> a crm:E55_Type ;
+    crm:P127_has_broader_term <5e6f7a21-5489-45b2-8854-961602b685fd> ;
+    crm:P1_is_identified_by "machine" .
+
+<6222eb26-1493-46bc-bed1-6e407ca91752> a crm:E55_Type ;
+    crm:P127_has_broader_term <7e51344f-6146-4561-b330-285d771a21c7> ;
+    crm:P1_is_identified_by "guerre" .
+
+<622e90fb-8f18-4884-a929-272b38c84d47> a crm:E55_Type ;
+    crm:P127_has_broader_term <bfd4e1db-1966-4637-8953-7f453db8df61> ;
+    crm:P1_is_identified_by "costume de mascarade" .
+
+<625a4480-6f18-416d-9652-feb338d5ada5> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air sérieux" .
+
+<625b9a23-79c2-48cd-b69e-4a275b749891> a crm:E55_Type ;
+    crm:P127_has_broader_term <26b648fd-2cc9-415d-aca1-2fce81d3578f> ;
+    crm:P1_is_identified_by "table" .
+
+<62fd43e9-deb8-4935-b72e-50616dc3eeea> a crm:E55_Type ;
+    crm:P127_has_broader_term <92295043-c46a-411d-8a2a-91c10b910f2e> ;
+    crm:P1_is_identified_by "poésie de circonstance" .
+
+<63cf6df8-24e8-418a-a7f4-a826e80d9829> a crm:E55_Type ;
+    crm:P127_has_broader_term <cf206b03-8a90-4818-aa29-f10a89c76181> ;
+    crm:P1_is_identified_by "bande de violons" .
+
+<63dd98b6-fbe6-4046-b00c-f479aa240630> a crm:E55_Type ;
+    crm:P127_has_broader_term <9fa066dc-d22b-499f-b7cc-81382ebf0ccd> ;
+    crm:P1_is_identified_by "étude de la musique" .
+
+<6431aad4-8ee7-488e-9fbe-25e34cf43c97> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "contrepoint" .
+
+<652ce47e-61c6-4158-a882-c7af04cb7d45> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "obsèques" .
+
+<65c3c728-d497-441c-a409-2003eaf3572c> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd68fcb1-ac4a-442d-9c97-f979619f62bf> ;
+    crm:P1_is_identified_by "langue régionale" .
+
+<662eeb32-78cd-436d-8b7a-d37751fd4a56> a crm:E55_Type ;
+    crm:P127_has_broader_term <f15d3223-4912-40dc-a2bd-02b5b7c95897> ;
+    crm:P1_is_identified_by "réception d'une oeuvre dramatique" .
+
+<67077f35-eef4-4428-bb71-6a1fb6069646> a crm:E55_Type ;
+    crm:P127_has_broader_term <59f3ed4e-8813-4d1b-8ecf-095d12ac1ee8> ;
+    crm:P1_is_identified_by "lettre spirituelle" .
+
+<6735b469-f154-4317-8d23-c4472c002dc0> a crm:E55_Type ;
+    crm:P127_has_broader_term <81395c30-2eef-4640-81ce-5fa54dfe532c> ;
+    crm:P1_is_identified_by "ambassade" .
+
+<6739d2f2-6705-4b12-a3ab-e238dcc41169> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "service funèbre" .
+
+<673e283f-2e70-429e-8a10-4b8b2ca5fd56> a crm:E55_Type ;
+    crm:P127_has_broader_term <c183897b-2356-48f8-9d22-91d76f2fa6fe> ;
+    crm:P1_is_identified_by "décoration d'appartement" .
+
+<675b690f-c4ca-4db4-8fb5-95446e5ade85> a crm:E55_Type ;
+    crm:P127_has_broader_term <e3fa1e5a-e07b-4f82-b128-c05afc41a8c6> ;
+    crm:P1_is_identified_by "effets du théâtre" .
+
+<677cae7a-efdf-429e-8d4b-82503ece0240> a crm:E55_Type ;
+    crm:P127_has_broader_term <d1fb2748-3aaa-4527-98ee-e4e281577bed> ;
+    crm:P1_is_identified_by "concours" .
+
+<67a0fb6a-cf41-4841-9555-602cebe1ec29> a crm:E55_Type ;
+    crm:P127_has_broader_term <cf206b03-8a90-4818-aa29-f10a89c76181> ;
+    crm:P1_is_identified_by "ensemble de guitares" .
+
+<67b3a0b9-9846-4582-9276-7de48d0c7402> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse à cheval" .
+
+<68241c99-a832-42c6-bd9e-86b885644216> crm:P1_is_identified_by "EP poésie à mettre en air" .
+
+<684936be-1633-4338-99d5-b02c6db31d00> a crm:E55_Type ;
+    crm:P127_has_broader_term <38835184-14e4-47c1-9683-820778046467> ;
+    crm:P1_is_identified_by "dialogue en musique" .
+
+<68caeae0-476d-4db5-8e6b-2765e606c456> a crm:E55_Type ;
+    crm:P127_has_broader_term <2933c92d-c9d6-45f1-a59a-7e47a78ceacd> ;
+    crm:P1_is_identified_by "tragédie funèbre" .
+
+<68d4d0e1-406a-43ba-be25-f7ae3ab2ee54> a crm:E55_Type ;
+    crm:P127_has_broader_term <bda99ade-a439-46f3-a2e9-c8419216d96c> ;
+    crm:P1_is_identified_by "opéra vénitien" .
+
+<68db8956-8305-46dc-9807-c3296c0647c9> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "feu d'artifice" .
+
+<690b940f-3f6c-4dd1-94c2-80680d0fa311> a crm:E55_Type ;
+    crm:P127_has_broader_term <92295043-c46a-411d-8a2a-91c10b910f2e> ;
+    crm:P1_is_identified_by "poésie encomiastique" .
+
+<69b97c45-9226-4e6c-97ee-0d23331611fe> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "quatrain" .
+
+<6a24d420-e50e-4552-913b-1fcc76794e7d> a crm:E55_Type ;
+    crm:P127_has_broader_term <924f1b40-f4ba-4678-9a89-6ab9620828c9>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique religieuse" .
+
+<6a4efa16-162e-4a05-b6b4-48f1891fe5de> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "baptême" .
+
+<6a856868-c395-4eb3-a394-8c695d1b6cc4> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "édition en partition" .
+
+<6b30ad37-88b0-47f1-95d9-97d0d0e2533f> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "prise de possession d'un siège épiscopal" .
+
+<6b863bc4-2257-478a-9674-2ecb51e539d1> a crm:E55_Type ;
+    crm:P127_has_broader_term <24a36382-5b37-46b8-8a89-fbf1cbd4a939> ;
+    crm:P1_is_identified_by "pandolyre" .
+
+<6bac96d1-fd90-4a38-a69b-8b16869eea57> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "trio" .
+
+<6be9eda2-187a-4b07-9160-3e14a9e01d8e> a crm:E55_Type ;
+    crm:P127_has_broader_term <e94f3978-741a-4b6a-9808-e87a3bccfd8e> ;
+    crm:P1_is_identified_by "bénédiction des drapeaux" .
+
+<6bf59da4-72d6-48d3-b6f0-9f20683fd213> a crm:E55_Type ;
+    crm:P127_has_broader_term <4cff6757-9c6e-4517-ae1e-7d5df6bd1e62> ;
+    crm:P1_is_identified_by "salon" .
+
+<6c1e54f6-31d2-40d7-bda7-47dbe2aace69> a crm:E55_Type ;
+    crm:P127_has_broader_term <33113ae6-f696-4eaf-b375-55ec699e487f> ;
+    crm:P1_is_identified_by "intervalle" .
+
+<6cdd547e-5331-4a5d-8553-cdff74d86e2b> a crm:E55_Type ;
+    crm:P127_has_broader_term <519414b1-592b-4cfe-8f41-a70556f2f747> ;
+    crm:P1_is_identified_by "éloge posthume" .
+
+<6cf71a5b-fc33-4fa5-8cf8-8bdee0e88939> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "allemande" .
+
+<6d7fc1a1-1e2c-4936-8981-ef07b8823089> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "soirées d'appartement" .
+
+<6d8af605-9f80-429d-b9af-8745336b8efc> crm:P1_is_identified_by "NA premier dimanche de janvier" .
+
+<6dae9625-4946-40e9-b46d-fc471c2a65de> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Deus noster refugium et virtus" .
+
+<6dcad762-30cd-4674-b649-bdca40789300> a crm:E55_Type ;
+    crm:P127_has_broader_term <8bda71d8-03cb-4f2b-9380-4ed5c54a1a22> ;
+    crm:P1_is_identified_by "ballet allégorique" .
+
+<6dd780b9-f7e7-4c08-8959-7e26ea0becb9> a crm:E55_Type ;
+    crm:P127_has_broader_term <98d091fb-6a88-48d7-8c8c-28e1c271885b> ;
+    crm:P1_is_identified_by "plainte instrumentale" .
+
+<6deae943-4fef-4bf2-a950-0c216f690959> a crm:E55_Type ;
+    crm:P127_has_broader_term <88bab522-4d7f-409e-967f-04ce4b2ddbb7> ;
+    crm:P1_is_identified_by "prix du pistolet" .
+
+<6e1c519c-6489-4fbd-86af-497b1b882aec> a crm:E55_Type ;
+    crm:P127_has_broader_term <c183897b-2356-48f8-9d22-91d76f2fa6fe> ;
+    crm:P1_is_identified_by "décoration de salle de bal" .
+
+<6e20054e-b076-4b7f-8fbd-f7d9a04fee80> a crm:E55_Type ;
+    crm:P127_has_broader_term <ec450c9e-0ae3-4237-87d5-82444c406895> ;
+    crm:P1_is_identified_by "art oratoire" .
+
+<6e47f0c8-39d3-464f-84fc-6e303226721c> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Super flumina Babylonis" .
+
+<6eb836cf-78c4-4ede-8f76-7d7375a83c92> crm:P1_is_identified_by "PS sapate" .
+
+<6ed32160-a059-4e67-b157-620e9b642352> a crm:E55_Type ;
+    crm:P127_has_broader_term <2b502ab7-46ac-441a-82e4-9c5868e63a07> ;
+    crm:P1_is_identified_by "trève de Ratisbonne" .
+
+<6fc01080-028e-4afd-a090-f3cd5d50e937> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "ajout d'une contrepartie" .
+
+<6fd8a313-894d-4887-81ce-55cf54419405> a crm:E55_Type ;
+    crm:P127_has_broader_term <a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176> ;
+    crm:P1_is_identified_by "impromptu dramatique" .
+
+<7006dae4-e771-418e-bfb7-73e819482a07> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "réception d'un gouverneur" .
+
+<702c6e37-4d19-4f14-a4c8-42ffe18ef8b1> a crm:E55_Type ;
+    crm:P127_has_broader_term <e94f3978-741a-4b6a-9808-e87a3bccfd8e> ;
+    crm:P1_is_identified_by "bénédiction nuptiale" .
+
+<704e30bf-b881-4dba-8862-ab187c303a51> a crm:E55_Type ;
+    crm:P127_has_broader_term <96b84bdf-fe15-486b-99f0-e7cbe95ca5fa> ;
+    crm:P1_is_identified_by "fête galante" .
+
+<705a76b5-28d3-4c5d-bdc6-40e24b1389bb> crm:P1_is_identified_by "EP jour des rois" .
+
+<7144bc12-169e-4fad-a4e4-f78164087069> crm:P1_is_identified_by "EP poche" .
+
+<7154beb1-8b1b-419d-94fd-811f0146f35d> a crm:E55_Type ;
+    crm:P127_has_broader_term <96b84bdf-fe15-486b-99f0-e7cbe95ca5fa> ;
+    crm:P1_is_identified_by "fête royale" .
+
+<71834e68-fcfe-4fdf-b936-c966edbd75d3> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "instrument en forme de violon" .
+
+<71f381e5-c49b-42ef-ae57-51e16707366b> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête des Tabernacles" .
+
+<71fd5635-93f4-4035-bace-e274eda3948a> a crm:E55_Type ;
+    crm:P127_has_broader_term <903996a0-a333-445f-9036-1190ec745e82> ;
+    crm:P1_is_identified_by "coût d'une représentation" .
+
+<72402771-c394-425e-af00-9096864534d2> a crm:E55_Type ;
+    crm:P127_has_broader_term <679aa7e7-5d40-4a7a-87a7-30b74a1eb0d1> ;
+    crm:P1_is_identified_by "circulation d'oeuvre" .
+
+<72594d2b-b22e-4e38-9388-cc907d421b0d> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "satire" .
+
+<72c43929-3dfe-4811-b885-103c40f0f3dd> a crm:E55_Type ;
+    crm:P127_has_broader_term <c953f264-4f36-4317-8b3e-171716bf9cc2> ;
+    crm:P1_is_identified_by "menuet du Poitou" .
+
+<72c93594-063b-42a1-9a30-e8bce4f558b2> a crm:E55_Type ;
+    crm:P127_has_broader_term <e6101057-2db9-4c4b-94c7-5a0663bb9c20> ;
+    crm:P1_is_identified_by "clochette d'armes" .
+
+<735ede5c-dfab-4555-8dc1-e837d19f9e67> a crm:E55_Type ;
+    crm:P127_has_broader_term <b67f1a90-256b-4ad3-8b3a-830d1362e48f> ;
+    crm:P1_is_identified_by "ambigu" .
+
+<737eff3b-abc1-47ae-a651-32f3c2c54b8e> a crm:E55_Type ;
+    crm:P127_has_broader_term <87884139-4548-493a-b9d2-bde73ed9d4f2> ;
+    crm:P1_is_identified_by "architecture de théâtre" .
+
+<73cde878-ed16-4730-9e64-d615c2f1946d> a crm:E55_Type ;
+    crm:P127_has_broader_term <713d45a0-3b33-47c8-acd3-be3296b91dc6> ;
+    crm:P1_is_identified_by "médaille" .
+
+<73e5a13a-1bf0-48e2-af9e-b402b8f4d661> a crm:E55_Type ;
+    crm:P127_has_broader_term <e0f362e4-5ad9-4054-939b-4a1b7c2fc23b> ;
+    crm:P1_is_identified_by "célébration du retour de la santé d'un notable" .
+
+<74555002-ff9e-42cb-bb7a-743a974530a7> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "introït" .
+
+<7489e47c-5a8d-49ba-bb4c-8247ec30a8e5> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "cistre" .
+
+<74de6f3b-cd5d-4260-a479-11055f6341d3> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "chant royal" .
+
+<756c431f-2e05-4eab-a945-101b77c3ac08> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "viole de gambe" .
+
+<75ad4be7-0b97-47ca-9ec9-1ce43d9af195> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Mardi gras" .
+
+<767d1458-2167-4788-bcbe-bb9dea366f80> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "réduction de Paris" .
+
+<76baf612-9b93-4427-b909-6eef61d3eb0c> a crm:E55_Type ;
+    crm:P127_has_broader_term <2cc53ff4-ebe5-4360-bac3-212b913d8102> ;
+    crm:P1_is_identified_by "enseignement de la musique" .
+
+<78b1afce-b23b-41ea-a796-fe28b5916b78> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "psaume réformé" .
+
+<78f79e1a-9956-46b5-a34a-5aabac6efd44> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "publication partielle du livret" .
+
+<790bb51f-7629-479f-88a6-4fe8a1e60463> a crm:E55_Type ;
+    crm:P127_has_broader_term <cbe19226-7239-47ee-bad2-bfec44a9cefd> ;
+    crm:P1_is_identified_by "messe basse en musique" .
+
+<79a3a50c-3771-44b5-b0a0-4a31eb4092c4> a crm:E55_Type ;
+    crm:P127_has_broader_term <a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176> ;
+    crm:P1_is_identified_by "livret d'opéra" .
+
+<7a346cb4-c35c-484f-b6cb-2d565f7190bb> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "réception d'un cardinal" .
+
+<7b58e09f-b17d-44d5-b309-933a3ee6adb4> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie-vaudeville" .
+
+<7bc4bbe2-4946-4a43-9dea-cac5cb031e1a> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "élection d'un doyen" .
+
+<7c3201e5-7824-4658-85ee-2bdb01ae9a6c> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "plainte vocale" .
+
+<7cd599ea-7dd5-44d2-86ef-4a6a6399b073> a crm:E55_Type ;
+    crm:P127_has_broader_term <e3fa1e5a-e07b-4f82-b128-c05afc41a8c6> ;
+    crm:P1_is_identified_by "effets de la musique" .
+
+<7d173879-0b40-4920-ab03-1ea069b95a3d> a crm:E55_Type ;
+    crm:P127_has_broader_term <e9fc7904-63f1-4d4c-b682-8faa4d9a2447> ;
+    crm:P1_is_identified_by "chanteur italien" .
+
+<7e6d5a28-38cc-416f-8a4a-df72c243c055> crm:P1_is_identified_by "EP contrepartie" .
+
+<7eaa8364-cb4e-4742-9454-091abf9a937b> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "comédien" .
+
+<7ec02c3f-4f88-45ba-b19a-e94c8a53c59c> a crm:E55_Type ;
+    crm:P127_has_broader_term <3523525e-a46c-47c3-8235-066aa38ab501> ;
+    crm:P1_is_identified_by "cantique biblique" .
+
+<7ef90857-4341-4abf-9e0e-49164ad94afa> a crm:E55_Type ;
+    crm:P127_has_broader_term <c183897b-2356-48f8-9d22-91d76f2fa6fe> ;
+    crm:P1_is_identified_by "décoration d'église" .
+
+<7f4ad478-ada1-4c74-86ef-e07fffc13eea> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "translation de coeur" .
+
+<7f8208c8-3e65-457b-90ea-b35aaa521939> a crm:E55_Type ;
+    crm:P127_has_broader_term <d32d3cd0-53ca-4d22-8190-4b3c14dccb1d>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique française" .
+
+<7fc47941-c5bb-4daf-8a88-7530a6fd1a7a> a crm:E55_Type ;
+    crm:P127_has_broader_term <26b648fd-2cc9-415d-aca1-2fce81d3578f> ;
+    crm:P1_is_identified_by "champêtre" .
+
+<7ff23196-3273-40c8-b092-2d12ae98e867> a crm:E55_Type ;
+    crm:P127_has_broader_term <6994cde4-2a48-4887-9888-138133e045f8> ;
+    crm:P1_is_identified_by "caractère de la danse" .
+
+<803be289-f444-455e-be22-b3b138ec6536> a crm:E55_Type ;
+    crm:P127_has_broader_term <6a2d10ff-7cf8-43db-802a-a89ba5ffaec3> ;
+    crm:P1_is_identified_by "concert public" .
+
+<8042678c-4173-4503-bdbb-160314d11d53> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "organiste" .
+
+<80586545-68ce-475a-843e-765d728d61cf> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse française" .
+
+<80e22085-6eea-47d1-8b2c-0e5a1309991d> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "verset" .
+
+<80fc0e1f-bc7d-4c48-a662-433fba9f2b95> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "pompe funèbre" .
+
+<8194f2f6-4d02-4439-aa90-03420fedb0d7> a crm:E55_Type ;
+    crm:P127_has_broader_term <c953f264-4f36-4317-8b3e-171716bf9cc2> ;
+    crm:P1_is_identified_by "menuet figuré" .
+
+<81970739-2263-4978-a225-849d4e949834> a crm:E55_Type ;
+    crm:P127_has_broader_term <74603aab-65d0-4753-97ff-b1eba21af86e> ;
+    crm:P1_is_identified_by "traduction" .
+
+<819bfe2a-1df6-48b5-8882-a59762b6f6f8> crm:P1_is_identified_by "NA 2 février" .
+
+<81b69c62-5c3e-4b41-9a61-055e15dcd357> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "quadrille" .
+
+<8278f6d3-b1e4-44d7-bf33-0356175e7fc4> a crm:E55_Type ;
+    crm:P127_has_broader_term <53048581-b7b4-4ffe-8dc8-2dbc0cbda46a> ;
+    crm:P1_is_identified_by "grelot" .
+
+<830211e4-1e2a-4ac5-b1ab-5cd03039d43a> a crm:E55_Type ;
+    crm:P127_has_broader_term <bfd4e1db-1966-4637-8953-7f453db8df61> ;
+    crm:P1_is_identified_by "costume de deuil" .
+
+<834b93f5-b5cb-4844-bf52-afea5faacb92> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "rondeau (forme poétique)" .
+
+<83ba6c39-fb07-4048-8afb-27a0f3101374> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "commémoration d'un décès" .
+
+<83d79934-a3b2-4ea9-87ee-3cab192512da> a crm:E55_Type ;
+    crm:P127_has_broader_term <cf206b03-8a90-4818-aa29-f10a89c76181> ;
+    crm:P1_is_identified_by "ensemble de violons" .
+
+<8421532a-04da-40b8-9c8e-0bf5d0d347d1> crm:P1_is_identified_by "NA 25 mars" .
+
+<842d1375-80b5-49fa-b48f-5929e81ad17a> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "fiançailles" .
+
+<848ce6b8-8895-4427-a89b-a859938fe460> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2da6cd3-85b8-4f44-8cf7-a51eff467c1c> ;
+    crm:P1_is_identified_by "idiomes régionaux" .
+
+<848f0a0b-1214-4b4e-9478-16e25d432cfe> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse allemande" .
+
+<84a021ab-310e-4575-b460-11d96c9a4087> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie héroïque" .
+
+<84b28cab-eb8c-4c8a-a252-783887ed769a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "trompette marine" .
+
+<84e0dea2-75c5-4154-a214-9518694d2482> a crm:E55_Type ;
+    crm:P127_has_broader_term <b68588c3-5459-487d-ad93-2599721f62bb> ;
+    crm:P1_is_identified_by "merveilleux" .
+
+<85474e59-73c5-4875-a509-6c903b9a0cf3> a crm:E55_Type ;
+    crm:P127_has_broader_term <904b5aae-8c3d-4f20-86f2-ababcf5d0aa2> ;
+    crm:P1_is_identified_by "chanson espagnole" .
+
+<8586db63-db62-4759-a006-feaa19580b20> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "niacard" .
+
+<8615ef57-b9c5-490e-9455-ebf5079a2a1e> a crm:E55_Type ;
+    crm:P127_has_broader_term <d931712b-73b6-4f4d-8c9c-0793d9e87286> ;
+    crm:P1_is_identified_by "opéra italien" .
+
+<86574f25-f8c3-458a-b2f1-c6ac3976e252> a crm:E55_Type ;
+    crm:P127_has_broader_term <32f45ef2-ee26-4f4e-8775-c9a8f1e27b29> ;
+    crm:P1_is_identified_by "sautereau de clavecin" .
+
+<86bfccf6-79d4-49dc-843d-cd619724ab76> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "angélique" .
+
+<870dad30-0c83-4c7b-9115-90bdffb5b7d4> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "acrostiche" .
+
+<87b05961-7df1-4d61-9c53-5febf9d36e16> crm:P1_is_identified_by "EM jour de l'an" .
+
+<88f7fe57-7516-40b9-8b07-bffe4d8e1993> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "taille de violon" .
+
+<899730b1-34c0-4b36-9696-118bfa921f88> a crm:E55_Type ;
+    crm:P127_has_broader_term <c00235af-da18-4700-bd76-cd99955b93dd> ;
+    crm:P1_is_identified_by "marche de tambours" .
+
+<8afaffe7-b212-4626-bdb3-ef25d24a2bc5> a crm:E55_Type ;
+    crm:P127_has_broader_term <8e1ed7a3-7be7-4aa2-8923-6d9c6349cd0b> ;
+    crm:P1_is_identified_by "tuyaux d'orgue" .
+
+<8b06dd89-3c4c-456b-99f2-ee73f08ae7e3> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "gavotte" .
+
+<8b14b296-1ecf-4446-b0ce-10ef5e46687c> a crm:E55_Type ;
+    crm:P127_has_broader_term <a0252891-1ab2-4771-906c-42d40c1b78b6> ;
+    crm:P1_is_identified_by "cor de chasse" .
+
+<8b1f3b91-859f-4dea-b75f-71741d1ca34a> a crm:E55_Type ;
+    crm:P127_has_broader_term <313d6352-8bd2-4e82-b156-e5d4311de0ba> ;
+    crm:P1_is_identified_by "Antiquité grecque" .
+
+<8b7297a7-076c-4d14-8e71-c829372ab331> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie chinoise" .
+
+<8b834ac7-835d-4072-9a9b-87787e4f95d8> a crm:E55_Type ;
+    crm:P127_has_broader_term <61a38f83-967c-4910-8b0a-9c7c779d6bef> ;
+    crm:P1_is_identified_by "interprétation dramatique" .
+
+<8bb6806f-b27a-4899-a12e-1b039cddb7d0> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "sabbat" .
+
+<8bd80a94-6efc-48bc-b2d7-6c6c40baaa7b> crm:P1_is_identified_by "EP air bachique" .
+
+<8beeae15-78ad-43ea-8a62-4b37f4773599> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "impromptu poétique" .
+
+<8c0fcda1-81ba-45f6-93c8-d7f2af232d3c> a crm:E55_Type ;
+    crm:P127_has_broader_term <912dbc05-5592-46c7-a1d4-453589b093e1> ;
+    crm:P1_is_identified_by "flûte douce" .
+
+<8c504bfc-ba27-4e22-8447-f52c88c62725> a crm:E55_Type ;
+    crm:P127_has_broader_term <85e3749a-0b76-4013-839c-d271a2ab0642> ;
+    crm:P1_is_identified_by "distribution de prix" .
+
+<8d22c4c8-8955-4ef9-93f0-995ac5f700cc> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "élection d'un prince-évêque" .
+
+<8d632725-000d-4caf-acf7-c97b056c05d0> a crm:E55_Type ;
+    crm:P127_has_broader_term <ad719c64-de8a-4b05-b233-914f4427be02> ;
+    crm:P1_is_identified_by "récitation de poésie" .
+
+<8dae8412-371a-4133-bd04-ed5591df9a02> crm:P1_is_identified_by "EP tragédie lyrique" .
+
+<8e0fa553-7f43-4122-a9d3-eff29ea4c331> a crm:E55_Type ;
+    crm:P127_has_broader_term <8172c13e-6747-46b4-a56e-33832d8382b6> ;
+    crm:P1_is_identified_by "transcription instrumentale de musique vocale" .
+
+<8e21aa78-e673-4f87-af22-d9889e6ddb1d> a crm:E55_Type ;
+    crm:P127_has_broader_term <408bcdcb-351d-41b9-8191-e3193eef6134> ;
+    crm:P1_is_identified_by "foire de Bezons" .
+
+<8e3f4f3e-8ed1-4bf4-9ec0-d3ac1c57fa6c> a crm:E55_Type ;
+    crm:P127_has_broader_term <a50f859c-2bcf-408c-9d82-a0729628e874> ;
+    crm:P1_is_identified_by "théâtre d'opéra" .
+
+<8e3f7fcc-3b4b-4720-960b-09f62ee607a0> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "redoute" .
+
+<8e7a46c8-daa8-4d12-8c89-f4ab3e93be06> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "panégyrique en vers" .
+
+<8f35f1bf-de58-4041-84c9-ce11e03e3058> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de Saint-Barthélemy" .
+
+<8f8f1a94-f001-4c5c-8dd4-9c0926beaad4> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "érection d'une statue du roi" .
+
+<8f9a4f68-653f-45c4-b52d-4a239cfc6645> a crm:E55_Type ;
+    crm:P127_has_broader_term <0f249d4c-e43d-4fac-970b-8b536fb508c2> ;
+    crm:P1_is_identified_by "réjouissances civiles" .
+
+<8fe9a357-b306-4e31-88f5-9ce8d4b5aa22> a crm:E55_Type ;
+    crm:P127_has_broader_term <98d091fb-6a88-48d7-8c8c-28e1c271885b> ;
+    crm:P1_is_identified_by "entracte" .
+
+<902c51a2-f4cc-4143-9aaf-f81482a4c87a> a crm:E55_Type ;
+    crm:P127_has_broader_term <1a6a0a88-154f-42dd-bc3b-bb6b1043ef36> ;
+    crm:P1_is_identified_by "messe du Saint-Esprit en musique" .
+
+<90875268-ca13-4d15-a551-275aba811fbc> a crm:E55_Type ;
+    crm:P127_has_broader_term <8e1ed7a3-7be7-4aa2-8923-6d9c6349cd0b> ;
+    crm:P1_is_identified_by "buffet d'orgue" .
+
+<9097519d-df93-4c7d-bea2-4b42ec3d5bae> a crm:E55_Type ;
+    crm:P127_has_broader_term <8bda71d8-03cb-4f2b-9380-4ed5c54a1a22> ;
+    crm:P1_is_identified_by "ballet du roi" .
+
+<909c1ef3-308f-4473-a808-99804883b639> a crm:E55_Type ;
+    crm:P127_has_broader_term <84111d62-f1d9-41ae-bd63-e14964f0574d> ;
+    crm:P1_is_identified_by "récit de basse" .
+
+<91119c14-f82d-4fc1-b614-5487ce616031> crm:P1_is_identified_by "EP oraison funèbre" .
+
+<91473f13-76a2-4024-afff-b871e18a97b3> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "instrument hydraulique" .
+
+<91a815da-e4e5-4901-920f-938ee83c5863> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "course de têtes" .
+
+<91bb8cda-0729-4e30-a487-b6205afb4210> a crm:E55_Type ;
+    crm:P127_has_broader_term <b67f1a90-256b-4ad3-8b3a-830d1362e48f> ;
+    crm:P1_is_identified_by "collation" .
+
+<91cb2ca3-b3aa-4a89-9d41-5a24920cbfdf> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd3fc290-8dc3-420c-bf0e-c3e140b99c2b> ;
+    crm:P1_is_identified_by "peinture" .
+
+<92921dac-a681-4a6c-b841-036e630f3109> a crm:E55_Type ;
+    crm:P127_has_broader_term <912dbc05-5592-46c7-a1d4-453589b093e1> ;
+    crm:P1_is_identified_by "flûte allemande" .
+
+<930c192e-4ff1-48fc-95a7-4615ef2caff8> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "faux-bourdon" .
+
+<931e35e6-f212-4ce2-bfaa-0701c63b7224> a crm:E55_Type ;
+    crm:P127_has_broader_term <90bdd132-c564-4ba2-86fd-8ae63217a43d> ;
+    crm:P1_is_identified_by "dialogue chanté" .
+
+<936de9ee-3d3b-4bd2-8bf0-f7aa5b18e376> a crm:E55_Type ;
+    crm:P127_has_broader_term <f23392a6-c26c-49b8-8b8a-28a851cc7d23> ;
+    crm:P1_is_identified_by "naissance d'un prince" .
+
+<938e07dc-7be3-425e-8257-dfa6c858a4d7> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "réception du recteur des pénitents blancs" .
+
+<93db0b67-460a-4f51-ac3d-15db8d0b8a0d> a crm:E55_Type ;
+    crm:P127_has_broader_term <48bbb298-0ba3-4aa7-836f-e2f8562ae85f> ;
+    crm:P1_is_identified_by "revue militaire" .
+
+<944b2dc1-9ca3-4ff9-b638-5ee7db5c2eda> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "toccata" .
+
+<949fadf1-df23-4672-ac2b-9a7f61ccc8ce> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "cornemuse" .
+
+<94b5adac-aedd-4338-94fe-a5fe075acb6a> a crm:E55_Type ;
+    crm:P127_has_broader_term <184f8d0b-b18c-4348-8e66-53a76bb25199> ;
+    crm:P1_is_identified_by "paix de Savoie" .
+
+<94b736c7-6fa7-4258-9a9c-2197c987363d> a crm:E55_Type ;
+    crm:P127_has_broader_term <cf206b03-8a90-4818-aa29-f10a89c76181> ;
+    crm:P1_is_identified_by "basse continue" .
+
+<950187b7-912e-4e79-9682-40da4160e9f2> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "politique éditoriale" .
+
+<955925e8-1135-43dc-9e0e-3bc83309a8c3> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd68fcb1-ac4a-442d-9c97-f979619f62bf> ;
+    crm:P1_is_identified_by "langue universelle" .
+
+<9580fcab-937d-41f2-8769-414afc675820> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "pyrrhique" .
+
+<95b28d67-75b9-441e-bb81-f71b4c3652f0> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "canonisation" .
+
+<95e3bbc7-ef54-4212-b74b-6c10c8ae2778> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "épitaphe" .
+
+<9630d9c9-95ca-43af-a83c-9a1fb48d505d> a crm:E55_Type ;
+    crm:P127_has_broader_term <519414b1-592b-4cfe-8f41-a70556f2f747> ;
+    crm:P1_is_identified_by "éloge funèbre" .
+
+<968f3025-e600-48c6-bf3c-493174d53db2> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f311ea7-4fb5-40ee-aa48-24c8f1911a12> ;
+    crm:P1_is_identified_by "judaïsme" .
+
+<96cb0515-4257-430e-9043-b43c8d35eff2> a crm:E55_Type ;
+    crm:P127_has_broader_term <c183897b-2356-48f8-9d22-91d76f2fa6fe> ;
+    crm:P1_is_identified_by "décoration de palais" .
+
+<96e68715-7450-416a-b361-fb1169494826> a crm:E55_Type ;
+    crm:P127_has_broader_term <efc0f26f-5276-4ec3-971b-22b52ac371d8> ;
+    crm:P1_is_identified_by "méthode de musique" .
+
+<96f620eb-0f6d-46c0-8de7-4b3b8c59f389> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "hymne" .
+
+<9753994e-5781-49b1-9b4e-ce9d53922045> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "édition en parties séparées" .
+
+<976e9039-24bc-468b-9fba-3e26d7c522a5> a crm:E55_Type ;
+    crm:P127_has_broader_term <e94f3978-741a-4b6a-9808-e87a3bccfd8e> ;
+    crm:P1_is_identified_by "bénédiction d'une cloche" .
+
+<97e7a707-a14c-494b-b342-b95199f11da9> a crm:E55_Type ;
+    crm:P127_has_broader_term <696019ca-af56-4780-9a1d-d6648471a04d> ;
+    crm:P1_is_identified_by "commentaire de l’intrigue" .
+
+<98cc22eb-d833-4b7e-8be9-ebac9884f1be> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Annonciation" .
+
+<99385690-8bb3-494b-8714-03d4aa90b23a> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie anglaise" .
+
+<9941f389-8ec0-488d-9c5d-a99d5a776faf> a crm:E55_Type ;
+    crm:P127_has_broader_term <72224913-4634-47c8-9a52-4eff97d24625> ;
+    crm:P1_is_identified_by "chinghis" .
+
+<99488deb-fbd0-44d1-885e-0c32c309a7fa> a crm:E55_Type ;
+    crm:P127_has_broader_term <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique de réjouissance publique" .
+
+<99772836-56ab-43a7-88c4-6a61e33667f8> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "divertissement royal" .
+
+<99968b83-be38-4bf9-aa32-a2808128cb0e> a crm:E55_Type ;
+    crm:P127_has_broader_term <e3fa1e5a-e07b-4f82-b128-c05afc41a8c6> ;
+    crm:P1_is_identified_by "effets des fictions" .
+
+<99cc64cd-cc5c-41ec-a5d0-59bbbc99bcce> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d9c27e1-d759-489a-9a83-a7d4856de4ea> ;
+    crm:P1_is_identified_by "pastorale dramatique" .
+
+<9a4d7b85-4ce9-45a3-84e4-c7a2d06644f0> a crm:E55_Type ;
+    crm:P127_has_broader_term <9674e19a-b68d-4f78-a1d5-58f61034463d> ;
+    crm:P1_is_identified_by "nomination de membres du conseil de ville" .
+
+<9a59685d-7ea4-4aa2-9d47-13d5f0f08606> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse figurée" .
+
+<9a5968af-4104-4b94-a5f7-d3be0cd12b63> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "harpe" .
+
+<9aa989da-852e-4bd4-9f9c-9521af556cae> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "fugue" .
+
+<9bb28147-42ee-40d2-9e16-b597408e8334> a crm:E55_Type ;
+    crm:P127_has_broader_term <a4955ea2-c070-40af-8f96-e8f7abd02a4f> ;
+    crm:P1_is_identified_by "discours, examens, observations, sentiments" .
+
+<9c2c2171-f1fe-4c15-b289-720907a9afb3> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Benedictus Dominus Deus Israel" .
+
+<9d1dc272-8e89-4a1e-81d5-4abbfa19a41a> a crm:E55_Type ;
+    crm:P127_has_broader_term <912dbc05-5592-46c7-a1d4-453589b093e1> ;
+    crm:P1_is_identified_by "flûte à bec" .
+
+<9da9bd61-01af-4dd5-b16b-760357cdbc17> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2da6cd3-85b8-4f44-8cf7-a51eff467c1c> ;
+    crm:P1_is_identified_by "latin" .
+
+<9dc712f5-13a5-4751-bd7c-c21084ca4fc7> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "masque" .
+
+<9dee9456-c05a-45b6-90bb-7de6b543329a> a crm:E55_Type ;
+    crm:P127_has_broader_term <84ffd212-5f4b-4dc7-93f8-50734745abc5> ;
+    crm:P1_is_identified_by "hautbois du Siam" .
+
+<9dfc6379-70b8-4bf0-a4f3-583e7ae383d8> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "translation du Saint-Sacrement" .
+
+<9e23f302-33c8-496b-ab5d-3e4d8d09ef4e> a crm:E55_Type ;
+    crm:P127_has_broader_term <9be8c9e5-6220-4b24-9fb2-5c28013d3429> ;
+    crm:P1_is_identified_by "conte" .
+
+<9f394941-8e9f-4f83-950d-bfc7fdc7131c> a crm:E55_Type ;
+    crm:P127_has_broader_term <ec450c9e-0ae3-4237-87d5-82444c406895> ;
+    crm:P1_is_identified_by "éloquence" .
+
+<9f820f1d-8d79-4d95-94ed-81baca112a08> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "litanies" .
+
+<a0213c2d-a795-4a4c-92ec-5f601e2252c2> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "cordes" .
+
+<a09a23eb-a176-40ca-8444-12aac1defbec> a crm:E55_Type ;
+    crm:P127_has_broader_term <19c125a8-fb0c-4eae-b108-38c1656d0e25> ;
+    crm:P1_is_identified_by "sacre d'un évêque" .
+
+<a0ca5d62-6321-4ce8-a775-0dc4949b714f> a crm:E55_Type ;
+    crm:P127_has_broader_term <a44f9171-28ce-4921-8806-71261a87015d> ;
+    crm:P1_is_identified_by "carrière dramatique" .
+
+<a0e71d60-3c59-42b4-9e95-2cdc27ddc2a3> a crm:E55_Type ;
+    crm:P127_has_broader_term <b1d55158-1411-4bef-a4f9-8ab16bef1039> ;
+    crm:P1_is_identified_by "tragédie grecque" .
+
+<a100f7a4-b25a-4b52-8296-0ee970b9ceda> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d9c27e1-d759-489a-9a83-a7d4856de4ea> ;
+    crm:P1_is_identified_by "pastorale héroïque" .
+
+<a123efb6-5aa5-4cac-bbd5-cacc26b109ee> a crm:E55_Type ;
+    crm:P127_has_broader_term <13a54ff0-e1cf-4705-8f09-5c6058320d4a> ;
+    crm:P1_is_identified_by "musique à huit choeurs" .
+
+<a1495cbe-648e-44c8-bd54-e4d6baee2600> a crm:E55_Type ;
+    crm:P127_has_broader_term <0633d386-dbb9-4607-9858-2d46c17790ce> ;
+    crm:P1_is_identified_by "panégyrique d'un pape" .
+
+<a16c0086-285b-4f06-aa5e-ac9e8e12a4b8> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "bout de l'an" .
+
+<a1f28c71-8f41-48f4-b43d-01f9ee4f6763> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "étrennes" .
+
+<a2c04af2-835a-4ca6-a00c-ee9b0de7f1e1> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "établissement d'une congrégation" .
+
+<a39bbca1-c983-4641-b065-ebe0327648da> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "conférence ecclésiastique" .
+
+<a412adb2-3aa4-45aa-bfa7-e6ec2b38267c> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "apollon [instrument à cordes]" .
+
+<a488cc7f-24f2-4d94-88db-1947eb62d701> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "veillée funèbre" .
+
+<a4b956dc-993a-49fb-a208-1200123ee0c7> a crm:E55_Type ;
+    crm:P127_has_broader_term <771daf55-40f0-4f8c-85b9-142eb79647f2> ;
+    crm:P1_is_identified_by "actualité dramatique [les œuvres]" .
+
+<a563eed0-cb0f-489e-82d8-178a56d3767d> a crm:E55_Type ;
+    crm:P127_has_broader_term <e20afe35-3d13-4df9-be6c-bc487625835c> ;
+    crm:P1_is_identified_by "cérémonie funèbre" .
+
+<a5d4d310-b2b9-4ca4-ace5-adb3f9105234> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "interprète princier" .
+
+<a62ff3d5-f0db-4725-986c-50fea440bdb9> a crm:E55_Type ;
+    crm:P127_has_broader_term <81f583aa-d080-4200-aa2c-8287128708d0> ;
+    crm:P1_is_identified_by "Usquequo Domine obliviceris en musique" .
+
+<a6e734c3-79c4-45ea-bd42-ae7bc637a21a> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "gigue" .
+
+<a70199ef-6b7e-4251-ae53-83e4b03a236f> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "diminution" .
+
+<a7705e09-d2d4-4361-b53d-527c491d5f76> a crm:E55_Type ;
+    crm:P127_has_broader_term <5c263d0f-0002-4787-b639-9fcb150245d1> ;
+    crm:P1_is_identified_by "chant ecclésiastique" .
+
+<a814c113-1e1b-475d-95ba-3b4b83def85b> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "In exitu Israel" .
+
+<a8986eab-9187-49ea-b2d5-b4430679a62f> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f988c7b-c38f-43b3-965a-3bab661e89d4> ;
+    crm:P1_is_identified_by "fête des arquebusiers de Reims" .
+
+<a8a0e489-037d-4691-835e-b31d3f1de231> a crm:E55_Type ;
+    crm:P127_has_broader_term <6425e7e7-5f36-4898-9254-61e54f490156> ;
+    crm:P1_is_identified_by "discussion" .
+
+<a8b499ba-1cd5-4c61-9088-05f2ad2409de> a crm:E55_Type ;
+    crm:P127_has_broader_term <679aa7e7-5d40-4a7a-87a7-30b74a1eb0d1> ;
+    crm:P1_is_identified_by "représentation d'oeuvre" .
+
+<a8f154f4-066a-4572-9022-84c0fc5ac2f2> a crm:E55_Type ;
+    crm:P127_has_broader_term <4120d869-85f7-4ada-8848-2f88c76ef432> ;
+    crm:P1_is_identified_by "entretien" .
+
+<a9937eb8-368f-4fff-a800-346c59c99b16> a crm:E55_Type ;
+    crm:P127_has_broader_term <b84fd425-80b5-4ec3-b7fa-029634cb919b> ;
+    crm:P1_is_identified_by "disposition pour le dessin" .
+
+<a9b9e5e8-ca65-4fca-9400-e780e3bdaf67> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "réduction de Perpignan" .
+
+<a9ea9ba6-5a69-4d90-b6e0-31774bc2ca48> a crm:E55_Type ;
+    crm:P127_has_broader_term <231fb18d-0120-41bf-bce8-78ece84a5459> ;
+    crm:P1_is_identified_by "prise de Montmélian" .
+
+<ab8352e4-187d-401a-9037-c22e48e2a507> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "vièle" .
+
+<ab94e16c-ccf9-4eaf-9464-55ca0bbb515a> a crm:E55_Type ;
+    crm:P127_has_broader_term <b84fd425-80b5-4ec3-b7fa-029634cb919b> ;
+    crm:P1_is_identified_by "disposition pour la danse" .
+
+<aba2555e-7421-4d96-885b-b524e9e75518> a crm:E55_Type ;
+    crm:P127_has_broader_term <adc1cefa-0717-49b4-940b-1971e1f7311a> ;
+    crm:P1_is_identified_by "prière pour les morts" .
+
+<abfedaa7-9a23-4091-9d34-12f0f0d43a3b> a crm:E55_Type ;
+    crm:P127_has_broader_term <9d788587-7087-4a60-87fb-a67acfcf3e46> ;
+    crm:P1_is_identified_by "sermon" .
+
+<ac0837b3-8462-4706-b30b-937883cb13e1> a crm:E55_Type ;
+    crm:P127_has_broader_term <9e79ff42-61d9-400a-af9a-51b43ba05e48> ;
+    crm:P1_is_identified_by "nomination d'un chanoine" .
+
+<acbbda06-9f6a-4d10-a5b0-63838befdae5> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "anagramme" .
+
+<acbfc908-d238-42ab-a7fe-e702fc75b67e> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "installation de chanoine" .
+
+<ad2978d3-ecdf-4731-832c-569ff99210a1> a crm:E55_Type ;
+    crm:P127_has_broader_term <e8512b1e-d2a8-4446-b637-e1d0705a12de> ;
+    crm:P1_is_identified_by "anche" .
+
+<ad96206c-8bc6-49f8-876e-2f31897b294e> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Nunc dimittis servum tuum" .
+
+<ae4d5f59-7ebf-46a1-a85a-60cb1d1f75cc> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "couronnement" .
+
+<af08205e-dd09-4574-b070-7ab1c0791b65> a crm:E55_Type ;
+    crm:P127_has_broader_term <3b05f74c-43e1-41ca-8def-9e3f5439809c> ;
+    crm:P1_is_identified_by "musette du Siam" .
+
+<b0651c8e-f0ed-4a6d-99c0-f985ed77e046> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "cromorne" .
+
+<b0792e4a-9e5f-4112-94ca-d107691cb1e9> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "prise de possession d'une abbaye" .
+
+<b0a44e50-6b03-4541-8cc8-fbd4fcbda52f> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air d'opéra" .
+
+<b0beaa25-b261-4261-8734-fbc94827a3e0> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "épithalame" .
+
+<b0d81363-20c6-4d02-a1f1-fe5881398b87> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "fondation d'un office" .
+
+<b1892d11-ec05-492b-ac92-473aac24670a> a crm:E55_Type ;
+    crm:P127_has_broader_term <e0f362e4-5ad9-4054-939b-4a1b7c2fc23b> ;
+    crm:P1_is_identified_by "célébration du retour de la santé" .
+
+<b1ead1e9-9f05-430f-a050-fde86bba148f> a crm:E55_Type ;
+    crm:P127_has_broader_term <e46052f9-3886-4d7b-90f8-13c884abc8f5> ;
+    crm:P1_is_identified_by "messe des morts en musique" .
+
+<b2112c64-3c14-40e1-ba51-dd813338b225> a crm:E55_Type ;
+    crm:P127_has_broader_term <b84fd425-80b5-4ec3-b7fa-029634cb919b> ;
+    crm:P1_is_identified_by "disposition pour la poésie" .
+
+<b215469d-0b00-41a9-b0dc-6ae2e372dd45> a crm:E55_Type ;
+    crm:P127_has_broader_term <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique funèbre" .
+
+<b26d208f-fc95-47d4-9ccd-a28079e2c8a7> a crm:E55_Type ;
+    crm:P127_has_broader_term <e94f3978-741a-4b6a-9808-e87a3bccfd8e> ;
+    crm:P1_is_identified_by "bénédiction d'une église" .
+
+<b2c624a0-ad63-42ad-a6e5-28a39d402f68> a crm:E55_Type ;
+    crm:P127_has_broader_term <904b5aae-8c3d-4f20-86f2-ababcf5d0aa2> ;
+    crm:P1_is_identified_by "chansonnette" .
+
+<b2ce4149-b30a-4396-921d-16d16dc7edd2> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "basse vocale" .
+
+<b2fe2846-cf86-40fd-99f3-db2847d5a218> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie mêlée de musique" .
+
+<b3d8507a-7313-43c0-abe9-a63a7e244793> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête du Rosaire" .
+
+<b3ef8ae8-c91e-45e1-9422-fc5a623cad2d> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "privilège du roi" .
+
+<b416db25-9b67-45d3-afb5-8acbc77f97ca> a crm:E55_Type ;
+    crm:P127_has_broader_term <53048581-b7b4-4ffe-8dc8-2dbc0cbda46a> ;
+    crm:P1_is_identified_by "carillon" .
+
+<b475a49e-c98a-459d-804b-cdeb8fa8c612> a crm:E55_Type ;
+    crm:P127_has_broader_term <231fb18d-0120-41bf-bce8-78ece84a5459> ;
+    crm:P1_is_identified_by "prise de Namur" .
+
+<b489c93c-dc03-4d16-8105-569e66728f25> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse du change" .
+
+<b50d9211-f8d9-4287-99b7-619c069f1655> a crm:E55_Type ;
+    crm:P127_has_broader_term <dc57b12f-a40e-4c2f-851f-813fb556fea0>,
+        <e46052f9-3886-4d7b-90f8-13c884abc8f5> ;
+    crm:P1_is_identified_by "messe des morts" .
+
+<b578a482-0917-4fc6-8938-b3e2a74041ed> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie espagnole" .
+
+<b5793c7c-2182-46c4-9582-560cc3c97a58> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "service en musique" .
+
+<b5945d07-4ff1-48e1-91e8-a1684e7bb8e9> a crm:E55_Type ;
+    crm:P127_has_broader_term <87982a3d-9b95-4758-8bbb-b60d5afc838c> ;
+    crm:P1_is_identified_by "paraphrase de psaume" .
+
+<b5a2a18c-7667-4a17-b28c-e2c4fa41402a> crm:P1_is_identified_by "EP appartements" .
+
+<b5b2df52-565e-4833-9950-838c77ef64f9> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Pentecôte" .
+
+<b622760e-cc4f-4afd-8579-07b1f22fa8e8> a crm:E55_Type ;
+    crm:P127_has_broader_term <aae2d73a-14d8-4dd4-b19e-53445412ab59> ;
+    crm:P1_is_identified_by "voyage princier" .
+
+<b6615645-c402-475b-a0e1-aaf9511eef04> a crm:E55_Type ;
+    crm:P127_has_broader_term <80584f2d-8652-46ee-81bd-be3a227badce> ;
+    crm:P1_is_identified_by "anniversaire du roi" .
+
+<b6726ae6-c99e-48a1-bcc1-f209d4605e50> a crm:E55_Type ;
+    crm:P127_has_broader_term <c4e42faf-8c59-40bb-a909-f85c85d98675> ;
+    crm:P1_is_identified_by "vente de bibliothèque" .
+
+<b6bfcca3-f616-4045-a9c4-2ac4b0318c28> a crm:E55_Type ;
+    crm:P127_has_broader_term <d32d3cd0-53ca-4d22-8190-4b3c14dccb1d>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique italienne" .
+
+<b7658bde-5f8a-407d-9818-65b07134fddb> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "plainte" .
+
+<b853a315-1b87-4f67-ae0f-efd169356208> a crm:E55_Type ;
+    crm:P127_has_broader_term <0d8f563f-a64a-410a-827d-f636fced3059> ;
+    crm:P1_is_identified_by "origine des cloches" .
+
+<b857b21b-7d8c-4dc6-95aa-d9ffddfb1a86> a crm:E55_Type ;
+    crm:P127_has_broader_term <21a1c205-dfd1-4987-86e4-e57fe185824f> ;
+    crm:P1_is_identified_by "traité d'organologie" .
+
+<b85ab7d0-07d3-40fb-8193-50efa58c853b> a crm:E55_Type ;
+    crm:P127_has_broader_term <a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176> ;
+    crm:P1_is_identified_by "théâtre de collège" .
+
+<b8a7d235-d6a0-45a9-8ac7-4b569ac0fb86> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "moresque" .
+
+<b8fa36c3-a905-4f53-917a-39c6f486f9d9> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de Saint-Quentin" .
+
+<b9018141-ae6c-4de2-974a-483b4a03e894> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "motet" .
+
+<b991cebd-2bd9-4722-a8b2-327d45c4499a> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "divertissement princier" .
+
+<b9a46c87-e26d-47e2-a719-95c537081b18> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "instrument nouveau" .
+
+<b9aaf3f6-e928-43cd-b9dd-f12d146029af> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "concurrence" .
+
+<b9aff86c-556a-408d-af85-c5926014d8ee> a crm:E55_Type ;
+    crm:P127_has_broader_term <fad0ede8-8740-47c1-8410-2eecf34c799f> ;
+    crm:P1_is_identified_by "réponse d’énigme" .
+
+<ba143ce0-361a-4972-a70e-1dad0d045c8e> a crm:E55_Type ;
+    crm:P127_has_broader_term <b67f1a90-256b-4ad3-8b3a-830d1362e48f> ;
+    crm:P1_is_identified_by "souper" .
+
+<bae0af3c-1e5c-403a-83b9-20b27600e946> a crm:E55_Type ;
+    crm:P127_has_broader_term <3b05f74c-43e1-41ca-8def-9e3f5439809c> ;
+    crm:P1_is_identified_by "musette du Poitou" .
+
+<bba9a3f8-129b-4a35-9735-ada8b61a6076> a crm:E55_Type ;
+    crm:P127_has_broader_term <58b6c4e3-08b6-400d-bab4-5935cc8ec54a> ;
+    crm:P1_is_identified_by "gazette burlesque" .
+
+<bc08cf81-d4d4-4f44-9b9a-f318e575780d> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "éloge en vers" .
+
+<bc358e1c-bb15-47f9-9ca3-d6bcb636a938> a crm:E55_Type ;
+    crm:P127_has_broader_term <2933c92d-c9d6-45f1-a59a-7e47a78ceacd> ;
+    crm:P1_is_identified_by "tragédie à machines" .
+
+<bcce6e86-d21a-40fe-9f6e-a54d9b7074b5> a crm:E55_Type ;
+    crm:P127_has_broader_term <679aa7e7-5d40-4a7a-87a7-30b74a1eb0d1> ;
+    crm:P1_is_identified_by "révision d'oeuvre" .
+
+<bcda08b5-28bc-4ad2-bde0-2f81dec1de7d> crm:P1_is_identified_by "EP    octave du Saint-Sacrement" .
+
+<bce5fe6a-6480-4d46-82ad-220ae26decf4> crm:P1_is_identified_by "NA instrument de musique turc (1687.08)" .
+
+<bd19a3dd-1fcf-4e4f-a8cf-aa0137ed31ec> a crm:E55_Type ;
+    crm:P127_has_broader_term <aae2e07e-d7a7-4160-a7ce-606ab251a18b> ;
+    crm:P1_is_identified_by "union de la musique française et italienne => caractère des nations" .
+
+<bdfd542c-c0a3-4b49-af28-81bab901b745> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "contrefaçon" .
+
+<be17b228-e7b3-4e2d-8e20-249f5240c889> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "chalumeau" .
+
+<be3e0ff9-8dee-4a9f-a62b-995f45591f38> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "mise en air (remplace vers mis en musique)" .
+
+<be80dc30-228e-48bc-a7bc-3f40b7cfd1aa> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Conception de la Vierge" .
+
+<bea2f42f-f5ba-40da-baec-54b3173df313> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "romance" .
+
+<bed78069-3482-4e0b-90a8-140fbb6cd09a> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "petit opéra" .
+
+<bef5452a-ac55-464d-bde7-bfcaa8e7a290> a crm:E55_Type ;
+    crm:P127_has_broader_term <a50f859c-2bcf-408c-9d82-a0729628e874> ;
+    crm:P1_is_identified_by "théâtre éphémère" .
+
+<bf017d4f-b9b4-4741-b4a0-0404f876e612> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "fondation d'un couvent" .
+
+<bf1867bc-2078-4b5d-b764-03dfb19892b2> a crm:E55_Type ;
+    crm:P127_has_broader_term <59f3ed4e-8813-4d1b-8ecf-095d12ac1ee8> ;
+    crm:P1_is_identified_by "lettre en chansons" .
+
+<c0065fbb-229a-4ebf-b541-851839991b21> a crm:E55_Type ;
+    crm:P127_has_broader_term <bd0edc43-2e44-4125-96f3-f04c0d06d0dd> ;
+    crm:P1_is_identified_by "notation en chiffres" .
+
+<c0889bc5-0e79-46f3-9662-227de9ffe537> a crm:E55_Type ;
+    crm:P127_has_broader_term <ce87c53b-36ad-4a9e-87c9-f345bacc4c01> ;
+    crm:P1_is_identified_by "allégorie" .
+
+<c0a626ea-a782-4767-9a70-91f586cb986c> a crm:E55_Type ;
+    crm:P127_has_broader_term <a9fdf9ba-f5dd-4e97-a185-ed941f8ad644> ;
+    crm:P1_is_identified_by "carrière d'une oeuvre dramatique" .
+
+<c0b94165-88e4-4c18-b13c-b24007807c83> a crm:E55_Type ;
+    crm:P127_has_broader_term <9d788587-7087-4a60-87fb-a67acfcf3e46> ;
+    crm:P1_is_identified_by "compliment" .
+
+<c0d9aed2-b86b-40f6-bc70-d31103d2c3ac> a crm:E55_Type ;
+    crm:P127_has_broader_term <6f4734b9-6eb1-4562-9572-ad3858c73fce> ;
+    crm:P1_is_identified_by "siège de Vienne" .
+
+<c0ebf84f-5e86-404f-a7dc-1b8476a1fb57> crm:P1_is_identified_by "EP Dimanche de Quasimodo" .
+
+<c1301f32-9314-45b4-b925-d8cd80975903> a crm:E55_Type ;
+    crm:P127_has_broader_term <aae2e07e-d7a7-4160-a7ce-606ab251a18b> ;
+    crm:P1_is_identified_by "rivalité musicale France-Italie  => caractère des nations" .
+
+<c194f94d-05de-4499-bdc1-baaefd1c1431> a crm:E55_Type ;
+    crm:P127_has_broader_term <59f3ed4e-8813-4d1b-8ecf-095d12ac1ee8> ;
+    crm:P1_is_identified_by "lettre en vers" .
+
+<c1c2d416-6e3f-41f2-9be8-1bdae21076d3> a crm:E55_Type ;
+    crm:P127_has_broader_term <0c29c8bf-f391-4227-bc50-ac7c5b6b6d44> ;
+    crm:P1_is_identified_by "lyre italienne" .
+
+<c1e205f2-aecd-4cbc-b508-61c2a190688a> a crm:E55_Type ;
+    crm:P127_has_broader_term <89caf760-3df6-43e0-b9fd-cccdc120cb86> ;
+    crm:P1_is_identified_by "octave de la Fête-Dieu" .
+
+<c21b0e54-6a9f-4980-93de-8df75679f87e> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "chaconne" .
+
+<c22bfe61-98b6-4ee0-9f10-948fdcb0ec55> a crm:E55_Type ;
+    crm:P127_has_broader_term <42db7001-2782-41fc-8e44-37d27ae8daf5> ;
+    crm:P1_is_identified_by "intermède allégorique" .
+
+<c2ba7f8e-851a-4113-8ded-9a43bd36ead4> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "cymbalum" .
+
+<c2ca3e5b-b9bd-4f19-96dd-4fb134007e6a> a crm:E55_Type ;
+    crm:P127_has_broader_term <74603aab-65d0-4753-97ff-b1eba21af86e> ;
+    crm:P1_is_identified_by "maxime" .
+
+<c2cce4e4-15b2-48f4-b6d7-69901988ce9b> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Attollite portas principes" .
+
+<c34fd151-5225-4297-a440-2e40ccde2168> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "édition à compte d'auteur" .
+
+<c350f95f-f43e-4bc4-8229-d341b1f9f2b6> crm:P1_is_identified_by "EP toccade" .
+
+<c3529136-4946-4013-86a5-d5f97a3574fd> a crm:E55_Type ;
+    crm:P127_has_broader_term <c278f1e8-48cf-4948-9b7d-58d42e0c34a4> ;
+    crm:P1_is_identified_by "petit opéra (idyles, églogues)" .
+
+<c4b56a2e-4065-4335-963b-5365b19b5933> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie à machines" .
+
+<c4c511d8-cca1-4f72-ae79-0a0e0d096fa5> a crm:E55_Type ;
+    crm:P127_has_broader_term <96b84bdf-fe15-486b-99f0-e7cbe95ca5fa> ;
+    crm:P1_is_identified_by "carnaval" .
+
+<c4e7475c-6619-4a7d-a3a2-1fa3d03be61f> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air de ballet" .
+
+<c5309c26-f4f2-4c19-8c85-7f0aa4d426de> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "fantaisie" .
+
+<c5613645-696c-43b0-8fe5-b33b4c2ebd06> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "souper du roi" .
+
+<c5c193ed-3099-4240-aa69-badf848c7584> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "réponse" .
+
+<c6facb1a-7f8e-45d0-8c16-2444351cf4db> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse des cinq pas" .
+
+<c74e53b5-18b6-44c6-bd7f-244987de3366> a crm:E55_Type ;
+    crm:P127_has_broader_term <b68588c3-5459-487d-ad93-2599721f62bb> ;
+    crm:P1_is_identified_by "poétique de l'opéra" .
+
+<c7ca0b56-42d8-4679-8f0c-fa0202129649> a crm:E55_Type ;
+    crm:P127_has_broader_term <a2c70925-d51e-489c-ae5c-e8bbab1a060b> ;
+    crm:P1_is_identified_by "origine de la musique" .
+
+<c82c8bce-a844-4822-9651-3585cf6c0f76> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Cantate Domino canticum novum" .
+
+<c8ca04e2-8535-4676-9e30-83ea3469cbcd> a crm:E55_Type ;
+    crm:P127_has_broader_term <0990bb2c-624b-45f9-bc15-c15ac5ab46d6> ;
+    crm:P1_is_identified_by "tric-trac" .
+
+<c8f8611a-603a-480c-8b10-e4841b3199c2> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de la Portioncule" .
+
+<c9912fb7-8b2b-4d19-9882-bd75fc0ef740> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Pange lingua gloriosi corporis" .
+
+<c996a1e5-09ba-4415-93d9-060d3a70a2a4> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Toussaint" .
+
+<c9de0844-1dc4-406b-ab36-3b490df7fdf3> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "fête de Saint-Georges" .
+
+<ca35cdf9-1876-484a-9d04-714908185582> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie antique" .
+
+<cabe0ac7-77e4-4470-880b-42c069b14863> a crm:E55_Type ;
+    crm:P127_has_broader_term <48bbb298-0ba3-4aa7-836f-e2f8562ae85f> ;
+    crm:P1_is_identified_by "retour de campagne" .
+
+<cb0da78b-01f2-4cf6-a485-47f031588d94> a crm:E55_Type ;
+    crm:P127_has_broader_term <696019ca-af56-4780-9a1d-d6648471a04d> ;
+    crm:P1_is_identified_by "commentaire des paroles" .
+
+<cbccc300-874d-416d-90f7-221801f1c9db> a crm:E55_Type ;
+    crm:P127_has_broader_term <9d4ff2f1-07a4-47fe-9805-3bbe795d94e3> ;
+    crm:P1_is_identified_by "timbale du Siam" .
+
+<cc4bbd65-3760-40a0-a8cc-769fe6609976> a crm:E55_Type ;
+    crm:P127_has_broader_term <42db7001-2782-41fc-8e44-37d27ae8daf5> ;
+    crm:P1_is_identified_by "intermède dansé" .
+
+<cc6683f5-c105-4772-9935-8c4ba63faa61> a crm:E55_Type ;
+    crm:P127_has_broader_term <53048581-b7b4-4ffe-8dc8-2dbc0cbda46a> ;
+    crm:P1_is_identified_by "castagnettes" .
+
+<cca20003-3d0e-4d92-aa59-eb2be3398b87> a crm:E55_Type ;
+    crm:P127_has_broader_term <f15d3223-4912-40dc-a2bd-02b5b7c95897> ;
+    crm:P1_is_identified_by "réception d'une oeuvre musicale" .
+
+<cd617459-8acf-4e4f-86d6-8d21785a1f31> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "mandement" .
+
+<cdb2bd2b-bb15-45a9-afa9-148effd603c9> a crm:E55_Type ;
+    crm:P127_has_broader_term <18138bf7-becf-4d12-8a24-850dd27fd9be> ;
+    crm:P1_is_identified_by "coutume religieuse" .
+
+<cdb2e512-3946-46f9-8fb3-228efce4119a> a crm:E55_Type ;
+    crm:P127_has_broader_term <3013fb1c-4ac0-4ba7-ac11-a18e283ac11e> ;
+    crm:P1_is_identified_by "messe chantée en langue étrangère" .
+
+<cdf06e88-a877-4541-8e4f-54b25c6df1b9> a crm:E55_Type ;
+    crm:P127_has_broader_term <9674e19a-b68d-4f78-a1d5-58f61034463d> ;
+    crm:P1_is_identified_by "établissement d'un hôpital" .
+
+<cdf81f22-8a7e-4210-a851-d3a4ef7c2e94> a crm:E55_Type ;
+    crm:P127_has_broader_term <efc0f26f-5276-4ec3-971b-22b52ac371d8> ;
+    crm:P1_is_identified_by "observations" .
+
+<ce147c4c-60f3-4a30-b4aa-06b9270e62ef> a crm:E55_Type ;
+    crm:P127_has_broader_term <924f1b40-f4ba-4678-9a89-6ab9620828c9>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique champêtre" .
+
+<ceb1b584-40f4-42a6-aa0d-efa9b827903d> a crm:E55_Type ;
+    crm:P127_has_broader_term <421a065e-459a-45dd-90c0-02aaae8bfe9b> ;
+    crm:P1_is_identified_by "représentation théâtrale" .
+
+<cf0ad95b-41a3-43d4-bfd8-5f83515669ac> a crm:E55_Type ;
+    crm:P127_has_broader_term <38835184-14e4-47c1-9683-820778046467> ;
+    crm:P1_is_identified_by "dialogue italien" .
+
+<cf1482dd-282d-44e1-a5db-5540c73068de> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air espagnol" .
+
+<cf80f9d6-e287-4b18-915f-820243b719ed> a crm:E55_Type ;
+    crm:P127_has_broader_term <ce87c53b-36ad-4a9e-87c9-f345bacc4c01> ;
+    crm:P1_is_identified_by "funèbre" .
+
+<cf8a62ef-bbd3-4b6d-a16f-99926c709de2> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Libera me en musique" .
+
+<cfa4ec38-cc03-4c79-9a9d-8669894fad52> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d9c27e1-d759-489a-9a83-a7d4856de4ea> ;
+    crm:P1_is_identified_by "églogue" .
+
+<cfbc7c56-de9e-491d-844a-d962c27385dc> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "lundi gras" .
+
+<cfcb2103-d44f-4729-ac18-ce5fbe1de518> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Épiphanie" .
+
+<d0a10e65-805b-49a4-8d02-d078462a95a5> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "ode" .
+
+<d0bc6b12-eb6d-44ea-975a-824cfeb70221> a crm:E55_Type ;
+    crm:P127_has_broader_term <992c0d15-3b7b-4761-8208-4612f45558ae> ;
+    crm:P1_is_identified_by "salut en plain-chant" .
+
+<d1a4ba8c-ca26-4d51-8cf4-f3c1e102cf3b> a crm:E55_Type ;
+    crm:P127_has_broader_term <9e79ff42-61d9-400a-af9a-51b43ba05e48> ;
+    crm:P1_is_identified_by "nomination d'un cardinal" .
+
+<d2659524-b3cc-461f-b6e8-253674a84d6c> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse traditionnelle" .
+
+<d2833d5c-89ff-4c78-8e15-ce23d6af7fe6> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "laudes" .
+
+<d2a24a04-661c-4988-883f-a5fd103553ad> crm:P1_is_identified_by "NA sorte de bal turc (1687.08)" .
+
+<d2dcd348-b670-4278-b0ea-45a5270862bc> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "haute-contre de violon" .
+
+<d35e0189-66ff-452e-b566-2bb3a25f5b58> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f311ea7-4fb5-40ee-aa48-24c8f1911a12> ;
+    crm:P1_is_identified_by "islam" .
+
+<d3954ddc-9c2e-4e42-9400-b04f0d3fc64f> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "rondeau  (procédé de composition musicale)" .
+
+<d3ee03ad-2179-4390-9d27-65955585b216> a crm:E55_Type ;
+    crm:P127_has_broader_term <9674e19a-b68d-4f78-a1d5-58f61034463d> ;
+    crm:P1_is_identified_by "nomination d'un ambassadeur" .
+
+<d409bb72-81b4-4cab-9e3f-8a090b886ba3> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "réduction de Philippsburg" .
+
+<d4f6ab68-9856-4f1c-ac6b-c5b5477212d4> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse italienne" .
+
+<d56dd66f-aa53-47b5-a8c6-a96087ae4d99> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "psaltérion" .
+
+<d57ecf20-9261-440f-89a4-f56f0711dd2d> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d2e1da5-ddf7-4449-89ea-faad316d78a2> ;
+    crm:P1_is_identified_by "jeu de paume" .
+
+<d5afd182-82ba-4fc1-8fb3-8e9a07a520ed> a crm:E55_Type ;
+    crm:P127_has_broader_term <2688ec36-d5c6-4340-a457-6ee5f04f0d03> ;
+    crm:P1_is_identified_by "composition d'oeuvre musicale" .
+
+<d5db2f1c-a9d1-4d80-8923-4770691ed91b> a crm:E55_Type ;
+    crm:P127_has_broader_term <7dfb8b76-e31b-49f1-8ff2-403ab722c8fa> ;
+    crm:P1_is_identified_by "biographie de musicien" .
+
+<d655ffac-67ad-4e73-bcde-189afedb8cd1> a crm:E55_Type ;
+    crm:P127_has_broader_term <a44f9171-28ce-4921-8806-71261a87015d> ;
+    crm:P1_is_identified_by "carrière médicale" .
+
+<d66b4115-c5f0-43a5-8f0f-29bf5d12276f> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f311ea7-4fb5-40ee-aa48-24c8f1911a12> ;
+    crm:P1_is_identified_by "conversion" .
+
+<d70099c5-0fbb-4f11-af80-8e34ba74ab65> a crm:E55_Type ;
+    crm:P127_has_broader_term <e20afe35-3d13-4df9-be6c-bc487625835c> ;
+    crm:P1_is_identified_by "cérémonie militaire" .
+
+<d7496bb8-cd40-4bcf-a22e-0a7c8450efcb> a crm:E55_Type ;
+    crm:P127_has_broader_term <cf206b03-8a90-4818-aa29-f10a89c76181> ;
+    crm:P1_is_identified_by "ensemble de flûtes douces" .
+
+<d77f6544-d391-4415-9380-b827bd42fc11> a crm:E55_Type ;
+    crm:P127_has_broader_term <c4e42faf-8c59-40bb-a909-f85c85d98675> ;
+    crm:P1_is_identified_by "deuil" .
+
+<d77f89f6-95ed-4cbf-985d-d665fa7a48bc> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "enterrement" .
+
+<d7bc338b-6df8-4528-af17-bda09a3c21c7> a crm:E55_Type ;
+    crm:P127_has_broader_term <99042256-b298-4155-b60d-6648645455cc> ;
+    crm:P1_is_identified_by "violon français" .
+
+<d7d58fde-e5fd-4f80-81bb-30e769ac6249> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "cérémonie juive" .
+
+<d8006270-1f8c-4247-a868-12df367025cc> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "matines" .
+
+<d900e306-2e1d-407d-b5da-08f1b492c5b0> a crm:E55_Type ;
+    crm:P127_has_broader_term <421a065e-459a-45dd-90c0-02aaae8bfe9b> ;
+    crm:P1_is_identified_by "représentation privée" .
+
+<d9141c2e-4296-4c39-ae2a-95a610ba13ea> a crm:E55_Type ;
+    crm:P127_has_broader_term <53048581-b7b4-4ffe-8dc8-2dbc0cbda46a> ;
+    crm:P1_is_identified_by "cymbale" .
+
+<d9684498-2cbf-4c07-bce8-337c71e6be19> a crm:E55_Type ;
+    crm:P127_has_broader_term <98d091fb-6a88-48d7-8c8c-28e1c271885b> ;
+    crm:P1_is_identified_by "ritournelle" .
+
+<d9988a90-b71b-42b6-9d5a-4426db996907> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd3fc290-8dc3-420c-bf0e-c3e140b99c2b> ;
+    crm:P1_is_identified_by "optique" .
+
+<da1c7115-aeff-4e4d-a934-af851f018550> a crm:E55_Type ;
+    crm:P127_has_broader_term <6a2d10ff-7cf8-43db-802a-a89ba5ffaec3> ;
+    crm:P1_is_identified_by "concert privé" .
+
+<da4402a6-b145-435a-b612-e4605ec657e9> a crm:E55_Type ;
+    crm:P127_has_broader_term <32497036-1ee6-4b9f-a0c3-5ab4a8b470c6> ;
+    crm:P1_is_identified_by "air instrumental" .
+
+<da4d2222-3360-40b7-ba1a-769ee96c619f> a crm:E55_Type ;
+    crm:P127_has_broader_term <54956ec2-168f-4897-bb53-24e34210dc37> ;
+    crm:P1_is_identified_by "branle à mener" .
+
+<dab766cc-c22f-4a3a-993b-49bef1cfb6c6> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "annonce éditoriale" .
+
+<dabf3136-ca6d-4b3c-93a9-5108a2512066> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie italienne" .
+
+<daed0de1-ac00-4575-ac1c-910daf6f3bbc> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "prime" .
+
+<db2625dd-fae0-4cfe-bd59-f3174785e65f> crm:P1_is_identified_by "EP flûte traversière" .
+
+<db48ec25-4f89-4195-8c57-99e5433f8cc9> a crm:E55_Type ;
+    crm:P127_has_broader_term <bda99ade-a439-46f3-a2e9-c8419216d96c> ;
+    crm:P1_is_identified_by "opéra romain" .
+
+<db9f7667-df4b-4168-9611-6a3419827c08> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "plain-chant" .
+
+<dbcbe950-d102-4b93-a805-1fd71c4f62be> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air français" .
+
+<dc68dd93-8577-41fb-82ce-b65278646b5a> a crm:E55_Type ;
+    crm:P127_has_broader_term <050d1f39-90e0-410a-9e1d-0c5ecc63305c> ;
+    crm:P1_is_identified_by "loterie" .
+
+<dcc64fa1-83dc-4f2c-ad3d-1293cbfd9cd9> a crm:E55_Type ;
+    crm:P127_has_broader_term <6f73bab6-097c-4c80-91e1-b7d6b7122a5e> ;
+    crm:P1_is_identified_by "reposoir" .
+
+<dcfb3600-e96c-49ce-b5ad-9e5011d00999> a crm:E55_Type ;
+    crm:P127_has_broader_term <b4da101a-c0d4-4f36-93fd-d61d15f063e3> ;
+    crm:P1_is_identified_by "établissement d'une paroisse" .
+
+<dd90535b-49a5-4b2d-84b0-c9364305af00> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "translation de reliques" .
+
+<ddcdb6bd-0811-4eea-9da5-ab3fd83c5a9f> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "oraison" .
+
+<de83df43-4a73-4f66-ad4f-71299a33f9fe> a crm:E55_Type ;
+    crm:P127_has_broader_term <92ba0924-6b5b-4f26-8043-2caa9ab92597> ;
+    crm:P1_is_identified_by "courante française" .
+
+<deae97a0-85c2-4a1f-9c91-9faa3003b4a9> a crm:E55_Type ;
+    crm:P127_has_broader_term <519414b1-592b-4cfe-8f41-a70556f2f747> ;
+    crm:P1_is_identified_by "éloge du roi" .
+
+<dec552f0-20ed-4621-acf8-676514d2133e> a crm:E55_Type ;
+    crm:P127_has_broader_term <01db661e-6ebe-413a-9676-b80805af0490> ;
+    crm:P1_is_identified_by "prix de l'arquebuse" .
+
+<df5f460d-0436-41b2-a024-620a8c65619a> a crm:E55_Type ;
+    crm:P127_has_broader_term <5db51f2c-69ef-42f1-a3f8-12e6488c9857> ;
+    crm:P1_is_identified_by "opéra spirituel" .
+
+<dfd1a9d1-ec79-41a4-891d-aa30f6f4517f> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd68fcb1-ac4a-442d-9c97-f979619f62bf> ;
+    crm:P1_is_identified_by "langue française" .
+
+<e01c8e84-1cd0-496e-a19c-db80a813a58b> a crm:E55_Type ;
+    crm:P127_has_broader_term <2c396e9b-ec77-47e1-ba09-6a5edc2b268f> ;
+    crm:P1_is_identified_by "comédie française" .
+
+<e069ecbe-765f-45a1-a68b-b1f6ca8fcc69> a crm:E55_Type ;
+    crm:P127_has_broader_term <eeeb50b7-fda0-496b-9f28-f93723777915> ;
+    crm:P1_is_identified_by "vie quotidienne" .
+
+<e07a6bea-d26c-4d4b-8389-fc3114f8884c> a crm:E55_Type ;
+    crm:P127_has_broader_term <0e2c2d2d-85b4-4c33-bf22-268a2b2850fc> ;
+    crm:P1_is_identified_by "franchise portuaire" .
+
+<e0e75d04-4add-407d-9f51-f6b5ef321859> a crm:E55_Type ;
+    crm:P127_has_broader_term <9be8c9e5-6220-4b24-9fb2-5c28013d3429> ;
+    crm:P1_is_identified_by "nouvelle" .
+
+<e108369c-c01d-4b1a-acbe-1e00ddb1970d> a crm:E55_Type ;
+    crm:P127_has_broader_term <ce87c53b-36ad-4a9e-87c9-f345bacc4c01> ;
+    crm:P1_is_identified_by "pastoral" .
+
+<e11e0322-3e09-43ae-be4c-ac30a975c769> a crm:E55_Type ;
+    crm:P127_has_broader_term <140107ed-3eae-4348-93ab-4af10616c8ce> ;
+    crm:P1_is_identified_by "vigiles en musique" .
+
+<e12f7dde-0661-4272-89e0-d2c641fe2a8e> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air à danser" .
+
+<e1653739-c467-4801-9717-a5971872c4dd> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "réception d'un évêque" .
+
+<e1e040c9-ca29-469b-b6fc-30bf5f9d4354> a crm:E55_Type ;
+    crm:P127_has_broader_term <713d45a0-3b33-47c8-acd3-be3296b91dc6> ;
+    crm:P1_is_identified_by "piédestal" .
+
+<e1f4aeca-3574-4dce-b41e-9123cf755867> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air à boire" .
+
+<e1fead59-d8c3-4627-ab47-1073b4de0ef1> a crm:E55_Type ;
+    crm:P127_has_broader_term <7e020e6b-c7b4-49f2-82cd-67a30d72c829> ;
+    crm:P1_is_identified_by "pièce à machines mêlée de musique" .
+
+<e260a923-e54e-4872-ac7f-e31aef57bb58> a crm:E55_Type ;
+    crm:P127_has_broader_term <9d788587-7087-4a60-87fb-a67acfcf3e46> ;
+    crm:P1_is_identified_by "harangue" .
+
+<e28b1543-8702-4584-a964-5292ea99c9dd> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "tombeau" .
+
+<e2b82913-5ce8-45d4-a438-ec37d86bfbe2> a crm:E55_Type ;
+    crm:P127_has_broader_term <904b5aae-8c3d-4f20-86f2-ababcf5d0aa2> ;
+    crm:P1_is_identified_by "chanson à boire" .
+
+<e3e3471b-ffea-447e-91e4-ae3006379477> a crm:E55_Type ;
+    crm:P127_has_broader_term <9be8c9e5-6220-4b24-9fb2-5c28013d3429> ;
+    crm:P1_is_identified_by "aventure" .
+
+<e4621135-25d3-40c9-90a2-7de146a408c4> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "fondation perpétuelle" .
+
+<e497b211-547a-4ec0-9702-85d3c3a27d0e> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "répons" .
+
+<e509bbe6-76c2-42e1-bc3a-12e78ea4fb18> a crm:E55_Type ;
+    crm:P127_has_broader_term <bda99ade-a439-46f3-a2e9-c8419216d96c> ;
+    crm:P1_is_identified_by "opéra génois" .
+
+<e55ba7e2-e1ca-4066-8dd1-10aef3d316da> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air italien" .
+
+<e65c19fe-2505-40b4-a4d5-7485b415ceb6> a crm:E55_Type ;
+    crm:P127_has_broader_term <a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176> ;
+    crm:P1_is_identified_by "théâtre spirituel" .
+
+<e6bb70cb-05c7-420a-be57-61dca869d5bc> a crm:E55_Type ;
+    crm:P127_has_broader_term <904b5aae-8c3d-4f20-86f2-ababcf5d0aa2> ;
+    crm:P1_is_identified_by "chanson provençale" .
+
+<e7356c01-bf29-45ed-8fe2-3cdd686075d4> a crm:E55_Type ;
+    crm:P127_has_broader_term <35ab1430-6474-42b2-8ea4-4bc627df1e44> ;
+    crm:P1_is_identified_by "éducation féminine" .
+
+<e7656de7-aff9-4e84-a321-8d6d37b988b4> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "publication nouvelle" .
+
+<e77efa05-df59-49fc-81d9-8d046763c2b2> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "leçon de ténèbres" .
+
+<e7cedfb2-95f3-4536-b14d-55a9584ef940> a crm:E55_Type ;
+    crm:P127_has_broader_term <05d7d279-55ff-4cfc-9f22-e6b20b10d663> ;
+    crm:P1_is_identified_by "iconographie des spectacles" .
+
+<e7ffcd58-ed63-4bc1-adb4-278426421fcd> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Chandeleur" .
+
+<e803a8ca-e950-40d7-99c3-0136d51a3ad4> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "prise de possession du Grand Prieuré de France" .
+
+<e8199598-fbdd-4050-9050-f46458d5ca10> a crm:E55_Type ;
+    crm:P127_has_broader_term <920892de-05ac-4e95-a036-a785e6af87c9> ;
+    crm:P1_is_identified_by "goût italien" .
+
+<e828e47b-a8a8-4678-9e33-3b833ef56163> a crm:E55_Type ;
+    crm:P127_has_broader_term <adc1cefa-0717-49b4-940b-1971e1f7311a> ;
+    crm:P1_is_identified_by "prière pour le roi" .
+
+<e84c8c4d-0d02-426e-a4e6-49e26cd858a3> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "illuminations" .
+
+<e8756f40-cd69-4d4b-b19c-8cf12d6ce824> a crm:E55_Type ;
+    crm:P127_has_broader_term <18138bf7-becf-4d12-8a24-850dd27fd9be> ;
+    crm:P1_is_identified_by "coutume étrangère" .
+
+<e87d0a89-c642-444f-a64c-8d41afaaa455> a crm:E55_Type ;
+    crm:P127_has_broader_term <c278f1e8-48cf-4948-9b7d-58d42e0c34a4> ;
+    crm:P1_is_identified_by "comédie en musique" .
+
+<e8b554d1-1794-4bd1-8ad3-ae7ff2d162c1> a crm:E55_Type ;
+    crm:P127_has_broader_term <33113ae6-f696-4eaf-b375-55ec699e487f> ;
+    crm:P1_is_identified_by "harmonie" .
+
+<e8d01cd8-6b25-4966-9f87-20f3f55be660> a crm:E55_Type ;
+    crm:P127_has_broader_term <19c125a8-fb0c-4eae-b108-38c1656d0e25> ;
+    crm:P1_is_identified_by "sacre d'un archevêque" .
+
+<e90faff1-a250-47e5-b22a-1f991b3dce59> a crm:E55_Type ;
+    crm:P127_has_broader_term <02853a65-c3e6-42da-b5df-c285dd4599eb> ;
+    crm:P1_is_identified_by "goût du public d'opéra" .
+
+<e94b1ddc-6b41-4c1b-b528-43e11c7aa0d0> a crm:E55_Type ;
+    crm:P127_has_broader_term <519414b1-592b-4cfe-8f41-a70556f2f747> ;
+    crm:P1_is_identified_by "éloge d'un saint" .
+
+<e94d54e1-1acb-4faa-b484-396cd54daa22> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse de Lianse" .
+
+<e9c84e30-2f1b-48dc-81d0-365a36d667db> a crm:E55_Type ;
+    crm:P127_has_broader_term <dc57b12f-a40e-4c2f-851f-813fb556fea0> ;
+    crm:P1_is_identified_by "messe funèbre = messe des morts ?" .
+
+<ea1fd243-1a2c-49c4-a76e-031f6ef8a152> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Quasimodo" .
+
+<ea2dac9a-19ce-4170-a2cc-63b188cddbaa> a crm:E55_Type ;
+    crm:P127_has_broader_term <2f988c7b-c38f-43b3-965a-3bab661e89d4> ;
+    crm:P1_is_identified_by "fête des chevaliers, archers et pistoliers de Péronne" .
+
+<ea611141-5009-491b-b7a3-6fe11b7e0ddd> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Domine salvum fac regem" .
+
+<ea7adfc1-c124-411d-ac56-74eb57828d6e> a crm:E55_Type ;
+    crm:P127_has_broader_term <18138bf7-becf-4d12-8a24-850dd27fd9be> ;
+    crm:P1_is_identified_by "coutume locale" .
+
+<eaa51d0f-8398-41ae-93e8-c903a63ee313> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "symphonie champêtre" .
+
+<eb551f95-635f-4f1e-bf32-39a0259687da> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "ouverture des Jeux Floraux de Toulouse" .
+
+<eb98bad0-9cb8-4ca7-8dd9-bd038f7b614d> a crm:E55_Type ;
+    crm:P127_has_broader_term <519414b1-592b-4cfe-8f41-a70556f2f747> ;
+    crm:P1_is_identified_by "éloge d'un prince" .
+
+<ec114c6d-3500-4cc7-bc25-9a6e3d490ca3> a crm:E55_Type ;
+    crm:P127_has_broader_term <e0f362e4-5ad9-4054-939b-4a1b7c2fc23b> ;
+    crm:P1_is_identified_by "célébration du retour de la santé du roi" .
+
+<ec4f286d-31a2-45a0-8d4a-0b1639dd46de> crm:P1_is_identified_by "EP invention d'instrument" .
+
+<ec91ddc8-672b-4c94-bf53-13b09a498914> a crm:E55_Type ;
+    crm:P127_has_broader_term <f8b6116d-ab78-4558-ab2f-01f63f9f989b> ;
+    crm:P1_is_identified_by "tambour de basque" .
+
+<ecc0d7cc-4e40-4303-b99f-dd54bea96100> a crm:E55_Type ;
+    crm:P127_has_broader_term <9252ef15-e77a-4809-a364-b20277d9ced3> ;
+    crm:P1_is_identified_by "satyrique" .
+
+<ece09ae5-10d4-49d0-a618-ba02a4d4cc7a> a crm:E55_Type ;
+    crm:P127_has_broader_term <e94f3978-741a-4b6a-9808-e87a3bccfd8e> ;
+    crm:P1_is_identified_by "bénédiction de la première pierre d'un édifice" .
+
+<edbfde30-745f-4354-b643-5fab14595f5d> a crm:E55_Type ;
+    crm:P127_has_broader_term <771daf55-40f0-4f8c-85b9-142eb79647f2> ;
+    crm:P1_is_identified_by "actualité étrangère" .
+
+<edf67a4a-81ec-4665-aa68-d2af7bb3e028> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "musiciens italiens" .
+
+<eea9e1f6-6b22-4d94-a75f-391a5fea3124> a crm:E55_Type ;
+    crm:P127_has_broader_term <bfbd77de-fd6a-4757-bd3a-bee4344b9b25> ;
+    crm:P1_is_identified_by "gestation d'oeuvre" .
+
+<eeb322d1-b484-4685-9106-7368a38dedca> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "basse" .
+
+<ef3b9752-80f3-41d7-ba17-f96768803949> a crm:E55_Type ;
+    crm:P127_has_broader_term <b0a3f789-8509-453a-a6d7-2a93a3b323fb> ;
+    crm:P1_is_identified_by "entrée princière" .
+
+<ef461ebf-e94e-49b5-a921-7f5e86175bbe> a crm:E55_Type ;
+    crm:P127_has_broader_term <02ddc34b-619e-4239-a370-564718320872> ;
+    crm:P1_is_identified_by "mariage princier" .
+
+<ef51b3ce-8510-41ba-ad82-71eca99436b1> a crm:E55_Type ;
+    crm:P127_has_broader_term <924f1b40-f4ba-4678-9a89-6ab9620828c9>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique de table" .
+
+<ef53c07e-4d21-47d4-bff1-94b4da8d7a52> a crm:E55_Type ;
+    crm:P127_has_broader_term <313d6352-8bd2-4e82-b156-e5d4311de0ba> ;
+    crm:P1_is_identified_by "Antiquité gauloise" .
+
+<f0846ac2-ce43-424e-ab83-6d4afdca1249> crm:P1_is_identified_by "EP polychoralité" .
+
+<f129225b-26ae-436e-8628-ae706bd5af03> a crm:E55_Type ;
+    crm:P127_has_broader_term <04f00e69-afcf-4993-af23-51a68e4f7522> ;
+    crm:P1_is_identified_by "exposition perpétuelle du Saint-Sacrement" .
+
+<f162208e-2c96-4d24-9492-970949616cf1> a crm:E55_Type ;
+    crm:P127_has_broader_term <6c5e25ef-f8f3-4b9d-a1b0-4f13d015e840> ;
+    crm:P1_is_identified_by "jeu de l'arc" .
+
+<f18478d1-e576-4bbb-9604-588b2f98a929> a crm:E55_Type ;
+    crm:P127_has_broader_term <ce87c53b-36ad-4a9e-87c9-f345bacc4c01> ;
+    crm:P1_is_identified_by "animalier" .
+
+<f1a8d44c-7ad0-4c73-8145-df79f047dda5> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "sérénade" .
+
+<f1b17e4a-eba2-482f-971f-e7ab77ef25ba> a crm:E55_Type ;
+    crm:P127_has_broader_term <bd0edc43-2e44-4125-96f3-f04c0d06d0dd> ;
+    crm:P1_is_identified_by "tablature" .
+
+<f2649c37-9a20-4fdd-b427-0c601b7853a1> a crm:E55_Type ;
+    crm:P127_has_broader_term <b69abc0e-2a92-400b-909c-cb811e069021> ;
+    crm:P1_is_identified_by "Te Deum laudamus en musique" .
+
+<f31c427f-2b4a-4288-8322-34953db44e5a> a crm:E55_Type ;
+    crm:P127_has_broader_term <4cff6757-9c6e-4517-ae1e-7d5df6bd1e62> ;
+    crm:P1_is_identified_by "galanterie" .
+
+<f35bff70-4cd1-4ec2-b8d7-9fc085ea1ecf> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse de la ceinture" .
+
+<f3a07f8f-bf06-447c-831d-a4c44c976466> a crm:E55_Type ;
+    crm:P127_has_broader_term <db901bcc-810c-4b0c-9875-30d2d208009b> ;
+    crm:P1_is_identified_by "air en dialogue" .
+
+<f4191c20-755f-4d9e-9f32-3e0afe01bd4a> a crm:E55_Type ;
+    crm:P127_has_broader_term <34f92b61-14d1-4cb2-b2c6-efb23ae217f3> ;
+    crm:P1_is_identified_by "livre nouveau" .
+
+<f48d1848-4a6e-4958-b1e8-99fe5d658610> a crm:E55_Type ;
+    crm:P127_has_broader_term <b84d0dc6-85fb-49f5-9c5f-3e6e9f80d88e> ;
+    crm:P1_is_identified_by "estampe" .
+
+<f4a3af38-895b-4004-bd05-322acd10e70b> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "instrumentiste" .
+
+<f4c38c6c-7964-49a2-8466-c7e9c331e957> a crm:E55_Type ;
+    crm:P127_has_broader_term <231fb18d-0120-41bf-bce8-78ece84a5459> ;
+    crm:P1_is_identified_by "prise de Mons" .
+
+<f4e28ca0-9110-4c4b-8866-679c8e582d32> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d2e1da5-ddf7-4449-89ea-faad316d78a2> ;
+    crm:P1_is_identified_by "jeu des pots cassés" .
+
+<f5461e50-6725-4812-b79b-1a7d011d5ad4> a crm:E55_Type ;
+    crm:P127_has_broader_term <18ae7ae0-4b46-473b-ac3d-9a3716250af3> ;
+    crm:P1_is_identified_by "prologue d'opéra" .
+
+<f56b985e-8c2a-4dfb-9bb8-8bf58621cf80> a crm:E55_Type ;
+    crm:P127_has_broader_term <a44f9171-28ce-4921-8806-71261a87015d> ;
+    crm:P1_is_identified_by "carrière artistique" .
+
+<f58d18a2-3d78-45de-9b09-472beb4ea7f9> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "stances" .
+
+<f5b71ff8-67be-41d7-96da-5d9ac93d2c9f> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "bourrée" .
+
+<f5b965da-46aa-457a-b853-b95b87b5035f> a crm:E55_Type ;
+    crm:P127_has_broader_term <adc1cefa-0717-49b4-940b-1971e1f7311a> ;
+    crm:P1_is_identified_by "oraison pour le roi" .
+
+<f5da74b3-53d3-4651-935b-822fee6f5b4a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2da6cd3-85b8-4f44-8cf7-a51eff467c1c> ;
+    crm:P1_is_identified_by "italien" .
+
+<f5e6e1f7-add0-4b8a-ab9f-2058ab284b5f> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse antique" .
+
+<f5f4a342-c478-4d7e-a41c-7ee85f29209f> a crm:E55_Type ;
+    crm:P127_has_broader_term <f67441ab-7eae-4450-a46e-1e010ab236d5> ;
+    crm:P1_is_identified_by "réception publique" .
+
+<f62fd667-cf86-4e88-9697-e1d9ff9f06d8> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "dessus de viole" .
+
+<f6542c50-3aef-48a9-bceb-29b400a12ca5> a crm:E55_Type ;
+    crm:P127_has_broader_term <73f2ab66-977e-459a-92ef-57477c05c495> ;
+    crm:P1_is_identified_by "suite de danses" .
+
+<f6a093e7-85bf-4031-9fda-4763911c372d> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "fable" .
+
+<f6c3d539-8606-4974-8c32-31fc16546dd3> a crm:E55_Type ;
+    crm:P127_has_broader_term <8bda71d8-03cb-4f2b-9380-4ed5c54a1a22> ;
+    crm:P1_is_identified_by "ballet à machines" .
+
+<f6e9efd4-c644-41d7-8c81-7bde9e1eaec7> a crm:E55_Type ;
+    crm:P127_has_broader_term <dc57b12f-a40e-4c2f-851f-813fb556fea0> ;
+    crm:P1_is_identified_by "messe solennelle" .
+
+<f6effc89-80bf-4f92-8a48-7b3437366626> a crm:E55_Type ;
+    crm:P127_has_broader_term <9e79ff42-61d9-400a-af9a-51b43ba05e48> ;
+    crm:P1_is_identified_by "nomination d'une abbesse" .
+
+<f72ab775-26e3-40dd-a43b-b294c42ff513> a crm:E55_Type ;
+    crm:P127_has_broader_term <05d7d279-55ff-4cfc-9f22-e6b20b10d663> ;
+    crm:P1_is_identified_by "iconographie musicale" .
+
+<f76e9a49-4b86-4061-953f-6ee34cb4f4ba> a crm:E55_Type ;
+    crm:P127_has_broader_term <18138bf7-becf-4d12-8a24-850dd27fd9be> ;
+    crm:P1_is_identified_by "charivari" .
+
+<f8501a64-4ef4-4945-a8a5-131cd4e53311> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d9c27e1-d759-489a-9a83-a7d4856de4ea> ;
+    crm:P1_is_identified_by "idylle" .
+
+<f90527ce-0688-440c-be98-799b8521a584> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Quarante heures" .
+
+<f9059c5c-32c3-441b-9999-701eb03dfb35> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "archiluth" .
+
+<f93f6134-e2cf-4c42-8242-e174fe12f1b5> a crm:E55_Type ;
+    crm:P127_has_broader_term <82a9556d-e0df-497c-b868-d56dd3caf905> ;
+    crm:P1_is_identified_by "création d'académie" .
+
+<f971fdc9-3992-496d-97ea-67bfba825eba> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "fifre" .
+
+<fa25a783-42f8-44c2-8132-7603122aa2b7> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d2e1da5-ddf7-4449-89ea-faad316d78a2> ;
+    crm:P1_is_identified_by "jeu de portique" .
+
+<fa28c454-e950-44f2-a9ef-36e0c1c87d1d> a crm:E55_Type ;
+    crm:P127_has_broader_term <f67441ab-7eae-4450-a46e-1e010ab236d5> ;
+    crm:P1_is_identified_by "réception privée" .
+
+<fa36147a-2bb0-4679-ad5f-512701bb9753> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "publication de poésie" .
+
+<fa6b5df1-5476-44a6-9763-0741f6265454> a crm:E55_Type ;
+    crm:P127_has_broader_term <d32d3cd0-53ca-4d22-8190-4b3c14dccb1d>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique chinoise" .
+
+<fad4eae9-59b1-41d5-904f-f5ba8acf9908> a crm:E55_Type ;
+    crm:P127_has_broader_term <96b84bdf-fe15-486b-99f0-e7cbe95ca5fa> ;
+    crm:P1_is_identified_by "fête de Notre-Dame-des-victoires" .
+
+<fb081ce5-391b-4706-9da3-6852e1d7fb9b> a crm:E55_Type ;
+    crm:P127_has_broader_term <0433037a-bb3f-4af4-825a-496075851270> ;
+    crm:P1_is_identified_by "Exaudiat te Dominus en musique" .
+
+<fb0c0a32-295d-4834-8249-c4db1db136d1> a crm:E55_Type ;
+    crm:P127_has_broader_term <313d6352-8bd2-4e82-b156-e5d4311de0ba> ;
+    crm:P1_is_identified_by "Antiquité hébraïque" .
+
+<fbcffdb0-0bfc-4b44-a768-7b0f8dc97e6b> a crm:E55_Type ;
+    crm:P127_has_broader_term <17f202eb-d194-4520-bb9c-4c577d749f6f> ;
+    crm:P1_is_identified_by "art du chant" .
+
+<fcf5fdc3-9a7b-4929-916b-afa828e6d8a9> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "ballade" .
+
+<fcf708d0-2f0f-4050-b40e-7317755020d2> a crm:E55_Type ;
+    crm:P127_has_broader_term <b2eae0e3-b8d3-467a-b354-128e5c4a4e9a> ;
+    crm:P1_is_identified_by "remède" .
+
+<fd39a3e7-9951-463f-ba50-94d4f2498724> crm:P1_is_identified_by "NA instrument nouveau ressemblant au théorbe (1678.01)" .
+
+<fd66f4bf-0cfd-4aae-afea-5733f4bdf13f> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "prononciation de voeux" .
+
+<fd87a2a6-74c9-458e-af39-48d6fbb244ba> a crm:E55_Type ;
+    crm:P127_has_broader_term <e0f362e4-5ad9-4054-939b-4a1b7c2fc23b> ;
+    crm:P1_is_identified_by "célébration d'une victoire militaire" .
+
+<fda42805-a0c8-425a-bf7c-4e3f22f4001f> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "oratorio" .
+
+<fdf9b88f-8ac1-4b2a-9b8e-cb1c62191c7d> a crm:E55_Type ;
+    crm:P127_has_broader_term <74603aab-65d0-4753-97ff-b1eba21af86e> ;
+    crm:P1_is_identified_by "parodie" .
+
+<fe4975be-e543-42e3-a1ec-295bef26b694> a crm:E55_Type ;
+    crm:P127_has_broader_term <f67441ab-7eae-4450-a46e-1e010ab236d5> ;
+    crm:P1_is_identified_by "réception officielle" .
+
+<fee1fa68-0417-43c5-aa7b-e6d20dbc9710> a crm:E55_Type ;
+    crm:P127_has_broader_term <74603aab-65d0-4753-97ff-b1eba21af86e> ;
+    crm:P1_is_identified_by "paroles à mettre en air" .
+
+<ff5dc3f6-2aa6-4017-8540-72a62a339473> a crm:E55_Type ;
+    crm:P127_has_broader_term <9d89260f-c57d-40e7-b2de-4be729ff8c5f> ;
+    crm:P1_is_identified_by "passepied de Bretagne" .
+
+<44615793-155a-4439-bb0e-5d26c08089f2> a lrmoo:F34_Controlled_Vocabulary ;
+    sherlock:sheP_a_pour_entité_de_plus_haut_niveau <02853a65-c3e6-42da-b5df-c285dd4599eb>,
+        <03352a9a-05e9-474c-8c5a-14adc8d75045>,
+        <05d7d279-55ff-4cfc-9f22-e6b20b10d663>,
+        <0e2c2d2d-85b4-4c33-bf22-268a2b2850fc>,
+        <0f249d4c-e43d-4fac-970b-8b536fb508c2>,
+        <12fc9d12-3aea-4e4c-9c0d-6353f11d327e>,
+        <18138bf7-becf-4d12-8a24-850dd27fd9be>,
+        <196a4f53-c94e-4157-9177-1b5b5ec0c8e3>,
+        <1ad7f140-6d69-44a1-b4bb-37e5bf82e3a1>,
+        <1ff810fc-1fb6-47f8-b36c-2b1e31cac429>,
+        <26b648fd-2cc9-415d-aca1-2fce81d3578f>,
+        <2f311ea7-4fb5-40ee-aa48-24c8f1911a12>,
+        <313d6352-8bd2-4e82-b156-e5d4311de0ba>,
+        <33113ae6-f696-4eaf-b375-55ec699e487f>,
+        <35ab1430-6474-42b2-8ea4-4bc627df1e44>,
+        <408bcdcb-351d-41b9-8191-e3193eef6134>,
+        <4120d869-85f7-4ada-8848-2f88c76ef432>,
+        <4655095a-0f7c-4dd1-a3a6-7467e81946d8>,
+        <46ae6127-976e-42b2-8509-ab38767aa6e2>,
+        <48bbb298-0ba3-4aa7-836f-e2f8562ae85f>,
+        <4aca3650-87b9-46f6-aec6-601cbb4c89a6>,
+        <4cff6757-9c6e-4517-ae1e-7d5df6bd1e62>,
+        <500295f9-347c-4781-bb8a-4f46ea5348b6>,
+        <51eb8595-c339-47f1-9263-b382a3223e93>,
+        <58b6c4e3-08b6-400d-bab4-5935cc8ec54a>,
+        <597b95cd-09dd-4352-8928-b8e3069b2b1e>,
+        <59f3ed4e-8813-4d1b-8ecf-095d12ac1ee8>,
+        <5b7d78e8-6faa-4b18-88c0-8f44ddd874a6>,
+        <5c263d0f-0002-4787-b639-9fcb150245d1>,
+        <5f471fa6-6e17-42d6-b70c-b2e059821419>,
+        <61a38f83-967c-4910-8b0a-9c7c779d6bef>,
+        <627dc9b2-f093-4935-9340-03d1a832222d>,
+        <6425e7e7-5f36-4898-9254-61e54f490156>,
+        <679aa7e7-5d40-4a7a-87a7-30b74a1eb0d1>,
+        <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac>,
+        <6994cde4-2a48-4887-9888-138133e045f8>,
+        <6a2d10ff-7cf8-43db-802a-a89ba5ffaec3>,
+        <70d7afb2-21b3-4bd8-a8b6-df55ea511c79>,
+        <713d45a0-3b33-47c8-acd3-be3296b91dc6>,
+        <74603aab-65d0-4753-97ff-b1eba21af86e>,
+        <76d11682-c8e4-448a-8d1a-e90f2ba86148>,
+        <771daf55-40f0-4f8c-85b9-142eb79647f2>,
+        <7d790e1b-76eb-4afc-988e-f214cac1ab51>,
+        <7dfb8b76-e31b-49f1-8ff2-403ab722c8fa>,
+        <7e51344f-6146-4561-b330-285d771a21c7>,
+        <8083bad1-096d-4adb-b0df-f3781e0afa9e>,
+        <81395c30-2eef-4640-81ce-5fa54dfe532c>,
+        <826980d0-d34b-4e24-b129-e87b6f013e9e>,
+        <82a9556d-e0df-497c-b868-d56dd3caf905>,
+        <89dc0cb8-314e-4284-9435-92f748e5e249>,
+        <8adb9b4d-5b49-448c-bce3-d18f30f54e00>,
+        <8f175f84-c5a2-40e2-909f-e673d1e5183c>,
+        <903996a0-a333-445f-9036-1190ec745e82>,
+        <924f1b40-f4ba-4678-9a89-6ab9620828c9>,
+        <9674e19a-b68d-4f78-a1d5-58f61034463d>,
+        <96b84bdf-fe15-486b-99f0-e7cbe95ca5fa>,
+        <98d091fb-6a88-48d7-8c8c-28e1c271885b>,
+        <99d897ad-00bf-4905-ae75-e8cae927a4ed>,
+        <9be8c9e5-6220-4b24-9fb2-5c28013d3429>,
+        <9c367a18-419c-499d-809a-4be816f4e2ea>,
+        <9d788587-7087-4a60-87fb-a67acfcf3e46>,
+        <9fa066dc-d22b-499f-b7cc-81382ebf0ccd>,
+        <a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176>,
+        <a2c70925-d51e-489c-ae5c-e8bbab1a060b>,
+        <a44f9171-28ce-4921-8806-71261a87015d>,
+        <a4955ea2-c070-40af-8f96-e8f7abd02a4f>,
+        <a50f859c-2bcf-408c-9d82-a0729628e874>,
+        <a522940c-9bf5-437c-9049-6c59fffc2dab>,
+        <a9fdf9ba-f5dd-4e97-a185-ed941f8ad644>,
+        <aae2d73a-14d8-4dd4-b19e-53445412ab59>,
+        <aae2e07e-d7a7-4160-a7ce-606ab251a18b>,
+        <adc1cefa-0717-49b4-940b-1971e1f7311a>,
+        <b04e8789-952b-4fec-97f7-4ad3cf586476>,
+        <b2eae0e3-b8d3-467a-b354-128e5c4a4e9a>,
+        <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad>,
+        <b4da101a-c0d4-4f36-93fd-d61d15f063e3>,
+        <b67f1a90-256b-4ad3-8b3a-830d1362e48f>,
+        <b68588c3-5459-487d-ad93-2599721f62bb>,
+        <b84fd425-80b5-4ec3-b7fa-029634cb919b>,
+        <bcd0e11a-91b3-4f94-9a0d-e325349baf4b>,
+        <bfbd77de-fd6a-4757-bd3a-bee4344b9b25>,
+        <bfd4e1db-1966-4637-8953-7f453db8df61>,
+        <c183897b-2356-48f8-9d22-91d76f2fa6fe>,
+        <c278f1e8-48cf-4948-9b7d-58d42e0c34a4>,
+        <cd3fc290-8dc3-420c-bf0e-c3e140b99c2b>,
+        <cd68fcb1-ac4a-442d-9c97-f979619f62bf>,
+        <ce87c53b-36ad-4a9e-87c9-f345bacc4c01>,
+        <cf206b03-8a90-4818-aa29-f10a89c76181>,
+        <d2da6cd3-85b8-4f44-8cf7-a51eff467c1c>,
+        <dbadee7c-56b6-47f2-b89d-58e57077392c>,
+        <dd2a95b0-f377-4511-8bc8-2fdd324a1a86>,
+        <dd8962b6-3ddf-4886-aa77-24a75d44a856>,
+        <e0f362e4-5ad9-4054-939b-4a1b7c2fc23b>,
+        <e20afe35-3d13-4df9-be6c-bc487625835c>,
+        <e3fa1e5a-e07b-4f82-b128-c05afc41a8c6>,
+        <ea0cef8f-101e-443c-897e-1ca6247ead48>,
+        <ec450c9e-0ae3-4237-87d5-82444c406895>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c>,
+        <ed98af66-44fc-46e9-926d-fa389382bdbb>,
+        <eeeb50b7-fda0-496b-9f28-f93723777915>,
+        <efc0f26f-5276-4ec3-971b-22b52ac371d8>,
+        <f01d4a97-efd4-4a58-8563-efa94ed04ff6>,
+        <f02540bb-f944-4627-8f10-0c02e489c984>,
+        <f15d3223-4912-40dc-a2bd-02b5b7c95897>,
+        <f55af868-a53d-4bb5-9092-bd3f2f41d736>,
+        <f67441ab-7eae-4450-a46e-1e010ab236d5>,
+        <fbaef780-31c1-455d-a0d7-78c17505e65f>,
+        <ff8e7d4c-250c-43fd-9b77-177c8234fe9d> ;
+    crm:P1_is_identified_by "Thésaurus des mots-clefs du Mercure Galant" .
+
+<01db661e-6ebe-413a-9676-b80805af0490> a crm:E55_Type ;
+    crm:P127_has_broader_term <6c5e25ef-f8f3-4b9d-a1b0-4f13d015e840> ;
+    crm:P1_is_identified_by "jeu de l'arquebuse" .
+
+<01f977a6-adfd-4ec5-a5ca-8e861696bff5> crm:P1_is_identified_by "TG théorie de la musique" .
+
+<02ddc34b-619e-4239-a370-564718320872> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "mariage" .
+
+<03352a9a-05e9-474c-8c5a-14adc8d75045> a crm:E55_Type ;
+    crm:P1_is_identified_by "instrument de musique" .
+
+<0433037a-bb3f-4af4-825a-496075851270> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Exaudiat te Dominus" .
+
+<04f00e69-afcf-4993-af23-51a68e4f7522> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "exposition du Saint-Sacrement" .
+
+<050d1f39-90e0-410a-9e1d-0c5ecc63305c> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "jeu de hasard" .
+
+<0990bb2c-624b-45f9-bc15-c15ac5ab46d6> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "jeu de dés" .
+
+<0c086fef-f35e-4ee6-97a5-019ce9356e20> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "récitatif" .
+
+<0c29c8bf-f391-4227-bc50-ac7c5b6b6d44> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "lyre" .
+
+<0cf6494f-a66a-44f3-8be0-5dbdf93cd5ce> a crm:E55_Type ;
+    crm:P127_has_broader_term <bfd4e1db-1966-4637-8953-7f453db8df61> ;
+    crm:P1_is_identified_by "costume ecclésiastique" .
+
+<0d8f563f-a64a-410a-827d-f636fced3059> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "origine des instruments de musique" .
+
+<140107ed-3eae-4348-93ab-4af10616c8ce> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "vigiles" .
+
+<184f8d0b-b18c-4348-8e66-53a76bb25199> a crm:E55_Type ;
+    crm:P127_has_broader_term <e0f362e4-5ad9-4054-939b-4a1b7c2fc23b> ;
+    crm:P1_is_identified_by "célébration de la paix" .
+
+<18ae7ae0-4b46-473b-ac3d-9a3716250af3> a crm:E55_Type ;
+    crm:P127_has_broader_term <5db51f2c-69ef-42f1-a3f8-12e6488c9857> ;
+    crm:P1_is_identified_by "tragédie en musique" .
+
+<196a4f53-c94e-4157-9177-1b5b5ec0c8e3> a crm:E55_Type ;
+    crm:P1_is_identified_by "reliques" .
+
+<1a6a0a88-154f-42dd-bc3b-bb6b1043ef36> a crm:E55_Type ;
+    crm:P127_has_broader_term <dc57b12f-a40e-4c2f-851f-813fb556fea0> ;
+    crm:P1_is_identified_by "messe du Saint-Esprit" .
+
+<1ad7f140-6d69-44a1-b4bb-37e5bf82e3a1> a crm:E55_Type ;
+    crm:P1_is_identified_by "tapisserie" .
+
+<23363e7e-d189-47b4-bc33-97fd064e39dd> a crm:E55_Type ;
+    crm:P127_has_broader_term <98d091fb-6a88-48d7-8c8c-28e1c271885b> ;
+    crm:P1_is_identified_by "ouverture" .
+
+<3013fb1c-4ac0-4ba7-ac11-a18e283ac11e> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "messe en musique" .
+
+<32497036-1ee6-4b9f-a0c3-5ab4a8b470c6> a crm:E55_Type ;
+    crm:P127_has_broader_term <c278f1e8-48cf-4948-9b7d-58d42e0c34a4> ;
+    crm:P1_is_identified_by "tragédie-ballet" .
+
+<34f92b61-14d1-4cb2-b2c6-efb23ae217f3> a crm:E55_Type ;
+    crm:P127_has_broader_term <771daf55-40f0-4f8c-85b9-142eb79647f2> ;
+    crm:P1_is_identified_by "actualité éditoriale" .
+
+<3a77e040-a31a-43aa-ab81-775f2f8b5fab> a crm:E55_Type ;
+    crm:P127_has_broader_term <45aa9513-5241-45aa-a270-1ef5bdb9bda1>,
+        <61a38f83-967c-4910-8b0a-9c7c779d6bef> ;
+    crm:P1_is_identified_by "ornementation" .
+
+<3ef35315-c917-49c4-b299-ec1c70b2cac3> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "danse populaire" .
+
+<45aa9513-5241-45aa-a270-1ef5bdb9bda1> a crm:E55_Type ;
+    crm:P127_has_broader_term <61a38f83-967c-4910-8b0a-9c7c779d6bef> ;
+    crm:P1_is_identified_by "interprétation musicale" .
+
+<4cefbdc5-1f06-4fa5-89c1-eb25f7818921> a crm:E55_Type ;
+    crm:P127_has_broader_term <53048581-b7b4-4ffe-8dc8-2dbc0cbda46a> ;
+    crm:P1_is_identified_by "cloche" .
+
+<500295f9-347c-4781-bb8a-4f46ea5348b6> a crm:E55_Type ;
+    crm:P1_is_identified_by "érection d'un duché" .
+
+<54956ec2-168f-4897-bb53-24e34210dc37> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "branle" .
+
+<5e6f7a21-5489-45b2-8854-961602b685fd> a crm:E55_Type ;
+    crm:P127_has_broader_term <c183897b-2356-48f8-9d22-91d76f2fa6fe> ;
+    crm:P1_is_identified_by "décoration de théâtre" .
+
+<5f471fa6-6e17-42d6-b70c-b2e059821419> a crm:E55_Type ;
+    crm:P1_is_identified_by "acoustique" .
+
+<630f65d4-0100-4374-9f1f-f9f36a5ea8f5> crm:P1_is_identified_by "TG type de musique" .
+
+<6875978b-552b-4edb-a0b7-d36c3859a71d> a crm:E55_Type ;
+    crm:P127_has_broader_term <b84fd425-80b5-4ec3-b7fa-029634cb919b> ;
+    crm:P1_is_identified_by "disposition pour la musique" .
+
+<6f73bab6-097c-4c80-91e1-b7d6b7122a5e> a crm:E55_Type ;
+    crm:P127_has_broader_term <c183897b-2356-48f8-9d22-91d76f2fa6fe> ;
+    crm:P1_is_identified_by "décor éphémère" .
+
+<70d7afb2-21b3-4bd8-a8b6-df55ea511c79> a crm:E55_Type ;
+    crm:P1_is_identified_by "Bible" .
+
+<72224913-4634-47c8-9a52-4eff97d24625> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "danseur" .
+
+<73f2ab66-977e-459a-92ef-57477c05c495> a crm:E55_Type ;
+    crm:P127_has_broader_term <98d091fb-6a88-48d7-8c8c-28e1c271885b> ;
+    crm:P1_is_identified_by "suite instrumentale" .
+
+<76d11682-c8e4-448a-8d1a-e90f2ba86148> a crm:E55_Type ;
+    crm:P1_is_identified_by "piété" .
+
+<7e020e6b-c7b4-49f2-82cd-67a30d72c829> a crm:E55_Type ;
+    crm:P127_has_broader_term <a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176> ;
+    crm:P1_is_identified_by "pièce à machines" .
+
+<80584f2d-8652-46ee-81bd-be3a227badce> a crm:E55_Type ;
+    crm:P127_has_broader_term <c4e42faf-8c59-40bb-a909-f85c85d98675> ;
+    crm:P1_is_identified_by "anniversaire" .
+
+<8172c13e-6747-46b4-a56e-33832d8382b6> a crm:E55_Type ;
+    crm:P127_has_broader_term <dd2a95b0-f377-4511-8bc8-2fdd324a1a86> ;
+    crm:P1_is_identified_by "transcription" .
+
+<81f583aa-d080-4200-aa2c-8287128708d0> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Usquequo Domine obliviceris" .
+
+<826980d0-d34b-4e24-b129-e87b6f013e9e> a crm:E55_Type ;
+    crm:P1_is_identified_by "défense d'un auteur" .
+
+<84111d62-f1d9-41ae-bd63-e14964f0574d> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "récit" .
+
+<84ffd212-5f4b-4dc7-93f8-50734745abc5> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "hautbois" .
+
+<85e3749a-0b76-4013-839c-d271a2ab0642> a crm:E55_Type ;
+    crm:P127_has_broader_term <e20afe35-3d13-4df9-be6c-bc487625835c> ;
+    crm:P1_is_identified_by "cérémonie académique" .
+
+<87884139-4548-493a-b9d2-bde73ed9d4f2> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd3fc290-8dc3-420c-bf0e-c3e140b99c2b> ;
+    crm:P1_is_identified_by "architecture" .
+
+<87982a3d-9b95-4758-8bbb-b60d5afc838c> a crm:E55_Type ;
+    crm:P127_has_broader_term <e355c075-4f00-4cf5-8462-34d395a52c38> ;
+    crm:P1_is_identified_by "centon théâtral" .
+
+<88bab522-4d7f-409e-967f-04ce4b2ddbb7> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d2e1da5-ddf7-4449-89ea-faad316d78a2> ;
+    crm:P1_is_identified_by "jeu du pistolet" .
+
+<89caf760-3df6-43e0-b9fd-cccdc120cb86> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Fête-Dieu" .
+
+<89dc0cb8-314e-4284-9435-92f748e5e249> a crm:E55_Type ;
+    crm:P1_is_identified_by "construction navale" .
+
+<8adb9b4d-5b49-448c-bce3-d18f30f54e00> a crm:E55_Type ;
+    crm:P1_is_identified_by "travestissement" .
+
+<8f175f84-c5a2-40e2-909f-e673d1e5183c> a crm:E55_Type ;
+    crm:P1_is_identified_by "voix humaine" .
+
+<90bdd132-c564-4ba2-86fd-8ae63217a43d> a crm:E55_Type ;
+    crm:P127_has_broader_term <cf206b03-8a90-4818-aa29-f10a89c76181>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique dialoguée" .
+
+<92ba0924-6b5b-4f26-8043-2caa9ab92597> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "courante" .
+
+<99042256-b298-4155-b60d-6648645455cc> a crm:E55_Type ;
+    crm:P127_has_broader_term <d656aad5-5900-4d08-81de-8298cb06bc3d> ;
+    crm:P1_is_identified_by "violon" .
+
+<99d897ad-00bf-4905-ae75-e8cae927a4ed> a crm:E55_Type ;
+    crm:P1_is_identified_by "naissance" .
+
+<9d4ff2f1-07a4-47fe-9805-3bbe795d94e3> a crm:E55_Type ;
+    crm:P127_has_broader_term <53048581-b7b4-4ffe-8dc8-2dbc0cbda46a> ;
+    crm:P1_is_identified_by "timbale" .
+
+<9d89260f-c57d-40e7-b2de-4be729ff8c5f> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "passepied" .
+
+<a0252891-1ab2-4771-906c-42d40c1b78b6> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "cor" .
+
+<a38a049c-6677-47eb-8e08-a60aed2e46ae> a crm:E55_Type ;
+    crm:P127_has_broader_term <771daf55-40f0-4f8c-85b9-142eb79647f2> ;
+    crm:P1_is_identified_by "actualité théâtrale [les institutions]" .
+
+<a9d61246-7bc8-42e5-a138-2317e8922853> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "mascarade" .
+
+<ad719c64-de8a-4b05-b233-914f4427be02> a crm:E55_Type ;
+    crm:P127_has_broader_term <4cff6757-9c6e-4517-ae1e-7d5df6bd1e62> ;
+    crm:P1_is_identified_by "sociabilité littéraire" .
+
+<b04e8789-952b-4fec-97f7-4ad3cf586476> a crm:E55_Type ;
+    crm:P1_is_identified_by "curiosité" .
+
+<b1d55158-1411-4bef-a4f9-8ab16bef1039> a crm:E55_Type ;
+    crm:P127_has_broader_term <2933c92d-c9d6-45f1-a59a-7e47a78ceacd> ;
+    crm:P1_is_identified_by "tragédie antique" .
+
+<b62cf290-cfbf-47cd-bb09-60775262484c> a crm:E55_Type ;
+    crm:P127_has_broader_term <4ccff290-f16e-405e-9931-a5b02c35f778> ;
+    crm:P1_is_identified_by "Nativité" .
+
+<b69abc0e-2a92-400b-909c-cb811e069021> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Te Deum laudamus" .
+
+<b84d0dc6-85fb-49f5-9c5f-3e6e9f80d88e> a crm:E55_Type ;
+    crm:P127_has_broader_term <dbadee7c-56b6-47f2-b89d-58e57077392c> ;
+    crm:P1_is_identified_by "gravure" .
+
+<b8aacbb3-7e80-49de-843f-8bb688993b91> a crm:E55_Type ;
+    crm:P127_has_broader_term <e3fa1e5a-e07b-4f82-b128-c05afc41a8c6> ;
+    crm:P1_is_identified_by "théorie des passions" .
+
+<c00235af-da18-4700-bd76-cd99955b93dd> a crm:E55_Type ;
+    crm:P127_has_broader_term <98d091fb-6a88-48d7-8c8c-28e1c271885b> ;
+    crm:P1_is_identified_by "marche" .
+
+<cbe19226-7239-47ee-bad2-bfec44a9cefd> a crm:E55_Type ;
+    crm:P127_has_broader_term <dc57b12f-a40e-4c2f-851f-813fb556fea0> ;
+    crm:P1_is_identified_by "messe basse" .
+
+<cbf4c2f9-8556-4565-879e-c09749f6ad69> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "cornet" .
+
+<cf72bdee-55de-4ab8-8d17-a525ce5fdf2c> a crm:E55_Type ;
+    crm:P127_has_broader_term <cf206b03-8a90-4818-aa29-f10a89c76181> ;
+    crm:P1_is_identified_by "orchestre" .
+
+<d931712b-73b6-4f4d-8c9c-0793d9e87286> a crm:E55_Type ;
+    crm:P127_has_broader_term <3a77e040-a31a-43aa-ab81-775f2f8b5fab> ;
+    crm:P1_is_identified_by "tremblement" .
+
+<dd8962b6-3ddf-4886-aa77-24a75d44a856> a crm:E55_Type ;
+    crm:P1_is_identified_by "philosophie" .
+
+<e355c075-4f00-4cf5-8462-34d395a52c38> a crm:E55_Type ;
+    crm:P127_has_broader_term <74603aab-65d0-4753-97ff-b1eba21af86e> ;
+    crm:P1_is_identified_by "centon" .
+
+<e5bd3430-3de4-4a0b-b2c8-f87cf65e9c0a> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "Veni creator spiritus mentes" .
+
+<e6101057-2db9-4c4b-94c7-5a0663bb9c20> a crm:E55_Type ;
+    crm:P127_has_broader_term <53048581-b7b4-4ffe-8dc8-2dbc0cbda46a> ;
+    crm:P1_is_identified_by "clochette" .
+
+<e8512b1e-d2a8-4446-b637-e1d0705a12de> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "vents" .
+
+<e9fc7904-63f1-4d4c-b682-8faa4d9a2447> a crm:E55_Type ;
+    crm:P127_has_broader_term <12fc9d12-3aea-4e4c-9c0d-6353f11d327e> ;
+    crm:P1_is_identified_by "chanteur" .
+
+<ed98af66-44fc-46e9-926d-fa389382bdbb> a crm:E55_Type ;
+    crm:P1_is_identified_by "influence culturelle" .
+
+<f01d4a97-efd4-4a58-8563-efa94ed04ff6> a crm:E55_Type ;
+    crm:P1_is_identified_by "présentation d'un tableau" .
+
+<f02540bb-f944-4627-8f10-0c02e489c984> a crm:E55_Type ;
+    crm:P1_is_identified_by "chapelle ardente" .
+
+<f23392a6-c26c-49b8-8b8a-28a851cc7d23> a crm:E55_Type ;
+    crm:P127_has_broader_term <ea0cef8f-101e-443c-897e-1ca6247ead48> ;
+    crm:P1_is_identified_by "lieux mythologiques" .
+
+<f55af868-a53d-4bb5-9092-bd3f2f41d736> a crm:E55_Type ;
+    crm:P1_is_identified_by "numismatique" .
+
+<fad0ede8-8740-47c1-8410-2eecf34c799f> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "énigme" .
+
+<fba47594-86fb-48bf-8d5a-51ef30bb7cfc> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "trompette" .
+
+<fbaef780-31c1-455d-a0d7-78c17505e65f> a crm:E55_Type ;
+    crm:P1_is_identified_by "meurtre" .
+
+<ff8e7d4c-250c-43fd-9b77-177c8234fe9d> a crm:E55_Type ;
+    crm:P1_is_identified_by "miracle" .
+
+<0e2c2d2d-85b4-4c33-bf22-268a2b2850fc> a crm:E55_Type ;
+    crm:P1_is_identified_by "administration" .
+
+<0fb993b4-2acd-4297-8672-1630560692d8> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "procession" .
+
+<17f202eb-d194-4520-bb9c-4c577d749f6f> a crm:E55_Type ;
+    crm:P127_has_broader_term <61a38f83-967c-4910-8b0a-9c7c779d6bef> ;
+    crm:P1_is_identified_by "interprétation vocale" .
+
+<19c125a8-fb0c-4eae-b108-38c1656d0e25> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "sacre" .
+
+<21a1c205-dfd1-4987-86e4-e57fe185824f> a crm:E55_Type ;
+    crm:P127_has_broader_term <efc0f26f-5276-4ec3-971b-22b52ac371d8> ;
+    crm:P1_is_identified_by "traité  et dissertation" .
+
+<2688ec36-d5c6-4340-a457-6ee5f04f0d03> a crm:E55_Type ;
+    crm:P127_has_broader_term <bfbd77de-fd6a-4757-bd3a-bee4344b9b25> ;
+    crm:P1_is_identified_by "composition d'oeuvre dramatique" .
+
+<2b502ab7-46ac-441a-82e4-9c5868e63a07> a crm:E55_Type ;
+    crm:P127_has_broader_term <48bbb298-0ba3-4aa7-836f-e2f8562ae85f> ;
+    crm:P1_is_identified_by "trève" .
+
+<2f988c7b-c38f-43b3-965a-3bab661e89d4> a crm:E55_Type ;
+    crm:P127_has_broader_term <96b84bdf-fe15-486b-99f0-e7cbe95ca5fa> ;
+    crm:P1_is_identified_by "fête de confrérie" .
+
+<3523525e-a46c-47c3-8235-066aa38ab501> a crm:E55_Type ;
+    crm:P127_has_broader_term <b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> ;
+    crm:P1_is_identified_by "cantique" .
+
+<35ab1430-6474-42b2-8ea4-4bc627df1e44> a crm:E55_Type ;
+    crm:P1_is_identified_by "éducation" .
+
+<38835184-14e4-47c1-9683-820778046467> a crm:E55_Type ;
+    crm:P127_has_broader_term <4120d869-85f7-4ada-8848-2f88c76ef432> ;
+    crm:P1_is_identified_by "dialogue" .
+
+<3b05f74c-43e1-41ca-8def-9e3f5439809c> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "musette" .
+
+<3e82610c-db42-4b64-8081-bd17dfe2e4da> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "jeu de carte" .
+
+<421a065e-459a-45dd-90c0-02aaae8bfe9b> a crm:E55_Type ;
+    crm:P127_has_broader_term <679aa7e7-5d40-4a7a-87a7-30b74a1eb0d1> ;
+    crm:P1_is_identified_by "réception d'oeuvre" .
+
+<42db7001-2782-41fc-8e44-37d27ae8daf5> a crm:E55_Type ;
+    crm:P127_has_broader_term <a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176> ;
+    crm:P1_is_identified_by "intermède" .
+
+<51eb8595-c339-47f1-9263-b382a3223e93> a crm:E55_Type ;
+    crm:P1_is_identified_by "histoire de la danse" .
+
+<58b6c4e3-08b6-400d-bab4-5935cc8ec54a> a crm:E55_Type ;
+    crm:P1_is_identified_by "gazette" .
+
+<597b95cd-09dd-4352-8928-b8e3069b2b1e> a crm:E55_Type ;
+    crm:P1_is_identified_by "héraldique" .
+
+<5c263d0f-0002-4787-b639-9fcb150245d1> a crm:E55_Type ;
+    crm:P1_is_identified_by "chant" .
+
+<5db51f2c-69ef-42f1-a3f8-12e6488c9857> a crm:E55_Type ;
+    crm:P127_has_broader_term <c278f1e8-48cf-4948-9b7d-58d42e0c34a4> ;
+    crm:P1_is_identified_by "opéra" .
+
+<5e68816a-b3a4-4724-a3cb-8bb0b6170ead> a crm:E55_Type ;
+    crm:P127_has_broader_term <7d790e1b-76eb-4afc-988e-f214cac1ab51> ;
+    crm:P1_is_identified_by "psaume" .
+
+<627dc9b2-f093-4935-9340-03d1a832222d> a crm:E55_Type ;
+    crm:P1_is_identified_by "versification" .
+
+<6c5e25ef-f8f3-4b9d-a1b0-4f13d015e840> a crm:E55_Type ;
+    crm:P127_has_broader_term <1d2e1da5-ddf7-4449-89ea-faad316d78a2> ;
+    crm:P1_is_identified_by "jeu d’adresse" .
+
+<7dfb8b76-e31b-49f1-8ff2-403ab722c8fa> a crm:E55_Type ;
+    crm:P1_is_identified_by "biographie" .
+
+<8083bad1-096d-4adb-b0df-f3781e0afa9e> a crm:E55_Type ;
+    crm:P1_is_identified_by "histoire du théâtre" .
+
+<992c0d15-3b7b-4761-8208-4612f45558ae> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8>,
+        <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "salut" .
+
+<a522940c-9bf5-437c-9049-6c59fffc2dab> a crm:E55_Type ;
+    crm:P1_is_identified_by "marionnette" .
+
+<b06b7bf4-fe8b-4435-b5a8-18c17a46ddd5> a crm:E55_Type ;
+    crm:P127_has_broader_term <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique militaire" .
+
+<b0a3f789-8509-453a-a6d7-2a93a3b323fb> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "entrée" .
+
+<bd0edc43-2e44-4125-96f3-f04c0d06d0dd> a crm:E55_Type ;
+    crm:P127_has_broader_term <01f977a6-adfd-4ec5-a5ca-8e861696bff5>,
+        <33113ae6-f696-4eaf-b375-55ec699e487f> ;
+    crm:P1_is_identified_by "notation musicale" .
+
+<c953f264-4f36-4317-8b3e-171716bf9cc2> a crm:E55_Type ;
+    crm:P127_has_broader_term <1ff810fc-1fb6-47f8-b36c-2b1e31cac429> ;
+    crm:P1_is_identified_by "menuet" .
+
+<d1f802c2-c071-4b3b-bf2e-90ad65509b5d> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "vêpres" .
+
+<d1fb2748-3aaa-4527-98ee-e4e281577bed> a crm:E55_Type ;
+    crm:P127_has_broader_term <a44f9171-28ce-4921-8806-71261a87015d> ;
+    crm:P1_is_identified_by "carrière musicale" .
+
+<e46052f9-3886-4d7b-90f8-13c884abc8f5> crm:P1_is_identified_by "EP office des morts" .
+
+<05d7d279-55ff-4cfc-9f22-e6b20b10d663> a crm:E55_Type ;
+    crm:P1_is_identified_by "iconographie" .
+
+<0633d386-dbb9-4607-9858-2d46c17790ce> a crm:E55_Type ;
+    crm:P127_has_broader_term <9c367a18-419c-499d-809a-4be816f4e2ea> ;
+    crm:P1_is_identified_by "panégyrique" .
+
+<0f249d4c-e43d-4fac-970b-8b536fb508c2> a crm:E55_Type ;
+    crm:P1_is_identified_by "réjouissances" .
+
+<2cc53ff4-ebe5-4360-bac3-212b913d8102> a crm:E55_Type ;
+    crm:P127_has_broader_term <9fa066dc-d22b-499f-b7cc-81382ebf0ccd> ;
+    crm:P1_is_identified_by "enseignement" .
+
+<32f45ef2-ee26-4f4e-8775-c9a8f1e27b29> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "claviers" .
+
+<5b7d78e8-6faa-4b18-88c0-8f44ddd874a6> a crm:E55_Type ;
+    crm:P1_is_identified_by "public des spectacles" .
+
+<6994cde4-2a48-4887-9888-138133e045f8> a crm:E55_Type ;
+    crm:P1_is_identified_by "styles" .
+
+<6a2d10ff-7cf8-43db-802a-a89ba5ffaec3> a crm:E55_Type ;
+    crm:P1_is_identified_by "concert" .
+
+<7e51344f-6146-4561-b330-285d771a21c7> a crm:E55_Type ;
+    crm:P1_is_identified_by "affaires militaires" .
+
+<81395c30-2eef-4640-81ce-5fa54dfe532c> a crm:E55_Type ;
+    crm:P1_is_identified_by "diplomatie" .
+
+<912dbc05-5592-46c7-a1d4-453589b093e1> a crm:E55_Type ;
+    crm:P127_has_broader_term <672e5ee2-171e-42da-82af-337eae9351d6> ;
+    crm:P1_is_identified_by "flûte" .
+
+<920892de-05ac-4e95-a036-a785e6af87c9> a crm:E55_Type ;
+    crm:P127_has_broader_term <6994cde4-2a48-4887-9888-138133e045f8> ;
+    crm:P1_is_identified_by "goût national" .
+
+<92295043-c46a-411d-8a2a-91c10b910f2e> a crm:E55_Type ;
+    crm:P127_has_broader_term <cd3fc290-8dc3-420c-bf0e-c3e140b99c2b> ;
+    crm:P1_is_identified_by "poésie" .
+
+<9252ef15-e77a-4809-a364-b20277d9ced3> a crm:E55_Type ;
+    crm:P127_has_broader_term <ce87c53b-36ad-4a9e-87c9-f345bacc4c01> ;
+    crm:P1_is_identified_by "comique" .
+
+<9c367a18-419c-499d-809a-4be816f4e2ea> a crm:E55_Type ;
+    crm:P1_is_identified_by "encomiastique" .
+
+<a2c70925-d51e-489c-ae5c-e8bbab1a060b> a crm:E55_Type ;
+    crm:P1_is_identified_by "histoire de la musique" .
+
+<a50f859c-2bcf-408c-9d82-a0729628e874> a crm:E55_Type ;
+    crm:P1_is_identified_by "théâtre" .
+
+<a9fdf9ba-f5dd-4e97-a185-ed941f8ad644> a crm:E55_Type ;
+    crm:P1_is_identified_by "carrière d'une oeuvre" .
+
+<aae2d73a-14d8-4dd4-b19e-53445412ab59> a crm:E55_Type ;
+    crm:P1_is_identified_by "voyage" .
+
+<aae2e07e-d7a7-4160-a7ce-606ab251a18b> a crm:E55_Type ;
+    crm:P1_is_identified_by "esclavage" .
+
+<b2eae0e3-b8d3-467a-b354-128e5c4a4e9a> a crm:E55_Type ;
+    crm:P1_is_identified_by "médecine" .
+
+<bda99ade-a439-46f3-a2e9-c8419216d96c> crm:P1_is_identified_by "NA exécutée par un ou plusieurs personnages lors d'une scène de divertissement d'un ouvrage lyrique" .
+
+<ea0cef8f-101e-443c-897e-1ca6247ead48> a crm:E55_Type ;
+    crm:P1_is_identified_by "mythologie" .
+
+<ec450c9e-0ae3-4237-87d5-82444c406895> a crm:E55_Type ;
+    crm:P1_is_identified_by "rhétorique" .
+
+<eeeb50b7-fda0-496b-9f28-f93723777915> a crm:E55_Type ;
+    crm:P1_is_identified_by "vie sociale" .
+
+<f15d3223-4912-40dc-a2bd-02b5b7c95897> a crm:E55_Type ;
+    crm:P1_is_identified_by "réception d'une oeuvre" .
+
+<f8b6116d-ab78-4558-ab2f-01f63f9f989b> a crm:E55_Type ;
+    crm:P127_has_broader_term <53048581-b7b4-4ffe-8dc8-2dbc0cbda46a> ;
+    crm:P1_is_identified_by "tambour" .
+
+<13a54ff0-e1cf-4705-8f09-5c6058320d4a> a crm:E55_Type ;
+    crm:P127_has_broader_term <630f65d4-0100-4374-9f1f-f9f36a5ea8f5>,
+        <cf206b03-8a90-4818-aa29-f10a89c76181>,
+        <ed02e25f-6b7e-48c1-b522-54e5c4a8039c> ;
+    crm:P1_is_identified_by "musique polychorale" .
+
+<1d463629-bb8b-484a-892a-e31b5d00be5b> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "bal" .
+
+<1d9c27e1-d759-489a-9a83-a7d4856de4ea> a crm:E55_Type ;
+    crm:P127_has_broader_term <a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176> ;
+    crm:P1_is_identified_by "pastorale" .
+
+<24a36382-5b37-46b8-8a89-fbf1cbd4a939> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "instrument à clavier" .
+
+<26b648fd-2cc9-415d-aca1-2fce81d3578f> a crm:E55_Type ;
+    crm:P1_is_identified_by "circonstances musicales" .
+
+<408bcdcb-351d-41b9-8191-e3193eef6134> a crm:E55_Type ;
+    crm:P1_is_identified_by "foire" .
+
+<4120d869-85f7-4ada-8848-2f88c76ef432> a crm:E55_Type ;
+    crm:P1_is_identified_by "formes dialoguées" .
+
+<46ae6127-976e-42b2-8509-ab38767aa6e2> a crm:E55_Type ;
+    crm:P1_is_identified_by "temps liturgique" .
+
+<696019ca-af56-4780-9a1d-d6648471a04d> a crm:E55_Type ;
+    crm:P127_has_broader_term <a4955ea2-c070-40af-8f96-e8f7abd02a4f> ;
+    crm:P1_is_identified_by "commentaire d’œuvre" .
+
+<8e1ed7a3-7be7-4aa2-8923-6d9c6349cd0b> a crm:E55_Type ;
+    crm:P127_has_broader_term <24a36382-5b37-46b8-8a89-fbf1cbd4a939> ;
+    crm:P1_is_identified_by "orgue" .
+
+<903996a0-a333-445f-9036-1190ec745e82> a crm:E55_Type ;
+    crm:P1_is_identified_by "économie des spectacles" .
+
+<904b5aae-8c3d-4f20-86f2-ababcf5d0aa2> a crm:E55_Type ;
+    crm:P127_has_broader_term <4655095a-0f7c-4dd1-a3a6-7467e81946d8> ;
+    crm:P1_is_identified_by "chanson" .
+
+<9d788587-7087-4a60-87fb-a67acfcf3e46> a crm:E55_Type ;
+    crm:P1_is_identified_by "discours public" .
+
+<a4955ea2-c070-40af-8f96-e8f7abd02a4f> a crm:E55_Type ;
+    crm:P1_is_identified_by "commentaire" .
+
+<b68588c3-5459-487d-ad93-2599721f62bb> a crm:E55_Type ;
+    crm:P1_is_identified_by "poétique" .
+
+<bfbd77de-fd6a-4757-bd3a-bee4344b9b25> a crm:E55_Type ;
+    crm:P1_is_identified_by "composition d'oeuvre" .
+
+<d2da6cd3-85b8-4f44-8cf7-a51eff467c1c> a crm:E55_Type ;
+    crm:P1_is_identified_by "langue employée (dans la rédaction de l’article ou la poésie éditée dans l’article ; autre que le français)" .
+
+<f67441ab-7eae-4450-a46e-1e010ab236d5> a crm:E55_Type ;
+    crm:P1_is_identified_by "réception" .
+
+<2933c92d-c9d6-45f1-a59a-7e47a78ceacd> a crm:E55_Type ;
+    crm:P127_has_broader_term <a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176> ;
+    crm:P1_is_identified_by "tragédie" .
+
+<313d6352-8bd2-4e82-b156-e5d4311de0ba> a crm:E55_Type ;
+    crm:P1_is_identified_by "Antiquité" .
+
+<6425e7e7-5f36-4898-9254-61e54f490156> a crm:E55_Type ;
+    crm:P1_is_identified_by "débat" .
+
+<6f4734b9-6eb1-4562-9572-ad3858c73fce> a crm:E55_Type ;
+    crm:P127_has_broader_term <7e51344f-6146-4561-b330-285d771a21c7> ;
+    crm:P1_is_identified_by "siège" .
+
+<713d45a0-3b33-47c8-acd3-be3296b91dc6> a crm:E55_Type ;
+    crm:P1_is_identified_by "inscriptions" .
+
+<8bda71d8-03cb-4f2b-9380-4ed5c54a1a22> a crm:E55_Type ;
+    crm:P127_has_broader_term <c278f1e8-48cf-4948-9b7d-58d42e0c34a4> ;
+    crm:P1_is_identified_by "ballet" .
+
+<9fa066dc-d22b-499f-b7cc-81382ebf0ccd> a crm:E55_Type ;
+    crm:P1_is_identified_by "enseignement et apprentissage" .
+
+<c4e42faf-8c59-40bb-a909-f85c85d98675> a crm:E55_Type ;
+    crm:P127_has_broader_term <eeeb50b7-fda0-496b-9f28-f93723777915> ;
+    crm:P1_is_identified_by "vie privée" .
+
+<02853a65-c3e6-42da-b5df-c285dd4599eb> a crm:E55_Type ;
+    crm:P1_is_identified_by "goût" .
+
+<18138bf7-becf-4d12-8a24-850dd27fd9be> a crm:E55_Type ;
+    crm:P1_is_identified_by "tradition" .
+
+<1d2e1da5-ddf7-4449-89ea-faad316d78a2> a crm:E55_Type ;
+    crm:P127_has_broader_term <bcd0e11a-91b3-4f94-9a0d-e325349baf4b> ;
+    crm:P1_is_identified_by "jeu" .
+
+<48bbb298-0ba3-4aa7-836f-e2f8562ae85f> a crm:E55_Type ;
+    crm:P1_is_identified_by "vie militaire" .
+
+<61a38f83-967c-4910-8b0a-9c7c779d6bef> a crm:E55_Type ;
+    crm:P1_is_identified_by "interprétation" .
+
+<771daf55-40f0-4f8c-85b9-142eb79647f2> a crm:E55_Type ;
+    crm:P1_is_identified_by "actualité" .
+
+<924f1b40-f4ba-4678-9a89-6ab9620828c9> a crm:E55_Type ;
+    crm:P1_is_identified_by "styles de musique" .
+
+<9674e19a-b68d-4f78-a1d5-58f61034463d> a crm:E55_Type ;
+    crm:P1_is_identified_by "vie administrative" .
+
+<9e79ff42-61d9-400a-af9a-51b43ba05e48> a crm:E55_Type ;
+    crm:P127_has_broader_term <a44f9171-28ce-4921-8806-71261a87015d> ;
+    crm:P1_is_identified_by "carrière ecclésiastique" .
+
+<b84fd425-80b5-4ec3-b7fa-029634cb919b> a crm:E55_Type ;
+    crm:P1_is_identified_by "disposition" .
+
+<cd68fcb1-ac4a-442d-9c97-f979619f62bf> a crm:E55_Type ;
+    crm:P1_is_identified_by "langue" .
+
+<efc0f26f-5276-4ec3-971b-22b52ac371d8> a crm:E55_Type ;
+    crm:P1_is_identified_by "ouvrage savant" .
+
+<231fb18d-0120-41bf-bce8-78ece84a5459> a crm:E55_Type ;
+    crm:P127_has_broader_term <48bbb298-0ba3-4aa7-836f-e2f8562ae85f> ;
+    crm:P1_is_identified_by "victoire militaire" .
+
+<4cff6757-9c6e-4517-ae1e-7d5df6bd1e62> a crm:E55_Type ;
+    crm:P1_is_identified_by "sociabilité" .
+
+<519414b1-592b-4cfe-8f41-a70556f2f747> a crm:E55_Type ;
+    crm:P127_has_broader_term <9c367a18-419c-499d-809a-4be816f4e2ea> ;
+    crm:P1_is_identified_by "éloge" .
+
+<59f3ed4e-8813-4d1b-8ecf-095d12ac1ee8> a crm:E55_Type ;
+    crm:P1_is_identified_by "lettre" .
+
+<679aa7e7-5d40-4a7a-87a7-30b74a1eb0d1> a crm:E55_Type ;
+    crm:P1_is_identified_by "création d'oeuvre" .
+
+<82a9556d-e0df-497c-b868-d56dd3caf905> a crm:E55_Type ;
+    crm:P1_is_identified_by "vie académique" .
+
+<a44f9171-28ce-4921-8806-71261a87015d> a crm:E55_Type ;
+    crm:P1_is_identified_by "carrière" .
+
+<b67f1a90-256b-4ad3-8b3a-830d1362e48f> a crm:E55_Type ;
+    crm:P1_is_identified_by "repas" .
+
+<c183897b-2356-48f8-9d22-91d76f2fa6fe> a crm:E55_Type ;
+    crm:P1_is_identified_by "décoration" .
+
+<c278f1e8-48cf-4948-9b7d-58d42e0c34a4> a crm:E55_Type ;
+    crm:P1_is_identified_by "musique de scène" .
+
+<d32d3cd0-53ca-4d22-8190-4b3c14dccb1d> a crm:E55_Type ;
+    crm:P127_has_broader_term <924f1b40-f4ba-4678-9a89-6ab9620828c9> ;
+    crm:P1_is_identified_by "musique des nations" .
+
+<e20afe35-3d13-4df9-be6c-bc487625835c> a crm:E55_Type ;
+    crm:P1_is_identified_by "cérémonie" .
+
+<e3fa1e5a-e07b-4f82-b128-c05afc41a8c6> a crm:E55_Type ;
+    crm:P1_is_identified_by "effets des arts" .
+
+<9be8c9e5-6220-4b24-9fb2-5c28013d3429> a crm:E55_Type ;
+    crm:P1_is_identified_by "forme narrative" .
+
+<bfd4e1db-1966-4637-8953-7f453db8df61> a crm:E55_Type ;
+    crm:P1_is_identified_by "costume" .
+
+<cd3fc290-8dc3-420c-bf0e-c3e140b99c2b> a crm:E55_Type ;
+    crm:P1_is_identified_by "arts" .
+
+<ce87c53b-36ad-4a9e-87c9-f345bacc4c01> a crm:E55_Type ;
+    crm:P1_is_identified_by "type de texte" .
+
+<e0f362e4-5ad9-4054-939b-4a1b7c2fc23b> a crm:E55_Type ;
+    crm:P1_is_identified_by "célébration [= circonstance ; objet]" .
+
+<33113ae6-f696-4eaf-b375-55ec699e487f> a crm:E55_Type ;
+    crm:P1_is_identified_by "théorie de la musique" .
+
+<53048581-b7b4-4ffe-8dc8-2dbc0cbda46a> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "instrument à percussion" .
+
+<74603aab-65d0-4753-97ff-b1eba21af86e> a crm:E55_Type ;
+    crm:P1_is_identified_by "procédés de composition littéraire" .
+
+<98d091fb-6a88-48d7-8c8c-28e1c271885b> a crm:E55_Type ;
+    crm:P1_is_identified_by "musique instrumentale" .
+
+<adc1cefa-0717-49b4-940b-1971e1f7311a> a crm:E55_Type ;
+    crm:P1_is_identified_by "prière" .
+
+<dc57b12f-a40e-4c2f-851f-813fb556fea0> a crm:E55_Type ;
+    crm:P127_has_broader_term <68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> ;
+    crm:P1_is_identified_by "messe" .
+
+<e94f3978-741a-4b6a-9808-e87a3bccfd8e> a crm:E55_Type ;
+    crm:P127_has_broader_term <a78235e9-b757-4e73-808d-9c2f88bd35b8> ;
+    crm:P1_is_identified_by "bénédiction" .
+
+<96b84bdf-fe15-486b-99f0-e7cbe95ca5fa> a crm:E55_Type ;
+    crm:P1_is_identified_by "fête" .
+
+<cf206b03-8a90-4818-aa29-f10a89c76181> a crm:E55_Type ;
+    crm:P1_is_identified_by "formations musicales" .
+
+<2f311ea7-4fb5-40ee-aa48-24c8f1911a12> a crm:E55_Type ;
+    crm:P1_is_identified_by "questions religieuses" .
+
+<a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176> a crm:E55_Type ;
+    crm:P1_is_identified_by "forme dramatique" .
+
+<2c396e9b-ec77-47e1-ba09-6a5edc2b268f> a crm:E55_Type ;
+    crm:P127_has_broader_term <a13d79b9-98b7-4ca7-bd04-6ff6d5bf7176> ;
+    crm:P1_is_identified_by "comédie" .
+
+<4aca3650-87b9-46f6-aec6-601cbb4c89a6> a crm:E55_Type ;
+    crm:P1_is_identified_by "A RECLASSER ICI organologie doublons avec instr de musique" .
+
+<b4da101a-c0d4-4f36-93fd-d61d15f063e3> a crm:E55_Type ;
+    crm:P1_is_identified_by "vie religieuse" .
+
+<12fc9d12-3aea-4e4c-9c0d-6353f11d327e> a crm:E55_Type ;
+    crm:P1_is_identified_by "interprète" .
+
+<dd2a95b0-f377-4511-8bc8-2fdd324a1a86> a crm:E55_Type ;
+    crm:P1_is_identified_by "procédés de composition musicale" .
+
+<4655095a-0f7c-4dd1-a3a6-7467e81946d8> a crm:E55_Type ;
+    crm:P1_is_identified_by "musique vocale" .
+
+<68d77f4b-51c9-4013-9c01-ca0f3c8b6eac> a crm:E55_Type ;
+    crm:P1_is_identified_by "offices liturgiques" .
+
+<db901bcc-810c-4b0c-9875-30d2d208009b> a crm:E55_Type ;
+    crm:P127_has_broader_term <98d091fb-6a88-48d7-8c8c-28e1c271885b> ;
+    crm:P1_is_identified_by "symphonie" .
+
+<672e5ee2-171e-42da-82af-337eae9351d6> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "instrument à vent" .
+
+<dbadee7c-56b6-47f2-b89d-58e57077392c> a crm:E55_Type ;
+    crm:P1_is_identified_by "édition" .
+
+<bcd0e11a-91b3-4f94-9a0d-e325349baf4b> a crm:E55_Type ;
+    crm:P1_is_identified_by "divertissement" .
+
+<d656aad5-5900-4d08-81de-8298cb06bc3d> a crm:E55_Type ;
+    crm:P127_has_broader_term <4aca3650-87b9-46f6-aec6-601cbb4c89a6> ;
+    crm:P1_is_identified_by "instrument à cordes" .
+
+<ed02e25f-6b7e-48c1-b522-54e5c4a8039c> a crm:E55_Type ;
+    crm:P1_is_identified_by "type de musique" .
+
+<b40b0ea6-d8b1-4b06-bc5a-c6d01ede61ad> a crm:E55_Type ;
+    crm:P1_is_identified_by "formes poétiques (remplace le genre littéraire et nouvelle répartition des termes)" .
+
+<4ccff290-f16e-405e-9931-a5b02c35f778> a crm:E55_Type ;
+    crm:P127_has_broader_term <96b84bdf-fe15-486b-99f0-e7cbe95ca5fa> ;
+    crm:P1_is_identified_by "fête religieuse" .
+
+<1ff810fc-1fb6-47f8-b36c-2b1e31cac429> a crm:E55_Type ;
+    crm:P1_is_identified_by "danse" .
+
+<7d790e1b-76eb-4afc-988e-f214cac1ab51> a crm:E55_Type ;
+    crm:P1_is_identified_by "textes liturgiques" .
+
+<a78235e9-b757-4e73-808d-9c2f88bd35b8> a crm:E55_Type ;
+    crm:P127_has_broader_term <e20afe35-3d13-4df9-be6c-bc487625835c> ;
+    crm:P1_is_identified_by "cérémonies publiques et religieuses" .
+

@@ -464,11 +464,6 @@
                     "observations_élève": "En 1907 a concouru, Solfège",
                     "classe": "9ba6f799-834e-4d65-9025-5a231065ef98",
                     "prix": {
-                        "ae319078-04e5-4bcd-ade5-55c27778bb62": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "dd23ade3-7a93-4057-a5b1-c0e89b2d356a": {
                             "date": "1909-00-00",
                             "nom": "Médaille 1",
@@ -508,11 +503,6 @@
                         "9ee67814-fd62-44d6-a9a9-93ba95bbbc5b": {
                             "date": "1908-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "50ad1ce3-4cf8-4307-bd92-40ddfd7fb088": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         }
                     }
@@ -881,11 +871,6 @@
                         "2e30d5dd-1a51-42fb-a6ce-9d109325572f": {
                             "date": "1907-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "dd858c00-3b48-4af1-9417-47ce26e33ef7": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         },
                         "573f2e6a-d302-40f4-b9b0-c81d817a2b82": {
@@ -1833,14 +1818,7 @@
                     "date_sortie": "1910-00-00",
                     "motif_sortie": "Rayé, Art. 89, § 1",
                     "observations_élève": "En 1909, 1910 a concouru, piano ;",
-                    "classe": "1261de89-7a14-4dd5-b4f3-caf8ecbd9c1e",
-                    "prix": {
-                        "7225d439-9a19-4178-8cb9-b2f537f47a55": {
-                            "date": "1908-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Piano"
-                        }
-                    }
+                    "classe": "1261de89-7a14-4dd5-b4f3-caf8ecbd9c1e"
                 },
                 "874d6708-b7b0-4c1e-99f8-551d2931ec87": {
                     "motif_entrée": "admis par décision du jury",
@@ -1875,14 +1853,7 @@
                     "date_entrée": "1907-10-17",
                     "date_sortie": "[1910-00-00]",
                     "observations_élève": "[Motif de sortie : 1er Prix Piano]",
-                    "classe": "1261de89-7a14-4dd5-b4f3-caf8ecbd9c1e",
-                    "prix": {
-                        "eb41f719-5a41-45aa-83b1-91025b0b0d53": {
-                            "date": "1908-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Piano"
-                        }
-                    }
+                    "classe": "1261de89-7a14-4dd5-b4f3-caf8ecbd9c1e"
                 }
             }
         },
@@ -2304,11 +2275,6 @@
                             "nom": "Accessit 2",
                             "discipline": "Flûte"
                         },
-                        "4fdcc991-6afd-454e-9240-bd673ac4b1df": {
-                            "date": "1911-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Flûte"
-                        },
                         "bb0de6d2-e17e-43db-9ac8-05cd4c78ddf6": {
                             "date": "1912-00-00",
                             "nom": "Prix 2",
@@ -2357,11 +2323,6 @@
                         "737b4c4a-813c-4777-866b-2075689bf7c9": {
                             "date": "1910-00-00",
                             "nom": "Accessit 2",
-                            "discipline": "Flûte"
-                        },
-                        "c7dcc36b-ca73-4660-ae9b-47e99376862d": {
-                            "date": "1911-00-00",
-                            "nom": "Accessit 1",
                             "discipline": "Flûte"
                         }
                     }
@@ -3721,11 +3682,6 @@
                             "date": "1909-00-00",
                             "nom": "Médaille 3",
                             "discipline": "Solfège"
-                        },
-                        "e80b8022-716b-4d7a-8113-cb211c82a160": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
                         }
                     }
                 },
@@ -4339,11 +4295,6 @@
                             "nom": "Accessit 1",
                             "discipline": "Opéra"
                         },
-                        "53c02d05-4de4-438c-8cd0-2372abc41ad1": {
-                            "date": "1911-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Opéra-comique"
-                        },
                         "b668a55d-75e9-4fd1-bda9-efe849e7e61e": {
                             "date": "1911-00-00",
                             "nom": "Prix 1",
@@ -4391,11 +4342,6 @@
                         "c1c2dce8-6946-400d-954f-7c7fa5be9ac6": {
                             "date": "1909-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "0442096c-04aa-4880-8141-498488f38728": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         }
                     }
@@ -4493,11 +4439,6 @@
                         "0a0316cf-591b-47b6-829e-d09a482c7826": {
                             "date": "1909-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "3b070417-ab49-4261-865c-7658f98b796a": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         },
                         "d5897239-84cb-4ba0-84da-cf2d4a65d8fb": {
@@ -4834,11 +4775,6 @@
                             "nom": "Accessit 2",
                             "discipline": "Opéra"
                         },
-                        "aa21c6a8-3f9c-4977-8654-5541e8d53991": {
-                            "date": "1911-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Opéra-comique"
-                        },
                         "9a36bcf0-8552-41ee-9564-ace8ab1dfc75": {
                             "date": "1911-00-00",
                             "nom": "Prix 1",
@@ -4937,11 +4873,6 @@
                     "observations_élève": "[Motif de sortie : rayé du conservatoire]",
                     "classe": "adf85791-64d4-4c1e-bc15-016fa527a8af",
                     "prix": {
-                        "ec5f9c0e-7f49-47b5-b90e-a37b9bd2562b": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "e72bc3d8-d05f-4603-bd72-246c733c57ed": {
                             "date": "1909-00-00",
                             "nom": "Médaille 1",
@@ -5047,14 +4978,7 @@
                     "date_entrée": "1907-11-29",
                     "date_sortie": "[1910-00-00]",
                     "observations_élève": "[Motif de sortie : rayé du conservatoire]",
-                    "classe": "adf85791-64d4-4c1e-bc15-016fa527a8af",
-                    "prix": {
-                        "adcbe1b7-e07c-4352-b541-323171706636": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        }
-                    }
+                    "classe": "adf85791-64d4-4c1e-bc15-016fa527a8af"
                 },
                 "3d3be36e-d35e-4ef4-a1c7-2415090cb79a": {
                     "motif_entrée": "admis par décision du directeur",
@@ -5948,11 +5872,6 @@
                             "nom": "Accessit 2",
                             "discipline": "Trombone"
                         },
-                        "84a477aa-bb00-4834-aee6-a3210215a605": {
-                            "date": "1910-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Trombone"
-                        },
                         "0cca74bb-953e-43aa-8658-0fffaa6b2e9b": {
                             "date": "1911-00-00",
                             "nom": "Prix 2",
@@ -6440,14 +6359,7 @@
                     "date_entrée": "1907-11-07",
                     "date_sortie": "[1912-00-00]",
                     "observations_élève": "En 1911 et 1912 a concouru contrebasse ; [Motif de sortie : Rayé du conservatoire]",
-                    "classe": "9e3f5d2c-66ac-4bea-a108-00194d17b571",
-                    "prix": {
-                        "9408601a-eef2-474f-8016-0ab2bfefa699": {
-                            "date": "1910-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Contrebasse"
-                        }
-                    }
+                    "classe": "9e3f5d2c-66ac-4bea-a108-00194d17b571"
                 }
             }
         },
@@ -6875,14 +6787,7 @@
                     "date_entrée": "1907-11-15",
                     "date_sortie": "[1910-00-00]",
                     "observations_élève": "En 1909 et 1910 a concouru piano ; [Motif de sortie : rayé du conservatoire]",
-                    "classe": "a89f9ac1-eb1d-435e-b40f-05f35e9aa025",
-                    "prix": {
-                        "ffd7420f-f7af-4a69-8c13-3a0fae8642f4": {
-                            "date": "1908-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Piano"
-                        }
-                    }
+                    "classe": "a89f9ac1-eb1d-435e-b40f-05f35e9aa025"
                 }
             }
         },
@@ -6997,14 +6902,7 @@
                     "date_entrée": "1907-11-15",
                     "date_sortie": "[1908-10-07]",
                     "observations_élève": "[Motif de sortie : démission du conservatoire]",
-                    "classe": "0c5b9c98-5a6a-4946-80d6-5eaf3ad7328a",
-                    "prix": {
-                        "25655541-40b0-40cc-a3e6-70184802242c": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Piano"
-                        }
-                    }
+                    "classe": "0c5b9c98-5a6a-4946-80d6-5eaf3ad7328a"
                 },
                 "caca07b6-89b6-4e2e-872c-9ad2c5a5905f": {
                     "motif_entrée": "admis par décision du directeur",
@@ -7338,11 +7236,6 @@
                         "6976fb80-a978-43de-b0f9-3eb5d099b05f": {
                             "date": "1910-00-00",
                             "nom": "Accessit 2",
-                            "discipline": "Piano"
-                        },
-                        "9e1d0493-8847-4808-8173-5ed18d23e0b4": {
-                            "date": "1911-00-00",
-                            "nom": "Accessit 1",
                             "discipline": "Piano"
                         },
                         "9c841e9f-9c06-4107-b3e6-d23e46b95019": {
@@ -8319,14 +8212,7 @@
                     "date_entrée": "1907-00-00",
                     "date_sortie": "[1910-00-00]",
                     "observations_élève": "En 1908 a concouru violon préparatoire ; [Motif sortie conservatoire : premier prix violon]",
-                    "classe": "d8a14250-de13-456e-b618-011e24d0eae5",
-                    "prix": {
-                        "eb61ce56-8fae-4a8c-9b6b-d65360a7a5d3": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        }
-                    }
+                    "classe": "d8a14250-de13-456e-b618-011e24d0eae5"
                 },
                 "c94ccda9-4812-4898-a312-1d920c85700a": {
                     "motif_entrée": "admis par décision du jury",
@@ -8393,14 +8279,7 @@
                     "motif_entrée": "admis par décision du directeur",
                     "date_entrée": "1907-11-29",
                     "observations_élève": "1908-10-06 : dispensée du solfège (M. Bourgeat) ; En 1912 a concouru violon ; [Motif de sortie violon préparatoire :  1er médaille ; motif sortie conservatoire : 1er prix violon]",
-                    "classe": "9b5962d2-b110-477c-b5d1-daa43dab1c11",
-                    "prix": {
-                        "9d0b09fd-2750-4fdf-8821-d82ac23000e5": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        }
-                    }
+                    "classe": "9b5962d2-b110-477c-b5d1-daa43dab1c11"
                 },
                 "529dd26c-9917-4bf0-9457-366b81de4f31": {
                     "motif_entrée": "admis par décision du jury",
@@ -8545,11 +8424,6 @@
                         "1f6d7198-6dfd-4b3c-b8ea-f07c1574e138": {
                             "date": "1911-00-00",
                             "nom": "Accessit 2",
-                            "discipline": "Violon"
-                        },
-                        "526c3554-c9f2-4eb6-b1bb-a2925d15ad5d": {
-                            "date": "1912-00-00",
-                            "nom": "Accessit 1",
                             "discipline": "Violon"
                         },
                         "ffd94322-4fe4-4840-90c7-59676713a94f": {
@@ -8698,11 +8572,6 @@
                     "observations_élève": "En 1908 a concouru solfège ; en 1916-1919 congé (guerre) en 1919-1920 congé (militaire) ; en 1921 a concouru harmonie ; [Motif ortie classe violon préparatoire : 1e médaille ; motif sortie violon : 1 prix ]",
                     "classe": "4ddb4acf-2bb9-49a4-902f-fa46fcfdc673",
                     "prix": {
-                        "84bebec6-3338-41e6-917b-c41b3517a784": {
-                            "date": "1914-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Violon"
-                        },
                         "c1a45246-f6a7-4602-8bb7-f8982bb1b4b6": {
                             "date": "1915-00-00",
                             "nom": "Prix 2",
@@ -9081,11 +8950,6 @@
                     ],
                     "classe": "6df018ab-49c2-4a6c-a662-d9fe7ebfd091",
                     "prix": {
-                        "69eb1b79-23b6-4456-bd19-70abe72f6c80": {
-                            "date": "1911-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Piano"
-                        },
                         "94e7a6fc-9bfb-4cbe-bf2a-40f9c687f2bc": {
                             "date": "1912-00-00",
                             "nom": "Prix 2",
@@ -9249,14 +9113,7 @@
                     "date_entrée": "1907-11-29",
                     "date_sortie": "[1909-10-01]",
                     "observations_élève": "En 1909 a concouru solfège ; [Motif de sortie : démission du conservatoire]",
-                    "classe": "6901a5a5-5592-48c5-9fb4-2048aeebd2c9",
-                    "prix": {
-                        "1763efec-3156-4225-92bb-9fb65050a84f": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        }
-                    }
+                    "classe": "6901a5a5-5592-48c5-9fb4-2048aeebd2c9"
                 }
             }
         },
@@ -9596,11 +9453,6 @@
                     "observations_élève": "En 1917 a concouru harmonie ; EN 1918 axcusée examen de juin, Harmonie ; [Motif de sortie solfège :  1e médaille ; motif sortie conservatoire : 1er Prix harmonie]",
                     "classe": "9b5962d2-b110-477c-b5d1-daa43dab1c11",
                     "prix": {
-                        "50b3999c-2f26-46c0-9e3b-b972596b8293": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "2ff7bb6a-15b0-4e24-aeb6-78a3e62eaca6": {
                             "date": "1909-00-00",
                             "nom": "Médaille 1",
@@ -9689,11 +9541,6 @@
                     "observations_élève": "En 1909 a concouru piano préparatoire[Motif de sortie solfège:  1e médaille ; motif sortie piano préparatoire : rayée du conservatoire]",
                     "classe": "9b5962d2-b110-477c-b5d1-daa43dab1c11",
                     "prix": {
-                        "f7d0a927-25d2-4497-8354-96e0a1688414": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "ef55ad59-b4c1-47ff-9c4d-4f45db4f4f75": {
                             "date": "1909-00-00",
                             "nom": "Médaille 1",
@@ -9795,11 +9642,6 @@
                     "observations_élève": "[Motif de sortie solfège:  1e médaille ; motif sortie conservatoire 1er prix Harpe chromatique]",
                     "classe": "847d623e-8fa7-4bb1-9946-1bc487438a1b",
                     "prix": {
-                        "6b48fdce-ba7d-4aa8-9078-fc6eef43e356": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "22c6ad68-ae79-424e-ad81-691c2630c864": {
                             "date": "1909-00-00",
                             "nom": "Médaille 1",
@@ -9860,11 +9702,6 @@
                         "253aaa00-9db0-404f-8981-d6d1e5691247": {
                             "date": "1908-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "50715bfa-e07e-4be1-aa0d-d4385b4e72d4": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         }
                     }
@@ -10174,11 +10011,6 @@
                             "date": "1908-00-00",
                             "nom": "Médaille 3",
                             "discipline": "Solfège"
-                        },
-                        "492d3c8b-7e59-4828-8b1b-04da9f4d3aa3": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
                         }
                     }
                 }
@@ -10439,11 +10271,6 @@
                     "observations_élève": "En 1912 et 1913 a concouru harmonie ; En 1914 admise à concours Harmonie, malade ; [En 1914 rayée art. 89, § 1 - rayé ensuite] ; En 1915 et 1917 a concouru contrepoint ;  En 1916 a concouru harmonie ;",
                     "classe": "79527908-e6d9-412a-8eaa-34304f186198",
                     "prix": {
-                        "961f349e-79f9-4fcf-8ef7-0a4485a42ba4": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "daa0dadc-c839-490b-87c8-934df4faf1bc": {
                             "date": "1909-00-00",
                             "nom": "Médaille 1",
@@ -10559,11 +10386,6 @@
                         "150390a4-9de0-49c0-91b6-886477f145c0": {
                             "date": "1908-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "7d19042c-8a07-4e78-bbb2-0d0118f29d92": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         },
                         "ba9c58ea-4027-4043-8308-ec80b67b4ab6": {
@@ -10688,11 +10510,6 @@
                         "f43fbd0f-ca38-4184-8881-156ab08f9aee": {
                             "date": "1908-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "65b12e3e-0564-4ba7-b0d7-2f4a5ca826b1": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         },
                         "10222bb2-64e3-424f-8e11-90d626d3ff4d": {
@@ -11269,11 +11086,6 @@
                     "observations_élève": "(Motif sortie solfège et violon préparatoire  : 1 médaille ; Motif sortie conservatoire : 1er prix  violon]",
                     "classe": "d8a14250-de13-456e-b618-011e24d0eae5",
                     "prix": {
-                        "33249064-b5dc-4d3b-a7b3-831aac93fe27": {
-                            "date": "1908-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "0c870940-3048-49ef-89a6-e427f5a2fb50": {
                             "date": "1909-00-00",
                             "nom": "Médaille 1",
@@ -11309,11 +11121,6 @@
                         "faf722e1-8df2-4bf3-8433-f667742d3094": {
                             "date": "1913-00-00",
                             "nom": "Accessit 2",
-                            "discipline": "Violon"
-                        },
-                        "395f5a79-80a5-4305-90c9-8bfcaf82ca1c": {
-                            "date": "1914-00-00",
-                            "nom": "Accessit 1",
                             "discipline": "Violon"
                         },
                         "09fd514e-a2a2-449b-94de-042bbd8f4587": {
@@ -13008,11 +12815,6 @@
                     "observations_élève": "En 1909 et 1911 a concouru trombone ; [Motif de sortie  conservatoire :  1e prix trombone]",
                     "classe": "ad67685a-7d88-4bcd-b1b6-98358973bc27",
                     "prix": {
-                        "7e6aa893-470b-4918-8f15-564971a6fe20": {
-                            "date": "1910-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Trombone"
-                        },
                         "1e2d5206-2809-4928-bd58-f89c1eb65f76": {
                             "date": "1912-00-00",
                             "nom": "Prix 2",
@@ -13123,14 +12925,7 @@
                     "date_entrée": "1908-11-28",
                     "date_sortie": "[1910-00-00]",
                     "observations_élève": "[Motif de sortie :  1er prix harpe]",
-                    "classe": "d8a14250-de13-456e-b618-011e24d0eae5",
-                    "prix": {
-                        "be1a2dfb-08f8-4f3e-b625-111bf3c6b606": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        }
-                    }
+                    "classe": "d8a14250-de13-456e-b618-011e24d0eae5"
                 }
             }
         },
@@ -13696,14 +13491,7 @@
                     "date_sortie": "1911-09-30",
                     "motif_sortie": "Démission solfège",
                     "observations_élève": "1910-10-29 : démissionnaire ; 1908-11-12 démission retirée ; En 1911 a concouru piano préparatoire ; En 1910 a concouru solfège ; [Motive sortie conservatoire : démission solfège]",
-                    "classe": "b36b8b9c-2439-4507-bc22-e3a34fd17067",
-                    "prix": {
-                        "7eaa30b4-59bd-4443-9d6c-f49598a12b6a": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        }
-                    }
+                    "classe": "b36b8b9c-2439-4507-bc22-e3a34fd17067"
                 }
             }
         },
@@ -13907,14 +13695,7 @@
                     "date_entrée": "1908-10-27",
                     "date_sortie": "[1911-00-00]",
                     "observations_élève": "En 1910 a concouru chant ; 1911-01-30 : encouragement de 200 [fr], chapitre 16 ; [Motif de sortie  classe :  rayé du conservatoire]",
-                    "classe": "b5447134-e90c-446c-b25e-9045d221d122",
-                    "prix": {
-                        "d494859b-f3b3-415a-93ef-99a0d6a1edc7": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        }
-                    }
+                    "classe": "b5447134-e90c-446c-b25e-9045d221d122"
                 }
             }
         },
@@ -14080,11 +13861,6 @@
                     "observations_élève": "E1910-02-03 : encouragement de 200 [f], chapitre 16 ; En 1910 malade examen juin solfège ; En 1911 a concouru chant ; [motif sortie conservatoire : 1er prix chant]",
                     "classe": "2a0bb1a2-7ca3-4382-9c08-153ec9024e61",
                     "prix": {
-                        "51ad4484-9aa2-454a-a76a-f2d0c8cf10b8": {
-                            "date": "1910-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Opéra-comique"
-                        },
                         "931d7c76-c3ee-4464-ab80-bfe7fcd4134c": {
                             "date": "1911-00-00",
                             "nom": "Prix 1",
@@ -14165,14 +13941,7 @@
                     "date_entrée": "1911-01-22",
                     "date_sortie": "[1912-00-00]",
                     "observations_élève": "En 1909 a concouru solfège ; 1910-02-03 : encouragement de 200 [f], chapitre 16 ; 1911-01-30 encouragement de 200 [f], chapitre 16 ; En 1911 a concouru solfège ; 1912-01-11 : encouragement de 200 [f] ; en 1912 a concouru Opéra comique ; [Motif de sortie :  1er prix chant]",
-                    "classe": "2a0bb1a2-7ca3-4382-9c08-153ec9024e61",
-                    "prix": {
-                        "a34f3a69-b815-4690-b01a-3f5f596e0a4f": {
-                            "date": "1911-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Opéra-comique"
-                        }
-                    }
+                    "classe": "2a0bb1a2-7ca3-4382-9c08-153ec9024e61"
                 }
             }
         },
@@ -14573,11 +14342,6 @@
                             "nom": "Médaille 3",
                             "discipline": "Solfège"
                         },
-                        "dc4882ea-60e1-4dda-b264-be1f08ba323a": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "6aacab8a-cd36-4c43-b2f5-b18ca6c074fd": {
                             "date": "1912-00-00",
                             "nom": "Médaille 1",
@@ -14605,11 +14369,6 @@
                             "date": "1911-00-00",
                             "nom": "Prix 1",
                             "discipline": "Opéra"
-                        },
-                        "58666a4c-826f-4666-a59a-23768c37d78a": {
-                            "date": "1911-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Opéra-comique"
                         },
                         "bcd6a12d-6096-4283-a2f3-cc481fba6f61": {
                             "date": "1912-00-00",
@@ -15019,11 +14778,6 @@
                     "observations_élève": "1909-01-28 : encouragement de 400 [f], chapitre 16 ; 1910-02-03 et 1911-01-30: encouragements de 500 [f], chapitre 16 ; 1912-01-09: encouragements de 600 [f] ; En 1912 a concouru opéra ; [Motif de sortie classe : rayé du conservatoire]",
                     "classe": "2a0bb1a2-7ca3-4382-9c08-153ec9024e61",
                     "prix": {
-                        "a1cea963-46a2-4e2e-80c3-2dd90bd7c876": {
-                            "date": "1910-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Opéra-comique"
-                        },
                         "354eb423-b758-47ee-9b42-e49d336e34d4": {
                             "date": "1911-00-00",
                             "nom": "Prix 2",
@@ -15239,14 +14993,7 @@
                     "date_sortie": "1911-00-00",
                     "observations_élève": "1910-12-02 : encouragement de 55 [f], chapitre 17 ; 1909-01-30 : bourse d'études de 600 [f], chapitre 17 ; 1910-02-03 et 1911-01-30 : encouragement de 300 [f], chapitre 16 ; 1911-01-11 : course d'études de 600 [f], chapitre 22 ;  En 1909 a concouru solfège ; En 1910 et 1911 a concouru chant ; en 1912 a concouru solfège et opéra-comique",
                     "observations_classe": "1908-12-03 : passée à la classe de solfège de Mme Vinot",
-                    "classe": "efcef1b7-fec8-4ec7-a01b-98015968e45d",
-                    "prix": {
-                        "7f8f6853-1124-4efc-b39d-9d68ab9a9499": {
-                            "date": "1911-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Opéra-comique"
-                        }
-                    }
+                    "classe": "efcef1b7-fec8-4ec7-a01b-98015968e45d"
                 }
             }
         },
@@ -15311,11 +15058,6 @@
                     "observations_élève": "1909-01-28, 1910-02-03 et 1911-01-30 : encouragement de 500 [f], chapitre 16 ; En 1912 encouragement de 600 [f] ; En 1910 et 1912 a concouru chant ; [Motif de sortie classe : rayé du conservatoire]",
                     "classe": "2a0bb1a2-7ca3-4382-9c08-153ec9024e61",
                     "prix": {
-                        "70b350aa-52db-4a9b-ad68-5c326cbe7539": {
-                            "date": "1910-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Opéra-comique"
-                        },
                         "a4635bee-e94c-4009-bfd9-0982d08bb855": {
                             "date": "1911-00-00",
                             "nom": "Prix 2",
@@ -15468,11 +15210,6 @@
                         "2e56ed24-6d6e-4719-8070-7e617d6018df": {
                             "date": "1910-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "62db45e0-604c-4262-adb2-3aab822a0e47": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         }
                     }
@@ -15952,11 +15689,6 @@
                             "nom": "Accessit 2",
                             "discipline": "Violon"
                         },
-                        "3aa62acb-6d02-49a7-b378-4a8284ad75fa": {
-                            "date": "1914-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Violon"
-                        },
                         "388fbc37-73f3-45bd-8068-d55e28ebf2b0": {
                             "date": "1915-00-00",
                             "nom": "Prix 2",
@@ -16021,11 +15753,6 @@
                         "4243fb73-8c3a-4e24-8c83-4b760e094240": {
                             "date": "1910-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "8d639e8f-139d-4991-a006-c3cedd237faf": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         }
                     }
@@ -16115,14 +15842,7 @@
                     "date_sortie": "1911-10-20",
                     "motif_sortie": "Rayée du solfège",
                     "observations_élève": "En 1909 a concouru solfège, non adise lecture ; en 1910 a concouru solfège ; En 1911 a concoru violon préparatoire ;  ([Motif de sortie conservatoire :  1er prix violon]",
-                    "classe": "847d623e-8fa7-4bb1-9946-1bc487438a1b",
-                    "prix": {
-                        "2c5e5507-82cd-4a5b-ad01-47f59ba6d98d": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        }
-                    }
+                    "classe": "847d623e-8fa7-4bb1-9946-1bc487438a1b"
                 },
                 "518f1676-1021-41fa-8391-4088da107fad": {
                     "date_entrée": "1911-11-17",
@@ -16133,11 +15853,6 @@
                     ],
                     "classe": "91a30d6e-01c6-4a8c-aa0c-7ae817e49e06",
                     "prix": {
-                        "69755283-843e-412f-aa65-37ebcdcbd972": {
-                            "date": "1912-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Violon"
-                        },
                         "8a80d123-3f9e-4393-a4ea-a08b6dda13cb": {
                             "date": "1913-00-00",
                             "nom": "Prix 2",
@@ -16221,11 +15936,6 @@
                     "observations_élève": "En 1913 a concouru violon ; [Motif de sortie violon préparatoire :  1e médaille, motif sortie conservatoire : 1er prix violon]",
                     "classe": "bc6ea5fe-b46d-4e6c-9dbf-f851ed2b2df6",
                     "prix": {
-                        "e4c3c623-7d39-44f7-a761-c899cf2d04bd": {
-                            "date": "1912-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Violon"
-                        },
                         "93675e67-a457-475e-b972-74895d0db5d8": {
                             "date": "1914-00-00",
                             "nom": "Prix 1",
@@ -17584,11 +17294,6 @@
                             "nom": "Accessit 2",
                             "discipline": "Contrebasse"
                         },
-                        "b914b31d-3ed8-4303-b530-2ce4bb071fef": {
-                            "date": "1911-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Contrebasse"
-                        },
                         "372041ef-368a-4edc-9088-bf842e7b2dbb": {
                             "date": "1912-00-00",
                             "nom": "Prix 1",
@@ -17635,11 +17340,6 @@
                     "observations_élève": "EN 1909-1910 : congé d'un an service militaire ; en 1912 et 1814 a concouru contrebasse ; [Motif de sortie : rayé du conservatoire]",
                     "classe": "9e3f5d2c-66ac-4bea-a108-00194d17b571",
                     "prix": {
-                        "c7cce920-3a86-47fa-9c35-e2fe275fc460": {
-                            "date": "1911-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Contrebasse"
-                        },
                         "9f3c3f1a-4488-40dc-a2bf-2dbd183cb3d1": {
                             "date": "1913-00-00",
                             "nom": "Prix 2",
@@ -18251,11 +17951,6 @@
                     "observations_élève": "[Motif de sortie :  1er prix piano]",
                     "classe": "249c7175-befc-42c2-a929-ed6ea2798191",
                     "prix": {
-                        "98485550-3a38-4926-a7b1-7afe8c286afd": {
-                            "date": "1910-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Piano"
-                        },
                         "97f026c6-4e0a-4243-a78b-ec26daa16144": {
                             "date": "1911-00-00",
                             "nom": "Prix 2",
@@ -18831,11 +18526,6 @@
                             "nom": "Médaille 3",
                             "discipline": "Solfège"
                         },
-                        "f6a5e184-c20d-44c9-b6b0-ba6f86e3e2e0": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "39e39599-bd48-40f8-be95-dac4a4ddb2ce": {
                             "date": "1912-00-00",
                             "nom": "Médaille 1",
@@ -19122,11 +18812,6 @@
                     "observations_élève": "En 1909 et 1910 a concouru piano préparatoire ; [Motif de sortie :  1er prix piano]",
                     "classe": "9b5962d2-b110-477c-b5d1-daa43dab1c11",
                     "prix": {
-                        "44250a2c-291b-4848-844d-fcfab1a67bc8": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "77308cdd-17c7-4c2f-9e4c-bad95b434d05": {
                             "date": "1911-00-00",
                             "nom": "Médaille 1",
@@ -19620,14 +19305,7 @@
                     "date_entrée": "190!-11-28",
                     "date_sortie": "[1912-00-00]",
                     "observations_élève": "En 1910 et 1912 a concouru solfège ;  En 1917 : mort pour la Patrie ;[Motif sortie : rayé du conservatoire]",
-                    "classe": "9ba6f799-834e-4d65-9025-5a231065ef98",
-                    "prix": {
-                        "85683127-213f-4b6c-9d58-9db461040d2e": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        }
-                    }
+                    "classe": "9ba6f799-834e-4d65-9025-5a231065ef98"
                 }
             }
         },
@@ -20021,11 +19699,6 @@
                             "date": "1910-00-00",
                             "nom": "Médaille 3",
                             "discipline": "Solfège"
-                        },
-                        "de7cb14d-8484-493a-8dbd-064ff43cb1a8": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
                         }
                     }
                 }
@@ -20153,11 +19826,6 @@
                         "91ff7ccc-864d-47e5-a354-1d1cd281e1f5": {
                             "date": "1910-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "d7e180ee-8c84-491e-9bbb-2a90c3fab775": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         }
                     }
@@ -20297,11 +19965,6 @@
                     "observations_élève": "[Motif de sortie solfège :  1e médaille ; motif sortie piano: rayé du conservatoire]",
                     "classe": "6901a5a5-5592-48c5-9fb4-2048aeebd2c9",
                     "prix": {
-                        "612117d1-ca48-4848-aebe-85bf85a3aa13": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "6ed6e797-232c-4d0c-8210-07e7623abb39": {
                             "date": "1911-00-00",
                             "nom": "Médaille 1",
@@ -20409,11 +20072,6 @@
                         "d0de1cb3-40ef-4cea-95a5-d6f7bd73b819": {
                             "date": "1909-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "ddfa5ed0-d9a8-4045-ba73-57d6dca3c5e2": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         },
                         "48d32fd5-428a-4e10-8596-3173e76afc44": {
@@ -20621,14 +20279,7 @@
                     "date_entrée": "1908-11-28",
                     "date_sortie": "[1911-00-00]",
                     "observations_élève": "En 1909 a concouru solfège ; [Motif de sortie : 1er médaille]",
-                    "classe": "d8a14250-de13-456e-b618-011e24d0eae5",
-                    "prix": {
-                        "a2e74e34-4cdf-4dc3-8ae6-f35995cc30f1": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        }
-                    }
+                    "classe": "d8a14250-de13-456e-b618-011e24d0eae5"
                 }
             }
         },
@@ -20855,11 +20506,6 @@
                     "observations_élève": "[Motif de sortie solfège :  1e médaille]",
                     "classe": "ff4ae276-c51b-4118-9c74-651b261ead7d",
                     "prix": {
-                        "00f28581-c0f1-4d20-add7-11cf6a1ed8c0": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "5f29574b-356d-4f9b-9e3d-a0b9899825b8": {
                             "date": "1911-00-00",
                             "nom": "Médaille 1",
@@ -20945,11 +20591,6 @@
                             "date": "1910-00-00",
                             "nom": "Médaille 3",
                             "discipline": "Solfège"
-                        },
-                        "62cc15e6-d0a5-4a4e-8e91-9b71db861cd3": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
                         }
                     }
                 }
@@ -20989,11 +20630,6 @@
                         "da98bb66-9411-466e-ba71-c72a099d97fe": {
                             "date": "1910-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "735851ce-eac2-49cb-ab94-d76ccb125e0a": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         },
                         "b0a164ac-6a71-4017-ad81-e202813e287d": {
@@ -21076,11 +20712,6 @@
                         "1ba551a3-2613-46d3-9746-d6710c71b17f": {
                             "date": "1910-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "cb765f85-7276-4c9d-83b7-150c64685028": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         }
                     }
@@ -21202,11 +20833,6 @@
                             "date": "1909-00-00",
                             "nom": "Médaille 3",
                             "discipline": "Solfège"
-                        },
-                        "dac33f83-6342-4cd2-82cf-5436e7342170": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
                         }
                     }
                 }
@@ -21243,11 +20869,6 @@
                     "observations_élève": "En 1909 a concouru solfège  non admise lecture ; en 1919 a concouru piano ; [Motif de sortie solfège :  1e médaille ; motif sortie piano: rayé du conservatoire]",
                     "classe": "847d623e-8fa7-4bb1-9946-1bc487438a1b",
                     "prix": {
-                        "abbfeea6-919f-4297-902e-6dc8d88e08ec": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "8bc16d0b-1eec-4ee3-af8c-f257060bf9bb": {
                             "date": "1911-00-00",
                             "nom": "Médaille 1",
@@ -21376,11 +20997,6 @@
                         "d9d0b302-eab7-4a45-b766-7a58ee4e0e82": {
                             "date": "1910-00-00",
                             "nom": "Médaille 3",
-                            "discipline": "Solfège"
-                        },
-                        "f464a920-d878-49c4-81b5-6254a10d4d21": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
                             "discipline": "Solfège"
                         }
                     }
@@ -21540,11 +21156,6 @@
                     "observations_élève": "En 1912  a concouru solfège et violon préparatoire ; en 1915 a concouru violon ; 1915-1916 ; congé (guerre) ; En 1915 dispensé du solfège (examen du 8 décembre)",
                     "classe": "91a30d6e-01c6-4a8c-aa0c-7ae817e49e06",
                     "prix": {
-                        "4568f498-5bce-4c99-ae93-1271e161833f": {
-                            "date": "1914-00-00",
-                            "nom": "Accessit 1",
-                            "discipline": "Violon"
-                        },
                         "5b9ab24e-382a-4a7e-9374-6d89d6abb723": {
                             "date": "1917-00-00",
                             "nom": "Prix 1",
@@ -21657,14 +21268,7 @@
                     "date_sortie": "[1911-10-11]",
                     "observations_élève": "En 1910 malade ; [motif sortie: démission du conservatoire]",
                     "observations_classe": "intérminaire Cuignache",
-                    "classe": "adf85791-64d4-4c1e-bc15-016fa527a8af",
-                    "prix": {
-                        "7fd78537-e112-4e7f-8c6c-263dafb7276a": {
-                            "date": "1911-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        }
-                    }
+                    "classe": "adf85791-64d4-4c1e-bc15-016fa527a8af"
                 }
             }
         },
@@ -21731,11 +21335,6 @@
                     "observations_élève": "[Motif de sortie :  1e médaille Solfège]",
                     "classe": "ff4ae276-c51b-4118-9c74-651b261ead7d",
                     "prix": {
-                        "40e4d7bd-3ebb-4b50-8893-95c229cc57d9": {
-                            "date": "1910-00-00",
-                            "nom": "Médaille 2",
-                            "discipline": "Solfège"
-                        },
                         "67d9a904-1ee6-4e22-ab12-5fc50718000e": {
                             "date": "1911-00-00",
                             "nom": "Médaille 1",
@@ -22573,12 +22172,6 @@
                     "prix": {
                         "df49adb5-f5d7-418f-9321-2db93ab96ded": {
                             "date": 1915,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Orgue"
-                        },
-                        "acd0d984-4a5a-413e-af7e-1d22bbdf73cd": {
-                            "date": 1916,
                             "nom": "Accessit 1",
                             "type": "Conservatoire",
                             "discipline": "Orgue"
@@ -24600,15 +24193,7 @@
                     "date_sortie": "1918-01-08",
                     "motif_sortie": "Rayé pour absences à ses classes et à l'examen (décis. De M. le Directeur).",
                     "observations_classe": "1915 : Fév. Encouragement de 100 frs. ; Congé guerre 1916-1917.",
-                    "classe": "f5d9b76c-7bc2-4093-9b1f-b3344c0f8650",
-                    "prix": {
-                        "a57d2b67-3a69-423f-8f97-8869575c86b1": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Comédie"
-                        }
-                    }
+                    "classe": "f5d9b76c-7bc2-4093-9b1f-b3344c0f8650"
                 }
             }
         },
@@ -25067,15 +24652,7 @@
                     "motif_sortie": "Rayé art. 102 § 2",
                     "observations_élève": "Observation barrée : « 1916 30-8. Rayée art. 102 § 2 »",
                     "observations_classe": "1915 Fév. : Encouragement de 200 frs. ; 1915 : A concouru Comédie ; 30-08-1916 : Autorisee à faire une année supplementaire.",
-                    "classe": "5cdced4f-36eb-40ca-8917-bc96b15e241b",
-                    "prix": {
-                        "096fe4dc-0ce8-4aca-9ffd-a501600512e0": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Comédie"
-                        }
-                    }
+                    "classe": "5cdced4f-36eb-40ca-8917-bc96b15e241b"
                 }
             }
         },
@@ -25106,15 +24683,7 @@
                     "date_sortie": "1917-00-00",
                     "motif_sortie": "Rayé art. 102 § 2",
                     "observations_classe": "Congé (Guerre) 1914-1915 ; 1917 : A concouru Comédie.",
-                    "classe": "5cdced4f-36eb-40ca-8917-bc96b15e241b",
-                    "prix": {
-                        "3598c28d-d752-459c-96a4-5a5e1d1842ca": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Comédie"
-                        }
-                    }
+                    "classe": "5cdced4f-36eb-40ca-8917-bc96b15e241b"
                 }
             }
         },
@@ -25372,12 +24941,6 @@
                             "type": "Conservatoire",
                             "discipline": "Comédie"
                         },
-                        "81fdb89c-2f54-40ac-ad51-dbac37643079": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Comédie"
-                        },
                         "7893e232-8a87-4aed-b302-6592f2e5a4c6": {
                             "date": 1917,
                             "nom": "Prix 1",
@@ -25520,12 +25083,6 @@
                     "observations_classe": "1914-1915 : Congé d'un an. Malade.",
                     "classe": "eef0c3e2-6fa7-456a-b0c6-7c85b7dbeec6",
                     "prix": {
-                        "caba421a-036f-4846-848b-a12a4ec04830": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Comédie"
-                        },
                         "9a057aaa-2553-4218-85c4-634943c83eb8": {
                             "date": 1917,
                             "nom": "Accessit 1",
@@ -28310,12 +27867,6 @@
                             "type": "Conservatoire",
                             "discipline": "Piano"
                         },
-                        "18563647-91d6-4bcb-856a-3188eb40a687": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
                         "d7bb364c-2abb-4aa4-91d9-8e72657d0cb1": {
                             "date": 1918,
                             "nom": "Prix 2",
@@ -28376,15 +27927,7 @@
                     "date_entrée": "1913-11-07",
                     "date_sortie": "1914-11-02",
                     "motif_sortie": "Démissionnaire",
-                    "classe": "0c5b9c98-5a6a-4946-80d6-5eaf3ad7328a",
-                    "prix": {
-                        "cf2d13e9-f4c4-49ee-84cb-f555d02b2600": {
-                            "date": 1914,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        }
-                    }
+                    "classe": "0c5b9c98-5a6a-4946-80d6-5eaf3ad7328a"
                 }
             }
         },
@@ -28422,12 +27965,6 @@
                     "observations_classe": "1915 : A concouru Piano préparatoire ; 1916 : Rayée art. 102 § 2 ; 1920 : A concouru lecture à vue ; 1922 : A concouru Piano.",
                     "classe": "ed5b5a4e-2c30-4777-b36f-a094f3fbe925",
                     "prix": {
-                        "e12f6963-b77d-4b60-a6cf-d832c478a952": {
-                            "date": 1914,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
                         "43d9e835-eeb7-425b-9cec-b9688447c3fa": {
                             "date": 1916,
                             "nom": "Mention 3",
@@ -28503,15 +28040,7 @@
                     "date_entrée": "1913-11-07",
                     "date_sortie": "1914-11-11",
                     "motif_sortie": "Démissionnaire",
-                    "classe": "0c5b9c98-5a6a-4946-80d6-5eaf3ad7328a",
-                    "prix": {
-                        "95cae370-d5e3-4644-bf94-d8c718d8e65c": {
-                            "date": 1914,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        }
-                    }
+                    "classe": "0c5b9c98-5a6a-4946-80d6-5eaf3ad7328a"
                 },
                 "a12ba2d5-4a43-4b89-81f6-7bbc7373c53e": {
                     "date_entrée": "1913-11-21",
@@ -28706,18 +28235,6 @@
                     "observations_classe": "1915 : A concouru Piano préparatoire ; 1916-12-02 : Rayée pour absences ; 1922 : A concouru Piano.",
                     "classe": "f1dee2e1-c3fa-4a41-b950-167a028390e6",
                     "prix": {
-                        "7aa52ffa-3594-4965-821e-e284338b07b8": {
-                            "date": 1914,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
-                        "81758da4-eead-476e-aca8-0ce7082cda9d": {
-                            "date": 1916,
-                            "nom": "Mention 2",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
                         "cc51b6b8-a054-4433-9db6-4399dae1d28b": {
                             "date": 1920,
                             "nom": "Médaille",
@@ -28788,12 +28305,6 @@
                     "observations_élève": "1916-12-11 : Elève de Piano (M. Diémer)",
                     "classe": "f1dee2e1-c3fa-4a41-b950-167a028390e6",
                     "prix": {
-                        "ce1f0737-4b0a-4512-bfec-399e88c1a7de": {
-                            "date": 1914,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
                         "a0e7c30f-6d19-4036-8976-7d5609408ca3": {
                             "date": 1915,
                             "nom": "Médaille 2",
@@ -28906,12 +28417,6 @@
                     "date_sortie": "1916-00-00",
                     "classe": "0c5b9c98-5a6a-4946-80d6-5eaf3ad7328a",
                     "prix": {
-                        "790d6f2a-1856-48fc-99b0-e0b7e3b1efd5": {
-                            "date": 1914,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
                         "1f815d00-aaea-40ed-a855-5a9f3af308c7": {
                             "date": 1915,
                             "nom": "Médaille 2",
@@ -28977,12 +28482,6 @@
                     "observations_classe": "1915 : A concouru Piano préparatoire.",
                     "classe": "0c5b9c98-5a6a-4946-80d6-5eaf3ad7328a",
                     "prix": {
-                        "3c6d11ef-8b54-4879-becd-c8670ab9721f": {
-                            "date": 1914,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
                         "4ec55745-cd3f-4ecd-949a-351ce951a6d1": {
                             "date": 1916,
                             "nom": "Mention 1",
@@ -29226,12 +28725,6 @@
                             "type": "Conservatoire",
                             "discipline": "Violon"
                         },
-                        "fe4d9109-5d74-4528-9d3f-09e78cadd8ba": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Violon"
-                        },
                         "f5257321-c89c-499c-99fb-b900d3d2c7f6": {
                             "date": 1920,
                             "nom": "Prix 1",
@@ -29466,12 +28959,6 @@
                     "observations_classe": "1919 : Malade examen de Mai Violon ; 1919-1920 : Congé d'un an. Malade ; 1920 : A concouru Lecture à Vue.",
                     "classe": "ff70e40d-2efa-4aae-ab8c-b7a2b1cb5f23",
                     "prix": {
-                        "398c0988-fb06-46c9-9e64-9cd5f921f716": {
-                            "date": 1914,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Violon"
-                        },
                         "38a61add-2136-428b-be08-e331d1aa4c3d": {
                             "date": 1915,
                             "nom": "Médaille 2",
@@ -29565,12 +29052,6 @@
                     "motif_sortie": "Démissionnaire",
                     "classe": "10dd8c66-30e4-4fcf-826f-61e649e88fab",
                     "prix": {
-                        "ed24f6fe-53c0-4980-bac4-9f82aa4e2411": {
-                            "date": 1914,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Violon"
-                        },
                         "37041cac-b556-4105-8e04-23e7bd75001f": {
                             "date": 1915,
                             "nom": "Médaille 2",
@@ -29695,12 +29176,6 @@
                     "observations_élève": "1916-12-07 : Elève de Violon (M. Rémy)",
                     "classe": "ff70e40d-2efa-4aae-ab8c-b7a2b1cb5f23",
                     "prix": {
-                        "33732e84-0326-4d99-9ec4-a5bce2007369": {
-                            "date": 1915,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Violon"
-                        },
                         "281012b0-d7bb-45c8-aa4e-f0a420751abe": {
                             "date": 1916,
                             "nom": "Mention 1",
@@ -29774,12 +29249,6 @@
                         "dd5f8302-d92f-4fa8-ae76-1e72fda1a2bf": {
                             "date": 1915,
                             "nom": "Médaille 1",
-                            "type": "Conservatoire",
-                            "discipline": "Violon"
-                        },
-                        "20a8a6dd-0bb8-463a-a041-659152c0598e": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
                             "type": "Conservatoire",
                             "discipline": "Violon"
                         },
@@ -30311,12 +29780,6 @@
                     "observations_classe": "1916 : Rayé art.  102 § 2 ; 1920 : A concouru Lecture à Vue ; 1920-1921 : Congé d'un an. Malade ; 1923 : A concouru Piano.",
                     "classe": "db9975f1-ca2f-42bc-b159-a5fa9664971e",
                     "prix": {
-                        "54c63c96-5f3e-4cdb-92de-c5c6a4206c19": {
-                            "date": 1915,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
                         "a8b7f1db-3162-4153-af74-55a8226c1c96": {
                             "date": 1920,
                             "nom": "Accessit 2",
@@ -30387,11 +29850,6 @@
                             "date": 1917,
                             "nom": "Prix 1",
                             "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
-                        "cae66408-5c4d-4ac4-b8cf-a1c10fd10a15": {
-                            "date": 1918,
-                            "nom": "Prix d'Honneur",
                             "discipline": "Piano"
                         }
                     }
@@ -30495,18 +29953,6 @@
                     "motif_sortie": "Rayé art. 102 § 2",
                     "classe": "f1dee2e1-c3fa-4a41-b950-167a028390e6",
                     "prix": {
-                        "b0e0aed0-e0c8-45ac-86b8-ee2dbe34934b": {
-                            "date": 1915,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
-                        "954d5f8b-f077-4fea-8741-90a6f61e05f4": {
-                            "date": 1916,
-                            "nom": "Mention 2",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
                         "be865abe-8c5e-44a6-8a9a-3a2d51c9ebf7": {
                             "date": 1917,
                             "nom": "Médaille 2",
@@ -30830,12 +30276,6 @@
                     "observations_classe": "1920 : A concouru Lecture à Vue.",
                     "classe": "db9975f1-ca2f-42bc-b159-a5fa9664971e",
                     "prix": {
-                        "38e1f6d2-bdbf-4532-b62d-cf4c578ff2d0": {
-                            "date": 1919,
-                            "nom": "Médaille 3",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
                         "936fe93d-557c-4fc7-bf4c-d91800618bc0": {
                             "date": 1920,
                             "nom": "Médaille 1",
@@ -31912,12 +31352,6 @@
                     "observations_classe": "1915 : A concouru Harmonie.",
                     "classe": "0b03c4ce-b6ea-4939-b677-59290e519a2a",
                     "prix": {
-                        "fabb5ea2-f5b5-47b9-9271-cf992e2154f8": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Harmonie"
-                        },
                         "8a5c3796-9da5-47be-ada9-5ad2481e3257": {
                             "date": 1917,
                             "nom": "Prix 1",
@@ -33312,12 +32746,6 @@
                     "observations_classe": "1920 : A concouru Lecture à Vue ; 1923 : Aconcouru Piano.",
                     "classe": "db9975f1-ca2f-42bc-b159-a5fa9664971e",
                     "prix": {
-                        "a3a53aa0-40c2-4c79-bb94-e3315a49ceec": {
-                            "date": 1916,
-                            "nom": "Mention 2",
-                            "type": "Conservatoire",
-                            "discipline": "Piano"
-                        },
                         "aab401a7-7adc-49b0-be8e-c94416df0153": {
                             "date": 1917,
                             "nom": "Médaille 1",
@@ -33550,12 +32978,6 @@
                             "type": "Conservatoire",
                             "discipline": "Flûte"
                         },
-                        "5f636911-2560-4d5f-a9ad-aa21b1d3e6b0": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Flûte"
-                        },
                         "44788b91-8dae-4daf-9ef4-740f9e15f327": {
                             "date": 1920,
                             "nom": "Accessit 1",
@@ -33664,12 +33086,6 @@
                     "observations_classe": "1915 : A concouru Hautbois.",
                     "classe": "b9e70d74-754e-4f94-a33c-ada9202a864c",
                     "prix": {
-                        "9b0ba719-c888-48a0-9a54-f55bdc2b3ff0": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Hautbois"
-                        },
                         "cf82916e-8929-4b11-8bc8-52eaa8b24cf2": {
                             "date": 1917,
                             "nom": "Prix 2",
@@ -34081,12 +33497,6 @@
                     "observations_classe": "1915 : A concouru Cornet à pistons ; Congé (Guerre) 1916-1919 ; 1920 : A concouru Lecture à Vue.",
                     "classe": "5783bba0-4ca5-4f2e-872e-aea924f08884",
                     "prix": {
-                        "215a956e-0732-476a-999f-39365676f1b4": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Cornet à pistons"
-                        },
                         "91ad3eb0-8a95-4926-8370-c767f1cb5348": {
                             "date": 1920,
                             "nom": "Prix 2",
@@ -34202,15 +33612,7 @@
                 },
                 "38fe7abe-f752-4295-a47a-428b28b5a2aa": {
                     "observations_classe": "1917 : Rayé art. 102 § 2 ; 1917-1918 : Autorisée à faire une année supplémentaire.",
-                    "classe": "ff06efa5-3475-466f-bfdd-95b90d2df999",
-                    "prix": {
-                        "b1b2ba68-d97f-4c3c-a124-e8e16196344d": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Histoire et Littérature dramatique"
-                        }
-                    }
+                    "classe": "ff06efa5-3475-466f-bfdd-95b90d2df999"
                 }
             }
         },
@@ -34315,12 +33717,6 @@
                     "observations_classe": "Congé (Guerre) 1916-1919 ; 1920 : Rayé art. 102 § 2 ; 1920 : Maintenu un 1 an en surbombre.",
                     "classe": "16ad4dbb-e835-4e4d-9c8d-470bca548d97",
                     "prix": {
-                        "99e146de-1940-471d-a654-5ea6e6896d29": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Comédie"
-                        },
                         "0756eaf8-67f6-4eaa-9bf4-0f156f2027f7": {
                             "date": 1920,
                             "nom": "Accessit 1",
@@ -34867,12 +34263,6 @@
                     "observations_classe": "1915 : A concouru Tragédie ; 1916 : A concouru Comédie.",
                     "classe": "eef0c3e2-6fa7-456a-b0c6-7c85b7dbeec6",
                     "prix": {
-                        "7b2234e6-9839-45ed-a8d4-1979515f8bc9": {
-                            "date": 1916,
-                            "nom": "Accessit 1",
-                            "type": "Conservatoire",
-                            "discipline": "Histoire et Littérature dramatique"
-                        },
                         "3e6ee69b-b4b2-452f-a634-61a1f15c4a99": {
                             "date": 1916,
                             "nom": "Accessit 1",

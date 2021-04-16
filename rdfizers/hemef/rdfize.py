@@ -284,7 +284,8 @@ for eleve_id1, eleve in data["eleves_identifiant_1"].items():
         ]:
             parse_date(v, iremus_ns[eleve["uuid"]], k)
         elif k in ['sexe', 'sexe_TDC']:
-            t(iremus_ns[eleve["uuid"]], hemef_ns[k], l({"H": '♂', "F": '♀'}[v]))
+            # t(iremus_ns[eleve["uuid"]], hemef_ns[k], l({"H": '♂', "F": '♀'}[v]))
+            t(iremus_ns[eleve["uuid"]], hemef_ns[k], l({"H": 'H', "F": 'F'}[v]))
         elif k in ["naissance_ville", "naissance_ville_TDC"]:
             for kk, vv in eleve[k].items():
                 if kk in ["nom", "nom_TDC"]:

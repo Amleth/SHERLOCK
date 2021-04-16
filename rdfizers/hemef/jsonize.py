@@ -9,6 +9,7 @@ from pathlib import Path, PurePath
 from pprint import pprint
 import sys
 import uuid
+from sherlockcachemanagement import Cache
 
 ################################################################################
 #
@@ -20,6 +21,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--xlsx")
 parser.add_argument("--divergences")
 parser.add_argument("--json")
+parser.add_argument("--cache")
 args = parser.parse_args()
 
 wb = load_workbook(filename=args.xlsx, read_only=True)
@@ -44,11 +46,7 @@ nb_lignes_par_eleve = defaultdict(lambda: 0)
 
 # CACHE
 
-sys.path.append(str(Path(".").absolute().parent.parent))
-from cache_management import get_uuid, read_cache, write_cache  # nopep8
-
-cache_file = str(PurePath.joinpath(Path(".").absolute(), "cache.yaml"))
-read_cache(cache_file)
+cache = Cache(args.cache)
 
 ################################################################################
 #
@@ -174,7 +172,7 @@ for row in ws.rows:
         current_eleve_line = 0
     current_eleve_line += 1
 
-    eleve_uuid = get_uuid(["élèves_identifiant_1", r("identifiant_1"), "uuid"])
+    eleve_uuid = cache.get_uuid(["élèves_identifiant_1", r("identifiant_1"), "uuid"], True)
     eleve = data["eleves_identifiant_1"][r("identifiant_1")]
     eleve["uuid"] = eleve_uuid
     w(eleve, True, "identifiant_1", "identifiant_1")
@@ -380,10 +378,10 @@ for row in ws.rows:
     classe_key = None
     if disc_k and prof_k:
         classe_key = ["classes", disc_k, prof_k]
-        classe_uuid = get_uuid(classe_key)
+        classe_uuid = cache.get_uuid(classe_key, True)
     if not classe_uuid:
         classe_key = ["classes", i]
-        classe_uuid = get_uuid(classe_key)
+        classe_uuid = cache.get_uuid(classe_key, True)
 
     w(data["classes"][classe_uuid], False, "classe_discipline", "discipline")
     w(data["classes"][classe_uuid], True, "classe_discipline_categorie", "discipline_categorie")
@@ -415,10 +413,10 @@ for row in ws.rows:
     parcours_classe_key = None
     if date_entree_k:
         parcours_classe_key = ["élèves_identifiant_1", r("identifiant_1"), "parcours-classes", classe_uuid, date_entree_k]
-        parcours_classe_uuid = get_uuid(parcours_classe_key)
+        parcours_classe_uuid = cache.get_uuid(parcours_classe_key, True)
     if not parcours_classe_uuid:
         parcours_classe_key = ["élèves_identifiant_1", r("identifiant_1"), "parcours-classes", classe_uuid, f"ligne_{current_eleve_line}"]
-        parcours_classe_uuid = get_uuid(parcours_classe_key)
+        parcours_classe_uuid = cache.get_uuid(parcours_classe_key, True)
 
     if not "parcours-classes" in eleve:
         eleve["parcours-classes"] = {}
@@ -462,7 +460,7 @@ for row in ws.rows:
     if not is_empty_prix() and parcours_classe_uuid in eleve["parcours-classes"]:
         if None in prix_key:
             prix_key.append(f"ligne_{current_eleve_line}")
-        prix_uuid = get_uuid(prix_key)
+        prix_uuid = cache.get_uuid(prix_key, True)
 
         if not "prix" in eleve["parcours-classes"][parcours_classe_uuid]:
             eleve["parcours-classes"][parcours_classe_uuid]["prix"] = {}
@@ -507,7 +505,7 @@ pprint(sorted(colonnes_inconnues))
 
 wb.close()
 
-write_cache(cache_file)
+cache.bye()
 
 for k, v in divergences.items():
     divergences[k]["lignes"] = nb_lignes_par_eleve[k]
