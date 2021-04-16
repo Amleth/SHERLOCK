@@ -7,26 +7,26 @@
 - Dire à Antoine de faire les index uniquement sur les liens entre F2
 - Je crois que des F2 articles TEI sont imbriqués dans des F2 livraisons physique
 
-## Corpora iconographiques ✔
+## Corpora iconographiques 
 
-- dcterms:creator (= personne), pas created (= date)
+✔ - dcterms:creator (= personne), pas created (= date)
 
-### Fichier Excel **à voir ensemble**
+### Fichier Excel 
 
-- Créer une colonne par contribution avec rôle + nom (UUID) (rôle renvoie à un vocabulaire contrôlé des domaines d'expertise/fonctions => sherlock/data)
+**à voir ensemble** - Créer une colonne par contribution avec rôle + nom (UUID) (rôle renvoie à un vocabulaire contrôlé des domaines d'expertise/fonctions => sherlock/data)
 
-### Collection
+### Collection 
 
-- Dire que la collection racine contient deux sous-collections (estampes et musique)
-- Tisser les liens P106 entre collections et E36
-- Quand ce n'est pas nécessaire, ne pas créer d'E41 derrière les P1
-- P104 et P105 ne sont définis que sur la collection "mère" (les "filles" en héritent)
+✔ - Dire que la collection racine contient deux sous-collections (estampes et musique) 
+✔ - Tisser les liens P106 entre collections et E36 
+✔ - Quand ce n'est pas nécessaire, ne pas créer d'E41 derrière les P1 
+✔ - P104 et P105 ne sont définis que sur la collection "mère" (les "filles" en héritent) 
 - Comment dire que plusieurs personnes participent à la création d'une entité chacune avec un rôle spécifique ? E7 -> P9 -> E7 spécifique
 
-### Image ✔
+### Image 
 
-- Supprimer F2 sur les E36. Relier les E36 aux livraisons via P148 (OK car E36=>E73=>E89 et F2=>E73=>E89)
-- E36
+✔ - Supprimer F2 sur les E36. Relier les E36 aux livraisons via P148 (OK car E36=>E73=>E89 et F2=>E73=>E89)
+✔ - E36
     P106(E13)
         E36
             P106(E13)
@@ -45,7 +45,7 @@ E13
 ### Indexation
 
 - les P2 doivent être dans des E13
-- tout sous-fragment identifié (médaille, ville, grelot…) donne lieu à ceci : E36 -> P106(E13) -> E36 -> P2(E13) -> E55
+**attendre d'avoir transformé le vocabulaire de Anne en ttl?** - tout sous-fragment identifié (médaille, ville, grelot…) donne lieu à ceci : E36 -> P106(E13) -> E36 -> P2(E13) -> E55 
 - comment indexer les fragments d'images avec les entités du RAR ? => P138
 
 ### Relations
@@ -60,6 +60,6 @@ E13
 
 ### Titres
 
-- E13 -> P177:E55(-> dcterms:creator -> Anne)
+✔ - E13 -> P177:E55(-> dcterms:creator -> Anne)
       -> P141 -> "[Le Feu]"
 - Regrouper les E55 typent des gestes scientifiques en un F34.

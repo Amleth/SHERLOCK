@@ -231,6 +231,8 @@ def traitement_images():
 
 				#### E13 Attribute Assignement -  concepteur de la gravure
 				img_E22_invenit_auteur = she(cache_40CM.get_uuid(["collection", id, "E22_E12_invenit_auteur"], True))
+				t(img_E22_invenit_auteur, a, crm("E21_Person"))
+				t(img_E22_invenit_auteur, RDFS.label, l(img_row[15].value))
 				img_E22_invenit_E13 = she(cache_40CM.get_uuid(["collection", id, "E22_E12_invenit_E13"], True))
 				t(img_E22_invenit_E13, a, crm("E13_Attribute_Assignement"))
 				t(img_E22_invenit_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
@@ -259,6 +261,8 @@ def traitement_images():
 
 				#### E13 Attribute Assignement -  sculpteur de la gravure
 				img_E22_sculpsit_auteur = she(cache_40CM.get_uuid(["collection", id, "E22_E12_sculpsit_auteur"], True))
+				t(img_E22_sculpsit_auteur, a, crm("E21_Person"))
+				t(img_E22_sculpsit_auteur, RDFS.label, l(img_row[16].value))
 				img_E22_sculpsit_E13 = she(cache_40CM.get_uuid(["collection", id, "E22_E12_sculpsit_E13"], True))
 				t(img_E22_sculpsit_E13, a, crm("E13_Attribute_Assignement"))
 				t(img_E22_sculpsit_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
@@ -277,7 +281,6 @@ def traitement_images():
 					t(img_E22_E55_E13, crm("P140_assigned_attribute_to"), img_E22_sculpsit)
 					t(img_E22_E55_E13, crm("P141_assigned"), img_E22_E55)
 					t(img_E22_E55_E13, crm("P177_assigned_property_type"), crm("P32_used_general_technique"))
-
 
 
 			# 2.2 L'IMAGE COMME SUPPORT SEMIOTIQUE
@@ -435,6 +438,17 @@ def traitement_images():
 						  crm("P190_has_symbolic_content"))
 
 
+			## Numérisation de la gravure
+			img_D2 = she(cache_40CM.get_uuid(["collection", id, "E22_D2"], True))
+			t(img_D2, a, crmdig("D2_Digitization_Process"))
+			t(img_D2, crmdig("L1_digitized"), img_E22)
+			img_D1 = she(cache_40CM.get_uuid(["collection", id, "E22_D1"], True))
+			t(img_D1, a, crmdig("D1_Digital_Object"))
+			t(img_D1, crm("P2_is_identified_by"), l(img_row[0].value))
+			t(img_D2, crmdig("L11_had_output"), img_D1)
+			t(img_D1, crm("P130_shows_features_of"), img_E36)
+			t(coll_estampes, crm("P106_is_composed_of"), img_D2)
+
 
 if collection_row[3].value == "Images":
 
@@ -444,6 +458,7 @@ if collection_row[3].value == "Images":
 		coll_estampes = she(cache_40CM.get_uuid(["collection", "estampes"], True))
 		print("Je me trouve dans la collection d'estampes")
 		t(coll_estampes, a, crmdig("D1_Digital_Object"))
+		t(coll_estampes, RDFS.label, l("Collection d'estampes"))
 		t(coll_estampes, crm("P2_has_type"), she_ns("20674932-def8-4a73-9b67-ac49a16b5243"))
 		t(collection, crm("P106_is_composed_of"), coll_estampes)
 		traitement_images()
@@ -452,10 +467,11 @@ if collection_row[3].value == "Images":
 		coll_musique = she(cache_40CM.get_uuid(["collection", "musique"], True))
 		print("Je me trouve dans la collection de partitions")
 		t(coll_musique, a, crmdig("D1_Digital_Object"))
+		t(coll_musique, RDFS.label, l("Collection de partitions"))
 		t(coll_musique, crm("P2_has_type"), she_ns("fa4959c8-8537-4ef0-8d58-4f761e9679b1"))
 		t(collection, crm("P106_is_composed_of"), coll_musique)
 		traitement_images()
-		
+
 
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
