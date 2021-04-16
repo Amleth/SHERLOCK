@@ -34,6 +34,7 @@ output_graph = Graph()
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
+sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
 
@@ -43,6 +44,7 @@ output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("lrmoo", lrmoo_ns)
 output_graph.bind("sdt", sdt_ns)
 output_graph.bind("skos", SKOS)
+output_graph.bind("she_ns", sherlock_ns)
 
 a = RDF.type
 
@@ -61,6 +63,10 @@ def lrm(x):
 
 def she(x):
     return URIRef(iremus_ns[x])
+
+
+def she_ns(x):
+    return URIRef(sherlock_ns[x])
 
 
 def t(s, p, o):
@@ -144,7 +150,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                                   she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E74_uri)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
+                                t(E13_index_uri, crm("P177_assigned_property_type"), she_ns("sheP_désigne"))
 
                             except:
                                 #print(identifier, clef_mercure_article)
@@ -173,7 +179,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                                   she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E74_uri)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
+                                t(E13_index_uri, crm("P177_assigned_property_type"), she_ns("sheP_désigne"))
 
                             except:
                                 #print(identifier, clef_mercure_article)

@@ -40,14 +40,14 @@ crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
-she_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
+sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 
 output_graph.bind("crm", crm_ns)
 output_graph.bind("crmdig", crmdig_ns)
 output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("lrmoo", lrmoo_ns)
 output_graph.bind("sdt", sdt_ns)
-output_graph.bind("she", she_ns)
+output_graph.bind("she_ns", sherlock_ns)
 
 a = RDF.type
 
@@ -66,6 +66,9 @@ def lrm(x):
 
 def she(x):
     return URIRef(iremus_ns[x])
+
+def she_ns(x):
+    return URIRef(sherlock_ns[x])
 
 
 def t(s, p, o):
@@ -156,7 +159,7 @@ def explore(id, depth):
                                     t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                     t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                     t(E13_index_uri, crm("P141_assigned"), E93_uri)
-                                    t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
+                                    t(E13_index_uri, crm("P177_assigned_property_type"), she_ns("sheP_désigne"))
 
                                 except:
                                     # print(identifier, clef_mercure_article)
@@ -181,7 +184,7 @@ def explore(id, depth):
                                     t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                     t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                     t(E13_index_uri, crm("P141_assigned"), E93_uri)
-                                    t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
+                                    t(E13_index_uri, crm("P177_assigned_property_type"), she_ns("sheP_désigne"))
 
                                 except:
                                     # print(identifier, clef_mercure_article)
@@ -248,7 +251,7 @@ E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"]
 E32_lieux_uri = URIRef(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
 t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
 t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
-t(E32_ancien_regime_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"), E32_lieux_uri)
+t(E32_ancien_regime_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_lieux_uri)
 t(E32_lieux_uri, a, crm("E32_Authority_Document"))
 t(E32_lieux_uri, crm("P1_is_identified_by"), Literal("Noms de lieux"))
 
@@ -262,7 +265,7 @@ t(E32_lieux_uri, crm("P1_is_identified_by"), Literal("Noms de lieux"))
 E32_grand_siecle_uri = URIRef(iremus_ns["78061430-df57-4874-8334-44ed215a112e"])
 t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
 t(E32_grand_siecle_uri, crm("P1_is_identified_by"), Literal("Grand Siècle"))
-t(E32_lieux_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"), E32_grand_siecle_uri)
+t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_grand_siecle_uri)
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 
@@ -276,7 +279,7 @@ explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 E32_mon_cont_uri = URIRef(iremus_ns["41dd59e3-2f0c-4ef3-b08c-9606f33a4a48"])
 t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
 t(E32_mon_cont_uri, crm("P1_is_identified_by"), Literal("Monde contemporain"))
-t(E32_lieux_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"), E32_mon_cont_uri)
+t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_mon_cont_uri)
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
 
