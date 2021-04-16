@@ -3,6 +3,6 @@
 # Attention aux irrégularités, exemple TS timbale qui était précédé d'un espace et de deux tabulations
 
 python3 ./rdfizers/mercure_galant/mots-clefs.py \
-    --txt ./sources/referentiel_ancien_regime/mots-clefs.2021.04.15.txt \
+    --txt ./sources/mercure-galant/mots-clefs_2021.04.15.txt \
     --ttl ./out/mercure_galant/mots-clefs.ttl \
     --cache "./caches/mercure_galant/cache_mots-clefs.yaml"

@@ -42,10 +42,10 @@ with open(args.txt, "r") as f:
 toplevel_keywords = []
 current_broaders = {}
 
-last_depth = -1
+last_depth = 0
 for line in lines:
     line = line.rstrip()
-    depth = len([_ for _ in line.split('    ') if _ == '']) - 1
+    depth = len([_ for _ in line.split('    ') if _ == ''])
 
     # clean up
     if depth <= last_depth:
@@ -72,16 +72,32 @@ for line in lines:
                 crm['P127_has_broader_term'],
                 u(cache.get_uuid([current_broaders[depth - 1]]))
             ))
-        elif line[0:3] == 'EP ':
             g.add((
                 u(cache.get_uuid([line], True)),
                 crm['P1_is_identified_by'],
                 l(line)
             ))
-            pass
+            g.add((
+                F34_uuid,
+                crm['P71_lists'],
+                u(cache.get_uuid([line]))
+            ))
+        elif line[0:3] == 'EP ':
+            line = line[3:]
+            g.add((
+                u(cache.get_uuid([current_broaders[depth - 1]])),
+                crm['P139_has_alternative_form'],
+                l(line)
+            ))
         elif line[0:3] == 'NA ':
-            pass
+            line = line[3:]
+            g.add((
+                u(cache.get_uuid([current_broaders[depth - 1]])),
+                crm['P3_has_note'],
+                l(line)
+            ))
         elif line[0:3] == 'TG ':
+            line = line[3:]
             toplevel_keywords.remove(current_broaders[depth - 1])
             g.add((
                 u(cache.get_uuid([current_broaders[depth - 1]])),
@@ -96,12 +112,18 @@ for line in lines:
             RDF.type,
             crm['E55_Type']
         ))
+        g.add((
+            u(cache.get_uuid([line], True)),
+            crm['P1_is_identified_by'],
+            l(line)
+        ))
+        g.add((
+            F34_uuid,
+            crm['P71_lists'],
+            u(cache.get_uuid([line]))
+        ))
         toplevel_keywords.append(line)
-    g.add((
-        u(cache.get_uuid([line], True)),
-        crm['P1_is_identified_by'],
-        l(line)
-    ))
+
     current_broaders[depth] = line.strip()
     last_depth = depth
 
