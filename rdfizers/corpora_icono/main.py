@@ -207,7 +207,7 @@ if collection_row[3].value == "Edition":
 # 2. UNE COLLECTION D'IMAGES INDIVIDUELLES
 #####################################################################
 
-def traitement_images():
+def traitement_images(sous_collection):
 	for row in img:
 		if row[1].value == args.collection_id:
 			img_row = row
@@ -447,7 +447,7 @@ def traitement_images():
 			t(img_D1, crm("P2_is_identified_by"), l(img_row[0].value))
 			t(img_D2, crmdig("L11_had_output"), img_D1)
 			t(img_D1, crm("P130_shows_features_of"), img_E36)
-			t(coll_estampes, crm("P106_is_composed_of"), img_D2)
+			t(sous_collection, crm("P106_is_composed_of"), img_D2)
 
 
 if collection_row[3].value == "Images":
@@ -461,7 +461,7 @@ if collection_row[3].value == "Images":
 		t(coll_estampes, RDFS.label, l("Collection d'estampes"))
 		t(coll_estampes, crm("P2_has_type"), she_ns("20674932-def8-4a73-9b67-ac49a16b5243"))
 		t(collection, crm("P106_is_composed_of"), coll_estampes)
-		traitement_images()
+		traitement_images(coll_estampes)
 
 	if args.collection_id == "MGM":
 		coll_musique = she(cache_40CM.get_uuid(["collection", "musique"], True))
@@ -470,7 +470,7 @@ if collection_row[3].value == "Images":
 		t(coll_musique, RDFS.label, l("Collection de partitions"))
 		t(coll_musique, crm("P2_has_type"), she_ns("fa4959c8-8537-4ef0-8d58-4f761e9679b1"))
 		t(collection, crm("P106_is_composed_of"), coll_musique)
-		traitement_images()
+		traitement_images(coll_musique)
 
 
 
