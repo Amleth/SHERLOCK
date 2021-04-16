@@ -4,5 +4,5 @@
 	branch = main
 [submodule "mercure-galant"]
 	path = mercure-galant
-	url = git@github.com:OBVIL/mercure-galant.git
+	url = https://github.com/OBVIL/mercure-galant.git
 	branch = gh-pages
