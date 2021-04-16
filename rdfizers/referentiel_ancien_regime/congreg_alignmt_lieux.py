@@ -27,7 +27,7 @@ for id in list:
 		?concept <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> ?identifier .
 		?identifier <http://www.w3.org/2000/01/rdf-schema#label> ?concept_id .
 		FILTER NOT EXISTS {
-		?concept <http://data-iremus.huma-num.fr/id/sheP_situation_géohistorique> ?lieu .
+		?concept <http://data-iremus.huma-num.fr/ns/sherlock#sheP_situation_géohistorique> ?lieu .
 		}
 		}
 		""")

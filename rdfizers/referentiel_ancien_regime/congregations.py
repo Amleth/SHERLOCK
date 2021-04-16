@@ -56,14 +56,14 @@ crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
-she_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
+sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 
 output_graph.bind("crm", crm_ns)
 output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("lrmoo", lrmoo_ns)
 output_graph.bind("sdt", sdt_ns)
 output_graph.bind("skos", SKOS)
-output_graph.bind("she", she_ns)
+output_graph.bind("she_ns", sherlock_ns)
 
 a = RDF.type
 
@@ -111,6 +111,9 @@ def lrm(x):
 
 def she(x):
     return URIRef(iremus_ns[x])
+
+def she_ns(x):
+    return URIRef(sherlock_ns[x])
 
 
 def t(s, p, o):
@@ -179,7 +182,7 @@ def explore(concept, depth):
             for lieu in cache_lieux_uuid_yaml_normalisé.keys():
                 if label.endswith(" " + lieu) or label.endswith("'"+lieu) or label.endswith(" de "+lieu) or label.endswith(" a "+lieu) or label.endswith(" du "+lieu) or label.endswith(" le "+lieu) or label.endswith(" la "+lieu) or label.endswith(" à "+lieu):
                     lieu_uuid = cache_lieux_uuid_yaml_normalisé[lieu][0]
-                    t(E74_uri, she("sheP_situation_géohistorique"), she(lieu_uuid))
+                    t(E74_uri, she_ns("sheP_situation_géohistorique"), she(lieu_uuid))
 
     # E13 INDEXATION
 
@@ -208,7 +211,7 @@ def explore(concept, depth):
                                 t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E74_uri)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
+                                t(E13_index_uri, crm("P177_assigned_property_type"), she_ns("sheP_désigne"))
 
                             except:
                                 # print(identifier, clef_mercure_article)
@@ -234,7 +237,7 @@ def explore(concept, depth):
                                 t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E74_uri)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
+                                t(E13_index_uri, crm("P177_assigned_property_type"), she_ns("sheP_désigne"))
 
                             except:
                                 # print(identifier, clef_mercure_article)
@@ -283,20 +286,20 @@ E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"]
 E32_congregations_uri = URIRef(iremus_ns["a5145217-5642-4f08-8566-1c1bbe9c0b4e"])
 t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
 t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
-t(E32_ancien_regime_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"), E32_congregations_uri)
+t(E32_ancien_regime_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_congregations_uri)
 t(E32_congregations_uri, a, crm("E32_Authority_Document"))
 t(E32_congregations_uri, crm("P1_is_identified_by"), Literal("Congrégations religieuses"))
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_regulier&idt=166"), 0)
-t(E32_congregations_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"),
+t(E32_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
   she(cache_congregations.get_uuid(["congregations", "clerge_regulier", "uuid"], True)))
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166"), 0)
-t(E32_congregations_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"),
+t(E32_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
   she(cache_congregations.get_uuid(["congregations", "clerge_seculier", "uuid"], True)))
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=papaute&idt=166"), 0)
-t(E32_congregations_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"),
+t(E32_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
   she(cache_congregations.get_uuid(["congregations", "papaute", "uuid"], True)))
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")

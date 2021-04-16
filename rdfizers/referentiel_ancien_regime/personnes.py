@@ -36,12 +36,14 @@ crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
+sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 
 output_graph.bind("crm", crm_ns)
 output_graph.bind("crmdig", crmdig_ns)
 output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("lrmoo", lrmoo_ns)
 output_graph.bind("sdt", sdt_ns)
+output_graph.bind("she_ns", sherlock_ns)
 
 a = RDF.type
 
@@ -60,6 +62,9 @@ def lrm(x):
 
 def she(x):
     return URIRef(iremus_ns[x])
+
+def she_ns(x):
+    return URIRef(sherlock_ns[x])
 
 
 def t(s, p, o):
@@ -92,7 +97,7 @@ E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"]
 E32_personnes_uri = URIRef(iremus_ns["947a38f0-34ac-4c54-aeb7-69c5f29e77c0"])
 t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
 t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
-t(E32_ancien_regime_uri, she("sheP_a_pour_entité_de_plus_haut_niveau"), E32_personnes_uri)
+t(E32_ancien_regime_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_personnes_uri)
 t(E32_personnes_uri, a, crm("E32_Authority_Document"))
 t(E32_personnes_uri, crm("P1_is_identified_by"), Literal("Noms de personnes"))
 
@@ -140,7 +145,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                   she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E21_uri)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
+                                t(E13_index_uri, crm("P177_assigned_property_type"), she_ns("sheP_désigne"))
 
                             except:
                                 #print(dcterms_identifier, clef_mercure_article)
@@ -166,7 +171,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                   she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E21_uri)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), she("sheP_désigne"))
+                                t(E13_index_uri, crm("P177_assigned_property_type"), she_ns("sheP_désigne"))
 
                             except:
                                 #print(dcterms_identifier, clef_mercure_article)

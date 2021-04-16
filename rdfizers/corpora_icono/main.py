@@ -86,7 +86,7 @@ for row in index:
 collection = she(cache_40CM.get_uuid(["collection", "uuid"], True))
 t(collection, a, crmdig("D1_Digital_Object"))
 t(collection, RDFS.label, l(collection_row[1].value))
-t(collection, crm("P2_has_type"), she_ns("14926d58-83e7-4414-90a8-1a3f5ca8fec1"))
+t(collection, crm("P2_has_type"), she("14926d58-83e7-4414-90a8-1a3f5ca8fec1"))
 # Creation
 collection_E65 = she(cache_40CM.get_uuid(["collection", "E65"], True))
 t(collection_E65, a, crm("E65_Creation"))
@@ -98,7 +98,7 @@ t(collection_E30, a, crm("E30_Right"))
 t(collection, crm("P104_is_subject_to"), collection_E30)
 t(collection_E30, RDFS.label, l(collection_row[5].value))
 # Attribution
-t(collection, crm("P105_right_held_by"), she_ns("48a8e9ad-4264-4b0b-a76d-953bc9a34498"))
+t(collection, crm("P105_right_held_by"), she("48a8e9ad-4264-4b0b-a76d-953bc9a34498"))
 
 #####################################################################
 # 1. UNE PUBLICATION NUMERISEE
@@ -186,7 +186,7 @@ if collection_row[3].value == "Edition":
 
 			# Numéro de la page
 			page_no = she(cache_40CM.get_uuid(["collection", "livre", "pages", id, "E42_numéro"], True))
-			t(page_no, crm("P2_has_type"), she_ns("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
+			t(page_no, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
 			t(page_E90, crm("P1_is_identified_by"), page_no)
 			t(page_no, a, crm("E42_Identifier"))
 			t(page_no, RDFS.label, l(f"Page {img_row[3].value}"))
@@ -226,7 +226,7 @@ def traitement_images(sous_collection):
 			if img_row[15].value != None:
 				img_E22_invenit = she(cache_40CM.get_uuid(["collection", id, "E22_E12_invenit"], True))
 				t(img_E22_invenit, a, crm("E12_Production"))
-				t(img_E22_invenit, crm("P2_has_type"), she_ns("4d57ac14-247f-4b0e-90ca-0397b6051b8b"))
+				t(img_E22_invenit, crm("P2_has_type"), she("4d57ac14-247f-4b0e-90ca-0397b6051b8b"))
 				t(img_E22_E12, crm("P9_consists_of"), img_E22_invenit)
 
 				#### E13 Attribute Assignement -  concepteur de la gravure
@@ -256,7 +256,7 @@ def traitement_images(sous_collection):
 			if img_row[16].value != None:
 				img_E22_sculpsit = she(cache_40CM.get_uuid(["collection", id, "E22_E12_sculpsit"], True))
 				t(img_E22_sculpsit, a, crm("E12_Production"))
-				t(img_E22_sculpsit, crm("P2_has_type"), she_ns("f39eb497-5559-486c-b5ce-6a607f615773"))
+				t(img_E22_sculpsit, crm("P2_has_type"), she("f39eb497-5559-486c-b5ce-6a607f615773"))
 				t(img_E22_E12, crm("P9_consists_of"), img_E22_sculpsit)
 
 				#### E13 Attribute Assignement -  sculpteur de la gravure
@@ -307,7 +307,7 @@ def traitement_images(sous_collection):
 				t(img_E36_titre, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
 				t(img_E36_titre, crm("P140_assigned_attribute_to"), img_E36)
 				t(img_E36_titre, crm("P141_assigned"), l(img_row[7].value))
-				t(img_E36_titre, crm("P177_assigned_property_type"), she_ns("01a07474-f2b9-4afd-bb05-80842ecfb527"))
+				t(img_E36_titre, crm("P177_assigned_property_type"), she("01a07474-f2b9-4afd-bb05-80842ecfb527"))
 
 			## Titre descriptif/forgé (E13)
 			if img_row[8].value != None:
@@ -316,7 +316,7 @@ def traitement_images(sous_collection):
 				t(img_E36_titre, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
 				t(img_E36_titre, crm("P140_assigned_attribute_to"), img_E36)
 				t(img_E36_titre, crm("P141_assigned"), l(img_row[8].value))
-				t(img_E36_titre, crm("P177_assigned_property_type"), she_ns("58fb99dd-1ffb-4e00-a16f-ef6898902301"))
+				t(img_E36_titre, crm("P177_assigned_property_type"), she("58fb99dd-1ffb-4e00-a16f-ef6898902301"))
 
 			## Titre dans le péritexte (E13)
 			if img_row[9].value != None:
@@ -325,7 +325,7 @@ def traitement_images(sous_collection):
 				t(img_E36_titre, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
 				t(img_E36_titre, crm("P140_assigned_attribute_to"), img_E36)
 				t(img_E36_titre, crm("P141_assigned"), l(img_row[9].value))
-				t(img_E36_titre, crm("P177_assigned_property_type"), she_ns("ded9ea93-b400-4550-9aa8-e5aac1d627a0"))
+				t(img_E36_titre, crm("P177_assigned_property_type"), she("ded9ea93-b400-4550-9aa8-e5aac1d627a0"))
 
 			## Objet ou lieu représenté (E13)
 			if img_row[11].value != None:
@@ -355,7 +355,7 @@ def traitement_images(sous_collection):
 				if "médaille" in img_row[11].value:
 					img_médaille = she(cache_40CM.get_uuid(["collection", id, "E36_médaille"], True))
 					t(img_médaille, a, crm("E36_Visual_Item"))
-					t(img_médaille, crm("P2_has_type"), she_ns("4b51d9dc-3623-47f4-ab45-239604e18930"))
+					t(img_médaille, crm("P2_has_type"), she("4b51d9dc-3623-47f4-ab45-239604e18930"))
 					t(img_médaille, RDFS.label, l("Médaille"))
 					#### E13 Attribute Assignement
 					img_médaille_E13 = she(cache_40CM.get_uuid(["collection", id, "E36_médaille_E13"], True))
@@ -391,19 +391,19 @@ def traitement_images(sous_collection):
 							cache_40CM.get_uuid(["collection", id, "E36_médaille_E33_E13_leg"], True))
 						t(img_médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
 						t(img_médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
-						  she_ns("ea287800-4345-4649-af12-7253aa185f3f"))
+						  she("ea287800-4345-4649-af12-7253aa185f3f"))
 						t(img_médaille_inscrip_E33_E13, crm("P140_assigned_attribute_to"), img_médaille_inscrip_E36)
 						t(img_médaille_inscrip_E33_E13, crm("P141_assigned"), img_médaille_inscrip_E33)
 						t(img_médaille_inscrip_E33_E13, crm("P177_assigned_property_type"), crm("P165_incorporates"))
-						t(img_médaille_inscrip_E33_E13, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"),
-						  she_ns("fc229531-0999-4499-ab0b-b45e18e8196f"))
+						t(img_médaille_inscrip_E33_E13, she("sheP_position_du_texte_par_rapport_à_la_médaille"),
+						  she("fc229531-0999-4499-ab0b-b45e18e8196f"))
 
 						##### E13 Attribute Assignement du contenu de l'inscription
 						img_médaille_inscrip_P190_E13 = she(
 							cache_40CM.get_uuid(["collection", id, "E36_médaille_E33_leg_P190"], True))
 						t(img_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
 						t(img_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
-						  she_ns("ea287800-4345-4649-af12-7253aa185f3f"))
+						  she("ea287800-4345-4649-af12-7253aa185f3f"))
 						t(img_médaille_inscrip_P190_E13, crm("P140_assigned_attribute_to"), img_médaille_inscrip_E33)
 						t(img_médaille_inscrip_P190_E13, crm("P141_assigned"), l(img_row[17].value))
 						t(img_médaille_inscrip_P190_E13, crm("P177_assigned_property_type"), crm("P190_has_symbolic_content"))
@@ -419,19 +419,19 @@ def traitement_images(sous_collection):
 							cache_40CM.get_uuid(["collection", id, "E36_médaille_E33_E13_ex"], True))
 						t(img_médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
 						t(img_médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
-						  she_ns("ea287800-4345-4649-af12-7253aa185f3f"))
+						  she("ea287800-4345-4649-af12-7253aa185f3f"))
 						t(img_médaille_inscrip_E33_E13, crm("P140_assigned_attribute_to"), img_médaille_inscrip_E36)
 						t(img_médaille_inscrip_E33_E13, crm("P141_assigned"), img_médaille_inscrip_E33)
 						t(img_médaille_inscrip_E33_E13, crm("P177_assigned_property_type"), crm("P165_incorporates"))
-						t(img_médaille_inscrip_E33_E13, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"),
-						  she_ns("357a459f-4f27-4d46-b5ac-709a410bce04"))
+						t(img_médaille_inscrip_E33_E13, she("sheP_position_du_texte_par_rapport_à_la_médaille"),
+						  she("357a459f-4f27-4d46-b5ac-709a410bce04"))
 
 						##### E13 Attribute Assignement du contenu de l'inscription
 						img_médaille_inscrip_P190_E13 = she(
 							cache_40CM.get_uuid(["collection", id, "E36_médaille_E33_ex_P190"], True))
 						t(img_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
 						t(img_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
-						  she_ns("ea287800-4345-4649-af12-7253aa185f3f"))
+						  she("ea287800-4345-4649-af12-7253aa185f3f"))
 						t(img_médaille_inscrip_P190_E13, crm("P140_assigned_attribute_to"), img_médaille_inscrip_E33)
 						t(img_médaille_inscrip_P190_E13, crm("P141_assigned"), l(img_row[18].value))
 						t(img_médaille_inscrip_P190_E13, crm("P177_assigned_property_type"),
@@ -459,7 +459,7 @@ if collection_row[3].value == "Images":
 		print("Je me trouve dans la collection d'estampes")
 		t(coll_estampes, a, crmdig("D1_Digital_Object"))
 		t(coll_estampes, RDFS.label, l("Collection d'estampes"))
-		t(coll_estampes, crm("P2_has_type"), she_ns("20674932-def8-4a73-9b67-ac49a16b5243"))
+		t(coll_estampes, crm("P2_has_type"), she("20674932-def8-4a73-9b67-ac49a16b5243"))
 		t(collection, crm("P106_is_composed_of"), coll_estampes)
 		traitement_images(coll_estampes)
 
@@ -468,7 +468,7 @@ if collection_row[3].value == "Images":
 		print("Je me trouve dans la collection de partitions")
 		t(coll_musique, a, crmdig("D1_Digital_Object"))
 		t(coll_musique, RDFS.label, l("Collection de partitions"))
-		t(coll_musique, crm("P2_has_type"), she_ns("fa4959c8-8537-4ef0-8d58-4f761e9679b1"))
+		t(coll_musique, crm("P2_has_type"), she("fa4959c8-8537-4ef0-8d58-4f761e9679b1"))
 		t(collection, crm("P106_is_composed_of"), coll_musique)
 		traitement_images(coll_musique)
 
