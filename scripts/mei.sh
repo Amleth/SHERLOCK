@@ -13,6 +13,8 @@ mkdir -p $DIR/out/files/mei
 
 for f in $(ls $DIR/sources/mei/**/*.mei)
 do
+    iconv -f utf-16 -t utf-8 $f > $(realpath $f)
+
     SHA1=$(shasum $f | awk '{print $1}')
 
     cp $f $DIR/out/files/mei/$SHA1.mei
@@ -27,12 +29,12 @@ do
         cp $SIB $DIR/out/files/mei/$SHA1.sib
     fi
     
-    MEI_UUID=$(
-        python3 $DIR/rdfizers/mei/main.py \
-        --cache $DIR/caches/mei/$SHA1.yaml \
-        --file $f \
-        --sha1 $SHA1 \
-        --ttl $DIR/out/mei/$SHA1.ttl
-        )
-    echo $MEI_UUID 🍄 $SHA1 🍄 $f
+    # MEI_UUID=$(
+    #     python3 $DIR/rdfizers/mei/main.py \
+    #     --cache $DIR/caches/mei/$SHA1.yaml \
+    #     --file $f \
+    #     --sha1 $SHA1 \
+    #     --ttl $DIR/out/mei/$SHA1.ttl
+    #     )
+    # echo $MEI_UUID 🍄 $SHA1 🍄 $f
 done
