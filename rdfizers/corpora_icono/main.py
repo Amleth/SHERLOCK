@@ -42,10 +42,8 @@ output_graph.bind("crmdig", crmdig_ns)
 # Fonctions
 a = RDF.type
 
-
 def crm(x):
 	return crm_ns[x]
-
 
 def crmdig(x):
 	return crmdig_ns[x]
