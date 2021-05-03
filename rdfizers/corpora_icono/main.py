@@ -289,24 +289,33 @@ def traitement_images(sous_collection):
 			t(img_E36, crm("P1_has_identifier"), l(id))
 
 			## Lien avec la livraison ou l'article
+			### Si l'article n'est pas précisé:
 			if img_row[3].value == None:
 				try:
 					livraison_F2 = she(
 						cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
 					t(livraison_F2, crm("P148_has_component"), img_E36)
 				except:
+					#print("L'article " + id + " n'est relié à aucune livraison")
 					pass
+
+			### Si l'article est précisé:
 			else:
 				id_article = img_row[3].value
-				if len(id_article) >= 15:
-					id_livraison = img_row[3].value[:-4]
-					article_F2 = she(cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-					print(article_F2)
-				else:
-					id_livraison = img_row[3].value[:-3]
-					article_F2 = she(cache_corpus.get_uuid(
-						["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-					print(article_F2)
+				id_livraison = id_article[0:11]
+				try:
+					if id_livraison.endswith("_"):
+						id_livraison = id_livraison[0:-1]
+						article_F2 = she(cache_corpus.get_uuid(
+							["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
+						t(article_F2, crm("P148_has_component"), img_E36)
+					else:
+						id_livraison = id_article[0:11]
+						article_F2 = she(cache_corpus.get_uuid(
+							["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
+						t(article_F2, crm("P148_has_component"), img_E36)
+				except:
+					print("L'article " + id_article + " est introuvable")
 
 
 			## Titre sur l'image (E13)
