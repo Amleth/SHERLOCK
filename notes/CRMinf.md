@@ -1,4 +1,5 @@
 <!-- http://www.cidoc-crm.org/crminf/sites/default/files/CRMinf%20ver%2010.1.pdf -->
+<!-- https://docs.google.com/presentation/d/1kLy--Qf3mCoLMYxE264ihiIXUgXSLkWzqFTad8weVcI/edit#slide=id.g1dbd9620c4_0_22 -->
 
 **E7 Activity**
     SUBCLASSES:

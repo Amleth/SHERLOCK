@@ -332,6 +332,7 @@ def traitement_images(sous_collection):
 
 				# TODO ALIGNER SUR LES E55 QUAND ON AURA TRANSFORME LE VOCABULAIRE D'INDEXATION EN TTL
 				# TODO ALIGNER SUR LE REFERENTIEL DES PERSONNES
+				# TODO AJOUTER P138 QUAND ON AURA DES UUID
 
 				### Zone de l'image comportant la représentation de l'objet (E13)
 				img_objets = she(cache_40CM.get_uuid(["collection", id, "E36_objets"], True))
