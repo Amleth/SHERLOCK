@@ -1,26 +1,18 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> . 
 
 <03499b44-ba0b-491f-9452-978e03bef78a>
-  a crm:E32_Authority_Document ;
+  a crm:F34_Controlled_Vocabulary ;
   crm:P1_is_identified_by "Types Mercure Galant" ;
   crm:P71_lists <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>, 
     <13f43e00-680a-4a6d-a223-48e8d9bbeaae>,
     <1317e1ac-50c8-4b97-9eac-c4d902b7da10>,
     <2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7>,
     <11f1b780-2325-498e-811f-c96a617873de>,
-    <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> ;
-    <01a07474-f2b9-4afd-bb05-80842ecfb527> ;
-    <ded9ea93-b400-4550-9aa8-e5aac1d627a0> ;
-    <58fb99dd-1ffb-4e00-a16f-ef6898902301> ;
-    <357a459f-4f27-4d46-b5ac-709a410bce04> ;
-    <fc229531-0999-4499-ab0b-b45e18e8196f> ;
-    <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> ;
-    <4d57ac14-247f-4b0e-90ca-0397b6051b8b> ;
-    <f39eb497-5559-486c-b5ce-6a607f615773> ;
-    <20674932-def8-4a73-9b67-ac49a16b5243> ;
-    <fa4959c8-8537-4ef0-8d58-4f761e9679b1> ;    
+    <e2f6219a-2a40-4724-b4f9-1cf45a4f2849>,
+    <92c258a0-1e34-437f-9686-e24322b95305>;  
   .
 
 <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>
@@ -53,104 +45,37 @@
   crm:P1_is_identified_by "Identifiant Mercure"
   .
 
-<4b51d9dc-3623-47f4-ab45-239604e18930>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Médaille"
-.
-
 ####################################################################
-## Gravures du Mercure Galant
-####################################################################
-
-<01a07474-f2b9-4afd-bb05-80842ecfb527>
-  a crm:E55_Type ;
-    crm:P1_is_identified_by "Titre sur l'image"
-    .
-
-<ded9ea93-b400-4550-9aa8-e5aac1d627a0>
-  a crm:E55_Type ;
-    crm:P1_is_identified_by "Titre dans le péritexte"
-    .
-
-<58fb99dd-1ffb-4e00-a16f-ef6898902301>
-  a crm:E55_Type ;
-    crm:P1_is_identified_by "Titre descriptif/forgé" ;
-    dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
-    .
-
-<357a459f-4f27-4d46-b5ac-709a410bce04>
-  a crm:E55_Type ;
-    crm:P1_is_identified_by "Inscription en exergue" ;
-    dcterms:created <48e41407-e591-41f5-ade7-845e5687d273> ;
-    .
-
-<fc229531-0999-4499-ab0b-b45e18e8196f>
-  a crm:E55_Type ;
-    crm:P1_is_identified_by "Inscription en légende" ;
-    dcterms:created <4dfd795d-c828-4f38-99fd-001b7f7823af> ;
-    .
-
-<f2d9b792-2cfd-4265-a2c5-e0a69ce01536>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Type/Thématique" ;
-  dcterms:created <fc278da3-1822-45f6-9985-78ad3718a70f> ;
-  .
-
-<4d57ac14-247f-4b0e-90ca-0397b6051b8b>
-  a crm:E55_Type ;
-    crm:P1_is_identified_by "Invenit" ;
-    dcterms:created <40006d1f-c77e-4514-be9f-4b8f6757cf47> ;
-    .
-
-<f39eb497-5559-486c-b5ce-6a607f615773>
-  a crm:E55_Type ;
-    crm:P1_is_identified_by "Sculpsit" ;
-    dcterms:created <7d4d40a4-9b4a-4098-99a9-c5d6de91217e> ;
-    .
-
-<20674932-def8-4a73-9b67-ac49a16b5243>
-  a crm:E55_Type ;
-    crm:P1_is_identified_by "Collection d'estampes numérisées" ;
-    dcterms:created <40006d1f-c77e-4514-be9f-4b8f6757cf47> ;
-    .
-
-<fa4959c8-8537-4ef0-8d58-4f761e9679b1>
-  a crm:E55_Type ;
-    crm:P1_is_identified_by "Collection de partitions numérisées" ;
-    dcterms:created <40006d1f-c77e-4514-be9f-4b8f6757cf47> ;
-    .
-
-####################################################################
-## E32 Authority Document
+## Référentiels Ancien Régime
 ####################################################################
 
 <b18e2fad-4827-4533-946a-1b9914df6e18>
-  a crm:E32_Authority_Document ;
+  a crm:F34_Controlled_Vocabulary ;
   crm:P1_is_identified_by "Ancien Régime"
   .
 
 <947a38f0-34ac-4c54-aeb7-69c5f29e77c0>
-  a crm:E32_Authority_Document ;
+  a crm:F34_Controlled_Vocabulary ;
   crm:P1_is_identified_by "Noms de personnes"
   .
 
 <4e7cdc71-b834-412a-8cab-daa363a8334e>
-  a crm:E32_Authority_Document ;
+  a crm:F34_Controlled_Vocabulary ;
   crm:P1_is_identified_by "Noms de lieux"
   .
 
 <78061430-df57-4874-8334-44ed215a112e>
-  a crm:E32_Authority_Document ;
+  a crm:F34_Controlled_Vocabulary ;
   crm:P1_is_identified_by "Grand Siècle'"
 .
 
 <41dd59e3-2f0c-4ef3-b08c-9606f33a4a48>
-  a crm:E32_Authority_Document ;
+  a crm:F34_Controlled_Vocabulary ;
   crm:P1_is_identified_by "Monde contemporain"
 .
 
 <8a29e857-3faf-49f1-969b-91572e77218e>
-  a crm:E32_Authority_Document ;
+  a crm:F34_Controlled_Vocabulary ;
   crm:P1_is_identified_by "Noms d'institutions et de corporations'"
   .
 
