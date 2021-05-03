@@ -209,6 +209,7 @@ for file in os.listdir(args.tei):
         g.add((article_F2_tei, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
         g.add((article_F2_tei, RDF.type, URIRef(crm_ns["E31_Document"])))
         g.add((article_F2_tei, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
+        g.add((livraison_F2_tei, URIRef(lrmoo_ns["R5_has_component"]), article_F2_tei))
         g.add((livraison_F1, URIRef(lrmoo_ns["R3_is_realised_in"]), livraison_F2_tei))
         ## a pour type "article"
         g.add((article_F2_tei, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"])))
