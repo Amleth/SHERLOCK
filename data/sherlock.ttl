@@ -14,7 +14,7 @@
 # Types de documents
 
 <58445630-19b4-4070-bc10-586bad027327>
-    a crm:E32_Authority_Document ;
+    a crm:F34_Controlled_Vocabulary ;
     crm:P1_is_identified_by "Types de documents"@fr ;
     crm:P71_lists <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>,
       <62b49ca2-ec73-4d72-aaf3-045da6869a15>,
@@ -55,7 +55,7 @@
 # Types d'identifiants techniques
 
 <c9b9f7f6-9f96-4464-a5bd-85a1eab7bb29>
-    a crm:E32_Authority_Document ;
+    a crm:F34_Controlled_Vocabulary ;
     crm:P1_is_identified_by "Identifiants techniques"@fr ;
     crm:P71_lists <219fd53d-cdf2-4174-8d71-6d12bdd24016> ;
     crm:P71_lists <a1e06dc7-f2d8-403a-8061-50d56411c031> ;
@@ -106,7 +106,7 @@
 # Twitter
 
 <4c54339f-6220-4a3a-9d4c-687177d314bf>
-    a crm:E32_Authority_Document ;
+    a crm:F34_Controlled_Vocabulary ;
     crm:P1_is_identified_by "Concepts pour décrire un corpus Twitter"@fr ;
     crm:P71_lists <70867d47-25d5-494a-8843-3ac6bbd1e724>,
         <d474af68-baa5-4afc-9c2d-eeeb2fada37d> ;
@@ -123,7 +123,7 @@
 # Analyse sémiotique de Twitter
 
 <3279e2a7-09e5-4454-aadf-a06963c4d29f>
-    a crm:E32_Authority_Document ;
+    a crm:F34_Controlled_Vocabulary ;
     crm:P1_is_identified_by "Concepts pour l'analyse sémiotique de Twitter"@fr ;
     crm:P71_lists <451a9db1-f2c9-4e68-83b1-4d984159de63>,
     <3e9e3a20-a5f2-47ee-80df-b9f7e5741bc8> ;
@@ -148,7 +148,7 @@
 # Fonctions de base SHERLOCK en lien avec l'IHM
 
 <1763bb50-103b-4101-a9a7-777ba7ebba3b>
-    a crm:E32_Authority_Document ;
+    a crm:F34_Controlled_Vocabulary ;
     crm:P1_is_identified_by "Concepts pour l'IHM SHERLOCK"@fr ;
     crm:P71_lists <6db65be7-65f8-42bd-83bc-6fbf2148dc4a> ;
     .
