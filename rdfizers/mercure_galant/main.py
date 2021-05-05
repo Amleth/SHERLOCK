@@ -132,7 +132,7 @@ for file in os.listdir(args.tei):
     g.add((livraison_D1, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["e73699b0-9638-4a9a-bfdd-ed1715416f02"])))
     g.add((livraison_D2, URIRef(crmdig_ns["L11_had_output"]), livraison_D1))
     g.add((livraison_D1, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
-    g.add((livraison_D1, URIRef(crm_ns["130_shows_features_of"]), livraison_F2_originale))
+    g.add((livraison_D1, URIRef(crm_ns["P130_shows_features_of"]), livraison_F2_originale))
 
     # Expression TEI
     livraison_F2_tei = she(corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2"], True))
@@ -176,7 +176,6 @@ for file in os.listdir(args.tei):
     for article in div:
 
         # Work
-        ## Identifiant et titre
         article_titre_xpath = article.xpath('./tei:head/child::node()', namespaces=tei_ns)
         article_id = article.attrib['{http://www.w3.org/XML/1998/namespace}id']
         article_titre = ""
@@ -200,7 +199,7 @@ for file in os.listdir(args.tei):
         g.add((article_F2_original, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"])))
         ## a pour type "édition physique"
         g.add((article_F2_original, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["7d7fc017-61ba-4f80-88e1-744f1d00dd60"])))
-        g.add((livraison_F2_originale, URIRef(lrmoo_ns["R5_has_component"]), article_F2_original))
+        g.add((livraison_F2_originale, URIRef(lrmoo_ns["P148_has_component"]), article_F2_original))
         g.add((article_F1, URIRef(lrmoo_ns["R3_is_realised_in"]), article_F2_original))
 
         # Expression TEI
@@ -209,7 +208,7 @@ for file in os.listdir(args.tei):
         g.add((article_F2_tei, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
         g.add((article_F2_tei, RDF.type, URIRef(crm_ns["E31_Document"])))
         g.add((article_F2_tei, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
-        g.add((livraison_F2_tei, URIRef(lrmoo_ns["R5_has_component"]), article_F2_tei))
+        g.add((livraison_F2_tei, URIRef(lrmoo_ns["P148_has_component"]), article_F2_tei))
         g.add((livraison_F1, URIRef(lrmoo_ns["R3_is_realised_in"]), livraison_F2_tei))
         ## a pour type "article"
         g.add((article_F2_tei, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"])))
@@ -221,27 +220,7 @@ for file in os.listdir(args.tei):
             ["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2_E42"], True))
         g.add((article_F2_tei, URIRef(crm_ns["P1_is_identified_by"]), article_F2_tei_E42))
         g.add((article_F2_tei_E42, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-        g.add(
-            (article_F2_tei_E42, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["b486f08e-4d50-4363-97b4-d4ea100818e5"])))
-        article_F2_tei_E42_part1 = she(corpus_cache.get_uuid(
-            ["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2_E42_part1"], True))
-        article_F2_tei_E42_part2 = she(corpus_cache.get_uuid(
-            ["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2_E42_part2"], True))
-
-        ### Parties de l'identifiant
-        #### Partie 1
-        g.add((article_F2_tei_E42, URIRef(crm_ns["P106_is_composed_of"]), article_F2_tei_E42_part1))
-        g.add((article_F2_tei_E42_part1, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-        g.add((article_F2_tei_E42_part1, URIRef(crm_ns["P2_has_type"]),
-               URIRef(iremus_ns["9b63d6ef-5c5b-4eca-92f4-76c083918129"])))
-        g.add((article_F2_tei_E42_part1, RDFS.label,
-               URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/MG-{file[3:-4]}.tei")))
-        #### Partie 2
-        g.add((article_F2_tei_E42, URIRef(crm_ns["P106_is_composed_of"]), article_F2_tei_E42_part2))
-        g.add((article_F2_tei_E42_part2, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-        g.add((article_F2_tei_E42_part2, URIRef(crm_ns["P2_has_type"]),
-               URIRef(iremus_ns["a1e06dc7-f2d8-403a-8061-50d56411c031"])))
-        g.add((article_F2_tei_E42_part2, RDFS.label, Literal("//*[@xml:id='MG-1672-01_000']", datatype="sdt:XPathSelector")))
+        g.add((article_F2_tei_E42, RDFS.label, Literal(article_id)))
 
 
 serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
