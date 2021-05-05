@@ -44,7 +44,7 @@
   .
 <7d7fc017-61ba-4f80-88e1-744f1d00dd60>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Édition physique" ;
+  crm:P1_is_identified_by "Texte original" ;
   .
 
 <14926d58-83e7-4414-90a8-1a3f5ca8fec1>
