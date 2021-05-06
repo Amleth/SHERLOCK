@@ -5,6 +5,7 @@ from openpyxl import load_workbook
 from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef as u, XSD, Literal as l
 import sys
 from sherlockcachemanagement import Cache
+import requests
 
 # Arguments
 parser = argparse.ArgumentParser()
@@ -210,7 +211,6 @@ def traitement_images(sous_collection):
 		if row[1].value == args.collection_id:
 			img_row = row
 			id = img_row[0].value
-			id_livraison = "MG-" + id[0:-4]
 
 			# 2.1 L'IMAGE COMME SUPPORT PHYSIQUE
 			img_E22 = she(cache_40CM.get_uuid(["collection", id, "E22", "uuid"], True))
@@ -288,16 +288,24 @@ def traitement_images(sous_collection):
 			t(img_E36, a, crm("E36_Visual_Item"))
 			t(img_E36, crm("P1_has_identifier"), l(id))
 
-			## Lien avec la livraison ou l'article
+			## Rattachement à la livraison ou l'article
 			### Si l'article n'est pas précisé:
-			if img_row[3].value == None:
+			if not img_row[3].value :
+				id_image = f"MG-{id}"
+				id_livraison = f"MG-{id[0:-4]}"
+				if id_livraison.endswith("_"):
+					id_livraison = id_livraison[0:-1]
 				try:
-					livraison_F2 = she(
+					#### Livraison originale
+					livraison_F2_originale = she(
 						cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
-					t(livraison_F2, crm("P148_has_component"), img_E36)
+					t(livraison_F2_originale, crm("P148_has_component"), img_E36)
+					#### Livraison TEI
+					livraison_F2_TEI = she(
+						cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
+					t(livraison_F2_TEI, crm("P148_has_component"), img_E36)
 				except:
-					#print("L'article " + id + " n'est relié à aucune livraison")
-					pass
+					print("L'image " + id_image + " n'est reliée à aucune livraison")
 
 			### Si l'article est précisé:
 			else:
@@ -310,16 +318,55 @@ def traitement_images(sous_collection):
 							["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
 						t(article_F2, crm("P148_has_component"), img_E36)
 					else:
-						id_livraison = id_article[0:11]
 						article_F2 = she(cache_corpus.get_uuid(
 							["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
 						t(article_F2, crm("P148_has_component"), img_E36)
 				except:
 					print("Article contenant la gravure : l'article " + id_article + " est introuvable dans le cache")
 
+			## Article annexe à la gravure
+			if img_row[4].value:
+				id_article = img_row[4].value
+				id_livraison = id_article[0:10]
+				try:
+					uuid_article = she(cache_corpus.get_uuid(
+						["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article,
+						 "F2"]))
+					img_E36_seeAlso_E13 = she(
+						cache_40CM.get_uuid(["collection", id, "E36", "seeAlso", "E13"], True))
+					t(img_E36_seeAlso_E13, a, crm("E13_Attribute_Assignement"))
+					t(img_E36_seeAlso_E13, crm("P14_carried_out_by"),
+					  she("ea287800-4345-4649-af12-7253aa185f3f"))
+					t(img_E36_seeAlso_E13, crm("P140_assigned_attribute_to"), img_E36)
+					t(img_E36_seeAlso_E13, crm("P141_assigned"), uuid_article)
+					t(img_E36_seeAlso_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
+					### Commentaire décrivant le lien entre la gravure et l'article
+					if img_row[5].value:
+						img_E36_seeAlso_P3_E13 = she(
+							cache_40CM.get_uuid(["collection", id, "E36", "seeAlso", "note", "E13"], True))
+						t(img_E36_seeAlso_P3_E13, a, crm("E13_Attribute_Assignement"))
+						t(img_E36_seeAlso_P3_E13, crm("P14_carried_out_by"),
+						  she("ea287800-4345-4649-af12-7253aa185f3f"))
+						t(img_E36_seeAlso_P3_E13, crm("P140_assigned_attribute_to"), uuid_article)
+						t(img_E36_seeAlso_P3_E13, crm("P141_assigned"), l(img_row[5].value))
+						t(img_E36_seeAlso_P3_E13, crm("P177_assigned_property_type"), crm("P3_has_note"))
+				except:
+					print(
+						"Article annexe à la gravure : l'article " + id_article + " est introuvable dans le cache")
+
+			## Lien Gallica
+			if img_row[6].value:
+				lien_gallica = u(img_row[6].value)
+				t(lien_gallica, crm("P2_has_type"), she("e73699b0-9638-4a9a-bfdd-ed1715416f02"))
+				img_gallica_E13 = she(cache_40CM.get_uuid(["collection", id, "E36", "gallica", "E13"], True))
+				t(img_gallica_E13, a, crm("E13_Attribute_Assignement"))
+				t(img_gallica_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
+				t(img_gallica_E13, crm("P140_assigned_attribute_to"), img_E36)
+				t(img_gallica_E13, crm("P141_assigned"), lien_gallica)
+				t(img_gallica_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
 
 			## Titre sur l'image (E13)
-			if img_row[7].value != None:
+			if img_row[7].value:
 				img_E36_titre = she(cache_40CM.get_uuid(["collection", id, "E36", "titre 1"], True))
 				t(img_E36_titre, a, crm("E13_Attribute_Assignement"))
 				t(img_E36_titre, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
@@ -328,7 +375,7 @@ def traitement_images(sous_collection):
 				t(img_E36_titre, crm("P177_assigned_property_type"), she("01a07474-f2b9-4afd-bb05-80842ecfb527"))
 
 			## Titre descriptif/forgé (E13)
-			if img_row[8].value != None:
+			if img_row[8].value:
 				img_E36_titre = she(cache_40CM.get_uuid(["collection", id, "E36", "titre 2"], True))
 				t(img_E36_titre, a, crm("E13_Attribute_Assignement"))
 				t(img_E36_titre, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
@@ -337,7 +384,7 @@ def traitement_images(sous_collection):
 				t(img_E36_titre, crm("P177_assigned_property_type"), she("58fb99dd-1ffb-4e00-a16f-ef6898902301"))
 
 			## Titre dans le péritexte (E13)
-			if img_row[9].value != None:
+			if img_row[9].value:
 				img_E36_titre = she(cache_40CM.get_uuid(["collection", id, "E36", "titre 3"], True))
 				t(img_E36_titre, a, crm("E13_Attribute_Assignement"))
 				t(img_E36_titre, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
@@ -346,7 +393,7 @@ def traitement_images(sous_collection):
 				t(img_E36_titre, crm("P177_assigned_property_type"), she("ded9ea93-b400-4550-9aa8-e5aac1d627a0"))
 
 			## Objet ou lieu représenté (E13)
-			if img_row[11].value != None:
+			if img_row[11].value:
 
 				# TODO ALIGNER SUR LES E55 QUAND ON AURA TRANSFORME LE VOCABULAIRE D'INDEXATION EN TTL
 				# TODO ALIGNER SUR LE REFERENTIEL DES PERSONNES
@@ -385,7 +432,7 @@ def traitement_images(sous_collection):
 					t(img_médaille_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
 
 					#### Si la médaille comporte une inscription
-					if img_row[17].value != None or img_row[18].value != None:
+					if img_row[17].value or img_row[18].value:
 						img_médaille_inscrip_E36 = she(
 							cache_40CM.get_uuid(["collection", id, "E36", "médaille", "inscription", "E36"], True))
 						t(img_médaille_inscrip_E36, a, crm("E36_Visual_Item"))
@@ -400,7 +447,7 @@ def traitement_images(sous_collection):
 						t(img_médaille_inscrip_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
 
 					##### Si la médaille comporte une inscription en légende (E13)
-					if img_row[17].value != None:
+					if img_row[17].value:
 						img_médaille_inscrip_E33 = she(
 							cache_40CM.get_uuid(["collection", id, "E36", "médaille", "E33", "légende", "uuid"], True))
 						t(img_médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
@@ -428,7 +475,7 @@ def traitement_images(sous_collection):
 						t(img_médaille_inscrip_P190_E13, crm("P177_assigned_property_type"), crm("P190_has_symbolic_content"))
 
 					##### Si la médaille comporte une inscription en exergue (E13)
-					if img_row[18].value != None:
+					if img_row[18].value:
 						img_médaille_inscrip_E33 = she(
 							cache_40CM.get_uuid(["collection", id, "E36", "médaille", "E33", "exèrgue", "uuid"], True))
 						t(img_médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
@@ -468,31 +515,36 @@ def traitement_images(sous_collection):
 			t(img_D1, crm("P130_shows_features_of"), img_E36)
 			t(sous_collection, crm("P106_is_composed_of"), img_D2)
 
-			## Article annexe à la gravure
-			if img_row[4].value != None:
-				id_article = img_row[4].value
-				id_livraison = id_article[0:10]
+			## Autres liens externes
+			if img_row[20].value:
 				try:
-					uuid_article = she(cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-					img_E36_seeAlso_E13 = she(cache_40CM.get_uuid(["collection", id, "E36", "seeAlso", "E13"], True))
-					t(img_E36_seeAlso_E13, a, crm("E13_Attribute_Assignement"))
-					t(img_E36_seeAlso_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-					t(img_E36_seeAlso_E13, crm("P140_assigned_attribute_to"), img_E36)
-					t(img_E36_seeAlso_E13, crm("P141_assigned"), uuid_article)
-					t(img_E36_seeAlso_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
-					### Commentaire décrivant le lien entre la gravure et l'article
-					if img_row[5].value != None:
-						img_E36_seeAlso_P3_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "E36", "seeAlso", "note", "E13"], True))
-						t(img_E36_seeAlso_P3_E13, a, crm("E13_Attribute_Assignement"))
-						t(img_E36_seeAlso_P3_E13, crm("P14_carried_out_by"),
-						  she("ea287800-4345-4649-af12-7253aa185f3f"))
-						t(img_E36_seeAlso_P3_E13, crm("P140_assigned_attribute_to"), uuid_article)
-						t(img_E36_seeAlso_P3_E13, crm("P141_assigned"), l(img_row[5].value))
-						t(img_E36_seeAlso_P3_E13, crm("P177_assigned_property_type"), crm("P3_has_note"))
+					response = requests.get(img_row[20].value)
+					lien_externe = u(img_row[20].value)
+					img_lien_externe_E13 = she(
+						cache_40CM.get_uuid(["collection", id, "E36", "lien externe", "E13"], True))
+					t(img_lien_externe_E13, a, crm("E13_Attribute_Assignement"))
+					t(img_lien_externe_E13, crm("P14_carried_out_by"),
+					  she("ea287800-4345-4649-af12-7253aa185f3f"))
+					t(img_lien_externe_E13, crm("P140_assigned_attribute_to"), img_E36)
+					t(img_lien_externe_E13, crm("P141_assigned"), lien_externe)
+					t(img_lien_externe_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
 				except:
-					print("Article annexe à la gravure : l'article " + id_article + " est introuvable dans le cache")
+					print(img_row[20].value + " n'est pas une URL valide")
 
+
+			## Bibliographie relative à la gravure
+			if img_row[21].value:
+				biblio = she(cache_40CM.get_uuid(["collection", id, "E36", "bibliographie", "uuid"], True))
+				t(biblio, a, crm("E31_Document"))
+				t(biblio, RDFS.label, l(img_row[21].value))
+				## E13 Attribute Assignement
+				img_biblio_E13 = she(cache_40CM.get_uuid(["collection", id, "E36", "bibliographie", "E13"], True))
+				t(img_biblio_E13, a, crm("E13_Attribute_Assignement"))
+				t(img_biblio_E13, crm("P14_carried_out_by"),
+				  she("ea287800-4345-4649-af12-7253aa185f3f"))
+				t(img_biblio_E13, crm("P140_assigned_attribute_to"), img_E36)
+				t(img_biblio_E13, crm("P141_assigned"), biblio)
+				t(img_biblio_E13, crm("P177_assigned_property_type"), crm("P70_documents"))
 
 #####################################################################
 # CHOIX DE LA COLLECTION A TRAITER

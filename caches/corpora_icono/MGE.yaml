@@ -131,6 +131,8 @@ collection:
         uuid: a58faeb4-0dec-4b82-abeb-f14cb20d963f
         note:
           E13: ee29ec39-0216-4434-b3c2-1877a06b98eb
+      gallica:
+        E13: 39a1d553-1b02-4bea-b45f-fc8b9aa853aa
   1678-02_236:
     E22:
       uuid: 23f35246-960a-4843-8f9b-93899d00f2dd
@@ -218,6 +220,8 @@ collection:
         uuid: c5a040f7-5cc1-48ed-9c9e-3bb34d421507
         note:
           E13: b2d5604f-8894-4791-b1d4-f1dc56c289d1
+      gallica:
+        E13: 5f04239e-f8ab-44c2-ac73-1cc213ef4fb8
   1678-03_329:
     E22:
       uuid: 9e27fb48-1a20-460d-ba68-b9727e857e53
@@ -417,6 +421,9 @@ collection:
         uuid: 29f536c6-2e11-4028-bc0e-62f5b4760aba
         note:
           E13: 273e6045-4f20-43f6-890e-e3110630e183
+      bibliographie:
+        uuid: 04e39d64-bb0a-4d26-9bf6-e4b7cefe3c15
+        E13: d6329008-b873-4919-98d7-f4272ac9d7bd
   1678-04_044:
     E22:
       uuid: 0818a763-a370-4a3a-bd84-1761f20d3209
@@ -505,6 +512,8 @@ collection:
         uuid: b5c18992-5bf4-4413-9df9-5f4f0ebc4842
         note:
           E13: 5a053d40-9bdb-43af-98be-4303f7ba38ae
+      gallica:
+        E13: ef35b340-bf87-48ef-b873-cb31abe24763
   1678-04_397:
     E22:
       uuid: e0eeea8a-e881-4532-97cb-eca3d7353ded
@@ -849,6 +858,8 @@ collection:
         uuid: 3a27f5f0-3178-4a49-998b-959b34dba21e
         note:
           E13: 292325a5-b427-40ce-ad77-0c8570d706fe
+      gallica:
+        E13: e50c1c51-8edf-4ee8-92d2-cdc47803582f
   1678-07_319:
     E22:
       uuid: 6fd1f408-9569-4fc9-8dff-a4a9b85632b3
@@ -937,6 +948,8 @@ collection:
         uuid: 1b4aa5e4-ed22-4705-a1d3-ff6c9b5140d8
         note:
           E13: 56ad7060-9a5c-41df-b2da-9e76df4ae340
+      gallica:
+        E13: 55a19aee-c245-4e21-84ce-5dc858ee2c98
   1678-08_336:
     E22:
       uuid: 85e51799-5e77-4a8f-8042-b7bd47c7daac
@@ -1006,6 +1019,8 @@ collection:
         uuid: b2928705-6b3f-4c0a-b385-40a981f5e694
         note:
           E13: 209884ac-f7ec-4de7-8be8-e1a4ac6e5c40
+      gallica:
+        E13: 2748216a-c00f-49e3-b9d2-4a8593469830
   1678-09_179:
     E22:
       uuid: f3f120b9-3ab7-4c62-9fc2-27621c39bb38
@@ -1027,6 +1042,8 @@ collection:
         uuid: 771defcd-df6a-47b8-a8f2-990ec823fc73
         note:
           E13: 128e95b7-7c0a-449d-8e1a-a41f1d980a9c
+      gallica:
+        E13: 8a941490-c319-478a-a8df-0ae415868f73
   1678-09_334:
     E22:
       uuid: 324818a6-4cd6-4c7b-acd7-07081b4be0d8
@@ -1093,6 +1110,8 @@ collection:
         uuid: 3621cc57-9cce-43d2-85cb-79a4324aacd4
         note:
           E13: a49354a6-9330-4dcc-b7e3-6b19880e6be9
+      gallica:
+        E13: 9a2d67a9-faa6-44ca-bc6b-e6ffb0dd5974
   1678-09e_286:
     E22:
       uuid: c70d96cb-6a8e-4b5e-b2a0-4f605bfca329
@@ -1161,6 +1180,8 @@ collection:
         uuid: 7ad92e97-e948-48ab-8990-f361c611fa36
         note:
           E13: 1e924748-cf53-439f-9720-3d8e1fd57af1
+      gallica:
+        E13: 2eda7c5a-a6f2-46e1-9070-6abd144ccaa5
   1678-10_276:
     E22:
       uuid: 1f112a2c-27e6-439e-837d-63d72c254b8e
@@ -1190,6 +1211,10 @@ collection:
         uuid: 16fe1788-c2b9-402d-b6fb-9dca6ee3d7dc
         note:
           E13: 8fba7335-4232-46d4-af53-5a5c88ef6a03
+      gallica:
+        E13: 72d75f9b-a835-4d1e-9ca5-9c81aa2dd203
+      lien externe:
+        E13: 74df7cba-dba9-4d1b-b72c-354b2d55d8ee
   1678-10_355:
     E22:
       uuid: 9b0ca2ba-7372-4834-8bf1-5c38970920ee
@@ -1291,6 +1316,8 @@ collection:
         uuid: 3910c7d3-53e9-42c0-8e4d-d5822d45f214
         note:
           E13: aa51e936-bd31-4a30-8b5f-75d1d2d0d4d1
+      gallica:
+        E13: 74da860d-dab3-4892-b3ba-00507eaa4d38
   1678-11_276:
     E22:
       uuid: b9b38a0c-e8d2-4bfe-97cc-c57445bd9442
@@ -1313,6 +1340,8 @@ collection:
         uuid: 0d7c81a0-a5f3-46ba-b06d-06222a0b0e99
         note:
           E13: 56c150dd-297b-473e-931c-eb8c9aab316c
+      gallica:
+        E13: 83a7c78e-8fd6-4569-8a26-4df9743dfc5e
   1678-11_323:
     E22:
       uuid: cb1cc1fc-26f0-46ef-8631-b8ba3f500a93
@@ -1373,6 +1402,8 @@ collection:
         uuid: 276b7973-d02a-41d3-b1ea-1051f77f574c
         note:
           E13: fe4675c0-fea1-476b-ad6d-24105a8c7209
+      gallica:
+        E13: c8a35c1d-0683-4730-b9c6-706ce7d181a9
   1678-12_272:
     E22:
       uuid: 89d17320-97a8-4b0b-b62f-bc001b67b262
@@ -1394,6 +1425,8 @@ collection:
         uuid: 6d278a4f-e5f7-44c4-a35b-9ee7d87c978a
         note:
           E13: b1720b25-edc3-45ee-a593-82180c596b8c
+      gallica:
+        E13: d8989c7e-bc42-4eda-8670-10aa99219f77
   1678-12_295:
     E22:
       uuid: 2c45ac5e-429c-473d-9882-b3cb834226f4
@@ -1515,6 +1548,8 @@ collection:
         uuid: 111a0090-0cb4-43ba-a675-28114cccb81d
         note:
           E13: da848382-17a0-4db7-a19b-adf4e008db92
+      gallica:
+        E13: dcbfd03b-62f8-44d8-ba2b-7002efba72d5
   1679-01_300:
     E22:
       uuid: 3383bc6e-ec3e-4aa3-b342-be7ddfc286a8
@@ -1536,6 +1571,8 @@ collection:
         uuid: b2ee2b8a-b26d-4f24-b04d-4f138379354a
         note:
           E13: d4d46e49-18a9-43c0-9a7e-d1c205b1876e
+      gallica:
+        E13: af72beb0-e34c-4515-91d2-c08c32b2f6c7
   1679-01_327:
     E22:
       uuid: 7f9668ea-6136-4852-ada0-8cfe7cea83d9
@@ -1582,6 +1619,8 @@ collection:
         uuid: 64ab6078-3230-4996-8b8c-161b61a996a5
         note:
           E13: 384594aa-8a61-4599-8ae6-372875b96d81
+      gallica:
+        E13: 1d55f8f6-206d-4bed-8e07-cc4b814540dd
   1679-02_225:
     E22:
       uuid: c5339ee2-bfee-4c48-9dc0-b49ac28ee6c2
@@ -1604,6 +1643,8 @@ collection:
         uuid: 2bc60402-7728-4bbe-8d3f-cbfc5bd74ae0
         note:
           E13: d58acdf2-2cfb-407f-ae07-02b3a0f57b96
+      gallica:
+        E13: 6ebf403a-f69d-4069-aa41-42a39ea2427c
   1679-02_357:
     E22:
       uuid: 67e366f2-5ae8-4be9-a8ff-596fad3c346d
@@ -1647,6 +1688,8 @@ collection:
         uuid: abaf7019-a20b-49bb-8395-5a3f1d33354c
         note:
           E13: c15771cb-cd76-4dd7-9f2a-3cfcecf9f0b1
+      gallica:
+        E13: 899a2f22-8f94-4e2a-84ec-b88b0ac2c089
   1679-03_256:
     E22:
       uuid: 97ca2c12-1265-4aa6-85f2-2e2c7b0eb19c
@@ -1671,6 +1714,8 @@ collection:
         uuid: 48406da0-d158-4e9b-99a2-8dcc0ff13b3a
         note:
           E13: 9e2718e3-edea-468d-9a11-001bcd308cf5
+      gallica:
+        E13: 22b8e301-8138-46ca-8777-aed0f0ef98af
   1679-03_349:
     E22:
       uuid: 5477ea15-a217-4478-8e05-dd8eb7222ee0
@@ -1781,6 +1826,8 @@ collection:
         uuid: 8941f617-0a2d-4917-b0e6-c0adab03b6b1
         note:
           E13: 09cdaaac-d071-449a-9144-9a2ac6537715
+      gallica:
+        E13: 881bcfb8-6074-48f8-8f8b-518a0b10aa91
   1679-04_181:
     E22:
       uuid: e4c660ad-d232-4909-b640-e726159aa7ff
@@ -1805,6 +1852,8 @@ collection:
         uuid: 13a8dd56-b091-4441-9fea-3eac0a9eafdb
         note:
           E13: 2ff97690-b860-4042-8364-7d516c9186ea
+      gallica:
+        E13: 4053b03e-d1bf-4370-8934-f17173eba216
   1679-04_259:
     E22:
       uuid: 3922a42d-fc14-45bb-8232-eed0ee16fbdf
@@ -1869,6 +1918,8 @@ collection:
         uuid: a9efa6ae-674d-4a7a-943a-09568a45c827
         note:
           E13: 4c9817fc-e879-48b7-ad50-4426f20cf7fe
+      gallica:
+        E13: 190c8df9-f663-431d-80c6-73f3db1e1941
   1679-05_302:
     E22:
       uuid: cc21508f-0ad0-4480-9074-cb2fee2344a0
@@ -1897,6 +1948,10 @@ collection:
         uuid: bf911291-3182-42e8-a974-e65060f01ae3
         note:
           E13: f7da28ee-557e-4d44-915f-ea1e5f95c5c4
+      gallica:
+        E13: 35fbebc9-c950-471d-8854-7f3f4feaba55
+      lien externe:
+        E13: ad314965-f65c-432b-9355-19b21d7bc609
   1679-05_344:
     E22:
       uuid: 1eafd408-dcf5-4db4-b15c-863ea4971fc3
@@ -2008,6 +2063,8 @@ collection:
         uuid: ce0bbfa8-dfd1-490e-a832-5b2a05960be5
         note:
           E13: d95fc221-4d29-462d-911b-9b1942c5c118
+      gallica:
+        E13: 16d6126f-f5a5-4d1c-952a-f5d3711b940d
   1679-06e_322:
     E22:
       uuid: 3353a471-db26-4ff0-98c3-9db3ba1ce919
@@ -2037,6 +2094,8 @@ collection:
         uuid: bd684734-e421-491a-83e8-ba2290d6dcc1
         note:
           E13: ce41a2fe-7259-4e23-8d72-dfefd0a35e9b
+      gallica:
+        E13: 6dc2833a-b197-4cd3-b3b1-e7b0ee1fcc1e
   1679-07_167:
     E22:
       uuid: 2a52c4da-0c1a-4b48-8bc8-2dc4ce897180
@@ -2058,6 +2117,8 @@ collection:
         uuid: 87688d58-1aab-48d3-aec0-8c78f700ca97
         note:
           E13: 6eced819-6279-4b25-a0ec-94d4321605c2
+      gallica:
+        E13: 5a8980a1-f824-48d4-b63a-e2f7bacf3614
   1679-07_317:
     E22:
       uuid: 58b8e150-d0be-41be-8819-9d86fb0c9e02
@@ -2082,6 +2143,8 @@ collection:
         uuid: b1b1f47f-132b-483d-9b34-e4513a37eabd
         note:
           E13: 6b0f2d3d-cc17-4890-ae48-08cb766578af
+      gallica:
+        E13: 36bf2437-bdea-4734-97a2-40c358901c51
   1679-07_365:
     E22:
       uuid: 070a937d-d32c-4b85-974b-c0f00bc69676
@@ -2125,6 +2188,8 @@ collection:
         uuid: b647047b-0330-4137-bf1c-42362198635f
         note:
           E13: 10b8c0c2-2926-424e-90f4-ea5f915e0202
+      gallica:
+        E13: a4dbf60a-6564-4b57-9100-9b2ca912e21d
   1679-08_267:
     E22:
       uuid: 99efde7c-d6f1-4a0e-b00c-03e4bfd32a2e
@@ -2146,6 +2211,8 @@ collection:
         uuid: 0c857f83-9207-409d-8a5c-e3b4d5571611
         note:
           E13: 79c3b0cb-408f-4e7c-8d06-2b369e6cd6ba
+      gallica:
+        E13: 7996140e-744b-4ee1-b624-5d6bfe27b840
   1679-08_362:
     E22:
       uuid: 9a856ff4-ac11-427f-825a-468db27a6135
@@ -2193,6 +2260,10 @@ collection:
         uuid: 8739e47e-4a14-49f3-a829-bd336adbc6b7
         note:
           E13: a3aa631c-e898-41ce-99a0-e665297e95a9
+      gallica:
+        E13: df0d7a3e-d2a1-4a40-ad63-a95abd41c7c9
+      lien externe:
+        E13: befbce30-380e-4d2b-822a-7ee4a83ec6f3
   1679-09_359:
     E22:
       uuid: 3c97fd1e-9f5b-4140-a20f-d08ab9d0a64a
@@ -2217,6 +2288,8 @@ collection:
         uuid: 3a0ad6aa-bc3f-4072-bcd2-c9eed9cd660b
         note:
           E13: d9d5905f-b803-4c3e-b2a0-14474930d5c6
+      gallica:
+        E13: 073a441e-ba44-461c-9f75-ab3b12b4be66
   1679-09_365:
     E22:
       uuid: 6edfcea3-f1df-48b3-9950-330ec9bc8809
@@ -2310,6 +2383,8 @@ collection:
         uuid: 22a0a9ac-2b62-4cd0-a72d-0cd565e891ea
         note:
           E13: dd3692fe-2d23-4325-8a5f-4d298251cbd9
+      gallica:
+        E13: 342a546d-4aa6-42b7-bcbc-3a00d6ed6f63
   1679-10a_348:
     E22:
       uuid: cc927eec-2ede-4ddc-bf34-ab75757085e3
@@ -2382,6 +2457,8 @@ collection:
         uuid: dc250e6a-5543-45bb-be6e-b0ff34434156
         note:
           E13: f1d34f27-6510-4626-a929-b6a3f5556168
+      gallica:
+        E13: ca770a7f-c12c-445b-ac6a-389a3fb6311f
   1679-10b_215:
     E22:
       uuid: d35ead84-7ce0-4971-b400-4fb7524c1f92
@@ -2403,6 +2480,8 @@ collection:
         uuid: defd20c6-277f-4413-a742-942e34094bb5
         note:
           E13: 060a5893-8bae-48e2-a04e-896239dfdf12
+      gallica:
+        E13: b5602047-8e07-480d-859a-3c669abead35
   1679-11_089:
     E22:
       uuid: f49584e3-5e98-4766-b56d-ee3850ee2b90
@@ -2424,6 +2503,8 @@ collection:
         uuid: d5f70608-8a7c-4105-87c9-6bd107255234
         note:
           E13: 591f27c6-6323-45f9-9d81-868b44aee363
+      gallica:
+        E13: 91e351b9-f98d-4b17-9dfb-9128e9e635b7
   1679-11_175:
     E22:
       uuid: 702a8932-5cbf-42f7-9362-2a2cb007152d
@@ -2445,6 +2526,8 @@ collection:
         uuid: 8bd13404-cd0e-42a2-bb95-0648b88a8ad1
         note:
           E13: 89d145ee-a79a-4fa0-8f3b-b1f696ad16d1
+      gallica:
+        E13: a6c244b6-3ffb-4394-8b57-c809c4aa6674
   1679-11_349:
     E22:
       uuid: 335f311d-13ec-416c-aab0-e057d1b2b963
@@ -2492,6 +2575,8 @@ collection:
         uuid: 0b69cead-2949-4137-b379-ab1d4fae17a7
         note:
           E13: bb3b05c8-c7b5-4164-aa67-326e4263ecca
+      gallica:
+        E13: c5c6c130-16aa-40a5-9c18-84c2f04945e1
   '1679-12_328 ':
     E22:
       uuid: cd513eee-18db-480d-b38b-cd079cf7b835
@@ -2516,6 +2601,8 @@ collection:
         uuid: 21cd2c2b-1fe8-4813-a4dc-a303d67d94a4
         note:
           E13: baa386be-54cb-489f-b6b3-ca6f88c3277b
+      gallica:
+        E13: 5dc11c47-7378-4d3f-a7aa-396cbd4c3984
   1679-12_352:
     E22:
       uuid: 655ff43a-f65e-475d-aeb3-bb24b0836826
@@ -2621,6 +2708,8 @@ collection:
         uuid: 18fc4c1c-e5c0-4147-8b89-ca54956fe534
         note:
           E13: b65e1e8a-9142-4555-82a5-a77e8c9d45e0
+      gallica:
+        E13: bebd64c4-c331-4e57-b8c5-f4d63f19866a
   1680-01a_246:
     E22:
       uuid: 59f4e803-54fe-4387-a933-b6e23e47a0ff
@@ -2690,6 +2779,8 @@ collection:
         uuid: 07871e85-daf8-46b0-8e01-56c0a37ad782
         note:
           E13: 869caf13-4f7e-4f08-a97b-73adc91fa40b
+      gallica:
+        E13: 33b7fae9-a4fe-4468-b373-8d05a1780b77
   1680-01b_207:
     E22:
       uuid: d9e6f41d-aac6-4688-8b5f-0a7878208f62
@@ -2733,6 +2824,8 @@ collection:
         uuid: 247facf9-9143-479a-9dca-4608c7012875
         note:
           E13: 5015e449-22d5-4b2e-920a-819b2fa0e83c
+      gallica:
+        E13: aa548225-1dff-4f6e-a044-8f785e897108
   1680-02_326:
     E22:
       uuid: 51f0af20-347b-426a-8555-96af9a0b93e8
@@ -2755,6 +2848,8 @@ collection:
         uuid: cebe067d-28a6-4e0e-8a89-6ae1c0124762
         note:
           E13: 5d356411-22ad-406f-8eae-416b068e92a5
+      gallica:
+        E13: 4bef0075-0dcf-444a-bae1-db4c1586eb69
   1680-02_347:
     E22:
       uuid: 61b97a38-dbe4-4edc-84fb-c21054b26e17
@@ -2780,6 +2875,11 @@ collection:
         uuid: 020f43ca-43aa-4d27-b4b7-e3a525810bd3
         note:
           E13: 78a2139c-f45d-4a12-8077-c7a264a2630b
+      gallica:
+        E13: 73751598-cb67-4d3d-a16b-69f1ff8cc8fe
+      bibliographie:
+        uuid: a11bee5b-2939-443a-872a-a9d4d7a164a7
+        E13: 2708e4f1-270f-43cf-b50d-48e824e94fcc
   '1680-03a_157 ':
     E22:
       uuid: bcead2f9-a822-4bbe-b054-9f07b8587fc9
@@ -2867,6 +2967,8 @@ collection:
         uuid: 9f8674b8-c82b-4466-b24d-41b6aabe43dd
         note:
           E13: 836e0673-3143-42b8-880c-32a725597a9c
+      gallica:
+        E13: 271dfb58-c0be-4f6c-bc44-b95d9aa91b72
   1680-03b_194:
     E22:
       uuid: 138ef538-9fb1-4153-b069-11b4c9232986
@@ -2888,6 +2990,8 @@ collection:
         uuid: a222c81a-3e1e-40ab-b29a-1b96df6b5804
         note:
           E13: 576811fb-2236-411a-b75e-5689a7737d98
+      gallica:
+        E13: ea93fef9-f6ae-4f4a-a7e0-4376e5480081
   1680-03b_232:
     E22:
       uuid: 0542672d-f5f8-4766-a1e4-3c352a4b7fa5
@@ -2917,6 +3021,8 @@ collection:
         uuid: 94e4c927-ab74-4e8b-aae6-d0b580463093
         note:
           E13: 5af259eb-b7df-474a-b76b-93723ffcc2b0
+      gallica:
+        E13: a0727e45-4916-40ab-a4e8-717ca1a5b1b9
   1680-03e_171:
     E22:
       uuid: 30021e3e-2b10-40de-a0ea-32ca94a8c856
@@ -3004,6 +3110,8 @@ collection:
         uuid: 88d0d3cd-3e2c-47c3-ab9b-2db6fe9adbb6
         note:
           E13: ec10b5ce-cd13-4c0a-acab-da75d1bc211b
+      lien externe:
+        E13: 84394381-299f-4e32-8772-4703f8d119db
   1680-04_322:
     E22:
       uuid: b429c9d8-6f17-4dd6-9dde-c9b7c445ed20
@@ -3047,6 +3155,10 @@ collection:
         uuid: 47a6eb63-2908-4505-ae03-0d45ab032f2f
         note:
           E13: 2ea80b3e-02aa-4a37-8803-74e674e8810c
+      gallica:
+        E13: 5bdea86e-7894-4b02-b92f-790aff2a6cab
+      lien externe:
+        E13: 709dc5ed-5c38-4957-8bc2-223ef246e46b
   1680-05_226:
     E22:
       uuid: 09ed87f9-a62d-4b24-813b-cdff030ef357
@@ -3068,6 +3180,8 @@ collection:
         uuid: c3bf0d2c-4d56-4a2d-a01b-b1c2e6f10e9e
         note:
           E13: cb3bac45-6cf1-4ce7-aee1-13bfa614e097
+      gallica:
+        E13: 491b50f9-1435-427b-b6b4-d662d314cab9
   1680-05_304:
     E22:
       uuid: cc06bcbf-196a-4a17-9f92-0496dcbbd335
@@ -3089,6 +3203,10 @@ collection:
         uuid: cc1056a4-78ce-4ce6-8993-f71745688025
         note:
           E13: e811c3d7-688c-4f31-a097-ca13c18ac2e1
+      gallica:
+        E13: a3ca5b91-c824-4100-a72a-21e405af47e7
+      lien externe:
+        E13: edfd8658-0df1-4291-8d0b-64e497a935f0
   1680-06_173:
     E22:
       uuid: e4cfc46a-33ea-4b97-8abd-58e785e4b7c9
@@ -3110,6 +3228,8 @@ collection:
         uuid: 2b57e1a1-0b39-432f-b0b1-9032826dc5b4
         note:
           E13: 02169294-c78d-4356-9eee-e643fcfa970d
+      gallica:
+        E13: 1add60e1-44df-437e-b657-7943a6479ec4
   1680-06_290:
     E22:
       uuid: 683f1b99-f8ca-4171-beae-63d03930ae08
@@ -3176,6 +3296,8 @@ collection:
         uuid: 6315f98d-575d-493d-a28b-98d3980480a6
         note:
           E13: eca55aa4-f29c-415f-acdd-fc4bd463c3a2
+      gallica:
+        E13: c7339564-6ec5-4fcb-84ab-71f9fc1324a9
   1680-06e_340:
     E22:
       uuid: 46b9281d-421b-481e-b891-7da874d973ac
@@ -3198,6 +3320,8 @@ collection:
         uuid: 1e0698e9-0ebe-422b-9f5d-27bec45563b4
         note:
           E13: 973e2d23-9740-44d6-afa7-68a788b062ba
+      gallica:
+        E13: 9978021a-4037-4345-81a5-981200cc9471
   1680-07_081:
     E22:
       uuid: 9cb7a158-56aa-4a4e-bbc7-a454ff05d93a
@@ -3441,6 +3565,8 @@ collection:
         uuid: db4b7927-106e-44ae-85c7-650f55b10ee3
         note:
           E13: 3870c65b-878d-41b0-b2a2-b7f71ac7e251
+      gallica:
+        E13: bb8a133b-30c4-4a07-90e0-6348c4c55bd5
   1680-09e_298:
     E22:
       uuid: e24d1722-f5de-4ea6-aa7f-c3f47ff55dd0
@@ -3463,6 +3589,8 @@ collection:
         uuid: 1b842f45-ba54-4094-a5c5-4d404421071f
         note:
           E13: 360173e6-dcd6-483b-b69b-3861005c71d0
+      gallica:
+        E13: 2338a9c2-a1ef-45d5-8f17-0907c16d449d
   1680-10_165:
     E22:
       uuid: 3ff000a1-b55d-4232-b3f5-9658d705fa0b
@@ -3487,6 +3615,8 @@ collection:
         uuid: ffa1e1cd-78de-41d8-baaf-73dde07a9486
         note:
           E13: 141a4272-a6e0-4e8b-94d0-d8dae33409d1
+      gallica:
+        E13: a75fd945-c54c-4cdb-9d3c-30aad77ff8f2
   1680-10_263:
     E22:
       uuid: c96e24e2-9d4d-4f31-8ae9-25ef4e8ea583
@@ -3509,6 +3639,8 @@ collection:
         uuid: bcc6c2bd-cb57-479f-8200-53dcc822bde7
         note:
           E13: 680d2d02-36ef-4d8a-8060-5bb0715c3401
+      gallica:
+        E13: e1e63a12-6885-450a-8b65-cd36fd66e7d3
   1680-10_354:
     E22:
       uuid: dd84a696-fce9-40a3-ba82-5083bb4e47d4
@@ -3553,6 +3685,8 @@ collection:
         uuid: ef5c3c7b-a02e-44ad-b139-3f458319b6a8
         note:
           E13: e43706ea-0f5c-4b20-a517-7241d21809b0
+      gallica:
+        E13: d2866ea1-2382-4e59-9343-5d0740b65770
   1680-10e_192:
     E22:
       uuid: 9f56a0a6-1006-40f5-abf6-3e4524f2020c
@@ -3574,6 +3708,8 @@ collection:
         uuid: 3b9399b8-4435-4abf-8119-e0a9cf195cc7
         note:
           E13: 67abc343-6828-4ef7-8a43-ddee3dd177a5
+      gallica:
+        E13: 4d268153-2aca-4bbb-b25d-1005b9070e2a
   1680-10e_268:
     E22:
       uuid: 840343e8-0b0f-4fdd-a90f-ebe31654d6d1
@@ -3596,6 +3732,8 @@ collection:
         uuid: d5ee9b7e-1b10-468f-9407-ab3eb9fbb99b
         note:
           E13: e9ad2063-29e2-4cde-8d92-3a8fff355a51
+      gallica:
+        E13: 26ae0f70-8c3d-42cb-b6d4-aedd56f53910
   1680-11_220:
     E22:
       uuid: 01f85e9c-0de2-4b85-aaef-be9bfa09d307
@@ -3633,6 +3771,8 @@ collection:
         uuid: d0935c8d-d7e3-4840-9b93-eb5d9afe589f
         note:
           E13: 1c6e3310-dc4a-4199-bb5c-8e3dfa41dfdb
+      gallica:
+        E13: 43a750e2-1cfc-4c00-acd1-82c17e9c55be
   1680-11_274:
     E22:
       uuid: 1477c532-f5f8-4e7e-9a65-48da675b55fc
@@ -3701,6 +3841,8 @@ collection:
         uuid: 50024452-4501-462c-92f4-cbe241c354e6
         note:
           E13: 7a3ec0e9-1dd4-4eee-ad3d-a79b22a2430c
+      gallica:
+        E13: 6d3020ab-83f5-4f75-84ab-297bc94f39c3
   1680-12_173:
     E22:
       uuid: a29f8e2e-602f-42c9-aee4-a91798c84281
@@ -3725,6 +3867,8 @@ collection:
         uuid: 7c07a937-a457-4c27-b315-c2f86b844056
         note:
           E13: d1ddc575-a8ee-49f0-8c31-bbb2346a0da0
+      gallica:
+        E13: 3ec4c095-7026-4ebc-bd9d-46dd99f6e9c5
   1680-12_304:
     E22:
       uuid: 879d7245-408c-460c-9caa-7bbd460ed200
@@ -3792,6 +3936,8 @@ collection:
         uuid: 6ed48d6b-eb38-4044-bc04-53ebda377a21
         note:
           E13: b16fa201-5398-4af9-b30f-2ac12496c60c
+      gallica:
+        E13: a8d6c37f-ee73-4b0c-a6ef-c20b061e2cbd
   1681-01_309:
     E22:
       uuid: 33344988-79fb-47e3-89cf-d8cad123b5f3
@@ -3814,6 +3960,8 @@ collection:
         uuid: 9f0652f4-e46c-4eba-8093-2569682e682e
         note:
           E13: 80071433-0a9d-4b15-9407-c30df4b8aaae
+      gallica:
+        E13: 88bcf6ea-42e6-483e-b480-580208968ad5
   1681-02_177:
     E22:
       uuid: a20155bf-bbcf-4f64-8517-2d81aff406c2
@@ -3835,6 +3983,8 @@ collection:
         uuid: 165e36f2-f379-4b17-90bb-3d2385d3bd1f
         note:
           E13: 4da6f948-850a-49b2-aaee-2f111fc2186c
+      gallica:
+        E13: 88d02c53-ec33-4a83-8167-645aec703ebd
   1681-02_299:
     E22:
       uuid: 11c98a0f-e629-486d-83ec-876fb4652d4d
@@ -3857,6 +4007,8 @@ collection:
         uuid: c4fba99e-9665-408a-ab35-3ddbac9b9aca
         note:
           E13: 47b99646-cc1c-4389-b906-5602abbf213d
+      gallica:
+        E13: 9a25c7dc-196a-4607-abcd-91c864e53bf6
   1681-02_323:
     E22:
       uuid: 3d184085-9900-42a4-9df8-ccc915c432d2
@@ -3899,6 +4051,8 @@ collection:
         uuid: c3b12cd1-c245-4af7-ad4d-54a39f7000d5
         note:
           E13: 488d651b-80cb-41e1-9a28-20f98ceb80cf
+      gallica:
+        E13: 27f137f8-2c32-47ad-9948-49b4866fe382
   '1681-03_100 ':
     E22:
       uuid: a0fcc016-ea06-446d-a7e0-b2c7b7686854
@@ -4027,6 +4181,8 @@ collection:
         uuid: 2595f5ce-d475-4a65-bbc2-d2ab45467323
         note:
           E13: 1c589901-a125-4eff-a40a-fb8c797fef72
+      lien externe:
+        E13: 066dfaa8-be02-40dd-b791-2fb001743df0
   1681-05_350:
     E22:
       uuid: 7bddbce9-758e-4310-8bdf-637d9d386193
@@ -4049,6 +4205,8 @@ collection:
         uuid: 3b254b0d-cdb7-457f-a974-b4d02071864f
         note:
           E13: 498ae8ae-1a4d-409b-bc29-ba48a89ffd62
+      gallica:
+        E13: 5f933a88-2350-48f3-bd6c-1104d73193c4
   1681-06_179:
     E22:
       uuid: b80ca017-295b-4152-b8e3-3d610673b561
@@ -4218,6 +4376,10 @@ collection:
         uuid: fa27fd7d-c2fb-45ec-a0ef-7ed9d4d032b4
         note:
           E13: d4119ab8-3b82-4ff8-bb25-527426c87586
+      gallica:
+        E13: 2fa7e38e-ceb6-4bee-ad36-ea549c836c67
+      lien externe:
+        E13: bfc82119-a12f-4590-9546-e58e1f6fdcc3
   1681-08_260:
     E22:
       uuid: 5ee90f8a-5564-4df0-b6ab-3e60427eb5ef
@@ -4255,6 +4417,8 @@ collection:
         uuid: 58f129e9-f842-492e-9e00-e624f472dde1
         note:
           E13: e77f00ad-8c18-4f8f-be45-08dfe06005eb
+      gallica:
+        E13: 96ccaa7e-8392-48c8-ab9a-1002789cf4b2
   1681-09_058:
     E22:
       uuid: 46f94bd1-b46f-4b92-afe8-4d92634de76d
@@ -4279,6 +4443,8 @@ collection:
         uuid: 05af107f-06e2-407f-abaa-4a1bce5eea06
         note:
           E13: 445b99dd-11fe-4e5a-ada9-7e4892be6638
+      gallica:
+        E13: fb8f5c6d-67a8-4ae3-bedc-604dd338a2ce
   '1681-09_311 ':
     E22:
       uuid: 77105ba1-d78d-439e-a611-05cedca8d20c
@@ -4411,6 +4577,8 @@ collection:
         uuid: 40f8d37c-2669-45eb-b985-e6e84bc28c93
         note:
           E13: 556a0f07-5478-4f96-878e-f1a83cacdfd1
+      gallica:
+        E13: e11150f2-b81b-4205-9653-4e6a19e3f263
   1681-11_324:
     E22:
       uuid: c9bd5a96-a71f-4154-a32e-abdc8e86cbc8
@@ -4433,6 +4601,8 @@ collection:
         uuid: 95789917-9952-437e-9014-c7606dbb472f
         note:
           E13: 4a21843f-63a1-4124-b59e-5110decf6e1b
+      gallica:
+        E13: cd735322-610c-4902-86af-557e4747071e
   1681-12_042:
     E22:
       uuid: 4f84f62c-776c-4c10-a971-46d839f5af21
@@ -4455,6 +4625,8 @@ collection:
         uuid: b2ed43c9-b88e-4a17-a975-3081c7d40226
         note:
           E13: 1745712d-a8bf-449d-b935-be4f7601f669
+      gallica:
+        E13: 34e9483f-6cbf-4b16-be50-3dc2ba071ee6
   1681-12_281:
     E22:
       uuid: a95fa80e-c80c-4f70-ac09-8c8e820b2611
@@ -4481,6 +4653,8 @@ collection:
         uuid: ff79d5c9-40a2-4c9c-ac81-c804581c3a9e
         note:
           E13: 6dd371a6-3e8d-4ae6-9450-692bf172800f
+      lien externe:
+        E13: 642f19a1-2877-4ad7-a904-627a4f53b725
   1681-12e_155:
     E22:
       uuid: f0750221-9fa2-4c6b-84c6-71855871d22f
@@ -4593,6 +4767,8 @@ collection:
         uuid: f86eae44-094d-494a-a2e6-b41b5db8cf5b
         note:
           E13: 6c6f13de-f21f-437f-b82e-dd1759fa53bd
+      gallica:
+        E13: 174aacab-3597-4edf-a3c5-55a109ed68b8
   1682-02_323:
     E22:
       uuid: c26b949e-2796-40bd-b006-d023ef373845
@@ -4622,6 +4798,10 @@ collection:
         uuid: 86d0b067-556d-4bc4-9d0d-1ddbf47937ed
         note:
           E13: d4c8ce81-e855-471b-af45-83035f894a01
+      gallica:
+        E13: 52465b70-3022-4dea-9ce4-90989c4d05a9
+      lien externe:
+        E13: c53ac7f6-7392-4c09-a07e-f42a3b3bb747
   1682-03_080:
     E22:
       uuid: 975ca928-2937-4366-b9fb-2f44fd18e90c
@@ -4646,6 +4826,8 @@ collection:
         uuid: 06d33e95-0d19-40c5-823a-09a04838a3e4
         note:
           E13: 4ad4f013-454d-4b93-a35b-225bd42816ff
+      gallica:
+        E13: e58f5989-6623-4fed-9bfb-0810d9f2e204
   1682-03_266:
     E22:
       uuid: 6a9d54c4-8d01-4d32-b24a-1cbd00623a32
@@ -4668,6 +4850,8 @@ collection:
         uuid: b8949a31-2745-4798-9961-0e906a1105c9
         note:
           E13: 60e88349-b9e1-4349-b767-cb80d644f8a0
+      gallica:
+        E13: c78c688d-976b-40ae-9af3-6c8b41be654b
   '1682-03e_142 ':
     E22:
       uuid: 73f4492b-8d3d-4b5b-91be-3ee2a5e28afb
@@ -4735,6 +4919,8 @@ collection:
         uuid: 05fb679d-787f-4f87-9324-d85ce599bf23
         note:
           E13: dfa8b66b-e352-4b15-a833-bdbf3f68e7bc
+      gallica:
+        E13: 99a0e0cc-7e6f-4bfb-a356-933f3cd71f3b
   1682-05_016:
     E22:
       uuid: 5059bc93-7bb4-4f0d-8a48-ff3dcaf482ef
@@ -4799,6 +4985,8 @@ collection:
         uuid: ad94dee6-bff1-456f-aa50-8117fd144836
         note:
           E13: 7a470581-2c3f-47ae-b03c-8638ce4a90ac
+      gallica:
+        E13: 3db423b8-6554-4d5e-92ad-a8016614bed8
   1682-06_294:
     E22:
       uuid: 1ddd23f1-2b4c-4f0d-91ef-eb9d7cbcc090
@@ -4820,6 +5008,8 @@ collection:
         uuid: 2b5420d3-71d6-409e-a038-743d393b12e2
         note:
           E13: 5b07803d-e2b0-43b7-adef-97657a326647
+      gallica:
+        E13: 49ee3cd5-e329-43eb-8e17-3eccfcd9af83
   1682-06e_148:
     E22:
       uuid: d6cb23a9-bd31-4bed-8337-a8d47be0e8b8
@@ -4888,6 +5078,8 @@ collection:
         uuid: f8ae606c-ee7f-4980-823e-03ec8bae0de8
         note:
           E13: d4e3d882-fda6-4aea-b51e-d3947a2e9620
+      gallica:
+        E13: 70a1b2c9-89de-43dd-adf0-f934c0710e58
   1682-07_361:
     E22:
       uuid: 9c73b69c-5b78-4d9a-882e-4447183c8384
@@ -4910,6 +5102,8 @@ collection:
         uuid: a1142a41-7861-422e-92aa-55b19eca7fdb
         note:
           E13: 602fb526-a5df-4e20-94fe-9b88bc0a88b1
+      gallica:
+        E13: a2ef04b2-2d9f-4b39-950c-87ebd03aece1
   1682-08_097:
     E22:
       uuid: 178313d1-7a14-458c-9a42-7149c6a4eddd
@@ -4935,6 +5129,8 @@ collection:
         uuid: b5e57363-21e1-421c-bcfe-fc484ffeadf4
         note:
           E13: b694eb4f-9e81-4312-9588-b8f9a95291c5
+      gallica:
+        E13: d86221aa-d76c-40a4-857c-1170a806b591
   1682-08_137:
     E22:
       uuid: 945b9c44-5500-40d4-b41e-496a6443912a
@@ -4956,6 +5152,8 @@ collection:
         uuid: 86ea58db-4036-44d8-b0d6-08839182477d
         note:
           E13: 9838517d-5a2c-4ddc-a1ca-928b84317d63
+      gallica:
+        E13: 3a7be2d7-b207-4210-b711-18d385850d65
   '1682-09a_109 ':
     E22:
       uuid: 654879b5-6558-4336-a1b8-d0056f408670
@@ -4981,6 +5179,8 @@ collection:
         uuid: 509fecc7-367e-40f0-b7c4-19c31b3a6f05
         note:
           E13: 0e7f33a9-95f1-4c3b-aad0-bda69330bad6
+      gallica:
+        E13: b3720957-f57b-4de2-aff8-f40c804c93ce
   1682-09b_250:
     E22:
       uuid: e603e546-ace0-490f-b1b4-e440f4f4d012
@@ -5002,6 +5202,8 @@ collection:
         uuid: c25d029a-1a8b-41fc-a000-1aa272613e48
         note:
           E13: aa9fc248-d223-4943-9117-fff14e11d3f7
+      gallica:
+        E13: baf45ebd-30bf-43c9-959d-244dad5e659b
   1682-09b_359:
     E22:
       uuid: de579a61-6293-4792-b79b-c3a237eb879e
@@ -5023,6 +5225,8 @@ collection:
         uuid: fe23753b-93d8-4067-973b-1a0fcf465a88
         note:
           E13: 4336a095-0646-481a-a749-cac9fbc9baf1
+      gallica:
+        E13: fc157b88-b5d4-4d09-80e8-29f2843b5178
   1682-09e_151:
     E22:
       uuid: 7c40e26c-459e-4389-960a-1b4a48a25fa7
@@ -5084,6 +5288,8 @@ collection:
         uuid: d408b8f0-4901-4f74-b35a-1f561d0e4e01
         note:
           E13: 473b2bb2-ff2b-42fd-95d2-f0b021729fd4
+      gallica:
+        E13: 5f257699-7ee1-4a5a-8ef3-8e4c3d6eec9c
   1682-10b_170:
     E22:
       uuid: cc765303-241a-4069-ac20-ba130a5c213f
@@ -5151,6 +5357,8 @@ collection:
         uuid: c577d285-94fc-4d1e-aa90-9a8eaf8f0482
         note:
           E13: 9e02c34c-030d-49f9-a8bc-0b581601de9f
+      gallica:
+        E13: 6a3dd4df-184e-46ba-b783-1dfbcbf6e891
   1682-11_284:
     E22:
       uuid: 9a067e31-16b8-4910-a9f9-c4409b2539b3
@@ -5172,6 +5380,8 @@ collection:
         uuid: da096950-3e70-4044-b6d3-7274a159ca24
         note:
           E13: ac5c03b2-6cd8-423b-918e-8a6623578fe1
+      lien externe:
+        E13: c4d22b1c-7b15-4a67-bdbd-0f58776fe942
   1682-12_190:
     E22:
       uuid: f6475897-cc13-4f59-b112-06686219cdc0
@@ -5193,6 +5403,8 @@ collection:
         uuid: e7ad0faa-abaf-49af-845b-e042f7252434
         note:
           E13: 8207059b-05ca-4752-a2d3-bb1f27f35f8c
+      gallica:
+        E13: 91c3bb22-0a5c-42c8-a55a-4d1992859989
   1682-12_210:
     E22:
       uuid: abe38a15-c5a9-4d8a-af23-5cbcf948a101
@@ -5214,6 +5426,8 @@ collection:
         uuid: f9a4bb1a-e849-4599-a225-7eee3f098989
         note:
           E13: 001f69ae-b089-4b0c-8029-011f3e0c4db7
+      gallica:
+        E13: 35eb98aa-637c-4d97-843d-ab9acc55e22b
   1682-12e_330:
     E22:
       uuid: ed9ead66-a33a-418b-8c11-744d425923c1
@@ -5240,6 +5454,8 @@ collection:
         uuid: 2b51d1ae-b1c7-4501-9bb7-13160cea8633
         note:
           E13: e6cd4032-8daa-4d39-b532-e66fc8d086f8
+      lien externe:
+        E13: 3b1cf245-0d85-47b3-a739-bc215282c503
   1683_09e_208:
     E22:
       uuid: 16887c79-c537-473d-a87d-406de43a88bd
@@ -5286,6 +5502,8 @@ collection:
         uuid: e02d1d82-1555-465d-a3ed-c349b87840a6
         note:
           E13: 7f936494-ebcc-4cb6-acb4-c81b062128dd
+      gallica:
+        E13: 5bafa1cc-494c-4278-9bbb-667acb0b4110
   1683-02_163:
     E22:
       uuid: 347efc7d-2858-4ab7-a3c8-6e21b9173f18
@@ -5311,6 +5529,8 @@ collection:
         uuid: 85856371-b664-4de2-ae77-0ee2734c5c28
         note:
           E13: da2823f4-9c91-459c-883f-61fb2fa5c3d4
+      gallica:
+        E13: 50e6b273-d10e-42d8-a7e9-df8ddc81fd85
   1683-02_227:
     E22:
       uuid: 9d7b522e-8743-4978-928c-cf990bcfb9eb
@@ -5332,6 +5552,8 @@ collection:
         uuid: 064ac1f0-ccd8-4613-aa53-f978e97ec51c
         note:
           E13: adf2b394-0ec3-4f6f-ab17-39ab8aeeb626
+      gallica:
+        E13: 37f3781d-c5e8-44b6-a63c-4696f363245d
   1683-03_164:
     E22:
       uuid: 83d2e04d-a58e-4409-9b07-13f87a84931e
@@ -5354,6 +5576,8 @@ collection:
         uuid: ea4a545a-ac67-46b5-a01b-0f73571ba437
         note:
           E13: 58f88b10-e11e-41ea-903a-ce9ceaeb43c4
+      gallica:
+        E13: 315dafcb-6cb6-46f8-a030-2f807016bad7
   1683-03_323:
     E22:
       uuid: b091f725-67b4-49f1-b5d3-09d3b111e1e1
@@ -5379,6 +5603,8 @@ collection:
         uuid: 141dced8-7699-4aaa-9449-127d1ac50572
         note:
           E13: d7446001-65a7-45d7-b2e1-939022d37732
+      gallica:
+        E13: 7251e0b9-9c29-49cd-879c-a6f6e47ec7ec
   1683-03e_121:
     E22:
       uuid: 7b92e8ac-5a4a-4892-99c8-458ed3bbf0d6
@@ -5453,6 +5679,8 @@ collection:
         uuid: 9e853078-9e3c-4bb3-916e-e4536482eeec
         note:
           E13: c24c4694-43d2-4a9b-b6a1-4d4636d8edfb
+      gallica:
+        E13: d18fa83d-5bcf-43a2-b067-b506066be195
   1683-05_044:
     E22:
       uuid: 67b46a66-82eb-4f28-acd7-d125c2fdb0df
@@ -5479,6 +5707,8 @@ collection:
         uuid: 57f58c37-2a51-4435-ad39-9b41cb2e2627
         note:
           E13: 633ec7ea-bc97-46d5-884c-14df0cf168c6
+      gallica:
+        E13: 8bdce843-862b-45de-94ef-0e1f2355b9fb
   1683-06_181:
     E22:
       uuid: b63e1d7b-de53-4215-9add-85841af891f3
@@ -5503,6 +5733,8 @@ collection:
         uuid: e5fe2c53-862a-4676-a1cf-c4c70ba82fe8
         note:
           E13: dfea1325-9d10-4ebc-a369-31cbdab87f53
+      gallica:
+        E13: d0031d6b-dab9-4b05-87ef-54e47a778ce6
   1683-06_299:
     E22:
       uuid: 7dfe7e23-b571-4b09-9d27-66d6851fa6b1
@@ -5520,6 +5752,8 @@ collection:
         uuid: a1db9441-0362-462b-a025-c1aa4320c3ac
         note:
           E13: f694e200-0090-4724-841b-774f53780ea5
+      gallica:
+        E13: c6f63f51-ca91-4e54-a132-96db41a64b74
   1683-06e_227:
     E22:
       uuid: 294fa7a5-2f7a-4e61-a1cf-f99a7eaba3f8
@@ -5633,6 +5867,10 @@ collection:
         uuid: 77d50765-4204-414a-878b-c3ccfc05e18d
         note:
           E13: 34f45282-c5ff-4e9e-bfb5-32293d138013
+      gallica:
+        E13: 76eae63d-6c92-41a4-8fb3-98c27c8635f2
+      lien externe:
+        E13: 9e534126-9b95-4214-ace5-e8329f7be75b
   1683-09_198:
     E22:
       uuid: d82b1d3f-fbfe-4e89-8445-9c9961b44196
@@ -5654,6 +5892,8 @@ collection:
         uuid: cbb0504a-7866-468d-b1ed-dfad204f530c
         note:
           E13: 85161e85-4bc8-49be-a2a6-f88d6224567d
+      gallica:
+        E13: 7d01c361-7a5e-4f44-84c0-35c2aee56d6d
   1683-09_286:
     E22:
       uuid: bb9e77ea-d9b3-4b99-b5be-f4642534ebad
@@ -5697,6 +5937,8 @@ collection:
         uuid: fc1c3db1-59a2-483a-b923-00f7bcde3f30
         note:
           E13: 0ecb035d-a542-4d7f-be5f-63aa9afef878
+      gallica:
+        E13: 62d11e60-73e8-461a-9997-27c752b44a99
   1683-10a_052:
     E22:
       uuid: e0657cd8-b7a4-456f-b2f5-0ee5ff6c6964
@@ -5718,6 +5960,8 @@ collection:
         uuid: 6b8ca3a7-4ca0-4207-8e75-040f5baa624b
         note:
           E13: 4aefdc9b-270f-4195-a1bf-a545a8702ff3
+      gallica:
+        E13: 99db1b0d-9b0c-4ee5-b3a0-9d8dcce8bee6
   1683-10a_161:
     E22:
       uuid: 490d8c70-5455-4d6a-a4d0-a33858c89176
@@ -5739,6 +5983,8 @@ collection:
         uuid: 29583488-a687-445c-b1db-3ffaa4c88492
         note:
           E13: 05d6d2a8-b7ee-4603-bf5a-6d15bb5d4228
+      gallica:
+        E13: 3d03130d-c449-4af2-9fd5-e56567854ee2
   1683-10b_001:
     E22:
       uuid: a3db917b-71fa-4731-8939-ea44b3d23438
@@ -5810,6 +6056,8 @@ collection:
         uuid: 5dd42308-55ea-43e6-9978-e01bbe156172
         note:
           E13: 9efe23a0-b34a-4f13-a6df-83ace77ebdc4
+      gallica:
+        E13: 5656ed99-31bb-4953-afe1-50bc884c1b0a
   1683-11_227:
     E22:
       uuid: 4437900b-4bce-481f-aba2-a5349361dd21
@@ -5832,6 +6080,8 @@ collection:
         uuid: 2c2d6266-6b89-4d45-945a-13acee663920
         note:
           E13: dbd2ecac-93d8-451a-9ff2-d5d4d3fd41ef
+      gallica:
+        E13: c0e2d49c-856b-4ca2-9ef9-e090e09542ca
   1683-12_075:
     E22:
       uuid: 069af5b7-9ebc-4c72-b1d6-76c4c874dca9
@@ -5853,6 +6103,8 @@ collection:
         uuid: 68b29f2f-8e61-409a-8c6c-ba4716e671df
         note:
           E13: 1ff25ea0-15e9-4e89-9bc6-57d01c732b7d
+      gallica:
+        E13: 714269c5-f042-4f6d-8786-3442673f6710
   1683-12_264:
     E22:
       uuid: 1ae36e70-8cc8-49a0-abe1-cb4f48cc3570
@@ -5874,6 +6126,8 @@ collection:
         uuid: 7dbd2a9e-d67e-4cd8-8a4c-4adf99eff0a9
         note:
           E13: abfd1a92-6927-4e02-a800-32940615061a
+      gallica:
+        E13: 2fc0efb1-aa45-4f61-847d-ba698f5ad0f8
   1683-12e-166:
     E22:
       uuid: 5a7183f5-e235-41f7-b8f0-59477aa23c47
@@ -5928,6 +6182,8 @@ collection:
         uuid: 6e9ccd80-325a-4ad9-99a2-5ba2821332fd
         note:
           E13: e69dbd7d-f08f-43d8-93d4-70b665636bc2
+      gallica:
+        E13: eeb75efe-362a-448a-aa53-0ce0efdc8ea9
   1684-01_312:
     E22:
       uuid: 800fd17c-d0a6-4481-8056-b5b371e0ddcf
@@ -5949,6 +6205,8 @@ collection:
         uuid: 9bcb4412-923f-4f61-923d-66ba96481882
         note:
           E13: 3d0a3350-6f8d-45fe-90c7-e0e8b19dfa40
+      gallica:
+        E13: 4a17eb92-d864-403f-95de-0118b08c5c74
   1684-02_362:
     E22:
       uuid: 6a27dcdf-5986-4a9e-baf5-c4fe46561abe
@@ -6050,6 +6308,8 @@ collection:
         uuid: 77d1a6c2-0161-436f-9f63-bc0220faa0f5
         note:
           E13: 37d3c3ea-7522-464e-b162-0ae3505c2de8
+      gallica:
+        E13: a1d629ae-3d40-4ca3-baff-b8c72928a9d2
   1684-05_374:
     E22:
       uuid: 4199c0c8-e228-4003-9535-71c3361097a4
@@ -6072,6 +6332,8 @@ collection:
         uuid: c87c9a0b-5218-4c86-ae1f-83a13cc3c651
         note:
           E13: 93a9070d-0768-483c-a869-0fff93d8f99c
+      gallica:
+        E13: 532347f5-0df2-4257-8454-cf4f6daa9baf
   1684-06_140:
     E22:
       uuid: 1f0c0327-dce4-46f6-86ee-d82b6f56242f
@@ -6093,6 +6355,8 @@ collection:
         uuid: 7d46decb-0784-4955-a24b-98ebd15e9327
         note:
           E13: 53f1d7d7-85db-4c1e-ad66-ae8a857d52b7
+      gallica:
+        E13: 00ca99cd-c0ee-472b-9230-99549fcc6753
   1684-06b_385:
     E22:
       uuid: 8d471f4a-d48f-44f3-b8cc-88c3c2cbc62f
@@ -6233,6 +6497,8 @@ collection:
         uuid: 225ecb22-0dfe-4548-886b-4f89222031fc
         note:
           E13: e6a0f893-c2d2-4717-bf1c-347139faf1a9
+      gallica:
+        E13: e5b38577-a221-4dd0-a87f-957d8d6fd8ce
   1684-09_197:
     E22:
       uuid: f2113caf-5e22-406a-b37e-1a78f2a998a1
@@ -6254,6 +6520,8 @@ collection:
         uuid: 8bea0f55-afad-40e6-9a2c-11ffec24f988
         note:
           E13: 9aed3c2b-40a4-4597-aa43-460e15f00424
+      gallica:
+        E13: 1c98b763-a758-42db-ab9a-02e7139308a2
   1684-10_128:
     E22:
       uuid: 58c1a4ce-3f6a-4706-8eda-0f17a7ead1c2
@@ -6276,6 +6544,8 @@ collection:
         uuid: b9f149be-a395-4d90-a099-2084ddefa59c
         note:
           E13: ca222385-0ccf-4731-9b05-a480252883eb
+      gallica:
+        E13: cf839361-0f70-4881-88e2-8824f6f0584c
   1684-11_266:
     E22:
       uuid: cd2a0f4d-ee7e-406f-977c-deeefc91619f
@@ -6407,6 +6677,8 @@ collection:
         uuid: 14e913f0-67e3-4610-bd9c-d4744d4004a4
         note:
           E13: 82681554-ef2f-4bca-8c9a-15256a1734c1
+      gallica:
+        E13: c3b9db9a-02cf-48f4-af3a-4fa2c53f7b2e
   1685-03e_147:
     E22:
       uuid: c67a75bd-b0b1-405e-9ff3-6a2dd1aec373
@@ -6450,6 +6722,8 @@ collection:
         uuid: d591920e-c314-4f2a-a1dd-c15edfd624ea
         note:
           E13: 56d3fdc4-95a0-426e-a5cc-39f94100b311
+      gallica:
+        E13: 559918e8-4cd9-4512-ac41-47b2ee65d588
   1685-05_196:
     E22:
       uuid: f30c4795-24bb-45b6-b321-b799731abb39
@@ -6478,6 +6752,10 @@ collection:
         uuid: 20ae2599-f0ce-4d71-94ed-ecbd6e6e52c5
         note:
           E13: af2b6676-7ab8-4d3d-ab63-df7d79c68c2e
+      gallica:
+        E13: 11a7a35f-ac15-4aae-bdb8-2eedb1ab6955
+      lien externe:
+        E13: 03bbe89d-ca56-4b8b-9e49-b7432ceb1a80
   1685-06_254:
     E22:
       uuid: 6e049698-5a31-4d21-92a8-9143e4cc8929
@@ -6502,6 +6780,8 @@ collection:
         uuid: 01ef2446-dc45-45e3-bcd5-e5505cb36018
         note:
           E13: 3bed4df3-188a-4850-b92b-36e7becfb5ef
+      gallica:
+        E13: 569de78e-ff77-4dca-aca0-dec68c8ba88b
   1685-06e_180:
     E22:
       uuid: ceca3ef5-3bef-4934-9a2e-627847222ef3
@@ -6540,6 +6820,8 @@ collection:
         uuid: 27223bb2-309e-41c3-9900-d7b0161cfd6f
         note:
           E13: 97eb1e16-c9b1-4322-829d-81835aba43fc
+      gallica:
+        E13: 707b7b8f-5d5f-4b8e-a063-75034bab9d59
   1685-08_290:
     E22:
       uuid: f865c286-c915-4672-a3ef-518345deadfe
@@ -6584,6 +6866,8 @@ collection:
         uuid: 022c4e81-3ccd-4769-939c-683be20fa6d5
         note:
           E13: edfcb1bd-334b-45d7-9511-f52adc98ec70
+      gallica:
+        E13: b25d0db9-6951-473d-b09c-eb552d62dd75
   1685-09_314:
     E22:
       uuid: f105faec-55c5-4f81-a563-6cbc8239eabc
@@ -6605,6 +6889,8 @@ collection:
         uuid: c9788238-9423-4607-80f0-77699016ca4d
         note:
           E13: b1a4aa7c-acf1-469e-9282-1b76f54686e1
+      gallica:
+        E13: 7174c9fb-e818-4a33-bb7b-0ee82dd396b9
   1685-09e_280:
     E22:
       uuid: 2bd93845-e061-4b25-a6f0-8302f67dec34
@@ -6646,6 +6932,8 @@ collection:
         uuid: c5e7d4bb-64cd-44fb-836d-1763833a6793
         note:
           E13: d0c7d84b-651c-4fcf-97e9-04365b81770d
+      gallica:
+        E13: 8a88faa0-d61a-4f59-bea2-cb388582a63e
   1685-11_089:
     E22:
       uuid: 22405488-de95-4515-a20f-04e50d607481
@@ -6668,6 +6956,8 @@ collection:
         uuid: c1126bb1-001c-46b5-b18b-95c218f5e7e0
         note:
           E13: 00f37e1e-fa5e-40af-bd2e-ba79e756a501
+      gallica:
+        E13: 992397e5-d56d-4c1c-bcd3-9f22394c919d
   1685-12_278:
     E22:
       uuid: a274cbde-85e3-4130-866b-140d316983a5
@@ -6689,6 +6979,8 @@ collection:
         uuid: 6e89e942-206f-4c4d-bc46-db117ba9dac4
         note:
           E13: 97fe4b89-4759-49ec-b7f2-9e4244bcdc29
+      gallica:
+        E13: a61f99fb-627c-4197-859e-a45ad3ba4ae0
   1686-01_269:
     E22:
       uuid: 2501f52c-ecd4-44da-b1c5-f9001598e86b
@@ -6776,6 +7068,8 @@ collection:
         uuid: 90395589-04c9-4f61-9594-81d9742c1472
         note:
           E13: 2ffbe9ef-7e6c-4001-b260-41177fcc3535
+      gallica:
+        E13: 1005b27f-dc7d-4e72-b767-837d4aae372b
   1686-03_201:
     E22:
       uuid: 0b357e65-fd34-457b-ab7f-0976742d289b
@@ -6800,6 +7094,8 @@ collection:
         uuid: dd890913-6bf0-4eef-a6a3-c3ff5858f2d8
         note:
           E13: 39270dc5-eee1-40d0-8511-914661145ab9
+      gallica:
+        E13: f8927e35-ff1c-4a9e-9a1b-e8ecfce4751c
   1686-04_259:
     E22:
       uuid: 5a063c95-4d26-401f-a044-2032d064e747
@@ -6824,6 +7120,8 @@ collection:
         uuid: a0b7f062-f7a4-4c37-a713-f242a92864ba
         note:
           E13: f128878d-5c82-4b2f-951a-a6d6e87480f3
+      gallica:
+        E13: 95445acb-ad60-47d3-9727-323db764e8f8
   1686-05_242:
     E22:
       uuid: 52f0df7f-d8c5-4e75-8074-bf28a37d9fd1
@@ -6852,6 +7150,10 @@ collection:
         uuid: 68975fec-7e29-4da0-b60e-b10670347ba7
         note:
           E13: 461a8c6f-b034-45d0-8baf-ef34dd5bd0ab
+      gallica:
+        E13: fc8cd7eb-72c0-493a-927e-ca6313ce3503
+      lien externe:
+        E13: 5512f0f5-480a-4ac8-99be-d971f5103b89
   1686-06_078:
     E22:
       uuid: fadc52b1-5fa1-49f8-94ee-3be05b662aa8
@@ -6873,6 +7175,8 @@ collection:
         uuid: 039e09cd-0891-493e-8512-fabaf5acdfcd
         note:
           E13: 3eb0318e-53f1-46c9-ab39-edb980edd3fa
+      gallica:
+        E13: 33d3e7ea-b640-4a7c-8e03-1993caa92e83
   1686-07a_310:
     E22:
       uuid: 252e446e-2f54-4ccd-a12f-e63eaf451365
@@ -6894,6 +7198,8 @@ collection:
         uuid: 45f418c6-9941-4c9b-bbe4-349a93fc4121
         note:
           E13: 52f3f271-d65c-4352-ae15-ee5af5e13b4a
+      gallica:
+        E13: 3f3ff918-56bf-48bf-87cb-4240a1be5fbf
   1686-08_320:
     E22:
       uuid: 96a2c32d-b5e8-4258-89eb-6ef6f7c8f111
@@ -6966,6 +7272,8 @@ collection:
         uuid: cbf63d15-76bd-4d46-b6e1-2679c42ab613
         note:
           E13: a0f93d80-53e1-40c5-bbce-7ce6ad6fcbca
+      gallica:
+        E13: 45fe5af7-cde2-49c6-b194-07bca43c5984
   1686-10a_286:
     E22:
       uuid: cc0d945c-6c3b-4a8f-9779-65f82e058180
@@ -6987,6 +7295,8 @@ collection:
         uuid: 21702d68-e853-41e0-92a6-b467e711a9c0
         note:
           E13: 415e8268-592a-4964-bf6c-d508bb58f668
+      gallica:
+        E13: c34e0906-7fc6-475c-92c6-7ab16498711d
   1686-11a_167:
     E22:
       uuid: 55e1e80a-582d-4154-b4a2-5e42855fce71
@@ -7013,6 +7323,8 @@ collection:
         uuid: af371fb0-d1f0-4cd0-8f0c-ea61eab85b74
         note:
           E13: 17b353fe-ba9d-49a3-af77-d5522c02be48
+      gallica:
+        E13: 158bfdcc-8e38-47e4-99c3-3e2b4cf2ac17
   1686-12b_324:
     E22:
       uuid: 5aae529d-3c61-4121-a0e5-a03232b68832
@@ -7037,6 +7349,8 @@ collection:
         uuid: dc2f290c-8bf0-4c16-ae8f-5edbb7290259
         note:
           E13: 2048ebd1-2a8b-4ba6-af0c-37293142c607
+      gallica:
+        E13: ba68ff0a-4b78-4b39-8f38-e8c520d31181
   1686-12a_211:
     E22:
       uuid: 14d86a86-5106-4e69-bbec-fe6f671ab0ef
@@ -7074,6 +7388,8 @@ collection:
         uuid: 12b70d74-ea5a-4537-a0a5-47675109224d
         note:
           E13: 8640cfe2-f619-4f39-9f1e-0697c96b459b
+      gallica:
+        E13: 37b7ec7f-db0c-4ee5-bdec-d321da5d6246
   1686-12b_225:
     E22:
       uuid: 03ef5bfa-5186-423e-bd1b-c4b7e1d1b8f3
@@ -7113,6 +7429,8 @@ collection:
         uuid: 5c6dfaef-367b-4931-b7c1-a13e5a50972e
         note:
           E13: 476594d5-fa96-4e39-8937-cf1c16ec2593
+      gallica:
+        E13: 8515f91d-e4dd-4dda-85fa-4957891919b0
   1687-02_053:
     E22:
       uuid: edeb2007-b090-49f7-a410-90c5251c92bc
@@ -7200,6 +7518,8 @@ collection:
         uuid: abdbb662-9d25-4ab0-8f04-93d07141b14c
         note:
           E13: f7660e18-b148-47fa-a31e-8a6c45bef1de
+      gallica:
+        E13: d1532bf9-c470-47df-8b5b-ba3d1f2f6ff8
   1687-05_254:
     E22:
       uuid: 69a50219-3669-4f3a-956e-fdd3f0a020df
@@ -7221,6 +7541,8 @@ collection:
         uuid: f062bc4e-47b6-48be-92e5-80821af6a7d4
         note:
           E13: 5e6cd627-d351-42ef-b866-17722e4926fc
+      gallica:
+        E13: bfa6489f-7dd8-4cdb-8672-960a2cab09f8
   1687-06a_106:
     E22:
       uuid: 6fdb1747-4c59-4755-ad57-eebd1a1d25a5
@@ -7242,6 +7564,8 @@ collection:
         uuid: 223619fc-9a79-43ce-82e8-ab0e8773db9e
         note:
           E13: 5e82fe1d-f771-42f1-8fe7-baeda411d414
+      gallica:
+        E13: 43d03e5f-5e0a-47f5-a15d-0e66229f63a1
   1687-06b_191:
     E22:
       uuid: f854b093-8558-4a98-a017-bb1bfb1a94cb
@@ -7270,6 +7594,8 @@ collection:
         uuid: 9c056fb4-f3f7-4004-a30c-652bacc90efe
         note:
           E13: 30a5cb63-2f37-4188-8ed8-02342c0f49da
+      gallica:
+        E13: bfacaf1e-7a64-4ca0-93e4-f27e279942ce
   1687-07_159:
     E22:
       uuid: 4d03eeb7-cbb9-46e8-a0f6-4b08b6fa5cfc
@@ -7294,6 +7620,8 @@ collection:
         uuid: 46b0e595-7152-4d1f-a3b2-987be3b52c91
         note:
           E13: 173db154-6184-4898-b053-07fc002220bb
+      gallica:
+        E13: 85cf1df4-05cc-444f-aa97-30718c005201
   1687-08a_159:
     E22:
       uuid: 911e7195-aaf4-4d07-a2b3-ee801c4e898d
@@ -7322,6 +7650,8 @@ collection:
         uuid: 79ef4a43-7d75-4665-956c-9e10e1c908e4
         note:
           E13: 2ebe3ee9-bf46-42ed-9942-13a907275865
+      gallica:
+        E13: dfc5d7c0-b848-4881-8250-fddb5ed74ced
   1687-09_269:
     E22:
       uuid: 6d5ae167-7251-43b0-ab7e-2553816e49f5
@@ -7519,6 +7849,8 @@ collection:
         uuid: 5af5bb47-b9e5-40ee-b082-53782290fa57
         note:
           E13: 32ccf46f-1e7d-4d1a-93ad-593906d12c41
+      gallica:
+        E13: 6bc62c6e-6d69-4129-a5e2-a619c98fa802
   1688-04a_170:
     E22:
       uuid: d52e6940-4be8-4f64-a052-8e224e2b7d9d
@@ -7635,6 +7967,8 @@ collection:
         uuid: 095b347e-9559-45d0-ab0b-04f5940b4b58
         note:
           E13: fbc5f98f-0dcf-434f-ab25-3a4a1a45cf9f
+      gallica:
+        E13: 5c7ac7cd-1c4d-410c-b011-ee9a3b9a04c7
   1688-08_246:
     E22:
       uuid: 68788a0b-25cf-4a25-857d-ae3968b7a8fe
@@ -7656,6 +7990,8 @@ collection:
         uuid: 09421e26-9c96-4d55-ba83-8a8feecf700f
         note:
           E13: 2ad589c2-4ac4-4b2a-b948-103bcac47053
+      gallica:
+        E13: 1739f9cc-f8da-4449-b8eb-6746adabc474
   1688-09a_246:
     E22:
       uuid: 4a04c622-71c1-49c8-87b5-03cd35bb8f7e
@@ -7712,6 +8048,8 @@ collection:
         uuid: 558fa80d-9a97-4d58-b473-f016838483fb
         note:
           E13: 6b4854e3-303c-4402-91ff-0639bbb4db58
+      gallica:
+        E13: 0a8d6868-c44c-43aa-9532-dac8abeaf2f2
   1688-11a_283:
     E22:
       uuid: b77600ff-c59c-4b39-ac90-00ebd617c743
@@ -7740,6 +8078,8 @@ collection:
         uuid: 03a7c2a9-546c-4015-bf09-e242fd3df4dc
         note:
           E13: 51dd4f59-088c-4665-a408-74c58e47c666
+      gallica:
+        E13: 15ed67f4-e2be-4e4b-98d5-e8580fb1a690
   1688-12a_229:
     E22:
       uuid: 92933c8d-4865-433e-bfb6-506cfae9c927
@@ -7766,6 +8106,8 @@ collection:
         uuid: d938c8aa-7af6-47da-9647-b0097b96d4be
         note:
           E13: c0daa351-10a9-459a-bd29-acdee2c170a1
+      gallica:
+        E13: da77414a-f042-40a0-bf6c-b56e529e52b6
   1689-01 _215:
     E22:
       uuid: 86bd1660-17b1-4cff-91dc-4c3cde27b885
@@ -7794,6 +8136,8 @@ collection:
         uuid: c35be3b5-1963-4b2e-9918-9862275fb8ce
         note:
           E13: 2ccd4692-62bd-42f5-a7ad-6ee3e47ac758
+      gallica:
+        E13: 2188239f-c3ae-42ca-a612-b99d51bac3c9
   1689-02a_125:
     E22:
       uuid: bb61e80c-c1f6-48e5-84f9-8cdb3f9d7fac
@@ -7820,6 +8164,8 @@ collection:
         uuid: 50314991-3c53-4f1b-ac5b-3c04146a780f
         note:
           E13: 15a8dce8-1cec-485b-96cc-56551e3dff15
+      gallica:
+        E13: 6add8689-1618-4567-a04f-e25f5b32817b
   1689-03_190:
     E22:
       uuid: d3c08781-6655-4cfa-9d1b-182a35051558
@@ -7845,6 +8191,8 @@ collection:
         uuid: 00e4f13e-f3b1-4441-a1b2-f711feb48d59
         note:
           E13: b2b6af29-4f04-4cd0-b4ac-3056e1ae6f80
+      gallica:
+        E13: 89bc8a9d-3527-4d4d-945c-bd5dd013e696
   1689-04_236:
     E22:
       uuid: 7121923f-84d8-4d19-935e-660e164f4e27
@@ -7870,6 +8218,8 @@ collection:
         uuid: f2fb8825-70c6-44ff-b110-531300a5a338
         note:
           E13: e580e2c8-6544-466c-bc18-c5e18f29696e
+      gallica:
+        E13: 18ffc2ec-4e2e-4844-8d14-fa08b32abe09
   1689-05a_254:
     E22:
       uuid: 8610eec4-e3c0-488b-b321-07870576c212
@@ -7944,6 +8294,8 @@ collection:
         uuid: a274d916-af01-43e4-8ecd-91a762054d4a
         note:
           E13: 9a893101-38f0-412d-88b0-0524f2ae9a86
+      gallica:
+        E13: c632c2dc-6d67-449e-a197-e8e63f360a83
   1689-08_356:
     E22:
       uuid: d9641b35-05e3-45f9-8fe0-6811bdd09be7
@@ -7969,6 +8321,8 @@ collection:
         uuid: 1fa8c2d1-f999-4d75-a476-9a8273449803
         note:
           E13: a575d9cb-e787-4212-8a32-cae00bdb30a4
+      gallica:
+        E13: 3ff638e5-079e-4855-91a2-324043e34542
   1689-09_239:
     E22:
       uuid: 61aee6e0-5161-455b-8f7a-80007379959a
@@ -7997,6 +8351,8 @@ collection:
         uuid: 39563825-cc41-4eed-8ec4-4960914705ab
         note:
           E13: 53a2576e-b9ec-46b7-890f-a875a55aebb6
+      gallica:
+        E13: cebd9660-d1b4-4bbb-8b50-bad78257eef2
   1689-10_242:
     E22:
       uuid: b82a8ad7-2e41-45a0-8e70-10e90e6304b8
@@ -8025,6 +8381,8 @@ collection:
         uuid: abf9e7d6-c2cb-424e-b86e-f9a8e7bfe432
         note:
           E13: 91d25bef-95ef-41c6-9af0-68e5bfe187ac
+      gallica:
+        E13: 5982bc64-4bec-4fa3-b8c1-22906ef36396
   1689-11_317:
     E22:
       uuid: 00c3cca6-952c-4366-876d-ca4af72ef85c
@@ -8053,6 +8411,8 @@ collection:
         uuid: 12371b0f-9e2a-4e1d-af94-37bce2d9732b
         note:
           E13: 382b625f-a174-40af-a8df-f573924c554d
+      gallica:
+        E13: 44208d12-b9ad-4064-b1af-bee09237a36c
   1689-12_227:
     E22:
       uuid: ecb01e3e-9d66-4372-9fe2-122d1fff9a7b
@@ -8081,6 +8441,8 @@ collection:
         uuid: 099d6b7e-f207-4e29-9a8b-147f2902b7ae
         note:
           E13: f5d6542a-0465-455c-996e-d954bfc6ffbe
+      gallica:
+        E13: 6a23ba2d-a89b-40c6-b288-3b89b04867b7
   1690-01_154:
     E22:
       uuid: eb0ba617-72a7-4078-9c7f-a07d63f99c59
@@ -8109,6 +8471,8 @@ collection:
         uuid: 8d81656b-fd57-4471-86ec-9fa282441153
         note:
           E13: 07624edd-7db1-47bc-b18d-bb32d40e8850
+      gallica:
+        E13: 9c279bcc-9b12-4211-a898-d22ad9b53ab1
   1690-02_151:
     E22:
       uuid: f90e0577-8f41-41fe-a1b6-364917ee5cd6
@@ -8135,6 +8499,8 @@ collection:
         uuid: 9c7a9c85-0e5d-4c20-9a54-fcb705d616dc
         note:
           E13: 7ddb7f8a-2111-4d48-b9d9-35da7d79ffc9
+      gallica:
+        E13: b0a4cdc1-2ff5-410f-a9df-0152ed0b23cc
   1690-03_212:
     E22:
       uuid: 03d6351b-d00c-4a67-a2d9-65706973323d
@@ -8163,6 +8529,8 @@ collection:
         uuid: d0e626b6-d7ac-4f1f-a61b-148117476193
         note:
           E13: af725b77-90d8-4874-8cbe-e9e48637aeab
+      gallica:
+        E13: 41be930a-379e-4218-b3ad-7946d48d264a
   1690-04_211:
     E22:
       uuid: afe5be55-1940-4b0f-966c-7afb1a0a0556
@@ -8204,6 +8572,8 @@ collection:
         E36:
           E13: 75e9de9a-de95-4639-bb7c-689f69814b5f
         E13: bb6bb220-8376-4d0b-9237-ff153a8adfc1
+      gallica:
+        E13: bc1748a6-c0ba-410d-ba1c-400e31bd8f3a
   1690-06_142:
     E22:
       uuid: 1cf9781a-8955-4e01-a4de-67ac57f4bc29
@@ -8225,6 +8595,8 @@ collection:
         uuid: 900f9055-2364-4db9-bd23-3ca2ffd2f440
         note:
           E13: 964dd36c-23a9-497f-be2f-68f855e42e59
+      gallica:
+        E13: aa66e24a-6d60-41f1-a23c-2b624c8ea8d5
   1690-07a_320:
     E22:
       uuid: 75049ac2-4b47-4e8f-8100-488e7d5f0cf3
@@ -8283,6 +8655,10 @@ collection:
         uuid: dfd13953-3a7a-45e3-b900-7e7a7c81104d
         note:
           E13: a98458d6-14db-435d-9ea2-1ae136cdd321
+      gallica:
+        E13: 01bcb27a-d1cf-440f-b973-4b4fdc535a47
+      lien externe:
+        E13: b2dcf48e-c530-40cb-a9f2-862c847d457a
   1690-09_184:
     E22:
       uuid: cc53e1d3-822b-41b9-8201-1cac3122b4b1
@@ -8320,6 +8696,8 @@ collection:
         uuid: ffa0b59f-efc6-4092-8ccc-7d22ef70231b
         note:
           E13: 41cdc767-ed11-438d-b44a-0fb452b0e042
+      gallica:
+        E13: 6252a895-590e-4cdd-ad1b-0e36e4d8ac43
   1690-11_157:
     E22:
       uuid: f547a03e-b5bd-4d40-aff1-3d2d2da69054
@@ -8344,6 +8722,8 @@ collection:
         uuid: 0b12a5e3-c31f-4ec7-bb4b-76550fb556b8
         note:
           E13: 1b3557f5-c6e1-45fd-93d1-0a0a6a322082
+      gallica:
+        E13: c505965d-55a7-4b59-8d2e-3789b71ccffb
   1690-12_271:
     E22:
       uuid: f009f37a-8139-489a-a4ac-37ee6c8ee7c3
@@ -8372,6 +8752,8 @@ collection:
         uuid: 427dc5dd-d468-4ee0-bb94-2f9eb7425f53
         note:
           E13: 223586c6-9cc3-46a7-94c9-b9a30d64efb2
+      gallica:
+        E13: a034998a-6f15-4fa0-a870-a94d2192e9ab
   1691-01_227:
     E22:
       uuid: 1d14f333-7382-407a-975b-8dee6d0d5e3a
@@ -8396,6 +8778,8 @@ collection:
         uuid: b01fdfd2-aee7-4488-bc3f-0d1c7cf9a2b3
         note:
           E13: bdac10f4-36eb-4727-b53e-723cf500c453
+      gallica:
+        E13: 44ce9c1e-381b-4386-aa47-415aefd29bb4
   1691-02_177:
     E22:
       uuid: f6e2b387-cf5d-4e0b-af30-b1baa5bb52bc
@@ -8433,6 +8817,13 @@ collection:
         uuid: 6e96036b-5530-4c6d-aeaf-d30e5a0518c0
         note:
           E13: 9f544267-a761-4e8c-b7dc-443ccce936d2
+      gallica:
+        E13: 9501e39b-0dde-4393-a23a-22bd88301c41
+      lien externe:
+        E13: 23d37d71-d7d4-42f1-be86-f5b88b1dc60e
+      bibliographie:
+        uuid: 3d60e1fa-9d65-4a86-934f-d7df081a95a6
+        E13: 87b142a9-ed06-4676-916a-69e2a06b7098
   1691-03_131:
     E22:
       uuid: 528b6428-5e4f-44ea-bd31-a1941034836b
@@ -8459,6 +8850,8 @@ collection:
         uuid: 4e4a0654-03e7-4209-aa81-4592e5424093
         note:
           E13: e81266b0-ebf6-4c13-9914-6bc6846805bc
+      gallica:
+        E13: fb74961e-966c-49d9-84ed-e33f008e6a44
   1691-04_162:
     E22:
       uuid: 10b92bff-b473-46e0-b4ae-3993e450798b
@@ -8487,6 +8880,8 @@ collection:
         uuid: 70331211-162f-4907-8216-bbe21ab55899
         note:
           E13: 24cd9615-f728-47fd-83b1-14ab9a95b4d8
+      gallica:
+        E13: 2f488ee3-f0bc-4a8b-ba60-1850d13f94bd
   1691-05_149:
     E22:
       uuid: b814db2b-443d-4b62-bc94-b6a1afa3a9ca
@@ -8507,6 +8902,8 @@ collection:
         uuid: fd5b8417-e992-446c-9d53-3b2689cb22ce
         note:
           E13: 67e40def-c4ad-4dd5-ada1-c5f92f172430
+      gallica:
+        E13: b3c7789a-19f9-4f23-b0f6-bceafbe4b966
   1691-06_208:
     E22:
       uuid: f1ceff44-168e-4776-b2f0-8038d39a34c5
@@ -8535,6 +8932,8 @@ collection:
         uuid: be4c4d37-13f7-46d2-8a26-b4b11efce505
         note:
           E13: 81949c58-3b6a-4318-8f33-2f28417a6aa6
+      gallica:
+        E13: 2738dee1-9e71-4644-8127-cc02956589da
   1691-07_181:
     E22:
       uuid: ea50dd0d-5868-4a8b-a8bb-76ea37550231
@@ -8563,6 +8962,8 @@ collection:
         uuid: a4b25c34-0fb9-4634-9d44-6b854aa53d54
         note:
           E13: 54a2f692-918f-4d79-be05-773781538e35
+      gallica:
+        E13: 67e590f6-9341-40d8-ab23-6c11941ffc55
   1691-08_161:
     E22:
       uuid: e43d9bbd-6fbf-44a1-b1f3-7697a4a55597
@@ -8600,6 +9001,8 @@ collection:
         uuid: af08d446-3151-40b2-9eb6-17e7aa835960
         note:
           E13: f98b3ae4-1f68-4e6c-9c02-70d770123983
+      gallica:
+        E13: 13e575c7-e977-4111-8847-59b43788a277
   1691-09_155:
     E22:
       uuid: f75596ba-129e-4563-8ed8-6434c39fbd33
@@ -8624,6 +9027,8 @@ collection:
         uuid: 49a1ee02-bd8e-46fb-bccc-d594c5e51673
         note:
           E13: 7b43772c-c354-412d-9a61-a27afa7acc0d
+      gallica:
+        E13: 5ef37344-4f35-4d67-a17b-50e3372ed93b
   1691-10_161:
     E22:
       uuid: 46039921-c003-4def-9d88-9ba4b2509c11
@@ -8652,6 +9057,8 @@ collection:
         uuid: 4a2af9c9-0c69-4122-b080-152739a8bf85
         note:
           E13: a40f803d-a59b-498b-b371-18a97e1c15e5
+      gallica:
+        E13: 652b7746-0062-4930-88d0-6d1d665034d1
   1691-11_156:
     E22:
       uuid: 36a02f98-ac17-44d0-8928-5bb6b4e954f8
@@ -8680,6 +9087,8 @@ collection:
         uuid: e3e16161-4e0a-4e1f-a4e1-e3096e65955b
         note:
           E13: cbe44d8c-84ab-4c01-ac6a-62e0bf22929d
+      gallica:
+        E13: f92e217c-27c5-4e90-b672-20ab632da37e
   1691-12_242:
     E22:
       uuid: 46c73c0e-c51f-470b-8e7e-714c4ac99591
@@ -9124,6 +9533,8 @@ collection:
         uuid: 2cc4aa92-9377-464a-8870-a5fac6fc0636
         note:
           E13: 7e11575e-1cc3-4166-8bbe-c1eef1487bd3
+      gallica:
+        E13: cf0d5b53-82fc-46f6-b32b-5e2f95634ca2
   1693-04_189:
     E22:
       uuid: e3af9160-2a39-4e97-bae7-82f0c207b797
@@ -9402,6 +9813,8 @@ collection:
         uuid: 259be590-d68b-4b8e-8b40-800866414f56
         note:
           E13: c2a2d28d-488c-4ad2-9151-41af4e4169c9
+      gallica:
+        E13: 73e6a92e-fc52-4c0b-97cd-726d7d52b295
   1694-03_201:
     E22:
       uuid: aaf3a402-77fa-4754-b8f6-5e2d070fc3f2
@@ -9479,6 +9892,8 @@ collection:
         uuid: e055b841-aaf2-487b-944d-6f3376bc9c30
         note:
           E13: 470f8aad-6557-4628-b8ef-db683af5915d
+      gallica:
+        E13: 37527259-6910-4a3c-909b-2697bd496edc
   1694-06_297:
     E22:
       uuid: 8bb9685b-d3c2-4148-8ce1-f81606709e39
@@ -9921,6 +10336,8 @@ collection:
         uuid: 46c96d62-ee46-48b7-96bf-db9b143e9e81
         note:
           E13: 8a917272-d12e-4f25-af38-9976bc19d41b
+      gallica:
+        E13: 6d160141-8f9e-4e79-ad1b-4ee46358746c
   1695-10_064:
     E22:
       uuid: 1bf447de-b240-4fbc-af38-4a638302e87c
@@ -9942,6 +10359,8 @@ collection:
         E36:
           E13: 220becaa-9031-40f2-a93c-c06e849ff8ff
         E13: f452c96d-8fe9-4616-ae8e-e7b9a01959cc
+      gallica:
+        E13: bf4d7fce-ad90-4e95-9893-2e88d646216b
   1695-11_090:
     E22:
       uuid: 139cf72d-e2a6-4899-abb7-494a37597c8f
@@ -9963,6 +10382,8 @@ collection:
         E36:
           E13: f4cc5fb3-87f2-4180-8761-46ed77945f64
         E13: f1442bac-7d54-46b3-95d4-61776ee134da
+      gallica:
+        E13: 2d58b7ee-da3e-4eed-900b-008ebd21cafc
   1695-12_141:
     E22:
       uuid: dec200de-2b43-467e-ad50-b66ef694f396
@@ -9984,6 +10405,8 @@ collection:
         uuid: f2173f2a-cce2-4371-ac98-d450d978fc2a
         note:
           E13: 207361d6-a873-42b6-b97b-5337070cd66c
+      gallica:
+        E13: 87165277-de53-4103-a98c-8bf4641fdd40
   1696-02_197:
     E22:
       uuid: 0cb732da-403c-4779-8014-a520aaefee4a
@@ -10012,6 +10435,8 @@ collection:
         uuid: b52ec1cb-a2cb-4d63-b4c1-675f98231a5a
         note:
           E13: 207df622-a442-4c8d-a883-56928010a781
+      gallica:
+        E13: d433d880-2067-42f5-8b68-e4949cf2c8fa
   1696-03_153:
     E22:
       uuid: 9c6bcb99-ece1-49bb-b3a5-1252f89f145e
@@ -10037,6 +10462,8 @@ collection:
         uuid: 3cb40144-4d7a-433c-bf05-68497ec76ef0
         note:
           E13: da7a8ff7-92c0-4428-9a8c-41d66b80462e
+      gallica:
+        E13: 575259e1-154d-4017-9d10-3e6ffd05af95
   1696-05_152:
     E22:
       uuid: 2668b69d-697d-4d84-8468-9181e57c9772
@@ -10058,6 +10485,8 @@ collection:
         uuid: 1ec82331-0261-49a9-adad-93feaa047e5f
         note:
           E13: fcf345d6-d93b-406c-9a06-a2ac55c95e28
+      gallica:
+        E13: 6782d8cd-3a00-4954-8d4d-b1fdc427a686
   1696-06_240:
     E22:
       uuid: 99c83385-cad8-4eae-a4df-d540a12e4d83
@@ -10079,6 +10508,8 @@ collection:
         uuid: ed09976d-176b-4a9d-9e78-3b80906eb366
         note:
           E13: c2390e72-346e-429e-8e4c-d5a5ad9df55b
+      gallica:
+        E13: 0bf9f818-99b4-424c-9592-8ca4fa7249b6
   1696-07_180:
     E22:
       uuid: 8624ac2e-7f30-4f40-addb-e1949cd4fdcb
@@ -10100,6 +10531,8 @@ collection:
         uuid: 016f463a-1f12-4d1b-afe1-bf67cdc0aa55
         note:
           E13: 9ca23387-df58-4e7c-aee3-543b7a5344be
+      gallica:
+        E13: d6dc71de-97ed-4b06-8fe0-e49bf58a0954
   1696-08_281:
     E22:
       uuid: cf7a5962-9a87-439e-9bb0-0689434a6a5d
@@ -10121,6 +10554,8 @@ collection:
         uuid: 84c0ba4b-07bd-4c13-8643-7c23cd9299ea
         note:
           E13: 014cc47f-82b8-49f6-bccb-57af184c43c4
+      gallica:
+        E13: 536f1be3-7579-486d-8c74-07d8fa7f14b6
   1696-09_185:
     E22:
       uuid: 829bf708-e5d2-474f-ac2d-f69bc5d22397
@@ -10166,6 +10601,8 @@ collection:
         uuid: f1265c6b-0afe-474b-b322-80e9ec59cbe7
         note:
           E13: b56182b7-0824-4f95-b8f9-45a9ec969821
+      gallica:
+        E13: e72882b4-b1e3-441c-91c7-2664ed543d12
   1696-11_279:
     E22:
       uuid: c605210b-2a2b-4246-83f5-382c11ad4f36
@@ -10226,6 +10663,8 @@ collection:
         uuid: 8f48e63a-3392-4e90-86a1-f63c5d92f57c
         note:
           E13: 5d2d4380-caa0-42ef-af84-cc105b7cc764
+      gallica:
+        E13: 3bed7513-64a8-4f0b-ac04-90febc09147b
   1697-01_199:
     E22:
       uuid: ca71fd6f-1c5a-42c7-a080-3f49a18c21b5
@@ -10268,6 +10707,8 @@ collection:
         uuid: dedcb064-610c-4029-bbd4-3ad1b7b1c9f9
         note:
           E13: 61b8cf31-8acb-4d43-aed7-63f815910cc3
+      gallica:
+        E13: 74064df4-a126-410a-acef-72ae81b992f0
   1697-03_229:
     E22:
       uuid: 624f3a58-7652-4d07-a834-44d65936ac30
@@ -10301,6 +10742,8 @@ collection:
         uuid: d299718b-12fa-402f-b470-583b819d0d70
         note:
           E13: 974da2d7-dc63-414e-9bec-3dcb2f0bd910
+      lien externe:
+        E13: 38ee4853-489e-4c7a-9cba-0a37288ed23c
   1697-05_163:
     E22:
       uuid: 7d2e6f17-38d9-48b0-b025-734ee089b02c
@@ -10366,6 +10809,8 @@ collection:
         uuid: a766c612-9771-4125-b954-4f906a69065a
         note:
           E13: e60c7db8-b77f-498d-9e8e-693f9baf50f3
+      gallica:
+        E13: 103c6df4-d700-44d7-8e3e-1815033a7691
   1697-08_153:
     E22:
       uuid: e79b9289-3e8c-4c56-892b-14f854dee3bb
@@ -10391,6 +10836,8 @@ collection:
         uuid: 0dfdadd3-f588-4a1e-bf3a-55c961d27d3d
         note:
           E13: 3f65ab63-a50c-4b44-bd24-0f46daa4ed45
+      gallica:
+        E13: 8541e76a-00bb-4c90-bee0-fb13f3940567
   1697-09_271:
     E22:
       uuid: b5e2092b-d8dc-4108-b8ea-65fb7f41c84c
@@ -10416,6 +10863,8 @@ collection:
         uuid: c6226b03-392a-472d-bb54-ea83086cf882
         note:
           E13: b738b47f-e11b-49f5-9aed-5ba752263f02
+      gallica:
+        E13: b4fcc4cd-86c7-4b37-954a-276d539a54fc
   1697-10_208:
     E22:
       uuid: 13ce67d6-9eab-48bd-b0cc-5bdabf4259b4
@@ -10437,6 +10886,8 @@ collection:
         uuid: c67abbbb-00a2-4004-b82c-2e7c00fc4545
         note:
           E13: 62b47bb7-fd0c-4a8c-b734-d3cdc9b95752
+      gallica:
+        E13: 261e0291-fc7f-418e-879c-d158aaafda6d
   1697-12_090:
     E22:
       uuid: 3056997d-495e-4566-b18a-84b3d7af99eb
@@ -10458,6 +10909,8 @@ collection:
         uuid: 0442c396-b892-4292-bd4b-85774d81a6fa
         note:
           E13: 274c67a6-b0e2-44ad-9f00-a4cd427850c6
+      gallica:
+        E13: 36b17619-06ec-4627-b3f1-fd839cc7cb4b
   1698-01_120:
     E22:
       uuid: dc3f0e43-4eba-452a-81d9-a47818821dbf
@@ -10588,6 +11041,8 @@ collection:
         uuid: 29b8b878-b957-4f6e-a275-bc81b3152df5
         note:
           E13: 0696da9b-db5d-4c60-adc0-58d37f1fb872
+      gallica:
+        E13: 1dbe9f9e-ddbb-4df6-a651-438f67a3cd3f
   1700-03_178:
     E22:
       uuid: 840641e5-3955-427a-8216-d41ca5d159ae
@@ -10611,6 +11066,8 @@ collection:
         uuid: ad5b5cf5-81a3-47e7-a31e-a42bb545a5c8
         note:
           E13: 2cebdb5a-f5f3-4725-834a-9c22471aa943
+      gallica:
+        E13: 4d0fad28-398e-463a-9c1a-95d9c4f385b8
   1700-10_144:
     E22:
       uuid: 079e8b35-3129-4b68-bfb5-6e2163555961
@@ -10685,6 +11142,8 @@ collection:
         uuid: 62a30482-6a96-4573-938f-521c3778dcba
         note:
           E13: dc25387c-6040-44a7-9e48-91bf3db4a25f
+      gallica:
+        E13: 1e787b15-ca2f-4963-bea7-f5a7a7de0808
   1701-07_316:
     E22:
       uuid: 8a59f9cb-8eea-4e7d-90b0-16d35fc40484
@@ -10713,6 +11172,8 @@ collection:
         uuid: e6d75cf4-93af-49fe-ae9e-761bec7efd52
         note:
           E13: effa3e9f-9015-4e89-b3e8-78e8106b2d66
+      gallica:
+        E13: 17132609-06b1-494f-b492-ca37324e50c8
   1702-01_290:
     E22:
       uuid: 7a22c3db-a72f-4000-a4fb-491d5f5c40f8
@@ -10778,6 +11239,8 @@ collection:
         uuid: ed864f2f-459f-44f6-8d52-213beacdbe53
         note:
           E13: ac19ce36-aef8-492e-860d-a679aca1aa4a
+      gallica:
+        E13: f27505c4-11e0-413b-90c1-41796f6b791d
   1703-01_141:
     E22:
       uuid: 569804a9-daac-4db2-9637-dd1404b598bc
@@ -10825,6 +11288,8 @@ collection:
         uuid: a0c8b6ad-39ed-4dd3-b508-43a047196d79
         note:
           E13: 62c0681d-64e8-4c08-b9b0-cac50d71d542
+      gallica:
+        E13: 2d8fab43-a1cd-47dd-9e4b-cade7c25cc6c
   1704-01_215:
     E22:
       uuid: fca2ec44-9211-4549-b394-87339a991d73
@@ -10875,6 +11340,8 @@ collection:
         uuid: 3dbd6cbf-133c-4e2e-8e79-9c0800472520
         note:
           E13: c025ab87-f12b-45a5-a049-8f8232c98515
+      lien externe:
+        E13: fb067bab-368d-46f8-9289-09729f6a2550
   1704-07b (Deuxième partie manque dans Gallica):
     E22:
       uuid: 2fc682e6-f4b6-4b30-a587-3641827df2b7
@@ -10941,6 +11408,8 @@ collection:
         uuid: 06827dac-57f9-4cdd-8ffb-4bdb8dd466e0
         note:
           E13: fd942180-26bc-49e6-8e96-c3be132a2e82
+      lien externe:
+        E13: 049fbc8c-c07a-471f-9ba2-54f47ebded84
   1705-03_306:
     E22:
       uuid: cd88ee46-8dd3-4012-8fcc-dd4cbbc34795
@@ -10990,6 +11459,8 @@ collection:
         uuid: c2db522f-1be4-4e72-baea-dd77ed6ece30
         note:
           E13: 7a56e9ae-c9f7-4ed0-ae7a-d5316b03bc50
+      lien externe:
+        E13: 098e2ab5-037d-4c23-b08b-647554040453
   1706-01_313:
     E22:
       uuid: 63be9ae1-1b75-423e-8d7b-1596429dbfef
@@ -11036,6 +11507,8 @@ collection:
         uuid: 35ac88d4-7511-4cab-9965-980b4431c5e9
         note:
           E13: 823db4db-2ba1-49f0-a161-2b7f8f39ee45
+      gallica:
+        E13: 9fa2c51f-e12c-40d7-bda3-8403f82e8bb5
   1706-11_032:
     E22:
       uuid: 88c26a5d-aa7c-4a59-8219-b17c4b76ac25
