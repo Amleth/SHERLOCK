@@ -230,22 +230,22 @@ def traitement_images(sous_collection):
 
 			## E12 Production
 			if img_row[15].value or img_row[16].value:
-				gravure_E12 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "uuid"], True))
+				gravure_E12 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12 Production", "uuid"], True))
 				t(gravure_E12, a, crm("E12_Production"))
 				t(gravure_E12, crm("P108_has_produced"), gravure)
 
 			### Invenit
 			if img_row[15].value:
-				gravure_invenit = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "invenit", "uuid"], True))
+				gravure_invenit = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12 Production", "invenit", "uuid"], True))
 				t(gravure_invenit, a, crm("E12_Production"))
 				t(gravure_invenit, crm("P2_has_type"), she("4d57ac14-247f-4b0e-90ca-0397b6051b8b"))
 				t(gravure_E12, crm("P9_consists_of"), gravure_invenit)
 
 				#### E13 Attribute Assignement -  concepteur de la gravure
-				gravure_invenit_auteur = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "invenit", "auteur"], True))
+				gravure_invenit_auteur = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12 Production", "invenit", "auteur"], True))
 				t(gravure_invenit_auteur, a, crm("E21_Person"))
 				t(gravure_invenit_auteur, RDFS.label, l(img_row[15].value))
-				gravure_invenit_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "invenit", "E13"], True))
+				gravure_invenit_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12 Production", "invenit", "E13"], True))
 				t(gravure_invenit_E13, a, crm("E13_Attribute_Assignement"))
 				t(gravure_invenit_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 				t(gravure_invenit_E13, crm("P140_assigned_attribute_to"), gravure_invenit)
@@ -254,10 +254,10 @@ def traitement_images(sous_collection):
 
 				#### E13 Attribute Assignement - technique de la représentation
 				if img_row[12].value:
-					gravure_E29 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "E29"], True))
+					gravure_E29 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12 Production", "E29"], True))
 					t(gravure_E29, a, crm("E29_Design_or_Procedure"))
 					t(gravure_E29, RDFS.label, l(img_row[12].value))
-					gravure_E29_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "E55", "E13"], True))
+					gravure_E29_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12 Production", "E55", "E13"], True))
 					t(gravure_E29_E13, a, crm("E13_Attribute_Assignement"))
 					t(gravure_E29_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 					t(gravure_E29_E13, crm("P140_assigned_attribute_to"), gravure_invenit)
@@ -266,16 +266,16 @@ def traitement_images(sous_collection):
 
 			### Sculpsit
 			if img_row[16].value:
-				gravure_sculpsit = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "sculpsit", "uuid"], True))
+				gravure_sculpsit = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12 Production", "sculpsit", "uuid"], True))
 				t(gravure_sculpsit, a, crm("E12_Production"))
 				t(gravure_sculpsit, crm("P2_has_type"), she("f39eb497-5559-486c-b5ce-6a607f615773"))
 				t(gravure_E12, crm("P9_consists_of"), gravure_sculpsit)
 
 				#### E13 Attribute Assignement -  sculpteur de la gravure
-				gravure_sculpsit_auteur = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "sculpsit", "auteur"], True))
+				gravure_sculpsit_auteur = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12 Production", "sculpsit", "auteur"], True))
 				t(gravure_sculpsit_auteur, a, crm("E21_Person"))
 				t(gravure_sculpsit_auteur, RDFS.label, l(img_row[16].value))
-				gravure_sculpsit_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "sculpsit", "E13"], True))
+				gravure_sculpsit_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12 Production", "sculpsit", "E13"], True))
 				t(gravure_sculpsit_E13, a, crm("E13_Attribute_Assignement"))
 				t(gravure_sculpsit_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 				t(gravure_sculpsit_E13, crm("P140_assigned_attribute_to"), gravure_sculpsit)
@@ -284,10 +284,10 @@ def traitement_images(sous_collection):
 
 				#### E13 Attribute Assignement - technique de la gravure
 				if img_row[13].value:
-					gravure_E55 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "E55", "uuid"], True))
+					gravure_E55 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12 Production", "E55", "uuid"], True))
 					t(gravure_E55, a, crm("E55_Type"))
 					t(gravure_E55, RDFS.label, l(img_row[13].value))
-					gravure_E55_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "E55", "E13"], True))
+					gravure_E55_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12 Production", "E55", "E13"], True))
 					t(gravure_E55_E13, a, crm("E13_Attribute_Assignement"))
 					t(gravure_E55_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 					t(gravure_E55_E13, crm("P140_assigned_attribute_to"), gravure_sculpsit)
@@ -373,7 +373,7 @@ def traitement_images(sous_collection):
 
 			## Titre sur l'image (E13)
 			if img_row[7].value:
-				gravure_titre = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "titre 1"], True))
+				gravure_titre = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "titre sur l'image"], True))
 				t(gravure_titre, a, crm("E13_Attribute_Assignement"))
 				t(gravure_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 				t(gravure_titre, crm("P140_assigned_attribute_to"), gravure)
@@ -382,7 +382,7 @@ def traitement_images(sous_collection):
 
 			## Titre descriptif/forgé (E13)
 			if img_row[8].value:
-				gravure_titre = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "titre 2"], True))
+				gravure_titre = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "titre forgé"], True))
 				t(gravure_titre, a, crm("E13_Attribute_Assignement"))
 				t(gravure_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 				t(gravure_titre, crm("P140_assigned_attribute_to"), gravure)
@@ -391,7 +391,7 @@ def traitement_images(sous_collection):
 
 			## Titre dans le péritexte (E13)
 			if img_row[9].value:
-				gravure_titre = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "titre 3"], True))
+				gravure_titre = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "titre péritexte"], True))
 				t(gravure_titre, a, crm("E13_Attribute_Assignement"))
 				t(gravure_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 				t(gravure_titre, crm("P140_assigned_attribute_to"), gravure)
@@ -416,7 +416,7 @@ def traitement_images(sous_collection):
 				t(gravure_zone_img_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
 
 				### L'objet représenté (E13)
-				gravure_objets_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "objets", "E13"], True))
+				gravure_objets_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "zone de l'image (E36)", "objets", "E13"], True))
 				t(gravure_objets_E13, a, crm("E13_Attribute_Assignement"))
 				t(gravure_objets_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 				t(gravure_objets_E13, crm("P140_assigned_attribute_to"), gravure_zone_img)
@@ -426,10 +426,10 @@ def traitement_images(sous_collection):
 				### Si l'objet représenté est une médaille (E13)
 				if "médaille" in img_row[11].value:
 					#### E13 Attribute Assignement - la médaille
-					gravure_médaille = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "uuid"], True))
+					gravure_médaille = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "zone de l'image (E36)", "médaille", "uuid"], True))
 					t(gravure_médaille, a, crm("E55_Type"))
 					t(gravure_médaille, crm("P2_has_type"), she("4b51d9dc-3623-47f4-ab45-239604e18930"))
-					gravure_médaille_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E13"], True))
+					gravure_médaille_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "zone de l'image (E36)", "médaille", "E13"], True))
 					t(gravure_médaille_E13, a, crm("E13_Attribute_Assignement"))
 					t(gravure_médaille_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 					t(gravure_médaille_E13, crm("P140_assigned_attribute_to"), gravure_zone_img)
@@ -439,12 +439,12 @@ def traitement_images(sous_collection):
 					#### Si la médaille comporte une inscription
 					if img_row[17].value or img_row[18].value:
 						gravure_médaille_inscrip_E36 = she(
-							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "inscription", "E36"], True))
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "zone de l'image (E36)", "médaille", "zone d'inscription", "uuid"], True))
 						t(gravure_médaille_inscrip_E36, a, crm("E36_Visual_Item"))
 						t(gravure_médaille_inscrip_E36, RDFS.label, l("Zone d'inscription"))
 						##### E13 Attribute Assignement
 						gravure_médaille_inscrip_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E36", "E13"], True))
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "zone de l'image (E36)", "médaille", "zone d'inscription", "E13"], True))
 						t(gravure_médaille_inscrip_E13, a, crm("E13_Attribute_Assignement"))
 						t(gravure_médaille_inscrip_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 						t(gravure_médaille_inscrip_E13, crm("P140_assigned_attribute_to"), gravure_médaille)
@@ -454,12 +454,12 @@ def traitement_images(sous_collection):
 					##### Si la médaille comporte une inscription en légende (E13)
 					if img_row[17].value:
 						gravure_médaille_inscrip_E33 = she(
-							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "légende", "uuid"], True))
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "zone d'inscription", "inscription", "en légende", "uuid"], True))
 						t(gravure_médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
 
 						##### E13 Attribute Assignement du E33
 						gravure_médaille_inscrip_E33_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "légende", "E13"], True))
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "zone d'inscription", "inscription", "en légende", "E13"], True))
 						t(gravure_médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
 						t(gravure_médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
 						  she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -471,7 +471,7 @@ def traitement_images(sous_collection):
 
 						##### E13 Attribute Assignement du contenu de l'inscription
 						gravure_médaille_inscrip_P190_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "légende", "P190"], True))
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "zone d'inscription", "inscription", "en légende", "contenu"], True))
 						t(gravure_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
 						t(gravure_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
 						  she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -482,12 +482,12 @@ def traitement_images(sous_collection):
 					##### Si la médaille comporte une inscription en exergue (E13)
 					if img_row[18].value:
 						gravure_médaille_inscrip_E33 = she(
-							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "exèrgue", "uuid"], True))
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "zone d'inscription", "inscription", "en exergue", "uuid"], True))
 						t(gravure_médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
 
 						##### E13 Attribute Assignement du E33
 						gravure_médaille_inscrip_E33_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "exèrgue", "E13"], True))
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "zone d'inscription", "inscription", "en exergue", "E13"], True))
 						t(gravure_médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
 						t(gravure_médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
 						  she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -499,7 +499,7 @@ def traitement_images(sous_collection):
 
 						##### E13 Attribute Assignement du contenu de l'inscription
 						gravure_médaille_inscrip_P190_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "exèrgue", "P190"], True))
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "zone d'inscription", "inscription", "en exergue", "contenu"], True))
 						t(gravure_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
 						t(gravure_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
 						  she("684b4c1a-be76-474c-810e-0f5984b47921"))
