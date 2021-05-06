@@ -57,14 +57,16 @@
 <c9b9f7f6-9f96-4464-a5bd-85a1eab7bb29>
     a crm:F34_Controlled_Vocabulary ;
     crm:P1_is_identified_by "Identifiants techniques"@fr ;
-    crm:P71_lists <219fd53d-cdf2-4174-8d71-6d12bdd24016> ;
-    crm:P71_lists <a1e06dc7-f2d8-403a-8061-50d56411c031> ;
-    crm:P71_lists <9b63d6ef-5c5b-4eca-92f4-76c083918129> ;
-    crm:P71_lists <f4262bac-f72c-40e2-aa51-ae352da5a35c> ;
-    crm:P71_lists <01de41ec-850f-473b-bd7f-268a18afc6a3> ;
-    crm:P71_lists <b486f08e-4d50-4363-97b4-d4ea100818e5> ;
-    crm:P71_lists <466bb717-b90f-4104-8f4e-5a13fdde3bc3> ;
+    crm:P71_lists <219fd53d-cdf2-4174-8d71-6d12bdd24016>,
+    <a1e06dc7-f2d8-403a-8061-50d56411c031>, 
+    <9b63d6ef-5c5b-4eca-92f4-76c083918129>,
+    <f4262bac-f72c-40e2-aa51-ae352da5a35c>,
+    <01de41ec-850f-473b-bd7f-268a18afc6a3>,
+    <b486f08e-4d50-4363-97b4-d4ea100818e5>,
+    <466bb717-b90f-4104-8f4e-5a13fdde3bc3>,
+    <19073c4a-0ef7-4ac4-a51a-e0810a596773>;
     .
+    
 <09c7ee4e-619d-4fb0-8905-7c8f1128657e>
     a crm:E65_Creation ;
     crm:P94:has_created <c9b9f7f6-9f96-4464-a5bd-85a1eab7bb29> ;
@@ -100,6 +102,11 @@
 <466bb717-b90f-4104-8f4e-5a13fdde3bc3>
     a crm:E55_Type ;
     crm:P1_is_identified_by "Numéro de page" ;
+    .
+
+<19073c4a-0ef7-4ac4-a51a-e0810a596773>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Identifiant iiif" ;
     .
 
 
