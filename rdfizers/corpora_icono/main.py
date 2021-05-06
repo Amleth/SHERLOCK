@@ -212,83 +212,89 @@ def traitement_images(sous_collection):
 			img_row = row
 			id = img_row[0].value
 
-			# 2.1 L'IMAGE COMME SUPPORT PHYSIQUE
-			img_E22 = she(cache_40CM.get_uuid(["collection", id, "E22", "uuid"], True))
-			t(img_E22, a, crm("E22_Human-Made_Object"))
-			## Création de la gravure
-			img_E22_E12 = she(cache_40CM.get_uuid(["collection", id, "E22", "E12", "uuid"], True))
-			t(img_E22_E12, a, crm("E12_Production"))
-			t(img_E22_E12, crm("P108_has_produced"), img_E22)
+			## E36 Visual Item
+			gravure = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "uuid"], True))
+			t(gravure, a, crm("E36_Visual_Item"))
+			### Identifiant Mercure Galant
+			gravure_id_MG = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "Identifiant MG"], True))
+			t(gravure_id_MG, a, crm("E42_Identifier"))
+			t(gravure_id_MG, crm("P2_has_type"), she("92c258a0-1e34-437f-9686-e24322b95305"))
+			t(gravure_id_MG, RDFS.label, l(id))
+			t(gravure, crm("P1_is_identified_by"), gravure_id_MG)
+			### Identifiant iiif
+			gravure_id_iiif = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "Identifiant iiif"], True))
+			t(gravure_id_iiif, a, crm("E42_Identifier"))
+			t(gravure_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
+			t(gravure_id_iiif, RDFS.label, u("http://data-iremus.huma-num.fr/iiif/mercure-galant/1686-08_320/full/max/0/default.jpg"))
+			t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
+
+			## E12 Production
+			if img_row[15].value or img_row[16].value:
+				gravure_E12 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "uuid"], True))
+				t(gravure_E12, a, crm("E12_Production"))
+				t(gravure_E12, crm("P108_has_produced"), gravure)
 
 			### Invenit
-			if img_row[15].value != None:
-				img_E22_invenit = she(cache_40CM.get_uuid(["collection", id, "E22", "E12", "invenit", "uuid"], True))
-				t(img_E22_invenit, a, crm("E12_Production"))
-				t(img_E22_invenit, crm("P2_has_type"), she("4d57ac14-247f-4b0e-90ca-0397b6051b8b"))
-				t(img_E22_E12, crm("P9_consists_of"), img_E22_invenit)
+			if img_row[15].value:
+				gravure_invenit = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "invenit", "uuid"], True))
+				t(gravure_invenit, a, crm("E12_Production"))
+				t(gravure_invenit, crm("P2_has_type"), she("4d57ac14-247f-4b0e-90ca-0397b6051b8b"))
+				t(gravure_E12, crm("P9_consists_of"), gravure_invenit)
 
 				#### E13 Attribute Assignement -  concepteur de la gravure
-				img_E22_invenit_auteur = she(cache_40CM.get_uuid(["collection", id, "E22", "E12", "invenit", "auteur"], True))
-				t(img_E22_invenit_auteur, a, crm("E21_Person"))
-				t(img_E22_invenit_auteur, RDFS.label, l(img_row[15].value))
-				img_E22_invenit_E13 = she(cache_40CM.get_uuid(["collection", id, "E22", "E12", "invenit", "E13"], True))
-				t(img_E22_invenit_E13, a, crm("E13_Attribute_Assignement"))
-				t(img_E22_invenit_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-				t(img_E22_invenit_E13, crm("P140_assigned_attribute_to"), img_E22_invenit)
-				t(img_E22_invenit_E13, crm("P141_assigned"), img_E22_invenit_auteur)
-				t(img_E22_invenit_E13, crm("P177_assigned_property_type"), crm("P14_carried_out_by"))
+				gravure_invenit_auteur = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "invenit", "auteur"], True))
+				t(gravure_invenit_auteur, a, crm("E21_Person"))
+				t(gravure_invenit_auteur, RDFS.label, l(img_row[15].value))
+				gravure_invenit_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "invenit", "E13"], True))
+				t(gravure_invenit_E13, a, crm("E13_Attribute_Assignement"))
+				t(gravure_invenit_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+				t(gravure_invenit_E13, crm("P140_assigned_attribute_to"), gravure_invenit)
+				t(gravure_invenit_E13, crm("P141_assigned"), gravure_invenit_auteur)
+				t(gravure_invenit_E13, crm("P177_assigned_property_type"), crm("P14_carried_out_by"))
 
 				#### E13 Attribute Assignement - technique de la représentation
-				if img_row[12].value != None:
-					img_E22_E29 = she(cache_40CM.get_uuid(["collection", id, "E22", "E12", "E29"], True))
-					t(img_E22_E29, a, crm("E29_Design_or_Procedure"))
-					t(img_E22_E29, RDFS.label, l(img_row[12].value))
-					img_E22_E29_E13 = she(cache_40CM.get_uuid(["collection", id, "E22", "E12", "E55", "E13"], True))
-					t(img_E22_E29_E13, a, crm("E13_Attribute_Assignement"))
-					t(img_E22_E29_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-					t(img_E22_E29_E13, crm("P140_assigned_attribute_to"), img_E22_invenit)
-					t(img_E22_E29_E13, crm("P141_assigned"), img_E22_E29)
-					t(img_E22_E29_E13, crm("P177_assigned_property_type"), crm("P33_used_specific_technique"))
+				if img_row[12].value:
+					gravure_E29 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "E29"], True))
+					t(gravure_E29, a, crm("E29_Design_or_Procedure"))
+					t(gravure_E29, RDFS.label, l(img_row[12].value))
+					gravure_E29_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "E55", "E13"], True))
+					t(gravure_E29_E13, a, crm("E13_Attribute_Assignement"))
+					t(gravure_E29_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+					t(gravure_E29_E13, crm("P140_assigned_attribute_to"), gravure_invenit)
+					t(gravure_E29_E13, crm("P141_assigned"), gravure_E29)
+					t(gravure_E29_E13, crm("P177_assigned_property_type"), crm("P33_used_specific_technique"))
 
 			### Sculpsit
-			if img_row[16].value != None:
-				img_E22_sculpsit = she(cache_40CM.get_uuid(["collection", id, "E22", "E12", "sculpsit", "uuid"], True))
-				t(img_E22_sculpsit, a, crm("E12_Production"))
-				t(img_E22_sculpsit, crm("P2_has_type"), she("f39eb497-5559-486c-b5ce-6a607f615773"))
-				t(img_E22_E12, crm("P9_consists_of"), img_E22_sculpsit)
+			if img_row[16].value:
+				gravure_sculpsit = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "sculpsit", "uuid"], True))
+				t(gravure_sculpsit, a, crm("E12_Production"))
+				t(gravure_sculpsit, crm("P2_has_type"), she("f39eb497-5559-486c-b5ce-6a607f615773"))
+				t(gravure_E12, crm("P9_consists_of"), gravure_sculpsit)
 
 				#### E13 Attribute Assignement -  sculpteur de la gravure
-				img_E22_sculpsit_auteur = she(cache_40CM.get_uuid(["collection", id, "E22", "E12", "sculpsit", "auteur"], True))
-				t(img_E22_sculpsit_auteur, a, crm("E21_Person"))
-				t(img_E22_sculpsit_auteur, RDFS.label, l(img_row[16].value))
-				img_E22_sculpsit_E13 = she(cache_40CM.get_uuid(["collection", id, "E22", "E12", "sculpsit", "E13"], True))
-				t(img_E22_sculpsit_E13, a, crm("E13_Attribute_Assignement"))
-				t(img_E22_sculpsit_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-				t(img_E22_sculpsit_E13, crm("P140_assigned_attribute_to"), img_E22_sculpsit)
-				t(img_E22_sculpsit_E13, crm("P141_assigned"), img_E22_sculpsit_auteur)
-				t(img_E22_sculpsit_E13, crm("P177_assigned_property_type"), crm("P14_carried_out_by"))
+				gravure_sculpsit_auteur = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "sculpsit", "auteur"], True))
+				t(gravure_sculpsit_auteur, a, crm("E21_Person"))
+				t(gravure_sculpsit_auteur, RDFS.label, l(img_row[16].value))
+				gravure_sculpsit_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "sculpsit", "E13"], True))
+				t(gravure_sculpsit_E13, a, crm("E13_Attribute_Assignement"))
+				t(gravure_sculpsit_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+				t(gravure_sculpsit_E13, crm("P140_assigned_attribute_to"), gravure_sculpsit)
+				t(gravure_sculpsit_E13, crm("P141_assigned"), gravure_sculpsit_auteur)
+				t(gravure_sculpsit_E13, crm("P177_assigned_property_type"), crm("P14_carried_out_by"))
 
 				#### E13 Attribute Assignement - technique de la gravure
-				if img_row[13].value != None:
-					img_E22_E55 = she(cache_40CM.get_uuid(["collection", id, "E22", "E12", "E55", "uuid"], True))
-					t(img_E22_E55, a, crm("E55_Type"))
-					t(img_E22_E55, RDFS.label, l(img_row[13].value))
-					img_E22_E55_E13 = she(cache_40CM.get_uuid(["collection", id, "E22", "E12", "E55", "E13"], True))
-					t(img_E22_E55_E13, a, crm("E13_Attribute_Assignement"))
-					t(img_E22_E55_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-					t(img_E22_E55_E13, crm("P140_assigned_attribute_to"), img_E22_sculpsit)
-					t(img_E22_E55_E13, crm("P141_assigned"), img_E22_E55)
-					t(img_E22_E55_E13, crm("P177_assigned_property_type"), crm("P32_used_general_technique"))
+				if img_row[13].value:
+					gravure_E55 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "E55", "uuid"], True))
+					t(gravure_E55, a, crm("E55_Type"))
+					t(gravure_E55, RDFS.label, l(img_row[13].value))
+					gravure_E55_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "E12", "E55", "E13"], True))
+					t(gravure_E55_E13, a, crm("E13_Attribute_Assignement"))
+					t(gravure_E55_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+					t(gravure_E55_E13, crm("P140_assigned_attribute_to"), gravure_sculpsit)
+					t(gravure_E55_E13, crm("P141_assigned"), gravure_E55)
+					t(gravure_E55_E13, crm("P177_assigned_property_type"), crm("P32_used_general_technique"))
 
-
-			# 2.2 L'IMAGE COMME SUPPORT SEMIOTIQUE
-			## E36 Visual Item
-			img_E36 = she(cache_40CM.get_uuid(["collection", id, "E36", "uuid"], True))
-			t(img_E22, crm("P65_shows_visual_item"), img_E36)
-			t(img_E36, a, crm("E36_Visual_Item"))
-			t(img_E36, crm("P1_has_identifier"), l(id))
-
-			## Rattachement à la livraison ou l'article
+			## Rattachement à la livraison ou à l'article
 			### Si l'article n'est pas précisé:
 			if not img_row[3].value :
 				id_image = f"MG-{id}"
@@ -299,11 +305,11 @@ def traitement_images(sous_collection):
 					#### Livraison originale
 					livraison_F2_originale = she(
 						cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
-					t(livraison_F2_originale, crm("P148_has_component"), img_E36)
+					t(livraison_F2_originale, crm("P148_has_component"), gravure)
 					#### Livraison TEI
 					livraison_F2_TEI = she(
 						cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
-					t(livraison_F2_TEI, crm("P148_has_component"), img_E36)
+					t(livraison_F2_TEI, crm("P148_has_component"), gravure)
 				except:
 					print("L'image " + id_image + " n'est reliée à aucune livraison")
 
@@ -316,11 +322,11 @@ def traitement_images(sous_collection):
 						id_livraison = id_livraison[0:-1]
 						article_F2 = she(cache_corpus.get_uuid(
 							["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-						t(article_F2, crm("P148_has_component"), img_E36)
+						t(article_F2, crm("P148_has_component"), gravure)
 					else:
 						article_F2 = she(cache_corpus.get_uuid(
 							["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-						t(article_F2, crm("P148_has_component"), img_E36)
+						t(article_F2, crm("P148_has_component"), gravure)
 				except:
 					print("Article contenant la gravure : l'article " + id_article + " est introuvable dans les fichiers TEI")
 
@@ -332,24 +338,24 @@ def traitement_images(sous_collection):
 					uuid_article = she(cache_corpus.get_uuid(
 						["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article,
 						 "F2"]))
-					img_E36_seeAlso_E13 = she(
-						cache_40CM.get_uuid(["collection", id, "E36", "seeAlso", "E13"], True))
-					t(img_E36_seeAlso_E13, a, crm("E13_Attribute_Assignement"))
-					t(img_E36_seeAlso_E13, crm("P14_carried_out_by"),
-					  she("ea287800-4345-4649-af12-7253aa185f3f"))
-					t(img_E36_seeAlso_E13, crm("P140_assigned_attribute_to"), img_E36)
-					t(img_E36_seeAlso_E13, crm("P141_assigned"), uuid_article)
-					t(img_E36_seeAlso_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
+					gravure_seeAlso_E13 = she(
+						cache_40CM.get_uuid(["collection", id, "gravure (E36)", "seeAlso", "E13"], True))
+					t(gravure_seeAlso_E13, a, crm("E13_Attribute_Assignement"))
+					t(gravure_seeAlso_E13, crm("P14_carried_out_by"),
+					  she("684b4c1a-be76-474c-810e-0f5984b47921"))
+					t(gravure_seeAlso_E13, crm("P140_assigned_attribute_to"), gravure)
+					t(gravure_seeAlso_E13, crm("P141_assigned"), uuid_article)
+					t(gravure_seeAlso_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
 					### Commentaire décrivant le lien entre la gravure et l'article
 					if img_row[5].value:
-						img_E36_seeAlso_P3_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "E36", "seeAlso", "note", "E13"], True))
-						t(img_E36_seeAlso_P3_E13, a, crm("E13_Attribute_Assignement"))
-						t(img_E36_seeAlso_P3_E13, crm("P14_carried_out_by"),
-						  she("ea287800-4345-4649-af12-7253aa185f3f"))
-						t(img_E36_seeAlso_P3_E13, crm("P140_assigned_attribute_to"), uuid_article)
-						t(img_E36_seeAlso_P3_E13, crm("P141_assigned"), l(img_row[5].value))
-						t(img_E36_seeAlso_P3_E13, crm("P177_assigned_property_type"), crm("P3_has_note"))
+						gravure_seeAlso_P3_E13 = she(
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "seeAlso", "note", "E13"], True))
+						t(gravure_seeAlso_P3_E13, a, crm("E13_Attribute_Assignement"))
+						t(gravure_seeAlso_P3_E13, crm("P14_carried_out_by"),
+						  she("684b4c1a-be76-474c-810e-0f5984b47921"))
+						t(gravure_seeAlso_P3_E13, crm("P140_assigned_attribute_to"), uuid_article)
+						t(gravure_seeAlso_P3_E13, crm("P141_assigned"), l(img_row[5].value))
+						t(gravure_seeAlso_P3_E13, crm("P177_assigned_property_type"), crm("P3_has_note"))
 				except:
 					print(
 						"Article annexe à la gravure : l'article " + id_article + " est introuvable dans les fichiers TEI")
@@ -358,39 +364,39 @@ def traitement_images(sous_collection):
 			if img_row[6].value:
 				lien_gallica = u(img_row[6].value)
 				t(lien_gallica, crm("P2_has_type"), she("e73699b0-9638-4a9a-bfdd-ed1715416f02"))
-				img_gallica_E13 = she(cache_40CM.get_uuid(["collection", id, "E36", "gallica", "E13"], True))
+				img_gallica_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "gallica", "E13"], True))
 				t(img_gallica_E13, a, crm("E13_Attribute_Assignement"))
-				t(img_gallica_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-				t(img_gallica_E13, crm("P140_assigned_attribute_to"), img_E36)
+				t(img_gallica_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+				t(img_gallica_E13, crm("P140_assigned_attribute_to"), gravure)
 				t(img_gallica_E13, crm("P141_assigned"), lien_gallica)
 				t(img_gallica_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
 
 			## Titre sur l'image (E13)
 			if img_row[7].value:
-				img_E36_titre = she(cache_40CM.get_uuid(["collection", id, "E36", "titre 1"], True))
-				t(img_E36_titre, a, crm("E13_Attribute_Assignement"))
-				t(img_E36_titre, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-				t(img_E36_titre, crm("P140_assigned_attribute_to"), img_E36)
-				t(img_E36_titre, crm("P141_assigned"), l(img_row[7].value))
-				t(img_E36_titre, crm("P177_assigned_property_type"), she("01a07474-f2b9-4afd-bb05-80842ecfb527"))
+				gravure_titre = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "titre 1"], True))
+				t(gravure_titre, a, crm("E13_Attribute_Assignement"))
+				t(gravure_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+				t(gravure_titre, crm("P140_assigned_attribute_to"), gravure)
+				t(gravure_titre, crm("P141_assigned"), l(img_row[7].value))
+				t(gravure_titre, crm("P177_assigned_property_type"), she("01a07474-f2b9-4afd-bb05-80842ecfb527"))
 
 			## Titre descriptif/forgé (E13)
 			if img_row[8].value:
-				img_E36_titre = she(cache_40CM.get_uuid(["collection", id, "E36", "titre 2"], True))
-				t(img_E36_titre, a, crm("E13_Attribute_Assignement"))
-				t(img_E36_titre, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-				t(img_E36_titre, crm("P140_assigned_attribute_to"), img_E36)
-				t(img_E36_titre, crm("P141_assigned"), l(img_row[8].value))
-				t(img_E36_titre, crm("P177_assigned_property_type"), she("58fb99dd-1ffb-4e00-a16f-ef6898902301"))
+				gravure_titre = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "titre 2"], True))
+				t(gravure_titre, a, crm("E13_Attribute_Assignement"))
+				t(gravure_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+				t(gravure_titre, crm("P140_assigned_attribute_to"), gravure)
+				t(gravure_titre, crm("P141_assigned"), l(img_row[8].value))
+				t(gravure_titre, crm("P177_assigned_property_type"), she("58fb99dd-1ffb-4e00-a16f-ef6898902301"))
 
 			## Titre dans le péritexte (E13)
 			if img_row[9].value:
-				img_E36_titre = she(cache_40CM.get_uuid(["collection", id, "E36", "titre 3"], True))
-				t(img_E36_titre, a, crm("E13_Attribute_Assignement"))
-				t(img_E36_titre, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-				t(img_E36_titre, crm("P140_assigned_attribute_to"), img_E36)
-				t(img_E36_titre, crm("P141_assigned"), l(img_row[9].value))
-				t(img_E36_titre, crm("P177_assigned_property_type"), she("ded9ea93-b400-4550-9aa8-e5aac1d627a0"))
+				gravure_titre = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "titre 3"], True))
+				t(gravure_titre, a, crm("E13_Attribute_Assignement"))
+				t(gravure_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+				t(gravure_titre, crm("P140_assigned_attribute_to"), gravure)
+				t(gravure_titre, crm("P141_assigned"), l(img_row[9].value))
+				t(gravure_titre, crm("P177_assigned_property_type"), she("ded9ea93-b400-4550-9aa8-e5aac1d627a0"))
 
 			## Objet ou lieu représenté (E13)
 			if img_row[11].value:
@@ -400,151 +406,147 @@ def traitement_images(sous_collection):
 				# TODO AJOUTER P138 QUAND ON AURA DES UUID
 
 				### Zone de l'image comportant la représentation de l'objet (E13)
-				img_objets = she(cache_40CM.get_uuid(["collection", id, "E36", "objets", "uuid"], True))
-				t(img_objets, a, crm("E36_Visual_Item"))
-				img_objets_E36_E13 = she(cache_40CM.get_uuid(["collection", id, "E36", "objets", "E36", "E13"], True))
-				t(img_objets_E36_E13, a, crm("E13_Attribute_Assignement"))
-				t(img_objets_E36_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-				t(img_objets_E36_E13, crm("P140_assigned_attribute_to"), img_E36)
-				t(img_objets_E36_E13, crm("P141_assigned"), img_objets)
-				t(img_objets_E36_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
+				gravure_zone_img = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "zone de l'image (E36)", "uuid"], True))
+				t(gravure_zone_img, a, crm("E36_Visual_Item"))
+				gravure_zone_img_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "zone de l'image (E36)", "E13"], True))
+				t(gravure_zone_img_E13, a, crm("E13_Attribute_Assignement"))
+				t(gravure_zone_img_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+				t(gravure_zone_img_E13, crm("P140_assigned_attribute_to"), gravure)
+				t(gravure_zone_img_E13, crm("P141_assigned"), gravure_zone_img)
+				t(gravure_zone_img_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
 
 				### L'objet représenté (E13)
-				img_objets_E13 = she(cache_40CM.get_uuid(["collection", id, "E36", "objets", "E13"], True))
-				t(img_objets_E13, a, crm("E13_Attribute_Assignement"))
-				t(img_objets_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-				t(img_objets_E13, crm("P140_assigned_attribute_to"), img_objets)
-				t(img_objets_E13, crm("P141_assigned"), l(img_row[11].value))
-				t(img_objets_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
+				gravure_objets_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "objets", "E13"], True))
+				t(gravure_objets_E13, a, crm("E13_Attribute_Assignement"))
+				t(gravure_objets_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+				t(gravure_objets_E13, crm("P140_assigned_attribute_to"), gravure_zone_img)
+				t(gravure_objets_E13, crm("P141_assigned"), l(img_row[11].value))
+				t(gravure_objets_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
 
 				### Si l'objet représenté est une médaille (E13)
 				if "médaille" in img_row[11].value:
-					img_médaille = she(cache_40CM.get_uuid(["collection", id, "E36", "médaille", "uuid"], True))
-					t(img_médaille, a, crm("E36_Visual_Item"))
-					t(img_médaille, crm("P2_has_type"), she("4b51d9dc-3623-47f4-ab45-239604e18930"))
-					t(img_médaille, RDFS.label, l("Médaille"))
-					#### E13 Attribute Assignement
-					img_médaille_E13 = she(cache_40CM.get_uuid(["collection", id, "E36", "médaille", "E13"], True))
-					t(img_médaille_E13, a, crm("E13_Attribute_Assignement"))
-					t(img_médaille_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-					t(img_médaille_E13, crm("P140_assigned_attribute_to"), img_E36)
-					t(img_médaille_E13, crm("P141_assigned"), img_médaille)
-					t(img_médaille_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
+					#### E13 Attribute Assignement - la médaille
+					gravure_médaille = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "uuid"], True))
+					t(gravure_médaille, a, crm("E55_Type"))
+					t(gravure_médaille, crm("P2_has_type"), she("4b51d9dc-3623-47f4-ab45-239604e18930"))
+					gravure_médaille_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E13"], True))
+					t(gravure_médaille_E13, a, crm("E13_Attribute_Assignement"))
+					t(gravure_médaille_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+					t(gravure_médaille_E13, crm("P140_assigned_attribute_to"), gravure_zone_img)
+					t(gravure_médaille_E13, crm("P141_assigned"), l("une médaille"))
+					t(gravure_médaille_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
 
 					#### Si la médaille comporte une inscription
 					if img_row[17].value or img_row[18].value:
-						img_médaille_inscrip_E36 = she(
-							cache_40CM.get_uuid(["collection", id, "E36", "médaille", "inscription", "E36"], True))
-						t(img_médaille_inscrip_E36, a, crm("E36_Visual_Item"))
-						t(img_médaille_inscrip_E36, RDFS.label, l("Zone d'inscription"))
+						gravure_médaille_inscrip_E36 = she(
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "inscription", "E36"], True))
+						t(gravure_médaille_inscrip_E36, a, crm("E36_Visual_Item"))
+						t(gravure_médaille_inscrip_E36, RDFS.label, l("Zone d'inscription"))
 						##### E13 Attribute Assignement
-						img_médaille_inscrip_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "E36", "médaille", "E36", "E13"], True))
-						t(img_médaille_inscrip_E13, a, crm("E13_Attribute_Assignement"))
-						t(img_médaille_inscrip_E13, crm("P14_carried_out_by"), she("ea287800-4345-4649-af12-7253aa185f3f"))
-						t(img_médaille_inscrip_E13, crm("P140_assigned_attribute_to"), img_médaille)
-						t(img_médaille_inscrip_E13, crm("P141_assigned"), img_médaille_inscrip_E36)
-						t(img_médaille_inscrip_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
+						gravure_médaille_inscrip_E13 = she(
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E36", "E13"], True))
+						t(gravure_médaille_inscrip_E13, a, crm("E13_Attribute_Assignement"))
+						t(gravure_médaille_inscrip_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+						t(gravure_médaille_inscrip_E13, crm("P140_assigned_attribute_to"), gravure_médaille)
+						t(gravure_médaille_inscrip_E13, crm("P141_assigned"), gravure_médaille_inscrip_E36)
+						t(gravure_médaille_inscrip_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
 
 					##### Si la médaille comporte une inscription en légende (E13)
 					if img_row[17].value:
-						img_médaille_inscrip_E33 = she(
-							cache_40CM.get_uuid(["collection", id, "E36", "médaille", "E33", "légende", "uuid"], True))
-						t(img_médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
+						gravure_médaille_inscrip_E33 = she(
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "légende", "uuid"], True))
+						t(gravure_médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
 
 						##### E13 Attribute Assignement du E33
-						img_médaille_inscrip_E33_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "E36", "médaille", "E33", "légende", "E13"], True))
-						t(img_médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
-						t(img_médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
-						  she("ea287800-4345-4649-af12-7253aa185f3f"))
-						t(img_médaille_inscrip_E33_E13, crm("P140_assigned_attribute_to"), img_médaille_inscrip_E36)
-						t(img_médaille_inscrip_E33_E13, crm("P141_assigned"), img_médaille_inscrip_E33)
-						t(img_médaille_inscrip_E33_E13, crm("P177_assigned_property_type"), crm("P165_incorporates"))
-						t(img_médaille_inscrip_E33_E13, she("sheP_position_du_texte_par_rapport_à_la_médaille"),
+						gravure_médaille_inscrip_E33_E13 = she(
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "légende", "E13"], True))
+						t(gravure_médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
+						t(gravure_médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
+						  she("684b4c1a-be76-474c-810e-0f5984b47921"))
+						t(gravure_médaille_inscrip_E33_E13, crm("P140_assigned_attribute_to"), gravure_médaille_inscrip_E36)
+						t(gravure_médaille_inscrip_E33_E13, crm("P141_assigned"), gravure_médaille_inscrip_E33)
+						t(gravure_médaille_inscrip_E33_E13, crm("P177_assigned_property_type"), crm("P165_incorporates"))
+						t(gravure_médaille_inscrip_E33_E13, she("sheP_position_du_texte_par_rapport_à_la_médaille"),
 						  she("fc229531-0999-4499-ab0b-b45e18e8196f"))
 
 						##### E13 Attribute Assignement du contenu de l'inscription
-						img_médaille_inscrip_P190_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "E36", "médaille", "E33", "légende", "P190"], True))
-						t(img_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
-						t(img_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
-						  she("ea287800-4345-4649-af12-7253aa185f3f"))
-						t(img_médaille_inscrip_P190_E13, crm("P140_assigned_attribute_to"), img_médaille_inscrip_E33)
-						t(img_médaille_inscrip_P190_E13, crm("P141_assigned"), l(img_row[17].value))
-						t(img_médaille_inscrip_P190_E13, crm("P177_assigned_property_type"), crm("P190_has_symbolic_content"))
+						gravure_médaille_inscrip_P190_E13 = she(
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "légende", "P190"], True))
+						t(gravure_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
+						t(gravure_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
+						  she("684b4c1a-be76-474c-810e-0f5984b47921"))
+						t(gravure_médaille_inscrip_P190_E13, crm("P140_assigned_attribute_to"), gravure_médaille_inscrip_E33)
+						t(gravure_médaille_inscrip_P190_E13, crm("P141_assigned"), l(img_row[17].value))
+						t(gravure_médaille_inscrip_P190_E13, crm("P177_assigned_property_type"), crm("P190_has_symbolic_content"))
 
 					##### Si la médaille comporte une inscription en exergue (E13)
 					if img_row[18].value:
-						img_médaille_inscrip_E33 = she(
-							cache_40CM.get_uuid(["collection", id, "E36", "médaille", "E33", "exèrgue", "uuid"], True))
-						t(img_médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
+						gravure_médaille_inscrip_E33 = she(
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "exèrgue", "uuid"], True))
+						t(gravure_médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
 
 						##### E13 Attribute Assignement du E33
-						img_médaille_inscrip_E33_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "E36", "médaille", "E33", "exèrgue", "E13"], True))
-						t(img_médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
-						t(img_médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
-						  she("ea287800-4345-4649-af12-7253aa185f3f"))
-						t(img_médaille_inscrip_E33_E13, crm("P140_assigned_attribute_to"), img_médaille_inscrip_E36)
-						t(img_médaille_inscrip_E33_E13, crm("P141_assigned"), img_médaille_inscrip_E33)
-						t(img_médaille_inscrip_E33_E13, crm("P177_assigned_property_type"), crm("P165_incorporates"))
-						t(img_médaille_inscrip_E33_E13, she("sheP_position_du_texte_par_rapport_à_la_médaille"),
+						gravure_médaille_inscrip_E33_E13 = she(
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "exèrgue", "E13"], True))
+						t(gravure_médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
+						t(gravure_médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
+						  she("684b4c1a-be76-474c-810e-0f5984b47921"))
+						t(gravure_médaille_inscrip_E33_E13, crm("P140_assigned_attribute_to"), gravure_médaille_inscrip_E36)
+						t(gravure_médaille_inscrip_E33_E13, crm("P141_assigned"), gravure_médaille_inscrip_E33)
+						t(gravure_médaille_inscrip_E33_E13, crm("P177_assigned_property_type"), crm("P165_incorporates"))
+						t(gravure_médaille_inscrip_E33_E13, she("sheP_position_du_texte_par_rapport_à_la_médaille"),
 						  she("357a459f-4f27-4d46-b5ac-709a410bce04"))
 
 						##### E13 Attribute Assignement du contenu de l'inscription
-						img_médaille_inscrip_P190_E13 = she(
-							cache_40CM.get_uuid(["collection", id, "E36", "médaille", "E33", "exèrgue", "P190"], True))
-						t(img_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
-						t(img_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
-						  she("ea287800-4345-4649-af12-7253aa185f3f"))
-						t(img_médaille_inscrip_P190_E13, crm("P140_assigned_attribute_to"), img_médaille_inscrip_E33)
-						t(img_médaille_inscrip_P190_E13, crm("P141_assigned"), l(img_row[18].value))
-						t(img_médaille_inscrip_P190_E13, crm("P177_assigned_property_type"),
+						gravure_médaille_inscrip_P190_E13 = she(
+							cache_40CM.get_uuid(["collection", id, "gravure (E36)", "médaille", "E33", "exèrgue", "P190"], True))
+						t(gravure_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
+						t(gravure_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
+						  she("684b4c1a-be76-474c-810e-0f5984b47921"))
+						t(gravure_médaille_inscrip_P190_E13, crm("P140_assigned_attribute_to"), gravure_médaille_inscrip_E33)
+						t(gravure_médaille_inscrip_P190_E13, crm("P141_assigned"), l(img_row[18].value))
+						t(gravure_médaille_inscrip_P190_E13, crm("P177_assigned_property_type"),
 						  crm("P190_has_symbolic_content"))
 
-
-			## Numérisation de la gravure
-			img_D2 = she(cache_40CM.get_uuid(["collection", id, "E22", "D2"], True))
-			t(img_D2, a, crmdig("D2_Digitization_Process"))
-			t(img_D2, crmdig("L1_digitized"), img_E22)
-			img_D1 = she(cache_40CM.get_uuid(["collection", id, "E22", "D1"], True))
-			t(img_D1, a, crmdig("D1_Digital_Object"))
-			t(img_D1, crm("P2_is_identified_by"), l(img_row[0].value))
-			t(img_D2, crmdig("L11_had_output"), img_D1)
-			t(img_D1, crm("P130_shows_features_of"), img_E36)
-			t(sous_collection, crm("P106_is_composed_of"), img_D2)
+			## Notes sur la provenance de la gravure
+			if img_row[19].value:
+				gravure_notes_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "notes", "E13"], True))
+				t(gravure_notes_E13, a, crm("E13_Attribute_Assignement"))
+				t(gravure_notes_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+				t(gravure_notes_E13, crm("P140_assigned_attribute_to"), gravure)
+				t(gravure_notes_E13, crm("P141_assigned"), l(img_row[19].value))
+				t(gravure_notes_E13, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
 			## Autres liens externes
 			if img_row[20].value:
 				try:
 					response = requests.get(img_row[20].value)
 					lien_externe = u(img_row[20].value)
-					img_lien_externe_E13 = she(
-						cache_40CM.get_uuid(["collection", id, "E36", "lien externe", "E13"], True))
-					t(img_lien_externe_E13, a, crm("E13_Attribute_Assignement"))
-					t(img_lien_externe_E13, crm("P14_carried_out_by"),
-					  she("ea287800-4345-4649-af12-7253aa185f3f"))
-					t(img_lien_externe_E13, crm("P140_assigned_attribute_to"), img_E36)
-					t(img_lien_externe_E13, crm("P141_assigned"), lien_externe)
-					t(img_lien_externe_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
+					gravure_lien_externe_E13 = she(
+						cache_40CM.get_uuid(["collection", id, "gravure (E36)", "lien externe", "E13"], True))
+					t(gravure_lien_externe_E13, a, crm("E13_Attribute_Assignement"))
+					t(gravure_lien_externe_E13, crm("P14_carried_out_by"),
+					  she("684b4c1a-be76-474c-810e-0f5984b47921"))
+					t(gravure_lien_externe_E13, crm("P140_assigned_attribute_to"), gravure)
+					t(gravure_lien_externe_E13, crm("P141_assigned"), lien_externe)
+					t(gravure_lien_externe_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
 				except:
 					print("'" + img_row[20].value + "' n'est pas une URL valide")
 
 
 			## Bibliographie relative à la gravure
 			if img_row[21].value:
-				biblio = she(cache_40CM.get_uuid(["collection", id, "E36", "bibliographie", "uuid"], True))
+				biblio = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "bibliographie", "uuid"], True))
 				t(biblio, a, crm("E31_Document"))
 				t(biblio, RDFS.label, l(img_row[21].value))
 				## E13 Attribute Assignement
-				img_biblio_E13 = she(cache_40CM.get_uuid(["collection", id, "E36", "bibliographie", "E13"], True))
-				t(img_biblio_E13, a, crm("E13_Attribute_Assignement"))
-				t(img_biblio_E13, crm("P14_carried_out_by"),
-				  she("ea287800-4345-4649-af12-7253aa185f3f"))
-				t(img_biblio_E13, crm("P140_assigned_attribute_to"), img_E36)
-				t(img_biblio_E13, crm("P141_assigned"), biblio)
-				t(img_biblio_E13, crm("P177_assigned_property_type"), crm("P70_documents"))
+				gravure_biblio_E13 = she(cache_40CM.get_uuid(["collection", id, "gravure (E36)", "bibliographie", "E13"], True))
+				t(gravure_biblio_E13, a, crm("E13_Attribute_Assignement"))
+				t(gravure_biblio_E13, crm("P14_carried_out_by"),
+				  she("684b4c1a-be76-474c-810e-0f5984b47921"))
+				t(gravure_biblio_E13, crm("P140_assigned_attribute_to"), gravure)
+				t(gravure_biblio_E13, crm("P141_assigned"), biblio)
+				t(gravure_biblio_E13, crm("P177_assigned_property_type"), crm("P70_documents"))
 
 #####################################################################
 # CHOIX DE LA COLLECTION A TRAITER
