@@ -322,7 +322,7 @@ def traitement_images(sous_collection):
 							["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
 						t(article_F2, crm("P148_has_component"), img_E36)
 				except:
-					print("Article contenant la gravure : l'article " + id_article + " est introuvable dans le cache")
+					print("Article contenant la gravure : l'article " + id_article + " est introuvable dans les fichiers TEI")
 
 			## Article annexe à la gravure
 			if img_row[4].value:
@@ -352,7 +352,7 @@ def traitement_images(sous_collection):
 						t(img_E36_seeAlso_P3_E13, crm("P177_assigned_property_type"), crm("P3_has_note"))
 				except:
 					print(
-						"Article annexe à la gravure : l'article " + id_article + " est introuvable dans le cache")
+						"Article annexe à la gravure : l'article " + id_article + " est introuvable dans les fichiers TEI")
 
 			## Lien Gallica
 			if img_row[6].value:
@@ -529,7 +529,7 @@ def traitement_images(sous_collection):
 					t(img_lien_externe_E13, crm("P141_assigned"), lien_externe)
 					t(img_lien_externe_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
 				except:
-					print(img_row[20].value + " n'est pas une URL valide")
+					print("'" + img_row[20].value + "' n'est pas une URL valide")
 
 
 			## Bibliographie relative à la gravure
