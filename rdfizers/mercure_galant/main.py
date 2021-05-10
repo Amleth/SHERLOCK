@@ -11,8 +11,8 @@ from pathlib import Path, PurePath
 from sherlockcachemanagement import Cache
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--tei")  # Je m'attends à trouver tel argument
-parser.add_argument("--output_ttl")  # Je m'attends à trouver tel argument
+parser.add_argument("--tei")
+parser.add_argument("--output_ttl")
 parser.add_argument("--corpus_cache")
 args = parser.parse_args()  # Où sont stockés tous les paramètres passés en ligne de commande
 
