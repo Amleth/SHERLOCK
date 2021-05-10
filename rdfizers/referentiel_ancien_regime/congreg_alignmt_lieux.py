@@ -33,13 +33,5 @@ for id in list:
 		""")
 
 	for row in input_graph.query(q, initBindings={'concept_id': concept_id}):
-		print(row[0])
-
-
-	# lieux = ["vienne [Viennois]", "toul", "toulouse", "ris", "paris"]
-	# congregations = ["evque de vienne", "truc de toul", "truc de toulouse", "truc à ris", "bidule au truc de Paris"]
-	# for lieu in lieux:
-	# 	for congreg in congregations:
-	# 		if re.search(rf"('| de | la | le | a | du )({lieu} )|( {lieu}$)", congreg, re.IGNORECASE):
-	# 			print(lieu, "  -  ", congreg)
+		print("Alignement raté (lieu introuvable dans le cache)  :" + row[0])
 
