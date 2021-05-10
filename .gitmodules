@@ -8,4 +8,4 @@
 	branch = gh-pages
 [submodule "mercure-galant-estampes"]
 	path = mercure-galant-estampes
-	url = git@github.com:Amleth/mercure-galant-estampes.git
+	url = https://github.com/Amleth/mercure-galant-estampes.git
