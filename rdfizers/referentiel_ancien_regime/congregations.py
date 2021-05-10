@@ -211,7 +211,7 @@ def explore(concept, depth):
                                 t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E74_uri)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), she_ns("sheP_désigne"))
+                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
                                 # print(identifier, clef_mercure_article)
@@ -237,7 +237,7 @@ def explore(concept, depth):
                                 t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E74_uri)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), she_ns("sheP_désigne"))
+                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
                                 # print(identifier, clef_mercure_article)
