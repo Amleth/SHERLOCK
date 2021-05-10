@@ -58,7 +58,9 @@ for branche in [
         row += 1
         for i in range(0, depth):
             worksheet.write(row, i, ancestors[i])
+            #print((row, i, ancestors[i]))
         worksheet.write(row, depth, prefLabels[0])
+        #print(row, depth, prefLabels[0])
         ancestors.append(str(prefLabels[0]))
 
         # Narrowers

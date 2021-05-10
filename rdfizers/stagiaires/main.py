@@ -3,10 +3,60 @@ import glob
 import os
 from os import write
 import re
+from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef as u, Literal as l
+from sherlockcachemanagement import Cache
+import yaml
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--racine")
+parser.add_argument("--input_txt")
+parser.add_argument("--output_ttl")
+parser.add_argument("--cache_corpus")
+parser.add_argument("--cache_personnes")
+parser.add_argument("--cache_lieux")
+parser.add_argument("--cache_mots_clefs")
 args = parser.parse_args()
+
+# CACHES
+
+cache_corpus = Cache(args.cache_corpus)
+cache_personnes = Cache(args.cache_personnes)
+cache_lieux = Cache(args.cache_lieux)
+cache_mots_clefs = Cache(args.cache_mots_clefs)
+
+################################################################################
+# Initialisation des graphes
+################################################################################
+
+output_graph = Graph()
+
+crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
+iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
+lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
+
+output_graph.bind("crm", crm_ns)
+output_graph.bind("dcterms", DCTERMS)
+output_graph.bind("lrmoo", lrmoo_ns)
+output_graph.bind("she_ns", iremus_ns)
+
+a = RDF.type
+
+def crm(x):
+    return u(crm_ns[x])
+
+def lrm(x):
+    return u(lrmoo_ns[x])
+
+def she(x):
+    return u(iremus_ns[x])
+
+def t(s, p, o):
+    output_graph.add((s, p, o))
+
+
+################################################################################
+# CONVERSION DES FICHIERS RTF EN TXT
+################################################################################
 
 res = glob.glob(args.racine, recursive=True)
 problems = []
@@ -16,10 +66,10 @@ i = 1
 for f in res:
     try:
         with open(f, 'r') as rtf_file:
-            print('textutil -convert txt ' + f'"{f}"')
+            #print('textutil -convert txt ' + f'"{f}"')
             os.system('textutil -convert txt ' + f'"{f}"')
             txt_file_path = f.replace('.rtf', '.txt')
-            print(txt_file_path)
+            #print(txt_file_path)
             with open(txt_file_path, 'r') as txt_file:
                 lines = txt_file.readlines()
                 new_lines = []
@@ -110,3 +160,30 @@ for f in res:
 print("Fichiers illisibles :", problems)
 with open('clefs.txt', 'w') as f:
     f.write('\n'.join(list(sorted(list(set(clefs))))))
+
+
+################################################################################
+# PARSING DES FICHIERS TXT
+################################################################################
+
+import glob
+
+for file in glob.iglob(args.input_txt + '**/*.txt', recursive=True):
+    with open(file, "r") as f:
+        lines = f.readlines()
+        print(file)
+        #for line in lines:
+            #print(line)
+
+
+####################################################################################
+# ECRITURE DES TRIPLETS
+####################################################################################
+
+serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
+with open(args.output_ttl, "wb") as f:
+    f.write(serialization)
+cache_corpus.bye()
+cache_personnes.bye()
+cache_lieux.bye()
+cache_mots_clefs.bye()

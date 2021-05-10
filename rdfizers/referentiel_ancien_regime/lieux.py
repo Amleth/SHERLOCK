@@ -3,7 +3,7 @@ import hashlib
 import os
 from pathlib import Path, PurePath
 from types import prepare_class
-from rdflib import Graph, Literal, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, URIRef as u, Literal as l
+from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef as u, Literal as l
 import re
 import sys
 import uuid
@@ -53,22 +53,22 @@ a = RDF.type
 
 
 def crm(x):
-    return URIRef(crm_ns[x])
+    return u(crm_ns[x])
 
 
 def dig(x):
-    return URIRef(crmdig_ns[x])
+    return u(crmdig_ns[x])
 
 
 def lrm(x):
-    return URIRef(lrmoo_ns[x])
+    return u(lrmoo_ns[x])
 
 
 def she(x):
-    return URIRef(iremus_ns[x])
+    return u(iremus_ns[x])
 
 def she_ns(x):
-    return URIRef(sherlock_ns[x])
+    return u(sherlock_ns[x])
 
 
 def t(s, p, o):
@@ -221,8 +221,8 @@ def explore(id, depth):
         E53_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E53"], True))
         t(E93_uri, crm("P161_has_spatial_projection"), E53_uri)
 
-        geolat = ro(id, URIRef("http://www.w3.org/2003/01/geo/wgs84_pos#lat"))
-        geolong = ro(id, URIRef("http://www.w3.org/2003/01/geo/wgs84_pos#long"))
+        geolat = ro(id, u("http://www.w3.org/2003/01/geo/wgs84_pos#lat"))
+        geolong = ro(id, u("http://www.w3.org/2003/01/geo/wgs84_pos#long"))
         if geolat and geolong:
             t(E53_uri, crm("P168_place_is_defined_by"), l(f"[{str(geolat)}, {str(geolong)}]"))
 
@@ -247,8 +247,8 @@ indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
 
 # Création des thésaurus "Ancien Régime" et "Noms de lieux"
 
-E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
-E32_lieux_uri = URIRef(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
+E32_ancien_regime_uri = u(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
+E32_lieux_uri = u(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
 t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
 t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
 t(E32_ancien_regime_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_lieux_uri)
@@ -262,12 +262,12 @@ t(E32_lieux_uri, crm("P1_is_identified_by"), Literal("Noms de lieux"))
 
 # Création du thésaurus "Grand Siècle"
 
-E32_grand_siecle_uri = URIRef(iremus_ns["78061430-df57-4874-8334-44ed215a112e"])
+E32_grand_siecle_uri = u(iremus_ns["78061430-df57-4874-8334-44ed215a112e"])
 t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
 t(E32_grand_siecle_uri, crm("P1_is_identified_by"), Literal("Grand Siècle"))
 t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_grand_siecle_uri)
 
-explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
+explore(u("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 
 
 ####################################################################################
@@ -276,12 +276,12 @@ explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 
 # Création du thésaurus "Monde Contemporain"
 
-E32_mon_cont_uri = URIRef(iremus_ns["41dd59e3-2f0c-4ef3-b08c-9606f33a4a48"])
+E32_mon_cont_uri = u(iremus_ns["41dd59e3-2f0c-4ef3-b08c-9606f33a4a48"])
 t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
 t(E32_mon_cont_uri, crm("P1_is_identified_by"), Literal("Monde contemporain"))
 t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_mon_cont_uri)
 
-explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
+explore(u("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
 
 
 ####################################################################################
