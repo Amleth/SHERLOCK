@@ -58,6 +58,8 @@ def t(s, p, o):
 # CONVERSION DES FICHIERS RTF EN TXT
 ################################################################################
 
+"""
+
 res = glob.glob(args.racine, recursive=True)
 problems = []
 clefs = []
@@ -161,19 +163,26 @@ print("Fichiers illisibles :", problems)
 with open('clefs.txt', 'w') as f:
     f.write('\n'.join(list(sorted(list(set(clefs))))))
 
+"""
 
 ################################################################################
 # PARSING DES FICHIERS TXT
 ################################################################################
 
-import glob
-
-for file in glob.iglob(args.input_txt + '**/*.txt', recursive=True):
+for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
     with open(file, "r") as f:
         lines = f.readlines()
-        print(file)
-        #for line in lines:
-            #print(line)
+
+        id_article = file[58:-4]
+
+        try:
+            article = she(cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
+        except:
+            print("L'article " + id_article + " (" + id_livraison + ") est introuvable dans le cache")
+
+        # for line in lines:
+        #     if "personnes=" in line:
+        #         print(line)
 
 
 ####################################################################################
@@ -183,6 +192,7 @@ for file in glob.iglob(args.input_txt + '**/*.txt', recursive=True):
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.output_ttl, "wb") as f:
     f.write(serialization)
+
 cache_corpus.bye()
 cache_personnes.bye()
 cache_lieux.bye()

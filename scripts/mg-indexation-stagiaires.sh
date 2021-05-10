@@ -1,4 +1,4 @@
-python3 ./rdfizers/stagiaires/main.py \
+python3 ./rdfizers/mercure_galant_indexation_stagiaires/main.py \
     --racine "./sources/mercure-galant/indexation-stagiaires/**/*.rtf" \
     --input_txt "./sources/mercure-galant/indexation-stagiaires/" \
     --output_ttl "./out/referentiel_ancien_regime/indexation_stagiaires.ttl" \
