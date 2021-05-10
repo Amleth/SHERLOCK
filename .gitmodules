@@ -9,3 +9,4 @@
 [submodule "mercure-galant-estampes"]
 	path = mercure-galant-estampes
 	url = https://github.com/Amleth/mercure-galant-estampes.git
+	branch = main
