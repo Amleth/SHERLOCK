@@ -1,0 +1,6 @@
+mots clés=sifflet
+oeuvres citées=auteur non identifié, Rondeau de mon sifflet belle Intendante
+personnes=38581
+personnages=Apollon
+mots clés=lyre
+mots clés=instrument de musique

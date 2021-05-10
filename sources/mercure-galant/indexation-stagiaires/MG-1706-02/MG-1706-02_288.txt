@@ -1,0 +1,9 @@
+mots clés=carnaval
+mots clés=bal
+lieux=2929
+lieux=105
+lieux=69
+personnes=82515
+personnes=294353
+personnes=82527
+personnes=hardouin-mansart_jules_(1646-1708)

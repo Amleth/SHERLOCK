@@ -1,0 +1,15 @@
+personnes=83097
+personnes=83133
+personnes=83137
+personnes=83141
+congrégations=jesuites_de_toulouse
+mots clés=lettre
+mots clés=célébration d'une naissance princière
+mots clés=réjouissances publiques
+mots clés=éloge
+mots clés=tambour
+mots clés=trompette
+mots clés=illuminations
+lieux=453
+lieux=461
+lieux=294643

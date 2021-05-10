@@ -1,0 +1,11 @@
+personnes=eveque_de_babylone_(169708)
+personnes=83437
+mots clés=Te Deum laudamus
+mots clés=voyage officiel
+mots clés=diplomatie
+mots clés=catholicisme
+mots clés=éloge
+mots clés=mission
+mots clés=cloche
+lieux=1447
+lieux=294939

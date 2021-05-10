@@ -1,0 +1,9 @@
+MG-1701-09_369
+personnes=jacques_ii_(1633-1701)_roi_dangleterre
+mots clés=décès
+mots clés=cérémonie funèbre
+lieux=201
+congrégations=recollets_de_saint-germain-en-laye
+congrégations=275614
+mots clés=musique à deux chœurs
+mots clés=psalmodie

@@ -1,0 +1,16 @@
+MG-1704-09_107
+personnes=toscane_cosme_iii_(1642-1723)_grand_duc_de
+personnes=medicis_francesco_maria_de_(1660-1711)
+personnes=toscane_ferdinand_iii_(1663-1713)_prince_de
+personnes=toscane_violante-beatrice_de_baviere_(1673-1731)_grande_duchesse_de
+personnes=79528
+personnes=ambassadeur_de_la_republique_de_lucques_(169903)
+personnes=83023
+mots clés=Te Deum laudamus
+mots clés=feu d’artifice
+mots clés=illuminations
+mots clés=trompette
+mots clés=timbales
+lieux=1724
+lieux=1728
+institutions=294311

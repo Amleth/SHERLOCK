@@ -1,0 +1,5 @@
+personnes=38572
+oeuvres citées=Villemont, M. de, Narcisse ou le ridicule de l’amour propre
+mots clés=instrument de musique
+mots clés=luth
+personnages=Narcisse

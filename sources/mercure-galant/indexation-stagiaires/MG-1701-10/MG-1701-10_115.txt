@@ -1,0 +1,12 @@
+MG-1701-10_115
+lieux=2733
+mots clés=Nativité de la Vierge
+lieux=293709
+personnes=81851
+mots clés=plain chant
+mots clés=messe solennelle
+mots clés=messe en musique
+mots clés=tambour
+mots clés=fifre
+mots clés=trompette
+mots clés=timbales

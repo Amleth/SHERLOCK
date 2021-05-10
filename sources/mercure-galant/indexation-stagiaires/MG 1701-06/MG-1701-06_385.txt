@@ -1,0 +1,12 @@
+personnes=tamiriste
+personnes=15728
+mots clés=air
+mots clés=mise en air
+mots clés=clavecin
+mots clés=divertissement
+mots clés=réception d'oeuvre
+mots clés=petit opéra (idyles, églogues)
+mots clés=disposition pour la musique
+oeuvres citées=Bataille, Mlle., Narcisse
+Termes à créer:
+mots clés=divertissement

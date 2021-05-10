@@ -1,0 +1,17 @@
+MG-1704-09_5
+personnes=82327
+personnes=bousset_jean-baptiste_drouard_de_(1662-1725)
+personnes=48422
+personnes=dromesnil_charles-françois_dhallencourt_de_(1675-1754)
+personnes=rohan-soubise_armand-gaston-maximilien_de_(1674-1749)
+mots clés=Te Deum laudamus en musique
+mots clés=messe
+mots clés=Panégyrique de Saint-Louis
+mots clés=motet
+lieux=122
+lieux=19
+lieux=294191
+institutions=academie_francaise
+institutions=academie_royale_des_inscriptions_et_belles-lettres
+institutions=aumonier_du_roi
+institutions=academie_royale_des_sciences

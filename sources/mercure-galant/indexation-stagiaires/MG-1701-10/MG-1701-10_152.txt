@@ -1,0 +1,20 @@
+MG-1701-10_152
+lieux=1649
+personnes=81852
+personnes=81857
+personnes=81863
+personnes=81859
+lieux=293708
+mots clés=cérémonie privée
+mots clés=baptême
+institutions=Recteur du Collège d’Espagne, Bologne
+personnes=81941
+mots clés=concert privé
+mots clés=symphonie
+mots clés=tambour
+mots clés=trompette
+mots clés=timbale
+mots clés=hautbois
+lieux=293731
+mots clés=bal
+mots clés=jeux

@@ -1,0 +1,10 @@
+personnes=le_tellier_charles-maurice_(1642-1710)
+personnes=83445
+congrégations=Genovefains_de_labbaye_royale_de_Sainte-Genevieve_de_Paris
+mots clés=testament
+mots clés=décès
+mots clés=office des morts
+mots clés=service funèbre
+mots clés=service solennel
+mots clés=messe
+lieux=294883

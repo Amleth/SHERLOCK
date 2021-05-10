@@ -1,0 +1,12 @@
+personnes=bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de
+personnes=82917
+personnes=28108
+personnes=82923
+mots clés=réception publique
+mots clés=réjouissances publiques
+mots clés=galanterie
+mots clés=tambour
+mots clés=violon
+mots clés=musique de plein air
+mots clés=musique instrumentale
+lieux=294511

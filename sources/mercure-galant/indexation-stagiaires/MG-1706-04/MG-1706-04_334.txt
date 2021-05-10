@@ -1,0 +1,18 @@
+personnes=dodart_denis_(1634-1707)
+institutions=academie_royale_des_sciences
+mots clés=dissertation
+mots clés=qualité vocale
+mots clés=tons de la musique
+mots clés=interprétation vocale
+mots clés=art du chant
+mots clés=voix humaine
+mots clés=disposition pour la musique
+mots clés=fausse voix
+mots clés=voix aiguë
+mots clés=voix de fausset
+mots clés=voix pleine
+Termes à créer
+mots clés=fausse voix
+mots clés=voix aiguë
+mots clés=voix de fausset
+mots clés=voix pleine

@@ -1,0 +1,8 @@
+personnes=louis_xv_(1710-1774)_roi_de_france
+institutions=294981
+mots clés=Te Deum laudamus en musique
+mots clés=célébration d'une naissance princière
+mots clés=musique religieuse
+mots clés=musique de cérémonie religieuse
+mots clés=obtention d’un titre
+lieux=1966

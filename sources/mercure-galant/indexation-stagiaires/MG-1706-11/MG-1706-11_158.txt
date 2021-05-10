@@ -1,0 +1,9 @@
+personnes=stuart_jacques-françois_(1688-1766)
+personnes=83491
+congrégations=294149
+mots clés=messe
+mots clés=reliques
+mots clés=décoration d'église
+lieux=294509
+lieux=167
+lieux=113

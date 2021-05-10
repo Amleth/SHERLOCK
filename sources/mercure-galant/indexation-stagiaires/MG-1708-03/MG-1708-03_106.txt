@@ -1,0 +1,13 @@
+mots clés=lettre
+personnes=santeuil_jean_de_(1630-1697)
+mots clés=éloge
+mots clés=éloge d’un auteur
+mots clés=hymne
+mots clés=latin
+mots clés=éloge en vers
+mots clés=musique religieuse
+mots clés=musique vocale
+mots clés=sonnet
+mots clés=épigramme
+mots clés=rondeau
+mots clés=anagramme

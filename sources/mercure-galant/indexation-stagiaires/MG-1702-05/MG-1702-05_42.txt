@@ -1,0 +1,12 @@
+personnes=lheritier_de_villandon_marie-jeanne_(1664-1734)
+oeuvres citées=Mlle Lheritier, Jean de Vert
+mots clés=chanson
+mots clés=poésie
+mots clés=ode
+mots clés=idylle
+mots clés=élégie
+mots clés=éloge d’un auteur
+mots clés=carrière artistique
+mots clés=épitre
+mots clés=trompette
+mots clés=chansonnette

@@ -1,0 +1,10 @@
+personnes=bracciane_anne-marie_de_la_tremoille-noirmoutier_(1642_av-1722)_duchesse_de
+mots clés=voyage princier
+mots clés=réception d'une princesse
+mots clés=réjouissances publiques
+mots clés=feu d'artifice
+mots clés=jeu
+mots clés=danse populaire
+mots clés=musique de plein air
+lieux=2114
+lieux=794

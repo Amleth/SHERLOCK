@@ -1,0 +1,10 @@
+personnes=83427
+personnes=83423
+personnes=83417
+mots clés=cérémonie
+mots clés=baptême d'une cloche
+mots clés=réception officielle
+mots clés=tambour
+mots clés=trompette
+mots clés=compliment
+lieux=294977

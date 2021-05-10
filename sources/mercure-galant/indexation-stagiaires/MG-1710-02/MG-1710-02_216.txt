@@ -1,0 +1,13 @@
+mots clés=vie académique
+mots clés=élection d'un académicien
+personnes=houdar_de_la_motte_antoine_(1672-1731)
+mots clés=opéra
+oeuvres citées=Antoine Houdar de La Motte, L’Europe galante
+oeuvres citées=Antoine Houdar de La Motte, Issé
+oeuvres citées=Antoine Houdar de La Motte, Omphale
+oeuvres citées=Antoine Houdar de La Motte, Amadis de Grèce
+oeuvres citées=Antoine Houdar de La Motte, Ceyx et Alcione
+oeuvres citées=Antoine Houdar de La Motte, Canente
+oeuvres citées=Antoine Houdar de La Motte, Les Arts
+oeuvres citées=Antoine Houdar de La Motte, Jupiter et Semelé
+mots clés=théâtre

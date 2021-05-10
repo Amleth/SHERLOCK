@@ -1,0 +1,13 @@
+MG-1707-11-12_294
+personnes=berry_charles_de_bourbon_(1686-1714)_duc_de
+personnes=matho_jean-baptiste
+personnes=toulouse_louis-alexandre_de_bourbon_(1678-1737)_comte_de
+personnes=bourgogne_louis_de_france_(1682-1712)_duc_de
+personnes=louis_dauphin_de_france_(1661-1711)
+mots clés=concert
+mots clés=motet
+mots clés=messe
+mots clés=opéra
+mots clés=divertissement
+mots clés=air italien
+lieux=262320

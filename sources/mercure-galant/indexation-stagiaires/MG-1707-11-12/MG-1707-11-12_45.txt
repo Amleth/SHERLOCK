@@ -1,0 +1,11 @@
+MG-1707-11-12_45
+personnes=ivry-sur-seine_claude_bosc_(1642-1715)_seigneur_d
+personnes=82943
+personnes=Rosanbo, Louis II Urbain le Peletier (1662-1730), marquis de
+mots clés=messe
+mots clés=messe rouge
+lieux=PARIS, Palais de la Cité, grande salle
+lieux=PARIS, Cours des Aides, chapelle
+lieux=PARIS, Séminaire Saint-Nicolas du Chardonnet > dans thésaurus
+institutions=Musique de la Sainte-Chapelle
+institutions=parlement_de_paris

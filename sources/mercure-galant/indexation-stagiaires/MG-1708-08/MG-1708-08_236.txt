@@ -1,0 +1,12 @@
+mots clés=fête
+mots clés=fête religieuse
+lieux=167
+mots clés=reliques
+mots clés=procession
+congrégations=dominicains_du_grand_couvent_de_paris
+personnes=louis_ix_(1214-1270)_roi_de_france
+mots clés=messe
+mots clés=messe en musique
+congrégations=294163
+personnes=83293
+mots clés=discours public

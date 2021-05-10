@@ -1,0 +1,16 @@
+personnes=nevers_philippe-julien_mancini_(1639-1707)_duc_de
+personnes=83113
+personnes=83131
+personnes=83117
+institutions=294851
+congrégations=chapitre_de_la_cathedrale_saint-cyr-et-sainte-julitte_de_nevers
+mots clés=translation de coeur
+mots clés=décor éphémère
+mots clés=pompe funèbre
+mots clés=illuminations
+mots clés=éloge funèbre
+mots clés=décoration d'église
+mots clés=messe en musique
+mots clés=musique de cérémonie funèbre
+lieux=292960
+lieux=2409

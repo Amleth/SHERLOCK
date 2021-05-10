@@ -1,0 +1,11 @@
+mots clés=cantate
+personnes=48408
+mots clés=interprète
+mots clés=air instrumental
+mots clés=musique
+mots clés=effets de la musique
+mots clés=étude de la musique
+mots clés=instrument de musique
+mots clés=remède
+mots clés=maladie
+mots clés=danse

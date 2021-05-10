@@ -1,0 +1,14 @@
+personnes=jacquet_de_la_guerre_elisabeth_(1665-1729)
+mots clés=disposition pour la musique
+mots clés=annonce éditoriale
+mots clés=ouvrage de musique
+mots clés=clavecin
+mots clés=violon
+mots clés=étude de la musique
+personnes=82883
+personnes=louis_xiv_(1638-1715)_roi_de_france
+lieux=2909
+personnes=marchand_louis_(1669-1732)
+personnes=marchand_jean-noel_i_(1666-1710)
+personnes=marchand_pierre-nicolas_(1682-)
+mots clés=dîner

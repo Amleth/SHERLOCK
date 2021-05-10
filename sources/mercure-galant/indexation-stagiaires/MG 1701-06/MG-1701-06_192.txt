@@ -1,0 +1,21 @@
+personnes=philippe_v_(1683-1746)_roi_despagne
+personnes=portocarrero-bocanegra_y_moscoso-osorio_luis_manuel_fernandez_de_(1635-1709)
+personnes=81347
+personnes=81360
+mots clés=messe en musique
+mots clés=musique de cérémonie religieuse
+mots clés=autosacramental
+mots clés=musique de plein air
+mots clés=procession du Saint-Sacrement
+mots clés=messe en musique
+mots clés=procession
+lieux=796
+lieux=794
+lieux=800
+congrégations=293763
+congrégations=293793
+congrégations=293797
+institutions=293148
+institutions=293961
+Termes à créer:
+mots clés=auto sacramental

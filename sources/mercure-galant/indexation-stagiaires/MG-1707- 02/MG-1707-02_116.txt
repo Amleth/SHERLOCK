@@ -1,0 +1,17 @@
+personnes=82969
+personnes=saint-georges_claude_de_(1630-1714)
+personnes=82971
+personnes=82975
+personnes=82977
+mots clés=sacre
+mots clés=sacre d'un évêque
+mots clés=reliques
+mots clés=messe
+mots clés=musique religieuse
+mots clés=musique de cérémonie religieuse
+mots clés=plain-chant
+mots clés=interprétation vocale
+mots clés=musique vocale
+mots clés=coutume locale
+mots clés=coutume musicale
+lieux=540

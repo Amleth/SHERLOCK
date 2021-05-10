@@ -1,0 +1,12 @@
+personnes=louis_xiv_(1638-1715)_roi_de_france
+personnes=14611
+personnes=15727
+personnes=louis_dauphin_de_france_(1661-1711)
+personnes=bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de
+mots clés=jubilé
+mots clés=réception d'un gouverneur
+mots clés=éloge du roi
+mots clés=messe en musique
+mots clés=messe solennelle
+lieux=94
+lieux=15

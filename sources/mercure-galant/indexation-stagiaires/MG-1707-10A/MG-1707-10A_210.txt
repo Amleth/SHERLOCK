@@ -1,0 +1,11 @@
+personnes=83097
+personnes=83259
+personnes=nicolin_jean_(1660_ca-1709)
+mots clés=naissance d'un prince
+mots clés=célébration d'une naissance princière
+mots clés=réjouissances publiques
+mots clés=Te Deum laudamus en musique
+mots clés=lettre
+mots clés=devise
+mots clés=éloge d'un prince
+lieux=409

@@ -6,3 +6,6 @@
 	path = mercure-galant
 	url = https://github.com/OBVIL/mercure-galant.git
 	branch = gh-pages
+[submodule "mercure-galant-estampes"]
+	path = mercure-galant-estampes
+	url = git@github.com:Amleth/mercure-galant-estampes.git

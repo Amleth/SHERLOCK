@@ -1,0 +1,10 @@
+personnes=38611
+mots clés=bénédiction de la première pierre d'un édifice
+mots clés=fête de Saint-Louis
+mots clés=messe
+mots clés=Te Deum laudamus en musique
+mots clés=Exaudiat te Dominus en musique
+mots clés=procession
+mots clés=réjouissances publiques
+mots clés=latin
+lieux=225182

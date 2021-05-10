@@ -1,0 +1,9 @@
+personnes=philippe_v_(1683-1746)_roi_despagne
+personnes=14501
+institutions=294443
+mots clés=lettre au lecteur
+mots clés=revue militaire
+mots clés=timbale
+mots clés=trompette
+lieux=804
+lieux=795

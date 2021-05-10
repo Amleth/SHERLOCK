@@ -1,0 +1,7 @@
+mots clés=ode
+personnes=bourgogne_louis_de_france_(1682-1712)_duc_de
+personnes=philippe_v_(1683-1746)_roi_despagne
+personnes=berry_charles_de_bourbon_(1686-1714)_duc_de
+personnes=81348
+lieux=1358
+mots clés=lyre

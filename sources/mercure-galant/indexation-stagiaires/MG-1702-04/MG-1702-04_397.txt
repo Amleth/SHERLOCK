@@ -1,0 +1,6 @@
+personnes=philippe_v_(1683-1746)_roi_despagne
+personnes=15729
+mots clés=chanson
+mots clés=paroles adaptées à un air
+mots clés=voyage princier
+lieux=1623

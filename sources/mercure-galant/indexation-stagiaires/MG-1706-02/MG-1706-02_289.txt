@@ -1,0 +1,9 @@
+personnes=vendome_louis-joseph_de_bourbon_(1654-1712)_duc_de
+lieux=2909
+personnes=louis_xiv_(1638-1715)_roi_de_france
+personnes=louis_dauphin_de_france_(1661-1711)
+mots clés=compliment
+lieux=294349
+personnes=14611
+mots clés=souper
+lieux=294355

@@ -1,0 +1,15 @@
+lieux=276175
+mots clés=messe
+personnes=hardouin-mansart_jules_(1646-1708)
+personnes=louis_xiv_(1638-1715)_roi_de_france
+personnes=bourgogne_louis_de_france_(1682-1712)_duc_de
+mots clés=architecture
+mots clés=peinture
+mots clés=sculpture
+mots clés=cérémonies publiques et religieuses
+mots clés=décoration d’église
+mots clés=compliment
+personnes=noailles_louis-antoine_de_(1651-1729)
+mots clés=musicien
+mots clés=Te Deum laudamus en musique
+mots clés=Exaudiat te Dominus en musique

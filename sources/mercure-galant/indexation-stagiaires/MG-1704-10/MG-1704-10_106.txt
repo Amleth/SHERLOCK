@@ -1,0 +1,10 @@
+personnes=49674
+personnes=48422
+mots clés=réception d'oeuvre
+mots clés=naissance d'un prince
+mots clés=éloge d'un prince
+mots clés=éloge du roi
+mots clés=histoire de la musique
+mots clés=origine de la musique
+mots clés=épitre en vers
+mots clés=disposition pour la poésie

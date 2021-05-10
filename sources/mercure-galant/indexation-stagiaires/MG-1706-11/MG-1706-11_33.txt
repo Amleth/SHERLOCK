@@ -1,0 +1,6 @@
+personnes=14513
+mots clés=guerre
+mots clés=revue militaire
+mots clés=carrière
+mots clés=trompette
+mots clés=affaires militaires

@@ -1,0 +1,13 @@
+MG-1706-10_354
+personnes=torcy_jean-baptiste_colbert_(1665-1746)_marquis_de
+personnes=louis_dauphin_de_france_(1661-1711)
+personnes=noailles_anne-jules_(1650-1708)_duc_de
+personnes=orleans_philippe_ii_(1674-1723)_duc_d
+personnes=bayern_von_wittelsbach_joseph_clemens_(1671-1723)
+mots clés=concert
+mots clés=musiciens
+mots clés=divertissement
+lieux=2912
+lieux=227
+lieux=2808
+lieux=2807

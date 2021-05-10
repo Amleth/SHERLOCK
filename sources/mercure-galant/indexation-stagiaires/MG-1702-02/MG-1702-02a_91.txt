@@ -1,0 +1,12 @@
+MG-1702-02a_91
+lieux=444
+personnes=louis_xiv_(1638-1715)_roi_de_france
+personnes=bourgogne_louis_de_france_(1682-1712)_duc_de
+personnes=berry_charles_de_bourbon_(1686-1714)_duc_de
+personnes=louis_viii_(1187-1226)_roi_de_france
+mots clés=cérémonie publique
+mots clés=divertissement royal
+mots clés=Poulain
+mots clés=hautbois
+mots clés=tambour
+mots clés=machine

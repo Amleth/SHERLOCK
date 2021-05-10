@@ -1,0 +1,11 @@
+personnes=philippe_v_(1683-1746)_roi_despagne
+personnes=14501
+personnes=calderón_de_la_barca_pedro_(1600-1681)
+mots clés=Fête-Dieu
+mots clés=Auto sacramental
+mots clés=interprétation dramatique
+mots clés=représentation théâtrale
+mots clés=réception d'une oeuvre dramatique
+mots clés=disposition pour la poésie
+mots clés=réception d'oeuvre
+lieux=795

@@ -1,0 +1,23 @@
+MG-1704-09_71
+personnes=70431
+personnes=82933
+mots clés=grand-messe
+mots clés=Te Deum
+mots clés=fanfare
+mots clés=tambours
+mots clés=feu d’artifice
+mots clés=fusées
+mots clés=pétard
+mots clés=cloche
+mots clés=comédie-ballet
+mots clés=comédie mêlée de musique
+mots clés=fête royale
+lieux=459
+lieux=294481
+congrégations=278026
+congrégations=doctrinaire
+institutions=guet_de_toulouse
+institutions=capitoul_de_toulouse
+institutions=premier_president_au_parlement_de_toulouse
+institutions=parlement_de_toulouse
+oeuvres citées=Le berceau de Daphnis

@@ -1,0 +1,11 @@
+lieux=2909
+mots clés=carnaval
+personnes=stuart_jacques-françois_(1688-1766)
+personnes=modene_marie-beatrice_de_(1658-1718)_reine_dangleterre
+personnes=82423
+mots clés=souper
+mots clés=masque
+personnes=bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de
+personnes=conde_louis_iii_de_bourbon_(1668-1710)_prince_de
+mots clés=bal
+lieux=202

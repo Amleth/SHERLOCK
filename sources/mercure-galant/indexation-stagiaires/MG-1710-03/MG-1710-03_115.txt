@@ -1,0 +1,12 @@
+personnes=83443
+personnes=83441
+personnes=83421
+personnes=83435
+mots clés=exposition du Saint-Sacrement
+mots clés=carnaval
+mots clés=fondation perpétuelle
+mots clés=prière
+mots clés=messe en musique
+mots clés=sermon
+mots clés=vêpres en musique
+lieux=294081

@@ -1,0 +1,7 @@
+personnes=baviere_maximilien_ii_emmanuel_de_(1662-1726)
+personnes=bayern_von_wittelsbach_joseph_clemens_(1671-1723)
+lieux=2699
+mots clés=comédie allemande
+mots clés=bal
+mots clés=jeu
+mots clés=chasse

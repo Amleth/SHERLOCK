@@ -1,0 +1,7 @@
+oeuvres citées=Theobaldo di Gatti, Scylla
+personnes=82095
+mots clés=opéra
+mots clés=tragédie en musique
+mots clés=tragédie lyrique
+mots clés=réception d’une oeuvre musicale
+personnes=82097

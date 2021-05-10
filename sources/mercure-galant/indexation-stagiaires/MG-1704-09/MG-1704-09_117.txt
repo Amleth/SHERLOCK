@@ -1,0 +1,13 @@
+MG-1704-09_117
+personnes=82959
+personnes=82951
+mots clés=illuminations
+mots clés=feu d’artifice
+mots clés=Te Deum laudamus en musique
+mots clés=Assomption
+mots clés=Palio
+mots clés=boëtes
+lieux=294523
+lieux=294525
+lieux=1734
+congrégations=294515

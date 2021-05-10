@@ -1,0 +1,11 @@
+personnes=buckingham_georg_villiers_ii_(1628-1687)_duc_de
+personnes=82283
+mots clés=comédie anglaise
+mots clés=représentation théâtrale
+mots clés=réception d'une oeuvre dramatique
+mots clés=publication de poésie
+mots clés=publication nouvelle
+mots clés=réception d'oeuvre
+mots clés=goût national
+oeuvres citées=Georg Villiers, The rehearsal
+lieux=618

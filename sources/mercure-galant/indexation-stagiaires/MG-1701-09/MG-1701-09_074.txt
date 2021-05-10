@@ -1,0 +1,6 @@
+MG-1701-09_074
+personnes=brossard_de_montaney_jacques_(1638-1702)
+lieux=1924
+personnes=philippe_v_(1683-1746)_roi_despagne
+mots clés=concert public
+mots clés=air

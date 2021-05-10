@@ -1,0 +1,10 @@
+personnes=82919
+mots clés=décès
+mots clés=éloge funèbre
+mots clés=goût musical
+mots clés=concert privé
+mots clés=motet
+mots clés=musique vocale
+mots clés=interprétation vocale
+lieux=294507
+lieux=22

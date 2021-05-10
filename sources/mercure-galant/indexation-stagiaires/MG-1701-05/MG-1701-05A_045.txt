@@ -1,0 +1,8 @@
+oeuvres citées=Lully, Bellérophon
+oeuvres citées=Lully, Psyché
+mots clés=lettre
+mots clés=diction
+mots clés=langue française
+mots clés=diction
+mots clés=opéra
+mots clés=voix humaine

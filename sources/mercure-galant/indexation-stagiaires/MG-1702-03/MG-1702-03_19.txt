@@ -1,0 +1,10 @@
+oeuvres citées=Fargues, Raimond, Sur le jour du jugement
+personnes=81855
+mots clés=trompette
+mots clés=poésie
+mots clés=poésie allégorique
+mots clés=catholicisme
+mots clés=type de texte
+mots clés=spirituel
+mots clés=discours, examens, observations, sentiments
+mots clés=approbation religieuse

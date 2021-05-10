@@ -1,0 +1,10 @@
+personnes=14501
+institutions=294847
+mots clés=vie privée
+mots clés=réjouissances publiques
+mots clés=cloche
+mots clés=illuminations
+mots clés=Te Deum laudamus en musique
+mots clés=éloge d'une princesse
+lieux=794
+lieux=795

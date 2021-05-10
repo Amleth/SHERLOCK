@@ -1,0 +1,12 @@
+lieux=294767
+congrégations=294777
+personnes=le_goux_de_la_berchere_charles_(1647-1719)
+mots clés=réjouissances publiques
+mots clés=fête
+personnes=82309
+mots clés=compliment
+mots clés=discours public
+mots clés=ode
+mots clés=sonnet
+mots clés=rondeau
+mots clés=épigramme

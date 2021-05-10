@@ -1,0 +1,15 @@
+personnes=louis_dauphin_de_france_(1661-1711)
+personnes=stuart_jacques-françois_(1688-1766)
+personnes=bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de
+personnes=berry_charles_de_bourbon_(1686-1714)_duc_de
+personnes=conti_marie-anne_de_bourbon_(1666-1739)_princesse_de
+personnes=lully_jean-baptiste_(1632-1687)
+personnes=corneille_thomas_(1625-1709)
+mots clés=dîner
+mots clés=opéra français
+mots clés=représentation d'oeuvre
+mots clés=goût du public d'opéra
+mots clés=réception d'une oeuvre musicale
+lieux=2912
+lieux=2938
+oeuvres citées=Lully, Bellerophon

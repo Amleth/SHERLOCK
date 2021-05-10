@@ -1,0 +1,7 @@
+MG-1702-02a_284
+personnes=orleans_philippe_i_(1640-1701)_duc_d
+personnes=louis_xiv_(1638-1715)_roi_de_france
+mots clés=décès
+mots clés=service solennel
+mots clés=cérémonie funèbre
+institutions=penitents_bleus_de_toulouse

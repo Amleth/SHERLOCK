@@ -1,0 +1,17 @@
+personnes=philippe_v_(1683-1746)_roi_despagne
+personnes=83017
+personnes=orleans_philippe_ii_(1674-1723)_duc_d
+personnes=83395
+personnes=baviere_maximilien_ii_emmanuel_de_(1662-1726)
+personnes=83397
+mots clés=lettre
+mots clés=affaires militaires
+mots clés=guerre
+mots clés=victoire militaire
+mots clés=opéra
+mots clés=célébration d'une victoire militaire
+mots clés=public de l'opéra
+mots clés=réjouissances publiques
+mots clés=théâtre d'opéra
+lieux=2938
+lieux=2929

@@ -1,0 +1,9 @@
+1706-05_319
+personnes=83119
+personnes=82401
+mots clés=fête de la Saint-Jean
+mots clés=Te Deum laudamus
+mots clés=offices liturgiques
+lieux=294313
+lieux=2944
+institutions=294639

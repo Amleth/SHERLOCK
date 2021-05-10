@@ -1,0 +1,10 @@
+mots clés=réjouissance
+mots clés=célébration d’une naissance princière
+mots clés=83097
+lieux=1084
+mots clés=Te Deum laudamus en musique
+lieux=1085
+personnes=bayern_von_wittelsbach_joseph_clemens_(1671-1723)
+lieux=2699
+mots clés=fête
+lieux=294665

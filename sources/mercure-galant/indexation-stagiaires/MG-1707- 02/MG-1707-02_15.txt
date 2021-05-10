@@ -1,0 +1,16 @@
+personnes=82929
+personnes=louis_xiv_(1638-1715)_roi_de_france
+personnes=82973
+institutions=295089
+mots clés=célébration d'une naissance princière
+mots clés=naissance d'un prince
+mots clés=loterie
+mots clés=salut
+mots clés=service solennel
+mots clés=exposition du Saint-Sacrement
+mots clés=Te Deum laudamus en musique
+mots clés=illuminations
+mots clés=décoration d'église
+mots clés=décor éphémère
+mots clés=bénédiction du Saint-Sacrement
+lieux=126

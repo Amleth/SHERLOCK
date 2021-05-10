@@ -1,0 +1,7 @@
+mots clés=guitare
+oeuvres citées=François Campion, Nouvelles découvertes sur la Guitarre, contenantes plusieurs pieces sur huit manieres differentes d’accoder
+personnes=82279
+mots clés=accord des instruments
+mots clés=instrument de musique
+mots clés=actualité musicale
+mots clés=livre nouveau

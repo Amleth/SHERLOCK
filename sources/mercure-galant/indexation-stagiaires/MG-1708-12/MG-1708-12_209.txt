@@ -1,0 +1,9 @@
+mots clés=réception d'une oeuvre
+mots clés=réception d'une oeuvre dramatique
+personnes=aubigny_antoine_de_la_fosse_(1653-1708)_sieur_d
+oeuvres citées=Antoine de la Fosse, Polixene
+oeuvres citées=Antoine de la Fosse, Manlius
+oeuvres citées=Antoine de la Fosse, Thesée
+oeuvres citées=Antoine de la Fosse, Coresus
+mots clés=tragédie
+personnes=louis_dauphin_de_france_(1661-1711)

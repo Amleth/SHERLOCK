@@ -1,0 +1,13 @@
+personnes=83341
+personnes=83339
+personnes=83377
+mots clés=lettre
+mots clés=prononciation de voeux
+mots clés=éloge d'un saint
+mots clés=miracle
+mots clés=messe
+mots clés=Te Deum laudamus
+mots clés=prière
+mots clés=latin
+mots clés=Ecce crucem Domini
+lieux=294845

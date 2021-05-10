@@ -1,0 +1,13 @@
+personnes=83049
+personnes=83097
+mots clés=célébration d'une naissance princière
+mots clés=réjouissances publiques
+mots clés=feu d'artifice
+mots clés=trompette
+mots clés=fifre
+mots clés=tambour
+mots clés=illuminations
+mots clés=souper
+mots clés=bal
+mots clés=siège de Toulon
+lieux=2689

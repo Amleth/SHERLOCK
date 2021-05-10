@@ -1,0 +1,10 @@
+personnes=82253
+congrégations=294287
+mots clés=décès
+mots clés=éloge posthume
+mots clés=établissement d'une communauté religieuse
+mots clés=orgue
+mots clés=enseignement de la musique
+mots clés=musique religieuse
+mots clés=coutume religieuse
+lieux=294209

@@ -1,0 +1,6 @@
+personnes=lheritier_de_villandon_marie-jeanne_(1664-1734)
+personnes=81363
+mots clés=idylle
+mots clés=lyre
+mots clés=églogue
+mots clés=chanson

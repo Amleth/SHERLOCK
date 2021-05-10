@@ -1,0 +1,16 @@
+personnes=neuchâtel_marie_dorleans-longueville_(1625-1707)_princesse_de
+mots clés=lettre
+mots clés=fête
+mots clés=réjouissances publiques
+mots clés=célébration du retour de la santé
+mots clés=interprétation musicale
+mots clés=interprétation vocale
+mots clés=art du chant
+mots clés=composition d'oeuvre musicale
+mots clés=musique de plein air
+mots clés=repas
+mots clés=illuminations
+mots clés=bal
+lieux=294501
+lieux=294499
+lieux=557

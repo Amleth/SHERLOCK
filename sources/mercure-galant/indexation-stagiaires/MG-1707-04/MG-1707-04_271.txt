@@ -1,0 +1,8 @@
+MG-1707-04_271
+personnes=83287
+personnes=ballard_christophe_(1641-1715)
+personnes=foucault_henri
+mots clés=flûte d’Allemagne
+mots clés=flûte douce
+mots clés=hautbois
+oeuvres citées=Jacques Hotteterre, Principes de la Flûte Traversière, ou Flûte d’Allemagne, de la Flûte à Bec et du Hautbois

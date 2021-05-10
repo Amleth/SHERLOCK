@@ -1,0 +1,15 @@
+MG-1707-07_142
+personnes=philippe_v_(1683-1746)_roi_despagne
+personnes=Amarante, García Ozores y Sotomayor (1644-1712), conde de
+personnes=Jovenazo, Domingo Judice (fl.1681), duque de
+personnes=83121
+mots clés=messe
+mots clés=décoration d’église
+mots clés=pompe funèbre
+mots clés=grand-messe
+mots clés=Nocturne
+mots clés=musique de cérémonie funèbre
+mots clés=cérémonie funèbre
+lieux=794
+lieux=MADRID, Collège impérial, église
+congrégations=293797

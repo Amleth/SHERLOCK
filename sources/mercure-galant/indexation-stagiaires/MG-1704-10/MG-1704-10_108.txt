@@ -1,0 +1,6 @@
+lieux=294201
+mots clés=comédie
+mots clés=acteur
+mots clés=représentation théâtrale
+mots clés=réception d'une oeuvre dramatique
+mots clés=versification libre

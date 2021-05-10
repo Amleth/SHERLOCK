@@ -149,7 +149,7 @@ for file in os.listdir(args.tei):
     g.add((livraison_F2_tei_E42, URIRef(crm_ns["P2_has_type"]),
            URIRef(iremus_ns["219fd53d-cdf2-4174-8d71-6d12bdd24016"])))
     g.add((livraison_F2_tei_E42, RDFS.label,
-           URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/MG-{file[3:-4]}.tei")))
+           URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/MG-{file[3:-4]}.xml")))
 
     # Identifiant de la TEI
     livraison_F2_tei_E42_id = she(

@@ -1,0 +1,13 @@
+personnes=82929
+personnes=83115
+mots clés=naissance d'un prince
+mots clés=célébration d'une naissance princière
+mots clés=opéra spirituel
+mots clés=composition d'oeuvre musicale
+mots clés=représentation d'oeuvre
+mots clés=réception d'oeuvre
+mots clés=goût du public d'opéra
+mots clés=symphonie
+mots clés=lluminations
+mots clés=feu d'artifice
+lieux=294637

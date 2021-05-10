@@ -1,0 +1,9 @@
+personnes=14525
+mots clés=air
+mots clés=madrigal
+mots clés=paroles à mettre en air
+mots clés=chanson
+mots clés=art du chant
+mots clés=poésie à mettre en air
+oeuvres citées=M. Tesson, Rossignols qui dans ce bocage
+oeuvres citées=non identifié, Quand les frimats viennent de ces beaux lieux

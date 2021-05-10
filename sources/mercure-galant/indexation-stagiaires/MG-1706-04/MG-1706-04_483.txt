@@ -1,0 +1,10 @@
+personnes=tesse_rene_iii_de_froulay_(1648-1725)_marechal_de
+personnes=82915
+mots clés=revue militaire
+mots clés=guerre
+mots clés=siège
+mots clés=tambour
+mots clés=musique militaire
+mots clés=cloche
+mots clés=procession
+lieux=813

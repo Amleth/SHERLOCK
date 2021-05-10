@@ -1,0 +1,7 @@
+MG-1707-07_132
+personnes=lorraine_leopold_i_(1679-1729)_duc_de
+personnes=commercy_elisabeth-charlotte_dorleans_(1676-1744)_princesse_de
+personnes=Camilly, François-Blouet de (1664-1723)
+mots clés=Te Deum laudamus
+institutions=Corps de Ville de Luneville
+institutions=corps_de_ville_de_nancy

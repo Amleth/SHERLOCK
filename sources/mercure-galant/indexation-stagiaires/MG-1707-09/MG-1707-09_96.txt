@@ -1,0 +1,13 @@
+lieux=1673
+personnes=276013
+mots clés=édition
+mots clés=procession
+mots clés=bénédiction
+lieux=1678
+mots clés=prière
+mots clés=trompette
+mots clés=tambour
+mots clés=apprentissage de la musique
+mots clés=musique religieuse
+mots clés=édit papale
+mots clés=enseignement de la musique dans les couvents

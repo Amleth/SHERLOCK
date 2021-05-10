@@ -1,0 +1,9 @@
+1704-09_402
+personnes=83127
+personnes=83155
+mots clés=chant
+mots clés=procession
+mots clés=décoration d’église
+lieux=294603
+lieux=294649
+congrégations=294629

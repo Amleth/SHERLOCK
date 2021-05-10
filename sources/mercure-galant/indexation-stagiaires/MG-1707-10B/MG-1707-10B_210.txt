@@ -1,0 +1,9 @@
+personnes=83297
+mots clés=revue militaire
+mots clés=siège
+mots clés=tambour
+mots clés=rigaudon
+mots clés=danse traditionnelle
+mots clés=effets de la musique
+mots clés=siège de Toulon
+lieux=294783

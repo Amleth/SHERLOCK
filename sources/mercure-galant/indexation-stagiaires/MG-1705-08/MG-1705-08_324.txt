@@ -1,0 +1,9 @@
+personnes=montfleury_(1639-1685)
+personnes=82347
+mots clés=interprétation dramatique
+mots clés=représentation théâtrale
+mots clés=réception d'une oeuvre dramatique
+mots clés=publication nouvelle
+lieux=169
+oeuvres citées=Montfleury (1639-1685), La femme juge et partie
+oeuvres citées=Montfleury (1639-1685), La fille capitaine

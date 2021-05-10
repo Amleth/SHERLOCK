@@ -1,0 +1,12 @@
+personnes=la_fevrerie_m_de
+mots clés=lettre
+mots clés=lettre en vers
+mots clés=tambour
+mots clés=trompette
+mots clés=chalumeau
+mots clés=musette
+mots clés=chansonnette
+mots clés=création d'académie
+mots clés=maxime
+mots clés=versification
+lieux=2476

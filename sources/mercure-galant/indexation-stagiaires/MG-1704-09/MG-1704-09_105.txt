@@ -1,0 +1,12 @@
+MG-1704-09_105
+personnes=48422
+mots clés=fête royale
+mots clés=théâtre
+mots clés=chœurs
+mots clés=musique polychorale
+mots clés=danse
+mots clés=intermède
+mots clés=carrousel
+lieux=2102
+lieux=294521
+congrégations=294517

@@ -1,0 +1,12 @@
+personnes=83097
+personnes=83253
+personnes=83257
+personnes=83255
+mots clés=célébration d'une naissance princière
+mots clés=réjouissances publiques
+mots clés=illuminations
+mots clés=trompette
+mots clés=hautbois
+mots clés=collation
+lieux=453
+lieux=294753

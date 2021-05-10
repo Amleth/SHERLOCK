@@ -1,0 +1,14 @@
+personnes=louis_dauphin_de_france_(1661-1711)
+mots clés=traduction
+mots clés=ode
+personnes=38578
+oeuvres citées=Abbé Boutard, à monseigneur le dauphin sur le rétablissement de la santé de ce prince
+mots clés=flûte
+mots clés=chant
+personnages=nymphes de Meudon
+mots clés=hautbois
+mots clés=musette
+mots clés=fifre
+mots clés=tambour
+mots clés=lyre
+mots clés=trompette

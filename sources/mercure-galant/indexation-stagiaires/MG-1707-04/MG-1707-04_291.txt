@@ -1,0 +1,19 @@
+MG-1707-04_291
+personnes=82955
+personnes=83359
+personnes=83367
+personnes=83365
+mots clés=messe en musique
+mots clés=motet
+mots clés=décoration d’église
+mots clés=fifre
+mots clés=tambour
+mots clés=Te Deum laudamus
+mots clés=artillerie
+lieux=2293
+lieux=294875
+lieux=BARBEZIEUX
+lieux=BARBEZIEUX, chez M. Charpentier de Chantereine
+institutions=294707
+institutions=294681
+institutions=294703

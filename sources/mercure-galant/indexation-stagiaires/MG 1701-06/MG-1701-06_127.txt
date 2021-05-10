@@ -1,0 +1,10 @@
+personnes=philippe_v_(1683-1746)_roi_despagne
+personnes=81359
+personnages=Apollon
+mots clés=couronnement
+mots clés=éloge du roi
+mots clés=éloge en vers
+mots clés=publication de poésie
+mots clés=lyre
+mots clés=art du chant
+lieux=225154

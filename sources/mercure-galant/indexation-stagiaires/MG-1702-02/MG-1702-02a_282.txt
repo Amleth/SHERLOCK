@@ -1,0 +1,8 @@
+MG-1702-02a_282
+personnes=louis_xiv_(1638-1715)_roi_de_france
+personnes=M. de Cantenac
+mots clés=messe solennelle
+mots clés=messe du Saint-Esprit
+lieux=2129
+congrégations=chapitre_de_la_cathedrale_saint-andre_de_bordeaux
+congrégations=Député du chapitre de Saint-André de Bordeaux

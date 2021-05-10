@@ -1,0 +1,8 @@
+personnes=clement_julien_(-1729)
+mots clés=naissance princière
+mots clés=réjouissance publique
+lieux=294633
+mots clés=tambour
+mots clés=trompette
+mots clés=célébration d’une naissance princière
+personnes=83097

@@ -1,0 +1,6 @@
+mots clés=comédie
+mots clés=publication nouvelle
+mots clés=représentation d'oeuvre
+mots clés=réception d'oeuvre
+mots clés=représentation théâtrale
+oeuvres citées=non identifié, Le capricieux

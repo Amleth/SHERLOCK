@@ -1,0 +1,9 @@
+personnes=82297
+personnes=48408
+personnes=premier_president_de_la_cour_des_aides
+institutions=cour_des_aides_de_paris
+mots clés=cérémonie
+mots clés=costume de cérémonie
+mots clés=messe en musique
+mots clés=musique religieuse
+mots clés=repas

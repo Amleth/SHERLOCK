@@ -12642,6 +12642,8 @@ Corpus:
             F2: a16f038d-d767-4bbc-a8eb-060868fd0d89
           MG-1680-06_301:
             F2: a2f6fa71-d7c4-4270-a22a-2b9c6fe67ffb
+          MG-1680-06_263:
+            F2: 7e7a8164-31f3-4cb6-ad06-54db9d4bc9e9
       Facsimile:
         D2: b127e201-5753-4198-a81d-b77792445da6
         D1: f37595b3-2a8b-47ef-b3f9-766511f4fd6b
@@ -12693,6 +12695,10 @@ Corpus:
             F2_E42: 4b561b5b-62eb-4e54-a90a-0bee6d5eb10c
             F2_E42_part1: 295300ee-a428-4388-bd22-aaa45e5e30c3
             F2_E42_part2: 39e20576-2113-479f-89a3-f6bb329ccc74
+          MG-1680-06_263:
+            F1: 6275070b-b760-434a-a822-63e6fc1decab
+            F2: a7587646-bd0d-4760-acd6-5ea98b2c533c
+            F2_E42: 230daaa1-2c23-4c21-b30b-05e6b6e90434
     MG-1680-06e:
       F1: 6e667dc2-97e0-47f6-8145-e676bf1670b7
       Expression originale:
