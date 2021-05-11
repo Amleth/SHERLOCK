@@ -1,0 +1,2254 @@
+indexations:
+  personnes:
+    E13:
+      uuid: b64f92d0-e92f-488b-8fee-6025f6db3176
+    '14525':
+      E13:
+        uuid: 4b923ff6-fddc-4179-9d2a-a21b03705c6f
+    '38935':
+      E13:
+        uuid: 25435bc5-83fa-4297-9bbf-089dd7261add
+    malentant_m:
+      E13:
+        uuid: 1ddfb78d-f39c-43b5-bce4-3dddad78c87b
+    '81362':
+      E13:
+        uuid: 05b05dcf-c64f-46c1-8657-8f499b90f64f
+    tamiriste:
+      E13:
+        uuid: fdb92836-41fe-43e7-aa11-47e78931c7a3
+    '15728':
+      E13:
+        uuid: 67979691-dbb9-4c84-9805-cd32c9f31a92
+    philippe_v_(1683-1746)_roi_despagne:
+      E13:
+        uuid: 29a724c1-6b20-461f-b0de-448eb4cc9b72
+    '81359':
+      E13:
+        uuid: 3a8e5912-ebfc-43c4-abd8-9e69e18800c8
+    lheritier_de_villandon_marie-jeanne_(1664-1734):
+      E13:
+        uuid: 2c7d9893-6f7c-4be0-b1dd-b3408b94b9a7
+    '81363':
+      E13:
+        uuid: f76971ea-1830-49f6-ba2a-c55ca2ab2ca7
+    portocarrero-bocanegra_y_moscoso-osorio_luis_manuel_fernandez_de_(1635-1709):
+      E13:
+        uuid: 9ffa27ea-7d35-4fe2-a39d-19e76d262492
+    '81347':
+      E13:
+        uuid: b5a794e0-ce47-48d2-82b6-9401e72b27d9
+    '81360':
+      E13:
+        uuid: e4bed92a-7494-4e4e-b27d-5fbba88fdf36
+    rohan-soubise_armand-gaston-maximilien_de_(1674-1749):
+      E13:
+        uuid: 7e79a8f5-d8db-4ed2-9e3d-39549fa09e22
+    furstemberg_guillaume-egon_de_(1629-1704):
+      E13:
+        uuid: 2953b639-1581-4116-9005-5c04467d7e67
+    '83483':
+      E13:
+        uuid: 7046ea68-9154-43de-9c12-3b201d92dbf6
+    clermont-tonnerre_françois-louis_de_(1660-1724):
+      E13:
+        uuid: 4c338184-5aa8-4d8d-b054-16767fefade9
+    noailles_louis-antoine_de_(1651-1729):
+      E13:
+        uuid: 99a355aa-c867-4d2d-ae92-8dc7e63785fa
+    le_tellier_charles-maurice_(1642-1710):
+      E13:
+        uuid: 990fb490-1409-4fd2-a1a3-c1a36c98d277
+    colbert_jacques-nicolas_(1655-1707):
+      E13:
+        uuid: cd3cbe48-7028-4f31-9f35-8ddd9083cf19
+    bazin_de_besons_jean-baptiste-armand_(1655-1721):
+      E13:
+        uuid: 22cf2ff7-0c88-4a8b-a520-8eb81f0d5e40
+    la_baume_de_suze_armand-anne-tristan_de_(1640-1705):
+      E13:
+        uuid: 65ef4116-5c58-436e-abdc-d8cc32f4f36c
+    bossuet_jacques-benigne_(1627-1704):
+      E13:
+        uuid: c4b3554e-f986-4f81-aa1a-e79184c3ce9a
+    sanguin_de_livry_denis_(1621-1702):
+      E13:
+        uuid: d78bf805-5ad7-4089-95d7-c6cebd3a68a4
+    brulart_de_sillery_fabio_(1655-1714):
+      E13:
+        uuid: 10874233-2a92-4115-8d7b-126ac5208615
+    maulevrier_de_langeron_charles_andrault_de_(-1721):
+      E13:
+        uuid: 2f3f2799-9cad-4747-b992-c88722225a8a
+    '83481':
+      E13:
+        uuid: 5b00afde-17f2-4a2b-9bc8-f4e471b7b45a
+    orleans_philippe_i_(1640-1701)_duc_d:
+      E13:
+        uuid: a2c90af0-ff6f-4122-b617-ef173bb3cc86
+    '57437':
+      E13:
+        uuid: 78b22b60-b5f0-4fd2-823b-9e230d4c1a06
+    bourgogne_louis_de_france_(1682-1712)_duc_de:
+      E13:
+        uuid: a14e83de-2255-46eb-8898-09f954ec1e0c
+    berry_charles_de_bourbon_(1686-1714)_duc_de:
+      E13:
+        uuid: 2b691201-fed0-4708-9ef8-b79b10f2ec6c
+    orleans_philippe_ii_(1674-1723)_duc_d:
+      E13:
+        uuid: 1460b799-9a45-4fd1-ab69-2715079c4cb7
+    louis_dauphin_de_france_(1661-1711):
+      E13:
+        uuid: c378e99c-8279-473e-acbc-2474a1059911
+    grancey_hardouin_rouxel_(-1706)_abbe_de:
+      E13:
+        uuid: 58e620cc-eb6e-47bf-aeed-e88f8d464e51
+    conti_françois-louis_de_bourbon_(1664-1709)_prince_de:
+      E13:
+        uuid: ae73f0ea-60b8-40df-9e81-8aae229fe982
+    maine_louis-auguste_de_bourbon_(1670-1736)_duc_du:
+      E13:
+        uuid: c701654d-2dff-4dcf-85b9-92bf692a2a35
+    toulouse_louis-alexandre_de_bourbon_(1678-1737)_comte_de:
+      E13:
+        uuid: 32d96bdd-7686-4882-9257-22b120d41e8b
+    vendome_louis-joseph_de_bourbon_(1654-1712)_duc_de:
+      E13:
+        uuid: ba4a395f-09be-45e9-a5a0-b93b2dc684d5
+    '276013':
+      E13:
+        uuid: a2b7139d-6264-4a56-b390-0615af81edca
+    '81352':
+      E13:
+        uuid: 124d18e1-28c7-440b-ac5d-79826e9e71eb
+    '81353':
+      E13:
+        uuid: 8487182b-a896-4a44-bee9-74e254979138
+    '276018':
+      E13:
+        uuid: 8c311073-da6c-4d97-b9c2-341a89fc9d73
+    '28085':
+      E13:
+        uuid: 85b1a62b-dcaf-457e-bd4e-345d58a63ebe
+    '81349':
+      E13:
+        uuid: 0315bd0f-0fa0-42a9-8510-40ba215ccf84
+    '81350':
+      E13:
+        uuid: dda4ed10-befc-4dbc-922b-982e5954125a
+    sarasin_jean-françois_(1614-1654):
+      E13:
+        uuid: b002a278-d529-4462-9bd8-5318853cddaf
+    '28096':
+      E13:
+        uuid: e366f4a9-e7d9-4131-947e-87e6cbb1a1fb
+    '81348':
+      E13:
+        uuid: 7de14d71-006e-4fd9-8357-9a847099877a
+    '81355':
+      E13:
+        uuid: e4d8574c-2196-4e91-9b7b-f1d0cef55f42
+    virgile_(70_av_j-c-19_av_j-c):
+      E13:
+        uuid: d4970b60-2126-4df3-a54f-efba83a08495
+    '81356':
+      E13:
+        uuid: 6ba3f75c-62ab-45ca-bd3f-b1cf134330cc
+    '14520':
+      E13:
+        uuid: 5f7f1c15-930c-4561-8a49-91b7977faa9c
+    noailles_anne-jules_(1650-1708)_duc_de:
+      E13:
+        uuid: dd373186-29f9-4951-be12-a952d33fe7af
+    granges_m_des:
+      E13:
+        uuid: afaf3ab1-1b61-479a-9092-c16920f2b657
+    '38938':
+      E13:
+        uuid: 4e09f667-fe84-442e-bb28-f313c6a6855b
+    '81364':
+      E13:
+        uuid: 050ad4ad-8f6f-4be6-8905-d0a2de7d953c
+    '81365':
+      E13:
+        uuid: 8c2ae5ca-aaaa-4608-877f-58f055a2cd09
+    '81431':
+      E13:
+        uuid: 9deb4295-3416-44b1-915d-27cb00032881
+    '81432':
+      E13:
+        uuid: 96af2d51-f635-4be3-9612-9a9ac9eb387d
+    '81433':
+      E13:
+        uuid: 150e88c3-00ce-4bf9-9855-a74cd05f69b7
+    '81434':
+      E13:
+        uuid: 701b2bae-4d91-4a16-a145-c97b6f163117
+    '81435':
+      E13:
+        uuid: 22b5d31f-d730-4360-901f-b100e1dc6fa1
+    '81436':
+      E13:
+        uuid: 7b9aefa1-a98d-4e0b-93c3-7e50d1c67a5b
+    louis_xiv_(1638-1715)_roi_de_france:
+      E13:
+        uuid: 5f823466-3c57-48fb-94f4-7d3468ef664e
+    bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de:
+      E13:
+        uuid: 791dd9c5-4eea-402f-92ea-ecb33c994675
+    bailleul_louis-dominique_de_(1622-1701):
+      E13:
+        uuid: 3ecf4368-505e-4b3e-86f8-40f22dec4253
+    conde_louise-françoise_de_bourbon_(1673-1743)_princesse_de:
+      E13:
+        uuid: cb1cc407-6cbb-4db7-a375-ae075ec1966f
+    conde_louis_iii_de_bourbon_(1668-1710)_prince_de:
+      E13:
+        uuid: 475ae01b-8d67-4fc1-a6d7-dc2a8c8bde61
+    '81437':
+      E13:
+        uuid: 6e9264f1-bf0c-4aba-9212-bb31152f5e2b
+    '81438':
+      E13:
+        uuid: fa10158c-abe9-4830-918b-e47492a0ee05
+    forqueray_antoine_(1672-1745):
+      E13:
+        uuid: 0268cccc-d929-4f84-8122-1f74bf2a87f5
+    '70436':
+      E13:
+        uuid: 5a57dd50-9d4f-4bf1-b26c-5d3505488ec5
+    '81439':
+      E13:
+        uuid: baa03712-1f6f-418e-81ff-edf201fbbb14
+    philbert_philibert_rebille_(1639-1717_ca)_dit:
+      E13:
+        uuid: e8e88d29-9cc8-4af0-b823-65b63d4477f0
+    descoteaux_rene_pignon_dit_(1650_ca-1728):
+      E13:
+        uuid: eac3d65a-9397-4f89-8125-1f3ca8d732c1
+    martinet_m:
+      E13:
+        uuid: cab6dea5-5b42-4188-878e-20145e69a29a
+    vintimille_du_luc_charles-gaspard-guillaume_de_(1655-1746):
+      E13:
+        uuid: 1a6f2fab-0711-43d5-90fd-90bca36532f1
+    '83493':
+      E13:
+        uuid: 9286d14e-8fc9-47ac-8e3e-320cf90b8158
+    '81600':
+      E13:
+        uuid: d0dbdbc7-cff6-410a-8ffd-5bfc8f54d759
+    brossard_de_montaney_jacques_(1638-1702):
+      E13:
+        uuid: 531be343-1c36-4774-acf4-e18f09f8ccb2
+    '14499':
+      E13:
+        uuid: 324ab7ba-24d8-4845-ac09-2466ea7a44e1
+    scudery_madeleine_de_(1608-1701):
+      E13:
+        uuid: 3e934142-2d8f-4739-ad73-c585bcf4293e
+    jacques_ii_(1633-1701)_roi_dangleterre:
+      E13:
+        uuid: 212cc6fc-cc8e-4409-b13b-a84a0c47801b
+    boursault_edme_(1638-1701):
+      E13:
+        uuid: 6d7dcc10-29d3-44f3-b6f4-358fe3b04b80
+    '81851':
+      E13:
+        uuid: b839b747-1dbb-40c8-a8c9-9e95534bc927
+    '81852':
+      E13:
+        uuid: 799ca0bb-b589-4e74-980d-c098e59cbd0d
+    '81857':
+      E13:
+        uuid: 8d022af2-0806-4afa-9211-85424612530b
+    '81863':
+      E13:
+        uuid: 687f2a83-fe51-47c1-996b-e5bcc252a536
+    '81859':
+      E13:
+        uuid: 5f61f4f0-d707-4637-a01a-688a079657ae
+    '81941':
+      E13:
+        uuid: 636ebd7c-d62f-4f9a-99a3-588180775af9
+    racine_jean_(1639-1699):
+      E13:
+        uuid: 584de824-cd04-40a9-a506-0c97109570a1
+    brueys_david-augustin_de_(1641-1723):
+      E13:
+        uuid: f37d95bb-6557-45b4-b915-abe5453b2b0a
+    corneille_thomas_(1625-1709):
+      E13:
+        uuid: c1fc1e78-f7ff-49a9-91ba-918ea3e36976
+    moliere_jean-baptiste_poquelin_(1622-1673)_dit:
+      E13:
+        uuid: b538675d-a41e-452b-9cb5-2479530fab17
+    hauteroche_noel_le_breton_(1630_ca-1707)_sieur_de:
+      E13:
+        uuid: 78581b3b-2287-4e2b-95c7-735348d69fef
+    quinault_philippe_(1635-1688):
+      E13:
+        uuid: 01a588a5-6c99-47b5-8baf-b27542f6536a
+    rotrou_jean_de_(1609-1650):
+      E13:
+        uuid: f3eba15c-120a-41a4-af45-6ba637f3d02a
+    '81440':
+      E13:
+        uuid: 36887114-5cd8-4619-aedc-787df08247c3
+    charles_ii_(1630-1685)_roi_dangleterre:
+      E13:
+        uuid: 5721a413-44e0-43b3-800f-e90829397d9f
+    marie-louise_(1662-1689)_reine_despagne:
+      E13:
+        uuid: 8d8f1b6c-e21d-4c1f-b50b-ab80dea54467
+    '81441':
+      E13:
+        uuid: 5ffdebe0-9327-43cf-973c-aa798f4ee1af
+    '276016':
+      E13:
+        uuid: 59823490-ac34-4902-8ff8-a299179eb5ee
+    '38578':
+      E13:
+        uuid: 4cc84edf-9701-4601-8244-00c602635ba5
+    '83495':
+      E13:
+        uuid: f784ad01-404e-43b0-bab4-1c5d2cc0053c
+    orleans_elisabeth-charlotte_de_baviere_(1652-1722)_duchesse_d:
+      E13:
+        uuid: 2a407ee6-3fbb-49c7-8c52-59440d4048ae
+    aumont_anne-louise-julie_de_crevant_dhumieres_(1670-1748)_duchesse_d:
+      E13:
+        uuid: 6a8dc032-8a1e-49fc-a780-d7647dcab98f
+    '28099':
+      E13:
+        uuid: d329627d-b315-440f-ba3e-cc37f1c9c1d5
+    forqueray_michel_i_(1650-1714):
+      E13:
+        uuid: b190f240-744f-4c68-b6d8-31cd540bdd01
+    '81553':
+      E13:
+        uuid: 9e409b2f-e4e5-4fca-bab0-b37760adfdd6
+    conti_marie-anne_de_bourbon_(1666-1739)_princesse_de:
+      E13:
+        uuid: 318164a2-e96b-4a77-9829-ef231990569d
+    corneille_pierre_(1606-1684):
+      E13:
+        uuid: 24c78e50-8183-4fe4-93f5-c44834382316
+    '81841':
+      E13:
+        uuid: f133a371-4d9a-40dc-8301-f5bab0a1b829
+    '14501':
+      E13:
+        uuid: b2b6a652-8d8e-4124-af03-3a1a57756281
+    bracciane_anne-marie_de_la_tremoille-noirmoutier_(1642_av-1722)_duchesse_de:
+      E13:
+        uuid: 1a95d84c-6178-429a-918d-32806e358417
+    '81853':
+      E13:
+        uuid: 9d5d444c-2c76-4455-8588-8f07b8f299d8
+    '81842':
+      E13:
+        uuid: f29a94f6-70a8-4d87-8f96-5f2777001c07
+    vauvre_jean-louis_de_girardin_de_(1647-1724):
+      E13:
+        uuid: 7275c28c-9848-4914-b13a-fea6914ac34a
+    grignan_françois_adhemar_de_monteil_(1632-1714)_marquis_de:
+      E13:
+        uuid: 24fcf472-3615-4d25-8ea2-aa96d4ad71c6
+    '28073':
+      E13:
+        uuid: d9276b7a-de03-47b3-a208-517ea8d6ec5f
+    forville_alphonse_de_fortia_(-1711)_marquis_de:
+      E13:
+        uuid: cef16706-eecd-49c5-a8a2-233c7161b89c
+    habert_de_montmor_jean-louis_(1648-1720):
+      E13:
+        uuid: 938f1606-ae81-44eb-a38d-4c890a09d381
+    '28074':
+      E13:
+        uuid: c340a06d-dfe1-4d3e-9d53-5fa3731bbb18
+    bon_philibert_de_(1636-1711):
+      E13:
+        uuid: 1f33d668-72ad-4d3a-8765-06075b911251
+    '81850':
+      E13:
+        uuid: 704c4000-6604-4319-a320-b11c2b17abbd
+    '38574':
+      E13:
+        uuid: f79b2590-d618-49ae-9c50-7a6d970f317c
+    '28109':
+      E13:
+        uuid: d59d9021-dfba-49fe-9124-15a8deb08560
+    '38581':
+      E13:
+        uuid: d825201a-67cb-4af7-a72c-38f288bef3e4
+    '38572':
+      E13:
+        uuid: 99ae59fe-2d3b-4e46-a085-c148adf83ade
+    '28088':
+      E13:
+        uuid: 388bbc89-2a1f-4634-aaea-40364cffbf7d
+    '14505':
+      E13:
+        uuid: b37e8f3f-99ce-4342-9282-68bd9df6836e
+    fagon_guy-crescent_(1638-1718):
+      E13:
+        uuid: d283d450-e5f5-4eee-a971-56b2f7ec9899
+    farcy_m_de:
+      E13:
+        uuid: 4e4f2906-9321-4f80-8a9f-f035d34a6082
+    louis_viii_(1187-1226)_roi_de_france:
+      E13:
+        uuid: 6ea47635-0ee2-407c-afd3-63cc7bd9bd47
+    '82095':
+      E13:
+        uuid: d557b467-4e6e-4a07-a1e1-15be3c23ac38
+    '82097':
+      E13:
+        uuid: caa4ce69-d5cf-457a-96f5-537523cc6fa4
+    moreau_de_mautour_philibert-bernard_(1654-1737):
+      E13:
+        uuid: abc3c9b0-1b4d-4534-97ec-90b3c0bd737c
+    mantoue_charles_iii_ferdinand_de_gonzague_(1652-1708)_duc_de:
+      E13:
+        uuid: baf9dd5a-0feb-450f-9c6b-fb49b8183b08
+    mantoue_anne-isabelle_de_guastalla_(1655-1703)_duchesse_de:
+      E13:
+        uuid: 5905e992-33c0-49d5-82eb-d4630f20b9da
+    autel_jean-frederic_(1645-1716)_comte_d:
+      E13:
+        uuid: 1d290580-1718-4b8f-b07b-afb5354f1712
+    '276009':
+      E13:
+        uuid: 1a3ef21c-407b-4aa4-a779-debf5322f6fb
+    '82099':
+      E13:
+        uuid: 718fe0d6-541c-4633-a595-10304fd1c849
+    '82101':
+      E13:
+        uuid: 8b2f4a21-b3ae-4f41-8e42-b4f7cb21ae28
+    '83499':
+      E13:
+        uuid: f568430e-fcee-44cb-8fe7-c386d5011b2c
+    '83501':
+      E13:
+        uuid: 2d88d854-e285-4ef4-86ad-f3743c14e0b8
+    '83503':
+      E13:
+        uuid: 3d15b75f-adc1-4e1d-9218-cdfb3ef6a83a
+    '83505':
+      E13:
+        uuid: 175a7cd8-5d95-4ee8-a811-b477b677fc4b
+    '83507':
+      E13:
+        uuid: b7644c7f-98b9-4d83-a843-c2f44d1d267c
+    '81855':
+      E13:
+        uuid: 1ff5fe7d-ce6e-4487-8f7e-2ce793f70010
+    '83509':
+      E13:
+        uuid: d7946d66-0a83-426c-b039-b698447f3c50
+    '14517':
+      E13:
+        uuid: 0c0e0bba-d7f8-4017-aba6-b9719dd5ecb4
+    '83497':
+      E13:
+        uuid: 916b8d26-23a0-4c28-b80b-5a6134154d8f
+    '15727':
+      E13:
+        uuid: 0e12285a-6c5e-44a3-9726-1d5d08ee2b3b
+    '14611':
+      E13:
+        uuid: 036444e8-4e1c-4e63-bed6-5be264bf2726
+    lomenie_de_brienne_charles-françois_de_(1637-1720):
+      E13:
+        uuid: 44b3572e-98b5-4059-b136-ac381f75ed77
+    campra_andre_(1660-1744):
+      E13:
+        uuid: 565add1e-091c-4eae-9e92-84c67d2c1502
+    la_bornat_antoine_girard_de_(1656-1702):
+      E13:
+        uuid: b25010f5-90a1-4455-87ff-a7cf2cd3462a
+    tesse_rene_iii_de_froulay_(1648-1725)_marechal_de:
+      E13:
+        uuid: 1da829a4-ae11-4217-a9ea-211892f6c6c7
+    '82093':
+      E13:
+        uuid: c51bbcee-4f3f-4a88-8369-571e2ae62384
+    '14610':
+      E13:
+        uuid: e1910dfc-cbfe-42b0-b6fe-47b2c84395de
+    '15729':
+      E13:
+        uuid: 69233107-2e95-42d6-a6cc-9271add18642
+    roussel_claude_(1655-):
+      E13:
+        uuid: 660d5c49-ca13-4a51-8e5d-3169b7a38fdc
+    '82111':
+      E13:
+        uuid: 31ae0dd0-a5e6-48ec-8c4c-fb0bc07896e3
+    bousset_jean-baptiste_drouard_de_(1662-1725):
+      E13:
+        uuid: e84e11ff-e6a5-492c-8fb8-43aa81165f09
+    '82113':
+      E13:
+        uuid: 05012548-702f-4a83-95f3-fb0663e89ed1
+    mascaron_jules_(1634-1703):
+      E13:
+        uuid: dbad7376-437f-44e4-9ff2-71781e5549f0
+    '83511':
+      E13:
+        uuid: 07c94c1b-adf5-4e39-9332-1d27e10c7986
+    '82135':
+      E13:
+        uuid: 121e30fb-396e-4cbc-a44c-6c5e9ed8f6fe
+    '82137':
+      E13:
+        uuid: 1bdb285e-3ada-42cd-b5e5-fd9ca9c5990d
+    '82133':
+      E13:
+        uuid: bec630db-19b4-4ad5-a669-df59a86c1a69
+    milon_louis_(1658-1734):
+      E13:
+        uuid: a5ac965e-e15a-4675-8188-543dd60b5fc3
+    la_croix_chevrieres_de_saint_vallier_jean-baptiste_de_(1653-1727):
+      E13:
+        uuid: c7510ac6-e869-4ce7-aa61-ff8a75cf13b7
+    nonce_apostolique:
+      E13:
+        uuid: ce3f4a96-1481-4491-972d-8bb47768f978
+    '82185':
+      E13:
+        uuid: 5e09029d-6d57-44e4-82ab-5ac51c2c9f1d
+    '82187':
+      E13:
+        uuid: 4cba1a43-d732-4276-9102-1c586e6b7471
+    janson_toussaint_de_forbin_de_(1630_ca-1713):
+      E13:
+        uuid: 55a3bd78-fdac-4fe5-8a82-f7ec6f563113
+    medicis_francesco_maria_de_(1660-1711):
+      E13:
+        uuid: d2e213e6-c54c-47fc-9ac9-459dbe8c230b
+    '38939':
+      E13:
+        uuid: 38ad1ace-d6fe-4690-b6b9-b31945658a36
+    '83513':
+      E13:
+        uuid: 60eb18b3-daae-4321-a203-cc3920f4362a
+    san_pedro_francesco_maria_spinola_(1659-1727)_duque_de:
+      E13:
+        uuid: 48fc51b4-d7bb-4fef-a98c-83f548a6120e
+    conti_marie-therese_de_bourbon_(1666-1732)_princesse_de:
+      E13:
+        uuid: 6766c868-54f7-45fc-9285-f06baa3d7c2f
+    '83515':
+      E13:
+        uuid: f8645394-e7ae-4ef3-bccd-aab82450fa0a
+    '83517':
+      E13:
+        uuid: ae9b8a74-7fdb-4a87-8d7a-dda2db728336
+    '83519':
+      E13:
+        uuid: 304a007d-6048-4b38-ac02-6126213a12d4
+    '83521':
+      E13:
+        uuid: 8612da37-249c-4cf3-a78e-273a607054f6
+    lude_marguerite-louise_de_bethune_(1643_ca-1726):
+      E13:
+        uuid: 095cded6-6b9e-4b9f-bb1d-70866630fa60
+    '70431':
+      E13:
+        uuid: eea78d53-8cb7-47a3-91f3-09160216683a
+    '48422':
+      E13:
+        uuid: c24f596e-9a62-4df0-a3b6-4e7e1a3a7776
+    '28075':
+      E13:
+        uuid: e214ef48-288c-46e7-9f80-d0567db57fd6
+    '82199':
+      E13:
+        uuid: bad6637b-4ec6-498e-a5c2-cf8d7f5a9859
+    '82201':
+      E13:
+        uuid: 06172f4f-e421-4b7a-ae16-87fdeacb942b
+    '82203':
+      E13:
+        uuid: 3bd9f687-6d70-441f-b48b-354c8019efee
+    '82239':
+      E13:
+        uuid: 92acfc50-b4ce-4aee-b95b-9a4b917671e9
+    rouxel_de_medavy_marguerite_(1612-1704):
+      E13:
+        uuid: f81a70ce-c8dc-436e-bd76-22e4d55e245f
+    '82241':
+      E13:
+        uuid: 037e2c1f-2a11-492c-bc2f-2fc4f34d0436
+    '82263':
+      E13:
+        uuid: 2ce2294f-3a4b-47fe-8414-bcba4e7a1753
+    '82243':
+      E13:
+        uuid: 24d0487b-6538-4313-af55-11cda51f3022
+    '82245':
+      E13:
+        uuid: 4b0e5e4e-5d0e-46f2-8ce0-3b7d525e0052
+    '82265':
+      E13:
+        uuid: 0ff69b00-599e-4937-8293-30a9189783ed
+    '83021':
+      E13:
+        uuid: 8a6d44c0-6a2f-436d-88f1-97f19c812a26
+    saint-georges_claude_de_(1630-1714):
+      E13:
+        uuid: 770d2999-3e2f-47fe-9b3a-56e69b9538ca
+    estrees_cesar_d_(1628-1714):
+      E13:
+        uuid: ea589304-8ab0-4fbc-bf26-e3c5b48eda3c
+    '82267':
+      E13:
+        uuid: ba6b861f-39a1-4e54-a2c9-a019d72cc479
+    toscane_cosme_iii_(1642-1723)_grand_duc_de:
+      E13:
+        uuid: c0f80c97-7c00-4b39-b3c4-ae8ee71ccf68
+    toscane_ferdinand_iii_(1663-1713)_prince_de:
+      E13:
+        uuid: a3aa90a8-91ce-4082-96a3-f80a32806592
+    toscane_violante-beatrice_de_baviere_(1673-1731)_grande_duchesse_de:
+      E13:
+        uuid: 59676e08-9ef8-4dcb-aa90-85d552cebb13
+    '79528':
+      E13:
+        uuid: f96a60d5-e34e-4438-8e50-9d5e43778ca9
+    ambassadeur_de_la_republique_de_lucques_(169903):
+      E13:
+        uuid: f07f1258-2190-4529-910d-977550212d32
+    '83023':
+      E13:
+        uuid: a04f90ba-29f3-47ee-b642-3a69330c95bd
+    '82959':
+      E13:
+        uuid: 2cadfbd5-da7e-4109-b631-2aed8eb9c9bc
+    '82951':
+      E13:
+        uuid: 22849da3-64d9-4919-a1ef-4be2426bf897
+    '82941':
+      E13:
+        uuid: abb87dc7-6680-4279-9358-6cdbbee2758a
+    cusani_agostino_(1655-1730):
+      E13:
+        uuid: ba362432-f93d-4dea-b63b-77e62e49754c
+    corleto_ignazio_raffaello_riario_sforza_(1630-1709)_marquis_de:
+      E13:
+        uuid: ea8c17f2-f133-42c3-acc3-5227897ac0a1
+    corleto_maria_ottavia_spinola_(1649-1719)_marquise_de:
+      E13:
+        uuid: cbec4dc9-67fa-412a-8bb2-90ce8a20f97e
+    '82867':
+      E13:
+        uuid: a79a5e89-cbe0-4ee7-bae3-c0ce4431f4fa
+    '83019':
+      E13:
+        uuid: 12ed6f05-1784-4443-8c3a-9bf97b5ab28c
+    '82963':
+      E13:
+        uuid: d68060b2-93ac-4147-8ae9-47c1d7d7cd60
+    marie-casimir_(1641-1716)_reine_de_pologne:
+      E13:
+        uuid: 34ff2f88-c072-467f-8cdb-22be290b3678
+    '83025':
+      E13:
+        uuid: 1e6029f8-c6a1-44b6-9a37-e77b26fee856
+    arquien_henri-albert_de_la_grange_(1613-1707)_marquis_d:
+      E13:
+        uuid: ea5e9816-ec5f-4adb-87cb-912b8df9a053
+    '83059':
+      E13:
+        uuid: b4bcae53-63a0-4130-a865-ba81eaad373e
+    '83051':
+      E13:
+        uuid: feae8d7e-3406-4421-b4f9-e4a854d157fb
+    corelli_arcangelo_(1653-1713):
+      E13:
+        uuid: 0b5e50fc-a9d1-483d-9714-37dc9e71372c
+    '83275':
+      E13:
+        uuid: ed7e3f65-3698-42e0-ba66-2833029120f8
+    '83061':
+      E13:
+        uuid: 89e58662-9fc5-4731-9b27-a0c7a08fe42a
+    '83361':
+      E13:
+        uuid: 54f0e406-deca-40d9-a44f-71c24082df3d
+    '82873':
+      E13:
+        uuid: 649930f0-15a9-46ef-85b4-5877e01e08d2
+    '83127':
+      E13:
+        uuid: 1d1adbc6-3f2b-40a8-ae88-2533b57619c7
+    '83155':
+      E13:
+        uuid: cd066a96-eaac-4cc0-b012-1efeb0db2f58
+    '82327':
+      E13:
+        uuid: 0dde0b8f-a430-43a4-92a1-6884331ff776
+    dromesnil_charles-françois_dhallencourt_de_(1675-1754):
+      E13:
+        uuid: 54d82d67-3806-4f6a-91fd-019d67280c0d
+    '70442':
+      E13:
+        uuid: 9d2afccf-828d-4e1f-bca5-347606204d79
+    '82885':
+      E13:
+        uuid: 70044495-96b7-40e5-b3b5-f8d11eac3dd0
+    '82889':
+      E13:
+        uuid: 7c20e815-903c-4de4-a042-b89446425240
+    '82933':
+      E13:
+        uuid: 7e4b3081-783d-4bd9-b5a3-a1c0781fff24
+    la_tremoille_charles-belgique-hollande_(1655-1709)_duc_de:
+      E13:
+        uuid: fc0f1e54-124a-4695-96cb-6231e15fe10b
+    '49674':
+      E13:
+        uuid: a88912fe-8a58-4d20-819d-214c9aff2f95
+    verneuil_charlotte_seguier_(1622-1704)_duchesse_de:
+      E13:
+        uuid: d7291e18-93de-4b64-9abf-8e909fc61eae
+    verneuil_henri_iii_de_bourbon_(1601-1682)_duc_de:
+      E13:
+        uuid: 73b61878-b1ee-43a4-83d0-7a2d21115e36
+    '82351':
+      E13:
+        uuid: 394b67c1-5ac6-4c23-af34-834171a0d2f9
+    '82251':
+      E13:
+        uuid: 0f6872b7-0f57-4c48-92e2-72e1c1eebc74
+    '82247':
+      E13:
+        uuid: 434b76db-f8f4-49c8-b1ff-7e290dd0b2c6
+    '82249':
+      E13:
+        uuid: a0e6c5e3-cf47-4063-ab3f-b28b04ac834c
+    '82253':
+      E13:
+        uuid: d53045ae-dcd3-4c78-8ee0-1d167f2b06bc
+    '82353':
+      E13:
+        uuid: fd313207-3b74-412a-adbd-a6272ad34368
+    '82259':
+      E13:
+        uuid: ed4c91b6-5394-4d73-aee5-7e9a621d1cb7
+    '82255':
+      E13:
+        uuid: 0e489c07-bb3f-42a7-94b8-fa48dbc04baa
+    '82257':
+      E13:
+        uuid: d0b22f96-5c9f-4d9c-a4c5-0fd43260332b
+    '82355':
+      E13:
+        uuid: 0fdc6bc6-d83a-4992-9aa0-ad062da2d843
+    '82293':
+      E13:
+        uuid: 8f18662b-3dcc-4968-aff3-438d4f2e4135
+    '82295':
+      E13:
+        uuid: 283faab0-384f-47ad-b995-04b62d8f0751
+    '82287':
+      E13:
+        uuid: 146f6c19-6eba-4bce-a1e1-5941e0734302
+    '82275':
+      E13:
+        uuid: 52249333-fd23-40bd-ae01-83674b618812
+    '82357':
+      E13:
+        uuid: 3430a64c-68f1-4eb2-8a7b-337a6795b693
+    '83489':
+      E13:
+        uuid: 2edd9c24-644e-4e96-8b43-2c80a6a56584
+    buterne_jean-baptiste_(1650_ca-1727):
+      E13:
+        uuid: 115b8b28-bc30-4c6e-a591-dd96a5d51836
+    nevers_philippe-jules-françois_mancini_(1676-1768)_duc_de:
+      E13:
+        uuid: 701adb3f-f391-44dd-91cb-4c68ee7de3df
+    '82289':
+      E13:
+        uuid: fcff341c-473a-4565-94f3-976d1966b7f6
+    '82291':
+      E13:
+        uuid: eb8b732b-b389-4942-8f17-5be8777f7bdd
+    lalande_michel-richard_de_(1657-1726):
+      E13:
+        uuid: a04472f0-ecfc-4493-becb-e276db277f11
+    maine_louise-benedicte_de_bourbon_(1676-1753)_duchesse_du:
+      E13:
+        uuid: 6dd4d418-dad0-41ba-86ba-791eba685f67
+    pidou_de_saint-olon_françois_(1646-1720):
+      E13:
+        uuid: e99e851c-bc50-4347-a0e0-88c1fca162f9
+    eveque_de_babylone_(169708):
+      E13:
+        uuid: 3b811e32-fcff-4824-b8c4-c07725782edd
+    '83523':
+      E13:
+        uuid: 2eb590a7-3ffd-4c05-afdd-c2e28188e4f2
+    '82271':
+      E13:
+        uuid: f255eea8-7ce7-4946-ac8c-beeb60d2a6e0
+    '82329':
+      E13:
+        uuid: c5263a6b-e479-44e7-b58a-534d93aba8e6
+    '82277':
+      E13:
+        uuid: d08278a6-61fe-4f15-8e3b-fb349dec2061
+    '82273':
+      E13:
+        uuid: 36197892-70c7-4874-b7a7-12252018f029
+    '82279':
+      E13:
+        uuid: 6e878684-7586-4aac-a335-37a1800f058c
+    '82299':
+      E13:
+        uuid: d245a1fd-a456-431e-900e-0699b03bfe1d
+    '82297':
+      E13:
+        uuid: 7aa5621c-0f74-4503-bb4b-a1899ebb282d
+    '82301':
+      E13:
+        uuid: 1eec34ca-2215-42ac-8018-62f54096a490
+    '82303':
+      E13:
+        uuid: fe592ad5-4a0f-498e-bca8-1b82af17207b
+    '82305':
+      E13:
+        uuid: a319a2b9-e3f8-48e4-8b56-c6b6be75749b
+    '82307':
+      E13:
+        uuid: 856184c6-2bca-4c3a-9422-5448af448fed
+    bertier_david-nicolas_(1652-1719):
+      E13:
+        uuid: 439a9e7b-dc4c-46e7-9f41-e0f5465af9f8
+    '82309':
+      E13:
+        uuid: 8c5e20ac-6c8e-47aa-a902-2c26232302ab
+    cosnac_daniel_de_(1630-1708):
+      E13:
+        uuid: 867474a1-6dc4-40a3-9fb7-e6a42c9833eb
+    hervault_mathieu-ysore_d_(1647-1716):
+      E13:
+        uuid: 455c9f25-0fb0-45da-aaec-3793be06b8c5
+    '82313':
+      E13:
+        uuid: 01f949bd-2975-4e8d-ab25-f6f4e68fd477
+    '82349':
+      E13:
+        uuid: 651f961a-2ac1-4ffc-bea4-90ef12752580
+    montjeu_marie-louise-chretienne_jeannin_de_castille_(1679-1736)_marquise_de:
+      E13:
+        uuid: 52f614dc-00aa-47c0-8b83-900b918f2bba
+    '47150':
+      E13:
+        uuid: c463dff5-0334-4f5f-b2b1-f5190385534e
+    '82935':
+      E13:
+        uuid: 74f1c1ad-b6f6-4d2e-8b51-65acbcd03c9c
+    montfleury_(1639-1685):
+      E13:
+        uuid: 99316c3b-c2ec-460b-b4a0-fe3c26c3977a
+    '82347':
+      E13:
+        uuid: aa85737a-0df4-477f-8c78-2ada7f1f9385
+    calderón_de_la_barca_pedro_(1600-1681):
+      E13:
+        uuid: 0debad4e-19fd-4d13-b9b2-15f69aafc4a9
+    '14516':
+      E13:
+        uuid: 4039dcda-bc17-4de8-8662-a35e33d3343a
+    buckingham_georg_villiers_ii_(1628-1687)_duc_de:
+      E13:
+        uuid: d55ce802-2352-4c89-a6ae-156400992d7c
+    '82283':
+      E13:
+        uuid: f0f7eb92-f8e8-4ec8-b5e5-e5ea87be2b7b
+    '82281':
+      E13:
+        uuid: 2f437abd-e9e1-4a98-8cdd-81e80dfe2ccc
+    '82285':
+      E13:
+        uuid: 253082c7-96eb-465f-8e54-003f6d217af8
+    '14510':
+      E13:
+        uuid: 0e704686-d381-45d6-9a44-f7c7d0da9bee
+    malezieu_nicolas_de_(1650-1727):
+      E13:
+        uuid: 93827334-c17a-4fb9-aafa-15768ba49a82
+    fleury_andre-hercule_de_(1653-1743)_cardinal:
+      E13:
+        uuid: 56eb952f-3cc5-4fe3-a2e2-a7cce8737770
+    le_prevost_pierre-robert_(1675-1735):
+      E13:
+        uuid: b0014379-1947-400d-b71f-67832998a1bf
+    '82315':
+      E13:
+        uuid: f26d57bd-0ccc-47d2-a060-95bee02155cd
+    bignon_jean-paul_(1662-1743):
+      E13:
+        uuid: d8f23d6c-7d97-41b0-bae2-0171755d87d3
+    quiqueran_de_beaujeu_honore_(1655-1736):
+      E13:
+        uuid: 4d9ba63c-e238-40cd-a5bb-713fb3db53e7
+    '82317':
+      E13:
+        uuid: ced29e3a-e656-4a45-ad7e-acc61d78d294
+    '82319':
+      E13:
+        uuid: bd8796cd-c6c5-4267-b97a-c273f5f0c309
+    houdar_de_la_motte_antoine_(1672-1731):
+      E13:
+        uuid: 3d3b678d-ad31-4c4f-a372-bb628a11462e
+    '82331':
+      E13:
+        uuid: 8a1c537d-5069-43b9-8340-77671a225491
+    '82325':
+      E13:
+        uuid: 84247335-ec93-4b6d-9a23-d16372e6e80d
+    '82321':
+      E13:
+        uuid: 99c60551-7a66-4675-8008-d3b12a03629a
+    '82323':
+      E13:
+        uuid: 3e3f74d4-b967-4814-be08-8a2131d70644
+    '82335':
+      E13:
+        uuid: 36e792ee-2ee1-4422-bb83-851d74dff09b
+    '82333':
+      E13:
+        uuid: 0a553cfd-5d83-4e7b-94f7-421662dbe3b4
+    ormesson_claude-françois_de_paule_lefevre_d_(1647-1717):
+      E13:
+        uuid: 6c35092f-8ff5-4239-9055-c38facd988d0
+    '64922':
+      E13:
+        uuid: 93ccbc38-ad71-4b37-be09-a9602c470de8
+    '82337':
+      E13:
+        uuid: 0211c9f0-3c3a-46ef-bf4d-540293f237e8
+    harlay_achille_iii_de_(1639-1712):
+      E13:
+        uuid: 7f4beb46-50cf-499c-b95f-6c0e833c768f
+    baviere_maximilien_ii_emmanuel_de_(1662-1726):
+      E13:
+        uuid: 2391c27a-5c1a-4cd8-8cea-1909afdd6020
+    bayern_von_wittelsbach_joseph_clemens_(1671-1723):
+      E13:
+        uuid: 0f6fbde2-9bd6-4284-8d91-dc1acbb7cb58
+    '82343':
+      E13:
+        uuid: 36748ed1-fefb-4333-8de8-d6fbb10997e2
+    '82345':
+      E13:
+        uuid: edeada6f-3b5b-4653-9e55-a5dab86c2730
+    '82359':
+      E13:
+        uuid: d5bdd366-8ffc-40e1-a14a-d28a39bf82b5
+    '82369':
+      E13:
+        uuid: 9b8542a1-18a4-4f1c-bcc9-19c55b7649e6
+    '82371':
+      E13:
+        uuid: 35668e2b-016d-4b81-9d20-5e0b6f4d3636
+    charles_xii_(1682-1718)_roi_de_suede:
+      E13:
+        uuid: f62d8cec-3d2d-4459-aba5-c2cd6c87674a
+    '82365':
+      E13:
+        uuid: ef644a62-6b84-4a8a-8a19-5916c1f2ea5e
+    wurtemberg-stuttgart_eberhard-louis_(1676-1733)_duc_de:
+      E13:
+        uuid: cd6a2831-7c46-4303-a381-fb9d055ee941
+    '82361':
+      E13:
+        uuid: ab00be23-8e88-4d6b-8637-b34e565ebb07
+    '82379':
+      E13:
+        uuid: 0c752e93-0874-4e0e-97df-25f61865f792
+    '82381':
+      E13:
+        uuid: 45aed64c-8957-442b-9b5c-756cf4cb6a5c
+    '82375':
+      E13:
+        uuid: aa61d357-d756-4873-a36c-7ca6c9a0c44a
+    '82377':
+      E13:
+        uuid: 8edfddc7-0d89-43d4-9268-84557948a377
+    '82363':
+      E13:
+        uuid: 5cff8622-e5ae-440f-8860-4909d882ea4d
+    '82407':
+      E13:
+        uuid: a24a4871-f9b4-476d-a1c7-af8da7b4ce3d
+    conde_henri-jules_de_bourbon_(1643-1709)_prince_de:
+      E13:
+        uuid: 13a8380a-6fb6-4c98-9016-79e644a7aa01
+    bourbon_louis-henri_(1692-1740)_duc_de:
+      E13:
+        uuid: f7b6c99d-73da-4722-b218-85974cef84ad
+    tingry_charles-françois-frederic_de_montmorency-luxembourg_(1662-1726)_prince:
+      E13:
+        uuid: 1ed46fd5-f963-4c75-bcbf-70b47008c9b8
+    '82425':
+      E13:
+        uuid: d6cf0da9-3bb5-45bc-b10e-107ca1b534c0
+    fiesque_jean-louis-mario_(1647-1708)_comte_de:
+      E13:
+        uuid: 11fd15c4-4704-48d8-a21c-6f9895e4cfbb
+    '82409':
+      E13:
+        uuid: 565b2026-30b0-403a-ad5a-682fdec98a8e
+    '82427':
+      E13:
+        uuid: 9d224946-691a-49e0-b71c-a9953bf57f70
+    conde_marie-anne_de_bourbon_(1678-1718):
+      E13:
+        uuid: 7496515a-4468-45d8-bbcd-b84eb144bd63
+    '82429':
+      E13:
+        uuid: 39a3431f-6b5b-4cf9-84a2-d6e15445893c
+    '82505':
+      E13:
+        uuid: fafffc25-f37e-4ec0-bf73-e238fbac8f8a
+    '82529':
+      E13:
+        uuid: d9ed6e94-c214-4800-b659-80989106133d
+    '82431':
+      E13:
+        uuid: 6504d23d-9d5a-4bc3-a7ce-0abfdd64bbe4
+    '82339':
+      E13:
+        uuid: e83bef96-6e7c-4055-a90f-2e3e0b761222
+    '82341':
+      E13:
+        uuid: ad0f7117-1305-43b5-ae75-1ca9a1e0cfd8
+    '82383':
+      E13:
+        uuid: 8183a34d-b0e2-48b0-952d-786acadb0a26
+    la_hoguette_hardouin_fortin_de_(1643-1715):
+      E13:
+        uuid: 9eb142ec-0de5-4260-bcbd-df1a3478ada6
+    '82389':
+      E13:
+        uuid: 3371dd7c-8045-4448-a29f-8d7f6d5a5d07
+    neuchâtel_marie_dorleans-longueville_(1625-1707)_princesse_de:
+      E13:
+        uuid: 93c2db5c-de0a-4ca8-924c-b1323c37b95a
+    '82395':
+      E13:
+        uuid: e2c47808-e624-41bf-a1ec-4f60fd74251a
+    '82397':
+      E13:
+        uuid: 4a04df51-998e-4aee-ae5d-0eb9161ded50
+    '82399':
+      E13:
+        uuid: 327e70c8-5441-4f9c-bcf4-fbc6e4236ea0
+    chastelain_claude_(1639-1712)_abbe:
+      E13:
+        uuid: f80b2e0c-49ac-4e9f-ac08-0d031ed252d6
+    '82401':
+      E13:
+        uuid: 6a4a1448-adfe-4f5b-bc17-586f93681e86
+    châtillon_marie-anne_de_la_tremoille_(1676-1708)_duchesse_de:
+      E13:
+        uuid: e06ba388-c9c6-487c-b2c1-743cad64260b
+    '82403':
+      E13:
+        uuid: 780f1bbd-17f5-4063-af75-f09ae207f936
+    '82411':
+      E13:
+        uuid: 214caa04-592b-4b02-96d7-16499fedd818
+    '82405':
+      E13:
+        uuid: 7663347e-3656-4ef1-a107-8aff2babfb96
+    '28095':
+      E13:
+        uuid: 5a1e47a2-5c35-4f95-ade9-945b55eab528
+    stuart_jacques-françois_(1688-1766):
+      E13:
+        uuid: bc7076a7-1b35-4fb2-896c-4335256312a5
+    '82423':
+      E13:
+        uuid: c0d95c27-70c8-4a69-aca9-b285cbbb301f
+    '47138':
+      E13:
+        uuid: 20826843-8de4-48c8-83cb-4903f7c90054
+    '47137':
+      E13:
+        uuid: 6efbc1b5-a9f0-4ec6-aa5c-b989601e5afb
+    brionne_henri_de_lorraine_(1661-1712)_comte_de:
+      E13:
+        uuid: 26b3660b-0af0-447d-b963-da3261171ef9
+    lorraine_charlotte_de_(1677-1757):
+      E13:
+        uuid: 0c9aa4c3-2f80-4711-9281-49e688528fae
+    '38560':
+      E13:
+        uuid: 22541fd5-8072-493c-a7b5-6551a12dd0e7
+    saint-simon_louis_de_rouvroy_(1675-1755)_duc_de:
+      E13:
+        uuid: 93596592-e5bc-41ae-ac8e-40fb21d888f9
+    lauzun_genevieve-marie_de_durfort_(1680-1740)_duchesse_de:
+      E13:
+        uuid: c75d473d-7037-4907-820a-0ddb9b971347
+    '28112':
+      E13:
+        uuid: dd986bcc-d936-4830-b897-c637a70692d2
+    saint-simon_marie-gabrielle_de_durfort_de_lorges_(1678-1743)_duchesse_de:
+      E13:
+        uuid: 37babeca-c0a1-4d7f-802f-ffdaeb954f97
+    '28113':
+      E13:
+        uuid: 38e336bc-f90d-40b6-b89e-9425fb5ce692
+    mazarin_françoise_de_mailly_(1688-1742)_duchesse_de:
+      E13:
+        uuid: e0257823-9c6d-4b6a-bd10-bb1e3aebb6c1
+    '276027':
+      E13:
+        uuid: 448e290d-63b7-4c2b-bbd4-e55eb5bad0f5
+    '82551':
+      E13:
+        uuid: be5aa904-327d-4bdf-ba76-98dd8530d262
+    livry_louis_sanguin_(1673-1741)_marquis_de:
+      E13:
+        uuid: b70acdbc-8058-4072-a6a8-6d409eca8af5
+    rupelmonde_marie-marguerite_de_tourzel_d’alegre_(1688-1752)_marquise_de:
+      E13:
+        uuid: ef755ade-171d-456b-b9d7-672b17b8a01b
+    '82421':
+      E13:
+        uuid: 6efa7788-91b1-475d-90ed-bf76e3f24e61
+    '82555':
+      E13:
+        uuid: 813fe9f3-34de-43f7-9996-84cdb8170d28
+    lully_jean-baptiste_(1632-1687):
+      E13:
+        uuid: 4384eedd-58ef-47f1-b660-b05f3c55b732
+    saint_hilaire_(315-367):
+      E13:
+        uuid: 9436cfdf-e6be-45dd-8b16-174ffabfb6d1
+    '82413':
+      E13:
+        uuid: 4afb343e-d5ae-4d3f-8dab-da9f55049db8
+    '82415':
+      E13:
+        uuid: 17346e7b-df9e-4561-84d5-c947630b1ca1
+    '82419':
+      E13:
+        uuid: 5aba11fe-6660-4261-b6c8-434185e0df89
+    '82417':
+      E13:
+        uuid: dd02fe30-f873-4a0d-b265-8e016d15da4e
+    saint-simon_claude_de_rouvroy_(1606-1693)_duc_de:
+      E13:
+        uuid: 243e85ec-733c-47e9-9020-7ae304c6055f
+    '82557':
+      E13:
+        uuid: 2f0ee256-ab34-48b6-9f6b-8c3a274725bd
+    '82549':
+      E13:
+        uuid: b729dbf6-052c-4f98-9b84-4885131c868f
+    genest_charles-claude_(1639-1719)_abbe:
+      E13:
+        uuid: e543f439-9f05-4821-8197-137203d443a8
+    '82513':
+      E13:
+        uuid: 6de5f864-6da3-44b7-b95f-426fc9380a1f
+    baron_michel_boyron_(1653-1729)_dit:
+      E13:
+        uuid: d0665831-9a32-44ce-801e-8c6d1557ed49
+    '82497':
+      E13:
+        uuid: 9a3dfb3b-e6c7-4d97-8bce-775aa6e66639
+    '82499':
+      E13:
+        uuid: 6e7c408a-0857-4d2d-9600-bdd1c98b509b
+    '82503':
+      E13:
+        uuid: 92f195ff-d399-4832-be65-62b94a5b51c1
+    biran_gaston-jean-baptiste-antoine_de_roquelaure_(1656-1738)_marquis_de:
+      E13:
+        uuid: 6e39d868-e2f6-4622-94d3-4eb02c81349f
+    antin_louis-antoine_de_pardaillon_de_gondrin_(1665-1736)_marquis_d:
+      E13:
+        uuid: 6fb5eb12-b806-4888-af69-c7fc53762332
+    '82507':
+      E13:
+        uuid: ca411a63-1b52-4a48-af5a-d8ae92122dff
+    '28100':
+      E13:
+        uuid: 94da9fc2-d032-4789-8827-76c0d7349bab
+    modene_marie-beatrice_de_(1658-1718)_reine_dangleterre:
+      E13:
+        uuid: 513b6cba-0f3f-4bd4-b698-a1514c199bd3
+    '82509':
+      E13:
+        uuid: 2ab07ad4-ae5b-408c-bf84-618b3ec34fa0
+    '82511':
+      E13:
+        uuid: 5347b15c-9579-4701-bb02-a91c8767215d
+    '82433':
+      E13:
+        uuid: fb00b181-e194-4302-ae92-d005d4222477
+    '82517':
+      E13:
+        uuid: 23bfffca-c5c7-4a2e-b0c1-14ce1f1cf4a9
+    '82515':
+      E13:
+        uuid: c381ecda-1a30-4539-a6a3-689740abe4cc
+    '82527':
+      E13:
+        uuid: 5af06297-01a8-4661-8380-0091912a5c35
+    hardouin-mansart_jules_(1646-1708):
+      E13:
+        uuid: b787b107-f172-447b-8f47-f9c689402617
+    titon_maximilien_(1632-1711):
+      E13:
+        uuid: 7a624f4c-ae18-4a59-b18b-b1f4e47510e7
+    '82519':
+      E13:
+        uuid: 144862f0-bd3c-486f-bfec-1efa50b1cfb7
+    '82521':
+      E13:
+        uuid: a6dea597-2fa3-4df2-8fde-5bab8399eb54
+    anselme_antoine_(1652-1737):
+      E13:
+        uuid: 043fdc2b-d4f0-40cb-aee2-b528f62eac1a
+    '82523':
+      E13:
+        uuid: 38601292-1c32-4719-8871-97f5a8a4562e
+    '82525':
+      E13:
+        uuid: 459c7190-9b2b-4b6f-850f-d14857c7254e
+    marchand_louis_(1669-1732):
+      E13:
+        uuid: d67da6ec-513b-4092-a9a5-7fabd0e68a4b
+    philidor_andre_danican_(1647_ca-1730):
+      E13:
+        uuid: 07af5e81-2e4e-4f2e-9f5f-2899014220cb
+    philidor_jacques_i_danican_(1657-1708):
+      E13:
+        uuid: 5ab9dc5c-700d-42a4-93f1-38288cec7d6f
+    '82531':
+      E13:
+        uuid: 5c54e4c2-5a3a-4c76-a464-5b339140f688
+    conde_anne-henriette-julie_(1648-1723)_princesse_de:
+      E13:
+        uuid: bc443278-13a9-464c-9fe3-3e743bebf11a
+    matho_jean-baptiste:
+      E13:
+        uuid: 33874b54-ad16-4103-9bfe-c95af60d3260
+    balon_m:
+      E13:
+        uuid: 9667207f-0d4d-4465-bf10-3e0ecd1553aa
+    '82561':
+      E13:
+        uuid: 377ad043-b0d1-4bc9-9e64-a54ff4f25c4f
+    '82563':
+      E13:
+        uuid: 78c0276b-160b-4b56-82ea-047fcc1cd0e5
+    '82559':
+      E13:
+        uuid: ade29ac1-22c9-47d8-bca0-e2909183983b
+    '82553':
+      E13:
+        uuid: 2cc6a605-dd17-45e9-a5ec-d3dab4ed1121
+    '82921':
+      E13:
+        uuid: 05483f44-47f6-4d63-b415-3c96ddbf25af
+    dodart_denis_(1634-1707):
+      E13:
+        uuid: ec753ca9-8cbd-4cf6-873e-1dc7045409a4
+    '82919':
+      E13:
+        uuid: dda56b89-49f9-43a5-a652-8544017f7f92
+    '82917':
+      E13:
+        uuid: b84b6c68-4f8a-4796-9c4e-a73ac2942cce
+    '28108':
+      E13:
+        uuid: 32ce842e-b9eb-4eb4-88c2-440eca6dd6cd
+    '82923':
+      E13:
+        uuid: c1fd3a18-3554-46ab-af6f-ec6c5cf4ec7d
+    '82915':
+      E13:
+        uuid: 4216a4d1-17b7-4f5b-9d90-66a4437e3f6c
+    '83119':
+      E13:
+        uuid: ffbedef0-367f-48ac-8907-40c16e1b58e6
+    arnauld_de_pomponne_henri-charles_(1669-1756):
+      E13:
+        uuid: ffd6de05-acdd-45f0-adc7-abb4feb4ab86
+    '82869':
+      E13:
+        uuid: 03fcfb60-2129-4f5e-8c4f-bc0ee2b53519
+    '82871':
+      E13:
+        uuid: fc1cac20-44e4-4b94-8f60-9e1e629a600a
+    '82865':
+      E13:
+        uuid: c0948652-f1cf-4fe0-8e18-48e166f9da44
+    '14512':
+      E13:
+        uuid: cac5114a-7ff7-498d-8111-20ed80ba2493
+    montenay_jean_de:
+      E13:
+        uuid: cff20d23-f35b-4bc1-a83f-1f74f4b460f0
+    la_reynie_nicolas_de_(1625-1709):
+      E13:
+        uuid: 2c7bebe0-b8ab-437f-bb48-ef8b4f9d45e6
+    '82883':
+      E13:
+        uuid: e4318c57-4c3b-4ea7-b998-d8c0a0f517ec
+    '82879':
+      E13:
+        uuid: 3fb2797d-c6cf-4d63-80ba-9677b964c8b7
+    '82881':
+      E13:
+        uuid: 3ffc6d9a-343c-4035-bcdd-3ba444e7c559
+    '82875':
+      E13:
+        uuid: a89401fb-69c1-4f83-a2ab-87fc91b3a32f
+    '82877':
+      E13:
+        uuid: 543692c1-ad3e-4b79-8be2-c82fabc27c8a
+    le_peletier_des_forts_michel-robert_de_saint-fargeau_(1695-1740):
+      E13:
+        uuid: cb2ce2ca-0cc5-4bd3-b575-00b5c169c1a5
+    basville_anne-louise_bonnin_de_chalucet_mme_de_(1657-1732):
+      E13:
+        uuid: 5f4c24d0-f1e5-4191-b2ad-4bd71401fc4e
+    '83267':
+      E13:
+        uuid: 07078f00-7894-4885-9d40-789826a3df22
+    '83285':
+      E13:
+        uuid: 90a7075f-2dcf-438b-ac2c-26b740de6419
+    '83325':
+      E13:
+        uuid: 45ffc947-5aae-4a87-a6a8-e0fe497d3f6f
+    torcy_jean-baptiste_colbert_(1665-1746)_marquis_de:
+      E13:
+        uuid: f9d5be2a-4604-4af2-a54d-dfa1fbab598a
+    '83491':
+      E13:
+        uuid: 350218ab-97c6-4ead-90c3-6eea966acd60
+    '48408':
+      E13:
+        uuid: b61984b4-054f-4cb4-908b-a4940d9726ae
+    '14513':
+      E13:
+        uuid: 23a6faff-3d64-4ad9-b48d-77b04245b220
+    roure_louis-pierre-scipion_de_grimoard_de_beauvoir_(1646-1733)_comte_du:
+      E13:
+        uuid: 8b43d02b-a86c-4415-a315-b896485b3b7b
+    basville_nicolas_de_lamoignon_(1648-1724)_seigneur_de:
+      E13:
+        uuid: 1bfa8669-fb7e-4c96-841a-5616572782a0
+    le_goux_de_la_berchere_charles_(1647-1719):
+      E13:
+        uuid: 9637ae91-ca1e-4da2-94ac-9a1021dca40b
+    colbert_de_saint-pouange_jean-baptiste-michel_(1640-1710):
+      E13:
+        uuid: e4f9517e-7f43-44e4-aceb-467895db0521
+    '82899':
+      E13:
+        uuid: b10f033e-491f-40e6-9f12-fadc18a4f8ba
+    roquelaure_marie-louise_de_montmorency-laval_(1667-1735)_duchesse_de:
+      E13:
+        uuid: c7eb149b-f518-4fe6-8d52-cffe0b27365b
+    '82887':
+      E13:
+        uuid: 9dcb9276-c8c9-498e-bcfe-2822cbaae7d6
+    '82891':
+      E13:
+        uuid: af94b5f8-d03e-44ce-899e-8ba02b63b4cf
+    '82893':
+      E13:
+        uuid: 30d20381-972e-4d62-960d-ba3c97313f43
+    '82897':
+      E13:
+        uuid: a000ab48-5df0-45fb-ac71-3478861e0830
+    '82895':
+      E13:
+        uuid: 325d01b4-cc41-4099-b979-33d511040fe9
+    '82969':
+      E13:
+        uuid: 15ae9f50-d89b-4dd8-b9dd-fd620d8ceca0
+    '82971':
+      E13:
+        uuid: 80564712-578f-4178-9442-12a379e841ef
+    '82975':
+      E13:
+        uuid: 3f5b6965-f518-4743-97ce-2d1b14631ba1
+    '82977':
+      E13:
+        uuid: ffebf18c-b559-49f4-90fe-61e85616ac0a
+    '82929':
+      E13:
+        uuid: 96aa9bb5-8d5b-4f01-8d66-ba22b2b46d8c
+    pfalz-neuburg_marie-anne_von_(1667-1740):
+      E13:
+        uuid: 4df5f105-90ac-4e11-b899-95d48d6c0f3e
+    '82983':
+      E13:
+        uuid: 81143d5d-0ae5-46a0-b03b-2a13a60cd53c
+    '82981':
+      E13:
+        uuid: 9348f1fa-4829-440f-b228-d9fa6b746adf
+    '48417':
+      E13:
+        uuid: 78553589-f9a6-4183-ba0c-76295ed38c25
+    '82965':
+      E13:
+        uuid: c209ceb2-0b79-4dac-af8e-d2e450eaddc4
+    '82967':
+      E13:
+        uuid: 5ef2f236-c659-4cde-907c-f9b6fe19cf4c
+    '82973':
+      E13:
+        uuid: 04b07914-1716-4852-a37f-ecf570065266
+    villars_claude-louis-hector_(1653-1734)_duc_de:
+      E13:
+        uuid: 170c31e1-1e2d-4950-8ad1-41fb0f16e09d
+    '82989':
+      E13:
+        uuid: 34cb10f6-b138-4998-9d9e-46f4856e0070
+    '83065':
+      E13:
+        uuid: df02faef-8840-46bb-acb5-186bcea8882c
+    '64931':
+      E13:
+        uuid: 698bf8d8-1fdd-44c7-a5fc-a9b00562a1e5
+    frederic_i_(1657-1713)_roi_en_prusse:
+      E13:
+        uuid: d0a84018-3a50-43b8-a012-d77664d77fff
+    '83063':
+      E13:
+        uuid: 1a700f9b-02ce-43b5-a25f-951347273a2f
+    '83073':
+      E13:
+        uuid: 5f1a2444-c823-408f-8381-52ed987332b6
+    '83067':
+      E13:
+        uuid: cc59965c-fc6b-4db6-9b90-7adb3359043b
+    '83015':
+      E13:
+        uuid: 94bd709f-4dcc-4ec0-a154-39e1b8d9be54
+    '83075':
+      E13:
+        uuid: 9554f96a-1930-40fe-b416-3ecce5695fa6
+    '64929':
+      E13:
+        uuid: 1f8b7413-31f4-48c3-bd9d-9dac33b76dd0
+    '83071':
+      E13:
+        uuid: 659e277c-5cf8-47e9-9420-5f720eb9ab92
+    '83111':
+      E13:
+        uuid: 192c3f68-4f22-431f-ba30-75825f5ed6b0
+    '83069':
+      E13:
+        uuid: 45359464-98a2-4058-a6c5-e36db7aa4f7c
+    '83115':
+      E13:
+        uuid: e664565d-7dfa-4564-a7b4-12cb5bd0586c
+    '82901':
+      E13:
+        uuid: a63b5189-5196-4128-a0e8-afcdebf08c48
+    '82903':
+      E13:
+        uuid: 15ff3c4a-2dce-465f-b8f4-0cc35cb07658
+    '82905':
+      E13:
+        uuid: 75ac61e4-4282-468f-b022-919c00fc0513
+    '82907':
+      E13:
+        uuid: 29aa7483-c28a-4934-9a8d-c2cfaa799f30
+    '82925':
+      E13:
+        uuid: 1fdab647-7362-4be1-8974-14412a5a943a
+    '82909':
+      E13:
+        uuid: aa3e6994-e561-416a-a831-e5526d68e117
+    '82911':
+      E13:
+        uuid: 0eb4c5c0-ff55-4964-b351-528a2a5e4b6d
+    epinoy_elisabeth-therese_de_lorraine_(1664-1748)_princesse_d:
+      E13:
+        uuid: 65fa4bf3-842d-4b8c-b9cb-34cf0824533e
+    '82913':
+      E13:
+        uuid: 3c62e5e5-22c9-4933-b5da-d914b3e67508
+    '82927':
+      E13:
+        uuid: 79c81409-5047-43f2-9ee4-82fff029b7a2
+    '70438':
+      E13:
+        uuid: dbdbe5a3-b503-4e94-80a5-847e2685c9f5
+    '82931':
+      E13:
+        uuid: 94b34dcc-4267-4efe-a26c-60d556120a6c
+    '82937':
+      E13:
+        uuid: 6d8ee129-8af1-49de-982c-636735cae067
+    villeroy_françois_de_neufville_(1644-1730)_duc_de:
+      E13:
+        uuid: 995e0b49-b4bd-4e46-baf7-6428cbae91d1
+    roucy_françois_ii_de_la_rochefoucauld_(1660-1721)_comte_de:
+      E13:
+        uuid: bddc5d34-100b-4d0b-931b-77be96175355
+    chemerault_jean-noel_(1663-1710)_comte_de:
+      E13:
+        uuid: 7a40e33c-ca08-4382-ba89-d27b628c615c
+    '28083':
+      E13:
+        uuid: 55edee53-930b-4ddb-8349-5addd8b07eeb
+    '82939':
+      E13:
+        uuid: 7cfb1b8d-2dae-4f04-a8da-5d8128d8218a
+    '83289':
+      E13:
+        uuid: be500b03-b416-4460-948c-cc5ecb477062
+    '83287':
+      E13:
+        uuid: 52d2edeb-a2b4-418b-b03e-51fee1fe9355
+    ballard_christophe_(1641-1715):
+      E13:
+        uuid: b8840255-f0ae-487c-9095-0d500c724415
+    foucault_henri:
+      E13:
+        uuid: c7abf92c-bb73-4ae9-8864-68470c14c979
+    '82955':
+      E13:
+        uuid: ea014e3d-5fd3-49e7-b949-940b615484f4
+    '83359':
+      E13:
+        uuid: 3a2f62a1-3b96-48a9-8c8f-35a2c6aeb7e6
+    '83367':
+      E13:
+        uuid: 8ea1feae-994c-4544-8a8e-c2948d54812f
+    '83365':
+      E13:
+        uuid: 52a1a221-5b83-4887-80ba-d645730c2fe4
+    '82991':
+      E13:
+        uuid: 0ee256cf-dd3e-49a1-8a56-7325cffaf47b
+    '82997':
+      E13:
+        uuid: 6249b24d-c779-4ed0-8fc2-b2fde5cc56ad
+    '82999':
+      E13:
+        uuid: 4afe698c-be5e-40a1-8d57-898ef31ec3db
+    '83001':
+      E13:
+        uuid: 327f971d-4313-45c6-b429-c90a2c3e3be2
+    '82993':
+      E13:
+        uuid: 9e979bdb-577e-4d71-b738-d9e3cfcb1646
+    '83003':
+      E13:
+        uuid: 0b168fc1-c9ee-4253-a415-33dd02fe059e
+    '83005':
+      E13:
+        uuid: 74ff09c8-1966-4961-9d00-aca433227b5d
+    '82995':
+      E13:
+        uuid: d1c62c01-f1af-4daf-9b7e-566784eba9f1
+    '83007':
+      E13:
+        uuid: 7b81977f-552c-441b-96e1-1c00ed60ed72
+    '83009':
+      E13:
+        uuid: 211d7d75-32ab-4134-84d0-a596bc171403
+    '83011':
+      E13:
+        uuid: df8f3db0-3db5-4299-84a1-977b6c51e20a
+    '83013':
+      E13:
+        uuid: c438b015-bfeb-4f54-b3da-97b4c97a7e5b
+    '82953':
+      E13:
+        uuid: 72f75e24-9b23-4525-8a68-3c055ca33652
+    '82943':
+      E13:
+        uuid: a1620e73-c54b-4165-90aa-828c4861f806
+    '82957':
+      E13:
+        uuid: fe25bec4-e288-4d9b-adec-28636f2c5cb3
+    '82961':
+      E13:
+        uuid: 3c9b648f-61b4-482a-ac84-fdf9840442c9
+    '82945':
+      E13:
+        uuid: 5570f76d-25d2-4dc4-969f-5e68de4e75fe
+    '82947':
+      E13:
+        uuid: de026228-d773-496c-98e3-b68c9e93c878
+    '82949':
+      E13:
+        uuid: c99a8c4c-9dda-40b7-966f-4faa1e106aa6
+    bouville_michel-andre_jubert_de_(1645-1720):
+      E13:
+        uuid: 8f2e9b10-c014-42b0-9e36-a0a5e799b2ec
+    '83017':
+      E13:
+        uuid: ca92e8c3-9277-40bf-8452-c96015d637e4
+    '83027':
+      E13:
+        uuid: 66e8b32a-f740-4798-a12f-59946f392220
+    '83033':
+      E13:
+        uuid: 04bc7b01-1bc6-4248-9133-b4e7470d965b
+    isaure_clemence_(1450_ca-1500_ca):
+      E13:
+        uuid: 3c4e8889-9533-4e3d-bf29-d503fe80e265
+    '83035':
+      E13:
+        uuid: ca0ef9fb-7416-4f50-9696-a9352694814e
+    '83037':
+      E13:
+        uuid: 8742ef05-c16b-49c1-b95d-5f97e8e93e14
+    '83039':
+      E13:
+        uuid: 2608be1d-66fb-4f2b-9f7b-1db24099f038
+    '83041':
+      E13:
+        uuid: 6813e70c-c660-4765-b266-0229d0ebbe21
+    san_pedro_isabel_spinola_y_colónna_duquesa_de:
+      E13:
+        uuid: 4142688a-bad2-4330-851b-d99b8eb09f94
+    '83043':
+      E13:
+        uuid: 39f92bc4-bb4c-4201-86cd-36362d847cd6
+    '83045':
+      E13:
+        uuid: f6ffac2d-abed-4ff7-a226-aaecd08d408f
+    '83047':
+      E13:
+        uuid: bfda3921-e751-42b5-8df4-2733d2bc3b16
+    '83049':
+      E13:
+        uuid: fd01de4f-25b0-405e-9b98-0aebd769432b
+    '83053':
+      E13:
+        uuid: 6c45aa9d-13c8-44e1-94fd-de6dfaad041e
+    '83029':
+      E13:
+        uuid: 4be39dd7-1cd0-4e7a-aa1a-df9ca6481c4b
+    '83031':
+      E13:
+        uuid: 9c9cd3a9-6559-425e-bc23-b66657200a06
+    chevreuse_charles-honore_dalbert_de_luynes_(1646-1712)_duc_de:
+      E13:
+        uuid: 935976f4-8ca7-46ed-a578-e598dd6674a6
+    lorraine_leopold_i_(1679-1729)_duc_de:
+      E13:
+        uuid: 6478ae53-be0c-442f-80b1-0e2176a4a679
+    commercy_elisabeth-charlotte_dorleans_(1676-1744)_princesse_de:
+      E13:
+        uuid: c8efe3ac-f69c-4fbb-81f2-f0d0d9c3a4f2
+    '83121':
+      E13:
+        uuid: da2014c2-1cf1-4d5a-a1a1-291a5bf5c543
+    '83055':
+      E13:
+        uuid: 1384e670-aa8c-4e03-92c6-fe604de4fe18
+    '83057':
+      E13:
+        uuid: bc97113c-2b9f-4728-ae4c-d025054bfc19
+    lillebonne_anne_de_lorraine_(1639-1720)_princesse_de:
+      E13:
+        uuid: 6a201231-0365-4864-8e30-5be7e40b63af
+    jacquet_de_la_guerre_elisabeth_(1665-1729):
+      E13:
+        uuid: d9202702-7d98-4521-bdbd-a8db8d4be0ab
+    marchand_jean-noel_i_(1666-1710):
+      E13:
+        uuid: c35cb3a9-c5f9-404d-873a-80aabc3ae2e4
+    marchand_pierre-nicolas_(1682-):
+      E13:
+        uuid: 09f9d755-2021-4c73-a4f8-c3d68d50f620
+    '83081':
+      E13:
+        uuid: 5780488d-b6c4-45d1-afa2-955449059620
+    '83083':
+      E13:
+        uuid: ccc2ea51-de88-492e-a831-e1864cb0aeb1
+    '83085':
+      E13:
+        uuid: dcf9224d-711c-4208-b2a1-3837bc9e5fe6
+    '83087':
+      E13:
+        uuid: 97f5a2d7-4bf5-44fb-82cb-593df00e1b01
+    '83091':
+      E13:
+        uuid: 53398cb5-cd24-4b87-9c63-c8545b31f285
+    '83093':
+      E13:
+        uuid: f4476359-1e13-4470-8304-3416363ed719
+    la_vrilliere_louis_phelypeaux_(1672-1725)_marquis_de:
+      E13:
+        uuid: 8af1a44b-3081-4a54-a759-2b65fc64db3e
+    '83097':
+      E13:
+        uuid: c65abcbb-62af-41d4-a3ec-08781fae069b
+    '83099':
+      E13:
+        uuid: 0d006788-b071-4844-8708-4e0b365fdf24
+    '83101':
+      E13:
+        uuid: de822d88-565f-40d7-8cdf-acb9d1e47a44
+    '83103':
+      E13:
+        uuid: 158ff4fb-5e2f-4d6f-8b67-143ac7a58c43
+    '83105':
+      E13:
+        uuid: eadfdf47-ec9e-4df4-ab15-ccb348d93fac
+    '83107':
+      E13:
+        uuid: 5048f4a6-f474-4ee0-8d40-bef86ced1268
+    '83109':
+      E13:
+        uuid: c32e2534-c131-4cc4-8281-bfa48ff11348
+    clement_julien_(-1729):
+      E13:
+        uuid: 657f08a3-206d-493e-b7a3-ba1abb700f31
+    '83151':
+      E13:
+        uuid: 96ea8985-0345-4ee7-b5c8-813db57474d7
+    '83139':
+      E13:
+        uuid: e5319847-7b73-4b54-bbaa-9f3362aaa546
+    '83135':
+      E13:
+        uuid: a0ed2a30-251c-4a3c-bdc2-5e0c94d101d6
+    '83123':
+      E13:
+        uuid: 769a53f4-5131-4fa9-b6d6-c842ccf870d0
+    '83125':
+      E13:
+        uuid: 9861ac81-3056-4936-a7b5-2fd6da7fb979
+    '83129':
+      E13:
+        uuid: ddae7cd1-5d17-4fb4-95cb-ae04257d576d
+    mailly_anne-marie-françoise_de_sainte-hermine_(1670_ca-1734)_comtesse_de:
+      E13:
+        uuid: f0e14462-bff8-4834-b83f-58161e36a3fb
+    pecour_guillaume-louis_(1653-1729):
+      E13:
+        uuid: 6bfc47c6-03b4-4ded-9d6a-2fefb7bef8a2
+    louis_ix_(1214-1270)_roi_de_france:
+      E13:
+        uuid: e4ea478c-b806-44f8-9471-4217d38c2f40
+    '83077':
+      E13:
+        uuid: 475fa6ef-0925-45fa-96f5-9c29214e7363
+    blanche_de_castille_(1188-1252)_reine_de_france:
+      E13:
+        uuid: 1a7415f3-50e1-466f-b2c6-7671207b78d8
+    choisy_françois-timoleon_(1644-1724)_abbe_de:
+      E13:
+        uuid: 2af5ecf7-eb4a-48fa-a3c8-50e3363bf823
+    '83079':
+      E13:
+        uuid: 7f386628-9852-422e-9ea0-f9f736299797
+    '83259':
+      E13:
+        uuid: deebe325-b1e8-45f9-9525-b0dd09cf01cd
+    nicolin_jean_(1660_ca-1709):
+      E13:
+        uuid: 1c3149ff-e011-405c-8074-bf4a3075e934
+    rebel_anne-renee_(1663-1722):
+      E13:
+        uuid: c8cee3a3-2a16-46f0-8205-ed3d50ea2238
+    '83301':
+      E13:
+        uuid: 4a3c1ec8-857d-45cf-b876-9d2c2cf66ce9
+    '83303':
+      E13:
+        uuid: 32b36828-d15e-4dfd-bb20-56fc10cacf12
+    '83263':
+      E13:
+        uuid: aa895497-523d-48b4-9048-d4c4c0d3d84c
+    des_moulins_m:
+      E13:
+        uuid: 88fa1d4f-d478-4829-bcb6-ff06d897ad42
+    '83201':
+      E13:
+        uuid: 470047d9-f519-4ee3-b9a6-7c5dd7ff0ab4
+    '83261':
+      E13:
+        uuid: 286bb652-3973-4c75-a86e-fe345f131895
+    '83253':
+      E13:
+        uuid: 4b7ba2f2-f4f6-4d13-ab40-a21d635ed01c
+    '83257':
+      E13:
+        uuid: bd01f4b4-23ad-4ee8-9c5e-e607d8b92953
+    '83255':
+      E13:
+        uuid: 53c52a58-e6eb-485c-8345-54ecb966eb14
+    '83299':
+      E13:
+        uuid: b943cf11-2d18-4252-8c1c-bc6180c24728
+    '83291':
+      E13:
+        uuid: 757a7f87-1bf4-4223-bfc1-41d24a5e65e6
+    sobieska_therese-cunegonde_(1676-1730):
+      E13:
+        uuid: b93f040b-16b3-4b4f-bcbd-bb37e70dc60b
+    maintenon_françoise_daubigne_(1635-1719)_marquise_de:
+      E13:
+        uuid: 77b7a545-c9ab-48de-bbcd-fecaa5da3b85
+    guiche_antoine_v_de_gramont_(1671-1725)_comte_de:
+      E13:
+        uuid: 21f03d28-bce7-42eb-a9c6-a2dcb76a92ff
+    '38611':
+      E13:
+        uuid: b8d29864-c581-4770-9b9e-01ccb3a729e8
+    nevers_philippe-julien_mancini_(1639-1707)_duc_de:
+      E13:
+        uuid: aca163c8-d0fc-400e-bd51-68de9cecdde0
+    '83113':
+      E13:
+        uuid: 471c1104-0ae1-4efa-9981-8edd36760cb9
+    '83131':
+      E13:
+        uuid: c904f17c-5c6f-4442-9be2-0df316cacde5
+    '83117':
+      E13:
+        uuid: 07a138fc-7a12-4d52-8373-e2004603af13
+    '83133':
+      E13:
+        uuid: 37965d71-23b0-4139-8a41-38d83a5c5b42
+    '83137':
+      E13:
+        uuid: 106bf2fa-933b-4c19-a457-2ca4dc0649c1
+    '83141':
+      E13:
+        uuid: 57b5bfd9-f927-48a6-ae8a-cc58f17714a7
+    '83297':
+      E13:
+        uuid: c8b89712-f9ae-497c-a7ca-3b817d074c16
+    '83373':
+      E13:
+        uuid: a49eea39-ef2e-4be5-86cf-aa23cb7ab328
+    wurtemberg_prince:
+      E13:
+        uuid: ea32669d-da37-4a10-afdb-0d983392a8cc
+    victor-amedee_ii_de_savoie_(1666-1732):
+      E13:
+        uuid: f765d97d-a47e-40ac-938b-f32900c7c2c2
+    ivry-sur-seine_claude_bosc_(1642-1715)_seigneur_d:
+      E13:
+        uuid: 3ec7fbe4-b2e0-4568-a32b-fcd91972ed51
+    lorraine-harcourt_armande-henriette_de_(1640-1684):
+      E13:
+        uuid: a25cf72f-9fac-4fb5-a9db-6feb2f14566e
+    beringhen_marie-anne-genereuse-constance-therese_de_(1647-1721):
+      E13:
+        uuid: 145abd73-445c-49d4-8dd2-6dc484cbf190
+    toscane_marguerite-louise_dorleans_(1645-1721)_grande_duchesse_de:
+      E13:
+        uuid: d8f3fdc5-5baa-4636-86ae-6eba84f29061
+    farnese_elisabeth_(1692-1766):
+      E13:
+        uuid: 21add941-035d-45e4-b2b5-d1dff2ba6650
+    '28080':
+      E13:
+        uuid: 6b519b2f-924b-4562-81d9-3097a921ca42
+    brunswick-celle_eleonore-marie_desmiers_dolbreuse_(1639-1722)_duchesse_de:
+      E13:
+        uuid: 751546fc-42f1-49f1-9a29-f6e46f15beac
+    '83145':
+      E13:
+        uuid: 1a8316fa-7a93-49bd-9766-ba12ae6be6c2
+    '83149':
+      E13:
+        uuid: 873f7602-67b2-4528-8fb2-f2fc0ad55171
+    '83147':
+      E13:
+        uuid: cbe669df-3b63-4c75-bf94-2ae06a683ca8
+    '83153':
+      E13:
+        uuid: 415a253c-d62e-4aa3-9de3-0584860c6358
+    '83157':
+      E13:
+        uuid: a00957f1-76d8-4238-b489-09e9641462e8
+    '83159':
+      E13:
+        uuid: 0fc0575e-aabf-4902-8ac1-08212dceea2e
+    '83161':
+      E13:
+        uuid: 7f8c8e2e-c330-4f54-92c8-e22f878a95d9
+    '83163':
+      E13:
+        uuid: ed7ed339-36ec-48c5-ae4d-3803f4f69aec
+    boufflers_catherine-charlotte_de_gramont_(1669_ca-1739)_duchesse_de:
+      E13:
+        uuid: 35eea83d-93e4-4a42-8c86-c56242a9762d
+    '83165':
+      E13:
+        uuid: 944320ba-5507-4ad6-be63-85da9b130c31
+    '83167':
+      E13:
+        uuid: e74a6a51-574f-459e-b8a6-997b7ccf6ce5
+    '83169':
+      E13:
+        uuid: 3b07c8db-df86-4596-a24e-5d9c57979729
+    '83171':
+      E13:
+        uuid: 43d5533a-e086-415d-8846-c51869eb0a7b
+    '83173':
+      E13:
+        uuid: d2866eb2-383f-4f90-9233-242753b8a7d7
+    '83175':
+      E13:
+        uuid: 143897d6-8a57-4375-b145-1ec745e65ea3
+    '83177':
+      E13:
+        uuid: 06f422a0-f06a-4af4-852f-4eda26ac0d39
+    '83179':
+      E13:
+        uuid: 73aa8be2-98ce-4cee-b0a9-b782227b1c14
+    la_valliere_marie-therese_de_noailles_(1684-)_duchesse_de:
+      E13:
+        uuid: bd358f12-f696-4b25-8458-698dbd890db8
+    '83181':
+      E13:
+        uuid: f0b6b9cb-e4c3-409d-a35c-00427a3e0d81
+    '28098':
+      E13:
+        uuid: 61f3df0c-d9da-48c8-8274-3d93a000e5e8
+    rochefort_madeleine_daloigny_(1646-1729)_marechale_de:
+      E13:
+        uuid: 4ae9a267-0888-499f-af91-c4d723b90cf1
+    '83183':
+      E13:
+        uuid: 75548250-8f84-4467-9ef8-1a327807409d
+    estrees_marguerite-marie_morin_(1639_ca-1714)_marechale_d:
+      E13:
+        uuid: 1a10d49e-4481-4bfa-a272-d9d927e1f886
+    sforce_louise-adelaide_de_damas_(1654_ca-1730)_duchesse_de:
+      E13:
+        uuid: c5494f08-6070-4524-8bb1-d55261f87c16
+    '83187':
+      E13:
+        uuid: de6f0350-1f94-40b5-8d05-5ea6ec13fcac
+    '83189':
+      E13:
+        uuid: b766e3f9-a983-4ff8-a2fd-3ff60ff332f1
+    '83191':
+      E13:
+        uuid: cffefc71-5b1b-4ae5-b99c-6ce07859b207
+    '83193':
+      E13:
+        uuid: a026e5e6-0596-4b26-8367-1cbd6519024a
+    '83195':
+      E13:
+        uuid: dd9933b7-8994-4a53-ba68-1abd9b2da29a
+    '38552':
+      E13:
+        uuid: 77014143-43cd-4aae-b6ad-98946bdebfd0
+    '83197':
+      E13:
+        uuid: 553ac270-838b-43cb-a2e5-14bbdd1a95c6
+    '83199':
+      E13:
+        uuid: f59fdf4a-008d-48f5-ab38-a782f63f2ff7
+    '83143':
+      E13:
+        uuid: 7ca99bb9-ac98-4e5d-ab26-150c2d3b8e18
+    '83203':
+      E13:
+        uuid: b0116d57-7c7f-42db-ae97-4a2f3a314fb4
+    '70439':
+      E13:
+        uuid: 48ca12e4-979f-40c1-8099-6b4a2cde9a09
+    '83205':
+      E13:
+        uuid: d43ee5e4-fa0d-46ee-b418-69b0980b8234
+    santeuil_jean_de_(1630-1697):
+      E13:
+        uuid: fcbf6f83-d10b-41f6-acfd-424f247b439d
+    '83279':
+      E13:
+        uuid: f37a165c-5899-4070-9d3d-bde0f148d403
+    '83269':
+      E13:
+        uuid: 9c1b177d-a251-4b7f-85f9-ecf20ae3b4a5
+    '83271':
+      E13:
+        uuid: b43f360f-e8fc-42f2-be56-ced8c469e64a
+    '83273':
+      E13:
+        uuid: 2ffbba6d-428d-41b6-94c2-c18315ad0d7d
+    '83281':
+      E13:
+        uuid: 56724231-df5d-462c-bdf6-977fe8e52866
+    gramont_antoine_iv_charles_de_(1641-1720)_duc_de:
+      E13:
+        uuid: 1b0fd38b-ee35-4a54-9d3a-3486626992dc
+    '83283':
+      E13:
+        uuid: 7824f37c-365f-41be-aeaf-79a98a65e5cf
+    gervais_charles-hubert_(1671-1744):
+      E13:
+        uuid: 90a4b075-24fd-4c39-9dc2-f3bd3f1da7df
+    '83293':
+      E13:
+        uuid: 382b9f31-5c47-4f86-b38c-f241bcb8b231
+    '83295':
+      E13:
+        uuid: 69713655-4586-47a3-84a5-94bdf681a635
+    '83321':
+      E13:
+        uuid: 65dc623c-3570-4af1-ba9c-6a75346f9560
+    '83323':
+      E13:
+        uuid: c5206e69-345d-4b14-b692-b0469042063d
+    '83313':
+      E13:
+        uuid: 00198b5f-4cb1-467f-a0de-f7fb4b62e01d
+    '83315':
+      E13:
+        uuid: 7b7ace34-f2bd-437f-9652-d8a7bd9a9816
+    '83317':
+      E13:
+        uuid: ea025e01-fcfe-47d1-b1d6-3be15cf3af5b
+    '83319':
+      E13:
+        uuid: 335205ac-8629-4b18-815d-d3e1b0c3363c
+    la_fevrerie_m_de:
+      E13:
+        uuid: bd690b72-30b6-48e7-82ce-7e8d895f5760
+    danchet_antoine_(1671-1748):
+      E13:
+        uuid: 106643f3-83cd-4673-8b3c-9c4166a5b292
+    lalouette_jean-françois_(1651-1728):
+      E13:
+        uuid: 2194f1ec-e80f-492b-83a6-3841293c02d8
+    '83335':
+      E13:
+        uuid: 4a361deb-f670-4913-af99-cbf6a0aede9e
+    noailles_adrien-maurice_de_(1678-1766)_duc_de:
+      E13:
+        uuid: 4ad2ab10-72ae-45be-9457-e30232dc216e
+    '83327':
+      E13:
+        uuid: 2dad07ac-f619-4f92-ad8e-5379316b8a2d
+    '83329':
+      E13:
+        uuid: 50c3dc27-72ce-4017-a243-daec84a48e99
+    '83337':
+      E13:
+        uuid: 2d68deeb-88d1-4739-8396-c69ab40cbed9
+    '83331':
+      E13:
+        uuid: 35b7a5bb-55c0-47c9-b7ab-f66bf5042ac6
+    '83333':
+      E13:
+        uuid: 35a2ccf5-926a-43fa-98ec-317faf810f2b
+    aubigny_antoine_de_la_fosse_(1653-1708)_sieur_d:
+      E13:
+        uuid: 23ee9cdb-34c5-4291-a8fd-4ce1cb55c5d4
+    '83345':
+      E13:
+        uuid: 4336d8b8-ce48-4c51-94f9-39d596fe954c
+    '83347':
+      E13:
+        uuid: 96868218-b645-4831-8204-85d2116c2b75
+    '83349':
+      E13:
+        uuid: 54eb220f-0cdd-48bf-a204-be7ac9473da7
+    '83341':
+      E13:
+        uuid: af92cfc3-5b9d-43a9-8a9b-c6b454ba2818
+    '83339':
+      E13:
+        uuid: 9c1a6bd5-6c48-41ab-a76e-7019bef38504
+    '83377':
+      E13:
+        uuid: 25798b3f-69fe-4f88-893f-a11b2f983b05
+    la_rue_charles_de_(1643-1725):
+      E13:
+        uuid: b02b3c6a-d0e7-46ba-9693-156e9f98da7a
+    '83351':
+      E13:
+        uuid: 87aca5ab-e3f6-46a0-8711-ab7e84d2f03a
+    '83353':
+      E13:
+        uuid: abb5e76c-1af4-4f4b-97a9-28abf7cfc0fe
+    '83355':
+      E13:
+        uuid: cb2d55b0-8351-43e3-a77b-65c1b8db9bcf
+    '83357':
+      E13:
+        uuid: e6ce9199-ee8b-42dc-9369-7d3ac4511ce7
+    lully_jean-baptiste_ii_(1665-1743):
+      E13:
+        uuid: a02dccef-3983-4bd6-8029-f2eff10d621e
+    '83375':
+      E13:
+        uuid: 9ed19f7f-2839-45ff-9656-0e62dab4a258
+    '16031':
+      E13:
+        uuid: 92f393cf-2592-4399-9233-99eeb53f3c4a
+    '83379':
+      E13:
+        uuid: 563651fc-93ee-4f1e-ac3f-3991868b4843
+    '82131':
+      E13:
+        uuid: 97688df5-fd9d-4bb0-977b-06dbe87fa9f9
+    '38553':
+      E13:
+        uuid: 9b2b4baf-f538-4a53-a7ec-7d41810114ba
+    nesle_felice-armande_de_la_porte-mazarini_(1691-1729)_marquise_de:
+      E13:
+        uuid: 1fc4c2af-46f1-4855-ab73-e0b97e74933e
+    '83095':
+      E13:
+        uuid: 1697efe2-45d4-40c0-8a1e-b4cdcc37a001
+    '83371':
+      E13:
+        uuid: 5670247e-7175-4796-b582-0bdda78639ea
+    '83395':
+      E13:
+        uuid: 8751eef7-bb63-422e-99eb-2deddc4b3d0e
+    '83397':
+      E13:
+        uuid: faf1d509-91f5-4e04-9752-eb9fd8186c76
+    paris_claude_(1636-1711)_abbe:
+      E13:
+        uuid: 2b3f686d-8ef5-4052-a7da-2699a3b19ecb
+    '83383':
+      E13:
+        uuid: edcd45ad-e4f1-402d-b79a-0a611a23f91b
+    '83385':
+      E13:
+        uuid: e6213678-56ea-4434-adc8-05488f2b5995
+    fleury_claude_(1640-1723):
+      E13:
+        uuid: 830752b0-3581-48b8-b846-914fa77a8fba
+    '83399':
+      E13:
+        uuid: edba41e7-7488-4be6-9f95-27fc0aa06b57
+    '83437':
+      E13:
+        uuid: 32c00032-0f4e-4547-b803-50b17461678e
+    '83413':
+      E13:
+        uuid: aff782c5-9fdf-4f57-a46a-452e2806b9f0
+    '38933':
+      E13:
+        uuid: 35733bba-2929-4710-a7c3-df336742049e
+    caylus_charles-daniel-gabriel_de_tubieres_de_grimoard_de_pestels_de_levis_(1669-1754)_dit_labbe_de:
+      E13:
+        uuid: e622ed8c-2a5a-4cdc-9010-fd7de1cde612
+    marais_marin_(1656-1728):
+      E13:
+        uuid: 4e432296-bf31-42df-8d2e-7aebe40cf570
+    '83387':
+      E13:
+        uuid: d0c8a33d-0649-480f-8006-64e309f0cf6f
+    '83403':
+      E13:
+        uuid: 0c78c25b-9070-43f1-807f-511ad66f155d
+    louis_xv_(1710-1774)_roi_de_france:
+      E13:
+        uuid: f058388e-ae99-4435-a993-225d776e6c4d
+    '38571':
+      E13:
+        uuid: 4eac0cbe-3855-40d6-b7d4-142e15528fbe
+    '83443':
+      E13:
+        uuid: 6a3ed25d-a84e-4f09-b59d-116f6423ccc3
+    '83441':
+      E13:
+        uuid: 97d8aa8b-0da5-4808-9966-30132fd31686
+    '83421':
+      E13:
+        uuid: f21d1d28-e7f2-4c50-a93d-75ac69748bc9
+    '83435':
+      E13:
+        uuid: bf524137-b539-40f2-b02f-234cf3029493
+    '83431':
+      E13:
+        uuid: 198da827-6f26-4c69-a0a7-72df3eff5302
+    '83419':
+      E13:
+        uuid: 296ba710-74b8-40b2-a9e1-41c6f0625544
+    '83429':
+      E13:
+        uuid: 425299e5-644d-4bff-986a-284883597a32
+    '83445':
+      E13:
+        uuid: fcab779b-ba35-46e3-a6c6-98e9decf7f7d
+    '83427':
+      E13:
+        uuid: 89a860d6-cea9-4d40-b0e0-2e24c57e2ac3
+    '83423':
+      E13:
+        uuid: 856e172c-c4ac-4703-aeb0-443cf8c498ae
+    '83417':
+      E13:
+        uuid: 522ef38f-e2b6-497d-acf9-9afdb6a065e3
+    '83425':
+      E13:
+        uuid: b2a73550-0ae2-47ae-ab61-443b07b4f498
+    '83459':
+      E13:
+        uuid: a1024fb7-2c63-434c-a921-12012d20d305
+    '83415':
+      E13:
+        uuid: 1b9ad9c2-22fb-452f-b835-52b699be34fa
+    '83433':
+      E13:
+        uuid: 2f9c856a-9b66-47b1-a3c3-95a78bd88037
+    '83455':
+      E13:
+        uuid: 95c3ab4d-05e3-4407-b7f8-24f9cc3250b9
+    '83463':
+      E13:
+        uuid: 3df52123-2904-4692-81b9-e023ce1dfcd7
+    '83461':
+      E13:
+        uuid: d1ab2efe-f29c-42b7-876e-def7926c6111
+    '83449':
+      E13:
+        uuid: 24b14b67-bdc2-42e0-8741-8bb7fb5b4630
+    '83457':
+      E13:
+        uuid: c28bc8cd-aadf-47b7-bf4d-f65bddb8eea2
+    '83439':
+      E13:
+        uuid: 052d49e4-c275-4bd0-90cb-247a91b85241
+    harcourt_alfonse-henri_de_lorraine-harcourt_(1648-1719)_prince_d:
+      E13:
+        uuid: 4eafcd4c-b477-4fd9-8c95-8026ef2632f5
+    '83447':
+      E13:
+        uuid: b21dcc2c-4d1a-4451-ab02-9e2324b7e608
+    soissons_uranie_de_la_cropte_(1655-1717)_comtesse_de:
+      E13:
+        uuid: a9745071-0692-4112-8713-76a773e1dec2
+    '83405':
+      E13:
+        uuid: 5e3ba9ae-fe1b-4999-b3b8-7916dded12ce
+    '83407':
+      E13:
+        uuid: 40c18906-7e09-4109-ad4b-2e96f80b4b8a
+    campistron_jean-galbert_de_(1656-1723):
+      E13:
+        uuid: 9801bd41-4d12-4634-bf42-bed207c3a0ab

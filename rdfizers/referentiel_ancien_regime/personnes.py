@@ -117,7 +117,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
     altLabels = ro_list(opentheso_personne_uri, SKOS.altLabel)
     if len(altLabels) > 0:
         for altLabel in altLabels:
-            E41_alt_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E41_alt", altLabel], True))
+            E41_alt_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E41 alt", altLabel], True))
             t(E41_alt_uri, a, crm("E41_Appellation"))
             t(E41_alt_uri, RDFS.label, altLabel)
             t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
@@ -194,9 +194,12 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 
     exactMatches = ro_list(opentheso_personne_uri, SKOS.exactMatch)
     for exactMatch in exactMatches:
-        if exactMatch == "https://opentheso3.mom.fr/opentheso3/index.xhtml":
-            continue
-        t(E21_uri, SKOS.exactMatch, exactMatch)
+        try:
+            if exactMatch == "https://opentheso3.mom.fr/opentheso3/index.xhtml":
+                continue
+                t(E21_uri, SKOS.exactMatch, exactMatch)
+        except:
+            print("L'URL " + exactMatch + " n'est pas valide")
 
     closeMatches = ro_list(opentheso_personne_uri, SKOS.closeMatch)
     for closeMatch in closeMatches:
@@ -205,5 +208,5 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.output_ttl, "wb") as f:
     f.write(serialization)
-cache_corpus.bye()
+
 cache_personnes.bye()

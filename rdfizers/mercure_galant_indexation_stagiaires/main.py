@@ -6,6 +6,8 @@ import re
 from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef as u, Literal as l
 from sherlockcachemanagement import Cache
 import yaml
+from pathlib import Path
+import ntpath
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--racine")
@@ -15,10 +17,12 @@ parser.add_argument("--cache_corpus")
 parser.add_argument("--cache_personnes")
 parser.add_argument("--cache_lieux")
 parser.add_argument("--cache_mots_clefs")
+parser.add_argument("--cache_stagiaires")
 args = parser.parse_args()
 
 # CACHES
 
+cache_stagiaires = Cache(args.cache_stagiaires)
 cache_corpus = Cache(args.cache_corpus)
 cache_personnes = Cache(args.cache_personnes)
 cache_lieux = Cache(args.cache_lieux)
@@ -173,16 +177,29 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
     with open(file, "r") as f:
         lines = f.readlines()
 
-        id_article = file[58:-4]
+        livraison_path = Path(file).parent
+        id_livraison = ntpath.basename(livraison_path)
+        id_article = ntpath.basename(file)[:-4]
 
         try:
             article = she(cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
         except:
-            print("L'article " + id_article + " (" + id_livraison + ") est introuvable dans le cache")
+            #print("L'article " + id_article + " (" + id_livraison + ") est introuvable dans le cache : id de la livraison à vérifier")
+            pass
 
-        # for line in lines:
-        #     if "personnes=" in line:
-        #         print(line)
+        for line in lines:
+            if "personnes=" in line:
+                id_personne = line[10:].replace("\n", "")
+                try:
+                    uuid_personne = she(cache_personnes.get_uuid(["personnes", id_personne, "uuid"]))
+                    E13_personnes = she(cache_stagiaires.get_uuid(["indexations", "personnes", id_personne, "E13", "uuid"], True))
+                    t(E13_personnes, a, crm("E13_Attribute_Assignement"))
+                    t(E13_personnes, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                    t(E13_personnes, crm("P140_assigned_attribute_to"), article)
+                    t(E13_personnes, crm("P141_assigned"), uuid_personne)
+                    t(E13_personnes, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+                except:
+                    print("La personne -" + id_personne + "- est introuvable dans le cache")
 
 
 ####################################################################################
@@ -193,7 +210,4 @@ serialization = output_graph.serialize(format="turtle", base="http://data-iremus
 with open(args.output_ttl, "wb") as f:
     f.write(serialization)
 
-cache_corpus.bye()
-cache_personnes.bye()
-cache_lieux.bye()
-cache_mots_clefs.bye()
+cache_stagiaires.bye()
