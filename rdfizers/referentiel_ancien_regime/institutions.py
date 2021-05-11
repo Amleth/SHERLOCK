@@ -12,7 +12,7 @@ from sherlockcachemanagement import Cache
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--inputrdf")
-parser.add_argument("--outputttl")
+parser.add_argument("--output_ttl")
 parser.add_argument("--cache_institutions")
 parser.add_argument("--cache_corpus")
 args = parser.parse_args()
@@ -222,7 +222,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
         t(E74_uri, SKOS.exactMatch, exactMatch)
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.outputtttl, "wb") as f:
+with open(args.output_ttl, "wb") as f:
     f.write(serialization)
-cache_corpus.bye()
+
 cache_institutions.bye()
