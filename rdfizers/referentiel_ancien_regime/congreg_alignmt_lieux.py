@@ -33,5 +33,5 @@ for id in list:
 		""")
 
 	for row in input_graph.query(q, initBindings={'concept_id': concept_id}):
-		print("Alignement raté (lieu introuvable dans le cache)  :" + row[0])
+		print("Alignement raté (lieu introuvable dans le cache) :",  row[0])
 

@@ -19,6 +19,7 @@ parser.add_argument("--cache_lieux")
 parser.add_argument("--cache_mots_clés")
 parser.add_argument("--cache_stagiaires")
 parser.add_argument("--cache_institutions")
+parser.add_argument("--cache_congrégations")
 args = parser.parse_args()
 
 # CACHES
@@ -29,6 +30,7 @@ cache_personnes = Cache(args.cache_personnes)
 cache_lieux = Cache(args.cache_lieux)
 cache_mots_clés = Cache(args.cache_mots_clés)
 cache_institutions = Cache(args.cache_institutions)
+cache_congrégations = Cache(args.cache_congrégations)
 
 ################################################################################
 # Initialisation des graphes
@@ -175,6 +177,8 @@ with open('clefs.txt', 'w') as f:
 # PARSING DES FICHIERS TXT
 ################################################################################
 
+erreurs_mots_clés = []
+
 for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
     with open(file, "r") as f:
         lines = f.readlines()
@@ -235,20 +239,51 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                         t(E13_institutions, crm("P141_assigned"), uuid_institution)
                         t(E13_institutions, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
-                if "mots clés=" in line:
-                    id_mots_clé = line[10:].replace("\n", "")
+                if "congrégations=" in line:
+                    id_congrégation = line[14:].replace("\n", "")
 
                     try:
-                        uuid_mots_clé = she(cache_mots_clés.get_uuid([id_mots_clé]))
+                        uuid_congrégation = she(cache_congrégations.get_uuid(["congregations", id_congrégation, "uuid"]))
                     except:
-                        print(id_article + ": le mot-clé  " + id_mots_clé + "  est introuvable ou doit être ajouté au thésaurus")
+                        print(id_article + ": la congrégation  " + id_congrégation + "  est introuvable")
                     else:
-                        E13_mots_clés = she(cache_stagiaires.get_uuid(["indexations", "mots-clés", id_mots_clé, "E13", "uuid"], True))
+                        E13_congrégations = she(cache_stagiaires.get_uuid(["indexations", "congrégations", id_congrégation, "E13", "uuid"], True))
+                        t(E13_congrégations, a, crm("E13_Attribute_Assignement"))
+                        t(E13_congrégations, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                        t(E13_congrégations, crm("P140_assigned_attribute_to"), article)
+                        t(E13_congrégations, crm("P141_assigned"), uuid_congrégation)
+                        t(E13_congrégations, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+
+                if "mots clés=" in line:
+                    id_mot_clé = line[10:].replace("\n", "")
+
+                    try:
+                        uuid_mots_clé = she(cache_mots_clés.get_uuid([id_mot_clé]))
+                    except:
+                        if id_mot_clé not in erreurs_mots_clés:
+                            erreurs_mots_clés.append(id_mot_clé)
+                            print(id_article + ": le mot-clé  " + id_mot_clé + "  est introuvable ou doit être ajouté au thésaurus")
+                    else:
+                        E13_mots_clés = she(cache_stagiaires.get_uuid(["indexations", "mots-clés", id_mot_clé, "E13", "uuid"], True))
                         t(E13_mots_clés, a, crm("E13_Attribute_Assignement"))
                         t(E13_mots_clés, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                         t(E13_mots_clés, crm("P140_assigned_attribute_to"), article)
                         t(E13_mots_clés, crm("P141_assigned"), uuid_mots_clé)
                         t(E13_mots_clés, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+
+                if "oeuvres citées=" in line:
+                    oeuvre_citée = line[15:].replace("\n", "")
+
+                    uuid_oeuvre_citée = she(cache_stagiaires.get_uuid(["indexations", "oeuvre citée", oeuvre_citée, "uuid"], True))
+                    t(uuid_oeuvre_citée, a, crm("E71_Human-Made_Thing"))
+                    t(uuid_oeuvre_citée, RDFS.label, l(oeuvre_citée))
+                    E13_oeuvre_citée = she(cache_stagiaires.get_uuid(["indexations", "oeuvre citée", oeuvre_citée, "E13", "uuid"], True))
+                    t(E13_oeuvre_citée, a, crm("E13_Attribute_Assignement"))
+                    t(E13_oeuvre_citée, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                    t(E13_oeuvre_citée, crm("P140_assigned_attribute_to"), article)
+                    t(E13_oeuvre_citée, crm("P141_assigned"), uuid_oeuvre_citée)
+                    t(E13_oeuvre_citée, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+
 
 ####################################################################################
 # ECRITURE DES TRIPLETS
