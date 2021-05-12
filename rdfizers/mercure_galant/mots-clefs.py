@@ -8,7 +8,7 @@
 
 import argparse
 from openpyxl import load_workbook
-from rdflib import Graph, Literal, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, XSD, URIRef as u, Literal as l
+from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, XSD, URIRef as u, Literal as l
 import sys
 from sherlockcachemanagement import Cache
 
