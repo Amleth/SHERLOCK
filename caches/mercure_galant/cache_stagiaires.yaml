@@ -2252,3 +2252,2886 @@ indexations:
     campistron_jean-galbert_de_(1656-1723):
       E13:
         uuid: 9801bd41-4d12-4634-bf42-bed207c3a0ab
+  lieux:
+    '276410':
+      E13:
+        uuid: c38eaf62-abd0-4b66-8991-3757709a0380
+    '276411':
+      E13:
+        uuid: 0f07c262-b115-440a-be9a-f9a57963f9a5
+    '293169':
+      E13:
+        uuid: b4919570-386d-41a6-8c8b-b2484f960266
+    '293167':
+      E13:
+        uuid: d1e12117-6947-4f3b-b7d4-4ff123151114
+    '293168':
+      E13:
+        uuid: 0bae7fd1-d417-4b31-92bd-56cef66f9460
+    '293743':
+      E13:
+        uuid: 69f344a8-66bd-4359-b44e-df38b792c020
+    '293170':
+      E13:
+        uuid: c028fb2d-c798-4054-b2ef-e2a7226b7074
+    '858':
+      E13:
+        uuid: b7277362-30f1-42bd-9682-04c6411373d3
+    '276175':
+      E13:
+        uuid: 0441e971-5bcf-483d-b944-10283866c059
+    '2937':
+      E13:
+        uuid: 4ec0110b-0518-4057-a192-02fd6c8e683c
+    '293690':
+      E13:
+        uuid: c38f2b43-7924-42d2-ae0e-738f968513a9
+    '275663':
+      E13:
+        uuid: 639d9d6d-905e-4745-b334-6ad49eb0f63c
+    '113':
+      E13:
+        uuid: 9486ad32-23ea-435b-9334-02ca57dac1c8
+    '275601':
+      E13:
+        uuid: 824dfd7f-2603-4cd6-91aa-f06896406300
+    '2907':
+      E13:
+        uuid: 4dfbc593-10ec-4a16-b5e2-fef406c1ec62
+    '276412':
+      E13:
+        uuid: c6653085-7e69-475e-ace6-1ad0fb4e2e8f
+    '293698':
+      E13:
+        uuid: 520b2e62-4f60-472f-ba49-151d0f42f644
+    '293171':
+      E13:
+        uuid: 4be55fb4-e744-4d8b-902e-3c5eec4f1e45
+    '1924':
+      E13:
+        uuid: a61340c0-fa7f-47a1-926e-f0759b198622
+    '201':
+      E13:
+        uuid: 54fd6bad-ca96-4d6e-b7bd-aa81e704891a
+    '2733':
+      E13:
+        uuid: 33137728-a8f7-46e4-95ce-7b743ce63bdc
+    '293709':
+      E13:
+        uuid: 824352c3-6e71-4f49-a143-30bced230cb1
+    '1649':
+      E13:
+        uuid: ebcdf1c6-ed97-4460-8258-953c1a6172cc
+    '293708':
+      E13:
+        uuid: 22ceaf90-bbe9-40b9-bd41-5c23567a968c
+    '293731':
+      E13:
+        uuid: 31650c83-1881-40ae-8193-258146ae7845
+    '289':
+      E13:
+        uuid: 8380500d-17ca-4ece-846b-0e41cc84b7d0
+    '224998':
+      E13:
+        uuid: fec99804-5d7e-4a19-886d-9d9ef642cb42
+    '813':
+      E13:
+        uuid: e39f6ceb-1dbe-41f9-adad-cf6816fe561c
+    '293691':
+      E13:
+        uuid: 8990003e-155d-4e7d-8bce-6569b9d749d1
+    '293692':
+      E13:
+        uuid: bcc62fe1-084c-4f4c-94e2-f404b15bb23b
+    '293693':
+      E13:
+        uuid: 69573d8d-38ce-4786-8eca-abc4a9e11eb2
+    '293696':
+      E13:
+        uuid: cb94df0a-b8c1-4391-9bd0-1d9a1e7e3cca
+    '293694':
+      E13:
+        uuid: 3720205a-eb89-4ade-a552-a6a2390de5a9
+    '293695':
+      E13:
+        uuid: aea1994b-bf9b-48da-8dd7-030536f6c04f
+    '293':
+      E13:
+        uuid: e53ca784-9464-4443-975e-b1378cb9f38f
+    '288':
+      E13:
+        uuid: 60236f6a-0333-4b43-9ae4-1271004a018f
+    '295':
+      E13:
+        uuid: 446de498-0623-4912-a29a-792f9e2b60ab
+    '290':
+      E13:
+        uuid: 664d069f-5144-4e5f-a7f9-0423f19b4b06
+    '217':
+      E13:
+        uuid: f6bf6634-a8f1-4a41-8c7f-e0645a4cd935
+    '293710':
+      E13:
+        uuid: 291d2025-cada-4928-9014-1c80b671a6a5
+    '293718':
+      E13:
+        uuid: 2fd8e8c3-8e32-45c7-94fc-3bf0ccaa2e50
+    '293711':
+      E13:
+        uuid: 1291c816-f069-447e-859a-56d68a22431c
+    '2689':
+      E13:
+        uuid: 7faafc5b-6312-43cc-b474-7c4bc6c2ddab
+    '2693':
+      E13:
+        uuid: 39242658-ac76-45bd-b39e-cefbdfb85e81
+    '2657':
+      E13:
+        uuid: 2250b434-76d8-4056-bcde-8fd04d62db53
+    '2674':
+      E13:
+        uuid: 3385d61a-e849-45b2-94bc-962353acd8db
+    '2669':
+      E13:
+        uuid: 375a985c-85f0-4d89-89d8-e4f03fbb5d1c
+    '2666':
+      E13:
+        uuid: c1dd2fe8-6f38-49fd-95f1-a671f8da21a7
+    '2660':
+      E13:
+        uuid: c9bb7449-852f-428b-9df5-e04bb7b9815e
+    '427':
+      E13:
+        uuid: d7264a14-93cb-4e19-ae79-6b1929482240
+    '2714':
+      E13:
+        uuid: 9c63a6c2-b0aa-4793-a588-6438b5a0f780
+    '276315':
+      E13:
+        uuid: d9a5bd8f-dc4c-4c5b-b4c5-ea6887d81492
+    '293741':
+      E13:
+        uuid: af238feb-3876-402d-ae73-251a56e8d3b6
+    '1054':
+      E13:
+        uuid: 5e074f76-5c7f-4512-a358-cac4598a57aa
+    '293733':
+      E13:
+        uuid: c03c656c-414b-4d30-a867-afa59f365871
+    '293735':
+      E13:
+        uuid: 2c3c7947-6e2f-420f-b5fb-ddc71ba54e8a
+    '94':
+      E13:
+        uuid: 5a86b640-c3a6-41d3-8d9f-8a3c505e91a5
+    '15':
+      E13:
+        uuid: 9a55780f-6797-4f1a-bf45-c2039ff61b31
+    '2436':
+      E13:
+        uuid: a903796e-5e6d-427d-b4f2-eac6c954407f
+    '2440':
+      E13:
+        uuid: b7c5fd51-0159-4dd0-8425-fbe188e52251
+    '1230':
+      E13:
+        uuid: c949ed80-c47c-4d39-a952-b763ca17532b
+    '2546':
+      E13:
+        uuid: 8f5b042a-2cdc-4c50-9110-bee4986f382e
+    '1623':
+      E13:
+        uuid: 88b8f3dc-e542-465d-918b-d63df829d237
+    '1294':
+      E13:
+        uuid: 1f97c6bb-c87f-4c59-84dd-d172958510c7
+    '1298':
+      E13:
+        uuid: f079582d-88ee-4e94-9923-2565a25c7483
+    '293749':
+      E13:
+        uuid: 2eee42f7-06ee-4bbd-ac5a-b053a49a1910
+    '293751':
+      E13:
+        uuid: bc5791ce-8881-4d36-9b01-64a5768f0b9b
+    '293753':
+      E13:
+        uuid: 6eb0f131-74f3-4275-80b3-b764b33a2102
+    '1295':
+      E13:
+        uuid: 518144c3-d39a-40ff-9fe5-8fa68a730300
+    '453':
+      E13:
+        uuid: b4f8d038-cb14-4a2b-8b94-42491b1b772d
+    '2130':
+      E13:
+        uuid: 873b4769-9ffc-4cc1-affd-0ab586bc8258
+    '293939':
+      E13:
+        uuid: 5745ad76-4adc-4621-9d42-6efea24eebc1
+    '461':
+      E13:
+        uuid: 9a51ce5e-85ee-4222-ab86-8d3b3330e13e
+    '294079':
+      E13:
+        uuid: d9927fc2-796f-4031-b39e-26ada72c4e87
+    '298':
+      E13:
+        uuid: a585da2f-0638-486c-8b07-c1aa2f2c64d6
+    '294211':
+      E13:
+        uuid: 9238f603-9a86-416b-8e4a-4a8d8774b8d2
+    '294229':
+      E13:
+        uuid: 2a5d9b5b-396d-4cc6-a781-62e2ec236c70
+    '294231':
+      E13:
+        uuid: 9bb6d837-2fe6-450a-9e2e-64973dbfa59f
+    '536':
+      E13:
+        uuid: f0d15091-64f5-46d7-a684-a6ed7825ce1b
+    '294083':
+      E13:
+        uuid: 8f956647-401e-4e5c-b443-c82765bcf345
+    '294081':
+      E13:
+        uuid: ee63de75-9ff4-43b8-a6a5-bf5a8270ed5e
+    '393':
+      E13:
+        uuid: 1786f82b-db60-461d-8099-7a227c0d0305
+    '315':
+      E13:
+        uuid: 16b4520c-e83b-4cba-8181-a453073a1d0c
+    '225271':
+      E13:
+        uuid: 0ca725e4-d857-43d2-a6a8-5ba9c7f76e9d
+    '294089':
+      E13:
+        uuid: d9ffb2c3-109c-4d94-a45f-b8b722a66e7b
+    '294091':
+      E13:
+        uuid: e0bd5325-281f-4d49-b05a-6ab9f573a161
+    '294217':
+      E13:
+        uuid: 47247b12-5c23-4da0-8ee1-a6aea8186d6f
+    '1687':
+      E13:
+        uuid: 5fdc6ef4-92a0-4104-8561-46c7e6e8c1e9
+    '1680':
+      E13:
+        uuid: 49520ad4-2036-4bad-905b-2f2213549873
+    '540':
+      E13:
+        uuid: 26d8088d-2b47-4cb3-83af-0ca633267119
+    '294107':
+      E13:
+        uuid: f4840e43-fb99-4132-b594-0a907a60bf2c
+    '2102':
+      E13:
+        uuid: 2362dc2d-8ca7-44f9-8c6f-d170a1d83918
+    '1724':
+      E13:
+        uuid: 3a5f51ed-35c5-46f7-80a1-ee3bee117a66
+    '1728':
+      E13:
+        uuid: 96d1a4d6-0ede-4ee4-a48e-d6696871b1fa
+    '1734':
+      E13:
+        uuid: 354bf537-317c-4774-bed2-94a663662787
+    '1781':
+      E13:
+        uuid: c6b1a9d5-b1d1-4709-a28b-45bd0e2991f5
+    '1675':
+      E13:
+        uuid: 94e0ca7d-ed20-4785-893e-fb4c3d45b5d2
+    '1673':
+      E13:
+        uuid: 2b186651-2d86-4bb2-94b4-1a09a376f77f
+    '1706':
+      E13:
+        uuid: ed759236-781d-41c4-8ddf-951b7ceb294d
+    '2022':
+      E13:
+        uuid: e865a497-0434-4f48-9d33-cfe5dafb0c3f
+    '2023':
+      E13:
+        uuid: a16fee27-c281-4285-9c59-fc93aa1e1501
+    '2027':
+      E13:
+        uuid: 1b2fe1a3-506d-42f7-acaa-0f428ccf54e3
+    '294265':
+      E13:
+        uuid: 895b4ad0-baad-4b81-b45e-a432620455a6
+    '294267':
+      E13:
+        uuid: dfffa962-3b91-4567-960a-6ce655ec562a
+    '225170':
+      E13:
+        uuid: 82d62e6b-515e-4a85-9e0d-7ad037c92b32
+    '122':
+      E13:
+        uuid: af48dcab-9463-4cae-9324-6f2a063d4abb
+    '19':
+      E13:
+        uuid: 9f691d53-c7cd-417d-8fb6-33a9461f198e
+    '294191':
+      E13:
+        uuid: 5c8a7566-d131-4b53-8226-af6c0316aa4e
+    '467':
+      E13:
+        uuid: 0d8b7a13-fb64-4de1-8ca5-ed7b56638142
+    '459':
+      E13:
+        uuid: 70c346cb-b801-4bba-ba68-44711f47c3ec
+    '294201':
+      E13:
+        uuid: b104f508-e103-4d12-9276-5870026f5242
+    '293957':
+      E13:
+        uuid: 92fc7508-7e02-40a4-a72f-8f85fdf948a8
+    '294203':
+      E13:
+        uuid: c466fd82-d4fb-4b8f-bb66-9da0f805d474
+    '294209':
+      E13:
+        uuid: db9d64e1-bfe4-4492-9122-6f9b991dee4c
+    '294193':
+      E13:
+        uuid: e172c559-a861-4d20-96b1-5d310b98a17f
+    '294195':
+      E13:
+        uuid: 31f3c7b5-35b4-4349-9a51-1c62d689a2c5
+    '275766':
+      E13:
+        uuid: 52544096-e549-40c7-b13c-af281de6cfe0
+    '294199':
+      E13:
+        uuid: ea396a50-44e8-4734-b756-c42669376b84
+    '294197':
+      E13:
+        uuid: 92fcd065-6da4-411a-8f63-5389071f9299
+    '1447':
+      E13:
+        uuid: 64362d0a-92b7-4d69-8bb6-d829b637973e
+    '794':
+      E13:
+        uuid: d2e5b053-1af2-4724-b11d-3cb407937768
+    '121':
+      E13:
+        uuid: 1c698a1e-c41b-40c5-8cec-e1507bf5eb30
+    '29':
+      E13:
+        uuid: 867945c7-8e9e-40f1-a715-b251d6860925
+    '167':
+      E13:
+        uuid: 2c53f66c-2a95-42e3-bec7-14534eca1261
+    '277955':
+      E13:
+        uuid: 876b6f0a-f09a-4905-a05b-c449825afe85
+    '2874':
+      E13:
+        uuid: ca997141-5c29-4922-af14-433489436d62
+    '169':
+      E13:
+        uuid: 24a06ec2-d3e5-42c9-9987-7d0a5cc0b0de
+    '795':
+      E13:
+        uuid: d387ecac-d4c3-4df2-84e2-2f6ee8cfdec0
+    '2944':
+      E13:
+        uuid: 328bbf98-ce52-43cc-8273-0e6104d19b71
+    '2929':
+      E13:
+        uuid: d358876a-c2e7-4392-9474-0626a5f932f2
+    '2114':
+      E13:
+        uuid: 44741b55-4ce1-4d44-b9f1-de268877da96
+    '618':
+      E13:
+        uuid: 8acb125a-8fd3-43a0-916d-f641e2a8c1ff
+    '2192':
+      E13:
+        uuid: d0d9da8b-cc01-45b5-8363-37d22fd92351
+    '294205':
+      E13:
+        uuid: 5ec336b6-7a90-45c1-b181-ca3567621b5b
+    '1979':
+      E13:
+        uuid: 516c8f76-5cf8-4f2b-808d-85db43906f0b
+    '1980':
+      E13:
+        uuid: 82dc286f-5ab0-43d7-9edf-c79165736352
+    '294233':
+      E13:
+        uuid: c993ea8c-d438-44a1-a469-cbf5faeb3750
+    '277960':
+      E13:
+        uuid: 341529cd-b53a-49e5-acbd-6dcb9c62dffc
+    '294237':
+      E13:
+        uuid: 83e6350c-b658-43b1-8a41-06fb3b6ae1ec
+    '2699':
+      E13:
+        uuid: 5ff4de82-b20f-44e2-aa5d-91dc18b1ac06
+    '591':
+      E13:
+        uuid: d26f7479-3ede-4cce-ab63-6a53eb68b6ef
+    '592':
+      E13:
+        uuid: 7b18b6a3-c796-467f-953d-f6c1b5e3b116
+    '593':
+      E13:
+        uuid: 6d7b001f-43fe-4232-a285-02e958111ee9
+    '294261':
+      E13:
+        uuid: 4b7d6df3-43f3-49a1-ac75-3a8e48435623
+    '25':
+      E13:
+        uuid: 90cf342d-67a5-4cc1-9fe5-9b5b68b316ff
+    '294239':
+      E13:
+        uuid: 98229d34-0121-4aed-ad47-d8b7bc2760ca
+    '2237':
+      E13:
+        uuid: 0b123363-6750-4738-b513-ca7a059f8035
+    '293867':
+      E13:
+        uuid: 563be084-bfe1-4bd5-adb4-a0a0bba99b32
+    '294313':
+      E13:
+        uuid: 462c7880-d4a4-4175-9274-ae7e42799832
+    '865':
+      E13:
+        uuid: fb1d8820-5424-4a73-9994-ac873b39455e
+    '2909':
+      E13:
+        uuid: 553e72cb-5da3-45ee-a76c-c1506d0c4ba4
+    '2912':
+      E13:
+        uuid: e568afa0-1e6c-44f2-9bad-7b1f593d01bd
+    '2938':
+      E13:
+        uuid: 37b950c8-c077-4baa-bd73-80d1fdf04a83
+    '35':
+      E13:
+        uuid: 92514ffd-b4af-4403-adf4-d23bb24a94e7
+    '804':
+      E13:
+        uuid: 566aa7e4-cf51-4a5e-86be-752d67a1faab
+    '269':
+      E13:
+        uuid: 6c25929b-c77c-4fda-bfe8-c318fd991526
+    '202':
+      E13:
+        uuid: ebe7dd58-7fb7-4091-ac15-99129c00d6ec
+    '294315':
+      E13:
+        uuid: 828f144b-8ea5-4ffd-9be6-2962d2a89a60
+    '105':
+      E13:
+        uuid: 645b4d48-67d1-456f-b68f-9d2c8770624b
+    '69':
+      E13:
+        uuid: 5c5f608f-bb6c-4149-911a-0056e82204d0
+    '294349':
+      E13:
+        uuid: c5d48e60-59c8-4a9f-b641-b683be1b4570
+    '294355':
+      E13:
+        uuid: 2cbf5163-a4cb-4c69-b456-805b54f479ac
+    '294351':
+      E13:
+        uuid: c4dd4fd3-ba1a-45d7-8ae7-764e0ec183db
+    '294359':
+      E13:
+        uuid: 694c304a-a253-41eb-8eb8-20647ce5b6ad
+    '22':
+      E13:
+        uuid: f7e21694-0043-4b24-a8cb-33ce4ebd622e
+    '1775':
+      E13:
+        uuid: 48631b17-fed1-478d-b86e-c4db934524a6
+    '1783':
+      E13:
+        uuid: c8f82147-0b8a-4c95-b765-53ac0d8dce3b
+    '294373':
+      E13:
+        uuid: 25e526e3-5648-4cfa-8342-2ddd7c77a04a
+    '1788':
+      E13:
+        uuid: d2c2ce08-3d85-41f1-8a9d-b3a9e26b46b0
+    '1790':
+      E13:
+        uuid: 9fc5ccd1-e092-4cd3-9c78-bc9ffcc479e4
+    '1241':
+      E13:
+        uuid: aa588221-23d0-4b74-bf89-15e607f0b18b
+    '2935':
+      E13:
+        uuid: 625f6898-21f8-4e2a-b938-d1dec34d7ba8
+    '423':
+      E13:
+        uuid: 81deec5b-7636-4af8-9f77-d21879bb6f0c
+    '422':
+      E13:
+        uuid: a1afcfed-bb23-426f-b3ed-bcd2d68c0684
+    '227':
+      E13:
+        uuid: 9669109b-3048-4a75-b034-0a9a0b8fea11
+    '2808':
+      E13:
+        uuid: d3133930-7003-479b-8ca9-671be726f616
+    '2807':
+      E13:
+        uuid: 0dde564a-9aad-4318-a752-a8e785649fa8
+    '432':
+      E13:
+        uuid: eb55ac60-ae9b-4a80-b101-e555a5b6086f
+    '2701':
+      E13:
+        uuid: fda2c68e-261e-49e5-b4d6-e399f449e457
+    '242':
+      E13:
+        uuid: a398788a-4b68-435e-b214-c4dd79c188d6
+    '90':
+      E13:
+        uuid: c6276af9-a7de-408c-be3e-1a4b0ae71aea
+    '2988':
+      E13:
+        uuid: 98b15f01-f378-48f5-9890-b3e3ba8f2da1
+    '2981':
+      E13:
+        uuid: 6872fd05-d3f5-4a81-9681-79b6c53491e8
+    '1978':
+      E13:
+        uuid: e07e4f2b-8990-4318-b9bc-998b7f842d22
+    '257934':
+      E13:
+        uuid: a5d4108b-9003-4dd5-9e68-3e45b237b73a
+    '2691':
+      E13:
+        uuid: 32744634-925d-4ab4-9a8a-ae113975dee2
+    '216':
+      E13:
+        uuid: 9af4895c-f29b-447c-9704-8b138d9a3344
+    '2763':
+      E13:
+        uuid: 8e23d455-1282-4d9c-85d2-ac70b2237265
+    '2232':
+      E13:
+        uuid: 8386ddb9-2e6a-4f93-9eff-d06c412a293a
+    '2236':
+      E13:
+        uuid: 19baa611-e5d8-444e-859e-3e6c5c91e57f
+    '2834':
+      E13:
+        uuid: 668ecbde-e1cc-465b-b2b9-b5908c337b42
+    '2838':
+      E13:
+        uuid: 3e71b663-dbe3-4990-84e5-e48aa098cbc2
+    '455':
+      E13:
+        uuid: e5bce7cd-6dd2-4543-8b77-aae0b08565b7
+    '471':
+      E13:
+        uuid: 4d2120cd-7053-4651-a73d-05f456b3ab38
+    '963':
+      E13:
+        uuid: 726f88b6-9ebd-42c2-a161-5a2c782d7cdc
+    '2293':
+      E13:
+        uuid: 230f41b5-8006-4b27-a53c-58cd1a4cfd9b
+    '1155':
+      E13:
+        uuid: 797d59eb-646c-4247-adf3-102933da37d9
+    '1851':
+      E13:
+        uuid: a216ff0d-6a34-448d-890c-4db3b6b2f737
+    '470':
+      E13:
+        uuid: ee85844c-074a-4ba2-b007-2b7ed4a6ac57
+    '409':
+      E13:
+        uuid: 22557225-e38e-48d8-a9bb-8347f7a2b2e3
+    '278116':
+      E13:
+        uuid: 17ebe5bf-739e-4198-964b-da866123f4ed
+    '2185':
+      E13:
+        uuid: 75c465b2-e88f-4fdb-9dc9-d6d80d951ed3
+    '293779':
+      E13:
+        uuid: 34e160e6-c8d9-40f6-bcd1-cc4136b09b93
+    '2707':
+      E13:
+        uuid: 199eb6d2-d92f-45e5-8c22-4e4ae0129048
+    '2270':
+      E13:
+        uuid: 6611a295-f8ba-4c7f-bba2-af1abac9b5ea
+    '2778':
+      E13:
+        uuid: 850e457b-82d4-472f-9eb7-73de92e201fe
+    '262320':
+      E13:
+        uuid: 6e2782b6-19e3-449a-97cc-f4c33c8a2a6a
+    '275806':
+      E13:
+        uuid: 046d56c2-989b-48eb-a98e-fbc521f999a6
+    '2984':
+      E13:
+        uuid: 77cf5aa8-ac6e-414b-9d59-d1d1751d3861
+    '801':
+      E13:
+        uuid: 4e4b4847-839e-4ab1-8af9-5a1839bc3981
+    '891':
+      E13:
+        uuid: 96522ab3-d2fb-4516-9152-688f80593d1d
+    '812':
+      E13:
+        uuid: e0255b98-38c1-4330-aea5-75d0073c9da5
+    '2772':
+      E13:
+        uuid: 5d4723fb-52ee-4318-8cf5-429ba844a6a2
+    '759':
+      E13:
+        uuid: d9b05133-1d1c-4fa0-b16a-c922aee4503c
+    '1084':
+      E13:
+        uuid: 360fcc3e-0333-4b05-923e-bc535ac4411b
+    '1085':
+      E13:
+        uuid: 3fe45cb6-7de2-49d2-8348-c8809c8d1209
+    '1678':
+      E13:
+        uuid: 680efba3-8cd4-4490-ae4b-cd170cbf4085
+    '2769':
+      E13:
+        uuid: 4823976a-23dc-46bf-a359-dec03d2288b4
+    '225182':
+      E13:
+        uuid: 84bad134-b33a-42b8-963b-c46c74582c80
+    '292960':
+      E13:
+        uuid: 0a8e13f0-718a-42f0-a37d-9946af748458
+    '2409':
+      E13:
+        uuid: e67edb21-ca94-4f8e-93d4-e3151d281ceb
+    '859':
+      E13:
+        uuid: 2eea9fdc-665b-44ba-8f3f-3fccc01c5ed1
+    '97':
+      E13:
+        uuid: 26ea7b96-62a2-4118-8e29-7b98fb0f05ad
+    '276312':
+      E13:
+        uuid: cb00a321-536f-4b2f-be29-a9df0635435d
+    '796':
+      E13:
+        uuid: 2710381b-d50f-44b0-a1d5-52238dba590f
+    '802':
+      E13:
+        uuid: 52b48150-fbea-42d9-8457-8343ec20c1aa
+    '2748':
+      E13:
+        uuid: 6afac924-cbf7-48fa-aaf3-9f5fa31e8432
+    '2742':
+      E13:
+        uuid: e78a6a12-ec1f-4696-b222-5ff86550c359
+    '254':
+      E13:
+        uuid: 9ecbfb6d-86d1-432f-9048-5049f830f109
+    '263':
+      E13:
+        uuid: 2d6ab817-d677-43b7-9dd0-646050acb582
+    '247':
+      E13:
+        uuid: 370a781d-bcbc-4587-b62f-e142dba0cd61
+    '248':
+      E13:
+        uuid: ee7cddc3-b8f8-4dfa-ad09-68c79777a123
+    '229':
+      E13:
+        uuid: 5e4fe04d-2548-4db7-b0a8-dbdbb23fd3f5
+    '235':
+      E13:
+        uuid: 55913db8-d2d0-45ae-ab9c-195e493b4282
+    '272':
+      E13:
+        uuid: cc78c0f9-e70c-4de4-abda-bd62cc66c77c
+    '206':
+      E13:
+        uuid: 83d89d63-5a6d-4e7f-a4d6-79fef47274f3
+    '1194':
+      E13:
+        uuid: 253e3237-42e7-48db-a49e-b17180f81360
+    '493':
+      E13:
+        uuid: 6864cbc1-86bb-4f64-bb1f-c52bdf72f653
+    '494':
+      E13:
+        uuid: 7656fb1f-3a06-4198-b950-8e9600b2e359
+    '495':
+      E13:
+        uuid: 84cfbe86-69ec-4c67-80d1-a66892834ecb
+    '2800':
+      E13:
+        uuid: ed7847ac-9dcf-4b41-975d-cc00f272ffe5
+    '835':
+      E13:
+        uuid: e263561f-6ff1-4b75-af53-676e138db25d
+    '1062':
+      E13:
+        uuid: ca2b64b8-60d4-44cc-8938-78c6ac54e28d
+    '162':
+      E13:
+        uuid: 80be987f-0f89-4c93-8902-4ba524888e35
+    '2476':
+      E13:
+        uuid: 4d9149c4-7df1-4bd0-82db-8da57c6f5df4
+    '2883':
+      E13:
+        uuid: e1e29505-c7b1-4ebe-87f9-1a02cf1fda4e
+    '2127':
+      E13:
+        uuid: 0c9b338e-9524-4d5c-ba29-d5490b1a2359
+    '1132':
+      E13:
+        uuid: 44610187-5798-4025-8ab7-e5036da6eacd
+    '1055':
+      E13:
+        uuid: 5b9788b8-2b00-4b8b-baae-4984185b1654
+    '551':
+      E13:
+        uuid: 06ee311a-a7e4-4b88-96fb-2c70ade7136c
+    '2810':
+      E13:
+        uuid: 6bb1dd11-3fed-4589-9e27-24885a1f2d07
+    '359':
+      E13:
+        uuid: 367894f3-465c-4d9e-a4d1-c71eb99c10c1
+    '1440':
+      E13:
+        uuid: 1ca047a0-7f6f-46ef-a319-738017e298dd
+    '185':
+      E13:
+        uuid: 4dc8697c-af9a-4bcf-93a5-0a5ce383985c
+    '1886':
+      E13:
+        uuid: c433a2ce-bca9-4f7c-8e36-3d019eb3ab35
+    '1895':
+      E13:
+        uuid: 8857ac0b-c980-43fb-8f78-1d867ace7169
+    '173':
+      E13:
+        uuid: 5df7c43b-c358-4004-9782-e2d78dfd8d69
+    '118':
+      E13:
+        uuid: f9f9f988-2249-4462-a892-f90ce3a6cb02
+    '51':
+      E13:
+        uuid: 38a7fb53-05bf-4b06-b9f9-76669a00e2f2
+    '1966':
+      E13:
+        uuid: 4febe336-a12d-4399-9f75-5b4ca75c2550
+    '537':
+      E13:
+        uuid: 0a28c2ba-446a-4781-85ed-83181f3946ff
+    '1160':
+      E13:
+        uuid: 6220c166-578a-42fa-996e-5cee9638f5ec
+    '219':
+      E13:
+        uuid: 34566390-a27b-4fea-9331-d03cf860812b
+    '295029':
+      E13:
+        uuid: 3b24c7e8-c2bc-429c-9ca7-43a4590fc0a1
+    '294521':
+      E13:
+        uuid: d7693953-79da-4604-b15b-87b7b2bfe00b
+    '294523':
+      E13:
+        uuid: c2b96e47-be66-446d-b870-32ceb8047fa8
+    '294525':
+      E13:
+        uuid: e04ae15e-2366-44c4-a1b0-ac8c7a96f838
+    '294545':
+      E13:
+        uuid: b1d03d21-406f-4174-813d-789997be4517
+    '294591':
+      E13:
+        uuid: b8b6d2cc-aaf5-43ed-a06a-6a0a07494205
+    '294593':
+      E13:
+        uuid: 65996c92-e91d-4526-822f-a119f4b29525
+    '294595':
+      E13:
+        uuid: 46bb10ec-0d9f-4fa7-97ae-327a30918afb
+    '294387':
+      E13:
+        uuid: 7f512e82-4656-49c9-b0c3-da773b7162ed
+    '294389':
+      E13:
+        uuid: 2ca96e9b-241a-4418-b01a-d4fd2363a6c2
+    '294463':
+      E13:
+        uuid: 46f91fd3-ed39-4c73-bba7-5ae9b10383eb
+    '294603':
+      E13:
+        uuid: 712a7dac-35f7-4d87-aa7c-7400f1fe8df7
+    '294649':
+      E13:
+        uuid: 8101bd2f-ec33-4c5b-9b59-1dfa238c12dc
+    '294481':
+      E13:
+        uuid: f9a8e386-42ec-42b6-9cd6-7c401518ab25
+    '295003':
+      E13:
+        uuid: 108682cf-68a8-452f-bf86-9087aa5e4097
+    '294319':
+      E13:
+        uuid: 3c38eab3-fcc7-43a9-a380-dd1cd3b51d66
+    '295035':
+      E13:
+        uuid: a89d4a82-60ad-4c9b-89a5-ade7bff86652
+    '295005':
+      E13:
+        uuid: c9f99fa7-639d-419e-abdb-03d483aa073d
+    '295007':
+      E13:
+        uuid: 8cd2c104-aa65-4c0e-9f52-6c511d51d970
+    '294325':
+      E13:
+        uuid: 404e11c9-65a7-484c-85d4-cfa546be2193
+    '294327':
+      E13:
+        uuid: dc1778a4-810a-4498-a7d8-136172356265
+    '294329':
+      E13:
+        uuid: 5ffdaa9b-2306-4f41-937d-a567baac8f8e
+    '294503':
+      E13:
+        uuid: 3af764b0-0521-4584-9b34-39a9ea6544c2
+    '294505':
+      E13:
+        uuid: 6b6b62d3-69ab-444b-a8b3-2aa808cb4c82
+    '294507':
+      E13:
+        uuid: 202a130e-c6f0-419b-ab53-92b15ad4f90c
+    '294511':
+      E13:
+        uuid: 96b2caf3-baa0-435f-b796-b3d8a7b7d297
+    '294381':
+      E13:
+        uuid: 9d2ffda0-a2d4-4866-b7ba-59d763b7e47a
+    '294383':
+      E13:
+        uuid: d91658c1-6234-4cba-bc17-d5d3e57c1dcf
+    '294399':
+      E13:
+        uuid: 15b3040f-6627-4223-a3eb-bea998a06eca
+    '294631':
+      E13:
+        uuid: 4e58e584-8808-4e86-b6e6-7c8132ff8d65
+    '294641':
+      E13:
+        uuid: ff066658-99c6-4385-b904-a053a1ed863c
+    '294509':
+      E13:
+        uuid: 37f89bae-02fa-4cea-ba6c-341535e198f9
+    '294403':
+      E13:
+        uuid: 5545b364-3321-4246-bd59-de74e00a5c38
+    '294401':
+      E13:
+        uuid: 07f5d1ea-ca9f-439d-9db6-3e73a4a5370f
+    '294415':
+      E13:
+        uuid: 1bd1f8ad-5c29-448f-9b87-66a4c19f5901
+    '294445':
+      E13:
+        uuid: 1ae14b7b-be3e-4305-a910-3c1183bfe2da
+    '294419':
+      E13:
+        uuid: a715bd14-778c-4b96-9fa1-0343cae3d34f
+    '294421':
+      E13:
+        uuid: 83248114-b855-4eca-94bd-16b183eedae7
+    '294423':
+      E13:
+        uuid: c10e9648-2875-4d26-b006-424ec9392f4b
+    '294425':
+      E13:
+        uuid: 7e0880b8-6853-46d3-89d4-5b6132b92f8c
+    '294427':
+      E13:
+        uuid: 9119c4e0-cf32-440f-9cb2-fd4dfde4f955
+    '294429':
+      E13:
+        uuid: 14e7b821-5edb-471c-9430-6b21c0ba934c
+    '294471':
+      E13:
+        uuid: 76aa0166-5a93-41d9-ad0d-cded739a2d91
+    '294473':
+      E13:
+        uuid: db7ba352-aa8b-4197-95b5-139abcb52980
+    '294475':
+      E13:
+        uuid: 108a2747-18c7-4d68-8473-95f141a555b8
+    '294477':
+      E13:
+        uuid: 0aca64e2-b3c8-43be-8677-b0d458d031c8
+    '294527':
+      E13:
+        uuid: 2c64ef04-afbd-4e10-9538-ca1f1525003e
+    '294519':
+      E13:
+        uuid: 9ee902c6-fb93-4f16-bb5a-501fc3b09077
+    '294875':
+      E13:
+        uuid: 15d28db8-17e3-42ef-a00a-ebf61eb974df
+    '294547':
+      E13:
+        uuid: dd860fc7-71ae-4a5e-bc7a-9663ad80fa44
+    '294529':
+      E13:
+        uuid: 6ec232d3-034c-4f61-92ab-8bdd815558b7
+    '294531':
+      E13:
+        uuid: 2b66ca1b-f23d-4254-8012-9c63a02ffac1
+    '294533':
+      E13:
+        uuid: ff6b34fd-d3bc-4492-8cfc-d44af8dc7762
+    '294543':
+      E13:
+        uuid: a5901adc-4c99-4f36-9f91-6b2a8bd0dd83
+    '294577':
+      E13:
+        uuid: 7d41b8d1-dcea-4988-9a91-2849689559c1
+    '294579':
+      E13:
+        uuid: 5b857d27-caf4-4ba4-8ef9-02024e8ea90f
+    '294581':
+      E13:
+        uuid: 532338c8-9c82-43ae-b3e2-655e363e8e02
+    '294583':
+      E13:
+        uuid: 36441eea-d158-4192-b80b-3138985f4755
+    '294645':
+      E13:
+        uuid: aee7972c-c1b8-4b41-81f6-2f2cb4627d5a
+    '294599':
+      E13:
+        uuid: 5b685320-2058-4e35-bf58-78b173d9dcdf
+    '294621':
+      E13:
+        uuid: 8db082b4-2885-4fb4-b63a-eee86ef58bcb
+    '294623':
+      E13:
+        uuid: 50b57177-e416-44a3-ad1f-6ff2bc7f7f53
+    '294625':
+      E13:
+        uuid: 0d014e2c-deee-4098-8e79-b4dfb7adee7c
+    '294633':
+      E13:
+        uuid: 9b9118e5-0326-4331-904c-c2abac23afd1
+    '294663':
+      E13:
+        uuid: cf41b88e-4ab4-47ed-8a96-814a4d3c2f5a
+    '294597':
+      E13:
+        uuid: 2c342540-70d0-4875-bcbc-1466b7ac5bdb
+    '294635':
+      E13:
+        uuid: dfb8efd1-81e2-418d-9156-3ca6e7e61f1b
+    '294659':
+      E13:
+        uuid: 2bcedf62-b9e7-408f-8322-244f25bc0ecf
+    '294665':
+      E13:
+        uuid: 67f290f4-2acf-40ef-a934-870f47c47f5a
+    '294745':
+      E13:
+        uuid: 9cfcbad8-43fa-4e11-93fd-eaeeee189d5b
+    '294747':
+      E13:
+        uuid: 53f96f8a-1922-4e64-b84c-2b775984524f
+    '294725':
+      E13:
+        uuid: 0e33af47-3664-4826-9b09-1639c8498695
+    '294753':
+      E13:
+        uuid: fd223f45-477f-417a-8ca2-f69ec5cba0c3
+    '294643':
+      E13:
+        uuid: 1505f0c7-221c-41ac-a56e-02a7ab730cf6
+    '294783':
+      E13:
+        uuid: d250dcd2-cb32-44f0-81e2-e1ed2dfd8f36
+    '294785':
+      E13:
+        uuid: 940f43b7-4654-44ae-b9d0-55d2437056e7
+    '294667':
+      E13:
+        uuid: 6d5dd95e-48f2-475b-bdc0-a9daa5511164
+    '294669':
+      E13:
+        uuid: a19fe921-9832-47bc-9562-896bdb17a0c0
+    '294709':
+      E13:
+        uuid: b8f932c2-3e66-4e7a-a3c1-6eb9867338d9
+    '294721':
+      E13:
+        uuid: 4bb0c9fd-c6a2-4323-be8c-b12af366f734
+    '294723':
+      E13:
+        uuid: cdfd4b9d-fc87-4839-b8cd-ed3ccee2e7ea
+    '294737':
+      E13:
+        uuid: ede37ed3-1acb-4467-a34b-faf5469679a4
+    '294727':
+      E13:
+        uuid: c51b099c-0098-44f3-87f6-e3a185851f08
+    '294759':
+      E13:
+        uuid: 7c5b4006-56e8-45b0-8b48-7fa3e27c0566
+    '294735':
+      E13:
+        uuid: f1ba0d91-20ee-43db-8441-409d5576530f
+    '294739':
+      E13:
+        uuid: 11d20003-8983-4ffd-ae31-04d5afcd607c
+    '294741':
+      E13:
+        uuid: 5180473c-fe42-4a13-9693-3a0cda4e7e67
+    '294763':
+      E13:
+        uuid: 876c42ba-0e6d-4721-b1b6-dd3e8c0fd392
+    '294767':
+      E13:
+        uuid: dd6faea5-1ac1-47b0-ae6a-bc8e2fd01227
+    '294769':
+      E13:
+        uuid: 26a5a03d-5238-4a56-8806-eae1348b020c
+    '294771':
+      E13:
+        uuid: 5885deb4-32ce-4c22-8874-a8853e0d9943
+    '294773':
+      E13:
+        uuid: 9c4e9b49-a349-45e0-9665-0deb5ffaed68
+    '294811':
+      E13:
+        uuid: 0cb2c199-e570-4b03-8bf6-54221e5c31f6
+    '294833':
+      E13:
+        uuid: 22350d66-6858-4029-8668-ed29ca84fa9e
+    '294829':
+      E13:
+        uuid: 52f19c5f-7027-4ebb-bbed-fc201a92f8e8
+    '294831':
+      E13:
+        uuid: 9de61fb5-d420-45b6-8320-c63b7546c71d
+    '294853':
+      E13:
+        uuid: a04b4651-f5af-4926-bc18-a70e5523e123
+    '294845':
+      E13:
+        uuid: da718e85-826f-45f8-baa9-189a0a7fc50b
+    '294859':
+      E13:
+        uuid: 9474f627-fb81-423f-90a1-d008039a2c15
+    '294855':
+      E13:
+        uuid: c943e544-8295-4b8f-9acd-c39c4c98c8ba
+    '294857':
+      E13:
+        uuid: 876c5fa3-0ae4-442e-91d0-fb6e86c4683d
+    '294867':
+      E13:
+        uuid: b1341a86-2dd4-4f67-812f-085370cbf610
+    '294873':
+      E13:
+        uuid: 3ba3e1ab-c31c-48e6-8e54-a36860681672
+    '294901':
+      E13:
+        uuid: 5b45c38f-1741-46ac-9757-2f88226933cf
+    '294943':
+      E13:
+        uuid: afb812d8-7cce-4933-8c56-69932b25373d
+    '295049':
+      E13:
+        uuid: 132b9916-c194-428b-9da6-311fd99ac9ce
+    '294883':
+      E13:
+        uuid: cf3dc639-7070-4b43-bb12-76c4e171ba7d
+    '294939':
+      E13:
+        uuid: ca04acf6-8523-46cb-a417-8feaedaaf66c
+    '294713':
+      E13:
+        uuid: 228ab07d-88f2-4c68-abc9-fdd77f585bd2
+    '294887':
+      E13:
+        uuid: dc72bea8-4658-44c1-83ee-b9e469e80f87
+    '294915':
+      E13:
+        uuid: f846ca41-3f0b-4326-8c9d-3be1f2504e41
+    '294917':
+      E13:
+        uuid: a16c42e3-ad9d-427e-a861-c0a5e1bfad9b
+    '294945':
+      E13:
+        uuid: 7907cf12-b988-4729-af4f-88ae0d79ec8d
+    '294977':
+      E13:
+        uuid: 2b0ecc39-3bc0-4ccf-bc3f-655c37bd4000
+    '294957':
+      E13:
+        uuid: 7650fec7-7482-44c8-9ebf-1cfcdd34e0c6
+    '294919':
+      E13:
+        uuid: 2b2916eb-a66e-440c-b0b2-b61c584a7914
+    '294921':
+      E13:
+        uuid: df2855a8-26ff-4a2d-9c9e-15c92072c52b
+  institutions:
+    '293737':
+      E13:
+        uuid: d748020b-e1c7-4fb8-b13f-320d06a962a0
+    chapelle-musique_du_roi:
+      E13:
+        uuid: f7e5c695-a5d4-4fc8-8d01-52280240e6e0
+    '293819':
+      E13:
+        uuid: 09810e3d-5c1c-4349-a9bf-f3698912791b
+    academie_francaise:
+      E13:
+        uuid: ec2465fb-2355-45fa-b418-e625278c75b4
+    academie_royale_de_nimes:
+      E13:
+        uuid: 1863e0b8-ad09-4611-b8b0-270ea2828a17
+    '295055':
+      E13:
+        uuid: fafe24e7-657b-4591-9f43-2f1f0f1f959f
+    membre_de_l_academie_royale_des_inscriptions_et_belles-lettres:
+      E13:
+        uuid: 9e18750e-ac2e-4dce-a53e-fe036c670cad
+    musique_du_duc_de_mantoue:
+      E13:
+        uuid: fd5e4c37-331d-4062-8741-6bf67b4a5e7a
+    '293815':
+      E13:
+        uuid: 3d816980-adf3-45f0-9b57-76a593cc108c
+    '293148':
+      E13:
+        uuid: c19127a0-f9f7-47ab-b581-1c672aa36f0c
+    '293927':
+      E13:
+        uuid: 4c7c4362-1610-478a-bb38-40c430bf3065
+    academie_des_jeux_floraux_de_toulouse:
+      E13:
+        uuid: 6edbba31-eb6a-450f-8dec-a0bab5efd3a7
+    parlement_de_toulouse:
+      E13:
+        uuid: d4a39a1a-7c50-47a5-81fd-0ca20fef1c16
+    tresorier_de_france_toulouse:
+      E13:
+        uuid: 92448d39-9812-4d8f-b0f4-6460e32aa264
+    '278078':
+      E13:
+        uuid: c7ce3d2f-3600-463c-9f39-05be7349cac3
+    capitoul_de_toulouse:
+      E13:
+        uuid: d388ecfa-379e-42f8-82a3-31324f27d88d
+    '294027':
+      E13:
+        uuid: 62bd12a4-8bee-4800-9c0d-fe076cb4b4be
+    '294113':
+      E13:
+        uuid: 4ccef0d0-0c0f-4575-9a65-9fb686019d5e
+    '294109':
+      E13:
+        uuid: 3dcbc4ab-81c2-4b2c-9b62-065d89c8b809
+    '294187':
+      E13:
+        uuid: 847a803c-434d-4c23-b1c3-51e2aef0aa0c
+    presidial_de_lyon:
+      E13:
+        uuid: 86ff30d2-53aa-464c-b1bf-c1add9b630ff
+    tresorier_de_france_lyon:
+      E13:
+        uuid: c5ce949d-318e-4cea-8001-b07a2c0f1097
+    '294145':
+      E13:
+        uuid: b1f4e37c-f380-4c15-9b2e-4ce8d2c9f89d
+    '294147':
+      E13:
+        uuid: 4d664b92-818a-41d7-b862-ff40701bca69
+    '294311':
+      E13:
+        uuid: 92017ca0-ad79-4bde-a04f-a03b4c226b1f
+    ambassadeur_de_france_a_venise:
+      E13:
+        uuid: df15008e-4fe1-4e9b-9967-1a8bd9f768e6
+    '294397':
+      E13:
+        uuid: e24cdbb0-c6dc-48be-b97a-87553c22c8de
+    echevin_de_chalons-en-champagne:
+      E13:
+        uuid: abd1a5e5-01ba-4bac-9a27-f18ec029dc3f
+    '294469':
+      E13:
+        uuid: eb0e1dc7-43e4-43e5-9ef8-65fec9402a0c
+    corps_de_ville_de_chalons-en-champagne:
+      E13:
+        uuid: c3994e94-f8a0-4197-be28-02db6dcb08c6
+    '294413':
+      E13:
+        uuid: 4136a52e-dd4e-4f84-b963-de93dcee959b
+    '294465':
+      E13:
+        uuid: 41798440-03c8-4059-b9c5-b4f382f6e4f1
+    '294411':
+      E13:
+        uuid: 803713b6-1073-4875-8f3b-6b7ad597cea3
+    academie_royale_des_inscriptions_et_belles-lettres:
+      E13:
+        uuid: ec6db22b-5c3b-49b8-b627-4cbabf183877
+    aumonier_du_roi:
+      E13:
+        uuid: d37c2379-8469-4d25-8064-a50b948471ea
+    academie_royale_des_sciences:
+      E13:
+        uuid: f3e7efa9-4c97-438c-ab06-b7dde70b5f43
+    corps_de_ville_de_toulouse:
+      E13:
+        uuid: 1d519223-62f0-4a32-9f3f-f9dc043a050e
+    musique_de_toulouse:
+      E13:
+        uuid: c3572082-9d59-4ea9-8696-b7ad29a60f3a
+    guet_de_toulouse:
+      E13:
+        uuid: c08c98b5-189d-4358-85f5-aa2e29fc36f5
+    premier_president_au_parlement_de_toulouse:
+      E13:
+        uuid: 005e4d6d-e984-4e06-b821-86c0220bf3a5
+    '294605':
+      E13:
+        uuid: 31d4d507-3793-4f6e-8b91-5f852d546e92
+    '294299':
+      E13:
+        uuid: 3aeeef31-84f9-48e2-876e-36cd2d5917b4
+    '294227':
+      E13:
+        uuid: 88a52456-6560-4483-82fa-0703ccb5084a
+    parlement_de_paris:
+      E13:
+        uuid: ff270d98-ebda-4c3d-aeab-74771c7cb6f6
+    '294249':
+      E13:
+        uuid: e878fc2d-7c90-4514-ba91-69d5e41e3f2f
+    '294251':
+      E13:
+        uuid: 6608653a-2718-4fa3-839b-8097a83587b4
+    '294253':
+      E13:
+        uuid: 2a45ef95-58e1-40cc-a946-84906ace9021
+    '294255':
+      E13:
+        uuid: ed68d940-fcca-4303-80e5-ba79cc6e740a
+    '294281':
+      E13:
+        uuid: f2cae6c0-5628-43d1-8d76-7d3e13218803
+    ordre_royal_de_notre-dame_du_mont_carmel:
+      E13:
+        uuid: 7f233e6a-c9ff-4533-bd74-7377a3b069f2
+    '294285':
+      E13:
+        uuid: f9f8ecf4-4880-4005-998a-e267a5556ced
+    '293813':
+      E13:
+        uuid: 57f70c36-0790-4a7a-8304-aad7d0d7e328
+    '294443':
+      E13:
+        uuid: 6b8ea792-7df2-4076-b77c-4df49a41f56f
+    musicien_de_la_chapelle_du_roi:
+      E13:
+        uuid: a1c37010-c33e-4b2c-bc1b-0b7b5b2627fd
+    '294639':
+      E13:
+        uuid: 533e3618-4519-4754-b44d-0cab07cc466c
+    '294393':
+      E13:
+        uuid: e008da06-b9c9-4e68-8060-8b40aa8db33b
+    '294391':
+      E13:
+        uuid: e8b95a4f-7343-4a74-9b0a-46019093828f
+    '294627':
+      E13:
+        uuid: d63d4fc1-ee04-42f8-9361-07c39c58865a
+    cour_des_aides_de_paris:
+      E13:
+        uuid: f2d1a848-1f48-41a2-95fa-47b2635c19c0
+    etats_generaux_du_languedoc:
+      E13:
+        uuid: f0d75a8b-7f22-4fd3-9fd8-1bd968bd8ae2
+    '294405':
+      E13:
+        uuid: f44c324f-2d13-4785-824a-02cd72be45a7
+    '294407':
+      E13:
+        uuid: 026ce445-ffcd-4d8f-9721-72be0f1dd2f7
+    cour_des_aides_de_montpellier:
+      E13:
+        uuid: 5cefd881-1df5-4052-924b-5ff81cbb1b8c
+    '294451':
+      E13:
+        uuid: 2387fd11-3c89-46e8-aa00-13f7f5a17590
+    '294453':
+      E13:
+        uuid: aee7a662-4afc-4c51-a6c0-8d9f745401dc
+    '294433':
+      E13:
+        uuid: 03706452-e248-434b-a44c-c73d1aa47455
+    '294435':
+      E13:
+        uuid: e867ca99-78f0-4064-812a-204ed508d10b
+    '294467':
+      E13:
+        uuid: 08a6d4fa-d2ad-46d3-bbf8-db7ca73653f3
+    '294497':
+      E13:
+        uuid: f7945f7e-cf43-4f82-9a9d-477ceb149db4
+    penitents_bleus_de_toulouse:
+      E13:
+        uuid: 57c2dac1-ff9c-4f12-b4e1-0161e42a5fcb
+    '294707':
+      E13:
+        uuid: 8c481237-dafa-4f21-bac4-6b7d424ca48d
+    '294681':
+      E13:
+        uuid: 794770ef-bef2-499a-9cf9-f92f9f7cefac
+    '294703':
+      E13:
+        uuid: 3d80f231-e2c5-4988-a5a8-3c704e3f4691
+    mainteneurs_des_jeux_floraux_de_toulouse:
+      E13:
+        uuid: dbef030a-5024-48e3-8d36-0890f0c72ebe
+    '294585':
+      E13:
+        uuid: fec2546e-841b-48e8-91c9-1012fde06cf9
+    '294647':
+      E13:
+        uuid: 5154738c-44fb-47b5-ada9-9013b9656474
+    corps_de_ville_de_nancy:
+      E13:
+        uuid: 745b0adf-cb1f-4bff-82c7-6f85cf59fa2e
+    corps_de_ville_de_paris:
+      E13:
+        uuid: fe6fe661-7d30-41c5-a449-30ac2ffeabbf
+    musique_de_la_chambre_du_roi:
+      E13:
+        uuid: cc75bd3c-562f-4337-a81e-d263361c6e0f
+    troupe_des_danseurs_du_roi:
+      E13:
+        uuid: d11ec42f-3e6b-40c6-bbca-c7bfece8c0a5
+    '294851':
+      E13:
+        uuid: 9f759dcb-67aa-4a8e-bd0a-c889430fc340
+    '294697':
+      E13:
+        uuid: 7fef9755-1d41-4bdf-a26e-8221a6fccc42
+    '294711':
+      E13:
+        uuid: 61066977-55c0-49f7-a6b7-b38d796e3aed
+    '294699':
+      E13:
+        uuid: f0748ed8-aab5-4e71-81e5-bf85c65d5962
+    '294701':
+      E13:
+        uuid: 3474c198-59d7-4ac6-86d6-58aaef50f685
+    corps_de_ville_de_beauvais:
+      E13:
+        uuid: 3716543a-0124-410e-b31a-7c007a27bedd
+    '294793':
+      E13:
+        uuid: e5e2c9c8-0fe3-4539-bacc-4b6ce656dd49
+    '294797':
+      E13:
+        uuid: 6d5caae7-d2f5-4347-8b7a-38a3bea5e7c1
+    '294841':
+      E13:
+        uuid: 9c125ac8-8c43-42ee-8e28-078121021e4f
+    conseil_souverain_de_roussillon:
+      E13:
+        uuid: b5dfe688-a3d5-45c0-b8ee-c2b059fe69d0
+    '294837':
+      E13:
+        uuid: 8c9cdbcc-2d05-4e06-b8f7-348181b95cc8
+    '294847':
+      E13:
+        uuid: e802c0c6-afe8-48fa-9961-f5dd94d2c0c8
+    cent-suisses:
+      E13:
+        uuid: aabb12fd-f008-4eca-aba9-672a3d942850
+    prevots_des_marchands_de_paris:
+      E13:
+        uuid: 02fcf826-7942-4658-bb86-582cedabc667
+    '294865':
+      E13:
+        uuid: e78c836a-f80e-4ecb-9a1a-c5fbaa6b2317
+    chevalier_du_guet:
+      E13:
+        uuid: 73d86539-6348-4e41-960b-30a02a6cfb1d
+    archer_du_guet_de_paris:
+      E13:
+        uuid: fbaa8a5e-309b-42bd-985b-3154f50c06aa
+    '294889':
+      E13:
+        uuid: 24670b8c-af11-45c4-aa71-2e0dfede8807
+    dijon:
+      E13:
+        uuid: 5b8dbace-61f1-4c16-b7fb-6dfdcc4ac60b
+    parlement_de_dijon:
+      E13:
+        uuid: 9a4ef7c0-3f74-44db-b792-2a72bfe874d6
+    '294923':
+      E13:
+        uuid: 22a8cd9d-af78-4edb-be5c-3d2c3f71d379
+    '294925':
+      E13:
+        uuid: fdfe2914-1a0b-40a2-b93e-9613f3cf2856
+    chambre_des_comptes_de_dijon:
+      E13:
+        uuid: a55592c8-abe6-4d2e-b060-dcf80e3d9376
+    '294927':
+      E13:
+        uuid: 40772c90-2069-404a-b2df-6e255f16158a
+    '294929':
+      E13:
+        uuid: 79a60d2d-6081-42c0-93dc-15c58b895402
+    '294931':
+      E13:
+        uuid: b601db8b-6dac-4986-a154-90cc18bfef91
+    '294933':
+      E13:
+        uuid: 26085817-ec5f-4ad1-8172-6aa55d982b83
+    '294947':
+      E13:
+        uuid: c2e3e1c8-2119-45bd-bbd8-999c2a6ca91e
+    '294985':
+      E13:
+        uuid: d468c435-a156-46f8-8712-085141348ce2
+    '294987':
+      E13:
+        uuid: a736f9be-6605-437e-aa4d-8afe3d18af24
+    '294989':
+      E13:
+        uuid: 53667bb2-154b-4c66-a15e-e3c3ba54d3da
+    '295037':
+      E13:
+        uuid: 3b5fdaba-f2c0-46db-983a-ef20d6ffae3d
+    '294981':
+      E13:
+        uuid: e3831b99-1858-46df-932d-dbfa0607c6f0
+  mots-clés:
+    lettre:
+      E13:
+        uuid: 02905cb7-8af8-482e-8326-500785d66ab4
+    Te Deum laudamus:
+      E13:
+        uuid: 9d93c360-a9ba-439e-aefb-403b841089fa
+    messe solennelle:
+      E13:
+        uuid: 09b6ba81-c12b-425f-b328-69311a99ad59
+    action de grâce:
+      E13:
+        uuid: a89a9f5c-a3e7-4ec6-bf1a-bfce209e789d
+    messe en musique:
+      E13:
+        uuid: f00a320a-f60a-4b1e-be59-29843ebd17cd
+    illuminations:
+      E13:
+        uuid: d9029d5b-6d89-4917-845e-cbef341aede6
+    procession:
+      E13:
+        uuid: 696e6e70-5eb5-4842-aa75-3fd207876d6c
+    carême:
+      E13:
+        uuid: 0a92f5f0-0246-43b9-95b5-be2af58fb20a
+    décor éphémère:
+      E13:
+        uuid: 544ee167-8ab0-4d33-8ea3-c3c234aee30f
+    oraison:
+      E13:
+        uuid: 135172f4-b02e-4779-9f8e-3fea0a99a96e
+    prière:
+      E13:
+        uuid: 255e044d-9732-43b0-872b-b1a3f59bfb50
+    cérémonies publiques et religieuses:
+      E13:
+        uuid: 7722ffa8-4359-4934-be3d-563f7a365c41
+    messe des morts en musique:
+      E13:
+        uuid: 4b4d63ee-dcbe-4643-9314-3d50849a11a8
+    décès:
+      E13:
+        uuid: 88738dfb-4357-4c3d-81c9-cd04b7784044
+    tambour:
+      E13:
+        uuid: 2f8e6bf5-af35-442d-a7b3-5d4886d4c1d0
+    tambour de guerre:
+      E13:
+        uuid: 5ad7209d-4c9f-4ef5-9e10-2ad756e33be4
+    siège:
+      E13:
+        uuid: 1020363d-56fe-4165-b829-a2262180b6da
+    cérémonie militaire:
+      E13:
+        uuid: 49cc381c-6fa0-4b6e-b950-e9d66b15e0e1
+    danse populaire:
+      E13:
+        uuid: 1c6db892-ac25-424e-8191-dd8f3a0ea75e
+    chant:
+      E13:
+        uuid: 94ff5cdb-cffe-43ef-85f5-f407635f481b
+    hautbois:
+      E13:
+        uuid: 3f92df7e-414f-46db-9674-ecf5d9e56cfa
+    violon:
+      E13:
+        uuid: 973c0969-3398-49d0-9651-7f32b8ec5376
+    trompette:
+      E13:
+        uuid: 288b01ca-1888-4db2-b798-f22279fca2f3
+    voix humaine:
+      E13:
+        uuid: 9ce2a11b-060a-466a-97e6-044b5cb19c7f
+    éloge du roi:
+      E13:
+        uuid: b90cd24f-1d85-41dd-a8ef-6df695e0485f
+    souper:
+      E13:
+        uuid: 451cefc4-16fa-4dd4-a2b9-9107fd648886
+    cérémonie funèbre:
+      E13:
+        uuid: 2426c129-2c1a-4ec2-ae5e-daa482417df7
+    veillée funèbre:
+      E13:
+        uuid: 5835280d-87d7-44ce-8cbc-8a7834e56876
+    service funèbre:
+      E13:
+        uuid: e70250f3-3ff2-451c-b333-2ed78dca235a
+    musique de cérémonie funèbre:
+      E13:
+        uuid: 68695b06-cbb4-4637-9f56-1c48ffc58635
+    deuil:
+      E13:
+        uuid: e68a96be-db38-4a9f-b09f-1410bf0eb37e
+    chasse:
+      E13:
+        uuid: d5ff1bba-e8de-4cf4-aadb-db22090bc2b1
+    concert privé:
+      E13:
+        uuid: b23cb46b-013c-4313-acf0-16978b22f73a
+    disposition pour la musique:
+      E13:
+        uuid: 1701e6a9-24be-40c6-9c1a-d96fd693cf65
+    dîner:
+      E13:
+        uuid: 964fc395-a4f2-45d5-849c-ad37b2038a2d
+    clochette:
+      E13:
+        uuid: ce6236f6-acfe-4ffe-977c-6fdd96deb0d4
+    prière pour les morts:
+      E13:
+        uuid: 6792f640-d465-40a0-a19c-27724e500522
+    costume de cérémonie:
+      E13:
+        uuid: bc339248-9a66-41bc-9538-30b716722abd
+    vêpres des morts:
+      E13:
+        uuid: e111a423-6556-4112-8387-e547d4af0f6e
+    vigiles:
+      E13:
+        uuid: 67f8e3e5-9653-4693-afbb-d2dedb326e0d
+    service solennel:
+      E13:
+        uuid: d9abf7e9-430a-4e27-bbb4-61774833b872
+    devise:
+      E13:
+        uuid: d6591aed-8caf-49f2-aeeb-b7b7c104e374
+    champêtre:
+      E13:
+        uuid: 6e9d27a9-5282-4bcc-92aa-ff87e016f47f
+    musique champêtre:
+      E13:
+        uuid: 5d1edeb4-129b-4151-b584-b3cd9fbe8a19
+    musique de plein air:
+      E13:
+        uuid: 48272667-5850-4b54-bc57-5cb34bc70f0f
+    musique de table:
+      E13:
+        uuid: c0937488-bc50-4699-9048-12ea934b8483
+    tradition:
+      E13:
+        uuid: 06a86ca1-070e-4152-b01d-63e261c26079
+    vêpres:
+      E13:
+        uuid: 7568e000-4307-4ec5-aff8-5bd92f482789
+    hymne:
+      E13:
+        uuid: 4f1ac20c-3780-4e39-9d49-9dc7a28d0343
+    complies:
+      E13:
+        uuid: 27f3b479-8a66-4040-94fc-32db6189086a
+    verset:
+      E13:
+        uuid: e424aad2-921c-434b-901b-091c31f0f2e1
+    orgue:
+      E13:
+        uuid: eca05243-2232-4c64-bf2f-ec7952d58180
+    laudes:
+      E13:
+        uuid: e704304f-97d0-48df-b2f4-93eaed99b742
+    Miserere mei Deus:
+      E13:
+        uuid: 08a78c38-e0ff-4bd7-b79d-a5898b3085f3
+    De profundis clamavi:
+      E13:
+        uuid: 8c0e9733-dee8-4816-9ee3-073576ddac6a
+    office de Ténèbres:
+      E13:
+        uuid: e482ce57-068d-4d51-9f1b-b83187ab20ea
+    Semaine Sainte:
+      E13:
+        uuid: 37f2d705-dbfe-4c43-90cc-f031af538d9e
+    Pentecôte:
+      E13:
+        uuid: f42d17fa-b7bd-4faa-bea0-2159b78095ea
+    Fête-Dieu:
+      E13:
+        uuid: e96cf6f3-5eea-4298-ae81-82c08f131606
+    Nativité:
+      E13:
+        uuid: cd31d6e6-b75f-47f2-9577-2ff5251f4d8e
+    prédication:
+      E13:
+        uuid: 5608d910-99b6-42e4-a5c4-39bc9f309d37
+    matines:
+      E13:
+        uuid: 7c2931c2-7ec7-4f6d-9a89-b8e02691fd7b
+    messe basse:
+      E13:
+        uuid: a7808069-bd64-4fdd-810a-e833062bbd57
+    prime:
+      E13:
+        uuid: 58f4ca8b-82a6-4e43-a829-d27c0e4513e5
+    tierce:
+      E13:
+        uuid: 6498b76a-ef19-4a68-bd4a-eb45370c8ec4
+    concert public:
+      E13:
+        uuid: 106110c8-2fc5-445f-b65e-cf564a22fe23
+    madrigal:
+      E13:
+        uuid: f6a007c8-15ba-4210-a106-abd7efdeaf92
+    carrière artistique:
+      E13:
+        uuid: 889d18da-ae2c-425a-90bf-78254e96d3bf
+    comédie française:
+      E13:
+        uuid: 2160e7d9-4c82-4471-8b72-9a8b094ab625
+    plain-chant:
+      E13:
+        uuid: b2f6ebce-87d0-4e9d-8e51-0e25ddd2d349
+    prière chantée:
+      E13:
+        uuid: a3bbf443-83a1-489f-9e4d-b06ce3d37f67
+    Nativité de la Vierge:
+      E13:
+        uuid: 449c28da-813d-47a4-bdaa-05908c3b5a9e
+    fifre:
+      E13:
+        uuid: c35e7124-5419-496b-a451-a29803a7314b
+    baptême:
+      E13:
+        uuid: fec2a38e-645a-49dd-8495-4ce8dcba6466
+    symphonie:
+      E13:
+        uuid: 0f6c170e-c84b-4e2d-a61e-77701f766315
+    timbale:
+      E13:
+        uuid: 8002c6a2-3c66-4278-aa20-36e9a40bda5c
+    bal:
+      E13:
+        uuid: 58de57c5-f899-4b6c-89cb-2f2a5b2c117e
+    divertissement royal:
+      E13:
+        uuid: bf117dae-527e-4dee-b0d2-46e6ff4fced6
+    messe:
+      E13:
+        uuid: db880dfc-9c6f-48f3-b2f2-5acead254bb4
+    réception d'une oeuvre dramatique:
+      E13:
+        uuid: 9d27733d-09c7-42d2-9989-ef82fc049063
+    paroles adaptées à un air:
+      E13:
+        uuid: 30dfd174-67fd-46e8-919c-d9732febf329
+    concert:
+      E13:
+        uuid: 0dbea5ca-7e99-47fd-b0b1-ceb86317fffa
+    art du chant:
+      E13:
+        uuid: d565d7e6-e4e3-4013-966d-f06505cde827
+    menuet:
+      E13:
+        uuid: a6f53f1c-a7f2-45fb-9c3a-a6b9a3243a29
+    flûte:
+      E13:
+        uuid: bce8adeb-d595-4b7a-b275-025bf6ada2c4
+    ritournelle:
+      E13:
+        uuid: 84649a96-da7e-47e2-85a7-cca4ff3f8821
+    suite instrumentale:
+      E13:
+        uuid: 22fa1c44-606f-416c-8843-dde074d14088
+    chanson:
+      E13:
+        uuid: 18459128-4f88-455f-8e0b-087fbb6611ce
+    interprétation dramatique:
+      E13:
+        uuid: d4eae109-e5cf-4060-a484-fe56e06498d7
+    interprétation musicale:
+      E13:
+        uuid: 5fed07a4-dd5a-45d3-a32c-9f182e730440
+    fanfare:
+      E13:
+        uuid: 4b7fe338-e6b7-49f2-81be-04066be8d54a
+    air instrumental:
+      E13:
+        uuid: f72ec44d-add3-4e28-b509-5b220cf553a7
+    sonnet:
+      E13:
+        uuid: e1fe1c72-ba82-42c6-ae1e-7041847b534f
+    distribution de prix:
+      E13:
+        uuid: 38439fe3-53fd-4fbe-ad83-5e801dad7088
+    traduction:
+      E13:
+        uuid: 7fe92099-e6e8-497f-84a3-8032d4e35dde
+    ode:
+      E13:
+        uuid: b89a9f09-5e23-4605-a408-de79ff34e14e
+    musette:
+      E13:
+        uuid: 260b1cfc-df6a-40f2-ac9f-17cd0205e814
+    lyre:
+      E13:
+        uuid: 7e8f4b5a-49b8-4202-9b88-eb2dc717dd1b
+    musique de cérémonie civile:
+      E13:
+        uuid: 1e0baaab-b941-425e-bd7a-7cfa6eae888c
+    musique religieuse:
+      E13:
+        uuid: 606cdd56-6f01-43d0-8420-2ac6a7c16810
+    entrée solennelle:
+      E13:
+        uuid: 2e1b5c90-0877-405a-8ad8-a7b6b5908f74
+    instrument de musique:
+      E13:
+        uuid: b90e74bb-b85e-4839-9e45-8058760a48e4
+    motet:
+      E13:
+        uuid: 1e9f43b9-5d55-4a6c-9bde-849b77cd5b8c
+    bénédiction:
+      E13:
+        uuid: 763181f5-6384-4a29-9f2f-7756a297bb4a
+    réjouissances:
+      E13:
+        uuid: 415b6a56-86d6-4c6c-bfcf-14414b473587
+    salut:
+      E13:
+        uuid: c21f8eec-a91e-4692-832a-a4c6ea052c18
+    musique italienne:
+      E13:
+        uuid: fb90149b-a27c-4e7a-a68e-5e94396d807e
+    clavecin:
+      E13:
+        uuid: ac380029-cfe3-4bd6-9a37-1676c3f0820e
+    comédien:
+      E13:
+        uuid: b7616f2c-1d91-4fe4-98d0-ed2a78c80304
+    public de la comédie:
+      E13:
+        uuid: 1c9a8e12-36b2-412f-8ed3-f70721d79823
+    comédie:
+      E13:
+        uuid: 1653cca4-0bbe-4853-9f89-659b1060feae
+    jeu:
+      E13:
+        uuid: 6955b6d0-7c4e-4e0a-9b53-3c42edc83581
+    vêpres en musique:
+      E13:
+        uuid: 4f945a6b-d4b0-401b-90ae-0c691884693f
+    anniversaire:
+      E13:
+        uuid: 84ce1820-a09b-4678-a513-c4e83a013431
+    fête de Saint-Hubert:
+      E13:
+        uuid: 9e710a37-13cf-407a-81f2-166904cb05b3
+    tragédie:
+      E13:
+        uuid: cc92a919-5592-46e0-a4cd-ca430de79a6d
+    tragédie antique:
+      E13:
+        uuid: ea2061b7-f1df-426c-bc15-960725f5a366
+    idylle:
+      E13:
+        uuid: 6382edf8-b1db-4696-959a-55ffbf39886e
+    basse de viole:
+      E13:
+        uuid: dfdb1a08-d341-4464-a7fa-5bfacf897f48
+    interprétation instrumentale:
+      E13:
+        uuid: c93a9118-bbb2-46e3-8abb-dba8845773b0
+    petit opéra:
+      E13:
+        uuid: e0d5bbc6-6ede-48b9-9f6f-4d7ae5cc8c9b
+    costume de théâtre:
+      E13:
+        uuid: 176e7304-cee9-45b4-9747-60b9630e82e3
+    réception officielle:
+      E13:
+        uuid: 889aab0c-9d16-4e5a-8ce4-d74e5e752c44
+    réception publique:
+      E13:
+        uuid: a07937ee-0eea-4b70-b795-09d75450e138
+    éloge en vers:
+      E13:
+        uuid: f01aeeb3-a317-4c59-887e-41fe27e11b08
+    entrée princière:
+      E13:
+        uuid: 7d041ffd-f1aa-4aca-aa63-295e63b32261
+    cérémonie civile:
+      E13:
+        uuid: 981e99a8-822c-43b0-8a33-8ac340fdf9c8
+    caractère de la danse:
+      E13:
+        uuid: 09f1c4b9-2b75-48a7-92cb-284d9ac242a8
+    danse française:
+      E13:
+        uuid: 567e27c9-5061-4526-8791-8e61a710e97a
+    danseur:
+      E13:
+        uuid: ebdedacd-3216-4ff8-819e-f09a9c7d9d1e
+    disposition pour la danse:
+      E13:
+        uuid: 4e7cb9dc-4ed4-41d4-a8bf-bf5751966310
+    basson:
+      E13:
+        uuid: 441dd1ba-dccf-46d4-99b2-9368630b4aed
+    compliment:
+      E13:
+        uuid: f7e8e4d8-fef9-4c4a-b175-cdaa73581515
+    épitre en vers:
+      E13:
+        uuid: 95cf5f9f-07bf-4919-86e4-c03966c9f649
+    sifflet:
+      E13:
+        uuid: 01494631-80e6-4e5c-9540-9d2278088b9c
+    luth:
+      E13:
+        uuid: 43d99417-ee31-4fe0-8536-c82fbf978a1c
+    opéra:
+      E13:
+        uuid: 9ace4ccc-d413-44f6-b74a-198b66140ec3
+    tragédie en musique:
+      E13:
+        uuid: c6f008aa-dde4-43d0-84cf-27c5a89f636e
+    prestation de serment:
+      E13:
+        uuid: 7796c499-4df0-4971-a3b6-63c4a5d4f799
+    Te Deum laudamus en musique:
+      E13:
+        uuid: 4ff41ec6-d6cf-4190-acc3-f8e4ebcb2255
+    obsèques:
+      E13:
+        uuid: c52748bd-7349-47c5-9d0e-4fc14415d816
+    poésie:
+      E13:
+        uuid: a79c6ad1-74c3-453f-958e-ed80e64d400b
+    poésie allégorique:
+      E13:
+        uuid: 044cb6ee-a606-4ab4-8bec-ff3bd400bcf6
+    catholicisme:
+      E13:
+        uuid: 0ff6fcb3-6009-47d8-8a04-a1539d65c855
+    type de texte:
+      E13:
+        uuid: 48695d0e-2c61-410a-a782-6a9915feb90e
+    spirituel:
+      E13:
+        uuid: 51782677-8e92-4b80-b454-4369d3b7a8ea
+    discours, examens, observations, sentiments:
+      E13:
+        uuid: aa19954f-2ada-43b7-a75f-8adc7816ecaa
+    approbation religieuse:
+      E13:
+        uuid: c4e1f0e6-9a8b-48c7-a976-baeb88b15a07
+    musique de cérémonie militaire:
+      E13:
+        uuid: af4ab6f8-c654-4b3e-85d0-8c77f4dd33c5
+    coutume locale:
+      E13:
+        uuid: 567a3cef-8145-47e1-b90d-f1c8af0ac077
+    marche:
+      E13:
+        uuid: 9022d9e6-85c0-4c80-b33a-ee08e49ef97a
+    cloche:
+      E13:
+        uuid: 6f9abb7d-ba16-4335-be7d-78f12e300b06
+    bénédiction du Saint-Sacrement:
+      E13:
+        uuid: f9af2a3a-9e74-444b-a4aa-7f762dd04e8f
+    théâtre éphémère:
+      E13:
+        uuid: 01671a7c-c877-4413-872c-65ab1025f510
+    fête:
+      E13:
+        uuid: 4b108bce-2a2b-4b70-ba5e-3ad418051d48
+    musique de cérémonie religieuse:
+      E13:
+        uuid: 0def4dd5-bf20-49db-8309-9839d07bb169
+    cérémonie:
+      E13:
+        uuid: 6822dc8d-365d-41ab-b329-5120f374215b
+    prière publique:
+      E13:
+        uuid: f2f1c0d8-2a5c-4769-b89a-e4d643367079
+    guerre:
+      E13:
+        uuid: cefc4b05-a56d-4d42-b4cd-1fa0d76adbee
+    sociabilité:
+      E13:
+        uuid: 4ee6d2bb-ff27-40ea-a875-e2e0c4971a33
+    romance:
+      E13:
+        uuid: 4ffa0985-f3bf-40c1-9804-eb95f0772de0
+    jubilé:
+      E13:
+        uuid: 02213885-1063-41fb-bcbc-86c359a4fcf6
+    réception d'un gouverneur:
+      E13:
+        uuid: 7dc7dd44-70f4-4b5d-a206-334edb544118
+    voyage princier:
+      E13:
+        uuid: 4bf97ad8-d3d6-418c-9907-58d2222a007d
+    communion:
+      E13:
+        uuid: ed955015-66c7-4733-82ba-976361b243e8
+    jeu de carte:
+      E13:
+        uuid: c93c8b31-b4a8-4598-8920-6f2896ddc2d7
+    revue militaire:
+      E13:
+        uuid: 16f7033a-0e4d-43b5-987d-d8f778d475d2
+    élégie:
+      E13:
+        uuid: fdf61252-13b1-40d4-913f-aebdd59916a1
+    chansonnette:
+      E13:
+        uuid: 9d08947a-b72e-42de-a1dc-9f6b57f867a2
+    livre nouveau:
+      E13:
+        uuid: a33122cc-32d6-4641-9b15-0404d634550d
+    édition en partition:
+      E13:
+        uuid: c15f39ae-cfa6-48b5-bb8d-0cca505a7690
+    organiste:
+      E13:
+        uuid: 1eba9fd5-5e6f-46fb-a707-89759f05a831
+    transcription instrumentale de musique vocale:
+      E13:
+        uuid: cf69b100-6caf-4146-8170-43d2a0d3b4d5
+    gravure:
+      E13:
+        uuid: d23d16a6-bb34-4d97-b45b-fdaaddf4978c
+    cérémonie académique:
+      E13:
+        uuid: e6702cad-08d9-41e3-8356-cefd313fed72
+    procession du Saint-Sacrement:
+      E13:
+        uuid: e5d9eaa3-376e-4773-93c6-aebccb5094f7
+    Exaudiat te Dominus en musique:
+      E13:
+        uuid: 7b99ef67-99af-45ee-8227-626200d02d2d
+    réjouissances publiques:
+      E13:
+        uuid: 398e1d76-b587-4648-b736-a02756e175bb
+    représentation théâtrale:
+      E13:
+        uuid: 7721e669-f19a-4462-9f09-3f730f9cddcb
+    théâtre de collège:
+      E13:
+        uuid: 782159be-064d-419f-b057-cbbf1fe08a03
+    tragédie de collège:
+      E13:
+        uuid: 96871dbf-e28d-41f8-b78a-2eb86e8ae429
+    Exaudiat te Dominus:
+      E13:
+        uuid: 601935f4-db2b-48c6-8b53-2b1d3dc67354
+    danse champêtre:
+      E13:
+        uuid: b2cb2504-d226-4b8b-8181-0924d9615d74
+    célébration d'une naissance princière:
+      E13:
+        uuid: 2b2acea1-f483-4993-959b-304923f0f5d2
+    masque:
+      E13:
+        uuid: a304999e-2df9-401a-af8a-13a0099b80dd
+    bande de violons:
+      E13:
+        uuid: 6151601f-4898-4efb-a577-819cb6e703f1
+    repas:
+      E13:
+        uuid: 5bab1fdc-a71a-4405-892d-ea6abb2f6878
+    éloge:
+      E13:
+        uuid: 4dafdd8c-0b05-4ea1-be8e-43d5b10545c0
+    fête royale:
+      E13:
+        uuid: 9cc4c131-059f-4b29-b007-82702b97d395
+    théâtre:
+      E13:
+        uuid: 102ef82c-96c2-404e-9da8-980fecdc5148
+    musique polychorale:
+      E13:
+        uuid: 3baeb31c-88ec-480c-9d5c-109bda7d866b
+    danse:
+      E13:
+        uuid: 262b2cb4-069e-4b49-9c94-30d03e484362
+    intermède:
+      E13:
+        uuid: 22061b1e-02ac-4199-8b9d-0a56c7217d9c
+    carrousel:
+      E13:
+        uuid: 40857885-d8ee-4e15-a46b-8a4394c1afff
+    élévation:
+      E13:
+        uuid: 19498ba2-8188-45ee-8926-bd57e41a13ca
+    sérénade:
+      E13:
+        uuid: fa95a7d5-8dbf-4ca2-b4a7-a28d454322a4
+    musiciens italiens:
+      E13:
+        uuid: 91b6460b-a934-4fd7-8bf2-08b7097d7e51
+    décoration de palais:
+      E13:
+        uuid: 388d1171-02ec-4819-8f05-49e80561b68d
+    carillon:
+      E13:
+        uuid: 63852f63-897c-4ca3-ac05-7b7c85cac6f6
+    comédie-ballet:
+      E13:
+        uuid: 43c6db3a-bf1e-4147-94ba-f0b987044041
+    comédie mêlée de musique:
+      E13:
+        uuid: 64bcd3fa-b44d-4411-965b-29f7df15cd19
+    réception d'oeuvre:
+      E13:
+        uuid: 9ec1ee90-ce12-4686-864b-76440b9639ae
+    naissance d'un prince:
+      E13:
+        uuid: 673e92b0-e03d-4bcb-afe0-84dfa3f71c45
+    éloge d'un prince:
+      E13:
+        uuid: 7ce9705b-eb9a-465b-8e9e-221d6ea4c392
+    histoire de la musique:
+      E13:
+        uuid: 2d1c1e07-1875-42a9-81f0-c8e1c5237f0c
+    origine de la musique:
+      E13:
+        uuid: 8b44214c-4984-4f98-b76f-9fe2a45e4445
+    disposition pour la poésie:
+      E13:
+        uuid: 05b999a2-c6da-4fbe-a227-ff0ad558688f
+    acteur:
+      E13:
+        uuid: fa0fc0a6-d460-46da-9271-31e4615d51b0
+    versification libre:
+      E13:
+        uuid: da0e5929-065c-43b2-a2d9-9be15f60f4b7
+    décoration d'église:
+      E13:
+        uuid: df101b38-432b-4634-b89a-239eaab9fe1b
+    éloge posthume:
+      E13:
+        uuid: 12031136-ed9e-4b0f-8fd9-769c657a897e
+    établissement d'une communauté religieuse:
+      E13:
+        uuid: 91bf5fa6-1c92-47ef-8b94-57d65c7bdcf0
+    enseignement de la musique:
+      E13:
+        uuid: d12b1e53-9814-4252-aef6-106e922591de
+    coutume religieuse:
+      E13:
+        uuid: da0e909a-29ea-4911-a203-de7da1372777
+    mariage:
+      E13:
+        uuid: db117c50-fe74-47ef-817a-6d814c4687a1
+    voyage officiel:
+      E13:
+        uuid: a6625be4-639f-4559-985b-e0f298029fcf
+    sarabande:
+      E13:
+        uuid: 32951255-832e-459d-bba5-f46775c7373b
+    diplomatie:
+      E13:
+        uuid: 01087db7-6404-43d1-839f-81a687de53fc
+    banquet:
+      E13:
+        uuid: 02750d51-07a5-4678-a8a2-2de2d9752bea
+    feu d'artifice:
+      E13:
+        uuid: f78218f4-b852-429e-9c56-a80aaca8bae4
+    psaume en musique:
+      E13:
+        uuid: 1ce14541-2d54-4f41-8d59-99911b526968
+    fête de Saint-Louis:
+      E13:
+        uuid: 1167b220-a44f-46cc-859f-1bf326d69a70
+    victoire militaire:
+      E13:
+        uuid: 94662aec-5ccb-4e51-8109-9b9fed1f0acd
+    affaires militaires:
+      E13:
+        uuid: f7996db4-7d3b-4656-a4e2-4064d80d8a18
+    musique française:
+      E13:
+        uuid: 2e53a1d8-e1e8-464d-a202-8cdf5c88c9e7
+    ensemble de violons:
+      E13:
+        uuid: 112ebb76-337a-4439-8728-8f96e115e7b6
+    réception d'une oeuvre musicale:
+      E13:
+        uuid: fb18ccc5-0d3f-4717-b533-3bcae15be361
+    annonce éditoriale:
+      E13:
+        uuid: 355b19c1-011d-4d27-8e7d-c8f341b8b0cc
+    actualité éditoriale:
+      E13:
+        uuid: b600051a-b80a-424d-a23e-a031d94ccc11
+    basse:
+      E13:
+        uuid: 87d0e166-8692-4799-86cb-57edba4369c7
+    prologue:
+      E13:
+        uuid: f1371120-f4fa-4faf-990d-fbaa383bc770
+    ouverture:
+      E13:
+        uuid: ed5fa5eb-c63d-4309-8ce0-7d8997640856
+    guitare:
+      E13:
+        uuid: 95dd9650-fb51-4eab-9417-e52e921578f4
+    accord des instruments:
+      E13:
+        uuid: c10e5990-b880-4c3d-8674-4e9c77545bb0
+    actualité musicale:
+      E13:
+        uuid: df02d092-d2c7-4346-8ced-7fbd5c099a6b
+    musique à deux choeurs:
+      E13:
+        uuid: fea4ef78-0c18-4be3-975a-34934dc07c76
+    mariage princier:
+      E13:
+        uuid: e1a355c2-a2ce-4b48-8316-320881c7da70
+    divertissement princier:
+      E13:
+        uuid: 669c5a19-b781-4391-b856-12fe422aafff
+    publication nouvelle:
+      E13:
+        uuid: 7914d6d3-74da-4da6-9c09-dc835271ea3e
+    lettre en prose:
+      E13:
+        uuid: 8f354dda-b099-4bc3-9b38-5c33f338a2f6
+    célébration d'une victoire militaire:
+      E13:
+        uuid: f4dcef30-e624-4aad-b661-5c4923d9ad15
+    réception d'une princesse:
+      E13:
+        uuid: 8d4ef59f-fe80-46a9-a4d2-be27e52e32cb
+    comédie anglaise:
+      E13:
+        uuid: b282eb07-1249-4a5a-a3df-a9ce9887f3ab
+    publication de poésie:
+      E13:
+        uuid: 0a506873-61cc-4b20-9a36-17f39b38c06d
+    goût national:
+      E13:
+        uuid: daa59d87-789a-465e-ae4c-3abe6c999f4c
+    adoration du Saint-Sacrement:
+      E13:
+        uuid: f0590b25-908d-41d6-9143-a97fae8128fc
+    sermon:
+      E13:
+        uuid: c2044e54-2ebd-40f7-9a54-fe9cc30b5f91
+    Veni creator spiritus mentes:
+      E13:
+        uuid: 8c6c71cd-04ed-4672-91aa-b1da2317ab71
+    table:
+      E13:
+        uuid: 083534af-22e7-40ba-9b42-3e57f46dde5e
+    musique:
+      E13:
+        uuid: 61be8e62-59a1-48d5-aada-1f33624a418f
+    éloquence:
+      E13:
+        uuid: ea429c5f-17bc-48d3-adc3-c6add0374aa6
+    dissertation:
+      E13:
+        uuid: 74af01ef-f79e-4172-92c9-7dd85d19fb68
+    harangue:
+      E13:
+        uuid: 6f938e40-c718-4429-bef6-ae53f8a7579a
+    bénédiction d'une abbesse:
+      E13:
+        uuid: ba016782-256e-4473-ac46-a8d0c0893ef4
+    ouverture du Parlement:
+      E13:
+        uuid: 5e16a1e5-a43c-43be-89f6-1960fe787d33
+    couronnement:
+      E13:
+        uuid: 5701c26f-d07c-4220-ba8f-43b4dc6e192b
+    fête de Saint-Lazare-de-Jérusalem:
+      E13:
+        uuid: 86bc1088-65c4-444b-a2de-75509e1ecc0c
+    ballet:
+      E13:
+        uuid: fc911aa9-679a-448e-b088-7797747364c4
+    érection d'une statue du roi:
+      E13:
+        uuid: bad945eb-d2e0-40d4-8dbc-a0bc93ce1e7b
+    cavalcade:
+      E13:
+        uuid: aaa10ff9-85ec-442a-9e1f-be093b2d63a8
+    anniversaire du roi:
+      E13:
+        uuid: c80ebd5f-ebd6-40de-aa34-d0c6d9d19cbe
+    interprétation vocale:
+      E13:
+        uuid: 02969844-b9d9-4659-af87-68e124512185
+    représentation d'oeuvre:
+      E13:
+        uuid: 5ba526e1-05fc-4896-a4a9-610c6fd08a84
+    goût du public d'opéra:
+      E13:
+        uuid: b88e6b5b-4ea3-4881-aa30-f3068bae6fb8
+    salut en musique:
+      E13:
+        uuid: fe33a18a-a32b-466e-8f7e-a31d17fe5d37
+    translation de reliques:
+      E13:
+        uuid: 57d3f7fa-842e-4139-9ef7-5b4eb23009bf
+    lettre au lecteur:
+      E13:
+        uuid: 6f9c1cce-d9d3-44b0-b6d5-b102e11d4fee
+    mascarade:
+      E13:
+        uuid: 28fab87d-709e-4f1a-be35-3163a4bd1f04
+    carnaval:
+      E13:
+        uuid: d639309f-d903-4812-b838-b51f5aaf77e4
+    tragédie biblique:
+      E13:
+        uuid: 7b526828-f774-43c3-97fc-85930170dee0
+    interprète princier:
+      E13:
+        uuid: abe69b4f-b064-47c6-b63d-41dfa51a196a
+    costume de carnaval:
+      E13:
+        uuid: bcd3cf38-7b79-4595-978b-3cc4680bc792
+    représentation privée:
+      E13:
+        uuid: b584a242-b9c4-48f5-b4a7-c1b1ba93a5dd
+    médaille:
+      E13:
+        uuid: c42f1d6a-5af4-4c7e-86a3-8b1e07532b60
+    goût français:
+      E13:
+        uuid: 4ecfb37d-6218-4c89-90ab-bc2555ebba85
+    révision d'oeuvre:
+      E13:
+        uuid: e8a08ca8-f8d1-4bbb-9094-1dfe17f06ddc
+    coutume musicale:
+      E13:
+        uuid: e34d082c-d93c-454c-9f4f-6e477a1bbc7f
+    danse antique:
+      E13:
+        uuid: f2daef38-4381-44ba-849e-01856a1da4db
+    qualité vocale:
+      E13:
+        uuid: 6e6ec1e5-1c9f-4d1f-8c26-f18d03e10baa
+    tons de la musique:
+      E13:
+        uuid: c94438d8-60bf-4ae9-957c-9b57401e6f1e
+    éloge funèbre:
+      E13:
+        uuid: 7805264c-8457-4a29-9a9c-75fb26388819
+    goût musical:
+      E13:
+        uuid: 297ba4fb-85c4-4aaa-9d25-814bc94b6c40
+    musique vocale:
+      E13:
+        uuid: 5207c259-7998-4bb5-9ff7-13ca1b95e995
+    galanterie:
+      E13:
+        uuid: 231d1c47-bae5-4438-817a-0ef6bc2d7a48
+    musique instrumentale:
+      E13:
+        uuid: 4373f5c3-4bf1-4a94-b27a-ca027917243a
+    musique militaire:
+      E13:
+        uuid: f8b077b7-7e6a-4aac-9431-b8c96a95cc5e
+    offices liturgiques:
+      E13:
+        uuid: 6f0c5693-5d09-4514-92f8-a8acc1ab9230
+    audience publique:
+      E13:
+        uuid: ae3469eb-4ae2-49de-9234-3886825f36b5
+    mandement:
+      E13:
+        uuid: a969e944-c3b6-4d5d-9f80-b511d0ac2f29
+    architecture:
+      E13:
+        uuid: 4ad309a0-f9af-429c-a6b0-7eeee511364b
+    peinture:
+      E13:
+        uuid: 8854a8ad-4302-45f8-98e2-d843dbcd8f99
+    sculpture:
+      E13:
+        uuid: 6ffd566c-9b53-4924-9944-e082b209fd07
+    musique à quatre choeurs:
+      E13:
+        uuid: 488606e9-9d8f-472d-a924-9a5adaf0db7a
+    origine des instruments de musique:
+      E13:
+        uuid: f5de123f-b0d1-46a3-9977-a21be25bdc85
+    traité d'organologie:
+      E13:
+        uuid: 595a583c-cd1b-4527-9980-501e49f10cbf
+    traité de musique:
+      E13:
+        uuid: b402888b-64c3-4a6a-b0ad-bfb8322e9203
+    prière pour le roi:
+      E13:
+        uuid: 8ab54357-2c41-4b07-ad92-439634d3c4d2
+    panégyrique du roi:
+      E13:
+        uuid: deae28d9-36dd-4564-92bf-a29a6d326304
+    divertissement:
+      E13:
+        uuid: 1d88071d-b96c-4d50-95df-37209ba0e61c
+    flûte douce:
+      E13:
+        uuid: 658d2450-1084-453a-b37b-a235dcd49f7b
+    reliques:
+      E13:
+        uuid: 3dc8dd38-9f58-4e9c-b4ee-6363130b2fae
+    goût:
+      E13:
+        uuid: 87f02e25-be90-43bc-8f3e-893eb8ef602b
+    évolution du goût:
+      E13:
+        uuid: 1a3c3ce6-ae2e-482f-8147-b73e07935a90
+    carrière:
+      E13:
+        uuid: c4c06ea0-4515-46e1-82cf-eff68b2c6e0c
+    discours public:
+      E13:
+        uuid: a18444bf-ceb5-4f9a-becb-d3f2777178e1
+    sacre d'un évêque:
+      E13:
+        uuid: c47b3a38-57e3-4ba7-bd1c-ffd286ed8f64
+    costume ecclésiastique:
+      E13:
+        uuid: ec80e82c-3084-4a20-9fa0-614020788b85
+    Veni creator spiritus mentes en musique:
+      E13:
+        uuid: fc95fc91-5c45-4adb-9735-52698334da3a
+    Usquequo Domine obliviceris:
+      E13:
+        uuid: 151e4900-b7d2-4c4c-9b37-28c320ff93da
+    oraison pour le roi:
+      E13:
+        uuid: 5161b3ba-8060-4c0b-a711-6a960c68862a
+    Benedictus:
+      E13:
+        uuid: b69a57d2-d47c-4fce-b406-fe9f89c59c37
+    collation:
+      E13:
+        uuid: 35c1079e-599a-4540-b95f-a22d4caedf86
+    célébration du retour de la santé:
+      E13:
+        uuid: 27f1bd96-d3e5-4001-8e2e-84c8fd8292bb
+    pastorale:
+      E13:
+        uuid: 1cfaf290-db9c-4c70-9526-02e217c9de94
+    marche de tambours:
+      E13:
+        uuid: 5146fa6c-0909-4666-87e5-54b83bfc1e59
+    décoration:
+      E13:
+        uuid: a0b3e2b0-17e5-4b3d-b16d-52f1056769a3
+    panégyrique:
+      E13:
+        uuid: 58dd7080-404a-49c6-95a7-95374a5d5719
+    emblème:
+      E13:
+        uuid: f6e4e285-08fc-4a01-bd3f-f5880f41694b
+    allégorie:
+      E13:
+        uuid: 51b74d65-b32e-496f-b958-583e0528e647
+    exposition du Saint-Sacrement:
+      E13:
+        uuid: 74df5965-7b52-44b6-96b3-04e33dab83b7
+    latin:
+      E13:
+        uuid: 44b51681-17f2-4b8a-af9d-91e802aae664
+    éloge d'une princesse:
+      E13:
+        uuid: 1be90f6a-76d9-4a6b-b51f-5fd3207a4808
+    danse traditionnelle:
+      E13:
+        uuid: 396fea82-d4e6-4495-a557-55ca5947dce3
+    entrée:
+      E13:
+        uuid: 39f8b0d0-87fa-4694-9c35-47ce3d4a3bfa
+    décoration de théâtre:
+      E13:
+        uuid: 8cbb1171-21d6-4168-96d6-23940d277df2
+    interprétation:
+      E13:
+        uuid: bb596367-3994-40bc-a3ae-42aab51eb620
+    musique de scène:
+      E13:
+        uuid: beab37d7-2fe9-4630-99f6-dc230beca2fa
+    effets du théâtre:
+      E13:
+        uuid: c800833f-23d3-4f4c-8d0c-11360c733bfb
+    effets de la danse:
+      E13:
+        uuid: a0c6c463-0bfe-4b7d-ba87-708df062fe9f
+    orchestre:
+      E13:
+        uuid: 84770879-7d0a-4c17-8adf-49aaea9ed0b8
+    messe du Saint-Esprit:
+      E13:
+        uuid: bb4d9b0c-a759-4175-b92e-13dfda7dac43
+    pompe funèbre:
+      E13:
+        uuid: 7adf6d88-6a61-4ba5-b738-4db6fc74fc2a
+    prononciation de voeux:
+      E13:
+        uuid: 111f423a-3ff1-4a64-974b-7d2d0f3ea47d
+    noviciat:
+      E13:
+        uuid: 49506a3b-cc4d-4675-b4ce-3f8b799dae0a
+    psaume:
+      E13:
+        uuid: bd563241-b19c-4d0f-9726-18071fac1c9f
+    ornementation:
+      E13:
+        uuid: 9a79185f-42c2-4f4e-9413-2c3d4f6c52a5
+    coût d'une fête:
+      E13:
+        uuid: dc72ab65-17e6-4ec7-b58d-d0b42c318c79
+    ouvrage de musique:
+      E13:
+        uuid: 328b3ff7-b335-40cf-a666-abc5120127af
+    étude de la musique:
+      E13:
+        uuid: e7a73069-2afe-4704-90b3-c85e1d349d04
+    réception privée:
+      E13:
+        uuid: 809ec4ee-3f39-4ae3-b1e0-70296bc98ba6
+    nomination d'une abbesse:
+      E13:
+        uuid: 26c71bcf-8de6-40d9-bfa0-a638047d8670
+    instrumentiste:
+      E13:
+        uuid: 9b438c87-40f1-4136-89ce-b9662089f2c6
+    interprète:
+      E13:
+        uuid: bed0a194-8bd1-43e5-abe3-3288a9c1704f
+    Domine salvum fac regem:
+      E13:
+        uuid: 556b8b68-1b33-4f80-8e7e-719033c11db4
+    quadrille:
+      E13:
+        uuid: 335c6219-226a-4eab-a82b-608b5706408a
+    panégyrique d'un saint:
+      E13:
+        uuid: 48973ab9-1ad5-482e-bdd5-abcdc7ef02f9
+    stances:
+      E13:
+        uuid: 37a53f42-905c-4c24-9c99-81b8de8f5b6f
+    cantique:
+      E13:
+        uuid: 5c0b44a0-3082-48f5-8765-e10dac36aff0
+    édition:
+      E13:
+        uuid: 809b784f-de25-4139-9744-f139aa1c3f71
+    air à danser:
+      E13:
+        uuid: afe40709-68c7-4592-a66f-54512d74bab1
+    air d'opéra:
+      E13:
+        uuid: 65d183f2-e288-4270-91f3-8f9e1e3d1122
+    prologue d'opéra:
+      E13:
+        uuid: fc8c985e-37f6-4613-b36c-18de4bb65bb2
+    comédie en musique:
+      E13:
+        uuid: c0218046-1ff8-4be0-9505-0c23e33c4696
+    soirées d'appartement:
+      E13:
+        uuid: 50a2641d-3c6d-47ec-8333-328c8595ce4a
+    bénédiction de la première pierre d'un édifice:
+      E13:
+        uuid: 7feaef0f-b6f7-4d4b-981a-a8ae2dff2489
+    translation de coeur:
+      E13:
+        uuid: 4fa516a6-ded5-4eb8-801c-25314214482b
+    effets de la musique:
+      E13:
+        uuid: 4c799d40-42d3-40d5-8a2e-1aebabc9b4e8
+    défaite militaire:
+      E13:
+        uuid: 16c33ce3-7105-408e-8803-546aa8d7ed8d
+    parodie:
+      E13:
+        uuid: 2d8ff0dc-0893-433b-aa4a-b61bd3174bba
+    cornet:
+      E13:
+        uuid: bc27fd68-6a4c-40b0-b978-55191a1040f6
+    chanson provençale:
+      E13:
+        uuid: 3a0ba884-3203-4d05-9cbf-71fe91383778
+    langue régionale:
+      E13:
+        uuid: 8749a280-078c-427e-b1cd-3a2f213f82ea
+    composition d'oeuvre musicale:
+      E13:
+        uuid: 0aa40b84-7c74-485a-a9b3-9d33e30dcb61
+    création d'oeuvre:
+      E13:
+        uuid: 0f7078f3-494c-4ba7-a29b-b6cab5585acb
+    branle:
+      E13:
+        uuid: 008b9950-63bd-4da9-bb32-90c0f0bf6e39
+    comique:
+      E13:
+        uuid: a745d6ee-251e-4424-b8ae-ebaab470d765
+    air italien:
+      E13:
+        uuid: 14dedbe9-0ac1-4166-abb7-9cb1fc5bd48c
+    chant ecclésiastique:
+      E13:
+        uuid: bc2f417a-2089-4f22-a44d-a7c4d9b310ea
+    pièce à machines mêlée de musique:
+      E13:
+        uuid: e0d562d2-6e6b-4367-abb6-49496366bc27
+    danse populaire allemande:
+      E13:
+        uuid: 68304a8d-8432-46f6-af40-eb07b4bf09fa
+    danse allemande:
+      E13:
+        uuid: 6a269768-14c1-4646-9d94-3eba771debc3
+    opéra italien:
+      E13:
+        uuid: 19283cfb-540f-4a9d-bb69-fea2886614d4
+    costume:
+      E13:
+        uuid: f7087897-857b-4db2-8b80-2ee76ee2fb59
+    costume de bal:
+      E13:
+        uuid: b0dff6fe-81c8-4329-84c7-9167fdb8c390
+    décoration de salle de bal:
+      E13:
+        uuid: 0a28c1e3-53b5-4c7c-8173-26a6994bcce0
+    bal à la française:
+      E13:
+        uuid: 20221ed2-6885-4da5-be5e-5a3a6af14bb1
+    costume de mascarade:
+      E13:
+        uuid: 976286b9-15f3-46f2-8b7f-47fa49dd3cbc
+    messe du Saint-Esprit en musique:
+      E13:
+        uuid: 6712a2f9-84a8-4728-8f60-1c7d1fc0ff8a
+    oraison en musique:
+      E13:
+        uuid: 6e26cb93-e866-4e33-a98d-bef1a273312b
+    épithalame:
+      E13:
+        uuid: 5697350c-1b6a-41d9-8b33-5a33ce55ecd4
+    conversation:
+      E13:
+        uuid: 4adc8f31-4738-4b2b-bbd5-1d9c8ccab602
+    traité et dissertation:
+      E13:
+        uuid: 74e83654-4eb3-4d6b-8a52-a0fbc8de0d2a
+    observations:
+      E13:
+        uuid: 38e7e598-3599-4a28-b786-be7ea4772cd6
+    méthode de musique:
+      E13:
+        uuid: cfa8d8bf-54c2-4928-9eeb-a0543327eabb
+    théorie de la musique:
+      E13:
+        uuid: e316cd01-4190-4fc1-95fa-7501ca69c743
+    querelle:
+      E13:
+        uuid: 96265bed-c904-4269-868d-206940c8c525
+    gamme musicale:
+      E13:
+        uuid: 4073ed40-4bc6-4dda-8ef7-30587bd513fd
+    notation musicale:
+      E13:
+        uuid: 7ac65897-ffdf-4892-aac7-9f214f90b6b9
+    épigramme:
+      E13:
+        uuid: 2fee9668-94e3-4ac7-9ada-e1e7964e8579
+    anagramme:
+      E13:
+        uuid: 5a8a5e36-aa3d-404f-ac42-64b25dc9d9b6
+    acoustique:
+      E13:
+        uuid: 1e9da50e-5c2a-4630-a4e8-43e81473b0fd
+    langue française:
+      E13:
+        uuid: 55e3c862-c9eb-4e84-a859-2bb8849442f9
+    litanies:
+      E13:
+        uuid: 492b41f5-97a7-4632-800a-a5e691f23259
+    harpe:
+      E13:
+        uuid: 8e4b923a-002f-4e0c-8fa4-9a6aae2800a1
+    fête religieuse:
+      E13:
+        uuid: e425a6fb-1a32-4db8-b2f3-da0795f09a35
+    économie des spectacles:
+      E13:
+        uuid: 6a3e5b91-4012-4ac9-a47a-7c9e334c35c9
+    messe basse en musique:
+      E13:
+        uuid: 3dcd518b-7718-41f5-80e8-7a0ccdbcaa8d
+    lettre en vers:
+      E13:
+        uuid: 1fa72089-9e9d-467e-b7c1-4323bc0e9f66
+    chalumeau:
+      E13:
+        uuid: e1a7e8db-3c9c-452f-b88a-7677db25788e
+    création d'académie:
+      E13:
+        uuid: 60064575-0ec3-423e-8a23-c94fb55281dc
+    maxime:
+      E13:
+        uuid: 4da2437e-d437-4756-80ff-dc9214afa058
+    versification:
+      E13:
+        uuid: d17c1ec9-458e-4325-b118-c6434094975c
+    costume de deuil:
+      E13:
+        uuid: f9352ce2-95b6-4d61-a211-db2e00d00761
+    Libera me en musique:
+      E13:
+        uuid: ee35fa5e-e883-4789-999e-74335f958dd9
+    réception d'une oeuvre:
+      E13:
+        uuid: 4f69e6e8-c03a-4aaf-8a1f-395730e12124
+    sacre:
+      E13:
+        uuid: 46b44f86-b715-47e4-a643-374821e6bda6
+    vie privée:
+      E13:
+        uuid: 35ea5b08-3ada-4bb1-839b-d56ca08c92bc
+    enterrement:
+      E13:
+        uuid: 4f047dac-6716-4348-9f69-1a33b79ac067
+    textes liturgiques:
+      E13:
+        uuid: 8d048e64-be9e-4fd1-a170-d8eaefd97bd5
+    voyage:
+      E13:
+        uuid: 213fbe7e-adcc-4292-83c7-5a5ce7d113d4
+    éloge d'un saint:
+      E13:
+        uuid: d3c45049-2d13-4381-9be8-1024c7ecbeb5
+    miracle:
+      E13:
+        uuid: 13ca7ca4-3122-4d8b-9768-ae2ff7efae3f
+    Ecce crucem Domini:
+      E13:
+        uuid: 0794dba7-de77-44ac-8bc7-9e9090bf4076
+    remède:
+      E13:
+        uuid: cbfbece0-ba70-442f-8430-2ffad9ec5f03
+    maladie:
+      E13:
+        uuid: 567b361f-77d3-4b48-90ad-33499d052c1b
+    plein air:
+      E13:
+        uuid: ac923fce-4345-40a0-86b9-203e4871a930
+    harmonie:
+      E13:
+        uuid: 0a27f53b-5c14-47f7-a8b1-58523cdb3f46
+    symphonie champêtre:
+      E13:
+        uuid: a7bc7e3a-e969-499e-b25d-77b30fd330b2
+    ballet champêtre:
+      E13:
+        uuid: 01db21d9-a237-4939-93fd-e4bb2314788f
+    cor de chasse:
+      E13:
+        uuid: 68d1b101-1803-485e-8f10-9b03afcec163
+    jeu d’adresse:
+      E13:
+        uuid: 844b6edf-e4ac-41cd-9c67-64384016516b
+    jeu de paume:
+      E13:
+        uuid: 414a0c13-5f9b-4349-a2f7-dfa3fdd5f50b
+    comédie italienne:
+      E13:
+        uuid: 4f4267f1-79bc-422c-8df2-4d710662e17f
+    biographie:
+      E13:
+        uuid: 9f457bcf-619a-42e6-8639-9f4d367f9fb2
+    notation en chiffres:
+      E13:
+        uuid: 7e813dfe-aff5-46bc-b325-7900a77fef24
+    public de l'opéra:
+      E13:
+        uuid: e016edec-3596-40fd-bc5b-eaac10de865d
+    théâtre d'opéra:
+      E13:
+        uuid: 4a823e66-38d4-4e6c-acdd-129a39758c4e
+    vie religieuse:
+      E13:
+        uuid: 9d310ad8-6c04-4ecc-8ab9-da1296b7f4e5
+    antienne:
+      E13:
+        uuid: 9368c6c1-7026-44ff-88e7-64568e894329
+    psaume de pénitence:
+      E13:
+        uuid: 523e6eb5-1980-4b46-ab44-d22155c6648b
+    répons:
+      E13:
+        uuid: 29a97004-1c1d-4240-8e11-50402aef601f
+    prise d'habit:
+      E13:
+        uuid: d18778c5-42e9-4b8b-bb8d-e8a13eac1c1c
+    apprentissage instrumental:
+      E13:
+        uuid: 471e49a1-e5f9-4db7-a087-0ffb5394f446
+    mission:
+      E13:
+        uuid: dc6dc8eb-27d5-427c-98ad-a521b12e2574
+    questions religieuses:
+      E13:
+        uuid: 7e37d1c3-7b43-4049-a417-00124b9cba34
+    islam:
+      E13:
+        uuid: a4ced74a-90ee-4abc-aceb-51344f707497
+    carrière ecclésiastique:
+      E13:
+        uuid: b5536bb5-7b69-4707-a136-3fff7a1c0b60
+    meurtre:
+      E13:
+        uuid: 5ef38361-b02c-471c-8926-aa0179bb8c4c
+    commémoration d'un décès:
+      E13:
+        uuid: f992f5a1-692b-48f0-87e1-6128345cb61a
+    musique funèbre:
+      E13:
+        uuid: c16cedb1-0a48-45c7-88e2-f26c6599712e
+    énigme:
+      E13:
+        uuid: 420b4eb5-a0fa-4e09-833d-0b619ec9b601
+    fête de Saint-Martin:
+      E13:
+        uuid: 19dde0ee-c27c-4b82-8942-ab945dc9bf26
+    réception:
+      E13:
+        uuid: dec14911-613f-4853-8e33-84939ee2b7dc
+    théorbe:
+      E13:
+        uuid: 8f464214-db3a-466f-a720-b304443c72f1
+    procédés de composition littéraire:
+      E13:
+        uuid: 1f509298-74de-4225-a9c9-afbce94e0fa1
+    naissance:
+      E13:
+        uuid: 1798aba9-3452-4de1-b07b-23422f89f935
+    inscriptions:
+      E13:
+        uuid: e583676a-4857-47c6-b6b1-a56a493ab998
+    vie académique:
+      E13:
+        uuid: d3c44002-3cf8-4b07-bfa2-895946f94113
+    élection d'un académicien:
+      E13:
+        uuid: 8114b4d4-9861-4653-9fd6-987a024e095b
+    fondation perpétuelle:
+      E13:
+        uuid: 57963579-353a-4c95-8dc0-f57d77380da7
+    musique de réjouissance publique:
+      E13:
+        uuid: 60143316-06cf-43fa-804f-d1af59fc17fb
+    décoration d'appartement:
+      E13:
+        uuid: 446b8f54-98a3-4bd3-ab5d-4e19b8e4b376
+    médianoche:
+      E13:
+        uuid: 74420fa4-5f40-41cc-ab36-6cfe178c51ad
+    testament:
+      E13:
+        uuid: 4ffe392d-8b64-4e38-9549-2f307fbcee4e
+    baptême d'une cloche:
+      E13:
+        uuid: a0590648-1f3b-4b67-b77b-a20d99f22066
+    prise de possession d'une abbaye:
+      E13:
+        uuid: de17381d-9937-4d68-bc33-18d635fa62cd
+    foire:
+      E13:
+        uuid: 78ad8778-dd61-4f08-9cc7-211d86fc860f
+    Antiquité grecque:
+      E13:
+        uuid: 07cac527-50ee-49c0-9df8-d891644a0f34
+    épitaphe:
+      E13:
+        uuid: d5d8e93a-2afc-4660-a1e8-520ae41396ca
+    chanteur:
+      E13:
+        uuid: 249b5781-ffff-4556-a10e-c7df64acad02
+    type de musique:
+      E13:
+        uuid: bc5b4eb8-9c67-4948-b613-752dafe18a8b
+    ouvrage savant:
+      E13:
+        uuid: 5f57b9f9-ba92-46bf-a2d7-580361066d7d
+    leçon de ténèbres:
+      E13:
+        uuid: ff622e16-00b9-406c-8a07-3231b0aca9f1
+    temps liturgique:
+      E13:
+        uuid: 8d841542-8d68-45af-9601-ed859aa7bf58
+    Pâques:
+      E13:
+        uuid: 3f325211-7651-4a63-b433-cae0082804c2
+    paraphrase:
+      E13:
+        uuid: cd24c117-68ff-438f-bcf6-12a0e4cbd94d
+    flûte allemande:
+      E13:
+        uuid: e076eb32-cc53-4d3a-9769-2a8cf0319cfb

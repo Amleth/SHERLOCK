@@ -199,7 +199,7 @@ def explore(id, depth):
                     t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                     t(E13_uri, crm("P140_assigned_attribute_to"), E93_uri)
                     E13_notes_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_notes", note_sha1], True))
-                    t(E13_notes_uri, RDFS.label, Literal(v))
+                    t(E13_notes_uri, RDFS.label, l(v))
                     t(E13_uri, crm("P141_assigned"), E13_notes_uri)
                     t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
@@ -250,10 +250,10 @@ indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
 E32_ancien_regime_uri = u(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
 E32_lieux_uri = u(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
 t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
-t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
+t(E32_ancien_regime_uri, crm("P1_is_identified_by"), l("Ancien Régime"))
 t(E32_ancien_regime_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_lieux_uri)
 t(E32_lieux_uri, a, crm("E32_Authority_Document"))
-t(E32_lieux_uri, crm("P1_is_identified_by"), Literal("Noms de lieux"))
+t(E32_lieux_uri, crm("P1_is_identified_by"), l("Noms de lieux"))
 
 
 ####################################################################################
@@ -264,7 +264,7 @@ t(E32_lieux_uri, crm("P1_is_identified_by"), Literal("Noms de lieux"))
 
 E32_grand_siecle_uri = u(iremus_ns["78061430-df57-4874-8334-44ed215a112e"])
 t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
-t(E32_grand_siecle_uri, crm("P1_is_identified_by"), Literal("Grand Siècle"))
+t(E32_grand_siecle_uri, crm("P1_is_identified_by"), l("Grand Siècle"))
 t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_grand_siecle_uri)
 
 explore(u("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
@@ -278,7 +278,7 @@ explore(u("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 
 E32_mon_cont_uri = u(iremus_ns["41dd59e3-2f0c-4ef3-b08c-9606f33a4a48"])
 t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
-t(E32_mon_cont_uri, crm("P1_is_identified_by"), Literal("Monde contemporain"))
+t(E32_mon_cont_uri, crm("P1_is_identified_by"), l("Monde contemporain"))
 t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_mon_cont_uri)
 
 explore(u("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
@@ -291,7 +291,7 @@ explore(u("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.output_ttl, "wb") as f:
     f.write(serialization)
-cache_corpus.bye()
+
 cache_lieux.bye()
 
 with open(args.label_uuid, 'w', encoding='utf-8') as f:

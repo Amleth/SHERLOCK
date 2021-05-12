@@ -305,5 +305,5 @@ t(E32_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.output_ttl, "wb") as f:
     f.write(serialization)
-cache_corpus.bye()
+
 cache_congregations.bye()
