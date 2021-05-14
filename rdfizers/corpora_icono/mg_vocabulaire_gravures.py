@@ -55,7 +55,9 @@ ligne = None
 def explore():
     global num
 
-    if ligne[num].value != "categorie":
+    if ligne[num].value == "categorie":
+        pass
+    else:
 
         try:
             valeur = ligne[num].value
@@ -63,13 +65,16 @@ def explore():
             E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", valeur, "uuid"], True))
             t(E55_broader, a, crm("E55_Type"))
             t(E55_broader, crm("P1_is_identified_by"), l(valeur))
-
-            ancestors.append(valeur)
+            if valeur != None and valeur != ligne[5].value or ligne[6].value:
+                ancestors.append(valeur)
             num += 1
             print(ancestors)
             explore()
+
         except:
             return False
+
+
 
 for row in vocab_excel:
     num = 1
