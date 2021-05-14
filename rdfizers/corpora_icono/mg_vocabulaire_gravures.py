@@ -60,27 +60,33 @@ def explore():
     else:
 
         try:
+
             valeur = ligne[num].value
 
-            E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", valeur, "uuid"], True))
-            t(E55_broader, a, crm("E55_Type"))
-            t(E55_broader, crm("P1_is_identified_by"), l(valeur))
+            E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", valeur, "uuid"], True))
+            t(E55_Type, a, crm("E55_Type"))
+            t(E55_Type, crm("P1_is_identified_by"), l(valeur))
+
             if valeur != None and valeur != ligne[5].value or ligne[6].value:
-                ancestors.append(valeur)
+                broaders.append(valeur)
+
+                for previous, current in zip(broaders, broaders[1:]):
+                    broader = previous
+                    E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader, "uuid"], True))
+                    t(E55_Type, crm("P127_has_broader_term"), E55_broader)
+
             num += 1
-            print(ancestors)
             explore()
 
         except:
             return False
 
 
-
 for row in vocab_excel:
     num = 1
     ligne = row
 
-    ancestors = []
+    broaders = []
 
     explore()
 
