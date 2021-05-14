@@ -49,7 +49,6 @@ def crm(x):
 def crmdig(x):
 	return crmdig_ns[x]
 
-
 def lrm(x):
 	return lrmoo_ns[x]
 
