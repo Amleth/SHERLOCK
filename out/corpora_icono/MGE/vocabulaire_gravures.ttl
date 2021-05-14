@@ -4,16 +4,6 @@
 @prefix ns1: <http://purl.org/dc/terms/> .
 @prefix she: <http://data-iremus.huma-num.fr/id/> .
 
-<091f35c9-5d97-4217-b7e3-5410a4136fdd> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Personnages" .
-
-<098f1d73-ded5-48db-b188-a00d0bf9386f> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Thèmes mythologiques" .
-
 <0a14cc03-a539-4ed4-a3e9-62b5f40c3f0c> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Rats" .
@@ -67,11 +57,6 @@
         <c2a59148-e9e9-4c29-bab8-00bb0e0c26ee> ;
     crm:P1_is_identified_by "Musique" .
 
-<1e970aa7-0db4-4af7-a434-c032b45e4271> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Ascagne" .
-
 <248ef72d-fb66-4e8a-9c9e-121ca9df8019> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Cornes" .
@@ -97,28 +82,13 @@
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Villes" .
 
-<38aa659e-ae59-4179-9c7e-22b7790d2622> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Géants" .
-
 <38f1a7be-e3c3-4ead-9ba7-d46ccca90db5> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Binocles" .
 
-<3a3e54f4-173b-48c2-baae-b723458f65dd> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Protée" .
-
 <3afd3462-584c-45c3-8a4d-dab1936b2852> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Ponts" .
-
-<3caa5da4-2d19-4d3f-b80f-13375c703a0f> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Io" .
 
 <3f0acda1-ed7e-4533-a855-2aade57ea3f9> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
@@ -127,9 +97,6 @@
 <40862bad-22f9-472e-900b-3343dc54d252> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Places" .
-
-<414e5c81-8bb4-4365-b8a7-40ded32e10f6> a crm:E55_Type ;
-    crm:P1_is_identified_by "http://vocab.getty.edu/page/aat/300007021" .
 
 <457d6779-cc52-4a8b-8891-7f0a352e897b> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
@@ -177,17 +144,9 @@
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Étendards" .
 
-<6a6982f3-7015-46b6-9a48-60210927cc5f> a crm:E55_Type ;
-    crm:P1_is_identified_by "None" .
-
 <6a91b047-92e3-48f4-882b-661b62653957> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Forteresses VOIR Citadelles" .
-
-<6d8775b2-f75d-45e5-a20b-4518c0dbe0e3> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Vénus" .
 
 <6e1ee57a-4557-4611-af1f-b4ebf196109d> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
@@ -220,19 +179,9 @@
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Armoiries" .
 
-<946b6d7d-164e-42b3-9bc1-88ea49bb3506> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Bacchus" .
-
 <957985bf-e95a-4e29-b5ad-3520e2eea34e> a lrmoo:F34_Controlled_Vocabulary ;
     ns1:creator <ea287800-4345-4649-af12-7253aa185f3f> ;
     crm:P1_is_identified_by "Vocabulaire d'indexation des gravures du Mercure Galant" .
-
-<97a3d724-f213-4619-8112-4517c3fb94b1> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Chaos" .
 
 <9a67fbc1-c98c-445f-a77c-4d6b86506c6e> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
@@ -286,19 +235,9 @@
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Citadelles, Forteresses" .
 
-<b0203ab2-8ebd-4990-a147-4262fcd33734> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Prométhée" .
-
 <b7651ef9-d02d-4730-ae6b-acd381873f16> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Fontaines" .
-
-<ba342870-8c03-4696-b5d9-be06cfac71a2> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Neptune" .
 
 <bb527918-377f-49b8-b463-24e3d2b4d1c4> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
@@ -367,11 +306,6 @@
         <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Noces" .
 
-<e171c6bb-b20f-4976-94a6-f58484b40062> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Divinités" .
-
 <e1fb4d51-ffe5-42af-9381-db7f2f7793b6> a crm:E55_Type ;
     crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
         <897e9f5f-2de1-452d-bb65-1c951b5d2bd7> ;
@@ -409,11 +343,6 @@
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Météores" .
 
-<fecd34d6-09a7-4110-82ad-a5fec08be8a6> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c>,
-        <cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> ;
-    crm:P1_is_identified_by "Songe" .
-
 <ff72132c-aaf2-40ba-aaa7-98042096ba98> a crm:E55_Type ;
     crm:P127_has_broader_term <9d339950-eba8-4adc-ada1-ce1302fd2a43> ;
     crm:P1_is_identified_by "Gondoles" .
@@ -421,6 +350,10 @@
 <5ddee21d-2860-4977-9067-4c010074bf62> a crm:E55_Type ;
     crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c> ;
     crm:P1_is_identified_by "Emblématique" .
+
+<cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> a crm:E55_Type ;
+    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c> ;
+    crm:P1_is_identified_by "Mythologie" .
 
 <897e9f5f-2de1-452d-bb65-1c951b5d2bd7> a crm:E55_Type ;
     crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c> ;
@@ -444,10 +377,6 @@
 <c2a59148-e9e9-4c29-bab8-00bb0e0c26ee> a crm:E55_Type ;
     crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c> ;
     crm:P1_is_identified_by "Arts, sciences et techniques" .
-
-<cbd0c4d2-356a-4e61-b6bc-252d86d8f16f> a crm:E55_Type ;
-    crm:P127_has_broader_term <6562e1e9-0fd6-487a-a913-0a4878eebd2c> ;
-    crm:P1_is_identified_by "Mythologie" .
 
 <6562e1e9-0fd6-487a-a913-0a4878eebd2c> a crm:E55_Type ;
     crm:P1_is_identified_by "Thématiques" .

@@ -53,29 +53,35 @@ g.add((F34_uuid, DCTERMS.creator, she('ea287800-4345-4649-af12-7253aa185f3f')))
 ligne = None
 
 def explore():
-    global num
+    global colonne
 
-    if ligne[num].value == "categorie":
+    if ligne[colonne].value == "categorie":
         pass
     else:
 
         try:
 
-            valeur = ligne[num].value
+            valeur = ligne[colonne].value
 
-            E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", valeur, "uuid"], True))
-            t(E55_Type, a, crm("E55_Type"))
-            t(E55_Type, crm("P1_is_identified_by"), l(valeur))
-
-            if valeur != None and valeur != ligne[5].value or ligne[6].value:
+            if valeur != None:
                 broaders.append(valeur)
 
-                for previous, current in zip(broaders, broaders[1:]):
-                    broader = previous
-                    E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader, "uuid"], True))
-                    t(E55_Type, crm("P127_has_broader_term"), E55_broader)
+                # Concepts
+                if valeur != ligne[5].value or ligne[6].value:
+                    E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", valeur, "uuid"], True))
+                    t(E55_Type, a, crm("E55_Type"))
+                    t(E55_Type, crm("P1_is_identified_by"), l(valeur))
 
-            num += 1
+                # See Also
+                else:
+                    print(valeur)
+
+            for previous, current in zip(broaders, broaders[1:]):
+                broader = previous
+                E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader, "uuid"], True))
+                t(E55_Type, crm("P127_has_broader_term"), E55_broader)
+
+            colonne += 1
             explore()
 
         except:
@@ -83,7 +89,7 @@ def explore():
 
 
 for row in vocab_excel:
-    num = 1
+    colonne = 1
     ligne = row
 
     broaders = []
