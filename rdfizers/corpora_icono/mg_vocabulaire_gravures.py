@@ -66,20 +66,26 @@ def explore():
             if valeur != None:
                 broaders.append(valeur)
 
-                # Concepts
-                if valeur != ligne[5].value or ligne[6].value:
-                    E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", valeur, "uuid"], True))
-                    t(E55_Type, a, crm("E55_Type"))
-                    t(E55_Type, crm("P1_is_identified_by"), l(valeur))
+            # Concepts
+            if valeur != ligne[5].value or ligne[6].value:
+                E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", valeur.lower(), "uuid"], True))
+                t(E55_Type, a, crm("E55_Type"))
+                t(E55_Type, crm("P1_is_identified_by"), l(valeur))
 
-                # See Also
-                else:
-                    print(valeur)
+            # SeeAlso
+            else:
+                if valeur != None:
+                    see_also = valeur
+                    broaders.append(see_also)
+                    print(see_also, type(see_also))
 
             for previous, current in zip(broaders, broaders[1:]):
                 broader = previous
-                E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader, "uuid"], True))
+                E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader.lower(), "uuid"], True))
                 t(E55_Type, crm("P127_has_broader_term"), E55_broader)
+                t(E55_broader, RDFS.seeAlso, l(see_also))
+
+            #print(broaders)
 
             colonne += 1
             explore()

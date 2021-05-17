@@ -1,207 +1,129 @@
 vocabulaire indexation gravures:
-  Thématiques:
-    uuid: 6562e1e9-0fd6-487a-a913-0a4878eebd2c
-  Allégorie et rhétorique:
-    uuid: 897e9f5f-2de1-452d-bb65-1c951b5d2bd7
-  None:
-    uuid: 6a6982f3-7015-46b6-9a48-60210927cc5f
-  Allégories amoureuses:
-    uuid: e1fb4d51-ffe5-42af-9381-db7f2f7793b6
-  Enigmes en figure:
-    uuid: 5f356358-bb7b-41e6-9af8-332b46cb3ee6
-  Arts, sciences et techniques:
-    uuid: c2a59148-e9e9-4c29-bab8-00bb0e0c26ee
-  Génie civil:
-    uuid: c61bcc3d-6622-4119-b744-c8a657cf73ee
-  Anatomie:
-    uuid: de6b33d3-aa17-428e-8847-55d7dd7db276
-  Astrologie [regrouper si besoin avec astronomie ; si thème royal, classer comme emblème]:
-    uuid: 127379ef-3bcd-4832-b7c5-caec687e6613
-  Astronomie:
-    uuid: eb8f704f-e62e-4b00-8959-93586249113f
-  Musique:
-    uuid: 1e8b92af-11cd-44ec-9df5-330985c2472a
-  Optique:
-    uuid: fcc977bd-f32b-472d-9f16-3103616c1866
-  Zoologie:
-    uuid: f488bd3c-8094-4b58-a5b9-db1171cd6f7f
-  Décor:
-    uuid: bb792604-23e7-48b9-8672-2b9484efab8a
-  Objets décoratifs et d’apparat [chaises à porteurs, pagodes chinoises, cadeaux diplomatiques…]:
-    uuid: 26c1203e-8d25-4f63-b2a8-6788bce6d2de
-  Décors éphémères:
-    uuid: a07af0ef-5f0c-4b8c-8051-9de3ba247c27
-  Plans et descriptions de fêtes:
-    uuid: df2cd1f5-ffa9-42cb-b5e5-e11df9664d29
-  Décors de spectacle:
-    uuid: 10c8d403-1796-47b4-8fe2-b770748ac1e7
-  Apparats:
-    uuid: faf20a53-f29a-4d11-9997-84e3bfe2a3ba
-  Décors de théâtre:
-    uuid: 9f6395b5-122a-4f9c-9c16-3a0388421fcd
-  Emblématique:
-    uuid: 5ddee21d-2860-4977-9067-4c010074bf62
-  Emblèmes:
-    uuid: 1686d6f2-d774-4580-a9b1-bf33d3e44187
-  Mythologie:
-    uuid: cbd0c4d2-356a-4e61-b6bc-252d86d8f16f
-  Mythologie greco-romaine:
-    uuid: 88e7707e-1693-4d78-a018-8ff849c0fe60
-  Divinités:
-    uuid: e171c6bb-b20f-4976-94a6-f58484b40062
-  Bacchus:
-    uuid: 946b6d7d-164e-42b3-9bc1-88ea49bb3506
-  Neptune:
-    uuid: ba342870-8c03-4696-b5d9-be06cfac71a2
-  Prométhée:
-    uuid: b0203ab2-8ebd-4990-a147-4262fcd33734
-  Protée:
-    uuid: 3a3e54f4-173b-48c2-baae-b723458f65dd
-  Vénus:
-    uuid: 6d8775b2-f75d-45e5-a20b-4518c0dbe0e3
-  Personnages:
-    uuid: 091f35c9-5d97-4217-b7e3-5410a4136fdd
-  Ascagne:
-    uuid: 1e970aa7-0db4-4af7-a434-c032b45e4271
-  Géants:
-    uuid: 38aa659e-ae59-4179-9c7e-22b7790d2622
-  Io:
-    uuid: 3caa5da4-2d19-4d3f-b80f-13375c703a0f
-  Thèmes mythologiques:
-    uuid: 098f1d73-ded5-48db-b188-a00d0bf9386f
-  Chaos:
-    uuid: 97a3d724-f213-4619-8112-4517c3fb94b1
-  Songe:
-    uuid: fecd34d6-09a7-4110-82ad-a5fec08be8a6
-  Portraits et généalogie:
-    uuid: 14c0e7b8-c0ef-4a36-b606-06ef5a1da5bc
-  Topographie:
-    uuid: a60f4289-4397-41f1-b2ff-81099806f02d
-  Architecture navale [galères, etc.]:
-    uuid: c1bad169-45e4-449f-8cbf-a8df82c00a31
-  Plans de bâtiment [église, etc.]:
-    uuid: 72bb627c-7d09-4e9e-9acb-59d42d4398f1
-  Plans et vues:
-    uuid: 9c3fd21e-4f30-4d1a-9af2-ec6b234f1c67
-  Sièges:
-    uuid: 4ab0db81-0bf6-4481-a85e-f86983071410
-  Vues et plans militaires:
-    uuid: 11756516-6d47-4bcc-bab5-6a97af65350e
-  Vie militaire:
-    uuid: 5e3ad54c-ebe9-488c-9199-baa42c6c57ea
-  Vie sociale:
-    uuid: 75ccb6b3-0e0c-452d-a192-87f6d6620f1b
-  Deuil:
-    uuid: d4509507-aa5b-47a6-9a39-43879069f268
-  Mode vestimentaire:
-    uuid: 81155b20-4453-435d-9ddd-12cba44f059b
-  Noces:
-    uuid: dfe1107a-9651-4703-9781-f5bd42131cb5
-  Objets:
-    uuid: 9d339950-eba8-4adc-ada1-ce1302fd2a43
-  Alphabets et écritures codées:
-    uuid: db663c61-fddd-499d-a281-388bf7087ad9
-  Arcs de triomphe:
-    uuid: 0db540d5-648b-47e3-87da-7735a9202d73
-  Armoiries:
-    uuid: 8cd6f5a3-d934-4479-b08c-6b05e5ba55e7
-  Bals:
-    uuid: a77e8772-1e22-4b5c-b6e3-0f56157c9b8c
-  Banquets:
-    uuid: 0b5dc80b-ac7e-4738-abd1-1b0542dc3e42
-  Binocles:
-    uuid: 38f1a7be-e3c3-4ead-9ba7-d46ccca90db5
-  Boutiques et ateliers:
-    uuid: a003f820-22ff-4640-a991-99ebe999a96a
-  Cadrans et horloges:
-    uuid: 4838ae1e-10e9-451f-85ed-f8efbc40799b
-  Canaux:
-    uuid: 52767601-3121-4e3a-b18f-48a86604b26d
-  Cartes allégoriques et de galanterie:
-    uuid: bb527918-377f-49b8-b463-24e3d2b4d1c4
-  Forteresses VOIR Citadelles:
-    uuid: 6a91b047-92e3-48f4-882b-661b62653957
-  Citadelles, Forteresses:
-    uuid: abd953e9-4bb3-42b1-80ff-dcfc6c7efac8
-  Chars:
-    uuid: a8284321-9d0d-4c2e-9f1e-937a9b135f9a
-  Cloches:
-    uuid: a72e6115-85bd-4d45-927b-adbeaa71b35f
-  Cornes:
-    uuid: 248ef72d-fb66-4e8a-9c9e-121ca9df8019
-  Croix:
-    uuid: a3c92717-4f0c-4f45-a079-0080615923f6
-  Eglises:
-    uuid: d5fb107a-f7eb-48f6-9959-47ccc4543105
-  Fers VOIR Épées:
-    uuid: 8aef3e51-f049-4744-bd8b-166c5502088d
-  Lances VOIR Épées:
-    uuid: 50b7d145-2603-4873-b3e6-5f9ffc4cc6ad
-  Épées, fers, lances:
-    uuid: 2fb324e3-78c2-4325-8489-1fb94a1b973f
-  Étendards:
-    uuid: 63810a68-8b31-428d-ba59-12e3723b85f5
-  Feux d’artifice:
-    uuid: 30682120-6a47-4b88-81a6-afdca981d646
-  Fontaines:
-    uuid: b7651ef9-d02d-4730-ae6b-acd381873f16
-  Gondoles:
-    uuid: ff72132c-aaf2-40ba-aaa7-98042096ba98
-  Jardins:
-    uuid: 323c1330-5334-4c4c-a7cc-9486eb33bdd4
-  Jetons:
-    uuid: 9a67fbc1-c98c-445f-a77c-4d6b86506c6e
-  Lettres en chiffres:
-    uuid: 891dfc75-1aec-4d76-9de0-6afcf8fd317b
-  Loteries:
-    uuid: d8285cc9-7e2d-4b81-aea5-a571f53a4d5b
-  Machines:
-    uuid: 45c8536c-2dab-430f-86eb-fe9458648b0a
-  Mausolées:
-    uuid: dfa73206-3746-4317-8cd7-f23f8472acda
-  Médailles:
-    uuid: d8be0ba7-d49e-4f0d-9743-6503d5694020
-  Météores:
-    uuid: fd220387-3934-4a60-876b-0e2405e173e4
-  Mosaïque:
-    uuid: 6e1ee57a-4557-4611-af1f-b4ebf196109d
-  Moutons:
-    uuid: 4b9ca8d3-b45f-4cbb-9f6e-c0d216f13485
-  Obélisques:
-    uuid: 4d4ca5d4-776b-45cc-bde8-e12c46f10236
-  http://vocab.getty.edu/page/aat/300007021:
-    uuid: 414e5c81-8bb4-4365-b8a7-40ded32e10f6
-  Pagodes:
-    uuid: 3f0acda1-ed7e-4533-a855-2aade57ea3f9
-  Palais:
-    uuid: 457d6779-cc52-4a8b-8891-7f0a352e897b
-  Places:
-    uuid: 40862bad-22f9-472e-900b-3343dc54d252
-  Poissons:
-    uuid: d9f99e43-98d7-4db4-abd5-4c30e768abe4
-  Ponts:
-    uuid: 3afd3462-584c-45c3-8a4d-dab1936b2852
-  Portraits:
-    uuid: 0ccf499d-9916-4963-b115-6a02a379171e
-  Rats:
-    uuid: 0a14cc03-a539-4ed4-a3e9-62b5f40c3f0c
-  Tables généalogiques:
-    uuid: e8936284-c918-4331-b352-92e5f060a5a8
-  Tentures:
-    uuid: cf9643ac-6fe6-4768-8aa8-de4b4bdcd63d
-  Vêtements:
-    uuid: 13497272-90a3-431b-9ae3-0b82a0ac56af
-  Villes:
-    uuid: 35bc1078-020b-41bf-a29f-c36f32af033c
-  Voûtes:
-    uuid: a6c2618a-d7f5-4e20-bf8f-38f3c869cb6c
-  Techniques:
-    uuid: 7bd58b95-243a-4360-b326-66e40c5c1051
-  Dessins d’architecte et d’ingénieur:
-    uuid: cc5a6b93-fa35-43ab-8d85-038cef03cb0b
-  Élévations:
-    uuid: 183049df-504a-4aa2-bb6a-bd8c76214a66
-  Dessins scientifiques:
-    uuid: a73d64cb-19e2-4d15-a7c7-0750b92ade45
-  Relevés décoratifs:
-    uuid: f2928da9-bea5-4438-8849-073c00bac2a4
+  thématiques:
+    uuid: 33ce8a22-3b84-45ab-844a-7fe5144ced0f
+  allégorie et rhétorique:
+    uuid: 102e2137-0f72-48e4-8656-eb147702f35f
+  arts, sciences et techniques:
+    uuid: abe22929-6a75-4b2b-9819-e45d09303f60
+  décor:
+    uuid: bd61dadc-af12-4615-9b0b-0837e6f45de8
+  emblématique:
+    uuid: d1d8c114-ab7d-4bf0-89b5-01f8c213eef4
+  mythologie:
+    uuid: c65de4d2-4c52-466f-b876-f0b6d4e5d418
+  portraits et généalogie:
+    uuid: 6dcd5187-53b9-477d-bf80-35b853972233
+  topographie:
+    uuid: 6bdfbfa8-5d5e-4b25-9303-3109bad22787
+  vie militaire:
+    uuid: 4db9b424-a2df-469d-b0a3-30121c845a69
+  vie sociale:
+    uuid: 1606fea2-38c6-477c-87ad-faa306907c85
+  objets:
+    uuid: 9935af4b-368f-4b16-8e75-ecff987814e9
+  alphabets et écritures codées:
+    uuid: 548ca154-5b9c-4f8f-bd7b-4160d3321d68
+  arcs de triomphe:
+    uuid: 55f2f2d6-50f0-40e9-9514-4b9f6a56fd7e
+  armoiries:
+    uuid: 7528c8f9-d42c-4e22-88e5-707cd0a78b92
+  bals:
+    uuid: 5e627932-9361-4151-89aa-aff9da70b5e7
+  banquets:
+    uuid: 35dbcd2f-c39d-45b9-ab35-8539f8dbaecd
+  binocles:
+    uuid: 335360a2-402f-4b16-99b6-97ae44700a4f
+  boutiques et ateliers:
+    uuid: 364abeeb-218c-4c84-8e3b-0ffaa7da6b10
+  cadrans et horloges:
+    uuid: 4440da4b-7a71-4a27-ac46-a54e59c4d777
+  canaux:
+    uuid: 0b05a3e4-7260-465a-bc9a-2bbea8a7b153
+  cartes allégoriques et de galanterie:
+    uuid: 146ed7e5-286f-497a-8357-cb2ce2d31003
+  forteresses voir citadelles:
+    uuid: 1fdeaf3f-ed72-4bc6-bbbb-3dd0b6f25a91
+  citadelles, forteresses:
+    uuid: eb8902fb-b90d-4e00-97f8-1b877e9f5627
+  chars:
+    uuid: 296f0e9e-73da-42dc-a839-1dcf49fca1fe
+  cloches:
+    uuid: 8d377c39-a337-4141-b671-7c77274dc867
+  cornes:
+    uuid: cb809f1a-b425-4799-a525-3a2bfbe16d5d
+  croix:
+    uuid: c9666dd5-4676-48c5-99b8-48c6cf151f35
+  eglises:
+    uuid: 733990ff-34ce-4525-b4a5-fca5b8dc0349
+  fers voir épées:
+    uuid: a5a292b5-2901-46ae-9722-2eee71e48481
+  lances voir épées:
+    uuid: b3b230fc-2d68-405d-937c-9343519ac04a
+  épées, fers, lances:
+    uuid: b15f2e7a-e204-4706-821d-909d464b19e0
+  étendards:
+    uuid: 6aaa3841-d82f-4a0d-be59-2b5870e6d71d
+  feux d’artifice:
+    uuid: 3042593e-4f8d-4ed0-ab5e-311c31963c70
+  fontaines:
+    uuid: bb0c7f23-9abf-4860-8fc5-d176d9f31756
+  gondoles:
+    uuid: abbe9e82-ec7d-48b5-90e4-620d268eb837
+  jardins:
+    uuid: 7776714c-dbef-4f67-8f6f-38456b12f3a2
+  jetons:
+    uuid: 32a8c4f4-ba8b-4bac-8624-6d7b8784bb27
+  lettres en chiffres:
+    uuid: 3274d2fe-cdda-489a-b3bb-cda81db79caa
+  loteries:
+    uuid: 6e18e2f7-516b-4de1-ad36-cfc880816a25
+  machines:
+    uuid: d2f299a2-51fa-4aac-a0f4-fcfd7d3a8378
+  mausolées:
+    uuid: e58a5802-b19d-42a5-b847-09f84da8cdf9
+  médaille:
+    uuid: bd5921b0-6fc7-45ef-aa82-63706d9e8f92
+  météores:
+    uuid: 76aa045c-e5fb-4cd7-ac51-95a1c8deeb8c
+  mosaïque:
+    uuid: c0f7d60f-72a3-4789-9999-dd20da6b614a
+  moutons:
+    uuid: 75db1dd8-10b2-4c7a-a984-e436d72ab6bc
+  noces:
+    uuid: 921bbd4d-9955-4d28-859c-1b9cb05ea7d0
+  pagodes:
+    uuid: b587d893-c72e-4fab-8501-a2964655d191
+  palais:
+    uuid: 345b2bd2-4023-42ec-b17a-82ba560e56f8
+  places:
+    uuid: 6426122c-cfbc-4dff-9869-094ddb87cdd3
+  poissons:
+    uuid: 4a8bbe5c-15ed-4141-a055-fee5fe6bf03a
+  ponts:
+    uuid: 29f18d6e-d258-4960-bb94-ddab4b9b2eb4
+  portraits:
+    uuid: c9f8ddb6-2c8e-4367-a7ed-450d34ee0637
+  rats:
+    uuid: 9134264a-3444-4c5c-a0e8-7d585842ead3
+  tables généalogiques:
+    uuid: 7fc1711f-666b-476a-b585-2e8222aecfeb
+  tentures:
+    uuid: 3476c396-0eb7-47d5-a22d-6250ced65e46
+  vêtements:
+    uuid: ef97c9cc-8841-43e4-b294-6c049729867a
+  villes:
+    uuid: 81aee11b-de9f-4eef-a794-0c028f02bc19
+  voûtes:
+    uuid: 85e29826-32d3-46c5-a795-ec27bffaaf23
+  techniques:
+    uuid: 6823ecd3-49ab-461c-a333-c0fead330407
+  dessins d’architecte et d’ingénieur:
+    uuid: 03ea3128-efba-4261-a5a1-3040a949f194
+  élévations:
+    uuid: 024dc06f-e49f-4d06-a101-6e58a272e733
+  dessins scientifiques:
+    uuid: ff3ad27d-7cad-44d7-a696-9427eeb15e49
+  plans et vues:
+    uuid: 6ebe6880-807f-42c2-b043-3d0d4f3f0cf1
+  relevés décoratifs:
+    uuid: 091e74ef-4292-42a4-8c5f-2b4517cf5d75
