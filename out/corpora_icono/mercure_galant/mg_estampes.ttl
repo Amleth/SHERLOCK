@@ -1,8 +1,8 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
-@prefix ns1: <http://data-iremus.huma-num.fr/id/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix she: <http://data-iremus.huma-num.fr/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <001e775d-73b1-459a-a8c9-c2648e5fe3d8> a crm:E13_Attribute_Assignement ;
@@ -4796,12 +4796,6 @@
     crm:P141_assigned "[Les Jetons de l'année]" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
-
-<35645902-c974-4d34-80fb-c75c515ec4d3> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <39e2359d-1ccf-49a7-969f-a247f58ce79a> ;
-    crm:P141_assigned <https://books.openedition.org/pur/103724?lang=fr> ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type rdfs:seeAlso .
 
 <3564d1de-3968-4b35-8042-04b039c8a229> crm:P148_has_component <bd68cfb0-943d-4a52-9c5b-76900ebd698e> .
 
@@ -24665,7 +24659,7 @@ Dolivar, Jean (1641-1692)""" .
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <759d110d-fd68-47bb-92fd-341bb63dbcae> a crmdig:D1_Digital_Object ;
-    rdfs:label "Gravures du Mercure Galant - estampes" ;
+    rdfs:label "Gravures du Mercure Galant" ;
     crm:P104_is_subject_to <d4a2e14b-c113-43c5-afce-2e8b5cc05715> ;
     crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
     crm:P106_is_composed_of <a47bb6ae-d548-45db-901d-000d959357c3> ;
@@ -31641,6 +31635,10 @@ Dolivar, Jean (1641-1692)""" .
     crm:P1_is_identified_by <bedb423b-9a5d-4a55-a2bf-6f1d976f6b40>,
         <c9ab0200-bba0-4def-a6e7-cf7f3071b3db> .
 
+<39e2359d-1ccf-49a7-969f-a247f58ce79a> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <6d1e3db1-c420-4185-b95e-19f23051b3af>,
+        <c225aac4-714e-4875-8741-9079dab219d9> .
+
 <3d65990c-09ad-4330-a57f-71fe91ccad5e> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <252cdff5-2cd8-4b64-b725-08c716df5820>,
         <ad310644-7325-44b7-89f1-4334879594cd> .
@@ -31672,10 +31670,6 @@ Dolivar, Jean (1641-1692)""" .
 <fa7c988a-3c56-4b3f-b852-32cabac31aef> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <0d7eab8d-0e58-46bd-a146-2f3ad3e8c87d>,
         <5991ab50-0b2a-465b-8c64-e0a6306c12ac> .
-
-<39e2359d-1ccf-49a7-969f-a247f58ce79a> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <6d1e3db1-c420-4185-b95e-19f23051b3af>,
-        <c225aac4-714e-4875-8741-9079dab219d9> .
 
 <5aa6206f-ba47-480a-b165-c4fc78ac2fde> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <66e1d475-8bb2-4fce-81ff-044a412b2988>,
