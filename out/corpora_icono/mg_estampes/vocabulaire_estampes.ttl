@@ -1,0 +1,75 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix she: <http://data-iremus.huma-num.fr/id/> .
+
+<024dc06f-e49f-4d06-a101-6e58a272e733> a crm:E55_Type ;
+    crm:P127_has_broader_term <6823ecd3-49ab-461c-a333-c0fead330407> ;
+    crm:P1_is_identified_by "Élévations" .
+
+<03ea3128-efba-4261-a5a1-3040a949f194> a crm:E55_Type ;
+    crm:P127_has_broader_term <6823ecd3-49ab-461c-a333-c0fead330407> ;
+    crm:P1_is_identified_by "Dessins d’architecte et d’ingénieur" .
+
+<091e74ef-4292-42a4-8c5f-2b4517cf5d75> a crm:E55_Type ;
+    crm:P127_has_broader_term <6823ecd3-49ab-461c-a333-c0fead330407> ;
+    crm:P1_is_identified_by "Relevés décoratifs" .
+
+<102e2137-0f72-48e4-8656-eb147702f35f> a crm:E55_Type ;
+    crm:P127_has_broader_term <33ce8a22-3b84-45ab-844a-7fe5144ced0f> ;
+    crm:P1_is_identified_by "Allégorie et rhétorique" .
+
+<1606fea2-38c6-477c-87ad-faa306907c85> a crm:E55_Type ;
+    crm:P127_has_broader_term <33ce8a22-3b84-45ab-844a-7fe5144ced0f> ;
+    crm:P1_is_identified_by "Vie sociale" .
+
+<4db9b424-a2df-469d-b0a3-30121c845a69> a crm:E55_Type ;
+    crm:P127_has_broader_term <33ce8a22-3b84-45ab-844a-7fe5144ced0f> ;
+    crm:P1_is_identified_by "Vie militaire" .
+
+<6bdfbfa8-5d5e-4b25-9303-3109bad22787> a crm:E55_Type ;
+    crm:P127_has_broader_term <33ce8a22-3b84-45ab-844a-7fe5144ced0f> ;
+    crm:P1_is_identified_by "Topographie" .
+
+<6dcd5187-53b9-477d-bf80-35b853972233> a crm:E55_Type ;
+    crm:P127_has_broader_term <33ce8a22-3b84-45ab-844a-7fe5144ced0f> ;
+    crm:P1_is_identified_by "Portraits et généalogie" .
+
+<6ebe6880-807f-42c2-b043-3d0d4f3f0cf1> a crm:E55_Type ;
+    crm:P127_has_broader_term <6823ecd3-49ab-461c-a333-c0fead330407> ;
+    crm:P1_is_identified_by "Plans et vues" .
+
+<957985bf-e95a-4e29-b5ad-3520e2eea34e> a lrmoo:F34_Controlled_Vocabulary ;
+    ns1:creator <ea287800-4345-4649-af12-7253aa185f3f> ;
+    crm:P1_is_identified_by "Vocabulaire d'indexation des gravures du Mercure Galant" .
+
+<9935af4b-368f-4b16-8e75-ecff987814e9> a crm:E55_Type ;
+    crm:P1_is_identified_by "Objets" .
+
+<abe22929-6a75-4b2b-9819-e45d09303f60> a crm:E55_Type ;
+    crm:P127_has_broader_term <33ce8a22-3b84-45ab-844a-7fe5144ced0f> ;
+    crm:P1_is_identified_by "Arts, sciences et techniques" .
+
+<bd61dadc-af12-4615-9b0b-0837e6f45de8> a crm:E55_Type ;
+    crm:P127_has_broader_term <33ce8a22-3b84-45ab-844a-7fe5144ced0f> ;
+    crm:P1_is_identified_by "Décor" .
+
+<c65de4d2-4c52-466f-b876-f0b6d4e5d418> a crm:E55_Type ;
+    crm:P127_has_broader_term <33ce8a22-3b84-45ab-844a-7fe5144ced0f> ;
+    crm:P1_is_identified_by "Mythologie" .
+
+<d1d8c114-ab7d-4bf0-89b5-01f8c213eef4> a crm:E55_Type ;
+    crm:P127_has_broader_term <33ce8a22-3b84-45ab-844a-7fe5144ced0f> ;
+    crm:P1_is_identified_by "Emblématique" .
+
+<ff3ad27d-7cad-44d7-a696-9427eeb15e49> a crm:E55_Type ;
+    crm:P127_has_broader_term <6823ecd3-49ab-461c-a333-c0fead330407> ;
+    crm:P1_is_identified_by "Dessins scientifiques" .
+
+<6823ecd3-49ab-461c-a333-c0fead330407> a crm:E55_Type ;
+    crm:P1_is_identified_by "Techniques" .
+
+<33ce8a22-3b84-45ab-844a-7fe5144ced0f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Thématiques" .
+

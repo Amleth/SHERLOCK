@@ -36,6 +36,8 @@ collection:
           uuid: 01e51967-5199-4162-8e5f-767b89f10088
           E13: 1ee88374-b594-47d0-afef-e9ba6eb27fb4
           objet représenté: fc28bf18-bfb2-4cc2-ab98-27a96ff097b7
+      lien externe:
+        E13: 9740ca8d-43d5-4b7c-b084-0a8be8f237bf
   1678-01_038:
     gravure (E36):
       uuid: eed1455c-c98a-4e2f-8e7f-13eb7260415c
@@ -61,6 +63,17 @@ collection:
       Identifiant iiif: 7940beaf-7dde-479e-bea6-bd7a8cc7e6d0
       titre sur l'image: 7dd8320f-00f2-466e-9f1f-80ee355c786a
       titre péritexte: 51cdf308-3643-4798-bab7-73177d1b55e8
+      titre forgé: 82b12734-59d3-457a-8bd4-54b26b275d34
+      carte:
+        zone de l'image (E36):
+          uuid: 0fa3ab02-cdd7-46f6-9d85-2fb8f5625a32
+          E13: 1e25eabc-90c7-4ab5-a307-a66f3e742d09
+          objet représenté: 7dd90081-f20a-4f35-b547-dd26ae4399c4
+      ? ''
+      : zone de l'image (E36):
+          uuid: 301ee93d-66bf-474f-9c53-e7f9fa77e8f8
+          E13: faa1979c-53a1-4f0f-8069-116cbf56c6ad
+          objet représenté: b6285dbb-aa38-4c2e-8ea4-feef93a8120a
   1678-01_242:
     gravure (E36):
       uuid: 83084e80-ae3d-4a37-b99a-5818663c0206
@@ -79,6 +92,26 @@ collection:
       titre sur l'image: 5b91291d-9597-4d4c-bceb-bc8aaec4eeeb
       titre forgé: 64a730db-8f8c-4799-a92a-63e3c3d15019
       titre péritexte: e41d93a2-9af9-47bb-9df2-e124871b0e05
+      énigme en figure:
+        zone de l'image (E36):
+          uuid: bb0b0a52-f7a5-420f-ae93-cfea9df57f29
+          E13: 3928a84b-c4ba-402a-a6d2-b0cf3d9944b0
+          objet représenté: 7d40367c-94e2-4f4f-8c93-8403d51aff8e
+      Vénus:
+        zone de l'image (E36):
+          uuid: 3f843a55-f895-4993-9c22-961a1dc5cf11
+          E13: 1954a3e2-91e7-4403-91fc-e83f589f14ef
+          objet représenté: deaa93c0-7421-40dd-9534-00584b9b0884
+      Amour:
+        zone de l'image (E36):
+          uuid: f28b48ef-6fba-44c1-9b7f-26b1c4f01aeb
+          E13: 5150a648-9c02-49fb-9c3a-390e6c18436a
+          objet représenté: 0f755af3-2a6f-41e4-ae6e-9cd68fdcc85d
+      Vulcain:
+        zone de l'image (E36):
+          uuid: 030512ce-168a-4cd8-9958-aa3830aef565
+          E13: 95bd03fd-a54b-4853-98f2-bcbf312b84ba
+          objet représenté: e480af58-0198-4b2a-aaf0-b57dd2c8c760
   1678-02_081:
     gravure (E36):
       uuid: 86dde489-1a03-4bef-a191-d9107be64408
@@ -148,6 +181,11 @@ collection:
           uuid: daa38692-29d4-49ea-91dd-3ecfeb42f0f8
           E13: 5be33e19-6dec-46c8-aa18-b23cb72e7965
           objet représenté: 7b67800f-1de2-47d3-a1b3-d89a0662ad17
+      vue:
+        zone de l'image (E36):
+          uuid: 98d35df8-5e0a-4afd-8c8e-9de4cad98975
+          E13: c23aeb2a-79a1-41a9-955f-50b6455b8d0a
+          objet représenté: 8b278119-a78f-4c2c-b7f8-dbbb5b6e1b49
   1678-03_163:
     gravure (E36):
       uuid: 4bde969e-b153-4cdd-98eb-e101ce19a272
@@ -167,6 +205,11 @@ collection:
           uuid: c3514afa-945f-4cda-97f2-4368b7397021
           E13: 02f7e516-1418-485b-9f9a-8f08d3973d85
           objet représenté: 067798fd-ba19-40db-a4b1-5ece06ca4341
+      vue:
+        zone de l'image (E36):
+          uuid: 56ab002a-6988-46af-aeac-a04049d5dfb1
+          E13: ec8f3c77-953c-4888-8b54-6ba8e8109914
+          objet représenté: 52e8d623-76ae-403e-9e2b-bbddf7d46f19
   1678-03_329:
     gravure (E36):
       uuid: 04697f1d-3929-498c-b633-dcab522e880d
@@ -562,6 +605,7 @@ collection:
           uuid: 18b4521e-2108-49e6-944c-6d2c3e6ebca7
           E13: 0ad30c08-5222-413a-a514-4de275fb5fd2
           objet représenté: 5c831512-ac44-4e19-aaa6-1358af6f4d92
+      titre forgé: 8d140444-16e9-4006-8a0d-cfeb6a373bb6
   1678-06e_081:
     gravure (E36):
       uuid: ac12816d-621e-4dc3-85dc-39d0b545385e
@@ -597,6 +641,11 @@ collection:
           uuid: 658a6542-7b09-4549-a1a0-46e102d8a8a9
           E13: 5d835c89-1909-4438-b5e2-50681756c0a6
           objet représenté: b1c12b2f-80c6-4b4a-a362-aefe4588b688
+      lettres en chiffres:
+        zone de l'image (E36):
+          uuid: b05c0ab6-55c0-4b48-9e37-4fe7c640ee1c
+          E13: 510939b5-1bb4-4397-9ecc-da34b54e24ec
+          objet représenté: 3e17f4a5-17c8-4fcc-baa6-720e85806cc1
   1678-07_082:
     gravure (E36):
       uuid: c0371820-b960-40ee-82e7-163f55604ae8
@@ -970,6 +1019,11 @@ collection:
       titre sur l'image: 3c8b3e16-2552-4681-ae15-d3b381f36e15
       titre forgé: 81c7eac3-9bd9-426d-8eb9-79c38fd0e7d4
       titre péritexte: fda11622-799a-4d31-81c9-cf3eb66b3843
+      table généalogique:
+        zone de l'image (E36):
+          uuid: 9bfb9834-168e-44cc-abdc-ba9379afcf7d
+          E13: 66aa2814-a821-4aac-9da8-df60e2f10e97
+          objet représenté: 91eb9fbc-a97f-4bf1-adb6-536ba01a217e
   1678-11_360:
     gravure (E36):
       uuid: 97c6da10-3aa9-49a9-8685-97d80cb483f6
@@ -1097,6 +1151,11 @@ collection:
           uuid: 67b27e1f-39cb-4b27-a0cb-9d3f42ebb986
           E13: a81c5027-5284-4c36-a486-87f936a84dc6
           objet représenté: 6b0f66f6-d31b-4948-add0-1cde52dafd31
+      LOUIS XIV [1638-1715], roi de France:
+        zone de l'image (E36):
+          uuid: 5c895dfa-6d62-4f67-807a-126f68cdf4f9
+          E13: b6f42abf-2077-45d7-80ec-c9b8d0e8cb2d
+          objet représenté: 5d2f4758-845d-40d8-a352-64ab93ae9287
   1678-12e_349:
     gravure (E36):
       uuid: 58416f06-e3e1-481c-978c-1304007cff50
@@ -1327,6 +1386,11 @@ collection:
       titre sur l'image: e6770a01-17af-4f9d-a2d4-42cc12d57662
       titre forgé: 71425cf5-755e-4806-acac-3e18db2e555b
       titre péritexte: 221fb6a6-a249-4fd0-ba3c-56babcaeca6c
+      lettres en chiffres:
+        zone de l'image (E36):
+          uuid: 7e6dba40-2be9-41ad-a7a7-3fe3299682f4
+          E13: d2f3327e-eba6-4f13-af2a-c8eb29fc706b
+          objet représenté: 97e3d8f8-408b-4853-970f-9cd5f0e7722a
   1679-03e_391:
     gravure (E36):
       uuid: 46184302-2ce7-49da-98c3-10361654876a
@@ -1377,6 +1441,7 @@ collection:
           uuid: b306d3b3-d8af-4154-b0d3-ce29ba543632
           E13: dad0e609-9c65-49cc-9e4d-520b6a05c33a
           objet représenté: 36d74728-295a-4de9-8db4-ef07aa894e12
+      titre forgé: 9e0f8cbf-aac0-4e40-8bac-5a3534b66ed8
   1679-04_363:
     gravure (E36):
       uuid: 0b2f2f42-5a94-4026-b10e-392a94f7f001
@@ -1723,6 +1788,11 @@ collection:
           uuid: 08396f04-f7af-4463-a618-e217dd4a4130
           E13: 5a4a29fa-d493-4df7-b4a9-76fa52507d55
           objet représenté: cfb8c7ca-87cf-4b94-9bf1-ee78a2b41f6f
+      Reims:
+        zone de l'image (E36):
+          uuid: bb7b9cf8-1731-4c02-82f7-bffd941cd7e5
+          E13: 14632d23-1091-4695-b5d5-8f70b8682220
+          lieu représenté: ec5a3308-03cc-480b-812e-548b789516bf
   1679-10a_222:
     gravure (E36):
       uuid: b57887e8-29f1-457d-b643-986d9a76071c
@@ -1773,6 +1843,11 @@ collection:
           uuid: ab4b6dde-65b6-43e4-9e45-0fcb344c9f8e
           E13: 04008ca0-f744-46e6-83d4-38814722c954
           objet représenté: 7b97656d-6918-4ce9-86dd-7f3b9abf638d
+      portrait:
+        zone de l'image (E36):
+          uuid: 1d802212-d654-4910-8fb9-fa25056542ad
+          E13: d29e75c3-0897-4086-ba5c-5401aea12b57
+          objet représenté: 5a0b83db-aca3-4dc1-8d96-3a19921c2dc9
   1679-10b_176:
     gravure (E36):
       uuid: d7c14d47-7ca9-4c82-8a60-1bf21fdd4a84
@@ -1892,6 +1967,8 @@ collection:
           uuid: 00e80836-61d8-4777-9fd7-baf9756fb2c5
           E13: addc6692-b44f-49bc-8aa4-a4be491e32bc
           objet représenté: 9f81d0d7-d5c6-473f-bb0f-1daab8054bbb
+      lien externe:
+        E13: aaf575e7-e061-44d5-a560-207ab03b6d16
   '1679-12_328 ':
     gravure (E36):
       uuid: b85a2b15-14c7-4afc-adc1-cacb4f6741b9
@@ -1911,6 +1988,11 @@ collection:
           uuid: 9fee0e5b-2730-4ac4-979f-509ac6f86925
           E13: 4b65df57-1855-4638-9649-49e6bdadbfe1
           objet représenté: d289d79b-3ab3-4698-87d5-6ff1f138929e
+      York, Jacques Stuart [1633-1701], duc d' (futur Jacques II, roi d'Angleterre):
+        zone de l'image (E36):
+          uuid: 5a047223-655b-4cde-bce5-c235e6f85931
+          E13: d5bf102a-3730-4705-89bf-ea8d3d9448c3
+          objet représenté: 3fd48931-7d2b-4640-a96f-81bd19cc2d57
   1679-12_352:
     gravure (E36):
       uuid: 735b71c2-16de-4d24-a5b5-3bb1dc5c794a
@@ -2142,6 +2224,7 @@ collection:
           uuid: e6472b35-e5ba-4512-8cb1-5ad39965bd0a
           E13: 837b4b58-40c7-412c-8745-38ea9294fa25
           objet représenté: db9f0459-cc1a-4d3c-bbfa-26c60918ea11
+      titre forgé: 08091e92-81fa-450a-a8c7-22ad9f58c566
   '1680-03a_320 ':
     gravure (E36):
       uuid: 1a27c52e-71ae-4e30-8f25-766e8d7abb80
@@ -2158,6 +2241,7 @@ collection:
           uuid: 03b22019-2305-44f0-b833-e1d4480ffe34
           E13: f2ae6f32-a00c-49b9-81f9-08fc09dbac8e
           objet représenté: a8289c8e-f984-414c-b811-a74e95cc3c90
+      titre forgé: 99b611f6-f779-472e-847e-3b2b39169082
   1680-03a_336:
     gravure (E36):
       uuid: 89dc233d-14b5-4547-8bd9-c34b494a3309
@@ -2252,6 +2336,11 @@ collection:
           uuid: bdb7207b-5b41-4d33-8078-c9e7df3243fb
           E13: eb81664d-47de-4a40-ab6b-dc2e6d7c517d
           objet représenté: 95bd855a-aa28-431e-9905-dbd626584927
+      lettres en chiffres:
+        zone de l'image (E36):
+          uuid: d5e50d2c-4d95-42ee-b540-02d6ea7207f2
+          E13: 927b22a1-7bb8-4321-9414-23118d485efd
+          objet représenté: 07176273-c0fc-4cf2-a945-7611cfb8bd86
   1680-03e_365:
     gravure (E36):
       uuid: 54b9bcb4-5280-4aab-bd53-a410ae323f2e
@@ -2259,6 +2348,12 @@ collection:
       Identifiant iiif: 172efc74-1501-4563-a1d6-b2f706994e10
       titre sur l'image: 9de30b2e-1be8-45e4-9e87-34a2f61591cf
       titre péritexte: b138fe36-d410-49c9-8002-ac752e2245e4
+      titre forgé: baf6750c-c2e7-4b86-bc9c-7bd96118ce08
+      allégorie amoureuse:
+        zone de l'image (E36):
+          uuid: e880e707-a1cd-407a-a1a2-68f6c7d96ff3
+          E13: 86a26e08-93ce-492e-8e5c-aa69e9059bbf
+          objet représenté: 40cf52a3-b615-4c64-99ea-c717eb2502b2
   1680-04_182:
     gravure (E36):
       uuid: 9a898b4d-a4bb-4dfa-bd7b-2041f8f9eb57
@@ -3112,6 +3207,7 @@ collection:
           uuid: 977428dc-da40-4259-80da-e37d47e642ad
           E13: 023e4ac3-a903-43f0-93f5-a93a73cc7de6
           objet représenté: 96405137-5058-417a-8888-924410c56deb
+      titre forgé: b8d08bde-12d9-4e13-89b9-38e7375c4551
   '1681-03e_296 ':
     gravure (E36):
       uuid: 5dfb6c70-d630-434d-88bb-9dbdff9a73f0
@@ -3133,6 +3229,7 @@ collection:
           uuid: 88ff7dd8-1ef2-49eb-89c6-04645259d826
           E13: ced0929e-a586-45cb-950c-b8988b1280e2
           objet représenté: a19c19b5-6990-4407-83c4-4b985f724d01
+      titre forgé: c8593dff-ce8e-4f10-a9b7-f5d6d5fb3328
   '1681-04_096 ':
     gravure (E36):
       uuid: 40320cad-0022-4241-b1c5-5b623cedf3e4
@@ -3150,6 +3247,11 @@ collection:
           uuid: cdfb3fb0-fe67-4c48-908f-5fcf008347f0
           E13: 4db1e368-4402-4fd2-ad00-bf5206e9e800
           objet représenté: db2d5676-2825-489b-a18d-a5e57021e1b0
+      campagnes militaires:
+        zone de l'image (E36):
+          uuid: 6215cd3d-3343-4fb0-b466-4d47411ca281
+          E13: 28413cdb-1fcf-4920-94b9-a18d37ff5729
+          objet représenté: 9f760f25-9c3d-41e9-8652-631b1b5223ce
   '1681-04_304 ':
     gravure (E36):
       uuid: 043d0183-12f2-46e2-8c45-ca262fa34147
@@ -3305,6 +3407,8 @@ collection:
           uuid: 996011b7-c8c0-4bc2-8c93-186978275826
           E13: 4528c914-e930-45f5-a764-b6b4869963fa
           objet représenté: 4630dcf1-3a4b-445d-b4e6-47a69d4e8dac
+      titre sur l'image: 05302177-8d1f-40b4-a130-a1071dc4f80a
+      titre forgé: 0402b03b-defa-4631-bc98-8d5e041217d6
   '1681-07a_173 ':
     gravure (E36):
       uuid: 01bb9645-0272-4286-9f81-6ae5c01f5bd4
@@ -3498,6 +3602,8 @@ collection:
           uuid: 7d9aefea-e331-4e03-ab76-6610b7b88be6
           E13: ebfd2a62-2e3c-45c3-8d2e-1cac55674326
           objet représenté: 7d99fd52-f696-4365-9f48-426474716036
+      gallica:
+        E13: 420cefba-80ae-41d5-96d8-938250fb9b68
   1681-09e_356:
     gravure (E36):
       uuid: 480c572c-5334-4d57-9b36-4b95d9ed1ef8
@@ -3521,6 +3627,8 @@ collection:
           uuid: 5be1d45a-5914-4c07-b404-bd1b003fdf85
           E13: f652de81-17ff-4d56-a7e0-803a84f1d066
           objet représenté: a3d6dbc7-f858-4307-819a-3acec0c1c796
+      gallica:
+        E13: 23ef28ad-2f38-4111-8dfd-37a4db960bd2
   1681-10_094:
     gravure (E36):
       uuid: b4571f53-e9dc-4c82-b82d-de85e824b16d
@@ -3538,6 +3646,8 @@ collection:
           uuid: 31128f4e-3527-4b77-a32e-ae6409b90fdc
           E13: 01d1c343-de05-4dde-8db0-a4867df0f6a1
           objet représenté: 9a0ce268-0942-401e-974f-2eba6c6398cd
+      gallica:
+        E13: f0f7f269-15c5-4326-b97f-0103c10b992e
   1681-10_207:
     gravure (E36):
       uuid: 8b0d4244-4fa3-4455-b7a4-85d16295c76d
@@ -3551,6 +3661,8 @@ collection:
           uuid: a21ac9c0-b57c-45b0-bd51-e2dcafc81b90
           E13: 3d2a55af-549e-4f7e-9b09-080a73d5aa1d
           objet représenté: 2aeb8ce0-e1dc-4503-957a-e03b33fe643e
+      gallica:
+        E13: b350f323-2d0c-497e-ac2c-5913f36a3572
   1681-11_245:
     gravure (E36):
       uuid: dfdee6a0-8dcc-4a3a-af25-104b8ce0c1e6
@@ -3710,6 +3822,8 @@ collection:
           uuid: 14a314b0-e3ef-42b6-bdb5-55773c3e340d
           E13: de9c5a7d-8a26-4786-a2a6-a9a00fa131fc
           objet représenté: 77141b63-b489-4413-9b00-487daf201d86
+      gallica:
+        E13: 3008ebe1-80ca-4518-a685-82e8c754d635
   1682-01_336:
     gravure (E36):
       uuid: 38f18da1-9118-412d-b0a8-6d92b5a95cc1
@@ -3733,6 +3847,8 @@ collection:
           uuid: 29622eaa-0370-4e99-8a31-6230ccc0a062
           E13: 82a432e8-8c49-4535-b2df-9534ce959990
           objet représenté: fd05869c-d117-4ff4-9b31-c60fee59044d
+      gallica:
+        E13: 0b124cbf-33fd-43a1-ae26-840fc708c1b8
   1682-02_092:
     gravure (E36):
       uuid: 6322a89d-1cb9-4462-95cb-84bba544b46a
@@ -3896,6 +4012,8 @@ collection:
           uuid: f56f7dd1-540d-4b28-8756-a4a5d8726c18
           E13: df1ba698-d4b7-4346-a6d8-cf4ba31f2d05
           objet représenté: 5eea23a2-13fe-4b31-9ec2-f5e2b1c4f178
+      lien externe:
+        E13: 6709c75b-4d21-4b9f-9f1b-eddc0af5eca9
   1682-05_016:
     gravure (E36):
       uuid: 2f0cacc5-fb9d-4f85-b8c1-fdea18c61d96
@@ -3930,6 +4048,7 @@ collection:
           uuid: bb07ae32-2b57-44f5-80b9-a83620d16e26
           E13: 9e5fe335-2317-4711-b415-cf3b61a1f75c
           objet représenté: 86f4ba3f-4785-4fa3-b9b2-e8c0fcb0a5dc
+      titre forgé: eac3d140-4ff4-43c5-89c4-7ff344f08ed8
   1682-06_180:
     gravure (E36):
       uuid: f82f4129-7523-4826-8e6c-22801627fb24
@@ -4060,6 +4179,9 @@ collection:
           uuid: c339503a-94e5-447b-9feb-c3abe684b180
           auteur: e2c2b7a7-86b1-4ddd-a2db-4e2701892b2d
           E13: 0f289350-f8b1-4ea7-8a77-4742f3c11615
+        E29: cbc50f64-ad2b-4273-bff9-2a1d508b825a
+        E55:
+          E13: e9892e58-b6a5-42f7-8671-92264b2deaf0
       gallica:
         E13: 1f273b08-3795-4173-bb4e-29c010e4db72
       titre forgé: 783a8f99-7c6e-4ce5-ad1b-b5fb3c6927fc
@@ -4149,6 +4271,16 @@ collection:
       titre sur l'image: 582466bf-aa5c-471e-9d7a-52124bf3c1d7
       titre forgé: b6d0316a-b4f7-4ed3-831f-f40dac467b8b
       titre péritexte: 403e54d1-9c0d-45d8-b290-baa485348cdd
+      lentilles:
+        zone de l'image (E36):
+          uuid: 4026a9a5-c3bb-4af0-9f01-24c0e10b1e4b
+          E13: 342147c3-28a2-4a84-87f0-4add9f43b434
+          objet représenté: aaeeb22e-5f64-4699-a9b1-b9c7760a227b
+      camera obscura:
+        zone de l'image (E36):
+          uuid: 5c70b019-60cc-40e2-942b-e5c77bf00319
+          E13: e16aa615-ab0a-4266-8457-620c60caf853
+          objet représenté: 3dce853f-c529-471f-bdaf-76dd7dd63ff5
   1682-09e_226:
     gravure (E36):
       uuid: d75ca0e5-9e09-45b3-bad9-e3304324650c
@@ -4209,6 +4341,11 @@ collection:
           uuid: f288c8a3-c6a5-4811-91f4-de50de740459
           E13: 36c6dd60-5988-4058-8e0c-30408a85db63
           objet représenté: ce5dd966-9b94-4078-928d-e00859251943
+      ville:
+        zone de l'image (E36):
+          uuid: b672e3b7-df07-4af0-9e41-4580108305b6
+          E13: d55683e7-0a79-400b-9ebd-bb33e61153b2
+          objet représenté: 0f00e2b7-09e5-4f42-966a-2ab41363e912
   1682-10b_339:
     gravure (E36):
       uuid: 929f2bd3-b716-420f-9bd9-ef6c3496f27c
@@ -4228,6 +4365,8 @@ collection:
           uuid: b80531aa-e2ec-48f4-b401-6618801e99c2
           E13: 09b33b95-3a26-4a65-8fca-afc3d67c3efe
           objet représenté: 98b6f437-ebab-4c6e-a4a6-9e7c7f1f16c8
+      lien externe:
+        E13: 34f0a5cb-8c4c-4278-af1e-6aa2f8cd7f4e
   1682-11_140:
     gravure (E36):
       uuid: 57384fe8-0cd6-4675-9f7f-6df34a303c4a
@@ -4241,6 +4380,7 @@ collection:
           uuid: 7755b4c9-d67f-450b-95ae-25a274e3691f
           E13: 066bae3a-5e7c-4e4e-b49d-43f51582db3b
           objet représenté: b082e98a-2630-437b-b9fe-c4b1e328ef16
+      titre forgé: 14a31627-e732-46c9-b168-fa8035838889
   1682-11_284:
     gravure (E36):
       uuid: 97bfee6d-7b8c-421e-a4bf-49319d39998b
@@ -4340,6 +4480,7 @@ collection:
           uuid: 5d41169d-a9d2-45f0-87c7-e48af47e12c8
           E13: f7e76af1-ec6b-4ef3-baae-a0bfd3d25dd2
           objet représenté: aefdd224-b8f7-4db3-99a2-0ea036449bad
+      titre forgé: 641d7183-daee-43d7-9408-cf0f7d4850d4
   1683-01_258:
     gravure (E36):
       uuid: 8c9c20e0-e7b2-487e-9324-9c9b90a63527
@@ -4381,6 +4522,11 @@ collection:
           uuid: 3c235599-0af0-4951-8754-7291d86552ea
           E13: 6cf7b6de-c62d-40ac-a3b8-b57d28bd2378
           objet représenté: 16d4706c-cfa2-4f31-bd77-4d8ac8c05fe6
+      portrait:
+        zone de l'image (E36):
+          uuid: 0d68dd6f-79b9-4b1f-8531-6ea1e6187446
+          E13: 51131f3c-8acd-4082-a228-35ab789795f5
+          objet représenté: 854ed76e-7ee4-4ae5-8013-29f372f50c88
   1683-02_227:
     gravure (E36):
       uuid: d86bd966-b2b2-468c-88a7-f60525f00bd1
@@ -4491,6 +4637,16 @@ collection:
           uuid: 55af1936-010c-4de3-a968-22fcc5d74b3e
           E13: 1fdcd641-3a6d-430c-bbfc-b4fa7c54c102
           objet représenté: 60326f32-5bae-4874-9336-e2c2628edd0a
+      fête:
+        zone de l'image (E36):
+          uuid: 57416972-40c4-41f5-a26d-46e867bf044c
+          E13: 0f0a58ad-b11a-4c82-929d-2d7ac8ef3a8f
+          objet représenté: 39841031-f3f2-4499-9137-998cc5914532
+      mascarade:
+        zone de l'image (E36):
+          uuid: 1914ee20-092c-4612-88ac-6d2fd6b4e6e9
+          E13: 3fc4cde9-e058-45a7-b68f-7931904e32d1
+          objet représenté: 282aead1-28b6-4518-b8f3-b3c9e1dadb66
   1683-05_044:
     gravure (E36):
       uuid: ec3b3035-3688-43f8-8f4d-00ec386e573d
@@ -4551,6 +4707,11 @@ collection:
           uuid: dd1cc526-603b-486f-ba0f-3672a7c60a31
           E13: 13e9ba9e-0953-4dd1-b2d0-a63d2b78be1c
           lieu représenté: 0e430ce2-7e08-4d0c-8c32-3cf9e2059293
+      camp militaire:
+        zone de l'image (E36):
+          uuid: cce364f7-4b1a-4350-a441-51f0b30be446
+          E13: 4ca020ea-f063-4cb2-9095-3bed084c53c3
+          objet représenté: 7903098c-34f0-4e3d-accc-c654b1f8edc9
   1683-06e_227:
     gravure (E36):
       uuid: 05ac10d1-8945-442c-8c40-475fc76faf8a
@@ -4589,6 +4750,8 @@ collection:
           uuid: f82387c6-e800-42f6-9c89-1cfaf4f9b49b
           E13: 104aed5a-4423-45d8-a682-8a147e910403
           objet représenté: 61ec2af5-a311-4214-8cee-ab5976e868e5
+      gallica:
+        E13: 3597cec5-15e1-43b1-a2fb-768e1f54540a
   1683-07_306:
     gravure (E36):
       uuid: 36da358d-4252-4b51-892b-70d81550dbe8
@@ -4607,6 +4770,8 @@ collection:
           uuid: 371cac65-7d41-4b6f-bc31-eaff5e79c83d
           E13: f4c6414f-7d86-4763-8fd2-933f66d897f1
           objet représenté: 6d76020e-64d4-4f40-aeec-683b65c43a0a
+      gallica:
+        E13: a37b2229-9f14-46bf-99e6-d60edba4dd83
   1683-08_272:
     gravure (E36):
       uuid: dd286387-1480-463c-96df-2bd87a09f538
@@ -4625,6 +4790,8 @@ collection:
           uuid: 1928cc14-f487-4592-8b23-5ec11b38dd68
           E13: 36f3bfe1-10b8-4b36-b968-2cdd80de7f39
           objet représenté: a9cf7d87-db79-457c-aeb9-10cd11c058de
+      gallica:
+        E13: fae67999-b094-4a0c-bf23-15cc2b543c46
   1683-08_354:
     gravure (E36):
       uuid: 951ad1a1-ab72-4fb3-9d8c-733c249d76ca
@@ -4647,6 +4814,11 @@ collection:
           objet représenté: 79f65239-5a79-496f-8b76-539a4345ab0f
       lien externe:
         E13: 63fffb73-fa6f-47c2-a830-b51c39f0dc71
+      portrait:
+        zone de l'image (E36):
+          uuid: 1a255f9e-ea05-4d06-b711-e109460ee6a8
+          E13: adf31065-d748-4950-acaa-81ba13dbcad1
+          objet représenté: 3855b89e-01f7-4322-8133-556bfe499dc1
   1683-09_198:
     gravure (E36):
       uuid: a9d120aa-685c-4cf4-b37f-e08e1d6eb47b
@@ -4679,6 +4851,8 @@ collection:
           uuid: 7ba2d724-1a2a-4cea-b38d-134342cbb855
           E13: 6670d220-0134-4a07-9788-679d737649aa
           objet représenté: 2ad42291-9e9c-4059-80a5-824760d32b61
+      gallica:
+        E13: cc5da617-c893-42bb-9b68-671834b7d404
   1683-09_386:
     gravure (E36):
       uuid: c6fd0fc4-907a-4fa7-b12e-8fb628caf414
@@ -4758,6 +4932,14 @@ collection:
           uuid: 1a8d7dbb-187a-4d7f-8c54-48ec85ea8579
           E13: 1f9df87d-a8e5-4f57-baba-7142ebad1c9a
           objet représenté: 3cd0b32d-4611-436a-bdbc-77bd9ab776eb
+      titre forgé: 64faf434-d83b-441b-a31a-a0886dc795ce
+      portrait:
+        zone de l'image (E36):
+          uuid: 6cc480e2-424e-47dc-a513-d1a1842147fa
+          E13: 79b9e42f-530d-4518-9ebc-9c42ad13ea7b
+          objet représenté: ccab36e2-1409-4612-be20-f5112f06b075
+      lien externe:
+        E13: 66fdb605-394d-4fd5-a526-2104306a5bd4
   1683-10b_324:
     gravure (E36):
       uuid: 1d8719e6-5d4b-4826-963f-c0dc9d5d7b9a
@@ -4862,6 +5044,21 @@ collection:
       titre sur l'image: 3684bef5-6dca-410c-b013-2e64809edd05
       titre forgé: caac5c60-3687-4bec-97a7-297faff504d1
       titre péritexte: 1d3dcbe7-e06c-4e7c-83f2-15bdf82c1e4c
+      lentilles:
+        zone de l'image (E36):
+          uuid: 45cf6126-c118-4180-a465-5f61590f3c2a
+          E13: 33583f7c-aa1a-4523-9321-3d963ce033a5
+          objet représenté: 5e11f596-d808-4e42-9bb7-d275968df8d9
+      outils d'optique:
+        zone de l'image (E36):
+          uuid: 9ce3fa1b-7a43-48ab-8990-19be273beddc
+          E13: d3b63825-b2ec-4b47-9d38-5a6da6f37a37
+          objet représenté: 96445709-d24c-49ae-b396-af8202874e20
+      dessin:
+        zone de l'image (E36):
+          uuid: 70a58cd6-1730-4da6-b822-58f7e46ff792
+          E13: 98c01f53-4a19-4ace-bb64-65851290bee7
+          objet représenté: 2e8ad2dc-c32a-4853-a147-b860b9b43b22
   1684-01_067:
     gravure (E36):
       uuid: 52973b8b-0b13-47d3-a21c-c07abcd762dc
@@ -4938,6 +5135,8 @@ collection:
           uuid: 8c5f66fa-ce8f-4abb-8606-9ab71004fd54
           E13: 84ad96e9-3b66-41f7-a64d-47889c2980a8
           objet représenté: 8c375e92-c215-410e-8fb4-cc5f3e7ef24a
+      gallica:
+        E13: 283d8e1d-26c3-42bc-8886-1dc974b920fc
   1684-03_068:
     gravure (E36):
       uuid: 25a409da-1b62-40e6-9102-7f39dc1e7048
@@ -4967,6 +5166,11 @@ collection:
       titre sur l'image: a4370671-5ad7-4671-99a4-f47c0440d25d
       titre forgé: 3c9d898b-a10a-48e3-a9d9-3584b567d90b
       titre péritexte: f7824b4a-a552-4b1e-8d74-a52c5fe4b2bd
+      outils d'optique:
+        zone de l'image (E36):
+          uuid: f4b693b4-ace1-46ad-8626-de4a493be5c3
+          E13: b55c7163-b818-4837-b0b6-4d72c3cfa15b
+          objet représenté: 571f1a1a-7faa-43a0-a7bb-c9c6990fb9d9
   1684-04_045:
     gravure (E36):
       uuid: 572dc8ad-261b-4f22-b491-1c01a2ae6992
@@ -4974,6 +5178,12 @@ collection:
       Identifiant iiif: 1f9b439b-fcb2-41cc-9fd6-99b4e860da5e
       titre sur l'image: 0cb406fd-7a3e-490a-b8c1-23ea6f5a3758
       titre péritexte: 3d1198db-4a4c-4ee2-8565-ded16653e6f2
+      titre forgé: f46feeaa-7c70-4d9f-9253-2f0c02de560c
+      allégorie amoureuse:
+        zone de l'image (E36):
+          uuid: 92fbcec8-9614-408f-919c-5ec04d4d4978
+          E13: 68b6dc5d-265a-4d79-8f00-7375b9321223
+          objet représenté: 1290e534-aec0-4aa3-9892-dd3d5edd4c2f
   1684-05_241:
     gravure (E36):
       uuid: c4e27b96-75b8-4d80-ad9e-6601185b7df5
@@ -5028,6 +5238,7 @@ collection:
           uuid: f9af2218-4da9-409c-bcac-be0088eb22a1
           E13: f6fc0a04-57a7-463b-9ec1-4778edb20141
           objet représenté: ef74772d-d8aa-4a5f-acbf-ac3355c2f587
+      titre forgé: 11559ada-e1fd-4f2c-b125-e534e27792f7
   1684-06b_385:
     gravure (E36):
       uuid: f2ceaebb-8873-4b12-b91f-5bd59981caea
@@ -5072,6 +5283,11 @@ collection:
       titre sur l'image: 97afd566-7424-4974-a8a2-33bf085122e0
       titre forgé: a206a251-55dc-4e7a-b4a5-f24624d89e2b
       titre péritexte: 02669c88-939f-454a-ab18-701204df634f
+      lentilles:
+        zone de l'image (E36):
+          uuid: 776c1506-c8ef-4056-a960-d6fc73b9b60a
+          E13: 8ae87bdd-b283-40a3-89d2-593fa3e040c9
+          objet représenté: 1432a984-3720-4c7c-9bc7-99a58ecc4e23
   1684-07_138:
     gravure (E36):
       uuid: 9f81c534-992b-4c5f-966d-0ed98c320fdc
@@ -5094,6 +5310,7 @@ collection:
           uuid: 5e65ea14-149e-4688-abc7-c2efcb4f8e8d
           E13: dc38e569-5d14-4be6-a537-b455a41c925e
           objet représenté: eeff89eb-49b9-45b8-b3d4-777a87a01789
+      titre forgé: cbd2d42f-ae84-4cdc-8f6c-ac99be5b0e7b
   1684-07_312:
     gravure (E36):
       uuid: 8694c367-3f32-4b76-a2c6-bfc7e074dbaa
@@ -5106,6 +5323,12 @@ collection:
           uuid: 9d303a4e-6527-4108-ad5f-0fc90cceb744
           E13: 28ca6740-e195-48fc-a858-31b2a73f1b58
           lieu représenté: 5ea3e212-b614-44cb-b858-6125eedd3c46
+      titre forgé: bd2c23b0-79ee-4a99-93f2-aa21b1716684
+      camp militaire:
+        zone de l'image (E36):
+          uuid: 13acfb12-988a-4196-bb6f-3552ff239f64
+          E13: ee899b59-798a-4eec-b250-8beecf03894f
+          objet représenté: 6d53062d-22d4-4950-a3ee-8695d2aaf90e
   1684-09e_212:
     gravure (E36):
       uuid: a80e9004-f2a7-45cf-b4ee-9bda3cd5fb7d
@@ -5114,6 +5337,13 @@ collection:
       titre sur l'image: 1103b509-f2d2-4d1d-a296-1a2e6b1d60a5
       titre forgé: f4016373-d1f9-4774-a585-a12076fc0aaf
       titre péritexte: 091c66fb-9493-4e00-8fe8-f7ea159ff13d
+      gallica:
+        E13: ab32e840-c1b1-4ec4-bc9f-c22a1a05853c
+      lunette d'optique:
+        zone de l'image (E36):
+          uuid: 9d3686f3-af75-44f8-89a8-3481be5b8087
+          E13: b5eb218b-6c52-44fd-86f9-411688297b9d
+          objet représenté: 193aac1e-f715-4b96-8412-be610d698920
   1684-08_114:
     gravure (E36):
       uuid: 3f59f52e-f5e7-4ac7-bf80-0c9deee59ef4
@@ -5211,6 +5441,8 @@ collection:
           uuid: e67f1363-49a2-4044-825c-5b2406368825
           E13: a48a5b90-4f40-482f-892c-ab3778f0c2b9
           objet représenté: 790d7e65-7c76-4636-85bb-ceb0b8f65def
+      gallica:
+        E13: 7fa456a1-5cd2-470d-b078-d08afe52f136
   1684-12_221:
     gravure (E36):
       uuid: ae482608-1eb9-4fa5-9ef9-575aef8555f5
@@ -5228,6 +5460,8 @@ collection:
           uuid: 54714a68-8ce1-4072-a6de-50957eeda1aa
           E13: 4fe6e0f5-403c-4049-b83d-dfb3a1af4366
           objet représenté: a4cc7d32-207a-419a-a02a-c2c8d1509736
+      gallica:
+        E13: e01be1c9-f2dc-4281-9a5d-63e28de0f494
   1684-12e_214:
     gravure (E36):
       uuid: 4caf8a18-3bb7-45d5-9681-3b39d4125b44
@@ -5236,6 +5470,11 @@ collection:
       titre sur l'image: 21bdc804-c733-4fba-a698-24110c853ec8
       titre forgé: c6edde3f-1ebb-4288-b40c-039372fc4db9
       titre péritexte: d1d91ef1-ee2f-4d7a-9a27-77b87550dcd9
+      lunette d'optique:
+        zone de l'image (E36):
+          uuid: 09359282-0319-4cb9-8066-c0b5a6373d9a
+          E13: 300b3d3f-f114-43f4-a959-af741adaae7b
+          objet représenté: eff663d0-716d-48e2-9c5d-71ed3e4e1840
   1685-01_048:
     gravure (E36):
       uuid: 5cf7a634-b62f-403b-b2e2-d2b45eac2f72
@@ -5253,6 +5492,7 @@ collection:
           uuid: 8ec61b98-f1d1-47e0-be3b-56a95e7c09d5
           E13: 16eeb71d-da58-40c5-9436-3a1a1ba6622a
           objet représenté: bcc86125-a64b-413e-a0ea-15ae66feb5b6
+      titre forgé: 1bbdf917-5d62-4c18-8d9e-9bb54b4ba7c8
   1685-02_285:
     gravure (E36):
       uuid: 6292ccc7-81c4-4255-ae25-8bd4f1e97c4c
@@ -5277,6 +5517,8 @@ collection:
           uuid: 2403f645-0bbb-4a6e-b12c-fd78dffae67d
           E13: a6476cc2-aadc-4ae3-9448-3bc6be14d079
           objet représenté: 92837cea-7670-470a-9545-f9c258f23a6f
+      gallica:
+        E13: 4cd71549-dd97-40b6-8789-ee1af51dc6c2
   1685-03_128:
     gravure (E36):
       uuid: c1dbbc5e-5cfc-45cd-9446-3d4aa678101c
@@ -5375,6 +5617,13 @@ collection:
       titre sur l'image: 61e2d59c-fee9-4f49-9c52-687705b1f316
       titre forgé: 58b0e19e-151c-4915-83d9-06d6a97e5e89
       titre péritexte: e777de08-acab-46a8-b171-082b76226d82
+      gallica:
+        E13: 941141bf-c56f-4554-bbae-a63c867aae31
+      binocles:
+        zone de l'image (E36):
+          uuid: b811a34b-4dd1-455f-be06-7cb7831e81aa
+          E13: 76d3d92f-3332-4ff0-aa8b-119029ef47f4
+          objet représenté: 41863818-fbd4-4839-bf9a-fbbfe8acebfb
   1685-07_313:
     gravure (E36):
       uuid: d8db8b1f-1380-4046-8085-61faeaf5aacd
@@ -5407,6 +5656,8 @@ collection:
           uuid: d2a4798f-458c-47ab-b498-cb91de0ae12e
           E13: cf83115a-81a3-4a1c-b94c-d28b6548a6ae
           objet représenté: 52e23fe6-19fc-4391-848a-a119c73ae404
+      gallica:
+        E13: 5ab63c16-57cd-41e0-ad9d-3d1d75a187b7
   1685-09_269:
     gravure (E36):
       uuid: 92e7a601-b62c-41ea-ac34-28953f6db73d
@@ -5459,6 +5710,13 @@ collection:
       titre sur l'image: fd4e6a6d-27c2-4cef-9316-667853dc32db
       titre forgé: c96dab15-9cb7-4ac7-bce4-6d5372861806
       titre péritexte: 90a67256-0c5c-4c72-b75d-ca061552fa7d
+      gallica:
+        E13: 7b8d62a4-a68b-4c02-add4-a79654b0603a
+      binocles:
+        zone de l'image (E36):
+          uuid: d5cfe235-958b-426f-8ebe-d46fe4473c9b
+          E13: 8a03f19b-b675-416a-81c1-efaac1835ddd
+          objet représenté: c38e1137-1f59-4af1-a051-f75f3a9e66a2
   1685-10_252:
     gravure (E36):
       uuid: cd923d75-4ab5-4840-9a4c-d68ae810d40d
@@ -5503,6 +5761,11 @@ collection:
           uuid: e64ac2b6-7aaa-41bf-b38b-22a2bc3eca6d
           E13: 6c3c35fa-9ee8-4ea5-9068-a7340dc74d98
           objet représenté: cbaca115-19f0-464e-b949-06f78a6ff56f
+      zodiaque:
+        zone de l'image (E36):
+          uuid: c9ca65a5-e468-40b5-9e67-5c53cc488911
+          E13: f9edcd83-171b-47d0-a22f-a1b9b4bc5bed
+          objet représenté: 5a6d8ffb-ec3c-4c86-96f1-4e27d8321ae9
   1685-12_278:
     gravure (E36):
       uuid: 3b893f88-96da-403a-8ca3-e8df34a2dcbe
@@ -5541,6 +5804,11 @@ collection:
       Identifiant iiif: 77bcc99c-bbc1-4d30-9200-8be2dc8c6a44
       titre forgé: 47c0e126-120d-4114-84ae-f094232875f4
       titre péritexte: 0daab5be-f8cf-47ae-89db-97cf6721b9ec
+      géométrie:
+        zone de l'image (E36):
+          uuid: 217d9aa6-7971-48c5-adf0-4617a10ae3d6
+          E13: 476966e5-203e-4056-9601-514620666b1b
+          objet représenté: 27a23ef9-6efa-4203-b6e2-e9340532278f
   1686-02a_188:
     gravure (E36):
       uuid: 76358f3b-3c0c-41ac-9371-c1dd339c4973
@@ -5560,6 +5828,8 @@ collection:
           uuid: 99c3fcd4-955c-4dc8-aed2-a8b88e1b310c
           E13: a9759212-2c8d-49c6-b02f-8da105a83968
           objet représenté: d9e449d7-3aed-470c-a5f4-6d52ff9e3449
+      gallica:
+        E13: 95e73aeb-95f6-4891-9e41-02c722ce2451
   1686-02b_160:
     gravure (E36):
       uuid: 20890058-434c-426d-8a22-a3f206e5540b
@@ -5584,6 +5854,7 @@ collection:
           uuid: b2def8f5-dd42-4ff7-b916-1d1b5dd8b62d
           E13: d4b70454-0660-46c8-a9bc-5fef849d9694
           objet représenté: f6c2e252-ae10-45ff-b8b6-2ac885c889e1
+      titre forgé: 63668535-e514-414e-9372-84850da5032d
   1686-03_201:
     gravure (E36):
       uuid: 369c11c3-88dc-4228-a5f3-fca68f1ec5a7
@@ -5701,6 +5972,8 @@ collection:
           uuid: ace016c1-df83-42df-aef5-e25803801b83
           E13: 309f1cb0-b6d2-43f6-b48f-6cbaff5e8a0f
           objet représenté: 0be25aad-53d4-447f-ac6d-e6abb7021255
+      gallica:
+        E13: 9a92cd31-2ccb-4286-a3cf-67046db83ac5
   1686-09a_251:
     gravure (E36):
       uuid: fa7d860f-0812-4d25-8833-0d3b51494e7c
@@ -5713,6 +5986,8 @@ collection:
           uuid: f6a1c239-e54a-4ed0-81ba-f04ff31ee47f
           E13: 026a3baf-c1a6-43fb-8044-44be7fed201c
           objet représenté: c4dc8819-e0e7-4396-87f0-68ddefa455f4
+      gallica:
+        E13: b2888841-bce4-4e56-984f-187dcc8ae6b6
   1686-09b_167:
     gravure (E36):
       uuid: 6842ad78-b843-4927-b58b-3079078b69ca
@@ -5797,6 +6072,8 @@ collection:
           uuid: b248e8b2-9bc6-4f12-a443-d0f74466fb3e
           E13: ba60457e-ae2c-440c-a6fd-521a65225c56
           objet représenté: eb2202eb-0f85-4c94-bf9d-1a5eec210eda
+      lien externe:
+        E13: 714c9a16-5ab2-4192-a14a-7691081c9024
   1686-12a_211:
     gravure (E36):
       uuid: d8b11c85-4295-4a98-b7d7-9f0c7af50052
@@ -5871,6 +6148,13 @@ collection:
           uuid: b8c2217c-2a03-4ca5-8068-7731e76474c8
           E13: 4aa7f1c6-b78e-4f24-8ea2-5447c16d198c
           objet représenté: b3f48d98-5c51-4b82-b6bc-f9e25d6179e9
+      E12 Production:
+        uuid: ed0c2016-e5de-4676-af3c-d3f3000b582c
+        sculpsit:
+          uuid: 03437581-c851-4ce8-876a-9fa36d2f71f2
+          auteur: 1dae40b9-43c9-4363-bbac-03844280d417
+          E13: 23ee6560-e53f-4a5e-b11f-398643990485
+      titre forgé: 908d9bd7-3aef-45f4-8001-28985dc711cb
   1687-02_103:
     gravure (E36):
       uuid: cbfd975b-616b-4b1a-bb82-590694a589cd
@@ -5901,6 +6185,8 @@ collection:
           uuid: 43099969-d91f-40ef-aad0-2e81fa4e008f
           E13: 4ca10229-f891-461e-8c6e-66064f556092
           objet représenté: 8cf30fcc-438f-4e00-9592-47071d62f7a6
+      gallica:
+        E13: 52c76657-75b6-4d93-8d6c-2feff3f49225
   1687-04_263:
     gravure (E36):
       uuid: 9935114c-ee51-4fb4-a0cf-6d31cd8ec130
@@ -5964,6 +6250,10 @@ collection:
           uuid: 5f96d4dc-6ba2-41be-abb5-2129d0682e8b
           auteur: 9b97d884-e6c4-447e-b407-36584bc53d27
           E13: 32c24366-f1bd-4577-92ab-eaec11316b8f
+        invenit:
+          uuid: 47904524-6b6b-4a55-a87c-277289c43de3
+          auteur: b5feb4f2-d902-4c7b-b286-efd975d3297f
+          E13: 5ea5b0b9-c471-4db2-ba2e-77e5a5ed51dd
       gallica:
         E13: cafad3b5-4c1e-4a7e-b05d-ce4b381b2e9e
       titre forgé: 3585a1ae-2b2c-47ed-87f4-3d1005ce82c6
@@ -5973,6 +6263,9 @@ collection:
           uuid: 4b273960-e97b-4436-a90d-c4ab87c01989
           E13: db760753-7526-41eb-859b-8fd10518febc
           objet représenté: 989a25e3-11f5-4bd3-ae1d-e16368fe995b
+      bibliographie:
+        uuid: 50146825-b86b-496c-9538-4621845a2eec
+        E13: d2b20b4a-1a34-476a-9e77-e7f363660e07
   1687-07_159:
     gravure (E36):
       uuid: 691aa0d6-ad9d-40a5-803d-1b236b5d43e0
@@ -5992,6 +6285,7 @@ collection:
           uuid: aadc030b-9d4e-4a27-8bdb-8c37692de979
           E13: 12e0bf2a-7d22-4f54-929c-318dd2e70a5b
           objet représenté: 0684e927-34bf-4ddd-9a09-93ff914e50e8
+      titre forgé: d335e859-85f9-41c2-8351-9831dc11dc83
   1687-08a_159:
     gravure (E36):
       uuid: 1be4083e-9b46-4dc8-9aff-4addd12d68b4
@@ -6051,6 +6345,8 @@ collection:
           uuid: 3c686f04-c661-4031-8266-45e661c8c0ad
           E13: 63720d89-bd16-4381-ab6b-fbe99a16dcac
           objet représenté: 3910d5a8-09aa-4b78-862a-a40b5291d2b7
+      gallica:
+        E13: cd25207a-54aa-4152-95cd-8a41f4f82211
   1687-10_216:
     gravure (E36):
       uuid: 21cb611d-2e71-4b98-ab60-292118fb6902
@@ -6074,6 +6370,8 @@ collection:
           uuid: 42c23228-fb20-497a-9244-fb74bab057fa
           E13: 5adbe90e-e75d-410a-9c49-6821c494803d
           objet représenté: fbb84b86-7e27-46fa-ba43-4e2b75b61aa9
+      gallica:
+        E13: 7e0c8a42-0e52-4b4e-a956-2793c394a81e
   1687-11_144:
     gravure (E36):
       uuid: 7c5bc8dc-9ef9-4749-bfcf-7b3191c6b900
@@ -6121,6 +6419,8 @@ collection:
           uuid: 45239ee8-543b-4a69-9fc1-fc39e3505f2f
           E13: da6e32b7-88ee-4a1f-849f-424a680ff294
           objet représenté: 8ee85c1c-7a57-4556-9b0a-3b3782986494
+      gallica:
+        E13: 23605b41-a855-49b5-97f1-6014c57e8fb5
   1688-01_172:
     gravure (E36):
       uuid: 6b1001c9-14e3-40a3-b812-035b91575704
@@ -6132,6 +6432,21 @@ collection:
           uuid: 35b987d3-0c98-4851-ad07-7a634651db4d
           E13: 9c7128f5-733f-4a87-8b5f-58f70ef5e313
           objet représenté: 8c68e232-c2a3-415b-902f-d4c1b0960768
+        zone d'inscription:
+          uuid: 9e8cc099-9f98-42b2-8eac-52a1d3bdd31f
+          E13: 87c9faae-e064-47bf-9aaa-c435ecd435ee
+          inscription:
+            en légende:
+              uuid: 68708653-3793-4457-b4e6-de44b17d6d47
+              E13: 8d3f80a8-6c1d-4b14-8044-163696bc228d
+              contenu: 3671033f-aca9-401b-a365-b34accfd4a85
+      E12 Production:
+        uuid: b5cc1ed0-edec-4909-b8dd-d4fb5dbb00b5
+        sculpsit:
+          uuid: a52d7faf-f5be-4a78-a6ea-865582bd4d25
+          auteur: 5cff5750-eb36-425a-9733-7192d6006862
+          E13: b9a2f8fc-e82c-4370-80da-33aa82aeb4c4
+      titre forgé: 625f6d6d-9ad9-48e6-ac6c-42acbd6f0777
   1688-02_146:
     gravure (E36):
       uuid: be51fdde-d3ca-4ba8-93c4-3b73aee136b2
@@ -6151,6 +6466,8 @@ collection:
           uuid: 8f79c38e-1f40-4a38-b8f5-a19dc1f0fb08
           E13: 4a809716-0ed3-4899-9387-3c9cd2489d3c
           objet représenté: d07f8a7c-4435-4ba2-b0b2-eb018a133786
+      gallica:
+        E13: fbfcc2cb-3a98-464e-ad6c-2efb587de735
   1688-03_229:
     gravure (E36):
       uuid: a059fde7-f70a-4ce3-983f-d6a178c76cf1
@@ -6188,6 +6505,8 @@ collection:
           uuid: 56c9a2f0-ad4e-4759-a175-63c91075515e
           E13: 9bd54e23-9f39-47aa-adb1-322dc071bb0d
           objet représenté: 3a3e6b11-f067-4763-9e54-940b613c77c0
+      gallica:
+        E13: 67d4a55a-3824-4e12-8543-9a2046434216
   1688-05a_165:
     gravure (E36):
       uuid: de88c085-3427-4dd0-a27f-fc954e266c3c
@@ -6200,6 +6519,8 @@ collection:
           uuid: b143a438-687e-40ac-be46-f4980a08aca8
           E13: 7648fb49-6c15-459e-bcec-1a1180fa80e1
           objet représenté: 7ab4a41e-3842-45b4-b709-fd56b1216c27
+      gallica:
+        E13: 0515c2f9-b540-4f8b-b086-af08d4ff4b0e
   1688-05b_368:
     gravure (E36):
       uuid: fece116b-981a-474f-898e-569c173760e5
@@ -6211,6 +6532,12 @@ collection:
           uuid: 3e185000-f054-43ab-94d2-7a0e3f339f23
           E13: d0da027b-8787-4f27-9ece-78babdaae4e9
           objet représenté: 9c32f067-3f73-4edd-a8cc-6d89b0454743
+      titre forgé: d9152fcd-0608-4f1d-8f3b-e801fe82dd46
+      prophétie:
+        zone de l'image (E36):
+          uuid: 556380cf-982f-43c3-a879-a3325ea2a4ad
+          E13: 09665b9b-edc6-4cb2-927c-0629cda62035
+          objet représenté: 4dca1141-659e-4b4a-9bf1-64ca246cfaf7
   1688-06a_189:
     gravure (E36):
       uuid: ef46f643-8b14-46a6-8116-63e81315fa73
@@ -6229,6 +6556,8 @@ collection:
           uuid: 1de8edbc-186a-4dc5-9b1d-2984ab8b0cad
           E13: 3d93b02c-83ef-4afa-a76c-54392ec65a76
           objet représenté: 736d497b-5062-475a-bd55-b1d31cc3cb2f
+      gallica:
+        E13: e8bed4f0-8359-4f71-b133-a0261896b5ff
   1688-07_316:
     gravure (E36):
       uuid: c55d5e5c-68ac-4a3c-bd15-0cb96ae41cc7
@@ -6296,6 +6625,8 @@ collection:
           uuid: 43a3e6fd-cc96-400c-81d5-ab5caf38712d
           E13: 96115474-87de-4ff9-81c5-8534161ec83b
           objet représenté: 876b528f-359a-4268-8c72-16ed7a999572
+      gallica:
+        E13: 1c6781fd-950a-4425-87df-c9db0a8b58b3
   1688-10a_221:
     gravure (E36):
       uuid: f4415305-e0c5-4ad6-b9a6-3d84cdc00337
@@ -6480,6 +6811,8 @@ collection:
           uuid: 84f3d0ec-d85e-4707-b47e-122c8083d006
           E13: 44f38519-ce2b-49b0-8ed5-7e36bd9348d5
           objet représenté: 634a7680-8823-4d22-a694-b960a1693518
+      gallica:
+        E13: 23ff0b01-e289-43a4-8a8f-3dba13bb61e5
   1689-06_305:
     gravure (E36):
       uuid: 1ea875a1-2dcf-401a-9232-e34f6f033f22
@@ -6491,6 +6824,10 @@ collection:
           uuid: 1b7effd3-a3d5-4726-8346-0f88667ca178
           auteur: faa5e9b3-39bf-4c0a-b412-fac6f2ae8dee
           E13: b64eb839-c148-485d-bd64-612418a48b0a
+        invenit:
+          uuid: 07cdd266-5298-4d2c-8b89-50abc855ed48
+          auteur: 3788c0ed-4a7a-49a0-9767-b9f4239147f2
+          E13: dd6c8a61-b08a-4dc3-bed1-77efd11ec446
       titre forgé: 2eaa9ec2-f7a9-4ab2-826c-6279cb459887
       titre péritexte: 3ba64cda-1cd1-4704-be0e-d33d83c437b1
       médaille:
@@ -6503,6 +6840,13 @@ collection:
           uuid: c1960db3-d17e-417c-85ef-a0b563393341
           E13: 24a73b9c-8c1c-4cdf-8ad6-5c8165cf7a0b
           objet représenté: 9669345a-b523-402b-b386-483c349bff3c
+      gallica:
+        E13: 3f88f7b6-8afb-478c-8937-39ffd070fc71
+      notes:
+        E13: 6b89bc73-5d34-4344-8bee-57c7440f6b7a
+      bibliographie:
+        uuid: dbcce041-86d4-478f-9ab1-0c2635178651
+        E13: 1595699e-7f39-4184-aeaa-b78c06ac574f
   1689-07_195:
     gravure (E36):
       uuid: 529cdf1d-bf0d-4b4f-875d-e028085bfebe
@@ -6730,6 +7074,8 @@ collection:
           uuid: 265dde39-041d-49d2-a591-f454a40f44e1
           E13: efbbe9a4-dbd4-4a30-830c-a7ef2e02073e
           objet représenté: e03c6076-1435-478c-b354-7e99c34d2a3a
+      titre sur l'image: e7987c44-6d7c-4fc8-837b-6ab7ef814787
+      titre forgé: bb6376fc-2ba9-454c-bcd1-9922e5375e16
   1690-05_057:
     gravure (E36):
       uuid: e7db67c4-2bed-48d1-8b95-95e298fc91fd
@@ -6770,6 +7116,9 @@ collection:
           uuid: df35a651-28e0-435b-89e6-fb2aeac6c835
           E13: 047bce9a-0cc9-46fd-a2d4-cd5720c21117
           objet représenté: f3b5b0f8-b326-4f17-9e8e-af8c6c7498b1
+      gallica:
+        E13: 298d2418-dbf6-4eea-ba4d-1b85f08fd8e5
+      titre sur l'image: c7f18497-4b76-47bd-92b2-6f9fc0d9b143
   1690-08_238:
     gravure (E36):
       uuid: 90e36114-0d00-4f9e-8d8f-5baecd173af7
@@ -6852,6 +7201,12 @@ collection:
           uuid: 3fd23d96-0879-48a6-8e03-25d61fbe6892
           E13: 88b2d0e0-707a-4d83-bd54-41163d306f64
           objet représenté: a7752d6d-d97a-43b3-8ec9-65fddfd4a12c
+      E12 Production:
+        uuid: 7ab6637e-82cd-48db-8a14-e4ad0d8af8a1
+        sculpsit:
+          uuid: 31b2e7fe-3bad-4b0c-9cad-95e7842ead33
+          auteur: 9631b072-073f-4462-8d06-de448d2c28c3
+          E13: f58a0475-a37a-4b52-87d7-b5dc8181e510
   1690-12_271:
     gravure (E36):
       uuid: b1f9190a-a0ee-454a-b796-3964372a715f
@@ -7019,6 +7374,10 @@ collection:
           uuid: 48d2ef83-19c6-4713-acd0-7cf5d8ce91c7
           auteur: 7513988e-a17f-4c1b-9959-11e401a00847
           E13: 720d1cb5-0fee-4ea7-b383-1e1ff21764c6
+        invenit:
+          uuid: d28a8c2d-1a68-4706-8643-5136e2b615b2
+          auteur: 42682d54-e6e8-4e5a-af0e-4d95508507db
+          E13: 6be083c4-ab8f-4173-9fc7-da0c37fa2678
       gallica:
         E13: e36541c4-1ce3-4ff3-8aa6-117c888296e1
       titre forgé: 47299444-b510-4704-a33f-4901dd4706b4
@@ -7043,6 +7402,14 @@ collection:
           uuid: 6386b8f8-4f1b-4cea-a3cb-0a3d3ae84f1f
           E13: 22c47699-0d0e-4da4-bd90-8ebe644650cb
           objet représenté: 9819a8e9-17d5-4cdf-a5ae-6937e0be6eac
+      Renommée:
+        zone de l'image (E36):
+          uuid: 9cdcb87a-d959-4d7c-8faa-322c05c2bbf9
+          E13: 563e8be7-edcd-411b-89ce-8ec0c8389d79
+          objet représenté: ad215697-44a2-4858-b335-e4d29e67824b
+      bibliographie:
+        uuid: ad94e2f3-df53-4d87-bc7b-cf548a4ed365
+        E13: 37d01b3d-f2dd-42ff-aeb4-f81d6cad795a
   1691-08_161:
     gravure (E36):
       uuid: 6725b77a-578f-494c-ade2-0dceab5bba71
@@ -7095,6 +7462,16 @@ collection:
           uuid: da39fe2f-6d1a-4b67-811d-7e497e05e400
           E13: 90d8670a-df83-41c6-a0d0-53c63b28a9cd
           objet représenté: fdfaf263-716b-47b4-ad82-d12d6e999503
+      'Saint-Gothard ':
+        zone de l'image (E36):
+          uuid: d35f06fb-faaa-4bbf-a1bb-b00d2493b4f9
+          E13: cf95a554-ef7a-4466-88e7-741f5a7f18c4
+          lieu représenté: 1e74a51e-af1b-413c-b24b-952b1b88d4d0
+      victoire:
+        zone de l'image (E36):
+          uuid: 5d93b7c4-e112-4f3d-a218-7aafa8b5b2b3
+          E13: eef5ca80-8c57-41c1-97c7-7c54d09b437c
+          objet représenté: db9ee4f2-a425-4246-a3f0-f3469c1a6256
   1691-10_161:
     gravure (E36):
       uuid: bc28e7ae-2f13-4c22-bc50-cbb6990d0b53
@@ -7181,6 +7558,8 @@ collection:
               uuid: 3db140a7-6bf0-4739-9ef0-f5e2d22a7636
               E13: 150926b4-322c-4260-ac8a-28c2b4972345
               contenu: cf0a818e-596f-4daf-b528-7b506dcf02d8
+      gallica:
+        E13: c8a26779-8304-4973-8250-e1bcea356fbc
   1692-01_288:
     gravure (E36):
       uuid: 53e1dcea-eb52-424c-9139-1b179cc1b96f
@@ -7199,6 +7578,8 @@ collection:
           uuid: 68d12e56-3aba-4526-b1cf-6b4f902ba9a5
           E13: 0a3a78b9-142f-428f-812e-27afd7420c0d
           objet représenté: fef154e7-7263-4c80-84de-5903c4299ebd
+      gallica:
+        E13: a9f863c6-c499-4fd7-8044-32194ffb868e
   1692-02_324:
     gravure (E36):
       uuid: f8c0fbfd-530e-4212-99ab-0bb9afba08d0
@@ -7245,6 +7626,8 @@ collection:
           uuid: 0600a0a3-9c4c-48a0-9b0c-0cb215919300
           E13: fe56a096-de6d-4e8a-aae4-a96b0b8c88ff
           objet représenté: 33cacd5d-c89a-41a8-b470-b60234779173
+      gallica:
+        E13: e42f9bc6-d298-44af-93f1-24b609c3b521
   1692-04_181:
     gravure (E36):
       uuid: f45e9b7b-f521-4ac6-9855-4a1886f18028
@@ -7263,6 +7646,8 @@ collection:
           uuid: 021b6daf-c020-42f7-829d-9d6346a140a3
           E13: d595bee5-093f-4a4b-b6d9-c7c946d1a8cc
           objet représenté: 7f18c946-869e-43d5-8e47-9837dc58dde3
+      gallica:
+        E13: 80f46164-6c0b-4064-bb34-5a9326c838bc
   1692-05_218:
     gravure (E36):
       uuid: c622734a-4120-4ab0-819e-74f32cb04d7f
@@ -7291,6 +7676,8 @@ collection:
           uuid: 71471836-9947-4fd2-a1ab-299692e3c013
           E13: 921882f9-7ef9-4b80-ab14-ad126d1ffc01
           objet représenté: 5f56da89-b3b5-4619-8ae4-d361646e2415
+      gallica:
+        E13: 1d70b45c-1358-4b68-86dd-349c02ee77cf
   1692-06_239:
     gravure (E36):
       uuid: 29f9f6a1-54ef-4390-8228-d06db764e60b
@@ -7309,6 +7696,8 @@ collection:
           uuid: dc107a6a-2d72-4c55-adb4-47e1bbb7cb94
           E13: 9e59663b-eb13-4e7b-b16e-8eb1f2c29e31
           objet représenté: 21e113de-4c97-4ef2-b2a9-399eb5b42488
+      gallica:
+        E13: 1ba9c452-acb1-49c1-ab12-25310478a98c
   1692-07_274:
     gravure (E36):
       uuid: 12076920-7d88-4ee5-aee3-5b02eddf47db
@@ -7327,6 +7716,8 @@ collection:
           uuid: 90a85eee-3309-4246-8ee8-e973a0328e69
           E13: f89a99f6-3040-4428-abec-04a8f85bb8a3
           objet représenté: 9d1b6ad4-49b4-42a0-8704-5d5ac8a5b9c7
+      gallica:
+        E13: 183ae23e-c70f-49ce-ae08-5bc3b09bd932
   1692-08a_181:
     gravure (E36):
       uuid: 19ce4ca0-a311-48c4-aaa6-33f557b945ec
@@ -7345,6 +7736,8 @@ collection:
           uuid: 28eb0d44-656f-467e-aa3e-b0cc6f5b7770
           E13: 367ad294-22d8-483c-bd15-d43123cbed91
           objet représenté: b40f2e92-95a4-4bce-bc04-ef9b1158b8c9
+      gallica:
+        E13: d6fcfe19-10cf-49bc-b073-6e4c9f1a260d
   1692-10_104:
     gravure (E36):
       uuid: fe247ee8-611c-483a-aa2c-606c419d4dd7
@@ -7363,6 +7756,8 @@ collection:
           uuid: 81b95060-9e48-4743-a029-0e4a2a6418f6
           E13: ad653434-e36b-4074-b85f-9d9bfbb0fd6f
           objet représenté: a02d8831-ff5c-4405-85ca-b39952b335a0
+      gallica:
+        E13: 002c9f29-8061-4579-9f43-9fd27f988ff1
   1692-11_175:
     gravure (E36):
       uuid: 53632b57-4865-4866-b376-547d89c84f67
@@ -7389,6 +7784,8 @@ collection:
               uuid: 429ccd70-63d3-48cb-b440-91d25603b261
               E13: 103b8ec0-f2e7-4720-b365-8882dc52f0f0
               contenu: 181943b2-b1e5-4159-b62c-32a4975c3165
+      gallica:
+        E13: a8070c04-8f05-4891-874a-de263be3697a
   1692-12_182:
     gravure (E36):
       uuid: 2dd3486c-6441-416c-970d-aced2e83330d
@@ -7406,6 +7803,8 @@ collection:
           uuid: 754feaeb-bb8e-475f-ab84-b743d0ac4fde
           E13: 601e417a-2a2f-433f-b883-1bb9aa876f62
           objet représenté: ed597a8e-03cc-404b-a95c-3299d519a385
+      gallica:
+        E13: 7dfae7d5-110c-4488-ac6f-da8af8948a14
   1693-01_219:
     gravure (E36):
       uuid: 9dfd80dc-462b-4110-8c16-0331a17f8601
@@ -7423,6 +7822,8 @@ collection:
           uuid: 019199a4-5bf8-4ead-ab84-8595819c4b6a
           E13: 83b76a49-25fe-48b1-b842-6af4d8375112
           objet représenté: a6594d6e-3219-448c-acc1-c158e4ae060c
+      gallica:
+        E13: 9e947df9-df0d-4437-9e61-05bfa489bbd8
   1693-02_201:
     gravure (E36):
       uuid: edb78764-29c8-4062-8942-2ddf1fa7cac8
@@ -7467,6 +7868,8 @@ collection:
           uuid: 06848fa0-f29b-4787-842f-c1781c8f3244
           E13: 1958c3da-f633-4f12-9427-5229134c0488
           objet représenté: d5a8eb2b-75bf-48d8-af7c-a6dab0d6dadb
+      gallica:
+        E13: 9f735cfd-caeb-4a44-b022-e2433f343fcf
   1693-03_191:
     gravure (E36):
       uuid: a0d96502-9489-42c3-a584-837ba1f6f0e0
@@ -7492,6 +7895,8 @@ collection:
           uuid: 81d67218-06c3-4ea9-b254-b8dfad579543
           E13: 2267c3ee-6f48-46b7-a829-e5ef5deea9ff
           objet représenté: 1b5cf5df-429d-4cd4-945c-7d4ab3a83d61
+      gallica:
+        E13: 1ab1782e-dc73-451a-9d7e-d3b2c6e37e5c
   1693-05_248:
     gravure (E36):
       uuid: 51c5398d-3335-4515-916c-556925305672
@@ -7510,6 +7915,8 @@ collection:
           uuid: 6c392d86-e6b3-43de-a454-54a1503eebfe
           E13: 34379947-06f1-4573-b9d4-6e24e693481b
           objet représenté: 11c8f285-c7ae-4574-a968-38d6cffa843b
+      gallica:
+        E13: 17a6ffcb-8e83-485e-84c3-6acbc3ece6c9
   1693-06_064:
     gravure (E36):
       uuid: 565d66a6-e475-44cd-aad8-b447685ad71d
@@ -7527,6 +7934,9 @@ collection:
           uuid: 7ad5642b-7a6a-4ae3-bad4-19d7e173d3aa
           E13: 55bb4f9f-59c1-4877-a539-7eec833a8e00
           objet représenté: d7c9fd0e-28f9-43db-8e73-a52500b396b5
+      gallica:
+        E13: 5dc2b2ee-8b27-483d-8381-1cbbca7aa982
+      titre sur l'image: a29e7ad7-4d9f-4468-a787-ef0ffa058ec4
   1693-07_193:
     gravure (E36):
       uuid: 3d65990c-09ad-4330-a57f-71fe91ccad5e
@@ -7555,6 +7965,14 @@ collection:
           uuid: 0e016f33-31bc-46ae-964f-7a4804ed197e
           E13: 0de6cf8c-9b2e-4f4a-bbdd-223278e06e6d
           objet représenté: dc53fb1f-5cc2-45f5-bbbb-8ecf4d5cd269
+      gallica:
+        E13: 0113c675-0e88-437d-8b68-8595aeba0b27
+      titre sur l'image: 7ad4fe29-48d7-41be-ade0-8ada635a921a
+      forteresse:
+        zone de l'image (E36):
+          uuid: db207d41-1c16-4a32-b73c-949a619ccf4e
+          E13: bbc74b32-08f8-4b16-ad5c-a58a183a85aa
+          objet représenté: 6cfa4b1e-6503-4da6-bffd-4e320c73c6ed
   1693-08a_314:
     gravure (E36):
       uuid: 3bd206fc-81d4-4285-bee8-6c7850b1c68e
@@ -7572,6 +7990,8 @@ collection:
           uuid: ad6a2e25-267e-44eb-81ff-b9286bb27cc4
           E13: 88132f21-a6f3-4e0c-a6ae-2304e254c009
           objet représenté: 98a68594-c4f3-4ec0-b30c-885e3f5f8742
+      gallica:
+        E13: 1ee509a1-f77e-4f59-bf8e-ba7e17e359ed
   1693-09_266:
     gravure (E36):
       uuid: 15f8fe2b-c47c-48bd-9b50-737861d59878
@@ -7608,6 +8028,8 @@ collection:
           uuid: 2706e3da-4c9e-458a-9a8e-5e5794f3f43f
           E13: e363eaef-d366-4665-899b-10417732dd3f
           objet représenté: 4caf3e56-698e-489b-a72d-19eeba56151e
+      gallica:
+        E13: 84c37721-ddfb-484e-8fd4-db8e67140ea6
   1693-10_327:
     gravure (E36):
       uuid: a81d8ca2-fcc3-4bb9-9e21-79a06ac1c111
@@ -7634,6 +8056,8 @@ collection:
               uuid: cafd9305-d645-48b9-b314-771b38771e0a
               E13: 0335387b-2355-424d-9637-6441e9723241
               contenu: cd1425f0-2fac-4241-b696-3aedd7aa7f71
+      gallica:
+        E13: e525f298-1368-4f66-9b8b-318c2509a6bd
   1693-12_008:
     gravure (E36):
       uuid: fa7c988a-3c56-4b3f-b852-32cabac31aef
@@ -7675,6 +8099,8 @@ collection:
           uuid: 6dd2ba79-e256-4be3-b96c-59ca1ccb9d4d
           E13: d385dff2-3c5d-411f-b2f0-8e83fa9954e7
           objet représenté: f9d25277-7de8-49ff-8fa0-e1777c28caee
+      gallica:
+        E13: 9018f3ea-0e0e-4e36-b7ad-f21d27245e22
   1694-01_204:
     gravure (E36):
       uuid: a5f63a9a-8518-4244-822f-1fee40eb878a
@@ -7703,6 +8129,8 @@ collection:
           uuid: bd768d7e-ee0b-464b-874f-741ac59308b0
           E13: f88054a1-c251-4b4c-82c4-5b914be74218
           objet représenté: b9b0aa11-40fb-44e6-9082-dd2a43b43399
+      gallica:
+        E13: a3102c87-cd55-416f-aec8-47684d8d6748
   1694-02_303:
     gravure (E36):
       uuid: cb78778b-e706-4505-8ce6-c4bed96524b4
@@ -7745,6 +8173,8 @@ collection:
           uuid: c2b0016a-fcc5-4345-aadf-56b2c62a21c0
           E13: bd28ac3e-9d77-4615-b6d7-2fc877f03cde
           objet représenté: 5ae20dd0-b74f-4681-ad19-0f0ace35214f
+      gallica:
+        E13: 80e0b456-8935-4cde-9b35-e0cb62a306ff
   1694-04_114:
     gravure (E36):
       uuid: f4659015-9b80-407e-baac-2cd53e628a8f
@@ -7762,6 +8192,8 @@ collection:
           uuid: 286bf37c-ddc6-4ce2-87af-202594f5e097
           E13: bcdd972a-4085-485c-9a0e-9b6a8a5ddfae
           objet représenté: 1fde41be-bd02-40e0-9c20-8e23611675f6
+      gallica:
+        E13: 4f186453-0665-47b3-9fb0-4dde47d2dc7a
   1694-05_265:
     gravure (E36):
       uuid: 033731cc-d530-4486-b8e7-996c209fe8f9
@@ -7806,6 +8238,8 @@ collection:
           uuid: c9a23386-54fa-49c4-b1a7-4713552bfb53
           E13: 7fc57e14-2e23-489d-8afb-febac81d73e5
           objet représenté: 25c4781e-c839-47df-b2e6-cb7d27a6412b
+      gallica:
+        E13: 581bdc58-4693-44cf-8337-b7fa4f80dcab
   1694-07_081:
     gravure (E36):
       uuid: a83d6b26-1250-45d9-b0a1-45dd4ba2e2e5
@@ -7835,6 +8269,8 @@ collection:
           uuid: 476a1921-99fc-4e1b-ab83-fe2e5948b8d5
           E13: 80454910-b7b2-4b49-bb02-85ccb34e63c9
           objet représenté: 7f0ab3e2-e7ed-468f-8b0a-6b1f88b75a1d
+      gallica:
+        E13: 5f26d908-0a4b-4901-ae22-c309c02fc015
   1694-07_259:
     gravure (E36):
       uuid: 5e2fa316-4a11-47a1-9cb9-58f64fdb13ee
@@ -7858,6 +8294,9 @@ collection:
           uuid: e01142f4-a020-4cb4-b7b6-b940f6695f22
           E13: ba850e3b-db77-41d2-96b7-b16b4f49155f
           objet représenté: b383f57c-3fd3-478c-858a-1d302d5a98e0
+      gallica:
+        E13: a9841b63-7264-4f82-85e8-f512ece6c506
+      titre forgé: f6169d16-e3ca-4169-a393-fcc7e679734d
   1694-08_229:
     gravure (E36):
       uuid: cff7ed62-9aa4-420f-920c-095012189e79
@@ -7876,6 +8315,8 @@ collection:
           uuid: b2c42254-3427-452c-8178-9b0af3c809b9
           E13: 8810f4c0-789c-4d8d-8b52-79406e12e57d
           objet représenté: 2464f2ed-49c1-4858-bb21-6a6eabbc5339
+      gallica:
+        E13: 2ea60d00-65d1-4a19-a07a-52c37e01b7c8
   1694-09_126:
     gravure (E36):
       uuid: a9049c5b-4197-4ff1-b991-753f8809e89d
@@ -7904,6 +8345,8 @@ collection:
           uuid: 49e69ccf-a7b5-46e1-a1f0-01ff3f75b970
           E13: 3b423978-33c1-4984-b2e8-0b7787b5ff9c
           objet représenté: c01d13cf-af00-46f1-a8dd-14eb17c8fd9f
+      gallica:
+        E13: 2fb9bf5d-986e-4a0c-8e20-0690d1547fec
   1694-10_161:
     gravure (E36):
       uuid: 149cff59-c5ba-4f17-a9a1-9fcb3804cc4a
@@ -7917,6 +8360,13 @@ collection:
           objet représenté: 9b58da25-2c7a-4fc7-a139-8de050b6c24d
       notes:
         E13: 86d77b65-a9de-4f58-88c4-50886e32cb7d
+      gallica:
+        E13: a36954a2-3503-4ab1-8b2c-b05ab579fad5
+      équipement militaire:
+        zone de l'image (E36):
+          uuid: 10162960-3ff6-4479-92ee-5d56dec79f57
+          E13: 06cf2131-da4d-41ab-a5d1-ebb985cff2ad
+          objet représenté: d1250dd7-24a9-49c0-9baa-92439114f7ba
   1694-10_255:
     gravure (E36):
       uuid: f783cd65-766f-41ac-a113-a532ceb0c6ac
@@ -7929,6 +8379,8 @@ collection:
           uuid: ca7e4a36-a855-41d2-a0f7-8107600c1ce5
           E13: 444c9ed4-8e0d-4374-a505-993e5f90f0d0
           objet représenté: 8827d64c-4f60-4825-9a17-87d4ff008b0b
+      gallica:
+        E13: 262fff13-d55a-4392-9328-79cf48bfe371
   1694-11_251:
     gravure (E36):
       uuid: 0becd8c5-b8b1-4d36-adf9-4099b7de334a
@@ -7947,6 +8399,8 @@ collection:
           uuid: c711e1d8-e359-4048-a677-26e84c2b3ca3
           E13: 06665cb6-ac1c-4ce3-b8d8-383328da86f9
           objet représenté: 18c5b94d-4969-41cd-ba75-14c4d50a0d90
+      gallica:
+        E13: 7d44e68a-068a-447d-a226-8463885c3a00
   1694-12_172:
     gravure (E36):
       uuid: 0bc7f567-5bef-41a6-ad43-d31492164f32
@@ -7965,6 +8419,8 @@ collection:
           uuid: 5bb078f1-983b-4e43-83a6-80a36b3a3613
           E13: a71637db-69ea-49a2-8e9b-3ab7bfa9a23f
           objet représenté: 5dd9ab0b-bb78-42e3-b1f0-b5afb3b35f97
+      gallica:
+        E13: 096fde4f-0acf-47c8-b7c8-1d01e21d73f4
   1695-01_185:
     gravure (E36):
       uuid: bc17bbb7-f83b-4a8f-a111-8675dfdc0e20
@@ -7976,6 +8432,10 @@ collection:
           uuid: 61fedcc8-e7ee-4640-a395-dc32ae649cb3
           auteur: 10de2346-1f1b-4bde-9624-7a7e09a94578
           E13: c4ad80fb-4255-48cb-b6e1-3410322e2128
+        invenit:
+          uuid: 2801e117-837f-4db4-9834-101b76fdd9b6
+          auteur: 3df5c418-f38b-4dc0-9168-f5c7e25edd6c
+          E13: 5cea92e0-7aa3-4e7b-97e7-17c22ab8b50e
       titre forgé: 055ac417-5ac1-41a2-b1d6-038387b3a4ea
       titre péritexte: b92f059a-0692-4bd7-b9b4-8b21a4b8f707
       médaille:
@@ -7983,6 +8443,9 @@ collection:
           uuid: b661e52f-1705-4215-b25f-b57046c1cacf
           E13: 307ce7d8-8c54-414b-a07a-f46ae4ee81d9
           objet représenté: 4ac3d0e6-fb9d-47d5-a41e-dc8252a47bec
+      bibliographie:
+        uuid: d2d6ed87-b832-4524-8429-592c6a2df79b
+        E13: 139c7cab-cb15-4793-9d51-32ccb5160335
   1695-02_108:
     gravure (E36):
       uuid: 837d757a-3eca-429c-a579-f38d0373bba2
@@ -8011,6 +8474,8 @@ collection:
           uuid: d95d51da-1ce0-4c7b-bcda-12c00a15eb03
           E13: 360369c5-bbd7-4173-88e1-2cb269fd3bd3
           objet représenté: b9ef461a-9bdb-488e-93a5-faacce6d395b
+      gallica:
+        E13: fd24b325-05f5-4b13-a6d9-35def0222f02
   1695-03_052:
     gravure (E36):
       uuid: 02a63b26-c413-4434-83b9-d2111cfc0681
@@ -8029,6 +8494,8 @@ collection:
           uuid: 91d1724d-4126-495a-a0e2-52d011e5b5e5
           E13: 7f9c1abd-1a9d-477b-909b-9a99175d3d29
           objet représenté: 670bb823-b05b-4387-ad5d-dd0162dfbf5f
+      gallica:
+        E13: ea903c33-e2be-4876-8e9a-7f730315d35a
   1695-04_158:
     gravure (E36):
       uuid: 2bffad36-46cb-4bd0-a403-0fc786014ef3
@@ -8047,6 +8514,8 @@ collection:
           uuid: 2cb45b75-3bb5-4c47-ac7e-ce33ab7ae3ba
           E13: 39d3701a-af81-4a97-976e-137b32068b61
           objet représenté: 5ad3ed2f-8d23-44ba-90f5-49af9b9f67e5
+      gallica:
+        E13: 6cc28eb3-1516-48c5-adfa-fb5795502041
   1695-05_251:
     gravure (E36):
       uuid: 7d0e2302-d58b-41c3-b5f7-5767ee14aa6a
@@ -8065,6 +8534,8 @@ collection:
           uuid: 3004ec43-9272-4de1-adb4-54f9c2a06d37
           E13: fa3204a6-5aeb-4584-a56e-35fdda16952a
           objet représenté: 3ec24b4d-df19-40ff-8a64-51eca2c1183d
+      gallica:
+        E13: 9100d3b6-2438-4d28-837e-fb344ebeab9e
   1695-06_231:
     gravure (E36):
       uuid: 1e3875db-d0c8-4060-8d53-06cac67d7e09
@@ -8077,6 +8548,8 @@ collection:
           uuid: d0ca03ce-5bf8-495f-b59d-b2474957f355
           E13: 806c3e1a-53a1-4679-b558-576c494062c8
           objet représenté: 93bcf34a-aa01-45cc-bc4e-65c916b5d8a3
+      gallica:
+        E13: 0f5612a7-5bc4-44da-b9e5-683ed3e76e61
   1695-07_167:
     gravure (E36):
       uuid: 2d16768c-00bf-4cd1-ad9f-f5a5bfaf6c36
@@ -8090,6 +8563,8 @@ collection:
           uuid: 3209419a-7762-42bf-ba38-34d2d1e528d1
           E13: 465384a3-ee61-4969-86a6-e5a262730468
           objet représenté: 6cc21e1d-72d9-4833-b81b-e52b81cddbdb
+      gallica:
+        E13: a212632e-2aab-426a-a0c2-b0c47282d8e2
   1695-08_202:
     gravure (E36):
       uuid: 42ad4ed2-4a14-4511-8332-29f4468a42eb
@@ -8113,6 +8588,8 @@ collection:
           uuid: 5d70dd15-47ec-4a9e-9eac-e8459c8b4ddf
           E13: 6e86f6cd-d578-4fa2-aa91-8327d9891287
           objet représenté: 5eef3975-f69a-4f9f-a468-740af837bcfb
+      gallica:
+        E13: 15bef638-b681-4b83-90b9-c5418fc722b6
   1695-09_193:
     gravure (E36):
       uuid: d011271d-298d-45db-ac33-74711bb97cc3
@@ -8308,6 +8785,8 @@ collection:
           uuid: 5216c09c-5692-4948-b947-65e5c48c10fa
           E13: d12b7be4-d585-433d-80bd-2fac1972521a
           objet représenté: dfb0b385-c551-409e-b961-adbee4d9d059
+      gallica:
+        E13: bb53e57d-8799-4e47-9e48-e01c4283a123
   1696-10_158:
     gravure (E36):
       uuid: b6d00eb5-34c5-407a-95ef-357f05abc0fb
@@ -8327,6 +8806,7 @@ collection:
           uuid: 86e897ac-6f6e-4f2b-b428-265106402555
           E13: 109a201d-664b-4912-9e0b-eeedd67ff155
           objet représenté: 429f0761-e790-4b8c-99a1-375b49ab97c3
+      titre péritexte: 70fd7acf-febf-4e17-8a3f-6e7cd49c88be
   1696-11_279:
     gravure (E36):
       uuid: 1ddab27d-ad7b-4ad5-941f-35627d538f19
@@ -8350,6 +8830,10 @@ collection:
           uuid: 7e8824c1-e828-43f4-930c-80c2dd7ec381
           E13: a7657081-fcfa-4471-951e-fa712b4bfd5f
           objet représenté: dcb51583-8912-4e55-bcb0-24ffe85894fb
+      gallica:
+        E13: 8c7b2ec8-389e-46e6-84c2-22be3ac29a49
+      lien externe:
+        E13: 831930f5-8983-43a7-a028-e07c7a95bf48
   1696-12_272:
     gravure (E36):
       uuid: d031302f-bb04-4ac2-9a6f-5073d95264b6
@@ -8382,6 +8866,11 @@ collection:
           uuid: fb183150-70b8-4a16-bc4f-c98dfd28abfb
           E13: d804f202-c974-49ae-b5c6-4a47d77a7a27
           objet représenté: 5100c678-ba7c-4017-8bf1-36ad849d912e
+      combles:
+        zone de l'image (E36):
+          uuid: 7bb8cb0a-4061-4605-962c-a0bc8065077d
+          E13: 601a38f0-d6a5-4319-af12-26ad1f15d6f1
+          objet représenté: 9f35f98f-8937-4168-88c5-80bb00852ded
   1697-01_199:
     gravure (E36):
       uuid: 642ac4ea-cfed-4843-a538-76ec1925c929
@@ -8394,6 +8883,8 @@ collection:
           uuid: a44f3e11-0381-4336-87ad-ea815b09f01a
           E13: 9fcfdce3-4f92-4204-bfef-70d20b81d76d
           objet représenté: ebd0f5ea-bc28-43bc-a967-bf7626a87c8e
+      gallica:
+        E13: f1cb222c-9fe1-4be2-a4d4-1d04d7962af1
   1697-02_230:
     gravure (E36):
       uuid: 6391cf8e-7cae-4cc2-9d57-d9b368520c22
@@ -8453,6 +8944,8 @@ collection:
         E13: 03662d98-79b6-4ceb-a025-c04543744be6
       lien externe:
         E13: 5fc8828d-75fb-4388-9397-b4c94f0775de
+      gallica:
+        E13: e59f7c3e-dc5c-4830-b43e-9c861de65497
   1697-05_163:
     gravure (E36):
       uuid: 568a23fa-e040-4cbe-b345-8e8c53a3ccee
@@ -8471,6 +8964,8 @@ collection:
           uuid: 8d12e9eb-f5f1-45e6-99fe-64cbfc436e6d
           E13: 56d6b4c7-efe2-4016-9dd0-046c5dc430ce
           objet représenté: 4da4c733-7b4d-4da3-b930-4ccb723cf8ec
+      gallica:
+        E13: 91a4380b-7bfa-44a7-bd89-723d3ddf557f
   1697-06_249:
     gravure (E36):
       uuid: 23465336-b9c1-4afb-a08e-d1b4a2c1e8cc
@@ -8489,6 +8984,8 @@ collection:
           uuid: 3cafc4b0-ca64-4aa3-9065-cffa232b808b
           E13: 71b4053d-25fd-429b-a4c6-5a87031ed170
           objet représenté: 132f1854-b10a-4497-873e-aacc474a632f
+      gallica:
+        E13: ffacc642-21ce-4996-bda0-b14361481733
   1697-07_275:
     gravure (E36):
       uuid: ff9410c8-d487-4f70-8ec0-7a2e83ccda0b
@@ -8610,6 +9107,8 @@ collection:
           uuid: 27968a13-cdea-4e1a-b1e5-c9d1ea05307b
           E13: ce81f3c5-9ce3-4fd2-b32e-ec1f3b542d94
           objet représenté: 93860c5a-a205-44f0-9086-bc46d1285f33
+      gallica:
+        E13: 6e52050c-a5c4-4480-8aa6-bce2c80242f0
   1699-01_177:
     gravure (E36):
       uuid: 8b243f45-0146-487a-bf03-00ed0a28c7f2
@@ -8633,6 +9132,8 @@ collection:
           uuid: 591b7abd-962c-40a9-86b3-11d18d6da222
           E13: ca3b5dd2-56a9-4f25-8a1c-981609262e8a
           objet représenté: bb74bc5f-6368-44b2-ac14-5cf17af0ad82
+      gallica:
+        E13: 3624e547-0be7-4f7f-9aea-5ea09ff49ed5
   1699-10_215:
     gravure (E36):
       uuid: 499927e6-c766-410b-b625-a3949d251ff9
@@ -8644,6 +9145,8 @@ collection:
           uuid: 5a32aca0-3363-42b8-ba88-5e28ade5abc2
           E13: 1c3cbde8-3ec6-4e8c-afd1-1411c40bab88
           objet représenté: 3b9b5ef8-2aac-49c4-b30b-887313222579
+      gallica:
+        E13: 07a4b368-fa6c-4293-9620-1aa8eadd62bb
   1700-01_163:
     gravure (E36):
       uuid: 8af1fa2e-6802-44c4-94c9-fdefd121130f
@@ -8663,6 +9166,8 @@ collection:
           uuid: b20741c2-bf85-4642-a3ba-f149c91cc8b6
           E13: 791e3ee8-7458-41f0-b287-adcb0a4c7362
           objet représenté: 2a56217f-bf70-471e-935a-ec3aa4f474ec
+      gallica:
+        E13: 13c54441-e9ff-4900-89f7-1efd6ddfd94d
   1700-02_076:
     gravure (E36):
       uuid: 4975c9c2-5c83-4ef4-8093-c8616efb26c0
@@ -8719,6 +9224,8 @@ collection:
           uuid: 468a242b-66f5-4e61-9166-3df2414a1537
           E13: 1c4777cf-37af-4023-a273-f407f1d1eb7e
           objet représenté: 8fcf4831-6072-4ebe-914d-556ed1dabf96
+      gallica:
+        E13: abbc28b6-e68a-4eba-bc2a-fb94b02d7ce3
   1701-02_127:
     gravure (E36):
       uuid: 7b795f85-0e88-45b3-9e77-53025f67f9bc
@@ -8736,6 +9243,8 @@ collection:
           uuid: b71cec92-8333-4dde-8f9d-26a6764e9f48
           E13: f26e019f-9d4b-4aea-a8ae-d76f0747e859
           objet représenté: 5cb80de6-407c-4662-bda0-d68416351292
+      gallica:
+        E13: 44092b9c-76c5-4c00-825a-b683a4597e8d
   1701-04b_069:
     gravure (E36):
       uuid: 55cc2520-348d-4ced-962b-34b16b97819b
@@ -8781,6 +9290,9 @@ collection:
           uuid: 3e0d98ea-28b4-45fa-b11d-ddaa56265f77
           auteur: 1217a0d7-ffb2-45c5-9c42-51168311281b
           E13: 2bc98b49-0d9e-4c7c-95c8-d07906ca9f38
+        E29: f1508307-2642-49f3-af8a-ae38dd5db5d3
+        E55:
+          E13: 051803b0-5f3f-4fb1-b137-5f80ad036956
       gallica:
         E13: 16ad6f76-f967-4864-a327-6d483a481f33
       titre forgé: 853868b5-2246-4e95-8c5c-5a6fc6b79166
@@ -8813,12 +9325,26 @@ collection:
           uuid: 57d5c8ab-162c-4319-8aff-854c24750526
           E13: 044b952a-4e18-458a-a062-22878fd5a9d3
           objet représenté: 452e2e35-18b0-4521-8187-d2b26b6454a9
+      gallica:
+        E13: 6b5654fd-9a36-443f-8280-98b0dfd642b9
   1702-06b_385:
     gravure (E36):
       uuid: df13af9c-cce1-4c75-b143-a93ba497a37c
       Identifiant MG: 7c509e33-afcc-494e-bcff-b6947a0851e4
       Identifiant iiif: 25f45a1c-b106-4ec5-86cf-547b5420ba6a
       titre péritexte: 72a27b90-0f49-49f0-ae2a-c1adbde9ece6
+      titre sur l'image: 030aa08b-b6d8-42fb-ad3c-49350ac568ae
+      titre forgé: b55b2a73-774e-4476-b427-0c55152ef926
+      ville:
+        zone de l'image (E36):
+          uuid: 760db128-b961-44b7-858f-070832372a1c
+          E13: 0687e185-7643-46b7-97c4-43ecf8178739
+          objet représenté: bc0b0042-f085-4ea4-ab93-4acb51036033
+      Luxembourg:
+        zone de l'image (E36):
+          uuid: e222146b-bc9a-4a3a-b029-78116efbc4b6
+          E13: 47d84af6-eb5a-4503-abad-0140f98b986f
+          objet représenté: d5cbe6e6-0faf-49bd-80d8-bdf9adedc653
   1702-10_086:
     gravure (E36):
       uuid: b8218470-0a4f-458b-a943-e0748d92be30
@@ -8838,6 +9364,12 @@ collection:
           uuid: 4ee20154-c602-48a1-b8da-36f2b169a811
           E13: d20e56ed-d3c5-45bf-82d0-14c2f317d02f
           objet représenté: 2742ec73-c092-47b3-8e9b-9aa50110813c
+      E12 Production:
+        uuid: ef332e6c-caba-4e98-96ef-274fbba2c817
+        invenit:
+          uuid: 254046a5-b919-4ee0-9523-b582bd0ad4c0
+          auteur: 6a1e5e91-207d-4efd-9277-0d8dddfe2b28
+          E13: 27531fe8-4b42-4922-bc6a-0cbc89a54d1d
   1703-01_141:
     gravure (E36):
       uuid: a1fce5d7-0a67-4a9a-9d2c-3737abab45d2
@@ -8856,6 +9388,21 @@ collection:
           uuid: efff7b57-6d38-4568-8a22-a735a68dea55
           E13: 6814d255-c01c-4537-a592-6bc2c04c8e1e
           objet représenté: 764ba588-ddf5-465a-b17a-5e46cb3af3a9
+      gallica:
+        E13: 5c9015cf-ac14-421f-8365-c8755bc4c6b0
+      seeAlso:
+        E13: 9d6be102-4a33-427f-b574-180be61e4e83
+      titre sur l'image: 19501787-4d43-4a52-a56d-48b63fdf7098
+      notation musicale:
+        zone de l'image (E36):
+          uuid: eda707cf-bfff-473e-80a2-98ffacde351f
+          E13: c3d2849d-e759-438f-8a51-50c1a5d23279
+          objet représenté: b7972e89-1168-47f8-a067-469dedaab0ea
+      Durand, M. [fl.1700-1709]:
+        zone de l'image (E36):
+          uuid: 39b52222-a031-40b3-9d7e-2f156396a6e1
+          E13: b2025b3c-0071-4423-8081-f1acb2254f7f
+          objet représenté: e898dc76-dc53-4c36-a175-c80db6c67ad4
   1703-02_074:
     gravure (E36):
       uuid: 03f38f8e-88a5-4e88-b51e-93d55852f479
@@ -8895,6 +9442,8 @@ collection:
           uuid: 1fb95a8c-7e81-4fba-a736-1fc3a2823f9e
           E13: 187cd091-72bb-440d-befd-3c5a78162c01
           objet représenté: 72916bd2-3dbe-46d1-88c4-11f1077ae086
+      gallica:
+        E13: 33bf1f5f-7928-43da-96b5-c85d5ed35904
   1704-06_177:
     gravure (E36):
       uuid: 1bbf61cb-0386-4129-933c-b84c87f3b8c0
@@ -8919,6 +9468,9 @@ collection:
           objet représenté: d5eca0e0-dad7-43e8-8304-175b247504ae
       lien externe:
         E13: 633ec2b1-65af-4310-b694-39055f96f464
+      gallica:
+        E13: abf13564-17a1-40e0-9f11-dfe89d03f577
+      titre forgé: 694afc70-051b-4267-a5a4-50d2ebaebc8f
   1704-07b (Deuxième partie manque dans Gallica):
     gravure (E36):
       uuid: 5186e49b-e03c-4ce1-829f-555e8f2069ff
@@ -8935,6 +9487,12 @@ collection:
           uuid: b7bf0e33-5a27-4e9c-b4d1-d25063e8a1a9
           E13: 168c1adc-ed19-42f1-8736-bcae5ef178d8
           objet représenté: 8025da39-fcfb-4e62-9b5d-967f51c71f3e
+      titre forgé: c77b770f-6e07-4195-ba4c-59b7dd2db0aa
+      Bretagne, Louis de Bourbon, duc de [1704-1705]:
+        zone de l'image (E36):
+          uuid: 8a21d120-8ee2-4023-8e68-9a11b8180e5c
+          E13: 1899af66-c10d-435a-9916-e7cd9ae1fdfe
+          objet représenté: 3a2733e9-cadb-4667-8ecd-a6abbe4b9819
   1704-12_209:
     gravure (E36):
       uuid: 780e91b5-d67b-4d19-90a8-1110f783fb42
@@ -8943,6 +9501,18 @@ collection:
       titre sur l'image: 2520ba9f-d614-486d-913a-84fbba953d78
       titre forgé: 83a026be-bfbc-42ab-a50a-c05ca7360200
       titre péritexte: c3065584-9f3d-40de-99d0-500fddc3086f
+      gallica:
+        E13: c6a45e77-c100-4443-9e01-31a8df40536d
+      écriture codée:
+        zone de l'image (E36):
+          uuid: 89fcf757-7560-4591-8eda-206f5ab402e6
+          E13: a54b1f06-002a-4e8e-bc35-061c83c17d18
+          objet représenté: 38382482-4cdd-4457-b274-fc8e935d1375
+      orientation:
+        zone de l'image (E36):
+          uuid: 03608028-3960-4b48-b488-a107f318297d
+          E13: 557f1cba-59c2-431e-9f5a-b346939c85d9
+          objet représenté: c3208d58-ef88-480e-bbdc-691f389ca0c0
   1705-01_166:
     gravure (E36):
       uuid: d52e927f-a9ae-4a45-b59d-fa3c1dcaaf1b
@@ -8967,6 +9537,8 @@ collection:
           objet représenté: 001e7abc-c003-431c-b239-2346743961c3
       lien externe:
         E13: edf85cf2-5d5a-4b6b-becf-a660ae460062
+      gallica:
+        E13: 5e34006c-7a10-4bcf-a431-8aff1a8a70b8
   1705-03_306:
     gravure (E36):
       uuid: ec6a0b6f-8640-437a-9093-ac6f8e1cb4ae
@@ -8984,6 +9556,16 @@ collection:
           uuid: da5a3c08-5052-49d8-854d-c15131165b3f
           E13: 4cc58237-cdd4-4d35-b93a-8e35eed928e6
           objet représenté: c868305a-938f-420b-823d-b0c536db1b6c
+      E12 Production:
+        uuid: 155bb76f-c259-421c-92de-482f4dced971
+        sculpsit:
+          uuid: 361676a9-e56c-47f1-88d3-65a7b36a5746
+          auteur: 04f938b4-7750-4d88-99fb-1634eb75eb0a
+          E13: a1053c3e-bc9e-4a36-af61-c59a2256f837
+      gallica:
+        E13: c34fec88-58a9-44dd-b32e-f8c222fcfefa
+      lien externe:
+        E13: 9bf59755-9d6f-44da-81ac-fab45f98f4eb
   1705-12_176  [probable erreur de cote]:
     gravure (E36):
       uuid: 73d352aa-2a7a-4065-9a23-4fba13404450
@@ -9027,6 +9609,8 @@ collection:
           uuid: 4e8c19ac-5308-4312-8883-988c72d25b37
           E13: c13d7367-29e9-4035-89d4-0e28af69ad58
           objet représenté: 3ad1e398-ab9c-415c-ad48-f0bb5ccfac06
+      gallica:
+        E13: 91d6630e-00db-433f-8e4a-8c86541854da
   1706-03_168:
     gravure (E36):
       uuid: b2892d51-3217-42f4-9da9-21daf50c2850
@@ -9057,6 +9641,9 @@ collection:
           uuid: 39b5d184-1dde-40aa-a46d-077699d8342f
           E13: 193c092d-8fba-443d-9082-08303743885e
           objet représenté: 7a854504-da40-4145-9c4d-14cd1fcc9f24
+      gallica:
+        E13: b1deb69f-d001-4906-a886-1217d0c6f6a4
+      titre forgé: 46aff1b2-542d-4cda-8463-742ca5135f84
   1707-01_162:
     gravure (E36):
       uuid: e3fb9153-5570-4342-a44b-0d153f059ab5
@@ -9068,6 +9655,10 @@ collection:
           uuid: ad026c8a-1852-4549-8206-ac2a985ccbbb
           auteur: 418b840d-2923-4165-9a1e-d25f9ad5b574
           E13: 23f128d1-9baf-4a5d-afbb-122de2f2e676
+        invenit:
+          uuid: e8fe9f67-e573-46ce-b59a-35e017ee6785
+          auteur: b842ee79-0a78-4e91-b03b-581d014410ac
+          E13: 5ff9b522-91e6-4d2e-aa9a-2430d14bd13f
       titre forgé: e35c9b7e-918b-4e47-9a6c-f2769f6ccf9d
       titre péritexte: cf08d5d2-ac00-465a-80c7-6aabaaccebb2
       jetons:
@@ -9075,6 +9666,10 @@ collection:
           uuid: f456f481-13eb-465b-8047-79de3a10f2c0
           E13: 2d5bae63-5a81-4fab-aec9-9d81917655ee
           objet représenté: e3c41f77-165c-40ff-89c7-1d26e9306b59
+      gallica:
+        E13: 9127007b-715b-4a30-a427-ce69de6febbb
+      lien externe:
+        E13: 7f9e5c69-7f30-4478-bca6-f7b9f312b242
   1708-01_144:
     gravure (E36):
       uuid: e8ff8ca4-7276-4469-aa2d-68bd4b03cff0
@@ -9149,3 +9744,78 @@ collection:
           uuid: dc46749c-845c-4424-908a-bc0a29faf88b
           E13: c46783af-0385-4980-8e11-743590db1c69
           objet représenté: 2534b4cb-0096-4886-805c-2aff5fa6adc9
+  1687-04_268:
+    gravure (E36):
+      uuid: f1bf5d26-cbfc-4fb6-971a-4cc7db3c4947
+      Identifiant MG: 0c006cde-0d0e-45de-b2f2-79d208d07848
+      Identifiant iiif: b93981c0-1e1b-4611-bd15-717d7a3d5981
+      gallica:
+        E13: 999dfc85-49ca-4864-bf92-25f296439fa3
+      titre forgé: c7a9ffff-b6cd-4f98-8161-afbb9c4f7da5
+      titre péritexte: 0bc684cc-e03b-4c0d-9aea-60eebb9a3158
+      Montgat, Catalogne, Espagne, 41° 28′ 16″ nord, 2° 16′ 55″ est:
+        zone de l'image (E36):
+          uuid: 5490b73a-00d0-4a55-ae27-f5a194800ea8
+          E13: 6f2b01fc-9c03-479a-9d1b-d0549d4f6477
+          lieu représenté: ffac2898-b4cb-4ec4-aa6a-61543c52c665
+      château:
+        zone de l'image (E36):
+          uuid: 8c1acf58-1952-40b2-8bf3-0875be4f4a16
+          E13: 21a41f3b-0797-441c-ac75-862ed31d91bc
+          objet représenté: 51e6e275-7af9-4c16-a70f-f057a369135c
+  1687-11_244:
+    gravure (E36):
+      uuid: 4c1d0472-784f-4202-9b23-54a8b7bacd8b
+      Identifiant MG: 684a6c5a-ae07-4073-a7c8-706bfd854a8c
+      Identifiant iiif: 93ab376c-92e1-4c2d-9590-795f5a66ff97
+      E12 Production:
+        uuid: ec4aa743-0b0e-4334-b5a1-241d33752816
+        sculpsit:
+          uuid: c10a4098-cd54-4852-8622-fed4132da67d
+          auteur: 4fe7f8ee-5071-45d8-af67-9926db3db456
+          E13: 86d49a47-19a2-49bc-b304-cb0e8f88c674
+      gallica:
+        E13: 2173e0f8-a76d-48a8-8a9a-b771bd00d250
+      titre sur l'image: ed7651b1-5ab5-4079-b221-32bf7fd52c27
+      titre forgé: 106e75c2-0c50-47a1-93ae-946a9f010ef2
+      titre péritexte: f2bb4052-901e-40ba-9dc6-feaadff47bdd
+      Castelnuovo (Italie) 46° 03′ 00″ nord, 11° 29′ 00″ est:
+        zone de l'image (E36):
+          uuid: 417c3bdd-82c3-49f1-8124-6d5eff9dd0e3
+          E13: 86b0c22f-43c1-43ca-8a88-de96ae068252
+          lieu représenté: 267a2d9e-0bb2-49c3-a5d6-eed013679f2c
+      plan:
+        zone de l'image (E36):
+          uuid: e37f10ea-1ebb-45e5-b010-ebe8bf52dd17
+          E13: 6794c664-1700-4ed4-a337-99311eb46cdd
+          objet représenté: c4b1198e-58a1-4900-a180-a4596b614c67
+      Castelnuovo:
+        zone de l'image (E36):
+          uuid: 1b4c9028-8dd6-4123-b2d3-c20181a2a084
+          E13: 0875b906-efb1-4058-88f3-3c8a293cf279
+          objet représenté: c43c1ce7-8aaa-4060-b31b-ff2aa4255b3c
+  1689-03a_170:
+    gravure (E36):
+      uuid: eba4d4e4-db7e-4a5b-a8df-9745dd6256bf
+      Identifiant MG: 35ca806d-f36a-4040-8eb5-89106b651b67
+      Identifiant iiif: 539968ff-0f28-446e-b39c-e45767f84e46
+      E12 Production:
+        uuid: b96c94d1-59dd-46fa-8ac7-6fb1e55a01d2
+        sculpsit:
+          uuid: 36214d53-787b-4354-80c5-38d76aafb897
+          auteur: 516ef8ac-54c3-4e5b-ba59-11644030f3fc
+          E13: 6deea687-4a57-443a-9b62-3520306da09a
+      gallica:
+        E13: b20b46c7-dbab-4098-800e-3531be565be0
+      titre forgé: ab42a879-0b5a-4583-9fb5-af1edff87c64
+      titre péritexte: b6bcc0f1-a5e7-4e5b-aee1-3df7d567e1ce
+      cadran:
+        zone de l'image (E36):
+          uuid: 840165bd-3940-4bf1-a74a-acc87292167e
+          E13: 86d2a7ca-6480-4c73-b631-c443a438590d
+          objet représenté: 8b1e0c89-ff71-478e-aa0d-ec64fde88e56
+      ? ''
+      : zone de l'image (E36):
+          uuid: a148343e-baa4-41ee-a538-45ad0ae6a9d2
+          E13: ec7fbd87-9c9a-4242-b2f3-fc678fdfefd4
+          objet représenté: 463c652b-2bd8-46e8-860e-8533126b0cbe

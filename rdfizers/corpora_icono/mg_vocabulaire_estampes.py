@@ -67,7 +67,7 @@ def explore():
                 broaders.append(valeur)
 
             # Concepts
-            if valeur != ligne[5].value or ligne[6].value:
+            if colonne < 5:
                 E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", valeur.lower(), "uuid"], True))
                 t(E55_Type, a, crm("E55_Type"))
                 t(E55_Type, crm("P1_is_identified_by"), l(valeur))

@@ -95,7 +95,7 @@
     ] ;
     .
 
-# Equipe Mercure Galant
+# l'équipe Mercure Galant
 <684b4c1a-be76-474c-810e-0f5984b47921>
     a crm:E74_Group ;
     crm:P1_is_identified_by "Equipe Mercure Galant" ;
