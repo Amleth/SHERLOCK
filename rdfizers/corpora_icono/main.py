@@ -6,6 +6,8 @@ from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef as u, XSD,
 import sys
 from sherlockcachemanagement import Cache
 import requests
+import glob
+import ntpath
 
 # Arguments
 parser = argparse.ArgumentParser()
@@ -224,8 +226,63 @@ def traitement_images(sous_collection):
 	# 2.1 Un dossier d'images
 	#######################################################################
 
-	print("ok")
+	for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 
+		#img_path = Path(img).parent
+		id = ntpath.basename(img[:-4])
+
+		## E36 Visual Item
+		gravure = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "uuid"], True))
+		t(gravure, a, crm("E36_Visual_Item"))
+		### Identifiant Mercure Galant
+		gravure_id_MG = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant MG"], True))
+		t(gravure_id_MG, a, crm("E42_Identifier"))
+		t(gravure_id_MG, crm("P2_has_type"), she("92c258a0-1e34-437f-9686-e24322b95305"))
+		t(gravure_id_MG, RDFS.label, l(id))
+		t(gravure, crm("P1_is_identified_by"), gravure_id_MG)
+		### Identifiant iiif
+		gravure_id_iiif = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant iiif"], True))
+		t(gravure_id_iiif, a, crm("E42_Identifier"))
+		t(gravure_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
+		t(gravure_id_iiif, RDFS.label,
+				  u(f"http://data-iremus.huma-num.fr/iiif/mercure-galant/{id.replace(' ', '%20')}/full/max/0/default.jpg"))
+		t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
+		### Identifiant GitHub
+		gravure_id_iiif = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant GitHub"], True))
+		t(gravure_id_iiif, a, crm("E42_Identifier"))
+		t(gravure_id_iiif, crm("P2_has_type"), she("cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea"))
+		t(gravure_id_iiif, RDFS.label,
+		  u(f"https://github.com/OBVIL/mercure-galant/blob/0ba4cfdbb66ccf7ed6af0a92bf1490a998e95b3c/images/{id.replace(' ', '%20')}.JPG"))
+		t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
+
+		#TODO Lier les images aux articles
+		try:
+
+			if "copyOf" in id:
+				parties_de_l_id = id.split(" ")
+
+				id_livraison = "MG-" + id[:-15]
+				if id_livraison.endswith("_"):
+					id_livraison = id_livraison[:-1]
+				id_article = "MG-" + parties_de_l_id[0]
+
+				article_F2 = she(cache_corpus.get_uuid(
+					["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
+				t(article_F2, crm("P148_has_component"), gravure)
+
+			else:
+
+				id_livraison = "MG-" + id[:-4]
+				if id_livraison.endswith("_"):
+					id_livraison = id_livraison[0:-1]
+
+				id_article = "MG-" + id
+
+				article_F2 = she(cache_corpus.get_uuid(
+					["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
+				t(article_F2, crm("P148_has_component"), gravure)
+		except:
+			print("Impossible de retrouver l'article de la gravure", id, ": livraison", id_livraison)
 
 	#######################################################################
 	# 2.2 Un fichier excel
@@ -250,7 +307,7 @@ def traitement_images(sous_collection):
 				gravure_id_iiif = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant iiif"], True))
 				t(gravure_id_iiif, a, crm("E42_Identifier"))
 				t(gravure_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
-				t(gravure_id_iiif, RDFS.label, u("http://data-iremus.huma-num.fr/iiif/mercure-galant/1686-08_320/full/max/0/default.jpg"))
+				t(gravure_id_iiif, RDFS.label, u(f"http://data-iremus.huma-num.fr/iiif/mercure-galant/{id}/full/max/0/default.jpg"))
 				t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
 
 				## E12 Production

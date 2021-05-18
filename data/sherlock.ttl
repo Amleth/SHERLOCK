@@ -109,6 +109,11 @@
     crm:P1_is_identified_by "Identifiant iiif" ;
     .
 
+<cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Identifiant GitHub" ;
+    .
+
 
 # Twitter
 
