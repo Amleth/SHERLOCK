@@ -25,7 +25,8 @@ args = parser.parse_args()
 
 # Caches
 cache_images = Cache(args.cache_images)
-cache_corpus = Cache(args.cache_corpus)
+if args.cache_corpus:
+	cache_corpus = Cache(args.cache_corpus)
 if args.cache_personnes:
 	cache_personnes = Cache(args.cache_personnes)
 if args.cache_lieux:
@@ -54,7 +55,6 @@ output_graph.bind("skos", SKOS)
 output_graph.bind("she", iremus_ns)
 output_graph.bind("crmdig", crmdig_ns)
 
-# Fonctions
 a = RDF.type
 
 def crm(x):
@@ -114,191 +114,23 @@ t(collection_E30, RDFS.label, l(collection_row[6].value))
 t(collection, crm("P105_right_held_by"), she("48a8e9ad-4264-4b0b-a76d-953bc9a34498"))
 
 #####################################################################
-# 1. UNE PUBLICATION NUMERISEE
-#####################################################################
-
-if collection_row[4].value == "Edition":
-
-	# Work
-	livre_F1 = she(cache_images.get_uuid(["collection", "livre", "F1"], True))
-	t(livre_F1, a, lrm("F1_Work"))
-	livre_E35 = she(cache_images.get_uuid(["collection", "livre", "E41"], True))
-	t(livre_F1, crm("P102_has_title"), livre_E35)
-	t(livre_E35, a, crm("E35_Title"))
-	t(livre_E35, RDFS.label, l(collection_row[1].value))
-
-	# Work Conception
-	livre_F27 = she(cache_images.get_uuid(["collection", "livre", "F27"], True))
-	t(livre_F27, a, lrm("F27_Work_Conception"))
-	t(livre_F27, lrm("R16_initiated"), livre_F1)
-	t(livre_F27, crm("P14_carried_out_by"), l(collection_row[8].value))
-	if collection_row[9].value != None:
-		livre_F27_E52 = she(cache_images.get_uuid(["collection", "livre", "F27", "E52"], True))
-		t(livre_F27, crm("P4_has_time-span"), livre_F27_E52)
-		t(livre_F27_E52, crm("P80_end_is_qualified_by"), l(collection_row[9].value))
-
-	# Expression
-	livre_F2 = she(cache_images.get_uuid(["collection", "livre", "F2"], True))
-	t(livre_F1, lrm("R3_is_realised_in"), livre_F2)
-	t(livre_F2, a, lrm("F2_Expression"))
-	# Expression Creation
-	livre_F28 = she(cache_images.get_uuid(["collection", "livre", "F28"], True))
-	t(livre_F28, a, lrm("F28_Expression_Creation"))
-	t(livre_F28, lrm("R17_created"), livre_F2)
-	t(livre_F28, crm("P14_carried_out_by"), l(collection_row[8].value))
-	if collection_row[10].value != None:
-		livre_F28_E52 = she(cache_images.get_uuid(["collection", "livre", "F28", "E52"], True))
-		t(livre_F28, crm("P4_has_time-span"), livre_F28_E52)
-		t(livre_F28_E52, crm("P80_end_is_qualified_by"), l(collection_row[10].value))
-
-	# Manifestation
-	livre_F3 = she(cache_images.get_uuid(["collection", "livre", "F3"], True))
-	t(livre_F3, a, lrm("F3_Manifestation"))
-	t(livre_F3, lrm("R4_embodies"), livre_F2)
-	## Manifestation Creation
-	livre_F30 = she(cache_images.get_uuid(["collection", "livre", "F30"], True))
-	t(livre_F30, a, lrm("F30_Manifestation_Creation"))
-	t(livre_F30, lrm("R24_created"), livre_F3)
-	t(livre_F30, crm("P92_brought_into_existence"), livre_F2)
-	if collection_row[11].value != None:
-		livre_F30_E52 = she(cache_images.get_uuid(["collection", "livre", "F30", "E52"], True))
-		t(livre_F30, crm("P4_has_time-span"), livre_F30_E52)
-		t(livre_F30_E52, crm("P80_end_is_qualified_by"), l(collection_row[11].value))
-	# Item
-	livre_F5 = she(cache_images.get_uuid(["collection", "livre", "F5"], True))
-	t(livre_F5, a, lrm("F5_Item"))
-	t(livre_F5, lrm("R7_is_materialization_of"), livre_F3)
-
-	#####################################################################
-	# LES PAGES DE LA PUBLICATION
-	#####################################################################
-
-	img_row = None
-
-	for row in img:
-		if row[1].value == args.collection_id:
-			img_row = row
-			id = img_row[0].value
-
-			# La page comme support physique
-			page_E18 = she(cache_images.get_uuid(["collection", "livre", "pages", id, "E18"], True))
-			t(page_E18, a, crm("E18_Physical_Object"))
-			t(livre_F5, crm("P46_is_composed_of"), page_E18)
-
-			# La page comme support sémiotique
-			page_E90 = she(cache_images.get_uuid(["collection", "livre", "pages", id, "E90"], True))
-			t(page_E90, a, crm("E90_Symbolic_Object"))
-			t(livre_F2, lrm("R15_has_fragment"), page_E90)
-			t(page_E18, crm("P128_carries"), page_E90)
-
-			# Identifiant
-			page_id = she(cache_images.get_uuid(["collection", "livre", "pages", id, "E42", "id"], True))
-			t(page_E90, crm("P1_is_identified_by"), page_id)
-			t(page_id, a, crm("E42_Identifier"))
-			t(page_id, RDFS.label, l(id))
-
-			# Numéro de la page
-			page_no = she(cache_images.get_uuid(["collection", "livre", "pages", id, "E42", "numéro"], True))
-			t(page_no, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
-			t(page_E90, crm("P1_is_identified_by"), page_no)
-			t(page_no, a, crm("E42_Identifier"))
-			t(page_no, RDFS.label, l(f"Page {img_row[3].value}"))
-
-			# Numérisation de la page
-			page_D2 = she(cache_images.get_uuid(["collection", "livre", "pages", "D2"], True))
-			t(page_D2, a, crmdig("D2_Digitization_Process"))
-			t(page_D2, crmdig("L1_digitized"), page_E18)
-			page_D1 = she(cache_images.get_uuid(["collection", "livre", "pages", id, "D1"], True))
-			t((page_D1), a, crmdig("D1_Digital_Object"))
-			t(page_D2, crmdig("L11_had_output"), page_D1)
-			t(page_D1, crm("130_shows_features_of"), page_E90)
-			t(collection, crm("P106_is_composed_of"), page_D1)
-
-			# TODO Transcription de la page
-
-#####################################################################
-# 2. UNE COLLECTION D'IMAGES INDIVIDUELLES
+# 1. UNE COLLECTION D'IMAGES INDIVIDUELLES
 #####################################################################
 
 def traitement_images(sous_collection):
 
 	#######################################################################
-	# 2.1 Un dossier d'images
-	#######################################################################
-
-	for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
-
-		id = "MG-" + ntpath.basename(img[:-4])
-
-		## E36 Visual Item
-		gravure = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "uuid"], True))
-		t(gravure, a, crm("E36_Visual_Item"))
-		### Identifiant Mercure Galant
-		gravure_id_MG = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant MG"], True))
-		t(gravure_id_MG, a, crm("E42_Identifier"))
-		t(gravure_id_MG, crm("P2_has_type"), she("92c258a0-1e34-437f-9686-e24322b95305"))
-		t(gravure_id_MG, RDFS.label, l(id))
-		t(gravure, crm("P1_is_identified_by"), gravure_id_MG)
-		### Identifiant iiif
-		gravure_id_iiif = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant iiif"], True))
-		t(gravure_id_iiif, a, crm("E42_Identifier"))
-		t(gravure_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
-		t(gravure_id_iiif, RDFS.label,
-				  u(f"http://data-iremus.huma-num.fr/iiif/mercure-galant/{id.replace(' ', '%20')}/full/max/0/default.jpg"))
-		t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
-		### Identifiant GitHub
-		gravure_id_iiif = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant GitHub"], True))
-		t(gravure_id_iiif, a, crm("E42_Identifier"))
-		t(gravure_id_iiif, crm("P2_has_type"), she("cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea"))
-		t(gravure_id_iiif, RDFS.label,
-		  u(f"https://github.com/OBVIL/mercure-galant/blob/0ba4cfdbb66ccf7ed6af0a92bf1490a998e95b3c/images/{id.replace(' ', '%20')}.JPG"))
-		t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
-
-		### Rattachement à l'article
-		try:
-
-			if "copyOf" in id:
-				parties_de_l_id = id.split(" ")
-
-				id_article = parties_de_l_id[0]
-				# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
-				if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
-					id_article = id_article[:-1]
-
-				id_livraison = id_article[:-4]
-				if id_livraison.endswith("_"):
-					id_livraison = id_livraison[:-1]
-
-				article_F2 = she(cache_corpus.get_uuid(
-					["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-				t(article_F2, crm("P148_has_component"), gravure)
-
-			else:
-
-				id_article = id
-				# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
-				if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
-					id_article = id_article[:-1]
-
-				id_livraison = id_article[:-4]
-				if id_livraison.endswith("_"):
-					id_livraison = id_livraison[:-1]
-
-				article_F2 = she(cache_corpus.get_uuid(
-					["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-				t(article_F2, crm("P148_has_component"), gravure)
-		except:
-			print("Impossible de retrouver l'article de la gravure", id_article, "(livraison " + id_livraison + ")")
-
-	#######################################################################
-	# 2.2 Un fichier excel
+	# 1.1 Un fichier excel
 	#######################################################################
 
 	if args.excel_coll:
+		wb_img = load_workbook(args.excel_coll)
+		img = wb_img.active
+
 		for row in img:
 			if row[1].value == args.collection_id:
 				img_row = row
-				id = img_row[0].value
+				id = img_row[0].value.strip()
 
 				## E36 Visual Item
 				gravure = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "uuid"], True))
@@ -313,7 +145,7 @@ def traitement_images(sous_collection):
 				gravure_id_iiif = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant iiif"], True))
 				t(gravure_id_iiif, a, crm("E42_Identifier"))
 				t(gravure_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
-				t(gravure_id_iiif, RDFS.label, u(f"http://data-iremus.huma-num.fr/iiif/mercure-galant/{id}/full/max/0/default.jpg"))
+				t(gravure_id_iiif, RDFS.label, u(f"http://data-iremus.huma-num.fr/iiif/mercure-galant/{id.replace(' ', '%20')}/full/max/0/default.jpg"))
 				t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
 
 				## E12 Production
@@ -734,8 +566,80 @@ def traitement_images(sous_collection):
 					t(gravure_biblio_E13, crm("P141_assigned"), biblio)
 					t(gravure_biblio_E13, crm("P177_assigned_property_type"), crm("P70_documents"))
 
+
+	#######################################################################
+	# 1.2 Un dossier d'images
+	#######################################################################
+	else:
+
+		for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
+
+			id = "MG-" + ntpath.basename(img[:-4])
+
+			## E36 Visual Item
+			gravure = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "uuid"], True))
+			t(gravure, a, crm("E36_Visual_Item"))
+			### Identifiant Mercure Galant
+			gravure_id_MG = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant MG"], True))
+			t(gravure_id_MG, a, crm("E42_Identifier"))
+			t(gravure_id_MG, crm("P2_has_type"), she("92c258a0-1e34-437f-9686-e24322b95305"))
+			t(gravure_id_MG, RDFS.label, l(id))
+			t(gravure, crm("P1_is_identified_by"), gravure_id_MG)
+			### Identifiant iiif
+			gravure_id_iiif = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant iiif"], True))
+			t(gravure_id_iiif, a, crm("E42_Identifier"))
+			t(gravure_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
+			t(gravure_id_iiif, RDFS.label,
+			  u(f"http://data-iremus.huma-num.fr/iiif/mercure-galant/{id.replace(' ', '%20')}/full/max/0/default.jpg"))
+			t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
+			### Identifiant GitHub
+			gravure_id_iiif = she(
+				cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant GitHub"], True))
+			t(gravure_id_iiif, a, crm("E42_Identifier"))
+			t(gravure_id_iiif, crm("P2_has_type"), she("cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea"))
+			t(gravure_id_iiif, RDFS.label,
+			  u(
+				  f"https://github.com/OBVIL/mercure-galant/blob/0ba4cfdbb66ccf7ed6af0a92bf1490a998e95b3c/images/{id.replace(' ', '%20')}.JPG"))
+			t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
+
+			### Rattachement à l'article
+			try:
+
+				if "copyOf" in id:
+					parties_de_l_id = id.split(" ")
+
+					id_article = parties_de_l_id[0]
+					# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
+					if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
+						id_article = id_article[:-1]
+
+					id_livraison = id_article[:-4]
+					if id_livraison.endswith("_"):
+						id_livraison = id_livraison[:-1]
+
+					article_F2 = she(cache_corpus.get_uuid(
+						["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
+					t(article_F2, crm("P148_has_component"), gravure)
+
+				else:
+
+					id_article = id
+					# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
+					if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
+						id_article = id_article[:-1]
+
+					id_livraison = id_article[:-4]
+					if id_livraison.endswith("_"):
+						id_livraison = id_livraison[:-1]
+
+					article_F2 = she(cache_corpus.get_uuid(
+						["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
+					t(article_F2, crm("P148_has_component"), gravure)
+			except:
+				print("Impossible de retrouver l'article de la gravure", id_article, "(livraison " + id_livraison + ")")
+
 #####################################################################
-# CHOIX DE LA COLLECTION A TRAITER
+# 1.3 Choix de la collection à traiter
 #####################################################################
 
 if collection_row[4].value == "Images":
@@ -761,6 +665,113 @@ if collection_row[4].value == "Images":
 		traitement_images(coll_musique)
 
 
+#####################################################################
+# 2. UNE PUBLICATION NUMERISEE
+#####################################################################
+
+if collection_row[4].value == "Edition":
+
+	# Work
+	livre_F1 = she(cache_images.get_uuid(["collection", "livre", "F1"], True))
+	t(livre_F1, a, lrm("F1_Work"))
+	livre_E35 = she(cache_images.get_uuid(["collection", "livre", "E41"], True))
+	t(livre_F1, crm("P102_has_title"), livre_E35)
+	t(livre_E35, a, crm("E35_Title"))
+	t(livre_E35, RDFS.label, l(collection_row[1].value))
+
+	# Work Conception
+	livre_F27 = she(cache_images.get_uuid(["collection", "livre", "F27", "uuid"], True))
+	t(livre_F27, a, lrm("F27_Work_Conception"))
+	t(livre_F27, lrm("R16_initiated"), livre_F1)
+	t(livre_F27, crm("P14_carried_out_by"), l(collection_row[8].value))
+	if collection_row[9].value != None:
+		livre_F27_E52 = she(cache_images.get_uuid(["collection", "livre", "F27", "E52"], True))
+		t(livre_F27, crm("P4_has_time-span"), livre_F27_E52)
+		t(livre_F27_E52, crm("P80_end_is_qualified_by"), l(collection_row[9].value))
+
+	# Expression
+	livre_F2 = she(cache_images.get_uuid(["collection", "livre", "F2"], True))
+	t(livre_F1, lrm("R3_is_realised_in"), livre_F2)
+	t(livre_F2, a, lrm("F2_Expression"))
+	# Expression Creation
+	livre_F28 = she(cache_images.get_uuid(["collection", "livre", "F28", "uuid"], True))
+	t(livre_F28, a, lrm("F28_Expression_Creation"))
+	t(livre_F28, lrm("R17_created"), livre_F2)
+	t(livre_F28, crm("P14_carried_out_by"), l(collection_row[8].value))
+	if collection_row[10].value != None:
+		livre_F28_E52 = she(cache_images.get_uuid(["collection", "livre", "F28", "E52"], True))
+		t(livre_F28, crm("P4_has_time-span"), livre_F28_E52)
+		t(livre_F28_E52, crm("P80_end_is_qualified_by"), l(collection_row[10].value))
+
+	# Manifestation
+	livre_F3 = she(cache_images.get_uuid(["collection", "livre", "F3"], True))
+	t(livre_F3, a, lrm("F3_Manifestation"))
+	t(livre_F3, lrm("R4_embodies"), livre_F2)
+	## Manifestation Creation
+	livre_F30 = she(cache_images.get_uuid(["collection", "livre", "F30", "uuid"], True))
+	t(livre_F30, a, lrm("F30_Manifestation_Creation"))
+	t(livre_F30, lrm("R24_created"), livre_F3)
+	t(livre_F30, crm("P92_brought_into_existence"), livre_F2)
+	if collection_row[11].value != None:
+		livre_F30_E52 = she(cache_images.get_uuid(["collection", "livre", "F30", "E52"], True))
+		t(livre_F30, crm("P4_has_time-span"), livre_F30_E52)
+		t(livre_F30_E52, crm("P80_end_is_qualified_by"), l(collection_row[11].value))
+	# Item
+	livre_F5 = she(cache_images.get_uuid(["collection", "livre", "F5"], True))
+	t(livre_F5, a, lrm("F5_Item"))
+	t(livre_F5, lrm("R7_is_materialization_of"), livre_F3)
+
+	#####################################################################
+	# 2.1 Les pages de la publication
+	#####################################################################
+
+	img_row = None
+
+	for row in img:
+		if row[1].value == args.collection_id:
+			img_row = row
+			id = img_row[0].value
+
+			# La page comme support physique
+			page_E18 = she(cache_images.get_uuid(["collection", "livre", "pages", id, "E18"], True))
+			t(page_E18, a, crm("E18_Physical_Object"))
+			t(livre_F5, crm("P46_is_composed_of"), page_E18)
+
+			# La page comme support sémiotique
+			page_E90 = she(cache_images.get_uuid(["collection", "livre", "pages", id, "E90"], True))
+			t(page_E90, a, crm("E90_Symbolic_Object"))
+			t(livre_F2, lrm("R15_has_fragment"), page_E90)
+			t(page_E18, crm("P128_carries"), page_E90)
+
+			# Identifiant
+			page_id = she(cache_images.get_uuid(["collection", "livre", "pages", id, "E42", "id"], True))
+			t(page_E90, crm("P1_is_identified_by"), page_id)
+			t(page_id, a, crm("E42_Identifier"))
+			t(page_id, RDFS.label, l(id))
+
+			# Numéro de la page
+			page_no = she(cache_images.get_uuid(["collection", "livre", "pages", id, "E42", "numéro"], True))
+			t(page_no, crm("P2_has_type"), she("466bb717-b90f-4104-8f4e-5a13fdde3bc3"))
+			t(page_E90, crm("P1_is_identified_by"), page_no)
+			t(page_no, a, crm("E42_Identifier"))
+			t(page_no, RDFS.label, l(f"Page {img_row[3].value}"))
+
+			# Numérisation de la page
+			page_D2 = she(cache_images.get_uuid(["collection", "livre", "pages", "D2"], True))
+			t(page_D2, a, crmdig("D2_Digitization_Process"))
+			t(page_D2, crmdig("L1_digitized"), page_E18)
+			page_D1 = she(cache_images.get_uuid(["collection", "livre", "pages", id, "D1"], True))
+			t((page_D1), a, crmdig("D1_Digital_Object"))
+			t(page_D2, crmdig("L11_had_output"), page_D1)
+			t(page_D1, crm("130_shows_features_of"), page_E90)
+			t(collection, crm("P106_is_composed_of"), page_D1)
+
+			# TODO Transcription de la page
+
+
+####################################################################################
+# 3. ECRITURE DU FICHIER TURTLE
+####################################################################################
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.output_ttl, "wb") as f:

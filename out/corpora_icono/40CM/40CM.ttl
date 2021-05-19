@@ -1,0 +1,124 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrm: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix she: <http://data-iremus.huma-num.fr/id/> .
+
+<0f1fa0cc-a011-44b0-ac43-5743a5835c6d> a lrm:F28_Expression_Creation ;
+    crm:P14_carried_out_by "créateur inconnu" ;
+    crm:P4_has_time-span <3bd26071-548a-469c-b623-b383ddc52db1> ;
+    lrm:R17_created <ebf29fa6-3039-44d2-990d-5d3580e9793e> .
+
+<3f698bc7-d752-480d-9ef1-cd56d9828245> a crm:E65_Creation ;
+    crm:P14_carried_out_by <7ebda3f2-cdfb-4f9c-9b86-0fb559bbfee5> ;
+    crm:P94_has_created <0bb387c3-058e-44bc-aeb9-f8b8471b8ed1> .
+
+<754d7c9d-dcdd-410d-845b-2153b4932925> a lrm:F27_Work_Conception ;
+    crm:P14_carried_out_by "créateur inconnu" ;
+    crm:P4_has_time-span <0c072568-4d82-49f4-9a44-04006a738b74> ;
+    lrm:R16_initiated <fec7a5b2-57bd-4537-8a66-dc22201f5943> .
+
+<b2cb68ed-c7d7-4e37-9c31-93bb6528bc9b> a crmdig:D2_Digitization_Process ;
+    crmdig:L11_had_output <341b4ec0-9bf9-48e2-af92-b6d64d4c91d4>,
+        <48ffc6c3-a2b8-408e-b1a5-fde56c44b72f>,
+        <6dc25477-7a96-4714-904a-9d9266630621> ;
+    crmdig:L1_digitized <3b82e939-540a-479b-aa08-0f2ea50bf7a1>,
+        <eabaaf6b-6c91-447c-942b-2c505cb835fc>,
+        <f0e878da-ac04-4be9-b339-612c27137237> .
+
+<cc9ce568-5d4e-4386-9d87-8d0114c68f04> a lrm:F5_Item ;
+    crm:P46_is_composed_of <3b82e939-540a-479b-aa08-0f2ea50bf7a1>,
+        <eabaaf6b-6c91-447c-942b-2c505cb835fc>,
+        <f0e878da-ac04-4be9-b339-612c27137237> ;
+    lrm:R7_is_materialization_of <7932dec8-f096-4b15-a501-86ccee2707e6> .
+
+<d13217d8-c564-4853-80f1-323d65d5109e> a lrm:F30_Manifestation_Creation ;
+    crm:P4_has_time-span <f95b159d-865f-4cc3-adfc-0b6558db9b55> ;
+    crm:P92_brought_into_existence <ebf29fa6-3039-44d2-990d-5d3580e9793e> ;
+    lrm:R24_created <7932dec8-f096-4b15-a501-86ccee2707e6> .
+
+<0bb387c3-058e-44bc-aeb9-f8b8471b8ed1> a crmdig:D1_Digital_Object ;
+    rdfs:label "Les 40 chanteurs montagnards" ;
+    crm:P104_is_subject_to <e2d8f411-52b6-4839-bde9-ad2fa022cbd3> ;
+    crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
+    crm:P106_is_composed_of <341b4ec0-9bf9-48e2-af92-b6d64d4c91d4>,
+        <48ffc6c3-a2b8-408e-b1a5-fde56c44b72f>,
+        <6dc25477-7a96-4714-904a-9d9266630621> ;
+    crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
+
+<0c072568-4d82-49f4-9a44-04006a738b74> crm:P80_end_is_qualified_by "date inconnue" .
+
+<20b1f06f-6805-4ac1-8cc8-0463d1d9e64a> a crm:E42_Identifier ;
+    rdfs:label "Page 1" ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+
+<2b659bd5-cece-4f0d-943d-aafda05baeb5> a crm:E35_Title ;
+    rdfs:label "Les 40 chanteurs montagnards" .
+
+<3bd26071-548a-469c-b623-b383ddc52db1> crm:P80_end_is_qualified_by "date inconnue" .
+
+<64e38dc5-276c-4e83-b9bf-0379908b9598> a crm:E42_Identifier ;
+    rdfs:label "40CM_00003" .
+
+<86528b58-ceca-472c-9a5d-dcfbb91ed47e> a crm:E42_Identifier ;
+    rdfs:label "40CM_00001" .
+
+<9df39158-b920-4372-b819-614eabcf571d> a crm:E42_Identifier ;
+    rdfs:label "Page 2" ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+
+<9e42b636-0150-4b45-8c9f-c0a21c7cd89d> a crm:E42_Identifier ;
+    rdfs:label "Page 3" ;
+    crm:P2_has_type <466bb717-b90f-4104-8f4e-5a13fdde3bc3> .
+
+<a286ff7a-6243-45c4-ad67-87df8bd24114> a crm:E42_Identifier ;
+    rdfs:label "40CM_00002" .
+
+<e2d8f411-52b6-4839-bde9-ad2fa022cbd3> a crm:E30_Right ;
+    rdfs:label "https://creativecommons.org/publicdomain/zero/1.0/" .
+
+<f95b159d-865f-4cc3-adfc-0b6558db9b55> crm:P80_end_is_qualified_by "date inconnue" .
+
+<fec7a5b2-57bd-4537-8a66-dc22201f5943> a lrm:F1_Work ;
+    crm:P102_has_title <2b659bd5-cece-4f0d-943d-aafda05baeb5> ;
+    lrm:R3_is_realised_in <ebf29fa6-3039-44d2-990d-5d3580e9793e> .
+
+<341b4ec0-9bf9-48e2-af92-b6d64d4c91d4> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <801e13d4-eefe-4561-8d81-3eeec7f66ee0> .
+
+<3b82e939-540a-479b-aa08-0f2ea50bf7a1> a crm:E18_Physical_Object ;
+    crm:P128_carries <6a4add31-54cc-43d3-80ce-b891ae4a6bee> .
+
+<48ffc6c3-a2b8-408e-b1a5-fde56c44b72f> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <3a87bc15-1ecd-477e-9efc-22a689ace61a> .
+
+<6dc25477-7a96-4714-904a-9d9266630621> a crmdig:D1_Digital_Object ;
+    crm:130_shows_features_of <6a4add31-54cc-43d3-80ce-b891ae4a6bee> .
+
+<7932dec8-f096-4b15-a501-86ccee2707e6> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <ebf29fa6-3039-44d2-990d-5d3580e9793e> .
+
+<eabaaf6b-6c91-447c-942b-2c505cb835fc> a crm:E18_Physical_Object ;
+    crm:P128_carries <3a87bc15-1ecd-477e-9efc-22a689ace61a> .
+
+<f0e878da-ac04-4be9-b339-612c27137237> a crm:E18_Physical_Object ;
+    crm:P128_carries <801e13d4-eefe-4561-8d81-3eeec7f66ee0> .
+
+<3a87bc15-1ecd-477e-9efc-22a689ace61a> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <20b1f06f-6805-4ac1-8cc8-0463d1d9e64a>,
+        <86528b58-ceca-472c-9a5d-dcfbb91ed47e> .
+
+<6a4add31-54cc-43d3-80ce-b891ae4a6bee> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <64e38dc5-276c-4e83-b9bf-0379908b9598>,
+        <9e42b636-0150-4b45-8c9f-c0a21c7cd89d> .
+
+<801e13d4-eefe-4561-8d81-3eeec7f66ee0> a crm:E90_Symbolic_Object ;
+    crm:P1_is_identified_by <9df39158-b920-4372-b819-614eabcf571d>,
+        <a286ff7a-6243-45c4-ad67-87df8bd24114> .
+
+<ebf29fa6-3039-44d2-990d-5d3580e9793e> a lrm:F2_Expression ;
+    lrm:R15_has_fragment <3a87bc15-1ecd-477e-9efc-22a689ace61a>,
+        <6a4add31-54cc-43d3-80ce-b891ae4a6bee>,
+        <801e13d4-eefe-4561-8d81-3eeec7f66ee0> .
+

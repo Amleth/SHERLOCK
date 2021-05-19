@@ -9819,3 +9819,318 @@ collection:
           uuid: a148343e-baa4-41ee-a538-45ad0ae6a9d2
           E13: ec7fbd87-9c9a-4242-b2f3-fc678fdfefd4
           objet représenté: 463c652b-2bd8-46e8-860e-8533126b0cbe
+  1679-03_124:
+    gravure (E36):
+      uuid: 63ebd4cf-94c6-4b31-ab79-def73e0bd398
+      Identifiant MG: f46e54e7-3cbd-4748-b6a2-eaa3996c1eca
+      Identifiant iiif: 69e3de50-a573-4ea4-a536-83eab818fbf3
+      gallica:
+        E13: 2778d3eb-4504-40d9-a449-d2220f1975ba
+      titre forgé: 7a2280df-9ba9-4ec4-8494-8924b0972014
+      titre péritexte: a1713518-1989-4390-a412-5dd5b27d2c00
+      Navailles, Philippe III de Montaut-Bénac [1656-1678], marquis de:
+        zone de l'image (E36):
+          uuid: 3108d469-43ac-45bf-b625-e237493bc14a
+          E13: 387706d3-c187-4411-952c-7ed8037ac1fd
+          objet représenté: bb83797a-95e1-4fef-b69a-6cc4c2233401
+  1679-12_328:
+    gravure (E36):
+      uuid: c1b90e17-32de-4466-b92a-7e41b715a9f3
+      Identifiant MG: 8130edbc-2ecf-4d3d-a726-0c75a213bda9
+      Identifiant iiif: b3fbc343-a607-462d-aab6-30a2b1186da0
+      gallica:
+        E13: e0db3050-5ba8-4679-91d0-9da12009aa79
+      titre forgé: aa09b315-1fb5-467c-9740-a06f4c7a40c3
+      titre péritexte: f5c1e822-54fc-4ce7-ae0f-6acfe0a273a8
+      médaille:
+        zone de l'image (E36):
+          uuid: bac47d2c-a742-44dd-a16f-504d7994d19d
+          E13: 3041074c-0c56-4029-81c1-9bc8f7111f81
+          objet représenté: 63d4f110-5fdb-4108-a207-02ef514810d9
+      York, Jacques Stuart [1633-1701], duc d' (futur Jacques II, roi d'Angleterre):
+        zone de l'image (E36):
+          uuid: 088c1d9d-9b04-4c63-849b-669a6e18ebf6
+          E13: d3c9d6e6-9cd5-4021-a899-154e3ed15fbb
+          objet représenté: 31c96c74-07a7-4d19-845a-a2e25abc4f6e
+  1680-03a_157:
+    gravure (E36):
+      uuid: 51f57de2-655a-41ab-9519-265f0e435199
+      Identifiant MG: a4adaee4-b46c-45a9-ad51-0af8a5510dd6
+      Identifiant iiif: 04f571be-a7a0-40ab-ae31-6da7548b1178
+      titre forgé: ba192f3e-f52d-4a17-b248-fea7d42fb83e
+      titre péritexte: 13696fd7-2ab2-4d01-a2c8-c89f4961edb6
+      jetons:
+        zone de l'image (E36):
+          uuid: 61402606-babd-4e40-8bc7-14e9bd9718bb
+          E13: ca458ed0-7dcb-4928-a0d7-eaee0661fe5a
+          objet représenté: 80e538a9-523a-4872-99da-66d945237fd3
+  1680-03a_320:
+    gravure (E36):
+      uuid: 56ecbb06-3db8-415a-a7e2-1b7fed6ce140
+      Identifiant MG: 9b7af0c2-2fdd-49a4-a327-4661b0655aa8
+      Identifiant iiif: c6a7151e-82e1-4b21-ba6d-194ec37baa27
+      titre forgé: 46171de1-a38e-47ec-a7b2-6ec3baec2855
+      titre péritexte: 9da2493c-5374-48a5-acc6-2824c938b3d0
+      médaille:
+        zone de l'image (E36):
+          uuid: e1034754-4bac-4a9b-b60c-d59d76623856
+          E13: 73e5efe6-e3f8-4248-99a9-3d8c4d4da449
+          objet représenté: 7ff011ff-17be-45a7-bc01-a88d61061d2e
+      Louis, dauphin de France [1661-1711]:
+        zone de l'image (E36):
+          uuid: 8b3a641d-dab8-4a2c-ab75-96352aeaead9
+          E13: 1fc156b7-73ad-4ecb-8f8b-ee37ffefd2cd
+          objet représenté: c32b3af3-2a10-4383-bd54-cfb2ddf6531a
+  1680-09e_195:
+    gravure (E36):
+      uuid: e940f992-367c-458f-ad26-8207fbc3202b
+      Identifiant MG: 01c948a1-0621-44d0-b477-0a8bbd67b5bd
+      Identifiant iiif: c3fd5ead-c2f8-41cd-bf8b-e3efa666177c
+      gallica:
+        E13: 62db530c-9665-417f-8d94-d061d24a11f8
+      titre forgé: f23d9184-d4be-4885-9003-44812ed601f9
+      titre péritexte: 50e8c86a-768e-49fa-b909-4a8b5aa5d85e
+      Madrid/Plaza S. Domingo:
+        zone de l'image (E36):
+          uuid: 9d8e8338-149c-467d-a5c5-50f2f14d2cc0
+          E13: b6c0b681-61d2-4342-8826-2a3011921c5a
+          lieu représenté: 32e5f4c4-ef24-4682-9143-9ec51acf61c6
+      place:
+        zone de l'image (E36):
+          uuid: 23053537-c6a0-4329-acb6-2e747d05a9f9
+          E13: 2a8cc470-1cfb-4acc-8c1c-0778c0827f5c
+          objet représenté: f1d31450-23c0-4411-8f3c-1fc2b9133a81
+      palais:
+        zone de l'image (E36):
+          uuid: 9bf7fd91-8cb5-4e40-a7a6-c6a7630afd0b
+          E13: 53f6359e-6c00-4512-83f1-cbe6f2ea41a3
+          objet représenté: 9dacbfed-cf4e-409e-90d5-f1c4dc49c4d6
+  1681-03_100:
+    gravure (E36):
+      uuid: b4058e01-d005-44d7-a521-107883adb3fc
+      Identifiant MG: 339124d3-e446-4532-9015-019e0510d2f8
+      Identifiant iiif: 4a257f8a-145a-4849-91f6-f2bebcb9e633
+      titre forgé: f3f1b631-fbc4-4f78-b69f-5d11fb2576d3
+      titre péritexte: af3c92d3-303b-4d80-9ab2-ef763f7349c6
+      monstres:
+        zone de l'image (E36):
+          uuid: 46b5f92a-8240-4412-ad2b-7792c0fb0280
+          E13: 5d99e347-ffc2-41c0-af54-d9fee6ae7455
+          objet représenté: 1db19c33-6543-4c34-bc41-5880e6ab8269
+      Taureau aux pieds d'airain:
+        zone de l'image (E36):
+          uuid: bb1563b5-34ed-4e6d-b432-fc037501ded0
+          E13: b2ffe646-50f6-44eb-9cbd-74b9fe85ef24
+          objet représenté: 4778c8ef-f55c-4f64-b970-83cef66bc190
+      Dragon du jardin des Hespérides:
+        zone de l'image (E36):
+          uuid: 68608259-01f9-4c8b-825e-8d40daeea3f7
+          E13: 31df605a-3f8e-48d4-b326-659c74540c3b
+          objet représenté: a6bbcddc-d128-4a6a-859c-02a1e1e9178c
+  1681-03e_168:
+    gravure (E36):
+      uuid: e9b6948a-15b7-4c8a-96f2-f964f1548860
+      Identifiant MG: d8a44900-8d1e-4b9e-a574-1f7e5923b195
+      Identifiant iiif: b5f95258-db58-4107-bf04-90cf08ee07a8
+      titre forgé: 6fbdc181-2ec6-47c1-896e-548a5ca40ec2
+      titre péritexte: 1ed7c4cc-adf5-4de0-ac06-671d1ddb0d79
+      Madrid, Palacio de la Zarzuela:
+        zone de l'image (E36):
+          uuid: cecb890d-05b3-4163-ae1b-042fb29d5e0a
+          E13: f270188a-d187-4126-adcb-a86abe2b83c9
+          lieu représenté: 37404cac-b695-4d70-b8c5-0877e22d0a6e
+      place:
+        zone de l'image (E36):
+          uuid: 361280cf-7373-4994-89fd-a4a0e96612f4
+          E13: 879e3797-834a-4a0f-859b-90f5f6c3f764
+          objet représenté: b6bad7af-0955-4fad-9040-0f36b6f4687c
+      théâtre:
+        zone de l'image (E36):
+          uuid: b95ffb6f-871e-4f5e-96ba-6a6fea7fe281
+          E13: c6d64079-4f73-4fd6-90c0-8b1dd9ffa93f
+          objet représenté: cc0e6775-639a-4082-b434-d7326a3c7979
+  1681-03e_296:
+    gravure (E36):
+      uuid: 7ea43bf9-3003-43eb-b44a-75ca3197b34a
+      Identifiant MG: f6a5d2eb-555c-41c6-82fd-1e146abcf03d
+      Identifiant iiif: 25632dcb-29cf-47f6-b063-470e6f1b6035
+      titre forgé: 6a99ab12-ec13-4344-bf4b-87381b81afe0
+      titre péritexte: 8c0e0712-14bd-4faa-9cc6-1359b709a189
+      Madrid/Palacio Real de El Pardo:
+        zone de l'image (E36):
+          uuid: 9ecbab21-a308-4e62-93ad-673588c6cae8
+          E13: fa4829ed-e04a-4e4b-92ab-5b6cbdbe29da
+          lieu représenté: ea7d555e-825b-4eb3-adc4-fdf3a2593b1f
+      place:
+        zone de l'image (E36):
+          uuid: 41aabfd4-bbd4-4435-bdae-841fbf121d9f
+          E13: 87be2ab5-b1ab-412f-8890-32f293cca109
+          objet représenté: cf37fd40-fef3-40e8-82e7-7c965dd33437
+      palais:
+        zone de l'image (E36):
+          uuid: f4940f36-b90a-4772-8a48-8856f418ceaf
+          E13: 94699222-670e-4e7d-a3fa-2b6fb0c6178c
+          objet représenté: 2b7c0b83-22d4-4e22-8b39-fafb61d0a9eb
+  1681-04_096:
+    gravure (E36):
+      uuid: 1bd587cc-1de4-47c2-b19f-19c6bbc3a33a
+      Identifiant MG: a4a70481-7509-4d19-913d-869230435734
+      Identifiant iiif: 4e647336-9cdc-47bd-b837-89dfebd866f4
+      titre forgé: f99876f7-00d6-442c-9982-5daacb211dcc
+      titre péritexte: 120a09b0-5377-4b1c-9f2e-23fd2fa0eed4
+      Objet décoratif:
+        zone de l'image (E36):
+          uuid: fb1a0b5a-d63e-44f2-b711-becad8c66334
+          E13: 981536e3-26f4-4235-a4e2-3b04c609a2bf
+          objet représenté: 04eb2876-60f7-4669-9ed0-4da7f062491b
+      campagnes militaires:
+        zone de l'image (E36):
+          uuid: df3cdb0a-2865-4308-9f4b-96f09471ad50
+          E13: bc716690-bf4c-4766-979d-9b1507a079a7
+          objet représenté: 2fd9d60a-99a6-4776-a9d5-6513faf823b2
+  1681-04_304:
+    gravure (E36):
+      uuid: 0558bfc0-115f-4f91-add6-4a8dbeb35931
+      Identifiant MG: 391cbf2c-882a-4617-8236-e435f0c06ad0
+      Identifiant iiif: da8c5ffe-d2fd-4ba2-b475-ba73753eaa07
+      titre forgé: 4c04d1d2-0ed9-4084-8497-3af2572e00a2
+      titre péritexte: 475329a3-94c6-48ab-b12a-80b86db96e7e
+      Madrid agglomération/Aranjuez:
+        zone de l'image (E36):
+          uuid: fff75a7e-6f00-4c3a-8ee3-431254f8466e
+          E13: 1a3a7552-9240-49e0-b042-e51163b30627
+          lieu représenté: 918d69c7-4952-4fd7-96c8-1a6c729c848c
+      place:
+        zone de l'image (E36):
+          uuid: 8a09bf88-a904-4b40-8495-3af562f80243
+          E13: 46a58d23-0176-46f9-a0c0-2754dda18aa9
+          objet représenté: f7a09d67-73d5-4f5d-ae3a-b4d819b3d90f
+      palais:
+        zone de l'image (E36):
+          uuid: 1c008a79-acf1-4d7e-8f69-7e11c904d3d2
+          E13: cdb42b40-edfb-4c97-acdd-ce8291326338
+          objet représenté: ad0bdd5d-83b9-48be-9412-b916383ef592
+  1681-05_199:
+    gravure (E36):
+      uuid: 5187a43c-2d9f-408f-b2ac-2d91c90c14d9
+      Identifiant MG: 8ddbeafc-dbeb-4f52-bd39-e9e35393b195
+      Identifiant iiif: 6a06a9d9-5c47-42bb-beba-6998d67c1eed
+      E12 Production:
+        uuid: 3cb6f873-40e4-4c21-9d5f-8797dfaa8188
+        sculpsit:
+          uuid: 0dbee54d-f1b2-4a29-ac18-42b1233aa744
+          auteur: fadfd174-79bc-4604-897a-908557a36c96
+          E13: 4082ca8e-db7f-4bb5-bede-a3c927ffe140
+      titre forgé: 273a7249-6077-4a02-8bb3-822311930891
+      titre péritexte: de01d0b3-8af0-4a21-8522-79789c1db289
+      Madrid agglomération/Aranjuez:
+        zone de l'image (E36):
+          uuid: 073028c5-75ba-4535-8352-f419aab855b1
+          E13: 23b26941-1b99-45be-b499-5397c848d8a3
+          lieu représenté: 5e3777b0-692d-41bf-940e-edb520d1b47b
+      jardin:
+        zone de l'image (E36):
+          uuid: 4435f275-99a1-49fb-a8b3-88b795b1c2ab
+          E13: fbbd41bb-1e99-4d62-9706-29f0a47d2f5a
+          objet représenté: be0ed4c4-be75-40d7-9264-bcbbb1144456
+      lien externe:
+        E13: f2b4abb8-8119-4a8b-88be-d4bf742ea741
+  1681-06e_314:
+    gravure (E36):
+      uuid: 0be1e09c-5077-41b5-b32f-71c681f1587e
+      Identifiant MG: 916b8c8e-19eb-4287-9cf6-f4b65769102f
+      Identifiant iiif: 3b5e939b-f519-481e-b9e5-9a9ca5d96bef
+      titre sur l'image: d3b22b6a-3586-4e42-9ae4-fefa4e513142
+      titre forgé: bf17be72-e3ff-4d96-8919-3dba07f00a33
+      titre péritexte: 34483d24-565e-4750-8879-1ff369319eca
+      jardin:
+        zone de l'image (E36):
+          uuid: 9a30c5a0-70af-4766-b72e-4216f54d4c12
+          E13: ce392603-1bea-4922-b2ef-a260e524b189
+          objet représenté: 26d65411-e0cf-42f7-add3-a52a326debc5
+      fontaine:
+        zone de l'image (E36):
+          uuid: 658aa2dd-cbd2-4ddf-88bb-a424ddcf10c8
+          E13: 76610ff3-da3a-49c0-946f-5bb0c7e75027
+          objet représenté: bf799f7f-7189-44f9-99cd-3fed6a6eebc1
+  1681-07a_173:
+    gravure (E36):
+      uuid: 53d9f5ba-6ce6-4933-9a07-b24354d58212
+      Identifiant MG: 245d787f-0a2a-4abb-88f7-daab5c539e2c
+      Identifiant iiif: 08c2fda1-1a56-4529-a725-7b1b7bc5ff68
+      titre forgé: 8b035356-f51f-4a26-a066-ec5ce351ac88
+      titre péritexte: 630f4eae-0f18-4919-8350-cdcf4121db76
+      Bourbon-Lancy; 46° 37' 13" nord; 3° 46' 27"est:
+        zone de l'image (E36):
+          uuid: 3b5c0c4e-a320-4114-aec8-531be20aee2c
+          E13: 03167300-5a84-4150-bdb0-e99769e56e4b
+          lieu représenté: 77b27fe6-e7b8-4e88-8eeb-110382d9071d
+      Vue de ville:
+        zone de l'image (E36):
+          uuid: 16f51d3f-5fdd-42d0-909c-5e887e4b7d95
+          E13: 7185e1ab-1133-4879-aafb-75824b425cc4
+          objet représenté: 43a7e948-75a0-4816-b1d4-766c26ae902c
+  1681-09_311:
+    gravure (E36):
+      uuid: bd2b9558-f5f9-49c2-816f-414e0992d33c
+      Identifiant MG: d14c8c55-b579-4e1b-b526-5477c5944d9d
+      Identifiant iiif: 7a13a283-c8b6-4943-a677-a2b2b35a59af
+      titre forgé: d9565015-db9e-4cf3-bc43-bd95f10f95bf
+      titre péritexte: 65e8eb18-b090-4aac-b539-34924c49ef80
+      médaille:
+        zone de l'image (E36):
+          uuid: 5ef28cfd-e8b2-49a1-8e55-bf48ab76207c
+          E13: cd431fad-4e9a-4398-8245-cac26deaaba6
+          objet représenté: 17097cca-65a8-4f12-979f-7c41589bb08b
+      FONTANGES, Marie-Angélique d'Escorailles de Roussille [1661-1681], duchesse de:
+        zone de l'image (E36):
+          uuid: cbbd208e-e5ac-454c-a6ff-4df75a505b1e
+          E13: 27e3f4df-aff2-4bbe-b998-e9140420cb19
+          objet représenté: 456c98c2-48c7-4617-b31d-816124a2d62c
+  1682-03e_142:
+    gravure (E36):
+      uuid: c4db848a-8557-4a5e-82c6-5076d28d0827
+      Identifiant MG: 837b086e-08c0-477e-b7b2-0da2fe4a3f59
+      Identifiant iiif: f1218dc4-661d-4c80-9738-f34f3a0bb314
+      titre forgé: 56089467-54f7-4eaa-b61e-2e07af2663e7
+      titre péritexte: f62666a6-2097-428f-a519-e89ec740255b
+      San Lorenzo de El Escorial, 40° 35′ 21,04″ nord, 4° 08′ 52,62″ ouest:
+        zone de l'image (E36):
+          uuid: c20dcf6c-1efe-4b9c-b2b9-10f5cb7dc553
+          E13: aaec6734-3c96-4742-a3aa-289b0786e422
+          lieu représenté: 0355da9d-2178-4f5a-b9f2-9ea3b7176608
+      vue:
+        zone de l'image (E36):
+          uuid: 1372945b-7dd5-4e53-af2f-8334a686b9cf
+          E13: 1fcb5d2f-131e-42c1-ac71-0666dbfec05a
+          objet représenté: 3f3c332d-6236-43a8-9d0e-b9590568c10a
+      palais:
+        zone de l'image (E36):
+          uuid: a976a1b2-d007-41ce-ba38-ddd6f9370b65
+          E13: 88207a98-a5d5-4305-8227-642d7187ec1a
+          objet représenté: f4df639f-5884-4cd9-bca0-ddd42bcbb5be
+  1682-09a_109:
+    gravure (E36):
+      uuid: 44674df4-5f67-4f72-890e-3970a4a91813
+      Identifiant MG: 306ab014-b3a8-4c69-a5f9-fccf011f5ceb
+      Identifiant iiif: f8d5db06-199f-4212-b4a1-4beb7ed16a91
+      E12 Production:
+        uuid: cc3254c9-486c-47e3-9423-620c6ac11144
+        sculpsit:
+          uuid: 89941fd1-f02f-42f4-aca1-c8d32fd65416
+          auteur: e33232dd-eee9-41fc-8dbb-2a914372c5f4
+          E13: 178f621e-7ee6-48c4-a955-1161205de938
+      gallica:
+        E13: 32f49e5a-cf7c-4e19-8142-96b8e53d1e96
+      titre forgé: b9b50fe2-c3f3-427a-b9a2-dfbe7af6db7c
+      titre péritexte: 69a04ffd-7fd5-40f1-81bc-fc27f64b664f
+      'PARIS, Palais du Louvre ':
+        zone de l'image (E36):
+          uuid: b11f9a2e-d503-456b-9bc4-50b60563ad3e
+          E13: 1cb0ef64-eecd-45d5-a95b-430b75c8870a
+          lieu représenté: d0ded9e2-22cd-4fc0-bd4c-b9bb860352bb
+      feu d'artifice:
+        zone de l'image (E36):
+          uuid: 8ce3249f-f415-4251-94a8-0b493cfdaf8b
+          E13: d7932964-6bc9-47f5-915b-cba0a25dc110
+          objet représenté: b60c9ab8-3b75-4df8-ad04-d4d3c31928d3

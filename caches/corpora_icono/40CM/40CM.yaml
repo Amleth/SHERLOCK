@@ -1,0 +1,42 @@
+collection:
+  uuid: 0bb387c3-058e-44bc-aeb9-f8b8471b8ed1
+  E65: 3f698bc7-d752-480d-9ef1-cd56d9828245
+  E30: e2d8f411-52b6-4839-bde9-ad2fa022cbd3
+  livre:
+    F1: fec7a5b2-57bd-4537-8a66-dc22201f5943
+    E41: 2b659bd5-cece-4f0d-943d-aafda05baeb5
+    F27:
+      uuid: 754d7c9d-dcdd-410d-845b-2153b4932925
+      E52: 0c072568-4d82-49f4-9a44-04006a738b74
+    F2: ebf29fa6-3039-44d2-990d-5d3580e9793e
+    F28:
+      uuid: 0f1fa0cc-a011-44b0-ac43-5743a5835c6d
+      E52: 3bd26071-548a-469c-b623-b383ddc52db1
+    F3: 7932dec8-f096-4b15-a501-86ccee2707e6
+    F30:
+      uuid: d13217d8-c564-4853-80f1-323d65d5109e
+      E52: f95b159d-865f-4cc3-adfc-0b6558db9b55
+    F5: cc9ce568-5d4e-4386-9d87-8d0114c68f04
+    pages:
+      40CM_00001:
+        E18: eabaaf6b-6c91-447c-942b-2c505cb835fc
+        E90: 3a87bc15-1ecd-477e-9efc-22a689ace61a
+        E42:
+          id: 86528b58-ceca-472c-9a5d-dcfbb91ed47e
+          numéro: 20b1f06f-6805-4ac1-8cc8-0463d1d9e64a
+        D1: 48ffc6c3-a2b8-408e-b1a5-fde56c44b72f
+      D2: b2cb68ed-c7d7-4e37-9c31-93bb6528bc9b
+      40CM_00002:
+        E18: f0e878da-ac04-4be9-b339-612c27137237
+        E90: 801e13d4-eefe-4561-8d81-3eeec7f66ee0
+        E42:
+          id: a286ff7a-6243-45c4-ad67-87df8bd24114
+          numéro: 9df39158-b920-4372-b819-614eabcf571d
+        D1: 341b4ec0-9bf9-48e2-af92-b6d64d4c91d4
+      40CM_00003:
+        E18: 3b82e939-540a-479b-aa08-0f2ea50bf7a1
+        E90: 6a4add31-54cc-43d3-80ce-b891ae4a6bee
+        E42:
+          id: 64e38dc5-276c-4e83-b9bf-0379908b9598
+          numéro: 9e42b636-0150-4b45-8c9f-c0a21c7cd89d
+        D1: 6dc25477-7a96-4714-904a-9d9266630621
