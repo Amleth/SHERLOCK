@@ -228,7 +228,7 @@ def traitement_images(sous_collection):
 
 	for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 
-		id = ntpath.basename(img[:-4])
+		id = "MG-" + ntpath.basename(img[:-4])
 
 		## E36 Visual Item
 		gravure = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "uuid"], True))
@@ -260,7 +260,7 @@ def traitement_images(sous_collection):
 			if "copyOf" in id:
 				parties_de_l_id = id.split(" ")
 
-				id_article = "MG-" + parties_de_l_id[0]
+				id_article = parties_de_l_id[0]
 				# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
 				if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
 					id_article = id_article[:-1]
@@ -275,7 +275,7 @@ def traitement_images(sous_collection):
 
 			else:
 
-				id_article = "MG-" + id
+				id_article = id
 				# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
 				if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
 					id_article = id_article[:-1]
