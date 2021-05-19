@@ -228,7 +228,6 @@ def traitement_images(sous_collection):
 
 	for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 
-		#img_path = Path(img).parent
 		id = ntpath.basename(img[:-4])
 
 		## E36 Visual Item
@@ -255,16 +254,20 @@ def traitement_images(sous_collection):
 		  u(f"https://github.com/OBVIL/mercure-galant/blob/0ba4cfdbb66ccf7ed6af0a92bf1490a998e95b3c/images/{id.replace(' ', '%20')}.JPG"))
 		t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
 
-		#TODO Lier les images aux articles
+		### Rattachement à l'article
 		try:
 
 			if "copyOf" in id:
 				parties_de_l_id = id.split(" ")
 
-				id_livraison = "MG-" + id[:-15]
+				id_article = "MG-" + parties_de_l_id[0]
+				# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
+				if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
+					id_article = id_article[:-1]
+
+				id_livraison = id_article[:-4]
 				if id_livraison.endswith("_"):
 					id_livraison = id_livraison[:-1]
-				id_article = "MG-" + parties_de_l_id[0]
 
 				article_F2 = she(cache_corpus.get_uuid(
 					["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
@@ -272,17 +275,20 @@ def traitement_images(sous_collection):
 
 			else:
 
-				id_livraison = "MG-" + id[:-4]
-				if id_livraison.endswith("_"):
-					id_livraison = id_livraison[0:-1]
-
 				id_article = "MG-" + id
+				# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
+				if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
+					id_article = id_article[:-1]
+
+				id_livraison = id_article[:-4]
+				if id_livraison.endswith("_"):
+					id_livraison = id_livraison[:-1]
 
 				article_F2 = she(cache_corpus.get_uuid(
 					["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
 				t(article_F2, crm("P148_has_component"), gravure)
 		except:
-			print("Impossible de retrouver l'article de la gravure", id, ": livraison", id_livraison)
+			print("Impossible de retrouver l'article de la gravure", id_article, "(livraison " + id_livraison + ")")
 
 	#######################################################################
 	# 2.2 Un fichier excel
