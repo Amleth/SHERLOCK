@@ -127,3 +127,81 @@ vocabulaire indexation gravures:
     uuid: 6ebe6880-807f-42c2-b043-3d0d4f3f0cf1
   relevés décoratifs:
     uuid: 091e74ef-4292-42a4-8c5f-2b4517cf5d75
+  allégories amoureuses:
+    uuid: 5cbe87c4-7a33-4955-abcf-f7e00fe80943
+  enigmes en figure:
+    uuid: fa7e3dfe-b56c-4187-8707-ad1f61705685
+  génie civil:
+    uuid: aaf77951-ee8d-47e2-b838-14593fb3088e
+  anatomie:
+    uuid: 9ebc91ab-0701-4874-9ad7-638ed63c946d
+  astrologie [regrouper si besoin avec astronomie ; si thème royal, classer comme emblème]:
+    uuid: dd849799-3e56-417c-a60b-b41812cfe5d9
+  astronomie:
+    uuid: 02e3aed1-1d1a-4f7f-906d-d5133dccf7a7
+  musique:
+    uuid: 97cd68dc-fefc-440e-9298-d98dce52928f
+  optique:
+    uuid: 01241122-f1ec-434f-b6e8-4b271cc36b8c
+  zoologie:
+    uuid: 579d05e7-c228-47d6-ad3b-a08ee82f72b6
+  objets décoratifs et d’apparat [chaises à porteurs, pagodes chinoises, cadeaux diplomatiques…]:
+    uuid: 1e32f0ec-da13-4088-b168-fb5b40099b28
+  décors éphémères:
+    uuid: c5c22a3b-91fb-4950-bbba-d798a5d160ef
+  plans et descriptions de fêtes:
+    uuid: 529e0b55-87c4-42d4-b43a-5c2069830d5b
+  décors de spectacle:
+    uuid: 8ade8d74-e560-4c89-8fe7-ad33ea8924eb
+  apparats:
+    uuid: df60a3cb-bd6f-478c-ba72-d26c3c19d977
+  décors de théâtre:
+    uuid: 497e7fd6-0a8a-483d-aa26-d8a1948478d6
+  emblèmes:
+    uuid: 987c823e-dcda-44bf-8868-c072cc787cd9
+  mythologie greco-romaine:
+    uuid: 3e815944-9e91-471c-aaee-961e4cf8c45d
+  divinités:
+    uuid: 9ba985fc-ca2c-4b5d-b3c8-39a8109a97a4
+  bacchus:
+    uuid: 6d0dc8d6-05ec-44cd-a9c7-134677271e69
+  neptune:
+    uuid: 2c0e00ea-b7da-4b27-aac2-db8645a396ea
+  prométhée:
+    uuid: 7102a129-28d1-4da1-90f4-7ba2340fa6ac
+  protée:
+    uuid: ed117aa5-7dbb-478d-a303-83bf8d91f797
+  vénus:
+    uuid: 23521a2a-a210-4a44-8299-83ed1afee1b1
+  personnages:
+    uuid: fcf32e3a-cf17-4c32-a15f-1951f4af0859
+  ascagne:
+    uuid: 8c5056eb-0f98-46e3-9c2d-5976755e7f6d
+  géants:
+    uuid: 06acd1f5-641d-400e-af5e-d830079919e6
+  io:
+    uuid: 48579d24-9e95-4987-bd20-2ef2b0519e4c
+  thèmes mythologiques:
+    uuid: ada3fc1d-098d-4c5f-ba9f-d3227bbcd8a5
+  chaos:
+    uuid: 09bec11f-3b92-438c-9bc2-e8b9d5fd2f41
+  songe:
+    uuid: 321e15f3-fa0b-4f7e-a635-f9ec75f4aca2
+  architecture navale [galères, etc.]:
+    uuid: 802c1935-ec46-40ce-9e05-21da3f555159
+  plans de bâtiment [église, etc.]:
+    uuid: f341b35e-4f26-4045-a644-461dc4aca42f
+  sièges:
+    uuid: 4fd0ea72-1080-4651-9dcf-1651305e3e7a
+  vues et plans militaires:
+    uuid: fa202f8b-b150-499e-8c59-8d5f2f6a3b0f
+  deuil:
+    uuid: 38a225bc-a0ed-4df9-8d8d-9a322e83d319
+  mode vestimentaire:
+    uuid: 155875fd-9815-4a2b-a9e4-aec2d58106b7
+  obélisques:
+    uuid: ea154326-805c-4407-9b00-1ed673354163
+  http://vocab.getty.edu/page/aat/300007021:
+    uuid: fe4dc734-4806-4fa4-8f08-1dceefd96ce0
+  médailles:
+    uuid: 6625fc31-4dbf-4523-99f0-06c56e654f75
