@@ -145,7 +145,7 @@ def traitement_images(sous_collection):
 				gravure_id_iiif = she(cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant iiif"], True))
 				t(gravure_id_iiif, a, crm("E42_Identifier"))
 				t(gravure_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
-				t(gravure_id_iiif, RDFS.label, u(f"http://data-iremus.huma-num.fr/iiif/mercure-galant/{id.replace(' ', '%20')}/full/max/0/default.jpg"))
+				t(gravure_id_iiif, RDFS.label, u(f"http://data-iremus.huma-num.fr/iiif/3/{args.collection_id}--{id.replace(' ', '%20')}.tif/full/max/0/default.jpg"))
 				t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
 
 				## E12 Production
@@ -590,17 +590,17 @@ def traitement_images(sous_collection):
 			t(gravure_id_iiif, a, crm("E42_Identifier"))
 			t(gravure_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
 			t(gravure_id_iiif, RDFS.label,
-			  u(f"http://data-iremus.huma-num.fr/iiif/mercure-galant/{id.replace(' ', '%20')}/full/max/0/default.jpg"))
+			  u(f"http://data-iremus.huma-num.fr/iiif/3/{args.collection_id}--{id.replace(' ', '%20')}.tif/full/max/0/default.jpg"))
 			t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
 			### Identifiant GitHub
-			gravure_id_iiif = she(
+			gravure_id_github = she(
 				cache_images.get_uuid(["collection", id, "gravure (E36)", "Identifiant GitHub"], True))
-			t(gravure_id_iiif, a, crm("E42_Identifier"))
-			t(gravure_id_iiif, crm("P2_has_type"), she("cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea"))
-			t(gravure_id_iiif, RDFS.label,
+			t(gravure_id_github, a, crm("E42_Identifier"))
+			t(gravure_id_github, crm("P2_has_type"), she("cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea"))
+			t(gravure_id_github, RDFS.label,
 			  u(
 				  f"https://github.com/OBVIL/mercure-galant/blob/0ba4cfdbb66ccf7ed6af0a92bf1490a998e95b3c/images/{id.replace(' ', '%20')}.JPG"))
-			t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
+			t(gravure, crm("P1_is_identified_by"), gravure_id_github)
 
 			### Rattachement à l'article
 			try:
