@@ -138,7 +138,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                             clef_mercure_article = m.group()
                             try:
                                 F2_article_uri = she(cache_corpus.get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"]))
-                                E13_index_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E13_indexation"]))
+                                E13_index_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "indexation", "E13"], True))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
@@ -148,7 +148,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                #print(dcterms_identifier, clef_mercure_article)
+                                print(dcterms_identifier, clef_mercure_article)
                                 pass
             elif "##" in v:
                 v = v.split("##")
@@ -163,8 +163,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 F2_article_uri = she(cache_corpus.get_uuid(
                                     ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
                                      clef_mercure_article, "F2"]))
-                                E13_index_uri = she(
-                                    get_uuid(["personnes", dcterms_identifier, "E13_indexation"]))
+                                E13_index_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "indexation", "E13"], True))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
@@ -174,20 +173,21 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                #print(dcterms_identifier, clef_mercure_article)
+                                print(dcterms_identifier, clef_mercure_article)
                                 pass
             else:
+                # S'il s'agit d'une note à propos du E21
                 note_sha1_object = hashlib.sha1(v.encode())
                 note_sha1 = note_sha1_object.hexdigest()
-                E13_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E13"], True))
-                t(E13_uri, a, crm("E13_Attribute_Assignement"))
-                t(E13_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
-                t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-                t(E13_uri, crm("P140_assigned_attribute_to"), E21_uri)
-                E13_notes_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "E13_notes", note_sha1], True))
-                t(E13_notes_uri, RDFS.label, Literal(v))
-                t(E13_uri, crm("P141_assigned"), E13_notes_uri)
-                t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
+                E13_note_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "note", "E13"], True))
+                t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
+                t(E13_note_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
+                t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                t(E13_note_uri, crm("P140_assigned_attribute_to"), E21_uri)
+                note_uri = she(cache_personnes.get_uuid(["personnes", dcterms_identifier, "note", note_sha1], True))
+                t(note_uri, RDFS.label, Literal(v))
+                t(E13_note_uri, crm("P141_assigned"), note_uri)
+                t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
     for note in [SKOS.editorialNote, SKOS.historyNote, SKOS.note, SKOS.scopeNote]:
         process_note(note)
