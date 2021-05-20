@@ -153,7 +153,7 @@ def explore(id, depth):
                                     F2_article_uri = she(cache_corpus.get_uuid(
                                         ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
                                          clef_mercure_article, "F2"]))
-                                    E13_index_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_indexation"], True))
+                                    E13_index_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "indexation", "E13"], True))
                                     t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                     t(E13_index_uri, DCTERMS.created, ro(id, DCTERMS.created))
                                     t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -162,7 +162,7 @@ def explore(id, depth):
                                     t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                                 except:
-                                    # print(identifier, clef_mercure_article)
+                                    print(identifier, clef_mercure_article)
                                     pass
 
                 elif "##" in v:
@@ -178,7 +178,7 @@ def explore(id, depth):
                                     F2_article_uri = she(cache_corpus.get_uuid(
                                         ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
                                          clef_mercure_article, "F2"]))
-                                    E13_index_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_indexation"], True))
+                                    E13_index_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "indexation", "E13"], True))
                                     t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                     t(E13_index_uri, DCTERMS.created, ro(id, DCTERMS.created))
                                     t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -187,21 +187,21 @@ def explore(id, depth):
                                     t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                                 except:
-                                    # print(identifier, clef_mercure_article)
+                                    print(identifier, clef_mercure_article)
                                     pass
 
                 else:
                     note_sha1_object = hashlib.sha1(v.encode())
                     note_sha1 = note_sha1_object.hexdigest()
-                    E13_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13"], True))
-                    t(E13_uri, a, crm("E13_Attribute_Assignement"))
-                    t(E13_uri, DCTERMS.created, ro(id, DCTERMS.created))
-                    t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-                    t(E13_uri, crm("P140_assigned_attribute_to"), E93_uri)
-                    E13_notes_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E13_notes", note_sha1], True))
-                    t(E13_notes_uri, RDFS.label, l(v))
-                    t(E13_uri, crm("P141_assigned"), E13_notes_uri)
-                    t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
+                    E13_note_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "note", "E13"], True))
+                    t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
+                    t(E13_note_uri, DCTERMS.created, ro(id, DCTERMS.created))
+                    t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                    t(E13_note_uri, crm("P140_assigned_attribute_to"), E93_uri)
+                    note_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "note", note_sha1], True))
+                    t(note_uri, RDFS.label, l(v))
+                    t(E13_note_uri, crm("P141_assigned"), note_uri)
+                    t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
         for note in [SKOS.note, SKOS.historyNote]:
             process_note(note)

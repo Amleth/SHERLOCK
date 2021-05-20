@@ -149,20 +149,20 @@ def count_concepts():
 
 def explore(concept, depth):
 
-    concept_id = ro(concept, DCTERMS.identifier)
-    E74_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "uuid"], True))
+    identifier = ro(concept, DCTERMS.identifier)
+    E74_uri = she(cache_congregations.get_uuid(["congregations", identifier, "uuid"], True))
     t(E32_ancien_regime_uri, crm("P71_lists"), E74_uri)
     t(E32_congregations_uri, crm("P71_lists"), E74_uri)
     t(E74_uri, a, crm("E74_Group"))
 
     # IDENTIFIER OPENTHESO
-    E42_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E42_opentheso"], True))
+    E42_uri = she(cache_congregations.get_uuid(["congregations", identifier, "E42_opentheso"], True))
     t(E42_uri, a, crm("E42_Identifier"))
     t(E74_uri, crm("P1_is_identified_by"), E42_uri)
-    t(E42_uri, RDFS.label, Literal(concept_id))
+    t(E42_uri, RDFS.label, Literal(identifier))
 
     # APPELLATION
-    E41_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E41"], True))
+    E41_uri = she(cache_congregations.get_uuid(["congregations", identifier, "E41"], True))
     t(E74_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
     for prefLabel in ro_list(concept, SKOS.prefLabel):
@@ -171,14 +171,14 @@ def explore(concept, depth):
     altLabels = ro_list(concept, SKOS.altLabel)
     if len(altLabels) > 0:
         for altLabel in altLabels:
-            E41_alt_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E41_alt", altLabel], True))
+            E41_alt_uri = she(cache_congregations.get_uuid(["congregations", identifier, "E41_alt", altLabel], True))
             t(E41_alt_uri, a, crm("E41_Appellation"))
             t(E41_alt_uri, RDFS.label, altLabel)
             t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
 
     # ALIGNEMENT AU REFERENTIEL DES LIEUX
-    if concept_id in id_congrégations_à_aligner:
-        for label in noms_de_congrégations_normalisés[str(concept_id).lower()]:
+    if identifier in id_congrégations_à_aligner:
+        for label in noms_de_congrégations_normalisés[str(identifier).lower()]:
             for lieu in cache_lieux_uuid_yaml_normalisé.keys():
                 if label.endswith(" " + lieu) or label.endswith("'"+lieu) or label.endswith(" de "+lieu) or label.endswith(" a "+lieu) or label.endswith(" du "+lieu) or label.endswith(" le "+lieu) or label.endswith(" la "+lieu) or label.endswith(" à "+lieu):
                     lieu_uuid = cache_lieux_uuid_yaml_normalisé[lieu][0]
@@ -205,7 +205,7 @@ def explore(concept, depth):
                                     ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
                                      clef_mercure_article, "F2"]))
                                 E13_index_uri = she(
-                                    cache_congregations.get_uuid(["congregations", concept_id, "E13_indexation"], True))
+                                    cache_congregations.get_uuid(["congregations", identifier, "indexation", "E13"], True))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(concept, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -214,7 +214,7 @@ def explore(concept, depth):
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                # print(identifier, clef_mercure_article)
+                                print(identifier, clef_mercure_article)
                                 pass
 
             elif "##" in v:
@@ -231,7 +231,7 @@ def explore(concept, depth):
                                     ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
                                      clef_mercure_article, "F2"]))
                                 E13_index_uri = she(
-                                    cache_congregations.get_uuid(["congregations", concept_id, "E13_indexation"], True))
+                                    cache_congregations.get_uuid(["congregations", identifier, "indexation", "E13"], True))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(concept, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -240,21 +240,21 @@ def explore(concept, depth):
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                # print(identifier, clef_mercure_article)
+                                print(identifier, clef_mercure_article)
                                 pass
 
             else:
                 note_sha1_object = hashlib.sha1(v.encode())
                 note_sha1 = note_sha1_object.hexdigest()
-                E13_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E13_indexation"], True))
-                t(E13_uri, a, crm("E13_Attribute_Assignement"))
-                t(E13_uri, DCTERMS.created, ro(concept, DCTERMS.created))
-                t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-                t(E13_uri, crm("P140_assigned_attribute_to"), E74_uri)
-                E13_notes_uri = she(cache_congregations.get_uuid(["congregations", concept_id, "E13_notes", note_sha1], True))
-                t(E13_notes_uri, RDFS.label, Literal(v))
-                t(E13_uri, crm("P141_assigned"), E13_notes_uri)
-                t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
+                E13_note_uri = she(cache_congregations.get_uuid(["congregations", identifier, "note", "E13"], True))
+                t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
+                t(E13_note_uri, DCTERMS.created, ro(concept, DCTERMS.created))
+                t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                t(E13_note_uri, crm("P140_assigned_attribute_to"), E74_uri)
+                note_uri = she(cache_congregations.get_uuid(["congregations", identifier, "note", note_sha1], True))
+                t(note_uri, RDFS.label, Literal(v))
+                t(E13_note_uri, crm("P141_assigned"), note_uri)
+                t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
     for note in [SKOS.note, SKOS.historyNote]:
         process_note(note)
