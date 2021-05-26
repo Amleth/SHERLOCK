@@ -34,58 +34,10 @@ def init_cache():
 output_graph = Graph()
 
 # Namespaces pour préfixage
-crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
-crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
-iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
-lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
-sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
-sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 
-output_graph.bind("crm", crm_ns)
-output_graph.bind("dcterms", DCTERMS)
-output_graph.bind("lrm", lrmoo_ns)
-output_graph.bind("sdt", sdt_ns)
-output_graph.bind("skos", SKOS)
-output_graph.bind("she", iremus_ns)
-output_graph.bind("crmdig", crmdig_ns)
 
-a = RDF.type
 
-def crm(x):
-	return crm_ns[x]
 
-def crmdig(x):
-	return crmdig_ns[x]
-
-def lrm(x):
-	return lrmoo_ns[x]
-
-def she(x):
-	return iremus_ns[x]
-
-def she_ns(x):
-	return sherlock_ns[x]
-
-def t(s, p, o):
-	output_graph.add((s, p, o))
-
-def make_collection(collection_row):
-	collection = she(cache_images.get_uuid(["collection", "uuid"], True))
-	t(collection, a, crmdig("D1_Digital_Object"))
-	t(collection, RDFS.label, l(collection_row[1].value))
-	t(collection, crm("P2_has_type"), she("14926d58-83e7-4414-90a8-1a3f5ca8fec1"))
-	# Creation
-	collection_E65 = she(cache_images.get_uuid(["collection", "E65"], True))
-	t(collection_E65, a, crm("E65_Creation"))
-	t(collection_E65, crm("P94_has_created"), collection)
-	t(collection_E65, crm("P14_carried_out_by"), she(collection_row[3].value))
-	# Licence
-	collection_E30 = she(cache_images.get_uuid(["collection", "E30"], True))
-	t(collection_E30, a, crm("E30_Right"))
-	t(collection, crm("P104_is_subject_to"), collection_E30)
-	t(collection_E30, RDFS.label, l(collection_row[6].value))
-	# Attribution
-	t(collection, crm("P105_right_held_by"), she("48a8e9ad-4264-4b0b-a76d-953bc9a34498"))
 
 # S'il s'agit d'images individuelles
 def traitement_images(sous_collection, excel_coll, collection_id):

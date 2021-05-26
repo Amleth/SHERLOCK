@@ -1,0 +1,44 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<1595d9da-2d77-467a-afd3-7808535b8ee6> a crm:E65_Creation ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P94_has_created <759d110d-fd68-47bb-92fd-341bb63dbcae> .
+
+<d7612150-6ba5-43f2-a74a-91a3077d98be> a crm:E65_Creation ;
+    crm:P14_carried_out_by <7ebda3f2-cdfb-4f9c-9b86-0fb559bbfee5> ;
+    crm:P94_has_created <0bb387c3-058e-44bc-aeb9-f8b8471b8ed1> .
+
+<e8f46a54-8e03-48c9-9116-057eacd68337> a crm:E65_Creation ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47922> ;
+    crm:P94_has_created <3a0fcd6a-c226-49f4-ac11-5eff8448ee55> .
+
+<0bb387c3-058e-44bc-aeb9-f8b8471b8ed1> a crmdig:D1_Digital_Object ;
+    crm:P104_is_subject_to <e1078136-a291-4d25-9482-0d1d233a87e2> ;
+    crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
+    crm:P1_is_identified_by "Les 40 chanteurs montagnards" ;
+    crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
+
+<1a4cfe98-858b-47d2-85ee-de8987440ee8> a crm:E30_Right ;
+    rdf:value "None" .
+
+<3a0fcd6a-c226-49f4-ac11-5eff8448ee55> a crmdig:D1_Digital_Object ;
+    crm:P104_is_subject_to <1a4cfe98-858b-47d2-85ee-de8987440ee8> ;
+    crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
+    crm:P1_is_identified_by "Musique (gravures du Mercure Galant)" ;
+    crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
+
+<41252592-ca52-48b6-a28c-689b505baa6a> a crm:E30_Right ;
+    rdf:value "None" .
+
+<759d110d-fd68-47bb-92fd-341bb63dbcae> a crmdig:D1_Digital_Object ;
+    crm:P104_is_subject_to <41252592-ca52-48b6-a28c-689b505baa6a> ;
+    crm:P105_right_held_by <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
+    crm:P1_is_identified_by "Estampes (gravures du Mercure Galant)" ;
+    crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> .
+
+<e1078136-a291-4d25-9482-0d1d233a87e2> a crm:E30_Right ;
+    rdf:value "https://creativecommons.org/publicdomain/zero/1.0/" .
+
