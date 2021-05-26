@@ -12,7 +12,6 @@ parser.add_argument("--ttl")
 parser.add_argument("--xlsx")
 args = parser.parse_args()
 
-
 init_graph()
 cache = Cache(args.cache)
 

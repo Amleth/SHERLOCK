@@ -1,4 +1,4 @@
-# TODO Transformer les auteurs d'ouvrages en E21?
+# TODO SCRIPT A REMANIER
 
 import argparse
 from openpyxl import load_workbook
@@ -47,37 +47,6 @@ for row in index:
 		break
 
 make_collection(collection_row)
-
-#####################################################################
-# 1. UNE COLLECTION D'IMAGES INDIVIDUELLES
-#####################################################################
-
-#####################################################################
-# 1.3 Choix de la collection à traiter
-#####################################################################
-
-if collection_row[4].value == "Images":
-
-	img_row = None
-
-	if args.collection_id == "mg_estampes":
-		coll_estampes = she(cache_images.get_uuid(["collection", "estampes"], True))
-		print("Je me trouve dans la collection d'estampes")
-		t(coll_estampes, a, crmdig("D1_Digital_Object"))
-		t(coll_estampes, RDFS.label, l("Collection d'estampes"))
-		t(coll_estampes, crm("P2_has_type"), she("20674932-def8-4a73-9b67-ac49a16b5243"))
-		t(collection, crm("P106_is_composed_of"), coll_estampes)
-		traitement_images(coll_estampes, args.excel_coll, args.collection_id)
-
-	if args.collection_id == "mg_musique":
-		coll_musique = she(cache_images.get_uuid(["collection", "musique"], True))
-		print("Je me trouve dans la collection de partitions")
-		t(coll_musique, a, crmdig("D1_Digital_Object"))
-		t(coll_musique, RDFS.label, l("Collection de partitions"))
-		t(coll_musique, crm("P2_has_type"), she("fa4959c8-8537-4ef0-8d58-4f761e9679b1"))
-		t(collection, crm("P106_is_composed_of"), coll_musique)
-		traitement_images(coll_musique, args.excel_coll, args.collection_id)
-
 
 #####################################################################
 # 2. UNE PUBLICATION NUMERISEE
@@ -181,7 +150,6 @@ if collection_row[4].value == "Edition":
 			t(collection, crm("P106_is_composed_of"), page_D1)
 
 			# TODO Transcription de la page
-
 
 ####################################################################################
 # 3. ECRITURE DU FICHIER TURTLE
