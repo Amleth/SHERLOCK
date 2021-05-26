@@ -8,7 +8,7 @@
 
 import argparse
 from openpyxl import load_workbook
-from rdflib import Graph, Literal, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, XSD, URIRef as u, Literal as l
+from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, XSD, URIRef as u, Literal as l
 import sys
 from sherlockcachemanagement import Cache
 
@@ -102,7 +102,7 @@ for line in lines:
             g.add((
                 u(cache.get_uuid([current_broaders[depth - 1]])),
                 crm['P127_has_broader_term'],
-                u(cache.get_uuid([line]))
+                u(cache.get_uuid([line], True))
             ))
         else:
             print("Code pourri :", line)
@@ -133,4 +133,5 @@ for tlkw in toplevel_keywords:
 serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.ttl, "wb") as f:
     f.write(serialization)
+
 cache.bye()

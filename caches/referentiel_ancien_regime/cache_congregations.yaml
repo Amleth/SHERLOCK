@@ -305,6 +305,9 @@ congregations:
     E13_indexation: 0099a2bc-07a0-4265-a742-81794e00eee0
     E13_notes:
       efa67e0c2495e3b394d3bb165fdc8a73da7d7b61: 7bc341ab-496d-4161-86c6-59006e3d97c5
+    note:
+      E13: 9f3a4ed8-d251-474c-bb35-9453acc79498
+      efa67e0c2495e3b394d3bb165fdc8a73da7d7b61: 25b90da3-af88-493e-bdfa-347c12eb4af0
   jesuites_de_grenoble:
     uuid: 997b01e4-83f0-4592-b482-703173411f85
     E42_opentheso: ff2a0725-72f6-4288-8b13-55de53015368
@@ -404,16 +407,23 @@ congregations:
     E13_indexation: 5ed1a556-0c30-4891-a4ce-79d0ae5f7edd
     E13_notes:
       587ef2f79d394c6b66f01d050ecd289656e87ffa: 9c017e08-d81b-4865-950c-7d6c7c8c1739
+    note:
+      E13: c03ff896-407d-4a43-9047-de535d346070
+      587ef2f79d394c6b66f01d050ecd289656e87ffa: b5bda0d4-5945-4f84-92f5-c3d6ca8b890f
   ursulines:
     uuid: 2e6be79d-9364-4933-8f3f-8cf8fc38ab48
     E42_opentheso: 86f3532d-a0cd-4d2f-8cda-7f4817d59a5e
     E41: 9803fa1f-dd53-4576-bdd0-ea0a3dd18045
     E13_indexation: 44645d42-d549-4df7-a2ea-9708a4d0fd4c
+    indexation:
+      E13: e22a0d88-ff7b-4447-a7f4-3f149ab735cf
   ursulines_de_chatillon-sur-seine:
     uuid: e4f88730-61bb-440e-bbc6-1250ff1f690c
     E42_opentheso: 313311f5-9ca3-4458-a5a5-021c7451a2ed
     E41: dcff0be4-d46b-4988-abea-f04030dc0e12
     E13_indexation: eae4cb13-5237-46d0-a8e3-48edfcb3376a
+    indexation:
+      E13: a4fe55ec-b346-469d-a743-755e9a616d98
   '293835':
     uuid: ff498e3b-5d2d-46bb-815e-836048a108f1
     E42_opentheso: 60647091-900c-4c4d-a396-cad9d99bff1a
@@ -423,6 +433,8 @@ congregations:
     E42_opentheso: 8700c0b3-9d02-4672-b677-2d1f0fab1366
     E41: 6a83889f-9996-4dee-b0a7-717118405310
     E13_indexation: 60cc9d9e-5f80-45d9-b7ff-fcca52af7e32
+    indexation:
+      E13: 6136af00-98ae-4b89-9226-1dec91c4fe54
   ursulines_du_havre:
     uuid: b6ca42cf-cdf6-4846-a9b2-6dd0d509b106
     E42_opentheso: b7b72825-e7f9-4322-a75c-a83271d75911
@@ -712,11 +724,15 @@ congregations:
     uuid: c4d1d812-c5a1-432e-8b1f-7ba1b8ca6777
     E42_opentheso: 72854f07-1a40-4aed-a192-8c5dc2f89192
     E41: 5a2a8dd9-4814-44c6-aa01-1cb697d986f9
+    E41_alt:
+      Ordre de Saint-Jean de Jérusalem: 5e756989-3c3d-40a8-ba2c-0e5a3c6c429e
   '276458':
     uuid: 63221a09-4561-48dc-9923-c56844540207
     E42_opentheso: 78cebd40-0326-4bed-ae73-6dd5b7be6a68
     E41: d816c199-f3c8-41d4-952f-463fbf9944b4
     E13_indexation: 33e86e7f-c777-4a13-b39b-d17e1afbc627
+    indexation:
+      E13: aecb36f5-1582-4212-9937-f62a274239bf
   '277992':
     uuid: 85a0c4d6-ca14-400e-b5aa-909c66dfcfd8
     E42_opentheso: 33a36a3b-e153-4667-a5f2-28a263c4d155
@@ -986,6 +1002,8 @@ congregations:
     E42_opentheso: ac8a2ad4-c2fa-4483-8c1d-241b6cf6bcc7
     E41: 89928a6a-5b44-4962-addb-f582e0f9ddc5
     E13_indexation: 6004acce-1164-4d62-92ea-d5d63169d562
+    indexation:
+      E13: ce0133f1-fa09-4516-826f-69c8b3517fd1
   capucins_de_compiegne:
     uuid: 855fa07b-7e8a-4a6b-aa6f-d187ba6a1f34
     E42_opentheso: eb3ba1de-ef24-4b14-9bc9-3c5ad58fe2d8
@@ -1025,6 +1043,9 @@ congregations:
     E13_indexation: b585e676-124a-4268-9eea-cdb3864e8c1e
     E13_notes:
       a3811892cfc2a035271d92012bada2645dba59a5: 2362b72d-8020-431c-8956-0b82fee83225
+    note:
+      E13: c64c084e-3067-47ae-9389-48469efc825f
+      a3811892cfc2a035271d92012bada2645dba59a5: 4035be18-e38f-41b0-8c7d-c5679b3d05f9
   '278127':
     uuid: 64b96bf5-4e84-4ffc-9902-0ddc858beb31
     E42_opentheso: 8d044c46-69fa-442a-afab-f003ae34e909
@@ -1385,6 +1406,9 @@ congregations:
     E13_indexation: 6251fca4-84f3-40af-9c3c-e7831964a307
     E13_notes:
       dd3b6e1fd79889abaef5792b7bf9eb8365885e15: 102702e1-1631-4460-97de-36527386a3ef
+    note:
+      E13: 70377c5b-0215-45dd-94b4-942b531c73e9
+      dd3b6e1fd79889abaef5792b7bf9eb8365885e15: 105f5da3-5584-443b-9d6a-8358331e9758
   pretes_de_la_mission_de_troyes:
     uuid: f34133a9-89d4-4aa5-85b7-c07fa198e846
     E42_opentheso: c6f3f906-c67f-46f8-8227-fa9245a12084
@@ -1720,6 +1744,9 @@ congregations:
     E13_indexation: 12bac5f5-c30a-466d-a5f5-28a45dc7a22e
     E13_notes:
       6b9e0d7bb449cd1d8ad533520f4c41d837a0bcfc: bc522a88-acfe-42f5-9a5d-92859bd1418d
+    note:
+      E13: 38a73e3a-1624-4a9a-9f42-cecabb9576d8
+      6b9e0d7bb449cd1d8ad533520f4c41d837a0bcfc: 6096b805-e68c-45cb-af58-2b555041a485
   '277896':
     uuid: 8bd94195-36ea-41d7-8dea-bfa5346180c8
     E42_opentheso: 4ee79fc5-e393-4d34-b1af-2c763f6a726c
@@ -2079,6 +2106,9 @@ congregations:
     E13_indexation: 5d9dca34-dcb5-49ba-ac9d-a8b10d67e1ed
     E13_notes:
       fd91c495ca68215fad7ccf04ab9a05e45180a06d: 735efe56-439d-40f4-ada3-b23a169b1254
+    note:
+      E13: 88adc8c9-293f-449d-a321-9574f92f68fe
+      fd91c495ca68215fad7ccf04ab9a05e45180a06d: 8fd42ce2-32c3-4ffc-8346-62efeeb02cb0
   '294017':
     uuid: c3231674-8211-4606-8151-aaa10dd79c5f
     E42_opentheso: faac1fdf-6474-4ad6-8bd3-94d93eae8d8f
@@ -2086,6 +2116,9 @@ congregations:
     E13_indexation: 9ffd8f06-be7c-4058-bfc3-70a027f57f1f
     E13_notes:
       7077c85d7182483f1b5addd02e2e6726896473ac: 0727bb62-0b60-4ddf-ada0-4ea4ab07f0fa
+    note:
+      E13: 60b74f06-14fb-4f9d-883d-b71a164422c5
+      7077c85d7182483f1b5addd02e2e6726896473ac: 8c031cfb-311f-4368-badf-bcbc6b125d23
   maitrise_de_saint-pierre_de_rome:
     uuid: d690a58d-2acd-4777-a5b3-e74a22d847a2
     E42_opentheso: 5a583d21-8d18-496c-8387-853a04a297f7
@@ -2108,3 +2141,135 @@ congregations:
     E41: 9b0f0f76-6162-41a8-9a68-00e4a7a46960
     E41_alt:
       Compagnie de la Rote: 36f2dca3-9264-4518-bd9f-36841772acaa
+  '294719':
+    uuid: 0128a6a2-c344-47e0-b329-9341fa689561
+    E42_opentheso: 0582bf23-06ec-42be-9db6-7070795c84d5
+    E41: 8dd6b266-4a1e-4ef6-a5e9-d9a049718791
+  '294537':
+    uuid: 2b9e81c1-ca19-47ce-9b2c-6607b9786b7b
+    E42_opentheso: c6be77b5-f707-40d4-906d-82a948e09783
+    E41: 5bf07a45-ddf7-456b-bd67-8f229cbbb215
+  '294777':
+    uuid: 81384312-9b02-4934-a5ad-64487a1a4649
+    E42_opentheso: d8134060-530f-40fb-ac25-a7aca35c297b
+    E41: 5f6ceaf4-9d0a-41d6-bcd9-f0fd92a8069a
+  '294629':
+    uuid: 4d9d3413-fc6b-40da-948a-166ebc61b203
+    E42_opentheso: 1d250bd1-801c-4c2f-99c3-2d5552ba7652
+    E41: ec2d58ae-17c2-4d1b-9d8b-bca8e23c1eff
+  '294517':
+    uuid: 268be789-e3cc-4d6e-ba0a-f0c00c28bac0
+    E42_opentheso: c2f5cb40-8289-402b-bf6b-ade574f131b7
+    E41: 8ab19ffd-be15-4f06-82aa-2210c746e9f3
+  '294437':
+    uuid: 203dee39-0a98-4825-bf8f-d117d36558a5
+    E42_opentheso: 92d68753-aae2-45cf-98a1-943243ec9ef1
+    E41: 26b52791-b4e1-445b-8ce7-93f6903e72b1
+  '294619':
+    uuid: 5b0e23e1-a630-48f0-96e5-661c2c707388
+    E42_opentheso: 0126152c-e719-4d90-b4ee-187c8a29bfce
+    E41: 6df22116-5b01-4f15-9c86-d7ba1c33a733
+  '294979':
+    uuid: 911f3aa4-b87e-4345-a17c-2f8fb08213d5
+    E42_opentheso: fd416ced-3ea6-4951-9c71-c043f04b6778
+    E41: 74b4b4c9-f818-44fc-9894-bc84769305c0
+  '294379':
+    uuid: 2be24440-be89-4480-be75-28671dcd70cc
+    E42_opentheso: a93eaabf-a2b3-4632-8164-529a91e46400
+    E41: 37593766-ecc9-41b2-914b-343094a62efb
+  '295019':
+    uuid: 66ecb801-113d-4714-b16a-29a994ba5b6b
+    E42_opentheso: b7c3093e-c9a1-41bf-a43b-469dcc0863b3
+    E41: 197e6658-505f-4163-b152-eb047c10ccb0
+  '294513':
+    uuid: b20e3cf7-f076-4ec2-84af-56f0821f684f
+    E42_opentheso: 4238f11a-d1ec-4a09-8e09-43ac46499097
+    E41: 7d964475-31d0-443e-aed8-c3697a2f525a
+  '294515':
+    uuid: 6c916fb8-42b7-431a-9e2c-b435a97083b2
+    E42_opentheso: 1cd748b7-a222-4b9e-8417-568ca95294f2
+    E41: 79aa6a0b-a4c7-4154-a216-8f4b93da1c35
+  '294733':
+    uuid: 0d242b05-25fa-434d-bd5e-d0c36fb3d49f
+    E42_opentheso: 9ec282d1-c3af-44c8-a26c-b087fd0a14cb
+    E41: c91794b3-b9b1-41cc-81c6-e6de7ab24c29
+  '294907':
+    uuid: 4aa7ee82-fd36-4981-b369-197a020d64e3
+    E42_opentheso: f645b817-4f89-4ec1-bf43-a740fcc9ff47
+    E41: b412871b-107a-42d1-80e4-57ae10333e17
+  '295021':
+    uuid: 16e56e67-63e1-4d28-a1fb-233af0d1a7a9
+    E42_opentheso: 62e36d78-f095-40f3-ab49-a0707f5e2f7d
+    E41: cd5c5b53-370c-46d4-b262-015f4d98828a
+  '295023':
+    uuid: c47edd82-66c2-44df-85d0-113bf57e503a
+    E42_opentheso: 287a0190-71f4-4f32-bf03-6c89d063cb18
+    E41: 7ac4c640-65ff-4905-97cd-82bb0a27bf74
+  '294409':
+    uuid: 92f7a43b-a51f-4bf1-9957-c53a03ab394d
+    E42_opentheso: 899894c8-4f85-4695-aeb0-24306ad6ac32
+    E41: 1df9eff8-5648-4e3f-9797-3d72f9ad8ded
+  '294781':
+    uuid: f658c87b-a1d7-47fa-a241-b71a17a366a1
+    E42_opentheso: 402256ed-4b85-4ae9-a157-ec4b247b80f0
+    E41: 064cf991-34a6-494c-92ff-02e8c159ac89
+  '294587':
+    uuid: b21b371d-5030-4898-a695-5838969433f6
+    E42_opentheso: bcb2fc72-8eed-497d-8b3b-bf2346941413
+    E41: 011b3ab8-6f5b-4e48-b59f-9c708443cc56
+  '295109':
+    uuid: 66577737-d0af-4809-a78b-29517cc62b7d
+    E42_opentheso: 3c997572-6730-4024-9985-94c6746f1e0d
+    E41: d1284066-3962-475f-aa37-6f7c271ed5b6
+  '294653':
+    uuid: fbca68fb-2ad0-44ab-8cf5-ca684bcfd6c7
+    E42_opentheso: 784e70ed-1c15-452d-a1ac-63ac298b7eaf
+    E41: 28344cfa-648e-40dd-b5a4-8a20ced3e62e
+  '295017':
+    uuid: fcc1bbea-c294-4999-9fde-633252396781
+    E42_opentheso: 7fc85f8b-89a3-4b49-b365-10365b6c5e26
+    E41: f409f2a6-fc27-4653-bdc2-bb434b4a468e
+  '294535':
+    uuid: 7443f0d2-c200-4bd7-b3af-3026b7bc54e3
+    E42_opentheso: 3a9479f1-56e7-49a6-b52c-e92333012a3b
+    E41: 53a88243-7590-45d3-95ab-22fa7ebbcd52
+  '294779':
+    uuid: 36f48c64-3f0f-40c2-8e07-53cd6ad1bdd3
+    E42_opentheso: 3179e4c8-0b86-4005-8983-1e5d52b343cc
+    E41: e698d012-2a4d-40b8-8407-018d23837955
+  '294677':
+    uuid: 27a73994-217d-4172-b4bd-2caa3fa07cdd
+    E42_opentheso: f8bc8c5a-86cb-490e-91a5-89e2971c5829
+    E41: 7d5d1547-8fe9-415d-b0e8-cfb70a05b155
+  '294539':
+    uuid: 4d957c2e-d0ec-470d-8bf2-680a59149d3f
+    E42_opentheso: aa6798a7-7212-417d-bf4b-29a1cdafb0a0
+    E41: 40a613bc-dc5a-4a45-84eb-29412f9cfae7
+  '294439':
+    uuid: 0e297a75-9965-4295-8799-5634780345f4
+    E42_opentheso: a5ef26e7-df37-4c08-b260-a1810571f305
+    E41: 6b9b198a-ac77-40dc-9dae-8a0d8f88241d
+  '294655':
+    uuid: bc49e1d8-ab52-48b7-8eb9-a886c673a50d
+    E42_opentheso: e1909f74-bca8-48e9-84cf-a2a2c07f2ef0
+    E41: 312e1be8-85de-4a17-89f3-eb6891982383
+  '294657':
+    uuid: 58e3c186-c454-4431-8aec-0c0b2b91c541
+    E42_opentheso: 406f88ab-4f1a-44e2-aada-064992ecea38
+    E41: bce1c2b2-3eb8-4d70-b353-0e72d96d185c
+  '294541':
+    uuid: 45f4d765-588c-4640-8ec7-97ec805b51d7
+    E42_opentheso: 8d9d6187-332a-4cb6-b6ae-1044897136e0
+    E41: d2efcd68-07c5-4a4e-893c-e620ecfae225
+  '295015':
+    uuid: 385c98ee-7fd6-4662-9b65-6c391ce74c6b
+    E42_opentheso: 7e95a416-3ee8-46b0-a947-2404061fb2a5
+    E41: aa92a15f-29a2-4976-a6b0-354cdc2323c7
+  '294661':
+    uuid: b38c49ad-7bae-49b6-bdc5-e9fea20d93f4
+    E42_opentheso: e5424ebc-b676-462e-a391-b08b72e66800
+    E41: e76b5d6e-ff5d-4f8a-8b95-8d1b7ffc1032
+  '294441':
+    uuid: dc884ed8-6208-4182-ada1-f6fac42d8d42
+    E42_opentheso: 137ff55a-a31b-4dcd-8b6d-e61c52a844c0
+    E41: 4395e626-feeb-42d4-8f0a-81f6fdc12439

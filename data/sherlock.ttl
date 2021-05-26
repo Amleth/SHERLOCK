@@ -121,12 +121,17 @@
 
 <19073c4a-0ef7-4ac4-a51a-e0810a596773>
     a crm:E55_Type ;
-    crm:P1_is_identified_by "Identifiant IIIF" ;
+    crm:P1_is_identified_by "Identifiant IIIF version 3.0" ;
     .
 
 <db425957-e8bc-41d7-8a6b-d1b935cfe48d>
     a crm:E55_Type ;
     crm:P1_is_identified_by "xml:id" ;
+    .
+
+<cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Identifiant GitHub" ;
     .
 
 <1820ce38-34d2-4354-a0a7-c6f220d2ee08>

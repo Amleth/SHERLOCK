@@ -45,6 +45,12 @@
   crm:P1_is_identified_by "Identifiant Mercure"
   .
 
+<13660ed8-d429-4771-ae41-316816b24db8>
+    a crm:E65_Creation ;
+    crm:P94:has_created <03499b44-ba0b-491f-9452-978e03bef78a> ;
+    crm:P14_carried_out_by <eae1dc18-15eb-42e9-968a-ccf8d0e13419> ;
+    .
+
 ####################################################################
 ## Référentiels Ancien Régime
 ####################################################################

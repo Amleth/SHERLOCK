@@ -12,7 +12,7 @@ from sherlockcachemanagement import Cache
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--inputrdf")
-parser.add_argument("--outputttl")
+parser.add_argument("--output_ttl")
 parser.add_argument("--cache_institutions")
 parser.add_argument("--cache_corpus")
 args = parser.parse_args()
@@ -140,8 +140,8 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                             clef_mercure_livraison = m_livraison.group()
                             clef_mercure_article = m.group()
                             try:
-                                F2_article_uri = she(cache.corpus.get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"]))
-                                E13_index_uri = she(cache_institutions.get_uuid(["institutions et corporations", identifier, "E13_indexation"]))
+                                F2_article_uri = she(cache_corpus.get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"]))
+                                E13_index_uri = she(cache_institutions.get_uuid(["institutions et corporations", identifier, "indexation", "E13"], True))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(opentheso_institution_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
@@ -153,7 +153,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                #print(identifier, clef_mercure_article)
+                                print(identifier, clef_mercure_article)
                                 pass
 
             elif "##" in v:
@@ -166,11 +166,10 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                             clef_mercure_livraison = m_livraison.group()
                             clef_mercure_article = m.group()
                             try:
-                                F2_article_uri = she(cache.corpus.get_uuid(
+                                F2_article_uri = she(cache_corpus.get_uuid(
                                     ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
                                      clef_mercure_article, "F2"]))
-                                E13_index_uri = she(
-                                    get_uuid(["institutions et corporations", identifier, "E13_indexation"]))
+                                E13_index_uri = she(cache_institutions.get_uuid(["institutions et corporations", identifier, "indexation", "E13"], True))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(opentheso_institution_uri, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"),
@@ -182,23 +181,23 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                #print(identifier, clef_mercure_article)
+                                print(identifier, clef_mercure_article)
                                 pass
 
             else:
                 note_sha1_object = hashlib.sha1(v.encode())
                 note_sha1 = note_sha1_object.hexdigest()
-                E13_uri = she(cache_institutions.get_uuid(["institutions et corporations", identifier, "E13"], True))
-                t(E13_uri, a, crm("E13_Attribute_Assignement"))
-                t(E13_uri, DCTERMS.created, ro(opentheso_institution_uri, DCTERMS.created))
-                t(E13_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
-                t(E13_uri, crm("P14_carried_out_by"),
+                E13_note_uri = she(cache_institutions.get_uuid(["institutions et corporations", identifier, "note", "E13"], True))
+                t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
+                t(E13_note_uri, DCTERMS.created, ro(opentheso_institution_uri, DCTERMS.created))
+                t(E13_note_uri, crm("P14_carried_out_by"), she("899e29f6-43d7-4a98-8c39-229bb20d23b2"))
+                t(E13_note_uri, crm("P14_carried_out_by"),
                   she("82476bac-cd8a-4bdc-a695-cf90444c9432"))
-                t(E13_uri, crm("P140_assigned_attribute_to"), E74_uri)
-                E13_notes_uri = she(cache_institutions.get_uuid(["institutions et corporations", identifier, "E13_notes", note_sha1], True))
-                t(E13_notes_uri, RDFS.label, Literal(v))
-                t(E13_uri, crm("P141_assigned"), E13_notes_uri)
-                t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
+                t(E13_note_uri, crm("P140_assigned_attribute_to"), E74_uri)
+                note_uri = she(cache_institutions.get_uuid(["institutions et corporations", identifier, "note", note_sha1], True))
+                t(note_uri, RDFS.label, Literal(v))
+                t(E13_note_uri, crm("P141_assigned"), note_uri)
+                t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
     for note in [SKOS.note]:
         process_note(note)
@@ -222,7 +221,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
         t(E74_uri, SKOS.exactMatch, exactMatch)
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.outputtttl, "wb") as f:
+with open(args.output_ttl, "wb") as f:
     f.write(serialization)
-cache_corpus.bye()
+
 cache_institutions.bye()

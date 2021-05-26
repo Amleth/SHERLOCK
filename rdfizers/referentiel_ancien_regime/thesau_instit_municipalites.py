@@ -44,20 +44,20 @@ def ro_list(s, p):
 ### Institutions et fonctions de la branche "municipalités"
 ################################################################################
 
-# On récupère l'URI de la municipalité
+# URI de la municipalité
 municipalites_uri = ro_list(URIRef("http://opentheso3.mom.fr/opentheso3/?idc=municipalite&idt=173"), SKOS.narrower)
 
 lst = {}
 
-# On récupère les URIs des institutions de chaque municipalité
+# URIs des institutions de chaque municipalité
 for municipalite in municipalites_uri:
 	institutions_uri = ro_list(municipalite, SKOS.narrower)
 
-	# On récupère le nom des institutions
+	# Nom des institutions
 	for institution in institutions_uri:
 		institution_prefLabel = (ro_list(institution, SKOS.prefLabel))
 
-		# On transforme chaque institution en clé de dictionnaire en supprimant le nom de la municipalité
+		# Transformation de chaque institution en clé de dictionnaire en supprimant le nom de la municipalité
 		for chaine_caract in institution_prefLabel:
 			cle = re.search("Corps de ville|.*(?= de | d\'A)", chaine_caract)
 			if cle != None:
@@ -85,14 +85,14 @@ for municipalite in municipalites_uri:
 ### Villes de la branche "municipalités"
 ################################################################################
 
-# On récupère le nom des villes
+# Nom des villes
 villes = ro_list(URIRef("http://opentheso3.mom.fr/opentheso3/?idc=municipalite&idt=173"), SKOS.narrower)
 for ville in villes:
 	ville_prefLabel = ro(ville, SKOS.prefLabel)
 	lst.setdefault(ville_prefLabel, [])
 
 
-# On récupère les uuid de ces villes dans lieux.ttl
+# UUID de ces villes dans lieux.ttl
 	query = input_graph_ttl.query("""PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -108,7 +108,7 @@ WHERE {
 		lst[ville_prefLabel].append(result.get("s"))
 
 ################################################################################
-### Ecriture du json
+### Ecriture du JSON
 ################################################################################
 
 test = json.dumps(lst, indent=4, ensure_ascii=False)

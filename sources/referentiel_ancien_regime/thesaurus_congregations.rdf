@@ -121,6 +121,40 @@
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294291&amp;idt=166"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294293&amp;idt=166"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294295&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294379&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294409&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294437&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294439&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294441&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294513&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294515&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294517&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294535&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294537&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294539&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294541&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294587&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294619&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294629&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294653&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294655&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294657&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294661&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294677&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294719&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294733&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294757&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294777&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294779&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294781&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294907&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294979&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295015&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295017&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295019&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295021&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295023&amp;idt=166"/>
+	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295109&amp;idt=166"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=abbe_de_l_eglise_abbatiale_de_saint-etienne_de_dijon&amp;idt=166"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=abbe_de_plaimpied&amp;idt=166"/>
 	<skos:member rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=abbe_de_sainte-croix_de_guingamp&amp;idt=166"/>
@@ -824,6 +858,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Congrégations religieuses</skos:prefLabel>
 	<skos:topConceptOf rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294757&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=clerge_regulier&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=papaute&amp;idt=166"/>
@@ -894,6 +929,9 @@
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=278072&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293747&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293797&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294437&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294517&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294629&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=jesuites_d_alep&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=jesuites_d_avignon&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=jesuites_de_brest&amp;idt=166"/>
@@ -1376,6 +1414,7 @@
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=grand_augustin&amp;idt=166">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Grands Augustins</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294719&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=grands_augustins_de_bordeaux&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=grands_augustins_de_marseille&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=grands_augustins_de_nancy&amp;idt=166"/>
@@ -1616,6 +1655,7 @@
 	<skos:altLabel xml:lang="fr">Congrégation de la Doctrine chrétienne</skos:altLabel>
 	<skos:altLabel xml:lang="fr">Pères de la Doctrine Chrétienne</skos:altLabel>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=278026&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294777&amp;idt=166"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=congregations_de_clercs_reguliers&amp;idt=166"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
 	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
@@ -2366,24 +2406,6 @@
 	<dcterms:description>clerge_regulier##ordres_chevaleresques</dcterms:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=ordre_de_malte&amp;idt=166">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:prefLabel xml:lang="fr">Ordre de Malte</skos:prefLabel>
-	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=276458&amp;idt=166"/>
-	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ordres_chevaleresques&amp;idt=166"/>
-	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
-	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
-	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-29</dcterms:created>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-29</dcterms:modified>
-	<dcterms:identifier>ordre_de_malte</dcterms:identifier>
-	<dcterms:description>clerge_regulier##ordres_chevaleresques##ordre_de_malte</dcterms:description>
-	<skos:scopeNote xml:lang="fr">##MG-1679-11_014##</skos:scopeNote>
-	<skos:scopeNote xml:lang="fr">##MG-1680-03a_012##</skos:scopeNote>
-	<skos:scopeNote xml:lang="fr">##MG-1680-08_173##</skos:scopeNote>
-	<skos:scopeNote xml:lang="fr">##MG-1683-01_044##</skos:scopeNote>
-	<skos:scopeNote xml:lang="fr">##MG-1690-11_093##</skos:scopeNote>
-</rdf:Description>
-
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=ordres_mendiants&amp;idt=166">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Ordres mendiants</skos:prefLabel>
@@ -2659,6 +2681,7 @@
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=fontevristes&amp;idt=166">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Fontevristes</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294619&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=fontevristes_du_prieure_de_notre-dame-du-relay&amp;idt=166"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=divers&amp;idt=166"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
@@ -3250,6 +3273,8 @@
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293823&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294101&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294289&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294513&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295019&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=capucins_d_alencon&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=capucins_d_amiens&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=capucins_d_angers&amp;idt=166"/>
@@ -3425,6 +3450,27 @@
 	<dcterms:description>clerge_regulier##divers##celestins##celestins_d_avignon</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##MG-1682-10b_182##</skos:scopeNote>
 	<skos:scopeNote xml:lang="fr">##MG-1687-03b_380##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=ordre_de_malte&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Ordre de Malte</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">Ordre de Saint-Jean de Jérusalem</skos:altLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=276458&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294379&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294979&amp;idt=166"/>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ordres_chevaleresques&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-29</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:modified>
+	<dcterms:identifier>ordre_de_malte</dcterms:identifier>
+	<dcterms:description>clerge_regulier##ordres_chevaleresques##ordre_de_malte</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##MG-1679-11_014##</skos:scopeNote>
+	<skos:scopeNote xml:lang="fr">##MG-1680-03a_012##</skos:scopeNote>
+	<skos:scopeNote xml:lang="fr">##MG-1680-08_173##</skos:scopeNote>
+	<skos:scopeNote xml:lang="fr">##MG-1683-01_044##</skos:scopeNote>
+	<skos:scopeNote xml:lang="fr">##MG-1690-11_093##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=clarisses&amp;idt=166">
@@ -4335,6 +4381,7 @@
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293689&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293889&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294019&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294907&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=recollets_de_chaumont-en-vexin&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=recollets_de_clamecy&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=recollets_de_guyenne&amp;idt=166"/>
@@ -4609,6 +4656,7 @@
 	<skos:prefLabel xml:lang="fr">Trinitaires (ordre)</skos:prefLabel>
 	<skos:altLabel xml:lang="fr">Mathurins</skos:altLabel>
 	<skos:altLabel xml:lang="fr">Ordre de la Sainte Trinité et de la Rédemption des Captifs</skos:altLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295021&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=trinitaires_de_limoux&amp;idt=166"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ordres_mendiants&amp;idt=166"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
@@ -5186,6 +5234,15 @@
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293807&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293811&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294223&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294409&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294535&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294587&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294653&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294779&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294781&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295017&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295023&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295109&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitre_de_la_cathedrale_de_tours&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitre_de_la_cathedrale_de_westminster&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitre_de_la_cathedrale_notre-dame_de_burgos&amp;idt=166"/>
@@ -5587,6 +5644,13 @@
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=293871&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294283&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294291&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294439&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294539&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294541&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294655&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294657&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294677&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=295015&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitre_de_la_collegiale_notre-dame-du-mur_de_morlaix&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitre_de_la_collegiale_notre-dame-et-saint-martin_de_chateauroux&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitre_de_la_collegiale_saint-agricol_d_avignon&amp;idt=166"/>
@@ -5730,6 +5794,7 @@
 	<dcterms:description>clerge_seculier##chapitres_collegiaux##chapitre_de_la_collegiale_saint-hilaire-le-grand_de_poitiers</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##MG-1687-09a_122##</skos:scopeNote>
 	<skos:scopeNote xml:lang="fr">##MG-1691-12_149##</skos:scopeNote>
+	<skos:scopeNote xml:lang="fr">##id##MG-1701-01_160##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=chapitre_de_la_collegiale_saint-martin_de_clamecy&amp;idt=166">
@@ -5817,6 +5882,7 @@
 	<skos:prefLabel xml:lang="fr">Chapitres de Saintes Chapelles</skos:prefLabel>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=277896&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294163&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294661&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitre_de_la_sainte-chapelle_du_chateau_du_vivier_de_chaumes-en-brie&amp;idt=166"/>
 	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&amp;idt=166"/>
 	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
@@ -5846,6 +5912,7 @@
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=277987&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=278055&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=278128&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294441&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=clerge_de_belley&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=clerge_de_l_eglise_paroissiale_notre-dame_de_niort&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=clerge_de_l_eglise_paroissiale_saint-hippolyte_de_paris&amp;idt=166"/>
@@ -6640,6 +6707,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Chanoines réguliers de saint Augustin</skos:prefLabel>
 	<skos:altLabel xml:lang="fr">Ordre de saint Augustin</skos:altLabel>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294537&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=augustines&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=augustins&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chanoines_reguliers_de_l_abbaye_royale_de_saint-victor_de_paris&amp;idt=166"/>
@@ -6975,6 +7043,8 @@
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294021&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294099&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294293&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294515&amp;idt=166"/>
+	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=294733&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=cordeliers_de_chateauroux&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=cordeliers_de_libourne&amp;idt=166"/>
 	<skos:narrower rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=cordeliers_de_loches&amp;idt=166"/>
@@ -7325,6 +7395,46 @@
 	<skos:scopeNote xml:lang="fr">##id##MG-1702-02a_190##</skos:scopeNote>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294619&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Fontevristes de l’abbaye Notre-Dame de Fontevraud</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=fontevristes&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<skos:exactMatch rdf:resource="https://data.bnf.fr/fr/13573818/ordre_de_fontevraud/"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-30</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-30</dcterms:modified>
+	<dcterms:identifier>294619</dcterms:identifier>
+	<dcterms:description>clerge_regulier##divers##fontevristes##294619</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1707-08_11##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294719&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Grands Augustins de Bayonne</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=grand_augustin&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-05</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-05</dcterms:modified>
+	<dcterms:identifier>294719</dcterms:identifier>
+	<dcterms:description>augustin##grand_augustin##294719</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1708-02_158##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294907&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Récollets de Lyon</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=recollets&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-20</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-20</dcterms:modified>
+	<dcterms:identifier>294907</dcterms:identifier>
+	<dcterms:description>clerge_regulier##ordres_mendiants##franciscains_(ordre)##recollets##294907</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1709-07_267## &lt;br&gt;</skos:scopeNote>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293739&amp;idt=166">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Bénédictines du Prieuré Notre-Dame-des-Anges de Moret</skos:prefLabel>
@@ -7377,6 +7487,19 @@
 	<skos:scopeNote xml:lang="fr">##id##MG-1704-10_12##</skos:scopeNote>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294979&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chevaliers de l'ordre de Malte</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ordre_de_malte&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:modified>
+	<dcterms:identifier>294979</dcterms:identifier>
+	<dcterms:description>clerge_regulier##ordres_chevaleresques##ordre_de_malte##294979</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1710-03_290##</skos:scopeNote>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294291&amp;idt=166">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Chapitre de la collégiale Saint-Étienne de Gien</skos:prefLabel>
@@ -7416,6 +7539,45 @@
 	<dcterms:description>clerge_seculier##chapitres_de_saintes_chapelles##294163</dcterms:description>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294379&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Receveur de l'ordre de Malte (fl. 1706)</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=ordre_de_malte&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-16</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-17</dcterms:modified>
+	<dcterms:identifier>294379</dcterms:identifier>
+	<dcterms:description>clerge_regulier##ordres_chevaleresques##ordre_de_malte##294379</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1706-06_192##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294733&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Cordeliers de Perpignan</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=cordeliers&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-06</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-06</dcterms:modified>
+	<dcterms:identifier>294733</dcterms:identifier>
+	<dcterms:description>clerge_regulier##ordres_mendiants##franciscains_(ordre)##cordeliers##294733</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1708-05_83##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=295109&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la cathédrale Saint-Pierre de Poitiers</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_cathedraux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-12</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-12</dcterms:modified>
+	<dcterms:identifier>295109</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_cathedraux##295109</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1701-01_160##</skos:scopeNote>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293787&amp;idt=166">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Capucins de Fort-Royal de la Martinique</skos:prefLabel>
@@ -7440,6 +7602,19 @@
 	<dcterms:identifier>293829</dcterms:identifier>
 	<dcterms:description>clerge_seculier##chapitres_collegiaux##293829</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##id##MG-1701-12_225##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294535&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la cathédrale Sainte-Croix d’Orléans</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_cathedraux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-24</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-24</dcterms:modified>
+	<dcterms:identifier>294535</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_cathedraux##294535</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1707-05_18##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294293&amp;idt=166">
@@ -7597,6 +7772,19 @@
 	<skos:scopeNote xml:lang="fr">##id##MG-1704-08_307##</skos:scopeNote>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294653&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la cathédrale Saint-Étienne de Bourges</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_cathedraux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-01</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-01</dcterms:modified>
+	<dcterms:identifier>294653</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_cathedraux##294653</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1707-02_301##</skos:scopeNote>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294295&amp;idt=166">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Minimes de Gien</skos:prefLabel>
@@ -7608,6 +7796,32 @@
 	<dcterms:identifier>294295</dcterms:identifier>
 	<dcterms:description>clerge_regulier##ordres_mendiants##minimes_(ordre)##294295</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##id##MG-1704-10_12##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294409&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la cathédrale Notre-Dame de Saint-Bertrand</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_cathedraux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-18</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-18</dcterms:modified>
+	<dcterms:identifier>294409</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_cathedraux##294409</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1706-12_42##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294537&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chanoines réguliers de la cathédrale Sainte-Croix d’Orléans</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chanoines_reguliers_de_saint_augustin&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-24</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-24</dcterms:modified>
+	<dcterms:identifier>294537</dcterms:identifier>
+	<dcterms:description>clerge_regulier##chanoines_reguliers##chanoines_reguliers_de_saint_augustin##294537</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1707-05_18##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293745&amp;idt=166">
@@ -7647,6 +7861,19 @@
 	<dcterms:identifier>293791</dcterms:identifier>
 	<dcterms:description>clerge_seculier##chapitres_cathedraux##293791</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##id##MG-1701-12_092##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294539&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la collégiale Saint-Aignan d’Orléans</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_collegiaux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-24</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-24</dcterms:modified>
+	<dcterms:identifier>294539</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_collegiaux##294539</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1707-05_18##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293833&amp;idt=166">
@@ -7715,6 +7942,45 @@
 	<skos:scopeNote xml:lang="fr">##id##MG-1704-08_307##</skos:scopeNote>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294629&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Jésuites de Constantinople</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=jesuite&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-30</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-30</dcterms:modified>
+	<dcterms:identifier>294629</dcterms:identifier>
+	<dcterms:description>clerge_regulier##congregations_de_clercs_reguliers##jesuite##294629</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;##id##MG-1704-09_402## &lt;br&gt;</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294655&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la collégiale Saint-Outrille de Bourges</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_collegiaux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-01</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-01</dcterms:modified>
+	<dcterms:identifier>294655</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_collegiaux##294655</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1707-02_301##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294657&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la collégiale Saint-Ursin de Bourges</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_collegiaux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-01</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-01</dcterms:modified>
+	<dcterms:identifier>294657</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_collegiaux##294657</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1707-02_301##</skos:scopeNote>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293793&amp;idt=166">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Cordeliers de Madrid</skos:prefLabel>
@@ -7765,6 +8031,32 @@
 	<dcterms:identifier>294101</dcterms:identifier>
 	<dcterms:description>clerge_regulier##ordres_mendiants##franciscains_(ordre)##capucins##294101</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##id##MG-1704-08_307##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294541&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la collégiale de Saint-Pierre-Empont d’Orléans</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_collegiaux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-24</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-24</dcterms:modified>
+	<dcterms:identifier>294541</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_collegiaux##294541</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1707-05_18##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294587&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la cathédrale Saint-Nazaire de Béziers</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_cathedraux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-26</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-26</dcterms:modified>
+	<dcterms:identifier>294587</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_cathedraux##294587</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1707-06_192##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293763&amp;idt=166">
@@ -7820,6 +8112,19 @@
 	<skos:scopeNote xml:lang="fr">##id##MG-1704-08_307##</skos:scopeNote>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294513&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Capucins de Laval</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=capucins&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-23</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-23</dcterms:modified>
+	<dcterms:identifier>294513</dcterms:identifier>
+	<dcterms:description>clerge_regulier##ordres_mendiants##franciscains_(ordre)##capucins##294513</dcterms:description>
+	<skos:scopeNote xml:lang="fr">&lt;p class= ql-align-justify &gt;&lt;span style= color: black; &gt;##id##&lt;/span&gt;MG-1704-09_85## &lt;p class= ql-align-justify &gt;&lt;span style= color: black; &gt;&amp;amp;nbsp;&lt;/span&gt; &lt;br&gt;</skos:scopeNote>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293797&amp;idt=166">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Jésuites de Madrid</skos:prefLabel>
@@ -7831,6 +8136,45 @@
 	<dcterms:identifier>293797</dcterms:identifier>
 	<dcterms:description>clerge_regulier##congregations_de_clercs_reguliers##jesuite##293797</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##id##MG-1701-06_192##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294515&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Cordeliers de Livourne</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=cordeliers&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-23</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-23</dcterms:modified>
+	<dcterms:identifier>294515</dcterms:identifier>
+	<dcterms:description>clerge_regulier##ordres_mendiants##franciscains_(ordre)##cordeliers##294515</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##&lt;strong&gt; &lt;/strong&gt;MG-1704-09_117##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294661&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la Sainte-Chapelle de Bourges</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_de_saintes_chapelles&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-01</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-01</dcterms:modified>
+	<dcterms:identifier>294661</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_de_saintes_chapelles##294661</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1707-02_301##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294777&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Doctrinaires du collège de Narbonne</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=doctrinaire&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-08</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-08</dcterms:modified>
+	<dcterms:identifier>294777</dcterms:identifier>
+	<dcterms:description>clerge_regulier##congregations_de_clercs_reguliers##doctrinaire##294777</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1708-08_106##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294149&amp;idt=166">
@@ -7847,6 +8191,32 @@
 	<skos:scopeNote xml:lang="fr">##id##MG-1705-07_164##</skos:scopeNote>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294517&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Jésuites de Dôle</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=jesuite&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-23</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-23</dcterms:modified>
+	<dcterms:identifier>294517</dcterms:identifier>
+	<dcterms:description>clerge_regulier##congregations_de_clercs_reguliers##jesuite##294517</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##&lt;strong style= color: rgb(68, 84, 106); &gt; &lt;/strong&gt;MG-1704-09_105## &amp;amp;nbsp;</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294779&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la cathédrale Santa Maria de Tortosa</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_cathedraux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-08</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-08</dcterms:modified>
+	<dcterms:identifier>294779</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_cathedraux##294779</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1708-08_140##</skos:scopeNote>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294283&amp;idt=166">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Chapitre de la collégiale Notre-Dame-du-Fort d’Estampes</skos:prefLabel>
@@ -7858,6 +8228,84 @@
 	<dcterms:identifier>294283</dcterms:identifier>
 	<dcterms:description>clerge_seculier##chapitres_collegiaux##294283</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##id##MG-1705-12_70##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294781&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la cathédrale Saint-Bavon de Gand</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_cathedraux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-08</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-08</dcterms:modified>
+	<dcterms:identifier>294781</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_cathedraux##294781</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1708-08_248##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=295015&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la collégiale du Saint-Sépulcre de Caen</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_collegiaux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:modified>
+	<dcterms:identifier>295015</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_collegiaux##295015</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1701-07_061##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294437&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Jésuites de Lille</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=jesuite&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-19</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-19</dcterms:modified>
+	<dcterms:identifier>294437</dcterms:identifier>
+	<dcterms:description>clerge_regulier##congregations_de_clercs_reguliers##jesuite##294437</dcterms:description>
+	<skos:scopeNote xml:lang="fr">#id##MG-1707-01_175##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=295017&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la cathédrale Sainte-Croix de Barcelone</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_cathedraux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:modified>
+	<dcterms:identifier>295017</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_cathedraux##295017</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1701-11_140##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294439&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la collégiale Saint-Georges au Puy-en-Vélay</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_collegiaux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-19</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-19</dcterms:modified>
+	<dcterms:identifier>294439</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_collegiaux##294439</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1706-01_273##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=295019&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Capucins de Barcelone</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=capucins&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:modified>
+	<dcterms:identifier>295019</dcterms:identifier>
+	<dcterms:description>clerge_regulier##ordres_mendiants##franciscains_(ordre)##capucins##295019</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1701-11_140##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293807&amp;idt=166">
@@ -7873,6 +8321,32 @@
 	<skos:scopeNote xml:lang="fr">##id##MG-1702-06a_12##</skos:scopeNote>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294441&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Clergé de l’église paroissiale Saint-Sulpice de Paris</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=clerge_paroissial&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-19</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-19</dcterms:modified>
+	<dcterms:identifier>294441</dcterms:identifier>
+	<dcterms:description>clerge_seculier##clerge_paroissial##294441</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1706-01_273##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=295021&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Trinitaires de Fontainebleau</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=trinitaires_(ordre)&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:modified>
+	<dcterms:identifier>295021</dcterms:identifier>
+	<dcterms:description>clerge_regulier##ordres_mendiants##trinitaires_(ordre)##295021</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1701-11_202##</skos:scopeNote>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293809&amp;idt=166">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Chanoinesses régulières de l’abbaye de Penthemont à Paris</skos:prefLabel>
@@ -7884,6 +8358,19 @@
 	<dcterms:identifier>293809</dcterms:identifier>
 	<dcterms:description>clerge_regulier##chanoines_reguliers##chanoines_reguliers_de_saint_augustin##augustines##chanoinesses_de_saint-augustin##293809</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##id##MG-1702-06a_96##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=295023&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Chapitre de la Basilique Cathédrale métropolitaine de la Nativité de la Sainte Vierge Marie à Milan</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_cathedraux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-30</dcterms:modified>
+	<dcterms:identifier>295023</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_cathedraux##295023</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1702-07a_273##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=293811&amp;idt=166">
@@ -7923,6 +8410,19 @@
 	<dcterms:identifier>294223</dcterms:identifier>
 	<dcterms:description>clerge_seculier##chapitres_cathedraux##294223</dcterms:description>
 	<skos:scopeNote xml:lang="fr">##id##MG-1705-10_172##</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294677&amp;idt=166">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr"> Chapitre de la collégiale Saint-Évroult de Mortain</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso3.mom.fr/opentheso3/?idc=chapitres_collegiaux&amp;idt=166"/>
+	<skos:inScheme rdf:resource="https://opentheso3.mom.fr/opentheso3/166"/>
+	<opentheso:memberOf rdf:resource="https://opentheso3.mom.fr/opentheso3/?idg=AERTUII&amp;idt=166"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-01</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-01</dcterms:modified>
+	<dcterms:identifier>294677</dcterms:identifier>
+	<dcterms:description>clerge_seculier##chapitres_collegiaux##294677</dcterms:description>
+	<skos:scopeNote xml:lang="fr">##id##MG-1708-01_186##</skos:scopeNote>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://opentheso3.mom.fr/opentheso3/?idc=294225&amp;idt=166">
