@@ -52,6 +52,18 @@
   crm:P1_is_identified_by "Collection d'images numériques" ;
   .
 
+# Types d'objets numériques
+<9f9358e5-be7e-463e-b2ec-40fa549547b4>
+    a crm:F34_Controlled_Vocabulary ;
+    crm:P1_is_identified_by "Éléments issus de contenus numériques"@fr ;
+    crm:P71_lists <90a2ae1e-0fbc-4357-ac8a-b4b3f2a06e86> ;
+    .
+
+<90a2ae1e-0fbc-4357-ac8a-b4b3f2a06e86>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "MEI score offset"@en ;
+    .
+
 # Types d'identifiants techniques
 
 <c9b9f7f6-9f96-4464-a5bd-85a1eab7bb29>
@@ -64,7 +76,10 @@
     <01de41ec-850f-473b-bd7f-268a18afc6a3>,
     <b486f08e-4d50-4363-97b4-d4ea100818e5>,
     <466bb717-b90f-4104-8f4e-5a13fdde3bc3>,
-    <19073c4a-0ef7-4ac4-a51a-e0810a596773>;
+    <19073c4a-0ef7-4ac4-a51a-e0810a596773>,
+    <db425957-e8bc-41d7-8a6b-d1b935cfe48d>,
+    <1820ce38-34d2-4354-a0a7-c6f220d2ee08>,
+    <689e148d-a97d-45b4-898d-c395a24884df>;
     .
     
 <09c7ee4e-619d-4fb0-8905-7c8f1128657e>
@@ -106,9 +121,23 @@
 
 <19073c4a-0ef7-4ac4-a51a-e0810a596773>
     a crm:E55_Type ;
-    crm:P1_is_identified_by "Identifiant iiif" ;
+    crm:P1_is_identified_by "Identifiant IIIF" ;
     .
 
+<db425957-e8bc-41d7-8a6b-d1b935cfe48d>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "xml:id" ;
+    .
+
+<1820ce38-34d2-4354-a0a7-c6f220d2ee08>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "MEI score offset value"@en ;
+    .
+
+<689e148d-a97d-45b4-898d-c395a24884df>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Note offset anchor"@en ;
+    .
 
 # Twitter
 
