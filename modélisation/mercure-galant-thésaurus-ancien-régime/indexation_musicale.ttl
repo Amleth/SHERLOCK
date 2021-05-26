@@ -56,7 +56,12 @@
     crm:P67_refers_to "" ;
     # Le texte fait référence à un mot-clé (colonne M) (alignement sur le ref. des mots-clés)
     crm:P67_refers_to "" ;
-    crm:P3_has_note "" ; # Colonne Z 
+    # Le texte fait référence à une personne (colonne AT) (alignement sur le ref. des personnes)
+    crm:P67_refers_to "RICHELIEU, Anne-Marguerite d'Acigné [?-1702], duchesse de	RICHELIEU, Armand-Jean de Vignerot du Plessis [1629-1715], duc de" ;
+    # Le texte fait référence à une oeuvre (colonne BK) (référentiel d'oeuvres à mettre au point?)
+    crm:P67_refers_to "" ;
+    # Colonne Z 
+    crm:P3_has_note "" ; 
 .
 
 # Colonne V : notes sur l'attribution de l'air/du texte à un auteur : à diviser en deux colonnes?
@@ -72,8 +77,17 @@
 # TODO Ignorer colonne P?
 # TODO Revoir colonne U
 
-# Les airs sont-ils toujours représentés par une partition? 
+# Les airs sont-ils toujours liés à une partition dans les articles? 
 
-# Colonne AQ effectif musical? 
+# Comment modéliser la colonne AQ effectif musical? Doremus (les classes de Doremus dérivent généralement de E55)
+
+# Colonne AR (instruments) : Doremus utilise la classe M6_Casting qui dérive de E29_Design_or_Procedure
+# On utiliserait peut-être plutôt P16_used_specific_object E22_Human-Made_Object?
+
+# Colonne BA à revoir
+
+
+
+
 
 
