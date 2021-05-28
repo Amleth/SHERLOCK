@@ -46,13 +46,9 @@ for row in index:
 		collection_row = row
 		break
 
-make_collection(collection_row)
-
 #####################################################################
-# 2. UNE PUBLICATION NUMERISEE
+# La publication
 #####################################################################
-
-if collection_row[4].value == "Edition":
 
 	# Work
 	livre_F1 = she(cache_images.get_uuid(["collection", "livre", "F1"], True))
@@ -105,7 +101,7 @@ if collection_row[4].value == "Edition":
 	t(livre_F5, lrm("R7_is_materialization_of"), livre_F3)
 
 	#####################################################################
-	# 2.1 Les pages de la publication
+	# Les pages de la publication
 	#####################################################################
 
 	img_row = None
@@ -152,7 +148,7 @@ if collection_row[4].value == "Edition":
 			# TODO Transcription de la page
 
 ####################################################################################
-# 3. ECRITURE DU FICHIER TURTLE
+# Ecriture du graphe
 ####################################################################################
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
