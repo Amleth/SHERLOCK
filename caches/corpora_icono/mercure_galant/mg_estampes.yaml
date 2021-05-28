@@ -10283,6 +10283,8 @@ collection:
       '2645.0':
         zone de l'image (E36):
           lieu représenté: 8f6fb97f-6229-4871-ae60-77e070c43041
+      thématique:
+        E13: 320ffe2f-c420-4620-a7ee-8e42fba3f724
   1678-03_153:
     E36:
       Gorée (île de), Sénégal:
@@ -10347,6 +10349,8 @@ collection:
       '2052.0':
         zone de l'image (E36):
           lieu représenté: 1ad716e0-a581-4647-b509-cd6cda9a091d
+      thématique:
+        E13: 87738bd9-c94b-4fca-8807-0ad453ccb2ce
   1678-05_289:
     E36:
       Louvain:
@@ -10382,6 +10386,8 @@ collection:
       '1588.0':
         zone de l'image (E36):
           lieu représenté: be3aeee9-4060-4e28-b808-e09af9484790
+      thématique:
+        E13: 5f825153-8ad9-42c4-a2c5-dae3cdd60fa8
   1678-06e_081:
     E36:
       'Turin, castello del Valentino; 45° 03'' 15,6" nord, 7° 41'' 07,9" est ':
@@ -10399,6 +10405,8 @@ collection:
       '1593.0':
         zone de l'image (E36):
           lieu représenté: 639ff876-d001-4902-93e9-4a688978ce4d
+      thématique:
+        E13: b174d82f-ec9d-463d-a2c5-863abb921e02
   1678-07_319:
     E36:
       Rheinfelden (Baden):
@@ -10451,6 +10459,8 @@ collection:
       '90.0':
         zone de l'image (E36):
           lieu représenté: f458a7c0-3816-4638-8a50-a433e44c2f58
+      thématique:
+        E13: 7a3f2461-a0b7-4fa7-aa04-9d32b2b635bc
   1678-10_062:
     E36:
       Strasbourg:
@@ -10506,6 +10516,8 @@ collection:
       table de banquet:
         zone de l'image (E36):
           objet représenté: 7d675fcb-7389-485b-a348-63acbbf6196e
+      thématique:
+        E13: 82ce171a-b08a-4182-a391-ba6350afd46d
   1679-09e_324:
     E36:
       Reims:
@@ -10517,6 +10529,8 @@ collection:
       '2052.0':
         zone de l'image (E36):
           lieu représenté: b3d791ed-37c6-4b29-b9b3-84572f8df5ad
+      thématique:
+        E13: 42019b68-97fe-491d-98f9-e6374111f136
   1679-11_089:
     E36:
       Plombières:
@@ -10525,6 +10539,8 @@ collection:
       obélisque:
         zone de l'image (E36):
           objet représenté: 39938484-be11-4153-917c-83010816f89c
+      thématique:
+        E13: 1afcad98-d0a4-4eae-8e74-6532b10d38be
   1680-01b_207:
     E36:
       Madrid/Palais de Buen Retiro:
@@ -10803,6 +10819,8 @@ collection:
       Montferrand (Aude) / Seuil de Naurouze, 43° 21′ 06″ nord, 1° 49′ 21″ est1:
         zone de l'image (E36):
           lieu représenté: 354d1817-bdcc-4d09-8a0e-255bd7d85e4e
+      thématique:
+        E13: c6d425b6-3eae-4bf6-b3c3-13f3f3644c57
   1681-06e_176:
     E36:
       Madrid agglomération/Aranjuez:
@@ -11073,6 +11091,8 @@ collection:
       '121.0':
         zone de l'image (E36):
           lieu représenté: 4d834a65-3389-4903-b83e-dd6ecc338b5c
+      thématique:
+        E13: 8aa485a7-f525-4a12-80fa-f70d29ce8b2d
   1682-10a_221:
     E36:
       Toulouse:
@@ -11093,6 +11113,8 @@ collection:
       Argonautes:
         zone de l'image (E36):
           objet représenté: 7321cf05-6098-4f9f-8b7e-c01032340b53
+      thématique:
+        E13: 0baa079a-5926-4b32-87d2-4ba5a1ae1607
   1682-10b_170:
     E36:
       'Alger, 36° 46'' 34" nord; 3° 03'' 36"est ':
@@ -11322,6 +11344,8 @@ collection:
       table de banquet:
         zone de l'image (E36):
           objet représenté: 71cce4af-33b0-429e-b7f8-f15375beb98d
+      thématique:
+        E13: 77524d16-073a-4e13-afe4-768a4d527a0d
   1687-04_268:
     E36:
       Montgat, Catalogne, Espagne, 41° 28′ 16″ nord, 2° 16′ 55″ est:
@@ -11545,6 +11569,8 @@ collection:
       '1675.0':
         zone de l'image (E36):
           lieu représenté: 2a1785ce-209c-4df2-9f91-0d6319f7883e
+      thématique:
+        E13: cea72f45-86ac-4205-a8fa-bc9a35fd8f9f
   1697-03_229:
     E36:
       Rome, Rione Borgo:
@@ -11553,6 +11579,8 @@ collection:
       fontaine:
         zone de l'image (E36):
           objet représenté: 3c120ee1-7a1e-4518-969a-df25b7b2c661
+      thématique:
+        E13: 27d97140-6342-473e-a73f-1e377fdd5c9f
   1697-05_163:
     E36:
       Rome, Piazza Scossacavalli:
@@ -11561,6 +11589,8 @@ collection:
       fontaine:
         zone de l'image (E36):
           objet représenté: 69882e72-b974-4d8d-882d-0f15ffbca8f3
+      thématique:
+        E13: aa6a5b42-6e66-4f09-bcf5-b887c880afe1
   1697-06_249:
     E36:
       Ath, Hainaut, 50° 37′ 48″ nord, 3° 46′ 50″ est:
@@ -11663,6 +11693,8 @@ collection:
       ? ''
       : zone de l'image (E36):
           objet représenté: f1da9091-cd05-4bab-9cd9-d4acee1f4c3e
+      thématique:
+        E13: 0068b09e-f618-4df8-84c2-411768364c28
   1678-01_242:
     E36:
       énigme en figure:
@@ -11710,6 +11742,8 @@ collection:
       louange:
         zone de l'image (E36):
           objet représenté: 1311b37c-5ae8-4c38-b630-85f87d9be4b8
+      thématique:
+        E13: 4f6c05b1-4403-4c31-8607-880cd65c96bd
   1678-03_163:
     E36:
       île:
@@ -11738,31 +11772,43 @@ collection:
       vêtement:
         zone de l'image (E36):
           objet représenté: 49ce44b9-ffbc-4899-b615-936cd993c907
+      thématique:
+        E13: 23c9f7d4-4e1f-4b58-a71b-08e6627e85c2
   1678-03e_494:
     E36:
       vêtement:
         zone de l'image (E36):
           objet représenté: 66acbd1e-e6ca-433c-9167-27f1a3de2d98
+      thématique:
+        E13: 6149d876-a3e2-4f44-82b8-6c8b6585c88f
   1678-03e_508:
     E36:
       vêtement:
         zone de l'image (E36):
           objet représenté: e3fc9b59-85fc-4e81-97af-2b6495e6d59c
+      thématique:
+        E13: 95632de9-b05b-4111-8008-7b9c246c0281
   1678-03e_510:
     E36:
       vêtement:
         zone de l'image (E36):
           objet représenté: 7d92d2c7-4503-44ab-9ed0-0aafa4ccf0df
+      thématique:
+        E13: b376c05b-d633-4fa6-8044-5fedb534ae17
   1678-03e_521:
     E36:
       vêtement:
         zone de l'image (E36):
           objet représenté: 5140865a-f39b-458e-b9c8-eea4456756ac
+      thématique:
+        E13: e13e6bd7-5b1a-4efe-b405-741218041315
   1678-03e_523:
     E36:
       boutique ou atelier:
         zone de l'image (E36):
           objet représenté: 3665d0ca-dc9e-4c5a-973a-c15234b453d3
+      thématique:
+        E13: ee272ecc-cfa1-4bc7-8848-a4e84a11b883
   1678-04_318:
     E36:
       cadran ou horloge:
@@ -11778,11 +11824,15 @@ collection:
       vêtement:
         zone de l'image (E36):
           objet représenté: 455fc83c-facf-47f8-888e-d160ac826124
+      thématique:
+        E13: d977c166-2ce4-4990-bdd9-36a907f80260
   1678-04_402:
     E36:
       vêtement:
         zone de l'image (E36):
           objet représenté: 2650aa92-0ba8-4cb7-98f8-4bb30c60e39e
+      thématique:
+        E13: e224f8d9-c7e9-4629-abdc-40ccbd48972d
   1678-04_414:
     E36:
       Marsyas:
@@ -11869,6 +11919,8 @@ collection:
       mausolée:
         zone de l'image (E36):
           objet représenté: fdc38304-0095-4036-9be8-82d29caabea4
+      thématique:
+        E13: 7f79bd36-84ec-4f89-95fe-629fd7deda9e
   1678-09_179:
     E36:
       emblème:
@@ -11920,11 +11972,15 @@ collection:
       vêtement:
         zone de l'image (E36):
           objet représenté: c1bff6d5-40f8-43ec-993d-76e1d313e9a2
+      thématique:
+        E13: 79a6a6f7-9c6a-4881-b739-612cf286b081
   1678-10_376:
     E36:
       vêtement:
         zone de l'image (E36):
           objet représenté: 4466863a-3247-4697-88f2-2dc0eab44691
+      thématique:
+        E13: 32d04569-b8f3-4643-afe4-f37efaf0370e
   1678-11_012:
     E36:
       médaille:
@@ -11960,6 +12016,8 @@ collection:
       Houssay, François-Mallier du [1603-1681], évêque deTroyes [sed.1641-1678]:
         zone de l'image (E36):
           objet représenté: a5399eb5-b4ac-49c3-9a22-df7a72bedff8
+      thématique:
+        E13: 9bbd3d26-134c-46da-b29d-044df9ea608f
   1678-12_295:
     E36:
       Hercule:
@@ -12036,6 +12094,8 @@ collection:
       galère:
         zone de l'image (E36):
           objet représenté: dc96e0c9-638d-4f8d-8be6-218552290bba
+      thématique:
+        E13: d6507e38-2afa-4048-b755-7c41e40546e3
   1679-01_327:
     E36:
       Phaéton:
@@ -12067,6 +12127,8 @@ collection:
       Mars:
         zone de l'image (E36):
           objet représenté: cd165a49-ed7e-447f-99ac-361bd4721f48
+      thématique:
+        E13: 55a4d838-164e-4dfb-bca0-35de08044870
   1679-02_357:
     E36:
       Jupiter:
@@ -12079,6 +12141,8 @@ collection:
       Navailles, Philippe III de Montaut-Bénac [1656-1678], marquis de:
         zone de l'image (E36):
           objet représenté: 2aa96604-0f0f-4add-9467-f89781bd4763
+      thématique:
+        E13: 565c1678-dd7a-4e90-ae91-594466e16d87
   1679-03_256:
     E36:
       médaille:
@@ -12162,6 +12226,8 @@ collection:
       feu d’artifice:
         zone de l'image (E36):
           objet représenté: d322fed4-93ad-455e-8143-97394237ae24
+      thématique:
+        E13: a82f4f70-bf53-4374-aa04-078f27ab7c88
   1679-05_302:
     E36:
       médaille:
@@ -12241,6 +12307,8 @@ collection:
       feu d’artifice:
         zone de l'image (E36):
           objet représenté: 2d002366-5af8-4d66-a8d0-94b5e5475517
+      thématique:
+        E13: d1c78ff9-9f89-4a66-a749-c4e1c1fd83ef
   1679-07_317:
     E36:
       médaille:
@@ -12277,6 +12345,8 @@ collection:
       feu d’artifice:
         zone de l'image (E36):
           objet représenté: 90e41128-c99e-4811-9acf-677f003c33ea
+      thématique:
+        E13: 3f6f00c4-1e9b-4ebb-a886-87e1edda817b
   1679-09_359:
     E36:
       médaille:
@@ -12437,6 +12507,8 @@ collection:
       piédestal:
         zone de l'image (E36):
           objet représenté: 7eb92426-bc0c-498a-968c-b80d388a3d5e
+      thématique:
+        E13: 97b4ec44-33b8-444c-a776-325f9f2b637a
   1680-01a_296:
     E36:
       Phaéton:
@@ -12461,6 +12533,8 @@ collection:
       table de banquet:
         zone de l'image (E36):
           objet représenté: 38027dcd-f3ab-43b6-a693-1c10580f8e97
+      thématique:
+        E13: 6d4cea1f-38bb-4edf-b1d4-e93a930492e7
   1680-02_124:
     E36:
       opéra:
@@ -12545,6 +12619,8 @@ collection:
       table de banquet:
         zone de l'image (E36):
           objet représenté: 1ddd492d-d140-4136-ba2e-86bcc19f1284
+      thématique:
+        E13: 550d9fd1-b269-436a-818c-05c6d3bdb65f
   1680-03b_232:
     E36:
       emblème:
@@ -12612,6 +12688,8 @@ collection:
       table de banquet:
         zone de l'image (E36):
           objet représenté: c03327fe-2be2-4e78-bbe1-c87e1ae0a8ac
+      thématique:
+        E13: 9204479c-a687-45d4-8040-71d9e5bf4b42
   1680-05_226:
     E36:
       église:
@@ -12631,6 +12709,8 @@ collection:
       table de banquet:
         zone de l'image (E36):
           objet représenté: 5f1f90d4-ab3d-4664-93da-fb33ffce0ec0
+      thématique:
+        E13: 4d2458c4-6acd-4ff5-8139-b3a6fb865f87
   1680-06_173:
     E36:
       Annonciation:
@@ -12866,6 +12946,8 @@ collection:
       monstre:
         zone de l'image (E36):
           objet représenté: 80a235a4-fda5-4701-9f69-c372a005cf61
+      thématique:
+        E13: 6a5f8254-fa60-4699-b11a-7d62945253c4
   '1681-04_096 ':
     E36:
       Objet décoratif:
@@ -12943,6 +13025,8 @@ collection:
       siamois:
         zone de l'image (E36):
           objet représenté: eb852d97-33a6-4076-9b71-ca6ca61c3125
+      thématique:
+        E13: 24996390-5c0b-432d-b901-985c5283e75a
   1681-10_207:
     E36:
       armoiries:
@@ -13058,11 +13142,15 @@ collection:
       feu d’artifice:
         zone de l'image (E36):
           objet représenté: b5dbf048-d641-4fab-bb00-42d782d3e9b8
+      thématique:
+        E13: b90efadc-ae77-49db-b21a-88c8445a3cca
   1682-08_137:
     E36:
       feu d’artifice:
         zone de l'image (E36):
           objet représenté: cfe37290-ad3e-464a-9213-1517c820aa78
+      thématique:
+        E13: 7eb599c7-263c-4d45-a96b-a1b1d14efa62
   1682-09b_250:
     E36:
       emblème:
@@ -13123,6 +13211,8 @@ collection:
       bourgogne_louis_de_france_(1682-1712)_duc_de:
         zone de l'image (E36):
           personne représentée: 84fd7d26-90e2-4459-ad40-6098bb955a44
+      thématique:
+        E13: 5800e9ea-e913-4ccf-bd8f-5abe34006d7f
   1682-12_190:
     E36:
       météore:
@@ -13133,6 +13223,8 @@ collection:
       feu d’artifice:
         zone de l'image (E36):
           objet représenté: 31fb4a38-5c97-440d-a7b2-f31eb79e58fd
+      thématique:
+        E13: ddd34938-a6e0-4759-8da3-38af716fcb93
   1683-01_258:
     E36:
       jetons:
@@ -13248,6 +13340,8 @@ collection:
       ? ''
       : zone de l'image (E36):
           objet représenté: e9eb3913-dc49-4e27-87f7-7147ec628b26
+      thématique:
+        E13: 59ebc9e7-f999-40b8-96f9-990b7681d11e
   1683-09_386:
     E36:
       rat:
@@ -13267,6 +13361,8 @@ collection:
       marie-therese_(1638-1683)_reine_de_france:
         zone de l'image (E36):
           personne représentée: 666a208a-6f48-4fc0-93d2-91ef55d3cdbb
+      thématique:
+        E13: 9dea118e-b43c-4527-838a-550f2f6548ef
   1683-10a_161:
     E36:
       mausolée:
@@ -13281,6 +13377,8 @@ collection:
       Autriche, marie-therese_(1638-1683)_reine_de_france:
         zone de l'image (E36):
           objet représenté: 32cf4a61-e8cd-4e92-b4f2-f4a98127a188
+      thématique:
+        E13: a4f002ab-6ee9-4378-b28c-dd5f7cac246e
   1683-10b_001:
     E36:
       portrait:
@@ -13310,6 +13408,8 @@ collection:
       Autriche, STARHEMBERG, Ernst-Rüdiger:
         zone de l'image (E36):
           objet représenté: b28c1e64-20df-4efe-9162-6cd6adb357d2
+      thématique:
+        E13: 8eb4a5d9-052b-418e-8f0a-94a123e8a361
   1683-12_075:
     E36:
       grelot:
@@ -13420,6 +13520,8 @@ collection:
       allégorie amoureuse:
         zone de l'image (E36):
           objet représenté: 8a635ae7-a204-4803-a466-854fd4c9fdfd
+      thématique:
+        E13: 22259e23-7e00-42db-8a13-3a63b422a514
   1684-05_374:
     E36:
       ville:
@@ -13482,6 +13584,8 @@ collection:
       marie-therese_(1638-1683)_reine_de_france:
         zone de l'image (E36):
           personne représentée: d2e422fa-b8e7-403c-a4f9-299bdbc5a3f8
+      thématique:
+        E13: 1f999694-1038-4f3f-b2f1-6f326840b6e8
   1684-09_197:
     E36:
       siège:
@@ -13717,6 +13821,8 @@ collection:
       carrousel:
         zone de l'image (E36):
           objet représenté: 5475419f-301f-417d-bb3a-de84f389e8b0
+      thématique:
+        E13: 06ee1635-63aa-4cc6-a5b9-aa714dd65598
   1686-10a_286:
     E36:
       armoiries:
@@ -13871,6 +13977,8 @@ collection:
       canal:
         zone de l'image (E36):
           objet représenté: 620cc938-69cb-4be5-89f2-0b21b4f4b87e
+      thématique:
+        E13: 2c826c5c-a10b-4e1b-ac46-ee2887dae900
   1688-05a_165:
     E36:
       Morosini, Francesco [1619-1694], Doge de Venise (reg. 1688-1694):
@@ -13908,6 +14016,8 @@ collection:
       stuart_jacques-françois_(1688-1766):
         zone de l'image (E36):
           personne représentée: 6e0a76d0-2cdc-48a4-91b0-d8767c9ff0d7
+      thématique:
+        E13: 86a677b7-7b07-400f-b2b1-72b0482eb1e3
   1688-08_246:
     E36:
       feu d'artifice:
@@ -13919,6 +14029,8 @@ collection:
       stuart_jacques-françois_(1688-1766):
         zone de l'image (E36):
           personne représentée: b0577a5b-227a-444e-a1f1-17ece57c67da
+      thématique:
+        E13: e15c208c-de44-43ad-90ea-4a158d701170
   1688-09a_246:
     E36:
       médaille:
@@ -14359,6 +14471,8 @@ collection:
       table de banquet:
         zone de l'image (E36):
           objet représenté: ed819a2c-b480-4e45-b868-ddf7fef1628b
+      thématique:
+        E13: d2450681-525f-4ebd-9956-c1e94bdeb53c
   1692-02_326:
     E36:
       banquet:
@@ -14370,6 +14484,8 @@ collection:
       table de banquet:
         zone de l'image (E36):
           objet représenté: 0afde75b-e7ad-4a7e-a548-88bce3e1e1c0
+      thématique:
+        E13: 6a34ecd4-a637-4386-a2fa-ac06fb9ac3cb
   1692-03_175:
     E36:
       médaille:
@@ -14394,6 +14510,8 @@ collection:
       arc de triomphe:
         zone de l'image (E36):
           objet représenté: 1c93d1a6-1a19-4ea9-96e1-591b6082ac1f
+      thématique:
+        E13: e6a3b883-d26e-43c4-bbdb-6875ba6e75e8
   1692-08a_181:
     E36:
       médaille:
@@ -14560,6 +14678,8 @@ collection:
       Ulrika Eleonora [1655-1693], reine de Suède [reg. 1680-1693]:
         zone de l'image (E36):
           objet représenté: 1349ecee-fbcc-4ea4-b096-b3aa2d4724b2
+      thématique:
+        E13: b0ca8cf4-b743-4aca-9b7f-8079a84765f4
   1694-05_265:
     E36:
       médaille:
@@ -14653,6 +14773,8 @@ collection:
       luxembourg_françois-henri_de_montmorency-boutteville_(1628-1695)_duc_de:
         zone de l'image (E36):
           personne représentée: c5de6d89-f193-4fe4-8e3e-84685a2140e7
+      thématique:
+        E13: 56459356-569e-46ab-bdc8-0661432877d5
   1695-06_231:
     E36:
       position des armées sur le terrain:
@@ -14671,6 +14793,8 @@ collection:
       stèle antique:
         zone de l'image (E36):
           objet représenté: 4797dd19-e92f-466c-ad4e-922506ad0daa
+      thématique:
+        E13: 53bea306-e066-4201-ba12-f49b8298373a
   1695-09_193:
     E36:
       machine:
@@ -14742,6 +14866,8 @@ collection:
       fontaine:
         zone de l'image (E36):
           objet représenté: d76ddf19-7897-4292-b230-65bf5aa0816b
+      thématique:
+        E13: c3e95a0f-4f97-4466-aad9-2d54dde1664b
   1696-08_281:
     E36:
       camp:
@@ -14907,6 +15033,8 @@ collection:
       orleans_philippe_i_(1640-1701)_duc_d:
         zone de l'image (E36):
           personne représentée: bc7496be-324e-4bc7-bd93-aa27ea559572
+      thématique:
+        E13: 8e554feb-7e78-47a8-8b5d-e86176a6de59
   1702-01_290:
     E36:
       jetons:

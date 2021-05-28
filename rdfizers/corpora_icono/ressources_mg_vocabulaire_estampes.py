@@ -65,15 +65,24 @@ for row in vocab_excel:
 
                 # Concepts
                 if colonne != row[6] and colonne != row[7]:
-                    E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", broader, colonne.value.lower(), "uuid"], True))
-                    t(E55_Type, a, crm("E55_Type"))
-                    t(E55_Type, crm("P1_is_identified_by"), l(colonne.value))
+                    try:
+                        homonyme = she(
+                            cache.get_uuid(["vocabulaire indexation gravures", colonne.value.lower(), "uuid"]))
+                        E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", colonne.value.lower() + " (homonyme)", "uuid"], True))
+                        t(E55_Type, a, crm("E55_Type"))
+                        t(E55_Type, crm("P1_is_identified_by"), l(colonne.value))
+                    except:
+                        E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", colonne.value.lower(), "uuid"], True))
+                        t(E55_Type, a, crm("E55_Type"))
+                        t(E55_Type, crm("P1_is_identified_by"), l(colonne.value))
 
                     # Broaders
                     if broader != colonne.value:
-                        E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader, broader.lower(), "uuid"], True))
+                        E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader.lower(), "uuid"]))
                         t(E55_Type, crm("P127_has_broader_term"), E55_broader)
 
+
+                # TODO See Also à revoir (cf. le cas de "obélisque")
                 # SeeAlso
                 if colonne == row[6] or colonne == row[7]:
                     seeAlso = colonne.value
