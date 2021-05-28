@@ -61,17 +61,17 @@ for row in vocab_excel:
         if colonne.value != None:
             if colonne.value not in broaders:
                 broaders.append(colonne.value)
+                broader = broaders[-2:][0]
 
                 # Concepts
                 if colonne != row[6] and colonne != row[7]:
-                    E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", colonne.value.lower(), "uuid"], True))
+                    E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", broader, colonne.value.lower(), "uuid"], True))
                     t(E55_Type, a, crm("E55_Type"))
                     t(E55_Type, crm("P1_is_identified_by"), l(colonne.value))
 
                     # Broaders
-                    broader = broaders[-2:][0]
                     if broader != colonne.value:
-                        E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader.lower(), "uuid"], True))
+                        E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader, broader.lower(), "uuid"], True))
                         t(E55_Type, crm("P127_has_broader_term"), E55_broader)
 
                 # SeeAlso
@@ -79,9 +79,8 @@ for row in vocab_excel:
                     seeAlso = colonne.value
 
                     # Broaders
-                    broader = broaders[-2:][0]
                     if broader != seeAlso:
-                        E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader.lower(), "uuid"], True))
+                        E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader, broader.lower(), "uuid"], True))
                         t(E55_broader, RDFS.seeAlso, l(seeAlso))
 
 
