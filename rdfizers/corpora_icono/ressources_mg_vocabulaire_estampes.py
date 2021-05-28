@@ -63,7 +63,7 @@ for row in vocab_excel:
                 broaders.append(colonne.value)
 
                 # Concepts
-                if colonne != row[5] and colonne != row[6]:
+                if colonne != row[6] and colonne != row[7]:
                     E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", colonne.value.lower(), "uuid"], True))
                     t(E55_Type, a, crm("E55_Type"))
                     t(E55_Type, crm("P1_is_identified_by"), l(colonne.value))
@@ -75,7 +75,7 @@ for row in vocab_excel:
                         t(E55_Type, crm("P127_has_broader_term"), E55_broader)
 
                 # SeeAlso
-                if colonne == row[5] or colonne == row[6]:
+                if colonne == row[6] or colonne == row[7]:
                     seeAlso = colonne.value
 
                     # Broaders

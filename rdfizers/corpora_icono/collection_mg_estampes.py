@@ -199,16 +199,17 @@ def process(data):
     if data["Lien au texte [ou à l'image]  dans Gallica"]:
         try:
             response = requests.get(data["Lien au texte [ou à l'image]  dans Gallica"])
-            lien_gallica = u(data["Lien au texte [ou à l'image]  dans Gallica"])
-            t(lien_gallica, crm("P2_has_type"), she("e73699b0-9638-4a9a-bfdd-ed1715416f02"))
-            img_gallica_E13 = she(cache.get_uuid(["estampes", id, "E36", "gallica", "E13"], True))
-            t(img_gallica_E13, a, crm("E13_Attribute_Assignement"))
-            t(img_gallica_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-            t(img_gallica_E13, crm("P140_assigned_attribute_to"), gravure)
-            t(img_gallica_E13, crm("P141_assigned"), lien_gallica)
-            t(img_gallica_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
+            if response:
+                lien_gallica = u(data["Lien au texte [ou à l'image]  dans Gallica"])
+                t(lien_gallica, crm("P2_has_type"), she("e73699b0-9638-4a9a-bfdd-ed1715416f02"))
+                img_gallica_E13 = she(cache.get_uuid(["estampes", id, "E36", "gallica", "E13"], True))
+                t(img_gallica_E13, a, crm("E13_Attribute_Assignement"))
+                t(img_gallica_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                t(img_gallica_E13, crm("P140_assigned_attribute_to"), gravure)
+                t(img_gallica_E13, crm("P141_assigned"), lien_gallica)
+                t(img_gallica_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
         except:
-            print("'" + data["Lien au texte [ou à l'image]  dans Gallica"] + "' n'est pas une URL valide")
+            print("'Gallica: " + data["Lien au texte [ou à l'image]  dans Gallica"] + "' n'est pas une URL valide")
 
     # Titre sur l'image (E13)
     if data["Titre sur l'image"]:
@@ -273,10 +274,10 @@ def process(data):
             t(gravure_lieu_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
             t(gravure_lieu_E13, crm("P141_assigned"), l(lieu))
 
-    ## Objet/Personne représentée (E13)
-    if data["objet [en bdc, sg par défaut]/Sujet représenté [avec Maj.]"]:
+    # Objet/Personne représentée (E13)
+    if data["objet [en bdc, sg par défaut]/Personne représentés [avec Maj.]"]:
 
-        sujets = data["objet [en bdc, sg par défaut]/Sujet représenté [avec Maj.]"].split(";")
+        sujets = data["objet [en bdc, sg par défaut]/Personne représentés [avec Maj.]"].split(";")
 
         for sujet in sujets:
             sujet = sujet.strip()
@@ -444,7 +445,7 @@ def process(data):
                     t(gravure_objet_E13, crm("P141_assigned"), l(sujet))
 
 
-    ## Notes sur la provenance de la gravure
+    # Notes sur la provenance de la gravure
     if data["PROVENANCE"]:
         gravure_notes_E13 = she(cache.get_uuid(["estampes", id, "E36", "notes", "E13"], True))
         t(gravure_notes_E13, a, crm("E13_Attribute_Assignement"))
@@ -453,21 +454,38 @@ def process(data):
         t(gravure_notes_E13, crm("P141_assigned"), l(data["PROVENANCE"]))
         t(gravure_notes_E13, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
-    ## Autres liens externes
+    # Autres liens externes
     if data["LIENS EXTERNES"]:
         try:
             response = requests.get(data["LIENS EXTERNES"])
-            lien_externe = u(data["LIENS EXTERNES"])
-            gravure_lien_externe_E13 = she(
-                cache.get_uuid(["estampes", id, "E36", "lien externe", "E13"], True))
-            t(gravure_lien_externe_E13, a, crm("E13_Attribute_Assignement"))
-            t(gravure_lien_externe_E13, crm("P14_carried_out_by"),
-              she("684b4c1a-be76-474c-810e-0f5984b47921"))
-            t(gravure_lien_externe_E13, crm("P140_assigned_attribute_to"), gravure)
-            t(gravure_lien_externe_E13, crm("P141_assigned"), lien_externe)
-            t(gravure_lien_externe_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
+            if response:
+                lien_externe = u(data["LIENS EXTERNES"])
+                gravure_lien_externe_E13 = she(
+                    cache.get_uuid(["estampes", id, "E36", "lien externe", "E13"], True))
+                t(gravure_lien_externe_E13, a, crm("E13_Attribute_Assignement"))
+                t(gravure_lien_externe_E13, crm("P14_carried_out_by"),
+                  she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                t(gravure_lien_externe_E13, crm("P140_assigned_attribute_to"), gravure)
+                t(gravure_lien_externe_E13, crm("P141_assigned"), lien_externe)
+                t(gravure_lien_externe_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
         except:
-            print("'" + data["LIENS EXTERNES"] + "' n'est pas une URL valide")
+            print("'Liens externes : " + data["LIENS EXTERNES"] + "' n'est pas une URL valide")
+
+
+    # Bibliographie relative à la gravure
+    if data["BIBLIO relative à la gravure"]:
+        biblio = she(cache.get_uuid(["estampes", id, "E36", "bibliographie", "uuid"], True))
+        t(biblio, a, crm("E31_Document"))
+        t(biblio, RDFS.label, l(data["BIBLIO relative à la gravure"]))
+        ## E13 Attribute Assignement
+        gravure_biblio_E13 = she(cache.get_uuid(["estampes", id, "E36", "bibliographie", "E13"], True))
+        t(gravure_biblio_E13, a, crm("E13_Attribute_Assignement"))
+        t(gravure_biblio_E13, crm("P14_carried_out_by"),
+          she("684b4c1a-be76-474c-810e-0f5984b47921"))
+        t(gravure_biblio_E13, crm("P140_assigned_attribute_to"), gravure)
+        t(gravure_biblio_E13, crm("P141_assigned"), biblio)
+        t(gravure_biblio_E13, crm("P177_assigned_property_type"), crm("P70_documents"))
+
 
 
 ###################################################################################################
@@ -485,22 +503,3 @@ for row in rows:
 
 cache.bye()
 save_graph(args.ttl)
-
-
-
-
-
-#
-# 				## Bibliographie relative à la gravure
-# 				if data[21]:
-# 					biblio = she(cache.get_uuid(["estampes", id, "E36", "bibliographie", "uuid"], True))
-# 					t(biblio, a, crm("E31_Document"))
-# 					t(biblio, RDFS.label, l(data[21]))
-# 					## E13 Attribute Assignement
-# 					gravure_biblio_E13 = she(cache.get_uuid(["estampes", id, "E36", "bibliographie", "E13"], True))
-# 					t(gravure_biblio_E13, a, crm("E13_Attribute_Assignement"))
-# 					t(gravure_biblio_E13, crm("P14_carried_out_by"),
-# 					  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-# 					t(gravure_biblio_E13, crm("P140_assigned_attribute_to"), gravure)
-# 					t(gravure_biblio_E13, crm("P141_assigned"), biblio)
-# 					t(gravure_biblio_E13, crm("P177_assigned_property_type"), crm("P70_documents"))
