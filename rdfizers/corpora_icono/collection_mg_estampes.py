@@ -196,9 +196,9 @@ def process(data):
                 "Article annexe à la gravure : l'article " + id_article + " est introuvable dans les fichiers TEI")
 
     # Lien Gallica
-    if data["Lien au texte [ou à l'image]  dans Gallica"]:
+    if data["Lien au texte [ou à l'image] dans Gallica"]:
         try:
-            response = requests.get(data["Lien au texte [ou à l'image]  dans Gallica"])
+            response = requests.get(data["Lien au texte [ou à l'image] dans Gallica"])
             if response:
                 lien_gallica = u(data["Lien au texte [ou à l'image]  dans Gallica"])
                 t(lien_gallica, crm("P2_has_type"), she("e73699b0-9638-4a9a-bfdd-ed1715416f02"))
@@ -209,7 +209,7 @@ def process(data):
                 t(img_gallica_E13, crm("P141_assigned"), lien_gallica)
                 t(img_gallica_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
         except:
-            print("'Gallica: " + data["Lien au texte [ou à l'image]  dans Gallica"] + "' n'est pas une URL valide")
+            print("'Gallica: " + data["Lien au texte [ou à l'image] dans Gallica"] + "' n'est pas une URL valide")
 
     # Titre sur l'image (E13)
     if data["Titre sur l'image"]:
@@ -221,12 +221,12 @@ def process(data):
         t(gravure_titre, crm("P177_assigned_property_type"), she("01a07474-f2b9-4afd-bb05-80842ecfb527"))
 
     # Titre descriptif/forgé (E13)
-    if data[" [titre descriptif forgé]*  (Avec Maj - accentuées]"]:
+    if data["[titre descriptif forgé]* (Avec Maj - accentuées]"]:
         gravure_titre = she(cache.get_uuid(["estampes", id, "E36", "titre forgé"], True))
         t(gravure_titre, a, crm("E13_Attribute_Assignement"))
         t(gravure_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
         t(gravure_titre, crm("P140_assigned_attribute_to"), gravure)
-        t(gravure_titre, crm("P141_assigned"), l(data[" [titre descriptif forgé]*  (Avec Maj - accentuées]"]))
+        t(gravure_titre, crm("P141_assigned"), l(data["[titre descriptif forgé]* (Avec Maj - accentuées]"]))
         t(gravure_titre, crm("P177_assigned_property_type"), she("58fb99dd-1ffb-4e00-a16f-ef6898902301"))
 
     # Titre dans le péritexte (E13)
@@ -275,9 +275,9 @@ def process(data):
             t(gravure_lieu_E13, crm("P141_assigned"), l(lieu))
 
     # Objet/Personne représentée (E13)
-    if data["objet [en bdc, sg par défaut]/Personne représentés [avec Maj.]"]:
+    if data["objet [en bdc, sg par défaut] / Personne représentés [avec Maj.]"]:
 
-        sujets = data["objet [en bdc, sg par défaut]/Personne représentés [avec Maj.]"].split(";")
+        sujets = data["objet [en bdc, sg par défaut] / Personne représentés [avec Maj.]"].split(";")
 
         for sujet in sujets:
             sujet = sujet.strip()
@@ -311,10 +311,11 @@ def process(data):
 
                 ### Recherche d'UUID dans le vocabulaire d'indexation des gravures
                 try:
-                    objet_uuid = she(cache_vocab_estampes.get_uuid(["vocabulaire indexation gravures", sujet, "uuid"]))
+                    objet_uuid = she(cache_vocab_estampes.get_uuid(["vocabulaire indexation gravures", "Objets", sujet, "uuid"]))
+
                     if objet_uuid:
 
-                        if "médaille" not in sujet:
+                        if sujet != "médaille":
                             gravure_objet_E13 = she(cache.get_uuid(
                                 ["collection", id, "E36", sujet, "zone de l'image (E36)", "objet représenté"], True))
                             t(gravure_objet_E13, a, crm("E13_Attribute_Assignement"))
@@ -325,7 +326,7 @@ def process(data):
                             t(gravure_objet_E13, crm("P141_assigned"), objet_uuid)
 
                         ### Si l'objet représenté est une médaille (E13)
-                        if "médaille" in sujet:
+                        if sujet == "médaille":
                             #### E13 Attribute Assignement - la médaille
                             t(objet_uuid, a, crm("E55_Type"))
                             t(objet_uuid, crm("P2_has_type"), she("4b51d9dc-3623-47f4-ab45-239604e18930"))
@@ -444,6 +445,38 @@ def process(data):
                     t(gravure_objet_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
                     t(gravure_objet_E13, crm("P141_assigned"), l(sujet))
 
+
+    # Type/Thématique de la gravure
+    if data["Type / Thématique [Avec Maj et au pl.]"]:
+
+        type_thématiques = data["Type / Thématique [Avec Maj et au pl.]"].split(";")
+
+        for type_thématique in type_thématiques:
+            type_thématique = type_thématique.strip()
+
+            try:
+                thématique_uuid = she(cache_vocab_estampes.get_uuid(["vocabulaire indexation gravures", "Thématiques", type_thématique.lower(), "uuid"]))
+                gravure_thématique_E13 = she(cache.get_uuid(["collection", id, "E36", "thématique", "E13"], True))
+                t(gravure_thématique_E13, a, crm("E13_Attribute_Assignement"))
+                t(gravure_thématique_E13, crm("P14_carried_out_by"),
+                  she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                t(gravure_thématique_E13, crm("P140_assigned_attribute_to"), gravure)
+                t(gravure_thématique_E13, crm("P177_assigned_property_type"), crm("P129_is_about"))
+                t(gravure_thématique_E13, crm("P141_assigned"), thématique_uuid)
+            except:
+                try:
+                    technique_uuid = she(cache_vocab_estampes.get_uuid(
+                        ["vocabulaire indexation gravures", "Thechniques", type_thématique.lower(), "uuid"]))
+                    gravure_thématique_E13 = she(cache.get_uuid(["collection", id, "E36", "technique", "E13"], True))
+                    t(gravure_thématique_E13, a, crm("E13_Attribute_Assignement"))
+                    t(gravure_thématique_E13, crm("P14_carried_out_by"),
+                      she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                    t(gravure_thématique_E13, crm("P140_assigned_attribute_to"), gravure)
+                    t(gravure_thématique_E13, crm("P177_assigned_property_type"), crm("P2_has_type"))
+                    t(gravure_thématique_E13, crm("P141_assigned"), technique_uuid)
+
+                except:
+                    print("La thématique ou technique", type_thématique, "est introuvable dans le vocabulaire d'indexation d'estampes")
 
     # Notes sur la provenance de la gravure
     if data["PROVENANCE"]:
