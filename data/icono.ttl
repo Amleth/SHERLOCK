@@ -65,18 +65,6 @@
     dcterms:created <7d4d40a4-9b4a-4098-99a9-c5d6de91217e> ;
     .
 
-<20674932-def8-4a73-9b67-ac49a16b5243>
-  a crm:E55_Type ;
-    crm:P1_is_identified_by "Collection d'estampes numérisées" ;
-    dcterms:created <40006d1f-c77e-4514-be9f-4b8f6757cf47> ;
-    .
-
-<fa4959c8-8537-4ef0-8d58-4f761e9679b1>
-  a crm:E55_Type ;
-    crm:P1_is_identified_by "Collection de partitions numérisées" ;
-    dcterms:created <40006d1f-c77e-4514-be9f-4b8f6757cf47> ;
-    .
-
 <4b51d9dc-3623-47f4-ab45-239604e18930>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Médaille"
