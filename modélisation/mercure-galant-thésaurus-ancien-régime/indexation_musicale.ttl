@@ -4,8 +4,6 @@
 @prefix lrm: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-# Toutes ces informations sont à envelopper dans des E13
-
 ## L'oeuvre musicale
 <98e68170-95c9-4aa4-a2ea-fa864aec2ae5>
     a lrm:F1_Work ;
@@ -14,20 +12,9 @@
     <066f3c51-0671-479d-946f-ceb656e88f0b> ;
 .
 
-# Incipit de l'oeuvre musicale (colonne F)
-<b1fc3882-ec63-438c-8f69-3d97f5f2b1de>
-    a crm:E41_Appellation ;
-    a crm:E33_Linguistic_Object ;
-    crm:P2_has_type <e43ce57c-8bf7-43b5-87a2-cf8c140030a6> ; # Créer un type incipit 
-    rdfs:label "Puisque vous ressemblez à celle qui vous donna l'être" ;
-    crm:P1_is_identified_by <e6223ab1-c6c2-47ce-8aa2-d18a14324282> ; # code de l'incipit (Colonne AN)
-.
+# Documenter le fait qu'on ne crée par de lien entre les oeuvres
+# Créer F2 de l'oeuvre, contenant (E65) air/texte
 
-# Code de l'incipit (Colonne AN)
-<e6223ab1-c6c2-47ce-8aa2-d18a14324282>
-    a crm:P42_Identifier ;
-    rdfs:label "151 123 27 345 56" ;
-.
 
 # Rattachement de l'oeuvre musicale à son article (colonne N)
 <5ca8198e-6544-4420-92a4-7aa7eff63ad2> # L'article (UUID factice)
@@ -35,36 +22,54 @@
     <066f3c51-0671-479d-946f-ceb656e88f0b> ;
 .
 
+# E13
 # L'air
 <6bc5e795-7e3f-4961-9c16-1a399c40560b>
     a lrm:F2_Expression ;
-    crm:P3_has_note "sol mineur, 3, forme binaire (les barres de mesure ont été omises)." ; # Colonne AA
-    crm:P2_has_type "air" ; # Colonne AH
+    #créer type "note sur la musique" anciennement crm:P3_has_note "sol mineur, 3, forme binaire (les barres de mesure ont été omises)." ; # Colonne AA
+    #créer type "genre musical" anciennement crm:P2_has_type "air" ; # Colonne AH
 .
 
 # Composition de l'air (colonne C)
 <07545ddb-f8fb-42e6-8f2d-8667319abb4c>
     a lrm:F28_Expression_Creation ;
     lrm:R17_created <6bc5e795-7e3f-4961-9c16-1a399c40560b> ;
-    crm:P14_carried_out_by "Bertrand de Bacilly" ; # Alignement sur le ref. des personnes
+    #E13 P140 sur F28, P177 sur P14 et P140 "Bertrand"
+     crm:P14_carried_out_by "Bertrand de Bacilly" ; # Création d'un E21 par défaut et alignement sur le ref. des personnes si possible
 .
 
 # Le texte de l'air
 <066f3c51-0671-479d-946f-ceb656e88f0b>
     a lrm:F2_Expression ;
-    # Le texte fait référence à un lieu (colonne J) (alignement sur le ref. des lieux)
+    # E13 Le texte fait référence à un lieu (colonne J) (alignement sur le ref. des lieux)
     crm:P67_refers_to "" ;
-    # Le texte fait référence à un mot-clé (colonne M) (alignement sur le ref. des mots-clés)
+    # E13 Le texte fait référence à un mot-clé (colonne M) (alignement sur le ref. des mots-clés)
     crm:P67_refers_to "" ;
-    # Le texte fait référence à une personne (colonne AT) (alignement sur le ref. des personnes)
+    # E13 Le texte fait référence à une personne (colonne AT) (alignement sur le ref. des personnes)
     crm:P67_refers_to "RICHELIEU, Anne-Marguerite d'Acigné [?-1702], duchesse de	RICHELIEU, Armand-Jean de Vignerot du Plessis [1629-1715], duc de" ;
-    # Le texte fait référence à une oeuvre (colonne BK) (référentiel d'oeuvres à mettre au point?)
+    # E13 Le texte fait référence à une oeuvre (colonne BK) (référentiel d'oeuvres à mettre au point?)
     crm:P67_refers_to "" ;
-    # Colonne Z 
+    # E13 Colonne Z 
     crm:P3_has_note "" ; 
 .
 
-# Colonne V : notes sur l'attribution de l'air/du texte à un auteur : à diviser en deux colonnes?
+# Incipit musical (colonne F)
+<b1fc3882-ec63-438c-8f69-3d97f5f2b1de>
+    a crm:E41_Appellation ;
+    a crm:E33_Linguistic_Object ;
+    crm:P2_has_type <e43ce57c-8bf7-43b5-87a2-cf8c140030a6> ; # Créer un type incipit (P177)
+    crm:P190 "Puisque vous ressemblez à celle qui vous donna l'être" ; # E13
+    crm:P1_is_identified_by <e6223ab1-c6c2-47ce-8aa2-d18a14324282> ; # code de l'incipit (Colonne AN)
+.
+
+# Code de l'incipit (Colonne AN)
+<e6223ab1-c6c2-47ce-8aa2-d18a14324282>
+    a crm:P42_Identifier ;
+    crm:P2_has_type #demander à Nathalie le nom du code pour créer E55 ;
+    crm:P190 "151 123 27 345 56" ; #E13
+.
+
+# Colonne V : P3 sur événement d'attribution compositeur
 
 # Ecriture du texte (colonne S)
 <39772ac9-5004-4e17-bb62-63439dd1fc04>
@@ -74,17 +79,16 @@
 .
 
 # TODO Revoir colonne O
-# TODO Ignorer colonne P?
-# TODO Revoir colonne U
+# TODO Remplacer colonne N par P
+# TODO Revoir colonne e55 note sur la musique
 
 # Les airs sont-ils toujours liés à une partition dans les articles? 
 
 # Comment modéliser la colonne AQ effectif musical? Doremus (les classes de Doremus dérivent généralement de E55)
 
-# Colonne AR (instruments) : Doremus utilise la classe M6_Casting qui dérive de E29_Design_or_Procedure
-# On utiliserait peut-être plutôt P16_used_specific_object E22_Human-Made_Object?
+# Colonne AR (instruments) : créer un type "instrument"
 
-# Colonne BA à revoir
+# Colonne BA : identifiant de l'air dans un catalogue existant. A faire aussi pour la colonne Philidor (E42 de type Philidor))
 
 
 

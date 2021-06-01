@@ -2,6 +2,8 @@ import argparse
 from sherlockcachemanagement import Cache
 from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, XSD, URIRef as u, Literal as l
 from openpyxl import load_workbook
+from pprint import pprint
+import yaml
 
 # ARGUMENTS
 parser = argparse.ArgumentParser()
@@ -59,38 +61,59 @@ for row in vocab_excel:
 
     for colonne in row:
         if colonne.value != None:
-            if colonne.value not in broaders:
-                broaders.append(colonne.value)
-                broader = broaders[-2:][0]
+            broaders.append(colonne.value)
+            broader = broaders[-2:][0]
 
-                # Concepts
-                if colonne != row[6] and colonne != row[7]:
-                    try:
-                        homonyme = she(
-                            cache.get_uuid(["vocabulaire indexation gravures", colonne.value.lower(), "uuid"]))
-                        E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", colonne.value.lower() + " (homonyme)", "uuid"], True))
-                        t(E55_Type, a, crm("E55_Type"))
-                        t(E55_Type, crm("P1_is_identified_by"), l(colonne.value))
-                    except:
-                        E55_Type = she(cache.get_uuid(["vocabulaire indexation gravures", colonne.value.lower(), "uuid"], True))
-                        t(E55_Type, a, crm("E55_Type"))
-                        t(E55_Type, crm("P1_is_identified_by"), l(colonne.value))
+            # Concepts
+            if colonne != row[6] and colonne != row[7]:
+                if len(broaders) <= 1:
+                    # Création du cache arborescent
+                    E55_Type = she(cache.get_uuid([colonne.value.lower(), "uuid"], True))
+                    t(E55_Type, a, crm("E55_Type"))
+                    t(E55_Type, crm("P1_is_identified_by"), l(colonne.value))
+                    t(F34_uuid, crm("P71_lists"), E55_Type)
+                else:
+                    E55_Type = she(cache.get_uuid([broader.lower(), colonne.value.lower(), "uuid"], True))
+                    t(E55_Type, a, crm("E55_Type"))
+                    t(E55_Type, crm("P1_is_identified_by"), l(colonne.value))
+                    t(F34_uuid, crm("P71_lists"), E55_Type)
 
-                    # Broaders
-                    if broader != colonne.value:
-                        E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader.lower(), "uuid"]))
+                    # Broader
+                    if len(broaders) >= 3:
+                        E55_broader = she(cache.get_uuid([broaders[-3:][0].lower(), broader.lower(), "uuid"]))
+                        t(E55_Type, crm("P127_has_broader_term"), E55_broader)
+                    if len(broaders) <= 2:
+                        E55_broader = she(cache.get_uuid([broader.lower(), "uuid"]))
                         t(E55_Type, crm("P127_has_broader_term"), E55_broader)
 
+            # SeeAlso
+            if colonne == row[6] or colonne == row[7]:
+                seeAlso = colonne.value
 
-                # TODO See Also à revoir (cf. le cas de "obélisque")
-                # SeeAlso
-                if colonne == row[6] or colonne == row[7]:
-                    seeAlso = colonne.value
+                # Broader
+                E55_broader = she(cache.get_uuid([broaders[-3:][0].lower(), broader.lower(), "uuid"]))
+                t(E55_broader, RDFS.seeAlso, l(seeAlso))
 
-                    # Broaders
-                    if broader != seeAlso:
-                        E55_broader = she(cache.get_uuid(["vocabulaire indexation gravures", broader, broader.lower(), "uuid"], True))
-                        t(E55_broader, RDFS.seeAlso, l(seeAlso))
+
+cache.bye()
+
+
+# Dictionnaire des concepts/uuid sans arborescence, pour l'alignement de l'indexation au vocabulaire
+d = {}
+
+with open(args.cache, "r") as f:
+    cache_arborescent = yaml.load(f, Loader=yaml.FullLoader)
+    for label, items in cache_arborescent.items():
+        for item in items:
+            if item == "uuid":
+                if label not in d:
+                    d[label] = []
+                    d[label].append(items["uuid"])
+            else:
+                if item not in d:
+                    d[item] = []
+                d[item].append(items[item]["uuid"])
+
 
 
 ###########################################################################################################
@@ -101,4 +124,5 @@ serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.f
 with open(args.ttl, "wb") as f:
     f.write(serialization)
 
-cache.bye()
+
+
