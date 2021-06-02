@@ -13,19 +13,19 @@ def init_graph():
     g.bind("skos", SKOS)
     g.bind("crmdig", crmdig_ns)
 
-
-def save_graph(file):
-    serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-    with open(file, "wb") as f:
-        f.write(serialization)
-
-
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
 sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
+dcterms = Namespace("http://purl.org/dc/terms/")
+
+
+def save_graph(file):
+    serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
+    with open(file, "wb") as f:
+        f.write(serialization)
 
 a = RDF.type
 
