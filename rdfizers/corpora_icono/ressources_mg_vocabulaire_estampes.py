@@ -67,62 +67,61 @@ for row in vocab_excel:
     broaders = []
 
     for colonne in row:
-        if colonne.value != None:
+        if colonne.value != None and colonne != row[6] and colonne != row[7]:
             broaders.append(colonne.value)
-            broader = broaders[-2:][0]
 
-            # Concepts
-            if colonne != row[6] and colonne != row[7]:
-                if len(broaders) <= 1:
-                    # Création du cache arborescent
-                    E55_Type = she(cache.get_uuid([colonne.value.lower(), "uuid"], True))
-                    t(E55_Type, a, crm("E55_Type"))
-                    t(E55_Type, crm("P1_is_identified_by"), l(colonne.value))
-                    t(F34_uuid, crm("P71_lists"), E55_Type)
-                else:
-                    E55_Type = she(cache.get_uuid([broader.lower(), colonne.value.lower(), "uuid"], True))
-                    t(E55_Type, a, crm("E55_Type"))
-                    t(E55_Type, crm("P1_is_identified_by"), l(colonne.value))
-                    t(F34_uuid, crm("P71_lists"), E55_Type)
+    if len(broaders) == 0:
+        continue
 
-                    # Broader
-                    if len(broaders) >= 3:
-                        E55_broader = she(cache.get_uuid([broaders[-3:][0].lower(), broader.lower(), "uuid"]))
-                        t(E55_Type, crm("P127_has_broader_term"), E55_broader)
-                    if len(broaders) <= 2:
-                        E55_broader = she(cache.get_uuid([broader.lower(), "uuid"]))
-                        t(E55_Type, crm("P127_has_broader_term"), E55_broader)
+    broaders = [b.lower() for b in broaders]
 
-            # SeeAlso
-            if colonne == row[6] or colonne == row[7]:
-                seeAlso = colonne.value
+    for b in broaders:
+        E55_Type = she(cache.get_uuid([*broaders, "uuid"], True))
+        t(E55_Type, a, crm("E55_Type"))
+        t(E55_Type, crm("P1_is_identified_by"), l(broaders[-1]))
+        t(F34_uuid, crm("P71_lists"), E55_Type)
 
-                # Broader
-                E55_broader = she(cache.get_uuid([broaders[-3:][0].lower(), broader.lower(), "uuid"]))
-                t(E55_broader, RDFS.seeAlso, l(seeAlso))
+    top_concept = she(cache.get_uuid([broaders[0], "uuid"], True))
+    t(F34_uuid, she("sheP_a_pour_entité_de_plus_haut_niveau"), top_concept)
+
+    if len(broaders) >= 2:
+        for i in range(1, len(broaders)):
+            #print(broaders[:i], broaders[:i+1])
+            broader = she(cache.get_uuid([*broaders[:i], "uuid"]))
+            narrower = she(cache.get_uuid([*broaders[:i+1], "uuid"]))
+            t(narrower, crm("P127_has_broader_term"), broader)
+
+            #
+            # # SeeAlso
+            # if colonne == row[6] or colonne == row[7]:
+            #     seeAlso = colonne.value
+            #
+            #     # Broader
+            #     E55_broader = she(cache.get_uuid([broaders[-3:][0].lower(), last_broader.lower(), "uuid"]))
+            #     t(E55_broader, RDFS.seeAlso, l(seeAlso))
 
 
 cache.bye()
 
 
 # Dictionnaire des concepts/uuid sans arborescence, pour l'alignement de l'indexation au vocabulaire
-d = {}
-
-with open(args.cache, "r") as f:
-    cache_arborescent = yaml.load(f, Loader=yaml.FullLoader)
-    for label, items in cache_arborescent.items():
-        for item in items:
-            if item == "uuid":
-                if label not in d:
-                    d[label] = []
-                    d[label].append(items["uuid"])
-            else:
-                if item not in d:
-                    d[item] = []
-                d[item].append(items[item]["uuid"])
-
-with open(args.cache_applati, "w", encoding='utf-8') as f:
-    yaml.dump(d, f, allow_unicode=True)
+# d = {}
+#
+# with open(args.cache, "r") as f:
+#     cache_arborescent = yaml.load(f, Loader=yaml.FullLoader)
+#     for label, items in cache_arborescent.items():
+#         for item in items:
+#             if item == "uuid":
+#                 if label not in d:
+#                     d[label] = []
+#                     d[label].append(items["uuid"])
+#             else:
+#                 if item not in d:
+#                     d[item] = []
+#                 d[item].append(items[item]["uuid"])
+#
+# with open(args.cache_applati, "w", encoding='utf-8') as f:
+#     yaml.dump(d, f, allow_unicode=True)
 
 ###########################################################################################################
 # CREATION DU FICHIER TURTLE

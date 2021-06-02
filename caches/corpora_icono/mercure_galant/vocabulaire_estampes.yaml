@@ -1,523 +1,512 @@
 thématiques:
-  uuid: a93eb4aa-bf48-45de-845e-cfadf83ee777
+  uuid: 867a6238-9213-4eb2-815d-3b1ff8b8e55b
   allégorie et rhétorique:
-    uuid: fb30554e-df0b-4441-8cba-2df63967a7df
+    uuid: 8264ab6a-217f-4053-88b6-7407bf08a984
+    emblématique:
+      uuid: 3c9256dc-67b9-4fbe-84a2-1c8fedabeb10
+    allégorie amoureuse:
+      uuid: 48b76d3d-47e8-4a1d-b8b4-52ab1bcccd80
+    énigme en figure:
+      uuid: 1b93062d-436f-4764-8bee-204ed22c060f
+    alphabets et écritures codées:
+      uuid: fecc9f09-ffd1-4d08-baa7-5c1a5ac56989
+    cartes allégoriques ou de galanterie:
+      uuid: 3966a04d-fcb9-4d7c-b929-2fb3274c9a30
+    figures allégoriques:
+      uuid: cba390be-a620-4622-b86c-d792c6615114
+      victoire:
+        uuid: c53a04fb-3229-47ad-a971-5a19ccae0a8b
+      renommée:
+        uuid: c4a524a4-a335-422e-8086-f8770f1409c8
   arts, sciences et techniques:
-    uuid: e0d90e12-6659-46da-b2c3-e53ac62be0fe
+    uuid: 14c81125-b24e-4b76-80e1-805220f214b8
+    génie civil:
+      uuid: d16c0cf4-c21f-453a-b534-64388dd3daa5
+    anatomie:
+      uuid: 4711d5f9-2fd5-4ee0-9f90-b13310e9b662
+    astrologie [regrouper si besoin avec astronomie ; si thème royal, classer comme emblème]:
+      uuid: d76945be-5085-41ba-8d6f-a45fccbced1f
+    géométrie:
+      uuid: 78d340d8-17e2-4dba-a61f-1186e5e3c602
+    mécanique:
+      uuid: 3d3e8b20-b709-4ddb-992b-9dc4383483f4
+    archéologie:
+      uuid: 348e46f6-0fce-4cc6-8bf5-9752ff63947c
+    architecture:
+      uuid: 178c55a2-3a65-4f53-8a0b-9b9ddf03cbaa
+      architecture navale:
+        uuid: e1157b21-2474-425d-b12d-526c3821483f
+    astronomie:
+      uuid: d888fa14-daad-4a49-b06c-45c8931d8f39
+    musique:
+      uuid: 351168de-b186-4a4f-b554-d58fe5b5ce78
+    optique:
+      uuid: 1237a59f-b4b3-4c30-8403-a2028a57e284
+    horlogerie:
+      uuid: 71f07d8a-ee0a-4398-a0a2-f8377276e6c2
+    zoologie:
+      uuid: 1dd5d61c-3675-4974-9e3c-1e68ac12a358
   décor:
-    uuid: ce94d2bc-baed-4782-80d1-4f0987e65922
+    uuid: 4902c6fc-8ebd-45a6-8ef3-65e36d3cd7d9
+    objets décoratifs et d’apparat [chaises à porteurs, pagodes chinoises, cadeaux diplomatiques…]:
+      uuid: 5bdbfc86-9e10-411a-9c37-a11f77e405de
+    décor éphémère:
+      uuid: 7135a2f7-1567-496e-a417-c847c83a9f3d
+    plan ou description de fête:
+      uuid: 8c005f37-665e-4db8-a3ce-511a4efe5de3
+    décor de spectacle:
+      uuid: c045b57e-93c5-450c-900e-7f59ed466126
+    apparat:
+      uuid: 811d46c6-e4b3-4415-b2c3-75502ccabd1f
+    décor de théâtre:
+      uuid: 4b3dae65-70e0-4ed3-8521-9a585cea410a
   emblématique:
-    uuid: 5eecb576-6b88-4f21-958e-9a30b6308e56
+    uuid: 181d27f4-826e-4a9d-a81c-0040df4920aa
+    emblème:
+      uuid: 18c6b953-f000-4aae-8dd0-3601b24d6b10
   mythologie:
-    uuid: 3bdb2375-00af-4325-93f4-9b13282c6956
+    uuid: 5c9ada83-41db-4f0b-bd15-862405488327
+    mythologie gréco-romaine:
+      uuid: 60aa0add-9f7e-4aee-8289-93a6f3e33018
+      bacchus:
+        uuid: 228f7fa8-6c23-4c5e-9edf-0bdb4513850f
+      neptune:
+        uuid: 8bbe5a7f-d2d5-4d43-bcef-00a1e35cbb48
+      prométhée:
+        uuid: 9148e66c-2a14-4438-98c1-601d156a1566
+      protée:
+        uuid: e06225b8-997b-4389-aced-6edc9269a5c8
+      vénus:
+        uuid: 4d9872ca-5bf7-4929-a36d-0fe425e53c9a
+      personnages:
+        uuid: 2786262f-6e31-425d-b4db-93bc53eb85e9
+      ascagne:
+        uuid: 1dc24bbd-f109-4107-9f62-c4c18ad0a6a5
+      géants:
+        uuid: e8d271cf-3b70-44bc-95fe-402523733f9f
+      io:
+        uuid: 11b184ba-fb8d-4723-ba81-dded1b6c46a6
+      thèmes mythologiques:
+        uuid: 61d4d55e-9ccb-4a61-bcf1-ea8a8caf7a2f
+      chaos:
+        uuid: c38395ed-7570-463d-9937-f3962d0e3230
+      songe:
+        uuid: 4c71b916-95d3-441c-8ce1-427986728fb7
+      amphyon:
+        uuid: a629d45c-6932-4f24-aedc-ec714aebe49e
+      antée:
+        uuid: 458bafb8-f8d6-4059-bbc2-e41ccf7ffd13
+      bellérophon:
+        uuid: 80698883-7fe5-4262-8c3c-043816572275
+      mercure ;:
+        uuid: 25825b1d-d720-41fa-a151-390751524959
+      clythie:
+        uuid: 8928ddfb-4c71-4f42-b5fc-38aaca1efa04
+      daphné:
+        uuid: ea3cc9c4-abea-493a-ac7d-c33bedabff0b
+      dragon du jardin des hespérides:
+        uuid: 859a47e0-4d7d-4038-8289-d2cc5415f25b
+      europe;:
+        uuid: a5005573-5ecd-4155-a1ea-184334683cb3
+      eurydice:
+        uuid: d3f76f1e-037c-4de4-91bf-94b3ed4dfc1b
+      hercule;:
+        uuid: fd3cf2c5-5f48-4d7d-8405-0fa49d53bf5d
+      hésione:
+        uuid: 23e70fe3-b088-43c9-aa27-f69288fc6eb9
+      hyacinthe:
+        uuid: 286927df-59e7-45c3-aeee-5bda48dfe561
+      icare:
+        uuid: 2cfdf908-9dcd-4a31-9c0f-ffbc4ab17335
+      ino:
+        uuid: fff471ba-49ca-4fdd-ac4c-4416cb59e535
+      janus ;:
+        uuid: edb44b0e-0a8f-46e3-a246-4f7e1e720f83
+      jason:
+        uuid: 6a7a0bc0-d73c-4979-808d-f8d4f3fe9782
+      argonautes ;:
+        uuid: 8b0f6931-6e80-4a4e-8a6d-e1ceb450e67a
+      jupiter:
+        uuid: dcd476a4-c63f-4ad6-bb14-79c985487e92
+      leda:
+        uuid: 904e7672-865a-4f27-9b75-2cabf950a655
+      mars:
+        uuid: fed4bf72-c7d5-47f6-830a-d06a603a2341
+      marsyas:
+        uuid: 58016d14-9d67-4403-807c-7624bcdcc84b
+      médée:
+        uuid: 9435e599-bb64-47f4-a75c-9999000f0e3f
+      méduse:
+        uuid: 0fb3bc2b-6a4d-4c9d-aa57-c474a3befa48
+      memnon:
+        uuid: be1d644d-b2dd-4094-bd44-4e7e8660771a
+      minerve:
+        uuid: 31258f78-ae9c-4068-83f1-675aa11348fe
+      narcisse:
+        uuid: 34b29076-c445-4970-b0c8-bcf85f0f80ed
+      neptune ;:
+        uuid: 565767d3-5051-44ef-af73-0af72ccde4c3
+      niobé:
+        uuid: a8c583a0-5415-47a7-aab1-ddb58eb0f603
+      orythie:
+        uuid: 2c3a9b0c-ad83-41a5-b30a-7cc04d255ec0
+      pallas;:
+        uuid: c574c9bd-9bf4-4825-b295-9bb4ae1e4a86
+      pandore:
+        uuid: 2a1daa51-024a-4b25-8128-19c5078afb5b
+      phaéton:
+        uuid: fc30df35-1a82-4e1a-961a-689b30d93d1f
+      proserpine:
+        uuid: def61723-03de-4551-b802-99c98218f711
+      pyrame et thisbé ;:
+        uuid: 01123d89-b264-4143-b722-dab6e5c12efd
+      remus et romulus:
+        uuid: 40fdf9f8-24c6-4fcb-8985-5629faf771e6
+      salmonée:
+        uuid: 56631c67-95e6-46ec-af22-4a3dae4db412
+      serpent d'epidaure:
+        uuid: 3cab7655-6cb8-4415-94d0-6b1fe321748a
+      taureau aux pieds d'airain;:
+        uuid: 64028054-1ba7-443c-b1d0-b17a694ad05d
+      vulcain:
+        uuid: 6931bb54-ee36-4e58-8b2c-b5ede2c202f9
   portraits et généalogie:
-    uuid: f3f6239e-c66c-416a-abb2-d4943c793b44
+    uuid: 719438ae-59b9-46f0-bdbf-fc7d3f95b4dc
   topographie:
-    uuid: d0dd3bd4-ecc1-4a48-9573-1a64cd1f8cfc
+    uuid: bf20fccd-5ac8-48b6-97dc-2576f7599763
+    architecture navale [galères, etc.]:
+      uuid: b2eefdeb-d390-472b-ba20-e82354bf2b4b
+    plans et vues:
+      uuid: 744a4ff7-90cd-48af-9efd-3db5f3b1cc06
+      plan de bâtiment [église, etc.]:
+        uuid: c7913248-b260-402f-9daf-4c74e56f9984
+      plans et vues militaires:
+        uuid: 05028bb3-5290-47bd-b33e-99ca6045fe2a
+      sièges et plans d'ouvrages militaires:
+        uuid: d2ede809-e24b-4c36-a34b-dd1dc171435a
+      plans et descriptions militaires:
+        uuid: 5b3c6e0a-2b77-42bc-ad13-a95b987c3075
+      plans de bâtiments:
+        uuid: e4acd1a9-a22b-46a8-8285-b58fe1155eb2
   vie militaire:
-    uuid: 6918dd0d-4826-404f-83fe-6092fbbf6655
+    uuid: 1a2b091f-3f93-43f3-8f27-21c8ec3e6c04
   vie sociale:
-    uuid: e5f12c68-758a-4e01-89a5-accec1723232
-allégorie et rhétorique:
-  emblématique:
-    uuid: 9331f384-abe8-4f69-8f5d-9362e20fb20a
-  allégorie amoureuse:
-    uuid: ba293e50-fa6b-47d6-a476-cf4e94b25f1e
-  énigme en figure:
-    uuid: ad57025d-2f4f-4cee-b045-6c25d2dd0fea
-  alphabets et écritures codées:
-    uuid: c0b7f0a0-200c-4b17-9c68-28cd5ffe617f
-  cartes allégoriques ou de galanterie:
-    uuid: 4bd9c288-0c48-4325-9cc1-63e8255c589b
-  figures allégoriques:
-    uuid: 350387fc-b818-47c1-8488-0e89cefcd62c
-arts, sciences et techniques:
-  génie civil:
-    uuid: a4c51b3f-eb71-4864-8e16-7cdf57d9619e
-  anatomie:
-    uuid: 5be76e4c-5e58-4227-98e4-11feb77b5432
-  astrologie [regrouper si besoin avec astronomie ; si thème royal, classer comme emblème]:
-    uuid: 94696abb-699d-453c-a0de-ed743121ebdc
-  géométrie:
-    uuid: 00495eaf-d46f-4e02-9a8c-8085bea966e1
-  mécanique:
-    uuid: c91a9abf-342f-48a0-8b29-66a554048b68
-  archéologie:
-    uuid: 6060a3a6-55d8-4a06-8095-a00d1834b5ef
-  architecture:
-    uuid: 790a88d7-280e-476c-8715-6657a5f28fe7
-  astronomie:
-    uuid: cf99c561-d91b-41a1-a946-6d0dd89fdafc
-  musique:
-    uuid: d42f3471-f03b-4483-abe6-c018a3f8725b
-  optique:
-    uuid: 8fad7eb6-0ce9-4d21-a252-f76805762ace
-  horlogerie:
-    uuid: 93ed5883-c8b8-4c9f-8a18-7d30d4d1cc18
-  zoologie:
-    uuid: 7ff4b45f-b2d7-47e0-aa6a-eccf0f38365b
-architecture:
-  architecture navale:
-    uuid: 2286d2b9-8a6c-4485-8992-a5ac1093fe97
-décor:
-  objets décoratifs et d’apparat [chaises à porteurs, pagodes chinoises, cadeaux diplomatiques…]:
-    uuid: 04d536d7-c863-4aa0-b458-5d009e004975
-  décor éphémère:
-    uuid: 252e2aea-5eed-4493-9590-73e50f049313
-  plan ou description de fête:
-    uuid: fefc44b5-79cd-4ed2-8c05-ef38e6549067
-  décor de spectacle:
-    uuid: 0f444a0f-a7df-4a79-9b08-c64cfa8c83ef
-  apparat:
-    uuid: e248a760-c52a-432a-9594-573e89ea964c
-  décor de théâtre:
-    uuid: c6119530-489c-40a8-a8cd-d10ccff17419
-emblématique:
-  emblème:
-    uuid: ceecc9bb-415c-461c-9c66-1a55ed831a09
-mythologie:
-  mythologie gréco-romaine:
-    uuid: c8ec5f38-02fd-4716-8a2f-ac2f62215c61
-mythologie gréco-romaine:
-  bacchus:
-    uuid: b1e6f97e-3700-4c42-833a-13404a6f3e8e
-  neptune:
-    uuid: 0ac59ef8-b184-42b0-9786-5915e239b27f
-  prométhée:
-    uuid: 5292a3f2-0ed5-45a8-8e86-533ed04802fc
-  protée:
-    uuid: 62edc836-e972-4af0-9999-177d27574c8b
-  vénus:
-    uuid: 74ab0666-4ead-4f3c-b65a-c555876892b7
-  personnages:
-    uuid: ceb1201e-6a5a-4e61-8ba5-3c094e594d10
-  ascagne:
-    uuid: ef8904fe-f4a2-49d3-8896-f11dd70ab335
-  géants:
-    uuid: ea85d339-72c1-4ed6-918e-754e8d264f32
-  io:
-    uuid: 7b2efdb8-9a42-4e68-b100-f525345dc5ca
-  thèmes mythologiques:
-    uuid: 9f5965d5-dd94-4208-9bcb-c9ee5fb8e6d4
-  chaos:
-    uuid: 307c4f2d-4749-4e10-840a-13f033170e83
-  songe:
-    uuid: 461e6b0c-71c2-49b7-aee2-9a1e77ffe3ff
-  amphyon:
-    uuid: d89f2fec-532e-4b7a-a868-1584f5e34c25
-  antée:
-    uuid: c1451412-91bb-4f14-9bd8-f67fc34ceb6b
-  bellérophon:
-    uuid: 54d4377a-b2a6-478a-8868-69a023d28a57
-  mercure ;:
-    uuid: cb2feb19-7ebd-42d8-aaef-67d3f2e3826e
-  clythie:
-    uuid: ce999462-ec5e-426e-a6d1-cf8fb52d333e
-  daphné:
-    uuid: f299173e-23b1-4350-b70b-962d57c32c1a
-  dragon du jardin des hespérides:
-    uuid: 1fb00c70-74ab-473e-88e2-ef4ba1415090
-  europe;:
-    uuid: 03cdd0f5-6ea8-4a99-8c3c-3801dc6b7ecb
-  eurydice:
-    uuid: 7cefa142-75ad-48a8-9642-a22faa0f8bbe
-  hercule;:
-    uuid: 48de678a-6b1e-4ba9-bf0a-c822515e2d06
-  hésione:
-    uuid: 13b224ce-a77e-46b0-a588-8d8ce5422cd1
-  hyacinthe:
-    uuid: 0bd5bbe3-f829-427e-8cce-6ac47dd33956
-  icare:
-    uuid: 6015dc92-c05b-446f-a87a-962d079964f9
-  ino:
-    uuid: 6145caa3-c3ff-468f-89f6-d58d853ad3e9
-  janus ;:
-    uuid: 0ff07e3a-ec37-4520-8b43-2dacf9e8d966
-  jason:
-    uuid: 67848e77-9609-49f8-837d-2712115d576a
-  argonautes ;:
-    uuid: db962d90-2782-4b71-85b7-01c2dceb9850
-  jupiter:
-    uuid: 6a777d0e-10e5-4549-ba03-8442d46829bf
-  leda:
-    uuid: b89219af-d1b5-4b79-93da-2c517d2291f1
-  mars:
-    uuid: 8e4d16a5-118d-4195-bfbc-c1e2d1665b1a
-  marsyas:
-    uuid: ff8ca0ed-3534-400d-8c3c-e96173bf1be1
-  médée:
-    uuid: 630431a1-3ba2-4bdb-b260-a3a29275714f
-  méduse:
-    uuid: 2d0683e3-e0b3-4f1c-b06e-fb76eb97b198
-  memnon:
-    uuid: 15e82a21-59f7-44ae-93e3-7951d2087051
-  minerve:
-    uuid: 05a70cff-827e-44cd-a939-fb52e8ef35ab
-  narcisse:
-    uuid: d5d96a42-00e3-4031-9dbb-f25e7f3630c2
-  neptune ;:
-    uuid: 31d9b512-daed-405a-9003-7cde3b08f127
-  niobé:
-    uuid: adffcaf6-b3ba-4d3a-8204-20b508563c43
-  orythie:
-    uuid: 8ae98598-eed8-4e71-997c-e4647c37bd4c
-  pallas;:
-    uuid: 1f110beb-f1cf-4e50-89c8-625655ce3cdc
-  pandore:
-    uuid: c2a650e1-376e-4f62-83c5-7f2944564344
-  phaéton:
-    uuid: 5ad36621-73dc-45ec-b57f-1284bf585383
-  proserpine:
-    uuid: d0cee172-7658-4c92-b3e6-86a758f8e604
-  pyrame et thisbé ;:
-    uuid: b59f99bf-3f3e-406c-a762-e0037a38d66c
-  remus et romulus:
-    uuid: d03ae9e0-ad03-4c7a-a6b8-4e0d6fd3c280
-  salmonée:
-    uuid: 14e51319-48e3-4051-aaea-f766079fe3fe
-  serpent d'epidaure:
-    uuid: 050b05e4-c6f3-4929-9638-89eb929b9903
-  taureau aux pieds d'airain;:
-    uuid: 692a65a1-5d8c-44c1-9d12-208f3d2076e8
-  vulcain:
-    uuid: 02de9f9a-81ae-4f5a-a869-7bad16e70218
-figures allégoriques:
-  victoire:
-    uuid: 95185d88-3484-474a-a922-032385f6d4e6
-  renommée:
-    uuid: e0a0516c-f587-4151-8e2d-0e21e5910008
+    uuid: fdf6643e-3359-4000-b40a-0b2f26db7459
+    deuil:
+      uuid: bd1579bf-3021-406e-b3a8-06089cd81c10
+    mode vestimentaire:
+      uuid: 51806ed3-7afc-4810-91b9-12e823a75ed3
+    noces:
+      uuid: 215bd7eb-3d1c-4234-9978-b3d7416e63d7
 portraits et généalogie:
   portraits:
-    uuid: b5d7650a-1736-4650-903a-120c5800c4ef
-tables généalogiques:
-  uuid: 0f62c95e-88ae-4b42-90d5-8a9e0cfa536e
-topographie:
-  architecture navale [galères, etc.]:
-    uuid: 823debe8-d034-43d6-b168-e312e8a13508
-  plans et vues:
-    uuid: 200e39bd-f313-4a20-832c-511e42781b67
-plans et vues:
-  plan de bâtiment [église, etc.]:
-    uuid: c1ce710e-e718-44c3-b0f9-5d61204b0882
-  plans et vues militaires:
-    uuid: f4e220be-1129-450f-b0fb-b30ad3b5ccc4
-  sièges et plans d'ouvrages militaires:
-    uuid: 18fb123e-362f-4e79-9ac3-e84554db0abd
-  plans et descriptions militaires:
-    uuid: f00fccdd-ab36-4487-bdde-618390380c77
-  plans de bâtiments:
-    uuid: c4e34157-00e1-48b5-9b85-6124797786a1
-vie sociale:
-  deuil:
-    uuid: 117ddb66-b88d-4567-9a1d-dc0868d507d4
-  mode vestimentaire:
-    uuid: db6ac305-7bb9-46d9-8445-f24990447786
-  noces:
-    uuid: 2d53a659-d34c-4ab0-88af-574b95b402ae
+    uuid: 0fc4e432-a712-48e3-a474-bf08ad8ae551
+  uuid: a66829d9-a56f-43da-b673-de245d110a16
+  tables généalogiques:
+    uuid: bfda4937-ef4e-47fa-a6b2-87536fee2787
 objets:
-  uuid: 7afd8367-fd92-4f93-84ca-2ee7bc6b3b62
+  uuid: 93d57208-7236-4af3-adcb-ac50620c2a1d
   obélisque:
-    uuid: 8d5378af-bad6-45d3-91b4-2e6c3378a670
+    uuid: d4f2a7af-0993-46bb-9d68-c5eed68927a9
   afrique:
-    uuid: 1fb0aa32-bfc3-469a-a976-d136b20d474b
+    uuid: 1666d497-f28d-41f2-aef0-af711a9b627e
   alphabet:
-    uuid: 346d00fb-7cba-458d-9b54-2d76d3710e01
+    uuid: 454449bb-0838-47c1-b0d0-fa4b7db4d1f4
   anémomètre:
-    uuid: d2749f73-a6b8-4aa2-9d03-a097ba136019
+    uuid: af8944e0-a72d-47b3-9328-70a48f8e09b7
   annonciation:
-    uuid: a628b378-c66e-4ac2-abfc-70896374d3ea
+    uuid: 83d7a4d8-afc2-4810-9c1f-23e6703ed263
   apothicaire;:
-    uuid: de3b6f97-cb04-47dd-91a8-d7faa3be9b72
+    uuid: 4ba14546-2041-4f12-b8cd-9f23ef18e6b4
   arc de triomphe:
-    uuid: c236031f-8ac6-4a9d-946c-b3075022f194
+    uuid: 49a8743b-27ca-441f-9267-4f0cd25d1d09
   armée navale:
-    uuid: e149876f-99dc-45ce-bb95-f618536cd918
+    uuid: c344c1f7-8345-4907-bb17-a3530930252b
   armoiries:
-    uuid: d711cfbf-b89d-4704-9cb6-e417e51b5371
+    uuid: 3eaf885f-2164-401c-82f9-db1006a68fed
   bal:
-    uuid: 3c943044-9166-45e9-8eb0-6eef9900c63d
+    uuid: b8137ea0-c8ee-41ec-910f-43b3058185bf
   baleine:
-    uuid: 523d8ecd-58e6-4805-a375-89466730d8d9
+    uuid: 4491b546-6c83-4e54-b7bb-6da617e24e37
   table de banquet:
-    uuid: 007b7bdd-15f1-4e37-9ed5-ce662c203411
+    uuid: 2af8742e-91ce-4b0b-8b20-c30236eba9c2
   bataille:
-    uuid: 0c2eeaa3-6503-47d7-a820-eac0fc98ae0d
+    uuid: 20d3cb33-fd62-41b1-985f-2fc6755c7a4c
   bâtiment:
-    uuid: fc7295d9-f1fc-44ba-81f9-c69eca20ae03
+    uuid: a54f8a87-c701-45b3-b6c4-08f8b9f7e740
   binocle:
-    uuid: 68a047af-fffb-4919-a437-85dda90ea015
+    uuid: b2aa95a8-8fcd-4208-b437-af18e68c9a2d
   bombe:
-    uuid: 3a6ad5aa-978d-4691-ab02-374233bb8476
+    uuid: 9b033eae-90da-4f94-bab9-e65062f659b4
   bouclier:
-    uuid: 942cba77-3b4f-4fa6-a70e-111745e94a16
+    uuid: 409374fd-4168-4b06-9cb7-d55d079e418f
   boutique ou atelier:
-    uuid: fa5cfa4e-3793-49ef-b6e8-17b1ecb70009
+    uuid: 1200939e-0bb9-4f12-8991-88051cb823eb
   cadran ou horloge ;:
-    uuid: 3fa2f45c-a291-45bd-a9d6-438b04d539e4
+    uuid: 9ef8870c-67a9-469d-8abd-4f25501c7ef3
   camera obscura:
-    uuid: c7d33ede-f25f-4dd0-8a45-5c8b87b38672
+    uuid: b3bd936b-a4a3-4cf6-a682-a08722367d5d
   camp militaire:
-    uuid: a038b190-6395-4c21-9d16-a87abab8f661
+    uuid: a3314139-f62b-4d4c-a066-bdab9e5ee2c9
   canal:
-    uuid: c1f748bc-066b-4fa4-af86-28a09ebaeae3
+    uuid: 3f77993f-3c0d-4cf4-b731-52970c3630ab
   canon:
-    uuid: 4acace45-ee0a-4b5e-8f44-18d7e3a95dbf
+    uuid: 427a4267-bac8-488f-93e0-6f120f709f9e
   carrousel:
-    uuid: 9f162a52-aa5e-4701-95fc-ba2a4bd3d68c
+    uuid: d3d81fcc-c785-4736-9a69-ae22ae6f9951
   cénotaphe ;:
-    uuid: 7414c40a-10dc-4121-84ad-3e7d115992af
+    uuid: 0a9008d3-3d16-4a02-8c04-c1f30057e7fc
   cercle:
-    uuid: 3d422961-2b07-41b6-b70e-cecca3509c59
+    uuid: 11839b7f-4993-491b-b87a-c6c7870623f1
   chapelle;:
-    uuid: edbf27b1-4ac6-4a51-a47b-254cca29d5b9
+    uuid: b4aa5051-f01c-42cd-ad0b-7ba40f18d3ce
   char:
-    uuid: 508cbe0c-cb7c-447a-9a2d-5b9465c1a1d1
+    uuid: 1a24771e-a05b-4851-a542-5be333e36c8e
   château:
-    uuid: 75b4d5f5-300d-42ec-8bd2-ba3cf9bdd36e
+    uuid: 3966ed37-735e-4489-ad9d-46e6887ca180
   chirurgien;:
-    uuid: ee2d7998-0d87-4623-b634-eccfbb63ab9c
+    uuid: 7a9f46e8-e52f-4903-a267-f9acf6924698
   citadelle;:
-    uuid: 7da046f1-c02b-41a7-a3d2-9be29d193032
+    uuid: b659a67b-9f94-437a-8ac1-e47caea3f4bf
   cloche:
-    uuid: f819bc2f-6cb6-4be2-9111-a3243f03f495
+    uuid: a3e81e84-931d-49dc-bbdc-5b8dc62330d4
   coiffe:
-    uuid: 64c7d937-d16e-40db-8138-fc934e3a6c65
+    uuid: 9efdaee6-d5d3-434b-8a6e-7f4f38a9b57a
   combat mythologique;:
-    uuid: 0cda4415-ac9a-4d69-9dab-47080c68dad4
+    uuid: ae2c7bbf-755b-4b43-8fe9-22a0a6ea48c9
   combat naval:
-    uuid: f1169d49-f339-43a3-814c-51b11e42a2cd
+    uuid: 6eb2baba-b7b0-479d-be22-5f73dede9e3c
   combles:
-    uuid: a866b4bd-673c-410c-85ef-cd13c1d640ab
+    uuid: 182bf8be-0abd-4ac1-aa55-7729ec7ed9fd
   comète ;:
-    uuid: 82e7fefd-bbea-4d59-ab6e-9baaa5d33185
+    uuid: 3565f899-9f46-40e8-bda6-935eb0a9c7eb
   coq ;:
-    uuid: 02c256af-b5bc-4e6e-9e7c-a27dde2eb38b
+    uuid: 83a7e670-8d5f-4d47-a220-1d420dc4b9aa
   coquillage:
-    uuid: 1c936478-5cf3-4a28-951e-efc4fe3367b7
+    uuid: 674fcc20-6769-4aa2-8fe1-6eee850a69ce
   corne ;:
-    uuid: 64ad45da-2f74-4549-bb47-fb61708c273c
+    uuid: 73798f8d-01fc-4128-aad1-bee3fad36367
   croix:
-    uuid: d32e6a16-f0c6-419d-a72f-43f8e165f749
+    uuid: 47559f86-b572-4f66-a36c-58bf8f63afb9
   cube:
-    uuid: fc1df1d8-a5b2-4e90-9fc5-523e1c1facfe
+    uuid: 6a78b94b-19e9-4e97-922f-c27004466ffb
   drapeau ou étendard:
-    uuid: 97af065e-821e-4711-bf90-aeb079ccbafb
+    uuid: ee1aeef2-14f0-41b7-9fd6-21f1d0f5122c
   écorce gravée;:
-    uuid: cf4e4f85-6019-4013-a39c-66c561f18c24
+    uuid: 3480698b-e0ac-4ec0-bb34-e06cb514cd3a
   écriture codée;:
-    uuid: d7824025-d64a-4174-9fa8-9181886bca6d
+    uuid: b830dd11-5520-405d-9c7a-24e8702ec428
   église:
-    uuid: ca7bc660-b8ae-4a05-bef7-cb0b3fcc2bde
+    uuid: 6938fe52-3bcf-49df-8be8-94940b65b7a7
   emblème:
-    uuid: cbb24f78-1e5f-4e90-8d00-1235ec1801c3
+    uuid: fc7a4dc5-ca19-4b20-97dd-fc8cc82d7ab5
   énigme en figure;:
-    uuid: a93a3e0d-4eeb-4ebd-9cc0-de1eade4662e
+    uuid: fb7f0545-ab77-4cbe-bd00-695e6e2a0add
   épée, fer, lance:
-    uuid: 571b80c1-6a7f-4e34-a87a-c27ab6448180
+    uuid: 640e0e03-3f99-424e-acc2-70363e78cede
   épître:
-    uuid: c0ea0c73-5e95-4c97-84c7-9d1872a6af93
+    uuid: e8184603-4391-4369-a984-aea2c6c4ca3b
   équipement militaire:
-    uuid: 5500f062-f381-47a8-acd7-5820cde3474d
+    uuid: 451e936d-1082-4b78-90c9-c12749a1c3b5
   étendard:
-    uuid: c317e9cb-5e08-4ef8-9589-d08356fcf2e9
+    uuid: bb2413bb-deeb-463e-9208-da385afbb116
   étoile ;:
-    uuid: 8b6a62f5-b5d5-4126-9c4e-5ced493126b9
+    uuid: 1ff8b62e-1b38-418d-929e-e1856759af8d
   fer voir épée:
-    uuid: ead91d22-21e9-4ecb-988e-486e2f7c617b
+    uuid: 848f1322-1e5c-4240-8810-9cd4108938e5
   fer, lance ou épée ;:
-    uuid: b1ae7669-1507-415f-82e2-dd1f789ec053
+    uuid: 684734a1-1ad0-40c9-b777-f2aa0ef67279
   fête ;:
-    uuid: d2625aee-0092-499c-aba9-2f1b5ff88295
+    uuid: 15010bbc-53d8-47f5-b271-3114363d4cde
   feu d’artifice:
-    uuid: a3a5db1b-53f6-4f9b-960b-f0187b56249a
+    uuid: 261349f3-51f6-4159-9974-8c4f7cfabae0
   figure géométrique:
-    uuid: a33c65b4-fb4c-45b1-8810-f18627ef974a
+    uuid: ee601c0c-a951-49c2-8bcb-b05b0a242e64
   fœtus:
-    uuid: 506780dc-11bc-4f02-be9d-83d318204f2a
+    uuid: c84bb857-5228-4e47-b9c1-a1638f0794a6
   fontaine;:
-    uuid: 0f39285a-c470-4906-ad3d-ac97379296ec
+    uuid: 7c3881ed-0fbc-43a3-abd9-b054c8265f45
   forteresse:
-    uuid: 61c5688f-dc33-4126-b51e-e2dff11d7986
+    uuid: 2b96595e-e144-4ab5-b874-e21bcde351b0
   forteresse voir citadelle:
-    uuid: 86e7aa21-c2ba-4488-9bd5-751708bdd4ae
+    uuid: 66b60954-e0b9-493c-ba95-5b3b2440215b
   galère:
-    uuid: 56dd9c07-ea8c-4e42-b6b2-8d23c052bd70
+    uuid: bf1b99da-c247-4dd5-98be-0ce746423428
   géant:
-    uuid: 95197dce-4af8-4ae4-9c46-029b10c0a9d1
+    uuid: e363b1ab-39a1-4909-b097-93f92ae25f4d
   généalogie;:
-    uuid: c1f058c2-30d1-4847-946a-ec79790dfa95
+    uuid: c3d415cf-7bcb-476d-83d4-7f3394551ca6
   gigantomachie:
-    uuid: 5232be55-b7ae-4ead-a849-6e79e489bcd9
+    uuid: 8d362fa4-f0ff-452f-819c-6645bed72c6c
   globe terrestre:
-    uuid: 2ab65c85-67a0-4fb6-b63b-d26972b07c92
+    uuid: 1cb02931-b2c7-413e-816a-9a9f588ba659
   gondole ;:
-    uuid: 3aeecc02-0a6c-420e-9411-e6aa97272beb
+    uuid: 5ecb05f5-7fb3-4e50-81dc-6e2336645019
   grelot:
-    uuid: d4518306-634d-4b9f-bb04-f840e4745560
+    uuid: e8dff66e-c908-456f-9b88-afa6ddb46d75
   grenade ;:
-    uuid: 19c4a1b1-526e-460e-98c5-628464b3e43a
+    uuid: 253cd11c-a19d-4f0f-9778-ae60e724f630
   île:
-    uuid: fda4f899-1b05-42ae-bee1-346762121742
+    uuid: 9a1058a5-4901-41ba-a3be-d1d74b1b3dc6
   jardin ;:
-    uuid: 3da0a1df-2e6d-4e63-9bb1-4dd2e9b2e2d1
+    uuid: 2c3c37c1-8d04-4dc5-9dc3-25e766f57b0c
   jetons:
-    uuid: b9328933-9f0b-43b4-8188-68103740faf4
+    uuid: 9c03479c-858c-4819-a59a-6641301b7377
   lac ;:
-    uuid: 8fc5c1ff-d31a-4772-81b3-540033062d9c
+    uuid: 8b0f0135-63ae-423a-a13c-c4bc7f90eb74
   lance voir épée:
-    uuid: 619862f6-cd8a-42a0-895d-e8b7a2cf0acc
+    uuid: 5ccb0d94-1bee-4d1a-ac1b-8931f36d04b9
   lentille:
-    uuid: 43bd9eec-ca35-4895-a094-283e15cbbcad
+    uuid: b7edf202-7337-4f66-84d8-ad088e5861e0
   lettre en chiffres:
-    uuid: 714b1c66-8679-4e5d-962f-65f4c24b4111
+    uuid: 9e7d6a8c-e56c-45c2-9b66-d11510cf7ec3
   libéralité:
-    uuid: 0e448282-59f2-437f-919e-59502984dab4
+    uuid: d2b257ab-3d15-4a71-9b22-fc657fae3feb
   loterie:
-    uuid: 51bb3777-3d43-4ce7-ab55-b2217e0420c3
+    uuid: 4fc59947-7595-4165-b870-0c58577c2ab9
   lunette d'optique:
-    uuid: 76d84b38-2bca-4062-ba25-b379df3b3952
+    uuid: 4c62a025-7bba-4d11-8af5-967fdba7c488
   machine hydraulique:
-    uuid: c15b4c29-cbbe-4a97-8699-363386e78580
+    uuid: f85f4a24-7eaf-4784-bde1-4279d9dc4e2b
   maison ;:
-    uuid: 9374f3e5-aa64-4813-9eb5-1d9f7fce360b
+    uuid: b4cff0f3-3616-479e-8411-8abd0d36865c
   marin:
-    uuid: a18512dd-aba9-4a0b-889d-36ce957f7a2b
+    uuid: 79c27405-d737-4bfd-957d-59919bcdd505
   mascarade:
-    uuid: 775d8b92-6338-49cc-8d42-7d9116d30d06
+    uuid: d2d6cf01-84c4-4abd-86eb-db35c3d34df6
   mausolée:
-    uuid: c0feefd9-bbf5-48b8-b615-6d5186f08624
+    uuid: e8594b60-4fca-4e04-a032-51f2f6dfae2a
   médaille:
-    uuid: 691a3b39-16b8-4176-9475-2e30139cdd85
+    uuid: d2860c82-c905-4ca3-b17d-54d26efac5a5
   médecin;:
-    uuid: 91939871-a051-44d2-8042-bcb03259a73d
+    uuid: deaad463-de72-4956-803e-a6799e3da661
   médecine:
-    uuid: e373ced4-c6e8-4f73-9333-9f3f28ac27a7
+    uuid: 3461f744-c157-473f-b88f-45468856389e
   météore:
-    uuid: d75c15c8-0d11-4af4-9350-d2dae9800ae1
+    uuid: bc2169ee-866d-4978-ad50-ef8f66c2ac1d
   monnaie:
-    uuid: 1c5000a6-eee0-49c6-a9be-e94378eebc26
+    uuid: f174ee34-112a-4ec3-aeee-b709efd09207
   monstre ;:
-    uuid: 9d489791-2590-4172-ba09-b44c97504c73
+    uuid: fb85c36a-22f3-47bb-9d7a-e57d1a37f25d
   montagne ;:
-    uuid: dd2cd956-0bf6-4917-ab76-cf9dfc6baee6
+    uuid: c8407f85-bb0c-4bc6-9785-4ce94ce125a7
   montre:
-    uuid: e45de5b7-e83e-4b85-94d1-ecb8093af8a9
+    uuid: 8686807e-de98-419a-8905-c43bfa4f99cf
   mosaïque:
-    uuid: 45ec450a-5ca7-4fb1-a08c-8fabe5e9c24d
+    uuid: 3b1f4595-2108-478b-b8e7-874113b4cade
   mouton:
-    uuid: 586e0350-390a-42d1-a2c7-24b6ec195ab6
+    uuid: c325ef14-f753-4501-b7b7-388c1398108a
   noce;:
-    uuid: d7401f34-91fa-4da8-82b1-977fba3f450d
+    uuid: 3149975d-964c-4e4a-a8bc-2a5d50608c76
   notation musicale;:
-    uuid: ef6b240b-fc94-4621-8395-081598252cf8
+    uuid: 7bd6e8d6-3293-4dc8-8cd8-f3dc58fd8dca
   œuf:
-    uuid: 2fdeb249-0baf-41bb-ad18-6a6f00b21edf
+    uuid: 5196f8b1-6f6e-4898-b7cd-2913bdb9ab16
   officine:
-    uuid: 7adfa19d-8732-45c2-b773-6bffd93e6f6a
+    uuid: e288c3b5-98ad-4282-b711-99bb518d13f4
   opéra;:
-    uuid: a7bcb86f-0da1-49de-a200-4d42b298fe2b
+    uuid: 4f89ddd4-fcb6-4732-b240-203bcab8db45
   orientation:
-    uuid: def268b8-1477-4efb-9116-c623540f9246
+    uuid: f3d46e31-387b-49ed-8b44-6f41b7399426
   outil de navigation:
-    uuid: 35dc7cd3-26dd-483a-9c40-e3ce647d2b0f
+    uuid: 955c2c88-ae3f-49f9-b559-0d816ff881c5
   pagode:
-    uuid: 2fcd2a0d-1b46-4dfc-94a9-da79db9a3c43
+    uuid: 4ff08baf-cf7a-44c8-969d-2108536d3f38
   palais:
-    uuid: 86817285-d72d-4b6f-bea3-d716d02aeed4
+    uuid: d0ce624e-9459-4ede-a74a-4edf85728bc3
   pape ;:
-    uuid: efa49475-1586-4d1a-8afc-908d287b31a5
+    uuid: d2aee3b4-9c12-4d88-8bbe-5a3999d7ce4f
   pièces d'artillerie:
-    uuid: cefbfab3-324a-42b3-a2c7-f2bc3bcf0d24
+    uuid: e904eef2-1ad4-4574-ba51-b21fe7ad5d50
   piédestal:
-    uuid: 150033f5-861d-41c8-848d-9ccf4c49bb26
+    uuid: 9e2f2773-c8e6-4965-b531-68bbed7d6652
   place:
-    uuid: 111476c3-467a-4600-8159-eef8d2462dce
+    uuid: ca2a2c75-eb44-4bd3-b5ed-9b0d43be9696
   plan;:
-    uuid: d9296182-e657-4abf-8565-3b30f55455e7
+    uuid: 86310581-7b71-4d79-bd86-d5861a35d9ff
   poisson:
-    uuid: a2105424-1a61-45a2-9b70-a95fe550adee
+    uuid: d0c580ce-ea0f-4a61-91bf-a71c2fbb1b73
   pont:
-    uuid: 837d30fe-cd01-483e-ad33-723a691b44e9
+    uuid: 8c5e707f-bf33-4ead-a649-6978f025971a
   port:
-    uuid: 7440ff0b-165d-4d5b-a64c-e148f1533ee3
+    uuid: c909c4f0-b17b-4243-aced-8be68fdce011
   prophétie;:
-    uuid: 308df002-9bbb-423b-a756-f181264b8e1a
+    uuid: 7c981763-17db-4d62-ac18-52724303c928
   rat:
-    uuid: 2ac70f31-f2ce-4123-9100-18492eaadd93
+    uuid: 630d56b8-a36c-4818-9de4-ff346989fb91
   rhin:
-    uuid: 3b5ece83-4dc2-4903-bfa5-a7fbaa64d98c
+    uuid: 0cd0a218-8283-46db-a63e-b2d21a8e33a2
   rideau:
-    uuid: 62c658c2-ce91-4c8b-a2f8-66f2aef210f1
+    uuid: a2f5a90b-4956-467e-b7db-211918a86d07
   rive:
-    uuid: 885036d6-d6b5-4170-9f6f-fbe90344c64d
+    uuid: 3dbc9700-df61-4afc-a80b-2c208444b7ae
   roi ;:
-    uuid: f0baf738-923a-40c3-ac35-5fa3346c409f
+    uuid: ca1b2402-afd7-472d-b4df-3efd52b965e8
   ruisseau;:
-    uuid: 953f34b6-55f5-46ec-9566-27ebac1604af
+    uuid: 71b59f6c-1b0e-4629-a90a-7bf267d62286
   sangsue:
-    uuid: 268dff16-b644-43dd-8c05-7018653862ed
+    uuid: 23a2ae85-3990-4e83-969d-969979f7c5d9
   siamois:
-    uuid: 1b1ad51a-3244-4863-9893-ed944a620f71
+    uuid: c07825c2-e424-4053-a43c-2320a7443355
   soleil:
-    uuid: e9bcd66f-ee12-473e-912b-9da518e97912
+    uuid: de0c243b-961a-4a96-8660-14838b34e15d
   songe:
-    uuid: 38ad5cc6-0852-4203-9aa4-c4cebeb690d6
+    uuid: 8bb4ade8-b32e-41fc-a3ca-7953e8eb77a9
   statue ;:
-    uuid: efe87f55-ec0b-4057-a7d4-a5c209db50fa
+    uuid: b89fc5c0-9e11-453e-984c-d271f9855349
   stèle antique:
-    uuid: d1d722c7-f9c4-469f-84cb-b59674d0582e
+    uuid: 14cec0f5-d8d0-4543-9029-214dbc9a7867
   table généalogique:
-    uuid: da754727-453f-477d-9bca-1639649f4abd
+    uuid: 549956b2-b43d-4b2a-8123-3c5defe48f37
   table numérique:
-    uuid: 784e64d3-4cd2-4259-9dd3-9c4bf64469a6
+    uuid: c67f882a-d7e3-41f7-86a2-4cc040d69db4
   télescope:
-    uuid: 02d4a7e1-0e6d-419f-8711-7ecef355496f
+    uuid: 4a0130af-2da0-4e98-9496-b14b20ff5b2d
   temple ;:
-    uuid: e701c851-ef08-4bd5-8959-43ea0a26e9ea
+    uuid: d4d078bc-1d26-4c86-a2b8-220aa5c51628
   théâtre:
-    uuid: 63ad7eb3-da31-4840-8978-e67c1b4ff13b
+    uuid: 80114685-f74f-48b8-a32f-f4fa66fc82e4
   thériaque;:
-    uuid: dc0202c0-c62a-437a-a1d7-4eebe4f4f964
+    uuid: 550d00c5-13e4-43f9-89b2-0db64666442d
   tour:
-    uuid: f98e44ad-f651-40ac-b3cf-ab7b8a0f88f7
+    uuid: a44d324d-5cfe-4532-92cb-69d828b7d95b
   trident ;:
-    uuid: 798d1d5a-d622-416c-8ba2-42e16ac09bd5
+    uuid: 0d608067-283d-4059-9ff2-0678fea75f6c
   triton:
-    uuid: 7255521c-da17-4d0b-842b-64b5be86a079
+    uuid: f74df8d7-488a-4bce-aa46-c0d10c09735b
   trône:
-    uuid: a5bd0af4-d8f5-4547-85d5-3ad9389baf9c
+    uuid: 672de65c-a57f-4373-832c-304dca3c637b
   trophée:
-    uuid: 5a3fea82-b889-4e58-8cc5-c774e1704dd8
+    uuid: dc301c9e-3c48-4267-bf8f-fa40eead85c2
   vêtement:
-    uuid: 94b3603a-cfa2-4632-9975-a5b2171cac56
+    uuid: 9a8ba132-4043-4dcc-9f3a-4691f4f1abb7
   victoire:
-    uuid: 209f4b48-4ddd-4ba9-99bd-e574931c6732
+    uuid: 9ad57cf6-4e36-4db8-a422-2e381df2ab2e
   vieillard ;:
-    uuid: 449897b1-3218-4e4c-ac82-5df9de6c5036
+    uuid: 2f6794c1-df68-41d9-b552-a837bee3a441
   ville:
-    uuid: 1105f452-ff10-4827-b013-091720b876b8
+    uuid: c3dfeda5-5172-4279-80f2-330c339ba65a
   voûte:
-    uuid: 9c0a0595-8fa3-4bd9-9d21-acc713a8af17
+    uuid: 128abf99-8967-43d6-a48d-06286d056bbe
   zodiaque:
-    uuid: 30751ffe-3daf-4c72-841b-5a9e5e0584d8
-  textes:
-    uuid: 7cb49c13-bca5-4e89-8c78-6f1ecf6fb33a
+    uuid: c07c2e65-e4e3-446b-8b46-024731d47346
   système d'orientation spatiale:
-    uuid: 8d3e48ac-0d3f-4be5-b194-ee70852d220e
-textes:
-  texte en arabe:
-    uuid: 6a882a84-fad1-4c4a-b051-ad161596c697
-  table d'écriture codée ;:
-    uuid: c22f01f9-cf53-403a-a123-4dad3e5e7de0
+    uuid: be4dbd39-7add-4462-a18d-d429f8bcf3ca
+  textes:
+    uuid: 7af804d6-1fbb-4ee9-a9ff-105c1195db79
+    texte en arabe:
+      uuid: 849e8315-f9d6-489a-bd44-d6b356e859ed
+    table d'écriture codée ;:
+      uuid: f2cdf1b4-f25f-4007-991b-788df565ceb3
 techniques:
-  uuid: 19ec476c-2164-49e8-9590-ac3fec55d25f
+  uuid: a11e95a5-9165-4982-b6aa-23c04f8c244d
   dessin d’architecte ou d’ingénieur:
-    uuid: 73f27335-0267-4d42-9888-f5b5ed64f3c3
+    uuid: a9ad30df-a883-4683-86ff-70269029e2ec
   élévation:
-    uuid: 3c568eec-dc51-4b50-ac05-b0eba842c3b2
+    uuid: a06048a8-a244-4f18-8165-be39a0708e1e
   dessin scientifique:
-    uuid: e80af7b2-ded6-4599-9ca0-727ccefa1cdd
+    uuid: 6b7fa413-6384-4ddb-9985-03a4e673e06d
   plan ou vue:
-    uuid: 12f1eb58-6901-488d-8572-bedf5c03f5b9
+    uuid: fe1dbd2c-5a43-4870-84fe-c10cc7a58a50
   relevé décoratif:
-    uuid: ff09ec91-762e-4219-a685-58254e9c246a
+    uuid: 116c7adc-cb17-4d74-b9ba-e10f15b8b1aa
