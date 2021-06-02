@@ -29,7 +29,7 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 	# E36 Visual Item
 	gravure = she(cache.get_uuid(["collection", id, "gravure (E36)", "uuid"], True))
 	t(gravure, a, crm("E36_Visual_Item"))
-	t(collection, crm("P106_is_composed_of"), gravure)
+	t(collection, crm("P148_has_component"), gravure)
 
 	# Identifiant Mercure Galant
 	gravure_id_MG = she(cache.get_uuid(["collection", id, "gravure (E36)", "Identifiant MG"], True))
@@ -62,7 +62,7 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 		if "copyOf" in id:
 			parties_de_l_id = id.split(" ")
 
-			id_article = parties_de_l_id[0]
+			id_article = "MG-" + parties_de_l_id[0]
 			# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
 			if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
 				id_article = id_article[:-1]
@@ -77,7 +77,7 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 
 		else:
 
-			id_article = id
+			id_article = "MG-" + id
 			# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
 			if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
 				id_article = id_article[:-1]
