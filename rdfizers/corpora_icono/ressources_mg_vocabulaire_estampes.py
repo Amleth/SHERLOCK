@@ -91,37 +91,45 @@ for row in vocab_excel:
             narrower = she(cache.get_uuid([*broaders[:i+1], "uuid"]))
             t(narrower, crm("P127_has_broader_term"), broader)
 
-            #
-            # # SeeAlso
-            # if colonne == row[6] or colonne == row[7]:
-            #     seeAlso = colonne.value
-            #
-            #     # Broader
-            #     E55_broader = she(cache.get_uuid([broaders[-3:][0].lower(), last_broader.lower(), "uuid"]))
-            #     t(E55_broader, RDFS.seeAlso, l(seeAlso))
+    broader_seeAlso = []
+
+    for colonne in row:
+        if colonne.value != None:
+            broader_seeAlso.append(colonne.value)
+            broader_seeAlso = [b.lower() for b in broader_seeAlso]
+            if colonne == row[6] or colonne == row[7]:
+                seeAlso = colonne.value
+                for i in range(1, len(broader_seeAlso)):
+                    #print(broader_seeAlso[:i], broader_seeAlso[:i+1])
+                    broader = she(cache.get_uuid([*broader_seeAlso[:i], "uuid"]))
+                    t(broader, RDFS.seeAlso, l(seeAlso))
 
 
 cache.bye()
 
+#Dictionnaire des concepts/uuid sans arborescence, pour l'alignement de l'indexation au vocabulaire
+d = {}
 
-# Dictionnaire des concepts/uuid sans arborescence, pour l'alignement de l'indexation au vocabulaire
-# d = {}
-#
-# with open(args.cache, "r") as f:
-#     cache_arborescent = yaml.load(f, Loader=yaml.FullLoader)
-#     for label, items in cache_arborescent.items():
-#         for item in items:
-#             if item == "uuid":
-#                 if label not in d:
-#                     d[label] = []
-#                     d[label].append(items["uuid"])
-#             else:
-#                 if item not in d:
-#                     d[item] = []
-#                 d[item].append(items[item]["uuid"])
-#
-# with open(args.cache_applati, "w", encoding='utf-8') as f:
-#     yaml.dump(d, f, allow_unicode=True)
+with open(args.cache, "r") as f:
+    cache_arborescent = yaml.load(f, Loader=yaml.FullLoader)
+
+def label_uuid():
+    print(label, items["uuid"])
+    d[label] = []
+    d[label].append(items["uuid"])
+    print(items)
+    for key, objets in items:
+    #     print(key + ':', objets["uuid"])
+    # #     d[key] = []
+    # #     d[key].append(items["uuid"])
+    #label_uuid()
+
+for label, items in cache_arborescent.items():
+        label_uuid()
+
+
+with open(args.cache_applati, "w", encoding='utf-8') as f:
+    yaml.dump(d, f, allow_unicode=True)
 
 ###########################################################################################################
 # CREATION DU FICHIER TURTLE

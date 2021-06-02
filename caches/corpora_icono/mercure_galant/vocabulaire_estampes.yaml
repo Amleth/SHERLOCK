@@ -208,6 +208,8 @@ objets:
   uuid: 93d57208-7236-4af3-adcb-ac50620c2a1d
   obélisque:
     uuid: d4f2a7af-0993-46bb-9d68-c5eed68927a9
+    http://vocab.getty.edu/page/aat/300007021:
+      uuid: b8f5579b-decb-4d71-8c47-6926e0ee1c0a
   afrique:
     uuid: 1666d497-f28d-41f2-aef0-af711a9b627e
   alphabet:

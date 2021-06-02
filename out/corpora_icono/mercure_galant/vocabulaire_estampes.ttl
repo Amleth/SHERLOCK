@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix she: <http://data-iremus.huma-num.fr/id/> .
 
 <957985bf-e95a-4e29-b5ad-3520e2eea34e> a lrmoo:F34_Controlled_Vocabulary ;
@@ -1085,7 +1086,8 @@
 
 <d4f2a7af-0993-46bb-9d68-c5eed68927a9> a crm:E55_Type ;
     crm:P127_has_broader_term <93d57208-7236-4af3-adcb-ac50620c2a1d> ;
-    crm:P1_is_identified_by "obélisque" .
+    crm:P1_is_identified_by "obélisque" ;
+    rdfs:seeAlso "http://vocab.getty.edu/page/aat/300007021" .
 
 <d76945be-5085-41ba-8d6f-a45fccbced1f> a crm:E55_Type ;
     crm:P127_has_broader_term <14c81125-b24e-4b76-80e1-805220f214b8> ;
@@ -1282,5 +1284,6 @@
     crm:P1_is_identified_by "mythologie gréco-romaine" .
 
 <93d57208-7236-4af3-adcb-ac50620c2a1d> a crm:E55_Type ;
-    crm:P1_is_identified_by "objets" .
+    crm:P1_is_identified_by "objets" ;
+    rdfs:seeAlso "http://vocab.getty.edu/page/aat/300007021" .
 
