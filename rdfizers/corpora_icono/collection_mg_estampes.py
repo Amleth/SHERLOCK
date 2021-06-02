@@ -311,7 +311,7 @@ def process(data):
 
                 ### Recherche d'UUID dans le vocabulaire d'indexation des gravures
                 try:
-                    objet_uuid = she(cache_vocab_estampes.get_uuid(["vocabulaire indexation gravures", sujet, "uuid"]))
+                    objet_uuid = she(cache_vocab_estampes.get_uuid([sujet.lower()]))
 
                     if objet_uuid:
 
@@ -444,6 +444,7 @@ def process(data):
                     t(gravure_objet_E13, crm("P140_assigned_attribute_to"), gravure_zone_img)
                     t(gravure_objet_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
                     t(gravure_objet_E13, crm("P141_assigned"), l(sujet))
+                    print("L'objet", sujet.lower(), "est introuvable dans le vocabulaire d'indexation d'estampes")
 
 
     # Type/Thématique de la gravure
@@ -455,33 +456,16 @@ def process(data):
             type_thématique = type_thématique.strip()
 
             try:
-                type_thématique_uuid = she(cache_vocab_estampes.get_uuid(["vocabulaire indexation gravures", type_thématique.lower(), "uuid"]))
+                type_thématique_uuid = she(cache_vocab_estampes.get_uuid([type_thématique.lower()]))
                 gravure_thématique_E13 = she(cache.get_uuid(["collection", id, "E36", "thématique", "E13"], True))
                 t(gravure_thématique_E13, a, crm("E13_Attribute_Assignement"))
                 t(gravure_thématique_E13, crm("P14_carried_out_by"),
                   she("684b4c1a-be76-474c-810e-0f5984b47921"))
                 t(gravure_thématique_E13, crm("P140_assigned_attribute_to"), gravure)
-                t(gravure_thématique_E13, crm("P177_assigned_property_type"), crm("P129_is_about"))
+                t(gravure_thématique_E13, crm("P177_assigned_property_type"), she("f2d9b792-2cfd-4265-a2c5-e0a69ce01536"))
                 t(gravure_thématique_E13, crm("P141_assigned"), type_thématique_uuid)
             except:
-                print("La thématique ou technique", type_thématique, "est introuvable dans le vocabulaire d'indexation d'estampes")
-
-            # TODO Diviser colonne "Type/Thématique" en deux?
-            # except:
-            #     try:
-            #         technique_uuid = she(cache_vocab_estampes.get_uuid(
-            #             ["vocabulaire indexation gravures", "Thechniques", type_thématique.lower(), "uuid"]))
-            #         gravure_thématique_E13 = she(cache.get_uuid(["collection", id, "E36", "technique", "E13"], True))
-            #         t(gravure_thématique_E13, a, crm("E13_Attribute_Assignement"))
-            #         t(gravure_thématique_E13, crm("P14_carried_out_by"),
-            #           she("684b4c1a-be76-474c-810e-0f5984b47921"))
-            #         t(gravure_thématique_E13, crm("P140_assigned_attribute_to"), gravure)
-            #         t(gravure_thématique_E13, crm("P177_assigned_property_type"), crm("P2_has_type"))
-            #         t(gravure_thématique_E13, crm("P141_assigned"), technique_uuid)
-            #
-            #     except:
-            #         print("La thématique ou technique", type_thématique, "est introuvable dans le vocabulaire d'indexation d'estampes")
-
+                print("La thématique ou technique", type_thématique.lower(), "est introuvable dans le vocabulaire d'indexation d'estampes")
 
     # Notes sur la provenance de la gravure
     if data["PROVENANCE"]:

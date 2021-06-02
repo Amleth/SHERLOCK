@@ -10,10 +10,12 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--xls")
 parser.add_argument("--ttl")
 parser.add_argument("--cache")
+parser.add_argument("--cache_applati")
 args = parser.parse_args()
 
 # CACHE
 cache = Cache(args.cache)
+cache_applati = Cache(args.cache_applati)
 
 # INSTANCIATION DU GRAPHE
 g = Graph()
@@ -114,7 +116,8 @@ with open(args.cache, "r") as f:
                     d[item] = []
                 d[item].append(items[item]["uuid"])
 
-
+with open(args.cache_applati, "w") as f:
+    yaml.dump(d, f)
 
 ###########################################################################################################
 # CREATION DU FICHIER TURTLE

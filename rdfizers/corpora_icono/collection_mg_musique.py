@@ -22,7 +22,7 @@ init_graph()
 
 for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 
-	id = "MG-" + ntpath.basename(img[:-4])
+	id = ntpath.basename(img[:-4])
 
 	collection = she("3a0fcd6a-c226-49f4-ac11-5eff8448ee55")
 
@@ -43,7 +43,7 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 	t(gravure_id_iiif, a, crm("E42_Identifier"))
 	t(gravure_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
 	t(gravure_id_iiif, RDFS.label,
-	  u(f"http://data-iremus.huma-num.fr/iiif/3/mg_musique--{id.replace(' ', '%20')}.tif/full/max/0/default.jpg"))
+	  u(f"http://data-iremus.huma-num.fr/iiif/3/mg_musique--{id.replace(' ', '%20')}/full/max/0/default.jpg"))
 	t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
 
 	# Identifiant GitHub

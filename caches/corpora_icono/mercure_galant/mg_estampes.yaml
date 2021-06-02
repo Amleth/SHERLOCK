@@ -10415,6 +10415,8 @@ collection:
       ville:
         zone de l'image (E36):
           objet représenté: 2fdc1bc8-f8cf-47a6-85aa-d94cb1f8fa10
+      thématique:
+        E13: 59eb62de-4b15-455b-8e1a-2517401f4078
   1678-07_344:
     E36:
       Bad Säckingen:
@@ -10423,6 +10425,8 @@ collection:
       ville:
         zone de l'image (E36):
           objet représenté: cd2d6b69-8e56-4a60-85c5-051af9382c6d
+      thématique:
+        E13: a8c801e2-2fc1-40fd-bc6e-0b17a1b1b0a6
   1678-08_336:
     E36:
       Strasbourg:
@@ -10434,6 +10438,8 @@ collection:
       '1851.0':
         zone de l'image (E36):
           lieu représenté: 33010224-3161-4f40-95ac-ab7efdb69903
+      thématique:
+        E13: 4cd67079-db39-4efd-901f-40bf71d9dade
   1678-09_334:
     E36:
       Kiel:
@@ -10555,6 +10561,8 @@ collection:
       '802.0':
         zone de l'image (E36):
           lieu représenté: 086feef7-f822-4fd0-b8b5-0102529fa8dd
+      thématique:
+        E13: 709663a2-b9e1-45b0-88a4-188cde0a58e3
   1680-06_290:
     E36:
       Madrid/ Palacio real, 40° 25′ 07″ N, 3° 42′ 52″ O:
@@ -10569,6 +10577,8 @@ collection:
       '795.0':
         zone de l'image (E36):
           lieu représenté: 6c63a342-f8ba-4648-81f7-b198b1305fdb
+      thématique:
+        E13: a540334c-0c47-4592-a13f-7925d2c573b7
   1680-06e_160:
     E36:
       Madrid/:
@@ -10583,6 +10593,8 @@ collection:
       '794.0':
         zone de l'image (E36):
           lieu représenté: 176fad12-9988-4cbf-84a9-6f7e0d8407e8
+      thématique:
+        E13: 82df7f70-abdd-49d6-b842-43cb9c22eee7
   1680-06e_340:
     E36:
       Madrid/:
@@ -10597,6 +10609,8 @@ collection:
       '794.0':
         zone de l'image (E36):
           lieu représenté: a6cecba6-e631-4b80-b212-732255f77d5c
+      thématique:
+        E13: b78e2711-fdd5-4892-a4d1-9dacee65a813
   1680-07_250:
     E36:
       Madrid/Plaza Maior:
@@ -10611,6 +10625,8 @@ collection:
       Madrid / Plaza Maior:
         zone de l'image (E36):
           lieu représenté: 2879aa10-1f3d-4127-bd78-115148d92dae
+      thématique:
+        E13: 46512432-f7eb-425f-b30a-d6c2d42a4cb8
   1680-08_142:
     E36:
       Madrid/Carcel de Corte:
@@ -10625,6 +10641,8 @@ collection:
       Madrid / Carcel de Corte:
         zone de l'image (E36):
           lieu représenté: ebe13ac8-28b5-4105-865f-da32b89ec4b9
+      thématique:
+        E13: 217f1805-bd03-4f4d-84e0-9efc56d65136
   1680-08_240:
     E36:
       Madrid/Puerta del Sol:
@@ -10639,6 +10657,8 @@ collection:
       Madrid / Puerta del Sol:
         zone de l'image (E36):
           lieu représenté: 96f058ed-b53c-40db-a2e3-62ebeb242602
+      thématique:
+        E13: def99591-2801-463b-b613-1cd4bab0136c
   1680-09b_215:
     E36:
       Valenciennes:
@@ -10669,6 +10689,8 @@ collection:
       Madrid / Plaza S. Domingo:
         zone de l'image (E36):
           lieu représenté: fd95eb62-bef6-47ca-aed2-bdde469fa940
+      thématique:
+        E13: 665641cb-1630-460c-8fb6-513d7278ce77
   1680-09e_298:
     E36:
       Madrid/Plazuela de la cavada:
@@ -10683,6 +10705,8 @@ collection:
       Madrid / Plazuela de la cavada:
         zone de l'image (E36):
           lieu représenté: eb56434e-f580-4b53-8e8a-9f7153017da2
+      thématique:
+        E13: e4818917-faca-4ca1-a82b-c4e1b6019820
   1680-10e_268:
     E36:
       'Madrid, Palais du Buen retiro  ':
@@ -10697,6 +10721,8 @@ collection:
       '802.0':
         zone de l'image (E36):
           lieu représenté: 3da976b7-ce49-4f69-8862-33163da18bfd
+      thématique:
+        E13: 0d174966-1552-4c9e-a5cf-2c8d6d20daab
   1680-11_274:
     E36:
       'Madrid, Palais du Buen retiro  ':
@@ -10711,6 +10737,8 @@ collection:
       '802.0':
         zone de l'image (E36):
           lieu représenté: 18c60ffb-d4da-4b63-8c5c-aab869a298ce
+      thématique:
+        E13: fa2d594d-bd03-419e-8641-517470c0181e
   1681-02_299:
     E36:
       Madrid, Casa del Campo:
@@ -10719,6 +10747,8 @@ collection:
       jardin:
         zone de l'image (E36):
           objet représenté: 5c337abe-834d-41eb-a3d5-b68823f879c0
+      thématique:
+        E13: 572eb3a3-461b-4170-97d3-2bae51445e6c
   1681-03_085:
     E36:
       Padova:
@@ -10743,6 +10773,8 @@ collection:
       théâtre:
         zone de l'image (E36):
           objet représenté: 5686b6f3-22e0-471c-b56d-8ebf95bcd665
+      thématique:
+        E13: 4cf67b36-447c-4e35-bb52-2a44d8460b12
   '1681-03e_296 ':
     E36:
       Madrid/Palacio Real de El Pardo:
@@ -10757,6 +10789,8 @@ collection:
       Madrid / Palacio Real de El Pardo:
         zone de l'image (E36):
           lieu représenté: 5a4df595-f9cc-409a-83d4-0aa6ae512616
+      thématique:
+        E13: 38777fd6-30b4-4316-91a6-3e0a0635e674
   '1681-04_304 ':
     E36:
       Madrid agglomération/Aranjuez:
@@ -10771,6 +10805,8 @@ collection:
       Madrid agglomération / Aranjuez:
         zone de l'image (E36):
           lieu représenté: eb626b2f-5088-415d-a5b7-4360197752fb
+      thématique:
+        E13: 2af436d8-156a-4cb6-807a-8266b31a5be0
   '1681-05_199 ':
     E36:
       Madrid agglomération/Aranjuez:
@@ -10782,6 +10818,8 @@ collection:
       '789.0':
         zone de l'image (E36):
           lieu représenté: a7346277-4d27-4b12-aec7-62ebbd76b77c
+      thématique:
+        E13: b35b4548-deae-43d7-9d0d-a456b700b08a
   1681-06_179:
     E36:
       'Revel (Tarn)/Lac de Saint-Ferréol, 43° 26′ 15″ nord, 2° 01′ 18″ est ':
@@ -10805,6 +10843,8 @@ collection:
       'Revel (Tarn) / Lac de Saint-Ferréol, 43° 26′ 15″ nord, 2° 01′ 18″ est ':
         zone de l'image (E36):
           lieu représenté: df37f21e-1d57-4558-a47e-c3b5b9dea191
+      thématique:
+        E13: ea727ea6-4c0e-4f07-9068-61f2849ef8cc
   1681-06_191:
     E36:
       Montferrand (Aude)/Seuil de Naurouze, 43° 21′ 06″ nord, 1° 49′ 21″ est1:
@@ -10835,6 +10875,8 @@ collection:
       Madrid agglomération / Aranjuez:
         zone de l'image (E36):
           lieu représenté: 6d81fcd8-16c9-473d-837f-f8383e4afa17
+      thématique:
+        E13: d589f1dc-5301-4ae6-9fa1-b764f1237652
   '1681-07a_173 ':
     E36:
       Bourbon-Lancy; 46° 37' 13" nord; 3° 46' 27"est:
@@ -10849,6 +10891,8 @@ collection:
       ? ''
       : zone de l'image (E36):
           objet représenté: 313634da-dcc9-4624-b0dd-e8dbaa55a454
+      thématique:
+        E13: 7172b6a1-89b7-4803-83a8-1a5cb75bb2a0
   1681-07a_187:
     E36:
       Bourbon-Lancy; 46° 37' 13" nord; 3° 46' 27"est:
@@ -10863,6 +10907,8 @@ collection:
       bains:
         zone de l'image (E36):
           objet représenté: 3f5914ab-516d-4b9e-a75a-03d69046ee29
+      thématique:
+        E13: 73a54d2d-7877-466b-bb7a-d4bb9dc9cb05
   1681-07b_266:
     E36:
       Lisbonne:
@@ -10877,6 +10923,8 @@ collection:
       '739.0':
         zone de l'image (E36):
           lieu représenté: e4a7da56-ec70-4dd1-b7ea-ae94a1865438
+      thématique:
+        E13: 8c98a895-98db-4b07-b947-2d19bc660b80
   1681-08_081:
     E36:
       Aranjuez, 40° 02′ 10″ N, 3° 36′ 29″ O:
@@ -10900,6 +10948,8 @@ collection:
       '789.0':
         zone de l'image (E36):
           lieu représenté: 6e805bb3-2573-4ee7-a507-e0e3f20cfe1c
+      thématique:
+        E13: d50a1cd0-2f6c-4102-b7bc-333bc15ef5d2
   1681-09e_214:
     E36:
       ? "Aranjuez,         \n40° 02′ 10″ N, 3° 36′ 29″ O"
@@ -10920,6 +10970,8 @@ collection:
       '789.0':
         zone de l'image (E36):
           lieu représenté: c0cd04e0-ee2a-40b2-be3b-ceb7b525018e
+      thématique:
+        E13: 61ac8748-23dd-48b4-a0be-ef4390ead9d0
   1681-09e_356:
     E36:
       San Lorenzo de El Escorial, 40° 35′ 21,04″ nord, 4° 08′ 52,62″ ouest:
@@ -10931,6 +10983,8 @@ collection:
       palais:
         zone de l'image (E36):
           objet représenté: d6acb501-8ddf-4b94-882f-0a9b4739484d
+      thématique:
+        E13: 7a43aaee-64e4-4d3a-9fc6-12b029a5b0d8
   1681-11_245:
     E36:
       Casale Monferrato 45° 08′ 00″ nord, 8° 27′ 00″ est:
@@ -10942,6 +10996,8 @@ collection:
       '1236.0':
         zone de l'image (E36):
           lieu représenté: 8fd3855f-8b76-4fe9-b30e-66152cdbe286
+      thématique:
+        E13: bfe60b03-5394-4d1d-94d6-81dc2b5bc326
   1681-11_324:
     E36:
       San Lorenzo de El Escorial, 40° 35′ 21,04″ nord, 4° 08′ 52,62″ ouest:
@@ -10953,6 +11009,8 @@ collection:
       palais:
         zone de l'image (E36):
           objet représenté: 536c4d98-ab34-4b5d-856d-0deda2c8553e
+      thématique:
+        E13: 2ff80f5d-23ff-43ce-b521-e78d01e51eeb
   1681-12_042:
     E36:
       'Strasbourg ':
@@ -10977,6 +11035,8 @@ collection:
       palais:
         zone de l'image (E36):
           objet représenté: fb6c5b6b-77a5-4e9d-a4f6-da1be05bf2c1
+      thématique:
+        E13: ce797e54-ad5b-461e-8c9b-cd3de496e90a
   1681-12e_335:
     E36:
       San Lorenzo de El Escorial, 40° 35′ 21,04″ nord, 4° 08′ 52,62″ ouest:
@@ -10988,6 +11048,8 @@ collection:
       palais:
         zone de l'image (E36):
           objet représenté: 0d874b37-3b59-4630-a32c-4b67fd6ba531
+      thématique:
+        E13: 004a8be5-2355-48a7-a8f0-16053be5b093
   1682-01_336:
     E36:
       Granada, Alhambra, 37° 10′ 37″ nord, 3° 35′ 24″ ouest:
@@ -11002,6 +11064,8 @@ collection:
       '923.0':
         zone de l'image (E36):
           lieu représenté: 732bfc9b-96df-4094-89b7-1b2e149650f6
+      thématique:
+        E13: 5321c511-ce6c-40a1-a70b-c20108ad78ba
   1682-03_266:
     E36:
       Granada, Generalife, 37° 10′ 37″ nord, 3° 35′ 07″ ouest:
@@ -11016,6 +11080,8 @@ collection:
       '923.0':
         zone de l'image (E36):
           lieu représenté: e0e95153-a4ea-423c-b26f-8c768ca9d3db
+      thématique:
+        E13: 6ef1db33-0c34-4e46-9e90-0788f860bb62
   '1682-03e_142 ':
     E36:
       San Lorenzo de El Escorial, 40° 35′ 21,04″ nord, 4° 08′ 52,62″ ouest:
@@ -11027,6 +11093,8 @@ collection:
       palais:
         zone de l'image (E36):
           objet représenté: 87b2baf1-1b5c-4cf7-a751-ffa2718a8a3a
+      thématique:
+        E13: d02dac9e-e9bd-4449-9670-66a848efeb4c
   1682-03e_256:
     E36:
       San Lorenzo de El Escorial, 40° 35′ 21,04″ nord, 4° 08′ 52,62″ ouest:
@@ -11038,6 +11106,8 @@ collection:
       palais:
         zone de l'image (E36):
           objet représenté: c861f480-7705-484d-9dac-45bd103ee809
+      thématique:
+        E13: a8b0ba6e-4586-4599-a5a7-24890336f25d
   1682-05_200:
     E36:
       Granada, Generalife, 37° 10′ 37″ nord, 3° 35′ 07″ ouest:
@@ -11052,6 +11122,8 @@ collection:
       '925.0':
         zone de l'image (E36):
           lieu représenté: f6109062-5908-4959-a653-6b6c3a38110d
+      thématique:
+        E13: cf02de66-1716-4f2f-8ae5-7858da128627
   1682-06_180:
     E36:
       Granada, Generalife, 37° 10′ 37″ nord, 3° 35′ 07″ ouest:
@@ -11066,6 +11138,8 @@ collection:
       '925.0':
         zone de l'image (E36):
           lieu représenté: 6ddaca88-1d6a-4bba-97d7-a73acd25635f
+      thématique:
+        E13: 9bebc2c2-c248-44eb-9887-6f326e7f9dd8
   1682-07_361:
     E36:
       Granada, Generalife, 37° 10′ 37″ nord, 3° 35′ 07″ ouest:
@@ -11080,6 +11154,8 @@ collection:
       '925.0':
         zone de l'image (E36):
           lieu représenté: ac9a901b-27f4-4b0f-b3f2-75fe4f2a0998
+      thématique:
+        E13: 89106dca-db4c-4528-8ab3-954cec01b820
   '1682-09a_109 ':
     E36:
       'PARIS, Palais du Louvre ':
@@ -11135,6 +11211,8 @@ collection:
       '1449.0':
         zone de l'image (E36):
           lieu représenté: b55523c3-a655-4f31-8f40-d97862ac8d25
+      thématique:
+        E13: 80e43141-bfb0-400b-9885-59c7b7c62caa
   1682-12e_330:
     E36:
       San Lorenzo de El Escorial, 40° 35′ 21,04″ nord, 4° 08′ 52,62″ ouest:
@@ -11146,6 +11224,8 @@ collection:
       palais:
         zone de l'image (E36):
           objet représenté: 55100755-61fb-4d6b-8287-88b5a309e4d8
+      thématique:
+        E13: 29ce0c08-01cf-44ea-8720-f2f6dc62259b
   1683_09e_208:
     E36:
       Toledo:
@@ -11160,6 +11240,8 @@ collection:
       '809.0':
         zone de l'image (E36):
           lieu représenté: 3e345c5c-b131-4694-bb12-8da9f87ab9fe
+      thématique:
+        E13: 8d3a0159-bdf0-467d-bd71-7da3850181d3
   1683-06_299:
     E36:
       'Bellegarde; 43.425, 0.6245 ':
@@ -11182,6 +11264,8 @@ collection:
       '859.0':
         zone de l'image (E36):
           lieu représenté: 78d77daf-716b-4772-b985-7fcc81d292fa
+      thématique:
+        E13: b431fcae-56d6-4045-bb3a-e2c6b316f195
   1683-07_306:
     E36:
       Alger:
@@ -11204,6 +11288,8 @@ collection:
       '1088.0':
         zone de l'image (E36):
           lieu représenté: 606b3a00-ba4d-440d-84af-3cef1bcf1b80
+      thématique:
+        E13: 2998fff2-e3bf-41cc-bf0f-56b194f4581b
   1683-11_227:
     E36:
       Kortrijk:
@@ -11281,6 +11367,8 @@ collection:
       '1500.0':
         zone de l'image (E36):
           lieu représenté: 964dd71a-f1dd-4592-814f-8fa0db1e8aa1
+      thématique:
+        E13: 2edc095a-5217-4832-9f61-be107f73ffdc
   1685-08_290:
     E36:
       Tripoli:
@@ -11292,6 +11380,8 @@ collection:
       '1451.0':
         zone de l'image (E36):
           lieu représenté: 14e427b6-3efc-4d47-ae3a-c3d01ee282aa
+      thématique:
+        E13: 39adc52c-17d0-42db-8018-d17702e9bfa0
   1685-09_269:
     E36:
       Neuhäusel 50° 23′ 13″ nord, 7° 08′ 00″ est:
@@ -11303,6 +11393,8 @@ collection:
       '1210.0':
         zone de l'image (E36):
           lieu représenté: 0785f2e2-d931-42a0-a017-10b588ae1837
+      thématique:
+        E13: 04d007ac-4383-4039-b16a-b241d8512097
   1685-09_314:
     E36:
       'Koróni (Messénie)/Grèce ':
@@ -11354,6 +11446,8 @@ collection:
       château:
         zone de l'image (E36):
           objet représenté: 00c93a69-3185-4f45-ae16-e73177a8e4ca
+      thématique:
+        E13: c5e58c68-7d08-4ec0-a8d5-202012cd85b3
   1687-11_244:
     E36:
       Castelnuovo (Italie) 46° 03′ 00″ nord, 11° 29′ 00″ est:
@@ -11365,6 +11459,8 @@ collection:
       Castelnuovo:
         zone de l'image (E36):
           objet représenté: ece5aa7c-871a-4bd9-ab95-e7826d534848
+      thématique:
+        E13: 66422c76-d305-49a1-b3f6-6f5ad6ce26c6
   1687-12_099:
     E36:
       Athènes:
@@ -11376,6 +11472,8 @@ collection:
       '276346.0':
         zone de l'image (E36):
           lieu représenté: 28a0ba84-991f-418d-b6c8-72d2f4e0e765
+      thématique:
+        E13: 199e71d6-622a-45c7-94fc-c9e7a9980b0c
   1688-03_229:
     E36:
       'Saarlouis ':
@@ -11400,6 +11498,8 @@ collection:
       '1209.0':
         zone de l'image (E36):
           lieu représenté: 3b6b2c4f-cef0-40fc-901c-8484b4eda40f
+      thématique:
+        E13: 96235d76-bede-4577-85bc-663310ad2df4
   1691-07_181:
     E36:
       Mons:
@@ -11504,6 +11604,8 @@ collection:
       Port:
         zone de l'image (E36):
           objet représenté: 01265680-00b1-450e-87a3-c12c278dda41
+      thématique:
+        E13: e1620649-7567-4e53-a02e-06864bd9f84b
   1694-04_114:
     E36:
       Toulouse:
@@ -11536,6 +11638,8 @@ collection:
       forteresse:
         zone de l'image (E36):
           objet représenté: 835ce6d3-e643-475d-be9a-d43dbf0c252b
+      thématique:
+        E13: fe4590c6-9fd3-4bb8-82b1-3a9a193cd869
   1694-07_259:
     E36:
       Girona, Catalogne, Espagne 41° 59′ 00″ nord, 2° 49′ 00″ est:
@@ -11547,6 +11651,8 @@ collection:
       '820.0':
         zone de l'image (E36):
           lieu représenté: f2ddfbb7-9ed5-4fbb-96b1-338e29de743f
+      thématique:
+        E13: 86699c0b-e811-4bef-914d-a81d8a6563a7
   1694-11_251:
     E36:
       Castellfollit de la Roca, Catalogne, Espagne, 42° 13′ 17″ nord, 2° 33′ 03″ est:
@@ -11558,6 +11664,8 @@ collection:
       '818.0':
         zone de l'image (E36):
           lieu représenté: a46712d5-740d-4915-9a5f-00c57f005497
+      thématique:
+        E13: 9c5d48ea-6931-4572-a72a-5c38589fc622
   1696-09_185:
     E36:
       ROME, Vatican:
@@ -11621,6 +11729,8 @@ collection:
       palais:
         zone de l'image (E36):
           objet représenté: ac1dedb0-544c-4c21-84de-a3cf339d1883
+      thématique:
+        E13: 0432b73a-005f-4757-842a-66006a64d2ef
   1697-09_271:
     E36:
       Ryswick, Pays-Bas, 52° 02' 44" nord, 4° 19' 48" est:
@@ -11629,6 +11739,8 @@ collection:
       palais:
         zone de l'image (E36):
           objet représenté: b73b8f03-4c76-4d34-b93a-386cab018f38
+      thématique:
+        E13: 91682724-d7fe-4a45-9f9f-afae4e805a3f
   1697-10_208:
     E36:
       Rome, Place Farnèse:
@@ -11637,6 +11749,8 @@ collection:
       fontaine:
         zone de l'image (E36):
           objet représenté: 18a1f771-b63c-4bea-b029-0be7c40ea956
+      thématique:
+        E13: 31e05cd3-4b4e-4048-8778-064e37b29b74
   1704-06_177:
     E36:
       Providence (île de) (Colombie)13° 21′ 00″ N, 81° 22′ 28″ O:
@@ -11675,6 +11789,8 @@ collection:
       '294859.0':
         zone de l'image (E36):
           lieu représenté: 936d0098-a73f-4982-be27-9a6e117ee844
+      thématique:
+        E13: b38f6c9d-2fb3-4114-a470-0cf214271b0a
   1678-01_000:
     E36:
       Mercure:
@@ -12416,6 +12532,8 @@ collection:
       marie-louise_(1662-1689)_reine_despagne:
         zone de l'image (E36):
           personne représentée: 50a41f37-d47e-4ac6-af6a-8742864111e2
+      thématique:
+        E13: 956b50f6-7ef5-4c55-9d92-e6853f82e494
   1679-10b_215:
     E36:
       fer, lance ou épée:
@@ -12608,6 +12726,8 @@ collection:
       marie-anne-christine-victoire_de_baviere_(1660-1690)_dauphine:
         zone de l'image (E36):
           personne représentée: 2ed9d9c4-e699-4822-9387-829d8cefee56
+      thématique:
+        E13: 1a17dcd7-7ef5-4787-806e-602cc74a3433
   1680-03b_194:
     E36:
       banquet:
@@ -12806,6 +12926,8 @@ collection:
       jardin:
         zone de l'image (E36):
           objet représenté: 46841e9c-b335-4ab3-ac77-8fae3c7692e6
+      thématique:
+        E13: 007ad313-dbb9-4d52-bd33-515c9bb852ea
   1680-10_354:
     E36:
       Protée:
@@ -12818,6 +12940,8 @@ collection:
       jardin:
         zone de l'image (E36):
           objet représenté: 4a463661-b94e-464d-8f8d-1f988dfe3938
+      thématique:
+        E13: 8e09dbf7-e6cc-4549-b088-2fa33190a86d
   1680-10e_192:
     E36:
       alphabet:
@@ -12979,6 +13103,8 @@ collection:
       fontaine:
         zone de l'image (E36):
           objet représenté: 24db31f4-c061-4d65-9ca6-896289f6a521
+      thématique:
+        E13: a5f395ea-7c98-4f85-a8cd-acca365f39ad
   1681-08_260:
     E36:
       ORLÉANS, Philippe I [1640-1701], duc d':
@@ -13111,6 +13237,8 @@ collection:
       bâtiment:
         zone de l'image (E36):
           objet représenté: 0a3d0c43-b396-4e4f-8ec8-e8099bc1adc2
+      thématique:
+        E13: 2300b4b5-6014-4020-b355-ab22e7082fcf
   1682-06e_148:
     E36:
       coquillages:
@@ -13195,6 +13323,8 @@ collection:
       bourgogne_louis_de_france_(1682-1712)_duc_de:
         zone de l'image (E36):
           personne représentée: 2774278c-fb4d-4bea-8e84-19cb88ad6a62
+      thématique:
+        E13: 9bf48751-a7ba-4485-9966-c4f891c62639
   1682-11_140:
     E36:
       poisson:
@@ -14075,6 +14205,8 @@ collection:
       habsbourg_leopold_i_de_(1640-1705):
         zone de l'image (E36):
           personne représentée: c6167794-8f7e-4880-825c-2201b7e8c712
+      thématique:
+        E13: 8a8f96c0-203e-41a4-be78-83bf1f3994f4
   1689-01 _215:
     E36:
       médaille:
@@ -14905,6 +15037,8 @@ collection:
       combles:
         zone de l'image (E36):
           objet représenté: 645268ee-6f96-4726-92f5-5595e4c8f06f
+      thématique:
+        E13: 74d69eac-6e85-40f2-98df-4a92541e912b
   1697-01_199:
     E36:
       jetons:
@@ -14923,6 +15057,8 @@ collection:
       rideau:
         zone de l'image (E36):
           objet représenté: 5b972b4a-80fb-463d-9ef7-c3230a3ef01f
+      thématique:
+        E13: 00bde3b0-b0bd-4eb9-a382-ed397528595c
   1697-12_090:
     E36:
       sangsues:
@@ -15059,6 +15195,8 @@ collection:
       '1070.0':
         zone de l'image (E36):
           lieu représenté: 688213e9-e868-4975-9874-a77cc80e8032
+      thématique:
+        E13: d87c9bbc-e8c2-4ddc-95c6-a450e18e03bd
   1702-10_086:
     E36:
       médaille:
