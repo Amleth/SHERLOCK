@@ -26,17 +26,22 @@ g.bind("crm", crm_ns)
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 g.bind("lrmoo", lrmoo_ns)
 
+
 def t(s, p, o):
     g.add((s, p, o))
+
 
 def she(x):
     return iremus_ns[x]
 
+
 def crm(x):
     return crm_ns[x]
 
+
 def lrm(x):
     return lrmoo_ns[x]
+
 
 a = RDF.type
 
@@ -116,8 +121,8 @@ with open(args.cache, "r") as f:
                     d[item] = []
                 d[item].append(items[item]["uuid"])
 
-with open(args.cache_applati, "w") as f:
-    yaml.dump(d, f)
+with open(args.cache_applati, "w", encoding='utf-8') as f:
+    yaml.dump(d, f, allow_unicode=True)
 
 ###########################################################################################################
 # CREATION DU FICHIER TURTLE
@@ -126,6 +131,3 @@ with open(args.cache_applati, "w") as f:
 serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.ttl, "wb") as f:
     f.write(serialization)
-
-
-
