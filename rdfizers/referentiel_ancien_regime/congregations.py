@@ -197,8 +197,8 @@ def explore(concept, depth):
                         m = re.search(indexation_regexp, v)
                         m_livraison = re.search(indexation_regexp_livraison, v)
                         if m:
-                            clef_mercure_livraison = m_livraison.group()
-                            clef_mercure_article = m.group()
+                            clef_mercure_livraison = m_livraison.group()[3:]
+                            clef_mercure_article = m.group()[3:]
                             try:
                                 F2_article_uri = she(cache_corpus.get_uuid(
                                     ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
@@ -223,8 +223,8 @@ def explore(concept, depth):
                         m = re.search(indexation_regexp, v)
                         m_livraison = re.search(indexation_regexp_livraison, v)
                         if m:
-                            clef_mercure_livraison = m_livraison.group()
-                            clef_mercure_article = m.group()
+                            clef_mercure_livraison = m_livraison.group()[3:]
+                            clef_mercure_article = m.group()[3:]
                             try:
                                 F2_article_uri = she(cache_corpus.get_uuid(
                                     ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",

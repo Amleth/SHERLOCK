@@ -82,7 +82,7 @@ for file in os.listdir(args.tei):
     ################################################################################
 
     # Work
-    livraison_id = file[0:-4]
+    livraison_id = file[3:-4]
     livraison_titre = root.xpath('//tei:titleStmt/tei:title/text()', namespaces=tei_ns)[0]
     livraison_F1 = she(corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "F1"], True))
     g.add((F18, URIRef(lrmoo_ns["R10_has_member"]), livraison_F1))
@@ -148,7 +148,7 @@ for file in os.listdir(args.tei):
     g.add((livraison_F2_tei_E42, URIRef(crm_ns["P2_has_type"]),
            URIRef(iremus_ns["219fd53d-cdf2-4174-8d71-6d12bdd24016"])))
     g.add((livraison_F2_tei_E42, RDFS.label,
-           URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/MG-{file[3:-4]}.xml")))
+           URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/MG-{file[0:-4]}.xml")))
 
     # Identifiant de la TEI
     livraison_F2_tei_E42_id = she(
@@ -176,7 +176,7 @@ for file in os.listdir(args.tei):
 
         # Work
         article_titre_xpath = article.xpath('./tei:head/child::node()', namespaces=tei_ns)
-        article_id = article.attrib['{http://www.w3.org/XML/1998/namespace}id']
+        article_id = article.attrib['{http://www.w3.org/XML/1998/namespace}id'][3:]
         article_titre = ""
         for node in article_titre_xpath:
             if type(node) == etree._ElementUnicodeResult:

@@ -2043,6 +2043,57 @@ indexations:
     campistron_jean-galbert_de_(1656-1723):
       E13:
         uuid: 75d48e40-b067-4670-9a1e-d9a44c2d193b
+    '14525':
+      E13:
+        uuid: 9c1602a7-fc1f-4598-ba04-397a53ecad74
+    '38935':
+      E13:
+        uuid: 04e97d8f-34a9-41e6-9bf1-4c8861dac301
+    malentant_m:
+      E13:
+        uuid: b3efdf05-43f7-4348-bf47-82ed1a8ed95c
+    '81362':
+      E13:
+        uuid: 214daefa-c080-40f6-a0f6-512f1f8363d1
+    tamiriste:
+      E13:
+        uuid: 666e05b3-1978-415a-9a6e-18213b60c841
+    '15728':
+      E13:
+        uuid: 97f42288-ee88-4be5-a48f-9ffcf5c4eb65
+    '81359':
+      E13:
+        uuid: a297e5ca-ca78-42ac-9913-10df4f1c7bda
+    '81363':
+      E13:
+        uuid: 48232367-ddda-41f9-87b5-0c6078b311da
+    '81347':
+      E13:
+        uuid: 756c418f-5b52-4a5d-b66a-e28f9c2af34e
+    '81360':
+      E13:
+        uuid: 2399f7e1-2fde-4503-9d7c-cb2321fb1b7c
+    furstemberg_guillaume-egon_de_(1629-1704):
+      E13:
+        uuid: 32a20676-227f-455d-a39a-d29f4ebf7f7f
+    '83483':
+      E13:
+        uuid: 9a1de2cb-5572-42bd-8a14-3aa8a34fb5ab
+    colbert_jacques-nicolas_(1655-1707):
+      E13:
+        uuid: c8a23eb1-90e3-47dc-af5f-95fea017499d
+    la_baume_de_suze_armand-anne-tristan_de_(1640-1705):
+      E13:
+        uuid: 0c480649-48f5-4ef1-a5d0-c77760dc78cf
+    sanguin_de_livry_denis_(1621-1702):
+      E13:
+        uuid: 13a0fe11-6f86-4f52-af7d-808304898201
+    '83481':
+      E13:
+        uuid: ab98133b-4064-433c-9565-66be7e046355
+    grancey_hardouin_rouxel_(-1706)_abbe_de:
+      E13:
+        uuid: 94679b7d-d5b9-486e-ab31-d9d2c885f4b8
   mots-clés:
     lettre:
       E13:
@@ -3445,6 +3496,21 @@ indexations:
     flûte allemande:
       E13:
         uuid: 351f62c2-4cf3-43bb-87a0-6f14b6c368cc
+    paroles à mettre en air:
+      E13:
+        uuid: 03938d8e-8914-479b-a94c-c47268c5b8f4
+    églogue:
+      E13:
+        uuid: 5392a254-1778-4e98-9b76-6962fc41f219
+    messe des morts:
+      E13:
+        uuid: 286222e3-58a5-4e2c-9add-1d28c47063a4
+    petit opéra (idyles, églogues):
+      E13:
+        uuid: c6150855-c61a-4acb-814d-8c32efe1ff57
+    chanson espagnole:
+      E13:
+        uuid: e0d83513-da40-4bae-a581-d85a09c6ab6c
   congrégations:
     '294225':
       E13:
@@ -3662,6 +3728,15 @@ indexations:
     benedictines_de_l_abbaye_saint-pierre_de_lyon:
       E13:
         uuid: 15f21fbc-3cc7-4b60-ac69-a35fa87ef3c7
+    '293763':
+      E13:
+        uuid: 8500378d-554c-4449-8519-c129a0d362db
+    '293793':
+      E13:
+        uuid: be183522-777f-4e96-844c-f851711e5dd0
+    feuillants:
+      E13:
+        uuid: 1c188b8e-988d-415d-9880-ca9b707d7275
   lieux:
     '276410':
       E13:
@@ -4803,6 +4878,24 @@ indexations:
     '219':
       E13:
         uuid: bf444080-ec01-40cf-b1d4-0086394bc8ac
+    '225154':
+      E13:
+        uuid: 5e10ee26-740e-4c16-bb79-6f8cd5de79fd
+    '295045':
+      E13:
+        uuid: c8aca9c1-80f7-46eb-a699-095b4e004f88
+    '295009':
+      E13:
+        uuid: 79a58fc0-2260-4fa6-bb69-76c7413c19b7
+    '800':
+      E13:
+        uuid: 09589734-e91b-4c27-84b3-604d60fa88fb
+    '2936':
+      E13:
+        uuid: 0a4b1ce6-380c-411e-9a3a-1d3576208ded
+    '198':
+      E13:
+        uuid: cdf8cc17-3bd9-4be4-b764-d3a358b57fee
   oeuvres citées:
     M. l’Abbé de L., Sur la naissance de Mr le Marquis de Montegut, Fils de Mr le Procureur General du Parlement de Toulouse.:
       uuid: 6130d54b-4976-4687-b1fc-6085065c1902
@@ -5383,6 +5476,26 @@ indexations:
       E13:
         uuid: fdf2b0ea-defc-47a4-88de-de8c78394d83
       uuid: 08d71579-faf0-4b2d-9b71-7176d0703dd3
+    M. Tesson, Rossignols qui dans ce bocage:
+      uuid: 44f0369e-0668-4e2f-afad-f775f15f15de
+      E13:
+        uuid: a4cf80f1-960d-414c-aa03-5a5c7530a368
+    non identifié, Quand les frimats viennent de ces beaux lieux:
+      uuid: 5960e16a-eafc-4d0a-8b04-96f54a7adc9a
+      E13:
+        uuid: c567dfdd-8884-4bf2-b245-7d5a9f1a853c
+    non identifié, Le capricieux:
+      uuid: 9c31b926-b58f-4c36-a365-6124bd33523f
+      E13:
+        uuid: 1b7b47de-da36-43a5-936f-20ee0e022e31
+    Tamiriste, Allez charmant nectar en faveur de mes peines:
+      uuid: 33da9c89-ad90-4673-9b84-b83a686c25e9
+      E13:
+        uuid: f72c658c-3cf6-4ef7-a8db-0a1dfc77c937
+    Bataille, Mlle., Narcisse:
+      uuid: 4d08bf58-692c-4982-b42e-bec9498c7926
+      E13:
+        uuid: 284e8298-7cfd-463e-842b-528dac405be1
   institutions:
     '293737':
       E13:
@@ -5723,3 +5836,6 @@ indexations:
     '294981':
       E13:
         uuid: 1b65ea7c-656c-4d73-9bb2-deeb4b23ed81
+    '293961':
+      E13:
+        uuid: 0cd27d97-bb80-43a5-be11-0927806a3c7a
