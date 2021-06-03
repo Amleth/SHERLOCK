@@ -1,7 +1,7 @@
 import argparse
 from rdflib import Literal as l, RDF, RDFS, URIRef as u
 from helpers_python import get_xlsx_rows_as_dicts
-from helpers_rdf import a, crm, crmdig, init_graph, save_graph, she, t
+from helpers_rdf import a, init_graph, save_graph, t, she, crm, lrm
 from sherlockcachemanagement import Cache
 import requests
 
@@ -123,8 +123,8 @@ def process(data):
     # Rattachement à la livraison ou à l'article
     ## Si l'article n'est pas précisé:
     if not data["Cote article OBVIL"]:
-        id_image = f"MG-{id}"
-        id_livraison = f"MG-{id[0:-4]}"
+        id_image = id
+        id_livraison = id[0:-4]
         if id_livraison.endswith("_"):
             id_livraison = id_livraison[0:-1]
         try:
@@ -141,7 +141,7 @@ def process(data):
 
     ## Si l'article est précisé:
     else:
-        id_article = data["Cote article OBVIL"]
+        id_article = data["Cote article OBVIL"][3:]
         id_livraison = id_article[0:11]
         try:
             if id_livraison.endswith("_"):
@@ -168,7 +168,7 @@ def process(data):
 
     # Article annexe à la gravure
     if data["Cote article lié OBVIL"]:
-        id_article = data["Cote article lié OBVIL"]
+        id_article = data["Cote article lié OBVIL"][3:]
         id_livraison = id_article[0:10]
         try:
             article_F2 = she(cache_corpus.get_uuid(
