@@ -94,15 +94,9 @@ def ro_list(s, p):
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}[a-zA-Z]?"
 indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
 
-# Création des thésaurus "Ancien Régime" et "Noms d'institutions et de corporations"
-
-E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
-E32_noms_instit_corpo_uri = URIRef(iremus_ns["8a29e857-3faf-49f1-969b-91572e77218e"])
-t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
-t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
-t(E32_ancien_regime_uri, crm("P71_lists"), E32_noms_instit_corpo_uri)
-t(E32_noms_instit_corpo_uri, a, crm("E32_Authority_Document"))
-t(E32_noms_instit_corpo_uri, crm("P1_is_identified_by"), Literal("Noms d'institutions et de corporations"))
+F34_noms_instit_corpo_uri = URIRef(iremus_ns["8a29e857-3faf-49f1-969b-91572e77218e"])
+t(F34_noms_instit_corpo_uri, a, crm("F34_Controlled_Vocabulary"))
+t(F34_noms_instit_corpo_uri, crm("P1_is_identified_by"), Literal("Noms d'institutions et de corporations"))
 
 ###########################################################################################################
 ## INSTITUTIONS
@@ -113,7 +107,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
     E74_uri = she(cache_institutions.get_uuid(["institutions et corporations", identifier, "uuid"], True))
     E41_uri = she(cache_institutions.get_uuid(["institutions et corporations", identifier, "E41"], True))
     t(E74_uri, a, crm("E74_Group"))
-    t(E32_noms_instit_corpo_uri, crm("P71_lists"), E74_uri)
+    t(F34_noms_instit_corpo_uri, crm("P71_lists"), E74_uri)
     t(E74_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
     t(E41_uri, RDFS.label, ro(opentheso_institution_uri, SKOS.prefLabel))

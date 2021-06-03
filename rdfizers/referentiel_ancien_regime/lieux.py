@@ -162,7 +162,7 @@ def explore(id, depth):
                                     t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                                 except:
-                                    print(identifier, clef_mercure_article)
+                                    print("l'article", clef_mercure_article, "ou le lieu", identifier, "n'existe pas")
                                     pass
 
                 elif "##" in v:
@@ -187,7 +187,7 @@ def explore(id, depth):
                                     t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                                 except:
-                                    print(identifier, clef_mercure_article)
+                                    print("l'article", clef_mercure_article, "ou le lieu", identifier, "n'existe pas")
                                     pass
 
                 else:
@@ -245,15 +245,9 @@ def explore(id, depth):
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
 indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
 
-# Création des thésaurus "Ancien Régime" et "Noms de lieux"
-
-E32_ancien_regime_uri = u(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
-E32_lieux_uri = u(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
-t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
-t(E32_ancien_regime_uri, crm("P1_is_identified_by"), l("Ancien Régime"))
-t(E32_ancien_regime_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_lieux_uri)
-t(E32_lieux_uri, a, crm("E32_Authority_Document"))
-t(E32_lieux_uri, crm("P1_is_identified_by"), l("Noms de lieux"))
+F34_lieux_uri = u(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
+t(F34_lieux_uri, a, crm("F34_Controlled_Vocabulary"))
+t(F34_lieux_uri, crm("P1_is_identified_by"), l("Noms de lieux"))
 
 
 ####################################################################################
@@ -265,7 +259,7 @@ t(E32_lieux_uri, crm("P1_is_identified_by"), l("Noms de lieux"))
 E32_grand_siecle_uri = u(iremus_ns["78061430-df57-4874-8334-44ed215a112e"])
 t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
 t(E32_grand_siecle_uri, crm("P1_is_identified_by"), l("Grand Siècle"))
-t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_grand_siecle_uri)
+t(F34_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_grand_siecle_uri)
 
 explore(u("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 
@@ -279,7 +273,7 @@ explore(u("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 E32_mon_cont_uri = u(iremus_ns["41dd59e3-2f0c-4ef3-b08c-9606f33a4a48"])
 t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
 t(E32_mon_cont_uri, crm("P1_is_identified_by"), l("Monde contemporain"))
-t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_mon_cont_uri)
+t(F34_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_mon_cont_uri)
 
 explore(u("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
 

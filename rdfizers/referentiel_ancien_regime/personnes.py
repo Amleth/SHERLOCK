@@ -91,15 +91,9 @@ def ro_list(s, p):
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
 indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
 
-## Création des thésaurus "Ancien Régime" et "Noms de personnes"
-
-E32_ancien_regime_uri = URIRef(iremus_ns["b18e2fad-4827-4533-946a-1b9914df6e18"])
-E32_personnes_uri = URIRef(iremus_ns["947a38f0-34ac-4c54-aeb7-69c5f29e77c0"])
-t(E32_ancien_regime_uri, a, crm("E32_Authority_Document"))
-t(E32_ancien_regime_uri, crm("P1_is_identified_by"), Literal("Ancien Régime"))
-t(E32_ancien_regime_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_personnes_uri)
-t(E32_personnes_uri, a, crm("E32_Authority_Document"))
-t(E32_personnes_uri, crm("P1_is_identified_by"), Literal("Noms de personnes"))
+F34_personnes_uri = URIRef(iremus_ns["947a38f0-34ac-4c54-aeb7-69c5f29e77c0"])
+t(F34_personnes_uri, a, crm("F34_Controlled_Vocabulary"))
+t(F34_personnes_uri, crm("P1_is_identified_by"), Literal("Noms de personnes"))
 
 ####################################################################################
 # PERSONNES
@@ -110,7 +104,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
     E21_uri = she(cache_personnes.get_uuid(["personnes", identifier, "uuid"], True))
     E41_uri = she(cache_personnes.get_uuid(["personnes", identifier, "E41"], True))
     t(E21_uri, a, crm("E21_Person"))
-    t(E32_personnes_uri, crm("P71_lists"), E21_uri)
+    t(F34_personnes_uri, crm("P71_lists"), E21_uri)
     t(E21_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
     t(E41_uri, RDFS.label, ro(opentheso_personne_uri, SKOS.prefLabel))
@@ -148,7 +142,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                print(identifier, clef_mercure_article)
+                                print("l'article", clef_mercure_article, "ou la personne", identifier, "n'existe pas")
                                 pass
             elif "##" in v:
                 v = v.split("##")
@@ -173,7 +167,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                print(identifier, clef_mercure_article)
+                                print("l'article", clef_mercure_article, "ou la personne", identifier, "n'existe pas")
                                 pass
             else:
                 # S'il s'agit d'une note à propos du E21
