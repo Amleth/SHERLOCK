@@ -6,20 +6,22 @@ g = None
 def init_graph():
     global g
     g = Graph()
+
+    crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
+    crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
+    iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
+    lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
+    sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
+    sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
+
     g.bind("crm", crm_ns)
     g.bind("dcterms", DCTERMS)
     g.bind("lrm", lrmoo_ns)
     g.bind("sdt", sdt_ns)
     g.bind("skos", SKOS)
     g.bind("crmdig", crmdig_ns)
+    g.bind("she_ns", sherlock_ns)
 
-crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
-crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
-iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
-lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
-sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
-sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
-dcterms = Namespace("http://purl.org/dc/terms/")
 
 
 def save_graph(file):

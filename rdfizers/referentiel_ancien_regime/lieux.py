@@ -48,6 +48,7 @@ output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("lrmoo", lrmoo_ns)
 output_graph.bind("sdt", sdt_ns)
 output_graph.bind("she_ns", sherlock_ns)
+output_graph.bind("skos", SKOS)
 
 a = RDF.type
 
