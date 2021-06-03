@@ -113,20 +113,22 @@ d = {}
 with open(args.cache, "r") as f:
     cache_arborescent = yaml.load(f, Loader=yaml.FullLoader)
 
-def label_uuid():
-    print(label, items["uuid"])
-    d[label] = []
-    d[label].append(items["uuid"])
-    print(items)
-    for key, objets in items:
-    #     print(key + ':', objets["uuid"])
-    # #     d[key] = []
-    # #     d[key].append(items["uuid"])
-    #label_uuid()
+def label_uuid(key, value):
+    for k, v in value.items():
+        if k != "uuid":
+            d[k] = {}
+            d[k]["uuid"] = v["uuid"]
+            #print(k, ":", v["uuid"])
+            if len(v) >= 2:
+                label_uuid(k, v)
 
 for label, items in cache_arborescent.items():
-        label_uuid()
+    #print(label, items["uuid"])
+    d[label] = {}
+    d[label]["uuid"] = items["uuid"]
+    label_uuid(label, items)
 
+#pprint(d)
 
 with open(args.cache_applati, "w", encoding='utf-8') as f:
     yaml.dump(d, f, allow_unicode=True)

@@ -311,8 +311,7 @@ def process(data):
 
                 ### Recherche d'UUID dans le vocabulaire d'indexation des gravures
                 try:
-                    objet_uuid = she(cache_vocab_estampes.get_uuid([sujet.lower()]))
-                    print(sujet.lower())
+                    objet_uuid = she(cache_vocab_estampes.get_uuid([sujet.lower(), "uuid"]))
 
                     if objet_uuid:
 
