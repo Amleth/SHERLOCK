@@ -71,9 +71,14 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 			if id_livraison.endswith("_"):
 				id_livraison = id_livraison[:-1]
 
-			article_F2 = she(cache_corpus.get_uuid(
+			## Article original
+			article_F2_original = she(cache_corpus.get_uuid(
 				["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-			t(article_F2, crm("P148_has_component"), gravure)
+			t(article_F2_original, crm("P148_has_component"), gravure)
+			## Article TEI
+			article_F2_TEI = she(
+				cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
+			t(article_F2_TEI, crm("P148_has_component"), gravure)
 
 		else:
 
@@ -86,9 +91,16 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 			if id_livraison.endswith("_"):
 				id_livraison = id_livraison[:-1]
 
-			article_F2 = she(cache_corpus.get_uuid(
-				["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-			t(article_F2, crm("P148_has_component"), gravure)
+				## Article original
+				article_F2_original = she(cache_corpus.get_uuid(
+					["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
+				t(article_F2_original, crm("P148_has_component"), gravure)
+				## Article TEI
+				article_F2_TEI = she(
+					cache_corpus.get_uuid(
+						["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
+				t(article_F2_TEI, crm("P148_has_component"), gravure)
+
 	except:
 		print("Impossible de retrouver l'article de la gravure", id_article, "(livraison " + id_livraison + ")")
 
