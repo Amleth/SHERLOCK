@@ -1,311 +1,309 @@
-MG-1701-06_065 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-06_085 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-06_103 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-06_119 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-06_127 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-06_137 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-06_148 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-06_192 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-06_244 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-06_284 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-06_384 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-06_385 (MG 1701-06): erreur dans l'id de l'article ou de la livraison
-MG-1701-05A_045 (MG-1701-05): erreur dans l'id de l'article ou de la livraison
-MG-1701-05A_091 (MG-1701-05): erreur dans l'id de l'article ou de la livraison
-MG-1701-05A_275 (MG-1701-05): erreur dans l'id de l'article ou de la livraison
-MG-1701-05A_277 (MG-1701-05): erreur dans l'id de l'article ou de la livraison
-MG-1701-05A_335 (MG-1701-05): erreur dans l'id de l'article ou de la livraison
-MG-1701-05B_003 (MG-1701-05): erreur dans l'id de l'article ou de la livraison
-MG-1701-05B_079 (MG-1701-05): erreur dans l'id de l'article ou de la livraison
-MG-1701-05B_087 (MG-1701-05): erreur dans l'id de l'article ou de la livraison
-MG-1701-07_018: le lieu  couvent de l’Ordre de Saint François  est introuvable
-MG-1701-07_018: le mot-clé  décoration d’église  est introuvable ou doit être ajouté au thésaurus
-MG-1701-07_044: le mot-clé  chapelle papale  est introuvable ou doit être ajouté au thésaurus
-MG-1701-07_061: le mot-clé  messe funèbre  est introuvable ou doit être ajouté au thésaurus
-MG-1701-07_061: le mot-clé  commémoration d’un décès  est introuvable ou doit être ajouté au thésaurus
-MG-1701-07_073: le mot-clé  réception d’un gouverneur  est introuvable ou doit être ajouté au thésaurus
-MG-1701-07_211: le mot-clé  De profundis  est introuvable ou doit être ajouté au thésaurus
-MG-1701-07_295: le mot-clé  offices des morts  est introuvable ou doit être ajouté au thésaurus
-MG-1701-07_295: le mot-clé  oraison funèbre  est introuvable ou doit être ajouté au thésaurus
-MG 1701-09_079 (MG-1701-09): erreur dans l'id de l'article ou de la livraison
-MG 1701-09_222 (MG-1701-09): erreur dans l'id de l'article ou de la livraison
-MG-1701-09_010: le mot-clé  Terre Sainte  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  Noël  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  Epiphanie  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  fête de la Saint-Etienne  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  Christe redemptor omnium  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  Coelitum Joseph  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  Salvete flores Martyrum  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  Jesu corona Virginum  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  Salve Regina  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  Ascension  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  fête de la Saint-Jacques  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  Transfiguration  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  Assomption  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  Fortem virili pectore  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_010: le mot-clé  grand-messe  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_074: le mot-clé  air  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_369: la congrégation  275614  est introuvable
-MG-1701-09_369: le mot-clé  musique à deux chœurs  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_369: le mot-clé  psalmodie  est introuvable ou doit être ajouté au thésaurus
-MG-1701-09_397: le mot-clé  poésie lyrique  est introuvable ou doit être ajouté au thésaurus
-MG-1701-10_005: le mot-clé  coutumes religieuses  est introuvable ou doit être ajouté au thésaurus
-MG-1701-10_005: le mot-clé  Evangiles  est introuvable ou doit être ajouté au thésaurus
-MG-1701-10_005: le mot-clé  offices  est introuvable ou doit être ajouté au thésaurus
-MG-1701-10_115: le mot-clé  plain chant  est introuvable ou doit être ajouté au thésaurus
-MG-1701-10_115: le mot-clé  timbales  est introuvable ou doit être ajouté au thésaurus
-MG-1701-10_152: le mot-clé  cérémonie privée  est introuvable ou doit être ajouté au thésaurus
-MG-1701-10_152: l'institution  Recteur du Collège d’Espagne, Bologne  est introuvable
-MG-1701-10_152: le mot-clé  jeux  est introuvable ou doit être ajouté au thésaurus
-MG-1701-10_360: le mot-clé  tragédie classique  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_008: le mot-clé  instrument rustique  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_008: le mot-clé  dialogue chantée  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_140: le mot-clé  Elegit cum Dominus  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_140: le mot-clé  feu d’artifice  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_202: le mot-clé  air instrumentale  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_202: le mot-clé  viole  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_202: le mot-clé  jeu de cartes  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_202: le mot-clé  soirée d’appartement  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_249: le mot-clé  instrumentistes  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_249: le mot-clé  instruments  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_249: le mot-clé  réception d’une princesse  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_249: le mot-clé  éloge d’une princesse  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_249: le mot-clé  Rigaudon  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_249: le mot-clé  folies d’Espagne  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_249: le mot-clé  mise en air  est introuvable ou doit être ajouté au thésaurus
-MG-1701-11_249: le mot-clé  danse provençale  est introuvable ou doit être ajouté au thésaurus
-MG-1702-02a_146 (MG-1702-02): erreur dans l'id de l'article ou de la livraison
-MG-1702-02a_190 (MG-1702-02): erreur dans l'id de l'article ou de la livraison
-MG-1702-02a_282 (MG-1702-02): erreur dans l'id de l'article ou de la livraison
-MG-1702-02a_284 (MG-1702-02): erreur dans l'id de l'article ou de la livraison
-MG-1702-02a_312 (MG-1702-02): erreur dans l'id de l'article ou de la livraison
-MG-1702-02a_91 (MG-1702-02): erreur dans l'id de l'article ou de la livraison
-MG-1702-03_112: le mot-clé  tragédie lyrique  est introuvable ou doit être ajouté au thésaurus
-MG-1702-03_112: le mot-clé  réception d’une oeuvre musicale  est introuvable ou doit être ajouté au thésaurus
-MG-1702-03_79: le mot-clé  texte à clef  est introuvable ou doit être ajouté au thésaurus
-MG-1702-05_361: le mot-clé  appartements  est introuvable ou doit être ajouté au thésaurus
-MG-1702-05_42: le mot-clé  éloge d’un auteur  est introuvable ou doit être ajouté au thésaurus
-MG-1702-05_42: le mot-clé  épitre  est introuvable ou doit être ajouté au thésaurus
-MG-1702-06a_12 (MG-1702-06): erreur dans l'id de l'article ou de la livraison
-MG-1702-06a_169 (MG-1702-06): erreur dans l'id de l'article ou de la livraison
-MG-1702-06a_205 (MG-1702-06): erreur dans l'id de l'article ou de la livraison
-MG-1702-06a_306 (MG-1702-06): erreur dans l'id de l'article ou de la livraison
-MG-1702-06a_464 (MG-1702-06): erreur dans l'id de l'article ou de la livraison
-MG-1702-06a_96 (MG-1702-06): erreur dans l'id de l'article ou de la livraison
-MG-1702-06b_125 (MG-1702-06): erreur dans l'id de l'article ou de la livraison
-MG-1702-06b_1a (MG-1702-06): erreur dans l'id de l'article ou de la livraison
-MG-1702-06b_1b (MG-1702-06): erreur dans l'id de l'article ou de la livraison
-MG-1702-06b_30 (MG-1702-06): erreur dans l'id de l'article ou de la livraison
-MG-1702-07a_146 (MG-1702-07): erreur dans l'id de l'article ou de la livraison
-MG-1702-07a_175 (MG-1702-07): erreur dans l'id de l'article ou de la livraison
-MG-1702-07a_273 (MG-1702-07): erreur dans l'id de l'article ou de la livraison
-MG-1702-07a_365 (MG-1702-07): erreur dans l'id de l'article ou de la livraison
-MG-1702-07a_384 (MG-1702-07): erreur dans l'id de l'article ou de la livraison
-MG-1702-07b_118 (MG-1702-07): erreur dans l'id de l'article ou de la livraison
-MG-1702-07b_78 (MG-1702-07): erreur dans l'id de l'article ou de la livraison
-MG-1702-07b_90 (MG-1702-07): erreur dans l'id de l'article ou de la livraison
-MG-1704-08_307: le lieu  Saint-Antonin, Église Paroissiale  est introuvable
-MG-1704-09_105: le mot-clé  chœurs  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_117: le mot-clé  Palio  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_117: le mot-clé  boëtes  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_150: le mot-clé  fifres  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_150: le mot-clé  Gloria in excelsis  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_150: le lieu  Venise, chez Joseph Hennequin de Charmont  est introuvable
-MG-1704-09_183: le mot-clé  musique à trois chœurs  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_208: le mot-clé  chanteuses  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_208: le mot-clé  fête de la Saint-Louis  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_208: le mot-clé  processions  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_31: le mot-clé  Te Deum en musique  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_31: le mot-clé  violons  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_31: le mot-clé  décorations  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_356_ (MG-1704-09): erreur dans l'id de l'article ou de la livraison
-MG-1704-09_5: le mot-clé  Panégyrique de Saint-Louis  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_61: le mot-clé  Te Deum  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_61: le mot-clé  grand messe  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_61: le mot-clé  fusées  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_61: le mot-clé  trompettes  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_71: le mot-clé  tambours  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_71: le mot-clé  pétard  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_85: le mot-clé  Exaudiat  est introuvable ou doit être ajouté au thésaurus
-MG-1704-09_85: le lieu  LAVAL, Couvent des Capucins  est introuvable
-MG-1704-10_223: le mot-clé  Exsurgat Deus en musique  est introuvable ou doit être ajouté au thésaurus
-MG-1704-10_396: le mot-clé  flûte d'Allemagne  est introuvable ou doit être ajouté au thésaurus
-MG-1704-11_272: le mot-clé  basse de violons  est introuvable ou doit être ajouté au thésaurus
-MG-1705-08_33: le mot-clé  Auto sacramental  est introuvable ou doit être ajouté au thésaurus
-MG-1705-08_79: le mot-clé  retraite  est introuvable ou doit être ajouté au thésaurus
-MG-1705-09_5: le mot-clé  panégyrique d’un saint  est introuvable ou doit être ajouté au thésaurus
-MG-1705-10_52: le mot-clé  nomination d’une abbesse  est introuvable ou doit être ajouté au thésaurus
-MG-1705-11_196: le mot-clé  musicien  est introuvable ou doit être ajouté au thésaurus
-MG-1705-11_280: le mot-clé  comédie allemande  est introuvable ou doit être ajouté au thésaurus
-MG-1705-12_16: la personne  294271  est introuvable
-MG-1705-12_16: la personne  294273  est introuvable
-MG-1705-12_16: la personne  294275  est introuvable
-MG-1705-12_16: la personne  294277  est introuvable
-MG-1705-12_16: la personne  294279  est introuvable
-MG-1705-12_16: le mot-clé  litanie  est introuvable ou doit être ajouté au thésaurus
-MG-1705-12_7: le mot-clé  réception d’une statue du roi  est introuvable ou doit être ajouté au thésaurus
-MG-1705-12_70: l'institution  82391  est introuvable
-MG-1705-12_70: l'institution  82393  est introuvable
-MG-1705-12_95: le mot-clé  bénédiction d’une cloche  est introuvable ou doit être ajouté au thésaurus
-MG-1706-01_252: le mot-clé  opéra français  est introuvable ou doit être ajouté au thésaurus
-MG-1706-02_288: la personne  294353  est introuvable
-MG-1706-03_257: la personne  DEMANDER CONFiMATION DUMOULIN  est introuvable
-MG-1706-03_257: le mot-clé  Grandes Nuits de Sceaux  est introuvable ou doit être ajouté au thésaurus
-MG-1706-04_136: le mot-clé  actualité littéraire  est introuvable ou doit être ajouté au thésaurus
-MG-1706-04_136: le mot-clé  histoire de la littérature  est introuvable ou doit être ajouté au thésaurus
-MG-1706-04_136: le mot-clé  origine de la poésie  est introuvable ou doit être ajouté au thésaurus
-MG-1706-04_334: le mot-clé  fausse voix  est introuvable ou doit être ajouté au thésaurus
-MG-1706-04_334: le mot-clé  voix aiguë  est introuvable ou doit être ajouté au thésaurus
-MG-1706-04_334: le mot-clé  voix de fausset  est introuvable ou doit être ajouté au thésaurus
-MG-1706-04_334: le mot-clé  voix pleine  est introuvable ou doit être ajouté au thésaurus
-MG-1706-05_319: le mot-clé  fête de la Saint-Jean  est introuvable ou doit être ajouté au thésaurus
-MG-1706-06_192: le mot-clé  illumination  est introuvable ou doit être ajouté au thésaurus
-MG-1706-08_186: le mot-clé  cloches  est introuvable ou doit être ajouté au thésaurus
-MG-1706-09_351: la personne  Le Major  est introuvable
-MG-1706-10_138: le mot-clé  applaudissements  est introuvable ou doit être ajouté au thésaurus
-MG-1706-10_138: le mot-clé  Chevalet ??  est introuvable ou doit être ajouté au thésaurus
-MG-1706-10_138: le mot-clé  parodie musicale  est introuvable ou doit être ajouté au thésaurus
-MG-1706-10_138: le mot-clé  danse rustique  est introuvable ou doit être ajouté au thésaurus
-MG-1706-10_138: le mot-clé  tambourin  est introuvable ou doit être ajouté au thésaurus
-MG-1706-10_354: le mot-clé  musiciens  est introuvable ou doit être ajouté au thésaurus
-MG-1706-11_257: la personne  premier_president_de_la_cour_des_aides  est introuvable
-MG-1707-02_116 (MG-1707- 02): erreur dans l'id de l'article ou de la livraison
-MG-1707-02_126 (MG-1707- 02): erreur dans l'id de l'article ou de la livraison
-MG-1707-02_15 (MG-1707- 02): erreur dans l'id de l'article ou de la livraison
-MG-1707-02_211 (MG-1707- 02): erreur dans l'id de l'article ou de la livraison
-MG-1707-02_244 (MG-1707- 02): erreur dans l'id de l'article ou de la livraison
-MG-1707-02_301 (MG-1707- 02): erreur dans l'id de l'article ou de la livraison
-MG-1707-02_307 (MG-1707- 02): erreur dans l'id de l'article ou de la livraison
-MG-1707-02_337 (MG-1707- 02): erreur dans l'id de l'article ou de la livraison
-MG-1707-02_374 (MG-1707- 02): erreur dans l'id de l'article ou de la livraison
-MG-1707-02_98 (MG-1707- 02): erreur dans l'id de l'article ou de la livraison
-MG-1707-01_309: le mot-clé  naissance d’un prince  est introuvable ou doit être ajouté au thésaurus
-MG-1707-03_10: le mot-clé  coût d’une fête  est introuvable ou doit être ajouté au thésaurus
-MG-1707-03_391: le mot-clé  billard  est introuvable ou doit être ajouté au thésaurus
-MG-1707-03_47: le mot-clé  messe solennelle en musique  est introuvable ou doit être ajouté au thésaurus
-MG-1707-04_162: la personne  Tenebron, Antonio Cisneros y Moctezuma, marqués de  est introuvable
-MG-1707-04_162: le mot-clé  coutume traditionnelle  est introuvable ou doit être ajouté au thésaurus
-MG-1707-04_209: le mot-clé  clavecin brisé  est introuvable ou doit être ajouté au thésaurus
-MG-1707-04_271: le mot-clé  flûte d’Allemagne  est introuvable ou doit être ajouté au thésaurus
-MG-1707-04_291: le mot-clé  artillerie  est introuvable ou doit être ajouté au thésaurus
-MG-1707-04_291: le lieu  BARBEZIEUX  est introuvable
-MG-1707-04_291: le lieu  BARBEZIEUX, chez M. Charpentier de Chantereine  est introuvable
-MG-1707-05_101: le mot-clé  allemand  est introuvable ou doit être ajouté au thésaurus
-MG-1707-05_101: le mot-clé  réception d’une oeuvre  est introuvable ou doit être ajouté au thésaurus
-MG-1707-07_098 (MG-1707-07): erreur dans l'id de l'article ou de la livraison
-MG-1707-07_132: la personne  Camilly, François-Blouet de (1664-1723)  est introuvable
-MG-1707-07_132: l'institution  Corps de Ville de Luneville  est introuvable
-MG-1707-07_142: la personne  Amarante, García Ozores y Sotomayor (1644-1712), conde de  est introuvable
-MG-1707-07_142: la personne  Jovenazo, Domingo Judice (fl.1681), duque de  est introuvable
-MG-1707-07_142: le mot-clé  Nocturne  est introuvable ou doit être ajouté au thésaurus
-MG-1707-07_142: le lieu  MADRID, Collège impérial, église  est introuvable
-MG-1707-07_213: le mot-clé  motet en musique  est introuvable ou doit être ajouté au thésaurus
-MG-1707-07_213: le mot-clé  goût pour la musique  est introuvable ou doit être ajouté au thésaurus
-MG-1707-07_213: le lieu  ROME, chez Henri-Albert de la Grange d’Arquien  est introuvable
-MG-1707-08_11: le mot-clé  prise d’habit  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_196: le mot-clé  83095  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_252: le mot-clé  naissance princière  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_252: le mot-clé  diner  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_302: le mot-clé  célébration d’une naissance princière  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_306: le mot-clé  réjouissance publique  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_315: le mot-clé  réjouissance  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_336: le mot-clé  baptème  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_382: le mot-clé  prières publiques  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_382: le mot-clé  Corrida  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_397: le mot-clé  83097  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_5: le mot-clé  panégyrique d'un roi  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_96: le mot-clé  apprentissage de la musique  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_96: le mot-clé  édit papale  est introuvable ou doit être ajouté au thésaurus
-MG-1707-09_96: le mot-clé  enseignement de la musique dans les couvents  est introuvable ou doit être ajouté au thésaurus
-MG-1707-10A_251: le mot-clé  fête de Saint-Augustin  est introuvable ou doit être ajouté au thésaurus
-MG-1707-10A_391: la personne  princes  est introuvable
-MG-1707-10B_210: le mot-clé  rigaudon  est introuvable ou doit être ajouté au thésaurus
-MG-1707-10B_210: le mot-clé  siège de Toulon  est introuvable ou doit être ajouté au thésaurus
-MG-1707-11-12_146: la personne  Mirasol, Jacques (fl.1707)  est introuvable
-MG-1707-11-12_146: la personne  Autel, Jean-Frédérique (1645-1716), comte d’  est introuvable
-MG-1707-11-12_146: le lieu  Luxembourg (ville), Couvent des récollets  est introuvable
-MG-1707-11-12_146: le lieu  LUXEMBOURG (ville), Hôtel de ville  est introuvable
-MG-1707-11-12_146: le lieu  CADIX, chez M. de Mirasol  est introuvable
-MG-1707-11-12_146: le lieu  CADIX, Hôtel de ville  est introuvable
-MG-1707-11-12_45: la personne  Rosanbo, Louis II Urbain le Peletier (1662-1730), marquis de  est introuvable
-MG-1707-11-12_45: le mot-clé  messe rouge  est introuvable ou doit être ajouté au thésaurus
-MG-1707-11-12_45: le lieu  PARIS, Palais de la Cité, grande salle  est introuvable
-MG-1707-11-12_45: le lieu  PARIS, Cours des Aides, chapelle  est introuvable
-MG-1707-11-12_45: le lieu  PARIS, Séminaire Saint-Nicolas du Chardonnet > dans thésaurus  est introuvable
-MG-1707-11-12_45: l'institution  Musique de la Sainte-Chapelle  est introuvable
-MG-1707-11-12_544: la personne  Rohan-Soubise, Charlotte II Armande de  est introuvable
-MG-1707-11-12_544: le mot-clé  bénédiction d’une abbesse  est introuvable ou doit être ajouté au thésaurus
-MG-1707-11-12_544: le mot-clé  réception d’une abbesse  est introuvable ou doit être ajouté au thésaurus
-MG-1707-11-12_544: le mot-clé  cérémonie religieuse  est introuvable ou doit être ajouté au thésaurus
-MG-1707-11-12_584: la personne  Stuck, Jean-Baptiste (1680-1755)  est introuvable
-MG-1707-11-12_584: la personne  Terrat, Jean-Baptiste (ca. 1670- ?) > chancelier Duc d’Orléans  est introuvable
-MG-1707-11-12_584: le lieu  PARIS, Notre-Dame  est introuvable
-MG-1707-11-12_584: le lieu  BAYONNE, Cathédrale Sainte-Marie  est introuvable
-MG-1707-11-12_584: le lieu  Versailles, Château de, chapelle  est introuvable
-MG-1707-11-12_584: le lieu  PARIS, Opéra  est introuvable
-MG-1707-11-12_584: le lieu  PARIS, Palais royal, chapelle  est introuvable
-MG-1707-11-12_584: le lieu  PARIS, Palais royal, jardin  est introuvable
-MG-1707-11-12_584: le lieu  LÉRIDA, Château de  est introuvable
-MG-1707-11-12_584: le lieu  PARIS, Hôtel de Brancas  est introuvable
-MG-1707-11-12_651: la personne  évêque de Siguença  est introuvable
-MG-1707-11-12_651: la personne  Cano y Tevar, Julián (1644-1719)  est introuvable
-MG-1707-11-12_651: la personne  Medinaceli, Luis-Francisco de la Cerda y Aragon (1660-1711), duque de  est introuvable
-MG-1707-11-12_651: la personne  Montalto, Fernando de Aragon y Moncada  est introuvable
-MG-1707-11-12_651: la personne  Gandia, Pascual Francisco de Borja Centelles y Ponce de León (1653-1713), duque de  est introuvable
-MG-1707-11-12_651: le mot-clé  célébration d’une naissance  est introuvable ou doit être ajouté au thésaurus
-MG-1707-11-12_651: le mot-clé  tauromachie  est introuvable ou doit être ajouté au thésaurus
-MG-1707-11-12_673: le lieu  MADRID, Palais d’Uceda  est introuvable
-MG-1707-11-12_91: la personne  Brunswick-Lüneburg, Antoine-Ulrich (1633-1714), duc de  est introuvable
-MG-1707-11-12_91: la personne  Braunschweig-Wolfenbüttel-Bevern, Ferdinand-Albrecht II (1680-1735), prince de  est introuvable
-MG-1707-11-12_91: la personne  Schleswig-Holstein-Gottorf, Christian-August (1673-1726), duc de  est introuvable
-MG-1707-11-12_91: la personne  Bade-Durlach, Albertine-Frédérique de (1682-1755), princesse de  est introuvable
-MG-1707-11-12_91: la personne  Treuer, Gottlieb (1657-1729)  est introuvable
-MG-1707-11-12_91: la personne  Hessen-Darmstadt, Elisabeth-Amélie (1635-1709), princesse de  est introuvable
-MG-1707-11-12_91: le mot-clé  danse anglaise  est introuvable ou doit être ajouté au thésaurus
-MG-1707-11-12_91: le mot-clé  cors de chasse  est introuvable ou doit être ajouté au thésaurus
-MG-1707-11-12_91: le mot-clé  Veni Sancte Spiritus  est introuvable ou doit être ajouté au thésaurus
-MG-1707-11-12_91: le lieu  SALZDAHLUM  est introuvable
-MG-1707-11-12_91: le lieu  SALZDAHLUM, Château de  est introuvable
-MG-1707-11-12_91: le lieu  SALZDAHLUM, Château de, jardin  est introuvable
-MG-1707-11-12_91: le lieu  SALZDAHLUM, Château de, chapelle  est introuvable
-MG-1707-11-12_91: le lieu  SALZDAHLUM, Château de, couvent  est introuvable
-MG-1707-11-12_91: le lieu  SALZDAHLUM, Château de, maison de l’Opéra  est introuvable
-MG-1707-11-12_91: le lieu  STETERBURG, Couvent des Augustines  est introuvable
-MG-1707-11-12_91: le lieu  SALZDAHLUM, Château de, grande salle  est introuvable
-MG-1708-01_244: le mot-clé  décoration d’appartement  est introuvable ou doit être ajouté au thésaurus
-MG-1708-01_244: le mot-clé  marche des tambours  est introuvable ou doit être ajouté au thésaurus
-MG-1708-01_5: le mot-clé  discours  est introuvable ou doit être ajouté au thésaurus
-MG-1708-03_106: le mot-clé  rondeau  est introuvable ou doit être ajouté au thésaurus
-MG-1708-03_116: le mot-clé  audition  est introuvable ou doit être ajouté au thésaurus
-MG-1708-03_116: le mot-clé  invention d’un instrument auditif  est introuvable ou doit être ajouté au thésaurus
-MG-1708-07a_343 (MG-1708-07): erreur dans l'id de l'article ou de la livraison
-MG-1708-08_140: le mot-clé  action en grâce  est introuvable ou doit être ajouté au thésaurus
-MG-1708-08_151: le mot-clé  formes poétiques  est introuvable ou doit être ajouté au thésaurus
-MG-1708-10_360: le mot-clé  jeu littéraire  est introuvable ou doit être ajouté au thésaurus
-MG-1708-11_288: le mot-clé  cantade  est introuvable ou doit être ajouté au thésaurus
-MG-1708-11_288: le mot-clé  cantate  est introuvable ou doit être ajouté au thésaurus
-MG-1708-11_288: le mot-clé  vers  est introuvable ou doit être ajouté au thésaurus
-MG-1709-04_351: le mot-clé  appartement  est introuvable ou doit être ajouté au thésaurus
-MG-1709-04_351: le mot-clé  jeu de l’arquebuse  est introuvable ou doit être ajouté au thésaurus
-MG-1709-06_141: le mot-clé  musicien d’église  est introuvable ou doit être ajouté au thésaurus
-MG-1709-06_214: le mot-clé  princière  est introuvable ou doit être ajouté au thésaurus
-MG-1709-07_267: la personne  Épiphane, Nicaud (fl. 1709) > à rechercher dans le thésaurus  est introuvable
-MG-1709-07_267: le mot-clé  Deus misereatur nostri  est introuvable ou doit être ajouté au thésaurus
-MG-1709-07_267: le mot-clé  profession solenelle  est introuvable ou doit être ajouté au thésaurus
-MG-1709-07_267: la congrégation  Récollets de Lyon  est introuvable
-MG-1709-07_304: la personne  Bourbon, Louis-Philippe de (1709)> Infant d’Espagne  est introuvable
-MG-1709-07_304: la personne  Linares, Fernando de Alencastre Norona y Silva (1662-1717), duque de  est introuvable
-MG-1709-07_304: la personne  83045 ;  est introuvable
-MG-1709-07_267 (MG-1709-09): erreur dans l'id de l'article ou de la livraison
-MG-1709-07_304 (MG-1709-09): erreur dans l'id de l'article ou de la livraison
-MG-1709-10_157: le mot-clé  transposition  est introuvable ou doit être ajouté au thésaurus
-MG-1709-10_224: l'institution  recollets  est introuvable
-MG-1709-10_359: le mot-clé  chantre  est introuvable ou doit être ajouté au thésaurus
-MG-1709-11_103: le mot-clé  confirmation  est introuvable ou doit être ajouté au thésaurus
-MG-1709-12_42: l'institution  Procureur du Roi  est introuvable
-MG-1710-03_167: le mot-clé  contredanse  est introuvable ou doit être ajouté au thésaurus
-MG-1710-03_167: le lieu  293149  est introuvable
-MG-1710-03_167: le lieu  294961  est introuvable
-MG-1710-03_167: le lieu  294959  est introuvable
-MG-1710-03_202: le mot-clé  office des morts  est introuvable ou doit être ajouté au thésaurus
-MG-1710-03_214: le mot-clé  obtention d’un titre  est introuvable ou doit être ajouté au thésaurus
+1701-06_065: le mot-clé  air  est introuvable ou doit être ajouté au thésaurus
+1701-06_065: le mot-clé  poésie à mettre en air  est introuvable ou doit être ajouté au thésaurus
+1701-06_148: le mot-clé  polychoralité  est introuvable ou doit être ajouté au thésaurus
+1701-06_148: le mot-clé  décoration d’église  est introuvable ou doit être ajouté au thésaurus
+1701-06_192: le mot-clé  autosacramental  est introuvable ou doit être ajouté au thésaurus
+1701-06_192: le mot-clé  auto sacramental  est introuvable ou doit être ajouté au thésaurus
+1701-06_244: le mot-clé  nomination d’un évêque  est introuvable ou doit être ajouté au thésaurus
+1701-06_284: la personne  57437  est introuvable
+1701-06_284: le mot-clé  psalmodie  est introuvable ou doit être ajouté au thésaurus
+1701-06_284: le mot-clé  convoi funèbre  est introuvable ou doit être ajouté au thésaurus
+1701-06_284: le mot-clé  timbales  est introuvable ou doit être ajouté au thésaurus
+1701-06_284: le mot-clé  sourdine  est introuvable ou doit être ajouté au thésaurus
+1701-06_384: la personne  81361  est introuvable
+1701-06_384: le mot-clé  mise en air  est introuvable ou doit être ajouté au thésaurus
+1701-05A_045 (1701-05): erreur dans l'id de l'article ou de la livraison
+1701-05A_091 (1701-05): erreur dans l'id de l'article ou de la livraison
+1701-05A_275 (1701-05): erreur dans l'id de l'article ou de la livraison
+1701-05A_277 (1701-05): erreur dans l'id de l'article ou de la livraison
+1701-05A_335 (1701-05): erreur dans l'id de l'article ou de la livraison
+1701-05B_003 (1701-05): erreur dans l'id de l'article ou de la livraison
+1701-05B_079 (1701-05): erreur dans l'id de l'article ou de la livraison
+1701-05B_087 (1701-05): erreur dans l'id de l'article ou de la livraison
+1701-07_018: le lieu  couvent de l’Ordre de Saint François  est introuvable
+1701-07_044: le mot-clé  chapelle papale  est introuvable ou doit être ajouté au thésaurus
+1701-07_061: le mot-clé  messe funèbre  est introuvable ou doit être ajouté au thésaurus
+1701-07_061: le mot-clé  commémoration d’un décès  est introuvable ou doit être ajouté au thésaurus
+1701-07_073: le mot-clé  réception d’un gouverneur  est introuvable ou doit être ajouté au thésaurus
+1701-07_211: le mot-clé  De profundis  est introuvable ou doit être ajouté au thésaurus
+1701-07_295: le mot-clé  offices des morts  est introuvable ou doit être ajouté au thésaurus
+1701-07_295: le mot-clé  oraison funèbre  est introuvable ou doit être ajouté au thésaurus
+1701-09_222: le mot-clé  refrain  est introuvable ou doit être ajouté au thésaurus
+1701-09_222: le mot-clé  couplet  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Terre Sainte  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Noël  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Epiphanie  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  fête de la Saint-Etienne  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Christe redemptor omnium  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Coelitum Joseph  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Salvete flores Martyrum  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Jesu corona Virginum  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Salve Regina  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Ascension  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  fête de la Saint-Jacques  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Transfiguration  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Assomption  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  Fortem virili pectore  est introuvable ou doit être ajouté au thésaurus
+1701-09_010: le mot-clé  grand-messe  est introuvable ou doit être ajouté au thésaurus
+1701-09_369: la congrégation  275614  est introuvable
+1701-09_369: le mot-clé  musique à deux chœurs  est introuvable ou doit être ajouté au thésaurus
+1701-09_397: le mot-clé  poésie lyrique  est introuvable ou doit être ajouté au thésaurus
+1701-10_005: le mot-clé  coutumes religieuses  est introuvable ou doit être ajouté au thésaurus
+1701-10_005: le mot-clé  Evangiles  est introuvable ou doit être ajouté au thésaurus
+1701-10_005: le mot-clé  offices  est introuvable ou doit être ajouté au thésaurus
+1701-10_115: le mot-clé  plain chant  est introuvable ou doit être ajouté au thésaurus
+1701-10_152: le mot-clé  cérémonie privée  est introuvable ou doit être ajouté au thésaurus
+1701-10_152: l'institution  Recteur du Collège d’Espagne, Bologne  est introuvable
+1701-10_152: le mot-clé  jeux  est introuvable ou doit être ajouté au thésaurus
+1701-10_360: le mot-clé  tragédie classique  est introuvable ou doit être ajouté au thésaurus
+1701-11_008: le mot-clé  instrument rustique  est introuvable ou doit être ajouté au thésaurus
+1701-11_008: le mot-clé  dialogue chantée  est introuvable ou doit être ajouté au thésaurus
+1701-11_140: le mot-clé  Elegit cum Dominus  est introuvable ou doit être ajouté au thésaurus
+1701-11_140: le mot-clé  feu d’artifice  est introuvable ou doit être ajouté au thésaurus
+1701-11_202: le mot-clé  air instrumentale  est introuvable ou doit être ajouté au thésaurus
+1701-11_202: le mot-clé  viole  est introuvable ou doit être ajouté au thésaurus
+1701-11_202: le mot-clé  jeu de cartes  est introuvable ou doit être ajouté au thésaurus
+1701-11_202: le mot-clé  soirée d’appartement  est introuvable ou doit être ajouté au thésaurus
+1701-11_249: le mot-clé  instrumentistes  est introuvable ou doit être ajouté au thésaurus
+1701-11_249: le mot-clé  instruments  est introuvable ou doit être ajouté au thésaurus
+1701-11_249: le mot-clé  réception d’une princesse  est introuvable ou doit être ajouté au thésaurus
+1701-11_249: le mot-clé  éloge d’une princesse  est introuvable ou doit être ajouté au thésaurus
+1701-11_249: le mot-clé  Rigaudon  est introuvable ou doit être ajouté au thésaurus
+1701-11_249: le mot-clé  folies d’Espagne  est introuvable ou doit être ajouté au thésaurus
+1701-11_249: le mot-clé  danse provençale  est introuvable ou doit être ajouté au thésaurus
+1702-02a_146 (1702-02): erreur dans l'id de l'article ou de la livraison
+1702-02a_190 (1702-02): erreur dans l'id de l'article ou de la livraison
+1702-02a_282 (1702-02): erreur dans l'id de l'article ou de la livraison
+1702-02a_284 (1702-02): erreur dans l'id de l'article ou de la livraison
+1702-02a_312 (1702-02): erreur dans l'id de l'article ou de la livraison
+1702-02a_91 (1702-02): erreur dans l'id de l'article ou de la livraison
+1702-03_112: le mot-clé  tragédie lyrique  est introuvable ou doit être ajouté au thésaurus
+1702-03_112: le mot-clé  réception d’une oeuvre musicale  est introuvable ou doit être ajouté au thésaurus
+1702-03_79: le mot-clé  texte à clef  est introuvable ou doit être ajouté au thésaurus
+1702-05_361: le mot-clé  appartements  est introuvable ou doit être ajouté au thésaurus
+1702-05_42: le mot-clé  éloge d’un auteur  est introuvable ou doit être ajouté au thésaurus
+1702-05_42: le mot-clé  épitre  est introuvable ou doit être ajouté au thésaurus
+1702-06a_12 (1702-06): erreur dans l'id de l'article ou de la livraison
+1702-06a_169 (1702-06): erreur dans l'id de l'article ou de la livraison
+1702-06a_205 (1702-06): erreur dans l'id de l'article ou de la livraison
+1702-06a_306 (1702-06): erreur dans l'id de l'article ou de la livraison
+1702-06a_464 (1702-06): erreur dans l'id de l'article ou de la livraison
+1702-06a_96 (1702-06): erreur dans l'id de l'article ou de la livraison
+1702-06b_125 (1702-06): erreur dans l'id de l'article ou de la livraison
+1702-06b_1a (1702-06): erreur dans l'id de l'article ou de la livraison
+1702-06b_1b (1702-06): erreur dans l'id de l'article ou de la livraison
+1702-06b_30 (1702-06): erreur dans l'id de l'article ou de la livraison
+1702-07a_146 (1702-07): erreur dans l'id de l'article ou de la livraison
+1702-07a_175 (1702-07): erreur dans l'id de l'article ou de la livraison
+1702-07a_273 (1702-07): erreur dans l'id de l'article ou de la livraison
+1702-07a_365 (1702-07): erreur dans l'id de l'article ou de la livraison
+1702-07a_384 (1702-07): erreur dans l'id de l'article ou de la livraison
+1702-07b_118 (1702-07): erreur dans l'id de l'article ou de la livraison
+1702-07b_78 (1702-07): erreur dans l'id de l'article ou de la livraison
+1702-07b_90 (1702-07): erreur dans l'id de l'article ou de la livraison
+1704-08_307: le lieu  Saint-Antonin, Église Paroissiale  est introuvable
+1704-09_105: le mot-clé  chœurs  est introuvable ou doit être ajouté au thésaurus
+1704-09_117: le mot-clé  Palio  est introuvable ou doit être ajouté au thésaurus
+1704-09_117: le mot-clé  boëtes  est introuvable ou doit être ajouté au thésaurus
+1704-09_150: le mot-clé  fifres  est introuvable ou doit être ajouté au thésaurus
+1704-09_150: le mot-clé  Gloria in excelsis  est introuvable ou doit être ajouté au thésaurus
+1704-09_150: le lieu  Venise, chez Joseph Hennequin de Charmont  est introuvable
+1704-09_183: le mot-clé  musique à trois chœurs  est introuvable ou doit être ajouté au thésaurus
+1704-09_208: le mot-clé  chanteuses  est introuvable ou doit être ajouté au thésaurus
+1704-09_208: le mot-clé  fête de la Saint-Louis  est introuvable ou doit être ajouté au thésaurus
+1704-09_208: le mot-clé  processions  est introuvable ou doit être ajouté au thésaurus
+1704-09_31: le mot-clé  Te Deum en musique  est introuvable ou doit être ajouté au thésaurus
+1704-09_31: le mot-clé  violons  est introuvable ou doit être ajouté au thésaurus
+1704-09_31: le mot-clé  décorations  est introuvable ou doit être ajouté au thésaurus
+1704-09_356_ (1704-09): erreur dans l'id de l'article ou de la livraison
+1704-09_5: le mot-clé  Panégyrique de Saint-Louis  est introuvable ou doit être ajouté au thésaurus
+1704-09_61: le mot-clé  Te Deum  est introuvable ou doit être ajouté au thésaurus
+1704-09_61: le mot-clé  grand messe  est introuvable ou doit être ajouté au thésaurus
+1704-09_61: le mot-clé  fusées  est introuvable ou doit être ajouté au thésaurus
+1704-09_61: le mot-clé  trompettes  est introuvable ou doit être ajouté au thésaurus
+1704-09_71: le mot-clé  tambours  est introuvable ou doit être ajouté au thésaurus
+1704-09_71: le mot-clé  pétard  est introuvable ou doit être ajouté au thésaurus
+1704-09_85: le mot-clé  Exaudiat  est introuvable ou doit être ajouté au thésaurus
+1704-09_85: le lieu  LAVAL, Couvent des Capucins  est introuvable
+1704-10_223: le mot-clé  Exsurgat Deus en musique  est introuvable ou doit être ajouté au thésaurus
+1704-10_396: le mot-clé  flûte d'Allemagne  est introuvable ou doit être ajouté au thésaurus
+1704-11_272: le mot-clé  basse de violons  est introuvable ou doit être ajouté au thésaurus
+1705-08_33: le mot-clé  Auto sacramental  est introuvable ou doit être ajouté au thésaurus
+1705-08_79: le mot-clé  retraite  est introuvable ou doit être ajouté au thésaurus
+1705-09_5: le mot-clé  panégyrique d’un saint  est introuvable ou doit être ajouté au thésaurus
+1705-10_52: le mot-clé  nomination d’une abbesse  est introuvable ou doit être ajouté au thésaurus
+1705-11_196: le mot-clé  musicien  est introuvable ou doit être ajouté au thésaurus
+1705-11_280: le mot-clé  comédie allemande  est introuvable ou doit être ajouté au thésaurus
+1705-12_16: la personne  294271  est introuvable
+1705-12_16: la personne  294273  est introuvable
+1705-12_16: la personne  294275  est introuvable
+1705-12_16: la personne  294277  est introuvable
+1705-12_16: la personne  294279  est introuvable
+1705-12_16: le mot-clé  litanie  est introuvable ou doit être ajouté au thésaurus
+1705-12_379: la personne  bourbon_louis-henri_(1692-1740)_duc_de  est introuvable
+1705-12_7: le mot-clé  réception d’une statue du roi  est introuvable ou doit être ajouté au thésaurus
+1705-12_70: l'institution  82391  est introuvable
+1705-12_70: l'institution  82393  est introuvable
+1705-12_95: le mot-clé  bénédiction d’une cloche  est introuvable ou doit être ajouté au thésaurus
+1706-01_252: le mot-clé  opéra français  est introuvable ou doit être ajouté au thésaurus
+1706-02_288: la personne  294353  est introuvable
+1706-03_257: la personne  DEMANDER CONFiMATION DUMOULIN  est introuvable
+1706-03_257: le mot-clé  Grandes Nuits de Sceaux  est introuvable ou doit être ajouté au thésaurus
+1706-04_136: le mot-clé  actualité littéraire  est introuvable ou doit être ajouté au thésaurus
+1706-04_136: le mot-clé  histoire de la littérature  est introuvable ou doit être ajouté au thésaurus
+1706-04_136: le mot-clé  origine de la poésie  est introuvable ou doit être ajouté au thésaurus
+1706-04_334: le mot-clé  fausse voix  est introuvable ou doit être ajouté au thésaurus
+1706-04_334: le mot-clé  voix aiguë  est introuvable ou doit être ajouté au thésaurus
+1706-04_334: le mot-clé  voix de fausset  est introuvable ou doit être ajouté au thésaurus
+1706-04_334: le mot-clé  voix pleine  est introuvable ou doit être ajouté au thésaurus
+1706-05_319: le mot-clé  fête de la Saint-Jean  est introuvable ou doit être ajouté au thésaurus
+1706-06_192: le mot-clé  illumination  est introuvable ou doit être ajouté au thésaurus
+1706-08_186: le mot-clé  cloches  est introuvable ou doit être ajouté au thésaurus
+1706-09_351: la personne  Le Major  est introuvable
+1706-10_138: le mot-clé  applaudissements  est introuvable ou doit être ajouté au thésaurus
+1706-10_138: le mot-clé  Chevalet ??  est introuvable ou doit être ajouté au thésaurus
+1706-10_138: le mot-clé  parodie musicale  est introuvable ou doit être ajouté au thésaurus
+1706-10_138: le mot-clé  danse rustique  est introuvable ou doit être ajouté au thésaurus
+1706-10_138: le mot-clé  tambourin  est introuvable ou doit être ajouté au thésaurus
+1706-10_354: le mot-clé  musiciens  est introuvable ou doit être ajouté au thésaurus
+1706-11_257: la personne  premier_president_de_la_cour_des_aides  est introuvable
+1707-02_116 (1707- 02): erreur dans l'id de l'article ou de la livraison
+1707-02_126 (1707- 02): erreur dans l'id de l'article ou de la livraison
+1707-02_15 (1707- 02): erreur dans l'id de l'article ou de la livraison
+1707-02_211 (1707- 02): erreur dans l'id de l'article ou de la livraison
+1707-02_244 (1707- 02): erreur dans l'id de l'article ou de la livraison
+1707-02_301 (1707- 02): erreur dans l'id de l'article ou de la livraison
+1707-02_307 (1707- 02): erreur dans l'id de l'article ou de la livraison
+1707-02_337 (1707- 02): erreur dans l'id de l'article ou de la livraison
+1707-02_374 (1707- 02): erreur dans l'id de l'article ou de la livraison
+1707-02_98 (1707- 02): erreur dans l'id de l'article ou de la livraison
+1707-01_309: le mot-clé  naissance d’un prince  est introuvable ou doit être ajouté au thésaurus
+1707-03_10: le mot-clé  coût d’une fête  est introuvable ou doit être ajouté au thésaurus
+1707-03_391: le mot-clé  billard  est introuvable ou doit être ajouté au thésaurus
+1707-03_47: le mot-clé  messe solennelle en musique  est introuvable ou doit être ajouté au thésaurus
+1707-04_162: la personne  Tenebron, Antonio Cisneros y Moctezuma, marqués de  est introuvable
+1707-04_162: le mot-clé  coutume traditionnelle  est introuvable ou doit être ajouté au thésaurus
+1707-04_209: le mot-clé  clavecin brisé  est introuvable ou doit être ajouté au thésaurus
+1707-04_271: le mot-clé  flûte d’Allemagne  est introuvable ou doit être ajouté au thésaurus
+1707-04_291: le mot-clé  artillerie  est introuvable ou doit être ajouté au thésaurus
+1707-04_291: le lieu  BARBEZIEUX  est introuvable
+1707-04_291: le lieu  BARBEZIEUX, chez M. Charpentier de Chantereine  est introuvable
+1707-05_101: le mot-clé  allemand  est introuvable ou doit être ajouté au thésaurus
+1707-05_101: le mot-clé  réception d’une oeuvre  est introuvable ou doit être ajouté au thésaurus
+1707-07_098 (1707-07): erreur dans l'id de l'article ou de la livraison
+1707-07_132: la personne  Camilly, François-Blouet de (1664-1723)  est introuvable
+1707-07_132: l'institution  Corps de Ville de Luneville  est introuvable
+1707-07_142: la personne  Amarante, García Ozores y Sotomayor (1644-1712), conde de  est introuvable
+1707-07_142: la personne  Jovenazo, Domingo Judice (fl.1681), duque de  est introuvable
+1707-07_142: le mot-clé  Nocturne  est introuvable ou doit être ajouté au thésaurus
+1707-07_142: le lieu  MADRID, Collège impérial, église  est introuvable
+1707-07_213: le mot-clé  motet en musique  est introuvable ou doit être ajouté au thésaurus
+1707-07_213: le mot-clé  goût pour la musique  est introuvable ou doit être ajouté au thésaurus
+1707-07_213: le lieu  ROME, chez Henri-Albert de la Grange d’Arquien  est introuvable
+1707-08_11: le mot-clé  prise d’habit  est introuvable ou doit être ajouté au thésaurus
+1707-09_196: le mot-clé  83095  est introuvable ou doit être ajouté au thésaurus
+1707-09_252: le mot-clé  naissance princière  est introuvable ou doit être ajouté au thésaurus
+1707-09_252: le mot-clé  diner  est introuvable ou doit être ajouté au thésaurus
+1707-09_302: le mot-clé  célébration d’une naissance princière  est introuvable ou doit être ajouté au thésaurus
+1707-09_306: le mot-clé  réjouissance publique  est introuvable ou doit être ajouté au thésaurus
+1707-09_315: le mot-clé  réjouissance  est introuvable ou doit être ajouté au thésaurus
+1707-09_336: le mot-clé  baptème  est introuvable ou doit être ajouté au thésaurus
+1707-09_382: le mot-clé  prières publiques  est introuvable ou doit être ajouté au thésaurus
+1707-09_382: le mot-clé  Corrida  est introuvable ou doit être ajouté au thésaurus
+1707-09_397: le mot-clé  83097  est introuvable ou doit être ajouté au thésaurus
+1707-09_5: le mot-clé  panégyrique d'un roi  est introuvable ou doit être ajouté au thésaurus
+1707-09_96: le mot-clé  apprentissage de la musique  est introuvable ou doit être ajouté au thésaurus
+1707-09_96: le mot-clé  édit papale  est introuvable ou doit être ajouté au thésaurus
+1707-09_96: le mot-clé  enseignement de la musique dans les couvents  est introuvable ou doit être ajouté au thésaurus
+1707-10A_251: le mot-clé  fête de Saint-Augustin  est introuvable ou doit être ajouté au thésaurus
+1707-10A_391: la personne  princes  est introuvable
+1707-10B_210: le mot-clé  rigaudon  est introuvable ou doit être ajouté au thésaurus
+1707-10B_210: le mot-clé  siège de Toulon  est introuvable ou doit être ajouté au thésaurus
+1707-11-12_146: la personne  Mirasol, Jacques (fl.1707)  est introuvable
+1707-11-12_146: la personne  Autel, Jean-Frédérique (1645-1716), comte d’  est introuvable
+1707-11-12_146: le lieu  Luxembourg (ville), Couvent des récollets  est introuvable
+1707-11-12_146: le lieu  LUXEMBOURG (ville), Hôtel de ville  est introuvable
+1707-11-12_146: le lieu  CADIX, chez M. de Mirasol  est introuvable
+1707-11-12_146: le lieu  CADIX, Hôtel de ville  est introuvable
+1707-11-12_45: la personne  Rosanbo, Louis II Urbain le Peletier (1662-1730), marquis de  est introuvable
+1707-11-12_45: le mot-clé  messe rouge  est introuvable ou doit être ajouté au thésaurus
+1707-11-12_45: le lieu  PARIS, Palais de la Cité, grande salle  est introuvable
+1707-11-12_45: le lieu  PARIS, Cours des Aides, chapelle  est introuvable
+1707-11-12_45: le lieu  PARIS, Séminaire Saint-Nicolas du Chardonnet > dans thésaurus  est introuvable
+1707-11-12_45: l'institution  Musique de la Sainte-Chapelle  est introuvable
+1707-11-12_544: la personne  Rohan-Soubise, Charlotte II Armande de  est introuvable
+1707-11-12_544: le mot-clé  bénédiction d’une abbesse  est introuvable ou doit être ajouté au thésaurus
+1707-11-12_544: le mot-clé  réception d’une abbesse  est introuvable ou doit être ajouté au thésaurus
+1707-11-12_544: le mot-clé  cérémonie religieuse  est introuvable ou doit être ajouté au thésaurus
+1707-11-12_584: la personne  Stuck, Jean-Baptiste (1680-1755)  est introuvable
+1707-11-12_584: la personne  Terrat, Jean-Baptiste (ca. 1670- ?) > chancelier Duc d’Orléans  est introuvable
+1707-11-12_584: le lieu  PARIS, Notre-Dame  est introuvable
+1707-11-12_584: le lieu  BAYONNE, Cathédrale Sainte-Marie  est introuvable
+1707-11-12_584: le lieu  Versailles, Château de, chapelle  est introuvable
+1707-11-12_584: le lieu  PARIS, Opéra  est introuvable
+1707-11-12_584: le lieu  PARIS, Palais royal, chapelle  est introuvable
+1707-11-12_584: le lieu  PARIS, Palais royal, jardin  est introuvable
+1707-11-12_584: le lieu  LÉRIDA, Château de  est introuvable
+1707-11-12_584: le lieu  PARIS, Hôtel de Brancas  est introuvable
+1707-11-12_651: la personne  évêque de Siguença  est introuvable
+1707-11-12_651: la personne  Cano y Tevar, Julián (1644-1719)  est introuvable
+1707-11-12_651: la personne  Medinaceli, Luis-Francisco de la Cerda y Aragon (1660-1711), duque de  est introuvable
+1707-11-12_651: la personne  Montalto, Fernando de Aragon y Moncada  est introuvable
+1707-11-12_651: la personne  Gandia, Pascual Francisco de Borja Centelles y Ponce de León (1653-1713), duque de  est introuvable
+1707-11-12_651: le mot-clé  célébration d’une naissance  est introuvable ou doit être ajouté au thésaurus
+1707-11-12_651: le mot-clé  tauromachie  est introuvable ou doit être ajouté au thésaurus
+1707-11-12_673: le lieu  MADRID, Palais d’Uceda  est introuvable
+1707-11-12_91: la personne  Brunswick-Lüneburg, Antoine-Ulrich (1633-1714), duc de  est introuvable
+1707-11-12_91: la personne  Braunschweig-Wolfenbüttel-Bevern, Ferdinand-Albrecht II (1680-1735), prince de  est introuvable
+1707-11-12_91: la personne  Schleswig-Holstein-Gottorf, Christian-August (1673-1726), duc de  est introuvable
+1707-11-12_91: la personne  Bade-Durlach, Albertine-Frédérique de (1682-1755), princesse de  est introuvable
+1707-11-12_91: la personne  Treuer, Gottlieb (1657-1729)  est introuvable
+1707-11-12_91: la personne  Hessen-Darmstadt, Elisabeth-Amélie (1635-1709), princesse de  est introuvable
+1707-11-12_91: le mot-clé  danse anglaise  est introuvable ou doit être ajouté au thésaurus
+1707-11-12_91: le mot-clé  cors de chasse  est introuvable ou doit être ajouté au thésaurus
+1707-11-12_91: le mot-clé  Veni Sancte Spiritus  est introuvable ou doit être ajouté au thésaurus
+1707-11-12_91: le lieu  SALZDAHLUM  est introuvable
+1707-11-12_91: le lieu  SALZDAHLUM, Château de  est introuvable
+1707-11-12_91: le lieu  SALZDAHLUM, Château de, jardin  est introuvable
+1707-11-12_91: le lieu  SALZDAHLUM, Château de, chapelle  est introuvable
+1707-11-12_91: le lieu  SALZDAHLUM, Château de, couvent  est introuvable
+1707-11-12_91: le lieu  SALZDAHLUM, Château de, maison de l’Opéra  est introuvable
+1707-11-12_91: le lieu  STETERBURG, Couvent des Augustines  est introuvable
+1707-11-12_91: le lieu  SALZDAHLUM, Château de, grande salle  est introuvable
+1708-01_244: le mot-clé  décoration d’appartement  est introuvable ou doit être ajouté au thésaurus
+1708-01_244: le mot-clé  marche des tambours  est introuvable ou doit être ajouté au thésaurus
+1708-01_5: le mot-clé  discours  est introuvable ou doit être ajouté au thésaurus
+1708-03_106: le mot-clé  rondeau  est introuvable ou doit être ajouté au thésaurus
+1708-03_116: le mot-clé  audition  est introuvable ou doit être ajouté au thésaurus
+1708-03_116: le mot-clé  invention d’un instrument auditif  est introuvable ou doit être ajouté au thésaurus
+1708-07a_343 (1708-07): erreur dans l'id de l'article ou de la livraison
+1708-08_140: le mot-clé  action en grâce  est introuvable ou doit être ajouté au thésaurus
+1708-08_151: le mot-clé  formes poétiques  est introuvable ou doit être ajouté au thésaurus
+1708-10_360: le mot-clé  jeu littéraire  est introuvable ou doit être ajouté au thésaurus
+1708-11_288: le mot-clé  cantade  est introuvable ou doit être ajouté au thésaurus
+1708-11_288: le mot-clé  cantate  est introuvable ou doit être ajouté au thésaurus
+1708-11_288: le mot-clé  vers  est introuvable ou doit être ajouté au thésaurus
+1709-04_351: le mot-clé  appartement  est introuvable ou doit être ajouté au thésaurus
+1709-04_351: le mot-clé  jeu de l’arquebuse  est introuvable ou doit être ajouté au thésaurus
+1709-06_141: le mot-clé  musicien d’église  est introuvable ou doit être ajouté au thésaurus
+1709-06_214: le mot-clé  princière  est introuvable ou doit être ajouté au thésaurus
+1709-07_267: la personne  Épiphane, Nicaud (fl. 1709) > à rechercher dans le thésaurus  est introuvable
+1709-07_267: le mot-clé  Deus misereatur nostri  est introuvable ou doit être ajouté au thésaurus
+1709-07_267: le mot-clé  profession solenelle  est introuvable ou doit être ajouté au thésaurus
+1709-07_267: la congrégation  Récollets de Lyon  est introuvable
+1709-07_304: la personne  Bourbon, Louis-Philippe de (1709)> Infant d’Espagne  est introuvable
+1709-07_304: la personne  Linares, Fernando de Alencastre Norona y Silva (1662-1717), duque de  est introuvable
+1709-07_304: la personne  83045 ;  est introuvable
+1709-07_267 (1709-09): erreur dans l'id de l'article ou de la livraison
+1709-07_304 (1709-09): erreur dans l'id de l'article ou de la livraison
+1709-10_157: le mot-clé  transposition  est introuvable ou doit être ajouté au thésaurus
+1709-10_224: l'institution  recollets  est introuvable
+1709-10_359: le mot-clé  chantre  est introuvable ou doit être ajouté au thésaurus
+1709-11_103: le mot-clé  confirmation  est introuvable ou doit être ajouté au thésaurus
+1709-12_42: l'institution  Procureur du Roi  est introuvable
+1710-03_167: le mot-clé  contredanse  est introuvable ou doit être ajouté au thésaurus
+1710-03_167: le lieu  293149  est introuvable
+1710-03_167: le lieu  294961  est introuvable
+1710-03_167: le lieu  294959  est introuvable
+1710-03_202: le mot-clé  office des morts  est introuvable ou doit être ajouté au thésaurus
+1710-03_214: le mot-clé  obtention d’un titre  est introuvable ou doit être ajouté au thésaurus
