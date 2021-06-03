@@ -456,7 +456,7 @@ def process(data):
             type_thématique = type_thématique.strip()
 
             try:
-                type_thématique_uuid = she(cache_vocab_estampes.get_uuid([type_thématique.lower()]))
+                type_thématique_uuid = she(cache_vocab_estampes.get_uuid([type_thématique.lower(), "uuid"]))
                 gravure_thématique_E13 = she(cache.get_uuid(["collection", id, "E36", "thématique", "E13"], True))
                 t(gravure_thématique_E13, a, crm("E13_Attribute_Assignement"))
                 t(gravure_thématique_E13, crm("P14_carried_out_by"),
