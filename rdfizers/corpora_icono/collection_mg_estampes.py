@@ -38,7 +38,7 @@ def process(data):
     # E36 Visual Item
     gravure = she(cache.get_uuid(["estampes", id, "E36", "uuid"], True))
     t(gravure, a, crm("E36_Visual_Item"))
-    t(collection, crm("P106_is_composed_of"), gravure)
+    t(collection, crm("P148_has_component"), gravure)
 
     # Identifiant Mercure Galant
     gravure_id_MG = she(cache.get_uuid(["estampes", id, "E36", "identifiant MG"], True))

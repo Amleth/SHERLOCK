@@ -10309,7 +10309,7 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<759d110d-fd68-47bb-92fd-341bb63dbcae> crm:P106_is_composed_of <00573256-3ca6-4458-b746-b205e6288d3e>,
+<759d110d-fd68-47bb-92fd-341bb63dbcae> crm:P148_has_component <00573256-3ca6-4458-b746-b205e6288d3e>,
         <00ca5ae4-8c57-4d41-8768-4f846822e3fb>,
         <00d9adc7-c177-4f49-b762-158e6b2c1958>,
         <01942893-17ca-4c05-a099-8611a9ea93fe>,
