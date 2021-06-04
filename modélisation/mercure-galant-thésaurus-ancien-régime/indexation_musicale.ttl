@@ -18,7 +18,7 @@
 
 # Rattachement de l'oeuvre musicale à son article (colonne N)
 <5ca8198e-6544-4420-92a4-7aa7eff63ad2> # L'article (UUID factice)
-    crm:P148_is_composed_of <6bc5e795-7e3f-4961-9c16-1a399c40560b>, 
+    crm:P148_has_component <6bc5e795-7e3f-4961-9c16-1a399c40560b>, 
     <066f3c51-0671-479d-946f-ceb656e88f0b> ;
 .
 
@@ -91,7 +91,7 @@
 # Colonne BA : identifiant de l'air dans un catalogue existant. A faire aussi pour la colonne Philidor (E42 de type Philidor))
 
 # Questionner Nathalie sur la consultation de sources contradictoires. Souhaite-t-elle faire apparaître un dissensus entre les sources?
-
+# Soit deux événements : consultation des sources et indexation, ou bien création d'un prédicat "sur la base de telle source"
 
 
 

@@ -8,8 +8,7 @@
 <957985bf-e95a-4e29-b5ad-3520e2eea34e> a lrmoo:F34_Controlled_Vocabulary ;
     <sheP_a_pour_entité_de_plus_haut_niveau> <867a6238-9213-4eb2-815d-3b1ff8b8e55b>,
         <93d57208-7236-4af3-adcb-ac50620c2a1d>,
-        <a11e95a5-9165-4982-b6aa-23c04f8c244d>,
-        <a66829d9-a56f-43da-b673-de245d110a16> ;
+        <a11e95a5-9165-4982-b6aa-23c04f8c244d> ;
     ns1:creator <ea287800-4345-4649-af12-7253aa185f3f> ;
     crm:P1_is_identified_by "Vocabulaire d'indexation des gravures du Mercure Galant" ;
     crm:P71_lists <01123d89-b264-4143-b722-dab6e5c12efd>,
@@ -18,7 +17,6 @@
         <0cd0a218-8283-46db-a63e-b2d21a8e33a2>,
         <0d608067-283d-4059-9ff2-0678fea75f6c>,
         <0fb3bc2b-6a4d-4c9d-aa57-c474a3befa48>,
-        <0fc4e432-a712-48e3-a474-bf08ad8ae551>,
         <116c7adc-cb17-4d74-b9ba-e10f15b8b1aa>,
         <11839b7f-4993-491b-b87a-c6c7870623f1>,
         <11b184ba-fb8d-4723-ba81-dded1b6c46a6>,
@@ -45,6 +43,7 @@
         <228f7fa8-6c23-4c5e-9edf-0bdb4513850f>,
         <23a2ae85-3990-4e83-969d-969979f7c5d9>,
         <23e70fe3-b088-43c9-aa27-f69288fc6eb9>,
+        <2494dadb-7154-4b96-a0b9-54589d787750>,
         <253cd11c-a19d-4f0f-9778-ae60e724f630>,
         <25825b1d-d720-41fa-a151-390751524959>,
         <261349f3-51f6-4159-9974-8c4f7cfabae0>,
@@ -102,6 +101,7 @@
         <565767d3-5051-44ef-af73-0af72ccde4c3>,
         <56631c67-95e6-46ec-af22-4a3dae4db412>,
         <58016d14-9d67-4403-807c-7624bcdcc84b>,
+        <58652b86-1ca5-4b6a-9881-152445f06dae>,
         <5b3c6e0a-2b77-42bc-ad13-a95b987c3075>,
         <5bdbfc86-9e10-411a-9c37-a11f77e405de>,
         <5c9ada83-41db-4f0b-bd15-862405488327>,
@@ -199,7 +199,6 @@
         <be4dbd39-7add-4462-a18d-d429f8bcf3ca>,
         <bf1b99da-c247-4dd5-98be-0ce746423428>,
         <bf20fccd-5ac8-48b6-97dc-2576f7599763>,
-        <bfda4937-ef4e-47fa-a6b2-87536fee2787>,
         <c045b57e-93c5-450c-900e-7f59ed466126>,
         <c07825c2-e424-4053-a43c-2320a7443355>,
         <c07c2e65-e4e3-446b-8b46-024731d47346>,
@@ -292,10 +291,6 @@
     crm:P127_has_broader_term <60aa0add-9f7e-4aee-8289-93a6f3e33018> ;
     crm:P1_is_identified_by "méduse" .
 
-<0fc4e432-a712-48e3-a474-bf08ad8ae551> a crm:E55_Type ;
-    crm:P127_has_broader_term <a66829d9-a56f-43da-b673-de245d110a16> ;
-    crm:P1_is_identified_by "portraits" .
-
 <116c7adc-cb17-4d74-b9ba-e10f15b8b1aa> a crm:E55_Type ;
     crm:P127_has_broader_term <a11e95a5-9165-4982-b6aa-23c04f8c244d> ;
     crm:P1_is_identified_by "relevé décoratif" .
@@ -387,6 +382,10 @@
 <23e70fe3-b088-43c9-aa27-f69288fc6eb9> a crm:E55_Type ;
     crm:P127_has_broader_term <60aa0add-9f7e-4aee-8289-93a6f3e33018> ;
     crm:P1_is_identified_by "hésione" .
+
+<2494dadb-7154-4b96-a0b9-54589d787750> a crm:E55_Type ;
+    crm:P127_has_broader_term <719438ae-59b9-46f0-bdbf-fc7d3f95b4dc> ;
+    crm:P1_is_identified_by "tables généalogiques" .
 
 <253cd11c-a19d-4f0f-9778-ae60e724f630> a crm:E55_Type ;
     crm:P127_has_broader_term <93d57208-7236-4af3-adcb-ac50620c2a1d> ;
@@ -612,6 +611,10 @@
     crm:P127_has_broader_term <60aa0add-9f7e-4aee-8289-93a6f3e33018> ;
     crm:P1_is_identified_by "marsyas" .
 
+<58652b86-1ca5-4b6a-9881-152445f06dae> a crm:E55_Type ;
+    crm:P127_has_broader_term <719438ae-59b9-46f0-bdbf-fc7d3f95b4dc> ;
+    crm:P1_is_identified_by "portraits" .
+
 <5b3c6e0a-2b77-42bc-ad13-a95b987c3075> a crm:E55_Type ;
     crm:P127_has_broader_term <744a4ff7-90cd-48af-9efd-3db5f3b1cc06> ;
     crm:P1_is_identified_by "plans et descriptions militaires" .
@@ -687,10 +690,6 @@
 <7135a2f7-1567-496e-a417-c847c83a9f3d> a crm:E55_Type ;
     crm:P127_has_broader_term <4902c6fc-8ebd-45a6-8ef3-65e36d3cd7d9> ;
     crm:P1_is_identified_by "décor éphémère" .
-
-<719438ae-59b9-46f0-bdbf-fc7d3f95b4dc> a crm:E55_Type ;
-    crm:P127_has_broader_term <867a6238-9213-4eb2-815d-3b1ff8b8e55b> ;
-    crm:P1_is_identified_by "portraits et généalogie" .
 
 <71b59f6c-1b0e-4629-a90a-7bf267d62286> a crm:E55_Type ;
     crm:P127_has_broader_term <93d57208-7236-4af3-adcb-ac50620c2a1d> ;
@@ -964,10 +963,6 @@
     crm:P127_has_broader_term <93d57208-7236-4af3-adcb-ac50620c2a1d> ;
     crm:P1_is_identified_by "galère" .
 
-<bfda4937-ef4e-47fa-a6b2-87536fee2787> a crm:E55_Type ;
-    crm:P127_has_broader_term <a66829d9-a56f-43da-b673-de245d110a16> ;
-    crm:P1_is_identified_by "tables généalogiques" .
-
 <c045b57e-93c5-450c-900e-7f59ed466126> a crm:E55_Type ;
     crm:P127_has_broader_term <4902c6fc-8ebd-45a6-8ef3-65e36d3cd7d9> ;
     crm:P1_is_identified_by "décor de spectacle" .
@@ -1240,6 +1235,10 @@
 <5c9ada83-41db-4f0b-bd15-862405488327> a crm:E55_Type ;
     crm:P127_has_broader_term <867a6238-9213-4eb2-815d-3b1ff8b8e55b> ;
     crm:P1_is_identified_by "mythologie" .
+
+<719438ae-59b9-46f0-bdbf-fc7d3f95b4dc> a crm:E55_Type ;
+    crm:P127_has_broader_term <867a6238-9213-4eb2-815d-3b1ff8b8e55b> ;
+    crm:P1_is_identified_by "portraits et généalogie" .
 
 <7af804d6-1fbb-4ee9-a9ff-105c1195db79> a crm:E55_Type ;
     crm:P127_has_broader_term <93d57208-7236-4af3-adcb-ac50620c2a1d> ;

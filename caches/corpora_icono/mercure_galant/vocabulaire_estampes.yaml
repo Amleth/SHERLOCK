@@ -172,6 +172,10 @@ thématiques:
         uuid: 6931bb54-ee36-4e58-8b2c-b5ede2c202f9
   portraits et généalogie:
     uuid: 719438ae-59b9-46f0-bdbf-fc7d3f95b4dc
+    portraits:
+      uuid: 58652b86-1ca5-4b6a-9881-152445f06dae
+    tables généalogiques:
+      uuid: 2494dadb-7154-4b96-a0b9-54589d787750
   topographie:
     uuid: bf20fccd-5ac8-48b6-97dc-2576f7599763
     architecture navale [galères, etc.]:
