@@ -56,6 +56,7 @@ WHERE {
 }
 """})
 
+
 for b in r.json()["results"]["bindings"]:
     entity = b["entity"]["value"]
     label = b["label"]["value"]
@@ -95,6 +96,34 @@ for b in r.json()["results"]["bindings"]:
     parent_to_children_registry[parent].append(child)
 
     child_to_parent_registry[child] = parent
+
+#pprint(entity_to_label_registry)
+# pprint(parent_to_children_registry)
+#pprint(child_to_parent_registry)
+
+# le label normalisé de l'entité et ses iris
+for label_norm, iris in norm_label_to_entities_registry.items():
+    index[label_norm] = {}
+    index[label_norm]["iris"] = iris
+
+    for iri in iris:
+    # les ancêtres de l'entité
+        for child, parent in child_to_parent_registry.items():
+            if child == iri:
+                index[label_norm]["ancestors"]= {}
+                index[label_norm]["ancestors"]["iri"] = []
+                index[label_norm]["ancestors"]["iri"].append(parent)
+                for entity, labels in entity_to_label_registry.items():
+                    if entity == parent:
+                        print(parent)
+                        print(entity, labels, type(labels))
+                        print("*"*120)
+                        index[label_norm]["ancestors"]["label"] = []
+                        for label in labels:
+                            index[label_norm]["ancestors"]["label"].append(label)
+
+
+
 
 #
 # CONSTRUCTION DE L'INDEX
