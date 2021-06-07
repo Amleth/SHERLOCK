@@ -10,7 +10,6 @@ args = parser.parse_args()
 
 index = {}
 
-
 def normalize_string(s):
     s_norm = ''
 
@@ -34,16 +33,18 @@ def normalize_string(s):
     return s_norm.lower()
 
 
+#######################################################################################
+# RECUPERATION DES DONNEES
+#######################################################################################
+
 norm_label_to_entities_registry = {}
 entity_to_label_registry = {}
 parent_to_children_registry = {}
 child_to_parent_registry = {}
 entity_to_F34 = {}
 
-#
-# E55 & P1
+# E55, P1 et F34
 # TODO: P1 composites
-#
 
 r = requests.get(args.dburi,  params={"query": """
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
@@ -78,9 +79,7 @@ for b in r.json()["results"]["bindings"]:
     entity_to_F34[entity].append(F34)
 
 
-#
 # E55 & P127
-#
 
 r = requests.get(args.dburi,  params={"query": """
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
@@ -106,64 +105,51 @@ for b in r.json()["results"]["bindings"]:
     child_to_parent_registry[child] = parent
 
 #pprint(entity_to_label_registry)
-# pprint(parent_to_children_registry)
+#pprint(parent_to_children_registry)
 #pprint(child_to_parent_registry)
 
-def get_ancestors():
-        # parent de l'entité
-        for child, parent in child_to_parent_registry.items():
-            if child == iri:
-                index[label_norm]["ancestors"] = {}
-                index[label_norm]["ancestors"]["iri"] = []
-                index[label_norm]["ancestors"]["iri"].append(parent)
-                for entity, labels in entity_to_label_registry.items():
-                    if entity == parent:
-                        # print(parent)
-                        # print(entity, labels, type(labels))
-                        # print("*"*120)
-                        index[label_norm]["ancestors"]["label"] = []
-                        for parent_label in labels:
-                            index[label_norm]["ancestors"]["label"].append(parent_label)
-                            #print(label_norm, parent_label)
-                for child, ancestor in child_to_parent_registry.items():
-                    if child == parent:
-                        index[label_norm]["ancestors"]["iri"].append(ancestor)
-                        for entity, labels in entity_to_label_registry.items():
-                            if entity == ancestor:
-                                for ancestor_label in labels:
-                                    index[label_norm]["ancestors"]["label"].append(ancestor_label)
 
-                #TODO fonction récursive ou boucle while
+#######################################################################################
+# CREATION DE L'INDEX
+#######################################################################################
+
+def get_ancestors(E55):
+    for child, parent in child_to_parent_registry.items():
+        if child == E55:
+            index[label_norm]["ancestors"][n] = {}
+            index[label_norm]["ancestors"][n]["iri"] = parent
+            for entity, labels in entity_to_label_registry.items():
+                if entity == parent:
+                    for parent_label in labels:
+                        index[label_norm]["ancestors"][n]["label"] = parent_label
+
+    # n+1
+    # get_ancestors(parent)
+
+            for child, ancestor in child_to_parent_registry.items():
+                if child == parent:
+                    index[label_norm]["ancestors"][2] = {}
+                    index[label_norm]["ancestors"][2]["iri"] = ancestor
+                    for entity, labels in entity_to_label_registry.items():
+                        if entity == ancestor:
+                            for ancestor_label in labels:
+                                index[label_norm]["ancestors"][2]["label"] = ancestor_label
+
 
 # le label normalisé de l'entité et ses iris
 for label_norm, iris in norm_label_to_entities_registry.items():
     index[label_norm] = {}
     index[label_norm]["iris"] = iris
+    index[label_norm]["ancestors"] = {}
+    n = 1
 
     for iri in iris:
+        # Le vocabulaire contrôlé listant l'iri
         for entity, F34 in entity_to_F34.items():
             if entity == iri:
-                index[label_norm]["F34"] = []
-                index[label_norm]["F34"].append([string for string in F34])
-        get_ancestors()
-#
-# CONSTRUCTION DE L'INDEX
-#
+                index[label_norm]["F34"] = [string for string in F34]
+        get_ancestors(iri)
 
-# viesociale:
-#     iris:
-#         - http://data-iremus.huma-num.fr/id/7358d9b7-7ab1-42e1-88f0-c3d4e3e75be2
-#         - http://data-iremus.huma-num.fr/id/fdf6643e-3359-4000-b40a-0b2f26db7459
-#     f34:
-#         iri: <...>
-#         label: "..."
-#     ancestors:
-#       - iri: <...>
-#         label: "..."
-#       - iri: <...>
-#         label: "..."
-#       - iri: <...>
-#         label: "..."
 
 with open(args.json, 'w', encoding='utf8') as f:
     json.dump(index, f, ensure_ascii=False)
