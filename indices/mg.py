@@ -38,6 +38,7 @@ norm_label_to_entities_registry = {}
 entity_to_label_registry = {}
 parent_to_children_registry = {}
 child_to_parent_registry = {}
+entity_to_F34 = {}
 
 #
 # E55 & P1
@@ -52,7 +53,8 @@ WHERE {
     GRAPH <http://data-iremus.huma-num.fr/graph/mercure-galant> {
         ?entity rdf:type crm:E55_Type .
         ?entity crm:P1_is_identified_by ?label .
-  }
+        ?F34 crm:P71_lists ?entity .
+    }
 }
 """})
 
@@ -60,6 +62,7 @@ WHERE {
 for b in r.json()["results"]["bindings"]:
     entity = b["entity"]["value"]
     label = b["label"]["value"]
+    F34 = b["F34"]["value"]
     label_norm = normalize_string(label)
 
     if not label_norm in norm_label_to_entities_registry:
@@ -69,6 +72,11 @@ for b in r.json()["results"]["bindings"]:
     if not entity in entity_to_label_registry:
         entity_to_label_registry[entity] = []
     entity_to_label_registry[entity].append(label)
+
+    if not entity in entity_to_F34:
+        entity_to_F34[entity] = []
+    entity_to_F34[entity].append(F34)
+
 
 #
 # E55 & P127
@@ -101,30 +109,43 @@ for b in r.json()["results"]["bindings"]:
 # pprint(parent_to_children_registry)
 #pprint(child_to_parent_registry)
 
+def get_ancestors():
+        # parent de l'entité
+        for child, parent in child_to_parent_registry.items():
+            if child == iri:
+                index[label_norm]["ancestors"] = {}
+                index[label_norm]["ancestors"]["iri"] = []
+                index[label_norm]["ancestors"]["iri"].append(parent)
+                for entity, labels in entity_to_label_registry.items():
+                    if entity == parent:
+                        # print(parent)
+                        # print(entity, labels, type(labels))
+                        # print("*"*120)
+                        index[label_norm]["ancestors"]["label"] = []
+                        for parent_label in labels:
+                            index[label_norm]["ancestors"]["label"].append(parent_label)
+                            #print(label_norm, parent_label)
+                for child, ancestor in child_to_parent_registry.items():
+                    if child == parent:
+                        index[label_norm]["ancestors"]["iri"].append(ancestor)
+                        for entity, labels in entity_to_label_registry.items():
+                            if entity == ancestor:
+                                for ancestor_label in labels:
+                                    index[label_norm]["ancestors"]["label"].append(ancestor_label)
+
+                #TODO fonction récursive ou boucle while
+
 # le label normalisé de l'entité et ses iris
 for label_norm, iris in norm_label_to_entities_registry.items():
     index[label_norm] = {}
     index[label_norm]["iris"] = iris
 
     for iri in iris:
-    # les ancêtres de l'entité
-        for child, parent in child_to_parent_registry.items():
-            if child == iri:
-                index[label_norm]["ancestors"]= {}
-                index[label_norm]["ancestors"]["iri"] = []
-                index[label_norm]["ancestors"]["iri"].append(parent)
-                for entity, labels in entity_to_label_registry.items():
-                    if entity == parent:
-                        print(parent)
-                        print(entity, labels, type(labels))
-                        print("*"*120)
-                        index[label_norm]["ancestors"]["label"] = []
-                        for label in labels:
-                            index[label_norm]["ancestors"]["label"].append(label)
-
-
-
-
+        for entity, F34 in entity_to_F34.items():
+            if entity == iri:
+                index[label_norm]["F34"] = []
+                index[label_norm]["F34"].append([string for string in F34])
+        get_ancestors()
 #
 # CONSTRUCTION DE L'INDEX
 #
@@ -144,5 +165,5 @@ for label_norm, iris in norm_label_to_entities_registry.items():
 #       - iri: <...>
 #         label: "..."
 
-with open(args.json, 'w') as f:
-    json.dump(index, f)
+with open(args.json, 'w', encoding='utf8') as f:
+    json.dump(index, f, ensure_ascii=False)
