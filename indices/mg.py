@@ -16,17 +16,27 @@ def normalize_string(s):
     for c in s:
         if c.isalnum() == False:
             pass
-        elif c in 'âà':
+        elif c in 'ÀÁÂÃÄÅàáâãäå':
             s_norm += 'a'
-        elif c in 'ç':
+        elif c in 'Çç':
             s_norm += 'c'
-        elif c in 'éèê':
+        elif c in 'ÈÉÊËèéêë':
             s_norm += 'e'
-        elif c in 'öô':
+        elif c in 'ÒÓÔÕÖØòóôõöø':
             s_norm += 'o'
+        elif c in 'ÌÍÎÏìíîï':
+            s_norm += 'i'
+        elif c in 'ÙÚÛÜùúûü':
+            s_norm += 'u'
+        elif c in 'ÿ':
+            s_norm += 'y'
+        elif c in 'Ññ':
+            s_norm += 'n'
         elif c == 'œ':
             s_norm += 'o'
             s_norm += 'e'
+        elif c == 'ß':
+            s_norm += 'ss'
         else:
             s_norm += c
 
@@ -136,7 +146,7 @@ for label_norm, iris in norm_label_to_entities_registry.items():
         if parent_iri:
             index[label_norm][iri]["ancestors"]["iri"] = []
             index[label_norm][iri]["ancestors"]["label"] = []
-            
+
         while parent_iri:
             index[label_norm][iri]["ancestors"]["iri"].append(parent_iri)
             for entity, labels in entity_to_label_registry.items():
