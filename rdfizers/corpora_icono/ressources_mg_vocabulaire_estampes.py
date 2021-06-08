@@ -68,6 +68,7 @@ for row in vocab_excel:
 
     for colonne in row:
         if colonne.value != None and colonne != row[6] and colonne != row[7]:
+            colonne.value = colonne.value.replace(";", "").strip()
             broaders.append(colonne.value)
 
     if len(broaders) == 0:
