@@ -52,25 +52,22 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 	t(gravure_id_github, a, crm("E42_Identifier"))
 	t(gravure_id_github, crm("P2_has_type"), she("cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea"))
 	t(gravure_id_github, RDFS.label,
-	  u(
-		  f"https://github.com/OBVIL/mercure-galant/blob/0ba4cfdbb66ccf7ed6af0a92bf1490a998e95b3c/images/{id.replace(' ', '%20')}.JPG"))
+	  u(f"https://github.com/OBVIL/mercure-galant/blob/0ba4cfdbb66ccf7ed6af0a92bf1490a998e95b3c/images/{id.replace(' ', '%20')}.JPG"))
 	t(gravure, crm("P1_is_identified_by"), gravure_id_github)
 
 	# Rattachement à l'article
-	try:
+	if "copyOf" in id:
+		parties_de_l_id = id.split(" ")
 
-		if "copyOf" in id:
-			parties_de_l_id = id.split(" ")
+		id_article = parties_de_l_id[0]
+		if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
+			id_article = id_article[:-1]
 
-			id_article = parties_de_l_id[0]
-			# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
-			if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
-				id_article = id_article[:-1]
+		id_livraison = id_article[:-4]
+		if id_livraison.endswith("_"):
+			id_livraison = id_livraison[:-1]
 
-			id_livraison = id_article[:-4]
-			if id_livraison.endswith("_"):
-				id_livraison = id_livraison[:-1]
-
+		try:
 			## Article original
 			article_F2_original = she(cache_corpus.get_uuid(
 				["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
@@ -79,30 +76,31 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 			article_F2_TEI = she(
 				cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
 			t(article_F2_TEI, crm("P148_has_component"), gravure)
+		except:
+			print("Impossible de retrouver l'article de la gravure", id_article, "(livraison " + id_livraison + ")")
 
-		else:
+	else:
+		id_article = id
+		if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
+			id_article = id_article[:-1]
 
-			id_article = id
-			# TODO Ajouter xyz au nom des gravures en plusieurs parties plutôt que abc
-			if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
-				id_article = id_article[:-1]
+		id_livraison = id_article[:-4]
+		if id_livraison.endswith("_"):
+			id_livraison = id_livraison[:-1]
 
-			id_livraison = id_article[:-4]
-			if id_livraison.endswith("_"):
-				id_livraison = id_livraison[:-1]
+		try:
+			## Article original
+			article_F2_original = she(cache_corpus.get_uuid(
+				["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
+			t(article_F2_original, crm("P148_has_component"), gravure)
+			## Article TEI
+			article_F2_TEI = she(
+				cache_corpus.get_uuid(
+					["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
+			t(article_F2_TEI, crm("P148_has_component"), gravure)
 
-				## Article original
-				article_F2_original = she(cache_corpus.get_uuid(
-					["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-				t(article_F2_original, crm("P148_has_component"), gravure)
-				## Article TEI
-				article_F2_TEI = she(
-					cache_corpus.get_uuid(
-						["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-				t(article_F2_TEI, crm("P148_has_component"), gravure)
-
-	except:
-		print("Impossible de retrouver l'article de la gravure", id_article, "(livraison " + id_livraison + ")")
+		except:
+			print("Impossible de retrouver l'article de la gravure", id_article, "(livraison " + id_livraison + ")")
 
 ###################################################################################################
 # Création du graphe et du cache
