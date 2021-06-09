@@ -8,7 +8,7 @@ from sherlockcachemanagement import Cache
 import requests
 import glob
 import ntpath
-from .helpers import make_collection, init_cache
+from ./helpers import make_collection, init_cache
 
 # Arguments
 parser = argparse.ArgumentParser()
