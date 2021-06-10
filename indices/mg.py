@@ -153,11 +153,12 @@ for label_norm, iris in norm_label_to_entities_registry.items():
             # index[label_norm]["iris"][iri]["ancestors"]["label"] = []
 
         while parent_iri:
-            index[label_norm]["iris"][iri]["ancestors"]["iri"] = parent_iri
+
             for entity, labels in entity_to_label_registry.items():
                 if entity == parent_iri:
                     for parent_label in labels:
-                        index[label_norm]["iris"][iri]["ancestors"]["label"] = parent_label
+                        index[label_norm]["iris"][iri]["ancestors"][parent_label] = parent_iri
+            #index[label_norm]["iris"][iri]["ancestors"][parent_label]["iri"] = parent_iri
             parent_iri = child_to_parent_registry[parent_iri]
 
 
