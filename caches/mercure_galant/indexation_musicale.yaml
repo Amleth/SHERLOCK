@@ -1,1 +1,4892 @@
-{}
+ah_je_ne_sais_ce_que_mon_coeur_demande:
+  oeuvre musicale:
+    F1:
+      uuid: ba71f07d-b780-462a-9f5a-705d5b1e56f2
+      E41:
+        uuid: 85246f28-5b0b-45ad-b0ee-9683f0efe4ab
+        E13:
+          type incipit: f2581492-1dfb-4b9e-bb71-ad39775da8e0
+          P190: a6b74889-22bb-445a-8319-f14b425a005d
+          code incipit: dbfb91aa-eeb3-4f05-92dd-64f633ce0cf5
+    F2:
+      uuid: 1b7f81ad-9b3e-454b-bb61-32328b466a51
+  texte:
+    F1:
+      uuid: 140e0fdc-c2e6-4268-9671-68e055b17abf
+    F2:
+      uuid: 516579c5-68cf-41c4-94e7-b7fbaefa6fae
+  air:
+    F1:
+      uuid: 299ff525-f4e8-466e-abf0-af621d7c6f6f
+    F2:
+      uuid: d6d4952b-aa1b-4daa-80b0-fd29757180c0
+petits_moutons_qui_dans_la_plaine:
+  oeuvre musicale:
+    F1:
+      uuid: f5958abc-daab-466c-b47d-dd30b66dcc03
+      E41:
+        uuid: 7ee6e2c8-1490-48ea-8797-5b464e367f20
+        E13:
+          type incipit: 8313dd48-c483-42b0-b5ff-84393edb16f2
+          P190: cf73f44a-b216-4e83-9fc5-fb42e0ec2023
+          code incipit: c2bf85ef-72bf-45b5-b89b-0bd3412f74c1
+    F2:
+      uuid: a962cf1a-8383-49b4-b672-63a5c8ea6377
+  texte:
+    F1:
+      uuid: 07db74c0-aa78-4099-b207-92a6905cb85d
+    F2:
+      uuid: d25a142a-87ba-419d-990d-4a7bb07897a5
+  air:
+    F1:
+      uuid: 84024759-680a-401e-8c17-71a367041a1c
+    F2:
+      uuid: 9a5e7066-1bc1-43e4-a551-b434fb4e4d5d
+ma_douleur_est_extrême:
+  oeuvre musicale:
+    F1:
+      uuid: 169a9601-862b-4db3-a879-975d15c58451
+      E41:
+        uuid: 70064411-498e-442a-9fa8-b576265eaf6f
+        E13:
+          type incipit: eb855fc0-dedd-47cd-a8a8-9fc12e89a2a8
+          P190: 9042e4c1-a43d-4418-8a6e-cb27440ad6a7
+          code incipit: 061e1170-f142-4fd8-ae46-c915fa3c0666
+    F2:
+      uuid: 6afcdd79-7ed4-4ded-81db-8ba10a109bc2
+  texte:
+    F1:
+      uuid: 5490cccc-5823-4dce-843f-5122c2dac95b
+    F2:
+      uuid: 841e572a-5c35-4f7f-98e6-2efb06ade230
+  air:
+    F1:
+      uuid: ecd9bfe4-149f-4fd2-802d-3e3231321994
+    F2:
+      uuid: 2f8e0df2-612b-4a12-9ce9-f366f5fae563
+la_jeune_iris_m'aime_plus_que_sa_vie:
+  oeuvre musicale:
+    F1:
+      uuid: 39494bef-85c5-4283-a510-efbcb241a2b2
+      E41:
+        uuid: 8c1235e2-131f-4320-aeb3-be531f1fc7e8
+        E13:
+          type incipit: b3f33a2a-4f3d-4d2d-927e-f09e6798121d
+          P190: e22d60f5-4abe-4768-872f-94e785e06fe1
+          code incipit: 43342903-7a5b-4a98-b333-fc1fb84b1efc
+    F2:
+      uuid: b4597bce-6d98-45b7-8f32-f2e92ed36ab1
+  texte:
+    F1:
+      uuid: 39017377-fe57-4549-a135-0f3342c182cd
+    F2:
+      uuid: 3839f92f-4f25-4931-8170-292626316ff2
+  air:
+    F1:
+      uuid: 25bede37-190b-4309-8b7f-8cafd540c45b
+    F2:
+      uuid: 2036db3d-c4df-4e4c-8373-8b4896924e8b
+quand_j'étais_seul_près_de_sylvie:
+  oeuvre musicale:
+    F1:
+      uuid: 59411823-2e88-4ab3-9686-1ea263b8b6ea
+      E41:
+        uuid: f338abef-61d0-438a-8bfa-81fc28be57cf
+        E13:
+          type incipit: 3003ffa3-1df4-438a-8c72-d63c5e336d80
+          P190: 18d5366a-4412-48e8-9059-bdcaee889081
+          code incipit: 630d78a9-9e08-41f9-8463-2413025ed6a7
+    F2:
+      uuid: 9b19a492-1b79-44fc-9720-49d35db6bb0d
+  texte:
+    F1:
+      uuid: eaeeaa7e-ddfe-47ba-b475-cbcd09fa47d1
+    F2:
+      uuid: 8c340a1d-a7b8-4a7b-bf61-e09aba9792bb
+  air:
+    F1:
+      uuid: 231ed0c8-f7c9-424e-9f90-385073dc74b9
+    F2:
+      uuid: 7937f50e-60d7-4559-bcbd-b1ca2e599419
+chante_qui_voudra_le_printemps:
+  oeuvre musicale:
+    F1:
+      uuid: c303f06b-e9c7-4a2c-8b40-cf5944243e52
+      E41:
+        uuid: b2e58b0b-9d20-4b63-9091-fcdecdb4ff5f
+        E13:
+          type incipit: 8ff40843-db50-4dc0-a1e4-a835def7a1d0
+          P190: f56ceede-c7c0-4df8-9466-b3131930cf58
+          code incipit: cc9882cc-dd7f-490b-8e1a-8fa6e74e4b21
+    F2:
+      uuid: 87fa0ba1-da6b-49f8-9866-8da62cdacc1b
+  texte:
+    F1:
+      uuid: c5435a0f-7992-4a5b-acd4-232e60dd06d4
+    F2:
+      uuid: 4042a043-eddb-4eba-b540-a4b420567131
+  air:
+    F1:
+      uuid: f6ea2d0f-b1c7-40ab-9dd8-1b54155cb58f
+    F2:
+      uuid: 15b7e49e-6092-4188-9d91-08ace5d0dd19
+doux_raisin_dont_l'amour_redoute_la_puissance:
+  oeuvre musicale:
+    F1:
+      uuid: bf88a8a5-3d20-44bd-93cc-eeded3ad72a1
+      E41:
+        uuid: 8e3250f4-2ae8-46a0-b4c2-5319006472e4
+        E13:
+          type incipit: 4f270c22-c9fe-4851-b20d-3ca843aa990f
+          P190: 26ac31c1-7bcf-465e-8072-8cfb061afd59
+          code incipit: 3c380e73-b21a-401a-a303-3ecc3210c43d
+    F2:
+      uuid: 76387f96-150c-49d3-9f38-ec337cb3d8fd
+  texte:
+    F1:
+      uuid: 6efc8c73-7d62-4648-b6cf-f437e38833b1
+    F2:
+      uuid: 63ef411b-fffa-47dd-b551-3abce21734bc
+  air:
+    F1:
+      uuid: fd640d3f-7aba-4434-b0bd-d8bb8be7967a
+    F2:
+      uuid: a503899f-4550-4faf-a6b4-c5ec5259a4e4
+café_délicieux_dont_la_douce_amertume:
+  oeuvre musicale:
+    F1:
+      uuid: 1763698d-e204-4d98-95ec-24faadcf6ca7
+      E41:
+        uuid: a2b7b6ad-0338-43e1-974f-273fb3a10420
+        E13:
+          type incipit: 7a74a187-0bba-430e-bb61-174494f5af7c
+          P190: 90bc869b-0198-4edc-8f4d-bbd27da7ec89
+          code incipit: a6bb6b40-13ab-43c2-a5f2-db49404d6fa0
+    F2:
+      uuid: 603568ac-4166-4af7-a891-d2d2f949512c
+  texte:
+    F1:
+      uuid: 1a108aa2-00d3-4c7a-8a93-60950681c7d8
+    F2:
+      uuid: f65b0956-3596-4a8a-a139-b31b2388e51b
+  air:
+    F1:
+      uuid: a6235463-3bcd-4933-9f21-5651c7e0e0b1
+    F2:
+      uuid: ae040a5f-4c21-429d-97f5-927926272ea3
+une_indifférence_cruelle:
+  oeuvre musicale:
+    F1:
+      uuid: 088de328-2e23-4804-be96-7e0b3820cdac
+      E41:
+        uuid: 3a9e1d6c-67de-41fb-a0d6-b15ea6c292d2
+        E13:
+          type incipit: 8f711833-8c4d-47f3-a1c7-c1c51ccc053c
+          P190: 1f423e7d-6b8d-41a0-9f0f-2706e55f8a93
+          code incipit: a01a9a3d-fc81-4169-9fe3-ea66a58aea2a
+    F2:
+      uuid: a6719573-110e-4a90-ab9a-0a494d675160
+  texte:
+    F1:
+      uuid: 8897809c-e945-49f4-b5a7-3258350dcc90
+    F2:
+      uuid: eafa8e18-853c-4b65-8ec6-03558975bc25
+  air:
+    F1:
+      uuid: f91b5ea6-6d02-4324-94f4-6c4663e59ecb
+    F2:
+      uuid: ac261f8a-e88b-4990-9295-ae05f799fac5
+j'entends_philis_qui_chante:
+  oeuvre musicale:
+    F1:
+      uuid: 4f560e67-eeef-4e27-a694-71efc0c573af
+      E41:
+        uuid: f8379f9e-6662-46e0-8243-738db820d87c
+        E13:
+          type incipit: e723bc53-3fb0-48a6-b5dd-c6a8bd6c22a9
+          P190: d6bf5c1d-717c-4ad8-a7bf-54ab613915c1
+          code incipit: 6e6b2858-24e3-469c-861c-c2d01e38cf24
+    F2:
+      uuid: 8da12d02-ad8f-4635-b5d5-8febe5014c50
+  texte:
+    F1:
+      uuid: fe32dcc6-e64f-4861-a27a-512e9386a1d4
+    F2:
+      uuid: 8a4fa03c-3233-42eb-8399-e51d99df74a0
+  air:
+    F1:
+      uuid: c8c0a0ec-8b7c-43b9-ab51-6e119c7c2f33
+    F2:
+      uuid: 65a4cdd7-dd0d-4cc3-883c-53a8773adece
+pensées_tristes_et_sombres:
+  oeuvre musicale:
+    F1:
+      uuid: f38240c2-93b3-4e69-9d3e-84d968bb752b
+      E41:
+        uuid: cd07171d-c436-4b24-afaf-1cb17b2e331c
+        E13:
+          type incipit: 97d77aaf-134c-43b4-b313-683ba3bd96e0
+          P190: 24e80b43-8790-469e-9958-531fa5cd3c94
+          code incipit: d27e8d85-e97f-47b3-93c3-0c414a70bd3a
+    F2:
+      uuid: cefcbddc-6957-4637-bbd0-b47260cd80f9
+  texte:
+    F1:
+      uuid: cd6e2441-4210-4de0-afce-5e793f50c759
+    F2:
+      uuid: 6580b70e-c0c0-4e62-98c7-9e04653eaf24
+  air:
+    F1:
+      uuid: 34752d25-d00a-4348-9068-94d39331e5ec
+    F2:
+      uuid: 318e4c3f-eea4-427b-b09b-67ed9d9876c6
+le_printemps_commence_à_paraître:
+  oeuvre musicale:
+    F1:
+      uuid: 4c13364b-a8db-4c4b-b498-1560cb18f5d4
+      E41:
+        uuid: 570c0a81-8cf7-46f5-bb36-29d8a6aaba82
+        E13:
+          type incipit: 24811d3f-bc0e-40e8-be98-e0271b1a2c14
+          P190: 08e4a9bb-38ce-421b-aa1d-72a56a166eb3
+          code incipit: ab7357c2-b10c-4330-bc1b-74fea2e9f6e2
+    F2:
+      uuid: e5a71e53-bc13-4885-9b7f-d90853bd8003
+  texte:
+    F1:
+      uuid: 9d8315a2-480c-49c4-860f-1f774ceda7d0
+    F2:
+      uuid: 56d3d1e5-9ca6-4779-82b8-fa02072a0ec7
+  air:
+    F1:
+      uuid: c04ed27b-e91e-416e-ba6c-4ae7a66f3c27
+    F2:
+      uuid: 9cbfcf15-d1e3-4552-9c34-0f2937f366ff
+profitons_tous_de_la_saison_nouvelle:
+  oeuvre musicale:
+    F1:
+      uuid: eeb1ae4e-2150-44a0-9810-4023fb177003
+      E41:
+        uuid: 5d7cf29c-b6fe-4b6f-8e0e-44db31d03b7f
+        E13:
+          type incipit: bb1b49f3-3995-4a09-af8d-5f76a517e745
+          P190: cf9acc12-7a62-41ce-9880-031d988c932b
+          code incipit: c7bdbc08-4310-43fe-9079-2911ef45102f
+    F2:
+      uuid: 88b207aa-73c5-4e0e-ad59-bb6ece860849
+  texte:
+    F1:
+      uuid: 3d2ac3b9-c1ee-44f2-97fe-96518e21f79c
+    F2:
+      uuid: ab231db9-a8fa-43c7-b0bc-566e9150dde6
+  air:
+    F1:
+      uuid: cdf14791-a15f-4df3-8c2d-26cab2457f59
+    F2:
+      uuid: 155e6117-ff92-4253-948d-f150e6d931be
+le_printemps_fait_éclore_aujourd'hui_mille_fleurs:
+  oeuvre musicale:
+    F1:
+      uuid: a6722805-5f94-483b-a44e-933eac5ea975
+      E41:
+        uuid: b7afba17-dc28-4b8b-b0cc-39d50d22ee3b
+        E13:
+          type incipit: c2383181-d5a2-4e91-b8ea-bfb39c05392b
+          P190: b095de81-9da5-4293-b4a2-21cf2003b906
+          code incipit: d02b0429-48be-4481-856a-f060124ee5ab
+    F2:
+      uuid: baeb4706-ae0b-44d3-b854-a0700cd08615
+  texte:
+    F1:
+      uuid: 3ef6840a-77db-44c3-9e74-fe617b35e2dd
+    F2:
+      uuid: 5997f9a8-582b-42dd-8cd1-14adc3f52e9d
+  air:
+    F1:
+      uuid: 83160db5-5f3c-416a-8d01-985345e1f860
+    F2:
+      uuid: 18d10fe3-b7b3-4802-b3c3-ff133c98ceb3
+le_printemps_se_passe_sylvie:
+  oeuvre musicale:
+    F1:
+      uuid: a413724d-3a0c-40a8-8555-a1a6a472deb0
+      E41:
+        uuid: d9f7ef45-6edd-4656-afea-0ab988840c2a
+        E13:
+          type incipit: 453f5c88-c426-446d-8066-b5e1f64a4146
+          P190: e3fdfa39-e2c7-435b-be32-15a593caefd8
+          code incipit: e9114f4e-2b2c-4d5c-a1c6-7de7b113a86a
+    F2:
+      uuid: d3ca4a60-1158-44d6-9d92-0617b2c6b8df
+  texte:
+    F1:
+      uuid: a9128f1f-50b0-4bee-958a-d53454e354cf
+    F2:
+      uuid: 2fd16300-2aa0-4dd5-80c5-321f68602d97
+  air:
+    F1:
+      uuid: 42135860-0d8d-4b26-a2db-6655e2a92a2b
+    F2:
+      uuid: 9079d7d4-1721-49b3-b90c-1114126fb461
+la_saison_des_zéphirs_est_celle_de_l'amour:
+  oeuvre musicale:
+    F1:
+      uuid: bec21659-3ddd-4074-bc69-e6edb5cb5887
+      E41:
+        uuid: fbf4d213-d777-4654-ae73-d995ec95919a
+        E13:
+          type incipit: 760a47f9-6a1b-43a2-8daf-f6dbe815c292
+          P190: e99f2523-d881-4977-91be-2f728918a837
+          code incipit: c4459f58-d197-4c21-a232-bb07e3ab8888
+    F2:
+      uuid: 254783e9-dceb-4b59-a16f-4d03d129eb3a
+  texte:
+    F1:
+      uuid: 830af00f-1fde-4031-b4b7-c3d7b02acb5f
+    F2:
+      uuid: 3bf694fc-b8d3-45d0-93aa-4631fbfd6343
+  air:
+    F1:
+      uuid: a2376752-af1e-43e6-9b1e-73778ae6fb63
+    F2:
+      uuid: 13b523d1-98eb-4011-b59e-73d23bf5ef70
+belle_et_jeune_saison_ton_retour_est_charmant:
+  oeuvre musicale:
+    F1:
+      uuid: cd977146-0277-4d8e-9420-01d9717f332c
+      E41:
+        uuid: a8737c06-00e2-45bd-b8d6-2c2056bb3102
+        E13:
+          type incipit: 814a31c9-617a-4953-9c2a-e25560ccb806
+          P190: d10f07e1-2865-4d15-a73c-2d0fee883444
+          code incipit: 0ccdac7d-34ba-4b58-bebf-09ad30aa0342
+    F2:
+      uuid: 57990901-637f-4fc8-965b-992c8cff4c6a
+  texte:
+    F1:
+      uuid: da40cc58-5461-4f5f-968c-9320ae9623c1
+    F2:
+      uuid: 0e25dab4-63e0-4592-9971-7150b65c3e43
+  air:
+    F1:
+      uuid: f0ae8100-ec84-42ef-8626-84c2b9922b24
+    F2:
+      uuid: e642052d-3bd5-4356-9fe6-00597c605a4e
+venez_juste_dépit_venez_à_mon_secours:
+  oeuvre musicale:
+    F1:
+      uuid: 7d245898-3b10-48fa-864d-a60f8084b0c3
+      E41:
+        uuid: 185fa26b-a47f-4f76-a78a-d568f1544ee5
+        E13:
+          type incipit: 1b7b5f96-6681-41c3-8fcc-0cef72c58825
+          P190: 3e25bcf1-059f-4623-9342-418b11f6b261
+          code incipit: e439b65c-038b-49c0-b86f-6067d8082066
+    F2:
+      uuid: 00fa3acd-7604-4294-8d92-b3e69703570d
+  texte:
+    F1:
+      uuid: c83c94cb-5220-48c9-832a-b45401d2c71e
+    F2:
+      uuid: 76a9baf5-1371-4c35-b5d2-1f55beaf6b1a
+  air:
+    F1:
+      uuid: 0cdb922c-f3d6-468c-be43-3720d9fbeab5
+    F2:
+      uuid: 94fbc305-f444-49c8-ae25-eb5325eba2eb
+les_charmes_d'un_repas:
+  oeuvre musicale:
+    F1:
+      uuid: 0b78a673-ae4e-4d98-86f7-e133d8a433f6
+      E41:
+        uuid: 09eece14-c89d-4bbc-991a-1df46369dc2f
+        E13:
+          type incipit: 72a358d5-c568-4d34-886b-3ef6b09bed17
+          P190: ba7ede12-2812-40eb-a7ba-540c3686c0e2
+          code incipit: 4c43f283-9edf-4d3d-81bd-f51889f69f77
+    F2:
+      uuid: 6e2005bb-dbc5-450b-b48e-9d17abd7d95f
+  texte:
+    F1:
+      uuid: e2f198ba-2bb8-49b7-8426-d71b76618652
+    F2:
+      uuid: b17e4b52-5f5d-43ce-9ba9-a7476d024584
+  air:
+    F1:
+      uuid: cad075d8-3c80-4e43-9afd-f947f1c487f2
+    F2:
+      uuid: de5c3fd6-5469-4162-8c8d-555b0f71f37a
+quand_le_printemps_dans_les_champs_nous_appelle:
+  oeuvre musicale:
+    F1:
+      uuid: a0fe3d7f-4820-4724-b19f-4d4d332f1444
+      E41:
+        uuid: 022c74bc-d943-4189-8da7-d171a7b8c78c
+        E13:
+          type incipit: 8e604068-80e5-4120-aaab-39b8811abcb9
+          P190: b70fc3b2-3ee5-455a-9e68-9efd82d82b9b
+          code incipit: 1657d925-3910-4596-862d-8ba362036aa1
+    F2:
+      uuid: ad1aa57d-ca65-4efe-98c6-767832684e4e
+  texte:
+    F1:
+      uuid: 915ca853-5338-4edc-a091-8a3a503a1c34
+    F2:
+      uuid: ebd92964-1bb3-4a1c-a9e6-12d0943d27de
+  air:
+    F1:
+      uuid: 58d13a27-a3a9-4b83-8ca2-16f0e917e425
+    F2:
+      uuid: def6fd0c-7f19-4d82-96c6-36270a285ce8
+iris_quand_l'amour_est_extrême:
+  oeuvre musicale:
+    F1:
+      uuid: b8b6c3bd-78de-4fa3-8b16-d53c8d4117d3
+      E41:
+        uuid: 5f5e9f3d-532d-4f9c-9482-24248257e570
+        E13:
+          type incipit: 1ad471e6-6fd5-4592-842c-045e6535b7ed
+          P190: 2ce6c0f1-fd75-4efd-a0af-0f1a86932fce
+          code incipit: d5a54224-3fbb-4378-89a6-34eb67affb0c
+    F2:
+      uuid: 341c1239-59e0-45b6-9b60-bf65746e94ac
+  texte:
+    F1:
+      uuid: 56d964b6-0c12-411f-a7cd-bd9f489df547
+    F2:
+      uuid: 2e0a6084-6a7d-4081-8520-0f194c48f519
+  air:
+    F1:
+      uuid: 7673ae37-e6ca-40ee-98e7-3e8482d6496b
+    F2:
+      uuid: fabe8b4e-fc62-43df-a2d1-ee1f1c88abe3
+mille_sujets_de_jalousie:
+  oeuvre musicale:
+    F1:
+      uuid: 94d5e1c9-6133-4d64-8abf-01c778926107
+      E41:
+        uuid: 0fcd1848-61a9-4936-a5c6-e3124e6cff84
+        E13:
+          type incipit: ac1909f6-fbfe-43f1-b111-4881bb3255e3
+          P190: 1d3e323a-ec5c-47f0-ba68-9726a4b4c989
+          code incipit: 253259f7-a80b-4ed5-ad9b-c4e6a7b1667d
+    F2:
+      uuid: 6e849327-8658-4ee8-8f4e-7cf36b311238
+  texte:
+    F1:
+      uuid: 182ea666-42d6-4ba1-ac20-b68dbddacf96
+    F2:
+      uuid: d8d9808b-f6b8-4977-b400-ebf9285e9ed9
+  air:
+    F1:
+      uuid: 9b1ca254-bc8d-4b80-acbb-97fedb02f89a
+    F2:
+      uuid: 003ad7a3-ecce-4836-bd27-6bb7cac8cfbd
+le_repos_l'ombre_le_silence:
+  oeuvre musicale:
+    F1:
+      uuid: 8c4f87e8-e1b2-45a9-bee6-b81e54f2e651
+      E41:
+        uuid: fe5c5044-358a-494d-9c74-0608969a8c7b
+        E13:
+          type incipit: 53a79d5c-68b7-421e-9530-b6a12043160c
+          P190: ac05f08d-703a-48e6-b5d5-7e06c58d4cf1
+          code incipit: 16e521ae-6f0e-4a04-83f8-44019d6ba8d2
+    F2:
+      uuid: 5255f0c2-26ad-47bd-93fe-b591d1a2ba06
+  texte:
+    F1:
+      uuid: 41ffae7c-b10f-4287-acbe-dcfa4a8f3a56
+    F2:
+      uuid: b53ab752-0f1e-4d1c-be14-09b5b273ddb4
+  air:
+    F1:
+      uuid: 7ae2c132-764c-4b8b-b53a-cecfe4bb5e8a
+    F2:
+      uuid: bd9cc940-4ec4-4f55-a74f-7b1904a31f17
+fut-il_jamais_un_plus_charmant_bonheur:
+  oeuvre musicale:
+    F1:
+      uuid: 074f3668-a213-4b29-84f8-e97cd0f7438a
+      E41:
+        uuid: 138ea62c-4520-4a68-a1e5-07c367c72208
+        E13:
+          type incipit: d3b7077b-0038-4cb4-8ede-c22d6ca9dbcf
+          P190: db0b2aef-10b8-462c-8d2b-8d4f81d71069
+          code incipit: 4bb77208-b667-4293-8c18-0e79197e1de8
+    F2:
+      uuid: 0c2b2d72-262e-46e1-9b86-7522dbc34a54
+  texte:
+    F1:
+      uuid: 57ec8a07-304d-466f-984d-b9bfd5a31e79
+    F2:
+      uuid: ef5f8885-c8fa-44a6-9e41-b970a4d9a3e8
+  air:
+    F1:
+      uuid: 0d0bdeb6-71e2-48e7-8cc2-d76d8e31391a
+    F2:
+      uuid: f5923eed-5a59-4a87-8a57-71465bbcffe3
+l'amour_le_seul_amour_est_cause:
+  oeuvre musicale:
+    F1:
+      uuid: 36187a9e-e775-442c-aa5c-3d2137f675fd
+      E41:
+        uuid: f2cdb269-0a4a-422e-884b-71912c747803
+        E13:
+          type incipit: 16e3b34a-02b1-43fb-9295-bf3a768e536d
+          P190: dddfe3b4-d363-408f-8845-87676ffe9a7d
+          code incipit: 5f4077c9-de17-4b27-a18e-0ac77fd7a847
+    F2:
+      uuid: dcbc1f34-f889-4712-a59d-460336edbcb1
+  texte:
+    F1:
+      uuid: f2e7e4de-0a09-44b9-a984-b9de75ffc210
+    F2:
+      uuid: 9064e213-50d8-4b19-8988-f07e1b72eb49
+  air:
+    F1:
+      uuid: 048eb0a1-fafa-4b98-88c7-a68aa8cd5577
+    F2:
+      uuid: 6e8996ac-72ad-4b5f-a79e-efdb4687e385
+quel_chagrin_iris_d'être_tendre:
+  oeuvre musicale:
+    F1:
+      uuid: e2eb3926-4be3-4d8d-91b5-00611c972d57
+      E41:
+        uuid: fb6f4d6b-2b3d-415f-b493-e102159b84a9
+        E13:
+          type incipit: d107da17-16c8-43b8-a62c-f0c9c810ca5c
+          P190: e5982fba-3762-472e-9c52-b9048e63a5b3
+          code incipit: 472219f1-a2c0-453b-a7a5-4060469e7200
+    F2:
+      uuid: 455ae813-b419-4c73-b532-67b8941c0eea
+  texte:
+    F1:
+      uuid: a24df949-a229-4542-94f0-4a778e25ffc7
+    F2:
+      uuid: 809b6f74-0d70-4293-a875-52c0689156eb
+  air:
+    F1:
+      uuid: 063592ac-3879-4f0a-97f3-da9e2a2d7fa4
+    F2:
+      uuid: 1e1d8b57-4bc2-4a94-ae23-dd4f1927673e
+sur_les_tendres_ormeaux_le_rossignol_fidèle:
+  oeuvre musicale:
+    F1:
+      uuid: 1edf1aab-ee91-45d6-8d64-50741e1d3c86
+      E41:
+        uuid: 953936ca-97ee-4c1a-9739-fef9a15dd743
+        E13:
+          type incipit: d040c9a4-48d1-490d-b773-f36cfe3e3ea5
+          P190: 3d8721e5-5ac9-43ae-bce1-19cc5b8312db
+          code incipit: 1e3318eb-633d-478c-b3fc-5ab409a12519
+    F2:
+      uuid: c692088b-443e-4bdb-9dd0-96dac3d22158
+  texte:
+    F1:
+      uuid: 31051980-5be0-4cd9-bf93-cb90cfbb446d
+    F2:
+      uuid: 5f681e61-daa5-4bf6-a348-ed0aec7ecb0d
+  air:
+    F1:
+      uuid: 6dd78141-434a-4ccf-b942-7bfc69b7537d
+    F2:
+      uuid: 51943dd9-4a22-484e-8d0b-55624cab8362
+vous_aimez_jeune_iris_mes_tendres_chansonnettes:
+  oeuvre musicale:
+    F1:
+      uuid: e49952fe-bcc1-4e95-8f98-47c56f0410cc
+      E41:
+        uuid: 7774f24a-581f-4431-89ba-54c189264fc2
+        E13:
+          type incipit: b0039d12-ec13-444b-be2f-9d8ffdfa7cfe
+          P190: a9456183-6467-4d41-96b0-348fe466764c
+          code incipit: 943d5a2a-df7b-4cd5-858a-3aa09db58d4e
+    F2:
+      uuid: fcabac42-5aba-49c4-99ad-14b31a2db4e6
+  texte:
+    F1:
+      uuid: e7f9a9bf-6a76-4580-b625-a907d37ab618
+    F2:
+      uuid: f0537b1d-a340-4372-bb5f-e82b99cb26fe
+  air:
+    F1:
+      uuid: 775e35e0-d4e5-4b8d-bd23-08dab2ccc668
+    F2:
+      uuid: 373ff839-c03f-492f-b1d6-f41fb7ba343e
+dans_un_bois_la_jeune_iris:
+  oeuvre musicale:
+    F1:
+      uuid: 39e9e5a4-4d18-4643-9cae-4e28d0ec2b7b
+      E41:
+        uuid: 05a66534-3b7d-4ddb-b8fa-0fbc7cc0acf4
+        E13:
+          type incipit: c15d2ff5-005a-4c30-9995-433bdb887552
+          P190: ef34df0b-78f8-4991-a44c-6fcf34248bec
+          code incipit: a137e3e3-0c8f-4376-b9e1-27a91381ead1
+    F2:
+      uuid: 166b9bc7-e988-40f0-8d83-d81f2cd52e40
+  texte:
+    F1:
+      uuid: b91edd08-39e4-4fd8-80ca-5bc02194d851
+    F2:
+      uuid: 189b2aa7-5a24-4c0d-97f4-9e373da6259c
+  air:
+    F1:
+      uuid: 1013b42a-3866-4352-85f4-be691b26d170
+    F2:
+      uuid: bc0813ee-162c-4503-8ce7-282ddfb11a53
+puisque_vous_ressemblez_à_celle_qui_vous_donna_l'être:
+  oeuvre musicale:
+    F1:
+      uuid: 5ae12669-8458-45aa-a71a-43ea69d33fdb
+      E41:
+        uuid: 327ee0ce-fa67-4a3f-9df9-07a5f1e27370
+        E13:
+          type incipit: 830b63c9-9236-4aa6-a2ec-7b7aa25cf9dd
+          P190: 6ad433e9-0d50-467e-a10d-0474b10bcaf0
+          code incipit: d7c7c9f6-360e-4503-a47a-75876f7b8fc3
+    F2:
+      uuid: 8450f794-ad6e-4235-9fbd-2c66c5470fb0
+  texte:
+    F1:
+      uuid: d7a75d5c-5db4-471d-90c3-e95fed1e8904
+    F2:
+      uuid: 14efeb97-652b-487b-96e5-f99fd95c8fc8
+  air:
+    F1:
+      uuid: 0ed196fb-8f0c-4c84-b4bc-b5f8bbd6c84e
+    F2:
+      uuid: 82654c8f-54e1-4647-a0ff-ac4b40ada3ea
+je_suis_aimé_de_celle_que_j'adore:
+  oeuvre musicale:
+    F1:
+      uuid: c92b53b7-a8f2-457f-a225-cb71eea5cdf1
+      E41:
+        uuid: 42202a2b-5d55-4eea-89ee-05ac685d6499
+        E13:
+          type incipit: cc5e705a-a7db-431e-8848-08d9eb5a5c55
+          P190: 2487ebb1-5c34-4741-a073-14308eca4dc1
+          code incipit: fe86b79e-86fa-4e48-952a-47b3249c92a5
+    F2:
+      uuid: a73f043f-b730-4f34-9077-c5d5bdc07a10
+  texte:
+    F1:
+      uuid: 603ae69c-9f39-4402-91a0-c05f3a6c8b79
+    F2:
+      uuid: 66adc97c-8547-4465-8237-2af1bb4a53aa
+  air:
+    F1:
+      uuid: d36d4984-cecc-4f2d-ada0-05284fa6e2eb
+    F2:
+      uuid: d97473ba-c1e5-41be-b8fc-c88e062a0d27
+ce_qui_fait_le_printemps:
+  oeuvre musicale:
+    F1:
+      uuid: 2cc54422-8f53-4ee3-a71b-1f99e1bf47fc
+      E41:
+        uuid: 118cfeaf-32c9-46cc-a829-b486f9e57da2
+        E13:
+          type incipit: 90fde237-1cde-43ef-ad40-79442ea7130d
+          P190: 72dd51c6-95a9-4152-acb6-da4c18ccaf26
+          code incipit: 1e3b0602-33e7-4e30-9c45-06f1ed8b28e7
+    F2:
+      uuid: 9168f675-a2d6-477f-9598-ee5300820608
+  texte:
+    F1:
+      uuid: b5fa2dd0-bf1e-4eb9-9511-d8172572fb39
+    F2:
+      uuid: f704e971-e2c1-4004-95d0-8e2ef173f861
+  air:
+    F1:
+      uuid: cbf6db33-0cef-4938-b245-68df1af1fb1f
+    F2:
+      uuid: e0d2ae54-869c-48b7-a968-a34987887126
+si_l'hiver_vous_tenez_vos_passions_secrètes:
+  oeuvre musicale:
+    F1:
+      uuid: d43498fc-b097-4e6a-8d39-ecd697a0c318
+      E41:
+        uuid: 33b5c00d-b2c3-4eaa-8cdb-683c72bda004
+        E13:
+          type incipit: 6196ebc4-2572-4b2d-bf99-1f13fe16cfb8
+          P190: e6065367-fdce-4f97-9d75-1168f4fc86cf
+          code incipit: ff8ce17b-5830-467b-acba-5012966e33ed
+    F2:
+      uuid: 4b050bdb-36c8-4578-985f-0bf87fce011e
+  texte:
+    F1:
+      uuid: 6a096c3f-398d-460b-8aae-8df14b3d3bc0
+    F2:
+      uuid: b3855ef0-03ff-4271-b354-e67a240d4831
+  air:
+    F1:
+      uuid: 7e115cdf-5767-4df1-8e4d-8c3eac94de39
+    F2:
+      uuid: 20b36ffa-9ae6-4c06-906a-75e350c4c727
+en_vain_tu_peins_nos_champs_des_plus_vives_couleurs:
+  oeuvre musicale:
+    F1:
+      uuid: 33cb74c0-ba77-41b7-b65f-36b402e9d39b
+      E41:
+        uuid: b8dd322e-7475-4081-90be-8187101fda50
+        E13:
+          type incipit: 337dd230-6649-44af-b46e-0034f841abb3
+          P190: 45a93ad7-c809-4eac-85d7-d99eff53aced
+          code incipit: 0bd2c368-95a9-46c2-b198-fb990aa30ca1
+    F2:
+      uuid: d9ec06c2-1911-4ebe-9bb4-74a55490881e
+  texte:
+    F1:
+      uuid: 09769057-ea4c-43b9-a7ab-83b384a59e30
+    F2:
+      uuid: 1d0c2139-3c98-4dee-84c4-404ecc4e2eb0
+  air:
+    F1:
+      uuid: 994d1fc2-d168-4862-8216-83d60d129d06
+    F2:
+      uuid: 7d90a89d-fec4-478a-9574-8260208490ab
+l'hiver_ne_cache_plus_les_fleurs_ni_les_gazons:
+  oeuvre musicale:
+    F1:
+      uuid: 59d8341a-83c4-4e2b-b16e-5cb4982e7424
+      E41:
+        uuid: a5fe6315-ab6e-47cb-98ca-b47fa89f57bc
+        E13:
+          type incipit: 2a741e7d-f952-4be9-9b53-87f35b9ab0db
+          P190: 48bd2fa0-2aaa-45f8-8f41-94d5820ac876
+          code incipit: 5419d917-414d-409f-86b9-801b1740a048
+    F2:
+      uuid: 7cff365b-048b-4817-b970-64f283ea4322
+  texte:
+    F1:
+      uuid: 2b063d67-f4f4-4d35-b952-ab9f54d00bf6
+    F2:
+      uuid: 1ef34175-36cc-4532-819a-108cf08dfa1e
+  air:
+    F1:
+      uuid: 4ebeec57-6ae2-4d62-b39f-6a141f7d8400
+    F2:
+      uuid: 8f819cb2-452b-44dc-afc0-9388a83e10d7
+vents_qui_portez_partout_votre_funeste_rage:
+  oeuvre musicale:
+    F1:
+      uuid: 919c1f02-bc29-4ec8-84e1-424261c3893d
+      E41:
+        uuid: a99804ac-13cc-4375-8a1b-2b5b885f16fe
+        E13:
+          type incipit: 3ebc2a46-685d-4fca-9be5-870adc7d107c
+          P190: a6b7a019-e507-4a9c-943d-54b54d831307
+          code incipit: 00164fe1-bc50-458f-99c4-7852ce0a4182
+    F2:
+      uuid: f51456f1-6078-4509-9244-8130b9a60f0d
+  texte:
+    F1:
+      uuid: 05f88eb2-be84-4385-955f-8431a1efa864
+    F2:
+      uuid: 0fcf7e2c-6a08-4281-9737-1ffe8851f877
+  air:
+    F1:
+      uuid: 1b2fa483-f760-4c31-838b-c73da5f9637c
+    F2:
+      uuid: 8a5cd6fb-6b36-4632-b133-ca07ae6f309b
+pourquoi_me_dites-vous_catin:
+  oeuvre musicale:
+    F1:
+      uuid: 288db913-a3ce-4d43-a786-adfdbc0d78f9
+      E41:
+        uuid: f87bb58a-f84f-4d5c-b535-4541989b430f
+        E13:
+          type incipit: b1fb9a04-2386-45a3-a975-9485be298392
+          P190: 3c50897a-ab97-4370-a5a9-d3feaadf493c
+          code incipit: 79e61550-49db-4b95-b22c-e59ac2772b20
+    F2:
+      uuid: 6d86f982-3ccc-4b08-b15c-754bab0fbae6
+  texte:
+    F1:
+      uuid: 90ac2bcd-eba3-4989-8163-0138afcbd36f
+    F2:
+      uuid: ca4d6325-5876-4d94-bce0-0deb498ba6fe
+  air:
+    F1:
+      uuid: f1a6c2f1-895d-405d-ab27-604378077fd5
+    F2:
+      uuid: ad59df4c-c0eb-4b2c-ba93-a94b514aad2b
+que_le_temps_soit_laid_ou_qu'il_soit_beau:
+  oeuvre musicale:
+    F1:
+      uuid: 0baeaa0c-a729-48bb-b2c7-8a00c049b840
+      E41:
+        uuid: d73aba64-f328-445c-aad4-40e347b4a82a
+        E13:
+          type incipit: 8e4046dd-5089-4429-9223-06a54e6b53e8
+          P190: 847fb5bf-62c2-4d13-b3e6-57b1a3cbc911
+          code incipit: 3d2da9d1-644c-40fd-8dd9-7f1c67384ebe
+    F2:
+      uuid: 255cc44b-25e9-416c-a5ff-340b3188c524
+  texte:
+    F1:
+      uuid: 30108ef4-940a-47d4-9242-ed743a3e1a5f
+    F2:
+      uuid: 86b2bda4-7f67-4a1c-a635-bc82cd3c4031
+  air:
+    F1:
+      uuid: da049f6f-4ba2-4590-984e-aa8a472d7f9f
+    F2:
+      uuid: 543b24da-d86e-41c4-8165-7c8b6b0b325a
+c'en_est_fait_la_raison_a_chassé_de_mon_coeur:
+  oeuvre musicale:
+    F1:
+      uuid: 9d46d831-eae8-4204-84f6-df8c7de382c5
+      E41:
+        uuid: bc2fbad0-7b22-41f5-857b-76d01d6611e5
+        E13:
+          type incipit: 8baca0a3-4fc0-4223-867a-750a6dd64420
+          P190: 9ea8e090-2942-4557-8880-886e0ed9996e
+          code incipit: a24a9514-bf57-4b4e-896a-9d552e4de14d
+    F2:
+      uuid: cb7cd0b9-e2c4-46e6-b25c-fda0798dd485
+  texte:
+    F1:
+      uuid: 9583933c-d21a-46a5-8289-14fe58d1ea92
+    F2:
+      uuid: 9df4242d-c765-420d-8274-2982c7553c59
+  air:
+    F1:
+      uuid: 1fdcee8e-6449-4886-97be-fb6ae9b53f2f
+    F2:
+      uuid: c2eaf976-7c33-4592-994c-009c2d3de606
+si_la_fève_par_un_heureux_destin:
+  oeuvre musicale:
+    F1:
+      uuid: e6bc7dc9-6a05-47c9-ad3d-604f87e816e5
+      E41:
+        uuid: d136be3c-4a78-4102-a19e-94a4641fc547
+        E13:
+          type incipit: e74d797c-4717-4a69-b8df-5a80ae780751
+          P190: b73368fe-4100-4cc0-8493-0771f87a38ab
+          code incipit: bb756b04-507b-4d11-a8bd-c93dfda28dbb
+    F2:
+      uuid: 766058a8-bede-4988-88c0-3b1c1c9c7427
+  texte:
+    F1:
+      uuid: 8fb69df4-a747-4f8a-82f5-14e69f768cc2
+    F2:
+      uuid: 89f9e2fe-baa3-41a8-85d0-f33a68cde0e3
+  air:
+    F1:
+      uuid: e49314c5-f6d2-4148-981d-60749b8bb6d5
+    F2:
+      uuid: 0ca196bf-a8c8-49cd-bdbc-5c1958940e57
+par_vos_cris_mes_petits_moutons:
+  oeuvre musicale:
+    F1:
+      uuid: e6446455-e1ac-41d8-8870-2b392599134a
+      E41:
+        uuid: fbcbf8d7-51dc-4afe-9e9b-73dfc192b17f
+        E13:
+          type incipit: aae89cf9-0a83-4caa-b960-eb709ef1fedf
+          P190: 12d582f9-a76d-4a7b-bb09-6dc715b807c4
+          code incipit: 9571db67-c4b1-42db-b324-ea73f8dbd49b
+    F2:
+      uuid: 52eeb72b-0ccf-4ad8-ac8a-64cb4f81c017
+  texte:
+    F1:
+      uuid: 23bc6eee-a5a3-40f5-ba6d-d6fa37a911ae
+    F2:
+      uuid: 4031394b-00f1-4396-8f76-401c88d67a07
+  air:
+    F1:
+      uuid: 0f17d2aa-4f79-4e2d-af75-ae2d00b53224
+    F2:
+      uuid: 3416c1db-bec1-49ba-93d4-539b82833ff7
+le_plus_cruel_hiver_qu'on_éprouva_jamais:
+  oeuvre musicale:
+    F1:
+      uuid: dc342e40-27fc-4651-96d4-249772e84cb5
+      E41:
+        uuid: 90b2b0aa-1535-405c-9948-b567bca7d54b
+        E13:
+          type incipit: c05d89ed-e8ef-4318-b253-367558327ea3
+          P190: 1a5916a5-8f51-4b01-9bb5-2777e0fff1d0
+          code incipit: e7341232-4878-44d0-9992-b17544a2c12d
+    F2:
+      uuid: b5f3e02b-5c9f-47ab-a1e8-97643cbca194
+  texte:
+    F1:
+      uuid: 4c170cc4-80ff-4c30-bef9-58a1439f02c8
+    F2:
+      uuid: 632d7d3b-caae-4983-8a67-92e36a9eccc5
+  air:
+    F1:
+      uuid: 0b38ad9d-f605-4a9a-8c3e-d77996ac1025
+    F2:
+      uuid: e2e300ed-9034-4b8d-9ec3-38f0d2613ed1
+les_tambours_et_les_trompettes:
+  oeuvre musicale:
+    F1:
+      uuid: 8e0ff819-3d87-4408-a232-72b6ba9895cb
+      E41:
+        uuid: 256b40af-f5eb-4cb2-b6f3-af7ebf4a532e
+        E13:
+          type incipit: a0f6dc2b-b7fa-402f-af5e-17e7755217fd
+          P190: 5771e172-9e31-419a-9c57-4c2996af75c4
+          code incipit: 5676bace-4831-4937-8a4d-2f66073e4f48
+    F2:
+      uuid: 533f462e-e716-49e8-a238-7986b6e325f7
+  texte:
+    F1:
+      uuid: 435a1691-5f50-407f-9118-cf5b87371286
+    F2:
+      uuid: 8ce9983c-ee30-4ff7-bb9e-f68201e5d2e6
+  air:
+    F1:
+      uuid: ad0143a3-2fc4-443c-81f0-b62f46291e96
+    F2:
+      uuid: bf31843f-f200-41b2-ac9a-9b70774de2d8
+tout_le_monde_me_dit_que_j'abrège_nos_jours:
+  oeuvre musicale:
+    F1:
+      uuid: 8830a3fd-3b9f-4fd6-97b1-f78f32e5d2a2
+      E41:
+        uuid: 5b769c3d-84ac-4277-9a70-7fa46b85b82c
+        E13:
+          type incipit: 5aa56c2a-1672-484f-915e-63ab87a49fa2
+          P190: 679f1332-e1c0-4938-9c82-54c346487472
+          code incipit: 3c855fb4-a2ff-47ab-beee-87f715237d68
+    F2:
+      uuid: 05d1708c-69d5-44ec-aee8-96d3b77b9a27
+  texte:
+    F1:
+      uuid: eeab0288-5838-4274-91b8-92f190cb4132
+    F2:
+      uuid: 9754217d-b7f3-420d-977d-ab20ff7cbbc4
+  air:
+    F1:
+      uuid: c3267484-4bd8-4211-a4e8-36ca22a1b47f
+    F2:
+      uuid: 1c27e683-de9f-443e-adc9-071f87df0500
+buvons_à_longs_traits:
+  oeuvre musicale:
+    F1:
+      uuid: 467d918a-e469-4da1-8243-4afb3e15695d
+      E41:
+        uuid: e162bb02-3e01-4d9f-8f45-48188b0a8f20
+        E13:
+          type incipit: dea1c16e-094d-46d3-a4e7-50e1d8cbb17d
+          P190: 808d0419-ae4e-4259-adaa-f90bddbfda3a
+          code incipit: d1fd5445-e91d-435f-848f-dca5529e20b7
+    F2:
+      uuid: 4f97340a-3a88-413e-b344-381ba1ae6099
+  texte:
+    F1:
+      uuid: 76ca8c7a-3470-41e5-bda7-f7ad002ed3f8
+    F2:
+      uuid: 0b65df0d-86dd-4daa-aa9f-7439666462bc
+  air:
+    F1:
+      uuid: cc3cfa72-668a-4a49-84a1-bae0f5a70140
+    F2:
+      uuid: 2d520114-6169-4712-98af-a5a0620ba6bf
+veux-tu_conserver_ton_empire:
+  oeuvre musicale:
+    F1:
+      uuid: 0fe700e2-ee42-4348-94b7-c968fb799600
+      E41:
+        uuid: 1cf0181c-8dfe-4b24-b0bb-73e5969056cd
+        E13:
+          type incipit: f0421cf3-1ed4-4b78-9c20-9da44704845e
+          P190: 59d9a929-0a48-485c-9451-e93991d648f5
+          code incipit: e76d2203-28d0-4177-a1a7-36dd4a58c30b
+    F2:
+      uuid: 936f9ae4-88c4-4f4a-a4e7-e44adf6636cf
+  texte:
+    F1:
+      uuid: a2f24d5c-edae-418b-8f74-f12c9dc143a6
+    F2:
+      uuid: 9b57b86b-918d-4013-bbde-c8100b4f1647
+  air:
+    F1:
+      uuid: 13f2fcdc-54af-45c3-b6f6-d9e344983bae
+    F2:
+      uuid: 6d64f083-a5ed-4082-9f46-94119157d605
+pour_avoir_dit_que_je_vous_aime:
+  oeuvre musicale:
+    F1:
+      uuid: 697fcf6e-60cd-4c09-95d3-4e318011da4c
+      E41:
+        uuid: 13c95227-01c0-4d0d-b71a-22b3290dfc7b
+        E13:
+          type incipit: 3d5c84ec-9f42-484d-bd33-05a6cd5fcdcd
+          P190: 07c89e58-9181-444f-86aa-a38dbb18a1b2
+          code incipit: ff54c5bc-871a-4f7b-8780-5d084c3e871e
+    F2:
+      uuid: 2d7ad7c5-922c-43c0-86cc-22c5e6f686d4
+  texte:
+    F1:
+      uuid: 1ba80440-0ee3-4e94-a7ee-049b04942d4a
+    F2:
+      uuid: a6f1464f-dcc2-44bc-b826-e8e51ad495cd
+  air:
+    F1:
+      uuid: 3a25fcfa-1f9e-4254-8aaa-c06359d465a5
+    F2:
+      uuid: b59dec2c-59a9-46da-9e7e-b7a9d0babcfd
+amis_dans_les_combats_ne_cherchons_plus_la_gloire:
+  oeuvre musicale:
+    F1:
+      uuid: e8a10d2a-6480-4700-8081-d832db937c63
+      E41:
+        uuid: 4e628853-1e05-4914-827a-2f065033fe4d
+        E13:
+          type incipit: c3e67557-8b0d-4b6e-9424-8d763d7fd58b
+          P190: c2be43a2-1c49-4375-9bdd-f5dffeaefe52
+          code incipit: f121f320-060d-4335-9b15-56fae5fc946e
+    F2:
+      uuid: 6ff95749-e6a4-444c-913e-7e1d8c549765
+  texte:
+    F1:
+      uuid: 90f61b6f-3c2a-4b6d-aea9-302519117ba9
+    F2:
+      uuid: d39665c4-49d2-4e15-b878-bae30159d96c
+  air:
+    F1:
+      uuid: 8f4a0b93-b3ab-4de6-ada1-e5be169dc0c0
+    F2:
+      uuid: f281fbcf-97bb-4ca4-af83-5ff2861a71bf
+ah_ne_me_parlez_plus_des_douceurs_de_la_vie:
+  oeuvre musicale:
+    F1:
+      uuid: a3ad35bb-3105-476b-a883-14df5e8ebfc6
+      E41:
+        uuid: 402d8d15-27ba-4f18-b03e-8698eca47c1e
+        E13:
+          type incipit: f73a3e8a-7792-4abc-af0a-7cd789c7fa51
+          P190: 3dd31f99-404e-40c3-ade1-942e2e5acff1
+          code incipit: a06c30d0-92c6-4dc3-a1dc-11d19df0880e
+    F2:
+      uuid: 4d765228-a772-4c8e-93d3-1cc0e731a336
+  texte:
+    F1:
+      uuid: 11d28790-54dc-4ac0-b5be-901819d46347
+    F2:
+      uuid: 7c2ff923-807c-4c1b-a5e4-37249a0a7783
+  air:
+    F1:
+      uuid: 857ebf5e-cf3e-41c9-aec3-087d897f87ae
+    F2:
+      uuid: b894003a-d048-4743-9b3e-45af9d18e0ce
+louis_moissonne_des_lauriers:
+  oeuvre musicale:
+    F1:
+      uuid: 0bea7e93-30bc-4da6-a06e-7dd036857ab2
+      E41:
+        uuid: 760b741a-b764-411d-ac85-f026e491812f
+        E13:
+          type incipit: d9f7e976-d4c0-44ad-9394-8888954d02e3
+          P190: 160f3caf-5e03-4f68-a33c-cc847c2e586e
+          code incipit: 633815da-da45-4ea3-9ada-bbb35fe2a2d6
+    F2:
+      uuid: cc1b91b2-1bfd-4461-b5a2-7722b47141a7
+  texte:
+    F1:
+      uuid: b7a8bca4-66d9-479b-b376-4d9ffce86507
+    F2:
+      uuid: f513d129-6ec5-408c-9655-557f9271cfc4
+  air:
+    F1:
+      uuid: 2faf0f26-bfd8-4eaf-9542-5d0b19700fa0
+    F2:
+      uuid: 3fd598ba-48b3-4f45-ac5e-19d573728fea
+il_n'est_point_de_jour:
+  oeuvre musicale:
+    F1:
+      uuid: 78b69e5d-bb07-4d3d-9357-cf35342f20bd
+      E41:
+        uuid: 106910a7-8763-42be-9edb-58bd3d34019e
+        E13:
+          type incipit: 3ea30e63-6910-44f5-af59-2c775df6bfae
+          P190: bdc04fc6-2a16-45c4-8243-43b4279081de
+          code incipit: b7d8c95a-ed4f-4c08-b5e4-66e5f2dfda25
+    F2:
+      uuid: 1b340d96-6afc-4b1e-ada2-6d73c77f5253
+  texte:
+    F1:
+      uuid: 8fff7826-3310-4b24-8fa7-343111f1865e
+    F2:
+      uuid: ee0771c7-0d00-4706-979c-48777af8feda
+  air:
+    F1:
+      uuid: dd0cf555-92b0-4fd1-a411-b56daf29b071
+    F2:
+      uuid: 5fddc578-7202-4c8d-af04-001a8d4bfce8
+le_rossignol_que_l'on_admire:
+  oeuvre musicale:
+    F1:
+      uuid: f092a38d-e704-4d92-868d-895a78b51929
+      E41:
+        uuid: 26deb6ec-ac0b-4129-a7f2-58454908c9e5
+        E13:
+          type incipit: db5c0f2b-7c2a-4a66-ba5f-ac67f1381681
+          P190: fa137672-3f50-4453-94fc-e72765e15533
+          code incipit: 10c250d9-398d-4cfe-b45b-131368cb2c71
+    F2:
+      uuid: 264a6f4c-18f2-44e0-ab0c-2ad9bffa145e
+  texte:
+    F1:
+      uuid: 3b12386a-8aa8-4b07-86b5-871c7fd005e4
+    F2:
+      uuid: 0cea289d-87b6-4135-a24f-8de17e993cd1
+  air:
+    F1:
+      uuid: fb844f5a-9160-4db6-b741-30897a7ef92b
+    F2:
+      uuid: dc69b72c-2e43-4ad8-9cf5-1042fdd322fc
+fut-il_jamais_breuvage:
+  oeuvre musicale:
+    F1:
+      uuid: c9173bb3-2741-4058-8aa2-64c93e365877
+      E41:
+        uuid: ef3f93a2-ca22-4fb1-99c6-f83f72fecd81
+        E13:
+          type incipit: 15164742-8439-4776-88f2-0185b407f5ac
+          P190: 1c729d53-9510-4620-9a48-87a4471732fd
+          code incipit: 798fa530-2b10-4fed-b7d1-503d153081f2
+    F2:
+      uuid: c28d2a1d-fb09-48fe-9534-cf0aab51df99
+  texte:
+    F1:
+      uuid: 4a90c217-a0b6-4a18-95e5-e5f8e9648f74
+    F2:
+      uuid: 04d3b1d4-0c6a-41ff-ac55-124949359a56
+  air:
+    F1:
+      uuid: af7b3c0b-38cd-4e6c-8cb7-1954824c1b8d
+    F2:
+      uuid: 414b41d4-a78b-437b-8344-7b9f522434f1
+voici_le_retour_du_printemps:
+  oeuvre musicale:
+    F1:
+      uuid: 125c292d-8b84-4378-aeec-013e5abfd58f
+      E41:
+        uuid: 9ff941d2-d1a1-42f5-816a-f8353c1e690d
+        E13:
+          type incipit: 4e0b444b-bcd6-4ed7-a5f0-fd6b100dfabc
+          P190: 4336af0d-147d-4971-81b9-206b46fa86fe
+          code incipit: 3945dc96-49c4-4370-bb3e-83fe961e36dd
+    F2:
+      uuid: 42ad3165-3420-4433-8f05-ef6402112c03
+  texte:
+    F1:
+      uuid: 0c4537ab-1f6c-4c3f-a094-4e8fb75a0b4e
+    F2:
+      uuid: 19aacedc-f6ed-4347-8ced-05bb1ef806ea
+  air:
+    F1:
+      uuid: 4181afee-e4a7-483b-be07-638a1146c38e
+    F2:
+      uuid: fd05056c-7322-4c02-a8fb-5d18a594f009
+printemps_qu'attendez-vous_pour_embellier_ces_lieux:
+  oeuvre musicale:
+    F1:
+      uuid: 6f7b09a5-f179-4693-922b-2a5a749085ca
+      E41:
+        uuid: e0b667b2-e267-4fb1-9b9b-2ba6782e2287
+        E13:
+          type incipit: e11378a3-3b42-4daa-ab9e-e5bb207a9e1d
+          P190: 05bca9fd-8213-49bc-99d1-a3c70e426c87
+          code incipit: 7dccae2e-fbfb-4bba-bf6f-029670307413
+    F2:
+      uuid: a917fe4d-c0e2-4490-ad28-6a520f03ae22
+  texte:
+    F1:
+      uuid: 3c423998-0106-4170-9917-1bdd33918d37
+    F2:
+      uuid: b50b6cc8-d545-4014-bbc4-daaf7a576b0d
+  air:
+    F1:
+      uuid: fc42dfb1-1b96-4501-84a1-714289cf95e5
+    F2:
+      uuid: c86414df-c6a8-4085-9f3c-fa69e3754483
+l'hiver_ne_veut_point_nous_quitter:
+  oeuvre musicale:
+    F1:
+      uuid: 9ec3756e-8ad9-4db0-9242-217a72da9147
+      E41:
+        uuid: cad53bef-fa49-4952-ac53-021765e3426b
+        E13:
+          type incipit: cf724849-e94a-4634-a1c3-14294e87f8b9
+          P190: 2794aa86-fed7-44d2-aad2-b54a6c961d39
+          code incipit: 466693fa-2740-4d93-b0de-6f01456dbe47
+    F2:
+      uuid: 354593bc-acfd-472a-9179-bb718af7b6c5
+  texte:
+    F1:
+      uuid: 47b6857c-3089-4a19-9d31-9cbcf3048516
+    F2:
+      uuid: f652adb3-cdea-475c-bffd-156ea75ec1ce
+  air:
+    F1:
+      uuid: d0f0c8d6-8622-4c62-86ed-fed006145c7e
+    F2:
+      uuid: 7d673260-a663-4bad-af76-d1f81dd1a536
+voici_le_temps_de_la_verdure:
+  oeuvre musicale:
+    F1:
+      uuid: febfdf3a-bcda-440b-bafa-14a395afa4d8
+      E41:
+        uuid: 008f43ab-238c-43af-b99d-d7740f79382e
+        E13:
+          type incipit: 93e05c3a-8ba6-4384-88cd-4331dcc120aa
+          P190: 1843f93e-37a8-4fca-b2cc-828a2d841da0
+          code incipit: 310051d8-2d07-43eb-80bc-5c27f4f45abf
+    F2:
+      uuid: cc624ee1-bd06-47e0-9134-df3d499a1d9b
+  texte:
+    F1:
+      uuid: b89cfef4-e659-4018-ad68-77631a6100bd
+    F2:
+      uuid: 6e090cb5-cbee-4df4-bb40-078ac89412a0
+  air:
+    F1:
+      uuid: 3baeff29-497c-4308-aae7-38a38369e419
+    F2:
+      uuid: cf011ee6-23b8-4220-a1d2-34623501901f
+buveurs_ne_craignez_pas:
+  oeuvre musicale:
+    F1:
+      uuid: 3d024643-2cc4-4769-a5b9-f1190e7e9265
+      E41:
+        uuid: 234fc7ac-7bac-4e51-9e81-956cba5a11bd
+        E13:
+          type incipit: 515bed78-a5e5-417e-a450-77bf76c67386
+          P190: 3d6a244f-85ce-44d0-ac13-28fec667b07d
+          code incipit: 3de117c1-1978-4d9c-9dd9-0e26eed2e39c
+    F2:
+      uuid: 8ac01d9b-75f6-43d7-a89b-c04f6fc74e81
+  texte:
+    F1:
+      uuid: 456edbff-f441-4395-9669-ab16e24edd41
+    F2:
+      uuid: dcf9f28d-9da8-4716-b1ae-0ee6df115c11
+  air:
+    F1:
+      uuid: 1d15b556-bf24-4dae-ad5b-013ab4af47b5
+    F2:
+      uuid: feb17687-f975-4392-8f7c-5ed8cf7abf0d
+l'hiver_qui_paraît_sans_charmes:
+  oeuvre musicale:
+    F1:
+      uuid: fa081da7-c61d-46ac-87b6-efc7e24265a0
+      E41:
+        uuid: 1c29f0bd-31ca-47ce-b8ca-5c1a8e2c5ffc
+        E13:
+          type incipit: 6c16ce00-435b-4c6a-858f-6948d94f9893
+          P190: 4097e114-ffb3-4849-9300-8bf8e710a709
+          code incipit: 79951011-6cea-4ecf-b055-b05c5ab2d6d9
+    F2:
+      uuid: f95236a3-4a59-4979-9a07-c3ab19856bae
+  texte:
+    F1:
+      uuid: e503fae0-c0c2-4257-9958-9eb18fb19329
+    F2:
+      uuid: a6c6d5ec-179d-4fbc-ae53-d1e37db85aed
+  air:
+    F1:
+      uuid: 011477c6-b63d-4e03-9215-606f27ce1cb1
+    F2:
+      uuid: 350cf9ed-6e0f-4afc-bcd9-76d0ad9ecb95
+daches__mrgavotte:
+  oeuvre musicale:
+    F1:
+      uuid: 9468831a-c02c-4eca-a4c0-fe75a9cd1c36
+    F2:
+      uuid: cc60fcc7-3ed7-4d26-b12a-5be5f36061fb
+  texte:
+    F1:
+      uuid: 078424ef-e863-433e-8d27-8ca05f04b740
+    F2:
+      uuid: f817aaa8-c26e-4d5e-bc9f-a53283b24f30
+  air:
+    F1:
+      uuid: 4ed3cba6-c59c-4dec-a9ce-4b587e9fae03
+    F2:
+      uuid: b0588f73-98d0-4f27-91c3-fb2d284b10e4
+daches__mrmenuet:
+  oeuvre musicale:
+    F1:
+      uuid: 69a76d59-d4a5-40f6-9258-56952bff535c
+    F2:
+      uuid: 3d26fef5-ba5c-489a-aa12-17ab3305ec26
+  texte:
+    F1:
+      uuid: 081d3f2b-e490-498c-8afc-4ad9294f669c
+    F2:
+      uuid: 30e1c573-e382-4f5e-ae7c-7ff4fbceab19
+  air:
+    F1:
+      uuid: ee210423-bafe-45f2-9386-5293e9bda8fd
+    F2:
+      uuid: f27fbee6-bd26-44c6-8124-f6e96b8f4c7c
+je_fuis_l'amour_et_les_procès:
+  oeuvre musicale:
+    F1:
+      uuid: b3ca5126-d1fb-4ee5-9414-870d5bed9f90
+      E41:
+        uuid: 3237be6e-98e2-43e8-b7dd-24d28a3a1065
+        E13:
+          type incipit: 601b7f2a-d436-4640-bfdd-e290787afe6b
+          P190: 7e20d71a-fe92-42f5-865f-2b94301acd31
+          code incipit: a3b61943-7de9-4d21-a5a8-27f24b4b76f2
+    F2:
+      uuid: e9595622-c3d9-4494-bf24-72081d64e90a
+  texte:
+    F1:
+      uuid: 2cb98146-7afb-4b15-b42a-9ef50d8a238c
+    F2:
+      uuid: d193241b-6555-4992-bb54-d84b543923c7
+  air:
+    F1:
+      uuid: 4c80b0d2-66b9-4292-bb4d-a857e435a4f0
+    F2:
+      uuid: cea9b36d-7004-4748-9c3f-3813b46f8b74
+quel_changement_affreux_paraît_dans_la_nature:
+  oeuvre musicale:
+    F1:
+      uuid: ed3f6535-6be5-4fe5-9deb-7314d5b808d6
+      E41:
+        uuid: 629b9b5c-9165-4daf-9543-218b8c387f01
+        E13:
+          type incipit: 6fafd5c9-443d-44b5-9bcb-a105e286898f
+          P190: a74f4570-afba-432f-bff4-4037d8a3775c
+          code incipit: 732d22f0-6e6a-4b3f-88e6-ab2b3ff18bbf
+    F2:
+      uuid: eb35175c-1033-4ff6-9d46-e66c5971ffbb
+  texte:
+    F1:
+      uuid: bf243a34-5adc-426f-9733-6d2f2f2ce89e
+    F2:
+      uuid: 90cd15d0-5c34-4b6d-afa1-d45d00e20602
+  air:
+    F1:
+      uuid: 2892abc5-3680-449d-9cca-03d1c6d63da3
+    F2:
+      uuid: 9b2a6187-3268-4376-8c16-3a6bbed9d1d6
+beau_jardin_beau_ruisseau_témoin_de_mon_martyre:
+  oeuvre musicale:
+    F1:
+      uuid: faf85236-5ae2-4e63-a51f-a2130ab09d65
+      E41:
+        uuid: 347dd543-81dc-4db9-81a2-d81e6ccf2c22
+        E13:
+          type incipit: 3adfdd77-b94b-4171-8b14-441f59f6fd14
+          P190: 18c55deb-c221-4e86-a053-84f6ad30e081
+          code incipit: 3987677b-c138-413b-a1e5-aa0a9c45446f
+    F2:
+      uuid: cf5f5f07-d29f-4f95-8e93-c52356393364
+  texte:
+    F1:
+      uuid: 716660b9-5e12-4c1c-9e5d-d2f83bd07b36
+    F2:
+      uuid: 6e5b86c8-fbb6-4b41-b9bc-9f5f90db370a
+  air:
+    F1:
+      uuid: 739d038a-b321-4fde-8cd3-a1e5f580d1f5
+    F2:
+      uuid: fb77405d-9b44-4f0d-943f-3acd58cc2a93
+vous_voulez_que_je_vive_afin_que_je_vous_aime:
+  oeuvre musicale:
+    F1:
+      uuid: 3ae45f51-9c81-4ebd-851e-a991eca6d024
+      E41:
+        uuid: c220a799-7bc0-49b7-ba29-f2165f0858c3
+        E13:
+          type incipit: 20c9b851-31ea-42ba-8280-c7f5cf6d7989
+          P190: 90bef3d2-41b2-41a9-96f3-da16ce69a090
+          code incipit: 137e499d-34fd-4fb2-bbaa-c097a7604c96
+    F2:
+      uuid: fda44db3-87a6-46e4-930a-7a2c601d6509
+  texte:
+    F1:
+      uuid: 52ef12d9-b4bf-47a9-aa9b-ad2af4e4f4a3
+    F2:
+      uuid: 5b511e2e-5f6b-47bf-80c7-c69434841d1f
+  air:
+    F1:
+      uuid: ee70eafb-1da0-4cfd-aeef-0a70fba7e7e3
+    F2:
+      uuid: d3fd49cb-ffeb-4b89-a31a-5b0ca69c368a
+gigault__nicolasnoël_à_2_parties:
+  oeuvre musicale:
+    F1:
+      uuid: 1bdb6f70-1931-4785-9026-02ecc32caffd
+    F2:
+      uuid: 0d51e1ec-7d39-45a6-9450-afc483f7f3c5
+  texte:
+    F1:
+      uuid: 2851605c-321c-4c13-b2e0-f96c5d2bc6eb
+    F2:
+      uuid: 26fc453a-c4d1-42f0-926a-fe7c5f4c7fad
+  air:
+    F1:
+      uuid: dd60fd82-fffe-4ce0-aa71-168c478c4e7b
+    F2:
+      uuid: cc67fe68-e670-4895-a153-08ba6313d473
+rien_n'est_égal_à_ma_douleur/beaux_yeux_dont_j'adore_les_coups:
+  oeuvre musicale:
+    F1:
+      uuid: 6bf91bd6-ae26-46cc-ad7f-5928ecd695b4
+      E41:
+        uuid: b056255a-6069-4c2a-a8e1-4f918bd0b402
+        E13:
+          type incipit: ba0a67d9-6dbf-4e5d-9588-c16b95304871
+          P190: f58f07b4-0226-4722-a126-eae3dc8faf1d
+          code incipit: ee096ed4-5438-41b4-8ab6-84e4a46b236d
+    F2:
+      uuid: 4e4d85e3-456d-4a9a-8e20-db253a2c8d69
+  texte:
+    F1:
+      uuid: d5394c85-fcb9-488a-9471-fc9d2364e0a9
+    F2:
+      uuid: ed5f3900-fefc-436c-bbe6-2cbb992c13fb
+  air:
+    F1:
+      uuid: 547307bd-abc5-4b50-adc5-6053921500dc
+    F2:
+      uuid: 2661f39d-6908-41d6-addf-9ec795a2051e
+l'aimable_saison_des_zéphirs:
+  oeuvre musicale:
+    F1:
+      uuid: e61073cc-50de-4ce1-b41d-1ec0a2f28dfb
+      E41:
+        uuid: 7a639e98-e2eb-478f-90ba-452e366fc4d2
+        E13:
+          type incipit: ea2b7b68-8b4c-40f7-a81d-9aebca1af0f4
+          P190: da263fb3-0df6-431d-a067-8fbbe5e81cee
+          code incipit: 2388590e-d669-4185-a6c1-da888a4b47e2
+    F2:
+      uuid: 47d22256-7434-4a28-af51-46f7f5bb32cc
+  texte:
+    F1:
+      uuid: 5ef6aa50-4b05-4154-9aca-c2a5c1594807
+    F2:
+      uuid: b01259b4-7937-4241-8d88-3c4df0928cba
+  air:
+    F1:
+      uuid: 5afa1976-af58-4611-a5ce-87c07b25e309
+    F2:
+      uuid: 33077447-2c87-470e-a325-d4ce5bcf90f5
+je_n'aime_plus_ce_beau_séjour:
+  oeuvre musicale:
+    F1:
+      uuid: 3d25afcc-5a44-4880-a5ac-96526680a6f6
+      E41:
+        uuid: fba1479e-148c-4db8-b6fc-3615ab32af0f
+        E13:
+          type incipit: bccd737d-93a1-4a13-87bb-d8274bc76c15
+          P190: 4eedbd06-6054-485d-aafc-3a4c741b76f9
+          code incipit: fd03d9c1-628b-4a9f-a04d-5c67c0958ad9
+    F2:
+      uuid: f514102f-cfcb-4416-9457-0d0c67b99254
+  texte:
+    F1:
+      uuid: eeffff1e-8b77-458d-9897-c5b75aeafe26
+    F2:
+      uuid: 64a274f3-07c7-4e3c-bc33-6fa393b48b58
+  air:
+    F1:
+      uuid: e35ac874-b3ee-4d38-a546-a73a0442c324
+    F2:
+      uuid: e4dec661-cd97-4f4f-82ad-caaf5e168f1c
+hélas_une_chaîne_si_belle:
+  oeuvre musicale:
+    F1:
+      uuid: 5dec7fe8-45f0-48da-8c3f-605fbc60c255
+      E41:
+        uuid: 5ba6119b-1d19-4423-9d51-38c7304f1f36
+        E13:
+          type incipit: ad1ff2d9-252b-48b6-b4c9-8494f6d6f3e2
+          P190: 3e9a0935-bbd7-42e7-ac0e-29dea95afc58
+          code incipit: 71b1ae5f-3c6e-43d8-b1b3-bf41d5f2f563
+    F2:
+      uuid: 8c1a8a39-eb4c-4351-9c8a-cfa76eaabab5
+  texte:
+    F1:
+      uuid: b154db3c-70fc-450e-81e4-3c2d430f4b0b
+    F2:
+      uuid: 3c45c426-85a0-4aff-9ba8-b08c4b18c30e
+  air:
+    F1:
+      uuid: ad65d69f-3e08-4e54-adc9-ec7340debe53
+    F2:
+      uuid: 07dc88b1-89d5-499f-9307-17c61e24c363
+c'est_une_douceur_sans_seconde:
+  oeuvre musicale:
+    F1:
+      uuid: ff7d1bc0-4a44-41a4-9288-2cc21fafe284
+      E41:
+        uuid: f56341c4-9785-4354-bbdf-a77b612b5e84
+        E13:
+          type incipit: 35658340-8140-4bd0-8e13-788716f580c5
+          P190: f13610db-d37e-4fbd-9991-51a1a6aa9864
+          code incipit: d8e43448-90f9-4201-a2c4-244503f023ea
+    F2:
+      uuid: a7fd727d-716f-40ce-a8ec-b7e6eb163e8e
+  texte:
+    F1:
+      uuid: edbaba32-653f-44f8-9f56-1a032698fedf
+    F2:
+      uuid: 00d9d38d-b878-41c8-a714-628b516a9b65
+  air:
+    F1:
+      uuid: ddeed36f-792d-4e88-a3b2-a2c5495aad22
+    F2:
+      uuid: 8f8e1f33-f0ae-43ba-8f08-be257170a96d
+bergers_qui_murmurez_de_ces_rigueurs_extrêmes:
+  oeuvre musicale:
+    F1:
+      uuid: 7d676ff7-2f5b-46ca-92e8-3c45b00039fc
+      E41:
+        uuid: be085e29-73df-45a7-9dba-198df1c6ae6a
+        E13:
+          type incipit: d1e27bf7-31d0-4d8d-860a-f5844cbd0ea0
+          P190: 4621bde7-fb94-4b4f-87f5-475d21890dc9
+          code incipit: fb9804f1-5ed2-454a-bf8c-263123472e8e
+    F2:
+      uuid: 52aa5a98-4051-4922-83b2-66b34d95eb82
+  texte:
+    F1:
+      uuid: c625de65-d307-499e-96d7-9339d63d7177
+    F2:
+      uuid: 9d8160ba-667d-44b4-a580-7df58d12ddcf
+  air:
+    F1:
+      uuid: dc256d5b-67c9-45f6-a711-5d1b19414fab
+    F2:
+      uuid: 357b197f-4cee-4144-99c0-b9e1f12b822f
+chi_spera_di_gioir/a_chi_sperar_si_goder:
+  oeuvre musicale:
+    F1:
+      uuid: 6cc7e57c-19b9-4050-ae93-5bc55ab10389
+      E41:
+        uuid: c572334d-914e-4edd-8fcd-afeba9c85170
+        E13:
+          type incipit: 3def7622-2692-4992-a1e5-9298c0e7b3ea
+          P190: 8e963566-a2f9-494d-a4e4-6a04a903f4ea
+          code incipit: 9e261b7f-4dc9-4e14-8c0f-1add19a33da7
+    F2:
+      uuid: d5e796fa-5f65-49bf-be24-adb2b1074802
+  texte:
+    F1:
+      uuid: c82d54a5-2259-4fb4-b3e0-e4dc72330f56
+    F2:
+      uuid: 0e0a4059-be36-42e0-a3e9-bc8af86fd374
+  air:
+    F1:
+      uuid: fa134977-f4ea-485c-965b-9ca383f9852d
+    F2:
+      uuid: e8045dc3-ac07-4c17-9cd7-519b30f0b171
+si_baccia_stringi_e_godi/si_vanne_corri_vola:
+  oeuvre musicale:
+    F1:
+      uuid: 3e6b95e6-f5ba-4ff8-90f8-13b3f5d6c693
+      E41:
+        uuid: 8c02d0da-8d69-4c5c-b49a-edfdceafdd61
+        E13:
+          type incipit: d9dffc68-b656-41c3-8585-a104e6e89c79
+          P190: 8e0ce0ba-6d45-4f60-8bad-f4b1da218e38
+          code incipit: a439f7de-59d2-4e7e-8b11-852abb164365
+    F2:
+      uuid: 1380b91b-c9d5-40ad-a339-50a6f436f645
+  texte:
+    F1:
+      uuid: 39eacd9b-3b25-493d-8a87-ac22516790a3
+    F2:
+      uuid: c3547812-4917-4123-a519-85fcd91279bd
+  air:
+    F1:
+      uuid: fa8d2443-b41b-4360-bc77-16a00574e21c
+    F2:
+      uuid: 882c089a-0408-43ab-ac79-14201e2f64a3
+quel_changement_dans_la_nature:
+  oeuvre musicale:
+    F1:
+      uuid: d4c2828d-0e03-4f33-9511-d679985f2c9b
+      E41:
+        uuid: ba4e1a6c-fbfe-4e80-8903-a5ce84c316fb
+        E13:
+          type incipit: 6e20f4b1-edec-447b-b44d-db60c7a79352
+          P190: d7f3b335-1cfa-4d6d-8fc2-28fa693388fe
+          code incipit: d21a7a23-ba3b-40d0-b575-dbc6b047fbc1
+    F2:
+      uuid: 87383f7c-665a-4419-bd72-02f7ac3f7fa2
+  texte:
+    F1:
+      uuid: 394dd414-a1f9-49d6-8be2-08a41a565721
+    F2:
+      uuid: 192861c1-2e92-49f1-9f4d-52d1c0ff60fc
+  air:
+    F1:
+      uuid: 728907b1-16b2-47f2-8053-d7c46d2e487c
+    F2:
+      uuid: b2f1d21d-c4a8-4437-9320-eef9250087b3
+l'inhumaine_l'ingrate_a_pu_m'abandonner:
+  oeuvre musicale:
+    F1:
+      uuid: 798438df-571e-43f6-be98-5bf17efd471d
+      E41:
+        uuid: d116cffc-164a-4b1f-91c1-f850f705a321
+        E13:
+          type incipit: 612e1cda-4326-4933-96e4-41fdc6d8edd3
+          P190: 8ae75783-ebbf-4672-89f1-34cb1f143653
+          code incipit: 0149ae27-a5fd-4f81-9142-fd2f95028338
+    F2:
+      uuid: c797fd4a-f175-4ee1-995e-6b9d45fe7db8
+  texte:
+    F1:
+      uuid: 2dd9712e-a9e3-4052-8884-c84ba7c37de5
+    F2:
+      uuid: 12accc69-b75a-4439-9868-f1b0aa1ea2e3
+  air:
+    F1:
+      uuid: 36f03c0d-bdae-4622-a5a5-829f2204c367
+    F2:
+      uuid: ac14f5b9-7bbc-453f-b36c-a6c9c6cb7c42
+gallot__jacquesl'éternelle_de_mr._gallot:
+  oeuvre musicale:
+    F1:
+      uuid: 3c9fc977-75cd-4566-9249-fc866c0adcd4
+    F2:
+      uuid: 9312c81c-0562-4db1-81fc-fcff5c5facc8
+  texte:
+    F1:
+      uuid: ea8c4b87-8a7d-4530-bee0-54c5a209e4a8
+    F2:
+      uuid: 495e0f31-38d0-49af-b6a2-69427590ff9f
+  air:
+    F1:
+      uuid: 5eb90899-8057-4d21-aa00-e0b5c398d5a2
+    F2:
+      uuid: 6f02a6d1-e35f-4f2b-b619-58b37437b149
+kesthoff__jean-paulsuite_pour_le_violon_sans_basse_continue:
+  oeuvre musicale:
+    F1:
+      uuid: c5094033-33cc-4de0-b785-a12afc9accd0
+    F2:
+      uuid: fd13dcb2-0b64-4906-bedc-ed9b7346c445
+  texte:
+    F1:
+      uuid: 563877d3-7d80-4fac-b6d1-a8f627750089
+    F2:
+      uuid: d2f9d5cc-e77f-4ea2-8d46-664167d449e6
+  air:
+    F1:
+      uuid: c65299eb-8168-473c-946a-047fe789ad16
+    F2:
+      uuid: 034d2d1f-b7f4-4aa3-8319-3010442f0e88
+kesthoff__jean-paulla_guerre/sonata_violino_solo_col_suo_basso_continuo:
+  oeuvre musicale:
+    F1:
+      uuid: 3ff17674-2046-4870-b986-6c10c26b4593
+    F2:
+      uuid: fa4a5952-8ba0-475c-bd2f-6ed4304705c9
+  texte:
+    F1:
+      uuid: c0856b6f-381e-459e-a378-786f731ea918
+    F2:
+      uuid: ae7cfd14-b090-4c41-990d-6457d9c0935f
+  air:
+    F1:
+      uuid: 9347536d-5a6e-41be-9eb1-326e5bd96598
+    F2:
+      uuid: 006a457d-77c7-4c3c-8bba-254244d003ca
+vous_ne_voulez_donc_plus_me_voir:
+  oeuvre musicale:
+    F1:
+      uuid: 79918020-7ce5-493a-9331-356faed9d2df
+      E41:
+        uuid: 6c660174-36b9-4b21-b597-d11a2dc6f080
+        E13:
+          type incipit: c02eafe6-9e95-4010-9592-43dbac80681e
+          P190: 6c27af11-bf1d-4bac-aee1-325d55424add
+          code incipit: dd23ab2a-ac47-404f-8abd-51a7c147f1bd
+    F2:
+      uuid: 0136e337-3a5e-4616-a5c6-8d655d67c50a
+  texte:
+    F1:
+      uuid: a96e7794-4363-4283-a4cd-4acfe413ff47
+    F2:
+      uuid: 72110aec-c00f-4f15-a871-7b169f0ee8c3
+  air:
+    F1:
+      uuid: c35ec043-076f-47df-a22a-396992ac1db4
+    F2:
+      uuid: ec838df5-38a7-452d-86eb-34418db7ac98
+you_ai_mon_fifré_prends_ton_tambourin:
+  oeuvre musicale:
+    F1:
+      uuid: a3734b20-5adc-445a-8cf9-26c6933607b7
+      E41:
+        uuid: 8c8db4de-4d3a-48e4-9f90-dd59216757c6
+        E13:
+          type incipit: 8a9368bf-c796-4618-af72-8c033dd3e2b8
+          P190: 2935e303-4e62-4340-93df-09b46166f178
+          code incipit: 75bffdb4-b975-46cb-905e-da968f37d315
+    F2:
+      uuid: bf8c838f-0f45-467d-bc6c-f69471177d9d
+  texte:
+    F1:
+      uuid: 103ed93a-f511-46f0-9d05-f9c7c73d3486
+    F2:
+      uuid: 01c97673-01ab-4f01-9b3d-93d45e6b7457
+  air:
+    F1:
+      uuid: 67525e2f-ac31-4d9c-9d04-6a13c39a8243
+    F2:
+      uuid: 147fc1e0-20c7-4400-8422-46bf4a677092
+on_peut_encore_dans_la_prairie:
+  oeuvre musicale:
+    F1:
+      uuid: 30aa13ab-2562-4804-b260-1c10d4c18ada
+      E41:
+        uuid: 40964ce3-b79e-4532-9ab5-34b596f8a358
+        E13:
+          type incipit: e30462a1-1488-4e7f-b00d-7e3b7141786d
+          P190: 50b627ba-c13a-41c0-bf0a-4422d1d55739
+          code incipit: 0b26ed5e-2d4c-42ba-aeaf-4ab39584daa7
+    F2:
+      uuid: 875d32e8-f543-4e81-bc6d-6930693929a9
+  texte:
+    F1:
+      uuid: dfd68937-6b5e-40d7-9bdf-1e2704065ad1
+    F2:
+      uuid: a8687eae-8ac3-4037-acb3-1b15e0f9408d
+  air:
+    F1:
+      uuid: 109a84f7-2c22-4a84-ade3-c5529d5589bd
+    F2:
+      uuid: 48a0f2a8-3658-43c9-99bd-5088acf0e7cd
+bergère_dans_ce_beau_séjour/berger_dans_ce_beau_séjour:
+  oeuvre musicale:
+    F1:
+      uuid: c831297f-dab5-4ef0-b219-529169a0104a
+      E41:
+        uuid: bd43f9d9-e8d5-4322-a895-9f6a4a896f87
+        E13:
+          type incipit: 023f5fdd-493c-4e9d-84e1-04a81617b9e1
+          P190: a39b8814-4bbe-4af8-aca8-ebab3d402409
+          code incipit: f2826f8c-5e33-4fbe-8fac-9f1af18fedfd
+    F2:
+      uuid: 8b6389c5-590e-4b4b-aaa5-0c6aaa4d0efd
+  texte:
+    F1:
+      uuid: 9cdb7678-50c2-4df6-8e67-273bd769d608
+    F2:
+      uuid: f05c70ed-f461-4be4-98cc-a235385da806
+  air:
+    F1:
+      uuid: f7eb8f56-0e5d-40b0-bc5e-b9ac87183304
+    F2:
+      uuid: fb8f051d-ac25-4569-bd8a-b29cfb6f1eca
+quand_on_soupire:
+  oeuvre musicale:
+    F1:
+      uuid: ddd0e3a7-e33b-465b-b9d3-8f7e7d1989c0
+      E41:
+        uuid: a9d0711c-1c60-451c-9f94-020781ae08b6
+        E13:
+          type incipit: 5a8830ef-8e5a-4a04-9322-a129a3451430
+          P190: 7d3cb85e-1d46-449f-ae54-5b8e6e1adff7
+          code incipit: 4dd03670-bd09-4ce4-b6e1-b67d0e85488c
+    F2:
+      uuid: 2047bc1b-716f-4062-ac26-32eeec3dcecf
+  texte:
+    F1:
+      uuid: ae4eff8e-619a-4e6f-8751-9fb33748c338
+    F2:
+      uuid: 0064f529-8dba-43cb-8747-f30c56caa327
+  air:
+    F1:
+      uuid: 011531a0-c93a-4095-8ffa-edbd147aed3d
+    F2:
+      uuid: cf812fc1-f7f6-4a36-81bd-0d6cb53851d4
+favoris_d'apollon_messieurs_les_beaux_esprits:
+  oeuvre musicale:
+    F1:
+      uuid: 899c6258-6f0e-4482-8a7b-89ba53f365b8
+      E41:
+        uuid: 77169f9a-34d1-4358-b285-dc2ed69b3f13
+        E13:
+          type incipit: 3e622ba5-6694-4d76-b23d-5ccd5a5d9b5c
+          P190: 10cb2f7e-53ee-4c36-9351-c5f7a3b262a7
+          code incipit: 68b838f5-d8cb-49a8-86d1-91bcda9995fe
+    F2:
+      uuid: 042da19c-3f45-4800-aeda-ad5526c5f29a
+  texte:
+    F1:
+      uuid: 02aee3c5-4bff-486d-b4ef-162bd1aea766
+    F2:
+      uuid: 271f370a-f13c-4f32-b1f9-e2baeed5d190
+  air:
+    F1:
+      uuid: edfcd5b2-3d83-494a-b7ad-4de752c8b4c8
+    F2:
+      uuid: 2825d871-6814-44b2-9132-9b33bbe787d4
+ah_quand_on_aime_tendrement:
+  oeuvre musicale:
+    F1:
+      uuid: fe0254bd-b72a-4f84-8ddc-64cc1c697ed7
+      E41:
+        uuid: 43efa24e-b5ad-4fd6-b5a0-73ed7b5895bf
+        E13:
+          type incipit: 35f15ead-d2a8-492b-9f81-370843923b2b
+          P190: d3ccbb5a-de7c-4664-b056-123200b3f28d
+          code incipit: 079774dc-1278-4800-add2-85702350b9f5
+    F2:
+      uuid: 549d5c2a-c65e-4fbd-8b88-e63c764c31c3
+  texte:
+    F1:
+      uuid: 6fe9e984-d194-4673-8726-60264dc28759
+    F2:
+      uuid: 400b5fe2-4ffb-4ae9-98d4-79c6d086bf39
+  air:
+    F1:
+      uuid: e74571e3-bd3a-44bf-a074-789f4d976ca0
+    F2:
+      uuid: 62dd9dc1-0f00-4dba-a1b7-6d91f9df86e5
+j'avais_résolu_de_changer:
+  oeuvre musicale:
+    F1:
+      uuid: 1c815364-c029-4ab5-9eb6-e029ab88f0b6
+      E41:
+        uuid: d4e6aded-1034-488d-ad4a-568204afd11c
+        E13:
+          type incipit: 7f36ef74-39f7-42eb-90c2-f36ef0c50252
+          P190: 357ebb67-cecf-44a5-a80b-79c8bcb38105
+          code incipit: 95eb5646-7ea8-4138-911b-a44e618d3b1f
+    F2:
+      uuid: fec6928f-6a6b-4366-bba4-6fab95e152cf
+  texte:
+    F1:
+      uuid: e84b1403-02c1-4859-b6b0-662492fb5997
+    F2:
+      uuid: 8611179c-287f-4dba-a4b0-02a61938fda8
+  air:
+    F1:
+      uuid: d2333b5c-8b76-4ad4-a7e5-df536a7ad1cf
+    F2:
+      uuid: 933b6c0c-6e1f-429f-89fc-054f847fb05b
+je_meurs_des_maux_que_vous_me_faites:
+  oeuvre musicale:
+    F1:
+      uuid: d723641d-430d-4369-ab47-fac4237750cf
+      E41:
+        uuid: affa130e-a46f-4d30-9321-10bd8bacec4f
+        E13:
+          type incipit: 0be20a49-7f92-4fc2-9409-0f1325f63cf6
+          P190: 075d87ea-0389-4a57-b285-4662399c2a82
+          code incipit: 40fd7d60-22b8-4601-ad44-a7355aa1d610
+    F2:
+      uuid: 332458f9-d698-47f6-a18b-0e38eed83582
+  texte:
+    F1:
+      uuid: a8c98cc4-0974-4062-b674-c53cbcce30fd
+    F2:
+      uuid: 01782c27-ed75-41c3-b3e4-b6dacb3e60b6
+  air:
+    F1:
+      uuid: 5c2bade8-4dd7-4cbb-9170-1f41931e7324
+    F2:
+      uuid: ab45581b-d437-4266-a027-474a95e9aaea
+je_n'aime_plus_le_son_de_ma_musette:
+  oeuvre musicale:
+    F1:
+      uuid: ca54913f-c0e1-4839-84c1-ec0d8670f9b5
+      E41:
+        uuid: d17dc0f8-5ea0-46ba-acc2-d69dfe939726
+        E13:
+          type incipit: 95158e82-11c1-4bdc-a6d0-c81a206399b6
+          P190: 87fb9fd6-692e-4ab7-95cd-d2c74fd0e06f
+          code incipit: 1f1b2a3e-4af1-4758-a2b7-d2a257be9c50
+    F2:
+      uuid: cb11698e-8e0b-44d0-8830-a45b92ccb08e
+  texte:
+    F1:
+      uuid: 7099d72e-1f31-4933-bde4-9e0de4c06019
+    F2:
+      uuid: 566d95be-3c5a-40e5-82ad-bb10f37c07cd
+  air:
+    F1:
+      uuid: c481252d-e9b2-4501-b820-e6ace07a8fe2
+    F2:
+      uuid: 369fb624-050c-4fb7-9430-ab2d08c4aec6
+en_vain_tircis_s'efforce_de_me_plaire:
+  oeuvre musicale:
+    F1:
+      uuid: 1d5a13d7-2bbc-452a-a4ed-6a3ce693625c
+      E41:
+        uuid: 59e0414d-a1b7-4c93-82d2-935324764ffe
+        E13:
+          type incipit: 2aace87a-9bca-4536-a667-ea1243df0d7e
+          P190: f01baf18-9539-4b6b-ad70-f3500f81be13
+          code incipit: 9800807b-2f36-4e60-a5ca-82dd9fd7c5b3
+    F2:
+      uuid: 1d65ce79-5358-4f9b-b445-cdd71776f7d1
+  texte:
+    F1:
+      uuid: 2fd43d87-fce8-4647-946b-ee09d952634a
+    F2:
+      uuid: 455d85f6-8a18-4ea6-8a59-43a7c05f6679
+  air:
+    F1:
+      uuid: c9e7faa1-05ea-4097-a171-3998abe0bb84
+    F2:
+      uuid: 01ce7d3d-2d9b-420f-b461-0e41dfbc7ed7
+je_veux_et_ne_veux_plus_vous_voir:
+  oeuvre musicale:
+    F1:
+      uuid: 3fd3d996-f9fd-4863-adf4-5520993aeb3b
+      E41:
+        uuid: 7cf92ee6-8a5c-4860-9c6e-d0114b55e4d9
+        E13:
+          type incipit: 41d1ad77-8fbc-4b0c-a67a-dd477fa4517f
+          P190: a5b01e09-4d2f-4f82-bb86-f8f0b132b2b3
+          code incipit: d49fa131-27ac-47b1-a269-636bc736651b
+    F2:
+      uuid: 668523f4-9fde-4abe-bfb4-b1ad6f68f589
+  texte:
+    F1:
+      uuid: ec6eb111-8d20-4263-ae23-f0cb20f87017
+    F2:
+      uuid: 8716dad0-dcfd-492b-9582-647e5de64894
+  air:
+    F1:
+      uuid: 7871ba67-5dd0-4a6b-8e2a-721bf32edabb
+    F2:
+      uuid: 29241d61-2d9c-4e72-92ad-59832f79efcc
+nous_nous_étions_promis_une_amour_éternelle:
+  oeuvre musicale:
+    F1:
+      uuid: 4658bd77-adf8-4675-b131-d8ebed1dae73
+      E41:
+        uuid: ecb4918b-9175-44be-a0f8-86598921ab8b
+        E13:
+          type incipit: c0f98b0c-6daf-444c-bada-c066fe891246
+          P190: a9a173dd-7781-495a-a7d0-5349f941d09a
+          code incipit: 891b5aaf-818b-4cd9-8df9-8a4c88ebebfe
+    F2:
+      uuid: 168de86e-3b2a-448d-8251-e24a144c88bc
+  texte:
+    F1:
+      uuid: 5e39a830-100d-4c28-bc16-d650b930d2b5
+    F2:
+      uuid: 6305f0a9-fd8f-47aa-9a35-b3f959a145ad
+  air:
+    F1:
+      uuid: 1f1b936a-360a-4e31-a60f-969661ce82c8
+    F2:
+      uuid: 9845423e-844b-491c-a44e-bdb627c3a853
+ah_que_votre_retour_printemps_me_rend_jaloux:
+  oeuvre musicale:
+    F1:
+      uuid: e144fd0c-967c-44ce-9ae2-447db83b27da
+      E41:
+        uuid: 0d7fddb6-5766-49e3-b608-c6342c2b495b
+        E13:
+          type incipit: dab97ea5-d5ce-432d-8b39-38d7bb716e5a
+          P190: 5712a9a6-fef6-4987-907a-ed24ed5a5430
+          code incipit: 7ea50392-a2ec-4475-a5c3-1625e5823f83
+    F2:
+      uuid: b8b80d44-986a-4c81-b546-bb57ec2c149e
+  texte:
+    F1:
+      uuid: f52d6e44-717b-4ff5-84d7-731af4f85a67
+    F2:
+      uuid: f9c07e9f-8df1-473d-a80b-9c0a12171a6c
+  air:
+    F1:
+      uuid: 3d900c4d-d4d9-400e-a8c7-fbea3ec7044a
+    F2:
+      uuid: 2f2542be-b638-4d33-a82d-345924f3e7c6
+auprès_de_vous_je_souffrais_chaque_jour:
+  oeuvre musicale:
+    F1:
+      uuid: 074d655c-37b1-4fbc-bb8e-fd621c771c4f
+      E41:
+        uuid: 234c2b06-68f6-467a-83d8-1a280c269fe2
+        E13:
+          type incipit: b27576fb-3381-4d47-a419-bc2ca56e55b3
+          P190: bfc09340-9e2f-4c15-802e-ad485f30710e
+          code incipit: 421a0502-091d-4126-a0cc-aad31f16f264
+    F2:
+      uuid: 51fab553-3dfd-4df9-bb70-f3b9b9e7bda2
+  texte:
+    F1:
+      uuid: 1d922046-eb44-4807-a714-c5fae97dbc28
+    F2:
+      uuid: 7a2f35b3-9a75-4655-8beb-9eb7f714191c
+  air:
+    F1:
+      uuid: 030b8607-1ed1-41c5-b128-3a58c80723ba
+    F2:
+      uuid: dc564ac6-3b03-45c6-bc25-d3aa12094076
+quand_je_songe_à_parler_de_l'excès_de_mes_feux:
+  oeuvre musicale:
+    F1:
+      uuid: c69be0b4-ed8e-4683-b423-8103435ced24
+      E41:
+        uuid: 1a0d82f2-25ae-4b13-ae05-707ff15f3ba3
+        E13:
+          type incipit: ebc6cbe7-eb7a-4fa4-9e99-0f2d156c0fb2
+          P190: 558f6953-bd5d-4dc5-9083-f2958f6a6447
+          code incipit: ade8c224-ed14-48eb-b792-6734b01c88b1
+    F2:
+      uuid: 63ef4bb0-f145-46af-91c0-06d8416cb92c
+  texte:
+    F1:
+      uuid: 064831ed-673a-4074-b91b-715b66248c19
+    F2:
+      uuid: 9c8a5152-5515-412e-9f34-a91088d4d101
+  air:
+    F1:
+      uuid: 805af38c-4b83-4fec-9a0a-f9ea3246d60b
+    F2:
+      uuid: 9a89ff87-6cde-45de-80f6-26cd6e10926b
+croyez-vous_aimable_lisette:
+  oeuvre musicale:
+    F1:
+      uuid: fbb2e80b-fd4a-41e3-955d-28d59515bb9a
+      E41:
+        uuid: be1eb1e3-cbda-4628-a71f-65e84a64d05a
+        E13:
+          type incipit: 0fbf42af-9c1e-45c5-9316-dd30535542ed
+          P190: e2dda8c2-3068-4471-9e0f-def65f41bf39
+          code incipit: 1472d710-d0cc-47ef-9737-4fb120db29db
+    F2:
+      uuid: d6f84990-6feb-4a44-9e36-19eef638d532
+  texte:
+    F1:
+      uuid: 8e6c2845-5eb4-49e6-8415-5103aabf0f3a
+    F2:
+      uuid: e786750c-0f4f-4f2d-9407-1d15a906f365
+  air:
+    F1:
+      uuid: 75ccc8e3-bdb2-4c3e-bfce-9d3da9641477
+    F2:
+      uuid: 2ddd7d09-f3ea-403d-8574-a7b1e866f6ef
+quand_nous_allons_jeune_bergère:
+  oeuvre musicale:
+    F1:
+      uuid: ed201d1c-e37f-4118-9c0a-322d35547859
+      E41:
+        uuid: d4f1f631-b6a2-4778-baa0-c3ffe53e3dc0
+        E13:
+          type incipit: a62dc2b0-2d51-4bf3-b8a1-44ccc48f5537
+          P190: d6b0a499-ea2b-421b-844e-eaf68d3265d6
+          code incipit: 31fdb537-25e2-4477-82ff-5a83c56cf8d0
+    F2:
+      uuid: cfd1727d-bd97-4121-893a-47be2131dccf
+  texte:
+    F1:
+      uuid: 7b35e1f4-3b39-4815-b6b3-c50dc25efa3d
+    F2:
+      uuid: fb7287a2-8b72-4478-bebe-6317c75a3fea
+  air:
+    F1:
+      uuid: 661a7b08-9092-4b8b-bfdc-b0325f3b330b
+    F2:
+      uuid: c2db94ee-d088-4773-bfd0-ea3ecda559ec
+grand_roi_quel_bonheur_est_le_nôtre:
+  oeuvre musicale:
+    F1:
+      uuid: 9ea99bc7-d9a4-4690-bad9-081675fc0787
+      E41:
+        uuid: a8a6b812-c2a7-4d29-bb8d-43d078d2348b
+        E13:
+          type incipit: ea127530-82ec-4809-872e-1e3a56393a66
+          P190: 73fb8205-9fda-4806-af8a-c2b4724c7865
+          code incipit: e3b21888-c329-4574-a7e8-28d9b7add72a
+    F2:
+      uuid: 2f90a806-0abd-4f8d-96f3-238cd231ef02
+  texte:
+    F1:
+      uuid: bfb53121-8522-4343-9e4d-26be24b5f4f7
+    F2:
+      uuid: 425ea12d-d953-4b67-97d6-c1cc567c06d6
+  air:
+    F1:
+      uuid: 9a884297-a4d2-4799-96e3-b9cf063a4f81
+    F2:
+      uuid: ae8118d9-0e3f-406d-9fc8-8e8d89d03c03
+charmants_et_paisibles_bocages:
+  oeuvre musicale:
+    F1:
+      uuid: 77461b9d-da22-430a-bfda-0ea5d068c01b
+      E41:
+        uuid: ad3e8a8e-0863-4cb1-a79a-b557c98fda36
+        E13:
+          type incipit: 4662c02e-1f4a-4ba5-99d6-707a58ef0462
+          P190: a0388989-b4aa-48db-97d3-2d46cb59d41c
+          code incipit: b33391f3-4e21-4c9e-9fe2-d21840ff0ddc
+    F2:
+      uuid: c0af1e2e-d824-434a-af02-b714b09d763e
+  texte:
+    F1:
+      uuid: 0a851320-6255-44e5-8d5d-166f7d4dfea8
+    F2:
+      uuid: 0baa515c-204f-47ac-b2e4-1e330f1c7c42
+  air:
+    F1:
+      uuid: 03832d11-6299-4d57-9c8b-a408bf78bf4c
+    F2:
+      uuid: 821d4987-ffcf-4ecc-9e39-579b3ed112a0
+après_un_rude_assaut_nous_avons_la_victoire:
+  oeuvre musicale:
+    F1:
+      uuid: 89c24d32-ece4-4eeb-8538-556b5493251a
+      E41:
+        uuid: ee31f339-e1ef-4ff2-9647-95912c0f8fc5
+        E13:
+          type incipit: fa345827-3b05-4c37-b2b0-50fa0cadb4c5
+          P190: fcbfc110-0a5d-4d31-8324-1518900f28e5
+          code incipit: 7cafdcfb-8daf-4979-8656-e54edaed277f
+    F2:
+      uuid: bc083841-0da7-431e-8d56-ae72b04c4ac5
+  texte:
+    F1:
+      uuid: 53fd969f-31b2-41ba-ad49-36f35270e423
+    F2:
+      uuid: f6700236-d296-4c55-920f-a46703681249
+  air:
+    F1:
+      uuid: 2ed45089-6a70-4c39-852f-37c57cc1b887
+    F2:
+      uuid: 5b3f929a-01ff-4dca-b85c-e02611e0382f
+pendant_que_je_dormais:
+  oeuvre musicale:
+    F1:
+      uuid: a2619144-2535-4896-9b15-a2554b80d4e8
+      E41:
+        uuid: 3aa78366-0d81-4698-b325-e3e04640dbea
+        E13:
+          type incipit: 6bec16a4-c60d-4549-96a2-12d7d6c059a0
+          P190: b1a50a2c-089f-478f-bcb0-21d99211d303
+          code incipit: 5e723b69-ed0d-4132-84fe-a449a0ffbd07
+    F2:
+      uuid: 96ffb0ca-3857-4dbd-b5b8-bb45d1766f6e
+  texte:
+    F1:
+      uuid: afd89ae4-80bd-4846-b0e2-16952e944a30
+    F2:
+      uuid: c8e63024-63d4-434f-8b9f-a01f21e185ce
+  air:
+    F1:
+      uuid: 9b5e2338-0300-470f-9764-d8232386efa9
+    F2:
+      uuid: e1266620-9652-449f-954e-a908bc706a25
+vous_qui_m'avez_promis_une_amour_éternelle:
+  oeuvre musicale:
+    F1:
+      uuid: 8471d589-4b79-43fb-b1bd-ef9de3932cc6
+      E41:
+        uuid: ac980131-7bb9-40b8-b4f7-59139a488122
+        E13:
+          type incipit: f557960a-5fa4-4a4f-85bf-3f5f3cedb80e
+          P190: e03c22ad-9d21-41e0-83a9-9374f98010ec
+          code incipit: 39a9793e-e084-4a21-b1e3-e4d70fccdf81
+    F2:
+      uuid: c05c8264-defa-423e-a961-55cddfd9cf1d
+  texte:
+    F1:
+      uuid: 74a2e3f0-97f1-4cc8-8ced-1147367ae3d9
+    F2:
+      uuid: c439d85a-6c47-4c9b-9f40-6196428daace
+  air:
+    F1:
+      uuid: 1c268be8-e583-430c-9d1e-b61b3a994645
+    F2:
+      uuid: 2b6843ca-8a56-4740-ac59-20fc415be3b1
+en_dépit_de_l'amour_je_vivais_sans_contrainte:
+  oeuvre musicale:
+    F1:
+      uuid: 308d8b93-4ffe-46ee-a8dc-6ca858526af5
+      E41:
+        uuid: b200ff5e-b135-4679-8591-20fd84d6f34c
+        E13:
+          type incipit: a915001a-fb99-4bd0-8779-a3481d8c7b1f
+          P190: 05a7e0dc-ec82-4c2f-8a90-932b98230029
+          code incipit: a864dfe4-1f2e-45b0-bbaa-bb832fa4e59e
+    F2:
+      uuid: 45bcddfc-9574-4b5e-b000-956246d4abb1
+  texte:
+    F1:
+      uuid: e40849aa-0ac3-463f-97b3-7bb257a8fe41
+    F2:
+      uuid: 9b3e4cf4-1224-40e0-be46-19ca82993ae7
+  air:
+    F1:
+      uuid: 5567cc24-c637-4759-9fea-3441345983ce
+    F2:
+      uuid: 4e6f593c-c175-4cbc-8fad-cbdf641886bf
+sans_le_vouloir_je_suis_toujours_vos_pas:
+  oeuvre musicale:
+    F1:
+      uuid: 7714af56-0588-46b6-abc8-a6ce6753bdb3
+      E41:
+        uuid: aa6ad088-81c7-4f89-bc82-ceb42f6ba759
+        E13:
+          type incipit: f37174ea-c536-4546-91cc-366fd826d7b1
+          P190: 219fcf16-23f6-411e-bf04-9f6040f35018
+          code incipit: 36d5e695-9ffb-4672-ac99-8033d69649e0
+    F2:
+      uuid: 552f7ed7-3789-43f3-aa18-77504ffcdddd
+  texte:
+    F1:
+      uuid: 4a41208b-e08d-4cbf-aa12-71db436f4d34
+    F2:
+      uuid: e63c75e5-f99a-4292-aed1-b50c374b08af
+  air:
+    F1:
+      uuid: b2c0ae43-aaff-4c3a-9825-6fc4984082ed
+    F2:
+      uuid: c90a4163-7487-4f09-bf52-b35b84a7a272
+ma_raison_a_fini_ma_peine:
+  oeuvre musicale:
+    F1:
+      uuid: 356785e1-5b50-4efb-bf95-e7a5a817c686
+      E41:
+        uuid: 83642c68-ab87-42b3-a030-c3cbf8334d77
+        E13:
+          type incipit: 0f972785-09b3-400f-aa3b-3eec609bd7ee
+          P190: 970060b1-01ea-485e-aa25-58e6ec3f635a
+          code incipit: 18c59d5e-f1e4-4c16-89c5-4253b616b0b1
+    F2:
+      uuid: 7b1f8955-c044-4426-9be0-036023ca67a1
+  texte:
+    F1:
+      uuid: 06396081-d3de-4fbd-85bf-dc0aea2150e5
+    F2:
+      uuid: b4c2f292-768d-4e74-9b01-14da9f591d24
+  air:
+    F1:
+      uuid: 303da925-1a73-4612-9a9e-783f35a4e204
+    F2:
+      uuid: c72119d1-0ffc-407d-b472-23a6cbf4e701
+j'adore_une_beauté_si_fière_si_cruelle:
+  oeuvre musicale:
+    F1:
+      uuid: b7220e8b-823f-4545-b93e-85abf2f061be
+      E41:
+        uuid: ad3d09bc-f136-48b0-821f-f6ec9f16d765
+        E13:
+          type incipit: 7b613572-ef51-4847-81b9-2044ebdd2945
+          P190: 6d7d2de0-4c3d-4892-bf81-67aa5990fe11
+          code incipit: c066665e-2518-434a-b20c-9a81e8ed001d
+    F2:
+      uuid: aee35da7-2192-4801-b463-5e78d756cdb3
+  texte:
+    F1:
+      uuid: 43d1965a-5ab2-4a72-a1dd-d491b6a63b70
+    F2:
+      uuid: 05e46daa-0416-4464-897b-9d94c5ed3dfa
+  air:
+    F1:
+      uuid: 85639e3a-c23c-4ddc-8b73-76692476ee76
+    F2:
+      uuid: 30fb0f78-8711-4213-8ee8-97bf61015666
+vous_qui_craignez_tant_que_les_loups:
+  oeuvre musicale:
+    F1:
+      uuid: 48658438-47b0-4c02-86d1-d5fae8906759
+      E41:
+        uuid: 4cc08ad9-c457-467c-876c-10403e59d46c
+        E13:
+          type incipit: a7d25b51-8b2f-4ed0-9f2d-1fdd14bed603
+          P190: afe85800-b551-4bf7-9ac0-f1def16d4e4d
+          code incipit: 1f999b72-8617-44e9-9dae-4613912ddff8
+    F2:
+      uuid: 06795b15-1b2f-47e4-886d-f2a9887bca1d
+  texte:
+    F1:
+      uuid: 80f00d54-ed5b-47f6-9235-d5612cbdb9b3
+    F2:
+      uuid: bbacd930-6785-4971-9aec-8a51099eb350
+  air:
+    F1:
+      uuid: 088eef0e-242f-4b55-9ed4-99c5a90294f1
+    F2:
+      uuid: 6e2408e4-02a2-4092-8b52-5117be0cb9c7
+si_l'amour_quelque_jour_prétendait_vous_surprendre:
+  oeuvre musicale:
+    F1:
+      uuid: 00a433cc-2248-4e17-9ac1-2c8ddbad007a
+      E41:
+        uuid: 8de7fc89-7991-4976-ab85-5a57a11fdf63
+        E13:
+          type incipit: 64e3f776-72fe-400c-a843-fe8e3d9d51fa
+          P190: 93306a87-1bfc-41fb-84bc-46982da74205
+          code incipit: 6da4d7b1-a1c2-4f63-b829-8795ed65947e
+    F2:
+      uuid: 7f2d3cea-247b-4f95-b081-a95ee944ad33
+  texte:
+    F1:
+      uuid: 11fbdb6f-075b-4b43-b7e3-753028549c66
+    F2:
+      uuid: 52e3eecb-0881-4d67-a1c5-b3ff68983773
+  air:
+    F1:
+      uuid: 63a36db8-1d4b-4450-9dee-37bc361874f7
+    F2:
+      uuid: 6c9962e7-5a2b-4482-be49-1cb13bad70cf
+si_je_puis_bannir_de_mon_coeur:
+  oeuvre musicale:
+    F1:
+      uuid: 2fcb5682-960a-42d6-86fe-c4b6fcee8ada
+      E41:
+        uuid: 93b27b0b-3821-4fac-80ac-e76c0ab16bed
+        E13:
+          type incipit: df1abf5c-75fb-463a-a6c8-29e05c05a6c7
+          P190: 3d3c9912-0cc2-40fc-8604-d256278f4a44
+          code incipit: e0f4b170-48e3-4026-9fc8-c37c9fe913b1
+    F2:
+      uuid: 8f330103-be1d-4198-a871-34cd1f2319c6
+  texte:
+    F1:
+      uuid: 7edad7ef-17ad-4549-82f7-3d56923ec001
+    F2:
+      uuid: bddb3d51-7dcf-49b9-9118-fe6f3cbe3efc
+  air:
+    F1:
+      uuid: b00bd019-58f9-4c83-b5ee-b911fd21135b
+    F2:
+      uuid: e7f4803a-5858-47bd-8f72-d7538adbdf50
+l'hôte_de_céans_nous_fait_mal_sa_cour:
+  oeuvre musicale:
+    F1:
+      uuid: e745e2d9-2f0b-4aba-9fbf-e0b2c7b5a52d
+      E41:
+        uuid: 32e83ed7-d69f-420e-98fc-3f25651eaf4e
+        E13:
+          type incipit: 44fc3b42-4f71-4559-9918-f4c8521c31ba
+          P190: 330b879f-fcf2-41a8-8423-e23a2c2d5f30
+          code incipit: 1b0c8e9b-6dfc-46c4-8ae9-7e4a9792c77b
+    F2:
+      uuid: efe7514e-18ba-486f-a7cf-fb6729133a57
+  texte:
+    F1:
+      uuid: 3a25bbe2-41c0-4578-bc26-9c4d4203de2f
+    F2:
+      uuid: bd739093-b02a-477f-b885-5a1b8a87948a
+  air:
+    F1:
+      uuid: dbd16008-285f-4bf5-a119-a60a2b21462b
+    F2:
+      uuid: eef8e6c5-2425-4366-81fd-6bc4bfd52591
+tircis_attendant_sa_bergère:
+  oeuvre musicale:
+    F1:
+      uuid: 832634bd-9f7f-4aac-b6de-9bb09b3ce9cc
+      E41:
+        uuid: a1147d04-2ea1-4459-9cfd-2f3af5f8ce3d
+        E13:
+          type incipit: fcde0ffb-84be-4f54-a3f4-1ece4bc25cff
+          P190: 3f51c131-7e46-40c0-8ced-92b0fbcbdeaf
+          code incipit: 16cec527-c655-4a7e-9fb1-0ab18c7ec535
+    F2:
+      uuid: 3a099008-11e0-47ed-920d-b3b7b5b2f331
+  texte:
+    F1:
+      uuid: 9765cdd3-646b-4ac7-b06c-b829f554cdb0
+    F2:
+      uuid: 2bbf05f4-d3f1-4af4-8d52-8862fdba270e
+  air:
+    F1:
+      uuid: c445a5f2-237e-4c49-9e20-8ca5b303c8db
+    F2:
+      uuid: 3453fb6a-b36d-4706-96a9-970530ea846c
+depuis_peu_dans_le_sein_de_ces_vastes_campagnes:
+  oeuvre musicale:
+    F1:
+      uuid: 5ea4ddf3-2f83-43e6-8025-281c1e3652d0
+      E41:
+        uuid: de185acf-cbe3-46d8-8312-763af64c5631
+        E13:
+          type incipit: fa42552f-4afd-4344-b7f3-d1d9dd5b21a5
+          P190: b0f1f7c5-6aa0-4f1d-8c0c-c31c52c71564
+          code incipit: f636e890-1ccc-4f80-adbe-d8781477d400
+    F2:
+      uuid: e6ecce37-4c4a-405f-ace5-6125973f1d33
+  texte:
+    F1:
+      uuid: ca1045a3-857d-45c4-a58b-5ebe257ce822
+    F2:
+      uuid: c712b39c-3151-46d3-9fa7-a1a7a8a636db
+  air:
+    F1:
+      uuid: 5087b37e-2f90-4d59-8150-1815ddaec8da
+    F2:
+      uuid: 53294aa4-8e68-4528-824a-26e25611f7a6
+petits_oiseaux_dans_la_saison_nouvelle/petits_oiseaux_de_la_saison_nouvelle:
+  oeuvre musicale:
+    F1:
+      uuid: dfbe1051-95cb-46d3-bb8b-883066bbf9d5
+      E41:
+        uuid: cc7bb195-f7e9-491a-bce4-0ad3dd2599ba
+        E13:
+          type incipit: e22ef94d-f440-49c0-9180-261d4ead7c2d
+          P190: 3dedaf06-0164-4f62-89d3-6e22d310c67f
+          code incipit: b65a9720-1cd4-4f08-9159-b324231bcbb6
+    F2:
+      uuid: d44ed011-db7c-4141-b272-f1990793695c
+  texte:
+    F1:
+      uuid: 724bb03f-e466-4753-8d08-77f6290aab4f
+    F2:
+      uuid: a6481cd6-0fd8-4194-ad12-6d7c7b31786b
+  air:
+    F1:
+      uuid: 7054a750-8bd2-46a3-ac69-be243dbd931e
+    F2:
+      uuid: b2f6ef60-d2a7-46a0-aa01-d29b02e9df7d
+depuis_le_retour_du_printemps:
+  oeuvre musicale:
+    F1:
+      uuid: 1043d9df-e846-4087-8738-c59bd2537f6f
+      E41:
+        uuid: 7f74c049-9e82-4a25-ab4a-67186d410ff2
+        E13:
+          type incipit: d6c6203d-2368-45b2-99e7-557e20013750
+          P190: 12dfbb20-332f-484c-9b5e-96476dd17e2a
+          code incipit: 38e7fbc1-5dfe-4839-87ff-6a70bab6d59b
+    F2:
+      uuid: b8c122b2-f20d-4cce-b6ac-89b98da31e9b
+  texte:
+    F1:
+      uuid: f4b56959-63f1-4ebe-862d-beca46d221f0
+    F2:
+      uuid: 88f14263-34de-4725-a843-c1b9bea5d6b7
+  air:
+    F1:
+      uuid: 91bd93e2-47b9-4dfe-97cb-2d246ef53511
+    F2:
+      uuid: 478a0ac4-07b7-4f75-a5ed-fd7975a895cd
+revenez_hâtez-vous_printemps:
+  oeuvre musicale:
+    F1:
+      uuid: c9f6d999-33a9-43b1-b649-239c04497dd5
+      E41:
+        uuid: 614c308d-0e88-495a-a472-778c85cfb613
+        E13:
+          type incipit: b484bd1d-c8a6-4954-ae4f-30ff86b6b586
+          P190: 9fb3d39a-1759-49c1-9de6-b3666b2a40bc
+          code incipit: 379609d3-0e6e-4384-8582-0640d412522a
+    F2:
+      uuid: 3517b468-d198-42ef-94e0-ea1da8ecc3e1
+  texte:
+    F1:
+      uuid: 38896de4-10f9-4383-9a0f-768fd45ea0c2
+    F2:
+      uuid: 8b208a7e-48f4-4b0e-9999-a75be532f395
+  air:
+    F1:
+      uuid: f6be75e5-9d39-41e7-a2f0-1084e18c2e54
+    F2:
+      uuid: 334625c0-24f1-40c9-b4e3-9493964a1269
+dans_le_temps_des_frimats_des_neiges_des_glaçons:
+  oeuvre musicale:
+    F1:
+      uuid: 772cd211-e3bb-4506-bb84-961757471d2e
+      E41:
+        uuid: ab27b1a1-e3f1-4a4d-b767-33f0a9384cf3
+        E13:
+          type incipit: 38a86b80-485f-41cf-9024-9faa58bbdbcc
+          P190: ad527289-a5e3-4034-acd0-6169f802f3a5
+          code incipit: d8974f3f-482c-41fb-ad21-c24b593f31ed
+    F2:
+      uuid: 19f6b61e-4d43-49cc-b2db-0161f4a56ba8
+  texte:
+    F1:
+      uuid: c2f08c26-57ff-46ae-a5b6-7d2b624ee0d6
+    F2:
+      uuid: 3c5843de-6c55-464e-b6c3-63a6cf6e4f14
+  air:
+    F1:
+      uuid: 3ed57915-6e27-487d-885c-53abbe5b18d9
+    F2:
+      uuid: d373a933-c3bd-440d-9573-aee94b576143
+hâtez-vous_doux_printemps:
+  oeuvre musicale:
+    F1:
+      uuid: be8cf02b-a350-44fd-9db6-5fc85fb305b0
+      E41:
+        uuid: e29c1d7d-d2ea-4542-a22a-5299d5b1a9f7
+        E13:
+          type incipit: 412804bb-af2a-4461-b498-5f4613dde374
+          P190: 5463d13c-ebe5-4a7b-ad31-f6c2d3c693d7
+          code incipit: 328bf577-80cd-423d-a2ff-06626fe9ad75
+    F2:
+      uuid: 3d7df462-1b58-44a8-8ef6-0c40c5a0aa82
+  texte:
+    F1:
+      uuid: d91283aa-a82e-49ff-83ac-30d9541c218c
+    F2:
+      uuid: 258316d6-934a-4b95-9cd9-3e7262036c30
+  air:
+    F1:
+      uuid: 91e77895-d8eb-46ab-8df3-86556b8ed443
+    F2:
+      uuid: 49ea65ff-bcc9-4fed-bb0d-f2591c8ff349
+père_maîtresse_honneur_amour:
+  oeuvre musicale:
+    F1:
+      uuid: 5ea906e2-4eb3-4afc-ad75-a68a1285e2c3
+      E41:
+        uuid: 658824aa-34f5-4dd4-8eed-ad31318073a0
+        E13:
+          type incipit: 9499a882-174b-4e8c-a31e-2908ec00ab4f
+          P190: d1d8e53d-6830-4ab3-ab89-e4abb54017a5
+          code incipit: 6fc9234c-e19e-4d26-883b-97998caa4968
+    F2:
+      uuid: 17fdfc19-104e-4060-8aee-055ed41076ba
+  texte:
+    F1:
+      uuid: 721529da-87ba-4b65-bddb-e1244c128270
+    F2:
+      uuid: c908982a-3240-4074-a8db-928376d97017
+  air:
+    F1:
+      uuid: 282b3164-9ec9-4434-8b1e-6c13bc0fcaff
+    F2:
+      uuid: 404e92f3-04f9-4e87-8e45-4fa68108559f
+tu_m'as_promis_cent_fois:
+  oeuvre musicale:
+    F1:
+      uuid: b1f70af7-30bd-4314-a82f-17e036ef904a
+      E41:
+        uuid: 749d109b-f12e-4863-b912-68ce8ba3924e
+        E13:
+          type incipit: e70ac7f6-3634-4459-8a21-c81db0a34ad4
+          P190: 6bc59f4f-118b-47b6-affd-aee31959c249
+          code incipit: 13a67894-25bd-4d1b-8160-20d552586120
+    F2:
+      uuid: 20186a4f-ae5c-4a20-a04e-74fb8fbf9092
+  texte:
+    F1:
+      uuid: a2b6b6c5-81b3-44ab-8368-f0033861cfa8
+    F2:
+      uuid: 522633e4-6dee-4f7a-a6b3-fa5fb932480b
+  air:
+    F1:
+      uuid: 26df15d1-aae6-4496-9e72-2d3997a8e79c
+    F2:
+      uuid: 76b39527-5882-4747-b849-8c753c763546
+que_je_sens_de_rudes_combats:
+  oeuvre musicale:
+    F1:
+      uuid: 1657b883-c6f5-4e60-ad6f-698ccf993046
+      E41:
+        uuid: 77aaeec3-2244-4380-ae66-ec1f01777683
+        E13:
+          type incipit: 21fdbff4-e867-4416-a0d7-022aa4477b19
+          P190: d6c686b0-3c43-4bd4-8721-bdd786b5ede3
+          code incipit: 27b34165-76cc-4fde-b4e4-fd93f7255196
+    F2:
+      uuid: 45bc9202-dcc7-4717-ac31-d8c27ba450f1
+  texte:
+    F1:
+      uuid: f6c9e6c6-340e-4a0c-bb01-e1728df65238
+    F2:
+      uuid: f979021f-1290-4629-8f8a-a6dd8809170e
+  air:
+    F1:
+      uuid: f82ab50f-7b21-4520-a3cb-0955c3f245bc
+    F2:
+      uuid: 037ef084-e857-4dbd-8262-9d5c0ae24b8c
+vous_vous_plaignez_qu'iris_eest_trop_sévère/engagez-la_dans_ce_tendre_mystère:
+  oeuvre musicale:
+    F1:
+      uuid: e2df8f92-0723-4843-92b9-751094f968c4
+      E41:
+        uuid: dcc9e0de-12f7-4fb4-b517-53ce44c570c4
+        E13:
+          type incipit: 0b2678bb-5a5c-4bd4-b963-e4e85c82f891
+          P190: b6ab360c-6a9f-4bce-bc24-cafd50ede6ae
+          code incipit: 981a8821-b647-498a-ae8e-ff5fb439b72f
+    F2:
+      uuid: 6e6de0b9-9052-4727-8885-765997bc1336
+  texte:
+    F1:
+      uuid: 6f887f28-dfb5-4ad9-bcc8-58fd6eebdeb3
+    F2:
+      uuid: 4c078afd-372f-48a2-a8a6-3335a361e2fe
+  air:
+    F1:
+      uuid: 93336406-5dc6-4acd-a1b5-e91b0229f861
+    F2:
+      uuid: 8929d3e4-4565-454a-aa4c-9a2a89ef5ef4
+percé_jusques_au_fond_du_cœur/si_près_de_voir_mon_feu_récompensé:
+  oeuvre musicale:
+    F1:
+      uuid: 4520e77e-0178-4693-b51f-1525a90f1512
+      E41:
+        uuid: 21517847-9b88-4b2e-be09-ac52bfa47848
+        E13:
+          type incipit: 490e702c-16de-423e-8049-f5ba779cc173
+          P190: bc35f7b9-d68c-4b83-91d3-dc9cf7fd6e39
+          code incipit: 6cb2a45b-3a06-4631-939e-dadf5c90f2cc
+    F2:
+      uuid: 10812c58-0754-4024-9fb4-5e748803d964
+  texte:
+    F1:
+      uuid: 0e164794-ca44-4385-9557-d5b3426c0291
+    F2:
+      uuid: 845b8ae0-46fa-43bd-81a3-90aef2e62b2a
+  air:
+    F1:
+      uuid: b2d67e8f-9cdd-4ba1-8061-d228b3a1a1af
+    F2:
+      uuid: 38050b09-9a93-4def-93d6-d72cf50985b6
+dans_nos_bois_tircis_aperçut:
+  oeuvre musicale:
+    F1:
+      uuid: ab637766-c762-448c-ba4d-f0eb08e94f92
+      E41:
+        uuid: f8ea6cb2-54fe-4e82-9b75-e6f6950b0f7a
+        E13:
+          type incipit: 3903bcbc-b3fe-4ce3-98ff-622402a7b053
+          P190: a16f2f6d-e146-4077-9377-c80ae1a736f3
+          code incipit: f82f2e13-7be1-49a2-85bc-9cd51ab1fae5
+    F2:
+      uuid: 5ac859a8-ae90-42d0-8559-bff54532caf4
+  texte:
+    F1:
+      uuid: 5653f032-a35e-433e-aa77-06203c589bd0
+    F2:
+      uuid: afed23bb-cd99-43d7-a0d0-faa1309089d9
+  air:
+    F1:
+      uuid: 8ebff78d-ac0d-4f4f-9625-a7700f7b4ef0
+    F2:
+      uuid: 74a1bc2e-204d-4ecd-b42c-a6f2d80c4af7
+petits_oiseaux_ne_soyez_point_jaloux:
+  oeuvre musicale:
+    F1:
+      uuid: 59f04bcf-6f49-46d4-b2c4-d1dbecb46b7a
+      E41:
+        uuid: 25e8fad2-e872-4b7b-9580-4b0b52b50ff0
+        E13:
+          type incipit: 767d6c03-61d2-445d-8334-58f2021f892b
+          P190: 9b7e550a-1cfc-4d4a-896c-978a8c033a75
+          code incipit: 49e4487d-bc94-488c-beaf-d3472e3fb0cf
+    F2:
+      uuid: e010b9df-181c-4722-9569-f917b426d025
+  texte:
+    F1:
+      uuid: 613a5981-815d-4371-981e-e3c7a4774991
+    F2:
+      uuid: 43ced65d-e01c-4eb1-8e2e-411f1a6a8e92
+  air:
+    F1:
+      uuid: 93b92e52-535a-4444-a45d-7e79d2870a62
+    F2:
+      uuid: c1ad3c4a-3e2e-46a6-91b7-ccbc2d1bba6e
+climène_tu_te_plains_de_ma_légèreté:
+  oeuvre musicale:
+    F1:
+      uuid: 1542fa1c-ed36-4b35-80b1-979b9e9a1d30
+      E41:
+        uuid: 4a5487bd-cd09-4aec-a841-bd44923cf5e2
+        E13:
+          type incipit: 2fe299ae-3b1e-44a3-a07a-689ec1bf0018
+          P190: 07ea937c-2482-43f9-a8c6-b8f9a0a324ed
+          code incipit: eb39bfbe-0446-4445-a098-1bc860aadd3d
+    F2:
+      uuid: 60f450c2-46f4-4a3e-8f18-ca361e1a2623
+  texte:
+    F1:
+      uuid: a9e1115e-353e-4a6a-8f23-1196fb538606
+    F2:
+      uuid: a04f09dd-04ec-4235-aab2-334252b24c9b
+  air:
+    F1:
+      uuid: 32abbc24-c84c-458b-8b67-013746f07996
+    F2:
+      uuid: d17e4c20-47fd-4007-8264-fd7b9acc10e3
+chacun_dit_dans_le_village:
+  oeuvre musicale:
+    F1:
+      uuid: e552c4d2-b3d3-4fb0-ad01-02dbf63070fd
+      E41:
+        uuid: c7ffa3cb-3388-4dba-a52f-35a17a1c7c53
+        E13:
+          type incipit: cc9fa041-f86e-44cd-919b-81f03552e74f
+          P190: cd864bb7-ed37-496b-aca5-11edd5b94f4d
+          code incipit: 976dee49-f288-46e0-8e72-b16cdedfd8d8
+    F2:
+      uuid: 20fc815f-9707-489a-a984-4c62db23aafd
+  texte:
+    F1:
+      uuid: 79e43a25-4afc-48bf-a209-f029c2468310
+    F2:
+      uuid: a808c5d0-edbc-46c1-babd-a31cdc6b0217
+  air:
+    F1:
+      uuid: 9befa644-867e-46ee-8f8e-4fe80e0552ea
+    F2:
+      uuid: b6648ed0-7f3c-4e5e-92b2-f9601da400b0
+nos_bergers_nos_troupeaux_ces_lieux/l'air_enflammé_de_nos_soupirs:
+  oeuvre musicale:
+    F1:
+      uuid: 4a6c373a-aad7-4163-9e9d-bcd9aeab527c
+      E41:
+        uuid: ea2f62c9-efb4-4780-9568-d9b40fb63f64
+        E13:
+          type incipit: 07053adb-0991-4a7a-bd36-a143910fd59c
+          P190: 23628eb9-ebd4-495d-991e-8c9e00e3a149
+          code incipit: 16eaa9e6-c25a-43cc-a460-dd09c9e109dd
+    F2:
+      uuid: e633996b-8111-4c28-8947-21774cabdd41
+  texte:
+    F1:
+      uuid: 2f490271-2f32-4504-af76-a55feeff305b
+    F2:
+      uuid: 4a6ac777-9d5d-4bb5-bcac-903148e80d32
+  air:
+    F1:
+      uuid: aeaa7181-f9c5-45f5-a65e-7c46a5e5130a
+    F2:
+      uuid: dde99bb4-97ee-420a-9fac-750c3c4ae10a
+ne_fripez_pas_mon_bavolet/attendez_à_demain_que_je_vas_à_la_ville:
+  oeuvre musicale:
+    F1:
+      uuid: 8ea9bd12-ac37-42ca-86bb-bcb57008eb9b
+      E41:
+        uuid: 589d8c95-c52b-47cd-b507-a0ea752b5f0a
+        E13:
+          type incipit: 619916c7-fa80-4cef-b5ca-ee4883602fe9
+          P190: e00d4b64-0f66-4d9b-9301-b68508999295
+          code incipit: 56374ff5-018b-400c-8a65-f8447c3b03e4
+    F2:
+      uuid: f032e517-e792-425c-aa57-8d3f7ae5667e
+  texte:
+    F1:
+      uuid: 1f743773-d9a7-486b-95de-1f5d177395f4
+    F2:
+      uuid: 4a3d199d-dcad-4bd6-9f5a-104183e5dd01
+  air:
+    F1:
+      uuid: 712d987f-b19d-4f4a-80d0-59d3068cd7e4
+    F2:
+      uuid: 700a9c44-f3a5-451e-ac86-21d5829f53d8
+consolez-vous_chers_enfants_de_bacchus:
+  oeuvre musicale:
+    F1:
+      uuid: dfb32f2c-86a7-4a83-8da1-e4413e52bbe5
+      E41:
+        uuid: bad460a6-2699-4133-9321-4a473605d3a1
+        E13:
+          type incipit: 16b1d5f5-219b-41bb-a123-294ed243924e
+          P190: f81ceab5-8a23-4c1c-a86e-195459dcb650
+          code incipit: 5c2e2ca2-9bd2-4145-963e-8e2bb0798872
+    F2:
+      uuid: 2cbfa9c0-e7ca-4de6-b601-6c3c18f8a8bf
+  texte:
+    F1:
+      uuid: a7f5d933-da8f-4280-8560-ec8ec614ad32
+    F2:
+      uuid: c48e8488-fafd-4c95-8fe5-66f2dc2723c8
+  air:
+    F1:
+      uuid: 4f51dff8-a34a-4e4b-875c-d7c1ca041ad3
+    F2:
+      uuid: b2978bcd-3f82-43ae-a03c-4e2269cf927b
+le_moment_de_l'absence_est_un_moment_heureux:
+  oeuvre musicale:
+    F1:
+      uuid: 16702f9a-5169-4d5e-ae97-af65cd80ce92
+      E41:
+        uuid: 0934b1a3-e6ad-4a33-aea2-f271963d0cdb
+        E13:
+          type incipit: 1fd4f76d-217f-4eb3-8125-5b4a8d469cb5
+          P190: 0dfebb56-5330-4362-9ab9-59cad732bc4a
+          code incipit: b4b4b5fa-cf47-45b0-9d34-a608c9db40a1
+    F2:
+      uuid: 5ae27d46-98c3-4aa8-ad03-3206b054e855
+  texte:
+    F1:
+      uuid: da5b95aa-56eb-4bd9-a07c-df0b7ce14bca
+    F2:
+      uuid: a9aad9d1-646a-49a4-ac3b-552dd01aeece
+  air:
+    F1:
+      uuid: a6a2403e-5841-477c-ac49-aa204b110145
+    F2:
+      uuid: c764f652-466a-4825-9b2d-749281c49ad3
+beaux_lieux_frais_et_charmants:
+  oeuvre musicale:
+    F1:
+      uuid: f05d1aee-30ad-4764-8d61-cbe960de5a48
+      E41:
+        uuid: 9556bc98-c2c5-422c-8907-21303d13be34
+        E13:
+          type incipit: 4bdff5cb-06d5-4328-9d22-cefb802c67aa
+          P190: 85ad3af2-e599-41a5-bb28-914bab67648a
+          code incipit: 1aabfde4-8aad-481a-b1e4-f0829f7d07b5
+    F2:
+      uuid: 4968f52f-27cf-4224-a66f-f0c069af5ca2
+  texte:
+    F1:
+      uuid: afedfaf5-23e0-4ac3-b7b2-2fde1c9448a6
+    F2:
+      uuid: 9b627c5a-39d3-4c80-b334-ce5186e3dd92
+  air:
+    F1:
+      uuid: 0508a84e-266d-4968-858e-9b83a29e008f
+    F2:
+      uuid: 2215ef05-6ed2-4c8b-909e-acb982570133
+iris_je_vous_offre_mon_coeur:
+  oeuvre musicale:
+    F1:
+      uuid: d499d183-a907-44df-871f-df884c3fc79b
+      E41:
+        uuid: 01d29d42-f5a6-4eb8-a36c-a5f8ef829922
+        E13:
+          type incipit: b6930135-0f1b-42b2-9ee0-a86cc256dd16
+          P190: b241fa42-b73f-467e-ac7f-dd4237751718
+          code incipit: 7d74ef82-ff3b-4b37-8165-2a8ff30c0c2e
+    F2:
+      uuid: fea12836-e1e7-419a-8789-0958c70b808a
+  texte:
+    F1:
+      uuid: 4bcdfa8f-8686-4b95-b81a-86fc26d13f24
+    F2:
+      uuid: cd3f70ed-fb31-43bc-b2bf-b27a7cf4c4fb
+  air:
+    F1:
+      uuid: e11557cb-7693-4460-a5cd-3652aa699855
+    F2:
+      uuid: 3a96ef78-e664-4549-9957-28dd786c61da
+si_vous_voulez_me_croire:
+  oeuvre musicale:
+    F1:
+      uuid: 6a873ca1-576f-483e-a66c-adaa05a851aa
+      E41:
+        uuid: 5c6b5461-2524-402f-a0f9-62f5b08fec5a
+        E13:
+          type incipit: aef1b4b0-b397-4b1e-a9a6-7b9536e61c26
+          P190: 41c53d2e-31ce-4094-bc75-d9b21ee7dad8
+          code incipit: 525d7e12-01e0-49b1-8ab8-e4da9b8824eb
+    F2:
+      uuid: 5c3bd5f6-38b6-4780-b790-3519662fdad8
+  texte:
+    F1:
+      uuid: eec77905-bfbb-463c-83ce-b601fe4d92e2
+    F2:
+      uuid: e9e0b748-254f-4e1f-8d23-656a10daf5db
+  air:
+    F1:
+      uuid: 4dd90910-ca6d-4b67-a0c4-e3352cfd1d49
+    F2:
+      uuid: 71010b18-e491-419c-93ed-7ec17dfc7acb
+ah_printemps_vos_douceurs:
+  oeuvre musicale:
+    F1:
+      uuid: a48c56cf-3726-498b-ab5d-aa5639d1ae95
+      E41:
+        uuid: d5bb852a-91ff-49ca-9656-19af58306eb2
+        E13:
+          type incipit: 6a838852-200b-408f-917d-943835b2c292
+          P190: aff9d825-3dc5-4a9d-bef1-8db6fdcb02ab
+          code incipit: a8154213-c937-489d-8722-d9b28e97b5bf
+    F2:
+      uuid: 1a712047-f6b0-449a-a56d-92f6ca73969c
+  texte:
+    F1:
+      uuid: 2c8b81ba-7fc3-4140-a9dd-0580e26c50cf
+    F2:
+      uuid: a704153a-a21b-46a3-bf8c-aabaaa6e12bd
+  air:
+    F1:
+      uuid: ba63bfbc-974f-4edf-9ca2-05937e8effa5
+    F2:
+      uuid: 20815bd3-5a06-406c-a9bb-168908fc8cbc
+sur_ces_rives_fleuries:
+  oeuvre musicale:
+    F1:
+      uuid: e8242891-e051-4804-8b66-32ce9e619b2d
+      E41:
+        uuid: 0648e242-682b-498c-a1e5-559f525e598c
+        E13:
+          type incipit: 729c2d9a-2ff8-46f8-b274-fbe96cf919f6
+          P190: 071d51cd-8211-4156-a846-806fd36773fd
+          code incipit: 837853b6-638d-4671-8cdb-28a095d93959
+    F2:
+      uuid: e74876ba-1a0e-473d-beea-9e834e221aa6
+  texte:
+    F1:
+      uuid: 46616946-93b2-4c9a-bda4-6b32161e4100
+    F2:
+      uuid: 122cd9d5-e4b2-43ad-887f-74b0d3299b92
+  air:
+    F1:
+      uuid: dc5bc566-2886-4093-8a00-3c83791c9b34
+    F2:
+      uuid: 3db06deb-4ab7-4e05-8a64-76a9a5de0b33
+ah_qu'ils_sont_courts_les_beaux_jours:
+  oeuvre musicale:
+    F1:
+      uuid: be2b1142-122e-4063-b70d-3b832b8866c7
+      E41:
+        uuid: 3ee7cf10-b4cd-4369-a7c2-b9c37ed671e8
+        E13:
+          type incipit: c32e32eb-0c50-4847-9b24-1cad3d1819cc
+          P190: 3459d5d7-071b-4963-9f99-8593b514ae2f
+          code incipit: 429d5b96-f7c3-4c19-b6b1-68f32ddf556e
+    F2:
+      uuid: 40936457-6cba-4a4f-bff4-232d09528b6a
+  texte:
+    F1:
+      uuid: c81fdbf9-7b53-4576-bee7-8bd5a8001cdc
+    F2:
+      uuid: 2911f0d8-192d-4d35-a7f8-353023169d6a
+  air:
+    F1:
+      uuid: 2ba57fef-6195-40b4-b794-384afa4fbfd8
+    F2:
+      uuid: 59f7f5cf-7b82-4388-87b9-06e02270f659
+voulez-vous_goûter_en_aimant:
+  oeuvre musicale:
+    F1:
+      uuid: d15d0cc6-b17c-4a5f-a71f-cfff51931caa
+      E41:
+        uuid: 4701e61c-d16a-4dc9-9556-b88d0095da26
+        E13:
+          type incipit: 07526c5d-c186-416f-a026-151f476c6e1a
+          P190: e7d575ea-cb50-4a60-88ab-61a5b1b82e51
+          code incipit: f8074e99-e07b-4c0a-900b-c9b7d19d41ae
+    F2:
+      uuid: 1bba63b1-ec5a-471f-9671-4a3a0bb19191
+  texte:
+    F1:
+      uuid: cebfb791-3c23-48d8-a99f-d7b6d20a12c8
+    F2:
+      uuid: 32b15e8b-9b8a-4a10-b43b-74a0c47744d6
+  air:
+    F1:
+      uuid: 54eef170-da6d-4f3c-bcef-672faf5524dd
+    F2:
+      uuid: ef4dc30b-17c3-40e7-949c-a863b65adc30
+printemps_ne_reviens_plus_je_souffre_trop_de_peine:
+  oeuvre musicale:
+    F1:
+      uuid: cb523f4c-8968-4cf1-a9f4-f89e999f9ec9
+      E41:
+        uuid: c1a8a102-61b3-42cf-9405-f67cc48e7875
+        E13:
+          type incipit: b440b667-917c-40b9-8da9-ba45204d0a20
+          P190: a69fd8e8-14d8-47aa-af2e-1124867b0f36
+          code incipit: 167b811a-b596-4469-9bca-5ed1c67bd918
+    F2:
+      uuid: 60df1deb-a51b-4ca7-b2d5-ab2c926b48ac
+  texte:
+    F1:
+      uuid: 31f29499-a4cc-450a-ac43-a8d966017a11
+    F2:
+      uuid: 6dbf307e-5a35-45b4-bd02-e8a47acf0b1b
+  air:
+    F1:
+      uuid: 8dbcb6b3-6bde-46fd-8f72-dd6f80094476
+    F2:
+      uuid: 781fd59a-d1ba-49cc-b2a9-58db04ad7c80
+trop_cruelle_saison:
+  oeuvre musicale:
+    F1:
+      uuid: 0f9c468d-48c1-4033-817e-44211fd7145a
+      E41:
+        uuid: 90ba279f-dfc0-45ab-b24e-51b2b0772d9b
+        E13:
+          type incipit: 925f7bb8-821c-49b9-b83c-07bc22a77005
+          P190: 273a383d-38b4-4054-a376-e5ecb7d2d07c
+          code incipit: e9610506-7645-466e-ab01-e043b3e05dc8
+    F2:
+      uuid: b9b0d2f6-2670-41a5-bd83-3b5425541dfe
+  texte:
+    F1:
+      uuid: 0f2b3f1e-2a55-43cc-b150-8f5d16991a97
+    F2:
+      uuid: 7de67839-0816-44f6-8957-fcac0a069172
+  air:
+    F1:
+      uuid: 7da4212b-7cb9-4b21-9393-197129732e6c
+    F2:
+      uuid: 4b545545-fd92-4302-97cf-66ecc8bdae67
+sans_frayeur_dans_ce_bois_seule_je_suis_venue:
+  oeuvre musicale:
+    F1:
+      uuid: 38a59df3-1ed5-4971-9e5a-b24c9a7d4662
+      E41:
+        uuid: 8ae5ff73-97e9-4e82-bce3-f8cda9b1cff0
+        E13:
+          type incipit: ff958bf4-0391-4bc1-b9b9-651f36c3f21e
+          P190: 4255cee8-73da-438d-b880-d505f7c48013
+          code incipit: 26df2085-aeab-4784-8468-cf1690429820
+    F2:
+      uuid: 810ef4ef-3b88-40e0-b102-910add3b15aa
+  texte:
+    F1:
+      uuid: 140faef4-2ee9-4941-af1a-f2cb955b424e
+    F2:
+      uuid: 7b353db3-2f56-4b6c-88a6-b99ce0aaca6f
+  air:
+    F1:
+      uuid: a8761a3b-792b-464d-9456-03c3845480a0
+    F2:
+      uuid: 62cf7d8d-eb0d-48ae-a4ad-a5a19cc13160
+comment_pourrais-je_voir_la_fin_de_ma_souffrance:
+  oeuvre musicale:
+    F1:
+      uuid: 5c848ec5-5c71-4e37-aed5-6b2279b2a2e4
+      E41:
+        uuid: 7e9f4736-8898-4ad4-97c1-eec625069c5d
+        E13:
+          type incipit: af567629-7dba-440a-a9b1-ea697aff5e4f
+          P190: 087397f7-93f3-48d6-a2f0-6a1b1d5f0d37
+          code incipit: 3b40e7d4-1d0c-4787-9818-bd0b2af21e9e
+    F2:
+      uuid: b15709e1-f1ca-49ab-8ffb-057c0d085c29
+  texte:
+    F1:
+      uuid: 00341f07-d8ff-4836-a16c-6392d80924b8
+    F2:
+      uuid: 38778074-d217-4d13-946d-9df669fe0b4d
+  air:
+    F1:
+      uuid: 451c89b6-fa4b-43c0-a074-489a3b53be3d
+    F2:
+      uuid: 4093ddf1-0e8e-4c69-ab17-396c408f6373
+que_je_crains_de_tircis_le_respect_dangereux:
+  oeuvre musicale:
+    F1:
+      uuid: 1cf86dbf-90ae-41dd-ba36-f0dc5e6f3934
+      E41:
+        uuid: 6723d756-1b3d-424f-8d05-2436e240c419
+        E13:
+          type incipit: 4ab82a1b-194c-490e-90de-45d6d4f986f8
+          P190: b9573a03-4b44-410c-ad7c-5b5426475219
+          code incipit: 19a8b507-a66a-4ccd-89f5-14b01dbe575d
+    F2:
+      uuid: 9c8fa607-a4d7-44be-b855-bccfd2666905
+  texte:
+    F1:
+      uuid: e64ae1df-dd48-4771-9dfc-98c3afab16f0
+    F2:
+      uuid: ff899de6-8590-4efc-a194-2b984f05a6d0
+  air:
+    F1:
+      uuid: abb023b5-f15e-41c7-a253-e9c6be16b23b
+    F2:
+      uuid: dc8613f5-ce79-4140-9a6b-afd7569a846b
+ah_que_j'aime_l'horreur_de_ces_tristes_forêts:
+  oeuvre musicale:
+    F1:
+      uuid: 1a83ac3c-2ab4-4f6f-95e7-750a4e694f19
+      E41:
+        uuid: 81a57d2f-aa55-4698-abfa-68246f7e8935
+        E13:
+          type incipit: bda2ecbd-3a7d-41b2-972f-b9e4dde702e8
+          P190: 5534d64d-de3a-4b8d-a03f-b80dfa1835d8
+          code incipit: b7b0ad55-79f5-4362-a642-a650dd6e2071
+    F2:
+      uuid: 17eeffa5-0706-45ff-b056-7639d786fb8a
+  texte:
+    F1:
+      uuid: b2df38ea-7c8c-49c3-81db-7b97d5ba996b
+    F2:
+      uuid: fc914302-46d4-4671-9d69-4926f2b55a28
+  air:
+    F1:
+      uuid: 3a612673-1304-4464-bad4-5539d240926c
+    F2:
+      uuid: 180e69fb-7cd3-4bde-a83e-7ceed439333a
+reine_aussi_belle_que_bonne:
+  oeuvre musicale:
+    F1:
+      uuid: 610b1fb3-8221-47c9-b777-af93eb86a6e2
+      E41:
+        uuid: 761bba8e-332f-4652-bf69-7064015404af
+        E13:
+          type incipit: 4edf90df-d67d-4a66-9409-979901ae7f39
+          P190: eaa72fa0-8f3a-4ac8-ae18-8f87b54a5b76
+          code incipit: da7c3f2e-b583-4576-a9e7-7de0611fe28a
+    F2:
+      uuid: 2694b56e-17d6-48a6-a192-d257009db86a
+  texte:
+    F1:
+      uuid: cfa34e39-61b2-4df6-a1de-752beb37ebe5
+    F2:
+      uuid: dfaff5c6-720d-4b29-af2e-9aafc2ade66b
+  air:
+    F1:
+      uuid: b5cb1fe9-5fe2-4a38-a3c0-2e39cf77341b
+    F2:
+      uuid: ff1f6f9a-2776-4140-9532-d44f703c329d
+consolez-vous_mes_chers_troupeaux:
+  oeuvre musicale:
+    F1:
+      uuid: aedc2f64-81b4-4d03-a719-f4df699ca537
+      E41:
+        uuid: 26032d16-1c27-4cfc-9a6b-fd438987afcb
+        E13:
+          type incipit: 6372e681-e481-4ffd-861f-05d9b74dcd37
+          P190: 07d0416d-9f82-444b-9857-683c26177b8c
+          code incipit: 7b6b977b-9155-40f3-a9b8-61fc9c891e1c
+    F2:
+      uuid: 252d1a61-cec1-4fd6-b800-28d1a22ce050
+  texte:
+    F1:
+      uuid: 939f8eb2-5583-40d7-b091-6cbfb66cb7ad
+    F2:
+      uuid: 0d44a937-4750-47ec-a790-b0566fb5a566
+  air:
+    F1:
+      uuid: 1712d96e-d4d4-4190-95d5-bb30e7dea5e8
+    F2:
+      uuid: 1523c09c-25f9-4a44-933c-5ea23c462542
+pendant_que_vous_donnez_la_chasse:
+  oeuvre musicale:
+    F1:
+      uuid: 419a2ccc-056f-4524-9fea-b58666a5ceba
+      E41:
+        uuid: 8b17f432-b083-4a1d-82c8-d937f687c146
+        E13:
+          type incipit: b29707b1-7bd9-48ed-8fcc-c603e87bbfe9
+          P190: a5a46cd7-2bfa-4d7e-80d8-60d2d5a48dc5
+          code incipit: ce309dc5-61b7-44ee-85b5-34e357a059e4
+    F2:
+      uuid: efa361d8-e685-4432-9339-bef727dabf75
+  texte:
+    F1:
+      uuid: c8868015-a395-4c0a-a01e-2e4a3fabe1ff
+    F2:
+      uuid: db6d9e66-ef0a-4c31-83c4-dea72bf8b3e0
+  air:
+    F1:
+      uuid: c340b3f4-cf41-4e99-92e3-f927609ac9e0
+    F2:
+      uuid: 739d169e-1af3-425b-9484-54a046377ca0
+premier_objet_de_ma_tendresse:
+  oeuvre musicale:
+    F1:
+      uuid: 09de31f7-07a6-49af-aa63-ae9ada84c45e
+      E41:
+        uuid: 551ddaa5-128d-4baa-ad1b-c1507a29c5a1
+        E13:
+          type incipit: 98a3f231-bd48-41ab-994c-7841ba45cc5b
+          P190: 8d4d3291-ed29-4e32-9959-bb5c583854a5
+          code incipit: 3c539c23-d42a-4f6b-8c3c-520a321d4ae1
+    F2:
+      uuid: bb1381f0-a164-450b-9ca4-3c994acd6299
+  texte:
+    F1:
+      uuid: 501c79c1-1267-4016-8bea-8e336d969e0a
+    F2:
+      uuid: b707050a-1be0-4c7c-ab09-68113d953b94
+  air:
+    F1:
+      uuid: 3ba569c4-3f8c-456f-89b3-e08e7737fc84
+    F2:
+      uuid: 72e71336-311e-4f68-bfaf-eaad80e3e8bd
+je_suis_prêt_de_revoir_les_beaux_yeux_de_sylvie:
+  oeuvre musicale:
+    F1:
+      uuid: ed22db74-4ec0-41a1-a95d-5adbb22e07ad
+      E41:
+        uuid: 381b9e8a-1287-47dc-ba29-a0337deff218
+        E13:
+          type incipit: fd81393f-ed5d-4cf5-a224-dadb681ee912
+          P190: 2ab3560d-150b-47d8-9534-17fc1eff594b
+          code incipit: 0ee4077e-570d-4aeb-9e85-d472c600d224
+    F2:
+      uuid: 5b15bc79-3fe0-4086-a463-0bf16574d93f
+  texte:
+    F1:
+      uuid: 4b1de610-280a-4d1f-9a52-663f3d3366f8
+    F2:
+      uuid: 8b0f4beb-2868-4d14-95bb-e430927a8aba
+  air:
+    F1:
+      uuid: 010f9ee7-eed2-4b9c-9e92-73079ef43f12
+    F2:
+      uuid: 435341eb-a0a0-4519-8445-224911fbdf35
+vous_avez_de_l'esprit_vous_avez_des_appas:
+  oeuvre musicale:
+    F1:
+      uuid: 29c074d3-e8f3-48e8-9f3b-3c8791b82a83
+      E41:
+        uuid: e8dd389a-cbf1-466c-b586-45f9280ba1fb
+        E13:
+          type incipit: 63c6a165-55f1-4cc7-b7b2-07e409ae4691
+          P190: d14e6379-baf7-4890-b292-3c5b00029a2c
+          code incipit: 0802ea5a-851e-4760-b5f7-f16db4395abd
+    F2:
+      uuid: bb217567-28fe-45f9-b984-3d41c43d8586
+  texte:
+    F1:
+      uuid: 821df60c-8248-48d7-a9fa-d0a734afcffb
+    F2:
+      uuid: 773675b5-fd5c-4436-b009-b0925a0272fb
+  air:
+    F1:
+      uuid: 96904212-8f57-4b80-9c4e-922f5523b089
+    F2:
+      uuid: 73a158c0-6ee7-4385-8b59-0b3ecb9e0f94
+vous_demandez_des_vers_et_si_j'en_crois_vos_yeux:
+  oeuvre musicale:
+    F1:
+      uuid: 532b470d-7123-4011-9575-c839eea4ed5e
+      E41:
+        uuid: 3c4d2acb-db03-4f3f-bcd4-5ebe332c9738
+        E13:
+          type incipit: 446867ef-77db-4f6a-8f2f-1084350cf4ee
+          P190: 46ff5eee-8d45-4c1a-b318-8aab2fc85fb3
+          code incipit: 0f094a4f-a78f-4a01-9fa4-b7024c3e6c5a
+    F2:
+      uuid: 6b2db285-5817-435a-baa6-3efc7b864eb6
+  texte:
+    F1:
+      uuid: 350cd30c-40ff-4f00-a31f-fe77ad626828
+    F2:
+      uuid: 68168c22-e6bd-439f-b225-ebb376bd4d8b
+  air:
+    F1:
+      uuid: dc22042c-ef0a-42ca-b3dc-8df2df21a24b
+    F2:
+      uuid: 6f8c80c2-8d3b-481c-98a6-2be779e2cd8b
+aimables_lieux_paisibles_solitudes:
+  oeuvre musicale:
+    F1:
+      uuid: a00f0606-912b-4977-a575-b49562c26b57
+      E41:
+        uuid: a70f3bb6-3e1b-4ddd-8837-4f6e6c29c914
+        E13:
+          type incipit: 57e8f9d4-6959-4f0a-9742-c4e3556e6283
+          P190: 2f3d2541-8e63-406c-bb7f-c9d5d333fc82
+          code incipit: 2f3ea677-e58c-4d85-912e-b499b8d294a4
+    F2:
+      uuid: d3f8dc65-1dc3-4715-a676-d5c7dadf3cd0
+  texte:
+    F1:
+      uuid: 19775853-bbb4-4be2-8b14-9b7938d90bd3
+    F2:
+      uuid: ce915a22-9b01-4f56-87bf-53f541c44775
+  air:
+    F1:
+      uuid: 8a35de7d-cdad-4e59-ac81-1903fc46e7b5
+    F2:
+      uuid: 0dca91d3-5645-4967-87a3-d65a15263dde
+décoiffe-moi_cette_bouteille:
+  oeuvre musicale:
+    F1:
+      uuid: 21de3180-c54a-4f9f-b486-c4f0e399e4ed
+      E41:
+        uuid: 08639c35-3e7d-4d22-9afc-0f8de76532c7
+        E13:
+          type incipit: d1ca1b69-50c3-4003-9d4f-a7ff4ee1fa64
+          P190: 757f70ff-25cb-4894-a1b6-80a81aac71e0
+          code incipit: c6cf6ea4-491a-4244-915d-c6b103d3d598
+    F2:
+      uuid: 099f787c-79ee-4848-8574-7a7e75e34c6a
+  texte:
+    F1:
+      uuid: 0cf44524-b201-4a03-b3b5-3bfab86d1f78
+    F2:
+      uuid: 6a409d88-9baf-4b07-bb8d-50fc9f083c0b
+  air:
+    F1:
+      uuid: 50218cd3-2500-4e07-805b-938905a8042e
+    F2:
+      uuid: a0b31777-d759-467a-894f-31e3233e862f
+si_tircis_est_un_inconstant:
+  oeuvre musicale:
+    F1:
+      uuid: c6d812dd-cc48-45c2-90c1-e8456ace374d
+      E41:
+        uuid: b0c599f4-f709-406a-9475-b94a5510c8fb
+        E13:
+          type incipit: 5e3e9424-41e2-4120-87ab-640fd55fea81
+          P190: 1dbec912-cd75-4283-9341-520a3f490d07
+          code incipit: 33251f25-4aeb-4466-8791-13938ffd705e
+    F2:
+      uuid: 4c0dae76-1311-48eb-b5ea-3690478d0cf4
+  texte:
+    F1:
+      uuid: 4ff9b260-6725-4f60-82db-572fbb3c9ed0
+    F2:
+      uuid: cb9b9bf4-8df4-47e2-8d42-e651b8881ab8
+  air:
+    F1:
+      uuid: 283fa2fc-9499-41ab-8d28-afb30bdfb589
+    F2:
+      uuid: d3bebd34-8eb9-49be-b539-c1c9ef744279
+sommeil_quand_nous_vidons_les_pots:
+  oeuvre musicale:
+    F1:
+      uuid: be393f07-3465-43cb-9076-30c54edb0e23
+      E41:
+        uuid: 10dad5fa-ac4a-48f8-b286-a72f6698cec2
+        E13:
+          type incipit: f8e35d98-1166-4349-8487-a43541004424
+          P190: a10d82d0-cf69-4672-8cc3-fe47372e2d30
+          code incipit: 5ec05bb2-3a67-45f1-a73d-b610582583d3
+    F2:
+      uuid: 984f6d70-1b32-4510-bdf6-e78727cbbd54
+  texte:
+    F1:
+      uuid: 43269a88-4d0f-4e87-8fb4-88301f4c3783
+    F2:
+      uuid: e4e11beb-6d9b-4e24-bbaf-6d0056aa8a9e
+  air:
+    F1:
+      uuid: e776734a-8bff-4dc5-a77e-91d981a86877
+    F2:
+      uuid: a770ffa8-600c-4f09-8ffa-3348cca0e552
+due_labra_di_rose:
+  oeuvre musicale:
+    F1:
+      uuid: 8670fde5-ef8b-4a23-9fe8-ad35d276066f
+      E41:
+        uuid: 8c081c51-b508-439d-b5e6-d06501aeee8d
+        E13:
+          type incipit: 66b03863-67b0-4404-a55c-08ba561cf357
+          P190: 2a78bd6b-3277-488a-b951-ba9d3e568856
+          code incipit: 0ed4a7d2-9a26-4765-9156-a5e081722b61
+    F2:
+      uuid: c05ae2ad-2b1b-4038-90f7-7245da6820af
+  texte:
+    F1:
+      uuid: ea9b17d0-918d-4c75-b001-d5129031be71
+    F2:
+      uuid: 83e1a7ea-03f2-4a26-8709-5f61a54469b1
+  air:
+    F1:
+      uuid: 4fc6cfb0-ef94-4e58-8a5b-17463175956a
+    F2:
+      uuid: e9b244c2-63d6-40c2-860f-440ba70a0d4a
+quoi_de_l'eau_dans_ce_verre:
+  oeuvre musicale:
+    F1:
+      uuid: 99444563-e5d9-4eb5-864c-872176af8a36
+      E41:
+        uuid: 33b3caad-97c4-4bf7-a738-a56ba9f1eac8
+        E13:
+          type incipit: 1bfa19b1-4e11-4e28-8a7a-b80b6f12f62f
+          P190: 5f83c07f-c1eb-491b-be28-2bcc714c14f9
+          code incipit: b6ddb52f-b409-4ca3-a846-8a53ea7520a9
+    F2:
+      uuid: 97c49e92-4476-4359-9e9e-8efbb0caf15c
+  texte:
+    F1:
+      uuid: f5b2c9c1-b6b8-4475-b38f-61decdac9cf1
+    F2:
+      uuid: 24c8add4-c89e-4245-a3a9-cc95237e8322
+  air:
+    F1:
+      uuid: f6bb8c1e-8c68-43ca-8888-6b607199ef2d
+    F2:
+      uuid: 3452a2b6-a399-464f-aded-bc906656484c
+que_sert_à_mon_amour_que_le_printemps_renaisse:
+  oeuvre musicale:
+    F1:
+      uuid: 710fa6f6-d75b-4455-86be-812c43f8826b
+      E41:
+        uuid: 73691218-47ce-421d-9d43-31a4cf42da63
+        E13:
+          type incipit: b20f89b3-1fc2-44f3-9ed2-1dc1db916b11
+          P190: afcf2cc3-1d66-4c72-8864-e08c333dcfcb
+          code incipit: 46b4a6b8-56a0-4c3f-b564-3a9101796929
+    F2:
+      uuid: 10835dc1-d6db-4d8f-8593-d3d8cd4b11be
+  texte:
+    F1:
+      uuid: 3752b0a4-2456-4354-a918-0c9a3554ced8
+    F2:
+      uuid: 605b2a5e-2e18-4b53-9e3c-a48fff9cc799
+  air:
+    F1:
+      uuid: 6e95ad0e-faac-4898-b355-c3aca5c0c921
+    F2:
+      uuid: e786c70a-0af6-418f-97e8-2eaafba583aa
+à_la_fin_ces_déserts_on_repris_leur_verdure:
+  oeuvre musicale:
+    F1:
+      uuid: 50543bf3-5004-4418-81b0-92bdecaa4aa4
+      E41:
+        uuid: e80b5db7-4ef0-47d0-b6a4-4b5e0a0bdf69
+        E13:
+          type incipit: 7eeae45c-d0a3-43c8-ae04-98c6d3d57874
+          P190: 3834ebac-a484-405d-ac2f-fd4f410704aa
+          code incipit: c3424976-4d81-454d-bcfd-236600fbb39a
+    F2:
+      uuid: 5c717575-21e4-4d56-96be-a79ea35b0831
+  texte:
+    F1:
+      uuid: 4b69750a-61ea-4c47-a8da-390d2c1482d1
+    F2:
+      uuid: b1f9670e-cca7-4934-8bf5-ad34f8768348
+  air:
+    F1:
+      uuid: 8664fbcb-1b12-473b-b9f0-6984fbf0164a
+    F2:
+      uuid: 1ca3a9be-7279-4b7d-af3e-f6689e75f2f3
+l'amour_folâtrant_l'autre_jour:
+  oeuvre musicale:
+    F1:
+      uuid: 5d5de4ce-1de1-4d03-8125-ea5540984146
+      E41:
+        uuid: 3efaf444-7a60-4b4b-a516-444a584f9e07
+        E13:
+          type incipit: 5ebd90c1-80f4-4e0f-94b6-257570f60eeb
+          P190: 4077ba0e-0ccb-4591-a330-0cfdc4158ee6
+          code incipit: 90f02f47-e7f9-440a-ba4f-af59f2d150a5
+    F2:
+      uuid: e317999f-e46b-4876-bac6-91717d7a1681
+  texte:
+    F1:
+      uuid: 0187b6f0-0e98-4f17-8ff9-14efc0401e02
+    F2:
+      uuid: 76af36c5-5c31-4c07-925c-570fb866ae0d
+  air:
+    F1:
+      uuid: 5fd974b2-6c02-4fc3-8642-546feeea7f5c
+    F2:
+      uuid: 32f0e289-3220-42df-a8fe-2e07dfa0f5f7
+le_cruel_hiver_fait_place:
+  oeuvre musicale:
+    F1:
+      uuid: 661a1239-4843-44ff-a643-e4aaa4724442
+      E41:
+        uuid: fdab7606-23d1-4c1c-8e36-e49165a039ce
+        E13:
+          type incipit: c6716f03-cf95-4c26-a536-e4c6398978c8
+          P190: e0011573-05ac-4e63-94ef-753ee7c56fba
+          code incipit: 0697a211-499f-4021-883d-814cf101a873
+    F2:
+      uuid: ddfa3af4-b451-4a97-931b-7b04b1c8ab79
+  texte:
+    F1:
+      uuid: 64b22d47-4ad8-497a-bae5-c86c079f510e
+    F2:
+      uuid: 51b1dad0-95c2-4d2c-9d0f-6fd5243cb0dc
+  air:
+    F1:
+      uuid: 61d0b2ac-60a2-4541-8c3e-de3459cedc97
+    F2:
+      uuid: 3ab04033-5ba9-4fc8-a212-41eb0e0884c9
+per_non_vivere_geloso:
+  oeuvre musicale:
+    F1:
+      uuid: 31de22b3-58bd-403e-add1-2b5f3b0ddb3a
+      E41:
+        uuid: b9eef373-ec65-4498-981d-0dd1cc2dcbda
+        E13:
+          type incipit: dc68443e-593d-4ea8-a543-91bb193a0f64
+          P190: cdac51d4-ffd2-4cd3-9e77-81e3b6751769
+          code incipit: edb2cea7-3712-456c-8811-b70691bbdfaf
+    F2:
+      uuid: 0e354330-80b0-4074-8911-68893946d5f8
+  texte:
+    F1:
+      uuid: eab518a6-d4f5-449e-b171-823bae5f6c2d
+    F2:
+      uuid: 60025f14-da00-472e-9cda-a2bf6634333d
+  air:
+    F1:
+      uuid: d923b5a5-a121-4462-938e-3822074484dc
+    F2:
+      uuid: 5c7a23fb-48c0-46c5-8a64-b5eb58c42370
+è_cosi_dolce_la_pena_ch'io_sento:
+  oeuvre musicale:
+    F1:
+      uuid: 7c847980-a847-448f-b936-f38bac2d9f2d
+      E41:
+        uuid: 7e3d0e6d-efc0-4e34-9eae-39e98bfa4c07
+        E13:
+          type incipit: 8128c22d-a949-4192-a037-77c9c37fb2a7
+          P190: 2f7f4089-7c10-41b3-b94a-6b7f6ede6012
+          code incipit: f363510c-8be4-4a40-b338-fa7a241f47ff
+    F2:
+      uuid: 6aaa47b6-8ff6-4a40-8820-43761a874acb
+  texte:
+    F1:
+      uuid: 0a1c4d2f-254c-4fc4-8632-f22f6f0cd416
+    F2:
+      uuid: b30b8944-b814-418e-81ae-ddd42b8b1918
+  air:
+    F1:
+      uuid: 305cf9a2-4f93-4691-93b9-41f5e6f73897
+    F2:
+      uuid: 152b7aef-210b-40cf-821e-969d8e34b0ce
+ah_que_l'hiver_est_ennuyeux:
+  oeuvre musicale:
+    F1:
+      uuid: 07f135cf-ab6c-4ae4-82df-817e8ca6002d
+      E41:
+        uuid: 13184c82-d643-4c8a-97c4-4254bc45fe07
+        E13:
+          type incipit: 93629a16-667e-4df4-add1-213eb1b2ad91
+          P190: 5d70a177-8eb4-4b47-a979-010ba846ac52
+          code incipit: 92586049-8a27-4e00-b5b2-8e87a46b6d89
+    F2:
+      uuid: 8cc57fd9-3cb1-4886-9f63-40ec4e51ed94
+  texte:
+    F1:
+      uuid: 7341942b-2724-44fd-9177-90cb27d576c4
+    F2:
+      uuid: 530797c1-1ec3-477b-86eb-eb36659075c3
+  air:
+    F1:
+      uuid: 5b63cc2f-2a7c-47e7-9c75-d2c909da7227
+    F2:
+      uuid: 76da2005-d562-4b4e-99eb-ec9284581906
+une_langueur_extrême:
+  oeuvre musicale:
+    F1:
+      uuid: 1e82e0b9-e3d4-498e-b847-6395775733b3
+      E41:
+        uuid: 32276b9f-1c78-4424-bc6d-f60d8c494912
+        E13:
+          type incipit: e7555cae-24a1-46ff-9ffd-0b77a42ba7c2
+          P190: 090bc879-38a5-404e-be6c-a710dd410414
+          code incipit: 031c6c30-35ec-4f7a-bc4c-fce4b10d0758
+    F2:
+      uuid: 8bd40cfc-ce02-44b5-822e-946fb3fe3419
+  texte:
+    F1:
+      uuid: b21761e5-c3e6-41f5-b0d1-0af6ca60403d
+    F2:
+      uuid: 64237296-6ce9-45f1-aa35-b1afb49b49c1
+  air:
+    F1:
+      uuid: d87f83ae-1ef7-4186-90f8-5a111eb7761b
+    F2:
+      uuid: ec5d47a2-67fc-41c3-8d07-40546e97e70e
+ah_qu'il_est_doux_de_vivre_en_liberté:
+  oeuvre musicale:
+    F1:
+      uuid: a0af02d2-afc7-486d-9328-29d8b822c7c7
+      E41:
+        uuid: edb936d3-065a-4ac0-9bf5-df48b8bf0148
+        E13:
+          type incipit: adaad577-847a-4936-af1a-d75abef14231
+          P190: cdcb0063-269d-4672-a57f-ec982d9dd122
+          code incipit: dfff8d3d-01a6-4139-b283-75a9a38051a6
+    F2:
+      uuid: d906b156-9bff-44aa-87f6-276fadc5c1b6
+  texte:
+    F1:
+      uuid: 00d11b97-ceb4-4dbc-be7e-6aa0e671bcea
+    F2:
+      uuid: ca164a42-c98e-49df-b243-0dcb4eccd9ca
+  air:
+    F1:
+      uuid: e343a7da-c9dd-4ea9-bd8c-6672a352a1a7
+    F2:
+      uuid: ede023ed-5590-4459-878e-c15d79e5cb7d
+amants_quand_finiront_vos_peines:
+  oeuvre musicale:
+    F1:
+      uuid: 74c0d5a0-5044-4e61-afdd-623e2c37bf0e
+      E41:
+        uuid: 962c1c1e-1790-44dc-8a9c-50a6f6564863
+        E13:
+          type incipit: 5c304f01-a3be-480d-aefc-9cfa72d08495
+          P190: 0b89761b-f3c4-4288-a561-1f5df2cb5238
+          code incipit: 4fcea254-ec86-490b-b650-eebbef64d443
+    F2:
+      uuid: 0d4753e3-f2a7-40a5-bcad-6f4668663368
+  texte:
+    F1:
+      uuid: 4ed40b29-3a99-40e5-9c25-deeab1c98ff7
+    F2:
+      uuid: 9c265551-b56b-4b61-a5a6-c2ea8a5e99f7
+  air:
+    F1:
+      uuid: f0d472c2-359f-4eed-b4d3-5e91263d7ed5
+    F2:
+      uuid: 6bae3ed8-6516-4c45-9ec7-961fc23401ba
+si_mes_rigueurs_te_font_mourir:
+  oeuvre musicale:
+    F1:
+      uuid: eb6a5578-6073-4c14-81c1-6a11c57cce0d
+      E41:
+        uuid: 91cb5b0f-5e3d-41ca-9ec9-3b6e47559bc8
+        E13:
+          type incipit: a6181768-4617-49af-9d6e-fa4d955edba1
+          P190: 60fa4287-30f4-4550-91d6-aeb89fbf1e2b
+          code incipit: 3c8162cf-db1a-4518-b72b-071ce02d53ad
+    F2:
+      uuid: 86d6a54a-5c98-48ad-b31c-4e6b9688ff8c
+  texte:
+    F1:
+      uuid: 2680c71f-f48c-4d5f-a72d-1904952fa255
+    F2:
+      uuid: 7e12df98-530d-4bdf-a53a-969574558a2b
+  air:
+    F1:
+      uuid: 44d1bc41-15bd-4b17-b112-76c92269e83d
+    F2:
+      uuid: b6691bd3-348e-45bf-9605-2f63fc75b5a5
+sombres_forêts_et_vous_tendres_zéphirs:
+  oeuvre musicale:
+    F1:
+      uuid: 69331892-5ba5-4745-8c95-b819a346de63
+      E41:
+        uuid: 232430dd-e817-42ba-8327-3119839edaf3
+        E13:
+          type incipit: af449c23-8d1e-4277-a5ac-67e04f1393bc
+          P190: 589b3204-8bbc-4e35-99a1-848bebd7382c
+          code incipit: 2305b49c-0a1b-4974-b896-10e2ade31534
+    F2:
+      uuid: 02e5b834-34ba-4953-aa20-1a467be72872
+  texte:
+    F1:
+      uuid: f46d8ae5-f749-44c2-b491-e9a891140940
+    F2:
+      uuid: 8e159a94-9b7d-4dda-bdf3-f7e40754a0e6
+  air:
+    F1:
+      uuid: 273a84f1-f46d-4e60-9d4d-5cab5a923135
+    F2:
+      uuid: 9bb37192-cf07-4fdd-a70b-a4adde013324
+quelle_musique_agréable:
+  oeuvre musicale:
+    F1:
+      uuid: 49cf02bd-2ab2-478c-932f-c7bb7e0e92d7
+      E41:
+        uuid: 4de3b86a-ef66-415d-9061-ce2b8bd4fce1
+        E13:
+          type incipit: 61e41457-9561-4131-be75-ce81d80e87bf
+          P190: a17b6c6f-315c-46a8-9af5-9f5c24a24667
+          code incipit: 5a806f29-7ee1-412c-aee0-99c2b9b9cb39
+    F2:
+      uuid: 9537e5c1-ae16-402c-adf5-a34531046168
+  texte:
+    F1:
+      uuid: 3ccccb03-3c0d-4375-aceb-f55aed3fcd6f
+    F2:
+      uuid: 787fd406-7c52-433c-a774-8f8844bb5148
+  air:
+    F1:
+      uuid: 8728f482-a064-4918-baef-788e51982809
+    F2:
+      uuid: 116f46a3-4605-4440-b99b-8307885d699c
+canons_tambours_trompettes_et_mousquets:
+  oeuvre musicale:
+    F1:
+      uuid: b1654ab4-cab2-4679-b7fd-4ba907b7e668
+      E41:
+        uuid: 6e789dc0-3bc2-430c-a902-bc2764df522f
+        E13:
+          type incipit: 69d7aa49-66df-469b-95eb-8d69cbff0a8e
+          P190: 5779701e-33ab-4e31-a33e-479f07e63d2e
+          code incipit: 4ce79402-f618-4e59-9eb7-a7a69b82decc
+    F2:
+      uuid: c9878002-730a-4499-8b6c-12bef13ff7d5
+  texte:
+    F1:
+      uuid: 681abed5-013a-42db-b48a-2c23bc26bca4
+    F2:
+      uuid: 83cf44d6-d1f0-4bfa-a56f-546950545113
+  air:
+    F1:
+      uuid: b1609872-6c58-4341-b021-a4608f75513c
+    F2:
+      uuid: 414d3912-dfa3-4047-9c36-d46352f90856
+ce_n'est_qu'au_retour_des_beaux_jours:
+  oeuvre musicale:
+    F1:
+      uuid: 4290cc25-090a-4611-9918-e3ad795f8712
+      E41:
+        uuid: 2a791373-6c2b-4f2d-aafb-d403d15ded45
+        E13:
+          type incipit: dd1c2332-b6f6-46eb-9ba9-03c48b11c300
+          P190: 71455826-f91d-4b45-b07e-0bff41e2977e
+          code incipit: 0637dbc9-8d6c-42c6-ad32-ee68bbd2a384
+    F2:
+      uuid: 2996db65-53b4-4432-9e1f-ba2fd3db008b
+  texte:
+    F1:
+      uuid: 89e2b113-b76a-49a7-b72e-563aeb9286c6
+    F2:
+      uuid: 6f8fa3fb-be51-4293-bee3-d200965f8aba
+  air:
+    F1:
+      uuid: db2d0809-98fc-46ad-9645-bce0f4099a81
+    F2:
+      uuid: 76753ba0-654f-4e55-a39e-4f1dd4be89ef
+hollandais_le_grand_roi_qui_nous_donne_la_paix:
+  oeuvre musicale:
+    F1:
+      uuid: 0da8ff28-41ef-42d8-873f-e63ec39328e6
+      E41:
+        uuid: 9c2a560a-09f4-4832-8145-6ea8ad9759a0
+        E13:
+          type incipit: fe0a5943-3437-47bd-b194-ba8765329303
+          P190: ade63a44-92e0-4dbc-bae6-a622e18f9930
+          code incipit: dc4b9bab-d251-4664-8a37-0e2b8421f7b5
+    F2:
+      uuid: 52cc4320-4943-4777-88f6-e79a3a1caacd
+  texte:
+    F1:
+      uuid: 41539322-a900-45f4-a063-0d615159c876
+    F2:
+      uuid: f59302eb-f976-4cac-9647-a55b5f12277d
+  air:
+    F1:
+      uuid: 17dd02f7-e3f3-489f-95db-cfa141f42d5b
+    F2:
+      uuid: bcb3441d-7588-4932-8cf6-9aab6770b49d
+en_vain_vous_m'ordonnez_de_feindre:
+  oeuvre musicale:
+    F1:
+      uuid: 8422fe55-5002-4b9a-afcd-c2025bc2e4dc
+      E41:
+        uuid: b1f83bbd-3d0a-43c2-82db-39fa1b325b9d
+        E13:
+          type incipit: bccf42be-f261-47d4-9086-e33f4e9d60e0
+          P190: 92d3ef93-c447-4566-94be-b701a45cb092
+          code incipit: 8e52497c-e56a-46ae-9bce-6f473dd5e60b
+    F2:
+      uuid: d78d9508-5b0d-4cec-a9e8-6cb6e3519074
+  texte:
+    F1:
+      uuid: ae49e799-521b-4292-8261-80ff85397931
+    F2:
+      uuid: 9cee3798-2a69-4e7a-bccb-5b90ec5ea866
+  air:
+    F1:
+      uuid: 10fa9877-25dc-468d-aefb-a16856b33597
+    F2:
+      uuid: cc777be7-2d9a-47a4-822e-a1d695548117
+gillot_janin_deux_biberons:
+  oeuvre musicale:
+    F1:
+      uuid: db8538fe-5857-4938-a175-3d84c0c11fda
+      E41:
+        uuid: c0e27b2d-c1ac-40b2-ba60-474972953016
+        E13:
+          type incipit: dd837c3c-ee8b-4190-a6e1-5b49600398b0
+          P190: a7e91bce-375f-4ca7-9ff6-2e6cd94173e3
+          code incipit: ac6e3976-d140-4516-884b-9d535bf2ea20
+    F2:
+      uuid: 2d9147d2-cab4-4233-8720-7c5aaae3bf44
+  texte:
+    F1:
+      uuid: 2ec63dbb-f623-45ad-872b-1f3f3b81f282
+    F2:
+      uuid: f373f085-bf9c-4079-9c72-ded8b90b96e8
+  air:
+    F1:
+      uuid: 41a4eac6-325b-4850-b7c2-7881897789f3
+    F2:
+      uuid: da97e3b3-bf43-4774-957f-ab2e6177c6fe
+ah_qu'on_est_malheureux_d'avoir_eu_des_désirs:
+  oeuvre musicale:
+    F1:
+      uuid: 23864309-a237-4bb6-a22f-76f063323c69
+      E41:
+        uuid: 7728af2f-48aa-461c-b631-1423f2eb680d
+        E13:
+          type incipit: 3a0a3deb-fad8-45f7-a8ca-f1695a908f87
+          P190: f702666e-65d4-4ce9-a3c6-adf5c9b3ef13
+          code incipit: 15e56ad0-82e5-4c00-b9d3-cec8420079aa
+    F2:
+      uuid: 0d920224-f6ef-4131-8b7d-08911552a7ff
+  texte:
+    F1:
+      uuid: b82cd7ce-a9d9-4618-be17-2db259afea82
+    F2:
+      uuid: c362af6f-2155-42ff-a6a7-9fc2ed50464b
+  air:
+    F1:
+      uuid: 4fedb720-8118-4ace-9358-017d9aecfa42
+    F2:
+      uuid: 049c72f9-affe-49d6-9f4d-be409e6794dd
+ne_croyez-pas_jeune_bergère:
+  oeuvre musicale:
+    F1:
+      uuid: bac525dc-78ff-40fc-aeda-8cc3a0d7a9a4
+      E41:
+        uuid: 827c6c21-d50d-42b0-a182-53fb8de5f3ba
+        E13:
+          type incipit: 70217a0b-8c8c-46e1-80bd-a33a860150a6
+          P190: 4b42340e-9e2e-4085-862c-2781540f3def
+          code incipit: 029f118a-0dcc-4cc0-99ef-bded92baced7
+    F2:
+      uuid: 80e23906-15d8-44d8-b8cf-a51388e610c7
+  texte:
+    F1:
+      uuid: ab54646e-30bc-4ae3-a431-66c61a64fa21
+    F2:
+      uuid: 79e637e0-8cb9-4ba3-990f-7379b9484c2a
+  air:
+    F1:
+      uuid: 72e9e02a-ef7c-4a19-ae73-c70993d6faa5
+    F2:
+      uuid: 01c46e5d-45a6-471d-8bd1-b4ec7ca8c23d
+il_n'est_plus_de_printemps_que_sur_le_teint_d'iris:
+  oeuvre musicale:
+    F1:
+      uuid: 1799faa9-1730-4ddf-a1ce-430bad22dc3a
+      E41:
+        uuid: 75462c57-0401-44b1-9f1e-869432e56fa2
+        E13:
+          type incipit: 1a29216f-aeb4-4702-8652-2d9f7a4cd0f5
+          P190: a81699ac-ce56-404e-8fef-4d836fc62a7d
+          code incipit: 6a283f54-6d49-47cf-80a2-c5f9fab8cdea
+    F2:
+      uuid: 968dddce-92e0-4443-a46e-4191650b0aef
+  texte:
+    F1:
+      uuid: 61eab793-325d-4e5b-b200-bbe327f8979f
+    F2:
+      uuid: 00f98964-35b0-447e-9bfe-6086544130f0
+  air:
+    F1:
+      uuid: dbdcb385-b636-401e-b01e-4b1919e8f432
+    F2:
+      uuid: 5399d79c-d0d7-4157-a822-c67ed4c8610e
+affreux_rochers_demeures_sombres:
+  oeuvre musicale:
+    F1:
+      uuid: 487be0c0-d2b4-4cf6-9eed-64f7e73d6dc7
+      E41:
+        uuid: 630ddf49-daf1-40ef-9b68-69d7c14a790f
+        E13:
+          type incipit: d7db95bf-3b8e-4911-8410-6b197581c22c
+          P190: 6a3d8c34-0ccf-4898-9229-1698f2c821fb
+          code incipit: bd668a6d-c532-44cf-90b6-fcce1387b4bb
+    F2:
+      uuid: 6f5df248-70e9-4900-9915-8e4bc979ca44
+  texte:
+    F1:
+      uuid: e0ea73de-9ab0-46a7-b3d3-f1541b67f9c1
+    F2:
+      uuid: d974194a-c889-4908-a17c-e1a2637c6188
+  air:
+    F1:
+      uuid: fe97a3d8-9bc3-4815-9147-70fd934ccfc3
+    F2:
+      uuid: a0b3d527-64f6-4a5b-805d-0e0df4a66aef
+si_pour_avoir_vu_seulement:
+  oeuvre musicale:
+    F1:
+      uuid: e45c9ddc-547c-4c81-8244-d78f71e046c8
+      E41:
+        uuid: 044d3f2e-c34c-4413-98ff-25750ada3367
+        E13:
+          type incipit: 08c37a43-65ae-4a79-a08b-7448652960aa
+          P190: a3ba88b1-ce73-442c-ac85-3a365f22670d
+          code incipit: c27e1497-3efa-44bb-9fb5-08f935a540fd
+    F2:
+      uuid: 4eac3699-0267-48cd-9029-e21966247af2
+  texte:
+    F1:
+      uuid: 04cd7e40-8af3-42ee-837a-5243cc1472c0
+    F2:
+      uuid: 12a8f1da-8b1f-44b3-bd3f-d8bd8aa5ef79
+  air:
+    F1:
+      uuid: 6ab75891-bbb7-41e5-a41e-019f0745f935
+    F2:
+      uuid: 9a7c5696-d188-45bb-b594-73eff2afb4b7
+qu'on_ne_me_parle_plus_d'armes_ni_de_défaites/puissant_roi_des_buveurs_puisque_tout_est_tranquile:
+  oeuvre musicale:
+    F1:
+      uuid: 557a985d-3f16-457a-bb7c-3e496fa39a4d
+      E41:
+        uuid: 49f12a94-58d5-4138-a93e-adf07927d85a
+        E13:
+          type incipit: bf8f172f-08aa-473c-8f73-d4d506f088d3
+          P190: 3670ae2d-3b4c-4336-bba1-14c08d7ec3c5
+          code incipit: 581707dc-dd17-4f8b-a563-4ba0b687660d
+    F2:
+      uuid: 3331a5c6-e9c3-4f16-9884-1821f4c2854f
+  texte:
+    F1:
+      uuid: b17d65d7-a0f6-413c-aca5-2ff3bb2ba6ca
+    F2:
+      uuid: 61b8360b-f885-4208-bcb2-0212b0fef196
+  air:
+    F1:
+      uuid: 4e78860d-b4e9-4cef-b8fe-196b3b73dc1f
+    F2:
+      uuid: 2b7f6649-fa26-49a5-beaf-c7e86b7adc72
+lorsque_j'étais_aimé_de_la_jeune_lisette:
+  oeuvre musicale:
+    F1:
+      uuid: 5860df5b-506e-49b5-9d02-9e6cd1d45d30
+      E41:
+        uuid: 484dbb3d-d8e0-45e5-87c6-0f6e997ae02b
+        E13:
+          type incipit: 77c1e5e4-886b-4d8c-970d-e5d81f808f3e
+          P190: c9ad5808-0717-43c4-af6a-5ade5d25aca0
+          code incipit: be60321a-ce00-4b3e-b391-f7d62e5da040
+    F2:
+      uuid: f0a9a7bb-6be3-4502-8614-9ab5940903ed
+  texte:
+    F1:
+      uuid: c53aba01-1980-4500-bdf0-324228e87309
+    F2:
+      uuid: 474d820e-5dbe-4938-bd0a-d52a5e760d06
+  air:
+    F1:
+      uuid: cfe82ce5-6956-42ac-9c0d-296675b4ed42
+    F2:
+      uuid: a4d0c82c-a4de-4570-8f73-0b7457caabaf
+amis_n'êtes-vous_pas_étranges:
+  oeuvre musicale:
+    F1:
+      uuid: e002b648-8094-4b8f-bb6d-e1cadd28d9ee
+      E41:
+        uuid: a47f5efc-c804-42d5-96d5-a86daf670c35
+        E13:
+          type incipit: b0b616fc-736a-4e88-af5e-89121cc163b6
+          P190: b120ee8b-5eaa-4028-998a-2a7bc80bb973
+          code incipit: 764cfdbc-a585-476d-90df-3e130dd950f8
+    F2:
+      uuid: f041e001-8ed6-44b4-953b-da4e15eedcf3
+  texte:
+    F1:
+      uuid: 44f9ad57-d3ca-4ab2-9bc5-44627f5f7481
+    F2:
+      uuid: ddf058e3-5d3a-4e4b-841f-a8146bdc60c5
+  air:
+    F1:
+      uuid: 48c55af4-e0ef-48f3-a773-1a3f8d14011b
+    F2:
+      uuid: 015ad9a9-7db7-4813-8758-f94ed1c95355
+olympe_est_de_retour_avec_de_nouveaux_charmes:
+  oeuvre musicale:
+    F1:
+      uuid: 72ffd824-e746-4cf2-a64c-f6b367d6e687
+      E41:
+        uuid: b0a56e4d-f9cc-411d-ab76-1f6441979bae
+        E13:
+          type incipit: 9488ecb3-f4fd-4706-83fa-2567bb19625b
+          P190: fccef886-fb66-4142-94a7-59cf9929dc48
+          code incipit: ff021062-e8d8-40d7-a34e-5d30d9e335c2
+    F2:
+      uuid: 593beb89-04be-41ad-a026-10923a8cd0a8
+  texte:
+    F1:
+      uuid: 0b2bb799-4853-42f4-b087-fbb013d8ff99
+    F2:
+      uuid: f76fc07d-3f78-4070-8bf8-b3cb7dcbe750
+  air:
+    F1:
+      uuid: 68b82c82-245e-41fd-9bb6-bcb07cebc878
+    F2:
+      uuid: 7a308bb1-57e5-46f2-ad6f-d846e6134c70
+amis_puisque_bacchus_nous_assemble_en_ce_jour:
+  oeuvre musicale:
+    F1:
+      uuid: 50431dbd-0929-4d64-a70a-f2a787b7b30d
+      E41:
+        uuid: 18fdef15-e18e-4d10-b98d-699536be5ea3
+        E13:
+          type incipit: d2f715e5-7419-498d-8396-228261f2c0dd
+          P190: c05ceae4-f14a-49c1-ac0e-3d6523ef26e1
+          code incipit: 08b883b2-e808-4dcc-b09c-fda5fc555d14
+    F2:
+      uuid: 2982aee7-28fc-4cc0-9f7a-ac8bee2eec0c
+  texte:
+    F1:
+      uuid: bf1d001d-0145-4b4f-b35b-ed74686dd7ee
+    F2:
+      uuid: 876096d3-b29a-4a0a-b247-41194a120d30
+  air:
+    F1:
+      uuid: a9fb237b-1f93-490a-8ee5-872d4422d322
+    F2:
+      uuid: 54c591c6-586a-4e70-a4f5-58c3adf2743f
+on_souffre_quand_on_aime_bien:
+  oeuvre musicale:
+    F1:
+      uuid: 568abf19-68bd-4b66-a179-2f0fd53ab0fd
+      E41:
+        uuid: 2b6d2a0e-ee9f-4f3e-b3fc-d98f900b9fb9
+        E13:
+          type incipit: ec055b88-a603-452b-b56c-1218ab3f1b94
+          P190: b71cbad5-bd7a-4f03-a2df-27024df3af67
+          code incipit: 30b311df-d13d-492a-a130-7178c244a6ff
+    F2:
+      uuid: d2204a30-9acc-49f3-a294-bb77a8d46596
+  texte:
+    F1:
+      uuid: aa9ff704-cbf1-4ada-b592-46f7c3ac337b
+    F2:
+      uuid: 0e2c8219-e93f-435d-a3a3-d7fef729d09d
+  air:
+    F1:
+      uuid: 6f4aa562-b5de-466e-9ecf-fe8b304abc30
+    F2:
+      uuid: 21b8327d-aed3-4331-8458-9c1fe1932e77
+hâtez-vous_amoureux_bergers:
+  oeuvre musicale:
+    F1:
+      uuid: 52405a2d-17ee-41b5-b0f0-5c24d2ad833f
+      E41:
+        uuid: 1bfb0fcd-68ae-4e60-909f-1a6d532cf5a2
+        E13:
+          type incipit: 064ba750-1e15-463b-bffc-049611e82ffe
+          P190: 7d7c45c7-a790-4c03-9b06-b3b8be5f15c7
+          code incipit: 3a2be846-3e11-46cd-8cfd-3ac6d41be581
+    F2:
+      uuid: 72bcecdc-9637-4128-8479-796aa8b7838d
+  texte:
+    F1:
+      uuid: f6446b36-a0c7-40bb-bde8-c2921ff84c66
+    F2:
+      uuid: 848e7e5c-465a-469d-806e-714c6a809b5e
+  air:
+    F1:
+      uuid: 5cc1aac1-045a-4e8d-a69e-94dad8e9d79f
+    F2:
+      uuid: 4eee7d6c-6e9a-4c15-9bf6-b39d18c8ae4a
+dolorosi_pensieri_ch'affligete:
+  oeuvre musicale:
+    F1:
+      uuid: a7d72fc7-87ba-415c-8539-1b023d231629
+      E41:
+        uuid: f7b8ba2e-15c4-4aac-82e9-4084900c8a08
+        E13:
+          type incipit: 3d5430d3-a0ae-4f44-b5b4-2ed50b44f71b
+          P190: 4a16c118-af76-4e0f-8948-f19d4673568e
+          code incipit: 4139185f-1709-4e80-aaa6-cb8508f8dcec
+    F2:
+      uuid: 58f55f44-e660-413e-8be3-f567e3d8dfea
+  texte:
+    F1:
+      uuid: 7b62c626-6dd2-4d9a-bc6b-c44e31e3ee9d
+    F2:
+      uuid: 62d2dc92-2895-4cd7-a074-ece0609936b7
+  air:
+    F1:
+      uuid: 814f12d9-1795-4278-a95f-a558f00a7402
+    F2:
+      uuid: fd21e155-02be-4aae-bb2d-023482789826
+non_disait_un_biberon:
+  oeuvre musicale:
+    F1:
+      uuid: 93dc6f5c-7813-4d05-9217-8caf191903da
+      E41:
+        uuid: 24aa69de-9c7b-46e8-98f9-fe4eb7c71c87
+        E13:
+          type incipit: 2c45826f-61e8-4fc1-b34c-32db92b4398f
+          P190: 0c621056-011d-4107-bb24-489b8b270f90
+          code incipit: fa3faace-4269-439a-97ab-fced2f5de7d7
+    F2:
+      uuid: b3f6f860-2fc5-4789-a1d8-f27619ec4fde
+  texte:
+    F1:
+      uuid: 998f9007-37f3-488c-b338-9e541cedb0bf
+    F2:
+      uuid: 227b24cc-f798-4472-8b26-cead0f52d5b9
+  air:
+    F1:
+      uuid: 4c717d9f-40e1-4497-8183-7bd7204e92e8
+    F2:
+      uuid: ab36a216-e7e1-4eec-a9d6-cfea5b3c230f
+je_ne_viens_plus_dans_ces_déserts:
+  oeuvre musicale:
+    F1:
+      uuid: 63a37deb-8e8c-4767-94e9-f19f13e210e5
+      E41:
+        uuid: 9fe96758-a7bb-47de-a5b4-13ec362e8e48
+        E13:
+          type incipit: 1acd80ff-92c2-496b-9d0b-73c3472de9e3
+          P190: 864cdab8-3c94-45c9-824c-a501d15d3de2
+          code incipit: 15c9a658-83f3-45b2-973c-af433b335ef4
+    F2:
+      uuid: a1350cc8-46ea-4896-a6df-0a4dd81b39d1
+  texte:
+    F1:
+      uuid: b0c53a93-e54c-425c-b444-363ef9f43591
+    F2:
+      uuid: c11b03a6-4af5-4aec-b73c-790174e95cba
+  air:
+    F1:
+      uuid: add1200b-3caf-4dc7-9b04-d30228b7c9a0
+    F2:
+      uuid: 52802c24-45e0-4eed-882e-067a41cc69f7
+ma_raison_veut_que_je_me_venge:
+  oeuvre musicale:
+    F1:
+      uuid: 77bdab7d-7ec5-484f-8ea8-16bc947242e4
+      E41:
+        uuid: 956c079e-d78c-4115-ba92-698ece1da7f1
+        E13:
+          type incipit: a74c9a70-bf92-4a7a-af43-8cd4b997ad76
+          P190: 81f2c926-1cf5-45ae-a9e4-c8dddb636b6a
+          code incipit: 8afd1318-0e1d-415d-a3ca-292e3c0380f1
+    F2:
+      uuid: 9b3598aa-d5e8-4c42-b43d-053e6f1eabe6
+  texte:
+    F1:
+      uuid: 126babbf-7dee-47c4-94fb-eaa54371c2a2
+    F2:
+      uuid: 6596c734-2f34-4d93-bb63-5f8c48470d3c
+  air:
+    F1:
+      uuid: f0139f94-b1dd-448b-93a3-d13a82a0125a
+    F2:
+      uuid: b88c3b2a-db07-4b2c-8263-6f2c89fbc3f9
+laissons_là_les_flamands_et_prince_d'orange:
+  oeuvre musicale:
+    F1:
+      uuid: 23cd8f9a-da59-40e9-89c8-1cd255bbba9a
+      E41:
+        uuid: 5e5079d5-0fb1-45e1-926e-ba395d3d68cb
+        E13:
+          type incipit: 38d59e13-e8fb-4a79-a1f9-9650bb63dba1
+          P190: 53ad4c8c-2313-4d95-8b4b-b10cee71ce60
+          code incipit: 202cbc85-d0b6-4cea-801e-3e778068041a
+    F2:
+      uuid: 449a655a-70c8-42f3-9ea7-0aa120acb3fd
+  texte:
+    F1:
+      uuid: d7cc2782-6c05-4085-bf20-9bb852ef81d7
+    F2:
+      uuid: 08275e95-47a7-43ca-93f8-b053a16e362d
+  air:
+    F1:
+      uuid: 1b77d2a4-2987-4f78-8780-993e35d4124e
+    F2:
+      uuid: 4a90b688-07ce-46dc-ae0a-49098eca0a24
+héros_dont_les_grands_noms_embellissaient_l'histoire:
+  oeuvre musicale:
+    F1:
+      uuid: 53f1e656-2473-4d28-babe-8e318a9e238b
+      E41:
+        uuid: 0eaeabf9-94c9-4915-90c0-7608b617a744
+        E13:
+          type incipit: bf3338d4-9284-4cfe-ad8e-fa909872cd2e
+          P190: d8a52bf7-a600-4280-9b8e-145cdd4bb575
+          code incipit: fd783d4f-f489-4d67-8646-58071379f66b
+    F2:
+      uuid: a868a072-19b8-4d55-9649-663f71c2d61e
+  texte:
+    F1:
+      uuid: bee91e4a-f600-4e7e-955a-478a95e3076e
+    F2:
+      uuid: 19d10117-aec7-489d-9a9c-6431e05792d3
+  air:
+    F1:
+      uuid: 34c0d412-e7a8-43f7-94f2-b15cbd9b0299
+    F2:
+      uuid: dc5d6fed-cc12-492b-81be-f9d60485fa3e
+pour_boire_avec_plus_de_plaisir:
+  oeuvre musicale:
+    F1:
+      uuid: 22cdbd33-5b42-4751-aeaf-3004d7a7a8e0
+      E41:
+        uuid: 16522479-c08a-4bba-998d-03acc0adac28
+        E13:
+          type incipit: 979d3e88-08e6-4d51-90d5-8ceadb5c0c61
+          P190: a5be75fe-355c-4ff4-aea0-d3c8a7acab89
+          code incipit: a97b0f34-6f05-4cc5-ae46-3236fe350fe9
+    F2:
+      uuid: 1de8baff-093f-4e1d-b470-1284b66e9413
+  texte:
+    F1:
+      uuid: e2245d23-0615-4e86-bb3a-6acee8b2b29c
+    F2:
+      uuid: ad29c07b-8525-4c63-b1f7-9ce8307cc361
+  air:
+    F1:
+      uuid: 67e1550d-e1c7-48ec-9631-33e49d4e4876
+    F2:
+      uuid: a2708ba8-ff3d-4aab-9056-a0748d59f309
+vous_demandez_iris_pourquoi_je_vous_évite:
+  oeuvre musicale:
+    F1:
+      uuid: 0a5cfb61-f400-4cfa-82f3-f67d8edd7b8c
+      E41:
+        uuid: 0a05bec4-ab5f-49a0-9221-72cc73412649
+        E13:
+          type incipit: d67ae717-f9dc-4994-9a0d-de8fda9eb84b
+          P190: b65071b1-0344-4c69-adba-7ca236c11cc4
+          code incipit: bacdae56-18b9-4dd0-814d-fc8809123823
+    F2:
+      uuid: 69a02618-f2a9-49d9-abeb-3da46a47a4bf
+  texte:
+    F1:
+      uuid: 555f0c0f-4fda-475a-a444-a343361ac5e9
+    F2:
+      uuid: 7916980e-1980-4876-9cd6-276628247ef2
+  air:
+    F1:
+      uuid: ee802bba-9b31-4dd9-8838-13b65cc0c2b7
+    F2:
+      uuid: 2ce490da-0f47-4a04-8027-d9bc1a42e990
+le_soleil_sur_nos_champs_trop_longtemps_arrêté:
+  oeuvre musicale:
+    F1:
+      uuid: 9b8e23db-e8e9-446f-ac7d-39d8dc6389e6
+      E41:
+        uuid: bf823afd-837e-4a0d-9c59-fc6a1cc94d56
+        E13:
+          type incipit: d2194424-458e-489d-8c8f-3ba7998e82c2
+          P190: aa69005b-a4dd-48c0-b238-884e181c6778
+          code incipit: c94a4449-03a1-4975-afc8-b540c266342b
+    F2:
+      uuid: eb1b5ea8-3a4b-4906-9ad7-75308c49cdc5
+  texte:
+    F1:
+      uuid: e658a486-6cf3-4e42-85de-45fe306e3e0a
+    F2:
+      uuid: 81c4895c-7351-4425-b87e-0fc9441bb4aa
+  air:
+    F1:
+      uuid: 51f85050-6abc-4847-aba6-60765a78fdab
+    F2:
+      uuid: e0730672-ecf9-4fc7-a321-ad805f8b09f1
+agréables_ruisseaux_et_vous_sombres_forêts:
+  oeuvre musicale:
+    F1:
+      uuid: f0381265-406f-4b7c-a270-ec67cc12c363
+      E41:
+        uuid: 75a918d3-84b6-4815-8931-2202f5d3891d
+        E13:
+          type incipit: 1465323e-7d19-4df1-8a4b-e09fcd8d145d
+          P190: 10b2f86d-edac-40a4-b4d1-694e1ab5c007
+          code incipit: f4011838-ff95-4b26-8f64-8b97af7cbf7c
+    F2:
+      uuid: 4a26cf92-baeb-4e0d-9dc1-5932ed026b56
+  texte:
+    F1:
+      uuid: 8d102623-fc68-4b24-8960-f1441a26a43a
+    F2:
+      uuid: 4bb3068a-2a51-43eb-a4d5-f891950acccb
+  air:
+    F1:
+      uuid: da21c269-c72e-4df9-8423-e37d98d0845c
+    F2:
+      uuid: 69062756-a9f1-4791-8503-5f9d2de2901d
+amour_cruel_amour_laisse-moi_vivre_en_paix:
+  oeuvre musicale:
+    F1:
+      uuid: 9c68b6ab-8893-4235-9239-bc2a2f160059
+      E41:
+        uuid: a80cb96e-c866-4bcd-aa7a-a790b936647c
+        E13:
+          type incipit: 65779feb-04ce-4b1a-957d-00f26c9e5e02
+          P190: 62c0029b-1db7-4469-9835-10c0e5c02bd8
+          code incipit: e43a0386-4441-49f7-8a7a-0d67ab67eb7f
+    F2:
+      uuid: fba1dff7-4fe2-45ed-a08a-e227710c0ee8
+  texte:
+    F1:
+      uuid: 4ca6eaa8-7713-422d-b290-360eb461a5aa
+    F2:
+      uuid: e6729f32-59d7-4727-957b-ce233ff44030
+  air:
+    F1:
+      uuid: 36741c9c-9405-432a-9da8-cd3a08d93467
+    F2:
+      uuid: 42499f00-9770-4ac6-a4f2-94f65dd51bf0
+puisque_le_grand_louis_en_bornant_ses_exploits:
+  oeuvre musicale:
+    F1:
+      uuid: adc51209-6e04-4d92-be92-03a39194eef7
+      E41:
+        uuid: d591e843-7791-4ba2-8e8e-79af21f69040
+        E13:
+          type incipit: c3d3ce18-bf8e-4640-a821-36dab798b7d8
+          P190: 7a972515-37f1-4e93-9fbf-2fa20e716312
+          code incipit: 053a866e-ffe1-41f0-8379-94bf32db8407
+    F2:
+      uuid: e63deabc-7bfd-4584-ad29-521f952a2bd7
+  texte:
+    F1:
+      uuid: b64e8c02-2e9c-4f7b-96ae-4fb662a9aa81
+    F2:
+      uuid: e88cada4-b54c-4b3f-9d97-1d5ee35b26d7
+  air:
+    F1:
+      uuid: 378a439e-6353-4136-b316-bb1d2c8070f7
+    F2:
+      uuid: 55db02e5-3d10-42c3-9e29-351340ad9a09
+pour_une_jeune_merveille:
+  oeuvre musicale:
+    F1:
+      uuid: 6f1a5bda-aa26-4942-bdf9-b53485f0cbb1
+      E41:
+        uuid: 23783aea-1c08-4e21-947e-18078b86b216
+        E13:
+          type incipit: 89b0e0e7-6ea2-4dde-a948-7676f0020155
+          P190: 6d19e79e-fea8-4075-83b0-e96396ac396e
+          code incipit: 25164a61-58fe-420d-88d9-7b14a90fa64e
+    F2:
+      uuid: 683221d7-7043-4622-8e05-6abef9a31975
+  texte:
+    F1:
+      uuid: 7997ad06-fa96-4f56-a2cd-dce43af6f913
+    F2:
+      uuid: 7cc2ad48-7c89-430e-a75c-38675cb00d2e
+  air:
+    F1:
+      uuid: 50d0be82-2fc9-4bbc-b11a-34afc100943e
+    F2:
+      uuid: 8c7d4466-3805-4d89-b1e6-bb8c51503aad
+quand_sur_nos_charmants_rivages:
+  oeuvre musicale:
+    F1:
+      uuid: e93199a2-4350-41bc-bfcd-b55600785d43
+      E41:
+        uuid: 5f42ae1a-9691-40b2-89de-fab842af212f
+        E13:
+          type incipit: 776a21e9-3880-4873-9987-dd3bfb9587eb
+          P190: e0317d41-9736-4434-8c85-153fde2f57ae
+          code incipit: 34f108e3-7c55-4c93-9e7d-3b6f024a8aaa
+    F2:
+      uuid: 819ba8df-8bce-4757-afd6-3e86d78d8265
+  texte:
+    F1:
+      uuid: fcd3a58b-d8d5-414a-b6fb-1ef3e4bc620c
+    F2:
+      uuid: 0d4d41d3-0323-423c-af7e-32d9caecab30
+  air:
+    F1:
+      uuid: ba2daf8f-41dd-4565-9c18-3ceb22be0cd9
+    F2:
+      uuid: 3e1db265-a8e5-446a-9354-0a6bd211898b
+si_vous_voulez_charmer:
+  oeuvre musicale:
+    F1:
+      uuid: d1b80f1c-3935-4faf-bbef-df9c726b7a18
+      E41:
+        uuid: b951e2a4-5d10-4e4d-9bb5-745025facdd3
+        E13:
+          type incipit: 7182f730-db9c-470d-9d3b-4b35e0914abd
+          P190: 56cb57f7-db54-417e-bcb2-3e51792408e9
+          code incipit: 2c53282f-181e-4cf6-a810-19a1b1626d7b
+    F2:
+      uuid: 21c70064-d192-4ac7-bce4-ddc3039240c9
+  texte:
+    F1:
+      uuid: 0977f90c-6a61-4a11-9b23-321e991f841d
+    F2:
+      uuid: c89384b8-7fa2-4ad5-ad1b-0f03c44a5b74
+  air:
+    F1:
+      uuid: 8e8b255a-8acd-4708-85c3-f1950f8565cb
+    F2:
+      uuid: 06f28da1-7ee5-41d0-a760-1454c8ef9fde
+que_l'amour_flatte_doucement:
+  oeuvre musicale:
+    F1:
+      uuid: bf9b5783-e016-4a73-b957-6ab6f339bf5b
+      E41:
+        uuid: 2b93a47e-75ab-450a-ab25-7c6f84d3c4ca
+        E13:
+          type incipit: 1c80f44f-1ab8-4446-bb9f-2e474218bd27
+          P190: da464141-5d99-4611-810e-85be6d563d04
+          code incipit: 92b4c42c-bde7-42e0-aa1e-a2738fe2dea4
+    F2:
+      uuid: f58e5780-40b8-4882-b203-28a474abcf3d
+  texte:
+    F1:
+      uuid: f11ca9b4-b948-41c1-bf6e-ec32d7717e02
+    F2:
+      uuid: 0211de30-b934-4d48-a30d-aa0efc383698
+  air:
+    F1:
+      uuid: 03ce3900-cc6a-44b7-b73d-d6c18833a411
+    F2:
+      uuid: aadd02c8-ffa8-4986-852b-0ed9ad2e7e8e
+pendant_que_nos_braves_guerriers:
+  oeuvre musicale:
+    F1:
+      uuid: 4337380a-400e-411a-889c-8b732fbe0e31
+      E41:
+        uuid: 80f4ce6f-64fa-492e-970c-9f37249fcf37
+        E13:
+          type incipit: 35d1d80a-cb66-4000-8a4b-f3166fc9dc5f
+          P190: 59a7f9e0-609f-44e6-aefb-cf354b859762
+          code incipit: 530dd2fd-7536-40f9-bdba-c106948e53f9
+    F2:
+      uuid: 62884f86-87f2-4d9d-bd4a-8c775580b495
+  texte:
+    F1:
+      uuid: e71c6ae6-2453-4115-8d63-200c1a536ca9
+    F2:
+      uuid: ed84c12f-b348-41e5-ba91-4b616eb1bda3
+  air:
+    F1:
+      uuid: 302ceeeb-4e71-410a-aec3-ce0f22ebc22e
+    F2:
+      uuid: 5c6444e4-3716-43ee-8ba7-8db9ea67bc43
+pourquoi_venir_troubler_le_repos_de_ma_vie:
+  oeuvre musicale:
+    F1:
+      uuid: 82ea052d-3f40-40a6-9575-229f888c3d91
+      E41:
+        uuid: 23ad447f-e249-48cd-a38f-62b72e3a6541
+        E13:
+          type incipit: 932b79ba-8554-4e77-832e-3c8db3fe2c7c
+          P190: b274af54-5ebf-4803-aba7-f5b21db57529
+          code incipit: 1479cd5d-b418-4865-8e88-cf932b98a8f2
+    F2:
+      uuid: 42cceb3f-f2d0-48c5-9588-2c7eb988d209
+  texte:
+    F1:
+      uuid: 37cdd7ee-71b4-4f41-9994-de9203d595c7
+    F2:
+      uuid: 67bb7176-5ab1-4efa-9fe8-aaf60ddc0ccd
+  air:
+    F1:
+      uuid: 28f5271f-dfbc-4d15-86b8-b454a96a35fe
+    F2:
+      uuid: 7df5ed25-6141-45b4-8c8b-ca14b9ffe8a2
+enfin_de_nos_bergers_les_amoureux_soupirs:
+  oeuvre musicale:
+    F1:
+      uuid: 55d7e66c-f44a-46bc-9d04-fcd52b56ac01
+      E41:
+        uuid: 216ff668-d377-4df4-8779-487c0878f1dd
+        E13:
+          type incipit: 5d6c4e19-4a18-4242-a4ee-a0e43a164d5d
+          P190: e3af4111-ce52-4fe5-b910-007b6ac7277e
+          code incipit: 02bc3805-483b-4b81-9116-106bbaadfe58
+    F2:
+      uuid: a9a763ca-d7ea-45c7-ba3a-e44707c5e647
+  texte:
+    F1:
+      uuid: c4e2a6d5-48cf-48e0-9be4-0648150f996b
+    F2:
+      uuid: 20e5fecc-a8a6-4858-b393-1311dcc99633
+  air:
+    F1:
+      uuid: 2be40993-bc23-4938-8730-0fe80ee4cdc4
+    F2:
+      uuid: 7db3a8ad-6810-439c-bc57-fda587160bbb
+la_tendresse_d'une_maîtresse:
+  oeuvre musicale:
+    F1:
+      uuid: 022f7bc2-7929-4fcf-81e6-0d961931524a
+      E41:
+        uuid: aac1d87c-f395-4e10-911d-81d72b43a061
+        E13:
+          type incipit: 2ce4eaa1-975b-492d-a6fd-a7058bb5b72b
+          P190: 051c2b8a-5d62-4dfa-a178-eaf886ea6c73
+          code incipit: 36faa523-3d3b-4153-b315-f2f4bb23be04
+    F2:
+      uuid: 0f8b6bb8-c1c1-4e2a-8614-638071dfabc6
+  texte:
+    F1:
+      uuid: c3e9fe51-7b9a-46ca-ae25-222163555302
+    F2:
+      uuid: f4394c7d-b28c-4de3-8377-4f19e075e9f6
+  air:
+    F1:
+      uuid: e36edf69-9186-487f-9310-43fb123b23a9
+    F2:
+      uuid: 5f8f03d7-eb0f-41e3-9e4d-ac0e6ad37be6
+l'on_vous_dit_tous_les_ans:
+  oeuvre musicale:
+    F1:
+      uuid: e37d592b-fb52-42a3-b956-faac2bfdf361
+      E41:
+        uuid: 50ab9865-88cd-491a-9fa7-7eca3231fb24
+        E13:
+          type incipit: 56497007-61f6-46c2-9d20-2ca41a6a14ee
+          P190: 5f3ba44a-3eb6-4a83-a0f0-c32a2adf110d
+          code incipit: c8514c15-bee9-4e63-89a7-c052443f80a5
+    F2:
+      uuid: 043addda-59c7-4a9e-a60c-337183fcfb7c
+  texte:
+    F1:
+      uuid: 7a7af3fa-fe3c-4a9b-8f56-a865bed10943
+    F2:
+      uuid: e9b0a0fa-fa09-41e3-bb45-ec8186960492
+  air:
+    F1:
+      uuid: 66af0a19-75a4-460b-8988-acab608e55ac
+    F2:
+      uuid: fb9f494b-a3ec-4d8a-b9cc-f12b3391b02b
+si_vous_poursuivez_de_m'aimer:
+  oeuvre musicale:
+    F1:
+      uuid: 5176c4f8-605d-4738-89b8-ece92f6c0caf
+      E41:
+        uuid: b0393a64-d8a9-4826-ba32-8ff3cd878c90
+        E13:
+          type incipit: 0acb08e4-2f0e-4a4d-b8d2-c20f55737839
+          P190: 646bc658-3ce7-4b76-91e3-7b88ecae40d6
+          code incipit: f5bb15b1-4b59-4f9a-b117-42a8fa487124
+    F2:
+      uuid: f01f8a68-6042-4b3d-baae-5a11f21dc986
+  texte:
+    F1:
+      uuid: 25ce3732-9ef1-4b44-8aee-c6c09a319432
+    F2:
+      uuid: bbca11f3-6653-4904-a7d7-66010e8bcc02
+  air:
+    F1:
+      uuid: d54e6724-eb1d-4ee5-ae09-ee68be8bccbc
+    F2:
+      uuid: 53d72706-25c8-4300-956f-4306c6cb15ab
+rossignols_que_prétendez-vous:
+  oeuvre musicale:
+    F1:
+      uuid: 2329177e-a8ff-4fab-b9f5-e4bf640026a4
+      E41:
+        uuid: c8e3ba01-81fa-49a1-bb12-dd20bd9be10e
+        E13:
+          type incipit: 60dc3e65-b163-4de5-8b7c-6bb5ef1726cb
+          P190: 8df7e509-1ded-44ae-82a0-84be507531f2
+          code incipit: 723ff826-af82-4d7d-857e-f5fc73a3f5eb
+    F2:
+      uuid: 726e58dd-d75b-447f-b46f-2795dbcb4918
+  texte:
+    F1:
+      uuid: bac7d579-3bfe-4f48-ba2b-a2a810a09672
+    F2:
+      uuid: 3531ebf4-b5ea-475b-9b3e-f58d9fbc28cd
+  air:
+    F1:
+      uuid: fa7368bb-9309-4a22-8fa8-401e4ba1a2f0
+    F2:
+      uuid: 59ff22b4-3f67-4d7e-8217-d853fc339ef1
+du_vin_ah_le_maudit_laquais:
+  oeuvre musicale:
+    F1:
+      uuid: 841f58c0-b76b-4889-874d-27e0ebf5ead1
+      E41:
+        uuid: 3eb7ff88-a7ab-4229-973e-e80a3c645654
+        E13:
+          type incipit: c02cb195-9fab-4645-b99d-704ea26d515c
+          P190: 62db582f-5e98-4686-bf15-905904dd6ce0
+          code incipit: 932c774c-21b9-4c19-b1c8-3c0c93ea5214
+    F2:
+      uuid: 904d70f0-2476-41e0-8a86-e746dc5f9980
+  texte:
+    F1:
+      uuid: 8eb9b934-654c-4e75-b5a1-15fe08ae6a45
+    F2:
+      uuid: d2990ef0-020f-4bf2-9678-5a04ad7035e6
+  air:
+    F1:
+      uuid: 7643b706-5e0f-443f-9317-3e0786f6ca8e
+    F2:
+      uuid: f48f6796-6295-464e-8a72-8079d4326d05
+questa_bella_d'amor_nemica_è_mia/cette_belle_qu'amour_n'a_jamais_pu_toucher:
+  oeuvre musicale:
+    F1:
+      uuid: 8f053ac3-ac43-4380-ba91-b63e8bd58d62
+      E41:
+        uuid: 42982461-f290-48da-a0ec-eeb5590e63b4
+        E13:
+          type incipit: 2dd451c1-63b1-4a2c-96e8-307684d4462f
+          P190: e2705393-49f8-4cb3-ac1f-9c4d5aec2f0f
+          code incipit: 35be1aeb-9cb7-46ca-9b6f-d93a87afd173
+    F2:
+      uuid: dede38e8-cec4-42dc-ad8d-e839f94365cf
+  texte:
+    F1:
+      uuid: 4497a67f-ce53-484f-aa4f-093940f66e98
+    F2:
+      uuid: f0535cbf-90ee-4892-bc2d-2a449d55d2ed
+  air:
+    F1:
+      uuid: ef3f6fa5-7d94-4c80-aa72-1a59b8f01d6b
+    F2:
+      uuid: a74210a6-049a-496f-bdf8-61cb486fb0bb
+je_ne_reconnais_plus_mon_aimable_lisette/je_ne_reconnais_plus_ma_charmante_lisette:
+  oeuvre musicale:
+    F1:
+      uuid: 0d2a9088-1bbf-4b42-8ba3-7d3bccc8a2e8
+      E41:
+        uuid: 18a89507-77b6-4929-8512-ea8e74514d12
+        E13:
+          type incipit: 214bf29f-62d5-459e-b23d-aca8b900a2ea
+          P190: 12837b8c-4af0-4ce7-9664-3b9df9739262
+          code incipit: 1ed9f003-6703-4b7b-8431-3f24d468ff35
+    F2:
+      uuid: a5b356c0-15aa-48c2-a9f9-841b24f77667
+  texte:
+    F1:
+      uuid: a9c6b57b-04d4-4f5e-88ea-670b1753973b
+    F2:
+      uuid: 4329d141-3827-4fa5-a5d0-580e143a6564
+  air:
+    F1:
+      uuid: 70c515f5-0893-445d-89cf-262e45986aa3
+    F2:
+      uuid: f55d9990-94de-4e45-af28-140598fed526
+le_coeur_tout_déchiré_par_un_secret_martyre:
+  oeuvre musicale:
+    F1:
+      uuid: 732a1836-362c-4503-88c4-9472ddd8b8d5
+      E41:
+        uuid: 55ae2d4b-ffce-4ede-b008-ae7df3259131
+        E13:
+          type incipit: 224fb9d6-c2dc-4034-90d2-00e2b0a522be
+          P190: b75a4389-6599-4bc3-bedb-1dfe3b26ba58
+          code incipit: b97cb382-5d5e-48b4-bd6f-08a68decae7c
+    F2:
+      uuid: 0b58c1a6-14f9-41e8-8c28-7f151f00028b
+  texte:
+    F1:
+      uuid: c24bea52-9de5-4b1c-bbee-8e2a2081556f
+    F2:
+      uuid: f22b9bb5-3c43-4538-b0d8-15e1fee786da
+  air:
+    F1:
+      uuid: 44c4d1fe-5a5a-4684-b9c7-c87744eedbb6
+    F2:
+      uuid: 3be7a3b7-8979-4908-9f97-aade3e543d58
+vous_qui_d'un_tendre_amour_avez_le_coeur_capable:
+  oeuvre musicale:
+    F1:
+      uuid: 597bfa4a-8105-4944-8bd0-d734408e09d4
+      E41:
+        uuid: 457cdfda-9630-4577-b48d-cf6d5f4ce5d7
+        E13:
+          type incipit: 2d010d88-ce35-4d7d-a8e7-214e2d5e4ba0
+          P190: 42c13b02-7ea8-4981-9ac4-f442568ce3c8
+          code incipit: 00173346-7a03-46c9-9d4d-dc6d98e6ac19
+    F2:
+      uuid: 53d2f561-3f08-4354-8783-d6c8c05e249f
+  texte:
+    F1:
+      uuid: d463715b-de6b-4012-ab68-fcf09cb54cf7
+    F2:
+      uuid: 3548e2d5-28a5-4953-822a-9738297561ac
+  air:
+    F1:
+      uuid: 0534f49e-392e-4910-949f-d78dd47ebf5a
+    F2:
+      uuid: 5c51ea46-0db8-4f2b-a400-a86ac7a42193
+doux_habitants_de_ces_bois:
+  oeuvre musicale:
+    F1:
+      uuid: 432fbe8e-8955-4ed5-8ef3-0514265e6f08
+      E41:
+        uuid: dc047d31-6cae-4b2f-bf5d-50de2cb20973
+        E13:
+          type incipit: a0ef3b43-deda-4656-9787-bd59d03db14e
+          P190: ba76a76b-6634-4074-82f2-fced0590ead6
+          code incipit: dcaa6d92-5019-4182-92d6-d0decc3ae0c5
+    F2:
+      uuid: dc1869ff-4799-4fec-b388-c54012a2dfa2
+  texte:
+    F1:
+      uuid: f1bbc7ca-17dd-4fb6-aae6-33ab7ef9dc39
+    F2:
+      uuid: 412ba9d8-4b2a-4214-86dd-2e07f4bfc9d6
+  air:
+    F1:
+      uuid: 754dc4d4-2f9e-41f7-92a8-98d56a47c846
+    F2:
+      uuid: b09e5c8a-4a12-4ec9-870c-2aa555a42f54
+ah_que_je_sens_d'inquiétude:
+  oeuvre musicale:
+    F1:
+      uuid: 885ce5a9-efb7-4ad4-9d9b-daa0c30e0fdf
+      E41:
+        uuid: f44beb1e-2827-4441-abfa-ef7b674c480c
+        E13:
+          type incipit: c46f3d61-2f34-43ba-9898-212ee3835568
+          P190: 27ba5fbb-7b9f-4b04-99d6-41b9664a0669
+          code incipit: afa4f67c-efe1-4a32-beb7-f00b4b19dac8
+    F2:
+      uuid: 7f5b818b-c8d0-406c-b36e-408bfc1e3762
+  texte:
+    F1:
+      uuid: 10909282-627a-49f8-bae4-8119332d956c
+    F2:
+      uuid: 59204137-e9d3-4430-8df3-ae43e51df240
+  air:
+    F1:
+      uuid: 2bb5bef9-530e-434d-bf39-0e1563a3c940
+    F2:
+      uuid: 46eca86e-a381-4a02-8d0a-d45894b69280
+en_vain_rivaux_assidus:
+  oeuvre musicale:
+    F1:
+      uuid: d754897f-6394-4fe8-823b-adc518fe16b3
+      E41:
+        uuid: 85c01db3-4fc6-420e-bab8-46ce0609e9c8
+        E13:
+          type incipit: 0bf20f92-d967-44ca-9a4f-bacd44a3650d
+          P190: 4a726c9a-2168-443f-903a-d362b992fd60
+          code incipit: 0326d4ca-fa25-4eca-91cb-09704ee5812b
+    F2:
+      uuid: c045c5a2-c582-49ef-9baa-43266cdb3f71
+  texte:
+    F1:
+      uuid: 0173aa2c-58d7-48c5-8fc7-0f4358e7de0b
+    F2:
+      uuid: bec5a02b-2225-4249-819b-8c5944bbd2b5
+  air:
+    F1:
+      uuid: f35a0c2a-b9d7-4ddf-b22d-ad647a9ca3fa
+    F2:
+      uuid: 0163a476-2349-4305-83bc-52428c6cd0c8
+cruel_printemps_peux-tu_paraître:
+  oeuvre musicale:
+    F1:
+      uuid: c003ce65-7160-4428-9ad5-e4c8f6a8bee3
+      E41:
+        uuid: 4c22da8c-190a-4cfb-b5e5-846bbbeef751
+        E13:
+          type incipit: 78090878-0714-4702-adad-28129c52b869
+          P190: 1b58d3b7-919c-4c00-8d77-593c6fb2b943
+          code incipit: 1349713e-2baf-48ab-9ac3-03806af6f72d
+    F2:
+      uuid: 1d329d3e-6378-4678-b6b5-1561113d875b
+  texte:
+    F1:
+      uuid: dbe59322-6c88-4b1c-a048-e63a02b4a59a
+    F2:
+      uuid: 81d1428e-711d-40b5-ad85-623cf20d28b2
+  air:
+    F1:
+      uuid: a8ec6cb0-e550-407e-bda3-f77077efca81
+    F2:
+      uuid: ed50d3eb-527a-462d-9361-9493b78206a8
+l'aimable_flore_est_de_retour:
+  oeuvre musicale:
+    F1:
+      uuid: 17710fa8-9ff5-4d65-8c79-ddc71ccc98f8
+      E41:
+        uuid: d2b30fa0-272c-434d-a87d-e57dc2d988b5
+        E13:
+          type incipit: 5b8fffce-53b5-4b02-bc6f-186ff6261d38
+          P190: 8bffa4ef-4b8d-4d73-855b-2a245ca745e3
+          code incipit: c23a41d2-5311-4bb3-ad7c-ffd25642829d
+    F2:
+      uuid: 71be6e30-e196-4015-9e59-985f0e6f6c36
+  texte:
+    F1:
+      uuid: 83514e86-3244-4ad9-9757-d3dc155c2471
+    F2:
+      uuid: 6c50c0a3-8fd2-48d9-8b4e-be0e6ca61173
+  air:
+    F1:
+      uuid: 68e647b5-b117-4864-984d-829aa0456366
+    F2:
+      uuid: 2f9d98d1-7ca3-4887-91b0-04b01d2de4f1
+ah_le_beau_temps_bergère:
+  oeuvre musicale:
+    F1:
+      uuid: a0a6e5c1-0c84-41b4-8013-8c80c7d838d1
+      E41:
+        uuid: 16a6cf95-c13c-4cf8-b7c0-1665adb5faef
+        E13:
+          type incipit: 456e88e5-5d20-43db-86e6-bde6588a7908
+          P190: 90a2bd51-177a-435a-b6db-33637b566c17
+          code incipit: 6501cd6b-e27a-46df-8e72-85770a422ac8
+    F2:
+      uuid: 3b514ef9-0bca-4467-9b3e-14da04a4a679
+  texte:
+    F1:
+      uuid: 44cbecaf-64f6-416f-a1ee-2b1171ca3343
+    F2:
+      uuid: 0705df70-c345-4071-a82a-4a1ff4e85873
+  air:
+    F1:
+      uuid: bfdf0eca-1a50-485c-831e-37ed812b6e2c
+    F2:
+      uuid: 68cc3a2b-5be6-4bdc-a004-374ce88fb976
+quoi_rien_ne_peut_vous_arrêter:
+  oeuvre musicale:
+    F1:
+      uuid: 3f48b35c-a400-4976-97ee-80a616d52232
+      E41:
+        uuid: 5d9dd613-7b6a-4fe1-8975-d1e1c7876af5
+        E13:
+          type incipit: 7a539f37-b1bb-4fae-b27d-c90ee3cecede
+          P190: b3b8da92-397f-4f5f-a0d4-a6249a26d4a2
+          code incipit: 33757a37-4137-4a64-97af-fb73a2b05c7a
+    F2:
+      uuid: 328e7da4-5931-4640-b7e6-9ff2d64ef78f
+  texte:
+    F1:
+      uuid: 4233c5d5-6c5d-4c81-a7cf-312e1dde8c74
+    F2:
+      uuid: 04b54b06-a6e6-4ba6-93c8-d2dd7a2c85d9
+  air:
+    F1:
+      uuid: 790ca58c-c439-4626-8cc8-b11aa949bd41
+    F2:
+      uuid: bf22f8d4-bfea-4997-8b08-c8920ce89d30
+une_jeune_et_tendre_beauté:
+  oeuvre musicale:
+    F1:
+      uuid: 00aff3a7-0199-4461-9502-a389370dd390
+      E41:
+        uuid: 91bbde7c-7ac3-4626-a60e-b2c7823974ea
+        E13:
+          type incipit: cf1cf7ba-c26b-45f6-9fde-de298c5e54ab
+          P190: 2daf7d18-cefd-4f59-9a9b-a87903c3a43b
+          code incipit: 2b9eef8c-396b-46fb-ac82-d50fad89e7f5
+    F2:
+      uuid: 2aaef365-a04a-49d8-8971-2933a4559d3c
+  texte:
+    F1:
+      uuid: 3d505544-a244-4820-80d7-ecee3b485c40
+    F2:
+      uuid: d358a4d8-6490-445b-85b6-0239c2a4798f
+  air:
+    F1:
+      uuid: 8d7299e1-0d27-4405-901d-96cb8425529c
+    F2:
+      uuid: f2c20d3c-7781-49d1-8c83-e3a0e8ac1b95
+ton_troupeau_sylvie:
+  oeuvre musicale:
+    F1:
+      uuid: e40dc522-96a4-4c91-8ffc-349aa54c2c0c
+      E41:
+        uuid: d5877488-b82b-4639-9ffd-0ce6a4e8e87b
+        E13:
+          type incipit: aadb07ab-b692-415e-982a-9e9723b017d8
+          P190: 25fad43d-8b52-4114-b7d2-962a60d5091d
+          code incipit: f47e53c7-3d8a-4c41-8d3e-6563f209168a
+    F2:
+      uuid: f938c07a-1022-420c-8971-cacf5c3d09c6
+  texte:
+    F1:
+      uuid: bdbf7ecb-849a-49df-b4e6-302f936d8c5c
+    F2:
+      uuid: 4e4f349d-e73a-4158-ac8f-47aa3932b660
+  air:
+    F1:
+      uuid: aca1f8e6-f319-49f7-9fbc-36ecb4b490a0
+    F2:
+      uuid: c6306d06-26c9-4825-9ebd-8d90cfc38170
+printemps_de_quoi_me_servez-vous:
+  oeuvre musicale:
+    F1:
+      uuid: eb15fdce-4dac-4376-9d55-70389fff3c22
+      E41:
+        uuid: c1412fae-34e3-4ee6-a045-7f9dd57b5230
+        E13:
+          type incipit: edfd21c4-2431-4da7-a497-ca92613f6661
+          P190: be25a77c-252d-41be-9922-cba180d4988e
+          code incipit: 3894a7ec-ec60-4cbd-a94b-e8f54eaeb40c
+    F2:
+      uuid: 09969f3e-1cc9-4a88-8a8e-6f0c5b3f77d9
+  texte:
+    F1:
+      uuid: bfc0872f-1523-463b-887c-21541da68277
+    F2:
+      uuid: 3a8cf9c3-39be-4ef7-946c-9c95f3d42246
+  air:
+    F1:
+      uuid: 3050cc26-ed64-4277-a947-4c5b2e4fb72c
+    F2:
+      uuid: cb9c8488-e156-4c42-96b3-e592e2edd860

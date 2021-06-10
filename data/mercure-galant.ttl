@@ -45,6 +45,11 @@
   crm:P1_is_identified_by "Identifiant Mercure"
   .
 
+<e43ce57c-8bf7-43b5-87a2-cf8c140030a6>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Incipit d'oeuvre musicale"
+  .
+
 <13660ed8-d429-4771-ae41-316816b24db8>
     a crm:E65_Creation ;
     crm:P94:has_created <03499b44-ba0b-491f-9452-978e03bef78a> ;
