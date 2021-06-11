@@ -6,7 +6,7 @@ import sys
 # from ..rdfizers import *
 # from helpers_rdf import init_graph
 from sherlockcachemanagement import Cache
-from rdflib import DCTERMS, Graph, Namespace, RDF, SKOS, URIRef as u, Literal as l
+from rdflib import DCTERMS, Graph, Namespace, RDF, RDFS, SKOS, URIRef as u, Literal as l
 
 ######################################################################################
 # CACHES
@@ -85,15 +85,18 @@ for row in sheet.iter_rows(min_row=2):
 
     # Oeuvre musicale (F1 et F2)
     F1_oeuvre_uuid = she(cache.get_uuid([id, "oeuvre musicale", "F1", "uuid"], True))
+    t(F1_oeuvre_uuid, a, lrm("F1_Work"))
     F2_oeuvre_uuid = she(cache.get_uuid([id, "oeuvre musicale", "F2", "uuid"], True))
+    t(F2_oeuvre_uuid, a, lrm("F2_Expression"))
     t(F1_oeuvre_uuid, lrm("R3_is_realised_in"), F2_oeuvre_uuid)
 
     # Incipit de l'oeuvre musicale
     if row[5].value:
         F1_oeuvre_appellation = she(cache.get_uuid([id, "oeuvre musicale", "F1", "E41", "uuid"], True))
-        t(F1_oeuvre_uuid, crm("P1_is_identified_by"), F1_oeuvre_appellation)
         t(F1_oeuvre_appellation, a, crm("E41_Appellation"))
         t(F1_oeuvre_appellation, a, crm("E33_Linguistic_Object"))
+        t(F1_oeuvre_uuid, crm("P1_is_identified_by"), F1_oeuvre_appellation)
+
         ## E13 : l'appellation est de type "incipit"
         F1_oeuvre_appellation_E13 = she(cache.get_uuid([id, "oeuvre musicale", "F1", "E41", "E13", "type incipit"], True))
         t(F1_oeuvre_appellation_E13, a, crm("E13_Attribute_Assignement"))
@@ -101,6 +104,7 @@ for row in sheet.iter_rows(min_row=2):
         t(F1_oeuvre_appellation_E13, crm("P140_assigned_attribute_to"), F1_oeuvre_appellation)
         t(F1_oeuvre_appellation_E13, crm("P141_assigned"), she("e43ce57c-8bf7-43b5-87a2-cf8c140030a6"))
         t(F1_oeuvre_appellation_E13, crm("P177_assigned_property_type"), crm("P2_has_type"))
+
         ## E13 : l'appellation a pour contenu symbolique...
         F1_oeuvre_appellation_P190_E13 = she(cache.get_uuid([id, "oeuvre musicale", "F1", "E41", "E13", "P190"], True))
         t(F1_oeuvre_appellation_P190_E13, a, crm("E13_Attribute_Assignement"))
@@ -108,6 +112,7 @@ for row in sheet.iter_rows(min_row=2):
         t(F1_oeuvre_appellation_P190_E13, crm("P140_assigned_attribute_to"), F1_oeuvre_appellation)
         t(F1_oeuvre_appellation_P190_E13, crm("P141_assigned"), l(row[5].value))
         t(F1_oeuvre_appellation_P190_E13, crm("P177_assigned_property_type"), crm("P190_has_symbolic_content"))
+
         ## E13 : code de l'incipit
         F1_oeuvre_appellation_P1_E13 = she(cache.get_uuid([id, "oeuvre musicale", "F1", "E41", "E13", "code incipit"], True))
         t(F1_oeuvre_appellation_P1_E13, a, crm("E13_Attribute_Assignement"))
@@ -119,26 +124,21 @@ for row in sheet.iter_rows(min_row=2):
     # L'oeuvre musicale et composée d'un texte
     # TODO Vérifier si l'on souhaite vraiment utiliser R5 (erreur dans la modélisation?)
     F1_texte_uuid = she(cache.get_uuid([id, "texte", "F1", "uuid"], True))
+    t(F1_texte_uuid, a, lrm("F1_Work"))
     F2_texte_uuid = she(cache.get_uuid([id, "texte", "F2", "uuid"], True))
+    t(F2_texte_uuid, a, lrm("F2_Expression"))
     t(F1_texte_uuid, lrm("R3_is_realised_in"), F2_texte_uuid)
     t(F1_oeuvre_uuid, lrm("R10_has_member"), F1_texte_uuid)
     t(F2_oeuvre_uuid, lrm("R5_has_component"), F1_texte_uuid)
 
     # L'oeuvre musicale et composée d'un air
     F1_air_uuid = she(cache.get_uuid([id, "air", "F1", "uuid"], True))
+    t(F1_air_uuid, a, lrm("F1_Work"))
     F2_air_uuid = she(cache.get_uuid([id, "air", "F2", "uuid"], True))
+    t(F2_air_uuid, a, lrm("F2_Expression"))
     t(F1_air_uuid, lrm("R3_is_realised_in"), F2_air_uuid)
     t(F1_oeuvre_uuid, lrm("R10_has_member"), F1_air_uuid)
     t(F2_oeuvre_uuid, lrm("R5_has_component"), F2_air_uuid)
-
-    # Note à propos de l'air
-    F2_air_note_E13 = she(
-        cache.get_uuid([id, "air", "F2", "note sur la musique"], True))
-    t(F2_air_note_E13, a, crm("E13_Attribute_Assignement"))
-    t(F2_air_note_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-    t(F2_air_note_E13, crm("P140_assigned_attribute_to"), F2_oeuvre_uuid)
-    t(F2_air_note_E13, crm("P141_assigned"), l(row[39].value))
-    t(F2_air_note_E13, crm("P177_assigned_property_type"), she(""))
 
     # Rattachement de l'oeuvre musicale à son article
     # TODO cellules multivaluées
@@ -150,27 +150,103 @@ for row in sheet.iter_rows(min_row=2):
     id_livraison = id_article.split("_")
     id_livraison = id_livraison[0]
 
-    try:
-        ## Livraison originale
-        ### Air
-        livraison_F2_originale = she(
-            cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
-        t(livraison_F2_originale, crm("P148_has_component"), F2_air_uuid)
-        ### Texte
-        livraison_F2_originale = she(
-            cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
-        t(livraison_F2_originale, crm("P148_has_component"), F2_texte_uuid)
-        ### Livraison TEI
-        ## Air
-        livraison_F2_TEI = she(
-            cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
-        t(livraison_F2_TEI, crm("P148_has_component"), F2_air_uuid)
-        ## Texte
-        livraison_F2_TEI = she(
-            cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
-        t(livraison_F2_TEI, crm("P148_has_component"), F2_texte_uuid)
-    except:
-        print("L'article ou la livraison", id_article, "(" + id_livraison + ") est introuvable")
+    # try:
+    #     ## Livraison originale
+    #     ### Air
+    #     livraison_F2_originale = she(
+    #         cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
+    #     t(livraison_F2_originale, crm("P148_has_component"), F2_air_uuid)
+    #     ### Texte
+    #     livraison_F2_originale = she(
+    #         cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
+    #     t(livraison_F2_originale, crm("P148_has_component"), F2_texte_uuid)
+    #     ### Livraison TEI
+    #     ## Air
+    #     livraison_F2_TEI = she(
+    #         cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
+    #     t(livraison_F2_TEI, crm("P148_has_component"), F2_air_uuid)
+    #     ## Texte
+    #     livraison_F2_TEI = she(
+    #         cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
+    #     t(livraison_F2_TEI, crm("P148_has_component"), F2_texte_uuid)
+    # except:
+    #     print("L'article ou la livraison", id_article, "(" + id_livraison + ") est introuvable")
+
+    # Note sur la musique
+    F2_air_note_E13 = she(cache.get_uuid([id, "air", "F2", "note sur la musique"], True))
+    t(F2_air_note_E13, a, crm("E13_Attribute_Assignement"))
+    t(F2_air_note_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+    t(F2_air_note_E13, crm("P140_assigned_attribute_to"), F2_air_uuid)
+    t(F2_air_note_E13, crm("P141_assigned"), l(row[26].value))
+    t(F2_air_note_E13, crm("P177_assigned_property_type"), she("768197b9-6cc6-4a62-aec9-7282a9c07983"))
+
+    # Genre musical de l'air
+    F2_air_genre_E13 = she(cache.get_uuid([id, "air", "F2", "genre musical"], True))
+    t(F2_air_genre_E13, a, crm("E13_Attribute_Assignement"))
+    t(F2_air_genre_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+    t(F2_air_genre_E13, crm("P140_assigned_attribute_to"), F2_air_uuid)
+    t(F2_air_genre_E13, crm("P141_assigned"), l(row[33].value))
+    t(F2_air_genre_E13, crm("P177_assigned_property_type"), she("e6836743-fa50-4995-b534-ba13d1d24380"))
+
+    # Composition de l'air
+    F2_air_F28_uuid = she(cache.get_uuid([id, "air", "F2", "F28", "uuid"], True))
+    t(F2_air_F28_uuid, a, lrm("F28_Expression_Creation"))
+    t(F2_air_F28_uuid, lrm("R17_created"), F2_air_uuid)
+
+    ## Compositeur
+    if row[2].value:
+        F2_air_F28_compositeur = she(cache.get_uuid([id, "air", "F2", "F28", "compositeur", "uuid"], True))
+        t(F2_air_F28_compositeur, a, crm("E21_Person"))
+        F2_air_F28_compositeur_E41 = she(cache.get_uuid([id, "air", "F2", "F28", "compositeur", "E41"], True))
+        t(F2_air_F28_compositeur, crm("P1_is_identified_by"), F2_air_F28_compositeur_E41)
+        t(F2_air_F28_compositeur_E41, RDFS.label, l(row[2].value))
+
+        ## E13 de rattachement du compositeur à la composition
+        F2_air_F28_E13 = she(cache.get_uuid([id, "air", "F2", "F28", "E13"], True))
+        t(F2_air_F28_E13, a, crm("E13_Attribute_Assignement"))
+        t(F2_air_F28_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+        t(F2_air_F28_E13, crm("P140_assigned_attribute_to"), F2_air_F28_uuid)
+        t(F2_air_F28_E13, crm("P141_assigned"), F2_air_F28_compositeur)
+        t(F2_air_F28_E13, crm("P177_assigned_property_type"), crm("P14_carried_out_by"))
+        if row[21].value:
+            t(F2_air_F28_E13, crm("P3_has_note"), l(row[21].value))
+        #TODO Aligner le compositeur sur le référentiel des personnes
+
+    # Effectif musical #TODO Rattacher à l'oeuvre ou à l'air?
+    F2_air_effectif_musical = she(cache.get_uuid([id, "air", "F2", "effectif musical", "uuid"], True))
+    t(F2_air_effectif_musical, a, crm("E55_Type"))
+    t(F2_air_effectif_musical, crm("P1_is_identified_by"), l(row[42].value))
+    F2_air_effectif_musical_E13 = she(cache.get_uuid([id, "air", "F2", "effectif musical", "E13"], True))
+    t(F2_air_effectif_musical_E13, a, crm("E13_Attribute_Assignement"))
+    t(F2_air_effectif_musical_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+    t(F2_air_effectif_musical_E13, crm("P140_assigned_attribute_to"), F2_air_uuid)
+    t(F2_air_effectif_musical_E13, crm("P141_assigned"), F2_air_effectif_musical)
+    t(F2_air_effectif_musical_E13, crm("P177_assigned_property_type"), crm("P2_has_type"))
+
+    #TODO Alignement du texte aux référentiels (l. 41 de la modélisation)
+
+    # Ecriture du texte
+    F2_texte_F28_uuid = she(cache.get_uuid([id, "texte", "F2", "F28", "uuid"], True))
+    t(F2_texte_F28_uuid, a, lrm("F28_Expression_Creation"))
+    t(F2_texte_F28_uuid, lrm("R17_created"), F2_texte_uuid)
+
+    ## Auteur-e
+    if row[18].value:
+        F2_texte_F28_auteur = she(cache.get_uuid([id, "texte", "F2", "F28", "auteur", "uuid"], True))
+        t(F2_texte_F28_auteur, a, crm("E21_Person"))
+        F2_texte_F28_auteur_E41 = she(cache.get_uuid([id, "texte", "F2", "F28", "auteur", "E41"], True))
+        t(F2_texte_F28_auteur, crm("P1_is_identified_by"), F2_texte_F28_auteur_E41)
+        t(F2_texte_F28_auteur_E41, RDFS.label, l(row[18].value))
+
+        ## E13 de rattachement de l'auteur-e du texte
+        F2_texte_F28_E13 = she(cache.get_uuid([id, "texte", "F2", "F28", "E13"], True))
+        t(F2_texte_F28_E13, a, crm("E13_Attribute_Assignement"))
+        t(F2_texte_F28_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+        t(F2_texte_F28_E13, crm("P140_assigned_attribute_to"), F2_texte_F28_uuid)
+        t(F2_texte_F28_E13, crm("P141_assigned"), F2_texte_F28_auteur)
+        t(F2_texte_F28_E13, crm("P177_assigned_property_type"), crm("P14_carried_out_by"))
+        #TODO Aligner le compositeur sur le référentiel des personnes
+
 
 
 
