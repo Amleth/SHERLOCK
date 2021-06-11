@@ -138,7 +138,7 @@ for label_norm, iris in norm_label_to_entities_registry.items():
                     index[label_norm]["label"] = label
 
         index[label_norm]["iris"][iri] = {}
-        index[label_norm]["iris"][iri]["ancestors"] = {}
+        index[label_norm]["iris"][iri]["ancestors"] = []
 
         # F34 Controlled Vocabulary
         for entity, F34 in entity_to_F34.items():
@@ -153,11 +153,11 @@ for label_norm, iris in norm_label_to_entities_registry.items():
             # index[label_norm]["iris"][iri]["ancestors"]["label"] = []
 
         while parent_iri:
-
             for entity, labels in entity_to_label_registry.items():
                 if entity == parent_iri:
                     for parent_label in labels:
-                        index[label_norm]["iris"][iri]["ancestors"][parent_label] = parent_iri
+                        index[label_norm]["iris"][iri]["ancestors"].append({"label": parent_label, "iri": parent_iri})
+                        #index[label_norm]["iris"][iri]["ancestors"][parent_label] = parent_iri
             #index[label_norm]["iris"][iri]["ancestors"][parent_label]["iri"] = parent_iri
             parent_iri = child_to_parent_registry[parent_iri]
 
