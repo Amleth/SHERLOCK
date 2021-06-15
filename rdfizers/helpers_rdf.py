@@ -1,4 +1,4 @@
-from rdflib import DCTERMS, Graph, Namespace, RDF, SKOS
+from rdflib import DCTERMS, Graph, Namespace, RDF, SKOS, RDFS, Literal as l
 
 g = None
 

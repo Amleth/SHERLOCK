@@ -1,12 +1,11 @@
 import argparse
 from openpyxl import load_workbook
-import sys
-# sys.path.insert(0, '/rdfizers/helpers')
-# import helpers_rdf.py
-# from ..rdfizers import *
-# from helpers_rdf import init_graph
+import sys, os
+sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
+# print(sys.path)
+from helpers_rdf import *
+from helpers_python import *
 from sherlockcachemanagement import Cache
-from rdflib import DCTERMS, Graph, Namespace, RDF, RDFS, SKOS, URIRef as u, Literal as l
 
 ######################################################################################
 # CACHES
@@ -89,6 +88,15 @@ for row in sheet.iter_rows(min_row=2):
     F2_oeuvre_uuid = she(cache.get_uuid([id, "oeuvre musicale", "F2", "uuid"], True))
     t(F2_oeuvre_uuid, a, lrm("F2_Expression"))
     t(F1_oeuvre_uuid, lrm("R3_is_realised_in"), F2_oeuvre_uuid)
+    F1_oeuvre_uuid_E42_catalogues = she(cache.get_uuid([id, "oeuvre musicale", "F1", "E42 catalogues", "uuid"], True))
+    t(F1_oeuvre_uuid, crm("P1_is_identified_by"), F1_oeuvre_uuid_E42_catalogues)
+    t(F1_oeuvre_uuid_E42_catalogues, a, crm("E42_Identifier"))
+    if row[52].value:
+        t(F1_oeuvre_uuid_E42_catalogues, RDFS.label, l(row[52].value))
+    F1_oeuvre_uuid_E42_Philidor = she(cache.get_uuid([id, "oeuvre musicale", "F1", "E42 Philidor", "uuid"], True))
+    t(F1_oeuvre_uuid, crm("P1_is_identified_by"), F1_oeuvre_uuid_E42_Philidor)
+    t(F1_oeuvre_uuid_E42_Philidor, a, crm("E42_Identifier"))
+    t(F1_oeuvre_uuid_E42_Philidor, RDFS.label, l(row[13].value))
 
     # Incipit de l'oeuvre musicale
     if row[5].value:
@@ -122,14 +130,13 @@ for row in sheet.iter_rows(min_row=2):
         t(F1_oeuvre_appellation_P1_E13, crm("P177_assigned_property_type"), crm("P190_has_symbolic_content"))
 
     # L'oeuvre musicale et composée d'un texte
-    # TODO Vérifier si l'on souhaite vraiment utiliser R5 (erreur dans la modélisation?)
     F1_texte_uuid = she(cache.get_uuid([id, "texte", "F1", "uuid"], True))
     t(F1_texte_uuid, a, lrm("F1_Work"))
     F2_texte_uuid = she(cache.get_uuid([id, "texte", "F2", "uuid"], True))
     t(F2_texte_uuid, a, lrm("F2_Expression"))
     t(F1_texte_uuid, lrm("R3_is_realised_in"), F2_texte_uuid)
     t(F1_oeuvre_uuid, lrm("R10_has_member"), F1_texte_uuid)
-    t(F2_oeuvre_uuid, lrm("R5_has_component"), F1_texte_uuid)
+    t(F2_oeuvre_uuid, crm("P165_incorporates"), F2_texte_uuid)
 
     # L'oeuvre musicale et composée d'un air
     F1_air_uuid = she(cache.get_uuid([id, "air", "F1", "uuid"], True))
@@ -138,7 +145,7 @@ for row in sheet.iter_rows(min_row=2):
     t(F2_air_uuid, a, lrm("F2_Expression"))
     t(F1_air_uuid, lrm("R3_is_realised_in"), F2_air_uuid)
     t(F1_oeuvre_uuid, lrm("R10_has_member"), F1_air_uuid)
-    t(F2_oeuvre_uuid, lrm("R5_has_component"), F2_air_uuid)
+    t(F2_oeuvre_uuid, crm("P165_incorporates"), F2_air_uuid)
 
     # Rattachement de l'oeuvre musicale à son article
     # TODO cellules multivaluées
@@ -223,7 +230,14 @@ for row in sheet.iter_rows(min_row=2):
     t(F2_air_effectif_musical_E13, crm("P141_assigned"), F2_air_effectif_musical)
     t(F2_air_effectif_musical_E13, crm("P177_assigned_property_type"), crm("P2_has_type"))
 
-    #TODO Alignement du texte aux référentiels (l. 41 de la modélisation)
+    # Instrument mentionné
+    if row[43].value:
+        F2_air_instrument_E13 = she(cache.get_uuid([id, "air", "F2", "instrument", "E13"], True))
+        t(F2_air_instrument_E13, a, crm("E13_Attribute_Assignement"))
+        t(F2_air_instrument_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+        t(F2_air_instrument_E13, crm("P140_assigned_attribute_to"), F2_air_uuid)
+        t(F2_air_instrument_E13, crm("P141_assigned"), l(row[43].value))
+        t(F2_air_instrument_E13, crm("P177_assigned_property_type"), she("46561c75-fc5d-4f0c-9b82-ea8779264bfd"))
 
     # Ecriture du texte
     F2_texte_F28_uuid = she(cache.get_uuid([id, "texte", "F2", "F28", "uuid"], True))
@@ -247,7 +261,20 @@ for row in sheet.iter_rows(min_row=2):
         t(F2_texte_F28_E13, crm("P177_assigned_property_type"), crm("P14_carried_out_by"))
         #TODO Aligner le compositeur sur le référentiel des personnes
 
+    # TODO Alignement du texte aux référentiels (l. 41 de la modélisation)
+    # Lieux concernés
+    if row[9].value:
+        lieux = row[9].value.split("\t")
+        for lieu in lieux:
+            F2_texte_lieu_E13 = she(cache.get_uuid([id, "texte", "F2", "lieux concernés", "E13"], True))
+            t(F2_texte_lieu_E13, a, crm("E13_Attribute_Assignement"))
+            t(F2_texte_lieu_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+            t(F2_texte_lieu_E13, crm("P140_assigned_attribute_to"), F2_texte_uuid)
+            t(F2_texte_lieu_E13, crm("P141_assigned"), l(lieu))
+            t(F2_texte_lieu_E13, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+            #TODO Alignement au référentiel des lieux : comment faire à partir du nom de lieu et non de son id?
 
+    # TODO Colonne H "Note sur les dates" : quelles dates? Ajouter simplement un P3(E13) sur le F2 de l'air?
 
 
 

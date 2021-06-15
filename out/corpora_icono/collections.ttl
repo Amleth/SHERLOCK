@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix she: <http://data-iremus.huma-num.fr/id/> .
 
 <1595d9da-2d77-467a-afd3-7808535b8ee6> a crm:E65_Creation ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
