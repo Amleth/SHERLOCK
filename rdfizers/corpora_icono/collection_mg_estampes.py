@@ -1,7 +1,10 @@
 import argparse
 from rdflib import Literal as l, RDF, RDFS, URIRef as u
-from helpers_python import get_xlsx_rows_as_dicts
-from helpers_rdf import a, init_graph, save_graph, t, she, crm, lrm
+import sys, os
+sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
+# print(sys.path)
+from helpers_rdf import *
+from helpers_python import *
 from sherlockcachemanagement import Cache
 import requests
 

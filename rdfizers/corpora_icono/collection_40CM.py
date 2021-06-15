@@ -8,7 +8,11 @@ from sherlockcachemanagement import Cache
 import requests
 import glob
 import ntpath
-from ./helpers import make_collection, init_cache
+import sys, os
+sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
+# print(sys.path)
+from helpers_rdf import *
+from helpers_python import *
 
 # Arguments
 parser = argparse.ArgumentParser()
