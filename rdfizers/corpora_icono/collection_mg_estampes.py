@@ -36,7 +36,7 @@ init_graph()
 
 def process(data):
     collection = she("759d110d-fd68-47bb-92fd-341bb63dbcae")
-    id = data["Cote"]
+    id = data["ID image"]
 
     # E36 Visual Item
     gravure = she(cache.get_uuid(["estampes", id, "E36", "uuid"], True))
@@ -58,13 +58,13 @@ def process(data):
     t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
 
     # E12 Production
-    if data["INV"] or data["SCULP"]:
+    if data["[Inventeur] ('Invenit' ou 'Pinxit' ou 'Delineavit') vs. 'fecit'"] or data["[Graveur] 'Sculpsit' ou 'Incidit' vs. 'fecit'"]:
         gravure_E12 = she(cache.get_uuid(["estampes", id, "E36", "E12", "uuid"], True))
         t(gravure_E12, a, crm("E12_Production"))
         t(gravure_E12, crm("P108_has_produced"), gravure)
 
     # Invenit
-    if data["INV"]:
+    if data["[Inventeur] ('Invenit' ou 'Pinxit' ou 'Delineavit') vs. 'fecit'"]:
         gravure_invenit = she(cache.get_uuid(["estampes", id, "E36", "E12", "invenit", "uuid"], True))
         t(gravure_invenit, a, crm("E12_Production"))
         t(gravure_invenit, crm("P2_has_type"), she("4d57ac14-247f-4b0e-90ca-0397b6051b8b"))
@@ -73,7 +73,7 @@ def process(data):
         ## E13 Attribute Assignement -  concepteur de la gravure
         gravure_invenit_auteur = she(cache.get_uuid(["estampes", id, "E36", "E12", "invenit", "auteur"], True))
         t(gravure_invenit_auteur, a, crm("E21_Person"))
-        t(gravure_invenit_auteur, RDFS.label, l(data["INV"]))
+        t(gravure_invenit_auteur, RDFS.label, l(data["[Inventeur] ('Invenit' ou 'Pinxit' ou 'Delineavit') vs. 'fecit'"]))
         gravure_invenit_E13 = she(cache.get_uuid(["estampes", id, "E36", "E12", "invenit", "E13"], True))
         t(gravure_invenit_E13, a, crm("E13_Attribute_Assignement"))
         t(gravure_invenit_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -94,7 +94,7 @@ def process(data):
             t(gravure_E29_E13, crm("P177_assigned_property_type"), crm("P33_used_specific_technique"))
 
     # Sculpsit
-    if data["SCULP"]:
+    if data["[Graveur] 'Sculpsit' ou 'Incidit' vs. 'fecit'"]:
         gravure_sculpsit = she(cache.get_uuid(["estampes", id, "E36", "E12", "sculpsit", "uuid"], True))
         t(gravure_sculpsit, a, crm("E12_Production"))
         t(gravure_sculpsit, crm("P2_has_type"), she("f39eb497-5559-486c-b5ce-6a607f615773"))
@@ -103,7 +103,7 @@ def process(data):
         ## E13 Attribute Assignement -  sculpteur de la gravure
         gravure_sculpsit_auteur = she(cache.get_uuid(["estampes", id, "E36", "E12", "sculpsit", "auteur"], True))
         t(gravure_sculpsit_auteur, a, crm("E21_Person"))
-        t(gravure_sculpsit_auteur, RDFS.label, l(data["SCULP"]))
+        t(gravure_sculpsit_auteur, RDFS.label, l(data["[Graveur] 'Sculpsit' ou 'Incidit' vs. 'fecit'"]))
         gravure_sculpsit_E13 = she(cache.get_uuid(["estampes", id, "E36", "E12", "sculpsit", "E13"], True))
         t(gravure_sculpsit_E13, a, crm("E13_Attribute_Assignement"))
         t(gravure_sculpsit_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -199,9 +199,9 @@ def process(data):
                 "Article annexe à la gravure : l'article " + id_article + " est introuvable dans les fichiers TEI")
 
     # Lien Gallica
-    if data["Lien au texte [ou à l'image] dans Gallica"]:
+    if data["Lien au texte [ou à l'image] en ligne"]:
         try:
-            response = requests.get(data["Lien au texte [ou à l'image] dans Gallica"])
+            response = requests.get(data["Lien au texte [ou à l'image] en ligne"])
             if response:
                 lien_gallica = u(data["Lien au texte [ou à l'image]  dans Gallica"])
                 t(lien_gallica, crm("P2_has_type"), she("e73699b0-9638-4a9a-bfdd-ed1715416f02"))
@@ -212,7 +212,8 @@ def process(data):
                 t(img_gallica_E13, crm("P141_assigned"), lien_gallica)
                 t(img_gallica_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
         except:
-            print("'Gallica: " + data["Lien au texte [ou à l'image] dans Gallica"] + "' n'est pas une URL valide")
+            pass
+            #print("'Gallica: " + data["Lien au texte [ou à l'image] en ligne"] + "' n'est pas une URL valide")
 
     # Titre sur l'image (E13)
     if data["Titre sur l'image"]:
@@ -284,6 +285,9 @@ def process(data):
 
         for sujet in sujets:
             sujet = sujet.strip()
+            if "/" in sujet:
+                sujet = sujet.split("/")
+                sujet = sujet[1].strip()
 
             ### Zone de l'image comportant la représentation du sujet (E13)
             gravure_zone_img = she(
@@ -447,7 +451,7 @@ def process(data):
                     t(gravure_objet_E13, crm("P140_assigned_attribute_to"), gravure_zone_img)
                     t(gravure_objet_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
                     t(gravure_objet_E13, crm("P141_assigned"), l(sujet))
-                    print("L'objet", sujet.lower(), "est introuvable dans le vocabulaire d'indexation d'estampes")
+                    print("L'objet", sujet.lower(), "est introuvable dans le vocabulaire d'indexation d'estampes et le référentiel des personnes")
 
 
     # Type/Thématique de la gravure
@@ -518,7 +522,7 @@ def process(data):
 
 rows = get_xlsx_rows_as_dicts(args.xlsx)
 for row in rows:
-    if row["Cote"] is not None:
+    if row["ID image"] is not None:
         process(row)
 
 ###################################################################################################

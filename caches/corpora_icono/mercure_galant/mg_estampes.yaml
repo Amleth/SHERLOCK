@@ -115,6 +115,10 @@ estampes:
           E13: 659572dd-2994-478e-b6c7-af48e210f150
       gallica:
         E13: feef6f11-f050-4150-8c75-e37a90102be9
+      ? ''
+      : zone de l'image (E36):
+          uuid: 0833106f-84ad-4eb9-b4a7-1996c7d64a03
+          E13: 6a17aee5-2e67-4e7e-9a04-984d7df67e91
   1678-02_081:
     E36:
       uuid: 81a89f5a-7af2-4f39-8af1-ad82b5cc996c
@@ -134,6 +138,10 @@ estampes:
         zone de l'image (E36):
           uuid: f57510cc-de9c-4c0d-962a-2cc97cb60f17
           E13: 752485bb-9e8f-44bf-bef2-6f8b443b02f6
+      louis_dauphin_de_france_(1661-1711):
+        zone de l'image (E36):
+          uuid: 1d97c799-f5ff-4243-a2ba-c5c4844c95de
+          E13: 53a392f3-f788-473f-ad15-2994fab0e814
   1678-02_236:
     E36:
       uuid: 393ed121-3262-4cc1-9168-991b10b1316c
@@ -235,6 +243,10 @@ estampes:
       : zone de l'image (E36):
           uuid: 70c5d43d-4419-4cd9-80ca-ea676b6f3ad4
           E13: 3f0abfbd-5302-4b11-bdc2-2c598c2a74e1
+      Tobago:
+        zone de l'image (E36):
+          uuid: a23ead03-671e-4ff4-8027-cf6b279ef826
+          E13: 3debf165-2196-4670-b39b-50f96f0cce58
   1678-03_329:
     E36:
       uuid: b4602425-13ff-405f-8cfd-3b09191a72ad
@@ -369,6 +381,11 @@ estampes:
         E55:
           uuid: 51d797ef-4745-4635-af9d-132c7cb4567b
           E13: d1f4d8bb-fb79-4ffb-b18a-884b5d282849
+        invenit:
+          uuid: 39ee6f1c-292d-48ea-addc-7bb93fd00ec4
+          auteur: a5e52e50-e741-4be6-aa8f-630e97da6ac3
+          E13: e0c67b10-6c4d-4c84-bfb2-399da5dae889
+        E29: 0e9148c6-4e77-414c-a4a2-99b8e934cd9b
       titre forgé: 4f3a3821-a9a0-42ba-a0b4-fc0b407a5439
       titre péritexte: cd87ec35-3af4-432b-82ea-b61bf5e6c3e0
       boutique ou atelier:
@@ -544,6 +561,10 @@ estampes:
           E13: 91675dde-c60e-42cc-ad88-af671c40b21b
       gallica:
         E13: db67d1a6-d9dd-4a48-8cd3-e887a9ae05eb
+      '2052.0':
+        zone de l'image (E36):
+          uuid: 5bfc1b09-334a-4230-ba83-9561e2dc7d99
+          E13: 3473a2ba-92e5-42ab-af2b-4eb9d6745029
   1678-05_289:
     E36:
       uuid: 6f428347-6155-4e9e-a3fa-d7e5e1c4b95c
@@ -593,6 +614,11 @@ estampes:
           E13: f1431323-f407-4ffc-a557-eccdb66c163f
       gallica:
         E13: 4eebbde0-3bd3-433e-95b7-599c17c3af0f
+      titre péritexte: 84b568ee-3732-4c5e-b6bb-150caeaddc2b
+      '830.0':
+        zone de l'image (E36):
+          uuid: e5363e99-1637-4a6a-bd5e-8b448c8959a5
+          E13: 6d3977bd-d9a1-4882-9a81-9edaa49aafce
   1678-06_026:
     E36:
       uuid: e680bc50-8e35-4158-8f80-f51a3d8d52d8
@@ -611,6 +637,10 @@ estampes:
           E13: 4769153e-29df-49c4-981f-9ef78eee6f17
       gallica:
         E13: 91afc4d2-dcf0-4c9c-88ff-978c54ded7d7
+      '2052.0':
+        zone de l'image (E36):
+          uuid: 7fc23bdd-a5b9-4584-be1a-fdf6c8659764
+          E13: a95a6759-dba8-432b-83c1-1d6208593817
   1678-06_032:
     E36:
       uuid: 7a5e6c95-aecd-405b-a0a6-102a75b52ea0
@@ -643,6 +673,10 @@ estampes:
           E13: d3e73e0e-1a34-4774-8c03-df37963b7d2c
       gallica:
         E13: 2879922f-e572-4990-98f6-dcadcdc7b427
+      '830.0':
+        zone de l'image (E36):
+          uuid: a00cc109-eaf3-4f74-ab4d-6e8f00e23297
+          E13: 43fa68ca-efa7-429e-9434-f57fb0dd3189
   1678-06_338:
     E36:
       uuid: 0b0f5b9c-0473-4500-9c6f-e706ad9e3ac0
@@ -816,6 +850,10 @@ estampes:
         zone de l'image (E36):
           uuid: 33bb5600-d245-40f0-b648-5378078ced17
           E13: 87db4f52-6aa6-4e7b-86c5-3f58479a310d
+      '2635.0':
+        zone de l'image (E36):
+          uuid: f91e33e0-2fc5-4b47-8912-abf789316225
+          E13: 762cd3ff-65ef-4f76-8334-92bcf98931fb
   1678-08_336:
     E36:
       uuid: 70feea40-a966-443b-9521-7f735e169ac0
@@ -876,6 +914,22 @@ estampes:
         zone de l'image (E36):
           uuid: 635b309a-a756-48c9-9e36-adf79d19ecb5
           E13: 32ce5180-7b6a-469a-9ccb-fb425519d752
+      Plessis-Praslin, César de Choiseul [1602-1675], comte du /  84088:
+        zone de l'image (E36):
+          uuid: 0ed377df-ab26-48f6-a663-ed8844ab86a5
+          E13: f0907bb4-e2ca-4b79-b4fe-728af92c8859
+      'Plessis-Praslin, César de Choiseul [1602-1675], comte du ':
+        zone de l'image (E36):
+          uuid: c0c5089a-dbe7-4ce1-b8c6-eebf3014b5fb
+          E13: fd90d985-c281-47c3-8dcb-54efc6e1dc54
+      '  84088':
+        zone de l'image (E36):
+          uuid: 569d7a3d-2e0a-4321-985d-c0739100b260
+          E13: b6fa97a0-348d-4111-93d6-c51b10dde554
+      '84088':
+        zone de l'image (E36):
+          uuid: 9fcaec7c-6cdf-4284-9af3-dd858cb02962
+          E13: 97fb4682-24ea-40e9-9045-bab69854c1d6
   1678-09_179:
     E36:
       uuid: 5c018e51-33e9-49ba-99c5-1d3a7fac4aa9
@@ -1152,6 +1206,7 @@ estampes:
           E13: 9ea0f6fa-b479-46c4-b411-0e85d1df6636
       gallica:
         E13: a5ed5827-3563-4f2a-9540-906b88d583ea
+      titre sur l'image: 7f5a7f35-1aef-4411-9346-d03bdbda3595
   1678-12_096:
     E36:
       uuid: e4c1ef45-b961-4260-9631-0eb7b83e98a5
@@ -1200,6 +1255,26 @@ estampes:
         zone de l'image (E36):
           uuid: 8564a303-6b53-47aa-985b-cf69119b107b
           E13: 52dc9bc4-fe40-4df2-9d4e-4d7f340d1643
+      Houssay, François-Mallier du [1603-1681]:
+        zone de l'image (E36):
+          uuid: 557d5f91-cabe-452d-a1eb-3fed2011010c
+          E13: 8fbd3ace-aa15-44d9-8f1d-88ef7685a1c6
+      évêque deTroyes [sed.1641-1678] / 83928:
+        zone de l'image (E36):
+          uuid: 172f21ba-25eb-4a5b-a5e2-d50536e11cee
+          E13: 683b9e4c-d0b3-4999-9a55-534187dd0671
+      'évêque deTroyes [sed.1641-1678] ':
+        zone de l'image (E36):
+          uuid: fb3113f6-dcaa-47d6-8d6e-2ea274ad97d1
+          E13: dc0c6c8d-9136-41b8-a984-af044813f76f
+      ' 83928':
+        zone de l'image (E36):
+          uuid: 6defc8bf-dc14-41c7-b1b2-5c1495d1d247
+          E13: 39933476-c842-46e6-851c-72d7947c825a
+      '83928':
+        zone de l'image (E36):
+          uuid: 79e8cbac-bc5e-443b-87f4-733644ebbb17
+          E13: 6ef954eb-9b2c-46fa-9840-4663a4e9c020
   1678-12_295:
     E36:
       uuid: 4f596037-c3f4-41c0-845f-b0f8eb5bbaa4
@@ -1330,6 +1405,10 @@ estampes:
       : zone de l'image (E36):
           uuid: f75e768d-fee7-43b9-9d0d-dba9059ac0a9
           E13: 4507cc52-6100-4c37-8cfe-9cb638ceb953
+      '90.0':
+        zone de l'image (E36):
+          uuid: 620848cf-5671-4af5-9ce0-53bcbba592a4
+          E13: 8b159527-4b3f-4380-8f4b-c5b135c66b2d
   1679-01_300:
     E36:
       uuid: 5ff6f25f-035a-4666-ac44-2a8675d8685c
@@ -1343,6 +1422,10 @@ estampes:
         zone de l'image (E36):
           uuid: 8b1533f8-a9ed-4d1e-98bf-bd563e3e82a5
           E13: 86e66714-3a79-4c62-b097-d1d06ca362b4
+      '2659.0':
+        zone de l'image (E36):
+          uuid: eb13edd6-626c-4cad-a63e-3581f138a754
+          E13: 95072547-cc7b-49a2-8813-814f1f2e4789
   1679-01_327:
     E36:
       uuid: 074918df-bbf0-419b-8ae2-6085b4145e80
@@ -1427,6 +1510,22 @@ estampes:
         zone de l'image (E36):
           uuid: 0908d0af-3682-49d8-a355-cf5cf0c89922
           E13: 950c7f1f-8c97-436b-b20c-90a1434481d8
+      Navailles, Philippe III de Montaut-Bénac [1656-1678], marquis de / 83930:
+        zone de l'image (E36):
+          uuid: e34bc255-3285-40b5-9511-9c62377bca2b
+          E13: a0892787-27f4-4ecd-99f8-8211d33db277
+      'Navailles, Philippe III de Montaut-Bénac [1656-1678], marquis de ':
+        zone de l'image (E36):
+          uuid: 34d9035c-b872-438f-95f5-186f22c56334
+          E13: a0a1ad50-4c5c-4210-bad5-16f9c8aaabf9
+      ' 83930':
+        zone de l'image (E36):
+          uuid: f13f4284-5dc6-4140-aa2f-463cab77a715
+          E13: 9d4bfcad-a462-4dfa-9600-b66226ea67fc
+      '83930':
+        zone de l'image (E36):
+          uuid: a07a7d32-f42b-47b6-90fc-fe851ce9ccf3
+          E13: 37cdd7b6-a37d-4ccc-a3c7-e9cd1afeb3dc
   1679-03_256:
     E36:
       uuid: b08a4b3b-4177-4336-9518-35e4dfa1d501
@@ -1484,6 +1583,10 @@ estampes:
         zone de l'image (E36):
           uuid: c0e802f4-a230-4c42-8682-5d413c844940
           E13: ea2c6652-abf2-4caf-9c33-49659fc8da36
+      portrait:
+        zone de l'image (E36):
+          uuid: 72d33791-92be-44a4-9c37-5e4ce7bad24a
+          E13: 7d5633b2-47d0-45f4-bc94-1a8019a6f593
   1679-03e_172:
     E36:
       uuid: 27edaaa0-03cb-4327-84de-4504a23130ea
@@ -1502,6 +1605,10 @@ estampes:
           E13: 0cd2ae60-08f8-4625-bb21-98655f75dd6c
       gallica:
         E13: cf888ea8-5a94-4a0c-a678-446fc7aee9d7
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: 00d079bd-26c0-4d37-a11f-b9bef943e4ba
+          E13: 9f821e33-c573-4377-8a9c-9a181b13d2aa
   1679-03e_272:
     E36:
       uuid: 50ee0b82-28ff-41c2-bbcd-283baa237da2
@@ -1554,6 +1661,10 @@ estampes:
         zone de l'image (E36):
           uuid: 253a44be-187c-4d3a-893b-d6d09b07b2bc
           E13: 18190f78-a243-4d16-9865-f86b93945683
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: 30f00513-12fc-4318-a27c-45260db70c87
+          E13: 538a10eb-02c5-4be1-be86-6556e122f6dc
   1679-04_259:
     E36:
       uuid: 06f1acd7-d730-4e97-b291-27abe67bbd24
@@ -1599,6 +1710,10 @@ estampes:
         zone de l'image (E36):
           uuid: 44501a06-632d-4867-b565-af81eee12e71
           E13: ff50d037-f80b-47b8-baa6-e424905d9ce6
+      '90.0':
+        zone de l'image (E36):
+          uuid: c8bfc37c-619b-4b37-b384-1ee7692ce69f
+          E13: e13e3790-9df7-4517-910b-0b81a9114a90
   1679-05_302:
     E36:
       uuid: c6316b48-1b71-4be7-aa04-929c0ace40e7
@@ -1667,6 +1782,10 @@ estampes:
         zone de l'image (E36):
           uuid: e2512368-6c88-4d51-97d2-075d3470f58d
           E13: 0bddcc81-d0d2-4a5d-b502-dccab08f0530
+      modene_marie-beatrice_de_(1658-1718)_reine_dangleterre:
+        zone de l'image (E36):
+          uuid: 7cb11969-cc11-4d96-bc0b-fd7874eb91b4
+          E13: 4201c31b-e39b-4b05-b9f7-b4dd30171639
   1679-06_294:
     E36:
       uuid: 53f5cc6d-91ae-4af5-b7c6-3a0cacc38a55
@@ -1688,6 +1807,10 @@ estampes:
         zone de l'image (E36):
           uuid: 9e3e131a-b930-4024-86de-05b6c2663697
           E13: 0f409684-16a9-4768-9f5a-b709b1764f58
+      portrait:
+        zone de l'image (E36):
+          uuid: ea96897f-06bf-4f19-9169-aa3667aab7e9
+          E13: 13b5b966-38c9-46d9-8722-659eb1c10431
   1679-06_326:
     E36:
       uuid: 3a4a049e-2c6e-45e2-8c4c-9db33eef0a5d
@@ -1746,6 +1869,38 @@ estampes:
           E13: c88d47d3-2ab3-4f47-a006-79dcf93c8324
       notes:
         E13: 2173a49f-5293-42f7-9b43-272c077d901f
+      Ruyter, Michiel de [1607-1676] / 83942:
+        zone de l'image (E36):
+          uuid: 2960ae1a-63cf-4f00-ab6c-51164484def8
+          E13: f4d08f0e-e11c-4aa9-9dd0-2ba93fe4e94e
+      Lauderdale, Charles Maitland [ca. 1620-1691], comte de /  84026:
+        zone de l'image (E36):
+          uuid: 63279378-ca75-4eef-84a0-07df74f918a1
+          E13: cd1878e4-8eca-4e2a-b18d-bf66939885c2
+      'Ruyter, Michiel de [1607-1676] ':
+        zone de l'image (E36):
+          uuid: 37db4427-4fed-488f-8874-b4717f68244e
+          E13: 71f02901-0b09-4831-9f80-92bd5effd052
+      'Lauderdale, Charles Maitland [ca. 1620-1691], comte de ':
+        zone de l'image (E36):
+          uuid: 1cb5743d-8cec-4003-8f74-a90a862bd95d
+          E13: d570b5b7-a6a9-4277-b94b-f703387f831a
+      ' 83942':
+        zone de l'image (E36):
+          uuid: 47d73a3e-c3f5-4dc0-b6b8-1e75b4836025
+          E13: 4c56f66f-386b-461b-850c-0ee5a777b3cb
+      '  84026':
+        zone de l'image (E36):
+          uuid: e5fee361-ce75-49f2-9e44-717a729aed03
+          E13: e262608b-30bd-4a56-9d84-5f7eb3980b86
+      '83942':
+        zone de l'image (E36):
+          uuid: e1a6a82d-737e-4aae-b6df-4b7afc5c61a3
+          E13: a91b9730-c54a-46d7-bafb-c7624ae70021
+      '84026':
+        zone de l'image (E36):
+          uuid: ce2d47e9-4868-4d7b-982e-93f96a7d102d
+          E13: 6e9df67e-e459-4887-9e44-ef7a1562fe89
   1679-07_167:
     E36:
       uuid: 019ab1c3-1e0c-406f-8dd4-3baa0daa2105
@@ -1759,6 +1914,10 @@ estampes:
         zone de l'image (E36):
           uuid: c617abe9-f538-4041-b6f2-bd09bd5652b9
           E13: ea725dd4-6a63-401c-9818-c14d67f3c7f4
+      '486.0':
+        zone de l'image (E36):
+          uuid: 7a8bac07-c069-408d-8130-98dde39b85d8
+          E13: 5f3c0529-caf8-4c70-b8c5-4cdd08467e5f
   1679-07_317:
     E36:
       uuid: 1d92322e-21a4-4357-9dc7-7e572ff9c028
@@ -1872,6 +2031,10 @@ estampes:
           E13: c303c998-e5be-4d33-9b4d-8d3422480024
       lien externe:
         E13: e2aa3d5a-0d8d-455c-b28e-0fc3fa1e8b55
+      '56.0':
+        zone de l'image (E36):
+          uuid: 7b835ef3-4679-4d51-b99a-d3c8a038a4be
+          E13: 7a62ea75-389b-48f9-b3ae-6929e309abe8
   1679-09_359:
     E36:
       uuid: 73fe7906-5ec1-48ba-b380-f66415c8c065
@@ -2035,6 +2198,14 @@ estampes:
         zone de l'image (E36):
           uuid: 9dba3dc6-a673-4d61-bc5b-ca160ce4d8fd
           E13: b09d1840-95b1-4858-9490-df1ceaaa15d8
+      '295.0':
+        zone de l'image (E36):
+          uuid: 50b2e470-1737-473d-b496-75748bc38987
+          E13: 25482830-b585-46a3-b4dc-f601947f3660
+      charles_ii_(1661-1700)_roi_despagne:
+        zone de l'image (E36):
+          uuid: fcc634cc-2d68-4629-a6c8-9c23faa40eaf
+          E13: b9b42444-5f05-453f-98d4-0f3992cfdd79
   1679-10b_215:
     E36:
       uuid: 496de972-5679-44f1-8c82-d0425bf2b12b
@@ -2118,6 +2289,14 @@ estampes:
           E13: 146414b3-5360-4676-a735-f8d442d2208d
       lien externe:
         E13: 1177dbf5-3b22-40e3-9989-794feeab90d1
+      portrait:
+        zone de l'image (E36):
+          uuid: 06136cce-327c-473e-a386-a39451b4038c
+          E13: a690f246-807c-41ef-9e1a-fa72122961f5
+      lamoignon_guillaume_de_(1617-1677):
+        zone de l'image (E36):
+          uuid: ebcea6ad-d47c-4267-883d-2faa2af11ae6
+          E13: 23c64da2-5ec6-43a2-88a0-18ead672b169
   '1679-12_328 ':
     E36:
       uuid: 5b74953d-ad18-4fc7-a7ab-4ac77258451b
@@ -2191,6 +2370,10 @@ estampes:
           E13: 86acdcbf-8305-4e2d-a24d-9b4b4552de2b
       gallica:
         E13: f695fdae-1876-4dc5-9314-85ea3c8e39c2
+      brunswick-hanovre_jean-frederic_de_(1625-1679)_duc_de:
+        zone de l'image (E36):
+          uuid: 0f225041-0a02-4cf5-99b8-eaa6475b314d
+          E13: 04ddb1f8-02a2-449a-94a4-a3c864abe784
   1680-01a_022:
     E36:
       uuid: 99d18554-b550-48a6-aa26-ec2554a6c81d
@@ -2229,6 +2412,10 @@ estampes:
           E13: 598e5f9f-78a1-4184-8ab5-89dcbcf1d8e7
       gallica:
         E13: a269c0c3-78c1-4e9b-82b8-dbd8219e0174
+      '1585.0':
+        zone de l'image (E36):
+          uuid: bb768b1b-6b5e-4596-aa2c-9f7cec51d602
+          E13: 9dad372a-1da2-47df-886a-06aff7bc00c7
   1680-01a_296:
     E36:
       uuid: 56e1edd1-560c-45a1-bc8a-3d17c97cb09a
@@ -2272,6 +2459,10 @@ estampes:
         zone de l'image (E36):
           uuid: cc309be5-a56b-4815-843a-ae4cce89ae95
           E13: 508a5de2-4fa4-474c-aefd-e0f4f5b0f1da
+      '227.0':
+        zone de l'image (E36):
+          uuid: db6d9f45-6a3b-4e13-a635-eba4d753caa8
+          E13: a585bb2c-4ce6-4d61-a6c8-02fe0c395896
   1680-01b_207:
     E36:
       uuid: 4da5dfdd-9505-4d6c-80d4-405919107095
@@ -2375,6 +2566,26 @@ estampes:
       bibliographie:
         uuid: bc7c3b38-ebb1-4279-8b14-368c1045bd2d
         E13: f1aa8aa6-bdf6-4417-a317-815eabd2dd58
+      portrait:
+        zone de l'image (E36):
+          uuid: 7bd21325-9aba-4e1a-b7ee-525260059894
+          E13: 85d9a1c0-da70-4cb2-892a-fbe25914b9d2
+      Voisin, Catherine (1640?-1680) / 83866:
+        zone de l'image (E36):
+          uuid: 8c7e6903-c856-4268-8864-5620f960e9ef
+          E13: 5b698699-3708-4b0d-a449-4d8000916709
+      'Voisin, Catherine (1640?-1680) ':
+        zone de l'image (E36):
+          uuid: de0f5d17-4d59-42d4-8894-acafa1907301
+          E13: 721039d8-823e-4a6c-a875-e5a7bc1c05fa
+      ' 83866':
+        zone de l'image (E36):
+          uuid: 35ed14f1-539a-4a21-a1dd-f8bce1262414
+          E13: 2e01c539-8486-45a5-8cf2-08ebc234e3e6
+      '83866':
+        zone de l'image (E36):
+          uuid: d18331e0-5d23-4661-92c7-bec0b09ecdcc
+          E13: 2b7dc56b-fc1b-47d3-8817-85792c04bc30
   '1680-03a_157 ':
     E36:
       uuid: 15034ec9-e930-4be6-80cd-abb29b58e26f
@@ -2449,6 +2660,10 @@ estampes:
         zone de l'image (E36):
           uuid: 3420b3f5-03ac-44e4-8c79-b28dbb749e76
           E13: eaaa5dd1-2271-4da6-8d31-8943ab9ecc51
+      table généalogique:
+        zone de l'image (E36):
+          uuid: 6e05df31-b85d-4594-99f6-67a6034682e3
+          E13: 581e3cc0-5162-4754-b956-8a2a7b95b073
   1680-03b_194:
     E36:
       uuid: 01a2c580-7bd1-4731-aaf9-f22576b1375c
@@ -2470,6 +2685,14 @@ estampes:
         zone de l'image (E36):
           uuid: af201b6f-0a8b-4e9b-a341-2d5c8abf0715
           E13: eea981aa-79ec-499d-a430-4ec531238249
+      louis_dauphin_de_france_(1661-1711):
+        zone de l'image (E36):
+          uuid: 2728aa31-a62f-4f96-bebc-24334193ceb7
+          E13: 47422f3f-a2d0-4511-94e4-4f1e0090ed32
+      marie-anne-christine-victoire_de_baviere_(1660-1690)_dauphine:
+        zone de l'image (E36):
+          uuid: 2d0d4a2f-c4c3-4c08-bf7f-ed269b7c1dd9
+          E13: 07925ffb-c957-4405-af65-25df39a30b58
   1680-03b_232:
     E36:
       uuid: e33539ae-c4c7-41b7-a5bb-a54d931b2a12
@@ -2493,6 +2716,10 @@ estampes:
         zone de l'image (E36):
           uuid: 09c7d0b2-02b0-486f-ad9e-e1ac67648404
           E13: f784ae1e-84f4-47f8-9423-d31de902696a
+      louis_dauphin_de_france_(1661-1711):
+        zone de l'image (E36):
+          uuid: 5214974d-79b1-40b0-9d3e-9b0c780d12d6
+          E13: 91f73a7a-5ad9-4c94-8566-e2080fb47e8c
   1680-03e_171:
     E36:
       uuid: 71ccbc79-7734-4748-9bf5-e1a47326e053
@@ -2507,6 +2734,10 @@ estampes:
           E13: 4e81a12c-7982-4a0e-8d17-f9f84c8a17ee
       gallica:
         E13: 604da6de-95bc-4ef4-ac68-c87d7da48b0c
+      lettre en chiffres:
+        zone de l'image (E36):
+          uuid: 02feaa51-4c2b-45cf-a36b-68f5a4c7e21d
+          E13: e243e928-d260-481a-a43b-c6b5efafdc95
   1680-03e_365:
     E36:
       uuid: aedbeb5a-8427-47be-ab8d-3ee399eb853b
@@ -2620,6 +2851,10 @@ estampes:
         zone de l'image (E36):
           uuid: e845ea0c-1535-4b0f-8a7c-3347e90a7799
           E13: 51c4c8a3-d8f5-48d1-aa07-51af82e05cd4
+      '227.0':
+        zone de l'image (E36):
+          uuid: 40e30e1f-b8e3-4995-9ebd-ef589b51d49b
+          E13: 76783826-b03a-4845-a501-df4324feae77
   1680-05_226:
     E36:
       uuid: 39fc7f77-2978-4c3b-ac90-26012625c1c2
@@ -2637,6 +2872,14 @@ estampes:
         zone de l'image (E36):
           uuid: 670de577-a665-4d2c-bd4f-3f02532551fe
           E13: d9f008bf-f7c5-447c-afba-26931e9f7d4b
+      '277941.0':
+        zone de l'image (E36):
+          uuid: 590fb18b-19f1-4026-a763-78885a430b76
+          E13: 73110068-de12-4abe-baf6-25d56aa721b5
+      conde_anne-genevieve_de_bourbon_(1619-1679)_duchesse_de:
+        zone de l'image (E36):
+          uuid: 728a44fa-28c1-4e9e-aa1f-5bc679355e62
+          E13: 9c125e9e-4134-477d-8884-64da6aa79ebb
   1680-05_304:
     E36:
       uuid: a9b5ab3b-220c-43bb-83c5-8edc7211f529
@@ -2660,6 +2903,10 @@ estampes:
         zone de l'image (E36):
           uuid: 0b7e33ea-f723-417c-9e3d-fb82245406b0
           E13: 74f574b6-27d5-44c6-a85d-761638ca0440
+      '184.0':
+        zone de l'image (E36):
+          uuid: 073f5f25-2a3a-4276-8e93-a3ea50fcdefd
+          E13: e53e8e28-16e8-4a6a-b956-efeba16059f9
   1680-06_173:
     E36:
       uuid: b825a8d2-9034-45a8-89b3-461e0a9a7719
@@ -2673,6 +2920,14 @@ estampes:
         zone de l'image (E36):
           uuid: dcc07457-9856-47f8-9805-7c3925a5736c
           E13: 4ac0b6b2-a173-4fdc-a703-7b0e7d3df9d7
+      médaille:
+        zone de l'image (E36):
+          uuid: b2372d59-5550-4e07-a3c9-47d29bc08ff5
+          E13: 50b23c45-f90b-4d9f-9224-5719dc73abf9
+      ? ''
+      : zone de l'image (E36):
+          uuid: 8b3ff314-a9e8-429f-9b20-c152f235972e
+          E13: dc685c1a-415f-4c6a-8adb-db383ec2857b
   1680-06_290:
     E36:
       uuid: 02c054fb-ff58-4822-bcbf-28aa2a652af3
@@ -2827,6 +3082,10 @@ estampes:
         zone de l'image (E36):
           uuid: 98623402-8142-4175-9986-1d4095680fd4
           E13: 4f8b5b57-bb30-4180-8a72-e8639e6ae755
+      '804.0':
+        zone de l'image (E36):
+          uuid: 83465606-d255-478d-bb7b-d922fe4b598c
+          E13: 04690dbf-f832-4bb5-9098-de29dbcfba56
   1680-07_313:
     E36:
       uuid: cd8d5e0b-b471-4791-b93d-d9d17705a895
@@ -2893,6 +3152,21 @@ estampes:
         zone de l'image (E36):
           uuid: 2f5ee24a-ca2d-467b-8b90-bd3d72ae7250
           E13: 0962f30f-b3b3-45b1-9d24-1107e932c180
+      E12:
+        uuid: 9102f652-d2da-4660-8d14-ed88c2649a0b
+        invenit:
+          uuid: d5a882b6-42d9-4ba1-9f1c-02a1860235c5
+          auteur: dfa1eb29-1764-4897-be78-74bfbe16ed31
+          E13: 2d8450a3-d3ac-4a5b-83c2-465090787bc2
+        E29: 84861af2-64f6-4b6e-9630-14f98c535f63
+        E55:
+          E13: 204182d1-8f51-4f8e-9602-5f14ee626f95
+      '295633.0':
+        zone de l'image (E36):
+          uuid: 909e24e9-4a9c-4edd-94cc-fb71c4e98762
+          E13: e44c4309-ad42-4412-b9d3-18f3124cb563
+      lien externe:
+        E13: 38663790-6958-43ff-85dd-ee10f848e366
   1680-08_332:
     E36:
       uuid: fa006465-8a01-428c-b7ab-245cc7b33831
@@ -2946,6 +3220,10 @@ estampes:
           E13: 4265a60e-8fdb-4df1-bbb1-a80d3dda8f4e
       gallica:
         E13: bad525b8-4ff1-4c47-843b-120482cbecf7
+      Énigme en figure:
+        zone de l'image (E36):
+          uuid: 40499584-3fe1-456b-9293-5d9963fefc94
+          E13: 3316e13b-8c1e-4b58-b282-86500a7448c5
   1680-09b_165:
     E36:
       uuid: 24227a6c-37e6-4393-a7af-8817188cb087
@@ -2997,6 +3275,7 @@ estampes:
           uuid: 540e5815-0fb7-49c0-8838-d0bf5e0cb558
           E13: d4f6a358-c9d5-4517-bac9-dc608c745381
           lieu représenté: 43f6a585-648f-41a3-ab6d-a4eb68e7d17c
+      titre sur l'image: 8c44f3cf-9454-49c3-a2c0-69a98a6e20c5
   '1680-09e_195 ':
     E36:
       uuid: e8726a53-0730-464f-aba5-f2eb8a7f9547
@@ -3022,6 +3301,10 @@ estampes:
         zone de l'image (E36):
           uuid: 2e6301df-4409-432e-b6a7-c7bc54433bf8
           E13: a1bf5220-4751-4ad7-ae72-6dd6a9bd0b1b
+      '295595.0':
+        zone de l'image (E36):
+          uuid: 7e21f218-1c80-4c3c-8af9-6c2f578ee099
+          E13: 560a26e3-17a9-41da-bb50-364f71de5305
   1680-09e_298:
     E36:
       uuid: c19d0666-bc80-4e3b-a13f-662710958995
@@ -3048,6 +3331,10 @@ estampes:
         zone de l'image (E36):
           uuid: 0b0f7425-ca57-4f1b-bbbb-7f23eb59af19
           E13: 2f46736d-e018-46e7-989d-e3618db9bcbe
+      '295997.0':
+        zone de l'image (E36):
+          uuid: a98e3eac-4482-4e02-860a-d15bfbd5b356
+          E13: 886a49af-3697-4b36-b59b-fbd20d18e7f3
   1680-10_165:
     E36:
       uuid: d679fb25-2d07-4a45-958c-46e07ffd6658
@@ -3083,6 +3370,10 @@ estampes:
         zone de l'image (E36):
           uuid: f394ac8c-b970-4eb2-94a7-99c47392d5c2
           E13: 98bb2e51-37f3-48d6-97a8-99024b68b747
+      '802.0':
+        zone de l'image (E36):
+          uuid: 096486ab-8a3c-48e5-a3aa-e25285573dbf
+          E13: 99aab46e-421d-4686-bf2c-d5683b5dbc5c
   1680-10_354:
     E36:
       uuid: ddf2d5b2-4959-4369-8239-f4d55091cb07
@@ -3111,6 +3402,10 @@ estampes:
         zone de l'image (E36):
           uuid: 35f72f84-2191-48ea-8aa8-4cb5dceff01c
           E13: be15de67-0140-44a5-bded-238761f0752f
+      '802.0':
+        zone de l'image (E36):
+          uuid: 5519b42d-627a-4afb-8b2b-426db952cf44
+          E13: 1fab4077-e9a7-4318-94b7-3f3ea23e46d8
   1680-10e_192:
     E36:
       uuid: 3ab7b779-7583-4aeb-99cd-188c335f1b0c
@@ -3325,6 +3620,10 @@ estampes:
       : zone de l'image (E36):
           uuid: 0bb7fe21-ed26-4b98-b28c-3b253d7a0ef0
           E13: 591e9e73-fb42-4ff0-9149-039486acc04c
+      '1673.0':
+        zone de l'image (E36):
+          uuid: a1c5b4b0-dfce-4f40-8655-daaa63a287a9
+          E13: 37225b65-1408-47d4-8b3a-386f3ba944d8
   1681-01_309:
     E36:
       uuid: be97e742-91e3-4750-bdcd-8b761e485af2
@@ -3339,6 +3638,10 @@ estampes:
         zone de l'image (E36):
           uuid: 3a9fc670-17b7-456f-90fa-d4a5ddb77d25
           E13: 0433a501-5b93-4e9f-996f-71ca2f52018b
+      médaille:
+        zone de l'image (E36):
+          uuid: 5907e140-8e12-4bf0-9aaa-ab70f65af6b6
+          E13: 535733d5-8933-4807-aaf9-c1be87b73884
   1681-02_177:
     E36:
       uuid: ccdea97c-0b94-4f52-8369-00d8ea73b7fb
@@ -3356,6 +3659,10 @@ estampes:
         zone de l'image (E36):
           uuid: 54f3bc00-3e26-42da-a52e-7460154f2018
           E13: fa7be304-b4dc-46b4-8142-b5c17ee0fa11
+      '1673.0':
+        zone de l'image (E36):
+          uuid: 3ca46f63-4754-452a-9b52-107b8bfc61bc
+          E13: f73cf439-b0fe-47a3-b4a5-cb1eac570ace
   1681-02_299:
     E36:
       uuid: 65891c32-7d77-40e4-9d6f-4bcdb121b353
@@ -3374,6 +3681,10 @@ estampes:
         zone de l'image (E36):
           uuid: e4cd7926-7d0e-4fb5-915e-01cc093b6676
           E13: 0ff31c37-6c14-4f92-bf09-9b525b6b1aee
+      '295453.0':
+        zone de l'image (E36):
+          uuid: 954aa586-527b-43cc-a37e-12a7fc8bab8e
+          E13: 02fab866-04fb-4678-87fb-3554bb149382
   1681-02_323:
     E36:
       uuid: 8c5fa809-6df5-4a03-973d-f63ddced5278
@@ -3438,6 +3749,10 @@ estampes:
         zone de l'image (E36):
           uuid: a87921d1-2bb7-42a2-906d-eb22c9fa9537
           E13: 7c9f2cd1-ce5a-485c-b527-dae322845dae
+      '1806.0':
+        zone de l'image (E36):
+          uuid: 7b59ff58-04c0-4816-b82e-70af92318bb8
+          E13: a0e46d6b-a068-4ff2-9c00-6c43b0d534fd
   '1681-03e_168 ':
     E36:
       uuid: 7c19f353-33cf-4e91-a750-c5c92bfcfab3
@@ -3459,6 +3774,10 @@ estampes:
           E13: a2adcd9c-188c-4c0b-a558-26b2be01a920
       gallica:
         E13: f9a04b1f-0f7f-4e8b-a6a3-8016678c7912
+      '806.0':
+        zone de l'image (E36):
+          uuid: 9f6093c7-8f7a-416b-b759-ddf7e05a7ca6
+          E13: 88ccc65e-f6f2-497e-bf6b-394a1c923197
   '1681-03e_296 ':
     E36:
       uuid: 2e92eace-2cf4-40ae-ba03-9555dca16144
@@ -3484,6 +3803,10 @@ estampes:
         zone de l'image (E36):
           uuid: bb246a70-52cd-4d2b-866f-49eea1d11f4d
           E13: 4f6a8043-1826-4093-9e91-dbb564d9125c
+      '295995.0':
+        zone de l'image (E36):
+          uuid: 99916e8d-3977-43e5-b844-77ae608a2101
+          E13: b0f9e380-f409-4e0d-bf2b-445b24c4266d
   '1681-04_096 ':
     E36:
       uuid: be0e433b-1294-424f-ae85-c1fe70ea7bb7
@@ -3509,6 +3832,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 18450ef0-74eb-49cc-af5f-d5ac31c5881c
           E13: 696d5862-199f-464d-8948-38604b233c10
+      titre sur l'image: aa33fbeb-5228-47b5-9acc-6336495bd082
   '1681-04_304 ':
     E36:
       uuid: c90b9653-1ecd-47ec-ab03-a17374866836
@@ -3534,6 +3858,11 @@ estampes:
         zone de l'image (E36):
           uuid: bf27cee5-77fe-41ea-bd1a-7c9f87675f55
           E13: 20cc1ae4-4298-400b-9708-b7334cd8bddf
+      titre sur l'image: 874f3f22-10da-4167-99fc-7af76518c2c6
+      '789.0':
+        zone de l'image (E36):
+          uuid: a9a572c0-bb6d-469d-9903-953ee7e4c19f
+          E13: d1e0b43d-22da-412f-a8a4-e5f94226ab01
   '1681-05_199 ':
     E36:
       uuid: f81652be-81b2-4ff5-b03f-4e1558a472bb
@@ -3545,6 +3874,13 @@ estampes:
           uuid: 13d386ff-3374-4530-a5c7-0e5522f499f6
           auteur: 1c06c58b-fea4-467f-8481-301e8e7c0a6c
           E13: ec270efa-9a83-47af-a500-49bae5b6d0a4
+        invenit:
+          uuid: 89811362-00e4-4618-829e-071f66a88ab6
+          auteur: 8f110750-1c0d-48fb-af7f-1e231eb21ec4
+          E13: e0d32b76-544e-4834-b149-56b4b1a7e350
+        E29: 9716e4b7-ab31-490e-9e45-78bcc180cc25
+        E55:
+          E13: 4a60586c-665b-4c62-aed3-3ff150d336af
       titre forgé: 28e2b5ee-7c1a-4699-a331-3c18636074e0
       titre péritexte: 7c463926-622b-441c-92be-5c8d91d941fe
       Madrid agglomération/Aranjuez:
@@ -3584,6 +3920,18 @@ estampes:
         zone de l'image (E36):
           uuid: 661b50eb-53d9-4b37-ab2c-0355c0b9007a
           E13: 8b793b05-15a5-4d94-8927-544484863642
+      '227.0':
+        zone de l'image (E36):
+          uuid: 6c296312-9825-4a8a-b11b-9fc2a464d7e6
+          E13: 9a639be2-8bec-48b5-9e33-2f4e0ccaafb9
+      loterie:
+        zone de l'image (E36):
+          uuid: 0dbe3feb-1542-406c-886c-57568ff30fa1
+          E13: 8896fcf3-1242-420a-a97a-ffadb12ba811
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: 8a9957a3-1175-4c84-a24e-62ee1f1ca25c
+          E13: 6e091c32-de93-45e9-93f2-86eb6d32ae74
   1681-06_179:
     E36:
       uuid: bc6bdf41-58e3-4c42-b396-234b4793877f
@@ -3672,6 +4020,12 @@ estampes:
         zone de l'image (E36):
           uuid: 50b61507-75ab-457d-83c0-0981f5b31a0f
           E13: 0f790e69-968a-486d-b6d2-b0449f1aedf0
+      '789.0':
+        zone de l'image (E36):
+          uuid: 1410bdff-9a2f-4b2b-a49e-8018caaadaae
+          E13: 8c9a4b56-9ead-4e14-bd85-6a5b975c16ef
+      notes:
+        E13: f2223f3a-e439-465b-8c59-1308d398479d
   '1681-06e_314 ':
     E36:
       uuid: 3a025d6a-fc21-4b2f-b41f-bae9f144ba5f
@@ -3771,6 +4125,8 @@ estampes:
           uuid: 745ccc1c-fda6-463b-84d6-3ea7b69f0a5a
           E13: 3107b61c-4c9a-4b3b-bf06-89dd1b80b94f
           lieu représenté: 73973c3a-d8da-47b5-b1a8-2522940eaa67
+      notes:
+        E13: 4828be49-36d8-4810-9163-ddf915b9eb17
   1681-08_081:
     E36:
       uuid: 524da502-f1eb-483e-87c7-5bb513cf3f72
@@ -3931,6 +4287,10 @@ estampes:
         zone de l'image (E36):
           uuid: e5f6d7e1-67de-42f1-96fd-afc676398ba8
           E13: 598200d6-bbe7-453d-aa15-38a7dfe1d3c6
+      '295639.0':
+        zone de l'image (E36):
+          uuid: 4cef99f3-d910-4fca-8d0e-48b694768703
+          E13: 4352f229-7167-4f76-8394-d1a6b425e9ce
   1681-10_094:
     E36:
       uuid: 18e066df-3e9c-4b93-a7c5-df8801200f89
@@ -4006,6 +4366,10 @@ estampes:
         zone de l'image (E36):
           uuid: 22a78963-5d73-4a47-a86c-479db5af5fd9
           E13: 48839045-8669-450e-9947-f050f58e6320
+      '295639.0':
+        zone de l'image (E36):
+          uuid: acd32b1e-d09d-45c5-ba5a-0fe02976e473
+          E13: 6969ba20-9f24-45e5-b25e-7b11996f7ad7
   1681-12_042:
     E36:
       uuid: 09546265-8b7b-445b-9520-919d59d5ae60
@@ -4089,6 +4453,10 @@ estampes:
           E13: 0e18e9fc-735d-4ae3-9c08-c74bae5ba5c2
       gallica:
         E13: 6054b1b7-4f87-4134-958b-f16287331a80
+      '295639.0':
+        zone de l'image (E36):
+          uuid: cd19b2ff-fdcd-45a0-9569-6ccc22229b74
+          E13: c0139b50-7f60-4421-9415-c35068970578
   1681-12e_335:
     E36:
       uuid: e414aa4f-6227-4bfc-988a-d6f80a34c745
@@ -4111,6 +4479,10 @@ estampes:
           E13: 1b944417-ca0a-47ce-96a8-a76000d86a87
       gallica:
         E13: 7d173254-e962-4a1c-a810-339fbb70fce3
+      '295639.0':
+        zone de l'image (E36):
+          uuid: 01359de3-f701-4c6a-96e1-3f97f60b1aca
+          E13: 706e95b8-8235-4a04-8cd0-bdf7d866ed4e
   1682-01_054:
     E36:
       uuid: e967638a-b21d-4ab5-a85e-b216482e9cc8
@@ -4279,6 +4651,10 @@ estampes:
           E13: 34348190-602f-40be-be0d-914bd88b092d
       gallica:
         E13: 98178589-9c62-438e-b3cf-050486ed4697
+      '295639.0':
+        zone de l'image (E36):
+          uuid: 559cf69d-9f93-44e9-a61e-9c7baec181d5
+          E13: c5a002d4-09ad-49ab-abeb-0e04e4d55ead
   1682-03e_256:
     E36:
       uuid: 98c25068-8884-4b4a-9302-e141ce70f90d
@@ -4300,6 +4676,10 @@ estampes:
           E13: 27fcc9d0-d9eb-4a1c-b555-fee735dfda59
       gallica:
         E13: d207a45e-f8cc-48db-b310-8a6723506991
+      '295639.0':
+        zone de l'image (E36):
+          uuid: 4dd6b981-c16c-4a5c-8b44-8b57ea2dbb0c
+          E13: 0fe66677-8ac7-4f54-87d5-4a1a1064dad8
   1682-04_004:
     E36:
       uuid: cee79979-eb89-4ebe-8f85-9fc611b6c042
@@ -4325,6 +4705,10 @@ estampes:
           E13: 7a7ac4cb-9caf-4432-91bb-663803c33591
       lien externe:
         E13: 00357506-d240-4550-ab6c-be7761db4020
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: c94f42b5-fd6b-4a60-a22f-32e95e0079fd
+          E13: 2d449049-a423-45da-b0f3-aa59e9daea12
   1682-05_016:
     E36:
       uuid: 623a3a68-394c-4d48-99c8-b2aedde45873
@@ -4338,6 +4722,10 @@ estampes:
           E13: 9c8ca082-3f1e-4649-81b2-07d8ee83e71e
       gallica:
         E13: a696be40-d0ac-4562-a470-adf6e5cc45c5
+      '2944.0':
+        zone de l'image (E36):
+          uuid: 8acf73b3-1fbd-4516-9a93-bffa3b3413c6
+          E13: 96f1c010-5020-4885-a615-e97b3967516b
   1682-05_200:
     E36:
       uuid: 4cb1fa1f-75ae-4d64-9947-6324675c2d2c
@@ -4449,6 +4837,10 @@ estampes:
           E13: 44b5025c-6c34-49c9-8908-24f5d6ef51f7
       gallica:
         E13: eb1c0bae-2e49-428b-a3f0-a1f479c07a7e
+      écluse:
+        zone de l'image (E36):
+          uuid: 86912e21-281e-4879-9956-b145c12f96c1
+          E13: 9dab407f-fbfc-4e72-8a51-af1829db7450
   1682-07_162:
     E36:
       uuid: f628b425-6c67-49c0-b662-15c4751964fd
@@ -4525,6 +4917,10 @@ estampes:
           E13: ae81c6b9-bf23-471f-8bc9-f14576006a50
       lien externe:
         E13: c3caa1ee-9970-47f3-96a8-e4f6a4cdb333
+      '90.0':
+        zone de l'image (E36):
+          uuid: 5edd208b-b475-4deb-b05e-658475d828f8
+          E13: 963e481f-ffe4-45df-b396-d7d53b396032
   1682-08_137:
     E36:
       uuid: 12c2f4b1-467e-42e0-bd10-0336dbc7ed9f
@@ -4538,6 +4934,10 @@ estampes:
         zone de l'image (E36):
           uuid: 60987f4a-5c29-4c82-a2ad-01b708b3e046
           E13: ffac6650-3d2c-46fa-a0e2-7ec825bfd4a0
+      '2929.0':
+        zone de l'image (E36):
+          uuid: 91745b07-f1b8-4f9c-bc43-5e39968b77f6
+          E13: 11ed4178-6de4-48ee-af16-2158b82d5232
   '1682-09a_109 ':
     E36:
       uuid: e28428f7-8141-4ee4-8507-15cf03d20571
@@ -4549,6 +4949,13 @@ estampes:
           uuid: e64f2752-af42-446d-a597-c106bfd3c9f9
           auteur: d5f20130-ba6e-46b3-a60d-c9af4d7f1364
           E13: a11a90cd-24ec-438d-993b-4b470c02ae19
+        invenit:
+          uuid: 5f8527b8-8aa0-4157-9037-a869cffbfa1e
+          auteur: 0999d368-79bd-4bfc-a473-fe575f45946a
+          E13: 68b96dcf-ee16-42dd-b70a-892711a70b39
+        E29: adf607ba-f2f2-48f4-addb-1fe796d6e274
+        E55:
+          E13: 912350af-e00b-4d4c-8ffb-ba11f39ee8da
       gallica:
         E13: 3ecfd010-598c-4df1-a111-d8d809a562a7
       titre forgé: 285ae889-70c9-4f0c-be60-ab1904b9e866
@@ -4570,6 +4977,10 @@ estampes:
           uuid: cffd5f7e-222f-4b86-aaee-2fb5540e0d78
           E13: 9ba580cc-d6c9-41ae-aee3-c5de54016da1
           lieu représenté: 825c5229-874c-46d1-9b2d-daa80ec75273
+      '123.0':
+        zone de l'image (E36):
+          uuid: 14376fab-e86b-4ef8-ab3a-e26654b41f22
+          E13: f902e475-add3-492e-8837-33fc0342bc79
   1682-09b_250:
     E36:
       uuid: 80f6886f-6b9f-4999-bff3-d522fb8859b9
@@ -4640,6 +5051,10 @@ estampes:
           E13: 9bbdcd58-1031-434f-80a1-752d160fbf23
       gallica:
         E13: 3d36a45a-766f-4bc6-84b5-c143816c2384
+      camera obscura:
+        zone de l'image (E36):
+          uuid: fe60cbc3-57f1-429d-8eb1-f839ce97f1df
+          E13: 462137df-9ade-4fd8-bce3-b6072a126bef
   1682-10a_221:
     E36:
       uuid: 3ebe6f11-aa09-4f50-9caf-fd7597d8fbf1
@@ -4679,6 +5094,10 @@ estampes:
           uuid: 4a7898b6-5bdd-4ba0-963c-7594dc494438
           E13: 86ec78c4-4428-40d5-b253-2fbe6514ea5c
           lieu représenté: e59810f4-4b2a-458b-ae35-f4a7aca04274
+      bourgogne_louis_de_france_(1682-1712)_duc_de:
+        zone de l'image (E36):
+          uuid: eaa36bcd-b9af-4425-954a-da4aee9f0630
+          E13: 5551ff43-91e7-47dd-ab5e-72d0e2b6eb3f
   1682-10b_170:
     E36:
       uuid: 069a5462-ab76-4e8e-b76f-de78fc06d7ee
@@ -4745,6 +5164,10 @@ estampes:
           E13: 5fa74127-8eb1-416f-9345-447ea4e55846
       lien externe:
         E13: e748e914-d7d4-44c9-a9fb-ab6e5ff49250
+      table généalogique:
+        zone de l'image (E36):
+          uuid: 2eae1a9e-188f-42a5-b958-a07726be2434
+          E13: d3bd2b64-2271-4ba0-8ae3-fcced081f584
   1682-11_140:
     E36:
       uuid: da7dec3b-8b4c-407f-9a28-93bab7fba5f1
@@ -4794,6 +5217,10 @@ estampes:
         zone de l'image (E36):
           uuid: 4dc3eb3b-5acd-446c-b1ec-61eea11341b4
           E13: 7e69eca1-731c-4bd1-9a59-e0095ebb6892
+      '820.0':
+        zone de l'image (E36):
+          uuid: df3f1035-9c6e-4179-89a5-b9a46fd888d7
+          E13: c3909169-e27e-4d7e-aa66-772f035ad817
   1682-12_210:
     E36:
       uuid: 9161680f-6208-4df2-b8a0-23451854eb15
@@ -4807,6 +5234,14 @@ estampes:
         zone de l'image (E36):
           uuid: cfbff7c3-ab3d-4f72-9cf5-28cc653dd84d
           E13: 3c62aa15-b99d-4b21-8a1f-0f5c487c8403
+      '1876.0':
+        zone de l'image (E36):
+          uuid: d287aeeb-97fa-4911-8ca5-018dfe3150b5
+          E13: 6c10152c-672f-47fd-988f-24917af22e91
+      bourgogne_louis_de_france_(1682-1712)_duc_de:
+        zone de l'image (E36):
+          uuid: 6011af4b-6503-4ebc-8603-59b9c581a870
+          E13: 76e728eb-a59a-46c3-88a4-3e837202b4ce
   1682-12e_330:
     E36:
       uuid: 852ffd11-22e8-4b65-9dab-d641d2d060e1
@@ -4818,6 +5253,13 @@ estampes:
           uuid: 4b30ab3a-9303-405d-a9b1-2c5553eb4909
           auteur: 5bcb5db0-637e-4b52-9fb7-5295d2d2daa9
           E13: 3fbb6107-84c7-4080-9fed-aeff15e759cd
+        invenit:
+          uuid: da3584bc-8d1a-40ea-9f2e-dc8bc74f90d1
+          auteur: 9eed4ac0-3323-492e-a900-e6436b512b2b
+          E13: fb3a9810-8478-4f83-8a5d-e9a61ec894e1
+        E29: de3933b4-1c4c-4132-bb50-fd0582e2c470
+        E55:
+          E13: 69bb66e2-1510-429a-b798-b60697ae70dd
       titre sur l'image: f59bce4d-5db1-434b-9ac8-b64fe7839dd7
       titre forgé: 136272f1-17de-4f05-a48e-7c268f61dc37
       titre péritexte: 9582d48a-bd19-45ce-9cf9-a274d7a21e6e
@@ -4837,6 +5279,10 @@ estampes:
         E13: 31173ed8-2f3d-4473-a01e-99649b92bd18
       lien externe:
         E13: 92caf9a1-27d3-4ec7-beea-530edc982fae
+      '295639.0':
+        zone de l'image (E36):
+          uuid: 0181850d-50b8-495e-b88a-f6c0d1d8866a
+          E13: 9abdcffa-a9d5-464c-8c71-c09135fd3242
   1683_09e_208:
     E36:
       uuid: b4b50297-727e-4dcf-9e33-badb2a360c79
@@ -4875,6 +5321,8 @@ estampes:
           uuid: af820c39-e5a3-48e9-ad17-986e16a13ee2
           E13: ca9547a0-1268-4aa3-924d-671d30b68708
           lieu représenté: 23881c78-e66c-46f6-b02a-bbfe7f11b7c4
+      notes:
+        E13: bfa94d21-2c35-43cd-879a-e0f0672dfdd2
   1683-01_258:
     E36:
       uuid: f94a4d3c-a4ba-4974-8063-63fe7edd21c5
@@ -4935,6 +5383,12 @@ estampes:
         zone de l'image (E36):
           uuid: 7ef30a4a-a599-4536-ad98-ce88e90df3ef
           E13: 59ece3c4-e0b1-40c7-aad5-c1343191200f
+      E12:
+        uuid: 5a270500-b07d-4bdf-ba49-0aab9e74b90a
+        sculpsit:
+          uuid: 4281e991-f1e2-40a3-bd1b-011fa4977110
+          auteur: bda3f5ef-dac4-4845-b13c-471e44a6c570
+          E13: dbd88548-c646-4a04-b548-7ee29490f9a3
   1683-03_164:
     E36:
       uuid: 86d7b33d-d8ce-498d-a5ac-d3acc36b2e83
@@ -4960,6 +5414,10 @@ estampes:
           uuid: c9fdfcae-37d4-42c3-aba1-93fbed2802fd
           auteur: 9c7b351e-5bb4-428e-8cfb-8c90f257b7a6
           E13: 07f96765-4cc5-44b7-915d-14104ee635b1
+        invenit:
+          uuid: c1f0ae8c-251e-4f44-9556-ff4ee6f4e5e5
+          auteur: 930cf91e-4db8-4ee5-814d-90cd5ba2c9aa
+          E13: 1212aaac-ce01-4d02-a7a1-2fa713d5febc
       gallica:
         E13: 2efbbb37-48ce-4457-8a61-3323376a2b20
       titre forgé: 4ab416b4-3422-4070-98ec-05b2565a9208
@@ -4968,6 +5426,10 @@ estampes:
         zone de l'image (E36):
           uuid: 631d3101-2586-4491-ace2-df62d1d2950a
           E13: ef65f4c7-241b-4d13-aa8c-2a6471f5b0a1
+      '227.0':
+        zone de l'image (E36):
+          uuid: 9f8c376c-4ddc-4daa-aa38-5134e3d995b2
+          E13: 2d4137f0-4663-4cae-a21c-736a189478a0
   1683-03e_121:
     E36:
       uuid: 2c359b61-b022-4854-bc98-3ae4dc4b1479
@@ -5028,6 +5490,18 @@ estampes:
         zone de l'image (E36):
           uuid: e467c793-8aa8-4809-832a-429ce0ea5e9a
           E13: 6d07cbc0-07fd-478f-a388-a35c70a9a896
+      '227.0':
+        zone de l'image (E36):
+          uuid: e41d7649-7b14-45a0-8604-794d0cfc961f
+          E13: ceab793a-69f9-4145-8774-226913f40e27
+      théâtre:
+        zone de l'image (E36):
+          uuid: 59e3b189-261c-48e4-9f44-80ff8e05e160
+          E13: 6cdeefa4-7391-4a7a-acf0-881b9d44c7c5
+      louis_dauphin_de_france_(1661-1711):
+        zone de l'image (E36):
+          uuid: b0816265-abeb-4a1f-973e-ac0e2fe6f6fb
+          E13: fcecb623-e49d-4675-a6f3-583958694faa
   1683-05_044:
     E36:
       uuid: 6af0594c-d25d-4424-b9aa-1255d255b0de
@@ -5058,6 +5532,10 @@ estampes:
           E13: 9d2968ea-191c-4a6b-b8e1-ea4149bdf74a
       lien externe:
         E13: 3c30f2be-4baf-4819-9d9c-19b604652c3c
+      '1775.0':
+        zone de l'image (E36):
+          uuid: bd58b410-9881-4e89-8e2f-0e79db0edde0
+          E13: c68a0102-12b9-4936-ad96-e73c31c87255
   1683-06_181:
     E36:
       uuid: db885484-97d7-47a1-a4f0-28f5115a3307
@@ -5075,6 +5553,22 @@ estampes:
         zone de l'image (E36):
           uuid: 0fa70b84-4638-4d48-b217-3ecbcc7c92f0
           E13: e86d0f64-df47-4c3d-8417-b5848d13be1f
+      Turenne, Henri de la Tour d'Avergne [1611-1675], vicomte de / 83940:
+        zone de l'image (E36):
+          uuid: 502ee5b5-06f5-419e-86df-f9a0db172747
+          E13: 7408b532-2da1-4671-97e4-3a56501542c5
+      'Turenne, Henri de la Tour d''Avergne [1611-1675], vicomte de ':
+        zone de l'image (E36):
+          uuid: 6a1e6e60-e866-4345-8469-7ed5c81ac924
+          E13: ae5999ff-9a5f-4809-9f32-ad4eb120fca2
+      ' 83940':
+        zone de l'image (E36):
+          uuid: c74de4c4-5ccc-4b12-a0b9-01aa2629a97b
+          E13: 4f57e8d1-1c2f-46b8-a38a-62a507a38e34
+      '83940':
+        zone de l'image (E36):
+          uuid: 6b28e754-6fbb-4472-932c-4788a84456fe
+          E13: 5b87f2b8-ee0f-4c90-bc5f-47d259d7f8eb
   1683-06_299:
     E36:
       uuid: 658994ab-cf4c-4231-8c40-cda2f5ab1d36
@@ -5117,6 +5611,10 @@ estampes:
           E13: 17b64ac3-5de2-4f1f-b8ee-d01b90bf5eb6
       notes:
         E13: 47f435d0-bff1-4979-8354-2739fcad1449
+      comiers_claude_(-1693):
+        zone de l'image (E36):
+          uuid: 61428962-f920-45ea-a41c-12ec420bed1a
+          E13: feee6b4a-47d3-4c70-b602-7672f508c441
   1683-07_162:
     E36:
       uuid: 63881c5f-d3fa-4cb4-8161-776343003993
@@ -5266,6 +5764,18 @@ estampes:
       : zone de l'image (E36):
           uuid: 095de85c-d02f-4b96-9cb4-c081a71e2c9f
           E13: da001438-415a-4972-892f-23e583bcc466
+      '275601.0':
+        zone de l'image (E36):
+          uuid: 04ecfb56-17dd-49fa-b316-c386b03c114d
+          E13: 227c9f5a-8aa9-4246-93de-10d89073ec2e
+      église:
+        zone de l'image (E36):
+          uuid: cfea1970-b76c-449e-aeeb-cd0775cfef05
+          E13: 3d46e01b-83fc-45f6-be66-fa86eda10eee
+      therese_(1638-1683)_reine_de_france:
+        zone de l'image (E36):
+          uuid: 01d46cca-0123-438e-a9aa-85f72a677d7a
+          E13: ac98429e-cb81-48c9-8d5e-6c1b478d8c87
   1683-09_386:
     E36:
       uuid: c51e95fd-4792-43d5-8fcf-3edcb5afec44
@@ -5329,6 +5839,10 @@ estampes:
         zone de l'image (E36):
           uuid: 52d2bc22-a1dc-4cbf-89c0-8f88dac6e970
           E13: 82f267e6-8d65-4ba6-a59c-d9851371e23c
+      marie-therese_(1638-1683)_reine_de_france:
+        zone de l'image (E36):
+          uuid: 24a114e3-653c-40d3-946d-29a546d40786
+          E13: 1841d71c-1734-4efc-80d6-294d4dd160c6
   1683-10b_001:
     E36:
       uuid: a5fe3a77-07fa-46a8-bfea-4f79924e9620
@@ -5354,6 +5868,22 @@ estampes:
         E13: fa2f7900-614f-48e1-b162-df76977405f7
       lien externe:
         E13: fff40f23-d03a-46bd-bf19-b4fcd8f4ab6c
+      Starhemberg, Ernst Rüdiger von [1638-1701] /  84008:
+        zone de l'image (E36):
+          uuid: 75453141-4ef7-4725-94ad-b70813e8a459
+          E13: be8ddfb6-ad57-43cf-9dcb-b3163e3762c1
+      'Starhemberg, Ernst Rüdiger von [1638-1701] ':
+        zone de l'image (E36):
+          uuid: 12a6c4d0-c797-4bdd-a517-5f1550379ead
+          E13: fc63d412-fa5c-4988-9cd6-c8ac91526722
+      '  84008':
+        zone de l'image (E36):
+          uuid: 1f6e4b6a-bb87-4be0-b95f-e04ed04f2162
+          E13: a605433f-bf27-4a48-b6ec-69a7b124f83a
+      '84008':
+        zone de l'image (E36):
+          uuid: 52be4362-bc39-4afe-9be9-267793a97128
+          E13: 3f7326d4-371d-456c-b6b2-d561ba31988d
   1683-10b_324:
     E36:
       uuid: e7dc2e58-d5c1-43bb-928c-8c0146c64355
@@ -5399,6 +5929,14 @@ estampes:
         zone de l'image (E36):
           uuid: e6bf0807-974f-46f8-b044-d42ea4304d02
           E13: 1136f491-89a8-4491-b6af-7017c9a36906
+      '2936.0':
+        zone de l'image (E36):
+          uuid: 750de4d7-e210-4315-bb0f-d46bed84223b
+          E13: 5b0c58ab-333e-4313-83a1-2b9fe807b118
+      marie-therese_(1638-1683)_reine_de_france:
+        zone de l'image (E36):
+          uuid: a439cc11-2ea6-4ca1-9010-e36f2f56fc68
+          E13: 1d3d4fdc-9a40-4771-8719-a5b04199e0cf
   1683-11_227:
     E36:
       uuid: 2463b758-70b3-4cd4-a7b1-3e40192cd0d8
@@ -5529,6 +6067,10 @@ estampes:
         zone de l'image (E36):
           uuid: 98ff937f-c444-4d77-840a-664739bbf792
           E13: 36039a1b-ee8d-4de4-90ec-4f4b029f3175
+      portrait:
+        zone de l'image (E36):
+          uuid: 249a51eb-8a07-4fa0-a171-19ca315d0de0
+          E13: 3cfea79a-a675-44e5-8461-cd53cff47e3e
   1684-02_362:
     E36:
       uuid: 40dd451d-46a0-4ad2-b8a3-8f9453dd9b54
@@ -5573,6 +6115,16 @@ estampes:
         zone de l'image (E36):
           uuid: 08305f13-8b08-4e78-a16d-d78435a73e03
           E13: 45ba1e0d-a78d-4845-aebf-2f0cf876ac60
+      E12:
+        uuid: 3b3e16da-b3fa-49b0-9306-2c7999ef0ad7
+        invenit:
+          uuid: 3ec1f45f-fa20-4c98-a30b-eda1ec29e122
+          auteur: 7aa4354d-fb45-4f20-ad6b-e975d57f55f3
+          E13: a35cd519-fc2f-4b30-8101-d293e8fbc68f
+        sculpsit:
+          uuid: 6965d362-00b1-45df-b54f-f7cc3345f5f4
+          auteur: 4ed93401-02e1-4903-8d8f-a91f78e24177
+          E13: ac00d8b7-3c1f-424b-b822-38f9f935a2d3
   1684-03e_187:
     E36:
       uuid: 7eef0fdc-6ec7-4ee1-a19b-f987be3a84f1
@@ -5640,6 +6192,10 @@ estampes:
           uuid: a58d12d5-c037-4cf9-a0c8-2521b8b18f45
           E13: be6e7b57-5a14-4436-b2f3-352cd895727c
           lieu représenté: b11c9977-75bb-4f58-8172-0640b62ed044
+      camp militaire:
+        zone de l'image (E36):
+          uuid: 96222945-1819-47bd-a910-13281c2a63a5
+          E13: ad3793ca-6f28-4885-bfc1-cb3437b0a44a
   1684-05_374:
     E36:
       uuid: 317eed00-273a-41e2-a002-c4bc66835c34
@@ -5654,6 +6210,10 @@ estampes:
         zone de l'image (E36):
           uuid: 7d86cd54-4dda-457d-8319-2a024efa64f2
           E13: a4c678cd-4008-4288-be5f-75d3d3add3ca
+      '1069.0':
+        zone de l'image (E36):
+          uuid: 8b0ccf89-e9e1-444f-93b5-a3e85a0422e2
+          E13: 9929e490-e253-43ac-a1b0-aea0b72fcee0
   1684-06_140:
     E36:
       uuid: 8ddcee62-1a9d-47fa-be21-5262cfb90104
@@ -5676,6 +6236,10 @@ estampes:
         zone de l'image (E36):
           uuid: f2cf2850-36b9-492f-b1b6-36c8d69f8435
           E13: 41b633a4-68ac-4c81-95ea-8615b0463e4a
+      camp militaire:
+        zone de l'image (E36):
+          uuid: aa70edc0-a9d1-4f17-8de7-c85da4cc6b9b
+          E13: 34339a67-298a-4f1b-9fa9-38c586bb2422
   1684-06b_385:
     E36:
       uuid: 5c0d6ec8-3c57-4ccb-b737-a75fb38fc5bf
@@ -5784,6 +6348,10 @@ estampes:
         zone de l'image (E36):
           uuid: b69cdc5c-e68a-41a8-97ad-c76ea39053b5
           E13: 4db0fbf5-cf96-4d0b-b65a-dcf1212789da
+      '2525.0':
+        zone de l'image (E36):
+          uuid: 942351d6-b1fb-4b46-a62d-c1e60aaae318
+          E13: ed1389cb-6878-4513-84f7-9d11e303ea4c
   1684-07_312:
     E36:
       uuid: 6740f260-cb8f-4220-ad32-810ed296202f
@@ -5847,6 +6415,10 @@ estampes:
         zone de l'image (E36):
           uuid: 87966950-cb7a-4d1b-99fa-0f4f8e981d92
           E13: f12d9dfd-5b7f-4bf7-83f6-9773d7dffc2a
+      '275601.0':
+        zone de l'image (E36):
+          uuid: eafa12eb-92c6-4d95-825f-d782c56b565b
+          E13: 53c59968-2938-4581-abca-29df7b7c2796
   1684-09_197:
     E36:
       uuid: 3b1d84b0-918f-4fba-8f78-69b7e8f606f1
@@ -5864,6 +6436,10 @@ estampes:
         zone de l'image (E36):
           uuid: dc2ad071-9b2f-4f5a-acd0-3691196b2576
           E13: 4a12c0c7-f77a-4246-9b22-9c3d08257eff
+      'Sainte-Maure ':
+        zone de l'image (E36):
+          uuid: a0fb51b5-e812-4f28-92b5-3197512855d0
+          E13: a9321e0d-fb52-46f8-ba9d-e17f7b2dba72
   1684-10_128:
     E36:
       uuid: a56ff69f-f50b-46ad-9c93-af43bb771c45
@@ -5882,6 +6458,22 @@ estampes:
         zone de l'image (E36):
           uuid: 12bb4f5e-da38-452d-8ff4-9014706829a7
           E13: 1d36f4a1-313b-4d30-9b13-af3c9c76d7e2
+      Comiers, Claude [?-1693] /  comiers_claude_(-1693):
+        zone de l'image (E36):
+          uuid: 8fc09964-6101-4b53-bd81-80cffe929886
+          E13: 8f4eabe5-09fe-46f3-bb66-be4ebc3eb2f9
+      'Comiers, Claude [?-1693] ':
+        zone de l'image (E36):
+          uuid: 949c102b-b395-404d-911a-958a0e53cd3a
+          E13: 3211aa3e-64b6-4a16-8219-84c18af2cf7d
+      '  comiers_claude_(-1693)':
+        zone de l'image (E36):
+          uuid: eb16e6cd-d037-498f-a533-a4f1ac679a6c
+          E13: 04bb8b72-8e35-400a-8444-c4fcd377e9e4
+      comiers_claude_(-1693):
+        zone de l'image (E36):
+          uuid: 4b8187be-2a6e-4822-b396-5e202886f672
+          E13: 9469266c-c1b5-4858-be4f-251f8202ff4b
   1684-11_266:
     E36:
       uuid: 95a6acb5-4f98-4fb4-8640-93003ee85a1a
@@ -6006,6 +6598,24 @@ estampes:
         zone de l'image (E36):
           uuid: 4b88247a-b275-42fd-8d75-d2019c5a3e13
           E13: d31556ca-560c-42d9-b013-0250404d97cd
+      Rouvière, Louis-Henry de [fl. 1671-1712] /  rouviere_henry:
+        zone de l'image (E36):
+          uuid: ee70fb87-3b82-4275-b0d5-5400d9505983
+          E13: 2153e98d-7b31-4b03-a811-4f7a919fb016
+      lien externe:
+        E13: d98dded7-3dc3-497b-8426-2c7588935e5a
+      'Rouvière, Louis-Henry de [fl. 1671-1712] ':
+        zone de l'image (E36):
+          uuid: 0ca27560-757f-48cf-b0f5-e24826518e86
+          E13: 1e3bc02a-004c-47a3-9814-d63ff4f01ef8
+      '  rouviere_henry':
+        zone de l'image (E36):
+          uuid: 90cea27c-f0c4-42ef-b926-f621b838e3a8
+          E13: 6b1668c1-7bdd-445e-9ea8-0ee291a4120f
+      rouviere_henry:
+        zone de l'image (E36):
+          uuid: 19ddaa52-6a1e-40d5-b6b2-db7200ba01af
+          E13: 04f01085-b744-4a35-b6e0-0ff8fcc0cd25
   1685-03e_147:
     E36:
       uuid: 84a0373d-5bd6-4633-b0c7-e6e8689c85c1
@@ -6041,6 +6651,10 @@ estampes:
         zone de l'image (E36):
           uuid: c7c1e0af-fb52-41a0-b0aa-76de88bbef4f
           E13: fbcfe487-d7a4-4f54-9664-97e2d3aa1da1
+      '226.0':
+        zone de l'image (E36):
+          uuid: ffb1ff81-3616-4359-b765-a9d9382bfb66
+          E13: 9043b52d-a62b-4b9b-b9b7-8865df7a3da5
   1685-05_196:
     E36:
       uuid: 96950ec0-8912-462b-8874-c4eeba545f3a
@@ -6125,6 +6739,18 @@ estampes:
         zone de l'image (E36):
           uuid: 92825db6-9f01-49d5-91f6-670921e6545e
           E13: b5cd55af-3471-4a5d-b651-a3da0d14a1d7
+      '217.0':
+        zone de l'image (E36):
+          uuid: 751893be-63e8-4c05-b7c4-2c45a1a11613
+          E13: 128fc107-9f01-4fd6-86e7-260dae502526
+      '28113':
+        zone de l'image (E36):
+          uuid: a57b8e4b-c9ca-481a-a581-a1ec0dea5f56
+          E13: e193560a-a237-4f97-a103-89452105f50e
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: 0f5134e2-c3c4-4901-825d-58982318848c
+          E13: 859f46ec-26fc-4561-98ca-1b4b22f12955
   1685-08_290:
     E36:
       uuid: 957a4e7f-5653-44db-bdaf-087f6317b437
@@ -6291,6 +6917,10 @@ estampes:
           E13: c0bb30d4-fc9c-4e7c-8a57-b1d1b794d07f
       gallica:
         E13: fb7c86e3-20ae-43d7-b0b1-b661d62ca0d9
+      monnaie:
+        zone de l'image (E36):
+          uuid: 7c5d4517-26d8-400d-8102-42b919646594
+          E13: 631545db-68d8-48f5-931c-e1a3e08367f8
   1686-01_272:
     E36:
       uuid: f2c33764-4a30-4f91-a640-f45f03bf7994
@@ -6328,6 +6958,10 @@ estampes:
         zone de l'image (E36):
           uuid: 90875236-80e3-46df-be36-6ce9bf8808a2
           E13: bc810da4-a8b5-4fec-a3a0-27251589c915
+      jetons:
+        zone de l'image (E36):
+          uuid: 1c429846-cd92-4808-ad29-3a8f47805d2b
+          E13: 4a99384f-fde2-497f-b54e-07be90d1e68a
   1686-02b_160:
     E36:
       uuid: dff67bde-1ad0-4a16-acb6-8a0ab9754218
@@ -6476,6 +7110,10 @@ estampes:
         zone de l'image (E36):
           uuid: 0d4c56c7-45a0-4705-bc08-50c99a56612d
           E13: bc8fe292-cee0-4ad0-ae6d-dcf4cd61ba71
+      '1262.0':
+        zone de l'image (E36):
+          uuid: 6172f570-b5ca-4567-bc35-ff2dccdafb1e
+          E13: 1926c1b2-faed-4687-b397-51e862d1bf5d
   1686-09a_251:
     E36:
       uuid: 87de43bb-6f97-4cbc-afbe-1e288a1e2e2d
@@ -6489,6 +7127,26 @@ estampes:
         zone de l'image (E36):
           uuid: 431c77b9-5b53-48b6-87cf-27294503ae5a
           E13: 6f6ed41a-f558-4b9e-9ee9-963f3c9497af
+      perle:
+        zone de l'image (E36):
+          uuid: ef8524a0-46c1-403e-958b-59b077f5afdd
+          E13: 7f7887b7-5bde-4674-9a3e-83362bdac62f
+      Semeria, Gianettino [fl.1686] /  83994:
+        zone de l'image (E36):
+          uuid: ec01530d-09db-425f-b933-cd6076ed030f
+          E13: 4faf84ad-2b80-441c-886b-2aac0ddd373a
+      'Semeria, Gianettino [fl.1686] ':
+        zone de l'image (E36):
+          uuid: 0d1d3c33-c29b-40fa-a10f-66a2b54b7fb4
+          E13: 45618190-eae3-4a3c-b809-67999174daad
+      '  83994':
+        zone de l'image (E36):
+          uuid: 7146e912-cadf-4c29-ac48-bb4651fbbcc4
+          E13: a17db234-cceb-4e61-928d-fee940d11cd2
+      '83994':
+        zone de l'image (E36):
+          uuid: 8e83a1f9-3b31-4556-af64-d6768242bbb5
+          E13: bff73986-e71a-4f1c-9bbc-a223a8bdfe43
   1686-09b_167:
     E36:
       uuid: a1628611-a46d-4b84-8110-c33adcdccbd0
@@ -6508,6 +7166,10 @@ estampes:
         zone de l'image (E36):
           uuid: 947701bc-ee44-4fef-a218-9bc7a6716f3b
           E13: fba588c9-0911-4fb0-aa7b-ad8b2836520d
+      '1724.0':
+        zone de l'image (E36):
+          uuid: 58e3cce7-e308-4670-a759-2b9d815b889a
+          E13: 615c7a2a-87d1-4485-a2e6-dc0164b77185
   1686-10a_286:
     E36:
       uuid: 32c23b1c-7c9c-4621-8539-050448bcec49
@@ -6565,6 +7227,10 @@ estampes:
         E13: 1e41fbb8-dafd-4c0d-8c98-1ba2f23c4f8e
       lien externe:
         E13: eba787ac-9c33-4d9f-a6f9-8767fc6ac4a1
+      '247.0':
+        zone de l'image (E36):
+          uuid: 3c8bd02b-669d-425e-8e3d-08926b769182
+          E13: 5ebbd358-fb14-4dd3-becc-8cfc701189fc
   1686-12a_211:
     E36:
       uuid: 13842a92-9f48-4053-903f-febb2ea5fc12
@@ -6666,6 +7332,10 @@ estampes:
           uuid: 6c9f3814-b55c-4eb3-b7dc-2ee57a676342
           auteur: 5bfaae60-3037-43c4-8b1e-f7fda82bbe42
           E13: 0cdead5f-6cbc-43a3-b011-bb41db0534bf
+        invenit:
+          uuid: b91235bc-fbaf-4596-b7e0-19f476c2a0c8
+          auteur: c1a87e91-fae6-410b-8828-f2f26bd65d49
+          E13: c4187ae3-00eb-4024-b200-cb3db44c790a
       titre forgé: 82ce5578-3927-4e9a-8562-1c1c3f1e82c3
       titre péritexte: aebf0979-8844-4bbd-a3e7-d33564ffba91
       jetons:
@@ -6687,6 +7357,7 @@ estampes:
         zone de l'image (E36):
           uuid: 11a31b7c-765e-4745-9d70-3a8352ea99be
           E13: 5bbe108e-71f7-4421-a5fe-6b001b5447d2
+      titre sur l'image: cb0a9df1-736d-4c4b-b28e-8b11cea5be36
   1687-04_268:
     E36:
       uuid: 72deb4e2-31d9-4a94-97dc-154943135642
@@ -6717,6 +7388,10 @@ estampes:
         zone de l'image (E36):
           uuid: a7b9dce8-075a-4274-8a87-0a4beeaa3da2
           E13: e6ea1ead-a362-4e2a-9406-17295bc85080
+      Osijek 45° 32' 24" Nord, 18° 3' 47" Est:
+        zone de l'image (E36):
+          uuid: bdb9cc43-bcc9-48ed-9f58-69f8d0f7fcd8
+          E13: 1566249f-e823-41bb-880c-d445cd3000d9
   1687-06a_106:
     E36:
       uuid: 7825819c-c3c6-4f66-874b-42590893d81d
@@ -6734,6 +7409,26 @@ estampes:
         zone de l'image (E36):
           uuid: e7ea5b7b-a328-40c3-bb49-da0c35fae030
           E13: 5de8bc8f-6f14-4dc9-97c5-e833e4bde583
+      Parr, Thomas (?1483-1635) / 84072:
+        zone de l'image (E36):
+          uuid: a5495d01-1c20-4da5-a5d5-f4dc0f73c60b
+          E13: 025be628-e5bf-4061-918c-7f24f3fce57f
+      portrait:
+        zone de l'image (E36):
+          uuid: fc6bbf76-e3fe-414c-a17a-e9c969b2ff87
+          E13: 43855385-b7e0-438f-bb22-1340c47ff96e
+      'Parr, Thomas (?1483-1635) ':
+        zone de l'image (E36):
+          uuid: 7bb02c46-b084-473d-b3be-4becb722a1ff
+          E13: da754634-60cc-4bd5-bf57-3ef472afa62e
+      ' 84072':
+        zone de l'image (E36):
+          uuid: d1787867-23a6-4ef9-bdcd-0440a78fc87d
+          E13: 9b76e771-ff21-4d44-85bb-82ca895e0c8c
+      '84072':
+        zone de l'image (E36):
+          uuid: 2452ca78-8f46-470a-b96e-0dc8d06afb1a
+          E13: 1206df7d-9797-4e0c-9b3b-fa0278b2da3d
   1687-06b_191:
     E36:
       uuid: eaa568f3-1328-4fde-9e63-d8b657f774ae
@@ -6760,6 +7455,10 @@ estampes:
       bibliographie:
         uuid: 77d64268-7c66-4b02-8763-7f54d996e292
         E13: ba84a33e-257d-476e-bd4a-0e307e3318d4
+      '1851.0':
+        zone de l'image (E36):
+          uuid: 9386dcf6-d672-4a0c-b64e-3229b87c54ed
+          E13: 9cff59d8-e460-47e5-802c-84d7e21adfb4
   1687-07_159:
     E36:
       uuid: d57a3a71-dd3a-4534-8807-88e1750c45a0
@@ -6779,6 +7478,26 @@ estampes:
         zone de l'image (E36):
           uuid: 93f8ee45-594e-454e-b3de-b54a8afebe98
           E13: acba305c-30c1-47d9-ad88-1199028e0c4c
+      portrait:
+        zone de l'image (E36):
+          uuid: 9b172312-0724-4da9-b624-a699d187da81
+          E13: 7136a482-c7e6-4b00-bd2a-eb7d290b01d3
+      Thököly de Késmárk, Imre, comte de (1657-1705) / 83796:
+        zone de l'image (E36):
+          uuid: 7092578e-2c40-49cf-be7a-56addc76192c
+          E13: 43448ab0-fd0e-4962-b2cd-d3c8575f1cc0
+      'Thököly de Késmárk, Imre, comte de (1657-1705) ':
+        zone de l'image (E36):
+          uuid: 96ed91a8-87d8-451d-abaf-52e8970ca234
+          E13: 09789473-559c-4ee1-99ee-f10d556e603b
+      ' 83796':
+        zone de l'image (E36):
+          uuid: f06191e4-609f-4205-9f26-174e9a6ca46f
+          E13: 8151d7f9-24f7-41dc-bb05-0b3c5942073a
+      '83796':
+        zone de l'image (E36):
+          uuid: b3c85d24-563b-4be7-9722-0240c78e76fd
+          E13: e3cb2cfa-c5ea-4b6c-a48e-2a7349148f37
   1687-08a_159:
     E36:
       uuid: c42c9416-f030-43bc-ab1b-28632646d9fa
@@ -6798,6 +7517,10 @@ estampes:
         zone de l'image (E36):
           uuid: daf51428-5540-4866-8819-d1731852bb82
           E13: 3dcb1668-1bc5-4898-966e-be130bfa0c51
+      Tobago:
+        zone de l'image (E36):
+          uuid: 513dcb2d-541f-4aa4-a2fd-6d6601030f54
+          E13: f6ac459b-9b2a-4b4c-9c12-cd49117fdb9b
   1687-09_269:
     E36:
       uuid: fff21a61-58f3-480f-98d8-41c32aaa2ee5
@@ -6825,6 +7548,10 @@ estampes:
         zone de l'image (E36):
           uuid: 02900854-793d-4870-95bb-00d913673e5e
           E13: bd5f9b17-0b5e-4181-9acf-e94daf03f509
+      '1851.0':
+        zone de l'image (E36):
+          uuid: e52d7b9b-00e1-46c1-8a2d-33b1f301b3e0
+          E13: 4d820bad-04da-4e0c-a370-3b02982ec550
   1687-10_216:
     E36:
       uuid: ad612956-885c-4e65-8002-308541118b24
@@ -6880,6 +7607,10 @@ estampes:
         zone de l'image (E36):
           uuid: ef660cdc-a1b4-4bd0-945a-f4f92f9878c7
           E13: aad5469b-fc5e-4f74-9e2d-003d3eae522c
+      forteresse:
+        zone de l'image (E36):
+          uuid: 84ebc299-625d-4cfd-a264-1fd3077e170a
+          E13: 2ffdcb0e-52d0-4396-9ef2-2f0b8d3ead2c
   1687-12_099:
     E36:
       uuid: 585cefe3-f900-4ef2-a026-affb5d504005
@@ -7011,6 +7742,10 @@ estampes:
         zone de l'image (E36):
           uuid: 9a06fcce-6298-4eb9-ac47-7238d1b2cf27
           E13: b63077c9-74eb-4b5e-acf2-e5e9e4757597
+      portrait:
+        zone de l'image (E36):
+          uuid: 8a560ced-996b-4502-b952-b0b607a7ba1e
+          E13: c30d96c6-a4ed-4989-a222-a5fbcface438
   1688-05b_368:
     E36:
       uuid: a7edda5b-7b8e-46d3-8088-3a8c77f58454
@@ -7032,6 +7767,22 @@ estampes:
         zone de l'image (E36):
           uuid: 04837b24-33c7-47e4-b03f-5b9af8130eb7
           E13: 25716eab-ce1e-4452-9ea5-f9ed5d79db42
+      Mehmed IV [1642-1693] /  84106:
+        zone de l'image (E36):
+          uuid: 56036731-4a92-4643-b831-01e8e0df56d1
+          E13: 6bb3c7d0-081d-4b8e-9d71-42cc2d5f6893
+      'Mehmed IV [1642-1693] ':
+        zone de l'image (E36):
+          uuid: 34b851ed-5422-42a5-bf76-49df939bdd3b
+          E13: 2cb305c0-d780-41a7-b02c-68ed479317e6
+      '  84106':
+        zone de l'image (E36):
+          uuid: 796618d5-6e81-447f-a79b-c82c160c2ecb
+          E13: 7d314bef-0e37-4a51-919d-9508f20b07c7
+      '84106':
+        zone de l'image (E36):
+          uuid: 05cc71a5-3124-4f96-befb-99d8a08ae17c
+          E13: ec85e50e-0cf4-41e9-a9a3-43639e0b8ff2
   1688-06a_189:
     E36:
       uuid: 867dd1b6-4662-4b1c-877f-dfca137fd5cf
@@ -7062,6 +7813,13 @@ estampes:
           uuid: 2e8a4465-f9d1-4e45-a7f0-515652aeaf20
           auteur: d43ace03-7119-4470-a34d-790c768fc938
           E13: 2bbe87c0-3e65-49ab-bffc-db8355bcb4c7
+        invenit:
+          uuid: fd69ee20-d291-4707-975b-4b81443b702a
+          auteur: 77de8956-5954-4fd1-afa8-4bb3e57889e3
+          E13: 82723e8b-7339-442d-bb23-df89eebab1c0
+        E29: 2a8cb66b-c356-4a30-8449-272e7018059e
+        E55:
+          E13: 633172cb-c5ec-45a4-b8cf-bbae44e90126
       gallica:
         E13: 0e33a148-6aaa-4589-bd70-ae6520d243e7
       titre forgé: dd314d1f-329e-400b-a998-140a33b7b495
@@ -7080,6 +7838,10 @@ estampes:
         zone de l'image (E36):
           uuid: 50577192-4c03-44ab-a0a8-83ffce1f99af
           E13: a6bca63e-95f2-4cb9-8247-3e00cb12dd50
+      '2918.0':
+        zone de l'image (E36):
+          uuid: 395d7807-76af-4a30-9c84-7334d7d2771f
+          E13: 6ace844b-f3f1-4258-85e0-45ec114f00fd
   1688-08_246:
     E36:
       uuid: 58da99b1-7d61-4e84-97c4-3ef7a81a363a
@@ -7101,6 +7863,10 @@ estampes:
         zone de l'image (E36):
           uuid: 6c56e0fe-6452-4ce5-a02e-c8d911c281bf
           E13: e5d5e42f-9345-450a-8605-8bca8535a5bd
+      '2982.0':
+        zone de l'image (E36):
+          uuid: f7597dfe-5309-4421-b0a4-a7f413879c78
+          E13: a7f6bb6c-8729-437b-8bf3-dff2c09483da
   1688-09a_246:
     E36:
       uuid: a0dc7706-630c-460f-a2da-9ac39abb7a28
@@ -7276,6 +8042,10 @@ estampes:
         zone de l'image (E36):
           uuid: 92978e7d-c64b-4c61-a6b9-2f5c598db409
           E13: 67bf65cf-776f-4e6c-a5c1-cd9949e0c6b6
+      médaille:
+        zone de l'image (E36):
+          uuid: 32ece08a-af77-45f6-ba27-1a0646f25e38
+          E13: a858b27d-6fc9-4f5e-b01d-36881f6237ca
   1689-04_236:
     E36:
       uuid: b7fa9bee-8a76-493e-8f26-694f2051ad3e
@@ -7295,6 +8065,10 @@ estampes:
         zone de l'image (E36):
           uuid: f834051c-31bf-43af-8387-e96de08c7c75
           E13: a7bd6e6a-9635-4006-aa34-9cefcf9f8967
+      '1294.0':
+        zone de l'image (E36):
+          uuid: b221de10-42a1-497d-810f-5be0095950ba
+          E13: 75282bee-27bf-44b7-869f-0b4c4a227f12
   1689-05a_254:
     E36:
       uuid: f67edb13-b2fb-45cb-b9d3-82c79b1bedaf
@@ -7320,6 +8094,27 @@ estampes:
       : zone de l'image (E36):
           uuid: 954ac4a0-5ea4-4b1c-ab17-60cad937e13c
           E13: 7c1572ac-cb9c-4203-a769-0ef74d962a11
+      Rouvière, Louis-Henry de [?-ca. 1712] /  rouviere_henry:
+        zone de l'image (E36):
+          uuid: eadf481e-9002-45fe-b534-9979387c3317
+          E13: 9d538963-77f3-4445-9412-4e8f64dce1bf
+      lien externe:
+        E13: 0e4059a7-ddef-4267-8d84-0ad6fe6635e0
+      bibliographie:
+        uuid: 09188ca4-f291-4b3a-a3ef-ade537467422
+        E13: 82070d12-7c05-4052-b58d-95a7c6329aa2
+      'Rouvière, Louis-Henry de [?-ca. 1712] ':
+        zone de l'image (E36):
+          uuid: 6d881990-1947-48d6-b2ef-8de5a8f538c5
+          E13: 5539587c-63f0-4788-a926-082df2cf729d
+      '  rouviere_henry':
+        zone de l'image (E36):
+          uuid: 95fdd228-cc44-484c-bd98-f8fad4a232a9
+          E13: ee9ea928-41b4-4a26-8bc4-5faae9476a3f
+      rouviere_henry:
+        zone de l'image (E36):
+          uuid: 410fdd90-8480-4ed2-8ce3-b5c040ae6695
+          E13: 90e6f983-01a5-4979-a11c-202a48163e68
   1689-06_305:
     E36:
       uuid: 71a6da0b-32a6-41c6-84d1-9b4caa31d65f
@@ -7381,6 +8176,22 @@ estampes:
           E13: 4cccd863-a160-4578-a1c1-01ee65e0da25
       lien externe:
         E13: 269590a5-f903-4e4e-a5fd-a7d792aabec3
+      Semeria, Gianettino (fl.1686) /  83994:
+        zone de l'image (E36):
+          uuid: 17bc726a-a1e2-46ec-bdea-35c5b54a903e
+          E13: de13fa3a-036d-4dd9-be8d-b4eb51cd1f96
+      'Semeria, Gianettino (fl.1686) ':
+        zone de l'image (E36):
+          uuid: 51d3ed98-6dac-4c3a-b278-87560bc3f438
+          E13: 250c4398-7928-471b-ac2e-64da3f3e9467
+      '  83994':
+        zone de l'image (E36):
+          uuid: 3c4aed3c-a775-4297-bf31-72dff5709490
+          E13: 19c7fef8-1137-49cd-984d-a03b9852cc04
+      '83994':
+        zone de l'image (E36):
+          uuid: 57bc7d06-c955-4914-89db-83f384108636
+          E13: eea58e41-922b-4008-a27a-b0f4dfff2639
   1689-08_356:
     E36:
       uuid: d1ddee5c-bb43-402b-89e7-473dc57cdcdb
@@ -7505,6 +8316,10 @@ estampes:
         zone de l'image (E36):
           uuid: ff246aa9-5a15-4976-99da-7fd76b3c6e41
           E13: 94f458e1-da6d-4d13-8463-6f795a12ee44
+      '1851.0':
+        zone de l'image (E36):
+          uuid: 6ceffbb2-cfdc-447c-b1b6-e4e740e2aeff
+          E13: cf8b970f-85b5-4472-a10b-962525c38f76
   1690-01_154:
     E36:
       uuid: 592ace39-6731-47a8-847c-da68fee80992
@@ -7702,6 +8517,10 @@ estampes:
         zone de l'image (E36):
           uuid: 03fac0db-0998-4531-89d0-fd5963464dfa
           E13: 1a7a646a-116b-4e78-879b-1e6096645997
+      '1262.0':
+        zone de l'image (E36):
+          uuid: a165f8da-7e02-46bd-b063-5a48ff11a71f
+          E13: aad61eae-13c4-4185-a56c-7cb3e634cffd
   1690-11_157:
     E36:
       uuid: 36edccb9-892b-4508-9e46-2ac7283154fa
@@ -7787,6 +8606,10 @@ estampes:
         E13: 225936e5-6243-4ed7-b9c3-b754ea8f7689
       lien externe:
         E13: 20c0aec4-c7d3-484a-94ec-348754717908
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: f76b31ed-9922-4042-92da-1bc5209c8579
+          E13: 01868641-9643-45a9-bffc-2416eef5b855
   1691-02_177:
     E36:
       uuid: 62f0dc7d-78f8-4a26-8a1b-91dc97215e1e
@@ -7874,6 +8697,11 @@ estampes:
         zone de l'image (E36):
           uuid: 910b1eec-8721-4e88-a83f-815125063c25
           E13: ae949222-3372-4b79-b3e1-bc04d5432104
+      titre péritexte: df0f5eb6-1b00-489d-a088-2f1d0f174d33
+      '1076.0':
+        zone de l'image (E36):
+          uuid: 11171b72-96b1-4772-b6eb-b5d4cdb11749
+          E13: 947a89a6-b4f0-4cd6-9374-60a471c82685
   1691-06_208:
     E36:
       uuid: 036521a2-0283-4935-b942-0a69aa496be6
@@ -7893,6 +8721,14 @@ estampes:
         zone de l'image (E36):
           uuid: 9808ee0f-f55b-4161-abd9-100e2ec3cb11
           E13: e03b79b7-e66e-49fc-bf29-66c8e8a50e92
+      charles_ii_(1661-1700)_roi_despagne:
+        zone de l'image (E36):
+          uuid: 1d9531ff-de96-434e-85a2-b2322dad44f7
+          E13: 33f55322-8a83-430a-83d6-28dc6ec5d0c6
+      pfalz-neuburg_marie-anne_von_(1667-1740):
+        zone de l'image (E36):
+          uuid: a642dd45-3d4d-46d0-a02b-faad1b4ac45c
+          E13: cec72a17-fc4a-4ca6-a0d5-8591cab564a4
   1691-07_181:
     E36:
       uuid: 433c37c0-ef8b-4757-a83a-6ccb6eb441ac
@@ -7996,6 +8832,12 @@ estampes:
         zone de l'image (E36):
           uuid: 4cd7a24d-499c-4acd-8657-4ec61fb1c3bb
           E13: 1eaf93ba-a5ce-49eb-a49f-a095d65a27ec
+      E12:
+        uuid: 890b5d6d-4543-48f7-8096-f55f913272d7
+        sculpsit:
+          uuid: 24e9322c-3511-4e4b-b632-510de41870fd
+          auteur: b3ce1440-5313-4e6e-ac75-cf800fb3f1ed
+          E13: bcebd00c-1a59-45bf-8de7-77ba764787f5
   1691-10_161:
     E36:
       uuid: dbd671ba-6b80-4819-a659-a2f2f12a748d
@@ -8081,6 +8923,14 @@ estampes:
         zone de l'image (E36):
           uuid: f8ee8e4a-1e03-48a9-adac-1c74cd20c81e
           E13: 68507516-0166-4f64-bb38-bd84f6d71b78
+      '1057.0':
+        zone de l'image (E36):
+          uuid: 501021e3-4876-4f72-8016-a45b0b9b8824
+          E13: a3f84d97-231d-4158-a743-062410268589
+      victoire:
+        zone de l'image (E36):
+          uuid: 30ae027e-e2c2-4f3d-9f33-25ab0d568b59
+          E13: 191950b7-d9a8-4370-ab2a-2befeb7f4684
   1692-01_288:
     E36:
       uuid: ac0e53fc-c7f5-49b5-9472-930b09c2d42a
@@ -8100,6 +8950,10 @@ estampes:
         zone de l'image (E36):
           uuid: d12de8ac-0220-428b-9854-7e3ca217a0cd
           E13: b27cb927-9f9c-40c6-8aba-bab88ea76b4c
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: 1c9f4d30-0247-4d65-8964-fb5064c77b60
+          E13: 257775b5-b7c7-40ec-a30a-01231e346282
   1692-02_324:
     E36:
       uuid: 280094c2-bff8-4d6e-9199-54428e7654df
@@ -8121,6 +8975,10 @@ estampes:
         zone de l'image (E36):
           uuid: 07d51809-63af-4277-8085-f5642ac5f95a
           E13: 52882d5f-cc88-4a3d-8a2c-21c5754791d0
+      '227.0':
+        zone de l'image (E36):
+          uuid: 2ccfebcd-e712-4f99-bc37-885873ca7901
+          E13: 7954d58a-2aa9-4ecf-81c1-f76d48fe252b
   1692-02_326:
     E36:
       uuid: a5f0f456-627a-4370-98f2-7d969a935e4b
@@ -8142,6 +9000,10 @@ estampes:
         zone de l'image (E36):
           uuid: 5d879b4d-521c-4002-a21c-c8cdbf4f48fd
           E13: e862101e-4480-45d5-ab76-621d29851e1a
+      '227.0':
+        zone de l'image (E36):
+          uuid: db74ad9e-4963-4ae7-b9a8-eca18e7f4f1c
+          E13: 2b301f78-65c2-41ca-8d75-abcd217d3447
   1692-03_175:
     E36:
       uuid: bc54e11b-22ce-40d0-8a8b-a09734ea5d1f
@@ -8174,6 +9036,14 @@ estampes:
         zone de l'image (E36):
           uuid: 37fde77c-9ea0-4087-ac63-d150128e3230
           E13: 4c08cbb5-1510-48ff-b644-1f23962640c8
+      '2944.0':
+        zone de l'image (E36):
+          uuid: 6d5ac188-20e5-43de-a1f8-5065989f15d2
+          E13: 08eb4394-9506-4ea9-8472-3a984db12952
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: 7aad2145-3c3b-408f-96e8-6d2472ddb9dd
+          E13: 679d3a01-d0f1-4f38-b535-2e2cf31f5d3e
   1692-05_218:
     E36:
       uuid: e1030ba0-c6a4-4e75-a40f-fe06524f4bfc
@@ -8201,6 +9071,10 @@ estampes:
         zone de l'image (E36):
           uuid: f0002930-2649-41e7-92b9-03b1bee5e0fb
           E13: 257434fb-6716-406f-b880-1b04d9743446
+      Madagascar > à classer sous empire colonial:
+        zone de l'image (E36):
+          uuid: 9fbba789-14f6-4581-a700-5604f3da3703
+          E13: c4d546ef-7fff-4df8-8127-8b795b1267f3
   1692-06_239:
     E36:
       uuid: 38a3289e-ba34-4ed7-9118-8e8279c5f9df
@@ -8220,6 +9094,10 @@ estampes:
         zone de l'image (E36):
           uuid: 8d8d05b0-fa4c-4a49-aa4c-dc41212a305f
           E13: 0aeeaab0-078d-4a1d-a5fb-e96090b6de08
+      '275846.0':
+        zone de l'image (E36):
+          uuid: 02e1c4d3-9627-4dc5-a630-c61d2bca9175
+          E13: 2acb2dfb-f89d-4cd2-825a-6c9e747dc714
   1692-07_274:
     E36:
       uuid: 162437a7-1fbb-45a1-b25b-03e71b0b1a3e
@@ -8231,6 +9109,13 @@ estampes:
           uuid: 75c99074-f2fb-4bdf-87ce-fba9de17b79e
           auteur: ffc801ff-4a0d-42b2-a73c-a0dc9db6e574
           E13: 25916222-b60c-439f-b0aa-f566a270b39b
+        invenit:
+          uuid: 1b6cf002-74e4-4e48-9c7d-0eef56591023
+          auteur: a8a8caf5-5654-4edb-b457-39cc5a27e110
+          E13: 53494aee-f340-4565-bda0-a9afd16dd1a4
+        E29: b0097bed-c1cd-4801-8074-a739b8af9997
+        E55:
+          E13: 3c78a86d-2659-4ebe-b35c-129e488f1927
       gallica:
         E13: b15c433a-6962-4e73-96c5-9d61c1546e0b
       titre forgé: d42d9176-1a7d-4f1a-8ead-077387410c19
@@ -8239,6 +9124,14 @@ estampes:
         zone de l'image (E36):
           uuid: b38f77cf-6943-4c53-9da7-1f6bb3b47366
           E13: 311eeecf-7a9e-4bc8-b534-71a3a981dd6d
+      '536.0':
+        zone de l'image (E36):
+          uuid: e1b7a5ef-547c-4729-afa7-80fca2f1d9b2
+          E13: 62188376-58b2-4c50-811e-f0c87416f564
+      Dulieu, prévôt des marchands et les échevins de la ville de Lyon:
+        zone de l'image (E36):
+          uuid: 1711cac3-635c-465d-ba13-8f576dc24b43
+          E13: 1ec4fd9a-7c50-44c5-ae77-45d5ba710623
   1692-08a_181:
     E36:
       uuid: 34ba532a-aad7-4e02-8a5b-ddae7a1253f2
@@ -8283,6 +9176,10 @@ estampes:
           E13: 3c7f72e6-deb0-490c-a26c-c4c606597546
       notes:
         E13: 52933bc0-e95c-427e-95de-05416ed6187c
+      '1081.0':
+        zone de l'image (E36):
+          uuid: 88a5e14d-0deb-4cec-826a-9e222a4aedca
+          E13: 3e46460a-d47a-4e39-8214-3c785b2be3cc
   1692-11_175:
     E36:
       uuid: 6f70b2c2-c442-4223-81ec-62e599a958d9
@@ -8302,6 +9199,10 @@ estampes:
         zone de l'image (E36):
           uuid: 5faf1f37-e6bb-4516-b3d5-53e232697336
           E13: 93a6d920-9962-4a52-a04a-344715104ef1
+      '1081.0':
+        zone de l'image (E36):
+          uuid: 24959496-0df1-460b-9ca8-16a5820560ab
+          E13: 75e966ca-06d0-40e1-8f94-cb1a72be064a
   1692-12_182:
     E36:
       uuid: 84290522-1997-4749-9928-54391992e6e0
@@ -8319,6 +9220,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 28ddde15-de9c-4987-b28a-a8b227e2e58b
           E13: 26d1387f-8dde-4010-905d-ae89de65d924
+      titre péritexte: 67872937-cc2a-4836-8a0c-52f9c51411fb
   1693-01_219:
     E36:
       uuid: 473689e1-52a6-4b24-abe4-d13eb791b04a
@@ -8376,6 +9278,10 @@ estampes:
         zone de l'image (E36):
           uuid: 33f6d48d-cb23-419f-b507-442b34f55791
           E13: b5595ffc-1ffb-4bd2-bcee-8f8ba8d4de8f
+      '1225.0':
+        zone de l'image (E36):
+          uuid: 624e5d27-aa05-4e60-9a70-5be5735015c4
+          E13: 24ba4ff8-078d-4021-bde1-34f4c74009f0
   1693-03_191:
     E36:
       uuid: c9c6b145-417a-4177-8227-d022fc1cf1a0
@@ -8402,6 +9308,7 @@ estampes:
           uuid: 562c52f7-d7fb-47d3-bbb5-ceffe215b583
           E13: 6ac7c3ce-47c6-4455-aa1b-70d8e98e631c
       titre sur l'image: 93be768a-af2d-49ec-abd0-0177a7bd4b96
+      titre péritexte: c2c0ecb3-4336-4ed9-933d-7d32a2959b1b
   1693-05_248:
     E36:
       uuid: 6e427b07-f1fa-4397-bba0-af387e07fd6c
@@ -8501,6 +9408,22 @@ estampes:
         zone de l'image (E36):
           uuid: f32a3edd-4b46-4ff8-a533-7975fd3a6863
           E13: 934a98ea-1a66-4770-b45f-5e177efa6087
+      Baden, Louis-Guillaume [1655-1707], prince de /  84080:
+        zone de l'image (E36):
+          uuid: f638b91b-f75a-46ad-bdbf-89afe351c3e0
+          E13: 7ae948d1-0f76-4dbb-ba2a-7692efcec13a
+      'Baden, Louis-Guillaume [1655-1707], prince de ':
+        zone de l'image (E36):
+          uuid: 488dae4b-5ae9-4ace-96f0-76830dcd578c
+          E13: 8b92ba29-fe7a-4bce-830e-0b4119a458bd
+      '  84080':
+        zone de l'image (E36):
+          uuid: a5a3f356-4aad-47da-abc8-d3dff9c34f6b
+          E13: 692d2e70-be20-419c-88a5-9be2eb067a7a
+      '84080':
+        zone de l'image (E36):
+          uuid: 5e77751f-e5eb-41bd-a908-c5c5b672cf5c
+          E13: dcdf9c64-67d9-4013-8875-a7528e17b06e
   1693-09_266:
     E36:
       uuid: 7a260f2d-1df5-4b90-9eaa-d6921e381041
@@ -8528,6 +9451,12 @@ estampes:
       : zone de l'image (E36):
           uuid: 04b016e1-147a-494c-bc61-023407807447
           E13: d7147a74-92b5-4409-aaca-6291f59061b0
+      ? ' 1076 ;  1564
+
+        '
+      : zone de l'image (E36):
+          uuid: 1af3c340-c5a5-4c2e-84e1-159ece03c3ca
+          E13: 15b940ae-560c-4aca-9f41-21573d072bd0
   1693-10_327:
     E36:
       uuid: 2201e01a-a99b-4f73-86a6-e8757c5794af
@@ -8547,6 +9476,10 @@ estampes:
         zone de l'image (E36):
           uuid: 535412b6-ef20-4db7-bff5-89050e2b31e6
           E13: 0adcd51c-84cd-4956-8759-0f9fcc93137e
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: 23f15cb9-9dd5-456b-843b-177178c9eae6
+          E13: db8f54c1-0cee-4be1-923a-ef2d6f52513e
   1693-12_008:
     E36:
       uuid: feeb8262-8f10-4427-8221-665e3444919e
@@ -8582,6 +9515,10 @@ estampes:
         zone de l'image (E36):
           uuid: 8e16fd0f-b73a-43a6-a358-b8537c577204
           E13: 68e9e0b2-ca6d-4964-8789-e0cc9724b803
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: 303ade46-8550-4b53-b16b-e3519ef2fc7c
+          E13: 6acd31b9-eae6-4f4a-8553-cf621143cc2e
   1694-01_204:
     E36:
       uuid: 0336533b-0c37-4f1b-8aed-a77d699c316a
@@ -8630,6 +9567,10 @@ estampes:
         zone de l'image (E36):
           uuid: 24f327d1-a7ee-4a45-8552-d79b6685cfc2
           E13: 913ead89-9645-4b26-9a86-bb3e61b5ae96
+      ulrique-eleonore_(1655-1693)_reine_de_suede:
+        zone de l'image (E36):
+          uuid: 1eeeed64-badd-44e1-bdf3-a68465c81a95
+          E13: afedd46d-932f-464f-b815-9f3244e317d3
   1694-03_201:
     E36:
       uuid: 9bb41133-30e7-4249-91eb-7f1053d92d0c
@@ -8653,6 +9594,10 @@ estampes:
         zone de l'image (E36):
           uuid: 375e2180-cf0f-424e-99c8-7f9c6ffbad62
           E13: 7d33b0f5-7dc8-4119-82bd-c32ebe4c5c02
+      port:
+        zone de l'image (E36):
+          uuid: 1e87c95e-0098-4a58-a89a-8da56bebf53f
+          E13: bee14943-36d5-4f1f-aeea-d3f3ca1807b1
   1694-04_114:
     E36:
       uuid: c8927399-85de-4437-8fec-f5c5bf927adc
@@ -8722,6 +9667,10 @@ estampes:
         zone de l'image (E36):
           uuid: cd77b291-938e-4391-9e5a-e22a468ac22c
           E13: 9986eecb-5d28-44f2-9e4f-2ca55e9abb56
+      '829.0':
+        zone de l'image (E36):
+          uuid: 9a155a2f-f258-4e0e-84e7-72549ff79b3e
+          E13: d9ef90ac-b7a1-4579-8a6d-f58181c3baa6
   1694-07_081:
     E36:
       uuid: 599f338e-0ae2-4c3c-a0c1-7f9ec5cf8ef6
@@ -8750,6 +9699,10 @@ estampes:
         zone de l'image (E36):
           uuid: b444916c-8f40-41bd-8dc9-a98a355ee8cf
           E13: 34b10ad7-0c8b-4442-a38a-71e92c90df33
+      '829.0':
+        zone de l'image (E36):
+          uuid: 7cc9d813-aaf6-4571-96f9-2ed5a849f670
+          E13: 3371f6bf-1f2b-44c4-bfcb-f7156291b9d2
   1694-07_259:
     E36:
       uuid: d61772eb-7473-4571-86e6-d699be618ba7
@@ -8802,6 +9755,10 @@ estampes:
         zone de l'image (E36):
           uuid: 256d0b23-9472-4bcf-95d9-c2aa8ee17cb2
           E13: d0510b7f-0b52-48a4-8bbb-8381e8531dcd
+      médaille:
+        zone de l'image (E36):
+          uuid: 6c58d950-8d3d-4ebe-918a-3996b0725dea
+          E13: 158d58db-65f3-44e2-81c8-7e09955a9d33
   1694-09_126:
     E36:
       uuid: 9481d868-53f1-482d-bfc9-e59d885eb286
@@ -8829,6 +9786,10 @@ estampes:
         zone de l'image (E36):
           uuid: b33d85d9-f2a9-412d-84f0-d17cde3e34d7
           E13: 104bd66d-cc05-4d1d-a94e-36e1699ea33b
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: 24c0893b-30a6-4648-af10-171cea57512b
+          E13: 74390f10-3378-48ed-b6b6-1770de672deb
   1694-10_161:
     E36:
       uuid: f695bf25-e66c-43ac-8730-55a9dc74845d
@@ -8847,6 +9808,7 @@ estampes:
           E13: a7524767-6aff-4c5b-88d4-a446b31dada9
       notes:
         E13: bcdc1d21-94c1-4caa-91e4-9da186561195
+      titre péritexte: f47864f9-a56f-4f19-b58e-9eff46fc2122
   1694-10_255:
     E36:
       uuid: a6c3107b-4fe8-441c-b12e-c23e4965bcbf
@@ -8860,6 +9822,11 @@ estampes:
         zone de l'image (E36):
           uuid: 1be9d031-804c-4acf-9cc3-fa3b236a0604
           E13: 7a3808c4-3fae-4180-8e9e-c40a0bef9013
+      titre péritexte: 18688f43-2bb0-4fe9-9981-8d1402af59ba
+      '2611.0':
+        zone de l'image (E36):
+          uuid: 33e6a5f7-e6e2-481c-b4e6-f1beaebf09e1
+          E13: feb63529-5756-4458-9feb-b2980643c640
   1694-11_251:
     E36:
       uuid: 9338178a-7e6e-4b04-80dd-d9dcf59a061c
@@ -8906,6 +9873,10 @@ estampes:
         zone de l'image (E36):
           uuid: 5c18789b-9bcb-4255-9b62-d09aaec748d1
           E13: 27a8d141-daff-47f6-9e29-f9d73214e33e
+      '831.0':
+        zone de l'image (E36):
+          uuid: 1e02326b-b9b0-4ea6-ac0b-662b2e852468
+          E13: e344316d-1090-4bbb-89b0-fc344ecdd8bc
   1695-01_185:
     E36:
       uuid: 3ec6b1d1-bbf5-4d4f-a938-103bf2ea58b2
@@ -8959,6 +9930,22 @@ estampes:
         zone de l'image (E36):
           uuid: 236616b3-891c-4270-93bc-77bbc44a18ce
           E13: 260e44a4-16d0-4d34-b85b-95b5b499a61b
+      Reine d'Angleterre [reg.1689-1694] /  84010:
+        zone de l'image (E36):
+          uuid: 15901c0e-cf25-446d-ab86-b6d598084d18
+          E13: 5bf6089e-3b51-4288-90d3-defb6fc31331
+      'Reine d''Angleterre [reg.1689-1694] ':
+        zone de l'image (E36):
+          uuid: 1ec1cb02-df1e-43d2-ba08-c898b4ad93c8
+          E13: 8f812368-05f6-4462-bfec-f4596606c750
+      '  84010':
+        zone de l'image (E36):
+          uuid: 702c2a6c-e248-4c31-b1a7-c5c7cfb5575f
+          E13: 83e7056f-5d1d-4f04-ab15-57e90aa015b5
+      '84010':
+        zone de l'image (E36):
+          uuid: bcc5e75d-7d21-48dd-8813-86f255bd47bb
+          E13: 38e00fc5-7756-41a3-b7d0-deff83dce494
   1695-03_052:
     E36:
       uuid: 3cbc154b-4264-4aaa-b95b-58e885ac33ac
@@ -8978,6 +9965,22 @@ estampes:
         zone de l'image (E36):
           uuid: e12091a6-ce5c-4720-bf95-15b521059092
           E13: 5fc97a53-800d-466d-893b-3c888fee23e9
+      Stuart, Marie II [1622-1694], reine d'Angleterre [reg.1689-1694] /  84010:
+        zone de l'image (E36):
+          uuid: 42faa19b-315e-4be4-8c88-630c5abd0da8
+          E13: bdfe87e2-4360-42a4-88b2-d892aeabf891
+      'Stuart, Marie II [1622-1694], reine d''Angleterre [reg.1689-1694] ':
+        zone de l'image (E36):
+          uuid: d7b65250-0b5a-4196-97ab-a9dbd894c594
+          E13: be09d86d-393a-4b5f-be1d-749dd1e1e992
+      '  84010':
+        zone de l'image (E36):
+          uuid: 3fc4c130-1ef8-4a02-8f0e-6621dbd71681
+          E13: 4e6ff871-6aa2-4c13-b591-404d639c40ff
+      '84010':
+        zone de l'image (E36):
+          uuid: 7ba3c47a-4cdc-482b-b1bc-57decc9c9882
+          E13: 4b52073c-0cda-4fed-9106-ec9d26874c39
   1695-04_158:
     E36:
       uuid: 8c8b057f-4825-4490-8179-72b6ab8ed51c
@@ -9017,6 +10020,10 @@ estampes:
         zone de l'image (E36):
           uuid: 2cb66d9f-9ca4-4432-bdee-339ef3efd4d6
           E13: ebf697b3-4556-4e77-aab4-621608dbf48d
+      '97.0':
+        zone de l'image (E36):
+          uuid: c01e6e1b-c006-4bc5-a49b-fa6071f207fd
+          E13: 943f8ae7-9c3e-41e6-8875-6c0b3d3b63b0
   1695-06_231:
     E36:
       uuid: dad57ac8-912e-4efb-b674-79b4b32bbcae
@@ -9030,6 +10037,10 @@ estampes:
         zone de l'image (E36):
           uuid: 804feb0f-6146-4ec9-b985-f277ea558bbc
           E13: 9d002ca2-183c-4d5f-bda6-8dbac2eab66b
+      position des armées sur le champ de bataille:
+        zone de l'image (E36):
+          uuid: a941dd56-8cb1-40b6-b361-e8ef7cb2641c
+          E13: a30106fc-3954-43f0-9c36-cd22026827e9
   1695-07_167:
     E36:
       uuid: 92f45b2d-dd5b-4fff-8761-989bd259407c
@@ -9043,6 +10054,10 @@ estampes:
         zone de l'image (E36):
           uuid: 23652d0a-f39a-4b39-a014-73dd0be379f8
           E13: a2d90028-8118-4eb5-86ba-faff0635d550
+      position des armées sur le champ de bataille:
+        zone de l'image (E36):
+          uuid: 08ffa693-5add-49cf-9c74-6254d1caa002
+          E13: 93c48398-b983-405f-ab46-99b19a3dfa2b
   1695-08_202:
     E36:
       uuid: eebe5286-800c-421c-a012-521191fdcd37
@@ -9128,6 +10143,10 @@ estampes:
         zone de l'image (E36):
           uuid: 3b9dfc61-0c17-4b81-9adf-3096801e3ec7
           E13: 1de4b007-735c-4ba0-9d72-be3e73739c7f
+      amphithéâtre:
+        zone de l'image (E36):
+          uuid: 23f6eed2-3798-49e6-9b82-97a76d488d83
+          E13: 1dc6ad9a-5bc1-4184-bf31-5da96312cae5
   1696-02_197:
     E36:
       uuid: 2420f9bb-9131-4425-86b2-6e6eb3814355
@@ -9178,6 +10197,10 @@ estampes:
         zone de l'image (E36):
           uuid: 5a945757-b9f2-4cbe-a3cf-e822d83279fc
           E13: 6453f25c-aac0-45e2-bd9c-99bdfe7641e4
+      jetons:
+        zone de l'image (E36):
+          uuid: 9f78f3cb-02e1-4ca7-b438-0f25d4bfea43
+          E13: e4bdea8e-4309-4f14-b4e9-f3f1fe0c3ccb
   1696-05_152:
     E36:
       uuid: b1938c87-cb2c-410c-b598-7e58a68e991e
@@ -9212,6 +10235,10 @@ estampes:
         zone de l'image (E36):
           uuid: 8c7314be-77ee-498e-90a3-c0af05276abc
           E13: 048eefc0-5630-48ab-a697-2bdae0a86abd
+      '1938.0':
+        zone de l'image (E36):
+          uuid: 0d51cbc0-e3d9-4208-99a1-94844cd58501
+          E13: 6ad47ca3-fe42-44a9-a8e2-96d319600fd3
   1696-07_180:
     E36:
       uuid: 519f6368-7249-49e5-bf8b-2ea1d27da7f8
@@ -9232,6 +10259,10 @@ estampes:
           auteur: 0906932f-242b-4c5a-85e1-3ebf34f9c9d3
           E13: 428dd0d8-50dd-4dfb-81c1-7c1cdb68eec0
       titre sur l'image: 614b881d-00a8-4a13-a515-ad670238a38f
+      '295637.0':
+        zone de l'image (E36):
+          uuid: 9117d39d-cde3-44f3-bb17-ca33c92eaa03
+          E13: 8857b641-8e99-4a43-b67f-a81a1c404646
   1696-08_281:
     E36:
       uuid: bca851c8-9b35-4aec-9826-5e3d2f8c59d1
@@ -9259,6 +10290,10 @@ estampes:
       : zone de l'image (E36):
           uuid: f539b7c3-c4f5-4fab-8630-5d89d6d38897
           E13: 3467d291-a2b1-46bd-9948-997f2e834e4b
+      Saint-Gérard:
+        zone de l'image (E36):
+          uuid: dabeb02e-2a77-4944-89fd-8b25c2a0ea8e
+          E13: a9a328fb-0096-4a88-950d-33007315f084
   1696-09_185:
     E36:
       uuid: aba6f356-81e7-473b-85a9-2d1c6a4d5b63
@@ -9285,6 +10320,7 @@ estampes:
           uuid: c9be075a-b13c-4127-9229-e5408132d872
           E13: 7afd9990-b016-47ca-a0d6-31e7ccc6866c
           lieu représenté: 18752ad6-2b4f-4af7-9864-3dbc06c10a06
+      titre péritexte: 7286b898-e442-4b3d-86f5-7779e0caed82
   1696-10_158:
     E36:
       uuid: f38c3ed6-92cb-46e7-bf9b-94b2330641a6
@@ -9315,6 +10351,10 @@ estampes:
           uuid: 7d86117b-adcf-467c-b0d7-1bcfecff9508
           auteur: 29b493ed-f0a8-468a-ba68-ad80a83b1b3e
           E13: fd233492-b9c4-4051-9c3e-8e3b7534ab58
+        invenit:
+          uuid: 1a292893-9b86-4394-b78d-79776363196c
+          auteur: f4b81bf8-5273-464b-8709-884614dffb1c
+          E13: 2199fd86-5251-4812-9dc5-0b2140ae3916
       gallica:
         E13: 850a6106-fa36-4530-bdbc-57eafc167baa
       titre forgé: ecdcd89e-b8bf-4cfd-90b8-66017ceadf77
@@ -9376,6 +10416,7 @@ estampes:
         zone de l'image (E36):
           uuid: b98f2702-25b4-406e-b5b3-1f728ba7ea8e
           E13: 9313066b-177f-4926-b20c-26d3978e5740
+      titre sur l'image: 5d0211aa-4745-48ef-b131-2db04ae06526
   1697-02_230:
     E36:
       uuid: 9cb87734-9b8f-4c42-b7d9-579ddbd01c34
@@ -9432,6 +10473,10 @@ estampes:
         E13: 0c382621-9a00-460e-87e3-29d7f3be74ae
       lien externe:
         E13: 169fe3de-2176-4744-b760-6af696759d73
+      '295581.0':
+        zone de l'image (E36):
+          uuid: 954e6bd0-23dd-4ef3-a466-f6a6acb75369
+          E13: d0e3a7ef-29e8-4c2e-b108-ee65c6b905ff
   1697-05_163:
     E36:
       uuid: 081493c8-9466-4a10-a7ba-792149fed526
@@ -9450,6 +10495,10 @@ estampes:
         zone de l'image (E36):
           uuid: 47950610-ef76-45d1-976e-fc6cd17d0fca
           E13: c117e803-c217-404c-beb4-d432dc31e9a1
+      '295579.0':
+        zone de l'image (E36):
+          uuid: 39025505-46ad-4b5c-8e13-f403c0f2feb8
+          E13: e56752b0-c4c0-46fc-b4ce-a888d90b7838
   1697-06_249:
     E36:
       uuid: 91c47a76-2873-4648-b40b-471168b431a4
@@ -9566,6 +10615,10 @@ estampes:
         zone de l'image (E36):
           uuid: 17f60b32-6970-4ee4-89e2-d872f85efb4f
           E13: 8ceb7b5d-3710-4eca-953b-87dff52f30aa
+      '295577.0':
+        zone de l'image (E36):
+          uuid: 9592602d-4b7e-4135-a44e-881479957f37
+          E13: a3b1b412-05ca-4ce9-ae94-6bd1bebca31b
   1697-12_090:
     E36:
       uuid: cd786f3f-70bf-4726-a4d3-5e1dbac9029e
@@ -9708,6 +10761,7 @@ estampes:
         zone de l'image (E36):
           uuid: c416a554-7bce-49b6-ad3b-a7a26f53a048
           E13: 446533cf-4a90-47fc-9e95-66bcd21c18a7
+      titre péritexte: b499da1f-a278-4605-8c49-242000b798aa
   1700-10_144:
     E36:
       uuid: 638939fc-94ef-43fc-b659-a854f46c1cdd
@@ -9740,6 +10794,7 @@ estampes:
         zone de l'image (E36):
           uuid: 83b02689-bbbe-4953-a0c1-491fd95714fa
           E13: 93f96fed-5c20-4342-8fba-c8bf88a7a6b5
+      titre sur l'image: f30cda01-2de7-4681-9151-cf414800f84b
   1701-04b_069:
     E36:
       uuid: a9018f9a-0420-491f-bbb4-508d4a6e380a
@@ -9808,6 +10863,10 @@ estampes:
         zone de l'image (E36):
           uuid: 1c2c7407-ea9a-4858-ba29-097516487598
           E13: a5b22a2c-b3e3-4902-a36b-3c573fa92206
+      '275601.0':
+        zone de l'image (E36):
+          uuid: 4fba0815-48a5-4a4c-aa75-07f22c35797f
+          E13: d8bc0606-cfb3-4c2a-8a1e-bd7c557e2a09
   1702-01_290:
     E36:
       uuid: da9f08ae-7c35-4f7c-91d5-f157062b1d53
@@ -9884,6 +10943,10 @@ estampes:
         zone de l'image (E36):
           uuid: 89cbb719-02cf-4dec-b371-85cf0f3c0074
           E13: 55e532c7-004d-485b-8a04-8b0d7b888f67
+      noailles_louis-antoine_de_(1651-1729):
+        zone de l'image (E36):
+          uuid: 00b1fae4-549a-4dcf-9584-33893c416e47
+          E13: eecff76e-7b71-4e0a-b8cc-fb0dab314c0b
   1703-01_141:
     E36:
       uuid: df5a182b-e750-42cd-9243-300fb3d87d9a
@@ -9918,6 +10981,18 @@ estampes:
         zone de l'image (E36):
           uuid: 3235a429-9343-4ec3-a239-0c55d60b9f0d
           E13: da7f8da5-eb79-40b7-a8cd-3146358683c2
+      Durand, M. (fl. 1700-1709) / 83371:
+        zone de l'image (E36):
+          uuid: 88b08a0e-c62e-4688-8529-f80ad1db5759
+          E13: 701a52fd-9e15-490d-8ca8-4e14a8714555
+      'Durand, M. (fl. 1700-1709) ':
+        zone de l'image (E36):
+          uuid: 30d946bd-ef62-49bf-bf01-b20483c3116b
+          E13: 4d31b3d2-4e18-4138-b61e-361cfeedaaa6
+      ' 83371':
+        zone de l'image (E36):
+          uuid: 177a8fc3-7030-4bc5-838c-8dddaa870521
+          E13: 290e3282-07bc-4826-9fd9-77fbdce151d5
   1704-01_215:
     E36:
       uuid: 88363fb7-4aae-4c47-9d2a-020a97210aaf
@@ -10139,6 +11214,18 @@ estampes:
         zone de l'image (E36):
           uuid: 16450880-c47e-470e-b4e6-402bbb5cd446
           E13: cb4beb25-0ddb-44fb-b478-8252feb85df3
+      Albani, Giovanni Francesco (1649-1721) / 276013:
+        zone de l'image (E36):
+          uuid: f7aa1fb6-7ea0-4f26-bd3c-2643a9fbc42a
+          E13: 5db1eb10-969c-4a62-88f1-de665f74a4ff
+      'Albani, Giovanni Francesco (1649-1721) ':
+        zone de l'image (E36):
+          uuid: 7bed27d3-3e33-4dfe-9e6a-59d83b6f1135
+          E13: 77e0b3d6-f575-40f4-a79f-340b6592ae2c
+      ' 276013':
+        zone de l'image (E36):
+          uuid: 735a4656-3ee5-4009-b5ae-aa033a1af080
+          E13: 4ad4ebea-0394-4c1b-a6a2-8720502b4c8f
   1707-01_162:
     E36:
       uuid: d4b0e8cc-3bed-4159-aa31-ce407f3fdbf9
@@ -10164,6 +11251,10 @@ estampes:
           E13: f7987225-a32d-4235-8384-b945a689e472
       lien externe:
         E13: c6fcae60-9596-475c-83d8-a0ed283222df
+      bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de:
+        zone de l'image (E36):
+          uuid: 53353152-cc1f-4d20-848b-f6b962486911
+          E13: 53680e0e-0639-4a6e-9c2e-668fa7600d6f
   1708-01_144:
     E36:
       uuid: 26053412-2422-4d77-8d86-9aadb0cf6f5a
@@ -10271,6 +11362,18 @@ estampes:
         zone de l'image (E36):
           uuid: 96b2cb05-7749-4562-9346-55651d7c4f04
           E13: a4a82d0a-5229-4837-8b12-b83b729fa6c8
+      Bretagne, Louis de Bourbon (1704-1705), duc de / 48422:
+        zone de l'image (E36):
+          uuid: a73e17e5-4b3b-4f5f-ba56-62c9777a1bf7
+          E13: b3757fb3-bec0-42e4-9d44-c465106bba8a
+      'Bretagne, Louis de Bourbon (1704-1705), duc de ':
+        zone de l'image (E36):
+          uuid: a73f0ad9-5d9f-4873-811b-093ceb6a04bd
+          E13: 0eb28445-655c-4f2c-a412-be3118661c92
+      ' 48422':
+        zone de l'image (E36):
+          uuid: b907333d-b108-4f0f-95b8-25d645604796
+          E13: 79a990b4-c200-4965-a437-50da81573b9d
 collection:
   1678-01_038:
     E36:
@@ -10367,6 +11470,9 @@ collection:
       ville:
         zone de l'image (E36):
           objet représenté: db64845f-ade8-4419-85d1-97ca33d5b2e4
+      '830.0':
+        zone de l'image (E36):
+          lieu représenté: 350f591b-c08d-4ae7-85fe-ac8cde9d7669
   1678-06_299:
     E36:
       Puycerda:
@@ -10375,6 +11481,9 @@ collection:
       ville:
         zone de l'image (E36):
           objet représenté: 0a6ed4d5-2f8b-4431-84f2-2ada007a4aae
+      '830.0':
+        zone de l'image (E36):
+          lieu représenté: 4c7f49c7-5840-413a-95da-fa2973f5fadf
   1678-06e_044:
     E36:
       Turin, Palazzo Reale; 45°04'22" nord,7° 41' 10" est:
@@ -10627,6 +11736,9 @@ collection:
           lieu représenté: 2879aa10-1f3d-4127-bd78-115148d92dae
       thématique:
         E13: 46512432-f7eb-425f-b30a-d6c2d42a4cb8
+      '804.0':
+        zone de l'image (E36):
+          lieu représenté: dfb59c61-2a9c-4556-b93f-e1c0fba9b7d4
   1680-08_142:
     E36:
       Madrid/Carcel de Corte:
@@ -10659,6 +11771,9 @@ collection:
           lieu représenté: 96f058ed-b53c-40db-a2e3-62ebeb242602
       thématique:
         E13: def99591-2801-463b-b613-1cd4bab0136c
+      '295633.0':
+        zone de l'image (E36):
+          lieu représenté: 8778c023-4f29-4875-bb44-1b3f6f58bd7c
   1680-09b_215:
     E36:
       Valenciennes:
@@ -10691,6 +11806,9 @@ collection:
           lieu représenté: fd95eb62-bef6-47ca-aed2-bdde469fa940
       thématique:
         E13: 665641cb-1630-460c-8fb6-513d7278ce77
+      '295595.0':
+        zone de l'image (E36):
+          lieu représenté: 763fc771-1b55-4045-9611-19b997a830c3
   1680-09e_298:
     E36:
       Madrid/Plazuela de la cavada:
@@ -10707,6 +11825,9 @@ collection:
           lieu représenté: eb56434e-f580-4b53-8e8a-9f7153017da2
       thématique:
         E13: e4818917-faca-4ca1-a82b-c4e1b6019820
+      '295997.0':
+        zone de l'image (E36):
+          lieu représenté: fd0afb36-0ebb-4e30-9b7a-61e0a1d06461
   1680-10e_268:
     E36:
       'Madrid, Palais du Buen retiro  ':
@@ -10749,6 +11870,9 @@ collection:
           objet représenté: 5c337abe-834d-41eb-a3d5-b68823f879c0
       thématique:
         E13: 572eb3a3-461b-4170-97d3-2bae51445e6c
+      '295453.0':
+        zone de l'image (E36):
+          lieu représenté: b1b92017-4eac-4098-817c-3572dc176797
   1681-03_085:
     E36:
       Padova:
@@ -10775,6 +11899,9 @@ collection:
           objet représenté: 5686b6f3-22e0-471c-b56d-8ebf95bcd665
       thématique:
         E13: 4cf67b36-447c-4e35-bb52-2a44d8460b12
+      '806.0':
+        zone de l'image (E36):
+          lieu représenté: 14be0cfb-e263-418d-bde5-8ab345a710de
   '1681-03e_296 ':
     E36:
       Madrid/Palacio Real de El Pardo:
@@ -10791,6 +11918,9 @@ collection:
           lieu représenté: 5a4df595-f9cc-409a-83d4-0aa6ae512616
       thématique:
         E13: 38777fd6-30b4-4316-91a6-3e0a0635e674
+      '295995.0':
+        zone de l'image (E36):
+          lieu représenté: 5c62af16-14f5-4b1e-8122-5fd4354c118f
   '1681-04_304 ':
     E36:
       Madrid agglomération/Aranjuez:
@@ -10807,6 +11937,9 @@ collection:
           lieu représenté: eb626b2f-5088-415d-a5b7-4360197752fb
       thématique:
         E13: 2af436d8-156a-4cb6-807a-8266b31a5be0
+      '789.0':
+        zone de l'image (E36):
+          lieu représenté: 87535c87-5503-466d-b607-19546cfccd32
   '1681-05_199 ':
     E36:
       Madrid agglomération/Aranjuez:
@@ -10877,6 +12010,9 @@ collection:
           lieu représenté: 6d81fcd8-16c9-473d-837f-f8383e4afa17
       thématique:
         E13: d589f1dc-5301-4ae6-9fa1-b764f1237652
+      '789.0':
+        zone de l'image (E36):
+          lieu représenté: 47cf02e3-c299-41e3-818c-fa495d976fa0
   '1681-07a_173 ':
     E36:
       Bourbon-Lancy; 46° 37' 13" nord; 3° 46' 27"est:
@@ -10985,6 +12121,9 @@ collection:
           objet représenté: d6acb501-8ddf-4b94-882f-0a9b4739484d
       thématique:
         E13: 7a43aaee-64e4-4d3a-9fc6-12b029a5b0d8
+      '295639.0':
+        zone de l'image (E36):
+          lieu représenté: 4975b47a-ce3f-42d3-8375-77f860edc513
   1681-11_245:
     E36:
       Casale Monferrato 45° 08′ 00″ nord, 8° 27′ 00″ est:
@@ -11011,6 +12150,9 @@ collection:
           objet représenté: 536c4d98-ab34-4b5d-856d-0deda2c8553e
       thématique:
         E13: 2ff80f5d-23ff-43ce-b521-e78d01e51eeb
+      '295639.0':
+        zone de l'image (E36):
+          lieu représenté: 0f18ad5b-3f2f-491d-8a63-bc4a1e08f47e
   1681-12_042:
     E36:
       'Strasbourg ':
@@ -11037,6 +12179,9 @@ collection:
           objet représenté: fb6c5b6b-77a5-4e9d-a4f6-da1be05bf2c1
       thématique:
         E13: ce797e54-ad5b-461e-8c9b-cd3de496e90a
+      '295639.0':
+        zone de l'image (E36):
+          lieu représenté: 419a83e2-6176-484f-b4f5-168f126da2c0
   1681-12e_335:
     E36:
       San Lorenzo de El Escorial, 40° 35′ 21,04″ nord, 4° 08′ 52,62″ ouest:
@@ -11050,6 +12195,9 @@ collection:
           objet représenté: 0d874b37-3b59-4630-a32c-4b67fd6ba531
       thématique:
         E13: 004a8be5-2355-48a7-a8f0-16053be5b093
+      '295639.0':
+        zone de l'image (E36):
+          lieu représenté: f9cb91a6-5e4e-4163-bbe3-28d6c89b28b4
   1682-01_336:
     E36:
       Granada, Alhambra, 37° 10′ 37″ nord, 3° 35′ 24″ ouest:
@@ -11095,6 +12243,9 @@ collection:
           objet représenté: 87b2baf1-1b5c-4cf7-a751-ffa2718a8a3a
       thématique:
         E13: d02dac9e-e9bd-4449-9670-66a848efeb4c
+      '295639.0':
+        zone de l'image (E36):
+          lieu représenté: 279bd34f-7364-40ba-9e75-7233afc10b05
   1682-03e_256:
     E36:
       San Lorenzo de El Escorial, 40° 35′ 21,04″ nord, 4° 08′ 52,62″ ouest:
@@ -11108,6 +12259,9 @@ collection:
           objet représenté: c861f480-7705-484d-9dac-45bd103ee809
       thématique:
         E13: a8b0ba6e-4586-4599-a5a7-24890336f25d
+      '295639.0':
+        zone de l'image (E36):
+          lieu représenté: dc01522c-0c15-4f1b-8480-ba4145853b00
   1682-05_200:
     E36:
       Granada, Generalife, 37° 10′ 37″ nord, 3° 35′ 07″ ouest:
@@ -11169,6 +12323,9 @@ collection:
           lieu représenté: 4d834a65-3389-4903-b83e-dd6ecc338b5c
       thématique:
         E13: 8aa485a7-f525-4a12-80fa-f70d29ce8b2d
+      '123.0':
+        zone de l'image (E36):
+          lieu représenté: 876eb3c3-efae-4068-a447-980c7b627d08
   1682-10a_221:
     E36:
       Toulouse:
@@ -11191,6 +12348,9 @@ collection:
           objet représenté: 7321cf05-6098-4f9f-8b7e-c01032340b53
       thématique:
         E13: 0baa079a-5926-4b32-87d2-4ba5a1ae1607
+      bourgogne_louis_de_france_(1682-1712)_duc_de:
+        zone de l'image (E36):
+          personne représentée: 8471c92d-cefb-4062-9960-77fca62f33de
   1682-10b_170:
     E36:
       'Alger, 36° 46'' 34" nord; 3° 03'' 36"est ':
@@ -11226,6 +12386,9 @@ collection:
           objet représenté: 55100755-61fb-4d6b-8287-88b5a309e4d8
       thématique:
         E13: 29ce0c08-01cf-44ea-8720-f2f6dc62259b
+      '295639.0':
+        zone de l'image (E36):
+          lieu représenté: 8ad25788-1ae5-4aea-bda4-49c290de0bcb
   1683_09e_208:
     E36:
       Toledo:
@@ -11309,6 +12472,9 @@ collection:
       '276063.0':
         zone de l'image (E36):
           lieu représenté: 6dc65fa8-021e-49bc-bc72-ec72b8d99f3b
+      camp militaire:
+        zone de l'image (E36):
+          objet représenté: 1b33d86b-1003-4ff8-822b-bc0001d9d0b8
   1684-06_140:
     E36:
       Belgique/Hensies/Thulin 50° 25′ 45″ nord, 3° 44′ 22″ est:
@@ -11320,6 +12486,9 @@ collection:
       Belgique / Hensies / Thulin 50° 25′ 45″ nord, 3° 44′ 22″ est:
         zone de l'image (E36):
           lieu représenté: b68a7213-e38f-48c0-8fce-e20f24ebd2c5
+      camp militaire:
+        zone de l'image (E36):
+          objet représenté: 277668c6-e87a-4890-8321-e6570c0c3f10
   1684-06c_257:
     E36:
       Gênes:
@@ -11461,6 +12630,9 @@ collection:
           objet représenté: ece5aa7c-871a-4bd9-ab95-e7826d534848
       thématique:
         E13: 66422c76-d305-49a1-b3f6-6f5ad6ce26c6
+      forteresse:
+        zone de l'image (E36):
+          objet représenté: 31d9add0-3940-44cc-8982-fe37a902065a
   1687-12_099:
     E36:
       Athènes:
@@ -11548,6 +12720,9 @@ collection:
           objet représenté: a022b4c7-2c0b-4225-a2a6-a30e62860082
       thématique:
         E13: 60afe4a1-b66b-4aef-b179-da7b58e3c85c
+      Madagascar > à classer sous empire colonial:
+        zone de l'image (E36):
+          lieu représenté: a09b86b7-351c-4578-b45f-08028fed314f
   1693-01_219:
     E36:
       Namur ;:
@@ -11582,6 +12757,9 @@ collection:
           objet représenté: 1eb69337-a2b8-4a98-98e7-3f06af8f0b01
       thématique:
         E13: 2d7156fa-c3ad-455f-b54a-2e2363778cff
+      '1225.0':
+        zone de l'image (E36):
+          lieu représenté: 65114aba-7e73-4f67-8314-5772780709a2
   1693-07_193:
     E36:
       Roses, Catalogne, Espagne;42° 15' 50" nord;3° 10' 46" est:
@@ -11606,6 +12784,9 @@ collection:
           objet représenté: 01265680-00b1-450e-87a3-c12c278dda41
       thématique:
         E13: e1620649-7567-4e53-a02e-06864bd9f84b
+      port:
+        zone de l'image (E36):
+          objet représenté: fd98294b-1f2d-4f85-bdc5-a35ee8762189
   1694-04_114:
     E36:
       Toulouse:
@@ -11627,6 +12808,9 @@ collection:
       bataille:
         zone de l'image (E36):
           objet représenté: 26ace8d6-ca4f-4b15-b926-17c69bc81664
+      '829.0':
+        zone de l'image (E36):
+          lieu représenté: 081dbb77-a67c-4106-8c2c-56d3f5ad91c0
   1694-07_081:
     E36:
       Palamos, Catalogne, Espagne 41° 51′ 00″ nord, 3° 08′ 00″ est:
@@ -11640,6 +12824,9 @@ collection:
           objet représenté: 835ce6d3-e643-475d-be9a-d43dbf0c252b
       thématique:
         E13: fe4590c6-9fd3-4bb8-82b1-3a9a193cd869
+      '829.0':
+        zone de l'image (E36):
+          lieu représenté: de015c64-eebd-4ebb-a267-39f08343b9ad
   1694-07_259:
     E36:
       Girona, Catalogne, Espagne 41° 59′ 00″ nord, 2° 49′ 00″ est:
@@ -11689,6 +12876,9 @@ collection:
           objet représenté: 3c120ee1-7a1e-4518-969a-df25b7b2c661
       thématique:
         E13: 27d97140-6342-473e-a73f-1e377fdd5c9f
+      '295581.0':
+        zone de l'image (E36):
+          lieu représenté: 5bbdaa67-a85b-4c64-b843-a122819b0779
   1697-05_163:
     E36:
       Rome, Piazza Scossacavalli:
@@ -11699,6 +12889,9 @@ collection:
           objet représenté: 69882e72-b974-4d8d-882d-0f15ffbca8f3
       thématique:
         E13: aa6a5b42-6e66-4f09-bcf5-b887c880afe1
+      '295579.0':
+        zone de l'image (E36):
+          lieu représenté: 98d9f901-37b2-4269-806c-f7feb15947b6
   1697-06_249:
     E36:
       Ath, Hainaut, 50° 37′ 48″ nord, 3° 46′ 50″ est:
@@ -11751,6 +12944,9 @@ collection:
           objet représenté: 18a1f771-b63c-4bea-b029-0be7c40ea956
       thématique:
         E13: 31e05cd3-4b4e-4048-8778-064e37b29b74
+      '295577.0':
+        zone de l'image (E36):
+          lieu représenté: 0f6019c3-ff08-48e4-81a6-eaa55f3b9081
   1704-06_177:
     E36:
       Providence (île de) (Colombie)13° 21′ 00″ N, 81° 22′ 28″ O:
@@ -11827,6 +13023,9 @@ collection:
           objet représenté: 421f8633-6d80-4eb3-b458-51a2a33bedaf
       thématique:
         E13: 7bfd2c02-8134-4e2e-b6c4-85dd0da60bd2
+      ? ''
+      : zone de l'image (E36):
+          objet représenté: 7a87e9c7-ed0a-4bc3-9a21-58f5a7ed32b7
   1678-02_081:
     E36:
       emblème:
@@ -11834,6 +13033,9 @@ collection:
           objet représenté: 67a4b5c0-2b72-42a9-96ed-eb5657265fb4
       thématique:
         E13: e544b334-c4b5-4aaf-a87e-b3f89906fb87
+      louis_dauphin_de_france_(1661-1711):
+        zone de l'image (E36):
+          personne représentée: e6dd3c2d-45ea-4618-8e85-932ed60f9443
   1678-02_236:
     E36:
       Pandore:
@@ -11871,6 +13073,9 @@ collection:
       ? ''
       : zone de l'image (E36):
           objet représenté: cc7751c6-6975-45aa-9623-839499eceea8
+      Tobago:
+        zone de l'image (E36):
+          lieu représenté: 903fdabe-0b56-435c-93ef-089ae9268d40
   1678-03_377:
     E36:
       Médée:
@@ -11966,6 +13171,9 @@ collection:
           objet représenté: 1d264ab3-70fb-44b2-82c3-a39e2b83596e
       thématique:
         E13: f147a55e-ac46-4da6-aa11-990b0dbf3c8a
+      '2052.0':
+        zone de l'image (E36):
+          lieu représenté: 5c29fe16-373d-4b54-b94b-6371d3f01b1d
   1678-05_368:
     E36:
       Ino:
@@ -11981,6 +13189,9 @@ collection:
       Remus et Romulus:
         zone de l'image (E36):
           objet représenté: 9359f064-a673-45a2-8e2b-a697034223d9
+      '2052.0':
+        zone de l'image (E36):
+          lieu représenté: 9178a09c-cab6-42cb-8772-8963b975d437
   1678-06_032:
     E36:
       voûte:
@@ -12023,6 +13234,9 @@ collection:
           objet représenté: 15ae9cfd-5588-495b-93cb-5a08fb4b1d9c
       thématique:
         E13: 26fd9a3b-cf94-48c8-bdf2-a791f39a9a59
+      '2635.0':
+        zone de l'image (E36):
+          lieu représenté: ec53117d-4a1f-420d-8b68-1370414cb6ee
   1678-08_353:
     E36:
       Memnon:
@@ -12037,6 +13251,18 @@ collection:
           objet représenté: fdc38304-0095-4036-9be8-82d29caabea4
       thématique:
         E13: 7f79bd36-84ec-4f89-95fe-629fd7deda9e
+      Plessis-Praslin, César de Choiseul [1602-1675], comte du /  84088:
+        zone de l'image (E36):
+          objet représenté: df5a2bec-f457-41b7-9b70-0b382cc67c44
+      'Plessis-Praslin, César de Choiseul [1602-1675], comte du ':
+        zone de l'image (E36):
+          objet représenté: 74f7f792-db8d-4779-bf83-ff1755b1f05a
+      '  84088':
+        zone de l'image (E36):
+          objet représenté: c5082f1f-e28c-486e-93b2-880ff5488527
+      '84088':
+        zone de l'image (E36):
+          objet représenté: 726143f8-4982-42c8-8332-8c576be0f6fe
   1678-09_179:
     E36:
       emblème:
@@ -12134,6 +13360,21 @@ collection:
           objet représenté: a5399eb5-b4ac-49c3-9a22-df7a72bedff8
       thématique:
         E13: 9bbd3d26-134c-46da-b29d-044df9ea608f
+      Houssay, François-Mallier du [1603-1681]:
+        zone de l'image (E36):
+          objet représenté: b8814194-ecdd-493d-9ad9-e8387b6d16a4
+      évêque deTroyes [sed.1641-1678] / 83928:
+        zone de l'image (E36):
+          objet représenté: 6dcdf4c4-415f-4332-8727-294b6d7eda15
+      'évêque deTroyes [sed.1641-1678] ':
+        zone de l'image (E36):
+          objet représenté: fb541f34-2691-453a-992f-726f5bd247d7
+      ' 83928':
+        zone de l'image (E36):
+          objet représenté: 36e12523-de9d-4a1f-9a5b-115f2b0ac531
+      '83928':
+        zone de l'image (E36):
+          objet représenté: caf1ffda-86c5-41e2-95e4-be1d7a8fa760
   1678-12_295:
     E36:
       Hercule:
@@ -12205,6 +13446,9 @@ collection:
           objet représenté: fe2360d6-f2c9-4a92-838e-fafcfdb26195
       thématique:
         E13: 5ad310b1-e13c-4d18-8203-b163c9918540
+      '90.0':
+        zone de l'image (E36):
+          lieu représenté: 0826a32e-e092-4bd0-8185-bae5c24042b5
   1679-01_300:
     E36:
       galère:
@@ -12212,6 +13456,9 @@ collection:
           objet représenté: dc96e0c9-638d-4f8d-8be6-218552290bba
       thématique:
         E13: d6507e38-2afa-4048-b755-7c41e40546e3
+      '2659.0':
+        zone de l'image (E36):
+          lieu représenté: f38b6ae1-efcf-4052-8e90-cc2982f89476
   1679-01_327:
     E36:
       Phaéton:
@@ -12259,6 +13506,18 @@ collection:
           objet représenté: 2aa96604-0f0f-4add-9467-f89781bd4763
       thématique:
         E13: 565c1678-dd7a-4e90-ae91-594466e16d87
+      Navailles, Philippe III de Montaut-Bénac [1656-1678], marquis de / 83930:
+        zone de l'image (E36):
+          objet représenté: d8215063-1d47-4fd5-89ba-7030d9c84de2
+      'Navailles, Philippe III de Montaut-Bénac [1656-1678], marquis de ':
+        zone de l'image (E36):
+          objet représenté: 8ebde125-b4ae-4242-9ab7-950c9b5a702e
+      ' 83930':
+        zone de l'image (E36):
+          objet représenté: cc59a11b-156e-4d6d-8fe1-ccde05091b62
+      '83930':
+        zone de l'image (E36):
+          objet représenté: 217e60fd-7cff-45ac-8726-d878f7adddf9
   1679-03_256:
     E36:
       médaille:
@@ -12284,6 +13543,9 @@ collection:
       savoie_anne-marie_dorleans_(1669-1728)_duchesse_de:
         zone de l'image (E36):
           personne représentée: c89348c9-4a18-4966-823d-49cb3ee45be1
+      portrait:
+        zone de l'image (E36):
+          objet représenté: 60e17689-7223-4647-b8c7-9597476e4bf9
   1679-03e_172:
     E36:
       cadran ou horloge:
@@ -12294,6 +13556,9 @@ collection:
           objet représenté: 0134ca82-1bed-4f30-8735-0b1ff8c9491a
       thématique:
         E13: 61e9af9c-07b9-4e28-8bd7-67a59701050e
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: 0a8e4771-2316-4977-ac9a-8da5f60117c3
   1679-03e_272:
     E36:
       lettres en chiffres:
@@ -12322,6 +13587,9 @@ collection:
           objet représenté: 9566dd30-41e1-49cf-b78c-83b137ac1cef
       thématique:
         E13: 2c94a3e6-6bde-4be3-ab35-6276bb8e1709
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: dfb66897-f4c8-43b8-bf36-67398a18e9f3
   1679-04_259:
     E36:
       Bélise [personnage fictif]:
@@ -12344,6 +13612,9 @@ collection:
           objet représenté: d322fed4-93ad-455e-8143-97394237ae24
       thématique:
         E13: a82f4f70-bf53-4374-aa04-078f27ab7c88
+      '90.0':
+        zone de l'image (E36):
+          lieu représenté: ce8cad63-ca34-41fd-8707-71c5d90fc16a
   1679-05_302:
     E36:
       médaille:
@@ -12380,6 +13651,9 @@ collection:
           personne représentée: 9f114731-d815-48f7-b99a-295ba2bf4ef1
       thématique:
         E13: 59d3e55e-33df-4d19-87c2-f64dc8b6bb4b
+      modene_marie-beatrice_de_(1658-1718)_reine_dangleterre:
+        zone de l'image (E36):
+          personne représentée: 7bc7fe99-96f3-4c43-8e0e-07f207d41c7a
   1679-06_294:
     E36:
       HABSBOURG, Léopold I de [1640-1705]:
@@ -12391,6 +13665,9 @@ collection:
       habsbourg_leopold_i_de_(1640-1705):
         zone de l'image (E36):
           personne représentée: 0c160850-0c32-4285-b727-27c03f89775b
+      portrait:
+        zone de l'image (E36):
+          objet représenté: 9b4d9565-00bb-4dc5-b74d-0fd9c5e2b5a2
   1679-06_326:
     E36:
       Proserpine:
@@ -12418,6 +13695,30 @@ collection:
           objet représenté: 5e94d4e3-6735-474e-a405-badff165bac3
       thématique:
         E13: cc327103-3571-4145-b99c-6b7ab0fbf745
+      Ruyter, Michiel de [1607-1676] / 83942:
+        zone de l'image (E36):
+          objet représenté: 1898f623-c457-40e5-b050-02332e34d265
+      Lauderdale, Charles Maitland [ca. 1620-1691], comte de /  84026:
+        zone de l'image (E36):
+          objet représenté: e488e533-e2fe-4c8d-936e-e4be69f568c3
+      'Ruyter, Michiel de [1607-1676] ':
+        zone de l'image (E36):
+          objet représenté: 3fc7329b-60e6-45c6-b550-efd577c39eb4
+      'Lauderdale, Charles Maitland [ca. 1620-1691], comte de ':
+        zone de l'image (E36):
+          objet représenté: 9d71c731-8ea9-41e5-b44c-2f62b5eca375
+      ' 83942':
+        zone de l'image (E36):
+          objet représenté: cfde72fd-3e2a-47c7-91a9-a4cf8a88f924
+      '  84026':
+        zone de l'image (E36):
+          objet représenté: 92264e2a-a056-4f19-9efd-08eb59e9162d
+      '83942':
+        zone de l'image (E36):
+          objet représenté: f1cc9498-4173-4962-a5ec-1fc7d72e11fc
+      '84026':
+        zone de l'image (E36):
+          objet représenté: 8b670266-ec68-4c8a-984a-d9a012e57662
   1679-07_167:
     E36:
       feu d’artifice:
@@ -12425,6 +13726,9 @@ collection:
           objet représenté: 2d002366-5af8-4d66-a8d0-94b5e5475517
       thématique:
         E13: d1c78ff9-9f89-4a66-a749-c4e1c1fd83ef
+      '486.0':
+        zone de l'image (E36):
+          lieu représenté: 40a0389c-b4a4-459c-8af0-5805c8481f74
   1679-07_317:
     E36:
       médaille:
@@ -12463,6 +13767,9 @@ collection:
           objet représenté: 90e41128-c99e-4811-9acf-677f003c33ea
       thématique:
         E13: 3f6f00c4-1e9b-4ebb-a886-87e1edda817b
+      '56.0':
+        zone de l'image (E36):
+          lieu représenté: 474739f2-0d6a-48ff-b419-fe994b53fa9b
   1679-09_359:
     E36:
       médaille:
@@ -12534,6 +13841,12 @@ collection:
           personne représentée: 50a41f37-d47e-4ac6-af6a-8742864111e2
       thématique:
         E13: 956b50f6-7ef5-4c55-9d92-e6853f82e494
+      '295.0':
+        zone de l'image (E36):
+          lieu représenté: 502193b2-bae4-48f0-a58b-deaa720139be
+      charles_ii_(1661-1700)_roi_despagne:
+        zone de l'image (E36):
+          personne représentée: 7a84c650-d7d8-4dbb-acfe-8132979a2050
   1679-10b_215:
     E36:
       fer, lance ou épée:
@@ -12542,6 +13855,8 @@ collection:
       ? ''
       : zone de l'image (E36):
           objet représenté: acae29ed-9304-4190-b98c-dd409298557b
+      thématique:
+        E13: fabea40f-5e3c-4557-b174-7ff3546ac67f
   1679-11_175:
     E36:
       cadran ou horloge:
@@ -12561,6 +13876,12 @@ collection:
       BASVILLE, Guillaume I de Lamoignon [1617-1677], marquis de:
         zone de l'image (E36):
           objet représenté: 0cfa1ddf-77d4-4b8d-8f64-d9d0d04bc899
+      portrait:
+        zone de l'image (E36):
+          objet représenté: d86e412f-6272-4061-aa5c-7c4fbe589379
+      lamoignon_guillaume_de_(1617-1677):
+        zone de l'image (E36):
+          personne représentée: 2ac47a5f-000e-465a-ab23-adc91a8dcd93
   '1679-12_328 ':
     E36:
       médaille:
@@ -12610,6 +13931,9 @@ collection:
           objet représenté: 7964cb2b-07c5-4024-8842-233ecea710da
       thématique:
         E13: 8f887366-3e75-4b51-89d3-256cd7cf46a4
+      brunswick-hanovre_jean-frederic_de_(1625-1679)_duc_de:
+        zone de l'image (E36):
+          personne représentée: 348b7c25-c8d3-4f41-ad94-b52bb59dd97f
   1680-01a_022:
     E36:
       médaille:
@@ -12627,6 +13951,9 @@ collection:
           objet représenté: 7eb92426-bc0c-498a-968c-b80d388a3d5e
       thématique:
         E13: 97b4ec44-33b8-444c-a776-325f9f2b637a
+      '1585.0':
+        zone de l'image (E36):
+          lieu représenté: 7969cfc8-e3e2-4e53-81d4-03d6663bb033
   1680-01a_296:
     E36:
       Phaéton:
@@ -12653,6 +13980,9 @@ collection:
           objet représenté: 38027dcd-f3ab-43b6-a693-1c10580f8e97
       thématique:
         E13: 6d4cea1f-38bb-4edf-b1d4-e93a930492e7
+      '227.0':
+        zone de l'image (E36):
+          lieu représenté: af506f6b-4b59-449d-8381-fb0993f7bed6
   1680-02_124:
     E36:
       opéra:
@@ -12685,6 +14015,21 @@ collection:
       La Voisin, DESHAYES, Catherine [1640? - 1680], dite:
         zone de l'image (E36):
           objet représenté: ba471065-fecd-4ba7-b84e-8fd1e7070746
+      portrait:
+        zone de l'image (E36):
+          objet représenté: 5850de39-d2f5-4a60-b283-cf3a68cf6f24
+      Voisin, Catherine (1640?-1680) / 83866:
+        zone de l'image (E36):
+          objet représenté: 0453c8c0-a2c6-4ede-8ad4-3123c8c9cea6
+      'Voisin, Catherine (1640?-1680) ':
+        zone de l'image (E36):
+          objet représenté: 838825aa-650a-4883-816a-685b094b1699
+      ' 83866':
+        zone de l'image (E36):
+          objet représenté: d02dffe6-bf7a-4ce6-9474-3fd5bdc9293e
+      '83866':
+        zone de l'image (E36):
+          objet représenté: 2702028a-dd4b-418c-b953-fb2a91b5a0b8
   '1680-03a_157 ':
     E36:
       jetons:
@@ -12728,6 +14073,9 @@ collection:
           personne représentée: 2ed9d9c4-e699-4822-9387-829d8cefee56
       thématique:
         E13: 1a17dcd7-7ef5-4787-806e-602cc74a3433
+      table généalogique:
+        zone de l'image (E36):
+          objet représenté: bf2e9a7f-173f-4107-b741-4a5774ce3624
   1680-03b_194:
     E36:
       banquet:
@@ -12741,6 +14089,12 @@ collection:
           objet représenté: 1ddd492d-d140-4136-ba2e-86bcc19f1284
       thématique:
         E13: 550d9fd1-b269-436a-818c-05c6d3bdb65f
+      louis_dauphin_de_france_(1661-1711):
+        zone de l'image (E36):
+          personne représentée: a3ada979-15c7-431e-9bba-ff28ab594cc6
+      marie-anne-christine-victoire_de_baviere_(1660-1690)_dauphine:
+        zone de l'image (E36):
+          personne représentée: eba3ee63-dd7d-41bc-9df1-7da86ae0d76c
   1680-03b_232:
     E36:
       emblème:
@@ -12748,11 +14102,17 @@ collection:
           objet représenté: 57d947f8-ce3e-4e33-ad53-4fd319c5fef8
       thématique:
         E13: b476b8e0-105b-44dd-b963-6bdde47cc302
+      louis_dauphin_de_france_(1661-1711):
+        zone de l'image (E36):
+          personne représentée: 9dc93afb-eb6b-4c22-ba2e-bea64184bafb
   1680-03e_171:
     E36:
       lettres en chiffres:
         zone de l'image (E36):
           objet représenté: a96db987-f74e-4f9f-8a51-7dc1b4ee9bee
+      lettre en chiffres:
+        zone de l'image (E36):
+          objet représenté: eea3a8b7-bea4-442a-85c2-22e3f6359ff6
   1680-03e_365:
     E36:
       allégorie amoureuse:
@@ -12810,6 +14170,9 @@ collection:
           objet représenté: c03327fe-2be2-4e78-bbe1-c87e1ae0a8ac
       thématique:
         E13: 9204479c-a687-45d4-8040-71d9e5bf4b42
+      '227.0':
+        zone de l'image (E36):
+          lieu représenté: dd372ddc-ea18-4359-b18f-8e12e8010984
   1680-05_226:
     E36:
       église:
@@ -12818,6 +14181,12 @@ collection:
       Longeville, Anne-Geneviève de Bourbon-Condé [1619-1679], duchesse de:
         zone de l'image (E36):
           objet représenté: 042618c9-a7d7-4f35-8f84-ddd49b7db40e
+      '277941.0':
+        zone de l'image (E36):
+          lieu représenté: fc536911-7ed0-43fb-a511-14c31ba57588
+      conde_anne-genevieve_de_bourbon_(1619-1679)_duchesse_de:
+        zone de l'image (E36):
+          personne représentée: 0ce85358-28c4-49ac-959d-c98d18039a38
   1680-05_304:
     E36:
       banquet:
@@ -12831,6 +14200,9 @@ collection:
           objet représenté: 5f1f90d4-ab3d-4664-93da-fb33ffce0ec0
       thématique:
         E13: 4d2458c4-6acd-4ff5-8139-b3a6fb865f87
+      '184.0':
+        zone de l'image (E36):
+          lieu représenté: 2f7209cc-bde3-41d4-844b-e942a749f58c
   1680-06_173:
     E36:
       Annonciation:
@@ -12838,6 +14210,12 @@ collection:
           objet représenté: c71c7268-26ec-48df-9d6a-87addf1dc9e0
       thématique:
         E13: 8d2dd5c3-fd0a-4855-9dab-eb4299f0e8c6
+      médaille:
+        zone de l'image (E36):
+          objet représenté: 022bae91-8f37-4127-8bd4-11132609cda6
+      ? ''
+      : zone de l'image (E36):
+          objet représenté: b20b9ecc-7fb0-45bc-ad56-c4bcb241fdba
   1680-06_317:
     E36:
       Bacchus:
@@ -12895,6 +14273,9 @@ collection:
           objet représenté: bd5bdf6e-9a3c-4247-ae73-725e02033321
       thématique:
         E13: 9deb0a5f-acff-40e2-85dc-4f7012dbeaf6
+      Énigme en figure:
+        zone de l'image (E36):
+          objet représenté: 7fa412c0-daba-452c-85d2-6a239b6395db
   1680-09b_165:
     E36:
       feu d'artifice:
@@ -12928,6 +14309,9 @@ collection:
           objet représenté: 46841e9c-b335-4ab3-ac77-8fae3c7692e6
       thématique:
         E13: 007ad313-dbb9-4d52-bd33-515c9bb852ea
+      '802.0':
+        zone de l'image (E36):
+          lieu représenté: 465e6970-f61a-4e26-9ebc-4e60d5b17e8c
   1680-10_354:
     E36:
       Protée:
@@ -12942,6 +14326,9 @@ collection:
           objet représenté: 4a463661-b94e-464d-8f8d-1f988dfe3938
       thématique:
         E13: 8e09dbf7-e6cc-4549-b088-2fa33190a86d
+      '802.0':
+        zone de l'image (E36):
+          lieu représenté: 7b17f6f3-b533-4cff-bbbc-38f9b2040e9a
   1680-10e_192:
     E36:
       alphabet:
@@ -13032,6 +14419,9 @@ collection:
       ? ''
       : zone de l'image (E36):
           objet représenté: 9a7c4c5c-3e88-4865-b8f7-caf66a98bc58
+      '1673.0':
+        zone de l'image (E36):
+          lieu représenté: 80b34523-ccee-4ea1-b024-32148c8cbde2
   1681-01_309:
     E36:
       jetons:
@@ -13039,6 +14429,9 @@ collection:
           objet représenté: db116822-c240-4595-a6f3-abe0b201368e
       thématique:
         E13: 258ddd65-60e7-4cf6-b33f-a3658eb81f3e
+      médaille:
+        zone de l'image (E36):
+          objet représenté: 059ca5cc-b9fd-48f0-9a05-82a39c402270
   1681-02_177:
     E36:
       comète:
@@ -13049,6 +14442,9 @@ collection:
           objet représenté: 975c92be-c29b-40c9-9ab9-484826266520
       thématique:
         E13: a18d7799-2b11-4455-90bc-1812407789ab
+      '1673.0':
+        zone de l'image (E36):
+          lieu représenté: 8e975997-cd9f-408a-9dbc-857c53242217
   1681-02_323:
     E36:
       géant:
@@ -13072,6 +14468,9 @@ collection:
           objet représenté: 80a235a4-fda5-4701-9f69-c372a005cf61
       thématique:
         E13: 6a5f8254-fa60-4699-b11a-7d62945253c4
+      '1806.0':
+        zone de l'image (E36):
+          lieu représenté: dcb6b686-4be8-42dd-b2f3-18fe21ce9e5d
   '1681-04_096 ':
     E36:
       Objet décoratif:
@@ -13095,6 +14494,15 @@ collection:
           objet représenté: 06ffc200-75a4-4b36-a3cd-16a6176d1437
       thématique:
         E13: c029be29-8151-4554-9586-2988bf9c33f8
+      '227.0':
+        zone de l'image (E36):
+          lieu représenté: b2907a87-24df-42d4-84b6-34f7e43de86f
+      loterie:
+        zone de l'image (E36):
+          objet représenté: 7743fa99-3f73-4d55-93ef-7a11b6c9cbd4
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: 00f49e8e-4a1c-41cd-8d4f-0090243d3e68
   '1681-06e_314 ':
     E36:
       jardin:
@@ -13224,11 +14632,17 @@ collection:
           objet représenté: bc470ad8-9aee-47f3-b0b3-b2f3631e1f38
       thématique:
         E13: 3925f8be-2771-49d5-9b4c-5ce7b9da25ec
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: 7db70a0b-1438-4e42-b9b0-1dc08ce84d46
   1682-05_016:
     E36:
       cloche:
         zone de l'image (E36):
           objet représenté: 21ed31ed-5683-4232-afab-9dc7b25e9816
+      '2944.0':
+        zone de l'image (E36):
+          lieu représenté: 7165704e-19ce-4b21-96be-f183d3e79f91
   1682-06_294:
     E36:
       vue:
@@ -13252,6 +14666,9 @@ collection:
       machine:
         zone de l'image (E36):
           objet représenté: 9c2176c4-107a-41eb-8041-a9547a307022
+      écluse:
+        zone de l'image (E36):
+          objet représenté: 382dba08-95c2-409e-a634-df80a66eba31
   1682-07_162:
     E36:
       médaille:
@@ -13272,6 +14689,9 @@ collection:
           objet représenté: b5dbf048-d641-4fab-bb00-42d782d3e9b8
       thématique:
         E13: b90efadc-ae77-49db-b21a-88c8445a3cca
+      '90.0':
+        zone de l'image (E36):
+          lieu représenté: 8a261b47-167b-4f98-8d93-93cdcac68c52
   1682-08_137:
     E36:
       feu d’artifice:
@@ -13279,6 +14699,9 @@ collection:
           objet représenté: cfe37290-ad3e-464a-9213-1517c820aa78
       thématique:
         E13: 7eb599c7-263c-4d45-a96b-a1b1d14efa62
+      '2929.0':
+        zone de l'image (E36):
+          lieu représenté: d7cfeb95-de89-444b-a72c-c6a54e03ee5e
   1682-09b_250:
     E36:
       emblème:
@@ -13315,6 +14738,9 @@ collection:
       Camera obscura:
         zone de l'image (E36):
           objet représenté: aa6c99e4-6297-4f83-bb2f-d068abbbd45b
+      camera obscura:
+        zone de l'image (E36):
+          objet représenté: a14e36df-f2fb-4e58-9bf0-855c831cfdd7
   1682-10b_339:
     E36:
       Bourgogne, Louis de France [1682-1712], duc de:
@@ -13325,6 +14751,9 @@ collection:
           personne représentée: 2774278c-fb4d-4bea-8e84-19cb88ad6a62
       thématique:
         E13: 9bf48751-a7ba-4485-9966-c4f891c62639
+      table généalogique:
+        zone de l'image (E36):
+          objet représenté: 44d32920-0d97-4eec-8c33-1df503b4c8a9
   1682-11_140:
     E36:
       poisson:
@@ -13348,6 +14777,9 @@ collection:
       météore:
         zone de l'image (E36):
           objet représenté: 2b25c892-c6a5-4932-9a57-9815189c7b52
+      '820.0':
+        zone de l'image (E36):
+          lieu représenté: b7920213-8921-4e70-8592-0833f20b57aa
   1682-12_210:
     E36:
       feu d’artifice:
@@ -13355,6 +14787,12 @@ collection:
           objet représenté: 31fb4a38-5c97-440d-a7b2-f31eb79e58fd
       thématique:
         E13: ddd34938-a6e0-4759-8da3-38af716fcb93
+      '1876.0':
+        zone de l'image (E36):
+          lieu représenté: 6048b612-7a58-415b-ab18-dbe48ec51131
+      bourgogne_louis_de_france_(1682-1712)_duc_de:
+        zone de l'image (E36):
+          personne représentée: f40bd509-fa32-42ce-b8d7-2f54c888761d
   1683-01_258:
     E36:
       jetons:
@@ -13390,6 +14828,9 @@ collection:
           objet représenté: 069fc3c0-8de9-40c1-8b45-53966a5fdb50
       thématique:
         E13: 0f84f1cb-fbbc-4c08-8043-0bbd24b5ccf1
+      '227.0':
+        zone de l'image (E36):
+          lieu représenté: 3b79b953-447d-4a42-9738-62030cbe5af9
   1683-03e_121:
     E36:
       lentilles:
@@ -13413,6 +14854,15 @@ collection:
           objet représenté: a653d2fa-c096-4de9-99ed-72f240f9b42d
       thématique:
         E13: a22f65e1-923c-482d-999c-6e3b1dc0bba1
+      '227.0':
+        zone de l'image (E36):
+          lieu représenté: 7823f487-54db-45ba-9454-619fb7378e7d
+      théâtre:
+        zone de l'image (E36):
+          objet représenté: 0cfd5ea3-1df3-45b1-b54c-23b5fdd1b62b
+      louis_dauphin_de_france_(1661-1711):
+        zone de l'image (E36):
+          personne représentée: e05787c5-259e-45e1-8e7e-23d8c4124c67
   1683-05_044:
     E36:
       gondole:
@@ -13424,6 +14874,9 @@ collection:
       gouvray_abraham-nicolas_amelot_de_la_houssaye_(1634-1709)_comte_de:
         zone de l'image (E36):
           personne représentée: 9e4500c3-40c5-4bf8-97b6-68f97367d352
+      '1775.0':
+        zone de l'image (E36):
+          lieu représenté: 03dd41f9-71fe-4e94-9cf0-0fb7f73bde4d
   1683-06_181:
     E36:
       médaille:
@@ -13432,6 +14885,20 @@ collection:
       La Tour d'Avergne, Henri de [1611-1675], vicomte de Turenne:
         zone de l'image (E36):
           objet représenté: 24aed6e0-38b7-455d-b104-f03c5dfd5649
+      Turenne, Henri de la Tour d'Avergne [1611-1675], vicomte de / 83940:
+        zone de l'image (E36):
+          objet représenté: 9ac5dfa7-4e8b-4c15-be98-150eeda37ef7
+      thématique:
+        E13: 88cd3a0d-39a8-40a3-8cbc-2b2db0a09b8b
+      'Turenne, Henri de la Tour d''Avergne [1611-1675], vicomte de ':
+        zone de l'image (E36):
+          objet représenté: 72a6d6cc-66e7-4bdf-9244-4051241b34eb
+      ' 83940':
+        zone de l'image (E36):
+          objet représenté: 318b3554-40c9-4971-8631-b7d284215ad7
+      '83940':
+        zone de l'image (E36):
+          objet représenté: 627893fd-85e9-4b9d-993d-044f2827a5e8
   1683-06e_227:
     E36:
       téléscope:
@@ -13443,6 +14910,9 @@ collection:
       ? ''
       : zone de l'image (E36):
           objet représenté: c83b3b7a-8b10-4157-a9a1-7d923ba9d4e9
+      comiers_claude_(-1693):
+        zone de l'image (E36):
+          personne représentée: afbf5abc-0f1f-46a7-a323-7f4afc60d6e7
   1683-08_354:
     E36:
       portrait:
@@ -13459,6 +14929,8 @@ collection:
       mouton:
         zone de l'image (E36):
           objet représenté: 543c3edb-9448-4870-a6d5-d3093b2303a9
+      thématique:
+        E13: d9a5552f-416d-40ad-8ff3-a6fcb0a04142
   1683-09_286:
     E36:
       amphithéâtre:
@@ -13472,6 +14944,15 @@ collection:
           objet représenté: e9eb3913-dc49-4e27-87f7-7147ec628b26
       thématique:
         E13: 59ebc9e7-f999-40b8-96f9-990b7681d11e
+      '275601.0':
+        zone de l'image (E36):
+          lieu représenté: db40ae6c-c303-450a-a622-ef84340c0683
+      église:
+        zone de l'image (E36):
+          objet représenté: ababdb04-60ac-4964-bf52-a2b2814707d2
+      therese_(1638-1683)_reine_de_france:
+        zone de l'image (E36):
+          objet représenté: 5ac02b1a-fd6f-46e5-9073-ceeb0659f4d0
   1683-09_386:
     E36:
       rat:
@@ -13509,6 +14990,9 @@ collection:
           objet représenté: 32cf4a61-e8cd-4e92-b4f2-f4a98127a188
       thématique:
         E13: a4f002ab-6ee9-4378-b28c-dd5f7cac246e
+      marie-therese_(1638-1683)_reine_de_france:
+        zone de l'image (E36):
+          personne représentée: 3841fbad-9c02-4daf-9e89-85253908a16e
   1683-10b_001:
     E36:
       portrait:
@@ -13517,6 +15001,18 @@ collection:
       STARHEMBERG, Ernst-Rüdiger von [1638-1701]:
         zone de l'image (E36):
           objet représenté: 7ca7caa4-71e5-4eb7-96a5-f7af1afd448a
+      Starhemberg, Ernst Rüdiger von [1638-1701] /  84008:
+        zone de l'image (E36):
+          objet représenté: 26db49b4-6e42-44fb-af0c-3f318151276e
+      'Starhemberg, Ernst Rüdiger von [1638-1701] ':
+        zone de l'image (E36):
+          objet représenté: dc013bc3-067b-4d3c-8a69-c6d2923f0399
+      '  84008':
+        zone de l'image (E36):
+          objet représenté: ec1a8300-16b7-4244-a552-a5e0c17d1fd1
+      '84008':
+        zone de l'image (E36):
+          objet représenté: edf74e9b-412c-4363-88ff-f7d1f3441f0f
   1683-10b_324:
     E36:
       étendard:
@@ -13540,6 +15036,12 @@ collection:
           objet représenté: b28c1e64-20df-4efe-9162-6cd6adb357d2
       thématique:
         E13: 8eb4a5d9-052b-418e-8f0a-94a123e8a361
+      '2936.0':
+        zone de l'image (E36):
+          lieu représenté: 52af7ef3-70bb-498d-a9d9-c0beb5365ac1
+      marie-therese_(1638-1683)_reine_de_france:
+        zone de l'image (E36):
+          personne représentée: ca2cbbb7-33e9-4524-bb32-50ba9b2cab59
   1683-12_075:
     E36:
       grelot:
@@ -13608,6 +15110,9 @@ collection:
       odescalchi_benedetto_(1611-1689):
         zone de l'image (E36):
           personne représentée: 404151a5-8a36-4379-ae6d-c892dfb56131
+      portrait:
+        zone de l'image (E36):
+          objet représenté: 132bbc55-12d2-4295-a748-f4745033be80
   1684-02_362:
     E36:
       jetons:
@@ -13657,6 +15162,9 @@ collection:
       ville:
         zone de l'image (E36):
           objet représenté: 3e735e71-876e-4d25-91b4-4260a65737fe
+      '1069.0':
+        zone de l'image (E36):
+          lieu représenté: cf6dec4a-d40f-4390-be11-c9c7eed61755
   1684-06b_385:
     E36:
       Siège d'une ville:
@@ -13695,6 +15203,9 @@ collection:
           personne représentée: 9c4fa480-2ef5-46ef-91ef-84eb2126a7c8
       thématique:
         E13: 01e988af-3942-4e57-af5d-36aa0debaa19
+      '2525.0':
+        zone de l'image (E36):
+          lieu représenté: 9a5afeae-e199-4778-b7db-2f7c55b73e7f
   1684-09e_212:
     E36:
       lunette d'optique:
@@ -13716,6 +15227,9 @@ collection:
           personne représentée: d2e422fa-b8e7-403c-a4f9-299bdbc5a3f8
       thématique:
         E13: 1f999694-1038-4f3f-b2f1-6f326840b6e8
+      '275601.0':
+        zone de l'image (E36):
+          lieu représenté: e75bb315-713e-4936-87a3-5a9d17596044
   1684-09_197:
     E36:
       siège:
@@ -13724,6 +15238,9 @@ collection:
       île:
         zone de l'image (E36):
           objet représenté: 36bae109-9804-49f5-a1b1-802a62d5ddde
+      'Sainte-Maure ':
+        zone de l'image (E36):
+          lieu représenté: 72456fb9-679a-42c2-a905-c78525e8e719
   1684-10_128:
     E36:
       alphabet:
@@ -13732,6 +15249,18 @@ collection:
       Comiers, Claude [?-1693]:
         zone de l'image (E36):
           objet représenté: 7912c616-a977-49fa-a519-3c40798e168b
+      Comiers, Claude [?-1693] /  comiers_claude_(-1693):
+        zone de l'image (E36):
+          objet représenté: 013207cb-4d7c-4d5b-95a5-4f29a994e034
+      'Comiers, Claude [?-1693] ':
+        zone de l'image (E36):
+          objet représenté: 96d9a5cd-6a12-4709-b6dc-0d30516f024c
+      '  comiers_claude_(-1693)':
+        zone de l'image (E36):
+          objet représenté: 547171d8-064f-44d5-b9d6-d638291d152c
+      comiers_claude_(-1693):
+        zone de l'image (E36):
+          personne représentée: f97e528f-00cb-4597-8c85-df6c946c91f7
   1684-12_221:
     E36:
       songe:
@@ -13743,6 +15272,8 @@ collection:
       ? ''
       : zone de l'image (E36):
           objet représenté: 363cb4cc-afae-477e-8a61-d4237843892d
+      thématique:
+        E13: 372e5fb1-63d4-47cc-93cb-2413ece2d39d
   1684-12e_214:
     E36:
       lunette d'optique:
@@ -13762,6 +15293,18 @@ collection:
           objet représenté: e71cc3b0-f80d-4950-9e4b-a2dd4105ad66
       thématique:
         E13: ba1eef75-3f05-4a44-a1b0-5b961980a08f
+      Rouvière, Louis-Henry de [fl. 1671-1712] /  rouviere_henry:
+        zone de l'image (E36):
+          objet représenté: 1fab55b9-120e-4ce8-af56-754b92d345fe
+      'Rouvière, Louis-Henry de [fl. 1671-1712] ':
+        zone de l'image (E36):
+          objet représenté: a40f0895-38bb-4ef8-9236-9aa216399f14
+      '  rouviere_henry':
+        zone de l'image (E36):
+          objet représenté: 886fd9fe-aa1f-4fbd-a5f6-e256bc08d93a
+      rouviere_henry:
+        zone de l'image (E36):
+          personne représentée: 9a2fc0e2-3d07-41e9-99d2-5c4d3289fd52
   1685-03e_147:
     E36:
       lunette:
@@ -13780,6 +15323,9 @@ collection:
           objet représenté: 59fe4154-c15e-4430-8d00-181fd54410b8
       thématique:
         E13: ea923a63-780a-4f0b-9a8f-343799486500
+      '226.0':
+        zone de l'image (E36):
+          lieu représenté: fabf4b27-dbee-4c95-a11e-dba6f386a603
   1685-05_196:
     E36:
       statue:
@@ -13817,6 +15363,15 @@ collection:
       table de banquet:
         zone de l'image (E36):
           objet représenté: 5074e051-4e49-4823-b17c-6affb06547b7
+      '217.0':
+        zone de l'image (E36):
+          lieu représenté: f44f14f1-48c1-4614-abce-9a663583f441
+      '28113':
+        zone de l'image (E36):
+          personne représentée: 113e54d7-466a-4ef1-bc8c-27317a866d3b
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: e60a1722-63d6-4854-8b29-2ea6600358c8
   1685-09e_280:
     E36:
       binocles:
@@ -13864,6 +15419,9 @@ collection:
           objet représenté: 8fb271bd-d7ce-495a-867e-4763c798371c
       thématique:
         E13: ad8c15a8-410e-4b5f-9539-dad74ce0818f
+      monnaie:
+        zone de l'image (E36):
+          objet représenté: eedb9ed2-a3bf-4ed0-b748-5d643dbc0e62
   1686-01_272:
     E36:
       géométrie:
@@ -13879,6 +15437,9 @@ collection:
           objet représenté: 6684489c-8b29-45f4-951d-d30d431b3aee
       thématique:
         E13: 7dba2d1b-19c7-439f-b7cb-2140e5c242be
+      jetons:
+        zone de l'image (E36):
+          objet représenté: 5f8cebde-8da7-4645-946b-f8408d8a5e2f
   1686-03_201:
     E36:
       médaille:
@@ -13941,11 +15502,29 @@ collection:
       ville:
         zone de l'image (E36):
           objet représenté: 65735df9-c65a-46a3-8463-b6d4daaf00a8
+      '1262.0':
+        zone de l'image (E36):
+          lieu représenté: a4f7dcc9-92dc-4b86-ad33-81632f688efc
   1686-09a_251:
     E36:
       Semeria, Gianettino [fl.1686]:
         zone de l'image (E36):
           objet représenté: 8619184b-e2e4-4241-b546-9ab5afb73466
+      perle:
+        zone de l'image (E36):
+          objet représenté: b9f1b68a-d9f6-4890-b963-f1d5617b1f25
+      Semeria, Gianettino [fl.1686] /  83994:
+        zone de l'image (E36):
+          objet représenté: 47ae797b-96c8-4a37-a7b9-91e12ea515d0
+      'Semeria, Gianettino [fl.1686] ':
+        zone de l'image (E36):
+          objet représenté: 43bd8cf5-6c43-4db2-9fc6-03d035e593f5
+      '  83994':
+        zone de l'image (E36):
+          objet représenté: 4634b704-e668-4545-92a4-9b9c4e5cd0b5
+      '83994':
+        zone de l'image (E36):
+          objet représenté: d06d734b-cfe6-4830-8a26-d9d4e5dc435d
   1686-09b_167:
     E36:
       carrousel:
@@ -13953,6 +15532,9 @@ collection:
           objet représenté: 5475419f-301f-417d-bb3a-de84f389e8b0
       thématique:
         E13: 06ee1635-63aa-4cc6-a5b9-aa714dd65598
+      '1724.0':
+        zone de l'image (E36):
+          lieu représenté: 9a09a9c3-689e-4748-8a8c-f46b636387fb
   1686-10a_286:
     E36:
       armoiries:
@@ -13975,6 +15557,9 @@ collection:
       trône:
         zone de l'image (E36):
           objet représenté: 2fcf9ab1-383b-4270-9c26-3d71f1399d08
+      '247.0':
+        zone de l'image (E36):
+          lieu représenté: ea18942f-d772-4b24-8590-71057ac80653
   1686-12a_211:
     E36:
       médaille:
@@ -14022,6 +15607,9 @@ collection:
       pont:
         zone de l'image (E36):
           objet représenté: f9c19723-825e-411c-bbf1-cbf89c4a5c96
+      Osijek 45° 32' 24" Nord, 18° 3' 47" Est:
+        zone de l'image (E36):
+          lieu représenté: 79b4dcb4-39a8-42f6-b0c7-38d3b037f80e
   1687-06a_106:
     E36:
       vieillard:
@@ -14030,6 +15618,21 @@ collection:
       Park, Thomas:
         zone de l'image (E36):
           objet représenté: a6c103d8-b179-4cfd-a258-8ce10655f5da
+      Parr, Thomas (?1483-1635) / 84072:
+        zone de l'image (E36):
+          objet représenté: 86072773-b178-468e-9137-f8d766dd629e
+      portrait:
+        zone de l'image (E36):
+          objet représenté: 5476dcdc-0706-4d8a-98cf-119b615d3754
+      'Parr, Thomas (?1483-1635) ':
+        zone de l'image (E36):
+          objet représenté: 1a4bf526-57b6-489d-92cd-fcd0e80ace9d
+      ' 84072':
+        zone de l'image (E36):
+          objet représenté: 2bd330dd-995e-4f7d-a853-5c039f41ba65
+      '84072':
+        zone de l'image (E36):
+          objet représenté: 36874a86-18de-4e65-8434-8baa89d6a907
   1687-06b_191:
     E36:
       médaille:
@@ -14037,11 +15640,29 @@ collection:
           objet représenté: 2e228aa4-313f-43c2-98ca-ff4fe215fdd2
       thématique:
         E13: 8504d009-d850-42ed-86b9-fc0d47d909dc
+      '1851.0':
+        zone de l'image (E36):
+          lieu représenté: 8115511b-7944-4c07-bddf-25c266ace917
   1687-07_159:
     E36:
       Thököly de Késmárk, Imre, comte de [1657-1705]:
         zone de l'image (E36):
           objet représenté: bcc4e7c4-1742-4355-a055-96e354edb7b2
+      portrait:
+        zone de l'image (E36):
+          objet représenté: c2333962-aa5a-41a9-963c-8e50b9bfd811
+      Thököly de Késmárk, Imre, comte de (1657-1705) / 83796:
+        zone de l'image (E36):
+          objet représenté: 67dd81e9-c8d0-40a0-882e-55aeb60fe9de
+      'Thököly de Késmárk, Imre, comte de (1657-1705) ':
+        zone de l'image (E36):
+          objet représenté: 4c8a89f5-8283-4e19-b65b-648e7035cb0b
+      ' 83796':
+        zone de l'image (E36):
+          objet représenté: ead81ba2-2d13-4280-91ca-48acd0479e0a
+      '83796':
+        zone de l'image (E36):
+          objet représenté: a4465f31-3c3b-4325-ad52-4e1f9a8bfc3a
   1687-08a_159:
     E36:
       médaille:
@@ -14049,6 +15670,9 @@ collection:
           objet représenté: 868c65f6-6517-4f3a-b186-78fe090ea370
       thématique:
         E13: 912dfe55-d033-4a32-a4ed-37cb21706618
+      Tobago:
+        zone de l'image (E36):
+          lieu représenté: 9e779ad0-9fb4-4756-a809-f07111ae3c83
   1687-09_269:
     E36:
       médaille:
@@ -14067,6 +15691,9 @@ collection:
           objet représenté: 667d1f1f-4dae-4d86-9567-eebc4902bad3
       thématique:
         E13: 56bcd497-06d2-4c40-bb9d-a65c1d3d3441
+      '1851.0':
+        zone de l'image (E36):
+          lieu représenté: 60f13bfc-47b5-4b38-8b20-da42e4009e63
   1687-10_216:
     E36:
       médaille:
@@ -14117,6 +15744,9 @@ collection:
       morosini_francesco_(1619-1694):
         zone de l'image (E36):
           personne représentée: 37681a8a-6e1e-4ae4-8698-c3f6939eef90
+      portrait:
+        zone de l'image (E36):
+          objet représenté: 2ed5760b-f9ab-4aea-bcdf-4e15b1d80384
   1688-05b_368:
     E36:
       prophétie:
@@ -14128,6 +15758,18 @@ collection:
       écriture arabe:
         zone de l'image (E36):
           objet représenté: 0971c41b-1fb0-474d-8d22-efb891a748be
+      Mehmed IV [1642-1693] /  84106:
+        zone de l'image (E36):
+          objet représenté: bac175b0-cf78-4fee-bc8b-e399880b6bbb
+      'Mehmed IV [1642-1693] ':
+        zone de l'image (E36):
+          objet représenté: 253b2b2d-ef0d-4ddc-a5bd-8fb5c03eafb4
+      '  84106':
+        zone de l'image (E36):
+          objet représenté: 3b536476-6995-4574-bedb-090edded3600
+      '84106':
+        zone de l'image (E36):
+          objet représenté: 8c416349-ee46-49e5-bcae-e00663465a4e
   1688-06a_189:
     E36:
       médaille:
@@ -14148,6 +15790,9 @@ collection:
           personne représentée: 6e0a76d0-2cdc-48a4-91b0-d8767c9ff0d7
       thématique:
         E13: 86a677b7-7b07-400f-b2b1-72b0482eb1e3
+      '2918.0':
+        zone de l'image (E36):
+          lieu représenté: eb46719c-d6a8-4627-b521-0e08cef309e1
   1688-08_246:
     E36:
       feu d'artifice:
@@ -14161,6 +15806,9 @@ collection:
           personne représentée: b0577a5b-227a-444e-a1f1-17ece57c67da
       thématique:
         E13: e15c208c-de44-43ad-90ea-4a158d701170
+      '2982.0':
+        zone de l'image (E36):
+          lieu représenté: 0437481d-cdad-44fa-affc-233b6cb07802
   1688-09a_246:
     E36:
       médaille:
@@ -14240,6 +15888,9 @@ collection:
           objet représenté: c7ebf7d3-2350-4eeb-8f3e-bd27bcd3b13d
       thématique:
         E13: 46e11b5f-f9ba-476b-aa51-d34c37e55bd3
+      médaille:
+        zone de l'image (E36):
+          objet représenté: 6b9db818-64a0-4103-9d60-89c201ebe246
   1689-04_236:
     E36:
       monnaie:
@@ -14247,6 +15898,9 @@ collection:
           objet représenté: 6d56869e-854c-45b7-bdc6-e746187804ae
       thématique:
         E13: 899b38b6-c0d3-44e0-9bbe-94b424357c5a
+      '1294.0':
+        zone de l'image (E36):
+          lieu représenté: 0d1979e2-2ba2-404e-bd80-8883e78d770f
   1689-05a_254:
     E36:
       thériaque:
@@ -14263,6 +15917,18 @@ collection:
           objet représenté: 5985ee3d-c4fd-4ade-80ac-b774f139da38
       thématique:
         E13: d01e5ac6-d4a9-4ded-8a66-e317916e749d
+      Rouvière, Louis-Henry de [?-ca. 1712] /  rouviere_henry:
+        zone de l'image (E36):
+          objet représenté: 41432044-f0e5-4b9d-9bf2-e06e79b17811
+      'Rouvière, Louis-Henry de [?-ca. 1712] ':
+        zone de l'image (E36):
+          objet représenté: 6cee1428-8b50-41f8-96e3-d81449b2cbaa
+      '  rouviere_henry':
+        zone de l'image (E36):
+          objet représenté: a9b299aa-a8fa-41b5-9647-cf81b6970c1b
+      rouviere_henry:
+        zone de l'image (E36):
+          personne représentée: c7b08b9d-95c5-4f61-b573-8b463c6a3e6b
   1689-06_305:
     E36:
       médaille:
@@ -14284,6 +15950,18 @@ collection:
       Semeria, Gianettino (fl.1686):
         zone de l'image (E36):
           objet représenté: 855b2daf-c301-42e8-bf2d-19aee17ed19b
+      Semeria, Gianettino (fl.1686) /  83994:
+        zone de l'image (E36):
+          objet représenté: a6e01360-464c-44ff-8dd8-cfbc88c59893
+      'Semeria, Gianettino (fl.1686) ':
+        zone de l'image (E36):
+          objet représenté: 381e4c7f-bc5d-473c-b01f-75ec8d9a92c8
+      '  83994':
+        zone de l'image (E36):
+          objet représenté: 1b2613e8-f33d-405f-84e1-7b59bbcbb58a
+      '83994':
+        zone de l'image (E36):
+          objet représenté: a1d4cf62-4f2f-4924-b1a4-a678773f1070
   1689-09_239:
     E36:
       médaille:
@@ -14324,11 +16002,22 @@ collection:
           objet représenté: 96c2e4ce-473e-4818-b8d5-f0ef407f4e87
       thématique:
         E13: 2638fc08-4b1e-40c3-a8cf-41affff658f4
+      '1851.0':
+        zone de l'image (E36):
+          lieu représenté: 2b65df6e-ca94-47c2-b670-c77226d69739
   1690-01_154:
     E36:
       médaille:
         zone de l'image (E36):
           objet représenté: 14234a9e-2ce3-4100-b2cd-c12731bbabd9
+        zone d'inscription:
+          uuid: c35a995c-019b-4477-81d7-651cbaaf608c
+          E13: b3c719f7-f158-4f3d-b63d-7768ee4271df
+          inscription:
+            en légende:
+              uuid: 4d308561-1c5b-4327-9c47-06be6006e9d3
+              E13: 1d17399a-91b5-4913-a04e-b9bc5ec53963
+              contenu: 5fe9825f-b8cd-48d0-8fcc-d854e44466d9
       Afrique:
         zone de l'image (E36):
           objet représenté: 6307d940-abf2-4df2-aeff-04bfc0c16b14
@@ -14425,6 +16114,9 @@ collection:
               contenu: f94a4913-b786-4037-804b-89d1e6de8d6a
       thématique:
         E13: fbdb4017-23dc-4f4b-909f-9a74580e4228
+      '1262.0':
+        zone de l'image (E36):
+          lieu représenté: 5be6ceb7-dc82-4d40-b3a3-4375ef2383c7
   1690-11_157:
     E36:
       médaille:
@@ -14461,6 +16153,9 @@ collection:
           objet représenté: 947059dd-99cf-4ad3-a911-3ed360276687
       thématique:
         E13: 0cea8915-fdc2-4014-b594-6ee216e83f29
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: 7bcd5b19-7d50-431c-913d-0f8a85853c6e
   1691-02_177:
     E36:
       médaille:
@@ -14504,6 +16199,9 @@ collection:
       ville:
         zone de l'image (E36):
           objet représenté: 4ccc7d5a-7f00-44d2-a76d-3a7cb787284f
+      '1076.0':
+        zone de l'image (E36):
+          lieu représenté: 67ebe40e-98ad-4504-818c-eed276649167
   1691-06_208:
     E36:
       médaille:
@@ -14511,6 +16209,12 @@ collection:
           objet représenté: 8a1adae9-e803-47ba-ba6c-7effd3a83a4f
       thématique:
         E13: 398e0f61-f20e-4bbe-8e61-cfb4cd41e570
+      charles_ii_(1661-1700)_roi_despagne:
+        zone de l'image (E36):
+          personne représentée: a23894b4-9b5f-4015-b5e8-8092a86c7520
+      pfalz-neuburg_marie-anne_von_(1667-1740):
+        zone de l'image (E36):
+          personne représentée: 04b6d37b-1f58-4f11-9ddd-6dc33796acdb
   1691-08_161:
     E36:
       médaille:
@@ -14585,6 +16289,12 @@ collection:
               contenu: b0c95d92-388b-436f-96cb-02b4229e98b8
       thématique:
         E13: cdc643be-7c14-49dc-9b2a-202575dd49ab
+      '1057.0':
+        zone de l'image (E36):
+          lieu représenté: c95a1854-798d-441c-8891-0f0a714c7700
+      victoire:
+        zone de l'image (E36):
+          objet représenté: e25c5245-acfe-4006-b673-233da1e62c59
   1692-01_288:
     E36:
       médaille:
@@ -14592,6 +16302,9 @@ collection:
           objet représenté: d353d2f7-0d25-4116-af08-24fef07965e1
       thématique:
         E13: d8f5b908-f853-4c24-8848-87e98e0724fa
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: 99e3d492-b73d-446a-a09d-a7450a52d328
   1692-02_324:
     E36:
       banquet:
@@ -14605,6 +16318,9 @@ collection:
           objet représenté: ed819a2c-b480-4e45-b868-ddf7fef1628b
       thématique:
         E13: d2450681-525f-4ebd-9956-c1e94bdeb53c
+      '227.0':
+        zone de l'image (E36):
+          lieu représenté: 75cdbb00-3dc4-426a-a1ce-a06d0712ae4e
   1692-02_326:
     E36:
       banquet:
@@ -14618,6 +16334,9 @@ collection:
           objet représenté: 0afde75b-e7ad-4a7e-a548-88bce3e1e1c0
       thématique:
         E13: 6a34ecd4-a637-4386-a2fa-ac06fb9ac3cb
+      '227.0':
+        zone de l'image (E36):
+          lieu représenté: 14f75771-0805-47d3-8e76-f7f092968fda
   1692-03_175:
     E36:
       médaille:
@@ -14632,11 +16351,20 @@ collection:
           objet représenté: 1b08a579-f4a6-4cd0-8123-21ad73973deb
       thématique:
         E13: cc150812-a5b7-4ac4-882a-0dc236dccf2a
+      '2944.0':
+        zone de l'image (E36):
+          lieu représenté: 9c121676-b441-4c1d-bb98-e8cb2fe56bb6
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: 3ee0dabd-0316-4368-bf02-d41a77f2fb38
   1692-06_239:
     E36:
       camp militaire:
         zone de l'image (E36):
           objet représenté: f67aaf85-aa6c-4d74-bc46-5a0b2e89f831
+      '275846.0':
+        zone de l'image (E36):
+          lieu représenté: 39ae4205-f04c-44cd-a2e3-80f7bea05264
   1692-07_274:
     E36:
       arc de triomphe:
@@ -14644,6 +16372,12 @@ collection:
           objet représenté: 1c93d1a6-1a19-4ea9-96e1-591b6082ac1f
       thématique:
         E13: e6a3b883-d26e-43c4-bbdb-6875ba6e75e8
+      '536.0':
+        zone de l'image (E36):
+          lieu représenté: d804e611-60e0-4060-91b7-c87882bf1513
+      Dulieu, prévôt des marchands et les échevins de la ville de Lyon:
+        zone de l'image (E36):
+          objet représenté: ed453f6d-2ac1-4efb-bb8d-fd3f4986e3ca
   1692-08a_181:
     E36:
       médaille:
@@ -14658,6 +16392,9 @@ collection:
           objet représenté: c2f7404c-b965-44a4-8f1b-dd9c96e53f07
       thématique:
         E13: 6d5417ef-4b4e-4e39-8c74-62369f61eb6e
+      '1081.0':
+        zone de l'image (E36):
+          lieu représenté: f013962b-2f3f-49d9-b579-c31edd58f41e
   1692-11_175:
     E36:
       médaille:
@@ -14673,6 +16410,9 @@ collection:
               contenu: 3b34d09d-37fc-4581-b040-75e5adfcbb09
       thématique:
         E13: 85594759-8f1b-462f-b93e-42d1ea5cc03d
+      '1081.0':
+        zone de l'image (E36):
+          lieu représenté: 55a1bdb7-5471-4661-8f85-d2e4af2ebe52
   1692-12_182:
     E36:
       corne:
@@ -14723,6 +16463,18 @@ collection:
           objet représenté: 8473774b-504a-477c-a0e7-7692ae5b3112
       thématique:
         E13: 51f02f05-3d0e-40ec-9809-bea9dee75067
+      Baden, Louis-Guillaume [1655-1707], prince de /  84080:
+        zone de l'image (E36):
+          objet représenté: 08f3c4cb-0948-46db-9121-8e9f0a511272
+      'Baden, Louis-Guillaume [1655-1707], prince de ':
+        zone de l'image (E36):
+          objet représenté: a19dac64-d6bf-4191-995d-965d3c6619a2
+      '  84080':
+        zone de l'image (E36):
+          objet représenté: f9f7c1cd-7c5c-4649-93d0-0bf6a15597d7
+      '84080':
+        zone de l'image (E36):
+          objet représenté: eeed4d30-54c9-47f3-8d32-91ce9c7a8b4c
   1693-09_266:
     E36:
       médaille:
@@ -14744,6 +16496,11 @@ collection:
           objet représenté: f7849c49-0892-47a3-be31-13ce9e0590d6
       thématique:
         E13: 01607c20-a26b-46c7-87b9-d2f4d3474039
+      ? ' 1076 ;  1564
+
+        '
+      : zone de l'image (E36):
+          lieu représenté: f63ba2d9-9438-45b8-b2a3-8930500d8587
   1693-10_327:
     E36:
       médaille:
@@ -14759,6 +16516,9 @@ collection:
               contenu: 5b6619d7-0f9b-4508-b28a-0b53ebae2cb0
       thématique:
         E13: ef4a9cb2-87d8-4a10-afa4-fec19c2c7a92
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: 627f3882-73a6-493f-9555-1a9f97478f8d
   1693-12_008:
     E36:
       médaille:
@@ -14786,6 +16546,9 @@ collection:
           objet représenté: 0ae63ae6-1b5e-4ff1-8510-78cae3ea0d6c
       thématique:
         E13: 4a74a749-41b8-48b0-8b3d-32a0d248a1b7
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: d5da2721-c517-4aed-b7e8-0abaaba67ed6
   1694-01_204:
     E36:
       médaille:
@@ -14812,6 +16575,9 @@ collection:
           objet représenté: 1349ecee-fbcc-4ea4-b096-b3aa2d4724b2
       thématique:
         E13: b0ca8cf4-b743-4aca-9b7f-8079a84765f4
+      ulrique-eleonore_(1655-1693)_reine_de_suede:
+        zone de l'image (E36):
+          personne représentée: 787b0085-94db-4e86-8f41-48d2b8f712fe
   1694-05_265:
     E36:
       médaille:
@@ -14826,6 +16592,9 @@ collection:
           objet représenté: 6b7874e3-c11b-4dce-9a14-35cfc0ddec48
       thématique:
         E13: c916055b-f4a6-4f83-b2bb-8eb33b955099
+      médaille:
+        zone de l'image (E36):
+          objet représenté: f8a1ac73-3648-45d4-8da0-70575f9277ab
   1694-09_126:
     E36:
       médaille:
@@ -14839,6 +16608,9 @@ collection:
           objet représenté: 2a06b941-b46f-4faf-ad07-eeb6bbfc41aa
       thématique:
         E13: d577bc7e-a1c6-44de-b8d9-3cdda47e0d36
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: 6b638f64-4885-4b59-a5f4-1d81cf150351
   1694-10_161:
     E36:
       bombe:
@@ -14847,11 +16619,16 @@ collection:
       équipement militaire:
         zone de l'image (E36):
           objet représenté: e42c4c0a-5e1c-4ff8-b7a6-33c1232fcfea
+      thématique:
+        E13: 09597b8b-3fd5-4fa0-aaf6-eafa2eb05fcb
   1694-10_255:
     E36:
       combat naval:
         zone de l'image (E36):
           objet représenté: fc4f69e2-5e0c-44f6-87e7-c2bc3e24030a
+      '2611.0':
+        zone de l'image (E36):
+          lieu représenté: 3ee70eb0-129f-4a18-8a80-cd2aeec09306
   1694-12_172:
     E36:
       médaille:
@@ -14859,6 +16636,9 @@ collection:
           objet représenté: 8a7affaa-162a-47a5-a4f8-7861e45abdaf
       thématique:
         E13: 67ec4500-59b8-4c6e-a483-819be0104894
+      '831.0':
+        zone de l'image (E36):
+          lieu représenté: fd2460cb-7480-4deb-849b-287f0ba9425d
   1695-01_185:
     E36:
       médaille:
@@ -14879,6 +16659,18 @@ collection:
           objet représenté: a1eb537f-9a3d-4dea-946d-d3cc07a320d3
       thématique:
         E13: 364dd75f-2da9-45f9-99cd-e03ac9baeb6e
+      Reine d'Angleterre [reg.1689-1694] /  84010:
+        zone de l'image (E36):
+          objet représenté: 6c6d7fe7-8a55-444e-99fb-a033cea8c1f6
+      'Reine d''Angleterre [reg.1689-1694] ':
+        zone de l'image (E36):
+          objet représenté: 8c3ab372-b9db-4538-b769-45049d5ea39a
+      '  84010':
+        zone de l'image (E36):
+          objet représenté: d10cf984-04ef-4915-91e3-6382c4e3855c
+      '84010':
+        zone de l'image (E36):
+          objet représenté: 49e40424-a9d0-41a4-9018-364766c5748c
   1695-03_052:
     E36:
       médaille:
@@ -14886,6 +16678,18 @@ collection:
           objet représenté: b68183ea-25b0-49e1-b9d0-77ee43e4e86f
       thématique:
         E13: 64a6e898-245f-44d6-876e-fd7e7d750177
+      Stuart, Marie II [1622-1694], reine d'Angleterre [reg.1689-1694] /  84010:
+        zone de l'image (E36):
+          objet représenté: 931fa949-5dec-4b69-b66e-470ae21181c0
+      'Stuart, Marie II [1622-1694], reine d''Angleterre [reg.1689-1694] ':
+        zone de l'image (E36):
+          objet représenté: ad4a9c7d-ca5e-48f3-95ba-97ef3dbb0118
+      '  84010':
+        zone de l'image (E36):
+          objet représenté: f9d02479-bb81-44d4-b826-e26d7369f2bd
+      '84010':
+        zone de l'image (E36):
+          objet représenté: 16713316-33aa-492b-844b-bf39f6b80b47
   1695-04_158:
     E36:
       cercles:
@@ -14907,16 +16711,25 @@ collection:
           personne représentée: c5de6d89-f193-4fe4-8e3e-84685a2140e7
       thématique:
         E13: 56459356-569e-46ab-bdc8-0661432877d5
+      '97.0':
+        zone de l'image (E36):
+          lieu représenté: b896bf58-b2a5-41e3-9cf5-86cf4d9730cf
   1695-06_231:
     E36:
       position des armées sur le terrain:
         zone de l'image (E36):
           objet représenté: be4c4c98-9bc6-4b02-882a-c3436d268983
+      position des armées sur le champ de bataille:
+        zone de l'image (E36):
+          objet représenté: cfc372cb-a9a4-444b-91fc-f97346bd37ef
   1695-07_167:
     E36:
       position des armées sur le terrain:
         zone de l'image (E36):
           objet représenté: 0c80a0ce-2271-4f1f-95dd-8a1bdb934a9c
+      position des armées sur le champ de bataille:
+        zone de l'image (E36):
+          objet représenté: 90d9073b-6c63-41f0-a566-1167f5cff31e
   1695-08_202:
     E36:
       Mercure:
@@ -14940,16 +16753,23 @@ collection:
       outil de navigation:
         zone de l'image (E36):
           objet représenté: ba5a76f9-3c39-4f6d-9e9b-0c028f0fc45b
+      thématique:
+        E13: f6d6c6de-8a3b-4a57-8623-6bad5cfdae91
   1695-11_090:
     E36:
       outil de navigation:
         zone de l'image (E36):
           objet représenté: 1279f5be-25b6-413d-a007-f1ac80c7cc91
+      thématique:
+        E13: d776e103-de41-4529-9352-7611cd53cace
   1695-12_141:
     E36:
       Amphithéâtre:
         zone de l'image (E36):
           objet représenté: 913266ad-5456-4ae8-bc48-2c6b8a57c566
+      amphithéâtre:
+        zone de l'image (E36):
+          objet représenté: 563ac81e-3933-4aa9-927f-731ad13fbb23
   1696-02_197:
     E36:
       médaille:
@@ -14973,6 +16793,9 @@ collection:
           objet représenté: c4364350-d635-4a0d-ac08-8138adf363db
       thématique:
         E13: 90f47946-7438-4775-8c80-a7a569f58622
+      jetons:
+        zone de l'image (E36):
+          objet représenté: 082a6d79-2140-42c1-82db-26ad6f6c37f3
   1696-05_152:
     E36:
       écorce gravée:
@@ -14993,6 +16816,9 @@ collection:
           objet représenté: 82facc7b-1a35-49b8-b9d7-835b3723af49
       thématique:
         E13: cb6db98b-25a6-43ae-834f-59a817252fbf
+      '1938.0':
+        zone de l'image (E36):
+          lieu représenté: 145e13c5-fe35-4ab5-8d5e-3b44fbec4ca9
   1696-07_180:
     E36:
       fontaine:
@@ -15000,6 +16826,9 @@ collection:
           objet représenté: d76ddf19-7897-4292-b230-65bf5aa0816b
       thématique:
         E13: c3e95a0f-4f97-4466-aad9-2d54dde1664b
+      '295637.0':
+        zone de l'image (E36):
+          lieu représenté: c8b26387-4f1a-49be-becc-e715a0b95d5a
   1696-08_281:
     E36:
       camp:
@@ -15011,6 +16840,9 @@ collection:
       ? ''
       : zone de l'image (E36):
           objet représenté: e09b3886-261c-4f3f-b72f-28cfcccefd60
+      Saint-Gérard:
+        zone de l'image (E36):
+          lieu représenté: c138144f-d1b3-4137-9cbc-33552d1e2b13
   1696-10_158:
     E36:
       baleine:
@@ -15171,6 +17003,9 @@ collection:
           personne représentée: bc7496be-324e-4bc7-bd93-aa27ea559572
       thématique:
         E13: 8e554feb-7e78-47a8-8b5d-e86176a6de59
+      '275601.0':
+        zone de l'image (E36):
+          lieu représenté: 52702a54-bf41-499b-a049-b0f82b3adb78
   1702-01_290:
     E36:
       jetons:
@@ -15207,6 +17042,9 @@ collection:
           objet représenté: d1ed8a1a-a6f5-4a47-a89e-e7e8d83838b1
       thématique:
         E13: 88c8baf6-f65e-48ad-b8d6-e5c7d1bef234
+      noailles_louis-antoine_de_(1651-1729):
+        zone de l'image (E36):
+          personne représentée: d94a50e5-d4ea-43aa-ada5-88c3d3134604
   1703-01_141:
     E36:
       jetons:
@@ -15223,6 +17061,15 @@ collection:
           personne représentée: 433d6d10-21c2-481c-ab68-e2d397a055ee
       thématique:
         E13: aa18669e-f068-4910-b789-b460783025b5
+      Durand, M. (fl. 1700-1709) / 83371:
+        zone de l'image (E36):
+          objet représenté: 22e27245-2aca-4f0e-aed8-8bf98e0416d6
+      'Durand, M. (fl. 1700-1709) ':
+        zone de l'image (E36):
+          objet représenté: 797b715e-d3ba-4738-90fd-a28992b47a11
+      ' 83371':
+        zone de l'image (E36):
+          objet représenté: 4ee46bf2-b960-454f-8ba6-16308ec5dbf5
   1704-01_215:
     E36:
       jetons:
@@ -15289,6 +17136,15 @@ collection:
           personne représentée: 1fea1006-1889-472c-abb1-ae678b1c45fa
       thématique:
         E13: d6d92a32-9973-4d95-8a80-3043c4553d93
+      Albani, Giovanni Francesco (1649-1721) / 276013:
+        zone de l'image (E36):
+          objet représenté: 77cfe17e-222e-4ccd-ba83-adad25daccbe
+      'Albani, Giovanni Francesco (1649-1721) ':
+        zone de l'image (E36):
+          objet représenté: 9eedd45e-445a-4963-986b-4c2fa20415b1
+      ' 276013':
+        zone de l'image (E36):
+          objet représenté: 8950c59b-2e7b-4a80-b589-18a9518309e0
   1707-01_162:
     E36:
       jetons:
@@ -15296,6 +17152,9 @@ collection:
           objet représenté: 88719ce2-ab40-4bfa-a4bd-5e6db0274529
       thématique:
         E13: e799e9de-8030-4cb2-aa08-f0fdf7d6c2e8
+      bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de:
+        zone de l'image (E36):
+          personne représentée: 5512e419-1bf6-4a77-a677-6771314952d0
   1708-01_144:
     E36:
       jetons:
@@ -15330,3 +17189,12 @@ collection:
           personne représentée: 9ff96c8d-8cd5-45a8-a9c5-ba25deba68ba
       thématique:
         E13: 2c011a6c-2860-4b86-b5a9-def85069ca62
+      Bretagne, Louis de Bourbon (1704-1705), duc de / 48422:
+        zone de l'image (E36):
+          objet représenté: 9213f881-6336-4950-868b-3325b37dcd7e
+      'Bretagne, Louis de Bourbon (1704-1705), duc de ':
+        zone de l'image (E36):
+          objet représenté: b0d82138-600a-40d4-a00c-cfb766a9de04
+      ' 48422':
+        zone de l'image (E36):
+          objet représenté: 7ed04bbf-c8ab-447c-81a5-bfcee9563ee4
