@@ -151,7 +151,7 @@ def explore(concept, depth):
 
     identifier = ro(concept, DCTERMS.identifier)
     E74_uri = she(cache_congregations.get_uuid(["congregations", identifier, "uuid"], True))
-    t(F34_congregations_uri, crm("P71_lists"), E74_uri)
+    t(E32_congregations_uri, crm("P71_lists"), E74_uri)
     t(E74_uri, a, crm("E74_Group"))
 
     # IDENTIFIER OPENTHESO
@@ -280,20 +280,20 @@ def explore(concept, depth):
 # GENERATION DU TURTLE
 ####################################################################################
 
-F34_congregations_uri = URIRef(iremus_ns["a5145217-5642-4f08-8566-1c1bbe9c0b4e"])
-t(F34_congregations_uri, a, crm("F34_Controlled_Vocabulary"))
-t(F34_congregations_uri, crm("P1_is_identified_by"), Literal("Congrégations religieuses"))
+E32_congregations_uri = URIRef(iremus_ns["a5145217-5642-4f08-8566-1c1bbe9c0b4e"])
+t(E32_congregations_uri, a, crm("E32_Authority_Document"))
+t(E32_congregations_uri, crm("P1_is_identified_by"), Literal("Congrégations religieuses"))
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_regulier&idt=166"), 0)
-t(F34_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
+t(E32_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
   she(cache_congregations.get_uuid(["congregations", "clerge_regulier", "uuid"], True)))
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166"), 0)
-t(F34_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
+t(E32_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
   she(cache_congregations.get_uuid(["congregations", "clerge_seculier", "uuid"], True)))
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=papaute&idt=166"), 0)
-t(F34_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
+t(E32_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
   she(cache_congregations.get_uuid(["congregations", "papaute", "uuid"], True)))
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")

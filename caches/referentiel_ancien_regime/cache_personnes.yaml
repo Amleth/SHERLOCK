@@ -4317,6 +4317,8 @@ personnes:
     note:
       E13: c3e08c8f-fffe-4508-9d9c-58875036287b
       a3a22ee5912b663268e08fe84420b81a57a9c567: c7be324c-2ca3-474a-a07e-f27189dfedb9
+    indexation:
+      E13: 803f315a-f69f-4cf1-bb7e-043c261a9617
   testu_de_belval_jacques_(1626-1706):
     uuid: d372f09f-68d6-4deb-9b9e-1b4912fbf5d8
     E41: a89fd838-b7c0-4dd2-8533-863881ccb720
@@ -8114,6 +8116,8 @@ personnes:
     note:
       E13: 511ef24a-6bbd-4bd0-a6e4-ea37ae6166c9
       030d0726a6aece7d26b11c7775d965b653e003d6: 2e73639b-cb76-41df-ad85-d8deabff13e9
+    indexation:
+      E13: fbc330e1-8a05-438e-84f7-c2ecad388219
   '38583':
     uuid: 05f946ee-b0bb-4f9d-b3ca-b429d2d65cad
     E41: bddb4cd7-e6ce-4deb-b0be-6d7d613a7cf5
@@ -15987,6 +15991,8 @@ personnes:
     note:
       E13: f70d4d0f-d7af-4b9a-aac2-bf5f3c9c0946
       8a32b08dccb5ae72e2eef24629213d3d9e9d7ea8: 74166df0-83cc-4145-843e-003e63bc0e79
+    indexation:
+      E13: b8b3819d-b18b-4fbd-a9dd-f73e2623c504
   la_tourette_mlle_de_bonneville_mme_de:
     uuid: e6547b8c-a95c-4585-9f08-6ef7727ac2ca
     E41: fc783221-de4f-4a24-91b8-87042e74fa2c
@@ -21727,6 +21733,8 @@ personnes:
     note:
       E13: 8cbf7c21-3f81-4677-a84d-f114feb4f683
       c515e5c626fddbea53c3bc7958e9377d1461a5d5: 76183537-97d1-4030-b01e-f5cdb2bcabee
+    indexation:
+      E13: 9f25ecc2-9d2d-4b43-aed3-70e5cb3e139e
   archeveque_dalep:
     uuid: 97dfff25-c040-4da4-914d-45633f2c1990
     E41: e45601fd-0021-496d-9d5b-a5b957aca3a7
@@ -28779,6 +28787,8 @@ personnes:
     note:
       E13: 7f1a2a0c-a402-452a-b2dd-9f601f1fd2f4
       3e7725f8e627b2a059cd8f7bd5f7be3128feb950: ca11f304-dfc2-4b54-a1d2-efd731b8cc6c
+    indexation:
+      E13: 4badff66-ded7-4410-af91-cc69efd74017
   savoie-soissons_jeanne_de_(1665-1705):
     uuid: 35bd7363-8e70-4bc2-b8e0-5514166c6f5a
     E41: 8b55ac16-bb2c-4620-ac2e-16ba4bbb316a

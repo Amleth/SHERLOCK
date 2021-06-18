@@ -1,11 +1,10 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix she: <http://data-iremus.huma-num.fr/id/> .
 
-<957985bf-e95a-4e29-b5ad-3520e2eea34e> a lrmoo:F34_Controlled_Vocabulary ;
+<957985bf-e95a-4e29-b5ad-3520e2eea34e> a crm:E32_Authority_Document ;
     <sheP_a_pour_entité_de_plus_haut_niveau> <640cc5b1-ff0c-4562-af97-ba54dab93c6f>,
         <8418ccac-d7ce-4be3-bf2c-791776d5e85e>,
         <e2831f24-319f-4560-bf0c-2bf0454bd1c5> ;

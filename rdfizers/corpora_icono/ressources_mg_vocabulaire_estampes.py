@@ -54,10 +54,10 @@ fichier_excel = load_workbook(args.xls)
 vocab_excel = fichier_excel.active
 
 # TRIPLETS
-F34_uuid = she('957985bf-e95a-4e29-b5ad-3520e2eea34e')
-g.add((F34_uuid, RDF.type, lrm('F34_Controlled_Vocabulary')))
-g.add((F34_uuid, crm('P1_is_identified_by'), l("Vocabulaire d'indexation des gravures du Mercure Galant")))
-g.add((F34_uuid, DCTERMS.creator, she('ea287800-4345-4649-af12-7253aa185f3f')))
+E32_uuid = she('957985bf-e95a-4e29-b5ad-3520e2eea34e')
+g.add((E32_uuid, RDF.type, crm('E32_Authority_Document')))
+g.add((E32_uuid, crm('P1_is_identified_by'), l("Vocabulaire d'indexation des gravures du Mercure Galant")))
+g.add((E32_uuid, DCTERMS.creator, she('ea287800-4345-4649-af12-7253aa185f3f')))
 
 for row in vocab_excel:
 
@@ -80,10 +80,10 @@ for row in vocab_excel:
         E55_Type = she(cache.get_uuid([*broaders, "uuid"], True))
         t(E55_Type, a, crm("E55_Type"))
         t(E55_Type, crm("P1_is_identified_by"), l(broaders[-1]))
-        t(F34_uuid, crm("P71_lists"), E55_Type)
+        t(E32_uuid, crm("P71_lists"), E55_Type)
 
     top_concept = she(cache.get_uuid([broaders[0], "uuid"], True))
-    t(F34_uuid, she("sheP_a_pour_entité_de_plus_haut_niveau"), top_concept)
+    t(E32_uuid, she("sheP_a_pour_entité_de_plus_haut_niveau"), top_concept)
 
     if len(broaders) >= 2:
         for i in range(1, len(broaders)):
