@@ -157,27 +157,27 @@ for row in sheet.iter_rows(min_row=2):
     id_livraison = id_article.split("_")
     id_livraison = id_livraison[0]
 
-    # try:
-    #     ## Livraison originale
-    #     ### Air
-    #     livraison_F2_originale = she(
-    #         cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
-    #     t(livraison_F2_originale, crm("P148_has_component"), F2_air_uuid)
-    #     ### Texte
-    #     livraison_F2_originale = she(
-    #         cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
-    #     t(livraison_F2_originale, crm("P148_has_component"), F2_texte_uuid)
-    #     ### Livraison TEI
-    #     ## Air
-    #     livraison_F2_TEI = she(
-    #         cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
-    #     t(livraison_F2_TEI, crm("P148_has_component"), F2_air_uuid)
-    #     ## Texte
-    #     livraison_F2_TEI = she(
-    #         cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
-    #     t(livraison_F2_TEI, crm("P148_has_component"), F2_texte_uuid)
-    # except:
-    #     print("L'article ou la livraison", id_article, "(" + id_livraison + ") est introuvable")
+    try:
+        ## Livraison originale
+        ### Air
+        livraison_F2_originale = she(
+            cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
+        t(livraison_F2_originale, crm("P148_has_component"), F2_air_uuid)
+        ### Texte
+        livraison_F2_originale = she(
+            cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
+        t(livraison_F2_originale, crm("P148_has_component"), F2_texte_uuid)
+        ### Livraison TEI
+        ## Air
+        livraison_F2_TEI = she(
+            cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
+        t(livraison_F2_TEI, crm("P148_has_component"), F2_air_uuid)
+        ## Texte
+        livraison_F2_TEI = she(
+            cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
+        t(livraison_F2_TEI, crm("P148_has_component"), F2_texte_uuid)
+    except:
+        print("L'article ou la livraison", id_article, "(" + id_livraison + ") est introuvable")
 
     # Note sur la musique
     F2_air_note_E13 = she(cache.get_uuid([id, "air", "F2", "note sur la musique"], True))
@@ -262,7 +262,7 @@ for row in sheet.iter_rows(min_row=2):
         #TODO Aligner le compositeur sur le référentiel des personnes
 
     # TODO Alignement du texte aux référentiels (l. 41 de la modélisation)
-    # Lieux concernés
+    # Indexation des lieux
     if row[9].value:
         lieux = row[9].value.split("\t")
         for lieu in lieux:
@@ -273,6 +273,27 @@ for row in sheet.iter_rows(min_row=2):
             t(F2_texte_lieu_E13, crm("P141_assigned"), l(lieu))
             t(F2_texte_lieu_E13, crm("P177_assigned_property_type"), crm("P67_refers_to"))
             #TODO Alignement au référentiel des lieux : comment faire à partir du nom de lieu et non de son id?
+
+    # Indexation des mots-clés
+    if row[12].value:
+        mots_clés = row[12].value.split("\t")
+        for mot_clé in mots_clés:
+            try:
+                F2_texte_mot_clé_E13 = she(cache.get_uuid([id, "texte", "F2", "mots-clés", "E13"], True))
+                t(F2_texte_mot_clé_E13, a, crm("E13_Attribute_Assignement"))
+                t(F2_texte_mot_clé_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                t(F2_texte_mot_clé_E13, crm("P140_assigned_attribute_to"), F2_texte_uuid)
+                t(F2_texte_mot_clé_E13, crm("P141_assigned"), l(mot_clé))
+                t(F2_texte_mot_clé_E13, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+            except:
+                F2_texte_mot_clé_E13 = she(cache.get_uuid([id, "texte", "F2", "mots-clés", "E13"], True))
+                t(F2_texte_mot_clé_E13, a, crm("E13_Attribute_Assignement"))
+                t(F2_texte_mot_clé_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                t(F2_texte_mot_clé_E13, crm("P140_assigned_attribute_to"), F2_texte_uuid)
+                t(F2_texte_mot_clé_E13, crm("P141_assigned"), l(mot_clé))
+                t(F2_texte_mot_clé_E13, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+
+            # TODO Alignement au référentiel des mots-clés ou création d'un thésaurus spécifique à l'indexation musicale?
 
     # TODO Colonne H "Note sur les dates" : quelles dates? Ajouter simplement un P3(E13) sur le F2 de l'air?
 

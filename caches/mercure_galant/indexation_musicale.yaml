@@ -27,6 +27,8 @@ ah_je_ne_sais_ce_que_mon_coeur_demande:
           uuid: da9afc3a-5fe0-4d02-a19c-acce5bb8b254
           E41: 5a6429e4-1286-4450-a9d2-1f2c66e50284
         E13: 32552642-a4c1-426e-a618-607fff2c1332
+      mots-clés:
+        E13: c967e7e9-0cb9-4336-878c-56df0ec33c98
   air:
     F1:
       uuid: 299ff525-f4e8-466e-abf0-af621d7c6f6f
@@ -123,6 +125,8 @@ ma_douleur_est_extrême:
         E13: a2b600d1-5f70-4725-a7dd-e728801c516d
       lieux concernés:
         E13: 61e3220f-eb57-409d-ac3a-d50353866293
+      mots-clés:
+        E13: 2b8c7378-9efe-4666-8f82-dd10d7d6c6e7
   air:
     F1:
       uuid: ecd9bfe4-149f-4fd2-802d-3e3231321994
@@ -264,6 +268,8 @@ chante_qui_voudra_le_printemps:
           uuid: fb1e7b0a-868f-462f-8da8-10ca2d9c1744
           E41: e667eda4-017e-4b20-b8fb-9685b9c133ac
         E13: e5393b0d-edb6-4be0-80bc-8da899145a4c
+      mots-clés:
+        E13: 7aaaf0a4-ad70-4f97-8124-71540a47367d
   air:
     F1:
       uuid: f6ea2d0f-b1c7-40ab-9dd8-1b54155cb58f
@@ -311,6 +317,8 @@ doux_raisin_dont_l'amour_redoute_la_puissance:
           uuid: 05d51a9f-1878-4209-948d-e78c8717676c
           E41: fc01b475-ffa3-40b8-9740-a483a7203025
         E13: 82bd5711-bb2f-4376-994f-8603b1e94596
+      mots-clés:
+        E13: 2fc20628-1c06-4de0-a499-57526693c5d0
   air:
     F1:
       uuid: fd640d3f-7aba-4434-b0bd-d8bb8be7967a
@@ -546,6 +554,8 @@ le_printemps_commence_à_paraître:
           uuid: 7d45c34b-bd3e-43fd-9f2a-a813a29a9563
           E41: fa8cdd01-3906-4a90-8e03-1d0cef88d9a5
         E13: b4a45004-e5ce-43f2-be66-cc7a6ff34ff0
+      mots-clés:
+        E13: b32f85d0-085b-48f9-a691-942ee0c8c654
   air:
     F1:
       uuid: c04ed27b-e91e-416e-ba6c-4ae7a66f3c27
@@ -593,6 +603,8 @@ profitons_tous_de_la_saison_nouvelle:
           uuid: af1aea9a-c23a-40d5-bb44-87f1ac3332f1
           E41: b6222c69-7487-4480-9f72-998c10fee298
         E13: 424109b1-d41a-4be2-a638-4e7be8ee3f85
+      mots-clés:
+        E13: 6d3c871d-5e08-433c-82b5-b93469a37836
   air:
     F1:
       uuid: cdf14791-a15f-4df3-8c2d-26cab2457f59
@@ -640,6 +652,8 @@ le_printemps_fait_éclore_aujourd'hui_mille_fleurs:
           uuid: be735bc8-60df-4bc0-ac81-06c9079315d3
           E41: 518d86a9-95ac-4b60-b8f3-fb2216f4847b
         E13: 14b7f2ff-4be7-4b20-b7e4-ebd3fdca2974
+      mots-clés:
+        E13: 890ff6b8-8aef-4e84-8a19-48128de6280a
   air:
     F1:
       uuid: 83160db5-5f3c-416a-8d01-985345e1f860
@@ -687,6 +701,8 @@ le_printemps_se_passe_sylvie:
           uuid: 7ab9758d-0803-4e40-b87c-79f203f86a3a
           E41: 898e1e4e-b04b-4fff-b189-8870c33e53c9
         E13: 4b6b46b8-e51e-4ca4-bc65-881d896ed42f
+      mots-clés:
+        E13: 1440760f-bb98-4b6f-bca5-3311835aa256
   air:
     F1:
       uuid: 42135860-0d8d-4b26-a2db-6655e2a92a2b
@@ -734,6 +750,8 @@ la_saison_des_zéphirs_est_celle_de_l'amour:
           uuid: ecbdb968-fc72-4c28-a9ed-086855e1feb9
           E41: cc0e9d45-9a03-4f4c-885d-beaa63212cbe
         E13: 831d4d89-ab22-4910-bd04-e2939cbfd254
+      mots-clés:
+        E13: 987e1d4f-5f9d-4c83-b4bd-e2cd8c324a74
   air:
     F1:
       uuid: a2376752-af1e-43e6-9b1e-73778ae6fb63
@@ -781,6 +799,8 @@ belle_et_jeune_saison_ton_retour_est_charmant:
           uuid: 083dddf7-f68b-4a48-8359-feb93da282c8
           E41: 138e7067-e2c9-4fab-88e6-b838928067c3
         E13: 72cc7220-1a39-4b50-b3f9-6e0be74bd2bc
+      mots-clés:
+        E13: e535e812-c462-41be-b1e0-2b71c268aa39
   air:
     F1:
       uuid: f0ae8100-ec84-42ef-8626-84c2b9922b24
@@ -922,6 +942,8 @@ quand_le_printemps_dans_les_champs_nous_appelle:
           uuid: c96e6750-82d9-4831-9e31-dd26342343e2
           E41: 9edad8b4-f08d-40d4-be81-a2bc3a83fc9d
         E13: c71ad354-293e-4056-b2fb-3929def836ce
+      mots-clés:
+        E13: f08331c5-7514-4e56-b59c-2440e562c4ca
   air:
     F1:
       uuid: 58d13a27-a3a9-4b83-8ca2-16f0e917e425
@@ -1392,6 +1414,8 @@ puisque_vous_ressemblez_à_celle_qui_vous_donna_l'être:
           uuid: 8d845a22-144c-4830-869b-53b7fa4f2649
           E41: a5541ac7-43ab-41a5-982d-f33c48a4d03d
         E13: 79670242-9a87-41f5-aa0e-3df83f336544
+      mots-clés:
+        E13: ec4006c4-b51b-4a6b-9805-7c8f183a6050
   air:
     F1:
       uuid: 0ed196fb-8f0c-4c84-b4bc-b5f8bbd6c84e
@@ -1486,6 +1510,8 @@ ce_qui_fait_le_printemps:
           uuid: b08c2a83-3155-4787-9069-5ed65cc00381
           E41: 1bc6dce6-9b0c-48ba-b8a6-669e405e964c
         E13: e4b1fdb6-eeaa-410a-9d27-b5345bbf1244
+      mots-clés:
+        E13: fb05e1fc-8107-46c4-af49-99a680f774ef
   air:
     F1:
       uuid: cbf6db33-0cef-4938-b245-68df1af1fb1f
@@ -1533,6 +1559,8 @@ si_l'hiver_vous_tenez_vos_passions_secrètes:
           uuid: 23d13d5b-8163-4b33-aa17-b975bc394fbe
           E41: c80ef719-fdc7-40b1-b659-ea575f867238
         E13: f728b5f0-0378-447b-919c-f31fca58c4c5
+      mots-clés:
+        E13: cbc48339-2995-4764-b5ed-9d7248f075e4
   air:
     F1:
       uuid: 7e115cdf-5767-4df1-8e4d-8c3eac94de39
@@ -1580,6 +1608,8 @@ en_vain_tu_peins_nos_champs_des_plus_vives_couleurs:
           uuid: 320c91d6-2c4d-4b66-b813-a988e9303dc4
           E41: bf0e2897-64b8-4cae-b193-f506f66f67fe
         E13: 9b37ac79-bff5-44b5-977a-8049d388fdeb
+      mots-clés:
+        E13: b5ac02f3-9b1f-4551-8e23-64a577fddfee
   air:
     F1:
       uuid: 994d1fc2-d168-4862-8216-83d60d129d06
@@ -1627,6 +1657,8 @@ l'hiver_ne_cache_plus_les_fleurs_ni_les_gazons:
           uuid: 22e50197-fcdd-48bf-945e-416f86065282
           E41: af23c512-2d5f-4034-93b6-58e78e269356
         E13: 51bae275-5e1c-42f5-b777-e764342b0575
+      mots-clés:
+        E13: b3d9dee0-005d-4288-b989-bca6ad617153
   air:
     F1:
       uuid: 4ebeec57-6ae2-4d62-b39f-6a141f7d8400
@@ -1674,6 +1706,8 @@ vents_qui_portez_partout_votre_funeste_rage:
           uuid: 40052163-789c-4f08-baae-1c3798aa7393
           E41: 0e3dad71-dfde-4bfa-a1e3-34ec62bd9806
         E13: 1c5e7e5c-f9e4-44b6-b094-3da9d575d6ed
+      mots-clés:
+        E13: f9e46148-f36e-451f-bfd6-555d2bcfa901
   air:
     F1:
       uuid: 1b2fa483-f760-4c31-838b-c73da5f9637c
@@ -1768,6 +1802,8 @@ que_le_temps_soit_laid_ou_qu'il_soit_beau:
           uuid: bd47b452-f736-49b3-bfc3-154d5b217535
           E41: b35f5244-da8f-4d5b-bb72-c3f05d25d029
         E13: e782b7aa-b91d-4ee1-88f7-1275ce8880cf
+      mots-clés:
+        E13: d034c570-16f9-45ec-a2fe-0513e1b0eff6
   air:
     F1:
       uuid: da049f6f-4ba2-4590-984e-aa8a472d7f9f
@@ -1862,6 +1898,8 @@ si_la_fève_par_un_heureux_destin:
           uuid: ac430fa0-08e0-4db8-bd4f-2c61a679b211
           E41: 964b9861-59d2-4913-8709-c05771f075f3
         E13: 88a49edc-3191-438d-ac57-66009adc2427
+      mots-clés:
+        E13: 2c306513-e6e6-4a37-934d-49c9c5b8d565
   air:
     F1:
       uuid: e49314c5-f6d2-4148-981d-60749b8bb6d5
@@ -1909,6 +1947,8 @@ par_vos_cris_mes_petits_moutons:
           uuid: 76f8f8c0-f3a2-4463-8ead-212f4cb74e7f
           E41: a1debfdf-43af-4e63-afb6-b3cc609d4388
         E13: 81345ad4-7117-44c3-991d-0a521e68c633
+      mots-clés:
+        E13: e6169224-2a55-407b-a7b5-baaa76c0467c
   air:
     F1:
       uuid: 0f17d2aa-4f79-4e2d-af75-ae2d00b53224
@@ -1956,6 +1996,8 @@ le_plus_cruel_hiver_qu'on_éprouva_jamais:
           uuid: 1e24047b-0558-4665-8a53-e8cb868b2fec
           E41: 61842770-f040-480f-8b26-3948a3d20766
         E13: a9a505ab-4a14-4aad-b38d-f0b59865d03a
+      mots-clés:
+        E13: fb6b0375-f3f4-47f1-8eca-99343156acd7
   air:
     F1:
       uuid: 0b38ad9d-f605-4a9a-8c3e-d77996ac1025
@@ -2003,6 +2045,8 @@ les_tambours_et_les_trompettes:
           uuid: c80f11ec-e158-484a-8f40-a9fcb5245160
           E41: ba5f386e-bba2-423a-865d-b57557d0f134
         E13: b2e40568-90a3-4638-a871-8d99265f7e7e
+      mots-clés:
+        E13: e3618873-b972-4a34-bb47-40f58444a2ad
   air:
     F1:
       uuid: ad0143a3-2fc4-443c-81f0-b62f46291e96
@@ -2332,6 +2376,8 @@ louis_moissonne_des_lauriers:
           uuid: a4c90db8-66eb-4fd3-bc64-827531ecf348
           E41: 007c77a1-2cbd-4b0f-80fb-22f366e1f1c5
         E13: b8fd2230-f7c1-489a-a0df-0565087be647
+      mots-clés:
+        E13: a3608f0d-7560-486e-bda4-0ad7ddb362d7
   air:
     F1:
       uuid: 2faf0f26-bfd8-4eaf-9542-5d0b19700fa0
@@ -2520,6 +2566,8 @@ voici_le_retour_du_printemps:
           uuid: 78fcb8e8-97be-4d92-be98-9f9f49beb256
           E41: ff5d98f7-19f1-418b-9689-e47c19d4e53d
         E13: e6375db6-3417-4d1e-ac3c-85260dca6899
+      mots-clés:
+        E13: e9a9eb7e-d668-4bd4-bed9-0eac7b723a14
   air:
     F1:
       uuid: 4181afee-e4a7-483b-be07-638a1146c38e
@@ -2567,6 +2615,8 @@ printemps_qu'attendez-vous_pour_embellier_ces_lieux:
           uuid: 90e85c74-6689-4bd1-bf2e-3901f65dd557
           E41: 7d5a8cf1-ecdc-42ea-98be-18ad70c82770
         E13: 67d30b2d-ac41-438a-967d-e9bef785b0ce
+      mots-clés:
+        E13: c61369ce-34ff-4fb4-8f00-4dd8751172db
   air:
     F1:
       uuid: fc42dfb1-1b96-4501-84a1-714289cf95e5
@@ -2614,6 +2664,8 @@ l'hiver_ne_veut_point_nous_quitter:
           uuid: 88e3acf5-de8a-4172-820d-6a708105046f
           E41: a82f6c92-836d-4145-8dae-f7086d93245f
         E13: d28f7a24-7186-461f-bdde-fa83142e4420
+      mots-clés:
+        E13: c1cbea6d-10e5-4d8b-b603-c7fbc963b306
   air:
     F1:
       uuid: d0f0c8d6-8622-4c62-86ed-fed006145c7e
@@ -2663,6 +2715,8 @@ voici_le_temps_de_la_verdure:
         E13: 7ac904cc-2fea-4316-a590-56eac827cf33
       lieux concernés:
         E13: 6650354d-3f01-4536-a255-3570feebfdf1
+      mots-clés:
+        E13: 37108dfd-f23c-4838-93f5-1db8a3c43337
   air:
     F1:
       uuid: 3baeff29-497c-4308-aae7-38a38369e419
@@ -2712,6 +2766,8 @@ buveurs_ne_craignez_pas:
         E13: 5d64d8f7-7fc0-405d-8229-17979f40029c
       lieux concernés:
         E13: df6911f4-bd94-42dc-9b1a-517f394140a5
+      mots-clés:
+        E13: 473303bb-4fac-4d4e-a4a3-0fdfa2c9f1f5
   air:
     F1:
       uuid: 1d15b556-bf24-4dae-ad5b-013ab4af47b5
@@ -2759,6 +2815,8 @@ l'hiver_qui_paraît_sans_charmes:
           uuid: d3f0b8a7-5954-411f-93d9-8a8746b3043f
           E41: bedf3c00-7bec-4858-8d38-337fbcda1915
         E13: 6e3a1c92-be85-4dd8-b226-8ac476263c75
+      mots-clés:
+        E13: cb4c3e0a-0679-4db2-8308-721192380d93
   air:
     F1:
       uuid: 011477c6-b63d-4e03-9215-606f27ce1cb1
@@ -2890,6 +2948,8 @@ je_fuis_l'amour_et_les_procès:
         E13: b4a589af-fbc5-4645-94c1-3939950725b0
       lieux concernés:
         E13: 553df6dd-95b3-4636-ad5f-e66b29ba4fee
+      mots-clés:
+        E13: 69005425-f332-454b-b3ef-8f0856b47101
   air:
     F1:
       uuid: 4c80b0d2-66b9-4292-bb4d-a857e435a4f0
@@ -2937,6 +2997,8 @@ quel_changement_affreux_paraît_dans_la_nature:
           uuid: 4ecf2d56-e985-4351-abc1-182b590e51b3
           E41: 5f2d51d0-dd7e-4e32-ab76-65432d553e5c
         E13: 51667d67-e2f7-4224-a4b2-0a0a489cccd0
+      mots-clés:
+        E13: e1c8ac21-ec7d-40de-9b92-c134fc943710
   air:
     F1:
       uuid: 2892abc5-3680-449d-9cca-03d1c6d63da3
@@ -3072,6 +3134,8 @@ gigault__nicolasnoël_à_2_parties:
           uuid: 9ea37833-9d16-48f8-a2bc-689c536454de
           E41: dfcf41f5-7452-47f9-abb9-efdf13cfb076
         E13: e07217b2-d4ce-4b5b-9700-e6759bc68998
+      mots-clés:
+        E13: 29a80e19-1853-476f-8356-5137853f43a3
   air:
     F1:
       uuid: dd60fd82-fffe-4ce0-aa71-168c478c4e7b
@@ -3166,6 +3230,8 @@ l'aimable_saison_des_zéphirs:
           uuid: 39cbd2f8-0ea3-4123-a00c-1c01a07e30f9
           E41: 2d2f0ec1-42e0-4198-9ce6-c30041348ebf
         E13: eb7043f6-b20b-4ce4-99ec-fa96055cab4f
+      mots-clés:
+        E13: d86adad8-787a-44e7-b147-95fa7bc36e7d
   air:
     F1:
       uuid: 5afa1976-af58-4611-a5ce-87c07b25e309
@@ -3213,6 +3279,8 @@ je_n'aime_plus_ce_beau_séjour:
           uuid: 4cbbd17c-5b9f-451a-9251-216658504cca
           E41: 230e9ce6-c741-4f9c-acf8-640cfa6db450
         E13: dc4a0772-d208-4cfb-bfb1-0c24bb5f16d8
+      mots-clés:
+        E13: 5c48369d-d067-416b-8781-190ab812817a
   air:
     F1:
       uuid: e35ac874-b3ee-4d38-a546-a73a0442c324
@@ -3260,6 +3328,8 @@ hélas_une_chaîne_si_belle:
           uuid: 7ab1332f-3587-44ec-a125-2381a893d135
           E41: 597a6a5e-2ec4-44dc-ac12-a8adbee63d79
         E13: 87411721-2419-450f-bbd5-92f3a743c490
+      mots-clés:
+        E13: 983a628a-118d-4687-8ce4-4e22e3c73111
   air:
     F1:
       uuid: ad65d69f-3e08-4e54-adc9-ec7340debe53
@@ -3309,6 +3379,8 @@ c'est_une_douceur_sans_seconde:
         E13: 17dc75a4-ce4a-41a9-a84c-da77ad499a04
       lieux concernés:
         E13: 263776eb-da46-42b7-82e6-9dc3cc83f2c1
+      mots-clés:
+        E13: 88fab58e-8944-4cc8-acf0-88b4331a7c51
   air:
     F1:
       uuid: ddeed36f-792d-4e88-a3b2-a2c5495aad22
@@ -3358,6 +3430,8 @@ bergers_qui_murmurez_de_ces_rigueurs_extrêmes:
         E13: 2f1ae2be-9e95-4b55-91e8-5453c1451042
       lieux concernés:
         E13: f9c76722-d5bc-4691-afde-71f7e62f1ddf
+      mots-clés:
+        E13: 1568e31b-3bd4-421e-8c06-d57fe7af0ca9
   air:
     F1:
       uuid: dc256d5b-67c9-45f6-a711-5d1b19414fab
@@ -3407,6 +3481,8 @@ chi_spera_di_gioir/a_chi_sperar_si_goder:
         E13: 208d5708-9bbc-4216-85e2-10beb1f56aa7
       lieux concernés:
         E13: e8793b28-a548-4a4d-90b9-8a01f61d90c5
+      mots-clés:
+        E13: 7718eadd-133f-4e73-b2bf-1113b9d213e0
   air:
     F1:
       uuid: fa134977-f4ea-485c-965b-9ca383f9852d
@@ -3456,6 +3532,8 @@ si_baccia_stringi_e_godi/si_vanne_corri_vola:
         E13: 1aeef836-4237-4070-8c49-0c0dc7473da4
       lieux concernés:
         E13: 74d44071-379d-46f0-b3a2-c68f2a923f78
+      mots-clés:
+        E13: b4010f59-c332-422e-9e32-fe62b74e1c49
   air:
     F1:
       uuid: fa8d2443-b41b-4360-bc77-16a00574e21c
@@ -3503,6 +3581,8 @@ quel_changement_dans_la_nature:
           uuid: 366fef6e-3789-4b84-9863-930413482d2e
           E41: ad358297-91ea-4d8d-a55a-c3f31710c9c8
         E13: 383ec492-029d-4034-b06b-a2189d591777
+      mots-clés:
+        E13: 015890fb-c160-45e6-b915-e6f3678cd833
   air:
     F1:
       uuid: 728907b1-16b2-47f2-8053-d7c46d2e487c
@@ -3591,6 +3671,8 @@ gallot__jacquesl'éternelle_de_mr._gallot:
           uuid: f70b9054-0d08-4196-9f08-c988472da54c
           E41: 13acb959-b986-4a51-a12d-2aa910274818
         E13: 90db1014-2add-421b-8c10-e370f567b81d
+      mots-clés:
+        E13: 2a969cb3-2061-4381-8ba2-6915890018ca
   air:
     F1:
       uuid: 5eb90899-8057-4d21-aa00-e0b5c398d5a2
@@ -3632,6 +3714,8 @@ kesthoff__jean-paulsuite_pour_le_violon_sans_basse_continue:
           uuid: d342eedb-6140-43b2-a3a4-23752d4889c4
           E41: 08106384-4f81-4ae6-8001-16124b069574
         E13: c92b89c5-4d18-45a5-9dea-3deaf8ca592f
+      mots-clés:
+        E13: e6a89ee5-775a-4e95-af0b-ea689743198d
   air:
     F1:
       uuid: c65299eb-8168-473c-946a-047fe789ad16
@@ -3673,6 +3757,8 @@ kesthoff__jean-paulla_guerre/sonata_violino_solo_col_suo_basso_continuo:
           uuid: e4f6743c-c2e1-43d5-95f0-066960b98133
           E41: cad3e1e8-4a41-4eed-a536-ef5608577d46
         E13: a354d528-97c3-4bef-a978-e32d51f1ec31
+      mots-clés:
+        E13: f9ae053a-d8a2-4ce0-8088-8ebde66649e1
   air:
     F1:
       uuid: 9347536d-5a6e-41be-9eb1-326e5bd96598
@@ -3769,6 +3855,8 @@ you_ai_mon_fifré_prends_ton_tambourin:
         E13: 3f4b35e2-4b31-4465-b807-3ef0a83909c4
       lieux concernés:
         E13: d8e54a3c-627d-44a2-bf06-c3409e738079
+      mots-clés:
+        E13: f92ab000-4528-4bff-a945-b4fafe4054bf
   air:
     F1:
       uuid: 67525e2f-ac31-4d9c-9d04-6a13c39a8243
@@ -3816,6 +3904,8 @@ on_peut_encore_dans_la_prairie:
           uuid: ee49469a-44a1-4a4d-ac43-c275e125ca8b
           E41: e8041a88-9ed7-4d06-b220-54ad3e6cf6fa
         E13: 170dae39-247b-4bd5-a0f9-7a8ea3ea29d9
+      mots-clés:
+        E13: aeab0891-5df3-466b-8a36-3e2485f30802
   air:
     F1:
       uuid: 109a84f7-2c22-4a84-ade3-c5529d5589bd
@@ -3957,6 +4047,8 @@ favoris_d'apollon_messieurs_les_beaux_esprits:
           uuid: 08f578be-9fc6-4da2-8ed0-8884ff908546
           E41: 62802c8b-411d-4555-a780-afb164c9bee8
         E13: 1bdd30d8-43d8-480a-bd18-a4fcca47194a
+      mots-clés:
+        E13: 4308bbd2-5899-4f57-b564-da04a012a9fd
   air:
     F1:
       uuid: edfcd5b2-3d83-494a-b7ad-4de752c8b4c8
@@ -4145,6 +4237,8 @@ je_n'aime_plus_le_son_de_ma_musette:
           uuid: f5e5a115-5280-435d-b83f-9ed15f317d0c
           E41: 0c24cd99-5e0a-4232-b739-aa9618664a8a
         E13: 46e03cce-76ea-4876-9d95-447ea000da46
+      mots-clés:
+        E13: 92eb730d-96da-4a6e-832e-be39747046e2
   air:
     F1:
       uuid: c481252d-e9b2-4501-b820-e6ace07a8fe2
@@ -4333,6 +4427,8 @@ ah_que_votre_retour_printemps_me_rend_jaloux:
           uuid: 911f503c-bb12-47cb-a4f1-dde4e95cc03b
           E41: 04ca529a-eadb-4c66-9cd9-07b571d4570a
         E13: 82e5ee6a-60dd-4d19-8d94-7764c69dde40
+      mots-clés:
+        E13: 4301c5ed-168e-4445-b69f-4bda937d77df
   air:
     F1:
       uuid: 3d900c4d-d4d9-400e-a8c7-fbea3ec7044a
@@ -4568,6 +4664,8 @@ grand_roi_quel_bonheur_est_le_nôtre:
           uuid: 41e363ee-223c-4b0b-a6cb-6f899e214593
           E41: 72cb2a2b-0a5e-448d-a50b-2b03f71b4495
         E13: 2cc75bf6-3b3e-4c0f-ac26-dba842471748
+      mots-clés:
+        E13: 6c49a656-0bab-4922-a5b1-3be9270ca85d
   air:
     F1:
       uuid: 9a884297-a4d2-4799-96e3-b9cf063a4f81
@@ -5228,6 +5326,8 @@ depuis_peu_dans_le_sein_de_ces_vastes_campagnes:
           uuid: 09d60cc8-7dc7-4689-abca-8de791c8671f
           E41: 187ed3a1-34fd-4e69-8884-1b162c495642
         E13: b32b8ef2-90ca-4fdc-91c2-75a1e5ff60a3
+      mots-clés:
+        E13: b975c08d-d76c-467d-96aa-f83f95a780fa
   air:
     F1:
       uuid: 5087b37e-2f90-4d59-8150-1815ddaec8da
@@ -5275,6 +5375,8 @@ petits_oiseaux_dans_la_saison_nouvelle/petits_oiseaux_de_la_saison_nouvelle:
           uuid: 563a08c6-7518-4453-89b6-2b246c98b830
           E41: 3331c6e7-9ca8-461b-813e-c261dfc264dc
         E13: 1066c229-1dcf-4159-b0d2-abc1e8a85eee
+      mots-clés:
+        E13: 9af74917-6c76-4f59-b533-2f4bea7bacef
   air:
     F1:
       uuid: 7054a750-8bd2-46a3-ac69-be243dbd931e
@@ -5322,6 +5424,8 @@ depuis_le_retour_du_printemps:
           uuid: ac5d9aff-cccc-480d-a3c5-2925bcda118d
           E41: 32cc65fa-cf19-4a3f-a63e-3f5936ec21e2
         E13: e71d51ea-2525-463b-80e0-b9241805ff93
+      mots-clés:
+        E13: e66b93da-ce8e-48b5-adfe-436599ef5d7e
   air:
     F1:
       uuid: 91bd93e2-47b9-4dfe-97cb-2d246ef53511
@@ -5369,6 +5473,8 @@ revenez_hâtez-vous_printemps:
           uuid: e76c6943-9870-41bb-878b-daf55184e4df
           E41: 812eb9b3-d8f2-41cd-a197-131ba2c0c358
         E13: 05526ffb-d783-4f04-a661-0ca77af45ffa
+      mots-clés:
+        E13: cfda4116-48f4-4d6d-98ef-26f0ddb22549
   air:
     F1:
       uuid: f6be75e5-9d39-41e7-a2f0-1084e18c2e54
@@ -5416,6 +5522,8 @@ dans_le_temps_des_frimats_des_neiges_des_glaçons:
           uuid: 0fc77224-0be0-4da7-b5fd-6da94cabff08
           E41: 0be86d3b-2564-4ee4-955a-981a4b3f8145
         E13: e9c2dd32-e289-463a-bb2f-fccf3292b789
+      mots-clés:
+        E13: c5047f7e-74ac-472f-8812-db82e9290c3f
   air:
     F1:
       uuid: 3ed57915-6e27-487d-885c-53abbe5b18d9
@@ -5463,6 +5571,8 @@ hâtez-vous_doux_printemps:
           uuid: 9978b878-0bc1-4651-88da-28fc184445ff
           E41: 12468551-465b-40b0-936c-e29f7fc383a3
         E13: a3971034-ef44-4287-af02-b0195d4b5b78
+      mots-clés:
+        E13: 4f475195-7e56-42b6-bdd3-6d4387d0c8ae
   air:
     F1:
       uuid: 91e77895-d8eb-46ab-8df3-86556b8ed443
@@ -5606,6 +5716,8 @@ que_je_sens_de_rudes_combats:
         E13: da41eeef-73fe-4247-8251-c1edddc568a0
       lieux concernés:
         E13: 143eb5bd-264f-412b-b5d7-391781d55ac1
+      mots-clés:
+        E13: c9965871-6ee7-4ad4-be74-7cad24040414
   air:
     F1:
       uuid: f82ab50f-7b21-4520-a3cb-0955c3f245bc
@@ -5747,6 +5859,8 @@ dans_nos_bois_tircis_aperçut:
           uuid: aee708bf-c2b0-499d-bd1f-d89caf6a7466
           E41: 32be3e6b-dfaa-4b26-8ee2-bedbb918acb2
         E13: 2918370a-50aa-429c-83b2-30bac27e779b
+      mots-clés:
+        E13: 3b60bfb1-c0b5-4ff9-adee-1b00d8e7966f
   air:
     F1:
       uuid: 8ebff78d-ac0d-4f4f-9625-a7700f7b4ef0
@@ -5935,6 +6049,8 @@ nos_bergers_nos_troupeaux_ces_lieux/l'air_enflammé_de_nos_soupirs:
           uuid: 33dcbed3-38d9-420c-9364-2bd8f6b451bc
           E41: adba2cbf-cc3a-4ca8-96ec-e3f3794d2149
         E13: 0b34143a-2bfa-4018-a5b6-393d4b3dc8a0
+      mots-clés:
+        E13: 0cb77f65-4e98-4600-a4b7-4ab5d9a4eb9e
   air:
     F1:
       uuid: aeaa7181-f9c5-45f5-a65e-7c46a5e5130a
@@ -5984,6 +6100,8 @@ ne_fripez_pas_mon_bavolet/attendez_à_demain_que_je_vas_à_la_ville:
         E13: a7fa8afe-900e-4850-b3ce-499f0470c50a
       lieux concernés:
         E13: 62ea9073-3925-43c2-a6af-4f38612cd94a
+      mots-clés:
+        E13: e3e70220-e6c5-4c5c-a9ad-a4514005981e
   air:
     F1:
       uuid: 712d987f-b19d-4f4a-80d0-59d3068cd7e4
@@ -6031,6 +6149,8 @@ consolez-vous_chers_enfants_de_bacchus:
           uuid: 40cbc0d0-8759-432b-9bc9-f67d91fa3ce3
           E41: 431b5aac-8528-4c45-b3b8-e03c4b859c7a
         E13: b624c46b-d7a0-4c31-bb3d-94c258561d60
+      mots-clés:
+        E13: 750fb059-a645-43e8-93c8-bf6303ae2e61
   air:
     F1:
       uuid: 4f51dff8-a34a-4e4b-875c-d7c1ca041ad3
@@ -6172,6 +6292,8 @@ iris_je_vous_offre_mon_coeur:
           uuid: 9dc68d22-b050-4bc3-b558-2179540fb3d9
           E41: a5ebe594-413d-487b-b539-0313f9b7e725
         E13: e72345e5-60ac-4d3a-a021-9c7d032afb05
+      mots-clés:
+        E13: 9c1744d7-5b6f-4beb-b9b5-ea798ef41dbf
   air:
     F1:
       uuid: e11557cb-7693-4460-a5cd-3652aa699855
@@ -6266,6 +6388,8 @@ ah_printemps_vos_douceurs:
           uuid: 2a2f9958-88dc-4429-8d41-af88d2ba2530
           E41: 1df288e4-e2b3-4177-ad8a-2f58aec43889
         E13: 53e62283-d65d-42e3-9c76-68cf618ef4b6
+      mots-clés:
+        E13: ce7eff85-dfaf-4c49-8d76-519dd7069ac5
   air:
     F1:
       uuid: ba63bfbc-974f-4edf-9ca2-05937e8effa5
@@ -6362,6 +6486,8 @@ ah_qu'ils_sont_courts_les_beaux_jours:
         E13: 9ee3530f-4ed5-420a-a395-54862f18044e
       lieux concernés:
         E13: 8fa3c825-bbef-46a4-9e5a-1809848bc658
+      mots-clés:
+        E13: 9aa8ea09-3f4f-4873-9d22-a00bd5814dc8
   air:
     F1:
       uuid: 2ba57fef-6195-40b4-b794-384afa4fbfd8
@@ -6456,6 +6582,8 @@ printemps_ne_reviens_plus_je_souffre_trop_de_peine:
           uuid: 81210bdc-4abc-48d0-853a-2026a3397196
           E41: 4e597cc9-c1b9-47eb-9e18-69b961113f62
         E13: 63ddfabc-4993-4cf5-9072-241a471ff344
+      mots-clés:
+        E13: 93aa3a2c-e271-4c0c-bce1-886acf488454
   air:
     F1:
       uuid: 8dbcb6b3-6bde-46fd-8f72-dd6f80094476
@@ -6503,6 +6631,8 @@ trop_cruelle_saison:
           uuid: 6c6887cf-bae5-48b9-b405-1d7a8479f8fb
           E41: 9f9f0376-cf6c-4e9d-9835-335be2061aa2
         E13: 8e521d83-0dde-4dc6-a61b-991c0da104d8
+      mots-clés:
+        E13: 80cb9456-be27-4bad-a617-ca2ea33b65e8
   air:
     F1:
       uuid: 7da4212b-7cb9-4b21-9393-197129732e6c
@@ -6646,6 +6776,8 @@ que_je_crains_de_tircis_le_respect_dangereux:
         E13: 2996d06e-f6b6-47c4-94e1-07e69b0a2149
       lieux concernés:
         E13: caad0a74-11d5-4fe7-b2be-06a138697be4
+      mots-clés:
+        E13: fe430f6f-fba1-428f-8c12-797d34916e33
   air:
     F1:
       uuid: abb023b5-f15e-41c7-a253-e9c6be16b23b
@@ -6693,6 +6825,8 @@ ah_que_j'aime_l'horreur_de_ces_tristes_forêts:
           uuid: 9d3b8e56-1a80-4c33-a797-5051c42e68cd
           E41: 87cf3f5c-6d4b-4028-bc70-2537752cd904
         E13: 3b9e6812-d3c7-4433-83d7-ec035c7d6d79
+      mots-clés:
+        E13: dd82ebfd-0b61-45ad-9d5c-73e693f6cf70
   air:
     F1:
       uuid: 3a612673-1304-4464-bad4-5539d240926c
@@ -6742,6 +6876,8 @@ reine_aussi_belle_que_bonne:
         E13: df24d493-cca2-426a-a3ba-df604ec4ad86
       lieux concernés:
         E13: 59236308-7e93-4576-9469-c9fbc6680494
+      mots-clés:
+        E13: 20499a87-6c00-418d-80f9-5ab9ee6e1d77
   air:
     F1:
       uuid: b5cb1fe9-5fe2-4a38-a3c0-2e39cf77341b
@@ -6789,6 +6925,8 @@ consolez-vous_mes_chers_troupeaux:
           uuid: 0f6c7047-d8df-49aa-bb25-10f6135f4cf9
           E41: a35e5f10-a9b2-4965-9ed2-7786eb502059
         E13: fefc881b-03d8-4e2d-9ad8-0371e1a1a0e2
+      mots-clés:
+        E13: 007d7c02-41b0-4a99-a93e-579f47e44a68
   air:
     F1:
       uuid: 1712d96e-d4d4-4190-95d5-bb30e7dea5e8
@@ -6836,6 +6974,8 @@ pendant_que_vous_donnez_la_chasse:
           uuid: ff85c437-bfe4-4218-987a-e22853f64a5f
           E41: eacfdbbf-e9eb-405c-a49c-52d67ffe14ff
         E13: 3d335dc2-ab68-4190-bfb0-e7377b72b06e
+      mots-clés:
+        E13: 5f20373a-a379-4b64-bc88-857780055528
   air:
     F1:
       uuid: c340b3f4-cf41-4e99-92e3-f927609ac9e0
@@ -6883,6 +7023,8 @@ premier_objet_de_ma_tendresse:
           uuid: 7953f4fe-a5b5-4cb7-b74b-03c46f01fbeb
           E41: 17b18458-e798-444f-ae21-bc1020081b3e
         E13: db981ee1-bd2f-4c85-baf9-d338dc7cba41
+      mots-clés:
+        E13: db2bc05d-2ae6-4f82-a1fb-b7680efceb7c
   air:
     F1:
       uuid: 3ba569c4-3f8c-456f-89b3-e08e7737fc84
@@ -6977,6 +7119,8 @@ vous_avez_de_l'esprit_vous_avez_des_appas:
           uuid: 864b8324-c4af-40cd-a4e1-a4c2ea843606
           E41: d4c182b2-7104-4056-8d40-50d1cd601371
         E13: a5414780-cc53-4416-b206-68ce589ed45a
+      mots-clés:
+        E13: c399fe62-fa74-482d-b6ff-b0b1b9e947ad
   air:
     F1:
       uuid: 96904212-8f57-4b80-9c4e-922f5523b089
@@ -7024,6 +7168,8 @@ vous_demandez_des_vers_et_si_j'en_crois_vos_yeux:
           uuid: b5412d56-db38-4813-a74b-a6ae34a93dc2
           E41: 3dc7f6cc-fd64-4e5a-9598-612f53d793cb
         E13: 3dd8986f-263a-4385-af31-869b9cf5ab97
+      mots-clés:
+        E13: 0507fff2-81ec-40bf-a1fc-0c2de04b94da
   air:
     F1:
       uuid: dc22042c-ef0a-42ca-b3dc-8df2df21a24b
@@ -7216,6 +7362,8 @@ sommeil_quand_nous_vidons_les_pots:
           uuid: ffad241c-70c7-4900-8142-a304836d7160
           E41: ad3409ac-6049-4de4-9888-487b1380419b
         E13: 2ccc34fd-6913-4edf-942e-87990b89d8de
+      mots-clés:
+        E13: f7819f67-bb59-480a-ae91-fd8b10463ded
   air:
     F1:
       uuid: e776734a-8bff-4dc5-a77e-91d981a86877
@@ -7265,6 +7413,8 @@ due_labra_di_rose:
         E13: a5049969-a368-47eb-9750-f375fe4ac24f
       lieux concernés:
         E13: 51e866a2-ba33-49db-bb07-0cfa7a1ffc2b
+      mots-clés:
+        E13: cd32744a-32c5-4c76-8262-7082083b9c87
   air:
     F1:
       uuid: 4fc6cfb0-ef94-4e58-8a5b-17463175956a
@@ -7361,6 +7511,8 @@ que_sert_à_mon_amour_que_le_printemps_renaisse:
           uuid: 3aecada0-b66d-4095-b6c9-feee21e89cb2
           E41: bdbc7ae0-62b5-4400-99d1-cd9c958a9781
         E13: 71dbdee4-ecc4-4810-a372-a4adf050f6d5
+      mots-clés:
+        E13: e8b7c3c4-7bb7-4573-b6ed-3a7bfa8ef9ec
   air:
     F1:
       uuid: 6e95ad0e-faac-4898-b355-c3aca5c0c921
@@ -7408,6 +7560,8 @@ que_sert_à_mon_amour_que_le_printemps_renaisse:
           uuid: 8076c56a-0d55-4cbc-941d-8b1c1d4b8b56
           E41: 87ee4683-7fa5-42bf-83e1-136334cecfe3
         E13: a1663a21-6799-42c1-b5f9-6c4861b8bbfc
+      mots-clés:
+        E13: 33e42f93-f474-4587-ba49-2a31eb1705f0
   air:
     F1:
       uuid: 8664fbcb-1b12-473b-b9f0-6984fbf0164a
@@ -7457,6 +7611,8 @@ l'amour_folâtrant_l'autre_jour:
         E13: 0932f359-4555-444a-b8d5-f3076d2cd649
       lieux concernés:
         E13: d69629ed-1baa-41ee-bfe1-0f5e7d41dfbb
+      mots-clés:
+        E13: 36e8f070-2a7d-4344-a06d-bf1d53eb48e9
   air:
     F1:
       uuid: 5fd974b2-6c02-4fc3-8642-546feeea7f5c
@@ -7506,6 +7662,8 @@ le_cruel_hiver_fait_place:
         E13: 102c2543-0a65-4552-b615-e6dd7db9d56d
       lieux concernés:
         E13: 90a1f1cd-41be-406d-9e2d-87114f8768cf
+      mots-clés:
+        E13: 1837380e-e35e-4db6-adbc-f9db1ad1bb7f
   air:
     F1:
       uuid: 61d0b2ac-60a2-4541-8c3e-de3459cedc97
@@ -7555,6 +7713,8 @@ per_non_vivere_geloso:
         E13: cebed161-4f41-40b7-aeb5-13f7b4a51951
       lieux concernés:
         E13: 4f6f1d79-a47c-48ab-ad4b-06f613fad989
+      mots-clés:
+        E13: 26c8eb12-4739-4020-a132-4ac6df2b1f4f
   air:
     F1:
       uuid: d923b5a5-a121-4462-938e-3822074484dc
@@ -7604,6 +7764,8 @@ per_non_vivere_geloso:
         E13: 67662661-2fa2-4159-8dca-0cfa044bbf69
       lieux concernés:
         E13: 9e0c3c78-b603-4efe-8b5e-b10f974c2d3f
+      mots-clés:
+        E13: dba64fa1-4057-4364-a267-3bd9f59bfe99
   air:
     F1:
       uuid: 305cf9a2-4f93-4691-93b9-41f5e6f73897
@@ -7653,6 +7815,8 @@ ah_que_l'hiver_est_ennuyeux:
         E13: cfdc7271-4a8b-407d-8266-997dd53b2e5e
       lieux concernés:
         E13: a0f5c0c7-9c60-480c-809a-32d77a989f88
+      mots-clés:
+        E13: 7edcd86e-e303-4ee3-90ce-d34aafc3c0f6
   air:
     F1:
       uuid: 5b63cc2f-2a7c-47e7-9c75-d2c909da7227
@@ -7700,6 +7864,8 @@ une_langueur_extrême:
           uuid: efbdd7ec-aa73-4837-8206-066f13c5ae79
           E41: f29619a6-c807-4067-9d48-d642c762c4a2
         E13: 6e0b2a49-cee3-4772-be77-58474f91a1be
+      mots-clés:
+        E13: 44c0ecb7-cd74-49c3-aa87-2fac75a1bbb1
   air:
     F1:
       uuid: d87f83ae-1ef7-4186-90f8-5a111eb7761b
@@ -7937,6 +8103,8 @@ quelle_musique_agréable:
           uuid: cc35b9f5-361d-48d6-9ce3-d881ac890843
           E41: 7e747349-f127-4897-a74c-883c3f782a6d
         E13: a84e6583-ff50-4d06-a953-c546f8e6ac29
+      mots-clés:
+        E13: 54fa7038-be52-40f0-8b66-0e4431378df0
   air:
     F1:
       uuid: 8728f482-a064-4918-baef-788e51982809
@@ -7986,6 +8154,8 @@ canons_tambours_trompettes_et_mousquets:
         E13: a8cc65f3-a1f6-4cd4-af1d-9983f6b9dd97
       lieux concernés:
         E13: 3fea91d2-ea79-4f83-9e3d-94b6f52e9035
+      mots-clés:
+        E13: 243a8872-d930-49a4-8348-f9c206ee6a88
   air:
     F1:
       uuid: b1609872-6c58-4341-b021-a4608f75513c
@@ -8033,6 +8203,8 @@ ce_n'est_qu'au_retour_des_beaux_jours:
           uuid: 591680b4-424a-4e1c-9c9c-9d675f48e915
           E41: ddaeccc1-74d3-4681-ade9-896a56493459
         E13: 12422813-fed1-4faa-a003-6005b5d18a55
+      mots-clés:
+        E13: 4eaef0f6-b77d-4177-8842-714a29e57d46
   air:
     F1:
       uuid: db2d0809-98fc-46ad-9645-bce0f4099a81
@@ -8080,6 +8252,8 @@ hollandais_le_grand_roi_qui_nous_donne_la_paix:
           uuid: 1b4b11f8-09ec-4bbe-bea6-6c8a22c54fd0
           E41: 1abeb495-942e-492d-a710-e0c19679861b
         E13: 33299a82-8054-4cf8-b7ea-7c4c96d96d51
+      mots-clés:
+        E13: 287eb96f-e557-4440-95d7-109bc0466c66
   air:
     F1:
       uuid: 17dd02f7-e3f3-489f-95db-cfa141f42d5b
@@ -8127,6 +8301,8 @@ en_vain_vous_m'ordonnez_de_feindre:
           uuid: 3e464b4d-cad4-480e-91a7-d918a51b0378
           E41: 8896b177-1026-439f-90ed-93efbc6fbda2
         E13: 68046711-7bd0-4933-a8a5-d09b05c1d164
+      mots-clés:
+        E13: 31459d06-d46d-43ea-aa92-b46fa387e775
   air:
     F1:
       uuid: 10fa9877-25dc-468d-aefb-a16856b33597
@@ -8223,6 +8399,8 @@ ah_qu'on_est_malheureux_d'avoir_eu_des_désirs:
           uuid: 23431379-27fb-4638-afdd-026d4942c7d1
           E41: e6a383bd-e490-4b43-8010-2417f3686c0c
         E13: f12bca98-6490-49cc-882a-72e6e53d7e7e
+      mots-clés:
+        E13: d6ff52c3-22dc-4d4e-92cb-2fa9508630ce
   air:
     F1:
       uuid: 4fedb720-8118-4ace-9358-017d9aecfa42
@@ -8270,6 +8448,8 @@ ne_croyez-pas_jeune_bergère:
           uuid: df26af88-92d0-409d-857d-47ecb854aab8
           E41: 776926ed-8127-44a1-ab92-91e17a33bd02
         E13: e435eb93-171d-4d77-85d7-cafd6e762970
+      mots-clés:
+        E13: 8aaaa51a-f12b-435a-a2bc-60d74aa87acd
   air:
     F1:
       uuid: 72e9e02a-ef7c-4a19-ae73-c70993d6faa5
@@ -8317,6 +8497,8 @@ il_n'est_plus_de_printemps_que_sur_le_teint_d'iris:
           uuid: 7504e39e-e511-4f7c-9684-25015ad40aa3
           E41: 9622cf28-2199-4ad6-9618-731f9fe62ce9
         E13: e584f7d1-e811-4416-bf43-5aa5961c8de5
+      mots-clés:
+        E13: 5ca48fae-c2b4-4cc3-b9f5-9b9be04e748d
   air:
     F1:
       uuid: dbdcb385-b636-401e-b01e-4b1919e8f432
@@ -8460,6 +8642,8 @@ qu'on_ne_me_parle_plus_d'armes_ni_de_défaites/puissant_roi_des_buveurs_puisque_
           uuid: 715e86e4-dfa4-4528-9ba4-a2a0d68615d8
           E41: 2aa110b4-3cd2-41e2-8931-5f621ca3a64f
         E13: 75c15b02-f208-44d1-8970-8bb08ac7915c
+      mots-clés:
+        E13: d31750ad-922f-4ec9-8f03-f2047f51b8a4
   air:
     F1:
       uuid: 4e78860d-b4e9-4cef-b8fe-196b3b73dc1f
@@ -8507,6 +8691,8 @@ lorsque_j'étais_aimé_de_la_jeune_lisette:
           uuid: 4aa71b32-fa86-4ead-a34a-0ae88ba4a7d0
           E41: 378ae10c-d7d2-49f1-bd10-0426643a1bf2
         E13: 0010f3f0-f561-49b5-a0bb-c1470f921901
+      mots-clés:
+        E13: 36c4e6f0-0679-4f7a-8736-ab23475739ec
   air:
     F1:
       uuid: cfe82ce5-6956-42ac-9c0d-296675b4ed42
@@ -8556,6 +8742,8 @@ amis_n'êtes-vous_pas_étranges:
         E13: cac07e26-8bd0-4b0c-99a3-0cedf6bb2d09
       lieux concernés:
         E13: df0e7ff4-5d0d-4a19-8afd-dcc6ef5c8de8
+      mots-clés:
+        E13: 045a9406-6054-48fc-8d31-e1ae2751c639
   air:
     F1:
       uuid: 48c55af4-e0ef-48f3-a773-1a3f8d14011b
@@ -8701,6 +8889,8 @@ on_souffre_quand_on_aime_bien:
         E13: 7097322a-a713-4e90-9fac-5ec63c53dee4
       lieux concernés:
         E13: 04994722-d2d2-44ad-beed-3701db742868
+      mots-clés:
+        E13: 966b13a5-992f-4df8-b7db-239b1838ded1
   air:
     F1:
       uuid: 6f4aa562-b5de-466e-9ecf-fe8b304abc30
@@ -8748,6 +8938,8 @@ hâtez-vous_amoureux_bergers:
           uuid: f628843d-1b43-4856-8f79-d4846b7d378e
           E41: ecec13e8-c6cf-4091-b74a-014c37d79c3a
         E13: cae1e2b0-558c-4109-bd41-bc3f29dc5dc6
+      mots-clés:
+        E13: 895e6ecd-d327-413c-a4fc-40b7547f1528
   air:
     F1:
       uuid: 5cc1aac1-045a-4e8d-a69e-94dad8e9d79f
@@ -8795,6 +8987,8 @@ dolorosi_pensieri_ch'affligete:
           uuid: fa1916d6-10ac-4fb0-9ef4-e9d10dfaa3a1
           E41: 77ccdf2d-71d9-46f8-979a-117ee3abe14c
         E13: 14f710e0-b3f8-41cc-8c78-06615706654b
+      mots-clés:
+        E13: 99258c33-79a0-488c-ad08-6e7c81fb2a35
   air:
     F1:
       uuid: 814f12d9-1795-4278-a95f-a558f00a7402
@@ -8989,6 +9183,8 @@ laissons_là_les_flamands_et_prince_d'orange:
           uuid: f9038d71-ef70-4a8f-a220-334752803621
           E41: 2414214b-2f68-49a5-8d73-ba91c268d6ae
         E13: 15709828-3648-4f98-ac03-1fe7f9b704d7
+      mots-clés:
+        E13: 5ac7e1e8-5a27-42bf-a147-7f986103e599
   air:
     F1:
       uuid: 1b77d2a4-2987-4f78-8780-993e35d4124e
@@ -9038,6 +9234,8 @@ héros_dont_les_grands_noms_embellissaient_l'histoire:
         E13: f6539caa-3f7a-4571-8d23-f6bcab844f47
       lieux concernés:
         E13: 835da419-4e07-40cd-af61-c7da51e78d8a
+      mots-clés:
+        E13: 44be749a-95e2-4b49-bc2a-baff7cc325cb
   air:
     F1:
       uuid: 34c0d412-e7a8-43f7-94f2-b15cbd9b0299
@@ -9134,6 +9332,8 @@ vous_demandez_iris_pourquoi_je_vous_évite:
           uuid: f2ed24c0-4974-4281-b340-f1e2b04176a9
           E41: b3a95dc8-3811-4ba2-ac38-58f2a5db9d33
         E13: 1bd3a32d-58da-4ff4-a71b-f7d21baff7b1
+      mots-clés:
+        E13: 5719e79b-5084-4ab0-b395-abc2b0e9ab8e
   air:
     F1:
       uuid: ee802bba-9b31-4dd9-8838-13b65cc0c2b7
@@ -9181,6 +9381,8 @@ le_soleil_sur_nos_champs_trop_longtemps_arrêté:
           uuid: 8ea0c0f5-4bad-41de-9a17-d64506413e8c
           E41: feb44d88-7d2b-4e27-a769-cdb754e77439
         E13: a6990186-5992-46b2-8587-ffeb83693f5f
+      mots-clés:
+        E13: fa5b0a75-7854-409d-b092-ac39b4984cf7
   air:
     F1:
       uuid: 51f85050-6abc-4847-aba6-60765a78fdab
@@ -9326,6 +9528,8 @@ puisque_le_grand_louis_en_bornant_ses_exploits:
         E13: 0a41defd-a1ae-4f82-881f-51ad8603baa7
       lieux concernés:
         E13: d4e23eb4-2c8c-42e8-acf6-80be2763cc84
+      mots-clés:
+        E13: e0960646-50fe-4efe-a90f-c052a0edaa77
   air:
     F1:
       uuid: 378a439e-6353-4136-b316-bb1d2c8070f7
@@ -9612,6 +9816,8 @@ pourquoi_venir_troubler_le_repos_de_ma_vie:
           uuid: 01397ba2-ff65-4601-abd8-a13995b319ad
           E41: d98967c6-2fa5-4877-809e-853c4dde6408
         E13: c8b3fe68-88ef-4ace-a2dd-3742ff5936a4
+      mots-clés:
+        E13: 58b98cf2-43ad-41f2-8000-5700c07388a3
   air:
     F1:
       uuid: 28f5271f-dfbc-4d15-86b8-b454a96a35fe
@@ -9659,6 +9865,8 @@ enfin_de_nos_bergers_les_amoureux_soupirs:
           uuid: 8a28acc8-9083-446b-981c-63750989bb30
           E41: bcc86bc4-95e2-4485-a194-108ceb769bc0
         E13: 6a4b283b-0b63-4d72-9007-60418e265a5f
+      mots-clés:
+        E13: 099258f7-093b-4305-b156-247dcffe10ea
   air:
     F1:
       uuid: 2be40993-bc23-4938-8730-0fe80ee4cdc4
@@ -9706,6 +9914,8 @@ la_tendresse_d'une_maîtresse:
           uuid: 51c2bce8-a9e2-4523-a02d-0911268a2859
           E41: bac443e9-8aed-4be8-88b7-6dfe5c80b604
         E13: 83dd630b-c44e-4de7-887b-11ee770f2713
+      mots-clés:
+        E13: af90fc81-5ce8-46d2-a016-2bcc69ecf0cf
   air:
     F1:
       uuid: e36edf69-9186-487f-9310-43fb123b23a9
@@ -9755,6 +9965,8 @@ l'on_vous_dit_tous_les_ans:
         E13: 842a39ee-ac36-44f3-b0c4-c8617b507337
       lieux concernés:
         E13: c7673ba1-4a2e-4ff7-8954-df2bcd820494
+      mots-clés:
+        E13: 5f71d9ef-7d4a-4ebe-b551-e1c9ee49655f
   air:
     F1:
       uuid: 66af0a19-75a4-460b-8988-acab608e55ac
@@ -9851,6 +10063,8 @@ rossignols_que_prétendez-vous:
           uuid: a7fd7fa6-3c28-4194-9556-a209ae43b5a2
           E41: e1c462b6-4cf3-4d40-b1a9-9e5cd46d6b22
         E13: c9bdc3bb-84c8-46c4-8898-5c647468c16d
+      mots-clés:
+        E13: d7c02463-3c48-41da-9722-52896238ebd3
   air:
     F1:
       uuid: fa7368bb-9309-4a22-8fa8-401e4ba1a2f0
@@ -9947,6 +10161,8 @@ questa_bella_d'amor_nemica_è_mia/cette_belle_qu'amour_n'a_jamais_pu_toucher:
         E13: 62505cd3-e526-4487-b16e-e32ea68259b3
       lieux concernés:
         E13: e21055ab-4aa5-4213-b347-3c8b64d0621a
+      mots-clés:
+        E13: 1fc1fcd3-4b8b-41ef-b09f-88a032d3a36f
   air:
     F1:
       uuid: ef3f6fa5-7d94-4c80-aa72-1a59b8f01d6b
@@ -9996,6 +10212,8 @@ je_ne_reconnais_plus_mon_aimable_lisette/je_ne_reconnais_plus_ma_charmante_liset
         E13: 1cc5cfd5-bbcd-419c-94a4-8ef0824e8b3c
       lieux concernés:
         E13: 1eae4c46-ac8e-4936-85a8-0b1735e3056f
+      mots-clés:
+        E13: e547625c-095a-48b9-99d4-dd4cb7a50a7c
   air:
     F1:
       uuid: 70c515f5-0893-445d-89cf-262e45986aa3
@@ -10043,6 +10261,8 @@ le_coeur_tout_déchiré_par_un_secret_martyre:
           uuid: fd29e1d3-9ab2-48bb-ad7a-72e1dc3823d9
           E41: 60ed6442-2e2d-41f2-bb35-86e2d8d699a3
         E13: 2e3771d5-e0ec-4d40-9a6f-2e25928d98c2
+      mots-clés:
+        E13: 2bb139b7-2fe2-464c-b6c7-4581cb94a7ee
   air:
     F1:
       uuid: 44c4d1fe-5a5a-4684-b9c7-c87744eedbb6
@@ -10090,6 +10310,8 @@ vous_qui_d'un_tendre_amour_avez_le_coeur_capable:
           uuid: 8f424ae2-87cc-430d-b809-f25df61520f3
           E41: 3fa789dd-4c9f-4af1-ae13-2b87380759e7
         E13: 1837008f-38ff-49b8-865b-e438d2f3dc8f
+      mots-clés:
+        E13: 28a465f6-ccd1-436f-ab73-fec3928acc0c
   air:
     F1:
       uuid: 0534f49e-392e-4910-949f-d78dd47ebf5a
@@ -10280,6 +10502,8 @@ cruel_printemps_peux-tu_paraître:
         E13: 2cf38c99-d2ce-47aa-8660-26979c22dc2b
       lieux concernés:
         E13: dc302b54-c534-4308-80cc-c63dfba70f56
+      mots-clés:
+        E13: ae522cba-b940-45b6-a419-33dc3b92d1dc
   air:
     F1:
       uuid: a8ec6cb0-e550-407e-bda3-f77077efca81
@@ -10327,6 +10551,8 @@ l'aimable_flore_est_de_retour:
           uuid: 6892ea80-0e0d-479f-9831-3d469d4b39d6
           E41: e53f8c26-3d24-425e-bf45-014e99a687d6
         E13: 48e7ffdc-1004-4402-a414-d164aca441d2
+      mots-clés:
+        E13: 2369781c-2cfb-4239-9e00-9dec809adc84
   air:
     F1:
       uuid: 68e647b5-b117-4864-984d-829aa0456366
@@ -10374,6 +10600,8 @@ ah_le_beau_temps_bergère:
           uuid: 83dbdf1b-a22c-4771-8759-26c62dcfeea6
           E41: 11452a13-25a3-44cf-82bc-8118415e894b
         E13: 4efc7388-edcc-4c64-9d9f-053df5fadf50
+      mots-clés:
+        E13: f835e804-4578-43bd-91e4-7621764efaed
   air:
     F1:
       uuid: bfdf0eca-1a50-485c-831e-37ed812b6e2c
@@ -10421,6 +10649,8 @@ quoi_rien_ne_peut_vous_arrêter:
           uuid: 4c54f13d-6d35-4a6d-b18a-4e21bb33739f
           E41: 43bf8040-0281-4c65-991a-1187c4679ca1
         E13: ecfbbbfe-77ec-4f7a-b7d7-96faa4d1c3f9
+      mots-clés:
+        E13: f5272d5b-a170-4f82-87b1-4c42e9eb62c4
   air:
     F1:
       uuid: 790ca58c-c439-4626-8cc8-b11aa949bd41
@@ -10562,6 +10792,8 @@ printemps_de_quoi_me_servez-vous:
           uuid: 31aeebee-6332-485b-8a1a-ea02553bd8e4
           E41: cfed90f3-30fe-4e80-a67f-5bbf1d2464d5
         E13: 37d5d509-bc43-4358-9b57-39bc91225da0
+      mots-clés:
+        E13: b91c8626-83da-4898-80ef-50f8fd31227a
   air:
     F1:
       uuid: 3050cc26-ed64-4277-a947-4c5b2e4fb72c
