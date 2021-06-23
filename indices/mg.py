@@ -84,8 +84,7 @@ for b in r.json()["results"]["bindings"]:
     entity_to_label_registry[entity].append(label)
 
     if not entity in entity_to_F34:
-        entity_to_F34[entity] = []
-    entity_to_F34[entity].append(F34)
+        entity_to_F34[entity] = F34
 
 
 # E55 & P127
@@ -128,31 +127,32 @@ for b in r.json()["results"]["bindings"]:
 # le label normalisé de l'entité
 for label_norm, iris in norm_label_to_entities_registry.items():
     index[label_norm] = {}
+    index[label_norm]["iris"] = {}
 
 
     for iri in iris:
 
-        index[label_norm][iri] = {}
-        index[label_norm][iri]["ancestors"] = {}
+        for entity, labels in entity_to_label_registry.items():
+            if entity == iri:
+                for label in labels:
+                    index[label_norm]["label"] = label
+
+        index[label_norm]["iris"][iri] = {}
+        index[label_norm]["iris"][iri]["ancestors"] = []
 
         # F34 Controlled Vocabulary
         for entity, F34 in entity_to_F34.items():
             if entity == iri:
-                index[label_norm][iri]["F34"] = [string for string in F34]
+                index[label_norm]["iris"][iri]["F34"] = F34
 
         # Ancêtres
         parent_iri = child_to_parent_registry[iri]
 
-        if parent_iri:
-            index[label_norm][iri]["ancestors"]["iri"] = []
-            index[label_norm][iri]["ancestors"]["label"] = []
-
         while parent_iri:
-            index[label_norm][iri]["ancestors"]["iri"].append(parent_iri)
             for entity, labels in entity_to_label_registry.items():
                 if entity == parent_iri:
                     for parent_label in labels:
-                        index[label_norm][iri]["ancestors"]["label"].append(parent_label)
+                        index[label_norm]["iris"][iri]["ancestors"].append({"label": parent_label, "iri": parent_iri})
             parent_iri = child_to_parent_registry[parent_iri]
 
 

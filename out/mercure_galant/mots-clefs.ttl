@@ -1,9 +1,8 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix sherlock: <http://data-iremus.huma-num.fr/ns/> .
 
-<44615793-155a-4439-bb0e-5d26c08089f2> a lrmoo:F34_Controlled_Vocabulary ;
+<44615793-155a-4439-bb0e-5d26c08089f2> a crm:E32_Authority_Document ;
     sherlock:sheP_a_pour_entité_de_plus_haut_niveau <045a718b-7cc5-4dba-b307-531860202ad2>,
         <05d068d7-92bf-422f-ae4c-110ebc6e5c1d>,
         <06cfda30-19a6-4804-a759-97d70c84af48>,

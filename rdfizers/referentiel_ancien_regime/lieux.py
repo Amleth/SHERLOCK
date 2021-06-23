@@ -246,9 +246,9 @@ def explore(id, depth):
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
 indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
 
-F34_lieux_uri = u(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
-t(F34_lieux_uri, a, crm("F34_Controlled_Vocabulary"))
-t(F34_lieux_uri, crm("P1_is_identified_by"), l("Noms de lieux"))
+E32_lieux_uri = u(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
+t(E32_lieux_uri, a, crm("E32_Authority_Document"))
+t(E32_lieux_uri, crm("P1_is_identified_by"), l("Noms de lieux"))
 
 
 ####################################################################################
@@ -260,7 +260,7 @@ t(F34_lieux_uri, crm("P1_is_identified_by"), l("Noms de lieux"))
 E32_grand_siecle_uri = u(iremus_ns["78061430-df57-4874-8334-44ed215a112e"])
 t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
 t(E32_grand_siecle_uri, crm("P1_is_identified_by"), l("Grand Siècle"))
-t(F34_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_grand_siecle_uri)
+t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_grand_siecle_uri)
 
 explore(u("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 
@@ -274,7 +274,7 @@ explore(u("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
 E32_mon_cont_uri = u(iremus_ns["41dd59e3-2f0c-4ef3-b08c-9606f33a4a48"])
 t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
 t(E32_mon_cont_uri, crm("P1_is_identified_by"), l("Monde contemporain"))
-t(F34_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_mon_cont_uri)
+t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_mon_cont_uri)
 
 explore(u("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
 

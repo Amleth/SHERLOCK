@@ -13,21 +13,20 @@
 .
 
 # Documenter le fait qu'on ne crée par de lien entre les oeuvres
-# Créer F2 de l'oeuvre, contenant (E65) air/texte
+# Créer F2 de l'oeuvre, contenant (P165) air/texte
 
 
-# Rattachement de l'oeuvre musicale à son article (colonne N)
+# Rattachement de l'oeuvre musicale à son article (colonne P)
 <5ca8198e-6544-4420-92a4-7aa7eff63ad2> # L'article (UUID factice)
     crm:P148_has_component <6bc5e795-7e3f-4961-9c16-1a399c40560b>, 
     <066f3c51-0671-479d-946f-ceb656e88f0b> ;
 .
 
-# E13
 # L'air
 <6bc5e795-7e3f-4961-9c16-1a399c40560b>
     a lrm:F2_Expression ;
-    #créer type "note sur la musique" anciennement crm:P3_has_note "sol mineur, 3, forme binaire (les barres de mesure ont été omises)." ; # Colonne AA
-    #créer type "genre musical" anciennement crm:P2_has_type "air" ; # Colonne AH
+    #E13 créer type "note sur la musique" anciennement crm:P3_has_note "sol mineur, 3, forme binaire (les barres de mesure ont été omises)." ; # Colonne AA
+    #E13 créer type "genre musical" anciennement crm:P2_has_type "air" ; # Colonne AH
 .
 
 # Composition de l'air (colonne C)
@@ -36,6 +35,7 @@
     lrm:R17_created <6bc5e795-7e3f-4961-9c16-1a399c40560b> ;
     #E13 P140 sur F28, P177 sur P14 et P140 "Bertrand"
      crm:P14_carried_out_by "Bertrand de Bacilly" ; # Création d'un E21 par défaut et alignement sur le ref. des personnes si possible
+    # Colonne V : P3 sur événement d'attribution compositeur
 .
 
 # Le texte de l'air
@@ -69,8 +69,6 @@
     crm:P190 "151 123 27 345 56" ; #E13
 .
 
-# Colonne V : P3 sur événement d'attribution compositeur
-
 # Ecriture du texte (colonne S)
 <39772ac9-5004-4e17-bb62-63439dd1fc04>
     a lrm:F28_Expression_Creation ;
@@ -79,19 +77,16 @@
 .
 
 # TODO Revoir colonne O
-# TODO Remplacer colonne N par P
-# TODO Revoir colonne e55 note sur la musique
-
-# Les airs sont-ils toujours liés à une partition dans les articles? 
+# Questionner Nathalie sur la consultation de sources contradictoires. Souhaite-t-elle faire apparaître un dissensus entre les sources?
+# Soit deux événements : consultation des sources et indexation, ou bien création d'un prédicat "sur la base de telle source"
 
 # Comment modéliser la colonne AQ effectif musical? Doremus (les classes de Doremus dérivent généralement de E55)
 
 # Colonne AR (instruments) : créer un type "instrument"
 
-# Colonne BA : identifiant de l'air dans un catalogue existant. A faire aussi pour la colonne Philidor (E42 de type Philidor))
+# Colonne BA : identifiant de l'air dans un catalogue existant. 
+##A faire aussi pour la colonne Philidor (E42 de type Philidor))
 
-# Questionner Nathalie sur la consultation de sources contradictoires. Souhaite-t-elle faire apparaître un dissensus entre les sources?
-# Soit deux événements : consultation des sources et indexation, ou bien création d'un prédicat "sur la base de telle source"
 
 
 

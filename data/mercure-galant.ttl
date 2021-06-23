@@ -12,7 +12,12 @@
     <2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7>,
     <11f1b780-2325-498e-811f-c96a617873de>,
     <e2f6219a-2a40-4724-b4f9-1cf45a4f2849>,
-    <92c258a0-1e34-437f-9686-e24322b95305>;  
+    <92c258a0-1e34-437f-9686-e24322b95305>,
+    <e43ce57c-8bf7-43b5-87a2-cf8c140030a6>,
+    <768197b9-6cc6-4a62-aec9-7282a9c07983>,
+    <e6836743-fa50-4995-b534-ba13d1d24380>,
+    <46561c75-fc5d-4f0c-9b82-ea8779264bfd>,
+    <8b1ec2e2-37d0-4122-a541-2590ebfbd965>;  
   .
 
 <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>
@@ -90,4 +95,31 @@
   crm:P1_is_identified_by "Congrégations religieuses"
   .
 
+####################################################################
+## Indexation musicale
+####################################################################
 
+<e43ce57c-8bf7-43b5-87a2-cf8c140030a6>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Incipit d'oeuvre musicale"
+  .
+
+<768197b9-6cc6-4a62-aec9-7282a9c07983>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Note sur la musique"
+  .
+
+<e6836743-fa50-4995-b534-ba13d1d24380>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Genre musical"
+  .
+
+<46561c75-fc5d-4f0c-9b82-ea8779264bfd>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Instrument mentionné"
+  .
+
+<8b1ec2e2-37d0-4122-a541-2590ebfbd965>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Identifiants de catalogues externes"
+  .

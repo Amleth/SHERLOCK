@@ -54,7 +54,7 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P67_refers_to .
 
-<a5145217-5642-4f08-8566-1c1bbe9c0b4e> a crm:F34_Controlled_Vocabulary ;
+<a5145217-5642-4f08-8566-1c1bbe9c0b4e> a crm:E32_Authority_Document ;
     she_ns:sheP_a_pour_entité_de_plus_haut_niveau <0cea62a6-3edd-4b43-8f52-17dd68d2967a>,
         <b5be2ca9-dd33-405c-b7a2-d66ab3b32558>,
         <d619197b-4068-4a64-ae12-3adc448ac752> ;
@@ -4808,7 +4808,7 @@
         <3dd05e36-bc75-43dc-992e-c67e1beedcae> .
 
 <43955c18-cccb-4c36-8a81-5d9cea9060aa> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <879c4d1d-740c-4cfc-a367-3aca5977b689> ;
+    she_ns:sheP_situation_géohistorique <6a941407-5163-4219-b4d6-5f1793a728b4> ;
     crm:P1_is_identified_by <bb5bdf82-b862-4d4b-8e2c-1f9ca569757c>,
         <eb7eab94-0e8c-492e-b112-b65ec39dc452> .
 
@@ -5115,7 +5115,7 @@
         <26b850c3-ac50-494a-af50-4b8f73077fb3> .
 
 <616166de-ca8a-4064-bbeb-79501867566d> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <a3d72636-035a-499b-b508-d792300c5b98> ;
+    she_ns:sheP_situation_géohistorique <d9ced43b-a402-497f-abd5-0bb6ac4bdd37> ;
     crm:P1_is_identified_by <9f6ceb0c-9326-4114-bf35-190b65edfd2f>,
         <a9cfd7fc-6c72-479a-a5fb-a338c9b3af4f> .
 
@@ -5358,7 +5358,7 @@
         <b2c404ea-7b6e-47d4-80af-be555d18d7af> .
 
 <74607251-0caa-47cc-a1d2-799fdfeeb6ff> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <879c4d1d-740c-4cfc-a367-3aca5977b689> ;
+    she_ns:sheP_situation_géohistorique <6a941407-5163-4219-b4d6-5f1793a728b4> ;
     crm:P1_is_identified_by <0e1bab7f-59e7-4f57-915f-a083762dc451>,
         <598cd1b4-7eac-4a49-abdf-b7eb46d44b1e> .
 
@@ -5657,7 +5657,7 @@
         <9ac32020-bfc8-40b9-b904-94a56819315e> .
 
 <8b052328-2f3c-496f-8c90-d7c385d5af90> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <f89e1bb4-4539-4408-a5c2-a826f2d4e420> ;
+    she_ns:sheP_situation_géohistorique <f6a108d1-8bff-4847-b5c0-c40a985de574> ;
     crm:P1_is_identified_by <282e7d39-1305-4d5f-8d36-d1de5386c58a>,
         <676579b8-cb11-4907-9019-273f2c50a8e2> .
 
@@ -5894,7 +5894,7 @@
         <d99a43aa-8646-4d4c-b53c-567dd9bad15e> .
 
 <a182ee91-3488-41aa-af07-368b23e4da71> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <879c4d1d-740c-4cfc-a367-3aca5977b689> ;
+    she_ns:sheP_situation_géohistorique <6a941407-5163-4219-b4d6-5f1793a728b4> ;
     crm:P1_is_identified_by <5d8bf57b-e374-4030-8c09-f55f7773c77b>,
         <9acfeab5-f82a-4ba9-b8b3-f3d0d504c0a6> .
 
@@ -5996,7 +5996,7 @@
         <9b0f0f76-6162-41a8-9a68-00e4a7a46960> .
 
 <a818c47c-3938-4ace-b83f-c4c5a1a92b0e> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <0c2c1761-83d8-4c2e-afcb-bc21be5d01a1> ;
+    she_ns:sheP_situation_géohistorique <4ffd7241-9525-40f0-9188-a07c5f58abc0> ;
     crm:P1_is_identified_by <511c8bac-e8fb-4fc1-abdb-97e02ed3b88c>,
         <6b136ff5-e056-470f-80de-d0428fc1f4ad> .
 
@@ -6453,7 +6453,7 @@
         <fe40740a-7cf1-4879-ab39-ce903d04d51b> .
 
 <d27638e5-71fe-4b2d-804d-064c3487f732> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <a3d72636-035a-499b-b508-d792300c5b98> ;
+    she_ns:sheP_situation_géohistorique <d9ced43b-a402-497f-abd5-0bb6ac4bdd37> ;
     crm:P1_is_identified_by <1ff29b40-9b3b-43b4-a4d5-70e578f3555a>,
         <2474af76-1ca3-473e-a6d6-0554eb4703b1> .
 
@@ -6504,12 +6504,12 @@
         <a544a221-419e-405b-bf91-7b2d7b4c33e7> .
 
 <d7cbf8b1-1f71-482e-b7d4-a800071b1425> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <879c4d1d-740c-4cfc-a367-3aca5977b689> ;
+    she_ns:sheP_situation_géohistorique <6a941407-5163-4219-b4d6-5f1793a728b4> ;
     crm:P1_is_identified_by <898389ad-d431-453a-a560-bc9626ff5225>,
         <d1bffb90-2b5e-415b-95fa-471de1e2befe> .
 
 <d8974422-bc53-479b-a457-20228bd188ae> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <0c2c1761-83d8-4c2e-afcb-bc21be5d01a1> ;
+    she_ns:sheP_situation_géohistorique <4ffd7241-9525-40f0-9188-a07c5f58abc0> ;
     crm:P1_is_identified_by <cd32f1ab-cb69-4319-a249-6c44231edb4a>,
         <ebc4caae-425a-4f08-9a56-fcd84bf870bb> .
 
@@ -6718,7 +6718,7 @@
         <f19c65e7-6b76-40a9-867a-941a4e587bf6> .
 
 <e9c49aa6-1ad9-4591-8175-24753c8dc7c1> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <d17bbdfc-ad56-4cdf-bf7e-f77dc2aca603> ;
+    she_ns:sheP_situation_géohistorique <b9c7d9be-8fa4-4202-85fb-97568aafdae8> ;
     crm:P1_is_identified_by <22f614c1-9b8a-40be-bde0-9670c75d8ed6>,
         <f9184c23-1883-459a-a97e-940fde442141> .
 
@@ -6934,7 +6934,7 @@
         <891e7f7b-7243-46d3-aba1-c6f9af2236e2> .
 
 <f47238d2-fa87-4333-b404-eb5c416048c9> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <0c2c1761-83d8-4c2e-afcb-bc21be5d01a1> ;
+    she_ns:sheP_situation_géohistorique <4ffd7241-9525-40f0-9188-a07c5f58abc0> ;
     crm:P1_is_identified_by <377434e2-ba2c-40c7-9025-69d0e7fe9ab0>,
         <5ab1e3f7-e182-4fae-a920-992a87a39b69> .
 

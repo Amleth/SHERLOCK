@@ -29,10 +29,10 @@ g.bind("lrmoo", lrmoo)
 sherlock = Namespace("http://data-iremus.huma-num.fr/ns/")
 g.bind("sherlock", sherlock)
 
-F34_uuid = iremus['44615793-155a-4439-bb0e-5d26c08089f2']
+E32_uuid = iremus['44615793-155a-4439-bb0e-5d26c08089f2']
 
-g.add((F34_uuid, RDF.type, lrmoo['F34_Controlled_Vocabulary']))
-g.add((F34_uuid, crm['P1_is_identified_by'], l('Thésaurus des mots-clefs du Mercure Galant')))
+g.add((E32_uuid, RDF.type, crm['E32_Authority_Document']))
+g.add((E32_uuid, crm['P1_is_identified_by'], l('Thésaurus des mots-clefs du Mercure Galant')))
 
 lines = []
 
@@ -78,7 +78,7 @@ for line in lines:
                 l(line)
             ))
             g.add((
-                F34_uuid,
+                E32_uuid,
                 crm['P71_lists'],
                 u(cache.get_uuid([line]))
             ))
@@ -118,7 +118,7 @@ for line in lines:
             l(line)
         ))
         g.add((
-            F34_uuid,
+            E32_uuid,
             crm['P71_lists'],
             u(cache.get_uuid([line]))
         ))
@@ -128,7 +128,7 @@ for line in lines:
     last_depth = depth
 
 for tlkw in toplevel_keywords:
-    g.add((F34_uuid, sherlock['sheP_a_pour_entité_de_plus_haut_niveau'], u(cache.get_uuid([tlkw]))))
+    g.add((E32_uuid, sherlock['sheP_a_pour_entité_de_plus_haut_niveau'], u(cache.get_uuid([tlkw]))))
 
 serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.ttl, "wb") as f:
