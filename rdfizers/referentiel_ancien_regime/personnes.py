@@ -64,6 +64,7 @@ def lrm(x):
 def she(x):
     return URIRef(iremus_ns[x])
 
+
 def she_ns(x):
     return URIRef(sherlock_ns[x])
 
@@ -89,6 +90,7 @@ def ro_list(s, p):
 # DONNEES STATIQUES
 ####################################################################################
 
+
 indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
 indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
 
@@ -109,13 +111,15 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
     t(E21_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
     t(E41_uri, RDFS.label, ro(opentheso_personne_uri, SKOS.prefLabel))
+    t(E41_uri, crm("P2_has_type"), SKOS.prefLabel)
     altLabels = ro_list(opentheso_personne_uri, SKOS.altLabel)
     if len(altLabels) > 0:
         for altLabel in altLabels:
             E41_alt_uri = she(cache_personnes.get_uuid(["personnes", identifier, "E41 alt", altLabel], True))
             t(E41_alt_uri, a, crm("E41_Appellation"))
             t(E41_alt_uri, RDFS.label, altLabel)
-            t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
+            t(E21_uri, crm("P1_is_identified_by"), E41_alt_uri)
+            t(E41_alt_uri, crm("P2_has_type"), SKOS.altLabel)
     t(E21_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
     t(E21_uri, DCTERMS.modified, ro(opentheso_personne_uri, DCTERMS.modified))
 
@@ -132,7 +136,8 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                             clef_mercure_livraison = m_livraison.group()[3:]
                             clef_mercure_article = m.group()[3:]
                             try:
-                                F2_article_uri = she(cache_corpus.get_uuid(["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles", clef_mercure_article, "F2"]))
+                                F2_article_uri = she(cache_corpus.get_uuid(["Corpus", "Livraisons", clef_mercure_livraison,
+                                                                            "Expression TEI", "Articles", clef_mercure_article, "F2"]))
                                 E13_index_uri = she(cache_personnes.get_uuid(["personnes", identifier, "indexation", "E13"], True))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
@@ -192,13 +197,18 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
         try:
             if exactMatch == "https://opentheso3.mom.fr/opentheso3/index.xhtml":
                 continue
-                t(E21_uri, SKOS.exactMatch, exactMatch)
+            E42 = she(cache_personnes.get_uuid(["personnes", identifier, "E42", exactMatch], True))
+            t(E42, a, crm("E42_Identifier"))
+            t(E42, RDFS.label, u(exactMatch))
+            t(E21_uri, crm("P1_is_identified_by"), E42)
+            # TODO typer le 42 ? (BNF, etc.)
         except:
             print("L'URL " + exactMatch + " n'est pas valide")
 
-    closeMatches = ro_list(opentheso_personne_uri, SKOS.closeMatch)
-    for closeMatch in closeMatches:
-        t(E21_uri, SKOS.closeMatch, closeMatch)
+    # TODO voir avec Nathalie ce qu'on fait des trois petits orphelins
+    # closeMatches = ro_list(opentheso_personne_uri, SKOS.closeMatch)
+    # for closeMatch in closeMatches:
+    #     t(E21_uri, SKOS.closeMatch, closeMatch)
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.output_ttl, "wb") as f:
