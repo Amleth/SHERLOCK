@@ -207,7 +207,7 @@ def explore(id, depth):
                     t(E13_note_uri, crm("P141_assigned"), note_uri)
                     t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
-        for note in [SKOS.note, SKOS.historyNote]:
+        for note in [SKOS.note, SKOS.historyNote, SKOS.definition]:
             process_note(note)
 
         # Exact et Close Matches
@@ -215,7 +215,11 @@ def explore(id, depth):
         for exactMatch in exactMatches:
             if exactMatch == "https://opentheso3.mom.fr/opentheso3/index.xhtml":
                 continue
-            t(E93_uri, SKOS.exactMatch, exactMatch)
+            E42_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E42", exactMatch], True))
+            t(E42_uri, a, crm("E42_Identifier"))
+            t(E42_uri, RDFS.label, u(exactMatch))
+            t(E93_uri, crm("P1_is_identified_by"), E42_uri)
+
 
         closeMatches = ro_list(id, SKOS.closeMatch)
         for closeMatch in closeMatches:
