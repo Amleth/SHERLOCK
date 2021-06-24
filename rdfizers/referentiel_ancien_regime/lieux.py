@@ -127,6 +127,7 @@ def explore(id, depth):
         t(E41_uri, a, crm("E41_Appellation"))
         for prefLabel in ro_list(id, SKOS.prefLabel):
             t(E41_uri, RDFS.label, prefLabel)
+            t(E41_uri, crm("P2_has_type"), SKOS.prefLabel)
             census_label_uuid(prefLabel, E93_uuid)
         altLabels = ro_list(id, SKOS.altLabel)
         if len(altLabels) > 0:
@@ -134,8 +135,10 @@ def explore(id, depth):
                 E41_alt_uri = she(cache_lieux.get_uuid(["lieu", identifier, "E93", "E41_alt", altLabel], True))
                 t(E41_alt_uri, a, crm("E41_Appellation"))
                 t(E41_alt_uri, RDFS.label, altLabel)
-                t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
+                t(E93_uri, crm("P1_is_identified_by"), E41_alt_uri)
+                t(E41_alt_uri, crm("P2_has_type"), SKOS.altLabel)
                 census_label_uuid(altLabel, E93_uuid)
+
 
         # E13 Indexation
         def process_note(p):

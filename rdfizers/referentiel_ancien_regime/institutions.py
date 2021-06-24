@@ -110,6 +110,7 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
     t(E32_noms_instit_corpo_uri, crm("P71_lists"), E74_uri)
     t(E74_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
+    t(E41_uri, crm("P2_has_type"), SKOS.prefLabel)
     t(E41_uri, RDFS.label, ro(opentheso_institution_uri, SKOS.prefLabel))
     altLabels = ro_list(opentheso_institution_uri, SKOS.altLabel)
     if len(altLabels) > 0:
@@ -117,7 +118,9 @@ for opentheso_institution_uri, p, o in input_graph.triples((None, RDF.type, SKOS
             E41_alt_uri = she(cache_institutions.get_uuid(["institutions et corporations", identifier, "E41_alt", altLabel], True))
             t(E41_alt_uri, a, crm("E41_Appellation"))
             t(E41_alt_uri, RDFS.label, altLabel)
-            t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
+            t(E74_uri, crm("P1_is_identified_by"), E41_alt_uri)
+            t(E41_alt_uri, crm("P2_has_type"), SKOS.altLabel)
+
     t(E74_uri, DCTERMS.created, ro(opentheso_institution_uri, DCTERMS.created))
     t(E74_uri, DCTERMS.modified, ro(opentheso_institution_uri, DCTERMS.modified))
 
