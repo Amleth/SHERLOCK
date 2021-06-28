@@ -109,7 +109,7 @@ for file in os.listdir(args.tei):
     # Date de publication
     livraison_F3_F30 = she(
         corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F3_F30"], True))
-    g.add((livraison_F3_F30, RDF.type, URIRef(crm_ns["F30_Manifestation_Creation"])))
+    g.add((livraison_F3_F30, RDF.type, URIRef(lrmoo_ns["F30_Manifestation_Creation"])))
     g.add((livraison_F3_F30, URIRef(lrmoo_ns["R24_created"]), livraison_F3))
     livraison_F3_E52 = she(
         corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F3_E52"], True))
@@ -148,7 +148,7 @@ for file in os.listdir(args.tei):
     g.add((livraison_F2_tei_E42, URIRef(crm_ns["P2_has_type"]),
            URIRef(iremus_ns["219fd53d-cdf2-4174-8d71-6d12bdd24016"])))
     g.add((livraison_F2_tei_E42, RDFS.label,
-           URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/MG-{file[0:-4]}.xml")))
+           URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/{file[0:-4]}.xml")))
 
     # Identifiant de la TEI
     livraison_F2_tei_E42_id = she(
