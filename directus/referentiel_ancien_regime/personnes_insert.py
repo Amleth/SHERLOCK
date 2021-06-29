@@ -108,8 +108,6 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 		dict_infos_concept["note_1"] = None
 		dict_infos_concept["note_2"] = None
 
-	# TODO Ajouter les altLabels
-
 	# ENVOI DES DONNEES
 	# r = requests.post(secret["url"] + '/items/personnes?access_token=' + access_token, json=dict_infos_concept)
 
@@ -126,8 +124,9 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 			}
 
 			# pprint(dict_altlabels_concept)
+
 			# ENVOI DES DONNEES
-			r = requests.patch(secret["url"] + '/items/personnes?access_token=' + access_token, json=dict_altlabels_concept)
+			# r = requests.patch(secret["url"] + '/items/personnes?access_token=' + access_token, json=dict_altlabels_concept)
 	else:
 		pass
 
