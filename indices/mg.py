@@ -84,7 +84,7 @@ for b in r.json()["results"]["bindings"]:
     if not entity in entity_to_E32:
         entity_to_E32[entity] = E32
 
-
+pprint(norm_label_to_entities_registry)
 
 # Nombre d'entités par E32
 
@@ -144,26 +144,7 @@ for b in r.json()["results"]["bindings"]:
 # CREATION DE L'INDEX
 #######################################################################################
 
-# {
-#   “référentiels”: {
-#     <IRI du référentiel 1>: {
-#       “label: “…”, // crm:P1_is_identified
-#       “n”: 666, --- nombre de concepts // COUNT SPARQL des concepts dans le référentiels (crm:P71_lists)
-#       “note”: “Ce référentiel blablabla…” // crm:P3_has_note
-#     },
-#     <IRI du référentiel 2>: {      “label: “…”,
-#       “n”: 666, --- nombre de concepts,
-#       “note”: “Ce référentiel blablabla…”
-#     },
-#     …
-#   }
-#   “concepts”: {
-#     “philosophie”: { … }
-#     …
-#   }
-# }
-
-index = {"référentiels" : {}, "concepts": {}}
+index = {"référentiels": {}, "concepts": {}}
 
 for E32_Auth, nombre_E55 in E32_entity_nbr.items():
     index["référentiels"][E32_Auth] = {
@@ -177,9 +158,7 @@ for label_norm, iris in norm_label_to_entities_registry.items():
     index["concepts"][label_norm] = {}
     index["concepts"][label_norm]["iris"] = {}
 
-
     for iri in iris:
-
         for entity, labels in entity_to_label_registry.items():
             if entity == iri:
                 for label in labels:
