@@ -78,25 +78,30 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 	for p in [SKOS.editorialNote, SKOS.historyNote, SKOS.note, SKOS.scopeNote]:
 		notes_opentheso = list(input_graph.objects(opentheso_personne_uri, p))
 		if len(notes_opentheso) >= 1:
-			note = notes_opentheso[0]
-			if "##id##" in note or note.startswith("##"):
-				indexations = note.split("##id##")
-				for indexation in indexations:
-					if indexation == None:
-						continue
-					indexation = indexation.replace("##", "").strip().split(" ")
-					indexation = indexation[0]
+			note = notes_opentheso[0].value
 
-					# TODO Corriger les erreurs d'encodage dans l'indexation
-					if "&" in indexation or "<" in indexation or indexation == None:
-						#print(note)
-						pass
+			# balises dans les notes à supprimer
+			balises_a_supprimer = ["&amp;nbsp;", "<p class= ql-align-justify >", "<br>",
+			"</span>", "</p>", "<span style= color: black; >", "<span style= color: rgb(102, 102, 102); >",
+			"<span style= color: rgb(0, 0, 0); >", "<span style= color: rgb(80, 80, 80); >",
+			"<span style= color: rgb(191, 191, 191); >", "<p>"]
+			for balise in balises_a_supprimer:
+				if balise in note:
+					note = note.replace(balise, "")
+
+			# récupération des indexations
+			if "##" in note:
+				indexations = note.split("##")
+				for indexation in indexations:
+					if "MG" in indexation:
+						indexation = indexation.replace("\r", "").strip()
 
 					if indexation not in dict_indexations:
 						dict_indexations[indexation] = []
 					dict_indexations[indexation].append(uuid)
+
 			else:
-				notes.append(note.value)
+				notes.append(note)
 
 	if len(notes) >= 1:
 		dict_infos_concept["note_1"] = notes[0]
