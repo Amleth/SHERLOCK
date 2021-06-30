@@ -5,34 +5,17 @@ from rdflib import Graph, Literal, RDF, RDFS, SKOS, DCTERMS
 from rdflib.plugins import sparql
 import argparse
 from sherlockcachemanagement import Cache
-import yaml
-import os
-import sys
-import requests
 from pprint import pprint
+import time
 
 # Arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--cache_personnes")
 parser.add_argument("--cache_corpus")
 parser.add_argument("--skos")
+parser.add_argument("--json_concepts")
+parser.add_argument("--json_index")
 args = parser.parse_args()
-
-# Secret YAML
-file = open(os.path.join(sys.path[0], "secret.yaml"))
-secret = yaml.full_load(file)
-r = requests.post(secret["url"] + "/auth/login", json={"email": secret["email"], "password": secret["password"]})
-access_token = r.json()['data']['access_token']
-refresh_token = r.json()['data']['refresh_token']
-file.close()
-
-# Test - lecture de données
-# r = requests.get(secret["url"] + '/items/sources_articles/MG-1678-01_206?access_token=' + access_token)
-# pprint(r.json())
-# r = requests.get(secret["url"] + '/items/sources_articles_indices/1?access_token=' + access_token)
-# pprint(r.json())
-# r = requests.get(secret["url"] + '/items/sources_articles_indices/2?access_token=' + access_token)
-# pprint(r.json())
 
 # Caches
 cache_corpus = Cache(args.cache_corpus)
@@ -42,19 +25,20 @@ cache_personnes = Cache(args.cache_personnes)
 input_graph = Graph()
 input_graph.load(args.skos)
 
-# Dictionnaire des concepts et de leurs informations
-dict_infos_concept = {}
-
 # Dictionnaire de l'indexation des sources par le référentiel des personnes
 dict_indexations = {}
 
+#########################################################################################
+## PERSONNES
+#########################################################################################
 
-#########################################################################################
-## INSERTION DES PERSONNES ET LEURS INFORMATIONS DANS DIRECTUS
-#########################################################################################
+data_concepts = []
 
 # RECUPERATION DES DONNEES
 for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
+
+	# Dictionnaire des concepts et de leurs informations
+	dict_infos_concept = {}
 
 	id = list(input_graph.objects(opentheso_personne_uri, DCTERMS.identifier))[0].value
 
@@ -113,31 +97,25 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 		dict_infos_concept["note_1"] = None
 		dict_infos_concept["note_2"] = None
 
-	# ENVOI DES DONNEES
-	# r = requests.post(secret["url"] + '/items/personnes?access_token=' + access_token, json=dict_infos_concept)
-
 	# RECUPERATION DES ALTLABELS
 	altlabels = list(input_graph.objects(opentheso_personne_uri, SKOS.altLabel))
 	if altlabels != None:
-		for altlabel in altlabels:
-			dict_altlabels_concept = {
-				"id": uuid,
-				"personnes_altlabels": [{
-					"label": altlabel.value,
-					"personne": uuid
-				}]
+		dict_infos_concept["personnes_altlabels"] = [
+			{
+				"label": altlabel.value,
+				"personne": uuid
 			}
+			for altlabel in altlabels]
 
-			# pprint(dict_altlabels_concept)
+	# time.sleep(0.5)
 
-			# ENVOI DES DONNEES
-			# r = requests.patch(secret["url"] + '/items/personnes?access_token=' + access_token, json=dict_altlabels_concept)
-	else:
-		pass
+	data_concepts.append(dict_infos_concept)
 
 #########################################################################################
-## INSERTION DES INDEXATION DES SOURCES DANS DIRECTUS
+## INDEXATIONS
 #########################################################################################
+
+data_index = []
 
 for k, v in dict_indexations.items():
 	dict_infos_index = {
@@ -149,9 +127,14 @@ for k, v in dict_indexations.items():
 		} for i in v]
 	}
 
-	# pprint(dict_infos_index)
+	data_index.append(dict_infos_index)
 
-	# ENVOI DES DONNEES
-	# r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=dict_infos_index)
+#########################################################################################
+## CREATION DES FICHIERS JSON
+#########################################################################################
 
+with open(args.json_concepts, 'w', encoding="utf-8") as file:
+	json.dump(data_concepts, file, ensure_ascii=False)
 
+with open(args.json_index, 'w', encoding="utf-8") as file:
+	json.dump(data_index, file, ensure_ascii=False)
