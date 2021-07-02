@@ -80,9 +80,9 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 					if "MG" in indexation:
 						indexation = indexation.replace("\r", "").strip()
 
-					if indexation not in dict_indexations:
-						dict_indexations[indexation] = []
-					dict_indexations[indexation].append(uuid)
+						if indexation not in dict_indexations:
+							dict_indexations[indexation] = []
+						dict_indexations[indexation].append(uuid)
 
 			else:
 				notes.append(note)
