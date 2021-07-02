@@ -34,6 +34,7 @@ estampes:
         E13: 8c8d7e73-d0f3-4180-a7f3-61dc814a323f
       lien externe:
         E13: 75fc5b42-01a1-47a8-bc5a-2c39df1bea69
+      identifiant BnF: ffba8299-c783-4d8f-9dbb-6e01e33873c8
   1678-01_038:
     E36:
       uuid: dd79ba3c-985b-4ac8-9c7c-dfc1a85defe7
@@ -61,6 +62,7 @@ estampes:
           uuid: d3dc9935-ca0a-4e4e-986b-d571219d13d2
           E13: b554a0a2-329d-4f6d-8d99-11bfc9ca4ba9
           lieu représenté: 442be4c5-927c-4ece-b1be-b4a4dad1885a
+      identifiant BnF: ddd5b942-c6b8-478b-a76a-222ef054c2aa
   1678-01_147:
     E36:
       uuid: 2091c32f-733c-4058-839e-3eb9e4d75cc2
@@ -79,6 +81,7 @@ estampes:
           E13: a91f57d7-20fe-4d00-9d0b-5ed7f32694e3
       gallica:
         E13: 9a1bc8f8-ebe8-45a7-b4f6-2ce448e9ba44
+      identifiant BnF: 18295f37-e03c-4041-aff0-be30e58cc046
   1678-01_242:
     E36:
       uuid: caafc553-9de9-458f-a309-90cf49fdc478
@@ -119,6 +122,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 0833106f-84ad-4eb9-b4a7-1996c7d64a03
           E13: 6a17aee5-2e67-4e7e-9a04-984d7df67e91
+      identifiant BnF: 33066c85-b881-45f4-aab0-5e164c45f717
   1678-02_081:
     E36:
       uuid: 81a89f5a-7af2-4f39-8af1-ad82b5cc996c
@@ -142,6 +146,7 @@ estampes:
         zone de l'image (E36):
           uuid: 1d97c799-f5ff-4243-a2ba-c5c4844c95de
           E13: 53a392f3-f788-473f-ad15-2994fab0e814
+      identifiant BnF: d4dd935f-77bd-47e1-a2af-19635afaff36
   1678-02_236:
     E36:
       uuid: 393ed121-3262-4cc1-9168-991b10b1316c
@@ -156,6 +161,7 @@ estampes:
           E13: d955700d-e63a-4433-8f72-1090b8840dc0
       gallica:
         E13: 3e263487-851f-4590-9097-a54363e5a6cc
+      identifiant BnF: ed7d9cb8-2c53-432e-9385-fb52d2ab59d4
   1678-02_271:
     E36:
       uuid: 37526f63-5349-4ba9-a4f3-d7494d318dfd
@@ -186,6 +192,7 @@ estampes:
         zone de l'image (E36):
           uuid: b64efa85-125c-429d-b2d7-53a16aa557f7
           E13: c80ec1af-5876-49d5-9e18-a0a69e065513
+      identifiant BnF: 012299e5-f382-4078-acb0-0eb445dbc576
   1678-03_153:
     E36:
       uuid: f579d755-c104-4aed-9f83-8fb07f9eb452
@@ -222,6 +229,7 @@ estampes:
           E13: 21a5fd2a-fb1e-4f83-82a6-eecf5520130c
       lien externe:
         E13: 8566dab9-bfc6-4098-b9a7-c87f4202a508
+      identifiant BnF: 25553d6f-ba38-484f-b068-4220918831c5
   1678-03_163:
     E36:
       uuid: 33f62102-647f-4051-9314-182fd510f4e2
@@ -247,6 +255,7 @@ estampes:
         zone de l'image (E36):
           uuid: a23ead03-671e-4ff4-8027-cf6b279ef826
           E13: 3debf165-2196-4670-b39b-50f96f0cce58
+      identifiant BnF: 7d69d3f5-e8b5-44c0-af6d-5768a7ad3a4d
   1678-03_329:
     E36:
       uuid: b4602425-13ff-405f-8cfd-3b09191a72ad
@@ -274,6 +283,7 @@ estampes:
           uuid: a5fe2f2e-5f04-4c7b-b9b1-a89b3ba3a40a
           E13: 93fc8ffc-3fa4-4316-8eed-2bdf9bb808f0
           lieu représenté: 13f0a1b1-a1ad-4c4c-99ce-e3da04802188
+      identifiant BnF: a7193cb2-27e5-4f9a-9426-c0ff115ba2f4
   1678-03_377:
     E36:
       uuid: 7d137e0f-8155-42fc-8b9b-7f38fd19a43c
@@ -288,6 +298,7 @@ estampes:
           E13: eb31179d-bd97-4c80-bc87-f48443a76c80
       gallica:
         E13: b2947b2f-cef6-4171-934d-dc3a6b991736
+      identifiant BnF: 81541fbe-9571-4aab-a8da-92f0586fbeb8
   1678-03e_275:
     E36:
       uuid: 7f45b1d9-c481-4fd8-9060-179c24279e49
@@ -302,6 +313,7 @@ estampes:
           E13: 4bec5de2-65c8-4249-b820-8e18fc86c48b
       gallica:
         E13: f54c3fd3-525c-4727-a0f4-1bcd94fba8a4
+      identifiant BnF: 8b712a41-7284-4c94-8954-47f1f1bbc68a
   1678-03e_492:
     E36:
       uuid: 00573256-3ca6-4458-b746-b205e6288d3e
@@ -315,6 +327,7 @@ estampes:
           E13: 46c02aeb-4c85-4097-b40e-f9acfabe2b22
       gallica:
         E13: f46b554a-1fdf-4fda-9cd5-a9ff19bce5ca
+      identifiant BnF: 0a16307f-b690-4756-b469-6cb8ed04c376
   1678-03e_494:
     E36:
       uuid: f278f899-51da-4209-b0a9-f16d50d1ac30
@@ -328,6 +341,7 @@ estampes:
           E13: 23adf440-5433-49cc-b124-ed0c5ff8dc22
       gallica:
         E13: c7780541-3128-4881-a954-131dc41d9171
+      identifiant BnF: 03acee4a-1d33-4e2a-82bd-61256d12e73e
   1678-03e_508:
     E36:
       uuid: d842d727-46f4-463f-8637-fb2f5d0d77da
@@ -341,6 +355,7 @@ estampes:
           E13: 9284a929-df96-45b7-b8ec-2ae664f9f97e
       gallica:
         E13: a1ef0814-d991-4eba-8d14-c5c7f624c6f5
+      identifiant BnF: f3a49fa4-66ef-4022-a7ec-2550c09e545b
   1678-03e_510:
     E36:
       uuid: f7a25be2-b943-436b-b4b5-b4dc59057e11
@@ -354,6 +369,7 @@ estampes:
           E13: 26ba358f-8298-4c25-911b-91a048f41fa8
       gallica:
         E13: a2793f17-7a46-45dc-8c6b-cc7f6c183462
+      identifiant BnF: 55fed2c4-50a2-4b8a-8151-19137b391f0f
   1678-03e_521:
     E36:
       uuid: 179bf74e-7bf1-41e6-945f-182a14ab8bfe
@@ -367,6 +383,7 @@ estampes:
           E13: a7f83974-d11f-4f9b-abb5-3902a88e58db
       gallica:
         E13: f1dab9ac-e142-43b3-aeeb-475b2fa451a8
+      identifiant BnF: b0781a97-0327-44fc-b3d2-018bd3ff5111
   1678-03e_523:
     E36:
       uuid: 8af64638-9017-425f-9824-59816e5ecfbe
@@ -397,6 +414,7 @@ estampes:
       bibliographie:
         uuid: c93175ee-5fb7-4ec7-9cf7-53883f8f6933
         E13: a4e9b973-fd87-4c2b-9b98-f3c577bdfdbd
+      identifiant BnF: 1f919cea-ab16-4407-b48e-fbc58b2cb0e6
   1678-04_044:
     E36:
       uuid: b1a7bd7c-6d12-4218-a84f-1f227931eb8e
@@ -424,6 +442,7 @@ estampes:
           uuid: f69d1060-b7c2-43b1-bef1-7461b7cea3ed
           E13: 9db27cf6-39bc-4e53-9b2b-d998cb76b164
           lieu représenté: 0aa808aa-36ef-4143-8a48-4901b2cecc75
+      identifiant BnF: 0e52d481-936d-401c-b66b-b716b6ba0030
   1678-04_232:
     E36:
       uuid: f881062b-0b55-43cd-b3d8-4333df489be7
@@ -451,6 +470,7 @@ estampes:
           uuid: 6690fa4b-7820-4999-9a4b-e34ae46f4b41
           E13: ca916a19-cd34-4af1-afd4-dda5a30c49d6
           lieu représenté: 8a962846-05f5-4248-8ae8-c1f4be2b35bc
+      identifiant BnF: 6c3aa6be-479a-4dc7-a2f2-9a0a7191b9a5
   1678-04_318:
     E36:
       uuid: 8219aba9-710e-46c9-8bb7-05eb36001f2d
@@ -465,6 +485,7 @@ estampes:
           E13: 5f25669f-f7c0-4f08-8696-16e964b64ad2
       gallica:
         E13: 93ba17aa-3942-4bbe-950a-85426d30e7b9
+      identifiant BnF: e3670279-c45d-4445-b4cb-2de7a40a0116
   1678-04_339:
     E36:
       uuid: e86e3208-b523-4aed-9c5a-10b3cb9fc000
@@ -479,6 +500,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7f2c2bec-4bc8-43e5-8797-e7be80c06bd1
           E13: 496aa502-6b37-418f-b077-2f9ab4219aba
+      identifiant BnF: a757d539-4c1d-4fa8-8ecd-5cf6775b738c
   1678-04_397:
     E36:
       uuid: 6cf5e636-e848-424e-b0ea-95d2f5902ce8
@@ -492,6 +514,7 @@ estampes:
           E13: 3c5dfe30-d562-4d2b-9001-58fef5801b09
       gallica:
         E13: 86651890-027e-4ef1-8da8-666a1685e36c
+      identifiant BnF: fd3a765e-490f-4dc2-98ba-59784417e1c2
   1678-04_402:
     E36:
       uuid: 896f8369-de65-4cf0-825c-50552de345ff
@@ -505,6 +528,7 @@ estampes:
           E13: 78969a50-fcda-4070-9542-4cf4e2cf9e0b
       gallica:
         E13: 4a2be2d1-4ca9-4428-97b9-e079713e80ca
+      identifiant BnF: 2a5dd9ad-dbf8-4de0-8741-262a6264fd61
   1678-04_414:
     E36:
       uuid: 999f6cca-0e08-422f-aa3a-46dddfa57a59
@@ -519,6 +543,7 @@ estampes:
           E13: c7a267d2-48fd-45d2-852b-5ada7c72c9d7
       gallica:
         E13: 1b291744-8f56-424a-94f0-bd4b752f58e1
+      identifiant BnF: 33097b1c-a6f4-4ee6-9e98-7acd5be4bee2
   1678-05_128:
     E36:
       uuid: b1711528-a469-4047-93cc-a3cfa99a4700
@@ -544,6 +569,7 @@ estampes:
           uuid: 84b80a46-8b2f-47c7-b247-9b27c85a0e12
           E13: b43d6828-99be-43fd-8a00-f4fe93af30b3
           lieu représenté: 2f757f3b-6e13-45dc-8926-7ee39ed95327
+      identifiant BnF: 021e6a91-4f28-4dc5-a82a-129ba21a41f1
   1678-05_146:
     E36:
       uuid: bb3ae2af-c5b5-4e8f-bf6e-9e515a92e78b
@@ -565,6 +591,7 @@ estampes:
         zone de l'image (E36):
           uuid: 5bfc1b09-334a-4230-ba83-9561e2dc7d99
           E13: 3473a2ba-92e5-42ab-af2b-4eb9d6745029
+      identifiant BnF: 2776ccf0-68a4-4f84-8144-82ebbaa8b1f6
   1678-05_289:
     E36:
       uuid: 6f428347-6155-4e9e-a3fa-d7e5e1c4b95c
@@ -583,6 +610,7 @@ estampes:
           E13: d3e4e331-a1bf-4ec4-a1cc-b54882dcb355
       gallica:
         E13: 2f6f1683-9866-4200-868e-a2fe634f9996
+      identifiant BnF: 879a3ade-b927-43a7-a037-2aff6aa3f16b
   1678-05_368:
     E36:
       uuid: 9c6cc24e-47da-47be-b059-8873a93f4c02
@@ -597,6 +625,7 @@ estampes:
           E13: 563a0464-17fa-40c7-99a0-c80d296b3e14
       gallica:
         E13: 74d3348d-c895-4cd1-a735-ba73f3d9ea86
+      identifiant BnF: 0cb86944-b323-468d-a23b-8898f2805449
   1678-05_373:
     E36:
       uuid: 886d2af3-098a-4d97-8c1a-e3acd5212980
@@ -619,6 +648,7 @@ estampes:
         zone de l'image (E36):
           uuid: e5363e99-1637-4a6a-bd5e-8b448c8959a5
           E13: 6d3977bd-d9a1-4882-9a81-9edaa49aafce
+      identifiant BnF: 9f687e7c-f244-400e-88be-a3ba91fa5ee6
   1678-06_026:
     E36:
       uuid: e680bc50-8e35-4158-8f80-f51a3d8d52d8
@@ -641,6 +671,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7fc23bdd-a5b9-4584-be1a-fdf6c8659764
           E13: a95a6759-dba8-432b-83c1-1d6208593817
+      identifiant BnF: ba3adee4-0d44-4b3b-89f1-24dcc3c0243f
   1678-06_032:
     E36:
       uuid: 7a5e6c95-aecd-405b-a0a6-102a75b52ea0
@@ -655,6 +686,7 @@ estampes:
           E13: fea0f5c0-8efe-4f89-abf1-aec5f1d53e26
       gallica:
         E13: 412f06fa-1b0c-4de7-8138-2f9b79f5086d
+      identifiant BnF: 69da43d7-b667-4350-8c98-da98fd21af95
   1678-06_299:
     E36:
       uuid: 098437c5-9913-4da0-a035-cbe48618b4bd
@@ -677,6 +709,7 @@ estampes:
         zone de l'image (E36):
           uuid: a00cc109-eaf3-4f74-ab4d-6e8f00e23297
           E13: 43fa68ca-efa7-429e-9434-f57fb0dd3189
+      identifiant BnF: cd034477-ea4a-48cf-bc5e-944c4da02cdf
   1678-06_338:
     E36:
       uuid: 0b0f5b9c-0473-4500-9c6f-e706ad9e3ac0
@@ -695,6 +728,7 @@ estampes:
           E13: cdc71d19-cd73-43b3-8ed6-24e315c3890b
       gallica:
         E13: 6eb65507-fd2f-43dd-862b-7a84d1ff7bcc
+      identifiant BnF: 464a3d87-4076-4888-a60b-f489893fcc10
   1678-06e_044:
     E36:
       uuid: 00d9adc7-c177-4f49-b762-158e6b2c1958
@@ -721,6 +755,7 @@ estampes:
           uuid: c10eeb02-7d1a-43c2-a308-6f7527a5c85f
           E13: 76112c92-d32f-48f9-bc66-a3fb8ecdf6af
           lieu représenté: 4cbd1385-c848-437e-a84c-dafc317d338c
+      identifiant BnF: f6edb95e-7b06-4d26-9c31-13f9180c0e5d
   1678-06e_081:
     E36:
       uuid: 7beda214-382f-4654-910a-b692141ca698
@@ -755,6 +790,7 @@ estampes:
           uuid: 4e30f86a-3531-4d7b-bcbc-a59a9263bb61
           E13: 29cd1e2a-f0f4-4ac3-a3e4-70f83fe90315
           lieu représenté: c6f18717-eae1-4703-84da-bcbc0341dd67
+      identifiant BnF: 11de7fdf-da7a-4e8f-b2d1-b6e15a40c522
   1678-06e_296:
     E36:
       uuid: 3403caf7-a933-4bd4-8152-272f18410918
@@ -786,6 +822,7 @@ estampes:
         zone de l'image (E36):
           uuid: c6b42c8c-3205-449a-b130-9b69254cd891
           E13: 32a36a0e-81c2-44c4-bc70-e93b59fab1f1
+      identifiant BnF: 5263696b-7fa0-4f68-be3a-215b20ad48a2
   1678-07_319:
     E36:
       uuid: bb7fb2a4-5ab6-40be-89c9-d3c8dbadd84b
@@ -804,6 +841,7 @@ estampes:
           E13: 634ea569-a021-468d-b558-1473d871dbcb
       gallica:
         E13: 4b899f90-d2dd-4368-bc28-2c5c83c42a1d
+      identifiant BnF: 3e5e7338-d353-4dc2-80fb-b0cf42b612ba
   1678-07_344:
     E36:
       uuid: e4de1926-a559-4c10-b66e-fb32d5ca58c9
@@ -822,6 +860,7 @@ estampes:
           E13: ae5aa48e-c71c-408d-a8b4-f4152fc6f98e
       gallica:
         E13: 1ec3ece9-fa1d-481e-8fe9-c091979bf7e9
+      identifiant BnF: 47cbcbb1-32ab-4ccc-adde-b5455bbc7236
   1678-07_373:
     E36:
       uuid: c76eea84-b678-440c-8847-22a5e7011301
@@ -836,6 +875,7 @@ estampes:
           E13: dfdecf7b-1089-4cb9-ad83-621de49e4e12
       gallica:
         E13: a4256357-6f5b-4e8f-93fc-e5a05023b1b1
+      identifiant BnF: 69554aec-e637-431e-b0cd-ea25af4d7936
   1678-08_027:
     E36:
       uuid: 53afdcf5-1f2d-4e4b-8096-8a5776a61375
@@ -854,6 +894,7 @@ estampes:
         zone de l'image (E36):
           uuid: f91e33e0-2fc5-4b47-8912-abf789316225
           E13: 762cd3ff-65ef-4f76-8334-92bcf98931fb
+      identifiant BnF: 9075e6b0-a7f7-4ea1-81ec-b252e60daa50
   1678-08_336:
     E36:
       uuid: 70feea40-a966-443b-9521-7f735e169ac0
@@ -887,6 +928,7 @@ estampes:
           uuid: 75376934-2d94-4430-b6c0-4f0ae307579b
           E13: 66a20c3d-1106-461c-813c-c0ca0ca6d097
           lieu représenté: 4243bbaa-ec4a-49b8-add3-1f2712480a43
+      identifiant BnF: b4e29069-e2b6-4136-997a-3cef4be630f2
   1678-08_353:
     E36:
       uuid: 5292ae11-4541-4431-af95-5cec36fe2575
@@ -901,6 +943,7 @@ estampes:
           E13: 6d4dade4-b3e2-4ef1-8cff-2abfd807a4fe
       gallica:
         E13: a1e5613a-d99c-4ca1-b6ee-28ccf0546b4a
+      identifiant BnF: 43483e96-babe-4b5f-96ca-849d75f65efb
   1678-09_069:
     E36:
       uuid: 81139d94-66b6-4980-8abc-cc88e488b4e5
@@ -930,6 +973,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9fcaec7c-6cdf-4284-9af3-dd858cb02962
           E13: 97fb4682-24ea-40e9-9045-bab69854c1d6
+      identifiant BnF: ec3bfa6a-2142-4aa8-9b49-69d9cb982c45
   1678-09_179:
     E36:
       uuid: 5c018e51-33e9-49ba-99c5-1d3a7fac4aa9
@@ -947,6 +991,7 @@ estampes:
         zone de l'image (E36):
           uuid: 3a56e670-4184-4006-a44d-2f64611dff31
           E13: 14536522-c722-4be7-9a5b-ece16373f62f
+      identifiant BnF: 48c7bc59-9409-4ea7-91bd-1dc35dcbb807
   1678-09_334:
     E36:
       uuid: a096dab3-4649-46b4-9436-f1bdf168db02
@@ -978,6 +1023,7 @@ estampes:
           uuid: 363d3b2c-03a0-47eb-85bb-1f83f8bc1ce7
           E13: 2f6402da-a0ba-4972-a77b-dbb3c22c028d
           lieu représenté: 317ac718-6266-4866-bbf5-eae1b7124990
+      identifiant BnF: 12dc7976-a793-4c0f-8678-8497aa636b28
   1678-09_383:
     E36:
       uuid: 613456e1-5604-44c5-b446-f578dbab6244
@@ -992,6 +1038,7 @@ estampes:
           E13: 8a0491b3-7ab4-4de6-8dc2-babf522bb262
       gallica:
         E13: f676c5e3-79b5-4f80-baa0-520788d6eca4
+      identifiant BnF: 4fc96b81-75d3-47c8-a9b6-666d6ebff381
   1678-09e_136:
     E36:
       uuid: d2daa459-f664-4832-8edd-f03785bd647d
@@ -1006,6 +1053,7 @@ estampes:
         zone de l'image (E36):
           uuid: 1ae48d34-784f-450f-9976-6c4f24a5e3f5
           E13: 36ad1b09-93ed-4ab2-9a4b-8b1f316a66b9
+      identifiant BnF: 94bb52ae-8e82-4aa0-a63f-0531f9885b9b
   1678-09e_286:
     E36:
       uuid: d389cffb-0153-4db3-907c-918750da29bc
@@ -1029,6 +1077,7 @@ estampes:
         zone de l'image (E36):
           uuid: a7238ada-3f33-4cf6-be12-d0f10c5267bf
           E13: d4c6fc95-a826-4cfc-99cf-0b14379b18f9
+      identifiant BnF: 00143abc-233c-4c13-808b-56ebd827fd80
   1678-09e_393:
     E36:
       uuid: 7159535a-5ada-41b7-ae0f-c23a6553cb34
@@ -1055,6 +1104,7 @@ estampes:
           uuid: 9d8273b1-72d1-476a-bd20-c0b90e84fbc5
           E13: 246b8526-8701-409d-baf4-ccd029d6e26e
           lieu représenté: 47a20f64-3714-4596-b30c-7629b5bf7f39
+      identifiant BnF: fec1207a-0684-4f30-b7f2-5abcda5f6ac8
   1678-10_062:
     E36:
       uuid: 81f19682-1858-4ca2-aff7-6382f95f4db2
@@ -1086,6 +1136,7 @@ estampes:
           uuid: 865e4647-4e2e-46e0-9f80-724f8e1c9a1f
           E13: 12a1263a-adde-41c2-91e4-fab25c06b1c5
           lieu représenté: f57e627f-9c5d-4aa9-aff1-68499506c77d
+      identifiant BnF: 126a8626-982e-45f4-a0d0-73a67d03f1eb
   1678-10_276:
     E36:
       uuid: f4597408-281c-4d10-b844-ea02be55cc6f
@@ -1108,6 +1159,7 @@ estampes:
           E13: 962a318d-8b98-4fc8-9186-fc3d94c698bb
       lien externe:
         E13: deea8053-8445-4f9b-9bea-66db53658794
+      identifiant BnF: d5b8ad84-cbfe-490d-b18b-3a759a1b11ac
   1678-10_355:
     E36:
       uuid: 7a92e2b7-26aa-49ad-b4ca-4ffd9f77241e
@@ -1122,6 +1174,7 @@ estampes:
           E13: 952f7b9c-38e7-455f-9d81-70aa92055f23
       gallica:
         E13: 006b04a4-f443-4f22-b97f-af48b17474e6
+      identifiant BnF: fe509f59-211f-47e8-991a-83b6a200a241
   1678-10_373:
     E36:
       uuid: 40d06acc-dfee-47f7-b434-e2d8662389c7
@@ -1135,6 +1188,7 @@ estampes:
           E13: fdd85a26-e2a4-4ab0-8c1b-6bd4280d8e5a
       gallica:
         E13: fa04656e-c2f6-45dd-a273-26652fc88f81
+      identifiant BnF: ee824c09-cfe2-4eaf-a2c1-3274d3a4ecca
   1678-10_376:
     E36:
       uuid: e3efcb7c-3a19-4df1-8da3-388ae9d0e519
@@ -1148,6 +1202,7 @@ estampes:
           E13: b41e11be-bfdb-47e9-9ee5-ee733b323474
       gallica:
         E13: 4a14196a-0db1-48e3-9f03-36399e729e01
+      identifiant BnF: 31e292cc-4d27-46d4-9479-075703570f80
   1678-11_012:
     E36:
       uuid: f92db577-9433-4bc1-8598-1255fe5fc81e
@@ -1161,6 +1216,7 @@ estampes:
         zone de l'image (E36):
           uuid: 82660984-9204-441e-8b97-1561da4151d5
           E13: 817b623a-3419-4af4-958c-51b6f2b50988
+      identifiant BnF: e502e171-ec5c-4c9d-8ea3-98999fa49a19
   1678-11_276:
     E36:
       uuid: 20b45b29-3218-4d8c-bfeb-75b9d6b6d32a
@@ -1179,6 +1235,7 @@ estampes:
         zone de l'image (E36):
           uuid: a7b6b910-585a-4056-857b-e8202da676c4
           E13: e92a6b53-7f33-4249-bf0e-3c1871dbe50b
+      identifiant BnF: a5639615-d25b-4af0-82b2-b6c8109e53c8
   1678-11_323:
     E36:
       uuid: 667b55fa-778a-4f03-a5ab-b9a6d3a7b2ca
@@ -1193,6 +1250,7 @@ estampes:
           E13: a05a1e86-9601-471e-a4f2-f5d0ba1a8472
       gallica:
         E13: 12476a33-6ba5-4fe2-a812-9b146e2e2eb0
+      identifiant BnF: 0e6ea988-1f8c-4dd7-a03e-03bbddf3c69c
   1678-11_360:
     E36:
       uuid: 4848cfca-10a9-4a37-a4f0-3bb23fcd7237
@@ -1207,6 +1265,7 @@ estampes:
       gallica:
         E13: a5ed5827-3563-4f2a-9540-906b88d583ea
       titre sur l'image: 7f5a7f35-1aef-4411-9346-d03bdbda3595
+      identifiant BnF: 68397141-8700-4f1a-9fa3-513e08c06730
   1678-12_096:
     E36:
       uuid: e4c1ef45-b961-4260-9631-0eb7b83e98a5
@@ -1238,6 +1297,7 @@ estampes:
           uuid: b52af61a-1202-4a40-8231-a505c4e394ff
           E13: f109979b-ed80-4425-ab0c-1348296b7cde
           lieu représenté: c6231480-de67-4a25-aab3-8ae368f45881
+      identifiant BnF: aa3a975c-f708-4833-b7ee-fb6fa90055c1
   1678-12_272:
     E36:
       uuid: a51406d7-6ddc-4180-bc82-a1e3d4c3c6f9
@@ -1275,6 +1335,7 @@ estampes:
         zone de l'image (E36):
           uuid: 79e8cbac-bc5e-443b-87f4-733644ebbb17
           E13: 6ef954eb-9b2c-46fa-9840-4663a4e9c020
+      identifiant BnF: dd34c7f9-9d7c-4ebb-ab48-e5d60c0c899d
   1678-12_295:
     E36:
       uuid: 4f596037-c3f4-41c0-845f-b0f8eb5bbaa4
@@ -1293,6 +1354,7 @@ estampes:
           E13: cb9876e8-b465-4c96-b9d6-c77983fceb34
       gallica:
         E13: 2d10e078-fb2c-4b4f-b593-d692cf3e0b91
+      identifiant BnF: a19c520e-641e-4c16-8154-49386aa53e70
   1678-12e_155:
     E36:
       uuid: d14d606b-dd2f-4c02-8a57-81cd9466f0c4
@@ -1310,6 +1372,7 @@ estampes:
           E13: c1db9868-5483-456e-b138-0b7437f41ae1
       gallica:
         E13: 71f12026-1c2e-4398-b3c2-6455b31cb505
+      identifiant BnF: 3aae9002-f293-4022-9814-acc24e3a8477
   1678-12e_182:
     E36:
       uuid: 458d310a-26ce-471e-ad71-7a8611d3403e
@@ -1348,6 +1411,7 @@ estampes:
         zone de l'image (E36):
           uuid: b96c646d-4990-496d-a9b9-45e0b6de30ab
           E13: 886cb798-5691-4b73-ae81-d5b861e776da
+      identifiant BnF: cd82315f-b063-4e17-ae1a-3892501bfba0
   1678-12e_349:
     E36:
       uuid: 43c95391-93f0-4546-9275-00373fe987d2
@@ -1380,6 +1444,7 @@ estampes:
         zone de l'image (E36):
           uuid: 375b7d1c-b05c-4380-92a0-514f4af08308
           E13: 8bb5f057-4581-44fa-86e6-0d9cc96866a5
+      identifiant BnF: 54167f96-583b-43cf-b264-52a45d9d962d
   1679-01_016:
     E36:
       uuid: 8b83ac1e-48a0-4768-a50b-f8e2c01f3c26
@@ -1409,6 +1474,7 @@ estampes:
         zone de l'image (E36):
           uuid: 620848cf-5671-4af5-9ce0-53bcbba592a4
           E13: 8b159527-4b3f-4380-8f4b-c5b135c66b2d
+      identifiant BnF: c3252b95-69e9-4ad2-9f72-c17741fd1e7a
   1679-01_300:
     E36:
       uuid: 5ff6f25f-035a-4666-ac44-2a8675d8685c
@@ -1426,6 +1492,7 @@ estampes:
         zone de l'image (E36):
           uuid: eb13edd6-626c-4cad-a63e-3581f138a754
           E13: 95072547-cc7b-49a2-8813-814f1f2e4789
+      identifiant BnF: dc753de5-b5dd-40ea-9b58-64a167f1371f
   1679-01_327:
     E36:
       uuid: 074918df-bbf0-419b-8ae2-6085b4145e80
@@ -1440,6 +1507,7 @@ estampes:
           E13: fd7d4aed-9e9b-4ad1-82ad-89c17aed37fb
       gallica:
         E13: a419e3cd-cdc7-4012-a1b1-d92ed73f0823
+      identifiant BnF: 8fa13829-3444-4242-ae69-c255032d2cad
   1679-02_101:
     E36:
       uuid: 5ba56164-d162-4b33-b5ca-e77883e31e65
@@ -1469,6 +1537,7 @@ estampes:
         zone de l'image (E36):
           uuid: d4a24743-6ad4-4650-9711-e3a6ae5ba3fa
           E13: 0fb715c5-d45f-4853-9d3e-b1329701e3f0
+      identifiant BnF: 754f4be5-8785-4ab3-b4b9-776580902149
   1679-02_225:
     E36:
       uuid: a6af56f7-69b8-4f85-954f-c8e27079fff9
@@ -1483,6 +1552,7 @@ estampes:
         zone de l'image (E36):
           uuid: e92d64e6-6af6-4441-b3cb-64175830dc5f
           E13: aea5563e-d41a-46db-8d50-9b113a44118a
+      identifiant BnF: 09fc317b-72ae-42ce-a787-1a1ae4f8f93b
   1679-02_357:
     E36:
       uuid: e900d7e0-8065-4b83-89a8-1da3cd6e8876
@@ -1497,6 +1567,7 @@ estampes:
           E13: 781ada6a-daab-4bc6-a6a1-e3f6e0c808a4
       gallica:
         E13: 96652ffa-7fab-4ca1-8c00-161ed106f663
+      identifiant BnF: 2da1cf7f-e23d-4c60-bf84-ad2e1d8a6fd5
   '1679-03_124 ':
     E36:
       uuid: 8151641a-2d5c-490b-9c8a-23083da9aff4
@@ -1526,6 +1597,7 @@ estampes:
         zone de l'image (E36):
           uuid: a07a7d32-f42b-47b6-90fc-fe851ce9ccf3
           E13: 37cdd7b6-a37d-4ccc-a3c7-e9cd1afeb3dc
+      identifiant BnF: 4ccc2639-30aa-4091-aee5-75b9f6c9e26f
   1679-03_256:
     E36:
       uuid: b08a4b3b-4177-4336-9518-35e4dfa1d501
@@ -1539,6 +1611,7 @@ estampes:
         zone de l'image (E36):
           uuid: 26575add-7231-42b6-8a88-c2be1e40fc61
           E13: 74ca8081-cad8-4cba-8014-890e84c056b3
+      identifiant BnF: 073907fb-0f75-4c32-b17c-7eafd1c435d3
   1679-03_349:
     E36:
       uuid: c6832cd8-fdfb-49bc-9b5c-d17b731841cb
@@ -1553,6 +1626,7 @@ estampes:
           E13: 8edeb8d5-5839-472f-bc74-5ec03050c066
       gallica:
         E13: d2996bcb-57cb-46dc-83ba-4e61dc90b969
+      identifiant BnF: 1c3b8fee-aa72-48ab-b26f-af3c6745cb49
   1679-03e_00:
     E36:
       uuid: a153a7b9-e5aa-4b9d-8fa2-b03ea593d14b
@@ -1587,6 +1661,7 @@ estampes:
         zone de l'image (E36):
           uuid: 72d33791-92be-44a4-9c37-5e4ce7bad24a
           E13: 7d5633b2-47d0-45f4-bc94-1a8019a6f593
+      identifiant BnF: facae5f8-b71e-484f-916f-3ecbad39d3bc
   1679-03e_172:
     E36:
       uuid: 27edaaa0-03cb-4327-84de-4504a23130ea
@@ -1609,6 +1684,7 @@ estampes:
         zone de l'image (E36):
           uuid: 00d079bd-26c0-4d37-a11f-b9bef943e4ba
           E13: 9f821e33-c573-4377-8a9c-9a181b13d2aa
+      identifiant BnF: e3009bbb-9db9-4796-9170-988f5d2040b4
   1679-03e_272:
     E36:
       uuid: 50ee0b82-28ff-41c2-bbcd-283baa237da2
@@ -1627,6 +1703,7 @@ estampes:
         zone de l'image (E36):
           uuid: e5b5066e-e469-4e90-8f7a-4891c811a1e4
           E13: 23f1f858-b1ad-4652-ab84-f5f807f16a7d
+      identifiant BnF: 93edd304-0eb3-4dae-af72-33e71f62a6a2
   1679-03e_391:
     E36:
       uuid: 91cde3c5-1dc8-4d19-afd0-59a4130d7025
@@ -1648,6 +1725,7 @@ estampes:
         zone de l'image (E36):
           uuid: cec4ae1b-6277-4af6-97d7-7941e23b429a
           E13: 69289d88-9bf3-4285-9089-5b8e8a70ea7d
+      identifiant BnF: fcf2c5ea-3c21-4a01-8c19-a2073fbfc590
   1679-04_181:
     E36:
       uuid: 30491eb8-bcb5-4174-92e9-271c51a738cd
@@ -1665,6 +1743,7 @@ estampes:
         zone de l'image (E36):
           uuid: 30f00513-12fc-4318-a27c-45260db70c87
           E13: 538a10eb-02c5-4be1-be86-6556e122f6dc
+      identifiant BnF: 59b62d8e-d725-4931-9eb9-c4c422d71ec0
   1679-04_259:
     E36:
       uuid: 06f1acd7-d730-4e97-b291-27abe67bbd24
@@ -1683,6 +1762,7 @@ estampes:
           E13: e1ef74b0-c18a-4ca7-bf17-e9d781476e63
       gallica:
         E13: b4ff8eb7-bc2d-4deb-842b-c1c220c0d810
+      identifiant BnF: ae8e028e-4685-4335-a01a-4f05da8a4894
   1679-04_363:
     E36:
       uuid: 1332478a-042a-4a75-9c57-519532ea4839
@@ -1697,6 +1777,7 @@ estampes:
           E13: 94feb88c-5d1c-45a8-89d2-ddda275f3136
       gallica:
         E13: 0264b8e1-826c-4280-8ad7-2bdfe234f5df
+      identifiant BnF: 90a7f36e-066c-41e8-80d7-318742d135e7
   1679-05_012:
     E36:
       uuid: 219ae586-7523-4353-9a0b-48639fdd7f6d
@@ -1714,6 +1795,7 @@ estampes:
         zone de l'image (E36):
           uuid: c8bfc37c-619b-4b37-b384-1ee7692ce69f
           E13: e13e3790-9df7-4517-910b-0b81a9114a90
+      identifiant BnF: d04981a5-999b-40ee-9bcc-f24a8db718f7
   1679-05_302:
     E36:
       uuid: c6316b48-1b71-4be7-aa04-929c0ace40e7
@@ -1743,6 +1825,7 @@ estampes:
           E13: e643b0be-605d-4b8e-8ad0-01ef2e34386e
       lien externe:
         E13: bfb1516a-e28e-496e-a23d-acd297ba230f
+      identifiant BnF: d2ecfc57-123e-4bb6-9496-c5e4749c92c7
   1679-05_344:
     E36:
       uuid: 2163b844-870c-4e26-9edd-3bc651469f14
@@ -1757,6 +1840,7 @@ estampes:
           E13: dd269d08-8dad-4cc3-81f3-17c4d6d96408
       gallica:
         E13: f8c64c23-0f29-46d5-805b-652107efdd6e
+      identifiant BnF: 47a1128c-2abd-43c5-9de5-d8d329f66679
   1679-06_202:
     E36:
       uuid: 44e610b1-dd5d-4159-bb16-c54d0f0f2a20
@@ -1786,6 +1870,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7cb11969-cc11-4d96-bc0b-fd7874eb91b4
           E13: 4201c31b-e39b-4b05-b9f7-b4dd30171639
+      identifiant BnF: de0af649-a8e3-4655-920f-bbbc692ec721
   1679-06_294:
     E36:
       uuid: 53f5cc6d-91ae-4af5-b7c6-3a0cacc38a55
@@ -1811,6 +1896,7 @@ estampes:
         zone de l'image (E36):
           uuid: ea96897f-06bf-4f19-9169-aa3667aab7e9
           E13: 13b5b966-38c9-46d9-8722-659eb1c10431
+      identifiant BnF: a86509c9-7b06-4f7b-b7e5-a4ed1787e1ff
   1679-06_326:
     E36:
       uuid: 3a4a049e-2c6e-45e2-8c4c-9db33eef0a5d
@@ -1825,6 +1911,7 @@ estampes:
           E13: 078bd8a4-9689-44f3-9e13-a9cafb34ce13
       gallica:
         E13: 4e763869-896e-41fc-be40-03bc5b819029
+      identifiant BnF: bbe9427b-2ffa-4087-aab4-031e28bab72c
   1679-06e_234:
     E36:
       uuid: cd8c4041-fa2f-489f-9127-94f55afaf69d
@@ -1839,6 +1926,7 @@ estampes:
         zone de l'image (E36):
           uuid: ee81754b-71a0-4b94-85fa-dd374df28e39
           E13: 2b36230a-2dcb-4e52-9e3f-e329a4b62932
+      identifiant BnF: 558be558-aa99-4004-bad9-7d0e7e5a1090
   1679-06e_322:
     E36:
       uuid: d4863f3f-6ed4-4158-976e-dc882dad0ae9
@@ -1901,6 +1989,7 @@ estampes:
         zone de l'image (E36):
           uuid: ce2d47e9-4868-4d7b-982e-93f96a7d102d
           E13: 6e9df67e-e459-4887-9e44-ef7a1562fe89
+      identifiant BnF: 4e290504-461f-4358-81d6-0ff67b964c38
   1679-07_167:
     E36:
       uuid: 019ab1c3-1e0c-406f-8dd4-3baa0daa2105
@@ -1918,6 +2007,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7a8bac07-c069-408d-8130-98dde39b85d8
           E13: 5f3c0529-caf8-4c70-b8c5-4cdd08467e5f
+      identifiant BnF: 81e5a657-7c21-494a-9ec6-48db6cff2539
   1679-07_317:
     E36:
       uuid: 1d92322e-21a4-4357-9dc7-7e572ff9c028
@@ -1931,6 +2021,7 @@ estampes:
         zone de l'image (E36):
           uuid: 3b1fc274-2c1f-4060-8a27-31c998a88eac
           E13: db148f7d-2575-4012-9328-28197dfc312d
+      identifiant BnF: e745b499-5088-40da-b439-8f3f98f7d7df
   1679-07_365:
     E36:
       uuid: 27f86719-f0b5-4bea-9897-9ce03842cf6c
@@ -1945,6 +2036,7 @@ estampes:
           E13: 4bf797ab-5ae9-4d50-923d-732c1d9e5469
       gallica:
         E13: ba3b9142-6eca-48d4-9899-cd6a8191a3a7
+      identifiant BnF: f1a3e852-8e95-4602-83ad-c11a052491f1
   1679-08_147:
     E36:
       uuid: 09328db7-311d-4fb5-9b60-fc26e58c18dd
@@ -1962,6 +2054,7 @@ estampes:
         zone de l'image (E36):
           uuid: 62ff74b7-2900-464b-9190-9046f5b33ecd
           E13: 2cd53e42-c137-4765-ba16-a5c02b0889a2
+      identifiant BnF: 53dba4ba-c704-4b70-810f-da01c6a565d5
   1679-08_267:
     E36:
       uuid: 129b26d6-e161-44e6-ba12-145ec872e150
@@ -1996,6 +2089,7 @@ estampes:
         zone de l'image (E36):
           uuid: 2de98fe5-1596-456e-a21e-e7b532a0a1d3
           E13: 6582460c-283d-48ec-adf0-dda5263e8934
+      identifiant BnF: 87feff60-5372-4474-9e4d-c9f39a14d9ba
   1679-08_362:
     E36:
       uuid: 36b49c73-94b7-4de1-85a6-51481af1ad5a
@@ -2010,6 +2104,7 @@ estampes:
           E13: e23feb68-966e-4573-a991-e9892bd8921e
       gallica:
         E13: 4647c016-9600-4761-9415-31d55809cf93
+      identifiant BnF: 843b06eb-f4f8-461d-b7ae-99e644729ca2
   1679-09_060:
     E36:
       uuid: 480dfa6e-0bda-4051-be47-15bcc588d97f
@@ -2035,6 +2130,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7b835ef3-4679-4d51-b99a-d3c8a038a4be
           E13: 7a62ea75-389b-48f9-b3ae-6929e309abe8
+      identifiant BnF: 33648085-8826-49b9-9645-686c63132624
   1679-09_359:
     E36:
       uuid: 73fe7906-5ec1-48ba-b380-f66415c8c065
@@ -2048,6 +2144,7 @@ estampes:
         zone de l'image (E36):
           uuid: 934eb20e-2092-4a4b-97fe-b4a34f4bea86
           E13: 794ff3f7-cd82-4bcf-902a-6afbb47d8cf5
+      identifiant BnF: 596d56f0-377b-4df7-96f7-32aee5195fcf
   1679-09_365:
     E36:
       uuid: 4f057c00-74a1-46a1-a53f-52eb878d7e8d
@@ -2062,6 +2159,7 @@ estampes:
           E13: 5c43ec4e-203d-4695-b354-2f3b0de0b9cb
       gallica:
         E13: e47ff62d-8da9-4f93-84c8-b865aebd236b
+      identifiant BnF: 1c2f4971-0d4a-4223-af46-8be7e67aca51
   1679-09e_194:
     E36:
       uuid: 84b16514-4a5b-469b-8596-8ab81e9adf6a
@@ -2083,6 +2181,7 @@ estampes:
         zone de l'image (E36):
           uuid: 1958ecdb-b757-413d-9700-6d2f302b658e
           E13: 4432b318-d94a-4ba2-926e-ea402f4a9392
+      identifiant BnF: b77e6f58-eafb-4752-b704-a5aad6834129
   1679-09e_324:
     E36:
       uuid: 79b8f972-4325-4ebd-89cd-395e39a09286
@@ -2110,6 +2209,7 @@ estampes:
           uuid: a08f65c2-2da5-4ee6-a1da-6ea2d00079db
           E13: c0323a76-730f-45c7-aa40-57631b598e8a
           lieu représenté: a7445c63-aa4c-425f-88aa-1c23a0acefd2
+      identifiant BnF: 05d640eb-5c44-4c7a-bcd0-319823601781
   1679-10a_222:
     E36:
       uuid: adb58407-42e4-479a-bc00-731a2fdd3717
@@ -2124,6 +2224,7 @@ estampes:
         zone de l'image (E36):
           uuid: 146dceec-7675-4e22-b417-05ab4ab1096b
           E13: e934e598-e284-4df6-8661-049f8cd9213f
+      identifiant BnF: 523853bb-134c-4b69-a6a3-7ec0d1aa373d
   1679-10a_348:
     E36:
       uuid: 88a93d8c-d7e0-4627-a51a-b6c82567dc82
@@ -2138,6 +2239,7 @@ estampes:
           E13: 0ba26c7f-67e3-4d63-8003-3074f430b4e1
       gallica:
         E13: 4fa3cd26-8f15-4dd6-bcb2-e8c562c7660d
+      identifiant BnF: b8c66acb-7614-4019-b3f5-727e4d33f429
   1679-10b_081:
     E36:
       uuid: cf790a33-53db-48ac-b134-8c606d22172d
@@ -2169,6 +2271,7 @@ estampes:
         zone de l'image (E36):
           uuid: 8f1d0243-833b-48ab-aed2-93546f6a6cee
           E13: edcd3175-106a-431a-9c97-ea2eddc6cd40
+      identifiant BnF: 89746aaa-d7e2-4e31-96e9-7a5bfd03d2a5
   1679-10b_176:
     E36:
       uuid: a0055c5a-ca6e-4a7d-800f-74dbcf07f678
@@ -2206,6 +2309,7 @@ estampes:
         zone de l'image (E36):
           uuid: fcc634cc-2d68-4629-a6c8-9c23faa40eaf
           E13: b9b42444-5f05-453f-98d4-0f3992cfdd79
+      identifiant BnF: 0a06e2b1-2acf-493b-b2c0-9f77e727269e
   1679-10b_215:
     E36:
       uuid: 496de972-5679-44f1-8c82-d0425bf2b12b
@@ -2223,6 +2327,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 7a9680fa-414a-4ed1-93f5-ceff7432249d
           E13: 7528d57f-e6d2-4035-8746-605c9f2508d3
+      identifiant BnF: 2eb29a7c-81b0-4523-a69a-7a3063f66b9a
   1679-11_089:
     E36:
       uuid: a6277525-3739-490b-88ec-baf0d650e78c
@@ -2241,6 +2346,7 @@ estampes:
           uuid: 9a6835a9-a002-4116-8613-5d4d76da9d64
           E13: cf908c8f-27fa-4ffb-83e0-7c592dd8e9b4
       titre sur l'image: 5c317a44-c225-464a-bd41-5b9e563d370a
+      identifiant BnF: 1c63dabc-201c-49ab-8eaa-6d9df55c0399
   1679-11_175:
     E36:
       uuid: 7234f378-ba92-4de1-a789-5b26b73f6b36
@@ -2254,6 +2360,7 @@ estampes:
         zone de l'image (E36):
           uuid: 2516a42e-57e3-4181-9f5a-b2c98327b507
           E13: 0c002546-dd8e-408a-b49f-4b94256704bf
+      identifiant BnF: 8b77500a-92b2-42f9-96f6-e51ee82074e4
   1679-11_349:
     E36:
       uuid: 68ccee09-b8fc-4f63-bdd3-e0410ae95d60
@@ -2268,6 +2375,7 @@ estampes:
           E13: 2b074fa8-5127-4f0b-b06b-986911271ab0
       gallica:
         E13: 27c0b2b6-81d2-4bb9-a2f4-7226deacfc0b
+      identifiant BnF: ed47f7bc-3db3-4bf8-aafd-27d1709e9fe0
   1679-12_138:
     E36:
       uuid: 15ac37d8-322d-4e17-be9e-e336bb4d1da1
@@ -2297,6 +2405,7 @@ estampes:
         zone de l'image (E36):
           uuid: ebcea6ad-d47c-4267-883d-2faa2af11ae6
           E13: 23c64da2-5ec6-43a2-88a0-18ead672b169
+      identifiant BnF: 6de79dfc-3f0d-4647-9cf4-20eaeb64022e
   '1679-12_328 ':
     E36:
       uuid: 5b74953d-ad18-4fc7-a7ab-4ac77258451b
@@ -2318,6 +2427,7 @@ estampes:
         zone de l'image (E36):
           uuid: d5f1d52c-b887-4d2d-85f8-b29f2ea2d40f
           E13: 52e916aa-ebe7-446f-8851-5203de09a5ba
+      identifiant BnF: c69cc0f5-3b7c-4fc7-8535-fb90d9dcb3aa
   1679-12_352:
     E36:
       uuid: a50eceef-ec33-470e-9f31-e564fddff186
@@ -2332,6 +2442,7 @@ estampes:
           E13: a7321fe5-717c-41b2-8233-623a4933c575
       gallica:
         E13: 0061ee77-84d4-4191-8365-a91b137cdac6
+      identifiant BnF: 2908db4b-6392-4431-a546-d4c62264f04e
   1679-12e_203:
     E36:
       uuid: b86f72d2-4a88-4c16-899a-3dc125447951
@@ -2349,6 +2460,7 @@ estampes:
         zone de l'image (E36):
           uuid: 07a65712-67d3-4f27-b32a-180ec32a68e8
           E13: 6bfa2062-2d24-4fc3-a0ec-6832449c00e8
+      identifiant BnF: af3fd71d-2767-49e8-b8d0-d6c86f68ca67
   1679-12e_283:
     E36:
       uuid: 3b027d07-266c-483d-b206-bc954852e4a2
@@ -2374,6 +2486,7 @@ estampes:
         zone de l'image (E36):
           uuid: 0f225041-0a02-4cf5-99b8-eaa6475b314d
           E13: 04ddb1f8-02a2-449a-94a4-a3c864abe784
+      identifiant BnF: 2214898e-444a-4f00-a019-358e8849a3aa
   1680-01a_022:
     E36:
       uuid: 99d18554-b550-48a6-aa26-ec2554a6c81d
@@ -2392,6 +2505,7 @@ estampes:
         zone de l'image (E36):
           uuid: dbc0ee60-445f-4329-b68b-bd2d0e5fa33a
           E13: 1ef8bfb0-fc9d-47d2-84d0-c2941fdfc431
+      identifiant BnF: 9e45893e-7c5f-4810-a29e-45d743057e63
   1680-01a_246:
     E36:
       uuid: 6db8778d-4427-4c8a-8ce4-ba16aab08367
@@ -2416,6 +2530,7 @@ estampes:
         zone de l'image (E36):
           uuid: bb768b1b-6b5e-4596-aa2c-9f7cec51d602
           E13: 9dad372a-1da2-47df-886a-06aff7bc00c7
+      identifiant BnF: 80edf356-4555-4249-a09a-f1b334095b89
   1680-01a_296:
     E36:
       uuid: 56e1edd1-560c-45a1-bc8a-3d17c97cb09a
@@ -2430,6 +2545,7 @@ estampes:
           E13: b8057391-899b-4b5e-ab0e-5672b97d9ba7
       gallica:
         E13: c9cf0af7-abca-494b-9eee-3582665dff59
+      identifiant BnF: 08ca04ca-bd6a-4f25-9897-d57f7d1bec8a
   1680-01b_071:
     E36:
       uuid: 0f0b2b41-bf3a-499a-873a-264c6d5d799c
@@ -2463,6 +2579,7 @@ estampes:
         zone de l'image (E36):
           uuid: db6d9f45-6a3b-4e13-a635-eba4d753caa8
           E13: a585bb2c-4ce6-4d61-a6c8-02fe0c395896
+      identifiant BnF: 9c8f9276-ee73-4c35-8d67-abbd80561968
   1680-01b_207:
     E36:
       uuid: 4da5dfdd-9505-4d6c-80d4-405919107095
@@ -2494,6 +2611,7 @@ estampes:
           uuid: 4ac750f4-3d4c-41cc-a564-b41afd3307d8
           E13: f421fe68-4581-4d0a-a995-d77d1041dbda
           lieu représenté: d214bf0b-e496-442e-bb95-17b7a2ac54fa
+      identifiant BnF: 324bde09-1798-4096-a670-422d0bec1e7b
   1680-02_124:
     E36:
       uuid: 6ab86d98-a8b2-4ff9-a958-b6b688d0a87e
@@ -2515,6 +2633,7 @@ estampes:
         zone de l'image (E36):
           uuid: 07f5b365-f64d-4f25-bb85-e441f3c95d0d
           E13: 74f2ea33-7dbd-4478-abd6-42562192c84b
+      identifiant BnF: 1e3c7c0d-8666-4afb-91d1-7c3a14c23fda
   1680-02_326:
     E36:
       uuid: 29e4dd0e-6b6b-45d1-86a3-8e141a2ff63e
@@ -2529,6 +2648,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7f113d9a-9cce-4bd6-b305-89fb06e828af
           E13: 7136baa3-a10f-4bca-a38c-e1e700981cf1
+      identifiant BnF: cf80145f-9328-4968-8515-91377b4209da
   1680-02_347:
     E36:
       uuid: 5b2af1b8-bbd6-4230-abe3-3d4bdead30a8
@@ -2586,6 +2706,7 @@ estampes:
         zone de l'image (E36):
           uuid: d18331e0-5d23-4661-92c7-bec0b09ecdcc
           E13: 2b7dc56b-fc1b-47d3-8817-85792c04bc30
+      identifiant BnF: 580db361-aab8-44a9-b703-191347e2a24e
   '1680-03a_157 ':
     E36:
       uuid: 15034ec9-e930-4be6-80cd-abb29b58e26f
@@ -2599,6 +2720,7 @@ estampes:
           E13: 1fddcaf3-75fb-4ef3-8593-b62928ab2d04
       gallica:
         E13: b4be250a-6e05-4631-99fd-7a4cd9565616
+      identifiant BnF: 5af2630a-f393-4ed1-8948-0202e312e2d5
   '1680-03a_320 ':
     E36:
       uuid: 7abcea5e-a360-42fb-a09f-7ce51203118e
@@ -2620,6 +2742,7 @@ estampes:
         zone de l'image (E36):
           uuid: 3becf571-ed72-4b58-bdfb-dc7d0ef76009
           E13: ac0f6ec5-49db-4f9b-90f4-ddf431ecc0dd
+      identifiant BnF: 90eba0c4-9b44-48c9-8722-3afc5b7fc1d2
   1680-03a_336:
     E36:
       uuid: f7a90ab0-bb3f-402d-9667-a67a5807b78c
@@ -2638,6 +2761,7 @@ estampes:
           E13: c370b8f1-39df-4a03-b747-034c64616227
       gallica:
         E13: 61e8cda8-a4fe-4502-8caa-071aab4cd2a9
+      identifiant BnF: be683b23-1b75-4065-81ce-d414371a997d
   1680-03b_034:
     E36:
       uuid: 423f68a6-fa3e-49f2-8b68-bfe4fc5993ba
@@ -2664,6 +2788,7 @@ estampes:
         zone de l'image (E36):
           uuid: 6e05df31-b85d-4594-99f6-67a6034682e3
           E13: 581e3cc0-5162-4754-b956-8a2a7b95b073
+      identifiant BnF: 512f43e6-55b8-4525-9a35-7abf99ed4257
   1680-03b_194:
     E36:
       uuid: 01a2c580-7bd1-4731-aaf9-f22576b1375c
@@ -2693,6 +2818,7 @@ estampes:
         zone de l'image (E36):
           uuid: 2d0d4a2f-c4c3-4c08-bf7f-ed269b7c1dd9
           E13: 07925ffb-c957-4405-af65-25df39a30b58
+      identifiant BnF: 856ee22c-fe0d-43d4-a688-3bc8f360245e
   1680-03b_232:
     E36:
       uuid: e33539ae-c4c7-41b7-a5bb-a54d931b2a12
@@ -2720,6 +2846,7 @@ estampes:
         zone de l'image (E36):
           uuid: 5214974d-79b1-40b0-9d3e-9b0c780d12d6
           E13: 91f73a7a-5ad9-4c94-8566-e2080fb47e8c
+      identifiant BnF: 08ee81c7-95df-4707-b531-c02802f4ecf0
   1680-03e_171:
     E36:
       uuid: 71ccbc79-7734-4748-9bf5-e1a47326e053
@@ -2738,6 +2865,7 @@ estampes:
         zone de l'image (E36):
           uuid: 02feaa51-4c2b-45cf-a36b-68f5a4c7e21d
           E13: e243e928-d260-481a-a43b-c6b5efafdc95
+      identifiant BnF: 76613845-cc85-44bb-a5ba-19b0350825bb
   1680-03e_365:
     E36:
       uuid: aedbeb5a-8427-47be-ab8d-3ee399eb853b
@@ -2752,6 +2880,7 @@ estampes:
           E13: dbb90ee5-dfac-4231-8abf-5d7299537dbb
       gallica:
         E13: c4beec5f-1cba-497b-9b69-1fb8c0a8544b
+      identifiant BnF: a43118aa-d33b-404d-9e92-5eb15b7fc74b
   1680-04_182:
     E36:
       uuid: 711bc1ba-f713-4c4a-b317-b31546acf97d
@@ -2783,6 +2912,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7117c47f-ea26-445a-8f7d-6c009c178743
           E13: 30fa8a15-eb18-4ddc-b4d2-d272035c68cc
+      identifiant BnF: 70d39904-6b13-4823-9beb-ae870cd94071
   1680-04_304:
     E36:
       uuid: b96f5612-6fa9-4444-9022-d17880c8c048
@@ -2814,6 +2944,7 @@ estampes:
         E13: 7f02f3cc-400c-48a3-962c-beff8b4c94c4
       lien externe:
         E13: 178c5e97-30dc-49d4-b31b-c3f9a6944786
+      identifiant BnF: d790b8df-6f56-4102-90df-c3424df3740e
   1680-04_322:
     E36:
       uuid: cb736201-07de-4a46-90ea-1cb98486c544
@@ -2828,6 +2959,7 @@ estampes:
           E13: 97a26d83-106f-4ca5-b3c0-1a919e99f0c7
       gallica:
         E13: 92ffb846-ca77-4a9a-bb94-ebf2ae88ecd2
+      identifiant BnF: b5ed20a2-3e4a-4725-9e5d-23ef7a770045
   1680-05_085:
     E36:
       uuid: afa9cba4-bb35-44a9-b991-419230f299ca
@@ -2855,6 +2987,7 @@ estampes:
         zone de l'image (E36):
           uuid: 40e30e1f-b8e3-4995-9ebd-ef589b51d49b
           E13: 76783826-b03a-4845-a501-df4324feae77
+      identifiant BnF: d62c7dfa-e1fb-4568-aa91-9ad6a041ed47
   1680-05_226:
     E36:
       uuid: 39fc7f77-2978-4c3b-ac90-26012625c1c2
@@ -2880,6 +3013,7 @@ estampes:
         zone de l'image (E36):
           uuid: 728a44fa-28c1-4e9e-aa1f-5bc679355e62
           E13: 9c125e9e-4134-477d-8884-64da6aa79ebb
+      identifiant BnF: 703395ee-8de3-4f3d-a83c-40f03cfb6a44
   1680-05_304:
     E36:
       uuid: a9b5ab3b-220c-43bb-83c5-8edc7211f529
@@ -2907,6 +3041,7 @@ estampes:
         zone de l'image (E36):
           uuid: 073f5f25-2a3a-4276-8e93-a3ea50fcdefd
           E13: e53e8e28-16e8-4a6a-b956-efeba16059f9
+      identifiant BnF: d217a7e3-2072-48ce-9245-25f2e040577e
   1680-06_173:
     E36:
       uuid: b825a8d2-9034-45a8-89b3-461e0a9a7719
@@ -2928,6 +3063,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 8b3ff314-a9e8-429f-9b20-c152f235972e
           E13: dc685c1a-415f-4c6a-8adb-db383ec2857b
+      identifiant BnF: d1450456-32c2-4782-9dee-c9af61035a9c
   1680-06_290:
     E36:
       uuid: 02c054fb-ff58-4822-bcbf-28aa2a652af3
@@ -2959,6 +3095,7 @@ estampes:
           uuid: fa06833e-aca8-4a08-8a31-29e140f78115
           E13: 9320ff2c-94cd-4b22-a424-5682f213a94f
           lieu représenté: 82428967-1d71-49a8-a3cd-137facbd5abe
+      identifiant BnF: 8a6bd164-6564-432d-90bf-ce909b8304ec
   1680-06_317:
     E36:
       uuid: 89d60e61-a7e2-481f-86a7-fa4fb1540464
@@ -2973,6 +3110,7 @@ estampes:
           E13: b3fa2d8e-0a32-4703-8994-a98716fa48ca
       gallica:
         E13: 1a870161-9f45-4312-9743-080b7bd9a4c9
+      identifiant BnF: 07608f1c-69b8-4def-92fc-d6c9a4c2b251
   1680-06e_160:
     E36:
       uuid: 4c9338cd-c32e-4e5e-8054-9f202dd19097
@@ -3004,6 +3142,7 @@ estampes:
           uuid: cb622fde-9d70-4bb4-a4a7-6f8c5245e4c8
           E13: 79732d5a-d275-46dd-8e1c-567be88eac9d
           lieu représenté: 38210ae1-4226-43d7-82d5-af2b94edf8ee
+      identifiant BnF: eb885019-a247-47bd-bdc5-f6cc2cc5494d
   1680-06e_340:
     E36:
       uuid: 0aa84807-6c8f-4527-a0dc-8c43b1d6da09
@@ -3035,6 +3174,7 @@ estampes:
           uuid: e971490a-c16d-4445-8db0-9839126ed268
           E13: 0071b566-e840-4bfa-947f-0145480a19fe
           lieu représenté: 84d7da0f-c562-491d-b145-1c559d2aabb1
+      identifiant BnF: 619290c4-9f00-4671-87f3-bdabacc5b26c
   1680-07_081:
     E36:
       uuid: 4851b08e-7736-4d86-a032-e9b54889dfc5
@@ -3056,6 +3196,7 @@ estampes:
         zone de l'image (E36):
           uuid: a6e5a1ea-c630-406e-98ee-fe3357b2a7e2
           E13: 0e77362e-3cd5-4ff3-8f36-d7f23fc64a58
+      identifiant BnF: 902ffb0e-7b3d-4f5c-a54c-5d15e5e9d80a
   1680-07_250:
     E36:
       uuid: bbfa23ce-406d-4f40-899a-072f2e599413
@@ -3086,6 +3227,7 @@ estampes:
         zone de l'image (E36):
           uuid: 83465606-d255-478d-bb7b-d922fe4b598c
           E13: 04690dbf-f832-4bb5-9098-de29dbcfba56
+      identifiant BnF: 49423bb4-f7ca-4c1c-b33c-08d09a36476a
   1680-07_313:
     E36:
       uuid: cd8d5e0b-b471-4791-b93d-d9d17705a895
@@ -3100,6 +3242,7 @@ estampes:
           E13: e9aadacb-8412-42f7-846c-ef4d53c18013
       gallica:
         E13: 930eda65-213f-4685-bbaa-5f1835c61ec8
+      identifiant BnF: 3e5a93f0-1fe4-4841-ae41-82d68c8e63cf
   1680-08_142:
     E36:
       uuid: 642d9744-1549-4890-9c27-3d397a1752ac
@@ -3126,6 +3269,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9f2c2d55-54d5-462d-901b-0ce8c3294758
           E13: 14cb845e-6040-4e1e-8d9e-8461635ae2bc
+      identifiant BnF: cc050073-4e01-42f3-b849-37ce677f9536
   1680-08_240:
     E36:
       uuid: 3477f9d7-2e05-41fd-b648-067efae4a8f6
@@ -3167,6 +3311,7 @@ estampes:
           E13: e44c4309-ad42-4412-b9d3-18f3124cb563
       lien externe:
         E13: 38663790-6958-43ff-85dd-ee10f848e366
+      identifiant BnF: b06b9cfb-126f-4aa8-9b26-cf810adebe4f
   1680-08_332:
     E36:
       uuid: fa006465-8a01-428c-b7ab-245cc7b33831
@@ -3181,6 +3326,7 @@ estampes:
           E13: ecb3156a-2417-4dce-950f-d4c776c1377a
       gallica:
         E13: b55653a3-205e-4da0-b883-215df4bc9bf5
+      identifiant BnF: fcb32739-2bf0-497b-8c2f-c0b2ea71c8fe
   1680-09a_261:
     E36:
       uuid: c6a6741a-63bd-4bdc-8176-003a06abfa40
@@ -3202,6 +3348,7 @@ estampes:
         zone de l'image (E36):
           uuid: 8e7a5685-7090-4240-bc2f-731f89ef3511
           E13: ec42c5dc-3f0e-4c5f-8173-0085ac5a296a
+      identifiant BnF: 8822c3b6-8758-4f4b-a67d-681f6abb6985
   1680-09a_316:
     E36:
       uuid: 418f0ced-295b-47c9-a242-26553847f7fd
@@ -3224,6 +3371,7 @@ estampes:
         zone de l'image (E36):
           uuid: 40499584-3fe1-456b-9293-5d9963fefc94
           E13: 3316e13b-8c1e-4b58-b282-86500a7448c5
+      identifiant BnF: 3ccaacc8-5928-49ba-bd25-101a68242ef3
   1680-09b_165:
     E36:
       uuid: 24227a6c-37e6-4393-a7af-8817188cb087
@@ -3245,6 +3393,7 @@ estampes:
           E13: f209d688-9d2d-4a4e-9940-711fbb08e27e
       gallica:
         E13: a8657c03-5020-466c-9220-a9145df840e0
+      identifiant BnF: 69be8887-410d-44cf-996b-19c8a63defce
   1680-09b_215:
     E36:
       uuid: b5bc4c67-9135-4a62-84c9-93fbc1230461
@@ -3276,6 +3425,7 @@ estampes:
           E13: d4f6a358-c9d5-4517-bac9-dc608c745381
           lieu représenté: 43f6a585-648f-41a3-ab6d-a4eb68e7d17c
       titre sur l'image: 8c44f3cf-9454-49c3-a2c0-69a98a6e20c5
+      identifiant BnF: 7d2b7dd0-1be2-455e-ac45-13ddebdfb256
   '1680-09e_195 ':
     E36:
       uuid: e8726a53-0730-464f-aba5-f2eb8a7f9547
@@ -3305,6 +3455,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7e21f218-1c80-4c3c-8af9-6c2f578ee099
           E13: 560a26e3-17a9-41da-bb50-364f71de5305
+      identifiant BnF: d8fabc09-648b-4e20-b891-3b62ac02ea67
   1680-09e_298:
     E36:
       uuid: c19d0666-bc80-4e3b-a13f-662710958995
@@ -3335,6 +3486,7 @@ estampes:
         zone de l'image (E36):
           uuid: a98e3eac-4482-4e02-860a-d15bfbd5b356
           E13: 886a49af-3697-4b36-b59b-fbd20d18e7f3
+      identifiant BnF: af96ee59-e81b-4a91-aed6-8d8b812372e5
   1680-10_165:
     E36:
       uuid: d679fb25-2d07-4a45-958c-46e07ffd6658
@@ -3356,6 +3508,7 @@ estampes:
         zone de l'image (E36):
           uuid: 09eb5086-cfe9-414b-be8d-faad5aadffbb
           E13: 565bed92-2ec2-4fdd-91d6-4c2aa4e8823b
+      identifiant BnF: 6f399368-a1dd-4ab5-ba70-308561fe2411
   1680-10_263:
     E36:
       uuid: ffea2ae7-3125-4b14-9b43-497c54633a7e
@@ -3374,6 +3527,7 @@ estampes:
         zone de l'image (E36):
           uuid: 096486ab-8a3c-48e5-a3aa-e25285573dbf
           E13: 99aab46e-421d-4686-bf2c-d5683b5dbc5c
+      identifiant BnF: 9d0a39b1-6d75-44f4-b6f4-c44e7a700cf7
   1680-10_354:
     E36:
       uuid: ddf2d5b2-4959-4369-8239-f4d55091cb07
@@ -3388,6 +3542,7 @@ estampes:
           E13: 6d3ea6ce-1c30-46ed-bd69-441afcb5b2df
       gallica:
         E13: ec28aa86-b4fe-47f1-9e94-382f02e41463
+      identifiant BnF: 651d9aa5-5475-48ae-88d3-ccc2485d9dfc
   1680-10e_187:
     E36:
       uuid: ca586254-b524-44b6-b4ad-5bbb389d17e9
@@ -3406,6 +3561,7 @@ estampes:
         zone de l'image (E36):
           uuid: 5519b42d-627a-4afb-8b2b-426db952cf44
           E13: 1fab4077-e9a7-4318-94b7-3f3ea23e46d8
+      identifiant BnF: 544ef474-7132-4f9e-bdd1-1e5eb80fd2fc
   1680-10e_192:
     E36:
       uuid: 3ab7b779-7583-4aeb-99cd-188c335f1b0c
@@ -3419,6 +3575,7 @@ estampes:
         zone de l'image (E36):
           uuid: ab0a6aed-f296-4ec1-9dbc-15bf76ff47ce
           E13: 846bfb49-a064-418a-a752-7f6abafca02d
+      identifiant BnF: 2030ecb0-fa7c-496d-af74-396b380a050c
   1680-10e_268:
     E36:
       uuid: 53a02a7c-c591-4507-9a33-d4d6f9f1b3ab
@@ -3450,6 +3607,7 @@ estampes:
           uuid: 5004e0db-3b27-4115-afe0-65c368dc8c15
           E13: 60588543-1b2e-41c4-9968-ed812fd064fe
           lieu représenté: f0a96e91-230f-45e8-9750-68f153f21210
+      identifiant BnF: ebcc6712-1ecd-402a-85c5-0c4c432e16c6
   1680-11_220:
     E36:
       uuid: a98a3230-4ee3-4c41-8405-a16124c92a92
@@ -3471,6 +3629,7 @@ estampes:
         zone de l'image (E36):
           uuid: b48faccb-1917-4a46-b7fb-3b9f2cc7c793
           E13: e060bdab-fa5d-4ca8-88ab-edaecf154933
+      identifiant BnF: 49f27162-43ce-4e76-9446-148e0c0558e5
   1680-11_274:
     E36:
       uuid: 7d03f865-18e0-41ea-9c6c-61ee3a31f9d3
@@ -3502,6 +3661,7 @@ estampes:
           uuid: 426f5228-fbb8-4677-97a2-47928e64599a
           E13: 96b01f38-dad4-4b61-826b-cf72a3fa7cd8
           lieu représenté: 9029e90a-f0f5-4715-9f99-1f4dce7818b8
+      identifiant BnF: 7f87a3bc-a476-4df6-ab31-f168206714a6
   1680-11_346:
     E36:
       uuid: 084101ac-d7a7-424b-a6c5-22981eb09944
@@ -3516,6 +3676,7 @@ estampes:
           E13: 2d60a891-91e7-48eb-9580-0a192f56b342
       gallica:
         E13: c33bbbbc-1798-4d07-bafe-b70b3a62a039
+      identifiant BnF: 284f2154-475a-4cd4-bc6c-01bca1fdb658
   1680-12_158:
     E36:
       uuid: 542156ce-cc69-492a-85fa-3e88f40f770c
@@ -3537,6 +3698,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 9ba50f18-6b2f-48e8-bd9d-1b6b2509d6df
           E13: 84b2ac6b-3801-4648-93bf-b7c311e1b9ba
+      identifiant BnF: 0ccd0022-999f-4918-9bfd-cc769abe1046
   1680-12_173:
     E36:
       uuid: d90ffe96-483c-4411-8294-c300e9218955
@@ -3558,6 +3720,7 @@ estampes:
         zone de l'image (E36):
           uuid: 81d6c50d-f99c-4680-b195-9c934ec34ac1
           E13: 20a44677-a8d1-47f1-84f1-4e4dd7b442d4
+      identifiant BnF: 22632f6a-6107-49ac-85db-d1657554195a
   1680-12_304:
     E36:
       uuid: 06011213-f2f2-4e8e-bcd3-c8592da73595
@@ -3572,6 +3735,7 @@ estampes:
           E13: e8407022-fc9d-46e8-8819-3793cd7c574a
       gallica:
         E13: 3256b492-5737-439c-a9d3-9c1afd06a900
+      identifiant BnF: 6ed8daab-a463-4ac9-b807-3d27523c3ecb
   1681-01_082:
     E36:
       uuid: 20824bb8-2e87-444d-82df-7e767a5d917d
@@ -3599,6 +3763,7 @@ estampes:
         zone de l'image (E36):
           uuid: 00159590-5c09-4a12-b204-de6db8873430
           E13: 56b1b9ef-8809-4737-8a51-a69e14cbcf46
+      identifiant BnF: f6671b70-ddba-40d2-886a-3c5d2542c351
   1681-01_271:
     E36:
       uuid: d36d0888-707f-4f9a-9e8f-c9884542ef8c
@@ -3624,6 +3789,7 @@ estampes:
         zone de l'image (E36):
           uuid: a1c5b4b0-dfce-4f40-8655-daaa63a287a9
           E13: 37225b65-1408-47d4-8b3a-386f3ba944d8
+      identifiant BnF: 919a99c0-585e-4e96-8da0-b2e3bda5b53d
   1681-01_309:
     E36:
       uuid: be97e742-91e3-4750-bdcd-8b761e485af2
@@ -3642,6 +3808,7 @@ estampes:
         zone de l'image (E36):
           uuid: 5907e140-8e12-4bf0-9aaa-ab70f65af6b6
           E13: 535733d5-8933-4807-aaf9-c1be87b73884
+      identifiant BnF: ae156297-a3d0-45c4-87be-af199443c885
   1681-02_177:
     E36:
       uuid: ccdea97c-0b94-4f52-8369-00d8ea73b7fb
@@ -3663,6 +3830,7 @@ estampes:
         zone de l'image (E36):
           uuid: 3ca46f63-4754-452a-9b52-107b8bfc61bc
           E13: f73cf439-b0fe-47a3-b4a5-cb1eac570ace
+      identifiant BnF: 3166b477-d29c-4c52-86dd-a805161fd9d2
   1681-02_299:
     E36:
       uuid: 65891c32-7d77-40e4-9d6f-4bcdb121b353
@@ -3685,6 +3853,7 @@ estampes:
         zone de l'image (E36):
           uuid: 954aa586-527b-43cc-a37e-12a7fc8bab8e
           E13: 02fab866-04fb-4678-87fb-3554bb149382
+      identifiant BnF: 49a5fa7d-5b39-4dbb-b6eb-e8fc76deb70b
   1681-02_323:
     E36:
       uuid: 8c5fa809-6df5-4a03-973d-f63ddced5278
@@ -3698,6 +3867,7 @@ estampes:
           E13: df475c83-bff5-4f1d-80ff-987cc150ff9c
       gallica:
         E13: b9dfe78c-df0a-4a92-bbff-cd789df37390
+      identifiant BnF: e8a35ec2-16ac-4c78-b538-630bac29880c
   1681-03_085:
     E36:
       uuid: 38cb33ac-d6ef-4fda-af77-999e1092ffd6
@@ -3724,6 +3894,7 @@ estampes:
           uuid: a769a694-be63-4a24-a777-fba24719cb34
           E13: 64fc8d13-f29c-4f26-8c23-0401da254eb5
           lieu représenté: 7333dde6-cb35-497f-a77a-677bf0d528a2
+      identifiant BnF: 7751163f-7041-4d93-996c-a6ac6b70eb09
   '1681-03_100 ':
     E36:
       uuid: bc93a741-64ed-4fb6-b239-7ec54fd3ee35
@@ -3753,6 +3924,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7b59ff58-04c0-4816-b82e-70af92318bb8
           E13: a0e46d6b-a068-4ff2-9c00-6c43b0d534fd
+      identifiant BnF: 85614cf2-6e5b-4fa8-a5a4-d0bbb80595ca
   '1681-03e_168 ':
     E36:
       uuid: 7c19f353-33cf-4e91-a750-c5c92bfcfab3
@@ -3778,6 +3950,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9f6093c7-8f7a-416b-b759-ddf7e05a7ca6
           E13: 88ccc65e-f6f2-497e-bf6b-394a1c923197
+      identifiant BnF: 31ab519d-597c-4ff7-86c2-d425ad843357
   '1681-03e_296 ':
     E36:
       uuid: 2e92eace-2cf4-40ae-ba03-9555dca16144
@@ -3807,6 +3980,7 @@ estampes:
         zone de l'image (E36):
           uuid: 99916e8d-3977-43e5-b844-77ae608a2101
           E13: b0f9e380-f409-4e0d-bf2b-445b24c4266d
+      identifiant BnF: 7ecd2269-995f-4819-9df6-477294c6fb07
   '1681-04_096 ':
     E36:
       uuid: be0e433b-1294-424f-ae85-c1fe70ea7bb7
@@ -3833,6 +4007,7 @@ estampes:
           uuid: 18450ef0-74eb-49cc-af5f-d5ac31c5881c
           E13: 696d5862-199f-464d-8948-38604b233c10
       titre sur l'image: aa33fbeb-5228-47b5-9acc-6336495bd082
+      identifiant BnF: 9800c023-e544-4ea6-bae3-9854b28e0f94
   '1681-04_304 ':
     E36:
       uuid: c90b9653-1ecd-47ec-ab03-a17374866836
@@ -3863,6 +4038,7 @@ estampes:
         zone de l'image (E36):
           uuid: a9a572c0-bb6d-469d-9903-953ee7e4c19f
           E13: d1e0b43d-22da-412f-a8a4-e5f94226ab01
+      identifiant BnF: a98b1050-35d7-4951-a6e4-7b56e34e4d3c
   '1681-05_199 ':
     E36:
       uuid: f81652be-81b2-4ff5-b03f-4e1558a472bb
@@ -3906,6 +4082,7 @@ estampes:
           uuid: a8678416-02f4-4579-8b22-392b0b679b23
           E13: 623fdab4-0bb1-4f82-8949-45c6a93e30df
           lieu représenté: 0999c51a-ea60-4fef-b53f-b503e480759a
+      identifiant BnF: 403e5874-562f-4dff-806d-a8e548b1a105
   1681-05_350:
     E36:
       uuid: e03eb1ea-b830-422c-a00e-019b4dfb945e
@@ -3932,6 +4109,7 @@ estampes:
         zone de l'image (E36):
           uuid: 8a9957a3-1175-4c84-a24e-62ee1f1ca25c
           E13: 6e091c32-de93-45e9-93f2-86eb6d32ae74
+      identifiant BnF: 523e79cd-f2af-4902-a3c7-e661d9190d48
   1681-06_179:
     E36:
       uuid: bc6bdf41-58e3-4c42-b396-234b4793877f
@@ -3969,6 +4147,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9d6e8061-6238-4fa9-b160-070e06232ce4
           E13: db9b4549-f3e5-4555-b4b9-ddbb2c4405b0
+      identifiant BnF: 095d0df1-da05-452d-a883-827c09155599
   1681-06_191:
     E36:
       uuid: 1c1d702d-5e40-4a61-bbea-38c45bc85b51
@@ -3994,6 +4173,7 @@ estampes:
         zone de l'image (E36):
           uuid: 22b87713-547c-4e56-bc08-ba36e39d0e0a
           E13: 7f3b7242-e4ef-4ce4-9608-298a46d4c9e9
+      identifiant BnF: 7a285e75-bd5d-4e2d-8964-953ec6f44f7c
   1681-06e_176:
     E36:
       uuid: 00ca5ae4-8c57-4d41-8768-4f846822e3fb
@@ -4026,6 +4206,7 @@ estampes:
           E13: 8c9a4b56-9ead-4e14-bd85-6a5b975c16ef
       notes:
         E13: f2223f3a-e439-465b-8c59-1308d398479d
+      identifiant BnF: 308aa8d9-f014-4f24-8ad7-747677d5f21b
   '1681-06e_314 ':
     E36:
       uuid: 3a025d6a-fc21-4b2f-b41f-bae9f144ba5f
@@ -4044,6 +4225,7 @@ estampes:
           E13: dc9a3844-551b-47bf-96e0-8081adc6a0e0
       gallica:
         E13: d0bac2de-7293-4e60-9fc1-49f6b31a015b
+      identifiant BnF: e018ffba-a138-4216-a9c6-2b80c73ca0cb
   '1681-07a_173 ':
     E36:
       uuid: 1142495a-6f32-4477-b30f-60e7a1dd87e7
@@ -4069,6 +4251,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 6ea89339-eaf4-401b-ac5b-cfc903ae6e12
           E13: 191bbe45-84a6-48f7-80aa-f7f02db77a8d
+      identifiant BnF: 313476c2-91cb-492f-b5e2-75282a879237
   1681-07a_187:
     E36:
       uuid: 2ef837eb-652e-45df-8c3e-d12e52ea85e0
@@ -4095,6 +4278,7 @@ estampes:
           E13: 5cd1055b-b773-4962-ad92-eaca39d8658d
       gallica:
         E13: 2b349a60-cd75-4a75-b1cd-610b80bfb77e
+      identifiant BnF: 9a70d587-b76f-4fe8-a40b-fe4a0535168f
   1681-07b_266:
     E36:
       uuid: e3ce3ff6-3a8e-428d-9934-8a2ab3feb894
@@ -4127,6 +4311,7 @@ estampes:
           lieu représenté: 73973c3a-d8da-47b5-b1a8-2522940eaa67
       notes:
         E13: 4828be49-36d8-4810-9163-ddf915b9eb17
+      identifiant BnF: 0a5b68f8-ec73-475d-8a20-15707347b5e2
   1681-08_081:
     E36:
       uuid: 524da502-f1eb-483e-87c7-5bb513cf3f72
@@ -4171,6 +4356,7 @@ estampes:
           uuid: 3cb38dcd-6430-4f34-a76e-c00e2a3265a4
           E13: 599dc0f2-4abc-4cac-b616-ac0730160430
           lieu représenté: 9470f716-62c0-4a81-8a44-07e6bb9aa0f7
+      identifiant BnF: 3c24f3cb-6d49-42ff-9259-767c5e404d45
   1681-08_260:
     E36:
       uuid: 2472986a-656f-4ed0-979e-6aa370d0322e
@@ -4192,6 +4378,7 @@ estampes:
         zone de l'image (E36):
           uuid: 023250cf-b162-4e80-975a-2508ab99c979
           E13: a1c5f5d6-900b-46bc-8486-5d0d8dcd170c
+      identifiant BnF: 33ef4451-e478-4a16-8e46-80b7cd389f2b
   1681-09_058:
     E36:
       uuid: b7c8cf58-a50b-49a9-adc5-c38a99cbc3ab
@@ -4205,6 +4392,7 @@ estampes:
         zone de l'image (E36):
           uuid: fa6b2463-2f5c-4655-92d2-dd4b5757b1e7
           E13: 37a14d21-0f3f-44ec-816c-e539609fe286
+      identifiant BnF: 72841a8e-615c-44e1-b0b4-817d57e46d72
   '1681-09_311 ':
     E36:
       uuid: 7b117e2a-eb79-4a16-ab19-8a56a7b52ac5
@@ -4226,6 +4414,7 @@ estampes:
         zone de l'image (E36):
           uuid: d2e9a90b-e44c-4f96-8f3e-ad5c96bf9fab
           E13: 22c15a1f-28d3-44bc-8a08-b6af0dc54790
+      identifiant BnF: cda3417b-cc78-4621-90da-41ed45a03fe9
   1681-09e_214:
     E36:
       uuid: 66c28326-374d-421e-b269-4317f1a4645a
@@ -4265,6 +4454,7 @@ estampes:
           uuid: c56b8e28-ef30-4e07-9791-1f90b54d5d3a
           E13: cfc51742-80b9-4bfb-9551-80566029145f
           lieu représenté: 92dda799-70d8-4db3-9639-a8a6480ba54b
+      identifiant BnF: 5bebbfbb-5157-4b62-b2f5-b6629fffb456
   1681-09e_356:
     E36:
       uuid: 58e4dcc1-ca54-4d51-b5aa-aa50e07e272b
@@ -4291,6 +4481,7 @@ estampes:
         zone de l'image (E36):
           uuid: 4cef99f3-d910-4fca-8d0e-48b694768703
           E13: 4352f229-7167-4f76-8394-d1a6b425e9ce
+      identifiant BnF: 877da4cf-7ac4-4197-9b88-b6472a459c86
   1681-10_094:
     E36:
       uuid: 18e066df-3e9c-4b93-a7c5-df8801200f89
@@ -4304,6 +4495,7 @@ estampes:
         zone de l'image (E36):
           uuid: 88833458-fa53-49ca-97e7-3738bb7233bc
           E13: f15f780c-fa6a-44e0-86c5-237bbc885da5
+      identifiant BnF: a2c213e0-dc87-4aa9-9d77-36332fc5742a
   1681-10_207:
     E36:
       uuid: 2793eaa9-1e45-4ae2-b158-279ace558f64
@@ -4318,6 +4510,7 @@ estampes:
         zone de l'image (E36):
           uuid: 884a3fc9-f13e-4979-b5b9-cc8ec37c7f6c
           E13: 43efb986-d725-4322-9ef0-6dfaa31de400
+      identifiant BnF: 021eeef3-1904-4d5c-b6bc-68926b1cfebb
   1681-11_245:
     E36:
       uuid: 33f1b8c8-549c-49d5-8e81-a214d9642776
@@ -4344,6 +4537,7 @@ estampes:
           uuid: 1d0d7dfc-3dd3-417d-b76a-09cd062f07ab
           E13: aee3a3d7-e1e0-4370-bf01-9c39f725050f
           lieu représenté: 6cc19a4b-9b48-458b-952f-29c115f4158f
+      identifiant BnF: eab6cdae-a2bf-4bb0-87bd-bfc722f63ebc
   1681-11_324:
     E36:
       uuid: 22422d10-afcc-4355-80f8-26991b6a1fc9
@@ -4370,6 +4564,7 @@ estampes:
         zone de l'image (E36):
           uuid: acd32b1e-d09d-45c5-ba5a-0fe02976e473
           E13: 6969ba20-9f24-45e5-b25e-7b11996f7ad7
+      identifiant BnF: 874dbbed-5ef7-4c55-9d32-b7be6201c241
   1681-12_042:
     E36:
       uuid: 09546265-8b7b-445b-9520-919d59d5ae60
@@ -4397,6 +4592,7 @@ estampes:
           uuid: 99f38b13-bfde-45d4-a289-af6b3a2f5284
           E13: 56483290-7643-46d8-82b6-2bb27764b954
           lieu représenté: c9f2059a-30ad-4268-87e0-57380b7144a7
+      identifiant BnF: ccc2800a-fa24-4ff7-9b87-d2fd74e40d0e
   1681-12_281:
     E36:
       uuid: 472807f1-ed34-437b-a196-f2c3db35f8b9
@@ -4431,6 +4627,7 @@ estampes:
         E13: 2690ca13-a586-44c6-846a-9d1330d611fc
       lien externe:
         E13: 9e893799-652e-4fe0-8314-e20de80b6072
+      identifiant BnF: d517c675-f403-4bb5-b574-5aaf877ed517
   1681-12e_155:
     E36:
       uuid: 40dabc4a-765c-4643-98a5-d58ab479a988
@@ -4457,6 +4654,7 @@ estampes:
         zone de l'image (E36):
           uuid: cd19b2ff-fdcd-45a0-9569-6ccc22229b74
           E13: c0139b50-7f60-4421-9415-c35068970578
+      identifiant BnF: 7dd2cd3c-62d4-4619-8f82-b96d26bb1104
   1681-12e_335:
     E36:
       uuid: e414aa4f-6227-4bfc-988a-d6f80a34c745
@@ -4483,6 +4681,7 @@ estampes:
         zone de l'image (E36):
           uuid: 01359de3-f701-4c6a-96e1-3f97f60b1aca
           E13: 706e95b8-8235-4a04-8cd0-bdf7d866ed4e
+      identifiant BnF: 6c3693f3-2180-4d8e-9016-36f9dd98d2a6
   1682-01_054:
     E36:
       uuid: e967638a-b21d-4ab5-a85e-b216482e9cc8
@@ -4497,6 +4696,7 @@ estampes:
         zone de l'image (E36):
           uuid: f9ee2c0a-73dd-4e82-9ab6-5a98a26789d2
           E13: b7bde5c4-3f85-44ff-acc1-dbb5a705e89f
+      identifiant BnF: cd99f503-1923-4629-88fe-636802025c2f
   1682-01_336:
     E36:
       uuid: 118df3bf-ed7a-423c-9114-610cc14689ba
@@ -4528,6 +4728,7 @@ estampes:
           uuid: db97d204-7de6-4891-82ff-013b68e5218d
           E13: b802c93c-746d-4d4d-8c62-aaa53c8cff4e
           lieu représenté: 21fd2ac9-4c55-4d96-a3b3-ba482eb7274a
+      identifiant BnF: f062b70f-c0f7-429d-b85f-074b5a003ab4
   1682-02_092:
     E36:
       uuid: 9bb6b930-7ddf-43ab-b8e9-4a94355b460d
@@ -4553,6 +4754,7 @@ estampes:
         zone de l'image (E36):
           uuid: 0fdf7773-2e96-44dc-b126-2d7d15f17d9f
           E13: 8cbcd0a5-dc62-48cb-9c20-1b82644d921f
+      identifiant BnF: c0f26be5-2793-40af-bb1a-5aaf06223eda
   1682-02_323:
     E36:
       uuid: 125b5065-8521-4b89-8a84-dce5cb477b15
@@ -4582,6 +4784,7 @@ estampes:
           E13: 8470bb1f-87a3-4550-ac21-ab2efde39a57
       lien externe:
         E13: fc12a947-3f8a-484c-818f-f238c0f6122f
+      identifiant BnF: 3052bdb6-7a17-44ae-8f2e-c2debc2446a1
   1682-03_080:
     E36:
       uuid: e50e6eaf-16b8-4f5b-84f4-5c751c425410
@@ -4599,6 +4802,7 @@ estampes:
       : zone de l'image (E36):
           uuid: d4f52fd2-14f9-444b-80d4-baf0f41be1c0
           E13: d7bc77ba-d6f2-4b61-981f-b7733a3b4c9a
+      identifiant BnF: a813b22f-faf2-4be4-bc24-398975186947
   1682-03_266:
     E36:
       uuid: f443338a-181c-4ac5-90f5-4e44d0c29d81
@@ -4630,6 +4834,7 @@ estampes:
           uuid: c5cf0c75-727b-4d94-8338-0cb48e6eb5a6
           E13: 1c165a1e-6793-405f-be59-3c6c8529de05
           lieu représenté: 5a2fdbe5-276f-425a-b6d2-66eccd547650
+      identifiant BnF: 95772de3-5e82-4d62-8117-2265fdc8940b
   '1682-03e_142 ':
     E36:
       uuid: bb8a7205-02d1-4fd7-bab5-b2eaeb51918e
@@ -4655,6 +4860,7 @@ estampes:
         zone de l'image (E36):
           uuid: 559cf69d-9f93-44e9-a61e-9c7baec181d5
           E13: c5a002d4-09ad-49ab-abeb-0e04e4d55ead
+      identifiant BnF: a14ed797-4116-48ab-84f1-1d796d59dcbd
   1682-03e_256:
     E36:
       uuid: 98c25068-8884-4b4a-9302-e141ce70f90d
@@ -4680,6 +4886,7 @@ estampes:
         zone de l'image (E36):
           uuid: 4dd6b981-c16c-4a5c-8b44-8b57ea2dbb0c
           E13: 0fe66677-8ac7-4f54-87d5-4a1a1064dad8
+      identifiant BnF: 6d0b0b09-b18b-4937-8ef5-4ea53d8605fc
   1682-04_004:
     E36:
       uuid: cee79979-eb89-4ebe-8f85-9fc611b6c042
@@ -4709,6 +4916,7 @@ estampes:
         zone de l'image (E36):
           uuid: c94f42b5-fd6b-4a60-a22f-32e95e0079fd
           E13: 2d449049-a423-45da-b0f3-aa59e9daea12
+      identifiant BnF: 706eee11-54bb-4543-b458-596f0ca5fb93
   1682-05_016:
     E36:
       uuid: 623a3a68-394c-4d48-99c8-b2aedde45873
@@ -4726,6 +4934,7 @@ estampes:
         zone de l'image (E36):
           uuid: 8acf73b3-1fbd-4516-9a93-bffa3b3413c6
           E13: 96f1c010-5020-4885-a615-e97b3967516b
+      identifiant BnF: 08e5df7c-dc52-4a32-aac6-10d16ac3b495
   1682-05_200:
     E36:
       uuid: 4cb1fa1f-75ae-4d64-9947-6324675c2d2c
@@ -4757,6 +4966,7 @@ estampes:
           uuid: 389e36e0-b6fe-4ed8-be3f-b9a8e9c57b31
           E13: 09a3a18e-0086-45db-943b-b41c3e3fcbc4
           lieu représenté: 8f8d6224-5faf-40b8-b522-ce01a6823d07
+      identifiant BnF: 01f92ffd-9348-43c3-a1f1-ffb6bba84eae
   1682-06_180:
     E36:
       uuid: 6ce512bf-fd7f-49d2-9485-a9a1c8a5f4c7
@@ -4788,6 +4998,7 @@ estampes:
           uuid: 78624bbb-5e41-45c8-a79a-22a7573f470e
           E13: a7d3b43d-0c1c-4051-971e-3ce45eac8f06
           lieu représenté: 4382810a-52f9-4b4c-88aa-c5d2552feae6
+      identifiant BnF: 09d5e9a7-ebb4-4e5b-b0be-be88711c0093
   1682-06_294:
     E36:
       uuid: 9ed44bb4-ac1b-438a-93de-2eedc7ffb26a
@@ -4805,6 +5016,7 @@ estampes:
         zone de l'image (E36):
           uuid: 8080f511-39a8-45a1-abdb-13ee896d7ec4
           E13: 8dd1f525-c520-49f4-b341-2e555c7df0f3
+      identifiant BnF: 2d535aac-4e77-40b7-b961-7b561fe59a7e
   1682-06e_148:
     E36:
       uuid: 441f4f1a-22f7-4ec9-ae96-81bb492493f1
@@ -4823,6 +5035,7 @@ estampes:
         zone de l'image (E36):
           uuid: cc271f86-4b7f-49f5-a219-34f5aaa72811
           E13: 63f9f84f-30b0-4edc-8cc0-4f9db8fd5859
+      identifiant BnF: 5e370130-8b3e-4d07-b832-a7124f974ac2
   1682-06e_319:
     E36:
       uuid: c9221117-ff70-4e37-8d64-e04a3b022087
@@ -4841,6 +5054,7 @@ estampes:
         zone de l'image (E36):
           uuid: 86912e21-281e-4879-9956-b145c12f96c1
           E13: 9dab407f-fbfc-4e72-8a51-af1829db7450
+      identifiant BnF: 8c31112c-60cd-46b9-9ee2-36bdd3901e7d
   1682-07_162:
     E36:
       uuid: f628b425-6c67-49c0-b662-15c4751964fd
@@ -4862,6 +5076,7 @@ estampes:
         zone de l'image (E36):
           uuid: bbe184ab-e0d3-4690-950d-277a7175ae58
           E13: ed70ccb5-d3dc-497e-9133-34fc11192ce6
+      identifiant BnF: 2b350335-6b21-47e3-9e99-5b304f292e15
   1682-07_361:
     E36:
       uuid: 5a02fafc-63a9-4412-b900-9e85c45c9da6
@@ -4893,6 +5108,7 @@ estampes:
           uuid: fea4f163-65e7-42c8-8f75-195dd215c580
           E13: 2bf584e8-ee7d-4199-aaf0-be2b58b01ef7
           lieu représenté: 64b96b6f-0542-4c3c-85c6-99c1370f701d
+      identifiant BnF: b7d714c9-1f87-4d71-abe8-54c2e1f0f3a5
   1682-08_097:
     E36:
       uuid: 21d95d2d-cc92-4292-8ccf-439045d3606b
@@ -4921,6 +5137,7 @@ estampes:
         zone de l'image (E36):
           uuid: 5edd208b-b475-4deb-b05e-658475d828f8
           E13: 963e481f-ffe4-45df-b396-d7d53b396032
+      identifiant BnF: 6aeb91a5-db45-4c7b-9425-c30871717ad2
   1682-08_137:
     E36:
       uuid: 12c2f4b1-467e-42e0-bd10-0336dbc7ed9f
@@ -4938,6 +5155,7 @@ estampes:
         zone de l'image (E36):
           uuid: 91745b07-f1b8-4f9c-bc43-5e39968b77f6
           E13: 11ed4178-6de4-48ee-af16-2158b82d5232
+      identifiant BnF: 21141164-d8d1-414f-9f50-7cafeb62ba5f
   '1682-09a_109 ':
     E36:
       uuid: e28428f7-8141-4ee4-8507-15cf03d20571
@@ -4981,6 +5199,7 @@ estampes:
         zone de l'image (E36):
           uuid: 14376fab-e86b-4ef8-ab3a-e26654b41f22
           E13: f902e475-add3-492e-8837-33fc0342bc79
+      identifiant BnF: 748c9bf2-b289-408a-9cc5-8f17db9b1df8
   1682-09b_250:
     E36:
       uuid: 80f6886f-6b9f-4999-bff3-d522fb8859b9
@@ -4994,6 +5213,7 @@ estampes:
         zone de l'image (E36):
           uuid: def1add9-af8f-4be7-9961-1b1f6b793822
           E13: c229c371-6cc1-435c-b7c7-be1295b6464e
+      identifiant BnF: e1f7d7c3-aa8a-4c99-8e6f-88838cea3110
   1682-09b_359:
     E36:
       uuid: 7c82400e-9b6f-4f50-8b96-1751dd21153c
@@ -5015,6 +5235,7 @@ estampes:
         zone de l'image (E36):
           uuid: 35cbb6ff-5eb0-43db-a9e8-d06ee5d48bdc
           E13: 3306194b-45ac-4280-8547-dd9eb04e149f
+      identifiant BnF: 9732c973-496c-4d96-99cb-940ce354d8a2
   1682-09e_151:
     E36:
       uuid: c02da1f6-2a61-46ee-b5c4-fa5e68f6cea8
@@ -5037,6 +5258,7 @@ estampes:
         zone de l'image (E36):
           uuid: 932bec82-53a3-4093-9df1-7cea11a6362b
           E13: 3e2dbcf5-e1c7-45b0-8d46-e43b356efeb2
+      identifiant BnF: 4fe2a1e0-e3b6-476a-9c52-9e7bcecc7165
   1682-09e_226:
     E36:
       uuid: b0a7a5aa-c25f-4647-8b84-564c5b625368
@@ -5055,6 +5277,7 @@ estampes:
         zone de l'image (E36):
           uuid: fe60cbc3-57f1-429d-8eb1-f839ce97f1df
           E13: 462137df-9ade-4fd8-bce3-b6072a126bef
+      identifiant BnF: 204256e5-a91e-43b2-ac56-b300c1840b5d
   1682-10a_221:
     E36:
       uuid: 3ebe6f11-aa09-4f50-9caf-fd7597d8fbf1
@@ -5098,6 +5321,7 @@ estampes:
         zone de l'image (E36):
           uuid: eaa36bcd-b9af-4425-954a-da4aee9f0630
           E13: 5551ff43-91e7-47dd-ab5e-72d0e2b6eb3f
+      identifiant BnF: d42ec341-ca0f-4873-b4d0-8f1c6425b047
   1682-10b_170:
     E36:
       uuid: 069a5462-ab76-4e8e-b76f-de78fc06d7ee
@@ -5138,6 +5362,7 @@ estampes:
           uuid: 6d126c23-0399-4484-9863-b57a227f60b9
           E13: 659d056e-18dc-44df-a651-9fbf859c173d
           lieu représenté: e9191bc8-bda7-446e-8f8e-2a86ee05bbf9
+      identifiant BnF: 94635be3-dfba-47bc-8082-db1305924303
   1682-10b_339:
     E36:
       uuid: 6f93481b-d34d-4ff5-a270-7ac5e0b0455b
@@ -5168,6 +5393,7 @@ estampes:
         zone de l'image (E36):
           uuid: 2eae1a9e-188f-42a5-b958-a07726be2434
           E13: d3bd2b64-2271-4ba0-8ae3-fcced081f584
+      identifiant BnF: dc41d048-65a8-431d-be72-1f14a84c9262
   1682-11_140:
     E36:
       uuid: da7dec3b-8b4c-407f-9a28-93bab7fba5f1
@@ -5181,6 +5407,7 @@ estampes:
         zone de l'image (E36):
           uuid: ffeee849-654a-4553-9832-45e99521e7ee
           E13: d7b2b973-83eb-4430-b180-043d2c7ea807
+      identifiant BnF: 056ffed2-1739-4243-964d-46971a59a3ac
   1682-11_284:
     E36:
       uuid: 2367db5b-faaa-4c0d-862d-46d735acec0c
@@ -5204,6 +5431,7 @@ estampes:
           E13: 5908ad46-5771-4a33-946a-d6f4d8560d1d
       lien externe:
         E13: 59e7a903-dc28-4f12-ab69-45e63a729608
+      identifiant BnF: ad8d1420-7466-4de6-adca-829a42ba106b
   1682-12_190:
     E36:
       uuid: 6e237f73-9943-4b69-8041-2be4db5c0e53
@@ -5221,6 +5449,7 @@ estampes:
         zone de l'image (E36):
           uuid: df3f1035-9c6e-4179-89a5-b9a46fd888d7
           E13: c3909169-e27e-4d7e-aa66-772f035ad817
+      identifiant BnF: 6e54b74d-c25f-4c6c-adf7-ef53f621bd1d
   1682-12_210:
     E36:
       uuid: 9161680f-6208-4df2-b8a0-23451854eb15
@@ -5242,6 +5471,7 @@ estampes:
         zone de l'image (E36):
           uuid: 6011af4b-6503-4ebc-8603-59b9c581a870
           E13: 76e728eb-a59a-46c3-88a4-3e837202b4ce
+      identifiant BnF: 7ebe4e5b-c186-4021-bf88-e1eb4cd17521
   1682-12e_330:
     E36:
       uuid: 852ffd11-22e8-4b65-9dab-d641d2d060e1
@@ -5283,6 +5513,7 @@ estampes:
         zone de l'image (E36):
           uuid: 0181850d-50b8-495e-b88a-f6c0d1d8866a
           E13: 9abdcffa-a9d5-464c-8c71-c09135fd3242
+      identifiant BnF: a2ee6411-9f5c-4e9d-b2fd-e7bf2f2082f1
   1683_09e_208:
     E36:
       uuid: b4b50297-727e-4dcf-9e33-badb2a360c79
@@ -5323,6 +5554,7 @@ estampes:
           lieu représenté: 23881c78-e66c-46f6-b02a-bbfe7f11b7c4
       notes:
         E13: bfa94d21-2c35-43cd-879a-e0f0672dfdd2
+      identifiant BnF: 4e86b685-a29f-48c8-90f7-10ac35a62ec7
   1683-01_258:
     E36:
       uuid: f94a4d3c-a4ba-4974-8063-63fe7edd21c5
@@ -5343,6 +5575,7 @@ estampes:
         zone de l'image (E36):
           uuid: f6af0ae8-100f-4d18-b45c-9be2268687c0
           E13: 813b347d-f588-4c00-bf94-253ce4bee5f2
+      identifiant BnF: f11e941e-aa5f-47d9-9205-add4e1c35b49
   1683-02_163:
     E36:
       uuid: 8f905b79-046f-4fdd-873b-983e7ec73fb8
@@ -5370,6 +5603,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9d80db4f-ef97-49aa-a607-f13bd8d2b673
           E13: 51b63c14-7d20-4dc0-ad39-f2920942505d
+      identifiant BnF: 7de68f6d-c145-49c1-91b0-a9c284c850d7
   1683-02_227:
     E36:
       uuid: 426876c9-5aba-49a4-be9d-fa8f16ee44ea
@@ -5389,6 +5623,7 @@ estampes:
           uuid: 4281e991-f1e2-40a3-bd1b-011fa4977110
           auteur: bda3f5ef-dac4-4845-b13c-471e44a6c570
           E13: dbd88548-c646-4a04-b548-7ee29490f9a3
+      identifiant BnF: 55c24a5e-4963-48c2-9eb1-d3b124e0c447
   1683-03_164:
     E36:
       uuid: 86d7b33d-d8ce-498d-a5ac-d3acc36b2e83
@@ -5403,6 +5638,7 @@ estampes:
         zone de l'image (E36):
           uuid: 36bac4ab-c4e1-4d92-84fb-f009ee165f6d
           E13: a5276e2e-949e-46ee-89bd-04470a848526
+      identifiant BnF: 54859c36-6d5f-4c19-9966-e3c9934b74db
   1683-03_323:
     E36:
       uuid: 46edfdcf-70e4-4e1f-b7a4-e81fc6079bc3
@@ -5430,6 +5666,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9f8c376c-4ddc-4daa-aa38-5134e3d995b2
           E13: 2d4137f0-4663-4cae-a21c-736a189478a0
+      identifiant BnF: 82facad3-eec5-4f0c-865e-abf676dd0a59
   1683-03e_121:
     E36:
       uuid: 2c359b61-b022-4854-bc98-3ae4dc4b1479
@@ -5444,6 +5681,7 @@ estampes:
           E13: 8e04b643-0ddb-43e6-b29a-4d8eaba1e0c5
       gallica:
         E13: a220e576-e390-4da4-9c3c-683ee3286da2
+      identifiant BnF: 20464c72-c2cb-4ed7-9d45-409b82d52b9f
   1683-03e_184:
     E36:
       uuid: 2f517452-36bc-44c0-bbe4-7188813016f8
@@ -5458,6 +5696,7 @@ estampes:
           E13: 0a2a1bfb-29ab-4834-8454-26bb5ea66259
       gallica:
         E13: caf2006f-03a9-4c6c-88bd-ba6c47772918
+      identifiant BnF: 466de521-d112-4813-aee5-941b2f69c625
   1683-04_159:
     E36:
       uuid: 4c701992-e249-48f4-9e71-13d3b72a9175
@@ -5502,6 +5741,7 @@ estampes:
         zone de l'image (E36):
           uuid: b0816265-abeb-4a1f-973e-ac0e2fe6f6fb
           E13: fcecb623-e49d-4675-a6f3-583958694faa
+      identifiant BnF: fd6659f3-9404-4423-8359-8693a08a17f4
   1683-05_044:
     E36:
       uuid: 6af0594c-d25d-4424-b9aa-1255d255b0de
@@ -5536,6 +5776,7 @@ estampes:
         zone de l'image (E36):
           uuid: bd58b410-9881-4e89-8e2f-0e79db0edde0
           E13: c68a0102-12b9-4936-ad96-e73c31c87255
+      identifiant BnF: 771f4c36-2f66-4429-8929-7bcce73e8131
   1683-06_181:
     E36:
       uuid: db885484-97d7-47a1-a4f0-28f5115a3307
@@ -5569,6 +5810,7 @@ estampes:
         zone de l'image (E36):
           uuid: 6b28e754-6fbb-4472-932c-4788a84456fe
           E13: 5b87f2b8-ee0f-4c90-bc5f-47d259d7f8eb
+      identifiant BnF: 5baccea0-8509-4531-a0ce-ac2fd5c4b53d
   1683-06_299:
     E36:
       uuid: 658994ab-cf4c-4231-8c40-cda2f5ab1d36
@@ -5587,6 +5829,7 @@ estampes:
         zone de l'image (E36):
           uuid: 84af7967-b441-4aae-bd89-25e2c5af3d57
           E13: 35bf8ddb-a874-40df-868c-40a22fca299a
+      identifiant BnF: 437289cd-424f-449d-a5d3-f7f06e3c06ab
   1683-06e_227:
     E36:
       uuid: 417f76df-3b82-4004-9c60-d20cd393f7cb
@@ -5615,6 +5858,7 @@ estampes:
         zone de l'image (E36):
           uuid: 61428962-f920-45ea-a41c-12ec420bed1a
           E13: feee6b4a-47d3-4c70-b602-7672f508c441
+      identifiant BnF: fa635dd1-6b48-43fa-b6f9-0b59b1d44087
   1683-07_162:
     E36:
       uuid: 63881c5f-d3fa-4cb4-8161-776343003993
@@ -5646,6 +5890,7 @@ estampes:
           uuid: e15141ec-e968-4223-a0a1-8188c51517e4
           E13: f36e80bd-4804-4645-bae0-9fb4f86c07ed
           lieu représenté: 7cc97dc1-cfd2-4a8b-b41c-adc992fe3af9
+      identifiant BnF: 7b7852aa-e1b2-408c-b11c-a39583239fd1
   1683-07_306:
     E36:
       uuid: 449b9c14-2068-4751-9ce1-e3c48f53880f
@@ -5673,6 +5918,7 @@ estampes:
           uuid: 9dba0508-560a-45a5-ae08-d79ed821e43a
           E13: ce838ad1-9f12-4764-bae7-587f17acd47f
           lieu représenté: c817d9a0-3f15-4ca1-9381-4f38db1b6d87
+      identifiant BnF: cdea1333-b146-4550-aa67-8fcdd5e4099a
   1683-08_272:
     E36:
       uuid: 3d2256aa-1d3d-40ec-807f-83db2f63bcc1
@@ -5700,6 +5946,7 @@ estampes:
           uuid: 754d68a4-21c1-40f2-91b6-f6e8822dce22
           E13: d948a555-d280-48a5-adc3-0296d5e1b566
           lieu représenté: 4c642b67-0098-4ba3-9f93-30ecfdc307ec
+      identifiant BnF: 2b2a42a0-96e7-4256-9d7a-e049c099cb10
   1683-08_354:
     E36:
       uuid: 1feefa03-2c0c-4d4a-bbb5-e008e7e830fa
@@ -5729,6 +5976,7 @@ estampes:
           E13: 7f9c08e7-c5df-48de-b39c-fe22e7067d82
       lien externe:
         E13: 493762bc-8f20-4c70-b432-5cce02556453
+      identifiant BnF: 688b574f-90d2-4d77-99b9-2057727ea0ab
   1683-09_198:
     E36:
       uuid: 519da173-bf14-4a31-831a-234c8fd1e48f
@@ -5742,6 +5990,7 @@ estampes:
         zone de l'image (E36):
           uuid: 407a03e7-bef0-494a-a592-0eba5d063216
           E13: 348c8bbd-4385-4e7b-bd09-3a6186a8722e
+      identifiant BnF: 8ada361c-827e-4195-b542-e68f2a8388b2
   1683-09_286:
     E36:
       uuid: d6dc4699-c557-480f-b15c-db834a628a63
@@ -5776,6 +6025,7 @@ estampes:
         zone de l'image (E36):
           uuid: 01d46cca-0123-438e-a9aa-85f72a677d7a
           E13: ac98429e-cb81-48c9-8d5e-6c1b478d8c87
+      identifiant BnF: 6e0b24b0-0e08-4b88-b1b5-02e5ea1a74fc
   1683-09_386:
     E36:
       uuid: c51e95fd-4792-43d5-8fcf-3edcb5afec44
@@ -5789,6 +6039,7 @@ estampes:
         zone de l'image (E36):
           uuid: 1900de48-03d6-4f00-9524-b804f8cd668c
           E13: 8ee6445d-0905-4bdc-9e96-48eebd055d51
+      identifiant BnF: b814d4bc-7576-4150-8bf0-4c4c9ea1a6ab
   1683-10a_052:
     E36:
       uuid: a5449ba6-870b-4ad0-a804-db6765d9bd77
@@ -5814,6 +6065,7 @@ estampes:
         zone de l'image (E36):
           uuid: a2610090-d05e-4066-b0de-ef7eba50b9f6
           E13: 20feee86-3f45-40b9-89ee-2c0e64e19105
+      identifiant BnF: 3467b241-82ca-492e-a947-440ffb80f8d4
   1683-10a_161:
     E36:
       uuid: 70ef373c-046c-46f0-aa2a-73e6c2802e0b
@@ -5843,6 +6095,7 @@ estampes:
         zone de l'image (E36):
           uuid: 24a114e3-653c-40d3-946d-29a546d40786
           E13: 1841d71c-1734-4efc-80d6-294d4dd160c6
+      identifiant BnF: b2d68b28-2917-4a73-b7f3-f7354170190e
   1683-10b_001:
     E36:
       uuid: a5fe3a77-07fa-46a8-bfea-4f79924e9620
@@ -5884,6 +6137,7 @@ estampes:
         zone de l'image (E36):
           uuid: 52be4362-bc39-4afe-9be9-267793a97128
           E13: 3f7326d4-371d-456c-b6b2-d561ba31988d
+      identifiant BnF: 3a8be1ea-a7e7-4c9e-91b1-fe4e127cdded
   1683-10b_324:
     E36:
       uuid: e7dc2e58-d5c1-43bb-928c-8c0146c64355
@@ -5898,6 +6152,7 @@ estampes:
           E13: fe54714f-2193-4545-832f-05109de460c5
       gallica:
         E13: ba6eea88-c4f8-4398-99a0-958431d4a13c
+      identifiant BnF: d2efb77e-03f5-4048-8fc4-1d3301201d79
   1683-11_091:
     E36:
       uuid: 5d837f9b-9557-4eed-8237-279d9d775b9d
@@ -5937,6 +6192,7 @@ estampes:
         zone de l'image (E36):
           uuid: a439cc11-2ea6-4ca1-9010-e36f2f56fc68
           E13: 1d3d4fdc-9a40-4771-8719-a5b04199e0cf
+      identifiant BnF: 42ddc615-92a7-4705-8539-b33fd061df36
   1683-11_227:
     E36:
       uuid: 2463b758-70b3-4cd4-a7b1-3e40192cd0d8
@@ -5955,6 +6211,7 @@ estampes:
         zone de l'image (E36):
           uuid: 966c5914-e5c1-4474-ade0-d0954efc7bf1
           E13: 996adc48-b9e5-4aef-8b30-1973e03f58d8
+      identifiant BnF: 3eb61c61-7e84-45a9-b142-3185230f564a
   1683-12_075:
     E36:
       uuid: 790fe501-5f58-47b3-ba02-0d8bddaf109e
@@ -5968,6 +6225,7 @@ estampes:
         zone de l'image (E36):
           uuid: dc300873-6c4f-4c33-aa34-2b57694ea2db
           E13: 9f7f1e11-aec2-423d-9341-0bae6fb43fdd
+      identifiant BnF: b35047c8-c343-4c56-8dc8-8ef3160324a8
   1683-12_264:
     E36:
       uuid: b0ece201-136c-41b6-9419-cd55d457f0ff
@@ -5997,6 +6255,7 @@ estampes:
         zone de l'image (E36):
           uuid: 4870d247-13f4-41d8-985f-c4e67c1937e2
           E13: e1f630f3-a0e4-4211-85c4-0e9b84aaeb70
+      identifiant BnF: 7605cd04-3c02-4d6a-82be-756709eda940
   1683-12e-166:
     E36:
       uuid: cef9fdfa-8016-47fc-a630-8b62b8be1ed1
@@ -6023,6 +6282,7 @@ estampes:
       : zone de l'image (E36):
           uuid: ac5ce763-938b-464c-bc4e-c53b78bc4628
           E13: 111f94f3-3fab-4389-8f70-94775cdff574
+      identifiant BnF: 24860248-58f4-4a18-b6dd-04fb232fdc06
   1684-01_067:
     E36:
       uuid: 7642cb0b-3fd8-4c7c-ab2d-c51ef1449fab
@@ -6042,6 +6302,7 @@ estampes:
           E13: aece8957-bff2-4d83-932c-e3d2e77178f0
       notes:
         E13: ffb5f4bf-092d-48e1-aefd-9d19a06a3be7
+      identifiant BnF: 0184a7fd-0bd3-4942-8ec2-2b168b5c5da1
   1684-01_312:
     E36:
       uuid: dddd48fa-3c82-4032-809a-af017c9aa662
@@ -6071,6 +6332,7 @@ estampes:
         zone de l'image (E36):
           uuid: 249a51eb-8a07-4fa0-a171-19ca315d0de0
           E13: 3cfea79a-a675-44e5-8461-cd53cff47e3e
+      identifiant BnF: 7aaee633-2521-40fa-a57f-1b196920eb05
   1684-02_362:
     E36:
       uuid: 40dd451d-46a0-4ad2-b8a3-8f9453dd9b54
@@ -6091,6 +6353,7 @@ estampes:
         zone de l'image (E36):
           uuid: 6005dc86-c468-430d-a59b-477227017086
           E13: 53f52893-bb67-46a3-aa75-58659d08db5b
+      identifiant BnF: a7c9877f-fb03-4dac-86c1-6a045af5eec3
   1684-03_068:
     E36:
       uuid: fa12c806-ea6b-4439-b759-99377d29eab6
@@ -6125,6 +6388,7 @@ estampes:
           uuid: 6965d362-00b1-45df-b54f-f7cc3345f5f4
           auteur: 4ed93401-02e1-4903-8d8f-a91f78e24177
           E13: ac00d8b7-3c1f-424b-b822-38f9f935a2d3
+      identifiant BnF: 6a840e9f-5e8a-45af-a02e-581bd32bac54
   1684-03e_187:
     E36:
       uuid: 7eef0fdc-6ec7-4ee1-a19b-f987be3a84f1
@@ -6151,6 +6415,7 @@ estampes:
         zone de l'image (E36):
           uuid: f22473a2-9aa0-4978-8a22-7db9f96042a3
           E13: c2807a37-8282-4a87-a3f1-dbda6abb847c
+      identifiant BnF: 99a9ce25-565f-49b3-b555-328953d49bce
   1684-04_045:
     E36:
       uuid: 9163a132-71ae-4528-9d91-cb914376df38
@@ -6165,6 +6430,7 @@ estampes:
           E13: 72db843b-f79d-45db-8efb-0d674aba3228
       gallica:
         E13: 2de8ce51-b5c3-48b5-9ced-b5f5b4bf7f0a
+      identifiant BnF: baf6eba6-401a-47bb-a2e6-ea67971769c2
   1684-05_241:
     E36:
       uuid: b669f28d-95f1-4064-8758-32a0ce125d64
@@ -6196,6 +6462,7 @@ estampes:
         zone de l'image (E36):
           uuid: 96222945-1819-47bd-a910-13281c2a63a5
           E13: ad3793ca-6f28-4885-bfc1-cb3437b0a44a
+      identifiant BnF: e994fcb0-931c-40c3-90b6-7f0725fa96a3
   1684-05_374:
     E36:
       uuid: 317eed00-273a-41e2-a002-c4bc66835c34
@@ -6214,6 +6481,7 @@ estampes:
         zone de l'image (E36):
           uuid: 8b0ccf89-e9e1-444f-93b5-a3e85a0422e2
           E13: 9929e490-e253-43ac-a1b0-aea0b72fcee0
+      identifiant BnF: 3045a918-cdfb-4acd-b7d6-9a51665e9987
   1684-06_140:
     E36:
       uuid: 8ddcee62-1a9d-47fa-be21-5262cfb90104
@@ -6240,6 +6508,7 @@ estampes:
         zone de l'image (E36):
           uuid: aa70edc0-a9d1-4f17-8de7-c85da4cc6b9b
           E13: 34339a67-298a-4f1b-9fa9-38c586bb2422
+      identifiant BnF: 1fc24d3e-a513-4835-9290-15aa6fd73fcf
   1684-06b_385:
     E36:
       uuid: 5c0d6ec8-3c57-4ccb-b737-a75fb38fc5bf
@@ -6275,6 +6544,7 @@ estampes:
           uuid: ffe91b94-5754-447c-94e5-9f3405f7b5d9
           E13: f4ae6819-75bb-4867-a113-a3cb87183925
           lieu représenté: 0e30d6e2-e59a-482f-a17e-ee1c39b65896
+      identifiant BnF: 0d1214c5-772b-41d0-99bb-b30873712c75
   1684-06c_257:
     E36:
       uuid: 9fc8d8f9-7bae-4e1b-8392-d68c8d99aef1
@@ -6302,6 +6572,7 @@ estampes:
           uuid: d68b54f7-4d56-426e-9604-cffa22b32fc3
           E13: 5d555dfb-0239-416d-9f29-29a02c006182
           lieu représenté: c3b805e0-6cc5-4b2e-9ddf-f066f8641cca
+      identifiant BnF: 24f33e64-4620-40d6-a394-828dc376f2ad
   1684-06e_162:
     E36:
       uuid: 01c6380e-2191-4074-b9ea-d9cdd19a28d6
@@ -6316,6 +6587,7 @@ estampes:
           E13: 427f19a8-744d-46ec-8bea-5ecb573beb1f
       gallica:
         E13: 304d99c9-bbef-4f72-ae25-b956647967d7
+      identifiant BnF: 827f18ce-f9d9-4b66-a27f-da300488fe96
   1684-07_138:
     E36:
       uuid: fe4005ab-9031-4cb7-b871-46f09fbad0eb
@@ -6352,6 +6624,7 @@ estampes:
         zone de l'image (E36):
           uuid: 942351d6-b1fb-4b46-a62d-c1e60aaae318
           E13: ed1389cb-6878-4513-84f7-9d11e303ea4c
+      identifiant BnF: 048abcdc-57d9-4f5d-8399-96dace0281b7
   1684-07_312:
     E36:
       uuid: 6740f260-cb8f-4220-ad32-810ed296202f
@@ -6370,6 +6643,7 @@ estampes:
           E13: 5276d70d-f244-4a05-890c-3f02604cc369
       gallica:
         E13: ab6dff37-6d79-4fd1-8ad0-c2c357ab563b
+      identifiant BnF: 669e23f0-b792-462b-8e94-2d063865d23c
   1684-09e_212:
     E36:
       uuid: 46be336b-2c09-4b51-b837-d9383b616239
@@ -6384,6 +6658,7 @@ estampes:
         zone de l'image (E36):
           uuid: 416c44a6-888d-48a0-ae37-f5a080ea63c2
           E13: 41bc1f3c-7872-46bc-b28b-3bdce1328052
+      identifiant BnF: 27b215ff-10a3-4e8b-aced-cb89fd9f3af4
   1684-08_114:
     E36:
       uuid: a43cda74-16b6-4b60-8167-2435a4c5b66c
@@ -6419,6 +6694,7 @@ estampes:
         zone de l'image (E36):
           uuid: eafa12eb-92c6-4d95-825f-d782c56b565b
           E13: 53c59968-2938-4581-abca-29df7b7c2796
+      identifiant BnF: 90c50e13-e006-42da-aca9-72be0b502a3a
   1684-09_197:
     E36:
       uuid: 3b1d84b0-918f-4fba-8f78-69b7e8f606f1
@@ -6440,6 +6716,7 @@ estampes:
         zone de l'image (E36):
           uuid: a0fb51b5-e812-4f28-92b5-3197512855d0
           E13: a9321e0d-fb52-46f8-ba9d-e17f7b2dba72
+      identifiant BnF: 93f891e0-3e6f-410f-80cd-9a8f13bab146
   1684-10_128:
     E36:
       uuid: a56ff69f-f50b-46ad-9c93-af43bb771c45
@@ -6474,6 +6751,7 @@ estampes:
         zone de l'image (E36):
           uuid: 4b8187be-2a6e-4822-b396-5e202886f672
           E13: 9469266c-c1b5-4858-be4f-251f8202ff4b
+      identifiant BnF: 82e8086f-6e63-4162-8881-cda65133bf81
   1684-11_266:
     E36:
       uuid: 95a6acb5-4f98-4fb4-8640-93003ee85a1a
@@ -6509,6 +6787,7 @@ estampes:
           uuid: 364466b3-f9bc-46d5-8e7a-b20aad0b8374
           E13: 43bd39d9-12fc-45b4-a063-c9b3b8126ece
           lieu représenté: 012a3c6d-181d-4245-9704-9752af895686
+      identifiant BnF: fbb317ba-ff43-4581-8458-0a976ce3eb7c
   1684-12_221:
     E36:
       uuid: d23b65ad-64be-44a0-92f4-7f41f756f47a
@@ -6530,6 +6809,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 98dd8e49-b8c9-44d1-8c8c-6d24b558b2c6
           E13: 962a107c-58d2-436f-aeaf-1695f0774234
+      identifiant BnF: 4da70834-31e9-4542-8260-993c50e9adff
   1684-12e_214:
     E36:
       uuid: 074310d8-4413-4da9-a6b4-7e1bf10f5050
@@ -6544,6 +6824,7 @@ estampes:
           E13: a935af84-e174-485d-93e5-c2b7f00a6b15
       gallica:
         E13: 543ebd3c-148b-44c5-abad-e3616ee23c57
+      identifiant BnF: 7e8d4dbd-51cc-4571-bdc9-4470d85bd4d8
   1685-01_048:
     E36:
       uuid: ea784828-ab1f-4066-ab61-a49d12768870
@@ -6571,6 +6852,7 @@ estampes:
           uuid: 74d28342-d894-4b26-a84a-cf7764178cfb
           E13: ef12843e-1649-4b75-a489-418185b4e370
           lieu représenté: 40e7cd2b-598a-4989-88fb-a187049df8eb
+      identifiant BnF: 4610a165-6b5f-467e-9a7f-82c0357973e9
   1685-02_285:
     E36:
       uuid: 93f6aa5c-f898-4647-9ba5-2768583ff938
@@ -6585,6 +6867,7 @@ estampes:
         zone de l'image (E36):
           uuid: d346da59-92f7-4aae-9e74-9e7135c3c6ef
           E13: 6232c78c-a0f7-42fb-9009-59a49edd2e25
+      identifiant BnF: 06861bed-8dde-471b-ade0-862034ae3bdb
   1685-03_128:
     E36:
       uuid: d9f87625-6232-4035-ac40-42f65e90269b
@@ -6616,6 +6899,7 @@ estampes:
         zone de l'image (E36):
           uuid: 19ddaa52-6a1e-40d5-b6b2-db7200ba01af
           E13: 04f01085-b744-4a35-b6e0-0ff8fcc0cd25
+      identifiant BnF: b8bea478-82ca-4a79-84e1-c245de30a808
   1685-03e_147:
     E36:
       uuid: 84a0373d-5bd6-4633-b0c7-e6e8689c85c1
@@ -6637,6 +6921,7 @@ estampes:
       : zone de l'image (E36):
           uuid: ba82b984-191c-4e0d-a20c-c02cc7d43c26
           E13: ae2fd155-d444-4f9c-bb22-c013ca913a76
+      identifiant BnF: 56bfc1cf-fa05-44ec-b375-8676abc2fa75
   1685-04_182:
     E36:
       uuid: e222919a-283b-4740-a96d-84966bbf24ed
@@ -6655,6 +6940,7 @@ estampes:
         zone de l'image (E36):
           uuid: ffb1ff81-3616-4359-b765-a9d9382bfb66
           E13: 9043b52d-a62b-4b9b-b9b7-8865df7a3da5
+      identifiant BnF: 306fb612-2538-43af-baa9-f4ac5fb62739
   1685-05_196:
     E36:
       uuid: 96950ec0-8912-462b-8874-c4eeba545f3a
@@ -6683,6 +6969,7 @@ estampes:
           E13: cb6dafa1-82e4-4192-9dbf-ef5c9c91781d
       lien externe:
         E13: 59cb2971-6bd8-4d92-afa1-6e21e90eb245
+      identifiant BnF: 13500ecd-3753-4d85-990c-d78bc8ee8c33
   1685-06_254:
     E36:
       uuid: 96c82c42-68e8-40b3-90b9-78f17ad2b585
@@ -6704,6 +6991,7 @@ estampes:
         zone de l'image (E36):
           uuid: 814d822b-1b36-45d4-aa92-c6a5b0153599
           E13: b6405831-678f-4965-bf81-594b3a935dac
+      identifiant BnF: 75a5ee3e-d05f-4c4a-b36b-f83f4f9d4b1a
   1685-06e_180:
     E36:
       uuid: be6b0e70-692c-45b6-9fe4-885e0bb057aa
@@ -6722,6 +7010,7 @@ estampes:
         zone de l'image (E36):
           uuid: 98ffdb55-bf10-4c8e-8de9-6c3da9a184af
           E13: 17ac8a37-027c-46db-bd60-8e2610054c4d
+      identifiant BnF: ec5aab44-1c8f-4bfd-bde2-865e860f7839
   1685-07_313:
     E36:
       uuid: 23a631a6-d497-4584-9321-fd9777169400
@@ -6751,6 +7040,7 @@ estampes:
         zone de l'image (E36):
           uuid: 0f5134e2-c3c4-4901-825d-58982318848c
           E13: 859f46ec-26fc-4561-98ca-1b4b22f12955
+      identifiant BnF: 0549090c-0397-4bb9-abbd-fff620c7e64d
   1685-08_290:
     E36:
       uuid: 957a4e7f-5653-44db-bdaf-087f6317b437
@@ -6778,6 +7068,7 @@ estampes:
           uuid: 0353c0a6-efc8-4535-a927-73829141c9c2
           E13: c20e92ec-7cb0-49e6-a10e-c029b659b9c1
           lieu représenté: ef4f9157-e09f-4369-a2ef-4d40f70c3880
+      identifiant BnF: ddbf9da1-099a-46d5-8077-1fb8bf114436
   1685-09_269:
     E36:
       uuid: ba6da5a7-f324-444b-8a4e-503ac0bbe692
@@ -6805,6 +7096,7 @@ estampes:
           uuid: 1da0d814-9a40-443f-9c1e-aff5abc623f3
           E13: f91d3455-632c-459a-9024-7875e54f0d04
           lieu représenté: d7520959-6ab0-4fa2-93f8-468430daaa4b
+      identifiant BnF: 268bbe0d-594e-486a-8001-91ef72aedaa8
   1685-09_314:
     E36:
       uuid: 51919725-f00e-4260-81c1-75035eb8e3f7
@@ -6826,6 +7118,7 @@ estampes:
         zone de l'image (E36):
           uuid: a238e5be-16e7-4dc8-9fc2-525aa0499a4f
           E13: 7cb6debe-f644-44be-a8c7-5cf557337a66
+      identifiant BnF: 03b278fe-fe2b-485c-a459-cd241137bfd3
   1685-09e_280:
     E36:
       uuid: aeb0d9b5-33ee-4f29-a4f1-152b18a198ba
@@ -6844,6 +7137,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9ea32bd1-eb1d-489c-8d8a-a34dbc4277c7
           E13: 189c9233-308d-4c70-b1e5-b62fa0d413a3
+      identifiant BnF: c1d424f1-37d1-4484-bc5e-00e6c50ded31
   1685-10_252:
     E36:
       uuid: 7f3c0394-9772-4a82-8ccf-d996194b99e9
@@ -6865,6 +7159,7 @@ estampes:
         zone de l'image (E36):
           uuid: 14c43a7b-cfaa-4799-ae31-0463c1d59bad
           E13: 90a34f4a-a210-4404-827e-5a4178418b49
+      identifiant BnF: 72c73b54-1007-4987-8a8b-af7c90ae7199
   1685-11_089:
     E36:
       uuid: 67dd4d98-0cc9-4c7c-aac7-3c6344a61be6
@@ -6883,6 +7178,7 @@ estampes:
         zone de l'image (E36):
           uuid: 31f885dc-f545-43fd-a6ba-ffeb37a3ed06
           E13: 9afbc0c6-13d3-4785-b727-d480028c38a4
+      identifiant BnF: 5f8ef409-f98e-4beb-b59e-7faaed1caae3
   1685-12_278:
     E36:
       uuid: cb8170d2-983e-4679-8633-710ed9512df2
@@ -6904,6 +7200,7 @@ estampes:
         zone de l'image (E36):
           uuid: d3d4acff-3dc8-43ac-a6db-3f730f02adc6
           E13: 78bc23e9-02a6-4e69-a977-d804695510cf
+      identifiant BnF: 8695870c-aee4-4bd0-8a53-6bc5d7c4f99e
   1686-01_269:
     E36:
       uuid: 1c911b38-7972-4cdd-bac0-142462d582cd
@@ -6921,6 +7218,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7c5d4517-26d8-400d-8102-42b919646594
           E13: 631545db-68d8-48f5-931c-e1a3e08367f8
+      identifiant BnF: 7a810fb1-fed9-421e-8081-0419442212e1
   1686-01_272:
     E36:
       uuid: f2c33764-4a30-4f91-a640-f45f03bf7994
@@ -6938,6 +7236,7 @@ estampes:
         zone de l'image (E36):
           uuid: 156296f9-9d69-455a-925c-973cb1542a30
           E13: 62aa573c-7616-43ef-b374-ac14976870a0
+      identifiant BnF: da2e42fd-66e0-42c2-9a28-996a8a1d8e23
   1686-02a_188:
     E36:
       uuid: f12454a8-e49e-49f6-a6e0-6c6c1b435030
@@ -6962,6 +7261,7 @@ estampes:
         zone de l'image (E36):
           uuid: 1c429846-cd92-4808-ad29-3a8f47805d2b
           E13: 4a99384f-fde2-497f-b54e-07be90d1e68a
+      identifiant BnF: 467a933f-dcae-492f-8ea9-16042fa88fde
   1686-02b_160:
     E36:
       uuid: dff67bde-1ad0-4a16-acb6-8a0ab9754218
@@ -6985,6 +7285,7 @@ estampes:
         zone de l'image (E36):
           uuid: 2f0f1bef-d943-4962-a013-3c2d1a5a607e
           E13: 48e34872-a4cc-458d-a14d-9b20bfc25cf7
+      identifiant BnF: ffda4e84-2f29-4e9c-970e-e76041563a7c
   1686-03_201:
     E36:
       uuid: 4d4b53de-48f7-4b08-aaf5-6172d342dba9
@@ -7006,6 +7307,7 @@ estampes:
         zone de l'image (E36):
           uuid: 4724353f-6316-480a-93fc-6403a1e2d87b
           E13: 583b320a-834a-4edc-a3d2-9aee02d041fc
+      identifiant BnF: 6e6d33ce-4999-435b-ba4d-e3413b734742
   1686-04_259:
     E36:
       uuid: 382ce63a-d526-452f-8318-acc6abb72605
@@ -7027,6 +7329,7 @@ estampes:
         zone de l'image (E36):
           uuid: 0594aeec-a634-4fe7-97ff-190e668cb10e
           E13: ca67b231-f01b-47ca-9007-ff5164a64e68
+      identifiant BnF: c3de9cb8-72cd-4f0a-a826-209e5bd02abb
   1686-05_242:
     E36:
       uuid: de4300d2-65b2-489b-ab1c-363f6ebf34ef
@@ -7056,6 +7359,7 @@ estampes:
           E13: b8db9bb8-b47f-44dc-9bfd-c1ac991ee7e5
       lien externe:
         E13: 2ac9e05c-ff3b-4901-b861-009d1dc37d1a
+      identifiant BnF: 3f3975c9-3b0f-4b8a-8deb-f0d7ba3178f9
   1686-06_078:
     E36:
       uuid: d22958d1-8dd7-4785-a8ee-ae7a28ea41d5
@@ -7077,6 +7381,7 @@ estampes:
         zone de l'image (E36):
           uuid: e5499e19-0131-4d45-b5a9-e23e76638dec
           E13: 1239ae9b-78e1-44d0-aeee-332d7e14d40c
+      identifiant BnF: 412e1751-d0e0-49da-8971-4b2b5e5e597f
   1686-07a_310:
     E36:
       uuid: 82f9daea-9a01-49a4-ad4a-ca8b599dc12a
@@ -7090,6 +7395,7 @@ estampes:
         zone de l'image (E36):
           uuid: 01fff521-5c4b-4575-8662-f4fd94d14c1c
           E13: 1c6eedbb-1872-433a-8b44-d4eff3aef4af
+      identifiant BnF: 9c9384b6-e6a2-401c-b8ee-7e80dae5d03b
   1686-08_320:
     E36:
       uuid: 022e0f73-cb01-4ac7-b44f-acb90395be9a
@@ -7114,6 +7420,7 @@ estampes:
         zone de l'image (E36):
           uuid: 6172f570-b5ca-4567-bc35-ff2dccdafb1e
           E13: 1926c1b2-faed-4687-b397-51e862d1bf5d
+      identifiant BnF: 4cb9782e-4f59-4c93-82d0-9611893eaf09
   1686-09a_251:
     E36:
       uuid: 87de43bb-6f97-4cbc-afbe-1e288a1e2e2d
@@ -7147,6 +7454,7 @@ estampes:
         zone de l'image (E36):
           uuid: 8e83a1f9-3b31-4556-af64-d6768242bbb5
           E13: bff73986-e71a-4f1c-9bbc-a223a8bdfe43
+      identifiant BnF: 856d8081-754f-450b-8fef-6a8d2659a8ec
   1686-09b_167:
     E36:
       uuid: a1628611-a46d-4b84-8110-c33adcdccbd0
@@ -7170,6 +7478,7 @@ estampes:
         zone de l'image (E36):
           uuid: 58e3cce7-e308-4670-a759-2b9d815b889a
           E13: 615c7a2a-87d1-4485-a2e6-dc0164b77185
+      identifiant BnF: b089ee34-647a-4341-a9a7-ad757242166c
   1686-10a_286:
     E36:
       uuid: 32c23b1c-7c9c-4621-8539-050448bcec49
@@ -7183,6 +7492,7 @@ estampes:
         zone de l'image (E36):
           uuid: 44b0b78f-c44b-4a4d-81c6-4dcd01c6c15a
           E13: d899e54c-aa76-4d01-a4b3-34aa3589b239
+      identifiant BnF: effa7ffe-d022-4245-aa9b-8974c210e0ea
   1686-11a_167:
     E36:
       uuid: 6e79096c-3467-44a8-88fb-fd1abdbe10ee
@@ -7207,6 +7517,7 @@ estampes:
         zone de l'image (E36):
           uuid: b80314ba-0277-47a8-9454-3ffeea8d64c4
           E13: d0b3bfb4-969b-4ae2-ac89-d3bd38cbbbc2
+      identifiant BnF: b830f879-7387-43b5-a9ff-4542f89d7eed
   1686-12b_324:
     E36:
       uuid: 57a7e03a-32b1-413b-b24d-67c15b7c63fb
@@ -7231,6 +7542,7 @@ estampes:
         zone de l'image (E36):
           uuid: 3c8bd02b-669d-425e-8e3d-08926b769182
           E13: 5ebbd358-fb14-4dd3-becc-8cfc701189fc
+      identifiant BnF: e90001b8-76ed-4804-a330-4c65228ceca1
   1686-12a_211:
     E36:
       uuid: 13842a92-9f48-4053-903f-febb2ea5fc12
@@ -7250,6 +7562,7 @@ estampes:
         zone de l'image (E36):
           uuid: 835ada74-badd-480e-88bf-eb11ba292333
           E13: 1f7120fc-c359-4789-8bbc-5e182af62793
+      identifiant BnF: 21289dd9-9654-474d-ab5e-9d4c4c615b97
   1686-12b_225:
     E36:
       uuid: 3a8b1cee-6587-42d0-baa8-52612ea975c3
@@ -7277,6 +7590,7 @@ estampes:
         zone de l'image (E36):
           uuid: 0d790c6d-a9b6-44d7-9855-ad6f3976fd7c
           E13: efd37ae8-c604-4074-bc29-44128c3938ed
+      identifiant BnF: f1e040a8-19b7-4416-b833-01d3427bfef1
   1687-02_053:
     E36:
       uuid: 7686a0f6-e656-4fcf-9eab-8c2e64ef266f
@@ -7321,6 +7635,7 @@ estampes:
         zone de l'image (E36):
           uuid: d220fa64-5d8a-4dbb-8fff-1cefed6a8903
           E13: 6f68e13c-9299-47b8-a630-a110d56b74bc
+      identifiant BnF: 897c854e-59e8-4fd2-a0cb-b6d9a745bbbb
   1687-02_103:
     E36:
       uuid: b3a29c8a-3448-433a-a704-081e870e1cc5
@@ -7344,6 +7659,7 @@ estampes:
           E13: 5aca65b5-f240-46a0-a708-73c8e19160b9
       gallica:
         E13: 206a0d5b-90bd-45d9-ab13-ac8a55a208b2
+      identifiant BnF: e9b24f43-36c5-4ce6-a7af-804ce8e3fcce
   1687-03a_267:
     E36:
       uuid: 2e90707b-4283-4649-ba00-83de5b046869
@@ -7358,6 +7674,7 @@ estampes:
           uuid: 11a31b7c-765e-4745-9d70-3a8352ea99be
           E13: 5bbe108e-71f7-4421-a5fe-6b001b5447d2
       titre sur l'image: cb0a9df1-736d-4c4b-b28e-8b11cea5be36
+      identifiant BnF: 873695a3-3d83-4f20-8f35-ed8d63048ecf
   1687-04_268:
     E36:
       uuid: 72deb4e2-31d9-4a94-97dc-154943135642
@@ -7375,6 +7692,7 @@ estampes:
         zone de l'image (E36):
           uuid: 8e48735e-1786-476b-91f7-af410102fc76
           E13: ef7bb3cc-2152-436a-8238-bc9bbecdede7
+      identifiant BnF: d3ea66e7-6dfb-4b1e-8677-350153892be0
   1687-05_254:
     E36:
       uuid: 41c84591-6900-4d83-93d1-42ef1c8b9327
@@ -7392,6 +7710,7 @@ estampes:
         zone de l'image (E36):
           uuid: bdb9cc43-bcc9-48ed-9f58-69f8d0f7fcd8
           E13: 1566249f-e823-41bb-880c-d445cd3000d9
+      identifiant BnF: 98e0f416-abf8-4856-8404-6ffac89e8599
   1687-06a_106:
     E36:
       uuid: 7825819c-c3c6-4f66-874b-42590893d81d
@@ -7429,6 +7748,7 @@ estampes:
         zone de l'image (E36):
           uuid: 2452ca78-8f46-470a-b96e-0dc8d06afb1a
           E13: 1206df7d-9797-4e0c-9b3b-fa0278b2da3d
+      identifiant BnF: 081c4578-efac-4d27-a83e-106ab308817c
   1687-06b_191:
     E36:
       uuid: eaa568f3-1328-4fde-9e63-d8b657f774ae
@@ -7459,6 +7779,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9386dcf6-d672-4a0c-b64e-3229b87c54ed
           E13: 9cff59d8-e460-47e5-802c-84d7e21adfb4
+      identifiant BnF: f75ce406-f80b-46f0-8bf5-b9a5c0af8d6d
   1687-07_159:
     E36:
       uuid: d57a3a71-dd3a-4534-8807-88e1750c45a0
@@ -7498,6 +7819,7 @@ estampes:
         zone de l'image (E36):
           uuid: b3c85d24-563b-4be7-9722-0240c78e76fd
           E13: e3cb2cfa-c5ea-4b6c-a48e-2a7349148f37
+      identifiant BnF: a2b1014f-6eb2-4866-9d1c-2418218b39ba
   1687-08a_159:
     E36:
       uuid: c42c9416-f030-43bc-ab1b-28632646d9fa
@@ -7521,6 +7843,7 @@ estampes:
         zone de l'image (E36):
           uuid: 513dcb2d-541f-4aa4-a2fd-6d6601030f54
           E13: f6ac459b-9b2a-4b4c-9c12-cd49117fdb9b
+      identifiant BnF: 7b26aca1-9431-44cc-96e8-82b5cce3c900
   1687-09_269:
     E36:
       uuid: fff21a61-58f3-480f-98d8-41c32aaa2ee5
@@ -7552,6 +7875,7 @@ estampes:
         zone de l'image (E36):
           uuid: e52d7b9b-00e1-46c1-8a2d-33b1f301b3e0
           E13: 4d820bad-04da-4e0c-a370-3b02982ec550
+      identifiant BnF: 24584b3f-6f7b-496d-af4f-9281a2b2bdae
   1687-10_216:
     E36:
       uuid: ad612956-885c-4e65-8002-308541118b24
@@ -7579,6 +7903,7 @@ estampes:
         zone de l'image (E36):
           uuid: 3cedee63-46f4-4899-b3e1-3ac7b3200fab
           E13: bba3f59d-f82c-44c0-afd0-b82b936c7daa
+      identifiant BnF: dbd04330-b3ea-49a9-9cdc-47df6e38ecc5
   1687-11_244:
     E36:
       uuid: dcd743e0-c637-49e1-bc6e-c209ac646a1e
@@ -7611,6 +7936,7 @@ estampes:
         zone de l'image (E36):
           uuid: 84ebc299-625d-4cfd-a264-1fd3077e170a
           E13: 2ffdcb0e-52d0-4396-9ef2-2f0b8d3ead2c
+      identifiant BnF: 4811ee33-667c-4fae-af10-5e23c19837e5
   1687-12_099:
     E36:
       uuid: 585cefe3-f900-4ef2-a026-affb5d504005
@@ -7644,6 +7970,7 @@ estampes:
           uuid: d42bd434-4886-4466-b13c-cbba71182a27
           E13: 537f0400-46dc-4b19-a861-438658a88a71
           lieu représenté: a0c6a65d-88bc-4549-b822-9b429dc89841
+      identifiant BnF: d271259e-b25d-496d-9961-807cd591bef2
   1688-01_172:
     E36:
       uuid: 3a132d3a-d467-49ca-9420-61013b605549
@@ -7663,6 +7990,7 @@ estampes:
           E13: 754da3f7-13a2-4e13-844f-13ce7dc0bc52
       gallica:
         E13: 44c6e5c2-4fc4-4006-9f9e-d2c46bc1accb
+      identifiant BnF: 69270252-8e83-4a17-bedd-180aa2981e9b
   1688-02_146:
     E36:
       uuid: 6ec3890d-1dc1-46a2-a2c0-371db36b4be5
@@ -7683,6 +8011,7 @@ estampes:
         zone de l'image (E36):
           uuid: 3d1f99fe-e3fb-4250-9d2f-b9cbc29c40f2
           E13: 5546e9f2-9644-499f-9ffd-41e927ae8057
+      identifiant BnF: 2fe4e24f-1511-4fb0-848c-092841504159
   1688-03_229:
     E36:
       uuid: b2747225-dff0-4814-808f-a54537fe3814
@@ -7709,6 +8038,7 @@ estampes:
           uuid: 11728b2d-8057-45c6-a9ae-a5c3596ef07d
           E13: 49536613-9865-445e-8b85-852435f08466
           lieu représenté: 800cda86-587c-4ea1-9bd1-6b6dc95196a8
+      identifiant BnF: d838454c-0b12-42a9-8eb8-4128305cc9ec
   1688-04a_170:
     E36:
       uuid: a7db0905-f769-49e4-8bcb-7662706ae935
@@ -7725,6 +8055,7 @@ estampes:
           E13: 270d9711-a635-4d02-9a5f-2494c247ac04
       lien externe:
         E13: 10268872-cc9a-457b-a44d-6cfd1a7d1629
+      identifiant BnF: 83ffa2ce-8aea-4f17-8f90-d4d7841f725f
   1688-05a_165:
     E36:
       uuid: 18eb9a5f-ea0f-4297-bda1-3d785940fe1e
@@ -7746,6 +8077,7 @@ estampes:
         zone de l'image (E36):
           uuid: 8a560ced-996b-4502-b952-b0b607a7ba1e
           E13: c30d96c6-a4ed-4989-a222-a5fbcface438
+      identifiant BnF: 057c112b-e8b5-4f25-badc-3377a725ca58
   1688-05b_368:
     E36:
       uuid: a7edda5b-7b8e-46d3-8088-3a8c77f58454
@@ -7783,6 +8115,7 @@ estampes:
         zone de l'image (E36):
           uuid: 05cc71a5-3124-4f96-befb-99d8a08ae17c
           E13: ec85e50e-0cf4-41e9-a9a3-43639e0b8ff2
+      identifiant BnF: 2df6ee85-8886-4a0f-ac6b-f71ed1379031
   1688-06a_189:
     E36:
       uuid: 867dd1b6-4662-4b1c-877f-dfca137fd5cf
@@ -7802,6 +8135,7 @@ estampes:
         zone de l'image (E36):
           uuid: 24963c73-73e1-4a0e-bbc1-cd06d1dd312b
           E13: a520d046-e342-4b64-b146-78af817b04af
+      identifiant BnF: 836d5198-6af2-4687-8420-61ea96b24abf
   1688-07_316:
     E36:
       uuid: 75cb2e25-707f-4e1a-93c2-8dcf27c0ac5e
@@ -7842,6 +8176,7 @@ estampes:
         zone de l'image (E36):
           uuid: 395d7807-76af-4a30-9c84-7334d7d2771f
           E13: 6ace844b-f3f1-4258-85e0-45ec114f00fd
+      identifiant BnF: 7f84bac6-3670-4e7b-8235-9ebf950743ad
   1688-08_246:
     E36:
       uuid: 58da99b1-7d61-4e84-97c4-3ef7a81a363a
@@ -7867,6 +8202,7 @@ estampes:
         zone de l'image (E36):
           uuid: f7597dfe-5309-4421-b0a4-a7f413879c78
           E13: a7f6bb6c-8729-437b-8bf3-dff2c09483da
+      identifiant BnF: e3675c62-f237-4033-a6e4-cd81dca24aee
   1688-09a_246:
     E36:
       uuid: a0dc7706-630c-460f-a2da-9ac39abb7a28
@@ -7894,6 +8230,7 @@ estampes:
         zone de l'image (E36):
           uuid: 165b07b9-b5ab-4020-b0e8-677afa5e393d
           E13: 10f45926-145b-4c49-ae85-66011bc0c160
+      identifiant BnF: be81bfa9-6051-4d6a-a9c6-08b03d7c7f8f
   1688-10a_221:
     E36:
       uuid: c1dd9a66-b3ba-48e4-a234-2f00969c50e3
@@ -7913,6 +8250,7 @@ estampes:
         zone de l'image (E36):
           uuid: 909ff4f7-355a-4d2d-b12d-484dc0d7144f
           E13: ccbd5193-2a36-4a0e-9556-07c48c541927
+      identifiant BnF: 87ce207d-71b1-42ef-99ef-859f14e7cb0e
   1688-11a_283:
     E36:
       uuid: 3f341522-113e-401f-a8cc-cd2d5d28fd8f
@@ -7936,6 +8274,7 @@ estampes:
         zone de l'image (E36):
           uuid: 959754fc-365d-468d-b04d-f549a1f2419c
           E13: f29128fc-7c63-493d-827a-22771b20b35e
+      identifiant BnF: f97a1dd1-684d-4bbb-8f22-e450dc832974
   1688-12a_229:
     E36:
       uuid: 21fb54e2-48b7-4f1a-99a7-e0e44a6ca5e0
@@ -7968,6 +8307,7 @@ estampes:
         zone de l'image (E36):
           uuid: d31fed33-e7ea-41d0-9cde-80b693096667
           E13: 593502f6-2c5f-4ac4-9f72-f9f8a8a620f1
+      identifiant BnF: 6d859188-00cf-4af1-bca3-6398ceb350a8
   1689-01 _215:
     E36:
       uuid: fccd41e5-d242-4238-9d37-e5df6f77bdae
@@ -7995,6 +8335,7 @@ estampes:
         zone de l'image (E36):
           uuid: 4cc658de-2b06-48a8-af3c-0c8f4b714f61
           E13: 417c2e75-0cd1-454a-ada4-e31930475cc1
+      identifiant BnF: 04a982d6-29a4-4539-a70d-e912ea9b1054
   1689-02a_125:
     E36:
       uuid: caf8cb95-49c8-4dd4-aefd-2c190d1cb283
@@ -8015,6 +8356,7 @@ estampes:
         zone de l'image (E36):
           uuid: c0d27a57-f48b-4b06-acbe-d116ca8b950a
           E13: bf934171-9725-4cbe-81d9-66f01ede7e03
+      identifiant BnF: 6cc7d905-55d4-484a-a438-42a19e15a53c
   1689-03a_170:
     E36:
       uuid: dc918652-49ab-4444-adff-4b5fde6d9540
@@ -8046,6 +8388,7 @@ estampes:
         zone de l'image (E36):
           uuid: 32ece08a-af77-45f6-ba27-1a0646f25e38
           E13: a858b27d-6fc9-4f5e-b01d-36881f6237ca
+      identifiant BnF: 1a5972e9-b755-4bd5-9d3c-9102d2cf4204
   1689-04_236:
     E36:
       uuid: b7fa9bee-8a76-493e-8f26-694f2051ad3e
@@ -8069,6 +8412,7 @@ estampes:
         zone de l'image (E36):
           uuid: b221de10-42a1-497d-810f-5be0095950ba
           E13: 75282bee-27bf-44b7-869f-0b4c4a227f12
+      identifiant BnF: fa556180-fcf2-49ea-a86b-85c19f8c8b34
   1689-05a_254:
     E36:
       uuid: f67edb13-b2fb-45cb-b9d3-82c79b1bedaf
@@ -8115,6 +8459,7 @@ estampes:
         zone de l'image (E36):
           uuid: 410fdd90-8480-4ed2-8ce3-b5c040ae6695
           E13: 90e6f983-01a5-4979-a11c-202a48163e68
+      identifiant BnF: 5d30d902-aec4-4591-baa7-b307a27c82db
   1689-06_305:
     E36:
       uuid: 71a6da0b-32a6-41c6-84d1-9b4caa31d65f
@@ -8151,6 +8496,7 @@ estampes:
       bibliographie:
         uuid: 75e1632d-83d0-4247-80a5-b18960e1151e
         E13: a201a4b3-d7db-49d6-870e-9ed50e3a9167
+      identifiant BnF: e5fc7d9f-4966-4e68-83c3-c88d1143bac9
   1689-07_195:
     E36:
       uuid: 9db7b8f2-63c7-4962-af47-ce0d1362bedb
@@ -8192,6 +8538,7 @@ estampes:
         zone de l'image (E36):
           uuid: 57bc7d06-c955-4914-89db-83f384108636
           E13: eea58e41-922b-4008-a27a-b0f4dfff2639
+      identifiant BnF: a7b700eb-fb70-4bc8-a8d6-08caa3fed426
   1689-08_356:
     E36:
       uuid: d1ddee5c-bb43-402b-89e7-473dc57cdcdb
@@ -8224,6 +8571,7 @@ estampes:
           uuid: 03b95aff-d0f6-4ed6-9f2a-fcb5dad1fb6e
           E13: 59a2ce05-640c-47b6-be19-2ddd9c1abe8d
           lieu représenté: 4630b4c6-2e17-44b3-bbc2-71d0100457ff
+      identifiant BnF: 5d2139f2-f2b0-4d3b-af68-56b438a85b64
   1689-09_239:
     E36:
       uuid: 8ff8324b-248e-45c5-9345-1f6fbbaa0b9e
@@ -8243,6 +8591,7 @@ estampes:
         zone de l'image (E36):
           uuid: 16129b2c-6225-4ddd-9233-6355a2ab1614
           E13: 08896c36-a9cf-4cb3-b073-528b2a725795
+      identifiant BnF: dbe9bef9-d503-48e7-8870-30725458c675
   1689-10_242:
     E36:
       uuid: f7eb7aca-e5fc-4841-8f38-18d8cbf5f449
@@ -8270,6 +8619,7 @@ estampes:
         zone de l'image (E36):
           uuid: cc093206-ccc0-413e-82ad-bd502d826b5a
           E13: 0808f83d-c7e6-43c1-92b9-56e8059711ca
+      identifiant BnF: 00491ab0-dbaa-4bba-986c-dcc9816fa4cb
   1689-11_317:
     E36:
       uuid: a75e59a2-90e4-4287-85e8-8454ad70c8e6
@@ -8297,6 +8647,7 @@ estampes:
         zone de l'image (E36):
           uuid: 49818dc2-921b-43da-8eaf-dc4f9e4e12c2
           E13: f2af7d4b-fde3-42d3-b30b-c8a456ff9c8f
+      identifiant BnF: 77302ff2-b14d-48fd-a952-3bcf7327dd02
   1689-12_227:
     E36:
       uuid: 4b106b31-866f-40e3-b3e9-be7f9818e438
@@ -8320,6 +8671,7 @@ estampes:
         zone de l'image (E36):
           uuid: 6ceffbb2-cfdc-447c-b1b6-e4e740e2aeff
           E13: cf8b970f-85b5-4472-a10b-962525c38f76
+      identifiant BnF: 137682c8-f080-4dcb-85c6-a72eb9ac55e3
   1690-01_154:
     E36:
       uuid: 592ace39-6731-47a8-847c-da68fee80992
@@ -8347,6 +8699,7 @@ estampes:
         zone de l'image (E36):
           uuid: 4a50b5a6-0460-4b82-8e2f-4f4508458af9
           E13: 6a072caa-d739-4bca-9253-e31d64e55587
+      identifiant BnF: 26f63f0d-46c5-4706-9cc1-87c20b5758ac
   1690-02_151:
     E36:
       uuid: 7b4b03b9-4e54-4d44-85d2-c84be31f0cce
@@ -8367,6 +8720,7 @@ estampes:
         zone de l'image (E36):
           uuid: 84133305-41ac-4b83-988e-8b6d430b94ca
           E13: af6664f0-c674-4452-9b47-c58c5e505dc7
+      identifiant BnF: 57346d57-5bee-4b30-b336-cbe052f67a61
   1690-03_212:
     E36:
       uuid: f61d6817-a4ee-4283-a167-ac489edd8bc8
@@ -8394,6 +8748,7 @@ estampes:
         zone de l'image (E36):
           uuid: 6e17ce43-33dd-41a6-b10b-eb3e0946913e
           E13: a211ea48-481d-478f-9d60-cb3867bd3705
+      identifiant BnF: f9e05426-5a7a-42d3-978f-f7f383b26321
   1690-04_211:
     E36:
       uuid: 0a7ab2b4-027d-4a8c-8074-8ed7bbf19af5
@@ -8412,6 +8767,7 @@ estampes:
           E13: b6a0dd3e-2124-4596-9ce5-352ca37f1020
       gallica:
         E13: 39c00d37-d9ec-426b-a7a0-79d3aa2b1c79
+      identifiant BnF: 835eb1ca-bd51-4c9a-9b79-1744bc2fe042
   1690-05_057:
     E36:
       uuid: 0d5645bb-37a1-4979-90f4-f09a35211249
@@ -8434,6 +8790,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 3c7905bc-8c4d-484b-a50e-ad13ac94ecd4
           E13: f66367fe-d2fc-4a58-b307-edaec49303a9
+      identifiant BnF: 1dff7407-4dfb-415e-89d7-910d59d64b9b
   1690-06_142:
     E36:
       uuid: 27b570e7-59b6-42f8-8237-f5ed9d406c82
@@ -8455,6 +8812,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 3f232b18-ac3a-4cd3-b44b-9e7a675c86f5
           E13: 6600222c-687c-46d4-a77c-396a19b76538
+      identifiant BnF: 988cce89-31bc-40e5-96b2-e3d04cb3a644
   1690-07a_320:
     E36:
       uuid: 91a05fa3-8177-4323-a960-b46a8ce8bdd9
@@ -8469,6 +8827,7 @@ estampes:
         zone de l'image (E36):
           uuid: 273fc6c4-46dd-430a-bb74-f481dd4bb70d
           E13: 064d2b14-79ab-48a1-a9ed-04866d50472e
+      identifiant BnF: 3a17d536-3c5b-4191-bea2-1608b12cefcb
   1690-08_238:
     E36:
       uuid: 96e3f65f-61c1-416b-a1e9-6a8ef670d6b1
@@ -8498,6 +8857,7 @@ estampes:
           E13: 360fc08e-0531-4c17-85f5-2b66c2d2cd10
       lien externe:
         E13: 00d56e02-ef49-4324-a4e7-f1f6471f8d7f
+      identifiant BnF: c89da0ed-9cad-4b5a-9c7e-668a51db2a43
   1690-09_184:
     E36:
       uuid: b26f3ab7-18cf-4b08-9ec3-c2850ef7291f
@@ -8521,6 +8881,7 @@ estampes:
         zone de l'image (E36):
           uuid: a165f8da-7e02-46bd-b063-5a48ff11a71f
           E13: aad61eae-13c4-4185-a56c-7cb3e634cffd
+      identifiant BnF: e8a4597b-0b8b-4c28-a311-24277beb7050
   1690-11_157:
     E36:
       uuid: 36edccb9-892b-4508-9e46-2ac7283154fa
@@ -8552,6 +8913,7 @@ estampes:
         zone de l'image (E36):
           uuid: 87400dd8-74b1-4c70-b360-780b03d09ff3
           E13: 55526fe2-fa0a-4528-bf02-366a329082e7
+      identifiant BnF: d1bd9d24-6ca3-4e24-922c-bb14b93e801e
   1690-12_271:
     E36:
       uuid: 95c17ab1-ea76-4a96-98a6-a0e237a44741
@@ -8579,6 +8941,7 @@ estampes:
         zone de l'image (E36):
           uuid: a5642257-639e-4c60-a3b3-c988c541e66a
           E13: 7c74e9c7-3383-46a1-a853-358bee9799ea
+      identifiant BnF: a372701b-163d-432c-b2f2-7d9a681ac667
   1691-01_227:
     E36:
       uuid: 68aacf4f-0093-478f-9821-591b901bac32
@@ -8610,6 +8973,7 @@ estampes:
         zone de l'image (E36):
           uuid: f76b31ed-9922-4042-92da-1bc5209c8579
           E13: 01868641-9643-45a9-bffc-2416eef5b855
+      identifiant BnF: cd802f75-472c-4829-a017-77189179489f
   1691-02_177:
     E36:
       uuid: 62f0dc7d-78f8-4a26-8a1b-91dc97215e1e
@@ -8646,6 +9010,7 @@ estampes:
       bibliographie:
         uuid: 18c9abec-b482-43c5-b4ed-bce107e92a6c
         E13: 5e7f15d3-87fe-4415-bfca-e56d5c5e21bd
+      identifiant BnF: cfb8dccf-43d7-4dc3-80c7-2a0f5061b828
   1691-03_131:
     E36:
       uuid: 58a0e778-d9e5-4f66-ad91-d5e99b98e5f3
@@ -8666,6 +9031,7 @@ estampes:
         zone de l'image (E36):
           uuid: 289d5f42-5457-4e1e-9e36-5a330de68d77
           E13: 77abb260-72e2-429e-9e3b-f5c69142833c
+      identifiant BnF: 4431e5e2-b8ac-48ac-9cd7-6cd8fd97dc13
   1691-04_162:
     E36:
       uuid: 8a466679-ef25-4085-bc1e-d00eabd0ba40
@@ -8685,6 +9051,7 @@ estampes:
         zone de l'image (E36):
           uuid: 54f6776d-a47b-4d48-a766-6825b2bfcfa6
           E13: 62718ed1-b241-4fd5-b925-6a3fc06fcb27
+      identifiant BnF: eb776f9d-7c1b-4353-b5e0-88914c5cf59b
   1691-05_149:
     E36:
       uuid: 483b944a-b41a-41b0-b757-219652f98711
@@ -8702,6 +9069,7 @@ estampes:
         zone de l'image (E36):
           uuid: 11171b72-96b1-4772-b6eb-b5d4cdb11749
           E13: 947a89a6-b4f0-4cd6-9374-60a471c82685
+      identifiant BnF: 58087593-62db-47f2-9fbb-eca9efacc52d
   1691-06_208:
     E36:
       uuid: 036521a2-0283-4935-b942-0a69aa496be6
@@ -8729,6 +9097,7 @@ estampes:
         zone de l'image (E36):
           uuid: a642dd45-3d4d-46d0-a02b-faad1b4ac45c
           E13: cec72a17-fc4a-4ca6-a0d5-8591cab564a4
+      identifiant BnF: b12d4f56-002d-41ab-a214-23a65b2f91ce
   1691-07_181:
     E36:
       uuid: 433c37c0-ef8b-4757-a83a-6ccb6eb441ac
@@ -8780,6 +9149,7 @@ estampes:
       bibliographie:
         uuid: 9c74e8f1-5c7a-4e36-b3ae-62d06e089221
         E13: 986729ae-6908-4110-916f-2c925101e479
+      identifiant BnF: 89b3aa22-b830-48f5-9d3c-cf3ceb3caab4
   1691-08_161:
     E36:
       uuid: ea7bcd7c-e75c-434f-a1ba-c8301ce7c4d9
@@ -8811,6 +9181,7 @@ estampes:
         zone de l'image (E36):
           uuid: 6541ebd9-7a31-401d-a3ae-745e6b846dd4
           E13: e6b866bf-2ac3-44fc-b0dd-a41a88f98204
+      identifiant BnF: 3da0535b-14d2-4c0f-a7ce-7f7b69ccc7ec
   1691-09_155:
     E36:
       uuid: 4a9dd73c-f230-4886-8ed6-485054d034da
@@ -8838,6 +9209,7 @@ estampes:
           uuid: 24e9322c-3511-4e4b-b632-510de41870fd
           auteur: b3ce1440-5313-4e6e-ac75-cf800fb3f1ed
           E13: bcebd00c-1a59-45bf-8de7-77ba764787f5
+      identifiant BnF: 91e40f22-70db-43f4-bf50-4822ca1ba300
   1691-10_161:
     E36:
       uuid: dbd671ba-6b80-4819-a659-a2f2f12a748d
@@ -8873,6 +9245,7 @@ estampes:
         zone de l'image (E36):
           uuid: a5285601-0930-4ee3-a99c-999ee78151e2
           E13: 683fd896-75d3-4901-b523-45bc6783a9d5
+      identifiant BnF: c6001687-e74a-4948-8f56-9d0a91000f78
   1691-11_156:
     E36:
       uuid: 09383ea0-6553-4b72-b2b6-74c4a9718174
@@ -8904,6 +9277,7 @@ estampes:
         zone de l'image (E36):
           uuid: 25233970-60ad-484f-bc8c-1abafc9742a6
           E13: 962bbce3-92d5-42d8-9d2c-965f8a88fcae
+      identifiant BnF: 13402854-8b3e-4802-9dff-e880a6383aab
   1691-12_242:
     E36:
       uuid: 20e018ff-3dee-484d-889c-9c18bdb0a2e4
@@ -8931,6 +9305,7 @@ estampes:
         zone de l'image (E36):
           uuid: 30ae027e-e2c2-4f3d-9f33-25ab0d568b59
           E13: 191950b7-d9a8-4370-ab2a-2befeb7f4684
+      identifiant BnF: 2a21fb20-97d9-407a-b9f0-52648cc4f2af
   1692-01_288:
     E36:
       uuid: ac0e53fc-c7f5-49b5-9472-930b09c2d42a
@@ -8954,6 +9329,7 @@ estampes:
         zone de l'image (E36):
           uuid: 1c9f4d30-0247-4d65-8964-fb5064c77b60
           E13: 257775b5-b7c7-40ec-a30a-01231e346282
+      identifiant BnF: fadd02bf-f0e1-497b-a86c-4f95086fcded
   1692-02_324:
     E36:
       uuid: 280094c2-bff8-4d6e-9199-54428e7654df
@@ -8979,6 +9355,7 @@ estampes:
         zone de l'image (E36):
           uuid: 2ccfebcd-e712-4f99-bc37-885873ca7901
           E13: 7954d58a-2aa9-4ecf-81c1-f76d48fe252b
+      identifiant BnF: 0a9d9ba9-28dc-4f99-850c-45e482057b30
   1692-02_326:
     E36:
       uuid: a5f0f456-627a-4370-98f2-7d969a935e4b
@@ -9004,6 +9381,7 @@ estampes:
         zone de l'image (E36):
           uuid: db74ad9e-4963-4ae7-b9a8-eca18e7f4f1c
           E13: 2b301f78-65c2-41ca-8d75-abcd217d3447
+      identifiant BnF: 64357723-8729-4daa-95d0-17c9b4ff2e23
   1692-03_175:
     E36:
       uuid: bc54e11b-22ce-40d0-8a8b-a09734ea5d1f
@@ -9017,6 +9395,7 @@ estampes:
         zone de l'image (E36):
           uuid: 0887202f-1dc4-4c31-9ad3-337fecf39fa0
           E13: 5801739b-0b6f-421e-b61a-e415a3d3cff5
+      identifiant BnF: 2049716a-5325-4f1b-a1fa-9f3486577369
   1692-04_181:
     E36:
       uuid: 1a374080-8ba5-4e42-a3da-424d091389a8
@@ -9044,6 +9423,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7aad2145-3c3b-408f-96e8-6d2472ddb9dd
           E13: 679d3a01-d0f1-4f38-b535-2e2cf31f5d3e
+      identifiant BnF: 65d5e2af-1033-44d5-9d0e-3d327409a8c1
   1692-05_218:
     E36:
       uuid: e1030ba0-c6a4-4e75-a40f-fe06524f4bfc
@@ -9075,6 +9455,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9fbba789-14f6-4581-a700-5604f3da3703
           E13: c4d546ef-7fff-4df8-8127-8b795b1267f3
+      identifiant BnF: 363121b7-2fb5-4d43-9ec0-b1fad782fe4f
   1692-06_239:
     E36:
       uuid: 38a3289e-ba34-4ed7-9118-8e8279c5f9df
@@ -9098,6 +9479,7 @@ estampes:
         zone de l'image (E36):
           uuid: 02e1c4d3-9627-4dc5-a630-c61d2bca9175
           E13: 2acb2dfb-f89d-4cd2-825a-6c9e747dc714
+      identifiant BnF: 51cd81ba-6d06-4cca-be98-b381156cce33
   1692-07_274:
     E36:
       uuid: 162437a7-1fbb-45a1-b25b-03e71b0b1a3e
@@ -9132,6 +9514,7 @@ estampes:
         zone de l'image (E36):
           uuid: 1711cac3-635c-465d-ba13-8f576dc24b43
           E13: 1ec4fd9a-7c50-44c5-ae77-45d5ba710623
+      identifiant BnF: aa0f8556-e534-46d7-89ab-2c8474d4224b
   1692-08a_181:
     E36:
       uuid: 34ba532a-aad7-4e02-8a5b-ddae7a1253f2
@@ -9151,6 +9534,7 @@ estampes:
         zone de l'image (E36):
           uuid: cc95d1cb-0dcc-48e0-9ed8-df22f85b2a5e
           E13: c4d3fa28-7733-4de6-9050-7783db67cc5a
+      identifiant BnF: afeaa314-e277-470a-9bb0-07ffe2d365e8
   1692-10_104:
     E36:
       uuid: 76a629b5-844c-4df2-87a7-6339e40c3100
@@ -9180,6 +9564,7 @@ estampes:
         zone de l'image (E36):
           uuid: 88a5e14d-0deb-4cec-826a-9e222a4aedca
           E13: 3e46460a-d47a-4e39-8214-3c785b2be3cc
+      identifiant BnF: 275dbed9-17c3-45d1-b14c-831a66ad74ce
   1692-11_175:
     E36:
       uuid: 6f70b2c2-c442-4223-81ec-62e599a958d9
@@ -9203,6 +9588,7 @@ estampes:
         zone de l'image (E36):
           uuid: 24959496-0df1-460b-9ca8-16a5820560ab
           E13: 75e966ca-06d0-40e1-8f94-cb1a72be064a
+      identifiant BnF: a974e821-3587-4757-9b94-7b1aa3457afc
   1692-12_182:
     E36:
       uuid: 84290522-1997-4749-9928-54391992e6e0
@@ -9221,6 +9607,7 @@ estampes:
           uuid: 28ddde15-de9c-4987-b28a-a8b227e2e58b
           E13: 26d1387f-8dde-4010-905d-ae89de65d924
       titre péritexte: 67872937-cc2a-4836-8a0c-52f9c51411fb
+      identifiant BnF: 2ceca89f-9ec8-4e2e-bf49-594dd6876aef
   1693-01_219:
     E36:
       uuid: 473689e1-52a6-4b24-abe4-d13eb791b04a
@@ -9247,6 +9634,7 @@ estampes:
           uuid: 4873bb0c-a964-4c37-b9b3-e316f4a5524a
           E13: 0a5b2fe0-3453-4a71-90d3-98087040d3cb
           lieu représenté: 49cbcc1b-19ec-4b4d-a3dd-cb3b94466045
+      identifiant BnF: 13e7467e-5105-4ebb-b948-7d96f2475fd9
   1693-02_201:
     E36:
       uuid: 54022dbc-e56d-40bf-a07b-a9163f487b52
@@ -9282,6 +9670,7 @@ estampes:
         zone de l'image (E36):
           uuid: 624e5d27-aa05-4e60-9a70-5be5735015c4
           E13: 24ba4ff8-078d-4021-bde1-34f4c74009f0
+      identifiant BnF: 3eba2bd7-9b07-4454-beb1-af9e910b67c2
   1693-03_191:
     E36:
       uuid: c9c6b145-417a-4177-8227-d022fc1cf1a0
@@ -9295,6 +9684,7 @@ estampes:
         zone de l'image (E36):
           uuid: a57dd588-b9c5-4a16-a326-66e931fa144c
           E13: bdc9597f-d42e-416f-8c3a-978a5f30f452
+      identifiant BnF: 2769d36f-d91b-446b-bdcc-8acb5c60add3
   1693-04_189:
     E36:
       uuid: 506bb6e6-af94-4697-a1a1-26ed66d4021d
@@ -9309,6 +9699,7 @@ estampes:
           E13: 6ac7c3ce-47c6-4455-aa1b-70d8e98e631c
       titre sur l'image: 93be768a-af2d-49ec-abd0-0177a7bd4b96
       titre péritexte: c2c0ecb3-4336-4ed9-933d-7d32a2959b1b
+      identifiant BnF: 51e61481-b2ab-4c1b-840b-7d931f95d289
   1693-05_248:
     E36:
       uuid: 6e427b07-f1fa-4397-bba0-af387e07fd6c
@@ -9330,6 +9721,7 @@ estampes:
           E13: d6717bbc-dce6-4826-92b6-abed46a1fe80
       lien externe:
         E13: cecec773-b1b6-43e6-a2fc-0f774b6db2f3
+      identifiant BnF: 1700a5e0-6567-4117-a81e-12608381435a
   1693-06_064:
     E36:
       uuid: b53dce59-7f15-47bc-9ecc-7779bf0509bf
@@ -9348,6 +9740,7 @@ estampes:
         zone de l'image (E36):
           uuid: 5573a8cc-60f5-4d60-a7b1-0645994b17b2
           E13: f1963980-8b5a-460b-abd8-1c22a5381df8
+      identifiant BnF: a6b9fab5-3142-4f19-9016-53683854c768
   1693-07_193:
     E36:
       uuid: 59752cce-26f9-43bb-870a-4cbe08ada006
@@ -9387,6 +9780,7 @@ estampes:
           uuid: 5e82984a-5c52-4a76-aa15-2de1fd3a9a76
           E13: 30ce88d5-e93b-4713-a69d-eb89003ad59e
           lieu représenté: 0f4971f6-1782-4b9b-af79-63e6b6e30013
+      identifiant BnF: fce80d1f-a221-4904-9512-c3478345c1d8
   1693-08a_314:
     E36:
       uuid: 9ced3097-6729-4a98-a0f3-317e00da7052
@@ -9424,6 +9818,7 @@ estampes:
         zone de l'image (E36):
           uuid: 5e77751f-e5eb-41bd-a908-c5c5b672cf5c
           E13: dcdf9c64-67d9-4013-8875-a7528e17b06e
+      identifiant BnF: 4eb2eb1c-235d-4ed3-8714-eaa443ddc678
   1693-09_266:
     E36:
       uuid: 7a260f2d-1df5-4b90-9eaa-d6921e381041
@@ -9457,6 +9852,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 1af3c340-c5a5-4c2e-84e1-159ece03c3ca
           E13: 15b940ae-560c-4aca-9f41-21573d072bd0
+      identifiant BnF: 84f0c862-7b3f-4eed-8326-aa8d042b9430
   1693-10_327:
     E36:
       uuid: 2201e01a-a99b-4f73-86a6-e8757c5794af
@@ -9480,6 +9876,7 @@ estampes:
         zone de l'image (E36):
           uuid: 23f15cb9-9dd5-456b-843b-177178c9eae6
           E13: db8f54c1-0cee-4be1-923a-ef2d6f52513e
+      identifiant BnF: 44da484c-c837-476b-83d1-8854169ff293
   1693-12_008:
     E36:
       uuid: feeb8262-8f10-4427-8221-665e3444919e
@@ -9519,6 +9916,7 @@ estampes:
         zone de l'image (E36):
           uuid: 303ade46-8550-4b53-b16b-e3519ef2fc7c
           E13: 6acd31b9-eae6-4f4a-8553-cf621143cc2e
+      identifiant BnF: 5221fd77-8e7e-4547-a453-fe56ed1907a9
   1694-01_204:
     E36:
       uuid: 0336533b-0c37-4f1b-8aed-a77d699c316a
@@ -9546,6 +9944,7 @@ estampes:
         zone de l'image (E36):
           uuid: 5e86c9fc-cf09-4392-847b-2ffb120ec91d
           E13: 04e121e2-ed1e-4595-8201-d99c4ef2fa3c
+      identifiant BnF: 8870beef-cc13-41c1-a462-50b4c91de9ab
   1694-02_303:
     E36:
       uuid: 333a51b3-1bc9-42ed-9cd8-59d0aa381369
@@ -9571,6 +9970,7 @@ estampes:
         zone de l'image (E36):
           uuid: 1eeeed64-badd-44e1-bdf3-a68465c81a95
           E13: afedd46d-932f-464f-b815-9f3244e317d3
+      identifiant BnF: ae5356d4-ff44-4f8b-8a48-3b0542fb2f54
   1694-03_201:
     E36:
       uuid: 9bb41133-30e7-4249-91eb-7f1053d92d0c
@@ -9598,6 +9998,7 @@ estampes:
         zone de l'image (E36):
           uuid: 1e87c95e-0098-4a58-a89a-8da56bebf53f
           E13: bee14943-36d5-4f1f-aeea-d3f3ca1807b1
+      identifiant BnF: 4d14384c-5109-4736-9092-f7882e4a127a
   1694-04_114:
     E36:
       uuid: c8927399-85de-4437-8fec-f5c5bf927adc
@@ -9624,6 +10025,7 @@ estampes:
           uuid: 77d9f92d-7da1-439f-80e5-70cde1b29e97
           E13: 39b8790b-9cd3-430b-886a-2b119f64e1d7
           lieu représenté: a4cbf849-4b8d-40f4-a5fe-2c20d0f41a65
+      identifiant BnF: 26a4f103-4867-41a4-808a-82e762eab5d8
   1694-05_265:
     E36:
       uuid: df849ca4-0394-487a-8f9b-2867f239c747
@@ -9643,6 +10045,7 @@ estampes:
         zone de l'image (E36):
           uuid: 8f4a0155-00d1-4a2e-8022-428a6e577e76
           E13: 77f971c9-470b-4949-a174-ed5786094e23
+      identifiant BnF: 23775de6-b76e-4dfb-99d0-5abe1c4fe014
   1694-06_297:
     E36:
       uuid: b17856f1-5d2b-4b19-a212-eb22b17472dd
@@ -9671,6 +10074,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9a155a2f-f258-4e0e-84e7-72549ff79b3e
           E13: d9ef90ac-b7a1-4579-8a6d-f58181c3baa6
+      identifiant BnF: 9153513c-b56f-40c9-a4ed-b832680d40be
   1694-07_081:
     E36:
       uuid: 599f338e-0ae2-4c3c-a0c1-7f9ec5cf8ef6
@@ -9703,6 +10107,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7cc9d813-aaf6-4571-96f9-2ed5a849f670
           E13: 3371f6bf-1f2b-44c4-bfcb-f7156291b9d2
+      identifiant BnF: 86a51594-b9ad-405a-bf03-9d020e221c13
   1694-07_259:
     E36:
       uuid: d61772eb-7473-4571-86e6-d699be618ba7
@@ -9736,6 +10141,7 @@ estampes:
           uuid: 7e3e39ca-9dd0-4c03-9444-76aac94d7059
           E13: b4f7f35f-7b28-4d57-92de-6c3edbbb8c43
           lieu représenté: b366a597-c3e3-4126-9b96-178fa2df46af
+      identifiant BnF: 6201418e-d21d-48c3-9ad0-52b947febf2d
   1694-08_229:
     E36:
       uuid: b811e3dd-c2c6-4db1-98b3-e5704f65f312
@@ -9759,6 +10165,7 @@ estampes:
         zone de l'image (E36):
           uuid: 6c58d950-8d3d-4ebe-918a-3996b0725dea
           E13: 158d58db-65f3-44e2-81c8-7e09955a9d33
+      identifiant BnF: 12184ed1-8420-4e12-be94-d4b9c57840ae
   1694-09_126:
     E36:
       uuid: 9481d868-53f1-482d-bfc9-e59d885eb286
@@ -9790,6 +10197,7 @@ estampes:
         zone de l'image (E36):
           uuid: 24c0893b-30a6-4648-af10-171cea57512b
           E13: 74390f10-3378-48ed-b6b6-1770de672deb
+      identifiant BnF: e6482bfd-131b-47d9-a49a-b2b9d8015ac2
   1694-10_161:
     E36:
       uuid: f695bf25-e66c-43ac-8730-55a9dc74845d
@@ -9809,6 +10217,7 @@ estampes:
       notes:
         E13: bcdc1d21-94c1-4caa-91e4-9da186561195
       titre péritexte: f47864f9-a56f-4f19-b58e-9eff46fc2122
+      identifiant BnF: 6df419af-b41b-4ffe-b84c-af010505ac5d
   1694-10_255:
     E36:
       uuid: a6c3107b-4fe8-441c-b12e-c23e4965bcbf
@@ -9827,6 +10236,7 @@ estampes:
         zone de l'image (E36):
           uuid: 33e6a5f7-e6e2-481c-b4e6-f1beaebf09e1
           E13: feb63529-5756-4458-9feb-b2980643c640
+      identifiant BnF: 05e391f5-c42b-448b-bfdc-405acd87df9c
   1694-11_251:
     E36:
       uuid: 9338178a-7e6e-4b04-80dd-d9dcf59a061c
@@ -9854,6 +10264,7 @@ estampes:
           uuid: bfc3a1ab-cdfc-4a3d-b32c-a1eced477481
           E13: d8e1030b-65ef-43c4-a7fa-47f48bbb508e
           lieu représenté: c62327cb-bab1-490c-9c8c-c8f7cf18ad86
+      identifiant BnF: 48620214-576a-492e-bc83-8e2ee77c25fc
   1694-12_172:
     E36:
       uuid: 72138ec8-e92b-4c8e-9bae-a9c10c118d92
@@ -9877,6 +10288,7 @@ estampes:
         zone de l'image (E36):
           uuid: 1e02326b-b9b0-4ea6-ac0b-662b2e852468
           E13: e344316d-1090-4bbb-89b0-fc344ecdd8bc
+      identifiant BnF: c2b6e456-6e17-4901-8b17-735034c1ec6f
   1695-01_185:
     E36:
       uuid: 3ec6b1d1-bbf5-4d4f-a938-103bf2ea58b2
@@ -9903,6 +10315,7 @@ estampes:
       bibliographie:
         uuid: 7508419b-0231-41ee-b160-2a2714345d63
         E13: 1c0cb5ac-af43-4b65-9286-43abb017c3d7
+      identifiant BnF: b4316c29-43a6-4623-a440-dfab558976d1
   1695-02_108:
     E36:
       uuid: 81cc7759-8f13-42e7-9fb9-71ac5ecfcadf
@@ -9946,6 +10359,7 @@ estampes:
         zone de l'image (E36):
           uuid: bcc5e75d-7d21-48dd-8813-86f255bd47bb
           E13: 38e00fc5-7756-41a3-b7d0-deff83dce494
+      identifiant BnF: 226ca115-6ffe-4b68-8ad1-0a92602dfd58
   1695-03_052:
     E36:
       uuid: 3cbc154b-4264-4aaa-b95b-58e885ac33ac
@@ -9981,6 +10395,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7ba3c47a-4cdc-482b-b1bc-57decc9c9882
           E13: 4b52073c-0cda-4fed-9106-ec9d26874c39
+      identifiant BnF: b72b3bf0-32bd-49fc-bb41-2a16d9d3c722
   1695-04_158:
     E36:
       uuid: 8c8b057f-4825-4490-8179-72b6ab8ed51c
@@ -9999,6 +10414,7 @@ estampes:
         zone de l'image (E36):
           uuid: eb4d4ae8-2e08-491b-8f72-b6a434fa7667
           E13: 53572a04-1c2e-49d0-8fef-e28bafcc7095
+      identifiant BnF: 872fbd67-f476-4db3-9924-3b54c94d9478
   1695-05_251:
     E36:
       uuid: d4fcff42-abd9-43c3-a318-c8cfd948fed8
@@ -10024,6 +10440,7 @@ estampes:
         zone de l'image (E36):
           uuid: c01e6e1b-c006-4bc5-a49b-fa6071f207fd
           E13: 943f8ae7-9c3e-41e6-8875-6c0b3d3b63b0
+      identifiant BnF: 7ab5880c-15c9-4617-b667-811f4f47dee8
   1695-06_231:
     E36:
       uuid: dad57ac8-912e-4efb-b674-79b4b32bbcae
@@ -10041,6 +10458,7 @@ estampes:
         zone de l'image (E36):
           uuid: a941dd56-8cb1-40b6-b361-e8ef7cb2641c
           E13: a30106fc-3954-43f0-9c36-cd22026827e9
+      identifiant BnF: 12d5649b-aa4d-473c-848c-5f51fa8a3f35
   1695-07_167:
     E36:
       uuid: 92f45b2d-dd5b-4fff-8761-989bd259407c
@@ -10058,6 +10476,7 @@ estampes:
         zone de l'image (E36):
           uuid: 08ffa693-5add-49cf-9c74-6254d1caa002
           E13: 93c48398-b983-405f-ab46-99b19a3dfa2b
+      identifiant BnF: 678fa07f-9d28-4afd-bf14-a457f8425ae6
   1695-08_202:
     E36:
       uuid: eebe5286-800c-421c-a012-521191fdcd37
@@ -10081,6 +10500,7 @@ estampes:
         zone de l'image (E36):
           uuid: 14d1096d-21a9-4de0-89bd-841760c26372
           E13: b90032f0-bcac-4896-9507-8ab8422822ae
+      identifiant BnF: 793ee187-6eb6-40ca-81c4-85e76d242f81
   1695-09_193:
     E36:
       uuid: 615d6bb4-ddff-4b0b-89fb-5712c2244c5a
@@ -10104,6 +10524,7 @@ estampes:
         zone de l'image (E36):
           uuid: 8e5d1219-25cd-4914-afac-c92530712c32
           E13: 4ebac3f3-020c-4dd0-a358-92d05d171f5b
+      identifiant BnF: 5141ae54-bd1f-49f7-b5e1-196fc088e1e1
   1695-10_064:
     E36:
       uuid: 469cdd57-e129-4bcc-9baa-d3b30baa6be8
@@ -10117,6 +10538,7 @@ estampes:
         zone de l'image (E36):
           uuid: 279d318b-87cf-4a55-b7a3-2ce04ee2c946
           E13: 34b2c762-4873-49a2-ba44-4c3e19bbb95a
+      identifiant BnF: 5359df04-0285-4f18-87b9-59d1ce3b7b95
   1695-11_090:
     E36:
       uuid: bc320e91-f3ba-479c-998e-0c9b9999f715
@@ -10130,6 +10552,7 @@ estampes:
         zone de l'image (E36):
           uuid: 56e18d9d-0a4f-497a-8a23-945629a5e31f
           E13: b95280d1-670c-4087-ab79-b86062b124af
+      identifiant BnF: 2bb7881a-5ee7-4b4c-99d8-4845688f8b23
   1695-12_141:
     E36:
       uuid: 0ba6b66c-b2d1-48c1-a221-4b98caf8845d
@@ -10147,6 +10570,7 @@ estampes:
         zone de l'image (E36):
           uuid: 23f6eed2-3798-49e6-9b82-97a76d488d83
           E13: 1dc6ad9a-5bc1-4184-bf31-5da96312cae5
+      identifiant BnF: acbf5470-9381-4e0c-ac87-d64c3991a9bf
   1696-02_197:
     E36:
       uuid: 2420f9bb-9131-4425-86b2-6e6eb3814355
@@ -10178,6 +10602,7 @@ estampes:
         zone de l'image (E36):
           uuid: 31506f06-b8ff-40e5-be66-d1d5bfffa911
           E13: b50bf13e-e4ce-4a3c-934a-609c0c0ec895
+      identifiant BnF: 9605ce5e-a04c-4835-9aef-a05ecc39f6a8
   1696-03_153:
     E36:
       uuid: 06b17c47-55c7-4ff8-87da-d6ce24be069d
@@ -10201,6 +10626,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9f78f3cb-02e1-4ca7-b438-0f25d4bfea43
           E13: e4bdea8e-4309-4f14-b4e9-f3f1fe0c3ccb
+      identifiant BnF: ea2238e0-0e99-4de9-9b51-3572bbfbbcc7
   1696-05_152:
     E36:
       uuid: b1938c87-cb2c-410c-b598-7e58a68e991e
@@ -10218,6 +10644,7 @@ estampes:
         zone de l'image (E36):
           uuid: 7184213c-6b2e-456a-b89d-0c5121ff9161
           E13: ac3e2bb8-cc27-4dfb-9dc1-46c734fdc973
+      identifiant BnF: 192ae05d-87e9-4456-b133-87c829fa898e
   1696-06_240:
     E36:
       uuid: 1bad5fd0-6492-4496-a336-7242e13d71d0
@@ -10239,6 +10666,7 @@ estampes:
         zone de l'image (E36):
           uuid: 0d51cbc0-e3d9-4208-99a1-94844cd58501
           E13: 6ad47ca3-fe42-44a9-a8e2-96d319600fd3
+      identifiant BnF: f653ba69-9071-477d-b4bd-abedc255aa69
   1696-07_180:
     E36:
       uuid: 519f6368-7249-49e5-bf8b-2ea1d27da7f8
@@ -10263,6 +10691,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9117d39d-cde3-44f3-bb17-ca33c92eaa03
           E13: 8857b641-8e99-4a43-b67f-a81a1c404646
+      identifiant BnF: a2d06f64-8e1a-422a-8cd2-e1cd52674e10
   1696-08_281:
     E36:
       uuid: bca851c8-9b35-4aec-9826-5e3d2f8c59d1
@@ -10294,6 +10723,7 @@ estampes:
         zone de l'image (E36):
           uuid: dabeb02e-2a77-4944-89fd-8b25c2a0ea8e
           E13: a9a328fb-0096-4a88-950d-33007315f084
+      identifiant BnF: 9624677b-9807-494d-a8e5-167010c8080f
   1696-09_185:
     E36:
       uuid: aba6f356-81e7-473b-85a9-2d1c6a4d5b63
@@ -10321,6 +10751,7 @@ estampes:
           E13: 7afd9990-b016-47ca-a0d6-31e7ccc6866c
           lieu représenté: 18752ad6-2b4f-4af7-9864-3dbc06c10a06
       titre péritexte: 7286b898-e442-4b3d-86f5-7779e0caed82
+      identifiant BnF: 17a43470-0458-41de-8c53-8277741d5db6
   1696-10_158:
     E36:
       uuid: f38c3ed6-92cb-46e7-bf9b-94b2330641a6
@@ -10340,6 +10771,7 @@ estampes:
         zone de l'image (E36):
           uuid: ec54f582-513b-498c-b6c3-64d132017363
           E13: f9c3e658-2eb4-4437-af2c-ec5d3ee553d2
+      identifiant BnF: 2091e56a-c0e3-454c-926b-aefaa6277475
   1696-11_279:
     E36:
       uuid: 6726df10-6d49-4193-97df-741417d5fdcf
@@ -10373,6 +10805,7 @@ estampes:
         zone de l'image (E36):
           uuid: 169308b3-50f6-41d7-8489-574be17187bf
           E13: 99d8dd96-37fd-4340-840b-8eadafad1e62
+      identifiant BnF: b87c77d5-e529-450f-829a-c47c6b1f2af4
   1696-12_272:
     E36:
       uuid: 9ef24fcd-1165-4afd-9c3c-aab0cd3bd76e
@@ -10403,6 +10836,7 @@ estampes:
         zone de l'image (E36):
           uuid: a1c61e7e-3b1d-4395-ab0f-0922f57066e4
           E13: 537094c6-5e87-4814-87d2-4e8dda4aca13
+      identifiant BnF: f10225e7-19ee-4ef7-a8ff-f316a8647872
   1697-01_199:
     E36:
       uuid: 1f9c98c8-5088-40d9-b442-e0b35f8b2a42
@@ -10417,6 +10851,7 @@ estampes:
           uuid: b98f2702-25b4-406e-b5b3-1f728ba7ea8e
           E13: 9313066b-177f-4926-b20c-26d3978e5740
       titre sur l'image: 5d0211aa-4745-48ef-b131-2db04ae06526
+      identifiant BnF: 78c17f7f-1e80-4de8-9c0c-a34f6f813ca4
   1697-02_230:
     E36:
       uuid: 9cb87734-9b8f-4c42-b7d9-579ddbd01c34
@@ -10438,6 +10873,7 @@ estampes:
         zone de l'image (E36):
           uuid: be0e46da-f26e-4872-bbce-73b5a73f87e0
           E13: 28c8109e-f6a5-4116-998b-ec3b65eda147
+      identifiant BnF: 4b95efdc-7e50-4083-9612-b28d426becb1
   1697-03_229:
     E36:
       uuid: 3f6c2a24-a2eb-410e-82ab-dad457b89ab0
@@ -10477,6 +10913,7 @@ estampes:
         zone de l'image (E36):
           uuid: 954e6bd0-23dd-4ef3-a466-f6a6acb75369
           E13: d0e3a7ef-29e8-4c2e-b108-ee65c6b905ff
+      identifiant BnF: 224ae0cc-07ba-49c1-b33d-12086e9f127b
   1697-05_163:
     E36:
       uuid: 081493c8-9466-4a10-a7ba-792149fed526
@@ -10499,6 +10936,7 @@ estampes:
         zone de l'image (E36):
           uuid: 39025505-46ad-4b5c-8e13-f403c0f2feb8
           E13: e56752b0-c4c0-46fc-b4ce-a888d90b7838
+      identifiant BnF: d6fe2668-e74b-4349-9295-f71b7d0720c9
   1697-06_249:
     E36:
       uuid: 91c47a76-2873-4648-b40b-471168b431a4
@@ -10526,6 +10964,7 @@ estampes:
           uuid: 3713243f-a61f-48cc-b7b3-dbec2cd11389
           E13: 42cebfbb-30e7-4317-bc38-9f9925f9dac1
           lieu représenté: a315f73a-c12f-4584-9166-67ef896c4f41
+      identifiant BnF: de4ece1b-f765-43d1-beb2-e87edccf1806
   1697-07_275:
     E36:
       uuid: 3571d8e7-53e0-4652-8ed3-b72c56289538
@@ -10552,6 +10991,7 @@ estampes:
           uuid: d132ecb8-0edd-45aa-8018-728a0e758d94
           E13: 2c11e3ba-a53a-48c9-ad07-1800314847e3
           lieu représenté: 6d08da95-09cb-47f6-b746-3c7609fe197f
+      identifiant BnF: 22d7a72e-5617-4d9d-877e-040691536abf
   1697-08_153:
     E36:
       uuid: 3eb404c2-c90e-4670-970e-a96f9fd1519f
@@ -10575,6 +11015,7 @@ estampes:
         zone de l'image (E36):
           uuid: 73c3adab-eae0-406e-a482-62f0baf8ecfa
           E13: 0c91cfe3-fcb2-4a2d-98ff-b8682f084f13
+      identifiant BnF: 90343899-438d-42fb-9061-c5a847d920da
   1697-09_271:
     E36:
       uuid: 52d8b5a7-27ee-4948-a9a4-9ddb2a792655
@@ -10598,6 +11039,7 @@ estampes:
         zone de l'image (E36):
           uuid: 63bec846-7271-45ea-a10d-7597c63daaac
           E13: e47e8f90-ad99-47f9-8a3b-f499f9656377
+      identifiant BnF: b1d8e6e2-40bb-4f3b-a5f9-ab8e77df9c87
   1697-10_208:
     E36:
       uuid: 01942893-17ca-4c05-a099-8611a9ea93fe
@@ -10619,6 +11061,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9592602d-4b7e-4135-a44e-881479957f37
           E13: a3b1b412-05ca-4ce9-ae94-6bd1bebca31b
+      identifiant BnF: afd799b0-7ec6-4996-b664-8daca4a7ba84
   1697-12_090:
     E36:
       uuid: cd786f3f-70bf-4726-a4d3-5e1dbac9029e
@@ -10640,6 +11083,7 @@ estampes:
       : zone de l'image (E36):
           uuid: 6f86cad4-d0d5-4855-bc15-5137988c4402
           E13: 9df25f94-9534-4767-86f9-6fdec6509383
+      identifiant BnF: d0621d75-2414-4cd0-8d10-5f8a77c7b84a
   1698-01_120:
     E36:
       uuid: 73f2181f-250d-4821-b218-6293ee46507d
@@ -10654,6 +11098,7 @@ estampes:
         zone de l'image (E36):
           uuid: cd194799-c432-47bb-99dd-adfbf1e54aea
           E13: ae0ddf69-d876-434f-bd6c-87410a89b2b7
+      identifiant BnF: 53aaa03c-1d97-4027-a5a6-a02e637eb161
   1699-01_177:
     E36:
       uuid: c8fa44b3-fed1-43b3-92eb-801cd90fe96b
@@ -10678,6 +11123,7 @@ estampes:
         zone de l'image (E36):
           uuid: 79f0137c-6370-47e1-b54b-93e70ff00232
           E13: aa970a5e-9b0c-4b3c-b37d-799d25e65fc2
+      identifiant BnF: 37524525-2dd9-4794-a188-fe1009a53686
   1699-10_215:
     E36:
       uuid: 8d1e2640-21d5-4ff5-bc15-e49012b24696
@@ -10694,6 +11140,7 @@ estampes:
         zone de l'image (E36):
           uuid: dab6401c-07f0-4510-bd57-f8fe9a259723
           E13: 05886004-1709-4607-9ff3-3c2198142d54
+      identifiant BnF: 54791aa6-520d-4d51-9160-d746ff3624b2
   1700-01_163:
     E36:
       uuid: c14e0478-dd7d-4557-a441-f8c2fd4bc980
@@ -10714,6 +11161,7 @@ estampes:
         zone de l'image (E36):
           uuid: 0f2764fb-c2bd-46c6-84cf-7d5339dab186
           E13: d4cbed77-7e98-47fb-ab51-abf8a59e5684
+      identifiant BnF: 8aba2438-d930-4ef1-b063-5a04cff5f81b
   1700-02_076:
     E36:
       uuid: 558faed1-0b1e-4db2-aacd-2a2179769d3b
@@ -10741,6 +11189,7 @@ estampes:
         zone de l'image (E36):
           uuid: cc08c76f-4a0e-4c48-a769-91221bec956d
           E13: ddd1fe5d-cb8e-487d-91b8-9dbe32442b48
+      identifiant BnF: 4153b9d3-2649-421f-a21d-478eaffc50db
   1700-03_178:
     E36:
       uuid: 7fc37158-6976-4440-8f58-f928047f2da6
@@ -10762,6 +11211,7 @@ estampes:
           uuid: c416a554-7bce-49b6-ad3b-a7a26f53a048
           E13: 446533cf-4a90-47fc-9e95-66bcd21c18a7
       titre péritexte: b499da1f-a278-4605-8c49-242000b798aa
+      identifiant BnF: 1c36f8ba-32b3-4fe5-a26f-2634a1930a89
   1700-10_144:
     E36:
       uuid: 638939fc-94ef-43fc-b659-a854f46c1cdd
@@ -10776,6 +11226,7 @@ estampes:
         zone de l'image (E36):
           uuid: ba910424-0fa2-452f-9c43-7b446dc0c3b5
           E13: 35731869-2a74-4004-8109-3e750e5cb7df
+      identifiant BnF: f22e7327-7a37-4598-a8d2-909a9810b173
   1701-02_127:
     E36:
       uuid: bbbfe91c-f65d-43e8-83e9-fa1252abcbed
@@ -10795,6 +11246,7 @@ estampes:
           uuid: 83b02689-bbbe-4953-a0c1-491fd95714fa
           E13: 93f96fed-5c20-4342-8fba-c8bf88a7a6b5
       titre sur l'image: f30cda01-2de7-4681-9151-cf414800f84b
+      identifiant BnF: a414ae0f-9613-410a-8dc9-3dd569765f9e
   1701-04b_069:
     E36:
       uuid: a9018f9a-0420-491f-bbb4-508d4a6e380a
@@ -10830,6 +11282,7 @@ estampes:
         zone de l'image (E36):
           uuid: b6928a34-75dc-42c6-8578-58deafbf162d
           E13: 9cbfd716-2c5b-4559-9fb3-d90aa5e7c496
+      identifiant BnF: 90e9350e-3397-417b-8c06-4b6cc7a542eb
   1701-07_316:
     E36:
       uuid: a2093ff1-7ebf-4f15-a0c7-8b0bb1901ff4
@@ -10867,6 +11320,7 @@ estampes:
         zone de l'image (E36):
           uuid: 4fba0815-48a5-4a4c-aa75-07f22c35797f
           E13: d8bc0606-cfb3-4c2a-8a1e-bd7c557e2a09
+      identifiant BnF: bfc40a01-ef27-4baf-9dcd-2ebf4acf2c12
   1702-01_290:
     E36:
       uuid: da9f08ae-7c35-4f7c-91d5-f157062b1d53
@@ -10887,6 +11341,7 @@ estampes:
         zone de l'image (E36):
           uuid: 57bea709-1920-4dcf-a319-3fbc5e426728
           E13: c7e7a18d-a34e-48be-a18b-65326eaeb044
+      identifiant BnF: 87d2cea4-53e9-4590-8551-ea238e1ed48c
   1702-06b_385:
     E36:
       uuid: 6d37a5b5-5d64-4deb-a85d-d5aaea161f61
@@ -10920,6 +11375,7 @@ estampes:
           uuid: 515dea2d-5f45-4d1b-894d-c2a00b4ad207
           E13: b8129859-5463-4441-8fab-adb0501bd52a
           lieu représenté: e0e28d44-a905-43ef-929f-dd1cac687472
+      identifiant BnF: 1508d802-149c-4857-862a-fa3a0bd999ef
   1702-10_086:
     E36:
       uuid: 355b69e7-bb99-460e-85c7-cd22c695149e
@@ -10947,6 +11403,7 @@ estampes:
         zone de l'image (E36):
           uuid: 00b1fae4-549a-4dcf-9584-33893c416e47
           E13: eecff76e-7b71-4e0a-b8cc-fb0dab314c0b
+      identifiant BnF: bd436a52-443e-4882-80cb-c2958f4bef30
   1703-01_141:
     E36:
       uuid: df5a182b-e750-42cd-9243-300fb3d87d9a
@@ -10993,6 +11450,7 @@ estampes:
         zone de l'image (E36):
           uuid: 177a8fc3-7030-4bc5-838c-8dddaa870521
           E13: 290e3282-07bc-4826-9fd9-77fbdce151d5
+      identifiant BnF: ce403887-1c27-4eb8-b1c8-f17d02cd6a05
   1704-01_215:
     E36:
       uuid: 88363fb7-4aae-4c47-9d2a-020a97210aaf
@@ -11013,6 +11471,7 @@ estampes:
         zone de l'image (E36):
           uuid: fb61aae3-def1-4cb3-8220-feff9fdabe6e
           E13: 70594f18-9686-4d41-a99f-b90b0f309a58
+      identifiant BnF: ffbe8b4e-bd02-45a7-baca-77b5918e16b4
   1704-06_177:
     E36:
       uuid: 14531f1d-3f02-4b84-9d80-d914d88b4ff7
@@ -11038,6 +11497,7 @@ estampes:
           E13: abf229eb-116b-491b-a75e-fdf8b9b93890
       lien externe:
         E13: d97c1545-6b20-4c6a-88b0-0da1adeba4ce
+      identifiant BnF: b6aeecb7-9cf5-43a0-a35b-350056f630e5
   1704-07b (Deuxième partie manque dans Gallica):
     E36:
       uuid: b39b4749-a5f1-4987-831a-8dc0cdc43d7f
@@ -11079,6 +11539,7 @@ estampes:
         zone de l'image (E36):
           uuid: 714fc5c6-84b8-4d59-ab37-57c1a41b0fa9
           E13: 9ef0aeb0-120f-4b12-b059-96b97ff12562
+      identifiant BnF: 662073ec-e770-459e-8026-edd60e323369
   1705-01_166:
     E36:
       uuid: 8ded5a00-462b-4fb3-90f5-c22ce07f0d34
@@ -11104,6 +11565,7 @@ estampes:
           E13: 8664b844-8801-4e4f-909b-318c5319ef1f
       lien externe:
         E13: b35448a2-1093-426e-b58c-e0e85b04c9c2
+      identifiant BnF: 130947d4-ac53-4cdc-b6af-08e7ce7e97f5
   1705-03_306:
     E36:
       uuid: 3f6656bf-71df-4a58-9056-df07fb2aa544
@@ -11138,6 +11600,7 @@ estampes:
           uuid: e59ca1e8-028c-4b38-8500-538e4b5d8890
           E13: c5d18b8c-02f7-4270-a13a-03de378864b5
           lieu représenté: b59aa285-5705-4326-87f6-d73d1115d671
+      identifiant BnF: 259ea586-f9b3-4cfc-9c4d-be2fbe52ea85
   1705-12_176  [probable erreur de cote]:
     E36:
       uuid: 86fb84ca-3a83-49f3-a4c6-e25cf58f3400
@@ -11176,6 +11639,7 @@ estampes:
         zone de l'image (E36):
           uuid: 9b5c32aa-f433-49d1-ba4d-066914b4c6c3
           E13: ab3b8250-703a-48ed-8f58-636c6d00dbc9
+      identifiant BnF: 380280c3-221c-46ea-900a-b30a6635e2e8
   1706-03_168:
     E36:
       uuid: 87c1c887-aa29-4f72-b93f-a59ac4f81f4f
@@ -11193,6 +11657,7 @@ estampes:
         zone de l'image (E36):
           uuid: da3442a0-1077-4822-ae24-c11a2872227a
           E13: 1964d5c8-8cd1-40e8-b56b-d7a64eee334e
+      identifiant BnF: 3eec9da4-548c-448c-8dee-63ff2bbc88d2
   1706-11_032:
     E36:
       uuid: c64b9370-7284-4f8b-b2ed-64a2e83e9224
@@ -11226,6 +11691,7 @@ estampes:
         zone de l'image (E36):
           uuid: 735a4656-3ee5-4009-b5ae-aa033a1af080
           E13: 4ad4ebea-0394-4c1b-a6a2-8720502b4c8f
+      identifiant BnF: 20574830-ca4c-4d8d-b290-809fa6d5125c
   1707-01_162:
     E36:
       uuid: d4b0e8cc-3bed-4159-aa31-ce407f3fdbf9
@@ -11255,6 +11721,7 @@ estampes:
         zone de l'image (E36):
           uuid: 53353152-cc1f-4d20-848b-f6b962486911
           E13: 53680e0e-0639-4a6e-9c2e-668fa7600d6f
+      identifiant BnF: 6f3b3f99-56a0-4a66-814c-cdba3def1df3
   1708-01_144:
     E36:
       uuid: 26053412-2422-4d77-8d86-9aadb0cf6f5a
@@ -11275,6 +11742,7 @@ estampes:
           E13: 2356f964-859b-401c-9cd3-3b65788298ca
       gallica:
         E13: b1c2ca99-97de-4896-ba12-e00b2bedb7b0
+      identifiant BnF: 130f09db-7b1b-4909-87c5-1738ccb50238
   1709-01_326:
     E36:
       uuid: a7acd506-d770-4e25-8061-590e76cb624e
@@ -11295,6 +11763,7 @@ estampes:
           E13: efaa7039-b9f2-49e9-a33d-5f313b7f52d0
       gallica:
         E13: 1297d968-c3e3-4bff-864a-508d5e6197ae
+      identifiant BnF: a65b3245-9098-4bee-9e25-11cb833fc9bd
   1709-03_137:
     E36:
       uuid: 58f1555d-98e8-437a-9f4e-dafd405804e5
@@ -11321,6 +11790,7 @@ estampes:
           uuid: 195e07e8-cc72-4ad5-9cfe-652104be2aff
           E13: d78a94a9-7064-41e7-8023-7e890255cf0e
           lieu représenté: fef55b7a-a3f2-451e-81b7-3e23844c5e25
+      identifiant BnF: 36abe9e4-9c56-49fc-b643-0d93e9cf5600
   1710-02_197:
     E36:
       uuid: e7350f70-797a-4134-87c2-1f63e0914000
@@ -11341,6 +11811,7 @@ estampes:
           E13: ca2c20ad-69d7-4373-baf2-11587e5718e5
       gallica:
         E13: f207ccd6-a187-48fc-924d-e446d6aa5b30
+      identifiant BnF: 01c41f42-5fca-4304-b1f5-db31e5eb600c
   1704-07b:
     E36:
       uuid: 57e3b498-dfc2-4d96-a2f4-da0d358db718
@@ -11374,6 +11845,7 @@ estampes:
         zone de l'image (E36):
           uuid: b907333d-b108-4f0f-95b8-25d645604796
           E13: 79a990b4-c200-4965-a437-50da81573b9d
+      identifiant BnF: cf6daa36-c9eb-4433-9495-fea93bd1a90f
 collection:
   1678-01_038:
     E36:

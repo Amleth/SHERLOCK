@@ -123,6 +123,14 @@ def process(data):
             t(gravure_E55_E13, crm("P141_assigned"), gravure_E55)
             t(gravure_E55_E13, crm("P177_assigned_property_type"), crm("P32_used_general_technique"))
 
+    # Identifant BnF
+    if data["Provenance cliché"]:
+        gravure_id_BnF = she(cache.get_uuid(["estampes", id, "E36", "identifiant BnF"], True))
+        t(gravure_id_BnF, a, crm("E42_Identifier"))
+        t(gravure_id_BnF, crm("P2_has_type"), she("15c5867f-f612-4a00-b9f3-17b57e566b8c"))
+        t(gravure_id_BnF, RDFS.label, l(data["Provenance cliché"]))
+        t(gravure, crm("P1_is_identified_by"), gravure_id_BnF)
+
     # Rattachement à la livraison ou à l'article
     ## Si l'article n'est pas précisé:
     if not data["Cote article OBVIL"]:

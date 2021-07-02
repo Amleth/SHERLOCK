@@ -17,7 +17,13 @@
     <20674932-def8-4a73-9b67-ac49a16b5243>,
     <fa4959c8-8537-4ef0-8d58-4f761e9679b1>, 
     <4b51d9dc-3623-47f4-ab45-239604e18930> ;  
+    <15c5867f-f612-4a00-b9f3-17b57e566b8c>
 .
+
+<15c5867f-f612-4a00-b9f3-17b57e566b8c>
+a crm:E55_Type ;
+    crm:P1_is_identified_by "Identifiant BnF"
+    .
 
 <01a07474-f2b9-4afd-bb05-80842ecfb527>
   a crm:E55_Type ;
