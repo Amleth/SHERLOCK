@@ -52,9 +52,11 @@
 .
 
 <08461321-573d-4cfe-a181-6711d6c61d50>
-    a crm:E35_Title ; 
-    rdfs:label "L'Empire de la Poésie"; # Colonne "Titre sur l'image"
-    crm:P2_has_type <01a07474-f2b9-4afd-bb05-80842ecfb527> ;
+    a crm:E13_Attribute_Assignement ; 
+    crm:P140_assigned_attribute_to <bc28304d-8c6c-448f-bb70-85d525b2971c> ;
+    crm:P141_assigned "[Carte de galanterie : l'Empire de la Poésie]*" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type <01a07474-f2b9-4afd-bb05-80842ecfb527> ; # "Titre sur l'image"
     .
 
 # Création de la gravure
