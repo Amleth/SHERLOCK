@@ -1,7 +1,7 @@
 import argparse
 from lxml import etree
 import os
-from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef
+from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef, XSD
 import pathlib
 import re
 import uuid
@@ -115,7 +115,7 @@ for file in os.listdir(args.tei):
         corpus_cache.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F3_E52"], True))
     g.add((livraison_F3_E52, RDF.type, URIRef(crm_ns["E52_Time-Span"])))
     livraison_F3_date = root.xpath('string(//tei:creation/tei:date/@when)', namespaces=tei_ns)
-    g.add((livraison_F3_E52, URIRef(crm_ns["P82b_end_of_the_end"]), Literal(livraison_F3_date)))
+    g.add((livraison_F3_E52, URIRef(crm_ns["P82b_end_of_the_end"]), Literal(livraison_F3_date + "-01T00:00:00", datatype=XSD.datetime)))
     g.add((livraison_F3_F30, URIRef(crm_ns["P4_has_time-span"]), livraison_F3_E52))
 
     # Item
