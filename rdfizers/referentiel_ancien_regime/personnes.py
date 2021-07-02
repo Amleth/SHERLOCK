@@ -177,30 +177,34 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 pass
             else:
                 # S'il s'agit d'une note à propos du E21
-                note_sha1_object = hashlib.sha1(v.encode())
-                note_sha1 = note_sha1_object.hexdigest()
-                E13_note_uri = she(cache_personnes.get_uuid(["personnes", identifier, "note", "E13"], True))
-                t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
-                t(E13_note_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
-                t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-                t(E13_note_uri, crm("P140_assigned_attribute_to"), E21_uri)
-                note_uri = she(cache_personnes.get_uuid(["personnes", identifier, "note", note_sha1], True))
-                t(note_uri, RDFS.label, Literal(v))
-                t(E13_note_uri, crm("P141_assigned"), note_uri)
-                t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
+                t(E21_uri, crm("P3_has_note"), l(v))
+                #
+                # E13_note_uri = she(cache_personnes.get_uuid(["personnes", identifier, "note", "E13"], True))
+                # t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
+                # t(E13_note_uri, DCTERMS.created, ro(opentheso_personne_uri, DCTERMS.created))
+                # t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+                # t(E13_note_uri, crm("P140_assigned_attribute_to"), E21_uri)
+                # note_uri = she(cache_personnes.get_uuid(["personnes", identifier, "note", note_sha1], True))
+                # t(note_uri, RDFS.label, Literal(v))
+                # t(E13_note_uri, crm("P141_assigned"), note_uri)
+                # t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
     for note in [SKOS.editorialNote, SKOS.historyNote, SKOS.note, SKOS.scopeNote]:
         process_note(note)
+
+    definitions = ro_list(opentheso_personne_uri, SKOS.definition)
+    for definition in definitions:
+        t(E21_uri, she_ns("P3_definition"), definition)
 
     exactMatches = ro_list(opentheso_personne_uri, SKOS.exactMatch)
     for exactMatch in exactMatches:
         try:
             if exactMatch == "https://opentheso3.mom.fr/opentheso3/index.xhtml":
                 continue
-            E42 = she(cache_personnes.get_uuid(["personnes", identifier, "E42", exactMatch], True))
-            t(E42, a, crm("E42_Identifier"))
-            t(E42, RDFS.label, u(exactMatch))
-            t(E21_uri, crm("P1_is_identified_by"), E42)
+            E42_uri = she(cache_personnes.get_uuid(["personnes", identifier, "E42", exactMatch], True))
+            t(E42_uri, a, crm("E42_Identifier"))
+            t(E42_uri, RDFS.label, u(exactMatch))
+            t(E21_uri, crm("P1_is_identified_by"), E42_uri)
             # TODO typer le 42 ? (BNF, etc.)
         except:
             print("L'URL " + exactMatch + " n'est pas valide")

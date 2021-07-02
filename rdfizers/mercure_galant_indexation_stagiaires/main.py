@@ -202,7 +202,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     except:
                         print(id_article + ": la personne  " + id_personne + "  est introuvable")
                     else:
-                        E13_personnes = she(cache_stagiaires.get_uuid(["indexations", "personnes", id_personne, "E13", "uuid"], True))
+                        E13_personnes = she(cache_stagiaires.get_uuid(["indexations", "personnes", id_personne, id_article, "E13", "uuid"], True))
                         t(E13_personnes, a, crm("E13_Attribute_Assignement"))
                         t(E13_personnes, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                         t(E13_personnes, crm("P140_assigned_attribute_to"), article)
@@ -217,7 +217,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     except:
                         print(id_article + ": le lieu  " + id_lieu + "  est introuvable")
                     else:
-                        E13_lieux = she(cache_stagiaires.get_uuid(["indexations", "lieux", id_lieu, "E13", "uuid"], True))
+                        E13_lieux = she(cache_stagiaires.get_uuid(["indexations", "lieux", id_lieu, id_article, "E13", "uuid"], True))
                         t(E13_lieux, a, crm("E13_Attribute_Assignement"))
                         t(E13_lieux, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                         t(E13_lieux, crm("P140_assigned_attribute_to"), article)
@@ -232,7 +232,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     except:
                         print(id_article + ": l'institution  " + id_institution + "  est introuvable")
                     else:
-                        E13_institutions = she(cache_stagiaires.get_uuid(["indexations", "institutions", id_institution, "E13", "uuid"], True))
+                        E13_institutions = she(cache_stagiaires.get_uuid(["indexations", "institutions", id_institution, id_article, "E13", "uuid"], True))
                         t(E13_institutions, a, crm("E13_Attribute_Assignement"))
                         t(E13_institutions, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                         t(E13_institutions, crm("P140_assigned_attribute_to"), article)
@@ -247,7 +247,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     except:
                         print(id_article + ": la congrégation  " + id_congrégation + "  est introuvable")
                     else:
-                        E13_congrégations = she(cache_stagiaires.get_uuid(["indexations", "congrégations", id_congrégation, "E13", "uuid"], True))
+                        E13_congrégations = she(cache_stagiaires.get_uuid(["indexations", "congrégations", id_congrégation, id_article, "E13", "uuid"], True))
                         t(E13_congrégations, a, crm("E13_Attribute_Assignement"))
                         t(E13_congrégations, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                         t(E13_congrégations, crm("P140_assigned_attribute_to"), article)
@@ -264,7 +264,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                             erreurs_mots_clés.append(id_mot_clé)
                             print(id_article + ": le mot-clé  " + id_mot_clé + "  est introuvable ou doit être ajouté au thésaurus")
                     else:
-                        E13_mots_clés = she(cache_stagiaires.get_uuid(["indexations", "mots-clés", id_mot_clé, "E13", "uuid"], True))
+                        E13_mots_clés = she(cache_stagiaires.get_uuid(["indexations", "mots-clés", id_mot_clé, id_article, "E13", "uuid"], True))
                         t(E13_mots_clés, a, crm("E13_Attribute_Assignement"))
                         t(E13_mots_clés, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                         t(E13_mots_clés, crm("P140_assigned_attribute_to"), article)
@@ -277,7 +277,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     uuid_oeuvre_citée = she(cache_stagiaires.get_uuid(["indexations", "oeuvre citée", oeuvre_citée, "uuid"], True))
                     t(uuid_oeuvre_citée, a, crm("E71_Human-Made_Thing"))
                     t(uuid_oeuvre_citée, RDFS.label, l(oeuvre_citée))
-                    E13_oeuvre_citée = she(cache_stagiaires.get_uuid(["indexations", "oeuvre citée", oeuvre_citée, "E13", "uuid"], True))
+                    E13_oeuvre_citée = she(cache_stagiaires.get_uuid(["indexations", "oeuvre citée", oeuvre_citée, id_article, "E13", "uuid"], True))
                     t(E13_oeuvre_citée, a, crm("E13_Attribute_Assignement"))
                     t(E13_oeuvre_citée, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                     t(E13_oeuvre_citée, crm("P140_assigned_attribute_to"), article)

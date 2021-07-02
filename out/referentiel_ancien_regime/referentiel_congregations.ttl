@@ -3,6 +3,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix she_ns: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <38a73e3a-1624-4a9a-9f42-cecabb9576d8> a crm:E13_Attribute_Assignement ;
@@ -624,28 +625,33 @@
 
 <001ffd20-0009-4407-a921-4e6acc30de48> a crm:E41_Appellation ;
     rdfs:label "Cisterciens (ordre)"@fr ;
-    crm:P139_has_alternative_form <5a3a585d-987c-4850-a421-5c14ae829614> .
+    crm:P2_has_type skos:prefLabel .
 
 <00898608-10d0-4f60-b689-86ec26567870> a crm:E41_Appellation ;
-    rdfs:label "Congrégation de Saint-Victor"@fr .
+    rdfs:label "Congrégation de Saint-Victor"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <008af023-f1b5-400d-b6d1-851f5edc89ab> a crm:E41_Appellation ;
-    rdfs:label "Carmes déchaussés de Lille"@fr .
+    rdfs:label "Carmes déchaussés de Lille"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <011b3ab8-6f5b-4e48-b59f-9c708443cc56> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Nazaire de Béziers"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Nazaire de Béziers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0126152c-e719-4d90-b4ee-187c8a29bfce> a crm:E42_Identifier ;
     rdfs:label "294619" .
 
 <012ec169-3e8e-41ee-a514-48fb845a017c> a crm:E41_Appellation ;
-    rdfs:label "Théatins de Munich"@fr .
+    rdfs:label "Théatins de Munich"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0135093e-5319-475c-b208-84bac88fb440> a crm:E42_Identifier ;
     rdfs:label "eveque_de_meaux" .
 
 <01f6a47c-5755-49da-b057-0f32e98b0e0e> a crm:E41_Appellation ;
-    rdfs:label "Grands Augustins de Paris"@fr .
+    rdfs:label "Grands Augustins de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <031115b1-67c1-411e-99ac-4fe63a9395a7> a crm:E42_Identifier ;
     rdfs:label "dominicains_de_toulouse" .
@@ -654,55 +660,66 @@
     rdfs:label "mauristes" .
 
 <04506665-e9da-4099-b678-101b01f04e5d> a crm:E41_Appellation ;
-    rdfs:label "Clergé de la collégiale Saint-Michel Castelnaudarry"@fr .
+    rdfs:label "Clergé de la collégiale Saint-Michel Castelnaudarry"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0582bf23-06ec-42be-9db6-7070795c84d5> a crm:E42_Identifier ;
     rdfs:label "294719" .
 
 <05a751b7-834b-46c4-92d9-2da588db371d> a crm:E41_Appellation ;
-    rdfs:label "Clergé de l’église Notre-Dame des Tables de Montpellier"@fr .
+    rdfs:label "Clergé de l’église Notre-Dame des Tables de Montpellier"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <05a89c7d-7393-4d3e-b015-22e36d05b4b8> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_saint-antonin_de_pamiers" .
 
 <05ac5cfb-bac3-42cd-a892-745e63532c78> a crm:E41_Appellation ;
-    rdfs:label "Bénédictines de l'abbaye Saint-Pierre de Lyon"@fr .
+    rdfs:label "Bénédictines de l'abbaye Saint-Pierre de Lyon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <05ce15f7-6745-45e6-a0aa-386fd0e0d18c> a crm:E42_Identifier ;
     rdfs:label "archeveque_d_albi" .
 
 <05d9be9f-453e-4416-a7fd-5142392088c1> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Beauvais"@fr .
+    rdfs:label "Évêque de Beauvais"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <06032c76-8990-4a01-b54a-582bf8d49124> a crm:E41_Appellation ;
-    rdfs:label "Ordre de Notre-Dame-de-la-Merci"@fr .
+    rdfs:label "Ordre de Notre-Dame-de-la-Merci"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <0612fc07-562c-4f84-ae2e-62f493eb41e3> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Die"@fr .
+    rdfs:label "Évêque de Die"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0639ed25-3677-4618-b9e4-4cd68196ac76> a crm:E41_Appellation ;
-    rdfs:label "Carmes (ordre)"@fr .
+    rdfs:label "Carmes (ordre)"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <06420ebf-1535-402e-b697-ecfd2f99bfe2> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_saint-andre_de_bordeaux" .
 
 <064cf991-34a6-494c-92ff-02e8c159ac89> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Bavon de Gand"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Bavon de Gand"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <06544a7e-d2e5-40f2-a97e-a9d59f52e29b> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Terre-Sainte"@fr .
+    rdfs:label "Récollets de Terre-Sainte"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <06d284ab-4d35-4f18-97d9-40e29382ec63> a crm:E42_Identifier ;
     rdfs:label "jesuites_de_vienne" .
 
 <072e3a0d-1d68-452c-a2cc-18e3bfb90deb> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Mayenne"@fr .
+    rdfs:label "Capucins de Mayenne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <07bede18-52e1-429b-b56b-b82e81b99f52> a crm:E42_Identifier ;
     rdfs:label "278054" .
 
 <07fa6e70-bb15-4685-8d07-3bea1c429f62> a crm:E41_Appellation ;
-    rdfs:label "Bénédictins de l'abbaye Saint-Pierre-Saint-Paul d'Hautmont"@fr .
+    rdfs:label "Bénédictins de l'abbaye Saint-Pierre-Saint-Paul d'Hautmont"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0820fd2a-1bdb-4ddc-8433-b5bd0923ba43> a crm:E42_Identifier ;
     rdfs:label "278026" .
@@ -714,7 +731,8 @@
     rdfs:label "theatins_de_paris" .
 
 <08f5ad9a-fec7-4e43-8e3d-c76354fe4637> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de Valenciennes"@fr .
+    rdfs:label "Grands carmes de Valenciennes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <08f63c7a-6b49-486c-a337-308831db6261> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_saint-etienne_de_toulouse" .
@@ -723,28 +741,33 @@
     rdfs:label "benedictins_ordre" .
 
 <092d5e1d-ce44-4dbf-bf5c-1cd94627ad7a> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Blois"@fr .
+    rdfs:label "Évêque de Blois"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <095481a6-f0cb-478f-8e55-4f58b63f5a83> a crm:E42_Identifier ;
     rdfs:label "ordres_hospitaliers" .
 
 <0994dc8c-f903-4866-98e5-7fbb66b95b70> a crm:E41_Appellation ;
-    rdfs:label "Chanoinesses régulières de l’abbaye de Penthemont à Paris"@fr .
+    rdfs:label "Chanoinesses régulières de l’abbaye de Penthemont à Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <09a2b7a3-2718-4a1b-9994-a053138c880a> a crm:E42_Identifier ;
     rdfs:label "dominicains_de_compiegne" .
 
 <09b7aa31-bd2a-407a-89cb-19036caa287e> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de Besançon"@fr .
+    rdfs:label "Grands carmes de Besançon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <09cbd0e8-f676-4ac5-9098-440c8efb7b02> a crm:E41_Appellation ;
-    rdfs:label "Bernardines de l’Abbaye Port-Royal de Paris"@fr .
+    rdfs:label "Bernardines de l’Abbaye Port-Royal de Paris"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <09d464b8-217d-4517-8d07-9d009e83b93c> a crm:E42_Identifier ;
     rdfs:label "benedictines_de_l_abbaye_royale_du_val-de-grace_a_paris" .
 
 <09e7d96c-7155-4fde-9d34-ad92b1c80711> a crm:E41_Appellation ;
-    rdfs:label "Victorins"@fr .
+    rdfs:label "Victorins"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <09f17019-6241-4677-bc32-4a3a2d8a959b> a crm:E42_Identifier ;
     rdfs:label "annonciades_(ordre)" .
@@ -753,62 +776,75 @@
     rdfs:label "trinitaires_de_limoux" .
 
 <0aad47ce-3a6c-494c-b006-262025a0c7d6> a crm:E41_Appellation ;
-    rdfs:label "Mauristes de l'abbaye Saint-Corneille de Compiègne"@fr .
+    rdfs:label "Mauristes de l'abbaye Saint-Corneille de Compiègne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0ab46366-dc2b-4c86-9363-60586f8eddec> a crm:E41_Appellation ;
-    rdfs:label "Bénédictin de la Congrégation de Saint-Maur"@fr .
+    rdfs:label "Bénédictin de la Congrégation de Saint-Maur"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <0acea8ff-03af-4136-b368-3b1892ea6317> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de saint Augustin"@fr ;
-    crm:P139_has_alternative_form <522b3239-3dd6-402b-b7e8-b9497d9e6b70> .
+    crm:P2_has_type skos:prefLabel .
 
 <0aeb25e2-8dd7-4bea-a416-be36731b2662> a crm:E41_Appellation ;
-    rdfs:label "Capucins du faubourg Saint-Jacques de Paris"@fr .
+    rdfs:label "Capucins du faubourg Saint-Jacques de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0bab114f-a8bf-4e47-9a96-dcb715800ac7> a crm:E42_Identifier ;
     rdfs:label "visitandines_de_la_rue_du_bac_a_paris" .
 
 <0bda38c2-141b-48c6-9585-3fc412f0b237> a crm:E41_Appellation ;
-    rdfs:label "Charitains"@fr .
+    rdfs:label "Charitains"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <0c726e6b-9047-4b5f-8961-a56901eaf0c0> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de Saint-Antonin"@fr .
+    rdfs:label "Grands carmes de Saint-Antonin"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0ca89571-fb8a-49b8-8217-b8d5ca3586b0> a crm:E42_Identifier ;
     rdfs:label "294099" .
 
 <0cc62016-7685-4e4a-bb26-8ffc7cb20da1> a crm:E41_Appellation ;
-    rdfs:label "Orden de Calatrava"@fr .
+    rdfs:label "Orden de Calatrava"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <0ce67e12-8e2b-498b-83da-431cc9f45021> a crm:E41_Appellation ;
-    rdfs:label "Mathurins"@fr .
+    rdfs:label "Mathurins"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <0da4396c-66f2-4dbc-af1c-0632ffbb34ff> a crm:E41_Appellation ;
-    rdfs:label "Fontevristes du prieuré de Notre-Dame-du-Relay"@fr .
+    rdfs:label "Fontevristes du prieuré de Notre-Dame-du-Relay"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0e0e1ad7-7314-4586-a80a-d53b56420d52> a crm:E42_Identifier ;
     rdfs:label "feuillants" .
 
 <0e1bab7f-59e7-4f57-915f-a083762dc451> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Notre-Dame-des-Doms d'Avignon"@fr .
+    rdfs:label "Chapitre de la cathédrale Notre-Dame-des-Doms d'Avignon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0e51743e-97e6-4fc3-8b9c-f20e765dc53c> a crm:E41_Appellation ;
-    rdfs:label "Évêché de Dax"@fr .
+    rdfs:label "Évêché de Dax"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0e653c29-25c3-472e-ba51-63e38dc703a7> a crm:E41_Appellation ;
-    rdfs:label "Capucins d'Alençon"@fr .
+    rdfs:label "Capucins d'Alençon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0e6f9d09-88f3-41f6-959f-3f52c79fc221> a crm:E42_Identifier ;
     rdfs:label "carmelites_de_lyon" .
 
 <0e9eb075-55ea-4bba-967a-4c1b39ac5815> a crm:E41_Appellation ;
-    rdfs:label "Bénédictins de La Réole"@fr .
+    rdfs:label "Bénédictins de La Réole"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0ea9914f-865b-4f65-8d2d-466f4c3e41d1> a crm:E42_Identifier ;
     rdfs:label "293789" .
 
 <0ee3ed45-be80-4b18-b2be-8c5679c54b4f> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Gien"@fr .
+    rdfs:label "Cordeliers de Gien"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0eebabe8-925a-48bb-b2a1-0751e6c666bd> a crm:E42_Identifier ;
     rdfs:label "jesuites_de_toulouse" .
@@ -817,18 +853,22 @@
     rdfs:label "293793" .
 
 <0f090bad-1012-41da-9b92-bc326d68d697> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Luçon"@fr .
+    rdfs:label "Évêque de Luçon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0f813f24-e0a8-4ec8-b420-b218c9874edb> a crm:E41_Appellation ;
-    rdfs:label "Clergé de Senlis"@fr .
+    rdfs:label "Clergé de Senlis"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <0ff93c2b-f427-4b02-a2c6-b0fb71833b20> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Toulouse"@fr .
+    rdfs:label "Archevêque de Toulouse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <105f5da3-5584-443b-9d6a-8358331e9758> rdfs:label "L'article du Mercure galant MG-1704-08_18 fait mention de la procession des prêtres de la Mission aux côtés des Capucins qui eut lieu à Rochefort le 20 juillet 1704 lors de la célébration de la naissance du duc de Bretagne."@fr .
 
 <1092193d-f1b5-47f4-8914-6d91e7f9ecde> a crm:E41_Appellation ;
-    rdfs:label "Bénédictins du monastère des Blancs-Manteaux"@fr .
+    rdfs:label "Bénédictins du monastère des Blancs-Manteaux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <109ba2ad-b3e7-4f70-8980-82bfd195ffc3> a crm:E42_Identifier ;
     rdfs:label "276463" .
@@ -843,10 +883,12 @@
     rdfs:label "recollets_de_versailles" .
 
 <123a3e98-236c-4484-ae78-e6ae1cd2654a> a crm:E41_Appellation ;
-    rdfs:label "Cisterciens de l'abbaye Saint-Mesmin de Saint-Pryvé-Saint-Mesmin"@fr .
+    rdfs:label "Cisterciens de l'abbaye Saint-Mesmin de Saint-Pryvé-Saint-Mesmin"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <12a057ed-0009-48a8-88a6-73c7fcff6fae> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Urbain de Troyes"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Urbain de Troyes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <12a837e1-cbbc-42f1-87a6-e69842553ff3> a crm:E42_Identifier ;
     rdfs:label "278074" .
@@ -855,32 +897,38 @@
     rdfs:label "servites_(ordre)" .
 
 <131b4d02-1f15-4b49-b202-7a9462329aa2> a crm:E41_Appellation ;
-    rdfs:label "Dominicains de Nancy"@fr .
+    rdfs:label "Dominicains de Nancy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <137ff55a-a31b-4dcd-8b6d-e61c52a844c0> a crm:E42_Identifier ;
     rdfs:label "294441" .
 
 <1394a40e-147b-4703-9a5c-5d40ed6aeac0> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Notre-Dame de Paris"@fr .
+    rdfs:label "Chapitre de la cathédrale Notre-Dame de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <14318169-8be7-4d91-bda0-33636b471480> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Riez"@fr .
+    rdfs:label "Évêque de Riez"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1444c5aa-2caa-450b-b5cb-911b62d8eb8c> a crm:E41_Appellation ;
     rdfs:label "Cisterciens"@fr ;
-    crm:P139_has_alternative_form <ac719b74-a702-47ec-ae1e-1fd544761ff7> .
+    crm:P2_has_type skos:prefLabel .
 
 <144c209b-dd70-4ba0-9e04-0b57fe9a1b3e> a crm:E41_Appellation ;
-    rdfs:label "Supérieur général des Saints Lieux"@fr .
+    rdfs:label "Supérieur général des Saints Lieux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <14535c4a-8be0-4d9c-bdec-3e9883f41e59> a crm:E42_Identifier ;
     rdfs:label "benedictins_de_nancy" .
 
 <1476134c-603b-4f9b-990d-8147dd0a474d> a crm:E41_Appellation ;
-    rdfs:label "Pères Barnabites"@fr .
+    rdfs:label "Pères Barnabites"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <14dbd6b3-6690-4b7e-8f77-9c2978110d19> a crm:E41_Appellation ;
-    rdfs:label "Servites de Sainte-Marie"@fr .
+    rdfs:label "Servites de Sainte-Marie"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <15ac7a69-4f39-4eca-9fd8-515ae933aa69> a crm:E42_Identifier ;
     rdfs:label "eveque_de_tarbes" .
@@ -904,10 +952,12 @@
     rdfs:label "294077" .
 
 <18c9ab70-d636-4371-a3ab-c527b6763ee3> a crm:E41_Appellation ;
-    rdfs:label "Capucins d'Angers"@fr .
+    rdfs:label "Capucins d'Angers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <18e0e985-f2e4-4b23-86cd-17a697075e37> a crm:E41_Appellation ;
-    rdfs:label "Haudriettes du couvent de Notre-Dame de l'Assomption de Paris"@fr .
+    rdfs:label "Haudriettes du couvent de Notre-Dame de l'Assomption de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <18e72033-1104-4f80-8245-830e5298b503> a crm:E42_Identifier ;
     rdfs:label "grands_carmes_de_la_grande_observance" .
@@ -919,16 +969,19 @@
     rdfs:label "jesuites_de_perigueux" .
 
 <197e6658-505f-4163-b152-eb047c10ccb0> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Barcelone"@fr .
+    rdfs:label "Capucins de Barcelone"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <19be3b30-521b-471e-a667-7ff7d226749e> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Toulouse"@fr .
+    rdfs:label "Jésuites de Toulouse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <19c21631-4a86-4214-a3f8-a52ff65b338f> a crm:E42_Identifier ;
     rdfs:label "archeveque_de_narbonne" .
 
 <19c8cbfd-7be8-4c5e-991a-968f2163b5bb> a crm:E41_Appellation ;
-    rdfs:label "Ordres mendiants"@fr .
+    rdfs:label "Ordres mendiants"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <19ca1a42-3794-406a-a150-80d925c3e31c> a crm:E42_Identifier ;
     rdfs:label "recollets_de_guyenne" .
@@ -937,31 +990,37 @@
     rdfs:label "chapitre_de_la_collegiale_notre-dame-et-saint-martin_de_chateauroux" .
 
 <19dc9eb3-c1be-4378-9a43-162a697434cb> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Notre-Dame de Senlis"@fr .
+    rdfs:label "Chapitre de la cathédrale Notre-Dame de Senlis"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <19f0fc9a-0cee-40ee-8313-a8ab09581351> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Pontoise"@fr .
+    rdfs:label "Cordeliers de Pontoise"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <19f9ea66-2645-4b76-b09a-57f58e8feb81> a crm:E42_Identifier ;
     rdfs:label "dominicains_d_evreux" .
 
 <1a2ba8b4-cb8a-4629-94cf-03ca1c85d66b> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la Cathédrale Saint-Sauveur de Saragosse"@fr .
+    rdfs:label "Chapitre de la Cathédrale Saint-Sauveur de Saragosse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1a330d6a-530a-4341-a9b1-ecd62a867fe7> a crm:E42_Identifier ;
     rdfs:label "eveque_d_orange" .
 
 <1a5760c0-00a7-42a8-9681-1492b377cf85> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de Poitiers"@fr .
+    rdfs:label "Grands carmes de Poitiers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1a748096-afc6-436a-8f01-39a8896bd597> a crm:E41_Appellation ;
-    rdfs:label "Chanoinesse des Onze-Mille Vierges"@fr .
+    rdfs:label "Chanoinesse des Onze-Mille Vierges"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <1a9db7ec-d127-4d5f-808e-82fa8629f029> a crm:E42_Identifier ;
     rdfs:label "prince-eveque_de_strasbourg" .
 
 <1b108b4d-5bc1-464b-865a-b2de9722a570> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Digne"@fr .
+    rdfs:label "Évêque de Digne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1b3b2572-2907-4e04-a968-23a3a66fef36> a crm:E42_Identifier ;
     rdfs:label "carmes_dechausses_de_lille" .
@@ -979,19 +1038,23 @@
     rdfs:label "mercedaires_(ordre)" .
 
 <1c11670f-5642-4f0b-84d9-37dd093704e5> a crm:E41_Appellation ;
-    rdfs:label "Musique de la Chapelle du Pape"@fr .
+    rdfs:label "Musique de la Chapelle du Pape"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1c186a0c-502a-4d00-adbc-b4cc0f5cc8cb> a crm:E41_Appellation ;
-    rdfs:label "Prêtres de la Mission de Marseille"@fr .
+    rdfs:label "Prêtres de la Mission de Marseille"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1c5124e9-54d8-4aac-8675-b1d76a88c5e3> a crm:E42_Identifier ;
     rdfs:label "eveque_de_chalons-sur-marne" .
 
 <1ca1ccf4-9220-41f3-8c93-8b3683c2cc64> a crm:E41_Appellation ;
-    rdfs:label "Oratoriens de Montpellier"@fr .
+    rdfs:label "Oratoriens de Montpellier"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1cc80bec-5514-4e03-be8e-9ef63ac8fc06> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Quimper"@fr .
+    rdfs:label "Jésuites de Quimper"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1cd748b7-a222-4b9e-8417-568ca95294f2> a crm:E42_Identifier ;
     rdfs:label "294515" .
@@ -1000,44 +1063,50 @@
     rdfs:label "294629" .
 
 <1d4ac444-bada-4702-8639-e1e2d9d49dd5> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Rennes"@fr .
+    rdfs:label "Évêque de Rennes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1df9eff8-5648-4e3f-9797-3d72f9ad8ded> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Notre-Dame de Saint-Bertrand"@fr .
+    rdfs:label "Chapitre de la cathédrale Notre-Dame de Saint-Bertrand"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1e0ee6af-09db-4f5e-9bd0-f897e230ddcd> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Cyr-et-Sainte-Julitte de Nevers"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Cyr-et-Sainte-Julitte de Nevers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1e2eab34-6fc3-4a72-9961-56534761ca31> a crm:E42_Identifier ;
     rdfs:label "clerge_de_la_cathedrale_saint-louis_de_la_rochelle" .
 
 <1eab4e0a-0d73-4e78-9a53-1f502154f8fb> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de la maison royale de Sainte-Croix-de-la-Bretonnerie"@fr ;
-    crm:P139_has_alternative_form <6d6e5d49-f641-45ff-9406-1056fd0079ff>,
-        <ba4567d6-a051-4f20-8d63-153dd8d9284b> .
+    crm:P2_has_type skos:prefLabel .
 
 <1ec8516f-6c14-40d7-bcde-b7e5a6a62a60> a crm:E41_Appellation ;
-    rdfs:label "Visitandines de Compiègne"@fr .
+    rdfs:label "Visitandines de Compiègne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1edf6141-da37-4384-8af4-3b6da6d5ecbf> a crm:E42_Identifier ;
     rdfs:label "eveque_de_metz" .
 
 <1f0ad6f1-98ab-4310-81d4-df43065dee39> a crm:E41_Appellation ;
-    rdfs:label "Dominicains du grand couvent de Paris"@fr .
+    rdfs:label "Dominicains du grand couvent de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <1ff29b40-9b3b-43b4-a4d5-70e578f3555a> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Valence"@fr .
+    rdfs:label "Évêque de Valence"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <201167f3-468e-4a5c-83ff-8fa8fc3e1fa5> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Compiègne"@fr .
+    rdfs:label "Cordeliers de Compiègne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <2055c1c1-e644-4767-af52-83fc2e9684f2> a crm:E41_Appellation ;
-    rdfs:label "Oratoriens de Vendosme"@fr .
+    rdfs:label "Oratoriens de Vendosme"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <206af21c-9df7-460b-b7f2-4b78c67b3d12> a crm:E41_Appellation ;
     rdfs:label "Doctrinaires"@fr ;
-    crm:P139_has_alternative_form <22b07d67-3483-4f15-8c44-2b831e21668b>,
-        <77d8d5d9-af80-4aef-93e3-7714cd7657f8> .
+    crm:P2_has_type skos:prefLabel .
 
 <2077dda3-6656-421d-8e98-1329dcc9ee25> a crm:E42_Identifier ;
     rdfs:label "277874" .
@@ -1046,10 +1115,12 @@
     rdfs:label "compagnie_de_marie_notre-dame_de_richelieu" .
 
 <2097a995-09c7-4a95-b146-004bcf23e1c9> a crm:E41_Appellation ;
-    rdfs:label "Oratoriens de Toulouse"@fr .
+    rdfs:label "Oratoriens de Toulouse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <20a93a8d-2f8a-4552-b459-c2051698676a> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Chaumont-en-Vexin"@fr .
+    rdfs:label "Récollets de Chaumont-en-Vexin"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <20d21bf5-4ab2-4e48-b4d1-be62391ca376> a crm:E42_Identifier ;
     rdfs:label "278129" .
@@ -1064,19 +1135,23 @@
     rdfs:label "eveque_de_lisieux" .
 
 <216d1f84-cb12-4019-9961-9842c865fc95> a crm:E41_Appellation ;
-    rdfs:label "Bénédictines de l’abbaye Notre-Dame-du-Nid-au-Merle"@fr .
+    rdfs:label "Bénédictines de l’abbaye Notre-Dame-du-Nid-au-Merle"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <21af99bd-6477-468e-a822-18ff25de011b> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale de Tours"@fr .
+    rdfs:label "Chapitre de la cathédrale de Tours"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <21d9e342-f6a9-42c6-a5a7-cb41beb91542> a crm:E42_Identifier ;
     rdfs:label "278126" .
 
 <22035850-3772-433f-a740-7cf1262f8e03> a crm:E41_Appellation ;
-    rdfs:label "Frères prêcheurs"@fr .
+    rdfs:label "Frères prêcheurs"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <22b07d67-3483-4f15-8c44-2b831e21668b> a crm:E41_Appellation ;
-    rdfs:label "Congrégation de la Doctrine chrétienne"@fr .
+    rdfs:label "Congrégation de la Doctrine chrétienne"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <22eed59d-e43e-44b9-95be-132dca849ad7> a crm:E42_Identifier ;
     rdfs:label "jesuite" .
@@ -1088,10 +1163,12 @@
     rdfs:label "jesuites_de_brest" .
 
 <2344303d-1e6d-439b-b6b4-fe06ac0b4e3d> a crm:E41_Appellation ;
-    rdfs:label "Bénédictins"@fr .
+    rdfs:label "Bénédictins"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <23520c3f-a9ce-4137-81ec-703684d319af> a crm:E41_Appellation ;
-    rdfs:label "Messieurs de Sainte-Geneviève"@fr .
+    rdfs:label "Messieurs de Sainte-Geneviève"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <237fa066-cb43-4337-8ac7-6e48fa422cac> a crm:E42_Identifier ;
     rdfs:label "capucins_de_constantinople" .
@@ -1103,10 +1180,12 @@
     rdfs:label "clerge_de_belley" .
 
 <2414770c-85e3-428f-b80d-3d09d2c8a735> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Saint-Antonin"@fr .
+    rdfs:label "Capucins de Saint-Antonin"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <241a7fec-2e82-4a19-a1fd-2e8099703ac9> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Reims"@fr .
+    rdfs:label "Archevêque de Reims"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <24332654-bba0-4939-9144-2a28ad2b7469> a crm:E42_Identifier ;
     rdfs:label "278130" .
@@ -1115,16 +1194,19 @@
     rdfs:label "eveque_de_valence" .
 
 <252f2bc2-7ddc-4954-8d92-114d9fbae3c0> a crm:E41_Appellation ;
-    rdfs:label "Dominicains de Poitiers"@fr .
+    rdfs:label "Dominicains de Poitiers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <25432384-26b4-498f-8f04-789c0dcde62b> a crm:E41_Appellation ;
-    rdfs:label "Bénédictines de l'abbaye royale du Val-de-Grâce à Paris"@fr .
+    rdfs:label "Bénédictines de l'abbaye royale du Val-de-Grâce à Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <25552fd9-3f7d-4ffc-84d6-4da4e6e49662> a crm:E42_Identifier ;
     rdfs:label "tiercelins" .
 
 <259241d7-65c2-4ad3-9e27-0a0516a5e06b> a crm:E41_Appellation ;
-    rdfs:label "Évêque d'Angoulême"@fr .
+    rdfs:label "Évêque d'Angoulême"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <25b90da3-af88-493e-bdfa-347c12eb4af0> rdfs:label "Sur l’implantation des Jésuites aux Antilles et plus précisément en Martinique , voir l’article de Philippe Peyronnin, P. (2000). Contours d’une pastorale ultramarine : les missionnairesjésuites dans les sociétés d’habitation des Antilles et Guyane françaisesaux xviie et xviiie siècles. Bulletin de la Société d'Histoire de la Guadeloupe,(126), p. 25–28, <a href= https://www.erudit.org/fr/revues/bshg/2000-n126-bshg03401/1043185ar.pdf  rel= noopener noreferrer  target= _blank >https://www.erudit.org/fr/revues/bshg/2000-n126-bshg03401/1043185ar.pdf</a>"@fr .
 
@@ -1135,22 +1217,26 @@
     rdfs:label "293943" .
 
 <260b2a8b-77a0-4978-9c45-516522615f2b> a crm:E41_Appellation ;
-    rdfs:label "Chanoinesses régulières du prieuré Saint-Michel de Crespy"@fr .
+    rdfs:label "Chanoinesses régulières du prieuré Saint-Michel de Crespy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <262798a0-4240-4995-8b5a-73f4ef1381e2> a crm:E42_Identifier ;
     rdfs:label "recollets_de_jarnac" .
 
 <26849c13-6075-4932-a124-6c149f06206f> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Romans"@fr .
+    rdfs:label "Cordeliers de Romans"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <268b7f9e-4e18-4d9d-9d27-73e5292f02e3> a crm:E41_Appellation ;
-    rdfs:label "Ordre de la Visitation Sainte Marie"@fr .
+    rdfs:label "Ordre de la Visitation Sainte Marie"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <269b866d-bde0-4f72-98d4-08593f996f44> a crm:E42_Identifier ;
     rdfs:label "cordeliers_de_libourne" .
 
 <26b52791-b4e1-445b-8ce7-93f6903e72b1> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Lille"@fr .
+    rdfs:label "Jésuites de Lille"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <26b850c3-ac50-494a-af50-4b8f73077fb3> a crm:E42_Identifier ;
     rdfs:label "278073" .
@@ -1159,13 +1245,15 @@
     rdfs:label "grands_carmes_du_grand_couvent_de_paris" .
 
 <272e15ce-1ea1-4c59-b15d-a010fafde4b4> a crm:E41_Appellation ;
-    rdfs:label "Bernardines"@fr .
+    rdfs:label "Bernardines"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <2780635f-90bd-47ca-a00f-e01ad0421999> a crm:E42_Identifier ;
     rdfs:label "carmes_(ordre)" .
 
 <27c83558-f1bd-4caf-962e-c923a2d5d9f8> a crm:E41_Appellation ;
-    rdfs:label "Théatins"@fr .
+    rdfs:label "Théatins"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <27dcf7f0-6b64-4616-8b3f-64497da410ec> a crm:E42_Identifier ;
     rdfs:label "congregations_feminines" .
@@ -1177,61 +1265,75 @@
     rdfs:label "eveque_de_toulon" .
 
 <28344cfa-648e-40dd-b5a4-8a20ced3e62e> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Étienne de Bourges"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Étienne de Bourges"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <2861a7c3-a7a3-475a-8a51-337403a609c4> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Grasse"@fr .
+    rdfs:label "Capucins de Grasse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <287a0190-71f4-4f32-bf03-6c89d063cb18> a crm:E42_Identifier ;
     rdfs:label "295023" .
 
 <28a5ba69-e305-4b8d-9f6c-0269e6d17bb5> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Vincent de Mâcon"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Vincent de Mâcon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <28b6c3ff-1200-493c-a4e2-e1ca2c320e4a> a crm:E41_Appellation ;
-    rdfs:label "Évêque d'Orange"@fr .
+    rdfs:label "Évêque d'Orange"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <28c5f0d0-047e-4ee3-a3f6-38c404fb5288> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Saintes"@fr .
+    rdfs:label "Évêque de Saintes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <296113ef-8194-45fd-a4c6-b7fed7fac135> a crm:E42_Identifier ;
     rdfs:label "cordeliers_de_paris" .
 
 <296b3c90-3683-43a5-8957-c10df9b40629> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Lombez"@fr .
+    rdfs:label "Évêque de Lombez"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <296d4552-69cb-438b-8344-378d4ed8208b> a crm:E42_Identifier ;
     rdfs:label "eveque_de_lectour" .
 
 <29c8a3b5-adc9-46d7-b5ca-956398f25087> a crm:E41_Appellation ;
-    rdfs:label "Congrégation de Paris"@fr .
+    rdfs:label "Congrégation de Paris"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <2a24f50e-cf36-42b4-8753-c93c51867b00> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Rome"@fr .
+    rdfs:label "Jésuites de Rome"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <2a434d0d-6b4b-4ad5-9867-d446c7171357> a crm:E41_Appellation ;
-    rdfs:label "Capucins de la rue Saint-Honoré de Paris"@fr .
+    rdfs:label "Capucins de la rue Saint-Honoré de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <2a927d1b-1256-4fcd-ac3a-055679677e9c> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré Saint-Louis-Sainte-Catherine"@fr .
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré Saint-Louis-Sainte-Catherine"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <2ad44521-6c99-48c3-85fb-a39d23063ad3> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Meaux"@fr .
+    rdfs:label "Évêque de Meaux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <2ae79aa4-89db-40e7-8691-5d435f6dd8be> a crm:E42_Identifier ;
     rdfs:label "294085" .
 
 <2b84447d-1a2b-402b-b844-7fae610a9f97> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Saint-Martin de Plaimpied"@fr .
+    rdfs:label "Chanoines réguliers de Saint-Martin de Plaimpied"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <2b910cac-4ec0-4d59-91b7-bcaf36c44473> a crm:E41_Appellation ;
-    rdfs:label "Dominicains de Caen"@fr .
+    rdfs:label "Dominicains de Caen"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <2c45c0ab-ea8b-4be4-9142-6eea6927820f> a crm:E42_Identifier ;
     rdfs:label "archeveque_de_bourges" .
 
 <2c502141-4882-466a-8887-5820cbf5ad29> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Sauveur d'Aix-en-Provence"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Sauveur d'Aix-en-Provence"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <2c6c416a-737a-4859-aef8-c75545ae1a0a> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_sainte-cecile_d_albi" .
@@ -1240,7 +1342,8 @@
     rdfs:label "cisterciens_de_l_abbaye_saint-mesmin_de_saint-pryve-saint-mesmin" .
 
 <2da8c774-c42c-4316-9aee-64f4b37dcf96> a crm:E41_Appellation ;
-    rdfs:label "Minimes (ordre)"@fr .
+    rdfs:label "Minimes (ordre)"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <2de5e2b5-0fe6-4b28-a452-dfb6b6914cf6> a crm:E42_Identifier ;
     rdfs:label "oratoriens_de_paris" .
@@ -1249,13 +1352,15 @@
     rdfs:label "feuillants_du_monastere_de_chatillon-sur-seine" .
 
 <2e80c945-9c51-46c4-b04d-5ad56ae9878a> a crm:E41_Appellation ;
-    rdfs:label "Bénédictines de l'abbaye Sainte-Croix de Poitiers"@fr .
+    rdfs:label "Bénédictines de l'abbaye Sainte-Croix de Poitiers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <2e934d07-e906-40c8-ad82-046f56030b6b> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_saint-etienne_de_chalons-en-champagne" .
 
 <2e9b8b4b-b22e-4c3e-a5ed-9918119ed2f4> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Sainte-Geneviève de l’Église paroissiale de Saint-Antonin"@fr .
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève de l’Église paroissiale de Saint-Antonin"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <2ec0a6db-4051-4531-a5c6-8f15a2ac13a3> a crm:E42_Identifier ;
     rdfs:label "grands_carmes_du_couvent_de_saint-martin_de_rome" .
@@ -1265,16 +1370,18 @@
 
 <2f0a36f9-566d-4a3c-8270-386c2766367e> a crm:E41_Appellation ;
     rdfs:label "Servites (ordre)"@fr ;
-    crm:P139_has_alternative_form <14dbd6b3-6690-4b7e-8f77-9c2978110d19> .
+    crm:P2_has_type skos:prefLabel .
 
 <2f714c6d-752b-4368-86f1-e9cf94baf3b4> a crm:E41_Appellation ;
-    rdfs:label "Orden de Santiago"@fr .
+    rdfs:label "Orden de Santiago"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <2fea004d-d09c-4e3f-9c4e-397eae2e0400> a crm:E42_Identifier ;
     rdfs:label "eveque_d_orleans" .
 
 <30272da4-4d3c-47d0-9577-eaf1848b9a7e> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Fort-Royal de la Martinique"@fr .
+    rdfs:label "Capucins de Fort-Royal de la Martinique"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <306c47d1-1a27-486e-b79a-48ac985dfb50> a crm:E42_Identifier ;
     rdfs:label "278128" .
@@ -1283,7 +1390,8 @@
     rdfs:label "chapitre_de_la_cathedrale_notre-dame_de_rouen" .
 
 <307bda89-4c4a-4e77-97e9-b7e8d6b1b35e> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Bayeux"@fr .
+    rdfs:label "Évêque de Bayeux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <307fa30c-7f0e-4aa2-89f7-3c8b710b8258> a crm:E42_Identifier ;
     rdfs:label "chanoines_reguliers_de_saint-ruf" .
@@ -1295,13 +1403,15 @@
     rdfs:label "eveque_du_mans" .
 
 <30c0bd87-3dc6-408d-9bd8-5c7ca31f8fa3> a crm:E41_Appellation ;
-    rdfs:label "Bénédictins de l'abbaye de Saint-Sever"@fr .
+    rdfs:label "Bénédictins de l'abbaye de Saint-Sever"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <311df9c3-b55f-4a46-9c77-83abe17223e8> a crm:E42_Identifier ;
     rdfs:label "293795" .
 
 <312e1be8-85de-4a17-89f3-eb6891982383> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Outrille de Bourges"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Outrille de Bourges"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <313311f5-9ca3-4458-a5a5-021c7451a2ed> a crm:E42_Identifier ;
     rdfs:label "ursulines_de_chatillon-sur-seine" .
@@ -1319,7 +1429,8 @@
     rdfs:label "mauristes_de_l_abbaye_de_saint-germain-des-pres" .
 
 <3223fa00-51b6-4dbf-96a5-de7eb2c72275> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Pierre de Mâcon"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Pierre de Mâcon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <327d4dbe-af19-4f98-a92c-1723b2d7631c> a crm:E42_Identifier ;
     rdfs:label "eveque_de_sarlat" .
@@ -1343,7 +1454,8 @@
     rdfs:label "carmes_dechausses_de_riom" .
 
 <337d3dfb-914f-4ccc-949d-1cd887cb79d3> a crm:E41_Appellation ;
-    rdfs:label "Divers"@fr .
+    rdfs:label "Divers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <33a36a3b-e153-4667-a5f2-28a263c4d155> a crm:E42_Identifier ;
     rdfs:label "277992" .
@@ -1352,7 +1464,8 @@
     rdfs:label "eveque_de_treguier" .
 
 <342b0175-9b28-4df7-a69b-36e779b2d170> a crm:E41_Appellation ;
-    rdfs:label "Ordre de Saint-Jacques"@fr .
+    rdfs:label "Ordre de Saint-Jacques"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <3440a0ec-f15c-408c-8609-fcf278549ac0> a crm:E42_Identifier ;
     rdfs:label "capucins_de_vernon" .
@@ -1361,94 +1474,109 @@
     rdfs:label "eveque_de_frejus" .
 
 <34606f81-f595-4762-b607-c037f4657937> a crm:E41_Appellation ;
-    rdfs:label "Frères de la Charité de Niort"@fr .
+    rdfs:label "Frères de la Charité de Niort"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <347c4bc1-e19f-41cb-9a1e-dfa08f149385> a crm:E42_Identifier ;
     rdfs:label "eveque_de_mende" .
 
 <34a0301b-2a17-40ed-88b1-4a402bd99bfd> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Clermont [Auvergne]"@fr .
+    rdfs:label "Évêque de Clermont [Auvergne]"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <34b23af5-7974-4e37-bde7-b31951279730> a crm:E42_Identifier ;
     rdfs:label "grands_augustins_de_marseille" .
 
 <34b4b1c5-6e31-4fec-a926-81c01217d1a2> a crm:E41_Appellation ;
-    rdfs:label "Récollets de La Côte-Saint-André"@fr .
+    rdfs:label "Récollets de La Côte-Saint-André"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <34e9a22b-a835-452c-92a6-69a8cd05097e> a crm:E42_Identifier ;
     rdfs:label "augustins_dechausses_de_marseille" .
 
 <353230ad-4600-4549-b79f-309d51c0bb87> a crm:E41_Appellation ;
-    rdfs:label "Oratoriens d'Angers"@fr .
+    rdfs:label "Oratoriens d'Angers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <3621e4c9-a765-4d10-9703-6739947b8230> a crm:E41_Appellation ;
-    rdfs:label "Oratoriens de Pésenas"@fr .
+    rdfs:label "Oratoriens de Pésenas"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <3625ec4f-8194-4db9-a0f6-5f6d98cbc9d6> a crm:E42_Identifier ;
     rdfs:label "grands_carmes_du_couvent_des_billettes_a_paris" .
 
 <3633156e-82a4-4ae7-b1c1-9abcb6244a23> a crm:E41_Appellation ;
-    rdfs:label "Père prieur de l'abbaye Saint-Corneille de Compiègne"@fr .
+    rdfs:label "Père prieur de l'abbaye Saint-Corneille de Compiègne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <369116bf-d0d9-435f-911f-7f8b245571cf> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de Rome"@fr .
+    rdfs:label "Grands carmes de Rome"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <36c8e6ef-2682-4c1e-baf3-3e380f9dfb43> a crm:E41_Appellation ;
-    rdfs:label "Jacobins de Beauvais"@fr .
+    rdfs:label "Jacobins de Beauvais"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <36d1b1b2-8f31-4d59-b66a-5bd486c1af90> a crm:E41_Appellation ;
-    rdfs:label "Compagnie de Jésus"@fr .
+    rdfs:label "Compagnie de Jésus"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <36f2dca3-9264-4518-bd9f-36841772acaa> a crm:E41_Appellation ;
-    rdfs:label "Compagnie de la Rote"@fr .
+    rdfs:label "Compagnie de la Rote"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <37033050-ae50-410d-84e1-45178b7f60cb> a crm:E41_Appellation ;
     rdfs:label "Prêtres de la Mission"@fr ;
-    crm:P139_has_alternative_form <4e2f61e5-5e28-4f86-8416-480931eea5c3>,
-        <6e19a1b5-7cba-468b-b9af-0d1ca806d5b6>,
-        <db1cc401-bc67-4979-9102-ddb601bcd341>,
-        <f3156faf-5be5-42cb-8fae-fde14faf3434> .
+    crm:P2_has_type skos:prefLabel .
 
 <37352847-a6df-4608-a9cc-6aa504e1fb67> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Lyon"@fr .
+    rdfs:label "Jésuites de Lyon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <374c1105-8bc5-4937-9cc4-7d6965331952> a crm:E42_Identifier ;
     rdfs:label "294291" .
 
 <37593766-ecc9-41b2-914b-343094a62efb> a crm:E41_Appellation ;
-    rdfs:label "Receveur de l'ordre de Malte (fl. 1706)"@fr .
+    rdfs:label "Receveur de l'ordre de Malte (fl. 1706)"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <376595bd-071d-4b4a-ae3c-0a19298cc750> a crm:E42_Identifier ;
     rdfs:label "theatins_de_munich" .
 
 <377434e2-ba2c-40c7-9025-69d0e7fe9ab0> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Luxembourg"@fr .
+    rdfs:label "Jésuites de Luxembourg"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <37846897-2d94-47f8-a606-eadb6e0cfede> a crm:E41_Appellation ;
     rdfs:label "Barnabites"@fr ;
-    crm:P139_has_alternative_form <1476134c-603b-4f9b-990d-8147dd0a474d>,
-        <8ffba4b9-e7cc-443d-b349-4fbbe9637de2> .
+    crm:P2_has_type skos:prefLabel .
 
 <378ee501-7e9b-49f3-963a-382161d91c62> a crm:E41_Appellation ;
-    rdfs:label "Augustins déchaussés de Marseille"@fr .
+    rdfs:label "Augustins déchaussés de Marseille"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <38137ade-86e4-48f6-bec4-e4e77c9b9522> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Châteauroux"@fr .
+    rdfs:label "Cordeliers de Châteauroux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <38adcc46-78c8-4639-a222-2825ee51485a> a crm:E42_Identifier ;
     rdfs:label "eveque_de_montpellier" .
 
 <390e4bee-ba94-41f6-90e2-1398e7178cea> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Sainte-Cécile d'Albi"@fr .
+    rdfs:label "Chapitre de la cathédrale Sainte-Cécile d'Albi"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <3959d2ca-ab42-41a2-bc17-d4a173ce9544> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Sernin de Toulouse"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Sernin de Toulouse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <3982999c-1b92-4f75-a51b-13d8846cf3cb> a crm:E41_Appellation ;
-    rdfs:label "Frères de la Charité de Fort-Royal"@fr .
+    rdfs:label "Frères de la Charité de Fort-Royal"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <39f39da1-6b36-42f6-91c9-c4ec5b3b06eb> a crm:E41_Appellation ;
-    rdfs:label "Cisterciennes de l’abbaye de Sainte-Hoïlde"@fr .
+    rdfs:label "Cisterciennes de l’abbaye de Sainte-Hoïlde"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <3a241f1c-a112-4e02-8a36-5968de94e7dc> a crm:E42_Identifier ;
     rdfs:label "grand_augustin" .
@@ -1457,7 +1585,8 @@
     rdfs:label "chapitre_de_la_cathedrale_notre-dame_de_strasbourg" .
 
 <3a89f2ee-a03e-4d1b-9c16-fdd9dce0be5d> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Montpellier"@fr .
+    rdfs:label "Évêque de Montpellier"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <3a9479f1-56e7-49a6-b52c-e92333012a3b> a crm:E42_Identifier ;
     rdfs:label "294535" .
@@ -1466,10 +1595,12 @@
     rdfs:label "recollets_de_la_cote-saint-andre" .
 
 <3c2a9afb-bbd2-442c-bcd4-cf8f760a095b> a crm:E41_Appellation ;
-    rdfs:label "Tertiaires réguliers de Saint-François"@fr .
+    rdfs:label "Tertiaires réguliers de Saint-François"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <3c993022-be99-4274-8328-e9256abf707d> a crm:E41_Appellation ;
-    rdfs:label "Chanoinesses régulières du couvent Saint-Sauveur de Perpignan"@fr .
+    rdfs:label "Chanoinesses régulières du couvent Saint-Sauveur de Perpignan"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <3c997572-6730-4024-9985-94c6746f1e0d> a crm:E42_Identifier ;
     rdfs:label "295109" .
@@ -1478,10 +1609,12 @@
     rdfs:label "celestins" .
 
 <3d18fc4b-cf16-46bd-928a-eeee8205cd89> a crm:E41_Appellation ;
-    rdfs:label "Cisterciens de l'abbaye Notre-Dame-de-Vauluisant"@fr .
+    rdfs:label "Cisterciens de l'abbaye Notre-Dame-de-Vauluisant"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <3d74a4f5-73d2-4ff8-ae5a-c5cb9cec580d> a crm:E41_Appellation ;
-    rdfs:label "Bénédictines du monastère de Montdenis-de-la-Crèche"@fr .
+    rdfs:label "Bénédictines du monastère de Montdenis-de-la-Crèche"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <3d8a46fe-cbd3-4df1-a505-b9ee1b14babb> a crm:E42_Identifier ;
     rdfs:label "capucins_de_nancy" .
@@ -1493,7 +1626,8 @@
     rdfs:label "276460" .
 
 <3da3cfc9-f09b-420f-9c97-c7cdfc6b09fb> a crm:E41_Appellation ;
-    rdfs:label "Mauristes de l'abbaye Saint-Pierre-et-Saint-Paul de Saint-Wandrille"@fr .
+    rdfs:label "Mauristes de l'abbaye Saint-Pierre-et-Saint-Paul de Saint-Wandrille"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <3dd05e36-bc75-43dc-992e-c67e1beedcae> a crm:E42_Identifier ;
     rdfs:label "archeveque_de_toulouse" .
@@ -1511,14 +1645,16 @@
     rdfs:label "peres_de_la_mission_d_alencon" .
 
 <3faf5081-31ab-43d2-9d04-5095e25db7b9> a crm:E41_Appellation ;
-    rdfs:label "Grands Augustins de Bordeaux"@fr .
+    rdfs:label "Grands Augustins de Bordeaux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <3fe43297-4b83-4542-b207-c1dd12ae7037> a crm:E41_Appellation ;
     rdfs:label "Oratoriens"@fr ;
-    crm:P139_has_alternative_form <f83617af-46de-426e-bba6-deeaeff29135> .
+    crm:P2_has_type skos:prefLabel .
 
 <4014fa4e-1a72-4605-939e-b61f75b7cd36> a crm:E41_Appellation ;
-    rdfs:label "Évêque d'Orleans"@fr .
+    rdfs:label "Évêque d'Orleans"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <402256ed-4b85-4ae9-a157-ec4b247b80f0> a crm:E42_Identifier ;
     rdfs:label "294781" .
@@ -1529,13 +1665,15 @@
 <4035be18-e38f-41b0-8c7d-c5679b3d05f9> rdfs:label "Le couvent de capucins dit&amp;nbsp;-Real Convento de la Paciencia de Cristo, dit “de la Paciencia”- a été fondé par Philipe IV à Madrid en 1639. (cf. http://www.madridhistorico.com/seccion5_historia/nivel2_informacion.php?idmapa=9&amp;idinformacion=115&amp;pag=1 consulté le 10 janvier 2021)"@fr .
 
 <4051deac-aa21-4beb-a5ef-4ccde03ff705> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale d’Auch"@fr .
+    rdfs:label "Chapitre de la cathédrale d’Auch"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <406f88ab-4f1a-44e2-aada-064992ecea38> a crm:E42_Identifier ;
     rdfs:label "294657" .
 
 <40a613bc-dc5a-4a45-84eb-29412f9cfae7> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Aignan d’Orléans"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Aignan d’Orléans"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <40b470d8-cd4e-4150-9c18-73d19c27f63f> a crm:E42_Identifier ;
     rdfs:label "eveque_d_alet" .
@@ -1544,10 +1682,12 @@
     rdfs:label "visitandines_d_albi" .
 
 <40f6b31a-3318-4817-9faf-38ec64e226d0> a crm:E41_Appellation ;
-    rdfs:label "Minimes de Gien"@fr .
+    rdfs:label "Minimes de Gien"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <41086183-928a-46d6-b7e7-f93ee1baa2a8> a crm:E41_Appellation ;
-    rdfs:label "Dominicains de Bordeaux"@fr .
+    rdfs:label "Dominicains de Bordeaux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <41297f3a-3360-4e3b-8b44-d6d79b768176> a crm:E42_Identifier ;
     rdfs:label "augustines_hospitalieres_de_la_roquette_de_paris" .
@@ -1562,29 +1702,35 @@
     rdfs:label "chanoine_regulier_de_la_maison_royale_de_sainte-croix-de-la-bretonnerie_de_paris" .
 
 <417d4bce-de2e-4422-bf9f-adf07d9dfe13> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Martin de Tours"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Martin de Tours"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <41974bb6-559d-4df4-8d0c-eb9757061c77> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Marseille"@fr .
+    rdfs:label "Évêque de Marseille"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <41c5bf03-50b3-4223-9316-6b377535c451> a crm:E42_Identifier ;
     rdfs:label "cisterciens_ordre" .
 
 <41d54ab3-cd08-4b17-947b-407f531e7cf3> a crm:E41_Appellation ;
-    rdfs:label "Visitandines de la rue du Bac à Paris"@fr .
+    rdfs:label "Visitandines de la rue du Bac à Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <41ffa0ec-d6cd-4366-9fed-a31df4e56d03> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Montélimart"@fr .
+    rdfs:label "Récollets de Montélimart"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <4207f384-75b7-4148-87f7-8797df7377c2> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Prémontré de Notre-Dame et Saint-Jean-Baptiste à Coucy-le-Châtel"@fr .
+    rdfs:label "Chanoines réguliers de Prémontré de Notre-Dame et Saint-Jean-Baptiste à Coucy-le-Châtel"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <4220439e-5232-4649-9f78-252bc90b295a> a crm:E41_Appellation ;
-    rdfs:label "Filles de la Bienheureuse Vierge Marie"@fr .
+    rdfs:label "Filles de la Bienheureuse Vierge Marie"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <422c70a0-29f2-4f06-b5c8-bffae2a340cd> a crm:E41_Appellation ;
     rdfs:label "Bénédictins de l'abbaye Notre-Dame-de-la-Couture à Bernay"@fr ;
-    crm:P139_has_alternative_form <54b213a6-273c-4cf5-aa9b-ec83e040952e> .
+    crm:P2_has_type skos:prefLabel .
 
 <4238f11a-d1ec-4a09-8e09-43ac46499097> a crm:E42_Identifier ;
     rdfs:label "294513" .
@@ -1593,42 +1739,48 @@
     rdfs:label "grands_augustins_de_poitiers" .
 
 <42b5e8bb-f3ee-41e3-bc8f-447cfad79a30> a crm:E41_Appellation ;
-    rdfs:label "Tiercelins de Nancy"@fr .
+    rdfs:label "Tiercelins de Nancy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <42ea1002-bbeb-40ab-a537-3ffe855428d6> a crm:E42_Identifier ;
     rdfs:label "293811" .
 
 <434c970f-79d6-4abb-82a2-dbe1ebd9c637> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Tours"@fr .
+    rdfs:label "Archevêque de Tours"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <437eca9f-6777-49a9-895e-70129b48b835> a crm:E42_Identifier ;
     rdfs:label "278072" .
 
 <4395e626-feeb-42d4-8f0a-81f6fdc12439> a crm:E41_Appellation ;
-    rdfs:label "Clergé de l’église paroissiale Saint-Sulpice de Paris"@fr .
+    rdfs:label "Clergé de l’église paroissiale Saint-Sulpice de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <439b1b53-f0a2-4407-be3e-fd2ced6072c6> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes du couvent de Saint-Martin de Rome"@fr .
+    rdfs:label "Grands carmes du couvent de Saint-Martin de Rome"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <43e3d4b5-e41f-4417-b5b8-a4569225d47f> a crm:E41_Appellation ;
-    rdfs:label "Clergé de l'église paroissiale Saint-Hippolyte de Paris"@fr .
+    rdfs:label "Clergé de l'église paroissiale Saint-Hippolyte de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <4400b0b7-9405-4f0b-9ce4-56297c6645c8> a crm:E42_Identifier ;
     rdfs:label "clerge_de_la_cathedrale_saint-jean_de_lyon" .
 
 <445846b5-d107-430b-b710-0b4b1be34e13> a crm:E41_Appellation ;
-    rdfs:label "Augustines hospitalières de la roquette de Paris"@fr .
+    rdfs:label "Augustines hospitalières de la roquette de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <448486db-9f6d-4a69-a295-90d88b778095> a crm:E42_Identifier ;
     rdfs:label "minimes_de_peronne" .
 
 <4555c640-2f11-44ce-90f4-058642c6622e> a crm:E41_Appellation ;
     rdfs:label "Mauristes"@fr ;
-    crm:P139_has_alternative_form <0ab46366-dc2b-4c86-9363-60586f8eddec>,
-        <97fdf52e-9078-4667-929c-cd00f8ebee87> .
+    crm:P2_has_type skos:prefLabel .
 
 <45583eac-5882-4f18-85cb-5d625d3abfca> a crm:E41_Appellation ;
-    rdfs:label "Fontevristes"@fr .
+    rdfs:label "Fontevristes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <456c6d0c-aee7-49c0-83f7-f805e0449736> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_collegiale_saint-fursy_de_peronne" .
@@ -1637,7 +1789,8 @@
     rdfs:label "jesuites_d_eu" .
 
 <45b48807-eade-4033-98d5-730ebd5fd157> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Compiègne"@fr .
+    rdfs:label "Capucins de Compiègne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <45b64b9f-f0da-4e3e-9f30-263bf3df3d5c> a crm:E42_Identifier ;
     rdfs:label "cordeliers_de_reims" .
@@ -1646,35 +1799,37 @@
     rdfs:label "293809" .
 
 <4686bdd1-6419-426f-b6ad-8742cb17f70b> a crm:E41_Appellation ;
-    rdfs:label "Chartreux"@fr .
+    rdfs:label "Chartreux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <46a3c67c-9296-41c1-9066-b5eced5bb878> a crm:E42_Identifier ;
     rdfs:label "tribunal_de_la_rote" .
 
 <46bd606d-4182-46ce-b16e-3a13e8b8e621> a crm:E41_Appellation ;
-    rdfs:label "Congrégations de clercs réguliers"@fr .
+    rdfs:label "Congrégations de clercs réguliers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <46edb1bc-c60f-4fba-abba-b1b8d9918770> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Saint-Ruf"@fr .
+    rdfs:label "Chanoines réguliers de Saint-Ruf"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <4720b7f2-2083-4939-81cd-f00cdf37034a> a crm:E42_Identifier ;
     rdfs:label "294103" .
 
 <47432e79-d3d3-4226-b149-fa6442d77cd7> a crm:E41_Appellation ;
-    rdfs:label "Évêque du Puy"@fr .
+    rdfs:label "Évêque du Puy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <475451d7-154a-4df2-84a5-ffe7cb608592> a crm:E42_Identifier ;
     rdfs:label "eveque_de_verdun" .
 
 <4883d81f-8c73-4d92-b52b-deb847bf56f1> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de Sainte-Geneviève"@fr ;
-    crm:P139_has_alternative_form <23520c3f-a9ce-4137-81ec-703684d319af>,
-        <29c8a3b5-adc9-46d7-b5ca-956398f25087>,
-        <60343414-45ed-41d1-a3ba-7644e973e720>,
-        <deea62a9-59c3-4020-be39-24b0d14a1104> .
+    crm:P2_has_type skos:prefLabel .
 
 <48cae965-d513-4d74-a48f-26f7a75149cb> a crm:E41_Appellation ;
-    rdfs:label "Évêque d'Hierapolis"@fr .
+    rdfs:label "Évêque d'Hierapolis"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <492836f0-5f7a-4b95-b92a-6209807373a9> a crm:E42_Identifier ;
     rdfs:label "eveche" .
@@ -1690,11 +1845,11 @@
 
 <4ad42d5d-4590-4434-a0e1-1b1b90d91c39> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de l'ordre de Saint-Augustin, congrégation de Notre-Sauveur"@fr ;
-    crm:P139_has_alternative_form <00898608-10d0-4f60-b689-86ec26567870>,
-        <09e7d96c-7155-4fde-9d34-ad92b1c80711> .
+    crm:P2_has_type skos:prefLabel .
 
 <4b115940-1f1e-4eea-8f0a-5a508cbda5b1> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Toul"@fr .
+    rdfs:label "Évêque de Toul"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <4b5f9191-7c21-46cd-a803-65b7d3d2e770> a crm:E42_Identifier ;
     rdfs:label "augustins" .
@@ -1706,7 +1861,8 @@
     rdfs:label "benedictins_de_l_abbaye_de_saint-sever" .
 
 <4c893d80-1117-400f-8754-140b43695a35> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Hilaire-le-Grand de Poitiers"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Hilaire-le-Grand de Poitiers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <4c895e97-9a26-4daf-9215-9f9a62a06490> a crm:E42_Identifier ;
     rdfs:label "moines" .
@@ -1715,19 +1871,23 @@
     rdfs:label "eveque_de_riez" .
 
 <4da1577f-2294-4bee-8611-7e9e12cc5304> a crm:E41_Appellation ;
-    rdfs:label "Prince-évêque de Strasbourg"@fr .
+    rdfs:label "Prince-évêque de Strasbourg"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <4da8d8cd-b42c-44f8-9985-af5897939b37> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Étienne de Châlons-en-Champagne"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Étienne de Châlons-en-Champagne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <4df40303-7c8f-4568-b230-b6600995e8b1> a crm:E42_Identifier ;
     rdfs:label "dominicains_de_madrid" .
 
 <4e26cb7d-cd06-40b7-9a83-7c28aef8595f> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Ligny"@fr .
+    rdfs:label "Cordeliers de Ligny"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <4e2f61e5-5e28-4f86-8416-480931eea5c3> a crm:E41_Appellation ;
-    rdfs:label "Lazaristes"@fr .
+    rdfs:label "Lazaristes"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <4e323db9-5498-45af-9f70-02dba9e392d7> a crm:E42_Identifier ;
     rdfs:label "Oratoriens_de_Vendome" .
@@ -1763,16 +1923,20 @@
     rdfs:label "eveque_de_die" .
 
 <5164b4e4-9366-435d-b8df-f63335c59995> a crm:E41_Appellation ;
-    rdfs:label "Clarisses"@fr .
+    rdfs:label "Clarisses"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <51a998c7-4c9c-429f-b51f-d7cb7e4dc4b5> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Étienne de Gien"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Étienne de Gien"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <51d0e9bd-8967-4999-a2a4-e9b0ca79baa5> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Théodorit d'Uzès"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Théodorit d'Uzès"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <522b3239-3dd6-402b-b7e8-b9497d9e6b70> a crm:E41_Appellation ;
-    rdfs:label "Ordre de saint Augustin"@fr .
+    rdfs:label "Ordre de saint Augustin"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <52948b29-5505-47e9-89b5-0917e0e2db17> a crm:E42_Identifier ;
     rdfs:label "chanoines_reguliers_de_saint-ruf_de_la_cote-saint-andre" .
@@ -1784,33 +1948,39 @@
     rdfs:label "benedictines_de_l_abbaye_sainte-croix_de_poitiers" .
 
 <5384dc9a-b8e6-439f-a1ee-7d5d3d8a8749> a crm:E41_Appellation ;
-    rdfs:label "Jésuites anglais de Saint-Omer"@fr .
+    rdfs:label "Jésuites anglais de Saint-Omer"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <53a88243-7590-45d3-95ab-22fa7ebbcd52> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Sainte-Croix d’Orléans"@fr .
+    rdfs:label "Chapitre de la cathédrale Sainte-Croix d’Orléans"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <53ae3368-5288-4905-8a56-6445e78cf56d> a crm:E41_Appellation ;
-    rdfs:label "Prêtres de la Mission de Troyes"@fr .
+    rdfs:label "Prêtres de la Mission de Troyes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <53b1133d-0a8f-4af6-826a-bd7bbebcd332> a crm:E41_Appellation ;
     rdfs:label "Augustins déchaussés"@fr ;
-    crm:P139_has_alternative_form <659f757c-0e04-4ab3-8a0a-2b2c304dfbc5>,
-        <f00d58e4-b95b-41ab-8f59-d204cc4634d2> .
+    crm:P2_has_type skos:prefLabel .
 
 <5448fe94-69e7-411f-a930-19da1eb7bb44> a crm:E41_Appellation ;
-    rdfs:label "Papauté"@fr .
+    rdfs:label "Papauté"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <544ebdc2-24a1-4ba8-988f-c95dd23aee6c> a crm:E42_Identifier ;
     rdfs:label "cordeliers_de_montelimar" .
 
 <54520394-c43a-46da-9204-5b8fd5e11a4d> a crm:E41_Appellation ;
-    rdfs:label "Augustines hospitalières de la Place royale de Paris"@fr .
+    rdfs:label "Augustines hospitalières de la Place royale de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <54a5dc24-06b1-4f0c-82ff-bcbc64070e00> a crm:E41_Appellation ;
-    rdfs:label "Pères de Terre-Sainte d'Alep"@fr .
+    rdfs:label "Pères de Terre-Sainte d'Alep"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <54b213a6-273c-4cf5-aa9b-ec83e040952e> a crm:E41_Appellation ;
-    rdfs:label "Bénédictins de Bernay"@fr .
+    rdfs:label "Bénédictins de Bernay"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <5566a16a-36d7-4dde-aa92-3460a7e66a12> a crm:E42_Identifier ;
     rdfs:label "capucins_d_angers" .
@@ -1825,77 +1995,94 @@
     rdfs:label "276454" .
 
 <55e77e2c-67b7-4735-a872-0277c197cd39> a crm:E41_Appellation ;
-    rdfs:label "Dames maltaises"@fr .
+    rdfs:label "Dames maltaises"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <562954f9-9796-4b35-93ae-2f411534000c> a crm:E42_Identifier ;
     rdfs:label "278132" .
 
 <562d9a28-112f-408c-a2fa-3108c6e96f51> a crm:E41_Appellation ;
-    rdfs:label "Augustins déchaussés de Notre-Dame-des-Victoires de Paris"@fr .
+    rdfs:label "Augustins déchaussés de Notre-Dame-des-Victoires de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <56402818-858e-4dee-9521-09edec4f3b16> a crm:E42_Identifier ;
     rdfs:label "grands_augustins_de_paris" .
 
 <5646cc4e-2c0a-4999-9917-7797b1036f34> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la Cathédrale Saint-Caprais d’Agen"@fr .
+    rdfs:label "Chapitre de la Cathédrale Saint-Caprais d’Agen"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <56c3b9c4-3290-44d7-ab30-4c5a627537b7> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Rome"@fr .
+    rdfs:label "Cordeliers de Rome"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <56fa43c0-f7c3-4eb1-93d9-2fa9a5fef3f0> a crm:E41_Appellation ;
-    rdfs:label "Chambre apostolique"@fr .
+    rdfs:label "Chambre apostolique"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5745dc11-7a24-4a1e-93c7-4c7066a725ee> a crm:E42_Identifier ;
     rdfs:label "293949" .
 
 <58183293-c750-4a75-8e12-1245e1ec99c3> a crm:E41_Appellation ;
-    rdfs:label "Carmélites"@fr .
+    rdfs:label "Carmélites"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5851ec8a-80a8-453b-b834-9db88952d7df> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Paris"@fr .
+    rdfs:label "Archevêque de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <58612411-aaaa-4050-9f82-a8bc2670db45> a crm:E41_Appellation ;
-    rdfs:label "Clergé de la cathédrale Saint-Jean de Lyon"@fr .
+    rdfs:label "Clergé de la cathédrale Saint-Jean de Lyon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <58be71f0-6b5c-4da6-bfe5-28c26c88ebbd> a crm:E41_Appellation ;
-    rdfs:label "Bénédictins de Nancy"@fr .
+    rdfs:label "Bénédictins de Nancy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5923885f-a51a-4d79-a2c7-32d12279eca4> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Pierre et Saint-Paul de Troyes"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Pierre et Saint-Paul de Troyes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <598cd1b4-7eac-4a49-abdf-b7eb46d44b1e> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_notre-dame-des-doms_d_avignon" .
 
 <5996a475-cb35-4f1f-a741-06ed2e10c86c> a crm:E41_Appellation ;
-    rdfs:label "Abbé de Saint-Pierre la Couture"@fr .
+    rdfs:label "Abbé de Saint-Pierre la Couture"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <59a63564-7c53-47ce-9a7a-345f5ca2ef1c> a crm:E41_Appellation ;
-    rdfs:label "Dominicains de Paris"@fr .
+    rdfs:label "Dominicains de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5a084091-198a-4e6d-b83a-aa72de69bf00> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Rochefort"@fr .
+    rdfs:label "Capucins de Rochefort"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5a12f4a7-2385-4777-b5f3-8dc8005b8e16> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Notre-Dame-du-Fort d’Estampes"@fr .
+    rdfs:label "Chapitre de la collégiale Notre-Dame-du-Fort d’Estampes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5a1a6748-4e71-4c98-90f4-253ebe15f30b> a crm:E42_Identifier ;
     rdfs:label "276461" .
 
 <5a1bf09b-0682-44ce-855f-684e871c7264> a crm:E41_Appellation ;
-    rdfs:label "Célestins de Lyon"@fr .
+    rdfs:label "Célestins de Lyon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5a2476f3-e619-403d-9530-ba1fe0c80c62> a crm:E41_Appellation ;
-    rdfs:label "Hospitalières de Saint-Jean-de-Jérusalem de Toulouse"@fr .
+    rdfs:label "Hospitalières de Saint-Jean-de-Jérusalem de Toulouse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5a2a8dd9-4814-44c6-aa01-1cb697d986f9> a crm:E41_Appellation ;
     rdfs:label "Ordre de Malte"@fr ;
-    crm:P139_has_alternative_form <5e756989-3c3d-40a8-ba2c-0e5a3c6c429e> .
+    crm:P2_has_type skos:prefLabel .
 
 <5a3995f1-4499-43d5-82a6-e4bfd23d2e22> a crm:E42_Identifier ;
     rdfs:label "eveque_d_agde" .
 
 <5a3a585d-987c-4850-a421-5c14ae829614> a crm:E41_Appellation ;
-    rdfs:label "Ordre de Cîteaux"@fr .
+    rdfs:label "Ordre de Cîteaux"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <5a583d21-8d18-496c-8387-853a04a297f7> a crm:E42_Identifier ;
     rdfs:label "maitrise_de_saint-pierre_de_rome" .
@@ -1905,34 +2092,42 @@
 
 <5a9a35ed-0755-44ac-95c1-bb2435254c6a> a crm:E41_Appellation ;
     rdfs:label "Ordre de Calatrava"@fr ;
-    crm:P139_has_alternative_form <0cc62016-7685-4e4a-bb26-8ffc7cb20da1> .
+    crm:P2_has_type skos:prefLabel .
 
 <5aa21921-587c-4b8f-814d-70ebf1c8b0e9> a crm:E41_Appellation ;
-    rdfs:label "Clergé de Belley"@fr .
+    rdfs:label "Clergé de Belley"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5ab0f19f-c396-4409-b287-240aaf961b24> a crm:E41_Appellation ;
-    rdfs:label "Bénédictin de Vendosme"@fr .
+    rdfs:label "Bénédictin de Vendosme"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <5ab1e3f7-e182-4fae-a920-992a87a39b69> a crm:E42_Identifier ;
     rdfs:label "jesuites_de_luxembourg" .
 
 <5ab498f4-3371-4007-a874-69c19c47535a> a crm:E41_Appellation ;
-    rdfs:label "Dominicains de la rue Saint-Honoré à Paris"@fr .
+    rdfs:label "Dominicains de la rue Saint-Honoré à Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5adb1f15-d728-40e8-90a3-bc3c8ca217c7> a crm:E41_Appellation ;
-    rdfs:label "Dominicains d'Évreux"@fr .
+    rdfs:label "Dominicains d'Évreux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5b24057c-4551-4159-bc20-e58dc867d8b7> a crm:E41_Appellation ;
-    rdfs:label "Ursulines du Hâvre-de-Grâce"@fr .
+    rdfs:label "Ursulines du Hâvre-de-Grâce"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5b5d933e-d7b1-4d5a-9e47-423482c4c91b> a crm:E41_Appellation ;
-    rdfs:label "Norbertins"@fr .
+    rdfs:label "Norbertins"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <5b7b0302-1bb5-48b3-8adb-487607ae9127> a crm:E41_Appellation ;
-    rdfs:label "Bénédictins de l'abbaye de Saint-Denis"@fr .
+    rdfs:label "Bénédictins de l'abbaye de Saint-Denis"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5bf07a45-ddf7-456b-bd67-8f229cbbb215> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de la cathédrale Sainte-Croix d’Orléans"@fr .
+    rdfs:label "Chanoines réguliers de la cathédrale Sainte-Croix d’Orléans"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5c33b286-e201-483d-9aec-2f781da23211> a crm:E42_Identifier ;
     rdfs:label "dominicains_de_poitiers" .
@@ -1941,19 +2136,23 @@
     rdfs:label "294287" .
 
 <5d5f842c-1438-49ee-8ce0-e9349aa08e78> a crm:E41_Appellation ;
-    rdfs:label "Frères mineurs de l’Observance"@fr .
+    rdfs:label "Frères mineurs de l’Observance"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <5d8bf57b-e374-4030-8c09-f55f7773c77b> a crm:E41_Appellation ;
-    rdfs:label "Célestins d'Avignon [Comtat vénaissin]"@fr .
+    rdfs:label "Célestins d'Avignon [Comtat vénaissin]"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5db3263f-97bc-4c39-899c-94cff5e6d33b> a crm:E42_Identifier ;
     rdfs:label "chanoinesses_de_saint-augustin" .
 
 <5e756989-3c3d-40a8-ba2c-0e5a3c6c429e> a crm:E41_Appellation ;
-    rdfs:label "Ordre de Saint-Jean de Jérusalem"@fr .
+    rdfs:label "Ordre de Saint-Jean de Jérusalem"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <5e995e22-2940-4b63-b00c-9910ff6f5fc5> a crm:E41_Appellation ;
-    rdfs:label "Évêque d'Avranches"@fr .
+    rdfs:label "Évêque d'Avranches"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5ee84d72-dda9-4252-a745-9dc75764a9c6> a crm:E42_Identifier ;
     rdfs:label "277987" .
@@ -1962,10 +2161,12 @@
     rdfs:label "chapitre_de_la_cathedrale_notre-dame_de_burgos" .
 
 <5f6ceaf4-9d0a-41d6-bcd9-f0fd92a8069a> a crm:E41_Appellation ;
-    rdfs:label "Doctrinaires du collège de Narbonne"@fr .
+    rdfs:label "Doctrinaires du collège de Narbonne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5fa3506d-10d5-4a8a-b8c0-54697b76f3f9> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Saint-Étienne de Dijon"@fr .
+    rdfs:label "Chanoines réguliers de Saint-Étienne de Dijon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <5faab9c0-b187-4a0f-8387-ede0c19dfe7a> a crm:E42_Identifier ;
     rdfs:label "eveque_de_quebec" .
@@ -1974,21 +2175,25 @@
     rdfs:label "celestins_de_lyon" .
 
 <60343414-45ed-41d1-a3ba-7644e973e720> a crm:E41_Appellation ;
-    rdfs:label "Génovéfains"@fr .
+    rdfs:label "Génovéfains"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <60361212-f250-4b3b-b6df-16676657bc9a> a crm:E41_Appellation ;
-    rdfs:label "Minimes de Bordeaux"@fr .
+    rdfs:label "Minimes de Bordeaux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <60647091-900c-4c4d-a396-cad9d99bff1a> a crm:E42_Identifier ;
     rdfs:label "293835" .
 
 <607e8fbc-c905-40fa-8bb0-cf6fc13f6fd1> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Notre-Dame de Grenoble"@fr .
+    rdfs:label "Chapitre de la cathédrale Notre-Dame de Grenoble"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6096b805-e68c-45cb-af58-2b555041a485> rdfs:label "« Le clergé est installé en janvier 1246 par un acte de Louis IX appelé la « Première Fondation », et se compose de membres de trois rangs : cinq maîtres-chapelains appelés plus tard chanoines, et pour chacun parmi eux, un sous-chapelain et un diacre ou sous-diacre » (cf. https://fr.wikipedia.org/wiki/Sainte-Chapelle, consulté le 25 février 2021)."@fr .
 
 <60d1edf9-6cde-4c73-8889-11bd55f0c14f> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Trophime d'Arles"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Trophime d'Arles"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6132c7fc-6e29-42b0-a3ea-955fbab1368c> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_saint-trophime_d_arles" .
@@ -2003,7 +2208,8 @@
     rdfs:label "276465" .
 
 <627c6bef-03ac-4315-848d-217f22fb3650> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Nancy"@fr .
+    rdfs:label "Cordeliers de Nancy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6285faa7-66ff-450a-bcb4-c5538de8b2e9> a crm:E42_Identifier ;
     rdfs:label "293763" .
@@ -2015,13 +2221,16 @@
     rdfs:label "295021" .
 
 <631cf912-2443-4fcd-ac8a-bb459ba39a88> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Notre-Dame de Strasbourg"@fr .
+    rdfs:label "Chapitre de la cathédrale Notre-Dame de Strasbourg"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6399019d-beef-43ac-bd81-6192b4ee2e75> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Châlons"@fr .
+    rdfs:label "Évêque de Châlons"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <63ab64c4-8ab8-46e9-81a2-d9fc91ce66b4> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Bourges"@fr .
+    rdfs:label "Archevêque de Bourges"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <63c756b9-d0a9-440a-9652-1ca15908d22e> a crm:E42_Identifier ;
     rdfs:label "eveque_de_senlis" .
@@ -2030,13 +2239,15 @@
     rdfs:label "fontevristes_du_prieure_de_notre-dame-du-relay" .
 
 <63ec4d2d-f803-4016-b453-c1ae4f76a150> a crm:E41_Appellation ;
-    rdfs:label "Jésuites d'Alep"@fr .
+    rdfs:label "Jésuites d'Alep"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6479a92b-32bf-4217-b464-1dead783fd20> a crm:E42_Identifier ;
     rdfs:label "abbe_de_saint-sever" .
 
 <64b91c8a-988f-4322-8a08-48318b56849a> a crm:E41_Appellation ;
-    rdfs:label "Jacobins"@fr .
+    rdfs:label "Jacobins"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <64ec05ad-2e2b-4e55-bbbc-9cf5cb6c2d78> a crm:E42_Identifier ;
     rdfs:label "recollets_de_chaumont-en-vexin" .
@@ -2048,73 +2259,87 @@
     rdfs:label "chapitre_de_la_collegiale_saint-martin_de_tours" .
 
 <659f757c-0e04-4ab3-8a0a-2b2c304dfbc5> a crm:E41_Appellation ;
-    rdfs:label "Augustins déchaux"@fr .
+    rdfs:label "Augustins déchaux"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <65bcee19-d616-45dd-ab0e-7e39610e2994> a crm:E42_Identifier ;
     rdfs:label "cisterciens_de_l_abbaye_notre-dame-de-vauluisant" .
 
 <65f827d9-e4bb-4c0d-be56-516540cb2ff4> a crm:E41_Appellation ;
     rdfs:label "Ordre de Santiago"@fr ;
-    crm:P139_has_alternative_form <2f714c6d-752b-4368-86f1-e9cf94baf3b4>,
-        <342b0175-9b28-4df7-a69b-36e779b2d170>,
-        <aeb57f69-6d99-422d-9f1a-e2d49d0335e9> .
+    crm:P2_has_type skos:prefLabel .
 
 <66646422-19d2-4ad0-afce-d33078bf092d> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Treguier"@fr .
+    rdfs:label "Évêque de Treguier"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <667d0ce4-1f38-4445-889e-76e44ab5c861> a crm:E41_Appellation ;
-    rdfs:label "Chanoinesse de Saint-Pantaléon"@fr .
+    rdfs:label "Chanoinesse de Saint-Pantaléon"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <6695da94-a768-4295-8cc5-364f68aa0f4e> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Seez"@fr .
+    rdfs:label "Évêque de Seez"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <676579b8-cb11-4907-9019-273f2c50a8e2> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Toulon"@fr .
+    rdfs:label "Évêque de Toulon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <67ee8369-0f26-4173-830c-9a4e033144e6> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Vienne [Viennois]"@fr .
+    rdfs:label "Archevêque de Vienne [Viennois]"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <682de268-3ed3-478e-b950-f280faee599a> a crm:E41_Appellation ;
-    rdfs:label "Chartreux de Toulouse"@fr .
+    rdfs:label "Chartreux de Toulouse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6862ba02-8915-46b7-b0f5-f712e326ab42> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Sens"@fr .
+    rdfs:label "Archevêque de Sens"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <68aa2a42-ec71-476b-a533-b10e728d13c4> a crm:E41_Appellation ;
-    rdfs:label "Augustins réformés du faubourg Saint-Germain à Paris"@fr .
+    rdfs:label "Augustins réformés du faubourg Saint-Germain à Paris"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <690e1ea7-baf4-4ebe-8032-bfc3fc6dacfb> a crm:E41_Appellation ;
-    rdfs:label "Archevêque d'Albi"@fr .
+    rdfs:label "Archevêque d'Albi"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <690faffb-593d-441e-89b7-770243752920> a crm:E42_Identifier ;
     rdfs:label "278027" .
 
 <6a83889f-9996-4dee-b0a7-717118405310> a crm:E41_Appellation ;
-    rdfs:label "Ursulines de Rennes"@fr .
+    rdfs:label "Ursulines de Rennes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6ad9baa9-b334-4662-b999-9ee66724bf07> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Clamecy"@fr .
+    rdfs:label "Récollets de Clamecy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6adb9965-9519-4880-8909-b6afe78cdb2e> a crm:E42_Identifier ;
     rdfs:label "278124" .
 
 <6b136ff5-e056-470f-80de-d0428fc1f4ad> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Luxembourg"@fr .
+    rdfs:label "Récollets de Luxembourg"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6b16c799-eacb-45cd-a9b1-0a2c106b6fb7> a crm:E42_Identifier ;
     rdfs:label "minimes_de_bordeaux" .
 
 <6b2c0069-4ddc-409e-a3ab-45512cf6ee1c> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Paris"@fr .
+    rdfs:label "Jésuites de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6b5ba758-2418-457b-b521-8b50ecdae1de> a crm:E42_Identifier ;
     rdfs:label "carmes_dechausses_de_madrid" .
 
 <6b6996e2-16d4-4730-b3cf-602f3688f3bb> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Notre-Dame de Ligny"@fr .
+    rdfs:label "Chapitre de la collégiale Notre-Dame de Ligny"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6b9b198a-ac77-40dc-9dae-8a0d8f88241d> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Georges au Puy-en-Vélay"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Georges au Puy-en-Vélay"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6ba8139d-cb87-4918-8e22-c032a23dd396> a crm:E42_Identifier ;
     rdfs:label "eveque_de_saint-omer" .
@@ -2129,13 +2354,15 @@
     rdfs:label "capucins_de_grasse" .
 
 <6c779748-d9ea-49b9-9ca2-19d45b03b1ec> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Montélimart"@fr .
+    rdfs:label "Cordeliers de Montélimart"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6cb4a54d-e997-4f8f-a86b-83f17e28665b> a crm:E42_Identifier ;
     rdfs:label "augustines_hospitalieres" .
 
 <6cf91527-135d-40c5-ab58-325375203a15> a crm:E41_Appellation ;
-    rdfs:label "Ordre hospitalier des frères de Saint Jean de Dieu"@fr .
+    rdfs:label "Ordre hospitalier des frères de Saint Jean de Dieu"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <6d3595f6-9f72-464e-ae67-71ebca5d9078> a crm:E42_Identifier ;
     rdfs:label "augustines" .
@@ -2144,55 +2371,69 @@
     rdfs:label "pretres_de_la_mission" .
 
 <6d6e5d49-f641-45ff-9406-1056fd0079ff> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de la Sainte-Croix"@fr .
+    rdfs:label "Chanoines réguliers de la Sainte-Croix"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <6d967431-02c8-4748-a8a9-646d69339aba> a crm:E41_Appellation ;
-    rdfs:label "Bénédictines de l'abbaye Notre-Dame de Chelles"@fr .
+    rdfs:label "Bénédictines de l'abbaye Notre-Dame de Chelles"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6d98e433-295d-4dd4-a096-f3a867cddc13> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Montpellier"@fr .
+    rdfs:label "Jésuites de Montpellier"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6df22116-5b01-4f15-9c86-d7ba1c33a733> a crm:E41_Appellation ;
-    rdfs:label "Fontevristes de l’abbaye Notre-Dame de Fontevraud"@fr .
+    rdfs:label "Fontevristes de l’abbaye Notre-Dame de Fontevraud"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6e19a1b5-7cba-468b-b9af-0d1ca806d5b6> a crm:E41_Appellation ;
-    rdfs:label "Congrégation de la Mission"@fr .
+    rdfs:label "Congrégation de la Mission"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <6e75db26-fef5-46b1-a858-c8784943b020> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Langres"@fr .
+    rdfs:label "Évêque de Langres"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6e9da7ce-39b8-447e-86a0-3ba67b243ed4> a crm:E41_Appellation ;
-    rdfs:label "Custode"@fr .
+    rdfs:label "Custode"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6eac71b3-917b-48d2-92c5-77d98bfcee2c> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Metz"@fr .
+    rdfs:label "Évêque de Metz"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6efc447c-86dd-41eb-a8e7-580ff93b6266> a crm:E41_Appellation ;
-    rdfs:label "Feuillants du monastère de Versailles"@fr .
+    rdfs:label "Feuillants du monastère de Versailles"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6f58d255-9b0a-416a-bd31-6e5d63273bc1> a crm:E42_Identifier ;
     rdfs:label "clerge_de_niort" .
 
 <6f6e8c34-2e2f-43a8-933c-1ddd077f7e50> a crm:E41_Appellation ;
-    rdfs:label "Ordre des bénédictins"@fr .
+    rdfs:label "Ordre des bénédictins"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6fba400b-c1f8-4354-af86-74889af0cb05> a crm:E41_Appellation ;
-    rdfs:label "Capucins"@fr .
+    rdfs:label "Capucins"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <6fcc2fb1-5102-460c-a969-5e06eb7c6ac4> a crm:E42_Identifier ;
     rdfs:label "jesuites_de_saint-omer" .
 
 <6fea9369-b978-4b21-96d0-26f46869022d> a crm:E41_Appellation ;
-    rdfs:label "Congrégation Notre-Dame"@fr .
+    rdfs:label "Congrégation Notre-Dame"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <6ffcc2a0-e7b4-4c34-9cae-67a6a3615820> a crm:E41_Appellation ;
-    rdfs:label "Ermites de saint Augustin"@fr .
+    rdfs:label "Ermites de saint Augustin"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <7015dbcd-1eeb-43c1-8d47-60988e08cdb3> a crm:E42_Identifier ;
     rdfs:label "chanoines_reguliers_de_saint-etienne_de_dijon" .
 
 <7017ce43-4445-4f64-90d4-ac06e380e320> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Condom"@fr .
+    rdfs:label "Évêque de Condom"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7033a0d9-2196-4e0d-a4e1-bec6891137ce> a crm:E42_Identifier ;
     rdfs:label "eveque_de_paris" .
@@ -2204,27 +2445,30 @@
     rdfs:label "294295" .
 
 <7074df00-3355-46c0-94b6-b9070915f492> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Saint-Denis"@fr .
+    rdfs:label "Récollets de Saint-Denis"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <70908e96-a77d-4ecd-a16b-1993410a5321> a crm:E41_Appellation ;
-    rdfs:label "Prêtre de la Mission de Versailles"@fr .
+    rdfs:label "Prêtre de la Mission de Versailles"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7097f9ed-d1ca-45a2-971b-f335973ab973> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_de_westminster" .
 
 <7099b70f-cc40-4c39-981c-d08e542fc631> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Montpellier"@fr .
+    rdfs:label "Cordeliers de Montpellier"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <70c6c40e-39ea-4963-b231-eb6a15b56204> a crm:E42_Identifier ;
     rdfs:label "278133" .
 
 <70e4b8c8-5389-4cba-9445-6817d936d13b> a crm:E41_Appellation ;
-    rdfs:label "Procureur général de Terre-Sainte"@fr .
+    rdfs:label "Procureur général de Terre-Sainte"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <710417f3-9994-46b6-bbe6-bc6a67ae41b3> a crm:E41_Appellation ;
     rdfs:label "Cordeliers"@fr ;
-    crm:P139_has_alternative_form <5d5f842c-1438-49ee-8ce0-e9349aa08e78>,
-        <cab1cb75-d661-49f0-9c07-3fbb7f6dec1a> .
+    crm:P2_has_type skos:prefLabel .
 
 <715e998a-5277-42d5-8493-a730cc73fd9e> a crm:E42_Identifier ;
     rdfs:label "minimes_(ordre)" .
@@ -2245,29 +2489,34 @@
     rdfs:label "feuillants_du_monastere_de_versailles" .
 
 <73b8cc9b-00da-4d6c-a7c1-17da5d5a4002> a crm:E41_Appellation ;
-    rdfs:label "Barnabites de Montargis"@fr .
+    rdfs:label "Barnabites de Montargis"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <73d29b4f-3cdb-4f07-b2f0-70eec9c77e89> a crm:E41_Appellation ;
     rdfs:label "Jésuites"@fr ;
-    crm:P139_has_alternative_form <36d1b1b2-8f31-4d59-b66a-5bd486c1af90> .
+    crm:P2_has_type skos:prefLabel .
 
 <7406aef1-a440-4e20-97c7-2f473b72c778> a crm:E41_Appellation ;
-    rdfs:label "Augustins déchaussés de la rue des Petits-Augustins à Paris"@fr .
+    rdfs:label "Augustins déchaussés de la rue des Petits-Augustins à Paris"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <74191447-5153-4266-85a7-773b9cb337df> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Marcel de Paris"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Marcel de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7450cf74-186d-497a-830d-42ee3dd67c41> a crm:E42_Identifier ;
     rdfs:label "chanoinesses_nobles" .
 
 <7455012e-ab23-43e0-bb17-b6b292d5fe06> a crm:E41_Appellation ;
-    rdfs:label "Ordre des Chanoines Réguliers de saint Augustin de Prémontré"@fr .
+    rdfs:label "Ordre des Chanoines Réguliers de saint Augustin de Prémontré"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <74620cb6-bc78-4c8a-8400-55a968731501> a crm:E42_Identifier ;
     rdfs:label "293887" .
 
 <74b4b4c9-f818-44fc-9894-bc84769305c0> a crm:E41_Appellation ;
-    rdfs:label "Chevaliers de l'ordre de Malte"@fr .
+    rdfs:label "Chevaliers de l'ordre de Malte"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <74be991f-71aa-44fb-880f-a846983496c0> a crm:E42_Identifier ;
     rdfs:label "theatin" .
@@ -2276,50 +2525,56 @@
     rdfs:label "chanoines_reguliers_de_sainte-genevieve_de_l’abbaye_saint-jacques_a_provins" .
 
 <7523f39d-8ffc-4046-b6b8-df697e7d8810> a crm:E41_Appellation ;
-    rdfs:label "Congrégations féminines"@fr .
+    rdfs:label "Congrégations féminines"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <75dac7be-a9fd-48be-ba1c-9303be2bef35> a crm:E42_Identifier ;
     rdfs:label "eveque_de_lodeve" .
 
 <760d1cd1-9d5c-4277-9c27-4934d3994aa6> a crm:E41_Appellation ;
     rdfs:label "Augustins déchaussés du faubourg Saint-Germain à Paris"@fr ;
-    crm:P139_has_alternative_form <68aa2a42-ec71-476b-a533-b10e728d13c4>,
-        <7406aef1-a440-4e20-97c7-2f473b72c778>,
-        <8be212f1-a46b-4a66-ba8d-8dc24e66ef45> .
+    crm:P2_has_type skos:prefLabel .
 
 <762873bb-ffea-41f2-9cf1-470ee3806170> a crm:E42_Identifier ;
     rdfs:label "chapitres_cathedraux" .
 
 <76b6fc1a-4f7c-415c-8450-9a9214e03a8a> a crm:E41_Appellation ;
     rdfs:label "Récollets"@fr ;
-    crm:P139_has_alternative_form <c142774f-7826-4105-9cab-e2b9a1c6a9b1> .
+    crm:P2_has_type skos:prefLabel .
 
 <76c3e916-87f1-42f9-befa-0f550d1b9a2b> a crm:E42_Identifier ;
     rdfs:label "archeveches" .
 
 <770c02da-d642-433b-98b8-309b8c56da25> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Paris"@fr .
+    rdfs:label "Évêque de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <77455443-a050-4fa5-a043-bee4fb19625d> a crm:E41_Appellation ;
-    rdfs:label "Clergé de l'église paroissiale Notre-Dame de Niort"@fr .
+    rdfs:label "Clergé de l'église paroissiale Notre-Dame de Niort"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <778dbf99-b96f-47d5-b6a3-99189aba7e03> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Prémontré de Saint-Joseph à Nancy"@fr .
+    rdfs:label "Chanoines réguliers de Prémontré de Saint-Joseph à Nancy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <77a8b381-e873-4342-8db3-5e362d9fb6f9> a crm:E41_Appellation ;
-    rdfs:label "Augustines"@fr .
+    rdfs:label "Augustines"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <77ac13e9-4906-49a8-b9d9-5009962345cb> a crm:E42_Identifier ;
     rdfs:label "eveque_de_chartres" .
 
 <77d51325-fc4d-4650-8b04-27510903b4ee> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Constantinople"@fr .
+    rdfs:label "Capucins de Constantinople"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <77d8d5d9-af80-4aef-93e3-7714cd7657f8> a crm:E41_Appellation ;
-    rdfs:label "Pères de la Doctrine Chrétienne"@fr .
+    rdfs:label "Pères de la Doctrine Chrétienne"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <77faae85-9094-4f28-a696-07aaef132f36> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Notre-Dame-et-Saint-Martin de Châteauroux"@fr .
+    rdfs:label "Chapitre de la collégiale Notre-Dame-et-Saint-Martin de Châteauroux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <784e70ed-1c15-452d-a1ac-63ac298b7eaf> a crm:E42_Identifier ;
     rdfs:label "294653" .
@@ -2331,7 +2586,8 @@
     rdfs:label "276458" .
 
 <78cedb9c-2cdc-43de-9161-249e06453417> a crm:E41_Appellation ;
-    rdfs:label "Clergé régulier"@fr .
+    rdfs:label "Clergé régulier"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <791d48a4-ab83-478b-a2bf-6e81cbb83a91> a crm:E42_Identifier ;
     rdfs:label "augustins_dechausses_des_loges_a_saint-germain-en-laye" .
@@ -2343,22 +2599,27 @@
     rdfs:label "eveque_de_rennes" .
 
 <79aa6a0b-a4c7-4154-a216-8f4b93da1c35> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Livourne"@fr .
+    rdfs:label "Cordeliers de Livourne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <79f45b01-a30b-4903-988c-497f0a6e0db0> a crm:E41_Appellation ;
-    rdfs:label "Archevêque d'Aix"@fr .
+    rdfs:label "Archevêque d'Aix"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7a1d959f-bbe6-4511-9017-d47e8a2815d8> a crm:E41_Appellation ;
-    rdfs:label "Carmélites de Compiègne"@fr .
+    rdfs:label "Carmélites de Compiègne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7a57494c-69ba-492e-b4f4-a343f4548686> a crm:E42_Identifier ;
     rdfs:label "benedictines_du_monastere_de_montdenis-de-la-creche" .
 
 <7ab44adc-f788-4776-9aac-2001a36e6309> a crm:E41_Appellation ;
-    rdfs:label "Carmélites de Lyon"@fr .
+    rdfs:label "Carmélites de Lyon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7ac4c640-65ff-4905-97cd-82bb0a27bf74> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la Basilique Cathédrale métropolitaine de la Nativité de la Sainte Vierge Marie à Milan"@fr .
+    rdfs:label "Chapitre de la Basilique Cathédrale métropolitaine de la Nativité de la Sainte Vierge Marie à Milan"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7b2921bb-f6f4-466d-a693-cecfe3b48ba5> a crm:E42_Identifier ;
     rdfs:label "Mauristes_de_labbaye_Saint-Corneille_de_Compiegne" .
@@ -2367,7 +2628,8 @@
     rdfs:label "clerge_de_la_cathedrale_saint-jean_de_la_valette" .
 
 <7ba64c4b-eacd-45d1-a493-b7c14aae103d> a crm:E41_Appellation ;
-    rdfs:label "Frères de la Charité de Grenoble"@fr .
+    rdfs:label "Frères de la Charité de Grenoble"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7bd1d5ce-b055-461e-89e1-ab4aed8512d1> a crm:E42_Identifier ;
     rdfs:label "ordres_mendiants" .
@@ -2382,31 +2644,38 @@
     rdfs:label "benedictins" .
 
 <7c362d13-2c71-4798-b160-f622449348e9> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-André de Bordeaux"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-André de Bordeaux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7c6d743f-b178-4d8b-be02-ba8fa2ed6f9a> a crm:E42_Identifier ;
     rdfs:label "clerge_de_l_eglise_paroissiale_notre-dame_de_niort" .
 
 <7c910fd2-ac15-4458-95cb-3b46465179ff> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Lyon"@fr .
+    rdfs:label "Archevêque de Lyon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7c9a5dbe-fa91-4564-9f41-a6cae4142d11> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Châlons-sur-Marne"@fr .
+    rdfs:label "Évêque de Châlons-sur-Marne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7c9bc30c-0566-4bda-baab-c8e13d1c3b5f> a crm:E42_Identifier ;
     rdfs:label "eveque_de_bayonne" .
 
 <7d16f418-d574-455c-be4d-66a3fbdd1c1d> a crm:E41_Appellation ;
-    rdfs:label "Visitandines d'Albi"@fr .
+    rdfs:label "Visitandines d'Albi"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7d17fbc3-73a0-4749-8b87-313fc14f7ec5> a crm:E41_Appellation ;
-    rdfs:label "Agent pour les affaires des Saints Lieux"@fr .
+    rdfs:label "Agent pour les affaires des Saints Lieux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7d4b4ecc-00b2-4b63-805a-67361cb57c29> a crm:E41_Appellation ;
-    rdfs:label "Capucins d'Eu"@fr .
+    rdfs:label "Capucins d'Eu"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7d5d1547-8fe9-415d-b0e8-cfb70a05b155> a crm:E41_Appellation ;
-    rdfs:label " Chapitre de la collégiale Saint-Évroult de Mortain"@fr .
+    rdfs:label " Chapitre de la collégiale Saint-Évroult de Mortain"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7d742432-6844-4a9c-81a9-6cbf1863cd71> a crm:E42_Identifier ;
     rdfs:label "276456" .
@@ -2415,19 +2684,23 @@
     rdfs:label "jesuites_de_douai" .
 
 <7d964475-31d0-443e-aed8-c3697a2f525a> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Laval"@fr .
+    rdfs:label "Capucins de Laval"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7d9eda4d-e925-4ee1-a731-47eeedfed456> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Quentin de Saint-Quentin"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Quentin de Saint-Quentin"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7de57279-cc45-4025-9b04-d46a58abe2d5> a crm:E42_Identifier ;
     rdfs:label "eveque_de_saint-papoul" .
 
 <7df83cc0-badb-4bc2-8b09-7432400a9015> a crm:E41_Appellation ;
-    rdfs:label "Évêque de La Rochelle"@fr .
+    rdfs:label "Évêque de La Rochelle"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7e0cd2c0-5304-404d-8321-d97d56d45941> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Grenoble"@fr .
+    rdfs:label "Jésuites de Grenoble"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7e8948f2-2d9a-4dcf-b322-5e145b8739e6> a crm:E42_Identifier ;
     rdfs:label "hospitalieres_de_saint-jean-de-jerusalem_de_toulouse" .
@@ -2442,43 +2715,53 @@
     rdfs:label "chapitre_de_la_collegiale_saint-martin_de_clamecy" .
 
 <7f8cb251-8827-4620-9cc8-1cc0bcbb38d1> a crm:E41_Appellation ;
-    rdfs:label "Capucines"@fr .
+    rdfs:label "Capucines"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <7fc85f8b-89a3-4b49-b365-10365b6c5e26> a crm:E42_Identifier ;
     rdfs:label "295017" .
 
 <7ffb1507-2921-4df2-84bb-998dd6ddce0f> a crm:E41_Appellation ;
-    rdfs:label "Oratoriens de Paris"@fr .
+    rdfs:label "Oratoriens de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8087b8dd-ae3c-40f1-b395-2d659ea6a5ac> a crm:E42_Identifier ;
     rdfs:label "dominicains_de_caen" .
 
 <80dc0d93-0790-4c7c-9379-3cc74905643c> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de Sainte-Anne-d’Auray"@fr .
+    rdfs:label "Grands carmes de Sainte-Anne-d’Auray"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <80f07cbd-e084-41bb-9d79-6767fbadab34> a crm:E41_Appellation ;
-    rdfs:label "Bénédictines du Prieuré Notre-Dame-des-Anges de Moret"@fr .
+    rdfs:label "Bénédictines du Prieuré Notre-Dame-des-Anges de Moret"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <811feed7-6e3f-43f6-a064-7afa7f13f515> a crm:E41_Appellation ;
-    rdfs:label "Bénédictines"@fr .
+    rdfs:label "Bénédictines"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <819c402d-9d7e-40d3-b0e8-7515a4084524> a crm:E41_Appellation ;
-    rdfs:label "Franciscains (ordre)"@fr .
+    rdfs:label "Franciscains (ordre)"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <81a09f3f-6a57-4e7f-9d0d-96d7ccd4f12b> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Étienne de Toulouse"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Étienne de Toulouse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <81e962b0-73ce-4b51-a6f8-b78dea47edfa> a crm:E41_Appellation ;
-    rdfs:label "Capucins d'Amiens"@fr .
+    rdfs:label "Capucins d'Amiens"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <823af7fd-3f21-4cbb-8b9b-c926c3efbaca> a crm:E42_Identifier ;
     rdfs:label "eveque_du_puy" .
 
 <82821686-5d35-46bd-b9b2-e934a36b55cc> a crm:E41_Appellation ;
-    rdfs:label "Grands Augustins de Poitiers"@fr .
+    rdfs:label "Grands Augustins de Poitiers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8320675a-1b8c-4981-8457-e7e7a3f79f72> a crm:E41_Appellation ;
-    rdfs:label "Feuillants du monastère de Châtillon-sur-Seine"@fr .
+    rdfs:label "Feuillants du monastère de Châtillon-sur-Seine"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <839af5d4-d86c-4f62-a622-d02c9a373c5c> a crm:E42_Identifier ;
     rdfs:label "franciscains_(ordre)" .
@@ -2488,13 +2771,15 @@
 
 <84a980ac-0323-4d82-9f69-3b50dc2e7213> a crm:E41_Appellation ;
     rdfs:label "Cisterciennes"@fr ;
-    crm:P139_has_alternative_form <272e15ce-1ea1-4c59-b15d-a010fafde4b4> .
+    crm:P2_has_type skos:prefLabel .
 
 <8513176a-0943-458d-87dd-5ce13d743d51> a crm:E41_Appellation ;
-    rdfs:label "Sociétés de prêtres et de frères"@fr .
+    rdfs:label "Sociétés de prêtres et de frères"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <85dd4c7f-0736-4fcf-9abb-404534ba4e9b> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Saint-Antonin"@fr .
+    rdfs:label "Cordeliers de Saint-Antonin"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <85f40053-fda8-4925-8c07-14c84cddd507> a crm:E42_Identifier ;
     rdfs:label "archeveque_de_paris" .
@@ -2503,7 +2788,8 @@
     rdfs:label "278123" .
 
 <865299fd-8a99-45d9-b8fe-9a4721eefce9> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Laon"@fr .
+    rdfs:label "Évêque de Laon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <86e87b80-5487-4531-bee4-f9a298e1cc7c> a crm:E42_Identifier ;
     rdfs:label "eveque_de_clermont" .
@@ -2515,7 +2801,8 @@
     rdfs:label "ursulines_de_rennes" .
 
 <8749636d-61fe-4615-8ab7-02b37ba51a5b> a crm:E41_Appellation ;
-    rdfs:label "Religieux pénitents du tiers-ordre de Saint-François"@fr .
+    rdfs:label "Religieux pénitents du tiers-ordre de Saint-François"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8783621b-cdb9-4b3a-96b5-c351284ace01> a crm:E42_Identifier ;
     rdfs:label "eveque_de_cahors" .
@@ -2524,31 +2811,38 @@
     rdfs:label "recollets_de_paris" .
 
 <87b0cc13-963a-4ed8-a8cb-69469f0aeee2> a crm:E41_Appellation ;
-    rdfs:label "Chanoinesses nobles"@fr .
+    rdfs:label "Chanoinesses nobles"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <882e7130-6369-4d55-a4de-4da9492283d7> a crm:E42_Identifier ;
     rdfs:label "abbe_de_saint-pierre_la_couture" .
 
 <88ea393c-8cc9-4ab4-bd6f-7ebd085d986b> a crm:E41_Appellation ;
-    rdfs:label "Clergé de Niort"@fr .
+    rdfs:label "Clergé de Niort"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <891e7f7b-7243-46d3-aba1-c6f9af2236e2> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Frejus"@fr .
+    rdfs:label "Évêque de Frejus"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <892bdabb-c45d-44e8-acf0-b27be5e03e38> a crm:E41_Appellation ;
-    rdfs:label "Oratoriens de Marseille"@fr .
+    rdfs:label "Oratoriens de Marseille"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <894ad561-12db-493d-b92c-4d8cab4ef236> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Nogent-sur-Seine"@fr .
+    rdfs:label "Capucins de Nogent-sur-Seine"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <896ae2e1-618c-46b5-aee5-6a204b8b184f> a crm:E41_Appellation ;
-    rdfs:label "Bernardines de l'Abbaye de La Virginité des Roches-l'Évêque"@fr .
+    rdfs:label "Bernardines de l'Abbaye de La Virginité des Roches-l'Évêque"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <898389ad-d431-453a-a560-bc9626ff5225> a crm:E42_Identifier ;
     rdfs:label "jesuites_d_avignon" .
 
 <89928a6a-5b44-4962-addb-f582e0f9ddc5> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Blois"@fr .
+    rdfs:label "Capucins de Blois"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <899894c8-4f85-4695-aeb0-24306ad6ac32> a crm:E42_Identifier ;
     rdfs:label "294409" .
@@ -2561,34 +2855,40 @@
 
 <89d11fe1-bb5c-4bda-a6f2-df601436d907> a crm:E41_Appellation ;
     rdfs:label "Calvairiennes"@fr ;
-    crm:P139_has_alternative_form <b01d299c-b919-40b0-be05-bc9fdd181f8e> .
+    crm:P2_has_type skos:prefLabel .
 
 <89d8873c-658a-4436-8db4-e914639a33e1> a crm:E42_Identifier ;
     rdfs:label "293823" .
 
 <8a2d2473-6624-406c-afa6-5de6e1aee940> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Sainte-Croix de Montélimar"@fr .
+    rdfs:label "Chapitre de la collégiale Sainte-Croix de Montélimar"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8ab19ffd-be15-4f06-82aa-2210c746e9f3> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Dôle"@fr .
+    rdfs:label "Jésuites de Dôle"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8ae9d700-2a53-4f62-82f3-47cc23c22977> a crm:E41_Appellation ;
-    rdfs:label "Cisterciennes de l’abbaye Notre-Dame de Gomerfontaine"@fr .
+    rdfs:label "Cisterciennes de l’abbaye Notre-Dame de Gomerfontaine"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8b1ca892-e99f-4272-9c8c-0a49e0fc7114> a crm:E42_Identifier ;
     rdfs:label "294023" .
 
 <8b56f7bc-99e5-4174-a691-ee916e6bba25> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Troyes"@fr .
+    rdfs:label "Évêque de Troyes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8b84c29b-97ea-48ba-a613-b2b146a8ca70> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de la Sainte-Chapelle du Palais"@fr .
+    rdfs:label "Chanoines réguliers de la Sainte-Chapelle du Palais"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8bbb0add-17a7-4a99-bba2-0ababbdfd52a> a crm:E42_Identifier ;
     rdfs:label "annonciades_de_bourges" .
 
 <8be212f1-a46b-4a66-ba8d-8dc24e66ef45> a crm:E41_Appellation ;
-    rdfs:label "Augustins réformés de la rue des Petits-Augustins à Paris"@fr .
+    rdfs:label "Augustins réformés de la rue des Petits-Augustins à Paris"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <8c031cfb-311f-4368-badf-bcbc6b125d23> rdfs:label "Supérieur chargé dans certains ordres, notamment chez les Franciscains, du gouvernement d'une circonscription religieuse. Le custode de Terre sainte.  (cf. https://www.cnrtl.fr/definition/academie9/custode//1)."@fr .
 
@@ -2596,36 +2896,42 @@
     rdfs:label "freres_de_la_charite_d_evreux" .
 
 <8c88f6c9-631b-4584-b4a7-332023ba0ef8> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Loches"@fr .
+    rdfs:label "Capucins de Loches"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8d044c46-69fa-442a-afab-f003ae34e909> a crm:E42_Identifier ;
     rdfs:label "278127" .
 
 <8d3bd1ef-8fc1-4aaa-bf87-1ed55558d22d> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Notre-Dame de Rouen"@fr .
+    rdfs:label "Chapitre de la cathédrale Notre-Dame de Rouen"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8d7107fa-b47e-488a-a722-1b4016a284a8> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Jean-Baptiste de Perpignan"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Jean-Baptiste de Perpignan"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8d8c8f29-e51f-41c7-8664-1e04872d2c80> a crm:E41_Appellation ;
     rdfs:label "Cisterciennes de l’Abbaye Port-Royal de Paris"@fr ;
-    crm:P139_has_alternative_form <09cbd0e8-f676-4ac5-9098-440c8efb7b02> .
+    crm:P2_has_type skos:prefLabel .
 
 <8d9d6187-332a-4cb6-b6ae-1044897136e0> a crm:E42_Identifier ;
     rdfs:label "294541" .
 
 <8dd6b266-4a1e-4ef6-a5e9-d9a049718791> a crm:E41_Appellation ;
-    rdfs:label "Grands Augustins de Bayonne"@fr .
+    rdfs:label "Grands Augustins de Bayonne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8e801bb1-fbc8-45ed-8b7d-0bf4e6e1810a> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers d'Évreux"@fr .
+    rdfs:label "Cordeliers d'Évreux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8e9eeab5-f761-4928-ac30-985ac2f3e8a5> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Notre-Dame de Tournai"@fr .
+    rdfs:label "Chapitre de la cathédrale Notre-Dame de Tournai"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8ed16356-e827-4a23-ad27-ef6283263d91> a crm:E41_Appellation ;
     rdfs:label "Visitandines"@fr ;
-    crm:P139_has_alternative_form <268b7f9e-4e18-4d9d-9d27-73e5292f02e3> .
+    crm:P2_has_type skos:prefLabel .
 
 <8f0c1210-f45b-420b-bdfa-f98eef8baec9> a crm:E42_Identifier ;
     rdfs:label "oratorien" .
@@ -2639,10 +2945,12 @@
 <8fd42ce2-32c3-4ffc-8346-62efeeb02cb0> rdfs:label "« La custodie franciscaine de Terre sainte ou custodie de Terre sainte (en latin : Custodia Terræ Sanctæ) est une institution catholique responsable des intérêts de l'Église catholique romaine en Terre sainte, notamment de la garde des lieux saints à Jérusalem, depuis le xiiie siècle. Cette institution est dirigée par un custode » (cf. https://fr.wikipedia.org/wiki/Custodie_(institution)#top, consulté le 18 février 2021)."@fr .
 
 <8fef361e-73ea-44ed-b0ad-57476f086ecd> a crm:E41_Appellation ;
-    rdfs:label "Mauristes de l'abbaye de Saint-Germain-des-Prés"@fr .
+    rdfs:label "Mauristes de l'abbaye de Saint-Germain-des-Prés"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <8ffba4b9-e7cc-443d-b349-4fbbe9637de2> a crm:E41_Appellation ;
-    rdfs:label "Clercs réguliers de Saint-Paul"@fr .
+    rdfs:label "Clercs réguliers de Saint-Paul"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <904745aa-6604-4eb1-a9f5-99b74254d979> a crm:E42_Identifier ;
     rdfs:label "cisterciennes_de_l_abbaye_de_la_virginite_des_roches-l_eveque" .
@@ -2651,28 +2959,34 @@
     rdfs:label "chanoines_reguliers_de_premontre" .
 
 <90c71579-8a8c-4ae1-bb5b-d113cb11a89e> a crm:E41_Appellation ;
-    rdfs:label "Clergé paroissial"@fr .
+    rdfs:label "Clergé paroissial"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <90f5cd3b-5266-4de1-8e32-ea81c2bf57f6> a crm:E42_Identifier ;
     rdfs:label "recollets_de_montelimar" .
 
 <9108cf85-ed8b-4fc0-89b2-14ca3ace0345> a crm:E41_Appellation ;
-    rdfs:label "Visitandines d'Aix-en-Provence"@fr .
+    rdfs:label "Visitandines d'Aix-en-Provence"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9109b54f-9126-4123-bfd3-2cd5cb64dcf1> a crm:E41_Appellation ;
-    rdfs:label "Camerlingue de la Sainte Église romaine"@fr .
+    rdfs:label "Camerlingue de la Sainte Église romaine"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9139c725-441a-4719-8dd1-467ea3975301> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Naples"@fr .
+    rdfs:label "Cordeliers de Naples"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <91a7cc18-9c35-405f-8714-81e49d3ded65> a crm:E41_Appellation ;
-    rdfs:label "Chanoinesses de saint Augustin"@fr .
+    rdfs:label "Chanoinesses de saint Augustin"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <91b2fc1f-b0c3-45c2-9338-cb5de41a0537> a crm:E42_Identifier ;
     rdfs:label "chanoines_reguliers_de_saint_augustin" .
 
 <924d95f2-7d51-4c07-b670-195e24385196> a crm:E41_Appellation ;
-    rdfs:label "Archevêchés"@fr .
+    rdfs:label "Archevêchés"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <926a0986-b281-4265-98be-1604996a0c10> a crm:E42_Identifier ;
     rdfs:label "277988" .
@@ -2684,29 +2998,34 @@
     rdfs:label "276459" .
 
 <93043cf9-6f44-4bb2-805e-a27aad3f4061> a crm:E41_Appellation ;
-    rdfs:label "Bernardines de l’Abbaye Saint-Antoine-des-Champs de Paris"@fr .
+    rdfs:label "Bernardines de l’Abbaye Saint-Antoine-des-Champs de Paris"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <935fde50-bb03-431e-a7ab-f91a95ea3643> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Brest"@fr .
+    rdfs:label "Jésuites de Brest"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9398252e-be5e-4972-ad10-8d7df18bbe78> a crm:E42_Identifier ;
     rdfs:label "freres_de_la_charite_de_grenoble" .
 
 <93eb4f55-eae6-487f-9c98-cd040513c4db> a crm:E41_Appellation ;
-    rdfs:label "Chapitres collégiaux"@fr .
+    rdfs:label "Chapitres collégiaux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <94148c09-1bc3-4c85-98f3-8811475bf8cf> a crm:E41_Appellation ;
-    rdfs:label "Augustines hospitalières"@fr .
+    rdfs:label "Augustines hospitalières"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <945dc2fa-55a7-40cb-b7a1-91dc06290332> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale de Westminster"@fr .
+    rdfs:label "Chapitre de la cathédrale de Westminster"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9492f85c-a50d-42fd-b1d9-923a3529627a> a crm:E42_Identifier ;
     rdfs:label "eveque_de_marseille" .
 
 <94bded23-928f-423e-9cfe-bc75822671fe> a crm:E41_Appellation ;
     rdfs:label "Feuillants"@fr ;
-    crm:P139_has_alternative_form <9ab2e862-dfa0-4517-b1cb-2d6f1641402d> .
+    crm:P2_has_type skos:prefLabel .
 
 <94c26147-b402-4a69-8de9-29dd411a61ad> a crm:E42_Identifier ;
     rdfs:label "chanoines_reguliers_de_la_maison_royale_de_sainte-croix-de-la-bretonnerie" .
@@ -2724,22 +3043,27 @@
     rdfs:label "recollets_de_saint-denis" .
 
 <960f4454-d2ee-4633-91e5-c6a0caa25f72> a crm:E41_Appellation ;
-    rdfs:label "Ordre Notre-Dame-de-Charité"@fr .
+    rdfs:label "Ordre Notre-Dame-de-Charité"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <96956cfc-af99-4a3b-8ce6-401c7dc503a0> a crm:E42_Identifier ;
     rdfs:label "papaute" .
 
 <96b06989-16ec-4bce-9b4d-768efb6fef2f> a crm:E41_Appellation ;
-    rdfs:label "Carmes déchaux"@fr .
+    rdfs:label "Carmes déchaux"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <97cddc49-f3ba-42cf-a56b-ae0e84c74abd> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Rodez"@fr .
+    rdfs:label "Évêque de Rodez"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <97fdf52e-9078-4667-929c-cd00f8ebee87> a crm:E41_Appellation ;
-    rdfs:label "Congrégation de Saint-Maur"@fr .
+    rdfs:label "Congrégation de Saint-Maur"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <9803fa1f-dd53-4576-bdd0-ea0a3dd18045> a crm:E41_Appellation ;
-    rdfs:label "Ursulines"@fr .
+    rdfs:label "Ursulines"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9828bc44-d0b3-4082-80a4-d344f9176579> a crm:E42_Identifier ;
     rdfs:label "capucines" .
@@ -2748,7 +3072,8 @@
     rdfs:label "jesuites_de_rennes" .
 
 <98bae951-07fb-4e90-8cf9-446ca4dba368> a crm:E41_Appellation ;
-    rdfs:label "Capucins du Havre"@fr .
+    rdfs:label "Capucins du Havre"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <98bf2c8a-19f4-4327-9c49-0c825b8e44fa> a crm:E42_Identifier ;
     rdfs:label "archeveque_d_arles" .
@@ -2766,10 +3091,12 @@
     rdfs:label "294289" .
 
 <9994f33a-786a-4329-a23c-af6401696cf9> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Compiègne"@fr .
+    rdfs:label "Jésuites de Compiègne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9a15df8d-01e8-4969-840e-b05252593f6c> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Pampelune"@fr .
+    rdfs:label "Évêque de Pampelune"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9a31bef1-af74-434c-986c-13b6f505a96f> a crm:E42_Identifier ;
     rdfs:label "oratoriens_d_angers" .
@@ -2781,7 +3108,8 @@
     rdfs:label "jesuites_de_chalons-en-champagne" .
 
 <9ab2e862-dfa0-4517-b1cb-2d6f1641402d> a crm:E41_Appellation ;
-    rdfs:label "Feuillantins"@fr .
+    rdfs:label "Feuillantins"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <9ac32020-bfc8-40b9-b904-94a56819315e> a crm:E42_Identifier ;
     rdfs:label "cordeliers_de_chateauroux" .
@@ -2794,7 +3122,7 @@
 
 <9b0f0f76-6162-41a8-9a68-00e4a7a46960> a crm:E41_Appellation ;
     rdfs:label "Tribunal de la Rote"@fr ;
-    crm:P139_has_alternative_form <36f2dca3-9264-4518-bd9f-36841772acaa> .
+    crm:P2_has_type skos:prefLabel .
 
 <9b4e9f8f-91db-4ec4-baae-7aa09d27d6c1> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_notre-dame_de_tournai" .
@@ -2803,25 +3131,30 @@
     rdfs:label "dominicains_de_bordeaux" .
 
 <9b8f8771-0292-4517-a8a3-57fe45a06803> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Libourne"@fr .
+    rdfs:label "Cordeliers de Libourne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9bcdc6f4-032a-4609-b407-1afcbac88d0d> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de Lille"@fr .
+    rdfs:label "Grands carmes de Lille"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9c4e49f3-26a5-47e9-9c5f-89626fb222dc> a crm:E42_Identifier ;
     rdfs:label "jesuites_de_rome" .
 
 <9cb8059e-c1a0-4110-8516-34c6073c9300> a crm:E41_Appellation ;
-    rdfs:label "Bénédictines de l'abbaye de Notre-Dame de Soissons"@fr .
+    rdfs:label "Bénédictines de l'abbaye de Notre-Dame de Soissons"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9cb88a0c-73f5-48de-ba95-d00712ca0923> a crm:E42_Identifier ;
     rdfs:label "cisterciens_de_l_abbaye_de_clairvaux" .
 
 <9da7402b-0334-405e-8c1c-916eb8c5e9e6> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Paul de Münster"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Paul de Münster"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9e0727ec-1eb1-486c-8ebb-d08b253a8323> a crm:E41_Appellation ;
-    rdfs:label "Annonciades de Bourges"@fr .
+    rdfs:label "Annonciades de Bourges"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9e108674-7070-4299-a64e-3619ad449605> a crm:E42_Identifier ;
     rdfs:label "camerlingue_de_la_sainte_eglise_romaine" .
@@ -2839,31 +3172,38 @@
     rdfs:label "chapitre_de_la_cathedrale_saint-pierre_et_saint-paul_de_troyes" .
 
 <9f53c8cd-792e-46fc-bf8c-83a8d1082642> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes du grand couvent de Paris"@fr .
+    rdfs:label "Grands carmes du grand couvent de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9f6ceb0c-9326-4114-bf35-190b65edfd2f> a crm:E41_Appellation ;
-    rdfs:label "Clergé de la cathédrale Saint-Apollinaire de Valence"@fr .
+    rdfs:label "Clergé de la cathédrale Saint-Apollinaire de Valence"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9fb1d8c4-7ccb-4907-8c2a-1642d0fa46b8> a crm:E42_Identifier ;
     rdfs:label "benedictines_de_l_abbaye_saint-pierre_de_lyon" .
 
 <9fb80720-e981-43ad-ac95-e3d920881835> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Melun"@fr .
+    rdfs:label "Capucins de Melun"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9fbc14bb-0261-45aa-a2d9-ac7949de0bde> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Guyenne"@fr .
+    rdfs:label "Récollets de Guyenne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9fcb953d-da01-4fc6-81d4-260a6e779ba1> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Vernon"@fr .
+    rdfs:label "Capucins de Vernon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <9fe82fb6-844e-40ca-b14b-53f8ec86e132> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Louis de La Rochelle"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Louis de La Rochelle"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a0766bc4-245f-4c0a-8196-69d2c01fd6a4> a crm:E42_Identifier ;
     rdfs:label "grands_carmes_de_toulouse" .
 
 <a0ddf5a0-0bd9-4fb2-96e0-b1c58d069d5c> a crm:E41_Appellation ;
-    rdfs:label "Frères de la Charité d'Évreux"@fr .
+    rdfs:label "Frères de la Charité d'Évreux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a11ee237-49c5-4fdf-8fec-ed76ad155cf1> a crm:E42_Identifier ;
     rdfs:label "abbe_de_l_eglise_abbatiale_de_saint-etienne_de_dijon" .
@@ -2881,29 +3221,33 @@
     rdfs:label "grands_carmes_de_besancon" .
 
 <a38baa03-df43-458d-b9e8-ddbb13ffb451> a crm:E41_Appellation ;
-    rdfs:label "Chanoinesses régulières de l'abbaye de Bélem à Bélian"@fr .
+    rdfs:label "Chanoinesses régulières de l'abbaye de Bélem à Bélian"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a38d20e3-3c4a-4bdd-a41e-1413758d04e7> a crm:E42_Identifier ;
     rdfs:label "276455" .
 
 <a39dd476-e218-40ed-ae25-7354c3793a8e> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Tours"@fr .
+    rdfs:label "Capucins de Tours"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a3a34cc8-4c2c-41f3-8602-053340d8538d> a crm:E42_Identifier ;
     rdfs:label "chapitres_collegiaux" .
 
 <a3b6a3a4-af15-4396-bf4c-326f11bb73dd> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Chartres"@fr .
+    rdfs:label "Évêque de Chartres"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a3e53e95-d29a-416f-9f0e-0c0fc79615ef> a crm:E42_Identifier ;
     rdfs:label "eveque_de_laon" .
 
 <a3f5bcaa-37a8-4343-b5f6-5ddac5892b8c> a crm:E41_Appellation ;
     rdfs:label "Cisterciennes de l’Abbaye Saint-Antoine-des-Champs de Paris"@fr ;
-    crm:P139_has_alternative_form <93043cf9-6f44-4bb2-805e-a27aad3f4061> .
+    crm:P2_has_type skos:prefLabel .
 
 <a438442f-40d6-42cc-84dd-0967d0116c44> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Besançon"@fr .
+    rdfs:label "Archevêque de Besançon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a450eea4-cf8b-40ca-88fe-5ed8347568db> a crm:E42_Identifier ;
     rdfs:label "276462" .
@@ -2921,7 +3265,8 @@
     rdfs:label "chapitre_de_la_cathedrale_saint-louis_de_la_rochelle" .
 
 <a539cccc-3d30-4309-8f2e-21e5eaf6d623> a crm:E41_Appellation ;
-    rdfs:label "Évêché"@fr .
+    rdfs:label "Évêché"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a53f5a7e-6497-4ca6-be09-d2b1130a12cd> a crm:E42_Identifier ;
     rdfs:label "278131" .
@@ -2930,29 +3275,34 @@
     rdfs:label "chanoines_reguliers_de_premontre_de_saint-joseph_a_nancy" .
 
 <a5726424-6d12-483d-9216-548c08c5e9e6> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Soissons"@fr .
+    rdfs:label "Évêque de Soissons"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a590e11a-344a-4117-aeaf-e59c4a72b739> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Malo de Valogne"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Malo de Valogne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a5988c9a-60eb-4be6-8d7c-9e15315563aa> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Rouen"@fr .
+    rdfs:label "Archevêque de Rouen"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a5dc6b02-07b4-4008-9238-5aa2a2f637f2> a crm:E41_Appellation ;
     rdfs:label "Dominicains de Beauvais"@fr ;
-    crm:P139_has_alternative_form <36c8e6ef-2682-4c1e-baf3-3e380f9dfb43> .
+    crm:P2_has_type skos:prefLabel .
 
 <a5ef26e7-df37-4c08-b260-a1810571f305> a crm:E42_Identifier ;
     rdfs:label "294439" .
 
 <a6472e98-406a-4923-9fdb-ac1fce186675> a crm:E41_Appellation ;
-    rdfs:label "Ordre de la Sainte Trinité et de la Rédemption des Captifs"@fr .
+    rdfs:label "Ordre de la Sainte Trinité et de la Rédemption des Captifs"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <a66ae526-1780-441a-83f5-4c16512c88a9> a crm:E42_Identifier ;
     rdfs:label "carmelites_du_monastere_de_la_rue_du_bouloir_a_paris" .
 
 <a6725df8-aacf-4501-95af-0786fe610994> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Saint-Germain-en-Laye"@fr .
+    rdfs:label "Récollets de Saint-Germain-en-Laye"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a6a9a6a9-08d1-4a63-b293-11143ca0ef5d> a crm:E42_Identifier ;
     rdfs:label "augustines_hospitalieres_de_la_place_royale_de_paris" .
@@ -2961,16 +3311,19 @@
     rdfs:label "ordres_chevaleresques" .
 
 <a729a1ab-1cca-49ad-8a3e-f5e230aeb73b> a crm:E41_Appellation ;
-    rdfs:label "Moines ou moniales"@fr .
+    rdfs:label "Moines ou moniales"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a7364b66-3de7-4437-bf89-f2f4d78123b4> a crm:E41_Appellation ;
-    rdfs:label "Chanoinesses nobles de l'abbaye bénédictine de Maubeuge"@fr .
+    rdfs:label "Chanoinesses nobles de l'abbaye bénédictine de Maubeuge"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a790cbbe-7245-4123-af43-40de56315a3b> a crm:E42_Identifier ;
     rdfs:label "grands_augustins_de_bordeaux" .
 
 <a7a5e45a-7ea1-4d66-8ad7-34c53e443736> a crm:E41_Appellation ;
-    rdfs:label "Mauristes de l’abbaye de la Trinité de Fécamp"@fr .
+    rdfs:label "Mauristes de l’abbaye de la Trinité de Fécamp"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a8286018-85d9-4510-906c-81cbb59dea74> a crm:E42_Identifier ;
     rdfs:label "293831" .
@@ -2982,10 +3335,12 @@
     rdfs:label "jesuites_de_lyon" .
 
 <a8de0d1c-40ac-4b7f-9816-a2704361c49a> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Quebec"@fr .
+    rdfs:label "Évêque de Quebec"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a90fa060-3e3c-4a69-8f0c-55f1733893b1> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Reims"@fr .
+    rdfs:label "Cordeliers de Reims"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a93eaabf-a2b3-4632-8164-529a91e46400> a crm:E42_Identifier ;
     rdfs:label "294379" .
@@ -2997,7 +3352,8 @@
     rdfs:label "278122" .
 
 <a9d7b0f8-ee12-4f2b-88c6-92bc6a778ccf> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Versailles"@fr .
+    rdfs:label "Récollets de Versailles"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <a9fe7fd9-c7ab-4526-b305-cb697962dff9> a crm:E42_Identifier ;
     rdfs:label "eveque_de_condom" .
@@ -3009,13 +3365,16 @@
     rdfs:label "recollets_de_clamecy" .
 
 <aa92a15f-29a2-4976-a6b0-354cdc2323c7> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale du Saint-Sépulcre de Caen"@fr .
+    rdfs:label "Chapitre de la collégiale du Saint-Sépulcre de Caen"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <aaabdf61-fe0c-4bf8-81f9-9251825aeff8> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes des Basses-Loges"@fr .
+    rdfs:label "Grands carmes des Basses-Loges"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <aae3a5f0-7d1b-48c4-b2b8-371223c67b0e> a crm:E41_Appellation ;
-    rdfs:label "Filles de Notre-Dame"@fr .
+    rdfs:label "Filles de Notre-Dame"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <ab3b26b7-40dd-48a0-a34c-e2515aebc9b3> a crm:E42_Identifier ;
     rdfs:label "cisterciens_(bernardins)" .
@@ -3030,43 +3389,52 @@
     rdfs:label "chanoines_reguliers" .
 
 <ab98638f-b54b-44e9-91af-36fbfb2e8d99> a crm:E41_Appellation ;
-    rdfs:label "Mauristes de l'abbaye Saint-Laumer de Blois"@fr .
+    rdfs:label "Mauristes de l'abbaye Saint-Laumer de Blois"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <aba7cd26-9878-4914-9b09-e82e9788640c> a crm:E41_Appellation ;
-    rdfs:label "Jésuites d'Eu"@fr .
+    rdfs:label "Jésuites d'Eu"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <abad279b-99c2-46b8-9b2d-b5795475e35c> a crm:E42_Identifier ;
     rdfs:label "clerge_de_l_eglise_paroissiale_saint-hippolyte_de_paris" .
 
 <abf1a962-76b1-4f28-a10b-6cd87dcdb185> a crm:E41_Appellation ;
-    rdfs:label "Évêque d'Alet"@fr .
+    rdfs:label "Évêque d'Alet"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ac3a1ca6-ad65-480e-ae5e-d5b6e0aa0331> a crm:E41_Appellation ;
-    rdfs:label "Clergé séculier"@fr .
+    rdfs:label "Clergé séculier"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ac719b74-a702-47ec-ae1e-1fd544761ff7> a crm:E41_Appellation ;
-    rdfs:label "Bernardin"@fr .
+    rdfs:label "Bernardin"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <ac8a2ad4-c2fa-4483-8c1d-241b6cf6bcc7> a crm:E42_Identifier ;
     rdfs:label "276448" .
 
 <ac8f8dac-6807-47e0-b03f-89eab99e2c62> a crm:E41_Appellation ;
-    rdfs:label "Évêque d'Aire"@fr .
+    rdfs:label "Évêque d'Aire"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <acb399f4-23dc-4d65-bae0-e0a93e964fde> a crm:E42_Identifier ;
     rdfs:label "chanoines_reguliers_de_l_abbaye_royale_de_saint-victor_de_paris" .
 
 <ace3dfb0-9e4a-450e-a5e8-41d8e14c4230> a crm:E41_Appellation ;
-    rdfs:label "Chanoinesses régulières anglaises de Paris"@fr .
+    rdfs:label "Chanoinesses régulières anglaises de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ad022128-b318-4c15-8e0a-8339199ad366> a crm:E42_Identifier ;
     rdfs:label "chanoinesses_augustines_de_l_abbaye_saint-pantaleon_de_toulouse" .
 
 <ad28fb1d-54e0-4b42-9625-bc312f93b4f7> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Jarnac"@fr .
+    rdfs:label "Récollets de Jarnac"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ad48b958-f74b-4f4b-9dba-5dd2233a015e> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Poitiers"@fr .
+    rdfs:label "Jésuites de Poitiers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <adae4564-f33c-4072-a11e-53fa9fcaf9a2> a crm:E42_Identifier ;
     rdfs:label "visitandines" .
@@ -3078,66 +3446,81 @@
     rdfs:label "277993" .
 
 <aeb57f69-6d99-422d-9f1a-e2d49d0335e9> a crm:E41_Appellation ;
-    rdfs:label "Ordre de Saint-Jacques de l'Épée"@fr .
+    rdfs:label "Ordre de Saint-Jacques de l'Épée"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <af17c2b0-1fbf-40c1-b699-9e8149d940a9> a crm:E42_Identifier ;
     rdfs:label "293791" .
 
 <af628c2c-4d40-44fa-8464-000c1f55e472> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Notre-Dame-du-Mur de Morlaix"@fr .
+    rdfs:label "Chapitre de la collégiale Notre-Dame-du-Mur de Morlaix"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <afcf922e-5175-4bc1-b0b6-afac5bbe6b98> a crm:E41_Appellation ;
-    rdfs:label "Clergé de la cathédrale Notre-Dame-du-Puy de Grasse"@fr .
+    rdfs:label "Clergé de la cathédrale Notre-Dame-du-Puy de Grasse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <aff1c20a-286f-498e-a068-5248ba4404ef> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Ligny"@fr .
+    rdfs:label "Capucins de Ligny"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b01d299c-b919-40b0-be05-bc9fdd181f8e> a crm:E41_Appellation ;
-    rdfs:label "Ordre de Saint-Benoît de la Congrégation Notre-Dame du Calvaire"@fr .
+    rdfs:label "Ordre de Saint-Benoît de la Congrégation Notre-Dame du Calvaire"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <b0af882b-b9d0-4c24-8605-a8a1f779d148> a crm:E41_Appellation ;
-    rdfs:label "Prince-évêque de Metz"@fr .
+    rdfs:label "Prince-évêque de Metz"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b0faefb8-3260-4027-b6c9-2aaf38a4a5a8> a crm:E41_Appellation ;
-    rdfs:label "Ursulines de Ligny"@fr .
+    rdfs:label "Ursulines de Ligny"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b1215bc9-5c99-4604-aed4-e3a4cf3bef40> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Lisieux"@fr .
+    rdfs:label "Évêque de Lisieux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b1509816-a57f-437b-ba49-4041fc40ef14> a crm:E42_Identifier ;
     rdfs:label "eveque_de_blois" .
 
 <b155615c-6cef-4cca-92e5-2a4fdc492363> a crm:E41_Appellation ;
-    rdfs:label "Théatins de Paris"@fr .
+    rdfs:label "Théatins de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b155f732-7b5d-4692-af9a-84f0aacacce0> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Lavaur"@fr .
+    rdfs:label "Évêque de Lavaur"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b163a517-6184-48b6-b49b-31c7c1f9b58c> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Pierre de Montpellier"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Pierre de Montpellier"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b17d9c38-7860-4928-b0e5-c2490776648e> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Carcassonne"@fr .
+    rdfs:label "Évêque de Carcassonne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b19c8e20-0a66-403f-8c64-dffdde8ee499> a crm:E41_Appellation ;
     rdfs:label "Dominicains (ordre)"@fr ;
-    crm:P139_has_alternative_form <22035850-3772-433f-a740-7cf1262f8e03>,
-        <64b91c8a-988f-4322-8a08-48318b56849a> .
+    crm:P2_has_type skos:prefLabel .
 
 <b1e929a0-dd6c-4f00-8e53-c33f09e6d2c8> a crm:E41_Appellation ;
-    rdfs:label "Capucines du couvent de la rue Saint-Honoré à Paris"@fr .
+    rdfs:label "Capucines du couvent de la rue Saint-Honoré à Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b29688b0-5ee9-478f-bc8b-dfdc40bbae6f> a crm:E41_Appellation ;
-    rdfs:label "Évêque d'Autun"@fr .
+    rdfs:label "Évêque d'Autun"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b2c404ea-7b6e-47d4-80af-be555d18d7af> a crm:E41_Appellation ;
-    rdfs:label "Trinitaires de Limoux"@fr .
+    rdfs:label "Trinitaires de Limoux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b39d9639-a06c-489b-96eb-81f147236ed1> a crm:E42_Identifier ;
     rdfs:label "chartreux" .
 
 <b412871b-107a-42d1-80e4-57ae10333e17> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Lyon"@fr .
+    rdfs:label "Récollets de Lyon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b46c5282-7b04-470a-bf64-1b5a67cdfe6e> a crm:E42_Identifier ;
     rdfs:label "feuillants_du_monastere_de_paris" .
@@ -3149,24 +3532,29 @@
     rdfs:label "capucins_du_havre" .
 
 <b5015e98-03cf-46b7-bfe9-85e6d673fbea> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de Pont-Audemer"@fr .
+    rdfs:label "Grands carmes de Pont-Audemer"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b54efb1e-994f-482e-92fd-d7d9dcbe6e89> a crm:E42_Identifier ;
     rdfs:label "mauristes_de_l’abbaye_de_la_trinite_de_fecamp" .
 
 <b58889e6-c9ae-4877-89fd-37bd4f342d34> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Madrid"@fr .
+    rdfs:label "Jésuites de Madrid"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b58ad8c4-1ca1-4d46-9077-e5623a7e81e4> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de La Flèche"@fr .
+    rdfs:label "Jésuites de La Flèche"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b5bda0d4-5945-4f84-92f5-c3d6ca8b890f> rdfs:label "&amp;nbsp;“L'ordre de Notre-Dame de Charité (en latin : Ordo Dominæ Nostræ de Caritate) est un ordre religieux de droit pontifical […] Les lettres patentes de 1642 comme la bulle pontificale de 1651 placent la communauté sous la règle de saint Augustin” (cf. https://fr.wikipedia.org/wiki/Ordre_de_Notre-Dame_de_Charité, consulté le 11 février 2021).&amp;nbsp; <br>"@fr .
 
 <b61bc425-e888-4811-8ed9-29b3ff154bd7> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Tarbes"@fr .
+    rdfs:label "Évêque de Tarbes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b6dea939-d7c3-4d4b-8159-45296aba8ce1> a crm:E41_Appellation ;
-    rdfs:label "Évêque d'Auxerre"@fr .
+    rdfs:label "Évêque d'Auxerre"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b77671b5-0c99-4c81-a91f-7d1c817696b5> a crm:E42_Identifier ;
     rdfs:label "capucins_de_saint-maximin-la-sainte-baume" .
@@ -3175,7 +3563,8 @@
     rdfs:label "oratoriens_de_toulouse" .
 
 <b79da495-33cb-437d-b1eb-2d556677c46a> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la Sainte-Chapelle du château du Vivier de Chaumes-en-Brie"@fr .
+    rdfs:label "Chapitre de la Sainte-Chapelle du château du Vivier de Chaumes-en-Brie"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b7b72825-e7f9-4322-a75c-a83271d75911> a crm:E42_Identifier ;
     rdfs:label "ursulines_du_havre" .
@@ -3187,7 +3576,8 @@
     rdfs:label "jesuites_d_alep" .
 
 <b7ef6a30-d008-4a52-a9e6-2812fb88c7a2> a crm:E41_Appellation ;
-    rdfs:label "Mauristes du monastère des Blancs-Manteaux à Paris"@fr .
+    rdfs:label "Mauristes du monastère des Blancs-Manteaux à Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b7f4d435-4e30-491b-81d1-d265107a99bc> a crm:E42_Identifier ;
     rdfs:label "benedictins_de_l_abbaye_de_saint-denis" .
@@ -3196,13 +3586,15 @@
     rdfs:label "eveque_de_beauvais" .
 
 <b85db7f1-93ab-4e40-813c-c2db2b209d29> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Bazas"@fr .
+    rdfs:label "Évêque de Bazas"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b91ba52f-f223-41fb-a036-2d6c08561390> a crm:E42_Identifier ;
     rdfs:label "divers" .
 
 <b92a2859-da9b-4cc5-991a-7dd5433119ba> a crm:E41_Appellation ;
-    rdfs:label "Oratoriens d’Aix-en-Provence"@fr .
+    rdfs:label "Oratoriens d’Aix-en-Provence"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <b96cd7de-4dec-4e61-9538-f25c0a202a06> a crm:E42_Identifier ;
     rdfs:label "oratoriens_de_pezenas" .
@@ -3214,10 +3606,12 @@
     rdfs:label "tiercelins_de_nancy" .
 
 <ba298e8b-1d33-4692-90d0-cb4842ccbbc7> a crm:E41_Appellation ;
-    rdfs:label "Maîtrise de Saint-Pierre de Rome"@fr .
+    rdfs:label "Maîtrise de Saint-Pierre de Rome"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ba4567d6-a051-4f20-8d63-153dd8d9284b> a crm:E41_Appellation ;
-    rdfs:label "Crossiers"@fr .
+    rdfs:label "Crossiers"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <ba58efa2-25ff-49a8-a64a-757443b7624f> a crm:E42_Identifier ;
     rdfs:label "chanoines_reguliers_de_l_ordre_de_saint-augustin_congregation_de_notre-sauveur" .
@@ -3229,41 +3623,47 @@
     rdfs:label "293833" .
 
 <baf87bd4-d082-4e25-9604-e9f25dc1c97d> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Loches"@fr .
+    rdfs:label "Cordeliers de Loches"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <bb5bdf82-b862-4d4b-8e2c-1f9ca569757c> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Agricol d'Avignon"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Agricol d'Avignon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <bbfe8464-62a3-4578-84cc-bdf1a6e71b58> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de Prémontré"@fr ;
-    crm:P139_has_alternative_form <5b5d933e-d7b1-4d5a-9e47-423482c4c91b>,
-        <7455012e-ab23-43e0-bb17-b6b292d5fe06>,
-        <ef192bf6-3eee-4e3e-ae2d-8ced55d21776> .
+    crm:P2_has_type skos:prefLabel .
 
 <bc2dc46a-9602-4312-95d6-3c80aca8160b> a crm:E41_Appellation ;
     rdfs:label "Carmes déchaussés"@fr ;
-    crm:P139_has_alternative_form <96b06989-16ec-4bce-9b4d-768efb6fef2f> .
+    crm:P2_has_type skos:prefLabel .
 
 <bc3546b9-4f10-4b70-8dcd-22aa45f356cd> a crm:E41_Appellation ;
-    rdfs:label "Doctrinaires du collège de Lesquille"@fr .
+    rdfs:label "Doctrinaires du collège de Lesquille"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <bcb2fc72-8eed-497d-8b3b-bf2346941413> a crm:E42_Identifier ;
     rdfs:label "294587" .
 
 <bce1c2b2-3eb8-4d70-b353-0e72d96d185c> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Ursin de Bourges"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Ursin de Bourges"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <bcf8af0d-c269-4b85-b043-11819ff65d64> a crm:E41_Appellation ;
-    rdfs:label "Capucins d'Étain"@fr .
+    rdfs:label "Capucins d'Étain"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <bdc4402f-ea0a-4307-8023-f27f18fa2a45> a crm:E41_Appellation ;
-    rdfs:label "Tiercelins de Terre-Sainte"@fr .
+    rdfs:label "Tiercelins de Terre-Sainte"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <be009bcf-cdb8-449c-8aa2-4f44f17a693a> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Sainte-Geneviève de l’abbaye Saint-Jacques à Provins"@fr .
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève de l’abbaye Saint-Jacques à Provins"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <be19f05c-a422-4fdd-9c30-f6f4ebc1b6fe> a crm:E41_Appellation ;
-    rdfs:label "Célestins"@fr .
+    rdfs:label "Célestins"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <be77cab7-112c-4856-acb3-010270ca14e3> a crm:E42_Identifier ;
     rdfs:label "chambre_apostolique" .
@@ -3272,7 +3672,8 @@
     rdfs:label "293807" .
 
 <bf1a82fa-7f6a-4a1d-b482-fac51f044b0b> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Douai"@fr .
+    rdfs:label "Jésuites de Douai"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c0f0f340-f09f-40c1-9325-498c471d74a7> a crm:E42_Identifier ;
     rdfs:label "capucins" .
@@ -3284,16 +3685,20 @@
     rdfs:label "recollets_de_saint-germain-en-laye" .
 
 <c142774f-7826-4105-9cab-e2b9a1c6a9b1> a crm:E41_Appellation ;
-    rdfs:label "Frères mineurs de l'étroite observance"@fr .
+    rdfs:label "Frères mineurs de l'étroite observance"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <c165f399-e0c1-4099-ab0e-4b39e22de568> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Terre-Sainte"@fr .
+    rdfs:label "Cordeliers de Terre-Sainte"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c187f313-c099-404e-be40-d33c90a8663d> a crm:E41_Appellation ;
-    rdfs:label "Chapitres de Saintes Chapelles"@fr .
+    rdfs:label "Chapitres de Saintes Chapelles"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c1b768d1-c00d-4099-a1ee-8e8774c410bd> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de La Flèche"@fr .
+    rdfs:label "Grands carmes de La Flèche"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c1c8a827-d132-48ac-b7ff-25664b0a244c> a crm:E42_Identifier ;
     rdfs:label "capucins_de_melun" .
@@ -3303,9 +3708,7 @@
 
 <c25c6a32-5190-482f-8a25-d404d529fcf4> a crm:E41_Appellation ;
     rdfs:label "Tiercelins"@fr ;
-    crm:P139_has_alternative_form <3c2a9afb-bbd2-442c-bcd4-cf8f760a095b>,
-        <c6af64a8-0be8-4cad-b0f9-107dbc791839>,
-        <e5841208-3b44-4604-bf93-2d68eaf6c6e7> .
+    crm:P2_has_type skos:prefLabel .
 
 <c2dff3a5-e061-4cc1-adef-ee780bfa8a4e> a crm:E42_Identifier ;
     rdfs:label "grands_carmes_de_sainte-anne-d’auray" .
@@ -3314,19 +3717,22 @@
     rdfs:label "294517" .
 
 <c3261d2f-67dc-4d56-a758-0effec959781> a crm:E41_Appellation ;
-    rdfs:label "Évêque d'Amiens"@fr .
+    rdfs:label "Évêque d'Amiens"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c37e12c5-1f95-46c0-83da-0c086a9bc33d> a crm:E42_Identifier ;
     rdfs:label "jesuites_de_la_fleche" .
 
 <c39692a4-41f9-4a07-a414-99025231ac25> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de Toulouse"@fr .
+    rdfs:label "Grands carmes de Toulouse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c3994d61-b01a-457c-9a43-8c8195343df5> a crm:E42_Identifier ;
     rdfs:label "archeveque_d_aix" .
 
 <c3d5a682-2a74-4963-88ac-6d50f9f96852> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Saint-Ruf de La Côte-Saint-André"@fr .
+    rdfs:label "Chanoines réguliers de Saint-Ruf de La Côte-Saint-André"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c3fd4bd9-432b-4b2f-9f38-35d6364275c7> a crm:E42_Identifier ;
     rdfs:label "benedictines_de_l_abbaye_notre-dame_de_chelles" .
@@ -3335,34 +3741,41 @@
     rdfs:label "capucins_d_etain" .
 
 <c45161cb-6fec-4d81-8de1-f546db7dd5a4> a crm:E41_Appellation ;
-    rdfs:label "Augustins déchaussés des Loges à Saint-Germain-en-Laye"@fr .
+    rdfs:label "Augustins déchaussés des Loges à Saint-Germain-en-Laye"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c4859b3f-6f33-417a-8d7e-28d08c9c69ca> a crm:E41_Appellation ;
-    rdfs:label "Carmes déchaussés de Madrid"@fr .
+    rdfs:label "Carmes déchaussés de Madrid"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c4be9067-e72e-4a7b-b177-91664fa9ec06> a crm:E42_Identifier ;
     rdfs:label "capucins_de_mayenne" .
 
 <c4cd6a21-36f1-4fb4-bd8b-9706f2bf5e8b> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Madrid"@fr .
+    rdfs:label "Cordeliers de Madrid"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c5f596d9-3c33-48ec-9d03-c54671efcb74> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Fécamp"@fr .
+    rdfs:label "Capucins de Fécamp"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c6a032a5-2d9b-4660-a249-71a7b82fe795> a crm:E42_Identifier ;
     rdfs:label "eveque_d_angouleme" .
 
 <c6af64a8-0be8-4cad-b0f9-107dbc791839> a crm:E41_Appellation ;
-    rdfs:label "Pères de Picpus"@fr .
+    rdfs:label "Pères de Picpus"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <c6be77b5-f707-40d4-906d-82a948e09783> a crm:E42_Identifier ;
     rdfs:label "294537" .
 
 <c6c92c1b-e157-415b-85d8-c82551bf46e8> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Niort"@fr .
+    rdfs:label "Capucins de Niort"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c6eeb81d-dc0f-4311-8150-9a2476c6eeaa> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Poitiers"@fr .
+    rdfs:label "Cordeliers de Poitiers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c6f3f906-c67f-46f8-8227-fa9245a12084> a crm:E42_Identifier ;
     rdfs:label "pretes_de_la_mission_de_troyes" .
@@ -3371,13 +3784,15 @@
     rdfs:label "276447" .
 
 <c7c29464-66d0-49a5-953e-71cf43c2193b> a crm:E41_Appellation ;
-    rdfs:label "Ordre de la Rédemption des captifs"@fr .
+    rdfs:label "Ordre de la Rédemption des captifs"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <c7fee6f5-8c15-463d-a3af-fde738dcefa3> a crm:E42_Identifier ;
     rdfs:label "eveque_de_grenoble" .
 
 <c8043caf-76f3-4b89-95fc-57106f6337f8> a crm:E41_Appellation ;
-    rdfs:label "Annonciades (ordre)"@fr .
+    rdfs:label "Annonciades (ordre)"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c8b87175-3066-47b3-ada2-4909bae1c337> a crm:E42_Identifier ;
     rdfs:label "eveque_d_aire" .
@@ -3386,16 +3801,19 @@
     rdfs:label "chapitre_de_la_collegiale_saint-etienne_de_troyes" .
 
 <c91794b3-b9b1-41cc-81c6-e6de7ab24c29> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Perpignan"@fr .
+    rdfs:label "Cordeliers de Perpignan"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c9acca1d-8e25-48da-afdc-bbd141c72a55> a crm:E42_Identifier ;
     rdfs:label "294283" .
 
 <c9b0c5d8-65e3-445d-9f7a-a208d3f0459a> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Poitiers"@fr .
+    rdfs:label "Évêque de Poitiers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <c9d760b1-74b5-4e87-8a59-d877d7a362b3> a crm:E41_Appellation ;
-    rdfs:label "Augustines hospitalières de Beaulieu-les-Loches"@fr .
+    rdfs:label "Augustines hospitalières de Beaulieu-les-Loches"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ca62a85d-5d14-4607-a51e-2d89cf22ebb8> a crm:E42_Identifier ;
     rdfs:label "chanoinesses_regulieres_anglaises_de_paris" .
@@ -3404,19 +3822,23 @@
     rdfs:label "capucines_du_couvent_de_la_rue_saint-honore_a_paris" .
 
 <cab1cb75-d661-49f0-9c07-3fbb7f6dec1a> a crm:E41_Appellation ;
-    rdfs:label "Frères mineurs"@fr .
+    rdfs:label "Frères mineurs"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <cac1cc68-fa08-4656-928d-c5e635565a2d> a crm:E41_Appellation ;
-    rdfs:label "Abbé de Saint-Sever"@fr .
+    rdfs:label "Abbé de Saint-Sever"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <cad8555c-2703-4c68-9eee-dd157b76c84e> a crm:E42_Identifier ;
     rdfs:label "276445" .
 
 <cb725328-ae4a-470d-aa3b-f4c3647b6799> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Gien"@fr .
+    rdfs:label "Capucins de Gien"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <cb74f540-619a-412b-b3b8-9c4c1f215e65> a crm:E41_Appellation ;
-    rdfs:label "Cisterciens de l'abbaye de Clairvaux"@fr .
+    rdfs:label "Cisterciens de l'abbaye de Clairvaux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <cc591c19-7006-4c81-b0c6-a9ab40d0bdcd> a crm:E42_Identifier ;
     rdfs:label "293787" .
@@ -3428,16 +3850,16 @@
     rdfs:label "clerge_de_luxembourg" .
 
 <cd45fd96-5a6e-4b35-ad85-b17f854b5275> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Lodève"@fr .
+    rdfs:label "Évêque de Lodève"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <cd5c5b53-370c-46d4-b262-015f4d98828a> a crm:E41_Appellation ;
-    rdfs:label "Trinitaires de Fontainebleau"@fr .
+    rdfs:label "Trinitaires de Fontainebleau"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <cd6a1427-d3ba-4a67-b8b5-f3db69e998ea> a crm:E41_Appellation ;
     rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré Sainte-Catherine de la Couture"@fr ;
-    crm:P139_has_alternative_form <2a927d1b-1256-4fcd-ac3a-055679677e9c>,
-        <d6a921dc-c2e2-4a49-979b-9a94117083a9>,
-        <e422a200-d93e-44b3-8b0f-862c61ba5421> .
+    crm:P2_has_type skos:prefLabel .
 
 <cd798a28-a87f-4b68-97cd-7f20d4f1fee7> a crm:E42_Identifier ;
     rdfs:label "dominicains_(ordre)" .
@@ -3447,52 +3869,56 @@
 
 <cdf452d9-54cd-44ff-8494-768b08311d3a> a crm:E41_Appellation ;
     rdfs:label "Chanoinesses régulières de saint Augustin"@fr ;
-    crm:P139_has_alternative_form <4220439e-5232-4649-9f78-252bc90b295a>,
-        <6fea9369-b978-4b21-96d0-26f46869022d>,
-        <91a7cc18-9c35-405f-8714-81e49d3ded65> .
+    crm:P2_has_type skos:prefLabel .
 
 <ce0694ce-c9ce-4766-adf4-50d1bc65de9f> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Martin de Clamecy"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Martin de Clamecy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ce16db99-8287-468c-badc-b2fae8f31a11> a crm:E41_Appellation ;
-    rdfs:label "Mauristes de l'abbaye Saint-Pierre de la Couture"@fr .
+    rdfs:label "Mauristes de l'abbaye Saint-Pierre de la Couture"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ce8b146f-85cd-41a2-bb38-fe1aecf9843a> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes"@fr .
+    rdfs:label "Grands carmes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ceaf2468-ddb7-44e7-9cce-f71f0cf7f985> a crm:E41_Appellation ;
-    rdfs:label "Archevêque d'Arles"@fr .
+    rdfs:label "Archevêque d'Arles"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <cecb5ae3-ff5d-41d3-87cf-3e686583529e> a crm:E41_Appellation ;
-    rdfs:label "Abbé de Plaimpied"@fr .
+    rdfs:label "Abbé de Plaimpied"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ceda0cc6-575f-44ff-9289-a4a6d39a56be> a crm:E41_Appellation ;
-    rdfs:label "Feuillants du monastère de Paris"@fr .
+    rdfs:label "Feuillants du monastère de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <cedead0c-f288-44ab-86b1-0b6415d43f64> a crm:E41_Appellation ;
     rdfs:label "Trinitaires (ordre)"@fr ;
-    crm:P139_has_alternative_form <0ce67e12-8e2b-498b-83da-431cc9f45021>,
-        <a6472e98-406a-4923-9fdb-ac1fce186675> .
+    crm:P2_has_type skos:prefLabel .
 
 <cf19c36a-ae64-48f4-a82b-f4dfc5fa2577> a crm:E42_Identifier ;
     rdfs:label "grands_carmes_de_rome" .
 
 <cf66d95b-c3ef-4dc3-b901-6244d4c26abb> a crm:E41_Appellation ;
     rdfs:label "Compagnie de Marie Notre-Dame"@fr ;
-    crm:P139_has_alternative_form <aae3a5f0-7d1b-48c4-b2b8-371223c67b0e> .
+    crm:P2_has_type skos:prefLabel .
 
 <cf708d51-1f6f-4736-869f-3d9ac605702f> a crm:E42_Identifier ;
     rdfs:label "visitandines_d_aix-en-provence" .
 
 <cfdd48d3-7184-43d7-9eae-847fb7954aa9> a crm:E41_Appellation ;
     rdfs:label "Cisterciennes de l'Abbaye de La Virginité des Roches-l'Évêque"@fr ;
-    crm:P139_has_alternative_form <896ae2e1-618c-46b5-aee5-6a204b8b184f> .
+    crm:P2_has_type skos:prefLabel .
 
 <d0c27a15-d1a0-4f5d-ac63-200ed6ef3fdd> a crm:E42_Identifier ;
     rdfs:label "pretes_de_la_mission_de_marseille" .
 
 <d1284066-3962-475f-aa37-6f7c271ed5b6> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Pierre de Poitiers"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Pierre de Poitiers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d178f3ec-0928-4d25-9a7f-e77be436373f> a crm:E42_Identifier ;
     rdfs:label "277855" .
@@ -3504,25 +3930,31 @@
     rdfs:label "eveque_de_tulle" .
 
 <d1bffb90-2b5e-415b-95fa-471de1e2befe> a crm:E41_Appellation ;
-    rdfs:label "Jésuites d'Avignon [Comtat vénaissin]"@fr .
+    rdfs:label "Jésuites d'Avignon [Comtat vénaissin]"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d1fc520c-bfdd-40bc-aa62-95102727932b> a crm:E41_Appellation ;
-    rdfs:label "Chapitres cathédraux"@fr .
+    rdfs:label "Chapitres cathédraux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d2efcd68-07c5-4a4e-893c-e620ecfae225> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale de Saint-Pierre-Empont d’Orléans"@fr .
+    rdfs:label "Chapitre de la collégiale de Saint-Pierre-Empont d’Orléans"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d2f063ea-fe4a-481a-be97-48e246e2b99d> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Fort Saint-Pierre de la Martinique"@fr .
+    rdfs:label "Jésuites de Fort Saint-Pierre de la Martinique"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d316c1a8-82dc-4042-8878-e8c5c6a0101f> a crm:E41_Appellation ;
-    rdfs:label "Minimes de Nancy"@fr .
+    rdfs:label "Minimes de Nancy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d33be1d3-8f34-4337-83b2-27d15232519a> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_saint-cyr-et-sainte-julitte_de_nevers" .
 
 <d3541e36-2349-4430-a78f-608b65a315a0> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Fursy de Péronne"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Fursy de Péronne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d3bd2ec3-6213-4783-95a9-52904ba4b53d> a crm:E42_Identifier ;
     rdfs:label "277989" .
@@ -3531,45 +3963,52 @@
     rdfs:label "dominicains_du_grand_couvent_de_paris" .
 
 <d4514653-6b14-4328-800a-24e64c88f821> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Mende"@fr .
+    rdfs:label "Évêque de Mende"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d4624140-bb2c-4b3e-826d-30cb39ab16b9> a crm:E41_Appellation ;
     rdfs:label "Mercédaires (ordre)"@fr ;
-    crm:P139_has_alternative_form <06032c76-8990-4a01-b54a-582bf8d49124>,
-        <c7c29464-66d0-49a5-953e-71cf43c2193b>,
-        <e3147324-9a39-473c-89d3-9b3746bceaa6> .
+    crm:P2_has_type skos:prefLabel .
 
 <d485a339-388a-4e1e-a04e-6dafebcfd9cf> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Verdun"@fr .
+    rdfs:label "Évêque de Verdun"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d52d74ab-d559-4375-bcfb-22e01ef344fb> a crm:E41_Appellation ;
-    rdfs:label "Mauristes de l'abbaye Saint-Jean d’Angély"@fr .
+    rdfs:label "Mauristes de l'abbaye Saint-Jean d’Angély"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d548619d-fecd-4f72-99d6-873dacac0df3> a crm:E41_Appellation ;
-    rdfs:label "Minimes de Péronne"@fr .
+    rdfs:label "Minimes de Péronne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d56b319e-92e9-4709-8c59-9e6eb2393940> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Madrid"@fr .
+    rdfs:label "Capucins de Madrid"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d5703732-c075-433a-af6a-befe4f5171b1> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Saint-Étienne de Troyes"@fr .
+    rdfs:label "Chapitre de la collégiale Saint-Étienne de Troyes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d5b4968b-4613-4c72-b626-d223a5ac9768> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Bayonne"@fr .
+    rdfs:label "Évêque de Bayonne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d5dd79ff-a2b5-4901-988b-f87c894a7e4a> a crm:E41_Appellation ;
-    rdfs:label "Minimes de Compiègne"@fr .
+    rdfs:label "Minimes de Compiègne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d65cbf40-449a-46a8-bbbd-8b5cfbe00811> a crm:E41_Appellation ;
-    rdfs:label "Évêque d'Agde"@fr .
+    rdfs:label "Évêque d'Agde"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d6a921dc-c2e2-4a49-979b-9a94117083a9> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré du Val-des-Écoliers"@fr .
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré du Val-des-Écoliers"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <d6ab716e-8270-4aeb-8e3d-6a887af9ce22> a crm:E41_Appellation ;
     rdfs:label "Chanoinesses régulières de l'abbaye Saint-Pantaléon de Toulouse"@fr ;
-    crm:P139_has_alternative_form <1a748096-afc6-436a-8f01-39a8896bd597>,
-        <667d0ce4-1f38-4445-889e-76e44ab5c861> .
+    crm:P2_has_type skos:prefLabel .
 
 <d704d779-403a-42ad-bc03-2f7d1e13da26> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_collegiale_toussaint_de_mortagne-au-perche" .
@@ -3578,13 +4017,16 @@
     rdfs:label "chanoines_reguliers_de_saint-martin_de_plaimpied" .
 
 <d719eaab-058f-40f8-a439-dcb78d2749ee> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Cahors"@fr .
+    rdfs:label "Évêque de Cahors"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d72fc57c-ee50-4ab0-8d21-c002353f6774> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Malines"@fr .
+    rdfs:label "Archevêque de Malines"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d785b42e-8b59-47e0-bb73-9e5caa285aa5> a crm:E41_Appellation ;
-    rdfs:label "Feuillants de l’Abbaye de Saint-Mesmin-de-Micy"@fr .
+    rdfs:label "Feuillants de l’Abbaye de Saint-Mesmin-de-Micy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d7bde5c9-d56b-441e-b60e-2150f357a22d> a crm:E42_Identifier ;
     rdfs:label "eveque_de_lucon" .
@@ -3593,27 +4035,30 @@
     rdfs:label "294777" .
 
 <d816c199-f3c8-41d4-952f-463fbf9944b4> a crm:E41_Appellation ;
-    rdfs:label "Grand maître de l'ordre de Malte"@fr .
+    rdfs:label "Grand maître de l'ordre de Malte"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d83684f4-b06c-4c06-a253-9beefa956382> a crm:E41_Appellation ;
     rdfs:label "Frères de la Charité (ordre)"@fr ;
-    crm:P139_has_alternative_form <0bda38c2-141b-48c6-9585-3fc412f0b237>,
-        <6cf91527-135d-40c5-ab58-325375203a15> .
+    crm:P2_has_type skos:prefLabel .
 
 <d83e3600-71b4-4b0f-ba90-425158d84f84> a crm:E41_Appellation ;
-    rdfs:label "Grands Augustins de Marseille"@fr .
+    rdfs:label "Grands Augustins de Marseille"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d87181dd-e95f-4263-bfbb-27b617432df0> a crm:E42_Identifier ;
     rdfs:label "294163" .
 
 <d881c93a-5429-48bf-b431-92d4f5d6fcc6> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Pierre de Beauvais"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Pierre de Beauvais"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d8ae5018-785f-4896-9bb7-552369dad3a1> a crm:E42_Identifier ;
     rdfs:label "eveque_d_autun" .
 
 <d9206298-b55f-4d35-a7e2-ba20cd488f6e> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Marseille"@fr .
+    rdfs:label "Capucins de Marseille"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <d99a43aa-8646-4d4c-b53c-567dd9bad15e> a crm:E42_Identifier ;
     rdfs:label "doctrinaire" .
@@ -3622,55 +4067,67 @@
     rdfs:label "294019" .
 
 <da497059-a1f0-4054-8021-e1502cc1b789> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Senlis"@fr .
+    rdfs:label "Évêque de Senlis"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <daad190c-c042-477f-8aba-29150bb452ca> a crm:E42_Identifier ;
     rdfs:label "calvairiennes" .
 
 <daf4ef53-56d2-4da4-a093-1cdd86a96469> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de l'abbaye royale de Saint-Victor de Paris"@fr .
+    rdfs:label "Chanoines réguliers de l'abbaye royale de Saint-Victor de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <db128775-2b9a-4ce1-a62f-ec4a759dcf7f> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Saint-Papoul"@fr .
+    rdfs:label "Évêque de Saint-Papoul"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <db18f3a9-caa2-46a3-81a7-6fb8982aa154> a crm:E42_Identifier ;
     rdfs:label "clerge_paroissial" .
 
 <db1cc401-bc67-4979-9102-ddb601bcd341> a crm:E41_Appellation ;
-    rdfs:label "Pères de Saint-Lazare"@fr .
+    rdfs:label "Pères de Saint-Lazare"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <db462826-8045-49fd-a282-bffb111d81e6> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Notre-Dame de Burgos"@fr .
+    rdfs:label "Chapitre de la cathédrale Notre-Dame de Burgos"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <db5b8010-43a8-4021-b151-5ea44aa858c7> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Périgueux"@fr .
+    rdfs:label "Jésuites de Périgueux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <db6af2cf-521a-4478-8bd8-012978cecb2c> a crm:E42_Identifier ;
     rdfs:label "278125" .
 
 <dbc9e646-7c50-4cde-aa91-20a3fa2cf1f2> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de Madrid"@fr .
+    rdfs:label "Grands carmes de Madrid"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <dca5642f-db9d-4396-a390-4b490166270b> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Nancy"@fr .
+    rdfs:label "Capucins de Nancy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <dcaa84c4-4b3f-4a42-b08b-c0b711545616> a crm:E42_Identifier ;
     rdfs:label "293945" .
 
 <dcee41eb-f54c-4888-8607-78eaaae6f143> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Niort"@fr .
+    rdfs:label "Cordeliers de Niort"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <dcff0be4-d46b-4988-abea-f04030dc0e12> a crm:E41_Appellation ;
-    rdfs:label "Ursulines de Châtillon-sur-Seine"@fr .
+    rdfs:label "Ursulines de Châtillon-sur-Seine"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <dd314512-a524-4745-8088-ea5e1a46c76c> a crm:E42_Identifier ;
     rdfs:label "prince-eveque_de_metz" .
 
 <ddd29335-27dc-44b2-a745-c5e8642b6b76> a crm:E41_Appellation ;
-    rdfs:label "Clergé de la cathédrale Saint-Jean de La Valette"@fr .
+    rdfs:label "Clergé de la cathédrale Saint-Jean de La Valette"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ddecc8a0-0a20-4191-a333-d2911f928013> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Tulle"@fr .
+    rdfs:label "Évêque de Tulle"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <de7131e4-5c5e-483f-b18d-c6d9381a7795> a crm:E42_Identifier ;
     rdfs:label "hospitalieres_de_saint-jean-de-jerusalem_(ordre)" .
@@ -3685,10 +4142,12 @@
     rdfs:label "chanoinesses_nobles_de_l_abbaye_benedictine_de_maubeuge" .
 
 <deea62a9-59c3-4020-be39-24b0d14a1104> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de l’ordre de saint Augustin de la Congrégation de France"@fr .
+    rdfs:label "Chanoines réguliers de l’ordre de saint Augustin de la Congrégation de France"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <def22646-40ae-452a-9ee0-8e4f0df85b86> a crm:E41_Appellation ;
-    rdfs:label "Frères de la Charité de Poitiers"@fr .
+    rdfs:label "Frères de la Charité de Poitiers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <dfc66090-b844-4f35-bef0-39dad032e475> a crm:E42_Identifier ;
     rdfs:label "294025" .
@@ -3697,22 +4156,27 @@
     rdfs:label "294655" .
 
 <e1d83b07-e171-4a03-aae5-03630b624974> a crm:E41_Appellation ;
-    rdfs:label "Génovéfains de l'abbaye royale de Sainte-Geneviève de Paris"@fr .
+    rdfs:label "Génovéfains de l'abbaye royale de Sainte-Geneviève de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <e1df49bb-c93c-49ab-a4bd-754f4271d802> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Notre-Dame-et-Saint-Lambert de Liège"@fr .
+    rdfs:label "Chapitre de la cathédrale Notre-Dame-et-Saint-Lambert de Liège"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <e254ccbf-272e-4a20-a253-8652a1ffb394> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Montélimart"@fr .
+    rdfs:label "Capucins de Montélimart"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <e3147324-9a39-473c-89d3-9b3746bceaa6> a crm:E41_Appellation ;
-    rdfs:label "Pères de la Merci"@fr .
+    rdfs:label "Pères de la Merci"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <e3e39aa6-a698-4751-bd70-9d7bbdd09096> a crm:E42_Identifier ;
     rdfs:label "archeveque_de_tours" .
 
 <e422a200-d93e-44b3-8b0f-862c61ba5421> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré Sainte-Catherine du Val-des-Écoliers"@fr .
+    rdfs:label "Chanoines réguliers de Sainte-Geneviève du prieuré Sainte-Catherine du Val-des-Écoliers"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <e4d17bb0-4381-4546-a5ca-af54fdda6757> a crm:E42_Identifier ;
     rdfs:label "294097" .
@@ -3721,7 +4185,8 @@
     rdfs:label "277990" .
 
 <e537a9a9-6867-4f04-9628-4d8c54e74fe5> a crm:E41_Appellation ;
-    rdfs:label "Custodie"@fr .
+    rdfs:label "Custodie"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <e542210c-13cd-4dc2-a2ee-40bd446844e3> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_saint-sauveur_d_aix-en-provence" .
@@ -3730,7 +4195,8 @@
     rdfs:label "294661" .
 
 <e5841208-3b44-4604-bf93-2d68eaf6c6e7> a crm:E41_Appellation ;
-    rdfs:label "Tiers ordre régulier de Saint-François"@fr .
+    rdfs:label "Tiers ordre régulier de Saint-François"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <e58df4f3-d4ad-4460-b0c0-acebff4cda75> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_saint-theodorit_d_uzes" .
@@ -3742,22 +4208,27 @@
     rdfs:label "294293" .
 
 <e698d012-2a4d-40b8-8407-018d23837955> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Santa Maria de Tortosa"@fr .
+    rdfs:label "Chapitre de la cathédrale Santa Maria de Tortosa"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <e75ee329-4cc1-48bb-abe6-8ae1f427c524> a crm:E42_Identifier ;
     rdfs:label "carmelites" .
 
 <e76b5d6e-ff5d-4f8a-8b95-8d1b7ffc1032> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la Sainte-Chapelle de Bourges"@fr .
+    rdfs:label "Chapitre de la Sainte-Chapelle de Bourges"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <e77f7869-3d41-4bde-902a-232c31602dac> a crm:E41_Appellation ;
-    rdfs:label "Pètres de la Mission d'Alençon"@fr .
+    rdfs:label "Pètres de la Mission d'Alençon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <e786e60d-1c19-4be3-8af2-fbd85230a4a4> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Vienne [Viennois]"@fr .
+    rdfs:label "Jésuites de Vienne [Viennois]"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <e79b3a05-21f5-4882-8bff-6dcc20c87b90> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Paris"@fr .
+    rdfs:label "Récollets de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <e7a36a83-6394-4b83-a5c6-2b6aa47055fb> a crm:E42_Identifier ;
     rdfs:label "grands_carmes_de_la_fleche" .
@@ -3766,19 +4237,23 @@
     rdfs:label "294223" .
 
 <e7e66dba-ed8f-4785-a04b-ba93134f10fc> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Grenoble"@fr .
+    rdfs:label "Évêque de Grenoble"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <e8527840-f86d-4fcf-968a-ad35b3acc63c> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Paris"@fr .
+    rdfs:label "Cordeliers de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <e865439a-cf29-481c-b64f-918232555553> a crm:E42_Identifier ;
     rdfs:label "benedictins_de_l_abbaye_saint-pierre-saint-paul_d_hautmont" .
 
 <ea0cefce-3e16-44c1-a61c-0021aecdf71e> a crm:E41_Appellation ;
-    rdfs:label "Ordres chevaleresques"@fr .
+    rdfs:label "Ordres chevaleresques"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <eabb4333-55f3-480c-9b47-2ee40b149b20> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Saint-Omer"@fr .
+    rdfs:label "Évêque de Saint-Omer"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ead1e80e-92e7-4e95-9c0e-793351860f28> a crm:E42_Identifier ;
     rdfs:label "grands_carmes_de_madrid" .
@@ -3793,7 +4268,8 @@
     rdfs:label "capucins_de_compiegne" .
 
 <eb4453a9-497f-4656-819f-889fd8aaba6a> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Lectour"@fr .
+    rdfs:label "Évêque de Lectour"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <eb612097-3870-4c26-9926-73c1e25ba62c> a crm:E42_Identifier ;
     rdfs:label "capucins_d_alencon" .
@@ -3808,52 +4284,65 @@
     rdfs:label "fontevristes" .
 
 <ebc4caae-425a-4f08-9a56-fcd84bf870bb> a crm:E41_Appellation ;
-    rdfs:label "Clergé de Luxembourg"@fr .
+    rdfs:label "Clergé de Luxembourg"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ec2d58ae-17c2-4d1b-9d8b-bca8e23c1eff> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Constantinople"@fr .
+    rdfs:label "Jésuites de Constantinople"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ec626bce-9f38-4214-a705-3acec1f44843> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Tournai"@fr .
+    rdfs:label "Évêque de Tournai"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ec72531a-f1ba-4f76-9fa4-037ab9a68b50> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Rouen"@fr .
+    rdfs:label "Jésuites de Rouen"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ee19b9bf-e7e0-4ea2-8eba-d407996f2a71> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Dol"@fr .
+    rdfs:label "Évêque de Dol"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ee58a143-5ac0-4fe9-979f-fb98ed575c7a> a crm:E41_Appellation ;
-    rdfs:label "Grands Augustins"@fr .
+    rdfs:label "Grands Augustins"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ee7de2f3-adc5-43f9-bfd6-39c965d5807d> a crm:E42_Identifier ;
     rdfs:label "augustins_dechausses_de_notre-dame-des-victoires_de_paris" .
 
 <eed74d93-abff-43f3-a6e0-3d3a48f7b855> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Antonin de Pamiers"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Antonin de Pamiers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ef192bf6-3eee-4e3e-ae2d-8ced55d21776> a crm:E41_Appellation ;
-    rdfs:label "Prémontrés"@fr .
+    rdfs:label "Prémontrés"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <ef7117e5-00bb-4f63-ba9a-9a0b46eadba2> a crm:E41_Appellation ;
-    rdfs:label "Dominicains de Compiègne"@fr .
+    rdfs:label "Dominicains de Compiègne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <efad0e41-6b6f-47f3-ae6f-76251e2d676b> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Sarlat"@fr .
+    rdfs:label "Évêque de Sarlat"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <efddfdc2-379f-4664-9bb5-ff84ad123572> a crm:E42_Identifier ;
     rdfs:label "293947" .
 
 <eff0ca3f-bb8b-4398-a876-c3c10dc27340> a crm:E41_Appellation ;
-    rdfs:label "Prêtres de la Mission de Rochefort"@fr .
+    rdfs:label "Prêtres de la Mission de Rochefort"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f00d58e4-b95b-41ab-8f59-d204cc4634d2> a crm:E41_Appellation ;
-    rdfs:label "Petits Pères"@fr .
+    rdfs:label "Petits Pères"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <f0279401-f50a-46a7-8377-fff209f1e0f8> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_de_tours" .
 
 <f0fe6e14-3fc7-4649-9326-723340d58782> a crm:E41_Appellation ;
-    rdfs:label "Archevêque de Narbonne"@fr .
+    rdfs:label "Archevêque de Narbonne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f10f93ac-8ce7-4e5d-a35c-b93fda9e808c> a crm:E42_Identifier ;
     rdfs:label "eveque_de_chalons" .
@@ -3868,7 +4357,8 @@
     rdfs:label "277991" .
 
 <f1bc86a9-470b-4e2c-bb5e-d707490518b8> a crm:E41_Appellation ;
-    rdfs:label "Carmélites du monastère de la rue du Bouloir à Paris"@fr .
+    rdfs:label "Carmélites du monastère de la rue du Bouloir à Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f1bdae58-17bb-48db-8174-5a4e92360c20> a crm:E42_Identifier ;
     rdfs:label "eveque_de_lavaur" .
@@ -3883,47 +4373,56 @@
     rdfs:label "294101" .
 
 <f28bc594-77c6-4eca-87a0-5d5b825b3039> a crm:E41_Appellation ;
-    rdfs:label "Cordeliers de Carcassonne"@fr .
+    rdfs:label "Cordeliers de Carcassonne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f3156faf-5be5-42cb-8fae-fde14faf3434> a crm:E41_Appellation ;
-    rdfs:label "Missionnaires"@fr .
+    rdfs:label "Missionnaires"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <f3202cb9-a2fc-4b9b-8402-464926d15915> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes de la Grande Observance"@fr .
+    rdfs:label "Grands carmes de la Grande Observance"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f39ff912-045a-477f-b872-b87c9c4475cb> a crm:E41_Appellation ;
     rdfs:label "Haudriettes"@fr ;
-    crm:P139_has_alternative_form <fd3fa5b2-8ce7-44f1-b552-2b57626fa00c> .
+    crm:P2_has_type skos:prefLabel .
 
 <f3ea2528-6372-4449-9519-32e9708eeba2> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Châlons-en-Champagne"@fr .
+    rdfs:label "Jésuites de Châlons-en-Champagne"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f409f2a6-fc27-4653-bdc2-bb434b4a468e> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Sainte-Croix de Barcelone"@fr .
+    rdfs:label "Chapitre de la cathédrale Sainte-Croix de Barcelone"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f43df152-3105-49f3-a290-a36b324d041e> a crm:E42_Identifier ;
     rdfs:label "clerge_de_la_cathedrale_notre-dame-du-puy_de_grasse" .
 
 <f49ba379-58df-4ab0-bba9-446b877e3ee6> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Rennes"@fr .
+    rdfs:label "Jésuites de Rennes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f49df155-6253-46e0-864c-ea0caabde951> a crm:E42_Identifier ;
     rdfs:label "jesuites_de_rouen" .
 
 <f4b11409-7635-4e5d-940f-5a1647031ca9> a crm:E41_Appellation ;
-    rdfs:label "Capucins d'Évreux"@fr .
+    rdfs:label "Capucins d'Évreux"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f4b60ead-7369-4efd-a448-4272bad36df4> a crm:E42_Identifier ;
     rdfs:label "cordeliers_de_loches" .
 
 <f5194949-2b1b-4ed3-be2d-0bd0624ad50e> a crm:E41_Appellation ;
-    rdfs:label "Jésuites de Carpentras"@fr .
+    rdfs:label "Jésuites de Carpentras"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f5772958-c889-45be-8244-7eaed300d8ec> a crm:E42_Identifier ;
     rdfs:label "Chanoines_reguliers_de_Sainte-Genevieve_du_prieure_Sainte-Catherine_de_la_Couture" .
 
 <f6153017-587a-45e1-87d4-0f4efd2953f9> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la Sainte-Chapelle du château de Vincennes"@fr .
+    rdfs:label "Chapitre de la Sainte-Chapelle du château de Vincennes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f645b817-4f89-4ec1-bf43-a740fcc9ff47> a crm:E42_Identifier ;
     rdfs:label "294907" .
@@ -3936,7 +4435,7 @@
 
 <f68bc899-7881-4d9d-bf21-0a03775ad761> a crm:E41_Appellation ;
     rdfs:label "Augustins"@fr ;
-    crm:P139_has_alternative_form <6ffcc2a0-e7b4-4c34-9cae-67a6a3615820> .
+    crm:P2_has_type skos:prefLabel .
 
 <f6993bee-222d-4dc6-9662-bc4d8c36ecef> a crm:E42_Identifier ;
     rdfs:label "clarisses" .
@@ -3945,23 +4444,28 @@
     rdfs:label "freres_de_la_charite_(ordre)" .
 
 <f769f5d3-e47f-4176-b49b-af5dc65b4756> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la Sainte-Chapelle du Palais"@fr .
+    rdfs:label "Chapitre de la Sainte-Chapelle du Palais"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f7aa2fe2-e2de-49de-96e3-a29113485563> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Montauban"@fr .
+    rdfs:label "Évêque de Montauban"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f7ce6ae6-4f69-4294-adb7-93aecdd614a4> a crm:E41_Appellation ;
-    rdfs:label "Dominicains de Madrid"@fr .
+    rdfs:label "Dominicains de Madrid"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f80335e9-212e-47b7-b400-14bff3b1f8a2> a crm:E41_Appellation ;
     rdfs:label "Bénédictins de l'abbaye de la Trinité à Vendosme"@fr ;
-    crm:P139_has_alternative_form <5ab0f19f-c396-4409-b287-240aaf961b24> .
+    crm:P2_has_type skos:prefLabel .
 
 <f83617af-46de-426e-bba6-deeaeff29135> a crm:E41_Appellation ;
-    rdfs:label "Pères de l'Oratoire"@fr .
+    rdfs:label "Pères de l'Oratoire"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <f87936f1-393f-44f5-83bc-d3eadd294f6b> a crm:E41_Appellation ;
-    rdfs:label "Grands carmes du couvent des Billettes à Paris"@fr .
+    rdfs:label "Grands carmes du couvent des Billettes à Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f8bc8c5a-86cb-490e-91a5-89e2971c5829> a crm:E42_Identifier ;
     rdfs:label "294677" .
@@ -3970,28 +4474,34 @@
     rdfs:label "eveque_d_auxerre" .
 
 <f8ffe949-4882-4199-8642-dc22d8bafbbd> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la cathédrale Saint-Pierre de Vannes"@fr .
+    rdfs:label "Chapitre de la cathédrale Saint-Pierre de Vannes"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f9184c23-1883-459a-a97e-940fde442141> a crm:E41_Appellation ;
-    rdfs:label "Récollets de Saint-André"@fr .
+    rdfs:label "Récollets de Saint-André"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f996dbf8-0bd7-4766-bde5-b75cca8ba45a> a crm:E41_Appellation ;
-    rdfs:label "Carmes déchaussés de Riom"@fr .
+    rdfs:label "Carmes déchaussés de Riom"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <f9fb79c7-28bd-4010-a556-60400c81153f> a crm:E42_Identifier ;
     rdfs:label "archeveque_de_rouen" .
 
 <f9fc9d4d-db86-4d9b-955c-094006ff5cc8> a crm:E41_Appellation ;
-    rdfs:label "Grands Augustins de Nancy"@fr .
+    rdfs:label "Grands Augustins de Nancy"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fa06ec18-36cc-4447-a87a-9eafc9669f20> a crm:E41_Appellation ;
-    rdfs:label "Abbé de l'église abbatiale de Saint-Étienne de Dijon"@fr .
+    rdfs:label "Abbé de l'église abbatiale de Saint-Étienne de Dijon"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fa07131b-bf1a-4285-a798-2ebce94c7610> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_collegiale_saint-urbain_de_troyes" .
 
 <fa107ff0-a93e-4072-8495-302108b4cda4> a crm:E41_Appellation ;
-    rdfs:label "Capucins de Saint-Maximin-la-Sainte-Baume"@fr .
+    rdfs:label "Capucins de Saint-Maximin-la-Sainte-Baume"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <faac1fdf-6474-4ad6-8bd3-94d93eae8d8f> a crm:E42_Identifier ;
     rdfs:label "294017" .
@@ -4000,26 +4510,30 @@
     rdfs:label "visitandines_de_compiegne" .
 
 <faf3e7ae-cf4f-41f5-81de-f7268a3542cc> a crm:E41_Appellation ;
-    rdfs:label "Évêque de Mirepoix"@fr .
+    rdfs:label "Évêque de Mirepoix"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fafa672f-6503-49c0-b5a2-942a5c07c74e> a crm:E42_Identifier ;
     rdfs:label "capucins_de_montelimar" .
 
 <fb8fc980-d6a1-4868-86be-362703c046e6> a crm:E41_Appellation ;
-    rdfs:label "Dominicains de Toulouse"@fr .
+    rdfs:label "Dominicains de Toulouse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fb99d44e-b50d-450b-b0b0-d8b3d297842a> a crm:E41_Appellation ;
     rdfs:label "Hospitalières de Saint-Jean-de-Jérusalem (ordre)"@fr ;
-    crm:P139_has_alternative_form <55e77e2c-67b7-4735-a872-0277c197cd39> .
+    crm:P2_has_type skos:prefLabel .
 
 <fc296cb0-0a48-4008-9b89-c70c26a0dfc1> a crm:E42_Identifier ;
     rdfs:label "carmes_dechausses" .
 
 <fc2d4b3d-af80-4635-aa68-95a7213d2c45> a crm:E41_Appellation ;
-    rdfs:label "Compagnie de Marie Notre-Dame de Richelieu"@fr .
+    rdfs:label "Compagnie de Marie Notre-Dame de Richelieu"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fc5eac13-e8bd-4832-8191-0d76a37eb08e> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de Prémontré de Jovilliers"@fr .
+    rdfs:label "Chanoines réguliers de Prémontré de Jovilliers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fc6857fa-1217-472c-9956-dafad60600a9> a crm:E42_Identifier ;
     rdfs:label "cordeliers_de_pontoise" .
@@ -4028,7 +4542,8 @@
     rdfs:label "chapitre_de_la_cathedrale_saint-pierre_de_beauvais" .
 
 <fd3fa5b2-8ce7-44f1-b552-2b57626fa00c> a crm:E41_Appellation ;
-    rdfs:label "Sœurs de l'Assomption"@fr .
+    rdfs:label "Sœurs de l'Assomption"@fr ;
+    crm:P2_has_type skos:altLabel .
 
 <fd416ced-3ea6-4951-9c71-c043f04b6778> a crm:E42_Identifier ;
     rdfs:label "294979" .
@@ -4037,22 +4552,28 @@
     rdfs:label "cordeliers" .
 
 <fdfdad88-574f-493a-90a5-3e815003ae92> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers"@fr .
+    rdfs:label "Chanoines réguliers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fe0af8c5-b602-474e-93f5-7d53169e45ee> a crm:E41_Appellation ;
-    rdfs:label "Père prieur des Chartreux de Toulouse"@fr .
+    rdfs:label "Père prieur des Chartreux de Toulouse"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fe0de02e-2b14-4dc1-a725-7480198dddac> a crm:E41_Appellation ;
-    rdfs:label "Clergé de la cathédrale Saint-Louis de La Rochelle"@fr .
+    rdfs:label "Clergé de la cathédrale Saint-Louis de La Rochelle"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fe15ba02-db03-4de6-aed9-21143414c5be> a crm:E41_Appellation ;
-    rdfs:label "Ordres hospitaliers"@fr .
+    rdfs:label "Ordres hospitaliers"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fe40740a-7cf1-4879-ab39-ce903d04d51b> a crm:E41_Appellation ;
-    rdfs:label "Chanoines réguliers de la maison royale de Sainte-Croix-de-la-Bretonnerie de Paris"@fr .
+    rdfs:label "Chanoines réguliers de la maison royale de Sainte-Croix-de-la-Bretonnerie de Paris"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fe49c827-8704-4629-96c8-50e524d3df3d> a crm:E41_Appellation ;
-    rdfs:label "Archevêque d’Auch"@fr .
+    rdfs:label "Archevêque d’Auch"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <fe59a44d-9054-4a4f-9dab-4d1957e493b7> a crm:E42_Identifier ;
     rdfs:label "capucins_de_nogent-sur-seine" .
@@ -4061,22 +4582,26 @@
     rdfs:label "musique_de_la_chapelle_du_pape" .
 
 <fed8fbcf-ca63-4cbb-82f0-439024c20513> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Toussaint de Mortagne-au-Perche"@fr .
+    rdfs:label "Chapitre de la collégiale Toussaint de Mortagne-au-Perche"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ff2a0725-72f6-4288-8b13-55de53015368> a crm:E42_Identifier ;
     rdfs:label "jesuites_de_grenoble" .
 
 <ff33aad2-cb0e-4db9-90e1-6633e817e194> a crm:E41_Appellation ;
-    rdfs:label "Oratoriens de Saumur"@fr .
+    rdfs:label "Oratoriens de Saumur"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ff37eec1-5294-4aa6-b3f5-cd62d3aec0bc> a crm:E42_Identifier ;
     rdfs:label "293797" .
 
 <ff3f8ff8-13cd-4e1d-856b-04e04f253f22> a crm:E41_Appellation ;
-    rdfs:label "Chapitre de la collégiale Notre-Dame-de-l'Assomption de Naples"@fr .
+    rdfs:label "Chapitre de la collégiale Notre-Dame-de-l'Assomption de Naples"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ff52d264-8b09-4113-bf79-95b03089a48a> a crm:E41_Appellation ;
-    rdfs:label "Évêque du Mans"@fr .
+    rdfs:label "Évêque du Mans"@fr ;
+    crm:P2_has_type skos:prefLabel .
 
 <ff840dd5-2fbe-4dfd-bc1d-01f118c44062> a crm:E42_Identifier ;
     rdfs:label "chapitre_de_la_cathedrale_saint-paul_de_munster" .
@@ -4133,7 +4658,10 @@
     crm:P107_has_current_or_former_member <93a86e0f-ec68-4052-a6aa-1669046a1149>,
         <e27954ce-9091-4549-9086-a6b4ecaabc18> ;
     crm:P1_is_identified_by <25552fd9-3f7d-4ffc-84d6-4da4e6e49662>,
-        <c25c6a32-5190-482f-8a25-d404d529fcf4> .
+        <3c2a9afb-bbd2-442c-bcd4-cf8f760a095b>,
+        <c25c6a32-5190-482f-8a25-d404d529fcf4>,
+        <c6af64a8-0be8-4cad-b0f9-107dbc791839>,
+        <e5841208-3b44-4604-bf93-2d68eaf6c6e7> .
 
 <0604b302-8c38-44e4-b218-6103fb61c9ee> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <81a75bf1-6067-43ac-9692-1150f8860642> ;
@@ -4247,7 +4775,9 @@
 
 <121dbd6e-cff9-467d-8f56-c74be0e6d2e5> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <cd32bd37-b702-4572-858f-530ea553ec47> ;
-    crm:P1_is_identified_by <ad022128-b318-4c15-8e0a-8339199ad366>,
+    crm:P1_is_identified_by <1a748096-afc6-436a-8f01-39a8896bd597>,
+        <667d0ce4-1f38-4445-889e-76e44ab5c861>,
+        <ad022128-b318-4c15-8e0a-8339199ad366>,
         <d6ab716e-8270-4aeb-8e3d-6a887af9ce22> .
 
 <1244c99c-5948-47ca-a8cd-6479c0d861a4> a crm:E74_Group ;
@@ -4284,7 +4814,9 @@
 <159d32af-b16e-42d1-9c17-8f60f25d1d83> a crm:E74_Group ;
     crm:P107_has_current_or_former_member <d1b3aa31-f9ae-48e0-a36f-a02f6a0aae13> ;
     crm:P1_is_identified_by <1eab4e0a-0d73-4e78-9a53-1f502154f8fb>,
-        <94c26147-b402-4a69-8de9-29dd411a61ad> .
+        <6d6e5d49-f641-45ff-9406-1056fd0079ff>,
+        <94c26147-b402-4a69-8de9-29dd411a61ad>,
+        <ba4567d6-a051-4f20-8d63-153dd8d9284b> .
 
 <16d306d7-7437-4003-83e1-09d17d09b1b9> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <c84356b1-d2c5-4b2d-9b96-a5b6c1a6f28f>,
@@ -4293,8 +4825,12 @@
         <835d7607-ca4f-47ce-aac3-53eb900784c9>,
         <badbb348-4a5a-4192-ac77-311316e16c41>,
         <c939fccc-2ed8-4b0d-ab5f-7f85cfdd66f8> ;
-    crm:P1_is_identified_by <4883d81f-8c73-4d92-b52b-deb847bf56f1>,
-        <9e6de217-556d-43ab-888f-83e19f853b1d> .
+    crm:P1_is_identified_by <23520c3f-a9ce-4137-81ec-703684d319af>,
+        <29c8a3b5-adc9-46d7-b5ca-956398f25087>,
+        <4883d81f-8c73-4d92-b52b-deb847bf56f1>,
+        <60343414-45ed-41d1-a3ba-7644e973e720>,
+        <9e6de217-556d-43ab-888f-83e19f853b1d>,
+        <deea62a9-59c3-4020-be39-24b0d14a1104> .
 
 <16e56e67-63e1-4d28-a1fb-233af0d1a7a9> a crm:E74_Group ;
     crm:P1_is_identified_by <62e36d78-f095-40f3-ab49-a0707f5e2f7d>,
@@ -4351,7 +4887,8 @@
     crm:P107_has_current_or_former_member <953d5a10-a112-4e97-804e-8c052904dfcf>,
         <a40ce141-6603-4963-92d6-a39d31b880cd> ;
     crm:P1_is_identified_by <001ffd20-0009-4407-a921-4e6acc30de48>,
-        <41c5bf03-50b3-4223-9316-6b377535c451> .
+        <41c5bf03-50b3-4223-9316-6b377535c451>,
+        <5a3a585d-987c-4850-a421-5c14ae829614> .
 
 <1d1f8ade-b073-4781-8b79-d79a079a95bd> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <e794a340-3653-4236-ac6d-f7d1691d7055> ;
@@ -4364,7 +4901,9 @@
         <90007894-9800-4724-82ba-d44cab93ff18>,
         <9625af90-d01b-41bd-bef5-43da8ca5895f>,
         <e947c184-9b41-4169-94f8-23f8f4d20b21> ;
-    crm:P1_is_identified_by <d83684f4-b06c-4c06-a253-9beefa956382>,
+    crm:P1_is_identified_by <0bda38c2-141b-48c6-9585-3fc412f0b237>,
+        <6cf91527-135d-40c5-ab58-325375203a15>,
+        <d83684f4-b06c-4c06-a253-9beefa956382>,
         <f6dcb66f-e101-4f86-9b81-c95042883344> .
 
 <1d9f3df5-75fb-4a3c-9b24-4141d2488c1c> a crm:E74_Group ;
@@ -4389,7 +4928,10 @@
 <2109710e-1eb7-4150-b747-c9937a80ad12> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <c84356b1-d2c5-4b2d-9b96-a5b6c1a6f28f> ;
     crm:P1_is_identified_by <30b0bae4-6031-4b6d-822d-54f1ba11684f>,
-        <760d1cd1-9d5c-4277-9c27-4934d3994aa6> .
+        <68aa2a42-ec71-476b-a533-b10e728d13c4>,
+        <7406aef1-a440-4e20-97c7-2f473b72c778>,
+        <760d1cd1-9d5c-4277-9c27-4934d3994aa6>,
+        <8be212f1-a46b-4a66-ba8d-8dc24e66ef45> .
 
 <218fe2cb-1d2c-49a7-bda8-50187a94975b> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <3a572785-c7e8-435c-99db-55b3d34b40b2> ;
@@ -4403,7 +4945,10 @@
         <bfc1c4a9-c6e0-43c7-8637-1a8e2e787888>,
         <de9ea513-9b64-482b-93ca-72f91c759e0f>,
         <e33fc7e1-961f-42b1-9ef4-58b8cf6f5bd3> ;
-    crm:P1_is_identified_by <5db3263f-97bc-4c39-899c-94cff5e6d33b>,
+    crm:P1_is_identified_by <4220439e-5232-4649-9f78-252bc90b295a>,
+        <5db3263f-97bc-4c39-899c-94cff5e6d33b>,
+        <6fea9369-b978-4b21-96d0-26f46869022d>,
+        <91a7cc18-9c35-405f-8714-81e49d3ded65>,
         <cdf452d9-54cd-44ff-8494-768b08311d3a> .
 
 <22895c43-011c-41d2-b3d8-362f949732f0> a crm:E74_Group ;
@@ -4451,6 +4996,7 @@
         <f47238d2-fa87-4333-b404-eb5c416048c9>,
         <fd0710a2-7445-4ba6-9db4-11b525cfd266> ;
     crm:P1_is_identified_by <22eed59d-e43e-44b9-95be-132dca849ad7>,
+        <36d1b1b2-8f31-4d59-b66a-5bd486c1af90>,
         <73d29b4f-3cdb-4f07-b2f0-70eec9c77e89> .
 
 <248f988d-be44-4e53-8ca8-e8938cf90c9c> a crm:E74_Group ;
@@ -4516,7 +5062,9 @@
         <ed8b5574-7758-4765-a651-899e6d9edf01>,
         <f11e9490-e925-43bc-bd92-c3196d5abd40>,
         <fa797047-041a-473e-841a-65595b80a33b> ;
-    crm:P1_is_identified_by <710417f3-9994-46b6-bbe6-bc6a67ae41b3>,
+    crm:P1_is_identified_by <5d5f842c-1438-49ee-8ce0-e9349aa08e78>,
+        <710417f3-9994-46b6-bbe6-bc6a67ae41b3>,
+        <cab1cb75-d661-49f0-9c07-3fbb7f6dec1a>,
         <fd5173eb-bf2e-440c-befd-a9fd7532ca20> .
 
 <284d9956-c504-4461-a6c0-316ed08dd659> a crm:E74_Group ;
@@ -4546,7 +5094,9 @@
         <c9678aea-163e-4f12-b3ef-1ab7efeece48>,
         <e1f416b4-eda9-41f1-b2fe-84d2828eff31>,
         <f59eacaa-4686-4f63-b093-82f14e31e2df> ;
-    crm:P1_is_identified_by <b19c8e20-0a66-403f-8c64-dffdde8ee499>,
+    crm:P1_is_identified_by <22035850-3772-433f-a740-7cf1262f8e03>,
+        <64b91c8a-988f-4322-8a08-48318b56849a>,
+        <b19c8e20-0a66-403f-8c64-dffdde8ee499>,
         <cd798a28-a87f-4b68-97cd-7f20d4f1fee7> .
 
 <2a28437e-9a6d-4b08-bc24-fcb70f1a891a> a crm:E74_Group ;
@@ -4557,6 +5107,7 @@
 <2a6df6f0-b193-48ab-8adc-80feb835e527> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <a03e4b5e-cee0-4ab5-ad50-4965d6dcb3fa> ;
     crm:P1_is_identified_by <17d611e6-6cd0-4e31-a6c1-81e1defc844e>,
+        <5ab0f19f-c396-4409-b287-240aaf961b24>,
         <f80335e9-212e-47b7-b400-14bff3b1f8a2> .
 
 <2ab477db-f252-4236-aff4-e9193da76ba8> a crm:E74_Group ;
@@ -4632,7 +5183,8 @@
 
 <2fb5cc3e-c9f6-48e7-b586-13fe1968e96f> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <c84356b1-d2c5-4b2d-9b96-a5b6c1a6f28f> ;
-    crm:P1_is_identified_by <863b0a30-3e16-4c43-9f04-c68f6b749d00>,
+    crm:P1_is_identified_by <09cbd0e8-f676-4ac5-9098-440c8efb7b02>,
+        <863b0a30-3e16-4c43-9f04-c68f6b749d00>,
         <8d8c8f29-e51f-41c7-8664-1e04872d2c80> .
 
 <2fb8bce1-701e-4fdb-a7f8-68e5c04c97cd> a crm:E74_Group ;
@@ -4674,7 +5226,10 @@
         <f1f67aa8-02f3-487c-9ece-be73123108be> .
 
 <324fcec9-e308-4768-ae9d-492960d7b3d6> a crm:E74_Group ;
-    crm:P1_is_identified_by <cd6a1427-d3ba-4a67-b8b5-f3db69e998ea>,
+    crm:P1_is_identified_by <2a927d1b-1256-4fcd-ac3a-055679677e9c>,
+        <cd6a1427-d3ba-4a67-b8b5-f3db69e998ea>,
+        <d6a921dc-c2e2-4a49-979b-9a94117083a9>,
+        <e422a200-d93e-44b3-8b0f-862c61ba5421>,
         <f5772958-c889-45be-8244-7eaed300d8ec> .
 
 <3336f54d-2736-466c-bd96-10d3abe8c634> a crm:E74_Group ;
@@ -5077,8 +5632,10 @@
 
 <5ecbd2d0-0fd5-4846-b5d5-11fc793a5f83> a crm:E74_Group ;
     crm:P107_has_current_or_former_member <0d72ea3f-8022-4ce7-8b9d-a26007cfdd5e> ;
-    crm:P1_is_identified_by <37846897-2d94-47f8-a606-eadb6e0cfede>,
-        <3dd5274d-ddc9-4974-8b4d-3f45cddcaf93> .
+    crm:P1_is_identified_by <1476134c-603b-4f9b-990d-8147dd0a474d>,
+        <37846897-2d94-47f8-a606-eadb6e0cfede>,
+        <3dd5274d-ddc9-4974-8b4d-3f45cddcaf93>,
+        <8ffba4b9-e7cc-443d-b349-4fbbe9637de2> .
 
 <5ee92c5a-7436-4115-80e2-5f36e9d534d0> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <c84356b1-d2c5-4b2d-9b96-a5b6c1a6f28f> ;
@@ -5115,7 +5672,7 @@
         <26b850c3-ac50-494a-af50-4b8f73077fb3> .
 
 <616166de-ca8a-4064-bbeb-79501867566d> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <d9ced43b-a402-497f-abd5-0bb6ac4bdd37> ;
+    she_ns:sheP_situation_géohistorique <a3d72636-035a-499b-b508-d792300c5b98> ;
     crm:P1_is_identified_by <9f6ceb0c-9326-4114-bf35-190b65edfd2f>,
         <a9cfd7fc-6c72-479a-a5fb-a338c9b3af4f> .
 
@@ -5149,8 +5706,11 @@
     crm:P107_has_current_or_former_member <8ca0c3d0-18cf-49d6-8985-bb4af78ab0ac>,
         <9c0db929-ab51-4bea-a28f-5d150ed570cd>,
         <d7cb0d96-1510-44bc-98cc-600cd25a2101> ;
-    crm:P1_is_identified_by <90aec637-830b-4a95-bd8f-cc8d19021ab4>,
-        <bbfe8464-62a3-4578-84cc-bdf1a6e71b58> .
+    crm:P1_is_identified_by <5b5d933e-d7b1-4d5a-9e47-423482c4c91b>,
+        <7455012e-ab23-43e0-bb17-b6b292d5fe06>,
+        <90aec637-830b-4a95-bd8f-cc8d19021ab4>,
+        <bbfe8464-62a3-4578-84cc-bdf1a6e71b58>,
+        <ef192bf6-3eee-4e3e-ae2d-8ced55d21776> .
 
 <64b96bf5-4e84-4ffc-9902-0ddc858beb31> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <0507d7ee-37cb-4d79-9139-ad9527aa10ee> ;
@@ -5202,7 +5762,7 @@
         <f87936f1-393f-44f5-83bc-d3eadd294f6b> .
 
 <6720a5e5-2273-41c6-8dcf-89d36867483d> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <4d292bf5-4893-4a61-a2a4-4486ba71978a> ;
+    she_ns:sheP_situation_géohistorique <5229b394-eaa2-4646-8ac3-632d018ab473> ;
     crm:P1_is_identified_by <95845217-c5ca-4dcc-9de3-c57494c03826>,
         <faf3e7ae-cf4f-41f5-81de-f7268a3542cc> .
 
@@ -5303,7 +5863,8 @@
         <2cf86a28-2b32-43ca-8cda-b5a1105c82ed>,
         <2fb8bce1-701e-4fdb-a7f8-68e5c04c97cd>,
         <e75b2d8d-b5eb-4071-96ce-8cfbe77db449> ;
-    crm:P1_is_identified_by <8ed16356-e827-4a23-ad27-ef6283263d91>,
+    crm:P1_is_identified_by <268b7f9e-4e18-4d9d-9d27-73e5292f02e3>,
+        <8ed16356-e827-4a23-ad27-ef6283263d91>,
         <adae4564-f33c-4072-a11e-53fa9fcaf9a2> .
 
 <7204d5cb-d715-47b5-9d5f-8fbbfe618d69> a crm:E74_Group ;
@@ -5379,7 +5940,9 @@
 <77bbe5e8-1d5b-4298-b536-0e5d97a53bec> a crm:E74_Group ;
     crm:P107_has_current_or_former_member <16e56e67-63e1-4d28-a1fb-233af0d1a7a9>,
         <745aa98c-b89e-41f8-896b-f0b3ee0fe211> ;
-    crm:P1_is_identified_by <716b5884-0a72-4947-828a-f13389c35ac9>,
+    crm:P1_is_identified_by <0ce67e12-8e2b-498b-83da-431cc9f45021>,
+        <716b5884-0a72-4947-828a-f13389c35ac9>,
+        <a6472e98-406a-4923-9fdb-ac1fce186675>,
         <cedead0c-f288-44ab-86b1-0b6415d43f64> .
 
 <78189378-41aa-48c4-9efd-5aa2890fb7c9> a crm:E74_Group ;
@@ -5581,6 +6144,7 @@
         <bfefd104-c914-420a-8c6f-df59f14ee005>,
         <e07f4320-7ffa-494f-a51b-c806cbb832ee> ;
     crm:P1_is_identified_by <0acea8ff-03af-4136-b368-3b1892ea6317>,
+        <522b3239-3dd6-402b-b7e8-b9497d9e6b70>,
         <91b2fc1f-b0c3-45c2-9338-cb5de41a0537> .
 
 <85265cf1-ec15-4c6b-8cc1-dd2b5ca2da68> a crm:E74_Group ;
@@ -5594,8 +6158,11 @@
         <eb3ba1de-ef24-4b14-9bc9-3c5ad58fe2d8> .
 
 <85a0c4d6-ca14-400e-b5aa-909c66dfcfd8> a crm:E74_Group ;
-    crm:P1_is_identified_by <33a36a3b-e153-4667-a5f2-28a263c4d155>,
-        <65f827d9-e4bb-4c0d-be56-516540cb2ff4> .
+    crm:P1_is_identified_by <2f714c6d-752b-4368-86f1-e9cf94baf3b4>,
+        <33a36a3b-e153-4667-a5f2-28a263c4d155>,
+        <342b0175-9b28-4df7-a69b-36e779b2d170>,
+        <65f827d9-e4bb-4c0d-be56-516540cb2ff4>,
+        <aeb57f69-6d99-422d-9f1a-e2d49d0335e9> .
 
 <85ef01db-50af-454f-bcb6-2addc213748d> a crm:E74_Group ;
     crm:P107_has_current_or_former_member <b3adc1ab-f162-44be-ab9b-f01b335a3586> ;
@@ -5623,7 +6190,8 @@
         <f28bc594-77c6-4eca-87a0-5d5b825b3039> .
 
 <87feacf4-30ca-4045-8d03-59cf272857bd> a crm:E74_Group ;
-    crm:P1_is_identified_by <904745aa-6604-4eb1-a9f5-99b74254d979>,
+    crm:P1_is_identified_by <896ae2e1-618c-46b5-aee5-6a204b8b184f>,
+        <904745aa-6604-4eb1-a9f5-99b74254d979>,
         <cfdd48d3-7184-43d7-9eae-847fb7954aa9> .
 
 <8894eb2e-e1ec-4150-8b26-7fdf851c8328> a crm:E74_Group ;
@@ -5657,7 +6225,7 @@
         <9ac32020-bfc8-40b9-b904-94a56819315e> .
 
 <8b052328-2f3c-496f-8c90-d7c385d5af90> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <f6a108d1-8bff-4847-b5c0-c40a985de574> ;
+    she_ns:sheP_situation_géohistorique <f89e1bb4-4539-4408-a5c2-a826f2d4e420> ;
     crm:P1_is_identified_by <282e7d39-1305-4d5f-8d36-d1de5386c58a>,
         <676579b8-cb11-4907-9019-273f2c50a8e2> .
 
@@ -5688,7 +6256,8 @@
         <6b2c0069-4ddc-409e-a3ab-45512cf6ee1c> .
 
 <8ed31d5a-0434-4d7b-b8fe-1bd71d6ab11f> a crm:E74_Group ;
-    crm:P1_is_identified_by <5a9a35ed-0755-44ac-95c1-bb2435254c6a>,
+    crm:P1_is_identified_by <0cc62016-7685-4e4a-bb26-8ffc7cb20da1>,
+        <5a9a35ed-0755-44ac-95c1-bb2435254c6a>,
         <ae6930fd-ea89-40ea-8a16-ec006f465e82> .
 
 <8fa5ff12-6b3c-41d7-95af-5cadd05279fe> a crm:E74_Group ;
@@ -5738,7 +6307,8 @@
 
 <921f4ce0-6c3c-440b-bff0-bfb7eb67e18b> a crm:E74_Group ;
     crm:P107_has_current_or_former_member <60eb69cc-60b3-417c-bf76-38693a7b270f> ;
-    crm:P1_is_identified_by <de7131e4-5c5e-483f-b18d-c6d9381a7795>,
+    crm:P1_is_identified_by <55e77e2c-67b7-4735-a872-0277c197cd39>,
+        <de7131e4-5c5e-483f-b18d-c6d9381a7795>,
         <fb99d44e-b50d-450b-b0b0-d8b3d297842a> .
 
 <9268a820-49bb-4965-b6ee-d185ba066a9b> a crm:E74_Group ;
@@ -5757,7 +6327,8 @@
         <e78871d9-c557-4e76-b3a1-1bf30f1c9205>,
         <e976e4f7-d999-4b5e-ba38-d9372f2a7064> ;
     crm:P1_is_identified_by <0e0e1ad7-7314-4586-a80a-d53b56420d52>,
-        <94bded23-928f-423e-9cfe-bc75822671fe> .
+        <94bded23-928f-423e-9cfe-bc75822671fe>,
+        <9ab2e862-dfa0-4517-b1cb-2d6f1641402d> .
 
 <92f7a43b-a51f-4bf1-9957-c53a03ab394d> a crm:E74_Group ;
     crm:P1_is_identified_by <1df9eff8-5648-4e3f-9797-3d72f9ad8ded>,
@@ -5787,7 +6358,8 @@
         <94cf816e-a2d4-4390-b5fc-52e590f9611b>,
         <ade5b902-a6ed-4e34-8306-e9402dbc74a2> ;
     crm:P1_is_identified_by <1444c5aa-2caa-450b-b5cb-911b62d8eb8c>,
-        <ab3b26b7-40dd-48a0-a34c-e2515aebc9b3> .
+        <ab3b26b7-40dd-48a0-a34c-e2515aebc9b3>,
+        <ac719b74-a702-47ec-ae1e-1fd544761ff7> .
 
 <9625af90-d01b-41bd-bef5-43da8ca5895f> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <333ad0ab-39d4-4e10-a01e-99f758bfeee8> ;
@@ -5817,6 +6389,7 @@
 <97eb576a-4618-47dc-976e-707166ff0b6a> a crm:E74_Group ;
     crm:P107_has_current_or_former_member <73b82b76-ae82-43e9-9747-50b530ec3fd5> ;
     crm:P1_is_identified_by <a45d7bd7-2b43-49b2-b888-e2a6086e7f19>,
+        <aae3a5f0-7d1b-48c4-b2b8-371223c67b0e>,
         <cf66d95b-c3ef-4dc3-b901-6244d4c26abb> .
 
 <983522e3-2188-444d-9b08-e9254d5d3e76> a crm:E74_Group ;
@@ -5891,6 +6464,8 @@
     crm:P107_has_current_or_former_member <49225ac4-3e13-4530-b8b7-7f9f8f926db4>,
         <81384312-9b02-4934-a5ad-64487a1a4649> ;
     crm:P1_is_identified_by <206af21c-9df7-460b-b7f2-4b78c67b3d12>,
+        <22b07d67-3483-4f15-8c44-2b831e21668b>,
+        <77d8d5d9-af80-4aef-93e3-7714cd7657f8>,
         <d99a43aa-8646-4d4c-b53c-567dd9bad15e> .
 
 <a182ee91-3488-41aa-af07-368b23e4da71> a crm:E74_Group ;
@@ -5904,8 +6479,11 @@
         <e600d5ed-4d94-4fea-ab83-51137d5a538c> .
 
 <a1adf7d1-7094-4765-ad35-075cdd0b2e87> a crm:E74_Group ;
-    crm:P1_is_identified_by <1bfc452d-2bef-4d65-8edc-39ef5dfa285e>,
-        <d4624140-bb2c-4b3e-826d-30cb39ab16b9> .
+    crm:P1_is_identified_by <06032c76-8990-4a01-b54a-582bf8d49124>,
+        <1bfc452d-2bef-4d65-8edc-39ef5dfa285e>,
+        <c7c29464-66d0-49a5-953e-71cf43c2193b>,
+        <d4624140-bb2c-4b3e-826d-30cb39ab16b9>,
+        <e3147324-9a39-473c-89d3-9b3746bceaa6> .
 
 <a1b5bda0-41b6-4bc5-b61a-db95c64b6cb9> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <57019f68-ef34-465e-883c-3f27bc879039> ;
@@ -5956,7 +6534,8 @@
         <87feacf4-30ca-4045-8d03-59cf272857bd>,
         <9af4b86b-69f0-4c76-8ccc-3519073ffd07>,
         <e5828151-a682-473a-9db0-adc34fabd041> ;
-    crm:P1_is_identified_by <84a980ac-0323-4d82-9f69-3b50dc2e7213>,
+    crm:P1_is_identified_by <272e15ce-1ea1-4c59-b15d-a010fafde4b4>,
+        <84a980ac-0323-4d82-9f69-3b50dc2e7213>,
         <f662e7d1-b937-40fd-9513-40613113651b> .
 
 <a48bded8-bc80-41e1-916c-d76724613612> a crm:E74_Group ;
@@ -5992,11 +6571,12 @@
         <dca5642f-db9d-4396-a390-4b490166270b> .
 
 <a7f3e99d-5bb5-4ba2-ac8a-d22aea3e9c7d> a crm:E74_Group ;
-    crm:P1_is_identified_by <46a3c67c-9296-41c1-9066-b5eced5bb878>,
+    crm:P1_is_identified_by <36f2dca3-9264-4518-bd9f-36841772acaa>,
+        <46a3c67c-9296-41c1-9066-b5eced5bb878>,
         <9b0f0f76-6162-41a8-9a68-00e4a7a46960> .
 
 <a818c47c-3938-4ace-b83f-c4c5a1a92b0e> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <4ffd7241-9525-40f0-9188-a07c5f58abc0> ;
+    she_ns:sheP_situation_géohistorique <96ec5589-4d8a-4f9d-8bcf-9a962c061e0e> ;
     crm:P1_is_identified_by <511c8bac-e8fb-4fc1-abdb-97e02ed3b88c>,
         <6b136ff5-e056-470f-80de-d0428fc1f4ad> .
 
@@ -6146,7 +6726,8 @@
 <b5b1bb01-9ef8-4bb4-baea-cda579e44dfe> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <b28eaa33-52bf-480a-9f3a-8cb98d0060c7> ;
     crm:P1_is_identified_by <318b842c-fd2f-470a-a28c-f917c6d0734e>,
-        <422c70a0-29f2-4f06-b5c8-bffae2a340cd> .
+        <422c70a0-29f2-4f06-b5c8-bffae2a340cd>,
+        <54b213a6-273c-4cf5-aa9b-ec83e040952e> .
 
 <b5be2ca9-dd33-405c-b7a2-d66ab3b32558> a crm:E74_Group ;
     crm:P107_has_current_or_former_member <023abd19-74ed-47a3-a4f7-3078d24aa3f0>,
@@ -6207,6 +6788,7 @@
 
 <bb478699-492b-4b9e-acc7-171d7069780c> a crm:E74_Group ;
     crm:P1_is_identified_by <12da1790-c953-42e4-8b74-72f9e4196c00>,
+        <14dbd6b3-6690-4b7e-8f77-9c2978110d19>,
         <2f0a36f9-566d-4a3c-8270-386c2766367e> .
 
 <bc2f9429-3f64-4568-8a10-67e7555942c2> a crm:E74_Group ;
@@ -6229,7 +6811,7 @@
         <7a1d959f-bbe6-4511-9017-d47e8a2815d8> .
 
 <bd874e8c-ca5a-4a39-b152-0a9e7f722a11> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <aff3174e-06ec-40c9-b402-ba9c05703a09> ;
+    she_ns:sheP_situation_géohistorique <a79b400a-5a9b-4509-b12f-efc321f50d9a> ;
     crm:P1_is_identified_by <475451d7-154a-4df2-84a5-ffe7cb608592>,
         <d485a339-388a-4e1e-a04e-6dafebcfd9cf> .
 
@@ -6265,7 +6847,9 @@
         <e353c463-2cd0-4d52-9f09-f681a5098f83>,
         <f99d530f-4bab-4174-af87-f8491a488a57> ;
     crm:P1_is_identified_by <03d692db-49a9-496a-9fad-88787f8fdbd3>,
-        <4555c640-2f11-44ce-90f4-058642c6622e> .
+        <0ab46366-dc2b-4c86-9363-60586f8eddec>,
+        <4555c640-2f11-44ce-90f4-058642c6622e>,
+        <97fdf52e-9078-4667-929c-cd00f8ebee87> .
 
 <bfc1c4a9-c6e0-43c7-8637-1a8e2e787888> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <c84356b1-d2c5-4b2d-9b96-a5b6c1a6f28f> ;
@@ -6286,6 +6870,7 @@
     crm:P107_has_current_or_former_member <906f59b9-3fb2-4e9a-8dff-4c8e4a6c0d6f>,
         <f91e0cfa-bee1-4107-9197-99741df77c02> ;
     crm:P1_is_identified_by <4b5f9191-7c21-46cd-a803-65b7d3d2e770>,
+        <6ffcc2a0-e7b4-4c34-9cae-67a6a3615820>,
         <f68bc899-7881-4d9d-bf21-0a03775ad761> .
 
 <c07b7ac1-c05b-482e-ad01-ca8137653e94> a crm:E74_Group ;
@@ -6342,13 +6927,15 @@
         <d6e42a40-a6b2-4ced-96ac-22b281283510>,
         <e9c49aa6-1ad9-4591-8175-24753c8dc7c1> ;
     crm:P1_is_identified_by <76b6fc1a-4f7c-415c-8450-9a9214e03a8a>,
-        <78be0655-a7a1-4b31-8c73-603cfc6233c3> .
+        <78be0655-a7a1-4b31-8c73-603cfc6233c3>,
+        <c142774f-7826-4105-9cab-e2b9a1c6a9b1> .
 
 <c4d1d812-c5a1-432e-8b1f-7ba1b8ca6777> a crm:E74_Group ;
     crm:P107_has_current_or_former_member <2be24440-be89-4480-be75-28671dcd70cc>,
         <63221a09-4561-48dc-9923-c56844540207>,
         <911f3aa4-b87e-4345-a17c-2f8fb08213d5> ;
     crm:P1_is_identified_by <5a2a8dd9-4814-44c6-aa01-1cb697d986f9>,
+        <5e756989-3c3d-40a8-ba2c-0e5a3c6c429e>,
         <72854f07-1a40-4aed-a192-8c5dc2f89192> .
 
 <c5fe633f-8f15-4c3d-a4b5-abd2138cde49> a crm:E74_Group ;
@@ -6362,7 +6949,8 @@
         <defaf348-2927-4956-854c-b03202577c51>,
         <eeb89349-9e8b-4b5e-9ef0-abea8851ac4e> ;
     crm:P1_is_identified_by <3fe43297-4b83-4542-b207-c1dd12ae7037>,
-        <8f0c1210-f45b-420b-bdfa-f98eef8baec9> .
+        <8f0c1210-f45b-420b-bdfa-f98eef8baec9>,
+        <f83617af-46de-426e-bba6-deeaeff29135> .
 
 <c6bb9d13-9d07-4d84-bb1b-10d9ea579ee2> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <e3ae195a-e376-4a65-bd6c-7a70dac9b8b0> ;
@@ -6401,7 +6989,8 @@
 
 <c9678aea-163e-4f12-b3ef-1ab7efeece48> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <8dba3003-5541-4f8e-a729-51382388894e> ;
-    crm:P1_is_identified_by <a5dc6b02-07b4-4008-9238-5aa2a2f637f2>,
+    crm:P1_is_identified_by <36c8e6ef-2682-4c1e-baf3-3e380f9dfb43>,
+        <a5dc6b02-07b4-4008-9238-5aa2a2f637f2>,
         <c7636c0d-04ce-42c7-8d96-0b5f26a3ee12> .
 
 <c99367b5-f163-4fc0-b60d-0e73fa6dd242> a crm:E74_Group ;
@@ -6411,7 +7000,11 @@
         <b2876716-7f7e-4465-9584-091fe778f38d>,
         <f34133a9-89d4-4aa5-85b7-c07fa198e846> ;
     crm:P1_is_identified_by <37033050-ae50-410d-84e1-45178b7f60cb>,
-        <6d662d1d-8298-4e8c-8b1d-479636b4567f> .
+        <4e2f61e5-5e28-4f86-8416-480931eea5c3>,
+        <6d662d1d-8298-4e8c-8b1d-479636b4567f>,
+        <6e19a1b5-7cba-468b-b9af-0d1ca806d5b6>,
+        <db1cc401-bc67-4979-9102-ddb601bcd341>,
+        <f3156faf-5be5-42cb-8fae-fde14faf3434> .
 
 <cbfc343f-5650-465d-97eb-91da98d24416> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <c84356b1-d2c5-4b2d-9b96-a5b6c1a6f28f> ;
@@ -6453,7 +7046,7 @@
         <fe40740a-7cf1-4879-ab39-ce903d04d51b> .
 
 <d27638e5-71fe-4b2d-804d-064c3487f732> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <d9ced43b-a402-497f-abd5-0bb6ac4bdd37> ;
+    she_ns:sheP_situation_géohistorique <a3d72636-035a-499b-b508-d792300c5b98> ;
     crm:P1_is_identified_by <1ff29b40-9b3b-43b4-a4d5-70e578f3555a>,
         <2474af76-1ca3-473e-a6d6-0554eb4703b1> .
 
@@ -6509,7 +7102,7 @@
         <d1bffb90-2b5e-415b-95fa-471de1e2befe> .
 
 <d8974422-bc53-479b-a457-20228bd188ae> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <4ffd7241-9525-40f0-9188-a07c5f58abc0> ;
+    she_ns:sheP_situation_géohistorique <96ec5589-4d8a-4f9d-8bcf-9a962c061e0e> ;
     crm:P1_is_identified_by <cd32f1ab-cb69-4319-a249-6c44231edb4a>,
         <ebc4caae-425a-4f08-9a56-fcd84bf870bb> .
 
@@ -6527,7 +7120,8 @@
     crm:P107_has_current_or_former_member <698d8783-791e-432e-b9c9-6b5a99017d91>,
         <6befd168-b8cb-41b7-ab0e-2931bb5098f1>,
         <eedd1481-3b23-4426-8b62-c68377b9cd75> ;
-    crm:P1_is_identified_by <bc2dc46a-9602-4312-95d6-3c80aca8160b>,
+    crm:P1_is_identified_by <96b06989-16ec-4bce-9b4d-768efb6fef2f>,
+        <bc2dc46a-9602-4312-95d6-3c80aca8160b>,
         <fc296cb0-0a48-4008-9b89-c70c26a0dfc1> .
 
 <da144e70-070b-4c1c-87c5-12055da5c1d3> a crm:E74_Group ;
@@ -6538,7 +7132,8 @@
 <da6a3181-a48e-4dfe-973d-aa0a6d0915f7> a crm:E74_Group ;
     crm:P107_has_current_or_former_member <30aafd1d-0fa6-4eae-9859-4492c60f0c30> ;
     crm:P1_is_identified_by <95d92f2f-50c9-46d2-b9ad-d2531517820f>,
-        <f39ff912-045a-477f-b872-b87c9c4475cb> .
+        <f39ff912-045a-477f-b872-b87c9c4475cb>,
+        <fd3fa5b2-8ce7-44f1-b552-2b57626fa00c> .
 
 <dc884ed8-6208-4182-ada1-f6fac42d8d42> a crm:E74_Group ;
     crm:P1_is_identified_by <137ff55a-a31b-4dcd-8b6d-e61c52a844c0>,
@@ -6575,7 +7170,9 @@
         <4da8d8cd-b42c-44f8-9985-af5897939b37> .
 
 <e07f4320-7ffa-494f-a51b-c806cbb832ee> a crm:E74_Group ;
-    crm:P1_is_identified_by <4ad42d5d-4590-4434-a0e1-1b1b90d91c39>,
+    crm:P1_is_identified_by <00898608-10d0-4f60-b689-86ec26567870>,
+        <09e7d96c-7155-4fde-9d34-ad92b1c80711>,
+        <4ad42d5d-4590-4434-a0e1-1b1b90d91c39>,
         <ba58efa2-25ff-49a8-a64a-757443b7624f> .
 
 <e114c58c-2e70-414a-b200-18b6b380f1b0> a crm:E74_Group ;
@@ -6655,6 +7252,7 @@
 <e5828151-a682-473a-9db0-adc34fabd041> a crm:E74_Group ;
     she_ns:sheP_situation_géohistorique <c84356b1-d2c5-4b2d-9b96-a5b6c1a6f28f> ;
     crm:P1_is_identified_by <6adb9965-9519-4880-8909-b6afe78cdb2e>,
+        <93043cf9-6f44-4bb2-805e-a27aad3f4061>,
         <a3f5bcaa-37a8-4343-b5f6-5ddac5892b8c> .
 
 <e6a07142-06b1-4de6-ac0e-918888abf882> a crm:E74_Group ;
@@ -6718,7 +7316,7 @@
         <f19c65e7-6b76-40a9-867a-941a4e587bf6> .
 
 <e9c49aa6-1ad9-4591-8175-24753c8dc7c1> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <b9c7d9be-8fa4-4202-85fb-97568aafdae8> ;
+    she_ns:sheP_situation_géohistorique <d17bbdfc-ad56-4cdf-bf7e-f77dc2aca603> ;
     crm:P1_is_identified_by <22f614c1-9b8a-40be-bde0-9670c75d8ed6>,
         <f9184c23-1883-459a-a97e-940fde442141> .
 
@@ -6934,7 +7532,7 @@
         <891e7f7b-7243-46d3-aba1-c6f9af2236e2> .
 
 <f47238d2-fa87-4333-b404-eb5c416048c9> a crm:E74_Group ;
-    she_ns:sheP_situation_géohistorique <4ffd7241-9525-40f0-9188-a07c5f58abc0> ;
+    she_ns:sheP_situation_géohistorique <96ec5589-4d8a-4f9d-8bcf-9a962c061e0e> ;
     crm:P1_is_identified_by <377434e2-ba2c-40c7-9025-69d0e7fe9ab0>,
         <5ab1e3f7-e182-4fae-a920-992a87a39b69> .
 
@@ -6964,6 +7562,7 @@
 
 <f83e35b1-4cb3-4628-b0f0-57d2c7544e98> a crm:E74_Group ;
     crm:P1_is_identified_by <89d11fe1-bb5c-4bda-a6f2-df601436d907>,
+        <b01d299c-b919-40b0-be05-bc9fdd181f8e>,
         <daad190c-c042-477f-8aba-29150bb452ca> .
 
 <f91e0cfa-bee1-4107-9197-99741df77c02> a crm:E74_Group ;
@@ -6972,7 +7571,9 @@
         <5bf36506-259f-4e70-b945-bae8ddd95501>,
         <cbfc343f-5650-465d-97eb-91da98d24416> ;
     crm:P1_is_identified_by <32d3ef39-30fe-4970-8842-32f04d66e448>,
-        <53b1133d-0a8f-4af6-826a-bd7bbebcd332> .
+        <53b1133d-0a8f-4af6-826a-bd7bbebcd332>,
+        <659f757c-0e04-4ab3-8a0a-2b2c304dfbc5>,
+        <f00d58e4-b95b-41ab-8f59-d204cc4634d2> .
 
 <f99d530f-4bab-4174-af87-f8491a488a57> a crm:E74_Group ;
     crm:P1_is_identified_by <31a7120d-c5b5-421a-a05c-cdde6f36e82f>,

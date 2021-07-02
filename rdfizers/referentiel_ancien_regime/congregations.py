@@ -166,14 +166,15 @@ def explore(concept, depth):
     t(E41_uri, a, crm("E41_Appellation"))
     for prefLabel in ro_list(concept, SKOS.prefLabel):
         t(E41_uri, RDFS.label, prefLabel)
-
+        t(E41_uri, crm("P2_has_type"), SKOS.prefLabel)
     altLabels = ro_list(concept, SKOS.altLabel)
     if len(altLabels) > 0:
         for altLabel in altLabels:
             E41_alt_uri = she(cache_congregations.get_uuid(["congregations", identifier, "E41_alt", altLabel], True))
             t(E41_alt_uri, a, crm("E41_Appellation"))
             t(E41_alt_uri, RDFS.label, altLabel)
-            t(E41_uri, crm("P139_has_alternative_form"), E41_alt_uri)
+            t(E74_uri, crm("P1_is_identified_by"), E41_alt_uri)
+            t(E41_alt_uri, crm("P2_has_type"), SKOS.altLabel)
 
     # ALIGNEMENT AU REFERENTIEL DES LIEUX
     if identifier in id_congrégations_à_aligner:
