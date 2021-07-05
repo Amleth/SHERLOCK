@@ -26,19 +26,11 @@ access_token = r.json()['data']['access_token']
 refresh_token = r.json()['data']['refresh_token']
 file.close()
 
-d = {}
-
+# Récupération des données du fichier Excel
 d = [row for row in xlsx["Sheet1"]]
-for item in d:
-    for k in item.keys():
-        new_k = k.replace(" ", "_")
-        d[new_k] = d.pop(k)
 
-print(d)
-
+# Normalisation des clés et des valeurs datetime
 def json_serial(obj):
-    """JSON serializer for objects not serializable by default json code"""
-
     if isinstance(obj, (datetime, date)):
         return obj.isoformat()
     raise TypeError ("Type %s not serializable" % type(obj))
@@ -52,19 +44,12 @@ for item in d:
         item["Date de modification de la fiche"] = json_serial(item["Date de modification de la fiche"])
     except:
         pass
-    # for k in item.keys():
-    #     # print(k)
-    #     k = k.replace(" ", "_")
-    #     # print(k)
+    for k in list(item):
+        item[k.replace(" ", "_").replace("é", "e").lower()] = item.pop(k)
 
-
-# print(d)
-
-# with open(args.json, 'w', encoding="utf-8") as file:
-#     json.dump(file, d, ensure_ascii=False)
-#     data = json.load(file)
-#
-
+# Dump JSON
+with open(args.json, 'w', encoding="utf-8") as file:
+    json.dump(d, file, ensure_ascii=False)
 
 # Récupération et suppression des données de Directus
 r = requests.get(secret["url"] + '/items/incipit?limit=-1&access_token=' + access_token)
@@ -74,20 +59,22 @@ r = requests.delete(secret["url"] + '/items/incipit?limit=-1&access_token=' + ac
 print(r)
 # print(r.json()["data"])
 
-r = requests.post(secret["url"] + '/items/incipit?access_token=' + access_token, json=d[0])
-print(r)
 
-sys.exit()
+# Envoi du JSON dans Directus
+with open(args.json) as json_file:
+    data = json.load(json_file)
 
-# Insertion des données du fichier Excel dans Directus
-for i in range(0, len(data), 50):
-    if i == 0:
-        continue
-    print(i)
-    try:
-        r = requests.post(secret["url"] + '/items/incipit?access_token=' + access_token, json=data[i - 50:i])
-        r.raise_for_status()
-    except Exception as e:
-        print(e)
-    print(r)
-    time.sleep(2)
+    # pprint(data[0])
+
+    # Insertion des données du fichier Excel dans Directus
+    for i in range(0, len(data), 50):
+        if i == 0:
+            continue
+        print(i)
+        try:
+            r = requests.post(secret["url"] + '/items/incipit?access_token=' + access_token, json=data[i - 50:i])
+            r.raise_for_status()
+        except Exception as e:
+            print(e)
+        print(r)
+        time.sleep(2)
