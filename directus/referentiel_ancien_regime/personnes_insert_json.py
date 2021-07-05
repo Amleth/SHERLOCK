@@ -29,7 +29,7 @@ file.close()
 r = requests.get(secret["url"] + '/items/personnes?limit=-1&access_token=' + access_token)
 print(r)
 ids = [item["id"] for item in r.json()["data"]]
-r = requests.delete(secret["url"] + f'/items/personnes?limit=-1&access_token=' + access_token, json=ids)
+r = requests.delete(secret["url"] + '/items/personnes?limit=-1&access_token=' + access_token, json=ids)
 print(r)
 r = requests.get(secret["url"] + '/items/personnes?limit=-1&access_token=' + access_token)
 print(r)
@@ -39,7 +39,7 @@ with open(args.json_concepts) as json_file:
 	data_concepts = json.load(json_file)
 	# random.shuffle(sample)
 
-	# pprint(data_concepts)
+	pprint(len(data_concepts))
 
 	for i in range(0,len(data_concepts), 50):
 		if i == 0:
@@ -53,11 +53,11 @@ with open(args.json_concepts) as json_file:
 		print(r)
 		time.sleep(2)
 
-	r = requests.post(secret["url"] + '/items/personnes?access_token=' + access_token, json=data_concepts[5200:5244])
+	r = requests.post(secret["url"] + '/items/personnes?access_token=' + access_token, json=data_concepts[5200:5241])
 	print(r)
 
 
-sys.exit()
+# sys.exit()
 
 ########################################################################################
 ## INDEXATIONS
@@ -76,7 +76,7 @@ with open(args.json_index) as json_file:
 	data_indexation = json.load(json_file)
 	# random.shuffle(sample)
 
-	# pprint(data_concepts)
+	print(len(data_indexation))
 
 	for i in range(0, len(data_indexation), 50):
 		if i == 0:
@@ -89,3 +89,6 @@ with open(args.json_index) as json_file:
 			print(e)
 		print(r)
 		time.sleep(2)
+
+	r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=data_indexation[1400:1414])
+	print(r)
