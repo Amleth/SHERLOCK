@@ -46,6 +46,8 @@ for item in d:
         pass
     for k in list(item):
         item[k.replace(" ", "_").replace("é","e").replace("è","e").lower()] = item.pop(k)
+        if k == "_id":
+            item["id incipit"] = item.pop(k)
 
 # Dump JSON
 with open(args.json, 'w', encoding="utf-8") as file:
@@ -65,7 +67,6 @@ with open(args.json, encoding="utf-8") as json_file:
 
     print(len(data))
 
-    # Insertion des données du fichier Excel dans Directus
     for i in range(0, len(data), 50):
         if i == 0:
             continue
