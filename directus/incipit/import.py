@@ -63,6 +63,8 @@ print(r)
 with open(args.json, encoding="utf-8") as json_file:
     data = json.load(json_file)
 
+    print(len(data))
+
     # Insertion des données du fichier Excel dans Directus
     for i in range(0, len(data), 50):
         if i == 0:
@@ -75,3 +77,5 @@ with open(args.json, encoding="utf-8") as json_file:
             print(e)
         print(r)
         time.sleep(1)
+
+    r = requests.post(secret["url"] + '/items/incipit?access_token=' + access_token, json=data[4750:4800])
