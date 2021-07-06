@@ -45,7 +45,7 @@ for item in d:
     except:
         pass
     for k in list(item):
-        item[k.replace(" ", "_").replace("é", "e").lower()] = item.pop(k)
+        item[k.replace(" ", "_").replace("é","e").replace("è","e").lower()] = item.pop(k)
 
 # Dump JSON
 with open(args.json, 'w', encoding="utf-8") as file:
@@ -59,12 +59,44 @@ r = requests.delete(secret["url"] + '/items/incipit?limit=-1&access_token=' + ac
 print(r)
 # print(r.json()["data"])
 
+# r = requests.post(secret["url"] + '/items/incipit?access_token=' + access_token, json={'_id': None,
+#  'acte|entree|scene': 'Acte 3',
+#  'auteur_de_la_fiche': 'Pascal Denécheau',
+#  'chiffrage_de_mesure': '2',
+#  'commentaire_sur_la_variante': None,
+#  'compositeur': 'Rameau',
+#  'cote_de_la_source': 'Vm2.331',
+#  'date_de_creation': 1754,
+#  'date_de_creation_de_la_fiche': None,
+#  'date_de_modification_de_la_fiche': '2008-06-20T16:50:43',
+#  'incipit_code': '1 1 1 1 1 176 5432 5',
+#  'incipit_litteraire': None,
+#  'localisation_dans_la_source': 'p. 84',
+#  'notes_et_commentaires': None,
+#  'numero_de_la_fiche': 201,
+#  'n°_catalogue': 'RCT 32B/3.18',
+#  'personnage_chantant': None,
+#  'renvoi_1': None,
+#  'renvoi_2': None,
+#  'renvoi_3': None,
+#  "titre_de_l'air": 'Gavotte 1',
+#  "titre_de_l'oeuvre": 'Castor et Pollux',
+#  "tonalite_de_l'original": 'Mi Majeur',
+#  "variante_de_l'incipit": None})
 
 # Envoi du JSON dans Directus
-with open(args.json) as json_file:
+with open(args.json, encoding="utf-8") as json_file:
     data = json.load(json_file)
 
-    # pprint(data[0])
+    # for i in data:
+    #     try:
+    #         r = requests.post(secret["url"] + '/items/incipit?access_token=' + access_token, json=i)
+    #         r.raise_for_status()
+    #     except Exception as e:
+    #         pprint(i)
+    #         print(e)
+    #     print(r)
+
 
     # Insertion des données du fichier Excel dans Directus
     for i in range(0, len(data), 50):
@@ -77,4 +109,4 @@ with open(args.json) as json_file:
         except Exception as e:
             print(e)
         print(r)
-        time.sleep(2)
+        time.sleep(1)
