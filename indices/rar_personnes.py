@@ -109,7 +109,6 @@ for b in r.json()["results"]["bindings"]:
     if not entity in entity_to_E32:
         entity_to_E32[entity] = E32
 
-
 # Nombre de personnes dans le référentiel
 r = requests.get(args.dburi,  params={"query": """
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
@@ -147,26 +146,17 @@ for E32_Auth, nombre_E55 in E32_entity_nbr.items():
     }
 
 # le label normalisé de l'entité
-for label_norm, iris in norm_label_to_entities_registry.items():
+for label_norm, iri in norm_label_to_entities_registry.items():
     index["concepts"][label_norm] = {}
-    index["concepts"][label_norm]["iris"] = {}
+    index["concepts"][label_norm][iri] = {}
 
-    for iri in iris:
-        # if iri in norm_label_to_entities_registry.items():
-        #     print(iri)
-        #         print(entity)
-                # if norm_label in norm_label_to_label_registry:
-                #     print(norm_label)
-                    # index["concepts"][label_norm]["label"] = label
+    if label_norm in norm_label_to_label_registry:
+        index["concepts"][label_norm]["label"] = norm_label_to_label_registry[label_norm]
 
-        index["concepts"][label_norm]["iris"][iri] = {}
-
-        # E32 Authority Document
-        for entity, E32 in entity_to_E32.items():
-            if entity == iri:
-                index["concepts"][label_norm]["iris"][iri]["E32"] = E32
-
-print(norm_label_to_entities_registry)
+    # E32 Authority Document
+    for entity, E32 in entity_to_E32.items():
+        if entity == iri:
+            index["concepts"][label_norm][iri]["E32"] = E32
 
 with open(args.json, 'w', encoding='utf8') as f:
     json.dump(index, f, ensure_ascii=False)
