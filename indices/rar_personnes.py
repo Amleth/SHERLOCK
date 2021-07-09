@@ -53,6 +53,7 @@ norm_label_to_label_registry = {}
 entity_to_label_registry = {}
 entity_to_E32 = {}
 E32_entity_nbr = {}
+preflabels = []
 
 # E21, P1 et E32
 r = requests.get(args.dburi,  params={"query": """
@@ -162,5 +163,17 @@ for label_norm, iri in norm_label_to_entities_registry.items():
         if entity == iri:
             index["concepts"][label_norm][iri]["E32"] = E32
 
+
+# Recherche de doublons dans le thésaurus
+duplicates = []
+
+for k, v in entity_to_label_registry.items():
+    for personne in v:
+        duplicates.append(personne)
+
+pprint([x for x in duplicates if duplicates.count(x) > 1])
+
+
+# Ecriture du JSON
 with open(args.json, 'w', encoding='utf8') as f:
     json.dump(index, f, ensure_ascii=False)
