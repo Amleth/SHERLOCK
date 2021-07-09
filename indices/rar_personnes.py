@@ -90,15 +90,19 @@ for b in r.json()["results"]["bindings"]:
     if not altlabel_norm in norm_label_to_entities_registry:
         norm_label_to_entities_registry[altlabel_norm] = entity
 
-    if not preflabel in entity_to_label_registry:
-        if not entity in entity_to_label_registry:
-            entity_to_label_registry[entity] = []
-    entity_to_label_registry[entity].append(preflabel)
+    if not entity in entity_to_label_registry:
+        entity_to_label_registry[entity] = []
 
-    if not altlabel in entity_to_label_registry:
-        if not entity in entity_to_label_registry:
-            entity_to_label_registry[entity] = []
-    entity_to_label_registry[entity].append(altlabel)
+    if not preflabel in entity_to_label_registry[entity]:
+        entity_to_label_registry[entity].append(preflabel)
+
+    if not altlabel in entity_to_label_registry[entity]:
+        entity_to_label_registry[entity].append(altlabel)
+
+    # Calcul du nombre de preflabel/altlabel
+    # for k, v in entity_to_label_registry.items():
+    #     if len(v) >= 13:
+    #         print(k, len(v))
 
     if not preflabel_norm in norm_label_to_label_registry:
         norm_label_to_label_registry[preflabel_norm] = preflabel
