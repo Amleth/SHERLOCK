@@ -41,7 +41,7 @@ with open(args.json_concepts) as json_file:
 
 	pprint(len(data_concepts))
 
-	for i in range(0,len(data_concepts), 50):
+	for i in range(0,5200, 50):
 		if i == 0:
 			continue
 		print(i)
@@ -53,8 +53,19 @@ with open(args.json_concepts) as json_file:
 		print(r)
 		time.sleep(2)
 
-	r = requests.post(secret["url"] + '/items/personnes?access_token=' + access_token, json=data_concepts[5200:5241])
-	print(r)
+	# r = requests.post(secret["url"] + '/items/personnes?access_token=' + access_token, json=data_concepts[5200:5241])
+	# print(r)
+
+	for i in data_concepts[5200:5241]:
+		print(i)
+		try:
+			r = requests.post(secret["url"] + '/items/personnes?access_token=' + access_token, json=i)
+			r.raise_for_status()
+		except Exception as e:
+			print(e)
+			print(i)
+		print(r)
+		time.sleep(2)
 
 
 # sys.exit()

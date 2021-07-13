@@ -7,6 +7,7 @@ import argparse
 from sherlockcachemanagement import Cache
 from pprint import pprint
 import time
+import sys
 
 # Arguments
 parser = argparse.ArgumentParser()
@@ -55,10 +56,9 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 	if len(definitions) >= 1:
 		dict_infos_concept["definition"] = definitions[0].value
 	else:
-		dict_infos_concept["definition"] = None
+		pass
 
 	# notes/indexation
-	notes = []
 	for p in [SKOS.editorialNote, SKOS.historyNote, SKOS.note, SKOS.scopeNote]:
 		notes_opentheso = list(input_graph.objects(opentheso_personne_uri, p))
 		if len(notes_opentheso) >= 1:
@@ -73,8 +73,13 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 				if balise in note:
 					note = note.replace(balise, "")
 
+			# Insertion d'un lien URL à la place des références aux articles Obvil
+			#TODO Revoir la route de l'URL
+			if "cf. MG-" in note:
+				note = note.replace("cf. ", "cf. http://data-iremus.huma-num.fr/")
+
 			# récupération des indexations
-			if "##" in note:
+			elif "##" in note:
 				indexations = note.split("##")
 				for indexation in indexations:
 					if "MG" in indexation:
@@ -84,30 +89,37 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 							dict_indexations[indexation] = []
 						dict_indexations[indexation].append(uuid)
 
-			else:
-				notes.append(note)
+			elif "IReMus :" in note or "IReMus:" in note:
+				dict_infos_concept["ref_iremus"] = note
 
-	if len(notes) >= 1:
-		dict_infos_concept["note_1"] = notes[0]
-		if len(notes) >= 2:
-			dict_infos_concept["note_2"] = notes[1]
+			elif "Hortus :" in note or "Hortus:" in note:
+				dict_infos_concept["ref_hortus"] = note
+
+			else:
+				dict_infos_concept["note_historique"] = note
+
 		else:
-			dict_infos_concept["note_2"] = None
-	else:
-		dict_infos_concept["note_1"] = None
-		dict_infos_concept["note_2"] = None
+			pass
 
 	# RECUPERATION DES ALTLABELS
-	altlabels = list(input_graph.objects(opentheso_personne_uri, SKOS.altLabel))
-	if altlabels != None:
-		dict_infos_concept["personnes_altlabels"] = [
-			{
-				"label": altlabel.value,
-				"personne": uuid
-			}
-			for altlabel in altlabels]
 
-	# time.sleep(0.5)
+	altlabels = list(input_graph.objects(opentheso_personne_uri, SKOS.altLabel))
+	if len(altlabels) >= 1:
+		# Méthode supprimée
+		# 	dict_infos_concept["personnes_altlabels"] = [
+		# 		{
+		# 			"label": altlabel.value,
+		# 			"personne": uuid
+		# 		}
+		# 		for altlabel in altlabels]
+
+		n = 1
+		clé = "alt_label_" + str(n)
+		for altlabel in altlabels:
+			while clé in dict_infos_concept.keys():
+				n += 1
+				clé = "alt_label_"+str(n)
+			dict_infos_concept[clé] = altlabel
 
 	data_concepts.append(dict_infos_concept)
 
