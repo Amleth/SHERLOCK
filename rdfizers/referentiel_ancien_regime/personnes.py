@@ -148,8 +148,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                print("l'article", clef_mercure_article, "ou la personne", identifier, "n'existe pas")
-                                pass
+                                print(identifier, ": l'article", clef_mercure_article, "n'existe pas")
             elif "##" in v:
                 v = v.split("##")
                 for v in v:
@@ -173,8 +172,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                 t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                             except:
-                                print("l'article", clef_mercure_article, "ou la personne", identifier, "n'existe pas")
-                                pass
+                                print(identifier, ": l'article", clef_mercure_article, "n'existe pas")
             else:
                 # S'il s'agit d'une note à propos du E21
                 t(E21_uri, crm("P3_has_note"), l(v))

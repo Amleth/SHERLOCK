@@ -166,8 +166,7 @@ def explore(id, depth):
                                     t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                                 except:
-                                    print("l'article", clef_mercure_article, "ou le lieu", identifier, "n'existe pas")
-                                    pass
+                                    print(identifier, ": l'article", clef_mercure_article, "n'existe pas")
 
                 elif "##" in v:
                     v = v.split("##")
@@ -191,8 +190,7 @@ def explore(id, depth):
                                     t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
                                 except:
-                                    print("l'article", clef_mercure_article, "ou le lieu", identifier, "n'existe pas")
-                                    pass
+                                    print(identifier, ": l'article", clef_mercure_article, "n'existe pas")
 
                 else:
                     note_sha1_object = hashlib.sha1(v.encode())
