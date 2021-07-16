@@ -1,0 +1,19 @@
+Pense-bêtes :
+
+Many-to-Any - exemple de requête dans l'indexation de personnes à des articles : 
+
+query {
+  sources_articles(limit:2000) {
+    id
+    indices {
+      item {
+        ... on personnes{
+          id
+        }
+        ... on congregations_religieuses{
+          id
+        }
+      }     
+    } 
+  }
+}

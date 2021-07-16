@@ -21,17 +21,13 @@ cache = Cache(args.cache)
 output_graph = Graph()
 
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
-crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
-lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
 sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 
 output_graph.bind("crm", crm_ns)
-output_graph.bind("crmdig", crmdig_ns)
 output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("skos", SKOS)
-output_graph.bind("lrmoo", lrmoo_ns)
 output_graph.bind("sdt", sdt_ns)
 output_graph.bind("she_ns", sherlock_ns)
 
