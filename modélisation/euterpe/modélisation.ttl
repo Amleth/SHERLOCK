@@ -1,0 +1,55 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<6701782f-e5a8-4e60-a541-2a2db08a8d07> a crm:E22_Human-Made_Object ;
+# nid
+crm:P1_is_identified_by "159310" ;
+# TODO _diteur_target_id
+# titre
+crm:P102_has_title <ad6b755d-b5df-44f0-bb0e-286f097c099f> ;
+# reference_iremus 
+crm:P1_is_identified_by "" ;
+# TODO image_fid
+# TODO domaine_tid
+# n_inventaire
+crm:P1_is_identified_by "" ;
+crm:P65_shows_visual_item <cea7eded-75d0-4724-b13e-7d1c233754c9> ;
+# TODO lieu_de_conservation_tid
+# precision_oeuvre (E13)
+crm:P3_has_note "frontispice du premier livre des 'Pièces pour 
+clavessin' de Jacques Champion de Chambonnières" ;
+# TODO cote2
+# TODO inscription
+.
+
+<ad6b755d-b5df-44f0-bb0e-286f097c099f> a crm:E35_Title ;
+rdfs:label "anges et instruments de musique" ;
+.
+
+<fc1ecb6b-bb8b-4368-83f2-3e1e599cdc0f> a crm:E12_Production ;
+crm:P108_has_produced <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;
+# technique
+crm:P9_consists_of #<uuid de la technique> ;
+# inventeur_target_id
+crm:P14_carried_out_by #<uuid de l'inventeur> ;
+# graveur_target_id
+crm:P14_carried_out_by #<uuid du graveur> ;
+# date_oeuvre
+crm:P82_at_some_time_within "1670"^^xsd:datetime ;
+.
+
+<cea7eded-75d0-4724-b13e-7d1c233754c9> a crm:E36_Visual_Item ;
+# instrument_de_musique_tid (E13)
+crm:P138_represents #<uuid de l'instrument> ;
+# précision_instrument (P3 sur l'E13 instrument_de_musique_tid)
+
+# musique_ecrite_tid (E13)
+crm:P138_represents #<uuid de la musique écrite> ;
+# oeuvre_en_rapport (E13)
+rdfs:seeAlso #<uuid de l'oeuvre> ;
+# theme_tid (E13)
+crm:P129_is_about #<uuid du thème> ;
+.
