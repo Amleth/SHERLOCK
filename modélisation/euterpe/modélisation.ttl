@@ -47,6 +47,19 @@
     # TODO chant
 .
 
+# bibliographie
+<2eff1433-3848-4ef0-b4e1-724076098a66> a crm:E31_Document ;
+    rdfs:label "GETREAU Florence et HERLIN Denis, 1997, p. 96-97, fig. 6" ;
+    crm:P70_documents <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;  
+.
+
+# dimensions
+<8a494870-0ca3-4a11-aa8b-e04fb74ebf65> a crm:E54_Dimension ;
+    crm:p2_has_type #créer types "hauteur","largeur", "diamètre", "profondeur" ;
+    crm:p90_has_value "30" ;
+    crm:p91_has_unit #créer type unité ;
+.
+
 # LA CREATION DE L'OEUVRE
 <fc1ecb6b-bb8b-4368-83f2-3e1e599cdc0f> a crm:E12_Production ;
     crm:P108_has_produced <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;
@@ -97,16 +110,4 @@
     # genre
     crm:P2_has_type #<uuid du genre> ;
     # TODO inscription
-.
-
-# bibliographie
-<2eff1433-3848-4ef0-b4e1-724076098a66> a crm:E31_Document ;
-    rdfs:label "GETREAU Florence et HERLIN Denis, 1997, p. 96-97, fig. 6" ;
-    crm:P70_documents <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;  
-.
-
-<8a494870-0ca3-4a11-aa8b-e04fb74ebf65> a crm:E54_Dimension ;
-    crm:p2_has_type #créer types "hauteur","largeur", "diamètre", "profondeur" ;
-    crm:p90_has_value "30" ;
-    crm:p91_has_unit #créer type unité ;
 .
